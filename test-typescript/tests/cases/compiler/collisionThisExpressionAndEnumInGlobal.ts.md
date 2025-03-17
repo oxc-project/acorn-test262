@@ -25,8 +25,10 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "_thisVal1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -39,8 +41,10 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "_thisVal2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -52,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "_this",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -71,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -86,7 +92,9 @@ __ESTREE_TEST__:PASS:
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

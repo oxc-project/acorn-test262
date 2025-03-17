@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -77,7 +79,8 @@ __ESTREE_TEST__:PASS:
                 "end": 21,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -86,10 +89,12 @@ __ESTREE_TEST__:PASS:
                 "end": 28,
                 "decorators": [],
                 "name": "charAt",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -138,7 +144,8 @@ __ESTREE_TEST__:PASS:
                 "end": 42,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -147,10 +154,12 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "hasOwnProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -173,7 +182,8 @@ __ESTREE_TEST__:PASS:
             "end": 75,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -199,7 +209,8 @@ __ESTREE_TEST__:PASS:
                 "end": 79,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -210,7 +221,8 @@ __ESTREE_TEST__:PASS:
                 "value": "charAt"
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -233,7 +245,8 @@ __ESTREE_TEST__:PASS:
             "end": 99,
             "decorators": [],
             "name": "e",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -259,7 +272,8 @@ __ESTREE_TEST__:PASS:
                 "end": 103,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -270,7 +284,8 @@ __ESTREE_TEST__:PASS:
                 "value": "hasOwnProperty"
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

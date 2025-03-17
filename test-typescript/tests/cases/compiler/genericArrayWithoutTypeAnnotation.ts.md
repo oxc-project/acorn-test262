@@ -23,7 +23,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "IFoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -35,6 +36,8 @@ __ESTREE_TEST__:PASS:
             "start": 15,
             "end": 16,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -42,7 +45,8 @@ __ESTREE_TEST__:PASS:
               "end": 16,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "getBar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -113,19 +118,23 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 56,
                         "end": 60,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 56,
                           "end": 60,
                           "decorators": [],
                           "name": "IFoo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -138,10 +147,13 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 89,
                     "decorators": [],
                     "name": "A",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
         "end": 68,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -86,7 +88,8 @@ __ESTREE_TEST__:PASS:
             "end": 108,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
             "end": 108,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -120,8 +124,10 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "B",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -133,7 +139,8 @@ __ESTREE_TEST__:PASS:
         "end": 118,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -155,7 +162,8 @@ __ESTREE_TEST__:PASS:
             "end": 140,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -164,7 +172,8 @@ __ESTREE_TEST__:PASS:
             "end": 140,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

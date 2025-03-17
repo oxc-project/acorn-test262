@@ -69,7 +69,8 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -83,7 +84,8 @@ __ESTREE_TEST__:PASS:
             "end": 105,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -109,16 +111,22 @@ __ESTREE_TEST__:PASS:
                   "end": 112,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
             "id": null,
             "implements": [],
-            "superClass": null
-          }
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

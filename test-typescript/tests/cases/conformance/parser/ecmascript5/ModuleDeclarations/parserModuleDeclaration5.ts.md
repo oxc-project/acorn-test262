@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
                     "end": 55,
                     "decorators": [],
                     "name": "M3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "module"
                 }
@@ -55,7 +56,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "M2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "M1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

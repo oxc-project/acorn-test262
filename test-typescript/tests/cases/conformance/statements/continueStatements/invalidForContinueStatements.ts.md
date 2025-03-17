@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 103,
             "decorators": [],
             "name": "TWO",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "init": null,
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
         "end": 81,
         "decorators": [],
         "name": "ONE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
                     "end": 163,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ArrowFunctionExpression",
@@ -96,7 +99,8 @@ __ESTREE_TEST__:PASS:
                             "end": 194,
                             "decorators": [],
                             "name": "TWO",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -104,7 +108,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ],
@@ -123,7 +129,8 @@ __ESTREE_TEST__:PASS:
         "end": 142,
         "decorators": [],
         "name": "TWO",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -155,7 +162,8 @@ __ESTREE_TEST__:PASS:
                     "end": 232,
                     "decorators": [],
                     "name": "fn",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "FunctionExpression",
@@ -177,7 +185,8 @@ __ESTREE_TEST__:PASS:
                             "end": 271,
                             "decorators": [],
                             "name": "THREE",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -186,7 +195,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ],
@@ -205,7 +216,8 @@ __ESTREE_TEST__:PASS:
         "end": 210,
         "decorators": [],
         "name": "THREE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -227,7 +239,8 @@ __ESTREE_TEST__:PASS:
               "end": 329,
               "decorators": [],
               "name": "FIVE",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -254,7 +267,8 @@ __ESTREE_TEST__:PASS:
               "end": 339,
               "decorators": [],
               "name": "FIVE",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -283,7 +297,8 @@ __ESTREE_TEST__:PASS:
               "end": 403,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -303,7 +318,8 @@ __ESTREE_TEST__:PASS:
         "end": 396,
         "decorators": [],
         "name": "NINE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -325,7 +341,8 @@ __ESTREE_TEST__:PASS:
               "end": 438,
               "decorators": [],
               "name": "NINE",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]

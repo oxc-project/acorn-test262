@@ -41,7 +41,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -55,7 +57,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -81,11 +84,13 @@ __ESTREE_TEST__:PASS:
                   "start": 25,
                   "end": 31
                 }
-              }
+              },
+              "typeParameters": null
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -108,7 +113,8 @@ __ESTREE_TEST__:PASS:
             "end": 82,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -121,9 +127,11 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "f1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -146,7 +154,8 @@ __ESTREE_TEST__:PASS:
             "end": 96,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -159,8 +168,10 @@ __ESTREE_TEST__:PASS:
               "end": 104,
               "decorators": [],
               "name": "x",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -183,7 +194,8 @@ __ESTREE_TEST__:PASS:
             "end": 113,
             "decorators": [],
             "name": "z",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -201,10 +213,13 @@ __ESTREE_TEST__:PASS:
                 "end": 123,
                 "decorators": [],
                 "name": "f1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
-            }
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeArguments": null
           }
         }
       ],

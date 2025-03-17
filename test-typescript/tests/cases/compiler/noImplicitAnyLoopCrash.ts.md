@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -37,7 +38,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -60,7 +63,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -81,6 +85,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 45,
             "end": 64,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 45,
@@ -92,7 +97,8 @@ __ESTREE_TEST__:PASS:
                 "end": 48,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "UnaryExpression",
@@ -113,7 +119,8 @@ __ESTREE_TEST__:PASS:
                         "end": 62,
                         "decorators": [],
                         "name": "bar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -123,9 +130,11 @@ __ESTREE_TEST__:PASS:
                     "end": 55,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 },
                 "operator": "~",
                 "prefix": true

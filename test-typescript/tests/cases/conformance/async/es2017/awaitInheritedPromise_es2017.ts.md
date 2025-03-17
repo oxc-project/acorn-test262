@@ -27,7 +27,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "Promise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -49,8 +50,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -77,13 +80,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 54,
                 "end": 55,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 54,
                   "end": 55,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -108,6 +113,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 82,
             "end": 90,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 82,
@@ -118,7 +124,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -133,9 +140,12 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

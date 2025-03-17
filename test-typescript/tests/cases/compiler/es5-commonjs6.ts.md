@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 37,
             "decorators": [],
             "name": "__esModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",

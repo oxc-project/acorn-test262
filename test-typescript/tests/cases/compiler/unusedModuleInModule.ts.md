@@ -32,7 +32,8 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

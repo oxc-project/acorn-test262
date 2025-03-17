@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "i",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 21,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                     "end": 30,
                     "decorators": [],
                     "name": "iterator",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "init",
@@ -84,7 +87,8 @@ __ESTREE_TEST__:PASS:
                     "end": 47,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -93,7 +97,8 @@ __ESTREE_TEST__:PASS:
                     "end": 59,
                     "decorators": [],
                     "name": "toStringTag",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "init",
@@ -128,7 +133,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -147,7 +154,8 @@ __ESTREE_TEST__:PASS:
                     "end": 93,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -156,7 +164,8 @@ __ESTREE_TEST__:PASS:
                     "end": 105,
                     "decorators": [],
                     "name": "toPrimitive",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "set",
@@ -197,7 +206,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -223,7 +234,8 @@ __ESTREE_TEST__:PASS:
             "end": 132,
             "decorators": [],
             "name": "it",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -236,7 +248,8 @@ __ESTREE_TEST__:PASS:
               "end": 136,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -250,7 +263,8 @@ __ESTREE_TEST__:PASS:
                 "end": 143,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -259,7 +273,8 @@ __ESTREE_TEST__:PASS:
                 "end": 152,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -284,7 +299,8 @@ __ESTREE_TEST__:PASS:
             "end": 162,
             "decorators": [],
             "name": "str",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -302,7 +318,8 @@ __ESTREE_TEST__:PASS:
                 "end": 166,
                 "decorators": [],
                 "name": "i",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -316,7 +333,8 @@ __ESTREE_TEST__:PASS:
                   "end": 173,
                   "decorators": [],
                   "name": "Symbol",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -325,11 +343,13 @@ __ESTREE_TEST__:PASS:
                   "end": 185,
                   "decorators": [],
                   "name": "toStringTag",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -340,6 +360,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 190,
       "end": 220,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 190,
@@ -356,7 +377,8 @@ __ESTREE_TEST__:PASS:
             "end": 191,
             "decorators": [],
             "name": "i",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -370,7 +392,8 @@ __ESTREE_TEST__:PASS:
               "end": 198,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -379,7 +402,8 @@ __ESTREE_TEST__:PASS:
               "end": 210,
               "decorators": [],
               "name": "toPrimitive",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         },

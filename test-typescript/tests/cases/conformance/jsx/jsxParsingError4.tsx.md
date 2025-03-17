@@ -61,6 +61,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 91,
                   "end": 107,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -104,8 +105,10 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -117,7 +120,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -137,7 +141,8 @@ __ESTREE_TEST__:PASS:
             "end": 124,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -166,7 +171,8 @@ __ESTREE_TEST__:PASS:
                 "end": 142,
                 "name": "public-foo"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -190,7 +196,8 @@ __ESTREE_TEST__:PASS:
             "end": 168,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -219,7 +226,8 @@ __ESTREE_TEST__:PASS:
                 "end": 182,
                 "name": "public"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

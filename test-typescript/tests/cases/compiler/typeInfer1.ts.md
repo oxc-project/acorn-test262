@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 29,
             "end": 50,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 34,
               "decorators": [],
               "name": "Write",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,12 +62,14 @@ __ESTREE_TEST__:PASS:
                 "end": 49
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 55,
             "end": 80,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "WriteLine",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -108,7 +113,8 @@ __ESTREE_TEST__:PASS:
                 "end": 79
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -120,8 +126,10 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "ITextWriter2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -148,13 +156,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 91,
                 "end": 103,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 91,
                   "end": 103,
                   "decorators": [],
                   "name": "ITextWriter2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -175,7 +185,8 @@ __ESTREE_TEST__:PASS:
                   "end": 117,
                   "decorators": [],
                   "name": "Write",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -225,7 +236,8 @@ __ESTREE_TEST__:PASS:
                       "start": 139,
                       "end": 143
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               },
               {
@@ -239,7 +251,8 @@ __ESTREE_TEST__:PASS:
                   "end": 161,
                   "decorators": [],
                   "name": "WriteLine",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -289,7 +302,8 @@ __ESTREE_TEST__:PASS:
                       "start": 182,
                       "end": 186
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             ]
@@ -324,13 +338,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 207,
                 "end": 219,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 207,
                   "end": 219,
                   "decorators": [],
                   "name": "ITextWriter2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -351,7 +367,8 @@ __ESTREE_TEST__:PASS:
                   "end": 231,
                   "decorators": [],
                   "name": "Moo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -385,7 +402,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

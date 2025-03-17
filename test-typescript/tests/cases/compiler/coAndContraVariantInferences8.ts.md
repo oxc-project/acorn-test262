@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
                         "start": 82,
                         "end": 86
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSFunctionType",
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
                         "start": 106,
                         "end": 110
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -164,6 +166,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 162,
       "end": 179,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 162,
@@ -182,7 +185,8 @@ __ESTREE_TEST__:PASS:
             "end": 177,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -196,7 +200,8 @@ __ESTREE_TEST__:PASS:
             "end": 164,
             "decorators": [],
             "name": "fn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -205,16 +210,19 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "call",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 180,
       "end": 197,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 180,
@@ -233,7 +241,8 @@ __ESTREE_TEST__:PASS:
             "end": 195,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -247,7 +256,8 @@ __ESTREE_TEST__:PASS:
             "end": 182,
             "decorators": [],
             "name": "fn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -256,10 +266,12 @@ __ESTREE_TEST__:PASS:
             "end": 187,
             "decorators": [],
             "name": "call",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {

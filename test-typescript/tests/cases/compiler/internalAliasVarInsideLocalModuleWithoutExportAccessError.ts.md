@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
                       "end": 34,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Literal",
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -100,7 +102,8 @@ __ESTREE_TEST__:PASS:
                 "end": 74,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -113,7 +116,8 @@ __ESTREE_TEST__:PASS:
                   "end": 78,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -121,7 +125,8 @@ __ESTREE_TEST__:PASS:
                   "end": 80,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -146,7 +151,8 @@ __ESTREE_TEST__:PASS:
                       "end": 101,
                       "decorators": [],
                       "name": "bVal",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Identifier",
@@ -154,7 +160,8 @@ __ESTREE_TEST__:PASS:
                       "end": 105,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ],
@@ -175,7 +182,8 @@ __ESTREE_TEST__:PASS:
           "end": 59,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -204,7 +212,8 @@ __ESTREE_TEST__:PASS:
               "end": 122,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "MemberExpression",
@@ -217,7 +226,8 @@ __ESTREE_TEST__:PASS:
                 "end": 126,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -226,7 +236,8 @@ __ESTREE_TEST__:PASS:
                 "end": 128,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }

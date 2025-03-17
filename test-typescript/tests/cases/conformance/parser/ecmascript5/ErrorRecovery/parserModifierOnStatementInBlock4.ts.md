@@ -35,9 +35,12 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           "exportKind": "value",
           "source": null,

@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 34,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "address",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -36,7 +38,8 @@ __ESTREE_TEST__:PASS:
             "start": 27,
             "end": 33
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -59,6 +62,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 41,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "nullthrows",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -99,7 +104,8 @@ __ESTREE_TEST__:PASS:
           "start": 37,
           "end": 40
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -129,7 +135,8 @@ __ESTREE_TEST__:PASS:
                   "end": 106,
                   "decorators": [],
                   "name": "default",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "exportKind": "value",
                 "local": {
@@ -138,7 +145,8 @@ __ESTREE_TEST__:PASS:
                   "end": 95,
                   "decorators": [],
                   "name": "nullthrows",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -153,7 +161,8 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "nullthrows",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
         "end": 130,
         "decorators": [],
         "name": "nullthrows",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -206,7 +216,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "ip",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -235,7 +246,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "nullthrows",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -280,7 +292,8 @@ __ESTREE_TEST__:PASS:
                         "end": 220,
                         "decorators": [],
                         "name": "ip",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -289,10 +302,12 @@ __ESTREE_TEST__:PASS:
                         "end": 228,
                         "decorators": [],
                         "name": "address",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 ],
                 "callee": {
@@ -301,9 +316,11 @@ __ESTREE_TEST__:PASS:
                   "end": 217,
                   "decorators": [],
                   "name": "nullthrows",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -317,7 +334,8 @@ __ESTREE_TEST__:PASS:
           "end": 185,
           "decorators": [],
           "name": "getAddress",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -329,7 +347,8 @@ __ESTREE_TEST__:PASS:
             "start": 189,
             "end": 195
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

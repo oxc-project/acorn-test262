@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 51,
                     "end": 68,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 51,
@@ -57,7 +58,8 @@ __ESTREE_TEST__:PASS:
                           "end": 58,
                           "decorators": [],
                           "name": "console",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -66,10 +68,12 @@ __ESTREE_TEST__:PASS:
                           "end": 62,
                           "decorators": [],
                           "name": "log",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -83,9 +87,12 @@ __ESTREE_TEST__:PASS:
                 "end": 46,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -101,7 +108,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "globalThis",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

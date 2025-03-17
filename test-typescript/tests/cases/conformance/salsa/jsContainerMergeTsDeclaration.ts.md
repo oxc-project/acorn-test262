@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -56,9 +57,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

@@ -28,8 +28,10 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "ImportInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -70,8 +72,10 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "RequireInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -133,7 +137,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -142,7 +147,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -191,7 +197,8 @@ __ESTREE_TEST__:PASS:
             "end": 112,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -200,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 112,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -232,8 +240,10 @@ __ESTREE_TEST__:PASS:
               "end": 221,
               "decorators": [],
               "name": "RequireInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           {
             "type": "TSInterfaceHeritage",
@@ -245,8 +255,10 @@ __ESTREE_TEST__:PASS:
               "end": 238,
               "decorators": [],
               "name": "ImportInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -255,8 +267,10 @@ __ESTREE_TEST__:PASS:
           "end": 196,
           "decorators": [],
           "name": "LocalInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -306,7 +320,8 @@ __ESTREE_TEST__:PASS:
             "end": 272,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "type",
           "local": {
@@ -315,7 +330,8 @@ __ESTREE_TEST__:PASS:
             "end": 279,
             "decorators": [],
             "name": "Req",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -364,7 +380,8 @@ __ESTREE_TEST__:PASS:
             "end": 359,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "type",
           "local": {
@@ -373,7 +390,8 @@ __ESTREE_TEST__:PASS:
             "end": 366,
             "decorators": [],
             "name": "Imp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -405,8 +423,10 @@ __ESTREE_TEST__:PASS:
               "end": 449,
               "decorators": [],
               "name": "Req",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           {
             "type": "TSInterfaceHeritage",
@@ -418,8 +438,10 @@ __ESTREE_TEST__:PASS:
               "end": 454,
               "decorators": [],
               "name": "Imp",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -428,8 +450,10 @@ __ESTREE_TEST__:PASS:
           "end": 437,
           "decorators": [],
           "name": "Loc",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -480,7 +504,8 @@ __ESTREE_TEST__:PASS:
             "end": 489,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -489,7 +514,8 @@ __ESTREE_TEST__:PASS:
             "end": 489,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -539,7 +565,8 @@ __ESTREE_TEST__:PASS:
             "end": 571,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -548,7 +575,8 @@ __ESTREE_TEST__:PASS:
             "end": 571,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 70,
             "end": 78,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ThisExpression",
               "start": 74,
@@ -45,6 +48,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 83,
             "end": 98,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -55,12 +59,14 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "t",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ThisExpression",
               "start": 94,
@@ -71,6 +77,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 103,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -81,12 +88,14 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "at",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 115,
@@ -100,13 +109,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 130,
             "end": 169,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -117,12 +129,14 @@ __ESTREE_TEST__:PASS:
               "end": 139,
               "decorators": [],
               "name": "ft",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 142,
@@ -149,13 +163,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 174,
             "end": 201,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -164,7 +181,8 @@ __ESTREE_TEST__:PASS:
               "end": 183,
               "decorators": [],
               "name": "mt",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -196,7 +214,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -209,10 +229,13 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

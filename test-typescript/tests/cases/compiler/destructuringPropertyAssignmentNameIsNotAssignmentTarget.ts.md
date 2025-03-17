@@ -53,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 83,
             "end": 106,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 84,
@@ -76,7 +77,8 @@ __ESTREE_TEST__:PASS:
                       "end": 91,
                       "decorators": [],
                       "name": "value",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -88,10 +90,12 @@ __ESTREE_TEST__:PASS:
                       "end": 96,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
                 "end": 104,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -119,7 +124,8 @@ __ESTREE_TEST__:PASS:
                   "end": 116,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
@@ -132,12 +138,15 @@ __ESTREE_TEST__:PASS:
                     "end": 128,
                     "decorators": [],
                     "name": "bar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "expression": true,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -155,7 +164,8 @@ __ESTREE_TEST__:PASS:
         "end": 31,
         "decorators": [],
         "name": "qux",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -178,6 +188,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 39,
                   "end": 52,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -185,7 +196,8 @@ __ESTREE_TEST__:PASS:
                     "end": 44,
                     "decorators": [],
                     "name": "value",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -205,7 +217,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

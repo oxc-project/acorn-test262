@@ -43,7 +43,8 @@ __ESTREE_TEST__:PASS:
                     "end": 11,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -55,7 +56,8 @@ __ESTREE_TEST__:PASS:
                     "end": 11,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                     "end": 14,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -81,10 +84,12 @@ __ESTREE_TEST__:PASS:
                     "end": 14,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              ]
+              ],
+              "typeAnnotation": null
             },
             "init": null
           }

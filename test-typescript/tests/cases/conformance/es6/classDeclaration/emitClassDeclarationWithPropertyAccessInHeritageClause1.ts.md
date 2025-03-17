@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -59,7 +62,8 @@ __ESTREE_TEST__:PASS:
                     "end": 41,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -71,7 +75,8 @@ __ESTREE_TEST__:PASS:
                     "end": 44,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -88,9 +93,12 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -111,7 +119,8 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -130,9 +139,11 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -141,9 +152,12 @@ __ESTREE_TEST__:PASS:
           "end": 74,
           "decorators": [],
           "name": "B",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

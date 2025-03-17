@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 55,
             "end": 65,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 70,
             "end": 80,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -98,6 +103,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 85,
             "end": 123,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -105,7 +111,8 @@ __ESTREE_TEST__:PASS:
               "end": 93,
               "decorators": [],
               "name": "children",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -123,6 +130,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 95,
                     "end": 106,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 95,
@@ -133,7 +141,8 @@ __ESTREE_TEST__:PASS:
                         "end": 98,
                         "decorators": [],
                         "name": "JSX",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -141,7 +150,8 @@ __ESTREE_TEST__:PASS:
                         "end": 106,
                         "decorators": [],
                         "name": "Element",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -153,6 +163,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 109,
                       "end": 120,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 109,
@@ -163,7 +174,8 @@ __ESTREE_TEST__:PASS:
                           "end": 112,
                           "decorators": [],
                           "name": "JSX",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -171,7 +183,8 @@ __ESTREE_TEST__:PASS:
                           "end": 120,
                           "decorators": [],
                           "name": "Element",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -190,8 +203,10 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "Prop",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -207,6 +222,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 180,
             "end": 234,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -215,7 +231,8 @@ __ESTREE_TEST__:PASS:
               "end": 186,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -270,7 +287,8 @@ __ESTREE_TEST__:PASS:
                           "end": 211,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -280,7 +298,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -293,7 +313,8 @@ __ESTREE_TEST__:PASS:
         "end": 139,
         "decorators": [],
         "name": "Button",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -307,7 +328,8 @@ __ESTREE_TEST__:PASS:
           "end": 153,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -316,7 +338,8 @@ __ESTREE_TEST__:PASS:
           "end": 163,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -335,7 +358,8 @@ __ESTREE_TEST__:PASS:
             "end": 172
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -386,7 +410,8 @@ __ESTREE_TEST__:PASS:
                   "end": 285,
                   "name": "h1"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -401,7 +426,8 @@ __ESTREE_TEST__:PASS:
         "end": 260,
         "decorators": [],
         "name": "AnotherButton",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -422,7 +448,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -458,7 +486,8 @@ __ESTREE_TEST__:PASS:
                       "end": 358,
                       "decorators": [],
                       "name": "p",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -467,7 +496,8 @@ __ESTREE_TEST__:PASS:
                       "end": 360,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -494,7 +524,8 @@ __ESTREE_TEST__:PASS:
                   "end": 355,
                   "name": "div"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -509,7 +540,8 @@ __ESTREE_TEST__:PASS:
         "end": 328,
         "decorators": [],
         "name": "Comp",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -527,18 +559,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 332,
               "end": 336,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 332,
                 "end": 336,
                 "decorators": [],
                 "name": "Prop",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -556,7 +592,8 @@ __ESTREE_TEST__:PASS:
             "end": 408,
             "decorators": [],
             "name": "k1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -580,7 +617,8 @@ __ESTREE_TEST__:PASS:
                     "end": 438,
                     "name": "Button"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -607,7 +645,8 @@ __ESTREE_TEST__:PASS:
                     "end": 457,
                     "name": "AnotherButton"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               }
             ],
@@ -675,7 +714,8 @@ __ESTREE_TEST__:PASS:
                 "end": 416,
                 "name": "Comp"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -699,7 +739,8 @@ __ESTREE_TEST__:PASS:
             "end": 475,
             "decorators": [],
             "name": "k2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -723,7 +764,8 @@ __ESTREE_TEST__:PASS:
                     "end": 505,
                     "name": "Button"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -750,7 +792,8 @@ __ESTREE_TEST__:PASS:
                     "end": 527,
                     "name": "AnotherButton"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -825,7 +868,8 @@ __ESTREE_TEST__:PASS:
                 "end": 483,
                 "name": "Comp"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -849,7 +893,8 @@ __ESTREE_TEST__:PASS:
             "end": 547,
             "decorators": [],
             "name": "k3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -880,7 +925,8 @@ __ESTREE_TEST__:PASS:
                     "end": 581,
                     "name": "Button"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -907,7 +953,8 @@ __ESTREE_TEST__:PASS:
                     "end": 603,
                     "name": "AnotherButton"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               }
             ],
@@ -975,7 +1022,8 @@ __ESTREE_TEST__:PASS:
                 "end": 555,
                 "name": "Comp"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

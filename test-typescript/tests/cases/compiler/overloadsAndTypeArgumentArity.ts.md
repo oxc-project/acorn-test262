@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 49,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,13 +52,15 @@ __ESTREE_TEST__:PASS:
           "start": 44,
           "end": 48
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 50,
       "end": 102,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -66,7 +70,8 @@ __ESTREE_TEST__:PASS:
         "end": 76,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -108,6 +113,8 @@ __ESTREE_TEST__:PASS:
             "start": 77,
             "end": 78,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -127,6 +135,7 @@ __ESTREE_TEST__:PASS:
       "start": 103,
       "end": 160,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -136,7 +145,8 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -178,6 +188,8 @@ __ESTREE_TEST__:PASS:
             "start": 130,
             "end": 132,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -185,7 +197,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "T1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -194,6 +207,8 @@ __ESTREE_TEST__:PASS:
             "start": 134,
             "end": 136,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -201,7 +216,8 @@ __ESTREE_TEST__:PASS:
               "end": 136,
               "decorators": [],
               "name": "T2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -213,6 +229,7 @@ __ESTREE_TEST__:PASS:
       "start": 161,
       "end": 222,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -222,7 +239,8 @@ __ESTREE_TEST__:PASS:
         "end": 187,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -264,6 +282,8 @@ __ESTREE_TEST__:PASS:
             "start": 188,
             "end": 190,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -271,7 +291,8 @@ __ESTREE_TEST__:PASS:
               "end": 190,
               "decorators": [],
               "name": "T1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -280,6 +301,8 @@ __ESTREE_TEST__:PASS:
             "start": 192,
             "end": 194,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -287,7 +310,8 @@ __ESTREE_TEST__:PASS:
               "end": 194,
               "decorators": [],
               "name": "T2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -296,6 +320,8 @@ __ESTREE_TEST__:PASS:
             "start": 196,
             "end": 198,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -303,7 +329,8 @@ __ESTREE_TEST__:PASS:
               "end": 198,
               "decorators": [],
               "name": "T3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -314,6 +341,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 224,
       "end": 264,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 224,
@@ -333,7 +361,8 @@ __ESTREE_TEST__:PASS:
           "end": 233,
           "decorators": [],
           "name": "Callbacks",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "typeArguments": {
@@ -364,6 +393,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 277,
       "end": 321,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 277,
@@ -383,7 +413,8 @@ __ESTREE_TEST__:PASS:
           "end": 290,
           "decorators": [],
           "name": "Callbacks",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",

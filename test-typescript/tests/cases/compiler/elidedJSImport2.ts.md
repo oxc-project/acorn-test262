@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 27,
               "end": 39,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -56,8 +58,10 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Foo",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -80,6 +84,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 78,
               "end": 90,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -87,7 +92,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -113,8 +119,10 @@ __ESTREE_TEST__:PASS:
           "end": 71,
           "decorators": [],
           "name": "Bar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     }

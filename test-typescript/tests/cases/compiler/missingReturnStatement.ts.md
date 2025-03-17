@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                       "end": 55,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                           "start": 58,
                           "end": 64
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -86,10 +88,13 @@ __ESTREE_TEST__:PASS:
                 "end": 34,
                 "decorators": [],
                 "name": "Bug",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

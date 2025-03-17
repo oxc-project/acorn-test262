@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 43,
               "decorators": [],
               "name": "atEnd",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -54,7 +55,8 @@ __ESTREE_TEST__:PASS:
                   "start": 47,
                   "end": 54
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "moveNext",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -86,7 +89,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -102,7 +107,8 @@ __ESTREE_TEST__:PASS:
               "end": 94,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -128,13 +134,15 @@ __ESTREE_TEST__:PASS:
                   "start": 98,
                   "end": 101
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 107,
             "end": 128,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -143,7 +151,8 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -178,7 +187,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -191,10 +202,13 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "Enumerator",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

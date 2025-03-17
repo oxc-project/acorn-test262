@@ -29,10 +29,13 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -88,7 +91,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "ns",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "type",
       "source": {
@@ -135,7 +139,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -144,7 +149,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -153,13 +159,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 27,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 25,
         "end": 26,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -198,7 +206,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "ns",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -207,7 +216,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "ns",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -216,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 26,
       "end": 31,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 26,
@@ -227,7 +238,8 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "ns",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -236,7 +248,8 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

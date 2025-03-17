@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "CAT",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
               "end": 61,
               "decorators": [],
               "name": "DOG",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -66,7 +68,8 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "TerrestrialAnimalTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -94,7 +97,8 @@ __ESTREE_TEST__:PASS:
               "end": 103,
               "decorators": [],
               "name": "CAT",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -114,7 +118,8 @@ __ESTREE_TEST__:PASS:
         "end": 95,
         "decorators": [],
         "name": "AlienAnimalTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -133,7 +138,8 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "AnimalTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -144,30 +150,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 136,
             "end": 158,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 136,
               "end": 158,
               "decorators": [],
               "name": "TerrestrialAnimalTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "TSTypeReference",
             "start": 161,
             "end": 177,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 161,
               "end": 177,
               "decorators": [],
               "name": "AlienAnimalTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -182,6 +193,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 209,
             "end": 242,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -189,7 +201,8 @@ __ESTREE_TEST__:PASS:
               "end": 213,
               "decorators": [],
               "name": "type",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -202,6 +215,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 215,
                 "end": 241,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 215,
@@ -212,7 +226,8 @@ __ESTREE_TEST__:PASS:
                     "end": 237,
                     "decorators": [],
                     "name": "TerrestrialAnimalTypes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -220,7 +235,8 @@ __ESTREE_TEST__:PASS:
                     "end": 241,
                     "decorators": [],
                     "name": "CAT",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -230,6 +246,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 245,
             "end": 261,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -237,7 +254,8 @@ __ESTREE_TEST__:PASS:
               "end": 252,
               "decorators": [],
               "name": "address",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -263,8 +281,10 @@ __ESTREE_TEST__:PASS:
         "end": 204,
         "decorators": [],
         "name": "TerrestrialCat",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -279,6 +299,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 288,
             "end": 314,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -286,7 +307,8 @@ __ESTREE_TEST__:PASS:
               "end": 292,
               "decorators": [],
               "name": "type",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -299,6 +321,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 294,
                 "end": 314,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 294,
@@ -309,7 +332,8 @@ __ESTREE_TEST__:PASS:
                     "end": 310,
                     "decorators": [],
                     "name": "AlienAnimalTypes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -317,7 +341,8 @@ __ESTREE_TEST__:PASS:
                     "end": 314,
                     "decorators": [],
                     "name": "CAT",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -327,6 +352,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 317,
             "end": 332,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -334,7 +360,8 @@ __ESTREE_TEST__:PASS:
               "end": 323,
               "decorators": [],
               "name": "planet",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -360,8 +387,10 @@ __ESTREE_TEST__:PASS:
         "end": 283,
         "decorators": [],
         "name": "AlienCat",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -374,7 +403,8 @@ __ESTREE_TEST__:PASS:
         "end": 345,
         "decorators": [],
         "name": "Cats",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -385,30 +415,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 348,
             "end": 362,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 348,
               "end": 362,
               "decorators": [],
               "name": "TerrestrialCat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "TSTypeReference",
             "start": 365,
             "end": 373,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 365,
               "end": 373,
               "decorators": [],
               "name": "AlienCat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -421,7 +456,8 @@ __ESTREE_TEST__:PASS:
         "end": 387,
         "decorators": [],
         "name": "CatMap",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSMappedType",
@@ -431,13 +467,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 400,
           "end": 411,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 400,
             "end": 411,
             "decorators": [],
             "name": "AnimalTypes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "key": {
@@ -446,9 +484,12 @@ __ESTREE_TEST__:PASS:
           "end": 396,
           "decorators": [],
           "name": "V",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "nameType": null,
+        "optional": null,
+        "readonly": null,
         "typeAnnotation": {
           "type": "TSArrayType",
           "start": 414,
@@ -466,13 +507,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 422,
                   "end": 426,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 422,
                     "end": 426,
                     "decorators": [],
                     "name": "Cats",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -484,6 +527,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 430,
                       "end": 437,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -491,7 +535,8 @@ __ESTREE_TEST__:PASS:
                         "end": 434,
                         "decorators": [],
                         "name": "type",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -504,13 +549,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 436,
                           "end": 437,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 436,
                             "end": 437,
                             "decorators": [],
                             "name": "V",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -525,11 +572,13 @@ __ESTREE_TEST__:PASS:
               "end": 421,
               "decorators": [],
               "name": "Extract",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -556,13 +605,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 461,
                 "end": 467,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 461,
                   "end": 467,
                   "decorators": [],
                   "name": "CatMap",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -583,7 +634,8 @@ __ESTREE_TEST__:PASS:
                   "end": 477,
                   "decorators": [],
                   "name": "cat",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -610,7 +662,8 @@ __ESTREE_TEST__:PASS:
                             "end": 491,
                             "decorators": [],
                             "name": "type",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -627,7 +680,8 @@ __ESTREE_TEST__:PASS:
                               "end": 515,
                               "decorators": [],
                               "name": "TerrestrialAnimalTypes",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -636,7 +690,8 @@ __ESTREE_TEST__:PASS:
                               "end": 519,
                               "decorators": [],
                               "name": "CAT",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -651,7 +706,8 @@ __ESTREE_TEST__:PASS:
                             "end": 528,
                             "decorators": [],
                             "name": "address",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -683,7 +739,8 @@ __ESTREE_TEST__:PASS:
                             "end": 546,
                             "decorators": [],
                             "name": "type",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -700,7 +757,8 @@ __ESTREE_TEST__:PASS:
                               "end": 564,
                               "decorators": [],
                               "name": "AlienAnimalTypes",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -709,7 +767,8 @@ __ESTREE_TEST__:PASS:
                               "end": 568,
                               "decorators": [],
                               "name": "CAT",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -724,7 +783,8 @@ __ESTREE_TEST__:PASS:
                             "end": 576,
                             "decorators": [],
                             "name": "planet",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -754,7 +814,8 @@ __ESTREE_TEST__:PASS:
                   "end": 593,
                   "decorators": [],
                   "name": "dog",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,

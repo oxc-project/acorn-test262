@@ -36,8 +36,10 @@ __ESTREE_TEST__:PASS:
                   "end": 23,
                   "decorators": [],
                   "name": "undefined",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           },

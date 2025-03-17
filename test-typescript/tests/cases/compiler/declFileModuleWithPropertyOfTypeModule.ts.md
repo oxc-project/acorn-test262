@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 29,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -68,7 +71,8 @@ __ESTREE_TEST__:PASS:
                     "end": 55,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -76,7 +80,8 @@ __ESTREE_TEST__:PASS:
                     "end": 59,
                     "decorators": [],
                     "name": "m",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "m",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

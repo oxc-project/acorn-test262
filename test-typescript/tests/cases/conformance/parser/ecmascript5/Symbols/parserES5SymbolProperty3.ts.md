@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 22,
             "end": 53,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 29,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
                 "end": 41,
                 "decorators": [],
                 "name": "unscopables",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -68,7 +71,8 @@ __ESTREE_TEST__:PASS:
                   "start": 46,
                   "end": 52
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -81,10 +85,13 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
               "end": 13,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -49,7 +52,8 @@ __ESTREE_TEST__:PASS:
               "end": 9,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

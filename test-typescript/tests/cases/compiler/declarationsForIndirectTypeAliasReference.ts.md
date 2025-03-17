@@ -24,7 +24,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "Hash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "Hash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -46,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "StringHash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -55,7 +58,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "StringHash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "StringHash2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -77,7 +82,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "StringHash2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -95,6 +101,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 75,
             "end": 92,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -125,13 +132,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 90,
                 "end": 91,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 90,
                   "end": 91,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -146,7 +155,8 @@ __ESTREE_TEST__:PASS:
         "end": 65,
         "decorators": [],
         "name": "Hash",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -158,6 +168,8 @@ __ESTREE_TEST__:PASS:
             "start": 66,
             "end": 67,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -165,7 +177,8 @@ __ESTREE_TEST__:PASS:
               "end": 67,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -183,7 +196,8 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "StringHash",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -207,9 +221,11 @@ __ESTREE_TEST__:PASS:
           "end": 118,
           "decorators": [],
           "name": "Hash",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -233,7 +249,8 @@ __ESTREE_TEST__:PASS:
             "end": 163,
             "decorators": [],
             "name": "Hash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -255,8 +272,10 @@ __ESTREE_TEST__:PASS:
         "end": 150,
         "decorators": [],
         "name": "StringHash2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -294,7 +313,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "StringHash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -303,7 +323,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "StringHash",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -316,7 +337,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "StringHash2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -325,7 +347,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "StringHash2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -349,7 +372,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "doSome",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -358,7 +382,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "doSome",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -388,13 +413,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 80,
                 "end": 90,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 80,
                   "end": 90,
                   "decorators": [],
                   "name": "StringHash",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -415,7 +442,8 @@ __ESTREE_TEST__:PASS:
                   "end": 100,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -461,13 +489,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 122,
                 "end": 133,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 122,
                   "end": 133,
                   "decorators": [],
                   "name": "StringHash2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -488,7 +518,8 @@ __ESTREE_TEST__:PASS:
                   "end": 143,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -529,7 +560,8 @@ __ESTREE_TEST__:PASS:
         "end": 168,
         "decorators": [],
         "name": "doSome",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -561,7 +593,8 @@ __ESTREE_TEST__:PASS:
             "end": 203,
             "decorators": [],
             "name": "arg2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -570,8 +603,10 @@ __ESTREE_TEST__:PASS:
             "end": 209,
             "decorators": [],
             "name": "MAP",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeAnnotation": null
         },
         {
           "type": "AssignmentPattern",
@@ -584,7 +619,8 @@ __ESTREE_TEST__:PASS:
             "end": 231,
             "decorators": [],
             "name": "arg3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -593,10 +629,14 @@ __ESTREE_TEST__:PASS:
             "end": 238,
             "decorators": [],
             "name": "MAP2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

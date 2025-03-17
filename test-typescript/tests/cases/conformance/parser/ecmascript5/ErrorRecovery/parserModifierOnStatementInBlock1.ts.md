@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
                       "end": 39,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ThisExpression",
@@ -68,9 +69,12 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

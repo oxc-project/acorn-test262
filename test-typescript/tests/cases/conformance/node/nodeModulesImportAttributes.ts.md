@@ -20,7 +20,8 @@ __ESTREE_TEST__:PASS:
             "end": 45,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "value": {
             "type": "Literal",
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "json",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

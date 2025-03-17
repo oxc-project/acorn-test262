@@ -85,13 +85,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 86,
             "end": 88,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 86,
               "end": 87,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -112,7 +114,8 @@ __ESTREE_TEST__:PASS:
               "end": 69,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -126,7 +129,8 @@ __ESTREE_TEST__:PASS:
         "end": 78,
         "decorators": [],
         "name": "tuple",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

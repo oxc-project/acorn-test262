@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
                       "end": 18,
                       "decorators": [],
                       "elements": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     null,
                     {
@@ -50,13 +51,16 @@ __ESTREE_TEST__:PASS:
                       "end": 22,
                       "decorators": [],
                       "elements": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
                 "end": 37,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",

@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 26,
             "decorators": [],
             "name": "Default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -87,7 +89,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -96,7 +99,8 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "Import",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -145,7 +149,8 @@ __ESTREE_TEST__:PASS:
             "end": 135,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -154,7 +159,8 @@ __ESTREE_TEST__:PASS:
             "end": 146,
             "decorators": [],
             "name": "Require",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -170,7 +176,8 @@ __ESTREE_TEST__:PASS:
         "end": 214,
         "decorators": [],
         "name": "_Default",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeQuery",
@@ -182,9 +189,12 @@ __ESTREE_TEST__:PASS:
           "end": 231,
           "decorators": [],
           "name": "Default",
-          "optional": false
-        }
-      }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -197,7 +207,8 @@ __ESTREE_TEST__:PASS:
         "end": 245,
         "decorators": [],
         "name": "_Import",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeQuery",
@@ -209,9 +220,12 @@ __ESTREE_TEST__:PASS:
           "end": 261,
           "decorators": [],
           "name": "Import",
-          "optional": false
-        }
-      }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -224,7 +238,8 @@ __ESTREE_TEST__:PASS:
         "end": 276,
         "decorators": [],
         "name": "_Require",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeQuery",
@@ -236,9 +251,12 @@ __ESTREE_TEST__:PASS:
           "end": 293,
           "decorators": [],
           "name": "Require",
-          "optional": false
-        }
-      }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ImportDeclaration",
@@ -284,7 +302,8 @@ __ESTREE_TEST__:PASS:
             "end": 397,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -293,7 +312,8 @@ __ESTREE_TEST__:PASS:
             "end": 415,
             "decorators": [],
             "name": "ImportRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -342,7 +362,8 @@ __ESTREE_TEST__:PASS:
             "end": 488,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -351,7 +372,8 @@ __ESTREE_TEST__:PASS:
             "end": 507,
             "decorators": [],
             "name": "RequireRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -367,7 +389,8 @@ __ESTREE_TEST__:PASS:
         "end": 586,
         "decorators": [],
         "name": "_ImportRelative",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeQuery",
@@ -379,9 +402,12 @@ __ESTREE_TEST__:PASS:
           "end": 610,
           "decorators": [],
           "name": "ImportRelative",
-          "optional": false
-        }
-      }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -394,7 +420,8 @@ __ESTREE_TEST__:PASS:
         "end": 633,
         "decorators": [],
         "name": "_RequireRelative",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeQuery",
@@ -406,9 +433,12 @@ __ESTREE_TEST__:PASS:
           "end": 658,
           "decorators": [],
           "name": "RequireRelative",
-          "optional": false
-        }
-      }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -429,7 +459,8 @@ __ESTREE_TEST__:PASS:
             "end": 680,
             "decorators": [],
             "name": "_Default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -438,7 +469,8 @@ __ESTREE_TEST__:PASS:
             "end": 680,
             "decorators": [],
             "name": "_Default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -451,7 +483,8 @@ __ESTREE_TEST__:PASS:
             "end": 691,
             "decorators": [],
             "name": "_Import",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -460,7 +493,8 @@ __ESTREE_TEST__:PASS:
             "end": 691,
             "decorators": [],
             "name": "_Import",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -473,7 +507,8 @@ __ESTREE_TEST__:PASS:
             "end": 703,
             "decorators": [],
             "name": "_Require",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -482,7 +517,8 @@ __ESTREE_TEST__:PASS:
             "end": 703,
             "decorators": [],
             "name": "_Require",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -495,7 +531,8 @@ __ESTREE_TEST__:PASS:
             "end": 722,
             "decorators": [],
             "name": "_ImportRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -504,7 +541,8 @@ __ESTREE_TEST__:PASS:
             "end": 722,
             "decorators": [],
             "name": "_ImportRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -517,7 +555,8 @@ __ESTREE_TEST__:PASS:
             "end": 742,
             "decorators": [],
             "name": "_RequireRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -526,7 +565,8 @@ __ESTREE_TEST__:PASS:
             "end": 742,
             "decorators": [],
             "name": "_RequireRelative",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -564,7 +604,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",

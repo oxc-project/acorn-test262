@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 27,
               "end": 43,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                       "start": 38,
                       "end": 42
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             }
@@ -67,8 +70,10 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Foo",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -90,7 +95,8 @@ __ESTREE_TEST__:PASS:
           "end": 60,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -112,13 +118,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 70,
                   "end": 73,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 70,
                     "end": 73,
                     "decorators": [],
                     "name": "Foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -133,8 +141,10 @@ __ESTREE_TEST__:PASS:
               "start": 78,
               "end": 82
             }
-          }
-        }
+          },
+          "typeParameters": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

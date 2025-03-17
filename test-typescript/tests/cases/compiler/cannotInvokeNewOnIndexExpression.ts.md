@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
                 "end": 25,
                 "decorators": [],
                 "name": "any",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
                 "raw": "1",
                 "value": 1
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],

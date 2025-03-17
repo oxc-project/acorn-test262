@@ -13,6 +13,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 111,
         "end": 125,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 111,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 124,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -38,7 +40,8 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "console",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -47,10 +50,12 @@ __ESTREE_TEST__:PASS:
               "end": 122,
               "decorators": [],
               "name": "log",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "init": {
@@ -80,7 +85,8 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -101,10 +107,12 @@ __ESTREE_TEST__:PASS:
                       "end": 91,
                       "properties": []
                     }
-                  }
+                  },
+                  "typeAnnotation": null
                 }
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrayExpression",
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
           "end": 101,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "!",
         "prefix": true
@@ -143,7 +152,8 @@ __ESTREE_TEST__:PASS:
           "end": 104,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "UnaryExpression",
@@ -155,7 +165,8 @@ __ESTREE_TEST__:PASS:
             "end": 109,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "!",
           "prefix": true
@@ -170,6 +181,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 169,
         "end": 183,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 169,
@@ -181,7 +193,8 @@ __ESTREE_TEST__:PASS:
               "end": 182,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -195,7 +208,8 @@ __ESTREE_TEST__:PASS:
               "end": 176,
               "decorators": [],
               "name": "console",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -204,10 +218,12 @@ __ESTREE_TEST__:PASS:
               "end": 180,
               "decorators": [],
               "name": "log",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "init": {
@@ -238,7 +254,8 @@ __ESTREE_TEST__:PASS:
                     "end": 137,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -255,7 +272,8 @@ __ESTREE_TEST__:PASS:
                       "end": 137,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -276,10 +294,12 @@ __ESTREE_TEST__:PASS:
                         "end": 149,
                         "properties": []
                       }
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 }
-              ]
+              ],
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -302,7 +322,8 @@ __ESTREE_TEST__:PASS:
           "end": 159,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "!",
         "prefix": true
@@ -318,7 +339,8 @@ __ESTREE_TEST__:PASS:
           "end": 162,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "UnaryExpression",
@@ -330,7 +352,8 @@ __ESTREE_TEST__:PASS:
             "end": 167,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "!",
           "prefix": true

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -48,6 +49,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 34,
             "end": 38,
+            "directive": null,
             "expression": {
               "type": "UpdateExpression",
               "start": 34,
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
                 "end": 35,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": false
@@ -77,7 +80,8 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -101,6 +105,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 63,
             "end": 67,
+            "directive": null,
             "expression": {
               "type": "UpdateExpression",
               "start": 63,
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
                 "end": 64,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": false
@@ -130,7 +136,8 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

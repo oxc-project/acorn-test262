@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 24,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -57,7 +58,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -71,7 +73,8 @@ __ESTREE_TEST__:PASS:
         "end": 39,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -96,7 +99,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "modM",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -151,7 +155,8 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "modM",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -160,7 +165,8 @@ __ESTREE_TEST__:PASS:
               "end": 82,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

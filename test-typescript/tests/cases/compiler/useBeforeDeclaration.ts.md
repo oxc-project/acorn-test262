@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 65,
                     "end": 96,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 65,
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
                               "end": 86,
                               "decorators": [],
                               "name": "sys",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
                               "end": 94,
                               "decorators": [],
                               "name": "version",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -81,9 +84,11 @@ __ESTREE_TEST__:PASS:
                         "end": 68,
                         "decorators": [],
                         "name": "log",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
                 "end": 47,
                 "decorators": [],
                 "name": "printVersion",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -109,7 +115,8 @@ __ESTREE_TEST__:PASS:
                   "start": 50,
                   "end": 54
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -140,7 +147,8 @@ __ESTREE_TEST__:PASS:
                 "end": 196,
                 "decorators": [],
                 "name": "log",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -171,7 +179,8 @@ __ESTREE_TEST__:PASS:
                   "start": 210,
                   "end": 214
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -187,7 +196,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "ts",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }
@@ -247,6 +257,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 36,
                             "end": 50,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
@@ -254,7 +265,8 @@ __ESTREE_TEST__:PASS:
                               "end": 43,
                               "decorators": [],
                               "name": "version",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "readonly": false,
@@ -290,7 +302,8 @@ __ESTREE_TEST__:PASS:
                           "end": 62,
                           "decorators": [],
                           "name": "version",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -325,7 +338,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "ts",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

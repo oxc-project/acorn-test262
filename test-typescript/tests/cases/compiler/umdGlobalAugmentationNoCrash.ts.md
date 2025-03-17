@@ -58,7 +58,8 @@ __ESTREE_TEST__:PASS:
                         "options": null,
                         "qualifier": null,
                         "typeArguments": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -78,7 +79,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -114,7 +116,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -127,6 +130,7 @@ __ESTREE_TEST__:PASS:
         "start": 34,
         "end": 57,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -136,7 +140,8 @@ __ESTREE_TEST__:PASS:
           "end": 46,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -148,7 +153,8 @@ __ESTREE_TEST__:PASS:
             "start": 50,
             "end": 56
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -180,6 +186,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 10,
       "end": 20,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 10,
@@ -191,7 +198,8 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -200,7 +208,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -220,6 +229,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -244,7 +254,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -253,16 +264,19 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 32,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 22,
@@ -274,7 +288,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -283,7 +298,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

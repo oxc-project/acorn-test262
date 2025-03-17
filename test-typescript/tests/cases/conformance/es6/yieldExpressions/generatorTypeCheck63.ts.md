@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 61,
               "end": 90,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 80,
                 "decorators": [],
                 "name": "lastStrategyApplied",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -56,8 +58,10 @@ __ESTREE_TEST__:PASS:
           "end": 54,
           "decorators": [],
           "name": "StrategicState",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -116,6 +120,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "ExpressionStatement",
                                   "start": 380,
                                   "end": 417,
+                                  "directive": null,
                                   "expression": {
                                     "type": "AssignmentExpression",
                                     "start": 380,
@@ -132,7 +137,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 384,
                                         "decorators": [],
                                         "name": "next",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "optional": false,
                                       "property": {
@@ -141,7 +147,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 404,
                                         "decorators": [],
                                         "name": "lastStrategyApplied",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
                                     "right": {
@@ -150,7 +157,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 416,
                                       "decorators": [],
                                       "name": "stratName",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 }
@@ -162,13 +170,15 @@ __ESTREE_TEST__:PASS:
                               "end": 360,
                               "decorators": [],
                               "name": "next",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "ExpressionStatement",
                             "start": 444,
                             "end": 455,
+                            "directive": null,
                             "expression": {
                               "type": "YieldExpression",
                               "start": 444,
@@ -179,7 +189,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 454,
                                 "decorators": [],
                                 "name": "next",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "delegate": false
                             }
@@ -202,7 +213,8 @@ __ESTREE_TEST__:PASS:
                               "end": 322,
                               "decorators": [],
                               "name": "next",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": null
                           }
@@ -221,7 +233,8 @@ __ESTREE_TEST__:PASS:
                             "end": 335,
                             "decorators": [],
                             "name": "state",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -230,9 +243,11 @@ __ESTREE_TEST__:PASS:
                           "end": 329,
                           "decorators": [],
                           "name": "gen",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -248,9 +263,12 @@ __ESTREE_TEST__:PASS:
                     "end": 295,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -264,7 +282,8 @@ __ESTREE_TEST__:PASS:
           "end": 118,
           "decorators": [],
           "name": "strategy",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -316,13 +335,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 173,
                         "end": 174,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 173,
                           "end": 174,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -350,13 +371,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 196,
                               "end": 197,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 196,
                                 "end": 197,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             {
@@ -379,10 +402,12 @@ __ESTREE_TEST__:PASS:
                       "end": 195,
                       "decorators": [],
                       "name": "IterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
@@ -411,13 +436,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 223,
                     "end": 224,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 223,
                       "end": 224,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -445,13 +472,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 246,
                           "end": 247,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 246,
                             "end": 247,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -474,10 +503,12 @@ __ESTREE_TEST__:PASS:
                   "end": 245,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         },
         "typeParameters": {
@@ -494,15 +525,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 129,
                 "end": 143,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 129,
                   "end": 143,
                   "decorators": [],
                   "name": "StrategicState",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -510,7 +544,8 @@ __ESTREE_TEST__:PASS:
                 "end": 120,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -555,13 +590,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 514,
                       "end": 515,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 514,
                         "end": 515,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -589,13 +626,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 535,
                             "end": 536,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 535,
                               "end": 536,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -618,10 +657,12 @@ __ESTREE_TEST__:PASS:
                     "end": 534,
                     "decorators": [],
                     "name": "IterableIterator",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           ]
         },
@@ -633,7 +674,8 @@ __ESTREE_TEST__:PASS:
           "end": 500,
           "decorators": [],
           "name": "Strategy",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -645,6 +687,8 @@ __ESTREE_TEST__:PASS:
               "start": 501,
               "end": 502,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -652,7 +696,8 @@ __ESTREE_TEST__:PASS:
                 "end": 502,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -681,6 +726,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 612,
               "end": 624,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -688,7 +734,8 @@ __ESTREE_TEST__:PASS:
                 "end": 615,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -718,8 +765,10 @@ __ESTREE_TEST__:PASS:
               "end": 605,
               "decorators": [],
               "name": "StrategicState",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -728,8 +777,10 @@ __ESTREE_TEST__:PASS:
           "end": 582,
           "decorators": [],
           "name": "State",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -774,13 +825,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 659,
                         "end": 664,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 659,
                           "end": 664,
                           "decorators": [],
                           "name": "State",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -791,7 +844,8 @@ __ESTREE_TEST__:PASS:
                     "end": 658,
                     "decorators": [],
                     "name": "Strategy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -822,6 +876,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 719,
                         "end": 727,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 719,
@@ -846,7 +901,8 @@ __ESTREE_TEST__:PASS:
                           "end": 793,
                           "decorators": [],
                           "name": "state",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -871,18 +927,22 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 706,
                           "end": 711,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 706,
                             "end": 711,
                             "decorators": [],
                             "name": "State",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -891,9 +951,11 @@ __ESTREE_TEST__:PASS:
                 "end": 676,
                 "decorators": [],
                 "name": "strategy",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -943,13 +1005,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 907,
                         "end": 912,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 907,
                           "end": 912,
                           "decorators": [],
                           "name": "State",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -960,7 +1024,8 @@ __ESTREE_TEST__:PASS:
                     "end": 906,
                     "decorators": [],
                     "name": "Strategy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1008,18 +1073,22 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 954,
                           "end": 959,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 954,
                             "end": 959,
                             "decorators": [],
                             "name": "State",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -1028,9 +1097,11 @@ __ESTREE_TEST__:PASS:
                 "end": 924,
                 "decorators": [],
                 "name": "strategy",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -1080,13 +1151,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 1000,
                         "end": 1005,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 1000,
                           "end": 1005,
                           "decorators": [],
                           "name": "State",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -1097,7 +1170,8 @@ __ESTREE_TEST__:PASS:
                     "end": 999,
                     "decorators": [],
                     "name": "Strategy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1158,18 +1232,22 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1047,
                           "end": 1052,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1047,
                             "end": 1052,
                             "decorators": [],
                             "name": "State",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -1178,9 +1256,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1017,
                 "decorators": [],
                 "name": "strategy",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -1230,13 +1310,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 1182,
                         "end": 1187,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 1182,
                           "end": 1187,
                           "decorators": [],
                           "name": "State",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -1247,7 +1329,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1181,
                     "decorators": [],
                     "name": "Strategy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1278,6 +1361,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 1242,
                         "end": 1254,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 1242,
@@ -1288,7 +1372,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1253,
                             "decorators": [],
                             "name": "state",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "delegate": false
                         }
@@ -1327,18 +1412,22 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1229,
                           "end": 1234,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1229,
                             "end": 1234,
                             "decorators": [],
                             "name": "State",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -1347,9 +1436,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1199,
                 "decorators": [],
                 "name": "strategy",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],

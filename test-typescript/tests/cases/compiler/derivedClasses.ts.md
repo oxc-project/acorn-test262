@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "shade",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,7 +61,8 @@ __ESTREE_TEST__:PASS:
                           "end": 63,
                           "decorators": [],
                           "name": "getHue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ArrowFunctionExpression",
@@ -98,10 +100,12 @@ __ESTREE_TEST__:PASS:
                                       "end": 89,
                                       "decorators": [],
                                       "name": "hue",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
-                                  "optional": false
+                                  "optional": false,
+                                  "typeArguments": null
                                 }
                               }
                             ]
@@ -109,7 +113,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ],
@@ -136,9 +142,11 @@ __ESTREE_TEST__:PASS:
                           "end": 114,
                           "decorators": [],
                           "name": "getHue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "right": {
                         "type": "Literal",
@@ -155,7 +163,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -168,7 +178,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Red",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -177,8 +188,11 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "Color",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -203,7 +217,8 @@ __ESTREE_TEST__:PASS:
               "end": 167,
               "decorators": [],
               "name": "shade",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -237,7 +252,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -253,7 +270,8 @@ __ESTREE_TEST__:PASS:
               "end": 209,
               "decorators": [],
               "name": "hue",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -287,7 +305,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -300,10 +320,13 @@ __ESTREE_TEST__:PASS:
         "end": 148,
         "decorators": [],
         "name": "Color",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -328,7 +351,8 @@ __ESTREE_TEST__:PASS:
               "end": 286,
               "decorators": [],
               "name": "shade",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -360,7 +384,8 @@ __ESTREE_TEST__:PASS:
                           "end": 307,
                           "decorators": [],
                           "name": "getHue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ArrowFunctionExpression",
@@ -398,10 +423,12 @@ __ESTREE_TEST__:PASS:
                                       "end": 333,
                                       "decorators": [],
                                       "name": "hue",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
-                                  "optional": false
+                                  "optional": false,
+                                  "typeArguments": null
                                 }
                               }
                             ]
@@ -409,7 +436,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ],
@@ -436,9 +465,11 @@ __ESTREE_TEST__:PASS:
                           "end": 358,
                           "decorators": [],
                           "name": "getHue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "right": {
                         "type": "Literal",
@@ -455,7 +486,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -468,7 +501,8 @@ __ESTREE_TEST__:PASS:
         "end": 248,
         "decorators": [],
         "name": "Blue",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -477,8 +511,11 @@ __ESTREE_TEST__:PASS:
         "end": 262,
         "decorators": [],
         "name": "Color",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -496,7 +533,8 @@ __ESTREE_TEST__:PASS:
             "end": 387,
             "decorators": [],
             "name": "r",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -509,8 +547,10 @@ __ESTREE_TEST__:PASS:
               "end": 397,
               "decorators": [],
               "name": "Red",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -533,7 +573,8 @@ __ESTREE_TEST__:PASS:
             "end": 406,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -546,8 +587,10 @@ __ESTREE_TEST__:PASS:
               "end": 417,
               "decorators": [],
               "name": "Blue",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -558,6 +601,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 422,
       "end": 432,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 422,
@@ -574,7 +618,8 @@ __ESTREE_TEST__:PASS:
             "end": 423,
             "decorators": [],
             "name": "r",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -583,16 +628,19 @@ __ESTREE_TEST__:PASS:
             "end": 429,
             "decorators": [],
             "name": "shade",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 433,
       "end": 441,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 433,
@@ -609,7 +657,8 @@ __ESTREE_TEST__:PASS:
             "end": 434,
             "decorators": [],
             "name": "r",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -618,16 +667,19 @@ __ESTREE_TEST__:PASS:
             "end": 438,
             "decorators": [],
             "name": "hue",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 442,
       "end": 452,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 442,
@@ -644,7 +696,8 @@ __ESTREE_TEST__:PASS:
             "end": 443,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -653,16 +706,19 @@ __ESTREE_TEST__:PASS:
             "end": 449,
             "decorators": [],
             "name": "shade",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 453,
       "end": 461,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 453,
@@ -679,7 +735,8 @@ __ESTREE_TEST__:PASS:
             "end": 454,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -688,10 +745,12 @@ __ESTREE_TEST__:PASS:
             "end": 458,
             "decorators": [],
             "name": "hue",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

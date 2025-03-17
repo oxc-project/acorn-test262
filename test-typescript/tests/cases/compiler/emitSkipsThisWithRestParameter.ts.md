@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
                               "end": 182,
                               "decorators": [],
                               "name": "args",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ],
                           "callee": {
@@ -81,10 +82,12 @@ __ESTREE_TEST__:PASS:
                               "end": 177,
                               "decorators": [],
                               "name": "concat",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       ],
                       "callee": {
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
                           "end": 149,
                           "decorators": [],
                           "name": "fn",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -107,10 +111,12 @@ __ESTREE_TEST__:PASS:
                           "end": 155,
                           "decorators": [],
                           "name": "apply",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -148,7 +154,8 @@ __ESTREE_TEST__:PASS:
                     "end": 121,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -166,9 +173,12 @@ __ESTREE_TEST__:PASS:
                         "end": 126
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -182,7 +192,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "rebase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -229,7 +240,8 @@ __ESTREE_TEST__:PASS:
                     "end": 39,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -247,7 +259,8 @@ __ESTREE_TEST__:PASS:
                         "end": 44
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -259,7 +272,8 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 54
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -283,7 +297,8 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "args",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
               "optional": false,
@@ -301,7 +316,8 @@ __ESTREE_TEST__:PASS:
                     "end": 70
                   }
                 }
-              }
+              },
+              "value": null
             }
           ],
           "returnType": {
@@ -313,9 +329,11 @@ __ESTREE_TEST__:PASS:
               "start": 77,
               "end": 80
             }
-          }
+          },
+          "typeParameters": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -75,7 +75,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 168,
                                         "decorators": [],
                                         "name": "AisIn1_1_1",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
@@ -116,13 +117,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 261,
                                                         "end": 267,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 261,
                                                           "end": 267,
                                                           "decorators": [],
                                                           "name": "ClassA",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -137,6 +140,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 269,
                                               "end": 285,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 269,
@@ -153,7 +157,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 271,
                                                     "decorators": [],
                                                     "name": "a1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -162,10 +167,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 282,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -193,6 +200,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 314,
                                                         "end": 334,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 314,
@@ -203,7 +211,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 327,
                                                             "decorators": [],
                                                             "name": "SubSubModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           },
                                                           "right": {
                                                             "type": "Identifier",
@@ -211,7 +220,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 334,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -227,6 +237,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 336,
                                               "end": 352,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 336,
@@ -243,7 +254,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 338,
                                                     "decorators": [],
                                                     "name": "a2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -252,10 +264,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 349,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -283,6 +297,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 381,
                                                         "end": 412,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 381,
@@ -297,7 +312,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 391,
                                                               "decorators": [],
                                                               "name": "SubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             },
                                                             "right": {
                                                               "type": "Identifier",
@@ -305,7 +321,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 405,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -314,7 +331,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 412,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -330,6 +348,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 414,
                                               "end": 430,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 414,
@@ -346,7 +365,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 416,
                                                     "decorators": [],
                                                     "name": "a3",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -355,10 +375,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 427,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -386,6 +408,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 459,
                                                         "end": 506,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 459,
@@ -404,7 +427,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 474,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -412,7 +436,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 485,
                                                                 "decorators": [],
                                                                 "name": "SubModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -421,7 +446,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 499,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -430,7 +456,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 506,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -446,6 +473,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 508,
                                               "end": 524,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 508,
@@ -462,7 +490,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 510,
                                                     "decorators": [],
                                                     "name": "a4",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -471,10 +500,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 521,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -502,13 +533,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 636,
                                                         "end": 642,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 636,
                                                           "end": 642,
                                                           "decorators": [],
                                                           "name": "ClassB",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -523,6 +556,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 644,
                                               "end": 660,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 644,
@@ -539,7 +573,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 646,
                                                     "decorators": [],
                                                     "name": "b1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -548,10 +583,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 657,
                                                     "decorators": [],
                                                     "name": "BisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -579,6 +616,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 689,
                                                         "end": 736,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 689,
@@ -597,7 +635,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 704,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -605,7 +644,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 715,
                                                                 "decorators": [],
                                                                 "name": "SubModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -614,7 +654,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 729,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -623,7 +664,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 736,
                                                             "decorators": [],
                                                             "name": "ClassB",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -639,6 +681,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 738,
                                               "end": 754,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 738,
@@ -655,7 +698,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 740,
                                                     "decorators": [],
                                                     "name": "b2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -664,10 +708,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 751,
                                                     "decorators": [],
                                                     "name": "BisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -695,6 +741,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 862,
                                                         "end": 909,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 862,
@@ -713,7 +760,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 877,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -721,7 +769,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 888,
                                                                 "decorators": [],
                                                                 "name": "SubModule2",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -730,7 +779,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 902,
                                                               "decorators": [],
                                                               "name": "SubSubModule2",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -739,7 +789,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 909,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -755,6 +806,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 911,
                                               "end": 927,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 911,
@@ -771,7 +823,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 913,
                                                     "decorators": [],
                                                     "name": "c1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -780,10 +833,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 924,
                                                     "decorators": [],
                                                     "name": "AisIn1_2_2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -811,13 +866,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1020,
                                                         "end": 1030,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 1020,
                                                           "end": 1030,
                                                           "decorators": [],
                                                           "name": "InterfaceX",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -832,6 +889,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1032,
                                               "end": 1048,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1032,
@@ -848,7 +906,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1034,
                                                     "decorators": [],
                                                     "name": "d1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -857,10 +916,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1045,
                                                     "decorators": [],
                                                     "name": "XisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -888,6 +949,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1077,
                                                         "end": 1101,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 1077,
@@ -898,7 +960,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1090,
                                                             "decorators": [],
                                                             "name": "SubSubModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           },
                                                           "right": {
                                                             "type": "Identifier",
@@ -906,7 +969,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1101,
                                                             "decorators": [],
                                                             "name": "InterfaceX",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -922,6 +986,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1103,
                                               "end": 1119,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1103,
@@ -938,7 +1003,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1105,
                                                     "decorators": [],
                                                     "name": "d2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -947,10 +1013,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1116,
                                                     "decorators": [],
                                                     "name": "XisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             }
                                           ]
@@ -959,7 +1027,9 @@ __ESTREE_TEST__:PASS:
                                         "expression": false,
                                         "generator": false,
                                         "id": null,
-                                        "params": []
+                                        "params": [],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ]
@@ -972,10 +1042,13 @@ __ESTREE_TEST__:PASS:
                                   "end": 132,
                                   "decorators": [],
                                   "name": "ClassA",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "implements": [],
-                                "superClass": null
+                                "superClass": null,
+                                "superTypeArguments": null,
+                                "typeParameters": null
                               },
                               "exportKind": "value",
                               "source": null,
@@ -1009,7 +1082,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 1219,
                                         "decorators": [],
                                         "name": "BisIn1_1_1",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
@@ -1050,13 +1124,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1401,
                                                         "end": 1407,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 1401,
                                                           "end": 1407,
                                                           "decorators": [],
                                                           "name": "ClassA",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -1071,6 +1147,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1409,
                                               "end": 1425,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1409,
@@ -1087,7 +1164,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1411,
                                                     "decorators": [],
                                                     "name": "a1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1096,10 +1174,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1422,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1127,6 +1207,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1454,
                                                         "end": 1474,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 1454,
@@ -1137,7 +1218,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1467,
                                                             "decorators": [],
                                                             "name": "SubSubModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           },
                                                           "right": {
                                                             "type": "Identifier",
@@ -1145,7 +1227,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1474,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1161,6 +1244,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1476,
                                               "end": 1492,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1476,
@@ -1177,7 +1261,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1478,
                                                     "decorators": [],
                                                     "name": "a2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1186,10 +1271,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1489,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1217,6 +1304,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1521,
                                                         "end": 1552,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 1521,
@@ -1231,7 +1319,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 1531,
                                                               "decorators": [],
                                                               "name": "SubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             },
                                                             "right": {
                                                               "type": "Identifier",
@@ -1239,7 +1328,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 1545,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -1248,7 +1338,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1552,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1264,6 +1355,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1554,
                                               "end": 1570,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1554,
@@ -1280,7 +1372,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1556,
                                                     "decorators": [],
                                                     "name": "a3",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1289,10 +1382,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1567,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1320,6 +1415,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1599,
                                                         "end": 1646,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 1599,
@@ -1338,7 +1434,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1614,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -1346,7 +1443,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1625,
                                                                 "decorators": [],
                                                                 "name": "SubModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -1355,7 +1453,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 1639,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -1364,7 +1463,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1646,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1380,6 +1480,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1648,
                                               "end": 1664,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1648,
@@ -1396,7 +1497,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1650,
                                                     "decorators": [],
                                                     "name": "a4",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1405,10 +1507,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1661,
                                                     "decorators": [],
                                                     "name": "AisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1436,13 +1540,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1776,
                                                         "end": 1782,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 1776,
                                                           "end": 1782,
                                                           "decorators": [],
                                                           "name": "ClassB",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -1457,6 +1563,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1784,
                                               "end": 1800,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1784,
@@ -1473,7 +1580,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1786,
                                                     "decorators": [],
                                                     "name": "b1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1482,10 +1590,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1797,
                                                     "decorators": [],
                                                     "name": "BisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1513,6 +1623,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 1829,
                                                         "end": 1876,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 1829,
@@ -1531,7 +1642,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1844,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -1539,7 +1651,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1855,
                                                                 "decorators": [],
                                                                 "name": "SubModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -1548,7 +1661,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 1869,
                                                               "decorators": [],
                                                               "name": "SubSubModule1",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -1557,7 +1671,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 1876,
                                                             "decorators": [],
                                                             "name": "ClassB",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1573,6 +1688,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 1878,
                                               "end": 1894,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 1878,
@@ -1589,7 +1705,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1880,
                                                     "decorators": [],
                                                     "name": "b2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1598,10 +1715,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 1891,
                                                     "decorators": [],
                                                     "name": "BisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1629,6 +1748,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 2002,
                                                         "end": 2049,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 2002,
@@ -1647,7 +1767,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 2017,
                                                                 "decorators": [],
                                                                 "name": "TopLevelModule1",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "right": {
                                                                 "type": "Identifier",
@@ -1655,7 +1776,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 2028,
                                                                 "decorators": [],
                                                                 "name": "SubModule2",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "right": {
@@ -1664,7 +1786,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 2042,
                                                               "decorators": [],
                                                               "name": "SubSubModule2",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -1673,7 +1796,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 2049,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1689,6 +1813,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 2051,
                                               "end": 2067,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 2051,
@@ -1705,7 +1830,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2053,
                                                     "decorators": [],
                                                     "name": "c1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1714,10 +1840,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2064,
                                                     "decorators": [],
                                                     "name": "AisIn1_2_2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1745,6 +1873,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 2096,
                                                         "end": 2129,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 2096,
@@ -1759,7 +1888,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 2111,
                                                               "decorators": [],
                                                               "name": "TopLevelModule2",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             },
                                                             "right": {
                                                               "type": "Identifier",
@@ -1767,7 +1897,8 @@ __ESTREE_TEST__:PASS:
                                                               "end": 2122,
                                                               "decorators": [],
                                                               "name": "SubModule3",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "right": {
@@ -1776,7 +1907,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 2129,
                                                             "decorators": [],
                                                             "name": "ClassA",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1792,6 +1924,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 2131,
                                               "end": 2145,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 2131,
@@ -1808,7 +1941,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2133,
                                                     "decorators": [],
                                                     "name": "c2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1817,10 +1951,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2142,
                                                     "decorators": [],
                                                     "name": "AisIn2_3",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1848,13 +1984,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 2238,
                                                         "end": 2248,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 2238,
                                                           "end": 2248,
                                                           "decorators": [],
                                                           "name": "InterfaceX",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -1869,6 +2007,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 2250,
                                               "end": 2266,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 2250,
@@ -1885,7 +2024,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2252,
                                                     "decorators": [],
                                                     "name": "d1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1894,10 +2034,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2263,
                                                     "decorators": [],
                                                     "name": "XisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1925,6 +2067,7 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 2295,
                                                         "end": 2319,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "TSQualifiedName",
                                                           "start": 2295,
@@ -1935,7 +2078,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 2308,
                                                             "decorators": [],
                                                             "name": "SubSubModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           },
                                                           "right": {
                                                             "type": "Identifier",
@@ -1943,7 +2087,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 2319,
                                                             "decorators": [],
                                                             "name": "InterfaceX",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         }
                                                       }
@@ -1959,6 +2104,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 2321,
                                               "end": 2337,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 2321,
@@ -1975,7 +2121,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2323,
                                                     "decorators": [],
                                                     "name": "d2",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1984,10 +2131,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 2334,
                                                     "decorators": [],
                                                     "name": "XisIn1_1_1",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             }
                                           ]
@@ -1996,7 +2145,9 @@ __ESTREE_TEST__:PASS:
                                         "expression": false,
                                         "generator": false,
                                         "id": null,
-                                        "params": []
+                                        "params": [],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ]
@@ -2009,10 +2160,13 @@ __ESTREE_TEST__:PASS:
                                   "end": 1183,
                                   "decorators": [],
                                   "name": "ClassB",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "implements": [],
-                                "superClass": null
+                                "superClass": null,
+                                "superTypeArguments": null,
+                                "typeParameters": null
                               },
                               "exportKind": "value",
                               "source": null,
@@ -2036,6 +2190,7 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSMethodSignature",
                                       "start": 2412,
                                       "end": 2425,
+                                      "accessibility": null,
                                       "computed": false,
                                       "key": {
                                         "type": "Identifier",
@@ -2043,13 +2198,16 @@ __ESTREE_TEST__:PASS:
                                         "end": 2422,
                                         "decorators": [],
                                         "name": "XisIn1_1_1",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
                                       "params": [],
                                       "readonly": false,
-                                      "static": false
+                                      "returnType": null,
+                                      "static": false,
+                                      "typeParameters": null
                                     }
                                   ]
                                 },
@@ -2061,8 +2219,10 @@ __ESTREE_TEST__:PASS:
                                   "end": 2409,
                                   "decorators": [],
                                   "name": "InterfaceX",
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                },
+                                "typeParameters": null
                               },
                               "exportKind": "type",
                               "source": null,
@@ -2082,6 +2242,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "MethodDefinition",
                                     "start": 2482,
                                     "end": 2976,
+                                    "accessibility": null,
                                     "computed": false,
                                     "decorators": [],
                                     "key": {
@@ -2090,7 +2251,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 2493,
                                       "decorators": [],
                                       "name": "constructor",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "kind": "constructor",
                                     "optional": false,
@@ -2141,6 +2303,7 @@ __ESTREE_TEST__:PASS:
                                                             "type": "TSTypeReference",
                                                             "start": 2630,
                                                             "end": 2677,
+                                                            "typeArguments": null,
                                                             "typeName": {
                                                               "type": "TSQualifiedName",
                                                               "start": 2630,
@@ -2159,7 +2322,8 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 2645,
                                                                     "decorators": [],
                                                                     "name": "TopLevelModule1",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   },
                                                                   "right": {
                                                                     "type": "Identifier",
@@ -2167,7 +2331,8 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 2656,
                                                                     "decorators": [],
                                                                     "name": "SubModule1",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   }
                                                                 },
                                                                 "right": {
@@ -2176,7 +2341,8 @@ __ESTREE_TEST__:PASS:
                                                                   "end": 2670,
                                                                   "decorators": [],
                                                                   "name": "SubSubModule1",
-                                                                  "optional": false
+                                                                  "optional": false,
+                                                                  "typeAnnotation": null
                                                                 }
                                                               },
                                                               "right": {
@@ -2185,7 +2351,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 2677,
                                                                 "decorators": [],
                                                                 "name": "ClassA",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             }
                                                           }
@@ -2201,6 +2368,7 @@ __ESTREE_TEST__:PASS:
                                                   "type": "ExpressionStatement",
                                                   "start": 2679,
                                                   "end": 2695,
+                                                  "directive": null,
                                                   "expression": {
                                                     "type": "CallExpression",
                                                     "start": 2679,
@@ -2217,7 +2385,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2681,
                                                         "decorators": [],
                                                         "name": "a4",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "optional": false,
                                                       "property": {
@@ -2226,10 +2395,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2692,
                                                         "decorators": [],
                                                         "name": "AisIn1_1_1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeArguments": null
                                                   }
                                                 },
                                                 {
@@ -2257,6 +2428,7 @@ __ESTREE_TEST__:PASS:
                                                             "type": "TSTypeReference",
                                                             "start": 2728,
                                                             "end": 2775,
+                                                            "typeArguments": null,
                                                             "typeName": {
                                                               "type": "TSQualifiedName",
                                                               "start": 2728,
@@ -2275,7 +2447,8 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 2743,
                                                                     "decorators": [],
                                                                     "name": "TopLevelModule1",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   },
                                                                   "right": {
                                                                     "type": "Identifier",
@@ -2283,7 +2456,8 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 2754,
                                                                     "decorators": [],
                                                                     "name": "SubModule2",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   }
                                                                 },
                                                                 "right": {
@@ -2292,7 +2466,8 @@ __ESTREE_TEST__:PASS:
                                                                   "end": 2768,
                                                                   "decorators": [],
                                                                   "name": "SubSubModule2",
-                                                                  "optional": false
+                                                                  "optional": false,
+                                                                  "typeAnnotation": null
                                                                 }
                                                               },
                                                               "right": {
@@ -2301,7 +2476,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 2775,
                                                                 "decorators": [],
                                                                 "name": "ClassA",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             }
                                                           }
@@ -2317,6 +2493,7 @@ __ESTREE_TEST__:PASS:
                                                   "type": "ExpressionStatement",
                                                   "start": 2777,
                                                   "end": 2793,
+                                                  "directive": null,
                                                   "expression": {
                                                     "type": "CallExpression",
                                                     "start": 2777,
@@ -2333,7 +2510,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2779,
                                                         "decorators": [],
                                                         "name": "c1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "optional": false,
                                                       "property": {
@@ -2342,10 +2520,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2790,
                                                         "decorators": [],
                                                         "name": "AisIn1_2_2",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeArguments": null
                                                   }
                                                 },
                                                 {
@@ -2373,13 +2553,15 @@ __ESTREE_TEST__:PASS:
                                                             "type": "TSTypeReference",
                                                             "start": 2826,
                                                             "end": 2836,
+                                                            "typeArguments": null,
                                                             "typeName": {
                                                               "type": "Identifier",
                                                               "start": 2826,
                                                               "end": 2836,
                                                               "decorators": [],
                                                               "name": "InterfaceX",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           }
                                                         }
@@ -2394,6 +2576,7 @@ __ESTREE_TEST__:PASS:
                                                   "type": "ExpressionStatement",
                                                   "start": 2838,
                                                   "end": 2854,
+                                                  "directive": null,
                                                   "expression": {
                                                     "type": "CallExpression",
                                                     "start": 2838,
@@ -2410,7 +2593,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2840,
                                                         "decorators": [],
                                                         "name": "d1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "optional": false,
                                                       "property": {
@@ -2419,10 +2603,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2851,
                                                         "decorators": [],
                                                         "name": "XisIn1_1_1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeArguments": null
                                                   }
                                                 },
                                                 {
@@ -2450,6 +2636,7 @@ __ESTREE_TEST__:PASS:
                                                             "type": "TSTypeReference",
                                                             "start": 2887,
                                                             "end": 2920,
+                                                            "typeArguments": null,
                                                             "typeName": {
                                                               "type": "TSQualifiedName",
                                                               "start": 2887,
@@ -2464,7 +2651,8 @@ __ESTREE_TEST__:PASS:
                                                                   "end": 2902,
                                                                   "decorators": [],
                                                                   "name": "TopLevelModule2",
-                                                                  "optional": false
+                                                                  "optional": false,
+                                                                  "typeAnnotation": null
                                                                 },
                                                                 "right": {
                                                                   "type": "Identifier",
@@ -2472,7 +2660,8 @@ __ESTREE_TEST__:PASS:
                                                                   "end": 2913,
                                                                   "decorators": [],
                                                                   "name": "SubModule3",
-                                                                  "optional": false
+                                                                  "optional": false,
+                                                                  "typeAnnotation": null
                                                                 }
                                                               },
                                                               "right": {
@@ -2481,7 +2670,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 2920,
                                                                 "decorators": [],
                                                                 "name": "ClassA",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             }
                                                           }
@@ -2497,6 +2687,7 @@ __ESTREE_TEST__:PASS:
                                                   "type": "ExpressionStatement",
                                                   "start": 2922,
                                                   "end": 2936,
+                                                  "directive": null,
                                                   "expression": {
                                                     "type": "CallExpression",
                                                     "start": 2922,
@@ -2513,7 +2704,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2924,
                                                         "decorators": [],
                                                         "name": "c2",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "optional": false,
                                                       "property": {
@@ -2522,10 +2714,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 2933,
                                                         "decorators": [],
                                                         "name": "AisIn2_3",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeArguments": null
                                                   }
                                                 }
                                               ]
@@ -2539,9 +2733,12 @@ __ESTREE_TEST__:PASS:
                                               "end": 2529,
                                               "decorators": [],
                                               "name": "QQ",
-                                              "optional": false
+                                              "optional": false,
+                                              "typeAnnotation": null
                                             },
-                                            "params": []
+                                            "params": [],
+                                            "returnType": null,
+                                            "typeParameters": null
                                           }
                                         ]
                                       },
@@ -2549,7 +2746,9 @@ __ESTREE_TEST__:PASS:
                                       "expression": false,
                                       "generator": false,
                                       "id": null,
-                                      "params": []
+                                      "params": [],
+                                      "returnType": null,
+                                      "typeParameters": null
                                     }
                                   }
                                 ]
@@ -2562,10 +2761,13 @@ __ESTREE_TEST__:PASS:
                                 "end": 2463,
                                 "decorators": [],
                                 "name": "NonExportedClassQ",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "implements": [],
-                              "superClass": null
+                              "superClass": null,
+                              "superTypeArguments": null,
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -2577,7 +2779,8 @@ __ESTREE_TEST__:PASS:
                           "end": 98,
                           "decorators": [],
                           "name": "SubSubModule1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "module"
                       },
@@ -2599,6 +2802,7 @@ __ESTREE_TEST__:PASS:
                             "type": "MethodDefinition",
                             "start": 3128,
                             "end": 3581,
+                            "accessibility": null,
                             "computed": false,
                             "decorators": [],
                             "key": {
@@ -2607,7 +2811,8 @@ __ESTREE_TEST__:PASS:
                               "end": 3139,
                               "decorators": [],
                               "name": "constructor",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "constructor",
                             "optional": false,
@@ -2658,6 +2863,7 @@ __ESTREE_TEST__:PASS:
                                                     "type": "TSTypeReference",
                                                     "start": 3204,
                                                     "end": 3224,
+                                                    "typeArguments": null,
                                                     "typeName": {
                                                       "type": "TSQualifiedName",
                                                       "start": 3204,
@@ -2668,7 +2874,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3217,
                                                         "decorators": [],
                                                         "name": "SubSubModule1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "right": {
                                                         "type": "Identifier",
@@ -2676,7 +2883,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3224,
                                                         "decorators": [],
                                                         "name": "ClassA",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     }
                                                   }
@@ -2692,6 +2900,7 @@ __ESTREE_TEST__:PASS:
                                           "type": "ExpressionStatement",
                                           "start": 3226,
                                           "end": 3242,
+                                          "directive": null,
                                           "expression": {
                                             "type": "CallExpression",
                                             "start": 3226,
@@ -2708,7 +2917,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3228,
                                                 "decorators": [],
                                                 "name": "a2",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
                                               "optional": false,
                                               "property": {
@@ -2717,10 +2927,12 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3239,
                                                 "decorators": [],
                                                 "name": "AisIn1_1_1",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
-                                            "optional": false
+                                            "optional": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -2748,6 +2960,7 @@ __ESTREE_TEST__:PASS:
                                                     "type": "TSTypeReference",
                                                     "start": 3271,
                                                     "end": 3302,
+                                                    "typeArguments": null,
                                                     "typeName": {
                                                       "type": "TSQualifiedName",
                                                       "start": 3271,
@@ -2762,7 +2975,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 3281,
                                                           "decorators": [],
                                                           "name": "SubModule1",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         },
                                                         "right": {
                                                           "type": "Identifier",
@@ -2770,7 +2984,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 3295,
                                                           "decorators": [],
                                                           "name": "SubSubModule1",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       },
                                                       "right": {
@@ -2779,7 +2994,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3302,
                                                         "decorators": [],
                                                         "name": "ClassA",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     }
                                                   }
@@ -2795,6 +3011,7 @@ __ESTREE_TEST__:PASS:
                                           "type": "ExpressionStatement",
                                           "start": 3304,
                                           "end": 3320,
+                                          "directive": null,
                                           "expression": {
                                             "type": "CallExpression",
                                             "start": 3304,
@@ -2811,7 +3028,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3306,
                                                 "decorators": [],
                                                 "name": "a3",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
                                               "optional": false,
                                               "property": {
@@ -2820,10 +3038,12 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3317,
                                                 "decorators": [],
                                                 "name": "AisIn1_1_1",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
-                                            "optional": false
+                                            "optional": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -2851,6 +3071,7 @@ __ESTREE_TEST__:PASS:
                                                     "type": "TSTypeReference",
                                                     "start": 3349,
                                                     "end": 3396,
+                                                    "typeArguments": null,
                                                     "typeName": {
                                                       "type": "TSQualifiedName",
                                                       "start": 3349,
@@ -2869,7 +3090,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 3364,
                                                             "decorators": [],
                                                             "name": "TopLevelModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           },
                                                           "right": {
                                                             "type": "Identifier",
@@ -2877,7 +3099,8 @@ __ESTREE_TEST__:PASS:
                                                             "end": 3375,
                                                             "decorators": [],
                                                             "name": "SubModule1",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         },
                                                         "right": {
@@ -2886,7 +3109,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 3389,
                                                           "decorators": [],
                                                           "name": "SubSubModule1",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       },
                                                       "right": {
@@ -2895,7 +3119,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3396,
                                                         "decorators": [],
                                                         "name": "ClassA",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     }
                                                   }
@@ -2911,6 +3136,7 @@ __ESTREE_TEST__:PASS:
                                           "type": "ExpressionStatement",
                                           "start": 3398,
                                           "end": 3414,
+                                          "directive": null,
                                           "expression": {
                                             "type": "CallExpression",
                                             "start": 3398,
@@ -2927,7 +3153,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3400,
                                                 "decorators": [],
                                                 "name": "a4",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
                                               "optional": false,
                                               "property": {
@@ -2936,10 +3163,12 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3411,
                                                 "decorators": [],
                                                 "name": "AisIn1_1_1",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
-                                            "optional": false
+                                            "optional": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -2967,6 +3196,7 @@ __ESTREE_TEST__:PASS:
                                                     "type": "TSTypeReference",
                                                     "start": 3507,
                                                     "end": 3531,
+                                                    "typeArguments": null,
                                                     "typeName": {
                                                       "type": "TSQualifiedName",
                                                       "start": 3507,
@@ -2977,7 +3207,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3520,
                                                         "decorators": [],
                                                         "name": "SubSubModule1",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       "right": {
                                                         "type": "Identifier",
@@ -2985,7 +3216,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 3531,
                                                         "decorators": [],
                                                         "name": "InterfaceX",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     }
                                                   }
@@ -3001,6 +3233,7 @@ __ESTREE_TEST__:PASS:
                                           "type": "ExpressionStatement",
                                           "start": 3533,
                                           "end": 3549,
+                                          "directive": null,
                                           "expression": {
                                             "type": "CallExpression",
                                             "start": 3533,
@@ -3017,7 +3250,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3535,
                                                 "decorators": [],
                                                 "name": "d2",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
                                               "optional": false,
                                               "property": {
@@ -3026,10 +3260,12 @@ __ESTREE_TEST__:PASS:
                                                 "end": 3546,
                                                 "decorators": [],
                                                 "name": "XisIn1_1_1",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
-                                            "optional": false
+                                            "optional": false,
+                                            "typeArguments": null
                                           }
                                         }
                                       ]
@@ -3043,9 +3279,12 @@ __ESTREE_TEST__:PASS:
                                       "end": 3171,
                                       "decorators": [],
                                       "name": "AA",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
-                                    "params": []
+                                    "params": [],
+                                    "returnType": null,
+                                    "typeParameters": null
                                   }
                                 ]
                               },
@@ -3053,7 +3292,9 @@ __ESTREE_TEST__:PASS:
                               "expression": false,
                               "generator": false,
                               "id": null,
-                              "params": []
+                              "params": [],
+                              "returnType": null,
+                              "typeParameters": null
                             }
                           }
                         ]
@@ -3066,10 +3307,13 @@ __ESTREE_TEST__:PASS:
                         "end": 3113,
                         "decorators": [],
                         "name": "ClassA",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -3081,7 +3325,8 @@ __ESTREE_TEST__:PASS:
                   "end": 60,
                   "decorators": [],
                   "name": "SubModule1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -3145,7 +3390,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 3793,
                                         "decorators": [],
                                         "name": "AisIn1_2_2",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
@@ -3166,7 +3412,9 @@ __ESTREE_TEST__:PASS:
                                         "expression": false,
                                         "generator": false,
                                         "id": null,
-                                        "params": []
+                                        "params": [],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ]
@@ -3179,10 +3427,13 @@ __ESTREE_TEST__:PASS:
                                   "end": 3773,
                                   "decorators": [],
                                   "name": "ClassA",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "implements": [],
-                                "superClass": null
+                                "superClass": null,
+                                "superTypeArguments": null,
+                                "typeParameters": null
                               },
                               "exportKind": "value",
                               "source": null,
@@ -3216,7 +3467,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 3853,
                                         "decorators": [],
                                         "name": "BisIn1_2_2",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
@@ -3237,7 +3489,9 @@ __ESTREE_TEST__:PASS:
                                         "expression": false,
                                         "generator": false,
                                         "id": null,
-                                        "params": []
+                                        "params": [],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ]
@@ -3250,10 +3504,13 @@ __ESTREE_TEST__:PASS:
                                   "end": 3833,
                                   "decorators": [],
                                   "name": "ClassB",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "implements": [],
-                                "superClass": null
+                                "superClass": null,
+                                "superTypeArguments": null,
+                                "typeParameters": null
                               },
                               "exportKind": "value",
                               "source": null,
@@ -3287,7 +3544,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 3913,
                                         "decorators": [],
                                         "name": "CisIn1_2_2",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
@@ -3308,7 +3566,9 @@ __ESTREE_TEST__:PASS:
                                         "expression": false,
                                         "generator": false,
                                         "id": null,
-                                        "params": []
+                                        "params": [],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ]
@@ -3321,10 +3581,13 @@ __ESTREE_TEST__:PASS:
                                   "end": 3893,
                                   "decorators": [],
                                   "name": "ClassC",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "implements": [],
-                                "superClass": null
+                                "superClass": null,
+                                "superTypeArguments": null,
+                                "typeParameters": null
                               },
                               "exportKind": "value",
                               "source": null,
@@ -3348,6 +3611,7 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSMethodSignature",
                                       "start": 3964,
                                       "end": 3977,
+                                      "accessibility": null,
                                       "computed": false,
                                       "key": {
                                         "type": "Identifier",
@@ -3355,13 +3619,16 @@ __ESTREE_TEST__:PASS:
                                         "end": 3974,
                                         "decorators": [],
                                         "name": "YisIn1_2_2",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "method",
                                       "optional": false,
                                       "params": [],
                                       "readonly": false,
-                                      "static": false
+                                      "returnType": null,
+                                      "static": false,
+                                      "typeParameters": null
                                     }
                                   ]
                                 },
@@ -3373,8 +3640,10 @@ __ESTREE_TEST__:PASS:
                                   "end": 3961,
                                   "decorators": [],
                                   "name": "InterfaceY",
-                                  "optional": false
-                                }
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                },
+                                "typeParameters": null
                               },
                               "exportKind": "type",
                               "source": null,
@@ -3398,8 +3667,10 @@ __ESTREE_TEST__:PASS:
                                 "end": 4023,
                                 "decorators": [],
                                 "name": "NonExportedInterfaceQ",
-                                "optional": false
-                              }
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -3411,7 +3682,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3665,
                           "decorators": [],
                           "name": "SubSubModule2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "module"
                       },
@@ -3437,6 +3709,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSMethodSignature",
                               "start": 4085,
                               "end": 4096,
+                              "accessibility": null,
                               "computed": false,
                               "key": {
                                 "type": "Identifier",
@@ -3444,13 +3717,16 @@ __ESTREE_TEST__:PASS:
                                 "end": 4093,
                                 "decorators": [],
                                 "name": "YisIn1_2",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "method",
                               "optional": false,
                               "params": [],
                               "readonly": false,
-                              "static": false
+                              "returnType": null,
+                              "static": false,
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -3462,8 +3738,10 @@ __ESTREE_TEST__:PASS:
                           "end": 4082,
                           "decorators": [],
                           "name": "InterfaceY",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeParameters": null
                       },
                       "exportKind": "type",
                       "source": null,
@@ -3479,7 +3757,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3627,
                   "decorators": [],
                   "name": "SubModule2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -3510,7 +3789,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4150,
                       "decorators": [],
                       "name": "AisIn1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -3531,7 +3811,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -3544,10 +3826,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4126,
                 "decorators": [],
                 "name": "ClassA",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -3562,6 +3847,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 4199,
                     "end": 4208,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -3569,13 +3855,16 @@ __ESTREE_TEST__:PASS:
                       "end": 4205,
                       "decorators": [],
                       "name": "YisIn1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
                     "params": [],
                     "readonly": false,
-                    "static": false
+                    "returnType": null,
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -3587,8 +3876,10 @@ __ESTREE_TEST__:PASS:
                 "end": 4188,
                 "decorators": [],
                 "name": "InterfaceY",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "TSModuleDeclaration",
@@ -3623,10 +3914,13 @@ __ESTREE_TEST__:PASS:
                         "end": 4278,
                         "decorators": [],
                         "name": "ClassA",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -3642,7 +3936,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4248,
                 "decorators": [],
                 "name": "NotExportedModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             }
@@ -3656,7 +3951,8 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "TopLevelModule1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -3715,7 +4011,8 @@ __ESTREE_TEST__:PASS:
                               "end": 4405,
                               "decorators": [],
                               "name": "AisIn2_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "method",
                             "optional": false,
@@ -3736,7 +4033,9 @@ __ESTREE_TEST__:PASS:
                               "expression": false,
                               "generator": false,
                               "id": null,
-                              "params": []
+                              "params": [],
+                              "returnType": null,
+                              "typeParameters": null
                             }
                           }
                         ]
@@ -3749,10 +4048,13 @@ __ESTREE_TEST__:PASS:
                         "end": 4375,
                         "decorators": [],
                         "name": "ClassA",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -3768,7 +4070,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4345,
                 "decorators": [],
                 "name": "SubModule3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -3786,7 +4089,8 @@ __ESTREE_TEST__:PASS:
         "end": 4314,
         "decorators": [],
         "name": "TopLevelModule2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

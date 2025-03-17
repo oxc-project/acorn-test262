@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 25,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Baz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -71,6 +73,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 40,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 40,
@@ -87,7 +90,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "Baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -96,7 +100,8 @@ __ESTREE_TEST__:PASS:
             "end": 45,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -47,6 +48,7 @@ __ESTREE_TEST__:PASS:
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 10,
@@ -57,6 +59,8 @@ __ESTREE_TEST__:PASS:
             "start": 11,
             "end": 12,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -64,7 +68,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -75,6 +80,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 26,
       "end": 38,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 26,
@@ -94,7 +100,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "typeArguments": {

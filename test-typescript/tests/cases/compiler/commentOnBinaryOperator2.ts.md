@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "BinaryExpression",
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
             "end": 50,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "BinaryExpression",
@@ -107,7 +109,8 @@ __ESTREE_TEST__:PASS:
             "end": 98,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "BinaryExpression",

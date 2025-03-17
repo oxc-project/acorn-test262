@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "start": 15,
             "end": 52,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -76,16 +78,19 @@ __ESTREE_TEST__:PASS:
                   "end": 46,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSDeclareFunction",
             "start": 57,
             "end": 94,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -95,7 +100,8 @@ __ESTREE_TEST__:PASS:
               "end": 67,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -143,10 +149,12 @@ __ESTREE_TEST__:PASS:
                   "end": 88,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "FunctionDeclaration",
@@ -168,7 +176,8 @@ __ESTREE_TEST__:PASS:
               "end": 110,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -216,10 +225,12 @@ __ESTREE_TEST__:PASS:
                   "end": 128,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -231,7 +242,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

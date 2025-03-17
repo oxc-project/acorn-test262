@@ -39,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -121,7 +123,8 @@ __ESTREE_TEST__:PASS:
             "end": 86,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -162,7 +165,8 @@ __ESTREE_TEST__:PASS:
             "end": 116,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -190,7 +194,8 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -202,7 +207,8 @@ __ESTREE_TEST__:PASS:
                 "end": 145,
                 "decorators": [],
                 "name": "readonly",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
@@ -240,7 +246,8 @@ __ESTREE_TEST__:PASS:
               "end": 172,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -252,7 +259,8 @@ __ESTREE_TEST__:PASS:
                 "end": 184,
                 "decorators": [],
                 "name": "override",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
@@ -290,7 +298,8 @@ __ESTREE_TEST__:PASS:
               "end": 211,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -302,7 +311,8 @@ __ESTREE_TEST__:PASS:
                 "end": 218,
                 "decorators": [],
                 "name": "out",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
@@ -340,7 +350,8 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -352,7 +363,8 @@ __ESTREE_TEST__:PASS:
                 "end": 256,
                 "decorators": [],
                 "name": "declare",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",

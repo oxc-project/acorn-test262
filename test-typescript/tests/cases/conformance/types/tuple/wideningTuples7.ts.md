@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -89,7 +90,8 @@ __ESTREE_TEST__:PASS:
                       "end": 82,
                       "decorators": [],
                       "name": "intermediate",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ArrayExpression",
@@ -102,7 +104,8 @@ __ESTREE_TEST__:PASS:
                           "end": 95,
                           "decorators": [],
                           "name": "undefined",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ]
                     }
@@ -119,9 +122,12 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

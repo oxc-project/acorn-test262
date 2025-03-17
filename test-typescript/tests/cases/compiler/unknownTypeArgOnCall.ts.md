@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "clone",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -63,6 +64,7 @@ __ESTREE_TEST__:PASS:
               "generator": false,
               "id": null,
               "params": [],
+              "returnType": null,
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
                 "start": 29,
@@ -73,6 +75,8 @@ __ESTREE_TEST__:PASS:
                     "start": 30,
                     "end": 31,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -80,7 +84,8 @@ __ESTREE_TEST__:PASS:
                       "end": 31,
                       "decorators": [],
                       "name": "U",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -98,10 +103,12 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 9,
@@ -112,6 +119,8 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -119,7 +128,8 @@ __ESTREE_TEST__:PASS:
               "end": 11,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -142,7 +152,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -155,7 +166,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -191,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 92,
             "decorators": [],
             "name": "r",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -209,7 +222,8 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "f",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -218,7 +232,8 @@ __ESTREE_TEST__:PASS:
                 "end": 102,
                 "decorators": [],
                 "name": "clone",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -231,13 +246,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 103,
                   "end": 108,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 103,
                     "end": 108,
                     "decorators": [],
                     "name": "Uhhhh",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]

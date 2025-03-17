@@ -78,10 +78,12 @@ __ESTREE_TEST__:PASS:
                 "end": 61,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "data",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

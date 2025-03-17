@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "_a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -58,10 +59,13 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "MyBrand",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -111,7 +115,8 @@ __ESTREE_TEST__:PASS:
               "end": 106,
               "decorators": [],
               "name": "strInput",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -137,7 +142,8 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -165,20 +171,24 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 76,
                   "end": 83,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 76,
                     "end": 83,
                     "decorators": [],
                     "name": "MyBrand",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

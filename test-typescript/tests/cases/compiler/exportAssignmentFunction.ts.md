@@ -38,9 +38,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
         "end": 42,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "fooFunc",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -132,9 +137,11 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "fooFunc",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

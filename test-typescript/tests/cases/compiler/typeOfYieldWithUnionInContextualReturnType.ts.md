@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 81,
         "decorators": [],
         "name": "SyncSequenceFactory",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -59,11 +60,14 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "Generator",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -76,7 +80,8 @@ __ESTREE_TEST__:PASS:
         "end": 151,
         "decorators": [],
         "name": "AsyncSequenceFactory",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -119,11 +124,14 @@ __ESTREE_TEST__:PASS:
               "end": 174,
               "decorators": [],
               "name": "AsyncGenerator",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
         "end": 221,
         "decorators": [],
         "name": "SequenceFactory",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -147,30 +156,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 224,
             "end": 243,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 224,
               "end": 243,
               "decorators": [],
               "name": "SyncSequenceFactory",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "TSTypeReference",
             "start": 246,
             "end": 266,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 246,
               "end": 266,
               "decorators": [],
               "name": "AsyncSequenceFactory",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -197,13 +211,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 287,
                 "end": 306,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 287,
                   "end": 306,
                   "decorators": [],
                   "name": "SyncSequenceFactory",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -234,7 +250,8 @@ __ESTREE_TEST__:PASS:
                         "end": 333,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -261,6 +278,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 360,
                         "end": 393,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 360,
@@ -272,7 +290,8 @@ __ESTREE_TEST__:PASS:
                             "end": 364,
                             "decorators": [],
                             "name": "name",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "YieldExpression",
@@ -301,7 +320,8 @@ __ESTREE_TEST__:PASS:
                       "end": 353,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "!",
                     "prefix": true
@@ -322,7 +342,8 @@ __ESTREE_TEST__:PASS:
                         "end": 442,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "quasis": [
@@ -355,7 +376,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -387,13 +410,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 469,
                 "end": 489,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 469,
                   "end": 489,
                   "decorators": [],
                   "name": "AsyncSequenceFactory",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -424,7 +449,8 @@ __ESTREE_TEST__:PASS:
                         "end": 522,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -451,6 +477,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 549,
                         "end": 582,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 549,
@@ -462,7 +489,8 @@ __ESTREE_TEST__:PASS:
                             "end": 553,
                             "decorators": [],
                             "name": "name",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "YieldExpression",
@@ -491,7 +519,8 @@ __ESTREE_TEST__:PASS:
                       "end": 542,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "!",
                     "prefix": true
@@ -512,7 +541,8 @@ __ESTREE_TEST__:PASS:
                         "end": 631,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "quasis": [
@@ -545,7 +575,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -577,13 +609,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 663,
                 "end": 678,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 663,
                   "end": 678,
                   "decorators": [],
                   "name": "SequenceFactory",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -614,7 +648,8 @@ __ESTREE_TEST__:PASS:
                         "end": 705,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -641,6 +676,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 732,
                         "end": 765,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 732,
@@ -652,7 +688,8 @@ __ESTREE_TEST__:PASS:
                             "end": 736,
                             "decorators": [],
                             "name": "name",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "YieldExpression",
@@ -681,7 +718,8 @@ __ESTREE_TEST__:PASS:
                       "end": 725,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "!",
                     "prefix": true
@@ -702,7 +740,8 @@ __ESTREE_TEST__:PASS:
                         "end": 814,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "quasis": [
@@ -735,7 +774,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -767,13 +808,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 847,
                 "end": 862,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 847,
                   "end": 862,
                   "decorators": [],
                   "name": "SequenceFactory",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -804,7 +847,8 @@ __ESTREE_TEST__:PASS:
                         "end": 895,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -831,6 +875,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 922,
                         "end": 955,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 922,
@@ -842,7 +887,8 @@ __ESTREE_TEST__:PASS:
                             "end": 926,
                             "decorators": [],
                             "name": "name",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "YieldExpression",
@@ -871,7 +917,8 @@ __ESTREE_TEST__:PASS:
                       "end": 915,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "!",
                     "prefix": true
@@ -892,7 +939,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1004,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "quasis": [
@@ -925,7 +973,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 17,
             "end": 31,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
                 "end": 19,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -33,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "readonly": false,
@@ -59,8 +62,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

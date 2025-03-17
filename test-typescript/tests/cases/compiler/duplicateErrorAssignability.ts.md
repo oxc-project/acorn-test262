@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 18,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,8 +53,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -67,6 +71,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 49,
             "end": 59,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -74,7 +79,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -100,8 +106,10 @@ __ESTREE_TEST__:PASS:
         "end": 42,
         "decorators": [],
         "name": "B",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -128,13 +136,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 78,
                 "end": 79,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 78,
                   "end": 79,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -170,13 +180,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 96,
                 "end": 97,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 96,
                   "end": 97,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -203,7 +215,8 @@ __ESTREE_TEST__:PASS:
             "end": 106,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "AssignmentExpression",
@@ -216,7 +229,8 @@ __ESTREE_TEST__:PASS:
               "end": 110,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -224,7 +238,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -262,6 +277,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 127,
                     "end": 136,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Literal",
@@ -328,6 +344,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 157,
       "end": 164,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 157,
@@ -339,7 +356,8 @@ __ESTREE_TEST__:PASS:
           "end": 160,
           "decorators": [],
           "name": "obj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -348,7 +366,8 @@ __ESTREE_TEST__:PASS:
           "end": 162,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

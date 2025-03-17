@@ -36,8 +36,10 @@ __ESTREE_TEST__:PASS:
                   "end": 23,
                   "decorators": [],
                   "name": "func",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           },
@@ -52,9 +54,11 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "func",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "func",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -99,7 +104,8 @@ __ESTREE_TEST__:PASS:
           "end": 63,
           "decorators": [],
           "name": "func",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -116,10 +122,13 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "func",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -154,8 +163,10 @@ __ESTREE_TEST__:PASS:
                   "end": 123,
                   "decorators": [],
                   "name": "func",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           },
@@ -170,9 +181,11 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "func",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

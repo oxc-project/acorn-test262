@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 17,
             "end": 44,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -55,6 +56,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 49,
             "end": 146,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -83,6 +86,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 85,
                     "end": 105,
+                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 85,
@@ -94,7 +98,8 @@ __ESTREE_TEST__:PASS:
                         "end": 92,
                         "decorators": [],
                         "name": "Derived",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -109,6 +114,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 123,
                     "end": 140,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 123,
@@ -125,7 +131,8 @@ __ESTREE_TEST__:PASS:
                           "end": 127,
                           "decorators": [],
                           "name": "Base",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -166,18 +173,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 66,
                       "end": 73,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 66,
                         "end": 73,
                         "decorators": [],
                         "name": "Derived",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -190,10 +201,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -209,6 +223,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 182,
             "end": 215,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -245,6 +260,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 220,
             "end": 317,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -253,7 +269,8 @@ __ESTREE_TEST__:PASS:
               "end": 233,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -273,6 +290,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 256,
                     "end": 276,
+                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 256,
@@ -284,7 +302,8 @@ __ESTREE_TEST__:PASS:
                         "end": 263,
                         "decorators": [],
                         "name": "Derived",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -299,6 +318,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 285,
                     "end": 302,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 285,
@@ -315,7 +335,8 @@ __ESTREE_TEST__:PASS:
                           "end": 289,
                           "decorators": [],
                           "name": "Base",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -356,18 +377,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 237,
                       "end": 244,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 237,
                         "end": 244,
                         "decorators": [],
                         "name": "Derived",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -380,7 +405,8 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -389,8 +415,11 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -40,13 +40,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 75,
                       "end": 80,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 75,
                         "end": 80,
                         "decorators": [],
                         "name": "yield",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -68,9 +70,12 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -29,10 +29,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -128,11 +132,13 @@ __ESTREE_TEST__:PASS:
               "end": 44,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -174,7 +180,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -183,7 +190,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -218,9 +226,11 @@ __ESTREE_TEST__:PASS:
                   "end": 67,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -234,9 +244,12 @@ __ESTREE_TEST__:PASS:
           "end": 48,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

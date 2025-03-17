@@ -16,13 +16,15 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSStringKeyword",
         "start": 20,
         "end": 26
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -35,13 +37,15 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSNumberKeyword",
         "start": 39,
         "end": 45
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -54,21 +58,25 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "Baz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 66,
         "end": 69,
+        "typeArguments": null,
         "typeName": {
           "type": "Identifier",
           "start": 66,
           "end": 69,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

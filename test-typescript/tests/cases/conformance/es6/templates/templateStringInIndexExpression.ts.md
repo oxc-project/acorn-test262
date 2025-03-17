@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1,
       "end": 19,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 1,

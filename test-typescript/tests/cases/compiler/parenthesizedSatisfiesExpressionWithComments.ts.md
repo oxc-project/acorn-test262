@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -74,7 +75,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",

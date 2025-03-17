@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "resolve",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                   "end": 23,
                   "decorators": [],
                   "name": "id",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
                       "end": 67,
                       "decorators": [],
                       "name": "details",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
                       "end": 70,
                       "decorators": [],
                       "name": "id",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "expression": true,
@@ -95,7 +99,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -109,7 +115,8 @@ __ESTREE_TEST__:PASS:
                   "end": 79,
                   "decorators": [],
                   "name": "id1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -134,7 +141,8 @@ __ESTREE_TEST__:PASS:
                   "end": 106,
                   "decorators": [],
                   "name": "id2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -156,7 +164,8 @@ __ESTREE_TEST__:PASS:
                       "end": 158,
                       "decorators": [],
                       "name": "details",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -165,7 +174,8 @@ __ESTREE_TEST__:PASS:
                       "end": 161,
                       "decorators": [],
                       "name": "id",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "expression": true,
@@ -190,7 +200,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -204,7 +216,8 @@ __ESTREE_TEST__:PASS:
                   "end": 170,
                   "decorators": [],
                   "name": "id3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -226,7 +239,8 @@ __ESTREE_TEST__:PASS:
                       "end": 222,
                       "decorators": [],
                       "name": "details",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -235,7 +249,8 @@ __ESTREE_TEST__:PASS:
                       "end": 225,
                       "decorators": [],
                       "name": "id",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "expression": true,
@@ -260,7 +275,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -274,7 +291,8 @@ __ESTREE_TEST__:PASS:
                   "end": 234,
                   "decorators": [],
                   "name": "id4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -296,7 +314,8 @@ __ESTREE_TEST__:PASS:
                       "end": 299,
                       "decorators": [],
                       "name": "details",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -305,7 +324,8 @@ __ESTREE_TEST__:PASS:
                       "end": 302,
                       "decorators": [],
                       "name": "id",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "expression": true,
@@ -330,7 +350,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

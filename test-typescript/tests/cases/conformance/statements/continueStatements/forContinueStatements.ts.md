@@ -49,7 +49,8 @@ __ESTREE_TEST__:PASS:
                 "end": 62,
                 "decorators": [],
                 "name": "ONE",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "ONE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
                   "end": 109,
                   "decorators": [],
                   "name": "THREE",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -109,7 +112,8 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "decorators": [],
           "name": "THREE",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "label": {
@@ -118,7 +122,8 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "TWO",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -157,7 +162,8 @@ __ESTREE_TEST__:PASS:
                         "end": 179,
                         "decorators": [],
                         "name": "FOUR",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -172,7 +178,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "decorators": [],
                 "name": "FIVE",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -187,7 +194,8 @@ __ESTREE_TEST__:PASS:
         "end": 118,
         "decorators": [],
         "name": "FOUR",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -217,7 +225,8 @@ __ESTREE_TEST__:PASS:
                   "end": 237,
                   "decorators": [],
                   "name": "SIX",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "init": null,
@@ -230,7 +239,8 @@ __ESTREE_TEST__:PASS:
               "end": 209,
               "decorators": [],
               "name": "SIX",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -265,7 +275,8 @@ __ESTREE_TEST__:PASS:
                 "end": 293,
                 "decorators": [],
                 "name": "SEVEN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "init": null,
@@ -286,7 +297,8 @@ __ESTREE_TEST__:PASS:
         "end": 247,
         "decorators": [],
         "name": "SEVEN",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -318,7 +330,8 @@ __ESTREE_TEST__:PASS:
                     "end": 325,
                     "decorators": [],
                     "name": "fn",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "FunctionExpression",
@@ -335,7 +348,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ],
@@ -352,7 +367,8 @@ __ESTREE_TEST__:PASS:
                 "end": 362,
                 "decorators": [],
                 "name": "EIGHT",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -367,7 +383,8 @@ __ESTREE_TEST__:PASS:
         "end": 301,
         "decorators": [],
         "name": "EIGHT",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

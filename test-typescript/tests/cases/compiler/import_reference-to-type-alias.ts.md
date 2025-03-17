@@ -61,7 +61,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 115,
                                 "decorators": [],
                                 "name": "getUserName",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "method",
                               "optional": false,
@@ -105,7 +106,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 119,
                                     "end": 125
                                   }
-                                }
+                                },
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -118,10 +120,13 @@ __ESTREE_TEST__:PASS:
                           "end": 82,
                           "decorators": [],
                           "name": "UserServices",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "implements": [],
-                        "superClass": null
+                        "superClass": null,
+                        "superTypeArguments": null,
+                        "typeParameters": null
                       },
                       "exportKind": "value",
                       "source": null,
@@ -137,7 +142,8 @@ __ESTREE_TEST__:PASS:
                   "end": 46,
                   "decorators": [],
                   "name": "Services",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -155,7 +161,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "App",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -185,7 +192,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "appJs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -211,7 +219,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "Services",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -228,7 +237,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "appJs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -236,7 +246,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "App",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -245,7 +256,8 @@ __ESTREE_TEST__:PASS:
           "end": 69,
           "decorators": [],
           "name": "Services",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -265,7 +277,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -293,7 +306,8 @@ __ESTREE_TEST__:PASS:
                     "end": 91,
                     "decorators": [],
                     "name": "Services",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -302,9 +316,11 @@ __ESTREE_TEST__:PASS:
                     "end": 104,
                     "decorators": [],
                     "name": "UserServices",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -313,10 +329,12 @@ __ESTREE_TEST__:PASS:
                 "end": 118,
                 "decorators": [],
                 "name": "getUserName",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

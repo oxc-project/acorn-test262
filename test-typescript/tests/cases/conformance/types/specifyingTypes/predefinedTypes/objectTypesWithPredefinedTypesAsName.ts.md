@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 68,
         "decorators": [],
         "name": "any",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -48,10 +51,13 @@ __ESTREE_TEST__:PASS:
         "end": 86,
         "decorators": [],
         "name": "number",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -72,10 +78,13 @@ __ESTREE_TEST__:PASS:
         "end": 105,
         "decorators": [],
         "name": "boolean",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -96,10 +105,13 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "bool",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -120,10 +132,13 @@ __ESTREE_TEST__:PASS:
         "end": 171,
         "decorators": [],
         "name": "string",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "f1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -83,13 +84,15 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSTypeReference",
                                       "start": 76,
                                       "end": 77,
+                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 76,
                                         "end": 77,
                                         "decorators": [],
                                         "name": "X",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   }
@@ -104,13 +107,15 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 91,
                             "end": 93,
+                            "directive": null,
                             "expression": {
                               "type": "Identifier",
                               "start": 91,
                               "end": 92,
                               "decorators": [],
                               "name": "a",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -119,6 +124,7 @@ __ESTREE_TEST__:PASS:
                       "generator": false,
                       "id": null,
                       "params": [],
+                      "returnType": null,
                       "typeParameters": {
                         "type": "TSTypeParameterDeclaration",
                         "start": 43,
@@ -129,6 +135,8 @@ __ESTREE_TEST__:PASS:
                             "start": 44,
                             "end": 45,
                             "const": false,
+                            "constraint": null,
+                            "default": null,
                             "in": false,
                             "name": {
                               "type": "Identifier",
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
                               "end": 45,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "out": false
                           },
@@ -145,6 +154,8 @@ __ESTREE_TEST__:PASS:
                             "start": 47,
                             "end": 48,
                             "const": false,
+                            "constraint": null,
+                            "default": null,
                             "in": false,
                             "name": {
                               "type": "Identifier",
@@ -152,7 +163,8 @@ __ESTREE_TEST__:PASS:
                               "end": 48,
                               "decorators": [],
                               "name": "X",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "out": false
                           }
@@ -166,7 +178,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -179,10 +193,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

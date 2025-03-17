@@ -36,6 +36,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 87,
                         "end": 104,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -79,8 +80,10 @@ __ESTREE_TEST__:PASS:
                     "end": 72,
                     "decorators": [],
                     "name": "IntrinsicElements",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -92,7 +95,8 @@ __ESTREE_TEST__:PASS:
               "end": 34,
               "decorators": [],
               "name": "JSX",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -120,6 +125,7 @@ __ESTREE_TEST__:PASS:
         "start": 130,
         "end": 151,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -129,7 +135,8 @@ __ESTREE_TEST__:PASS:
           "end": 142,
           "decorators": [],
           "name": "dom",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -141,7 +148,8 @@ __ESTREE_TEST__:PASS:
             "start": 146,
             "end": 150
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -166,7 +174,8 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -175,7 +184,8 @@ __ESTREE_TEST__:PASS:
             "end": 164,
             "decorators": [],
             "name": "dom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -216,7 +226,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "dom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -225,7 +236,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "dom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -234,6 +246,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 48,
       "end": 55,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 48,
@@ -261,7 +274,8 @@ __ESTREE_TEST__:PASS:
             "end": 50,
             "name": "h"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }
@@ -301,7 +315,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -310,7 +325,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -319,6 +335,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 32,
       "end": 39,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 32,
@@ -346,7 +363,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "name": "h"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

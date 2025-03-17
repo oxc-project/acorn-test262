@@ -27,16 +27,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 32,
                 "end": 33,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 32,
                   "end": 33,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSCallSignatureDeclaration",
@@ -58,13 +61,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 47,
                     "end": 48,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 47,
                       "end": 48,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -79,7 +84,8 @@ __ESTREE_TEST__:PASS:
                 "start": 51,
                 "end": 55
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -91,7 +97,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "Callable",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -103,6 +110,8 @@ __ESTREE_TEST__:PASS:
             "start": 19,
             "end": 20,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -110,7 +119,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -139,7 +149,8 @@ __ESTREE_TEST__:PASS:
             "end": 107,
             "decorators": [],
             "name": "Callable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -150,13 +161,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 108,
                 "end": 109,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 108,
                   "end": 109,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -169,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "CallableExtention",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -181,6 +195,8 @@ __ESTREE_TEST__:PASS:
             "start": 88,
             "end": 89,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -188,7 +204,8 @@ __ESTREE_TEST__:PASS:
               "end": 89,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -232,7 +249,8 @@ __ESTREE_TEST__:PASS:
               "end": 94,
               "decorators": [],
               "name": "callableThing",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -264,7 +282,8 @@ __ESTREE_TEST__:PASS:
                   "end": 113,
                   "decorators": [],
                   "name": "CallableExtention",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -283,7 +302,8 @@ __ESTREE_TEST__:PASS:
               "end": 143,
               "decorators": [],
               "name": "myMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -315,7 +335,8 @@ __ESTREE_TEST__:PASS:
                           "end": 161,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "TSTypeAssertion",
@@ -343,10 +364,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 191,
                                 "decorators": [],
                                 "name": "callableThing",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           },
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
@@ -365,7 +388,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -378,10 +403,13 @@ __ESTREE_TEST__:PASS:
         "end": 67,
         "decorators": [],
         "name": "MyClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

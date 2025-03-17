@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 35,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "toString",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -36,7 +38,8 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 34
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -78,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "mdast",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -91,7 +95,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "toString",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "toString",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -109,19 +115,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 62,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 56,
         "end": 61,
         "decorators": [],
         "name": "mdast",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 63,
       "end": 80,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 63,
@@ -138,7 +147,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "mdast",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -147,10 +157,12 @@ __ESTREE_TEST__:PASS:
             "end": 77,
             "decorators": [],
             "name": "toString",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -169,7 +181,8 @@ __ESTREE_TEST__:PASS:
             "end": 94,
             "decorators": [],
             "name": "mdast2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "AwaitExpression",
@@ -198,6 +211,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 135,
       "end": 153,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 135,
@@ -214,7 +228,8 @@ __ESTREE_TEST__:PASS:
             "end": 141,
             "decorators": [],
             "name": "mdast2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -223,16 +238,19 @@ __ESTREE_TEST__:PASS:
             "end": 150,
             "decorators": [],
             "name": "toString",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 154,
       "end": 169,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 154,
@@ -244,7 +262,8 @@ __ESTREE_TEST__:PASS:
           "end": 160,
           "decorators": [],
           "name": "mdast2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -253,7 +272,8 @@ __ESTREE_TEST__:PASS:
           "end": 168,
           "decorators": [],
           "name": "default",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

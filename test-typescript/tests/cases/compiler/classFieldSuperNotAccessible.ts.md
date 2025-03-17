@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 30,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "field",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 22,
@@ -49,7 +52,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -62,10 +67,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "T",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -81,6 +89,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 58,
             "end": 100,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -89,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 59,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -109,6 +119,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 72,
                     "end": 85,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 72,
@@ -131,10 +142,12 @@ __ESTREE_TEST__:PASS:
                           "end": 83,
                           "decorators": [],
                           "name": "field",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -143,7 +156,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -156,7 +171,8 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "decorators": [],
         "name": "T2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -165,13 +181,17 @@ __ESTREE_TEST__:PASS:
         "end": 51,
         "decorators": [],
         "name": "T",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 104,
       "end": 116,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 104,
@@ -193,8 +213,10 @@ __ESTREE_TEST__:PASS:
               "end": 110,
               "decorators": [],
               "name": "T2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -203,10 +225,12 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -25,9 +25,12 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -71,7 +74,8 @@ __ESTREE_TEST__:PASS:
                     "end": 27,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -107,6 +112,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 38,
       "end": 42,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 38,
@@ -118,7 +124,8 @@ __ESTREE_TEST__:PASS:
           "end": 39,
           "decorators": [],
           "name": "D",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
           "end": 41,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

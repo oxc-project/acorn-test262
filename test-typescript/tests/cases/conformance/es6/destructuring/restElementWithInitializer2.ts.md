@@ -87,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 34,
       "end": 49,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 34,
@@ -113,7 +114,8 @@ __ESTREE_TEST__:PASS:
                   "end": 39,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "right": {
@@ -122,14 +124,19 @@ __ESTREE_TEST__:PASS:
                   "end": 43,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -137,7 +144,8 @@ __ESTREE_TEST__:PASS:
           "end": 48,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

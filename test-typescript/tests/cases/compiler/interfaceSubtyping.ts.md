@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 22,
             "end": 34,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -53,8 +56,10 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "iface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -70,6 +75,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 72,
             "end": 112,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -78,7 +84,8 @@ __ESTREE_TEST__:PASS:
               "end": 83,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -128,13 +135,16 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 117,
             "end": 141,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -143,7 +153,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -177,7 +188,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -190,7 +203,8 @@ __ESTREE_TEST__:PASS:
         "end": 49,
         "decorators": [],
         "name": "Camera",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -203,11 +217,15 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "iface",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

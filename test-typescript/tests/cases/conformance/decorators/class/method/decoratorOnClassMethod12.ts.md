@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 33,
                   "end": 81,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -36,7 +37,8 @@ __ESTREE_TEST__:PASS:
                     "end": 42,
                     "decorators": [],
                     "name": "decorator",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -73,13 +75,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 51,
                             "end": 57,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 51,
                               "end": 57,
                               "decorators": [],
                               "name": "Object",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -112,7 +116,8 @@ __ESTREE_TEST__:PASS:
                         "start": 73,
                         "end": 77
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               ]
@@ -125,10 +130,13 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "S",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -144,6 +152,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 120,
                   "end": 159,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [
                     {
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
                           "end": 137,
                           "decorators": [],
                           "name": "decorator",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -178,7 +188,8 @@ __ESTREE_TEST__:PASS:
                     "end": 153,
                     "decorators": [],
                     "name": "method",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -199,7 +210,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -212,7 +225,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -221,8 +235,11 @@ __ESTREE_TEST__:PASS:
               "end": 109,
               "decorators": [],
               "name": "S",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -234,7 +251,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

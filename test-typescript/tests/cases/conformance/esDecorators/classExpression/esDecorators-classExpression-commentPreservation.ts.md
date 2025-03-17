@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 29,
       "end": 831,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 37,
@@ -57,6 +58,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 83,
               "end": 132,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                     "end": 87,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -82,7 +85,8 @@ __ESTREE_TEST__:PASS:
                     "end": 106,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -92,7 +96,8 @@ __ESTREE_TEST__:PASS:
                 "end": 127,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -113,13 +118,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 148,
               "end": 208,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -132,7 +140,8 @@ __ESTREE_TEST__:PASS:
                     "end": 152,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -145,7 +154,8 @@ __ESTREE_TEST__:PASS:
                     "end": 171,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -155,7 +165,8 @@ __ESTREE_TEST__:PASS:
                 "end": 192,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "get",
               "optional": false,
@@ -189,13 +200,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 225,
               "end": 289,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -208,7 +222,8 @@ __ESTREE_TEST__:PASS:
                     "end": 229,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -221,7 +236,8 @@ __ESTREE_TEST__:PASS:
                     "end": 249,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -231,7 +247,8 @@ __ESTREE_TEST__:PASS:
                 "end": 270,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "set",
               "optional": false,
@@ -271,13 +288,16 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 306,
               "end": 352,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -291,7 +311,8 @@ __ESTREE_TEST__:PASS:
                     "end": 310,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -304,7 +325,8 @@ __ESTREE_TEST__:PASS:
                     "end": 330,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -315,12 +337,14 @@ __ESTREE_TEST__:PASS:
                 "end": 347,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 350,
@@ -333,6 +357,7 @@ __ESTREE_TEST__:PASS:
               "type": "AccessorProperty",
               "start": 369,
               "end": 424,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -346,7 +371,8 @@ __ESTREE_TEST__:PASS:
                     "end": 373,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -359,7 +385,8 @@ __ESTREE_TEST__:PASS:
                     "end": 393,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -370,12 +397,14 @@ __ESTREE_TEST__:PASS:
                 "end": 419,
                 "decorators": [],
                 "name": "z",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 422,
@@ -388,6 +417,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 441,
               "end": 500,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -400,7 +430,8 @@ __ESTREE_TEST__:PASS:
                     "end": 445,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -413,7 +444,8 @@ __ESTREE_TEST__:PASS:
                     "end": 465,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -442,13 +474,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 517,
               "end": 586,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -461,7 +496,8 @@ __ESTREE_TEST__:PASS:
                     "end": 521,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -474,7 +510,8 @@ __ESTREE_TEST__:PASS:
                     "end": 541,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -516,13 +553,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 603,
               "end": 675,
+              "accessibility": null,
               "computed": false,
               "decorators": [
                 {
@@ -535,7 +575,8 @@ __ESTREE_TEST__:PASS:
                     "end": 607,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -548,7 +589,8 @@ __ESTREE_TEST__:PASS:
                     "end": 627,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -596,13 +638,16 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 692,
               "end": 746,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -616,7 +661,8 @@ __ESTREE_TEST__:PASS:
                     "end": 696,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -629,7 +675,8 @@ __ESTREE_TEST__:PASS:
                     "end": 716,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -644,6 +691,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 744,
@@ -656,6 +704,7 @@ __ESTREE_TEST__:PASS:
               "type": "AccessorProperty",
               "start": 763,
               "end": 826,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -669,7 +718,8 @@ __ESTREE_TEST__:PASS:
                     "end": 767,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -682,7 +732,8 @@ __ESTREE_TEST__:PASS:
                     "end": 787,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -697,6 +748,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 824,
@@ -719,7 +771,8 @@ __ESTREE_TEST__:PASS:
               "end": 41,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -732,7 +785,8 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -742,10 +796,13 @@ __ESTREE_TEST__:PASS:
           "end": 66,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     }
   ],

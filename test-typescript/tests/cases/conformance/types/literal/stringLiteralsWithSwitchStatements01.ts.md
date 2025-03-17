@@ -160,13 +160,15 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 134,
               "end": 136,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 134,
                 "end": 135,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -182,7 +184,8 @@ __ESTREE_TEST__:PASS:
             "end": 124,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -192,7 +195,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

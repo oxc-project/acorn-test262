@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 52,
                 "decorators": [],
                 "name": "typ",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSLiteralType",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                   "raw": "1",
                   "value": 1
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -80,13 +82,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 77,
                         "end": 80,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 77,
                           "end": 80,
                           "decorators": [],
                           "name": "typ",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -143,7 +147,8 @@ __ESTREE_TEST__:PASS:
                     "end": 121,
                     "decorators": [],
                     "name": "val",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -171,7 +176,8 @@ __ESTREE_TEST__:PASS:
         "end": 104,
         "decorators": [],
         "name": "valueModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -200,7 +206,8 @@ __ESTREE_TEST__:PASS:
                 "end": 171,
                 "decorators": [],
                 "name": "typ",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSLiteralType",
@@ -213,7 +220,8 @@ __ESTREE_TEST__:PASS:
                   "raw": "1",
                   "value": 1
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -229,7 +237,8 @@ __ESTREE_TEST__:PASS:
         "end": 153,
         "decorators": [],
         "name": "namespaceModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -244,7 +253,8 @@ __ESTREE_TEST__:PASS:
         "end": 209,
         "decorators": [],
         "name": "GlobalBad1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -272,10 +282,13 @@ __ESTREE_TEST__:PASS:
             "end": 230,
             "decorators": [],
             "name": "globalThis",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -288,7 +301,8 @@ __ESTREE_TEST__:PASS:
         "end": 267,
         "decorators": [],
         "name": "GlobalOk1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -316,10 +330,13 @@ __ESTREE_TEST__:PASS:
             "end": 288,
             "decorators": [],
             "name": "globalThis",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -332,12 +349,14 @@ __ESTREE_TEST__:PASS:
         "end": 319,
         "decorators": [],
         "name": "GlobalOk2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 322,
         "end": 352,
+        "typeArguments": null,
         "typeName": {
           "type": "TSQualifiedName",
           "start": 322,
@@ -352,7 +371,8 @@ __ESTREE_TEST__:PASS:
               "end": 332,
               "decorators": [],
               "name": "globalThis",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -360,7 +380,8 @@ __ESTREE_TEST__:PASS:
               "end": 348,
               "decorators": [],
               "name": "namespaceModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "right": {
@@ -369,10 +390,12 @@ __ESTREE_TEST__:PASS:
             "end": 352,
             "decorators": [],
             "name": "typ",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -421,8 +444,10 @@ __ESTREE_TEST__:PASS:
                     "end": 383,
                     "decorators": [],
                     "name": "globalThis",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             }

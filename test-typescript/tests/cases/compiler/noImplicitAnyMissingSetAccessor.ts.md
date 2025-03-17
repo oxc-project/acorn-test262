@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 81,
               "decorators": [],
               "name": "message",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -44,7 +45,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -57,10 +60,13 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "Parent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -85,7 +91,8 @@ __ESTREE_TEST__:PASS:
               "end": 139,
               "decorators": [],
               "name": "message",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -119,7 +126,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -132,7 +141,8 @@ __ESTREE_TEST__:PASS:
         "end": 99,
         "decorators": [],
         "name": "Child",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -141,8 +151,11 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "Parent",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

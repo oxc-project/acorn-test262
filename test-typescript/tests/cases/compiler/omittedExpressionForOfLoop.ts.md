@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
               "elements": [
                 null
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "doesNotExist",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -80,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "elements": [
                 null
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -94,7 +97,8 @@ __ESTREE_TEST__:PASS:
         "end": 64,
         "decorators": [],
         "name": "undefined",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -126,7 +130,8 @@ __ESTREE_TEST__:PASS:
               "elements": [
                 null
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -168,7 +173,8 @@ __ESTREE_TEST__:PASS:
               "end": 111,
               "decorators": [],
               "elements": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

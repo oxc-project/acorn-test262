@@ -66,13 +66,16 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

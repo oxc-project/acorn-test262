@@ -37,8 +37,10 @@ __ESTREE_TEST__:PASS:
                 "end": 32,
                 "decorators": [],
                 "name": "I1",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -67,7 +69,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "I2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -79,6 +82,8 @@ __ESTREE_TEST__:PASS:
                     "start": 58,
                     "end": 59,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -86,7 +91,8 @@ __ESTREE_TEST__:PASS:
                       "end": 59,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -107,7 +113,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -130,7 +137,8 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -144,7 +152,8 @@ __ESTREE_TEST__:PASS:
           "end": 84,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -153,9 +162,12 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "I1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -176,7 +188,8 @@ __ESTREE_TEST__:PASS:
         "end": 99,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -190,7 +203,8 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -199,7 +213,8 @@ __ESTREE_TEST__:PASS:
           "end": 115,
           "decorators": [],
           "name": "I2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -211,13 +226,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 116,
             "end": 117,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 116,
               "end": 117,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -232,6 +249,8 @@ __ESTREE_TEST__:PASS:
             "start": 100,
             "end": 101,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -239,7 +258,8 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -292,8 +312,10 @@ __ESTREE_TEST__:PASS:
                         "end": 183,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -309,7 +331,8 @@ __ESTREE_TEST__:PASS:
                 "end": 160,
                 "decorators": [],
                 "name": "Nested",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "namespace"
             },
@@ -327,7 +350,8 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "Mod",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -350,7 +374,8 @@ __ESTREE_TEST__:PASS:
         "end": 200,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -369,7 +394,8 @@ __ESTREE_TEST__:PASS:
             "end": 212,
             "decorators": [],
             "name": "Mod",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -378,7 +404,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "Nested",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "optional": false,
@@ -388,9 +415,12 @@ __ESTREE_TEST__:PASS:
           "end": 221,
           "decorators": [],
           "name": "I",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

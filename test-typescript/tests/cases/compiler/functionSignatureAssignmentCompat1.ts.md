@@ -65,7 +65,8 @@ __ESTREE_TEST__:PASS:
                 "start": 67,
                 "end": 71
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -77,8 +78,10 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "ParserFunc",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -93,6 +96,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 99,
             "end": 115,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -100,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "raw",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -113,13 +118,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 104,
                 "end": 114,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 104,
                   "end": 114,
                   "decorators": [],
                   "name": "ParserFunc",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -128,6 +135,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 120,
             "end": 161,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -135,7 +143,8 @@ __ESTREE_TEST__:PASS:
               "end": 128,
               "decorators": [],
               "name": "readline",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -168,17 +177,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 150,
                 "end": 160,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 150,
                   "end": 160,
                   "decorators": [],
                   "name": "ParserFunc",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -190,8 +202,10 @@ __ESTREE_TEST__:PASS:
         "end": 92,
         "decorators": [],
         "name": "Parsers",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -218,13 +232,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 177,
                 "end": 184,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 177,
                   "end": 184,
                   "decorators": [],
                   "name": "Parsers",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -260,13 +276,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 193,
                 "end": 203,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 193,
                   "end": 203,
                   "decorators": [],
                   "name": "ParserFunc",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -282,7 +300,8 @@ __ESTREE_TEST__:PASS:
               "end": 213,
               "decorators": [],
               "name": "parsers",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -291,7 +310,8 @@ __ESTREE_TEST__:PASS:
               "end": 217,
               "decorators": [],
               "name": "raw",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -324,13 +344,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 233,
                 "end": 243,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 233,
                   "end": 243,
                   "decorators": [],
                   "name": "ParserFunc",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -346,7 +368,8 @@ __ESTREE_TEST__:PASS:
               "end": 253,
               "decorators": [],
               "name": "parsers",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -355,7 +378,8 @@ __ESTREE_TEST__:PASS:
               "end": 262,
               "decorators": [],
               "name": "readline",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -388,13 +412,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 281,
                 "end": 291,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 281,
                   "end": 291,
                   "decorators": [],
                   "name": "ParserFunc",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -415,7 +441,8 @@ __ESTREE_TEST__:PASS:
                 "end": 301,
                 "decorators": [],
                 "name": "parsers",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -424,10 +451,12 @@ __ESTREE_TEST__:PASS:
                 "end": 310,
                 "decorators": [],
                 "name": "readline",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

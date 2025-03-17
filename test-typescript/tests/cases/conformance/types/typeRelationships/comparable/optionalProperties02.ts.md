@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 20,
             "end": 31,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 21,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 36,
             "end": 46,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 37,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -78,13 +82,16 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 72,
+      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 50,
@@ -105,7 +112,8 @@ __ESTREE_TEST__:PASS:
                 "end": 58,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -117,7 +125,8 @@ __ESTREE_TEST__:PASS:
                 "end": 69,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -126,13 +135,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 51,
           "end": 54,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 51,
             "end": 54,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

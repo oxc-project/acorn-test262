@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -49,7 +50,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -62,10 +65,13 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "c5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -85,7 +91,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "c5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -112,7 +119,8 @@ __ESTREE_TEST__:PASS:
               "end": 104,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -133,7 +141,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -146,10 +156,13 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "c5a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -176,7 +189,8 @@ __ESTREE_TEST__:PASS:
                   "end": 131,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -200,7 +214,8 @@ __ESTREE_TEST__:PASS:
         "end": 123,
         "decorators": [],
         "name": "c5a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -227,7 +242,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -248,7 +264,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -261,10 +279,13 @@ __ESTREE_TEST__:PASS:
         "end": 165,
         "decorators": [],
         "name": "c5b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -296,7 +317,8 @@ __ESTREE_TEST__:PASS:
                     "end": 212,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -324,7 +346,8 @@ __ESTREE_TEST__:PASS:
         "end": 197,
         "decorators": [],
         "name": "c5b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -351,7 +374,8 @@ __ESTREE_TEST__:PASS:
               "end": 282,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -372,7 +396,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -385,10 +411,13 @@ __ESTREE_TEST__:PASS:
         "end": 269,
         "decorators": [],
         "name": "c5c",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

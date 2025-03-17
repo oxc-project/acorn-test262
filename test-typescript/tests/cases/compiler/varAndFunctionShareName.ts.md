@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "myFn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "myFn",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
           "start": 27,
           "end": 30
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

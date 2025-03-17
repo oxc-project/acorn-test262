@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "sinOrCos",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "BinaryExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                   "end": 40,
                   "decorators": [],
                   "name": "Math",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -53,10 +55,12 @@ __ESTREE_TEST__:PASS:
                   "end": 47,
                   "decorators": [],
                   "name": "random",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "right": {
               "type": "Literal",
@@ -87,7 +91,8 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "choice",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
                 "end": 77,
                 "decorators": [],
                 "name": "sinOrCos",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "MemberExpression",
@@ -118,7 +124,8 @@ __ESTREE_TEST__:PASS:
                   "end": 85,
                   "decorators": [],
                   "name": "Math",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
                   "end": 89,
                   "decorators": [],
                   "name": "sin",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -142,7 +150,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -151,7 +160,8 @@ __ESTREE_TEST__:PASS:
                 "end": 101,
                 "decorators": [],
                 "name": "cos",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -164,6 +174,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 104,
       "end": 120,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 104,
@@ -180,7 +191,8 @@ __ESTREE_TEST__:PASS:
               "end": 115,
               "decorators": [],
               "name": "Math",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -189,7 +201,8 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "PI",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -199,9 +212,11 @@ __ESTREE_TEST__:PASS:
           "end": 110,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -230,7 +245,8 @@ __ESTREE_TEST__:PASS:
                   "end": 165,
                   "decorators": [],
                   "name": "r",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "LogicalExpression",
@@ -253,7 +269,8 @@ __ESTREE_TEST__:PASS:
                         "end": 169,
                         "decorators": [],
                         "name": "n",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -261,7 +278,8 @@ __ESTREE_TEST__:PASS:
                         "end": 183,
                         "decorators": [],
                         "name": "undefined",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "right": {
@@ -275,7 +293,8 @@ __ESTREE_TEST__:PASS:
                         "end": 188,
                         "decorators": [],
                         "name": "n",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -283,7 +302,8 @@ __ESTREE_TEST__:PASS:
                         "end": 190,
                         "decorators": [],
                         "name": "n",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -310,7 +330,8 @@ __ESTREE_TEST__:PASS:
               "end": 207,
               "decorators": [],
               "name": "r",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -324,7 +345,8 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "sq",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -355,12 +377,14 @@ __ESTREE_TEST__:PASS:
           "start": 147,
           "end": 153
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 212,
       "end": 218,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 212,
@@ -380,9 +404,11 @@ __ESTREE_TEST__:PASS:
           "end": 214,
           "decorators": [],
           "name": "sq",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

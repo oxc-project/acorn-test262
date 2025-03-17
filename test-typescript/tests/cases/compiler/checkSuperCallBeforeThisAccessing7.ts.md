@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 53,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -73,20 +75,25 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 40,
                           "end": 44,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 40,
                             "end": 44,
                             "decorators": [],
                             "name": "Base",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -99,10 +106,13 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -118,6 +128,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 87,
             "end": 149,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -126,7 +137,8 @@ __ESTREE_TEST__:PASS:
               "end": 98,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -146,6 +158,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 111,
                     "end": 131,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 111,
@@ -164,7 +177,9 @@ __ESTREE_TEST__:PASS:
                           "expression": true,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       ],
                       "callee": {
@@ -172,7 +187,8 @@ __ESTREE_TEST__:PASS:
                         "start": 111,
                         "end": 116
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -181,7 +197,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -194,7 +212,8 @@ __ESTREE_TEST__:PASS:
         "end": 67,
         "decorators": [],
         "name": "Super",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -203,8 +222,11 @@ __ESTREE_TEST__:PASS:
         "end": 80,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

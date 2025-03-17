@@ -35,12 +35,14 @@ __ESTREE_TEST__:PASS:
                 "end": 36,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             }
           ]
@@ -53,10 +55,13 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -98,7 +103,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -107,7 +113,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -142,8 +149,10 @@ __ESTREE_TEST__:PASS:
                   "end": 65,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           ]
@@ -157,9 +166,12 @@ __ESTREE_TEST__:PASS:
           "end": 46,
           "decorators": [],
           "name": "makeC",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -201,7 +213,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "makeC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -210,7 +223,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "makeC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -236,7 +250,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -249,9 +264,11 @@ __ESTREE_TEST__:PASS:
                 "end": 55,
                 "decorators": [],
                 "name": "makeC",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],

@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 99,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "dec",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -37,13 +39,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 29,
               "end": 37,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 29,
                 "end": 37,
                 "decorators": [],
                 "name": "Function",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
           "start": 94,
           "end": 98
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -122,6 +127,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 115,
             "end": 145,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -130,7 +136,8 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -167,7 +174,8 @@ __ESTREE_TEST__:PASS:
                         "end": 131,
                         "decorators": [],
                         "name": "dec",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -184,7 +192,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -197,10 +207,13 @@ __ESTREE_TEST__:PASS:
         "end": 108,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

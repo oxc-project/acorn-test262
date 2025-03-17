@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -39,9 +40,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ImportDeclaration",
@@ -67,7 +71,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -76,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -109,7 +116,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -130,7 +138,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -163,7 +172,8 @@ __ESTREE_TEST__:PASS:
             "end": 98,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -172,7 +182,8 @@ __ESTREE_TEST__:PASS:
             "end": 93,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractPropertyDefinition",
             "start": 23,
             "end": 43,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -62,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 65,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 100,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -128,7 +132,8 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "w",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -150,6 +155,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractPropertyDefinition",
             "start": 153,
             "end": 176,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -160,7 +166,8 @@ __ESTREE_TEST__:PASS:
               "end": 163,
               "decorators": [],
               "name": "m",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -184,7 +191,8 @@ __ESTREE_TEST__:PASS:
                     "start": 171,
                     "end": 175
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             "value": null
@@ -193,6 +201,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractMethodDefinition",
             "start": 187,
             "end": 213,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -201,7 +210,8 @@ __ESTREE_TEST__:PASS:
               "end": 201,
               "decorators": [],
               "name": "foo_x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -227,7 +237,8 @@ __ESTREE_TEST__:PASS:
                   "start": 206,
                   "end": 212
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -243,7 +254,8 @@ __ESTREE_TEST__:PASS:
               "end": 239,
               "decorators": [],
               "name": "foo_y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -269,7 +281,8 @@ __ESTREE_TEST__:PASS:
                   "start": 244,
                   "end": 250
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -285,7 +298,8 @@ __ESTREE_TEST__:PASS:
               "end": 280,
               "decorators": [],
               "name": "foo_z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -311,7 +325,8 @@ __ESTREE_TEST__:PASS:
                   "start": 285,
                   "end": 291
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -327,7 +342,8 @@ __ESTREE_TEST__:PASS:
               "end": 319,
               "decorators": [],
               "name": "foo_w",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -353,7 +369,8 @@ __ESTREE_TEST__:PASS:
                   "start": 324,
                   "end": 330
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -366,10 +383,13 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

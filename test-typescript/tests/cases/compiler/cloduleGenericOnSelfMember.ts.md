@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 27,
             "end": 36,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "field",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -43,13 +45,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 34,
                 "end": 35,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 34,
                   "end": 35,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -65,10 +69,12 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "ServiceBase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 17,
@@ -79,6 +85,8 @@ __ESTREE_TEST__:PASS:
             "start": 18,
             "end": 19,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -86,7 +94,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
         "end": 52,
         "decorators": [],
         "name": "Service",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -121,7 +131,8 @@ __ESTREE_TEST__:PASS:
         "end": 72,
         "decorators": [],
         "name": "ServiceBase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -142,7 +153,8 @@ __ESTREE_TEST__:PASS:
                 "end": 87,
                 "decorators": [],
                 "name": "Service",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -150,12 +162,15 @@ __ESTREE_TEST__:PASS:
                 "end": 92,
                 "decorators": [],
                 "name": "Base",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -187,7 +202,8 @@ __ESTREE_TEST__:PASS:
                     "end": 139,
                     "decorators": [],
                     "name": "Base",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -205,7 +221,8 @@ __ESTREE_TEST__:PASS:
                           "end": 156,
                           "decorators": [],
                           "name": "name",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -230,7 +247,8 @@ __ESTREE_TEST__:PASS:
                           "end": 176,
                           "decorators": [],
                           "name": "value",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -265,7 +283,8 @@ __ESTREE_TEST__:PASS:
         "end": 115,
         "decorators": [],
         "name": "Service",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

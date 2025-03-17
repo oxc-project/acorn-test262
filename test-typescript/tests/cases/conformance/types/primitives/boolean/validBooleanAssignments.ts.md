@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -101,13 +103,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 38,
                 "end": 44,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 38,
                   "end": 44,
                   "decorators": [],
                   "name": "Object",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -118,7 +122,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -150,13 +155,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 57,
                 "end": 64,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 57,
                   "end": 64,
                   "decorators": [],
                   "name": "Boolean",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -167,7 +174,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -208,7 +216,8 @@ __ESTREE_TEST__:PASS:
             "end": 88,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

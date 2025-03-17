@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 41,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "getSpecifier",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -31,7 +33,8 @@ __ESTREE_TEST__:PASS:
           "start": 33,
           "end": 40
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 123,
       "end": 146,
+      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 123,
@@ -87,9 +91,11 @@ __ESTREE_TEST__:PASS:
             "end": 142,
             "decorators": [],
             "name": "getSpecifier",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -109,7 +115,8 @@ __ESTREE_TEST__:PASS:
             "end": 153,
             "decorators": [],
             "name": "p1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ImportExpression",
@@ -127,9 +134,11 @@ __ESTREE_TEST__:PASS:
                 "end": 175,
                 "decorators": [],
                 "name": "getSpecifier",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         }
@@ -153,7 +162,8 @@ __ESTREE_TEST__:PASS:
             "end": 188,
             "decorators": [],
             "name": "p2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ImportExpression",
@@ -182,9 +192,11 @@ __ESTREE_TEST__:PASS:
                   "end": 223,
                   "decorators": [],
                   "name": "getSpecifier",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "test": {
                 "type": "Identifier",
@@ -192,7 +204,8 @@ __ESTREE_TEST__:PASS:
                 "end": 208,
                 "decorators": [],
                 "name": "whatToLoad",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -205,6 +218,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 242,
       "end": 306,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 242,
@@ -240,7 +254,8 @@ __ESTREE_TEST__:PASS:
                         "end": 275,
                         "decorators": [],
                         "name": "zero",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -249,10 +264,12 @@ __ESTREE_TEST__:PASS:
                         "end": 279,
                         "decorators": [],
                         "name": "foo",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -267,9 +284,12 @@ __ESTREE_TEST__:PASS:
                 "end": 254,
                 "decorators": [],
                 "name": "zero",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -283,7 +303,8 @@ __ESTREE_TEST__:PASS:
             "end": 244,
             "decorators": [],
             "name": "p1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -292,10 +313,12 @@ __ESTREE_TEST__:PASS:
             "end": 249,
             "decorators": [],
             "name": "then",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -314,7 +337,8 @@ __ESTREE_TEST__:PASS:
             "end": 314,
             "decorators": [],
             "name": "p3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ImportExpression",
@@ -364,7 +388,8 @@ __ESTREE_TEST__:PASS:
             "end": 351,
             "decorators": [],
             "name": "p4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ImportExpression",
@@ -386,7 +411,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         }

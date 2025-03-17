@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "N",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -60,7 +61,8 @@ __ESTREE_TEST__:PASS:
                 "end": 58,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                 "end": 62,
                 "decorators": [],
                 "name": "N",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "value",
@@ -86,7 +89,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -100,7 +104,8 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "r",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -113,7 +118,8 @@ __ESTREE_TEST__:PASS:
           "end": 79,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -121,7 +127,8 @@ __ESTREE_TEST__:PASS:
           "end": 81,
           "decorators": [],
           "name": "X",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

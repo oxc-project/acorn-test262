@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 70,
             "end": 238,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 74,
@@ -49,6 +52,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 110,
                     "end": 134,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 110,
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
                             "end": 123,
                             "decorators": [],
                             "name": "Promise",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -78,10 +83,12 @@ __ESTREE_TEST__:PASS:
                             "end": 131,
                             "decorators": [],
                             "name": "resolve",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -101,7 +108,8 @@ __ESTREE_TEST__:PASS:
                           "end": 152,
                           "decorators": [],
                           "name": "obj",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ObjectExpression",
@@ -137,7 +145,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": true,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -163,7 +173,8 @@ __ESTREE_TEST__:PASS:
                     "end": 88,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -181,9 +192,12 @@ __ESTREE_TEST__:PASS:
                         "end": 93
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -196,10 +210,13 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33,
                 "decorators": [],
                 "name": "e",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "e",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -88,9 +90,12 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "CustomTag",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 22,
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 32,
             "name": "CustomTag"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

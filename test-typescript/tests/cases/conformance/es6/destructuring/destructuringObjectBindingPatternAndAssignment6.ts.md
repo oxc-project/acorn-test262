@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                   "end": 41,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -105,7 +108,8 @@ __ESTREE_TEST__:PASS:
                   "end": 48,
                   "decorators": [],
                   "name": "aVal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -119,7 +123,8 @@ __ESTREE_TEST__:PASS:
                   "end": 52,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -131,10 +136,12 @@ __ESTREE_TEST__:PASS:
                   "end": 59,
                   "decorators": [],
                   "name": "bVal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -171,7 +178,8 @@ __ESTREE_TEST__:PASS:
                             "end": 85,
                             "decorators": [],
                             "name": "a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -196,7 +204,8 @@ __ESTREE_TEST__:PASS:
                             "end": 93,
                             "decorators": [],
                             "name": "b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -218,9 +227,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -231,6 +243,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 107,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 107,
@@ -242,7 +255,8 @@ __ESTREE_TEST__:PASS:
             "end": 123,
             "decorators": [],
             "name": "aVal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -250,7 +264,8 @@ __ESTREE_TEST__:PASS:
             "end": 129,
             "decorators": [],
             "name": "bVal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -264,7 +279,8 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -273,10 +289,12 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

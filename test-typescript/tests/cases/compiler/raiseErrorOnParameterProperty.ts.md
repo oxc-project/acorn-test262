@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 13,
             "end": 43,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -71,13 +73,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 35,
                         "end": 36,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 35,
                           "end": 36,
                           "decorators": [],
                           "name": "X",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -85,7 +89,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -98,10 +104,13 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -119,7 +128,8 @@ __ESTREE_TEST__:PASS:
             "end": 52,
             "decorators": [],
             "name": "c1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -140,8 +150,10 @@ __ESTREE_TEST__:PASS:
               "end": 61,
               "decorators": [],
               "name": "C1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],

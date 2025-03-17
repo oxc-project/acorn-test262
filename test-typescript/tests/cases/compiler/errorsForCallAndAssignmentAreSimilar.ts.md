@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "Disc",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSUnionType",
@@ -42,6 +43,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 57,
                       "end": 70,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -49,7 +51,8 @@ __ESTREE_TEST__:PASS:
                         "end": 61,
                         "decorators": [],
                         "name": "kind",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -83,6 +86,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 85,
                       "end": 99,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
                         "end": 89,
                         "decorators": [],
                         "name": "kind",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -116,7 +121,8 @@ __ESTREE_TEST__:PASS:
                   ]
                 }
               ]
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "FunctionDeclaration",
@@ -138,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 119,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -160,24 +167,29 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 123,
                       "end": 127,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 123,
                         "end": 127,
                         "decorators": [],
                         "name": "Disc",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "ExpressionStatement",
             "start": 144,
             "end": 213,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 144,
@@ -204,7 +216,8 @@ __ESTREE_TEST__:PASS:
                             "end": 164,
                             "decorators": [],
                             "name": "kind",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -236,7 +249,8 @@ __ESTREE_TEST__:PASS:
                             "end": 193,
                             "decorators": [],
                             "name": "kind",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -261,9 +275,11 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -295,13 +311,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 229,
                         "end": 233,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 229,
                           "end": 233,
                           "decorators": [],
                           "name": "Disc",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -328,7 +346,8 @@ __ESTREE_TEST__:PASS:
                             "end": 254,
                             "decorators": [],
                             "name": "kind",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -360,7 +379,8 @@ __ESTREE_TEST__:PASS:
                             "end": 283,
                             "decorators": [],
                             "name": "kind",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -394,9 +414,12 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "minimalExample1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

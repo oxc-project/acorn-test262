@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 22,
             "end": 31,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -33,6 +34,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 29,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 36,
             "end": 52,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -59,6 +62,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 50,
@@ -71,6 +75,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 57,
             "end": 238,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -79,7 +84,8 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "decorators": [],
               "name": "accessChildProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -99,6 +105,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 86,
                     "end": 111,
+                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 86,
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
                           "end": 95,
                           "decorators": [],
                           "name": "Child",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
@@ -143,6 +151,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 195,
                     "end": 206,
+                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 195,
@@ -154,7 +163,8 @@ __ESTREE_TEST__:PASS:
                         "end": 200,
                         "decorators": [],
                         "name": "Child",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -171,7 +181,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -184,10 +196,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "Parent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 12,
@@ -198,6 +212,8 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -205,7 +221,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -226,6 +243,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 281,
             "end": 294,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -240,6 +258,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 288,
@@ -252,6 +271,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 384,
             "end": 397,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -266,6 +286,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 391,
@@ -284,7 +305,8 @@ __ESTREE_TEST__:PASS:
         "end": 253,
         "decorators": [],
         "name": "Child",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -293,7 +315,8 @@ __ESTREE_TEST__:PASS:
         "end": 271,
         "decorators": [],
         "name": "Parent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -304,13 +327,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 272,
             "end": 273,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 272,
               "end": 273,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -325,6 +350,8 @@ __ESTREE_TEST__:PASS:
             "start": 254,
             "end": 255,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -332,7 +359,8 @@ __ESTREE_TEST__:PASS:
               "end": 255,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -343,6 +371,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 413,
       "end": 453,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 413,
@@ -364,7 +393,8 @@ __ESTREE_TEST__:PASS:
               "end": 423,
               "decorators": [],
               "name": "Parent",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -386,10 +416,12 @@ __ESTREE_TEST__:PASS:
             "end": 450,
             "decorators": [],
             "name": "accessChildProps",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

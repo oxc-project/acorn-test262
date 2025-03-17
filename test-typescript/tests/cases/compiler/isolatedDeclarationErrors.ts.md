@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 35,
         "decorators": [],
         "name": "errorOnAssignmentBelowDecl",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -37,12 +38,14 @@ __ESTREE_TEST__:PASS:
           "start": 39,
           "end": 43
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 81,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 47,
@@ -59,7 +62,8 @@ __ESTREE_TEST__:PASS:
             "end": 73,
             "decorators": [],
             "name": "errorOnAssignmentBelowDecl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
             "end": 75,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -96,7 +101,8 @@ __ESTREE_TEST__:PASS:
             "end": 111,
             "decorators": [],
             "name": "errorOnAssignmentBelow",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -122,7 +128,8 @@ __ESTREE_TEST__:PASS:
                 "start": 118,
                 "end": 122
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -133,6 +140,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 129,
       "end": 159,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 129,
@@ -149,7 +157,8 @@ __ESTREE_TEST__:PASS:
             "end": 151,
             "decorators": [],
             "name": "errorOnAssignmentBelow",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -158,7 +167,8 @@ __ESTREE_TEST__:PASS:
             "end": 153,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -186,7 +196,8 @@ __ESTREE_TEST__:PASS:
             "end": 187,
             "decorators": [],
             "name": "errorOnMissingReturn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -202,7 +213,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -213,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 199,
       "end": 227,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 199,
@@ -229,7 +243,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "errorOnMissingReturn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -238,7 +253,8 @@ __ESTREE_TEST__:PASS:
             "end": 221,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

@@ -24,10 +24,12 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 7,
@@ -38,6 +40,8 @@ __ESTREE_TEST__:PASS:
             "start": 8,
             "end": 9,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -45,7 +49,8 @@ __ESTREE_TEST__:PASS:
               "end": 9,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -54,6 +59,8 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -61,7 +68,8 @@ __ESTREE_TEST__:PASS:
               "end": 11,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -70,6 +78,8 @@ __ESTREE_TEST__:PASS:
             "start": 12,
             "end": 13,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -77,7 +87,8 @@ __ESTREE_TEST__:PASS:
               "end": 13,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -104,8 +115,10 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "MyVal",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -117,7 +130,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

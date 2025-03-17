@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 17,
             "end": 30,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,7 +50,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -61,10 +65,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -80,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 67,
             "end": 82,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -90,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 70,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -115,7 +124,8 @@ __ESTREE_TEST__:PASS:
                     "end": 81,
                     "members": []
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             "value": null
@@ -130,7 +140,8 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -139,8 +150,11 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

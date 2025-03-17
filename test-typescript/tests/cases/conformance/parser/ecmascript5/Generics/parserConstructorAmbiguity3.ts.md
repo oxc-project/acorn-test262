@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 8,
           "decorators": [],
           "name": "Date",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -31,13 +33,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 9,
               "end": 10,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 9,
                 "end": 10,
                 "decorators": [],
                 "name": "A",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]

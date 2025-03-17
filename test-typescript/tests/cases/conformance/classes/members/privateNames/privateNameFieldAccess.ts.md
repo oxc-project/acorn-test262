@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 39,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -33,6 +34,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 25,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 44,
             "end": 101,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -53,7 +56,8 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -73,6 +77,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 68,
                     "end": 95,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 68,
@@ -108,7 +113,8 @@ __ESTREE_TEST__:PASS:
                           "end": 75,
                           "decorators": [],
                           "name": "console",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -117,10 +123,12 @@ __ESTREE_TEST__:PASS:
                           "end": 79,
                           "decorators": [],
                           "name": "log",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -129,7 +137,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -142,10 +152,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

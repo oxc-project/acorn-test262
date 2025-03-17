@@ -29,6 +29,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 44,
                   "end": 52,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 44,
@@ -54,9 +55,12 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "h",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -69,9 +73,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

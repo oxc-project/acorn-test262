@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 40,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "print",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "start": 35,
           "end": 39
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -101,13 +104,15 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 110,
             "end": 121,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 110,
@@ -127,9 +132,11 @@ __ESTREE_TEST__:PASS:
                 "end": 115,
                 "decorators": [],
                 "name": "print",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -143,7 +150,8 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -164,7 +172,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

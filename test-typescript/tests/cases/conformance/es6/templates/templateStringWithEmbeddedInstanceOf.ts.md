@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TemplateLiteral",
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
                   "end": 41,
                   "decorators": [],
                   "name": "String",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],

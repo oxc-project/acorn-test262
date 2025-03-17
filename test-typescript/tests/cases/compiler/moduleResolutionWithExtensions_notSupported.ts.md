@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "tsx",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
             "end": 51,
             "decorators": [],
             "name": "jsx",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -98,7 +100,8 @@ __ESTREE_TEST__:PASS:
             "end": 91,
             "decorators": [],
             "name": "js",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

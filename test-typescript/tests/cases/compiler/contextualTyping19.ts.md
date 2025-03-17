@@ -39,6 +39,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 9,
                       "end": 19,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
                         "end": 11,
                         "decorators": [],
                         "name": "id",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
                       "end": 29,
                       "decorators": [],
                       "name": "id",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -115,6 +118,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 35,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -126,7 +130,8 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -149,7 +154,8 @@ __ESTREE_TEST__:PASS:
                     "end": 45,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -181,7 +187,8 @@ __ESTREE_TEST__:PASS:
                     "end": 53,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,

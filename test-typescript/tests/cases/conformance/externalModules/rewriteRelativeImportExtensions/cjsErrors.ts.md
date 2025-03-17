@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "_foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "type",
       "moduleReference": {

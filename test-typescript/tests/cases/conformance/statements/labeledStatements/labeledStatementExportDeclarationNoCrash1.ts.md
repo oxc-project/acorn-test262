@@ -101,7 +101,8 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "subTitle",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

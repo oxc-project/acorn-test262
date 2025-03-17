@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 42,
             "end": 62,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -61,8 +62,10 @@ __ESTREE_TEST__:PASS:
         "end": 35,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -77,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 83,
             "end": 103,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -120,8 +124,10 @@ __ESTREE_TEST__:PASS:
         "end": 76,
         "decorators": [],
         "name": "B",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -145,8 +151,10 @@ __ESTREE_TEST__:PASS:
             "end": 127,
             "decorators": [],
             "name": "A",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         {
           "type": "TSInterfaceHeritage",
@@ -158,8 +166,10 @@ __ESTREE_TEST__:PASS:
             "end": 130,
             "decorators": [],
             "name": "B",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -168,8 +178,10 @@ __ESTREE_TEST__:PASS:
         "end": 117,
         "decorators": [],
         "name": "C",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -184,6 +196,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 160,
             "end": 180,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -227,8 +240,10 @@ __ESTREE_TEST__:PASS:
         "end": 153,
         "decorators": [],
         "name": "D",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -252,8 +267,10 @@ __ESTREE_TEST__:PASS:
             "end": 204,
             "decorators": [],
             "name": "A",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         {
           "type": "TSInterfaceHeritage",
@@ -265,8 +282,10 @@ __ESTREE_TEST__:PASS:
             "end": 207,
             "decorators": [],
             "name": "D",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -275,8 +294,10 @@ __ESTREE_TEST__:PASS:
         "end": 194,
         "decorators": [],
         "name": "E",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -291,6 +312,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 275,
             "end": 295,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -334,8 +356,10 @@ __ESTREE_TEST__:PASS:
         "end": 268,
         "decorators": [],
         "name": "A2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -350,6 +374,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 317,
             "end": 337,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -393,8 +418,10 @@ __ESTREE_TEST__:PASS:
         "end": 310,
         "decorators": [],
         "name": "B2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -418,8 +445,10 @@ __ESTREE_TEST__:PASS:
             "end": 363,
             "decorators": [],
             "name": "A2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         {
           "type": "TSInterfaceHeritage",
@@ -431,8 +460,10 @@ __ESTREE_TEST__:PASS:
             "end": 367,
             "decorators": [],
             "name": "B2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -441,8 +472,10 @@ __ESTREE_TEST__:PASS:
         "end": 352,
         "decorators": [],
         "name": "C2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -457,6 +490,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 398,
             "end": 418,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -500,8 +534,10 @@ __ESTREE_TEST__:PASS:
         "end": 391,
         "decorators": [],
         "name": "D2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -525,8 +561,10 @@ __ESTREE_TEST__:PASS:
             "end": 444,
             "decorators": [],
             "name": "A2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         {
           "type": "TSInterfaceHeritage",
@@ -538,8 +576,10 @@ __ESTREE_TEST__:PASS:
             "end": 448,
             "decorators": [],
             "name": "D2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -548,8 +588,10 @@ __ESTREE_TEST__:PASS:
         "end": 433,
         "decorators": [],
         "name": "E2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

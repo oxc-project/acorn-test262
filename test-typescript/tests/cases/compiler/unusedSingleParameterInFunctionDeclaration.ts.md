@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 49,
                   "decorators": [],
                   "name": "unused",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -56,7 +57,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -77,7 +79,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

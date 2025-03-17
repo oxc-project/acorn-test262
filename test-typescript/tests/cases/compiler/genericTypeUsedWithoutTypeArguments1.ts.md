@@ -23,7 +23,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -35,6 +36,8 @@ __ESTREE_TEST__:PASS:
             "start": 14,
             "end": 15,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -42,7 +45,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -81,11 +86,14 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "Foo",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 30,
@@ -96,6 +104,8 @@ __ESTREE_TEST__:PASS:
             "start": 31,
             "end": 32,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -103,7 +113,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

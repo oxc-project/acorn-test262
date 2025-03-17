@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 67,
             "decorators": [],
             "name": "V",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "v",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "V",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 104,
             "end": 117,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -81,7 +85,8 @@ __ESTREE_TEST__:PASS:
               "end": 108,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -109,10 +114,13 @@ __ESTREE_TEST__:PASS:
         "end": 97,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "c",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -133,7 +142,8 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -156,8 +166,10 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "Red",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -170,8 +182,10 @@ __ESTREE_TEST__:PASS:
               "end": 158,
               "decorators": [],
               "name": "Blue",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -183,7 +197,8 @@ __ESTREE_TEST__:PASS:
         "end": 142,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -196,7 +211,8 @@ __ESTREE_TEST__:PASS:
         "end": 170,
         "decorators": [],
         "name": "e",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -205,7 +221,8 @@ __ESTREE_TEST__:PASS:
         "end": 174,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -221,6 +238,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 195,
             "end": 206,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -228,7 +246,8 @@ __ESTREE_TEST__:PASS:
               "end": 197,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -254,8 +273,10 @@ __ESTREE_TEST__:PASS:
         "end": 188,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -267,7 +288,8 @@ __ESTREE_TEST__:PASS:
         "end": 218,
         "decorators": [],
         "name": "i",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -276,7 +298,8 @@ __ESTREE_TEST__:PASS:
         "end": 222,
         "decorators": [],
         "name": "I",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

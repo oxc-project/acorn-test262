@@ -104,7 +104,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -154,7 +155,8 @@ __ESTREE_TEST__:PASS:
                 "end": 150,
                 "decorators": [],
                 "name": "___call",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -166,7 +168,8 @@ __ESTREE_TEST__:PASS:
                   "start": 154,
                   "end": 160
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -182,7 +185,8 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -219,9 +223,12 @@ __ESTREE_TEST__:PASS:
         "end": 201,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -270,7 +277,8 @@ __ESTREE_TEST__:PASS:
                 "end": 267,
                 "decorators": [],
                 "name": "__call",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -301,7 +309,8 @@ __ESTREE_TEST__:PASS:
                   "start": 280,
                   "end": 286
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -317,7 +326,8 @@ __ESTREE_TEST__:PASS:
         "end": 238,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

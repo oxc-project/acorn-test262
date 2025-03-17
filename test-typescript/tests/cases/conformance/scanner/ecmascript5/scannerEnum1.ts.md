@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "ES3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "decorators": [],
                 "name": "ES5",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -71,7 +73,8 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "CodeGenTarget",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",

@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 35,
             "decorators": [],
             "name": "cjsi",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "mjsi",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -87,7 +89,8 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "typei",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -96,39 +99,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 142,
       "end": 147,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 142,
         "end": 146,
         "decorators": [],
         "name": "cjsi",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 148,
       "end": 153,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 148,
         "end": 152,
         "decorators": [],
         "name": "mjsi",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 154,
       "end": 160,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 154,
         "end": 159,
         "decorators": [],
         "name": "typei",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -196,7 +206,8 @@ __ESTREE_TEST__:PASS:
             "end": 74,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -225,7 +236,8 @@ __ESTREE_TEST__:PASS:
             "end": 115,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -249,7 +261,8 @@ __ESTREE_TEST__:PASS:
             "end": 151,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -258,7 +271,8 @@ __ESTREE_TEST__:PASS:
             "end": 151,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -282,7 +296,8 @@ __ESTREE_TEST__:PASS:
             "end": 167,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -291,7 +306,8 @@ __ESTREE_TEST__:PASS:
             "end": 167,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -315,7 +331,8 @@ __ESTREE_TEST__:PASS:
             "end": 184,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -324,7 +341,8 @@ __ESTREE_TEST__:PASS:
             "end": 184,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

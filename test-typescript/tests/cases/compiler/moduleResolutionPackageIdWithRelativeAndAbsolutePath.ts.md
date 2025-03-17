@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -62,6 +64,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 66,
               "end": 81,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -72,7 +75,8 @@ __ESTREE_TEST__:PASS:
                 "end": 72,
                 "decorators": [],
                 "name": "option",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -86,13 +90,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 74,
                   "end": 80,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 74,
                     "end": 80,
                     "decorators": [],
                     "name": "Option",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -108,10 +114,13 @@ __ESTREE_TEST__:PASS:
           "end": 59,
           "decorators": [],
           "name": "Compactable",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -148,6 +157,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 26,
               "end": 47,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -158,7 +168,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "someProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -186,10 +197,13 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "Option",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -231,7 +245,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -240,7 +255,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -269,7 +285,8 @@ __ESTREE_TEST__:PASS:
           "end": 78,
           "decorators": [],
           "name": "SharedOption",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -278,8 +295,11 @@ __ESTREE_TEST__:PASS:
           "end": 93,
           "decorators": [],
           "name": "Option",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -324,16 +344,19 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 135,
                       "end": 147,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 135,
                         "end": 147,
                         "decorators": [],
                         "name": "SharedOption",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             },
@@ -383,7 +406,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "Compactable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -392,7 +416,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "Compactable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -433,7 +458,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -442,7 +468,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Option",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -466,6 +493,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 66,
               "end": 81,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -476,7 +504,8 @@ __ESTREE_TEST__:PASS:
                 "end": 72,
                 "decorators": [],
                 "name": "option",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -490,13 +519,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 74,
                   "end": 80,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 74,
                     "end": 80,
                     "decorators": [],
                     "name": "Option",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -512,10 +543,13 @@ __ESTREE_TEST__:PASS:
           "end": 59,
           "decorators": [],
           "name": "Compactable",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -552,6 +586,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 26,
               "end": 47,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -562,7 +597,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "someProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -590,10 +626,13 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "Option",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -635,7 +674,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "t",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -664,7 +704,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "makeSharedOption",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -673,7 +714,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "makeSharedOption",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

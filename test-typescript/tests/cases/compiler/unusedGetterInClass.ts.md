@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "_fullName",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "decorators": [],
               "name": "fullName",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -98,7 +100,8 @@ __ESTREE_TEST__:PASS:
                         "end": 115,
                         "decorators": [],
                         "name": "_fullName",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -118,7 +121,8 @@ __ESTREE_TEST__:PASS:
                   "start": 77,
                   "end": 83
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -134,7 +138,8 @@ __ESTREE_TEST__:PASS:
               "end": 188,
               "decorators": [],
               "name": "fullName",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "set",
             "optional": false,
@@ -174,7 +179,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -187,10 +194,13 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Employee",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

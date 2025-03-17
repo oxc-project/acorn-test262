@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 14,
             "end": 34,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 39,
             "end": 56,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -85,13 +88,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 61,
             "end": 75,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
               "end": 69,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -121,7 +128,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -134,10 +143,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 97,
             "end": 117,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -199,7 +212,8 @@ __ESTREE_TEST__:PASS:
                 "start": 126,
                 "end": 133
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -215,12 +229,14 @@ __ESTREE_TEST__:PASS:
                 "start": 147,
                 "end": 154
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 160,
             "end": 171,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -247,6 +263,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 176,
             "end": 186,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -254,7 +271,8 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -280,8 +298,10 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

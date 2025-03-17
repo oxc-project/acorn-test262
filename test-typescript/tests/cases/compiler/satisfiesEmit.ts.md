@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 62,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 88,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -59,19 +61,22 @@ __ESTREE_TEST__:PASS:
               "end": 92,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
               "start": 103,
               "end": 107,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 103,
                 "end": 107,
                 "decorators": [],
                 "name": "bleh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }

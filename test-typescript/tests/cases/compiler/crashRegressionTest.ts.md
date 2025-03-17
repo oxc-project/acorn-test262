@@ -40,6 +40,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 99,
                   "end": 122,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -83,8 +84,10 @@ __ESTREE_TEST__:PASS:
               "end": 88,
               "decorators": [],
               "name": "TemplateKeyValue",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
                     "end": 190,
                     "decorators": [],
                     "name": "_templateStorage",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -125,13 +129,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 192,
                       "end": 207,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 192,
                         "end": 207,
                         "decorators": [],
                         "name": "TemplateStorage",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -141,6 +147,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 219,
                   "end": 329,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -149,7 +156,8 @@ __ESTREE_TEST__:PASS:
                     "end": 230,
                     "decorators": [],
                     "name": "constructor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "constructor",
                   "optional": false,
@@ -169,6 +177,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 279,
                           "end": 319,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 279,
@@ -191,7 +200,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 300,
                                 "decorators": [],
                                 "name": "_templateStorage",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -200,7 +210,8 @@ __ESTREE_TEST__:PASS:
                               "end": 318,
                               "decorators": [],
                               "name": "templateStorage",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -226,18 +237,22 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 248,
                             "end": 263,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 248,
                               "end": 263,
                               "decorators": [],
                               "name": "TemplateStorage",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -253,7 +268,8 @@ __ESTREE_TEST__:PASS:
                     "end": 351,
                     "decorators": [],
                     "name": "text",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -273,6 +289,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 387,
                           "end": 445,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 387,
@@ -305,7 +322,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 408,
                                     "decorators": [],
                                     "name": "_templateStorage",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "optional": false,
@@ -315,7 +333,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 424,
                                   "decorators": [],
                                   "name": "templateSources",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -336,7 +355,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 435,
                                   "decorators": [],
                                   "name": "_name",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -346,7 +366,8 @@ __ESTREE_TEST__:PASS:
                               "end": 444,
                               "decorators": [],
                               "name": "value",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -385,7 +406,8 @@ __ESTREE_TEST__:PASS:
                         "start": 369,
                         "end": 372
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               ]
@@ -398,10 +420,13 @@ __ESTREE_TEST__:PASS:
               "end": 155,
               "decorators": [],
               "name": "StringTemplate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -433,7 +458,8 @@ __ESTREE_TEST__:PASS:
                       "end": 529,
                       "decorators": [],
                       "name": "templateSources",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -447,13 +473,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 531,
                         "end": 547,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 531,
                           "end": 547,
                           "decorators": [],
                           "name": "TemplateKeyValue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -479,7 +507,8 @@ __ESTREE_TEST__:PASS:
                       "end": 581,
                       "decorators": [],
                       "name": "templateData",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -493,13 +522,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 583,
                         "end": 599,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 583,
                           "end": 599,
                           "decorators": [],
                           "name": "TemplateKeyValue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -520,10 +551,13 @@ __ESTREE_TEST__:PASS:
                 "end": 496,
                 "decorators": [],
                 "name": "TemplateStorage",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -547,7 +581,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "MsPortal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -555,7 +590,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "Util",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -564,7 +600,8 @@ __ESTREE_TEST__:PASS:
           "end": 35,
           "decorators": [],
           "name": "TemplateEngine",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

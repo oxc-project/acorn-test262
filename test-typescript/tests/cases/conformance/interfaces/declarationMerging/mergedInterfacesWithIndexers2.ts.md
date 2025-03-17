@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 100,
             "end": 120,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -61,8 +62,10 @@ __ESTREE_TEST__:PASS:
         "end": 93,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -77,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 152,
             "end": 184,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -112,6 +116,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 167,
                     "end": 181,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -119,7 +124,8 @@ __ESTREE_TEST__:PASS:
                       "end": 173,
                       "decorators": [],
                       "name": "length",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -149,8 +155,10 @@ __ESTREE_TEST__:PASS:
         "end": 145,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -165,6 +173,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 216,
             "end": 236,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -202,6 +211,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 241,
             "end": 253,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -234,8 +244,10 @@ __ESTREE_TEST__:PASS:
         "end": 209,
         "decorators": [],
         "name": "A2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -250,6 +262,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 285,
             "end": 317,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -285,6 +298,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 300,
                     "end": 314,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -292,7 +306,8 @@ __ESTREE_TEST__:PASS:
                       "end": 306,
                       "decorators": [],
                       "name": "length",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -316,6 +331,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 322,
             "end": 344,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -340,6 +356,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 327,
                     "end": 341,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -347,7 +364,8 @@ __ESTREE_TEST__:PASS:
                       "end": 333,
                       "decorators": [],
                       "name": "length",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -377,8 +395,10 @@ __ESTREE_TEST__:PASS:
         "end": 278,
         "decorators": [],
         "name": "A2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

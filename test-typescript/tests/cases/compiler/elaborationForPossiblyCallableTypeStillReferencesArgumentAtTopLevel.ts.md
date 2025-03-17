@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 34
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
       "start": 36,
       "end": 73,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -65,7 +67,8 @@ __ESTREE_TEST__:PASS:
         "end": 55,
         "decorators": [],
         "name": "ff",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -96,12 +99,14 @@ __ESTREE_TEST__:PASS:
           "start": 68,
           "end": 72
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 74,
       "end": 82,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 74,
@@ -113,7 +118,8 @@ __ESTREE_TEST__:PASS:
             "end": 81,
             "decorators": [],
             "name": "ohno",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -122,9 +128,11 @@ __ESTREE_TEST__:PASS:
           "end": 76,
           "decorators": [],
           "name": "ff",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

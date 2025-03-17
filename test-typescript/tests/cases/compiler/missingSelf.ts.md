@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,6 +49,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 36,
                     "end": 51,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 36,
@@ -70,10 +72,12 @@ __ESTREE_TEST__:PASS:
                           "end": 48,
                           "decorators": [],
                           "name": "onClick",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -82,7 +86,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -98,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "onClick",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -119,7 +126,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -132,10 +141,13 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "CalcButton",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -160,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -180,6 +193,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 119,
                     "end": 140,
+                    "directive": null,
                     "expression": {
                       "type": "ArrowFunctionExpression",
                       "start": 119,
@@ -207,15 +221,19 @@ __ESTREE_TEST__:PASS:
                             "end": 137,
                             "decorators": [],
                             "name": "onClick",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "expression": true,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -224,7 +242,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -240,7 +260,8 @@ __ESTREE_TEST__:PASS:
               "end": 161,
               "decorators": [],
               "name": "onClick",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -261,7 +282,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -274,10 +297,13 @@ __ESTREE_TEST__:PASS:
         "end": 99,
         "decorators": [],
         "name": "CalcButton2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -295,7 +321,8 @@ __ESTREE_TEST__:PASS:
             "end": 176,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -308,8 +335,10 @@ __ESTREE_TEST__:PASS:
               "end": 193,
               "decorators": [],
               "name": "CalcButton",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -320,6 +349,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 197,
       "end": 203,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 197,
@@ -336,7 +366,8 @@ __ESTREE_TEST__:PASS:
             "end": 198,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -345,10 +376,12 @@ __ESTREE_TEST__:PASS:
             "end": 200,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -367,7 +400,8 @@ __ESTREE_TEST__:PASS:
             "end": 210,
             "decorators": [],
             "name": "c2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -380,8 +414,10 @@ __ESTREE_TEST__:PASS:
               "end": 228,
               "decorators": [],
               "name": "CalcButton2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -392,6 +428,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 232,
       "end": 239,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 232,
@@ -408,7 +445,8 @@ __ESTREE_TEST__:PASS:
             "end": 234,
             "decorators": [],
             "name": "c2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -417,10 +455,12 @@ __ESTREE_TEST__:PASS:
             "end": 236,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

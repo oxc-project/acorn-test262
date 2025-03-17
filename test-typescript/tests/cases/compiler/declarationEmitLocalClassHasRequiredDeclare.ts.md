@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "namespace"
             }
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -78,10 +80,13 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -102,6 +107,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 86,
               "end": 99,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -112,19 +118,22 @@ __ESTREE_TEST__:PASS:
                 "end": 94,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Identifier",
                 "start": 97,
                 "end": 98,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -137,10 +146,13 @@ __ESTREE_TEST__:PASS:
           "end": 79,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -169,7 +181,8 @@ __ESTREE_TEST__:PASS:
           "end": 129,
           "decorators": [],
           "name": "Y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -201,10 +214,13 @@ __ESTREE_TEST__:PASS:
           "end": 150,
           "decorators": [],
           "name": "Y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

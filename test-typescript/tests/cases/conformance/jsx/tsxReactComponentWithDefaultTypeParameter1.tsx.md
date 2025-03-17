@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 55,
             "end": 65,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 70,
             "end": 79,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -104,8 +109,10 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "Prop",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -121,6 +128,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 151,
             "end": 167,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -131,7 +139,8 @@ __ESTREE_TEST__:PASS:
               "end": 163,
               "decorators": [],
               "name": "internalProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -145,13 +154,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 165,
                 "end": 166,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 165,
                   "end": 166,
                   "decorators": [],
                   "name": "P",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -167,7 +178,8 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "MyComp",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -181,7 +193,8 @@ __ESTREE_TEST__:PASS:
           "end": 127,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -190,7 +203,8 @@ __ESTREE_TEST__:PASS:
           "end": 137,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -202,13 +216,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 138,
             "end": 139,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 138,
               "end": 139,
               "decorators": [],
               "name": "P",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -229,17 +245,20 @@ __ESTREE_TEST__:PASS:
             "start": 104,
             "end": 112,
             "const": false,
+            "constraint": null,
             "default": {
               "type": "TSTypeReference",
               "start": 108,
               "end": 112,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 108,
                 "end": 112,
                 "decorators": [],
                 "name": "Prop",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "in": false,
@@ -249,7 +268,8 @@ __ESTREE_TEST__:PASS:
               "end": 105,
               "decorators": [],
               "name": "P",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -272,7 +292,8 @@ __ESTREE_TEST__:PASS:
             "end": 176,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -333,7 +354,8 @@ __ESTREE_TEST__:PASS:
                 "end": 186,
                 "name": "MyComp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

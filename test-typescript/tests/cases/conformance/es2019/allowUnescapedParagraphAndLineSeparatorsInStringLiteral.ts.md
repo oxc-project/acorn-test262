@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
             "end": 240,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -81,7 +83,8 @@ __ESTREE_TEST__:PASS:
             "end": 308,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 379,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -141,7 +145,8 @@ __ESTREE_TEST__:PASS:
             "end": 447,
             "decorators": [],
             "name": "stringContainingUnescapedLineSeparator3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TemplateLiteral",
@@ -182,7 +187,8 @@ __ESTREE_TEST__:PASS:
             "end": 518,
             "decorators": [],
             "name": "stringContainingUnescapedParagraphSeparator3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TemplateLiteral",
@@ -223,7 +229,8 @@ __ESTREE_TEST__:PASS:
             "end": 600,
             "decorators": [],
             "name": "arr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",

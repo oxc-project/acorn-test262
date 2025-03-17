@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "right": {
         "type": "SequenceExpression",
@@ -121,7 +125,8 @@ __ESTREE_TEST__:PASS:
                 "end": 37,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -130,7 +135,8 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "right": {
@@ -149,7 +155,8 @@ __ESTREE_TEST__:PASS:
                   "end": 44,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -158,7 +165,8 @@ __ESTREE_TEST__:PASS:
                   "end": 46,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -175,7 +183,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "d",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }

@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 31,
                 "end": 42,
+                "directive": null,
                 "expression": {
                   "type": "AssignmentExpression",
                   "start": 31,
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
                       "end": 37,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "right": {
@@ -64,6 +66,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 53,
             "end": 71,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -74,12 +77,14 @@ __ESTREE_TEST__:PASS:
               "end": 70,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -92,10 +97,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -42,9 +42,12 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "someFunc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -52,6 +55,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 86,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 61,
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "someFunc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -77,7 +82,8 @@ __ESTREE_TEST__:PASS:
             "end": 78,
             "decorators": [],
             "name": "someProp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 23,
             "end": 54,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "find",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -58,17 +60,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 47,
                 "end": 53,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 47,
                   "end": 53,
                   "decorators": [],
                   "name": "JQuery",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -80,8 +85,10 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "JQuery",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -124,16 +131,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 112,
                 "end": 118,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 112,
                   "end": 118,
                   "decorators": [],
                   "name": "JQuery",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSCallSignatureDeclaration",
@@ -155,13 +165,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 133,
                     "end": 139,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 133,
                       "end": 139,
                       "decorators": [],
                       "name": "JQuery",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -175,16 +187,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 142,
                 "end": 148,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 142,
                   "end": 148,
                   "decorators": [],
                   "name": "JQuery",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -196,8 +211,10 @@ __ESTREE_TEST__:PASS:
         "end": 80,
         "decorators": [],
         "name": "JQueryStatic",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -213,6 +230,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 166,
             "end": 175,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -221,7 +239,8 @@ __ESTREE_TEST__:PASS:
               "end": 169,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -242,7 +261,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -255,16 +276,20 @@ __ESTREE_TEST__:PASS:
         "end": 163,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 179,
       "end": 277,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -274,7 +299,8 @@ __ESTREE_TEST__:PASS:
         "end": 192,
         "decorators": [],
         "name": "each",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -357,7 +383,8 @@ __ESTREE_TEST__:PASS:
                   "start": 267,
                   "end": 270
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -371,13 +398,15 @@ __ESTREE_TEST__:PASS:
           "start": 273,
           "end": 276
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 278,
       "end": 380,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -387,7 +416,8 @@ __ESTREE_TEST__:PASS:
         "end": 291,
         "decorators": [],
         "name": "each",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -405,13 +435,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 304,
               "end": 310,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 304,
                 "end": 310,
                 "decorators": [],
                 "name": "JQuery",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -465,13 +497,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 361,
                       "end": 365,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 361,
                         "end": 365,
                         "decorators": [],
                         "name": "Base",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -486,7 +520,8 @@ __ESTREE_TEST__:PASS:
                   "start": 370,
                   "end": 373
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -500,7 +535,8 @@ __ESTREE_TEST__:PASS:
           "start": 376,
           "end": 379
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -535,7 +571,8 @@ __ESTREE_TEST__:PASS:
         "end": 394,
         "decorators": [],
         "name": "each",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -618,7 +655,8 @@ __ESTREE_TEST__:PASS:
                   "start": 466,
                   "end": 469
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -632,7 +670,8 @@ __ESTREE_TEST__:PASS:
           "start": 472,
           "end": 475
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -669,13 +708,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 543,
                       "end": 549,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 543,
                         "end": 549,
                         "decorators": [],
                         "name": "JQuery",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -702,13 +743,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 554,
                       "end": 566,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 554,
                         "end": 566,
                         "decorators": [],
                         "name": "JQueryStatic",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -723,6 +766,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 571,
             "end": 764,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 571,
@@ -752,7 +796,8 @@ __ESTREE_TEST__:PASS:
                       "end": 577,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -761,10 +806,12 @@ __ESTREE_TEST__:PASS:
                       "end": 582,
                       "decorators": [],
                       "name": "find",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 },
                 {
                   "type": "FunctionExpression",
@@ -801,13 +848,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 622,
                                   "end": 628,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 622,
                                     "end": 628,
                                     "decorators": [],
                                     "name": "JQuery",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -831,9 +880,11 @@ __ESTREE_TEST__:PASS:
                                 "end": 632,
                                 "decorators": [],
                                 "name": "$",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           },
                           {
@@ -847,7 +898,8 @@ __ESTREE_TEST__:PASS:
                               "end": 657,
                               "decorators": [],
                               "name": "thisBar",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "CallExpression",
@@ -873,7 +925,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 665,
                                   "decorators": [],
                                   "name": "$this",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -882,10 +935,12 @@ __ESTREE_TEST__:PASS:
                                   "end": 670,
                                   "decorators": [],
                                   "name": "find",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ],
@@ -898,7 +953,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -907,9 +964,11 @@ __ESTREE_TEST__:PASS:
                 "end": 575,
                 "decorators": [],
                 "name": "each",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -923,7 +982,8 @@ __ESTREE_TEST__:PASS:
         "end": 521,
         "decorators": [],
         "name": "_setBarAndText",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -935,7 +995,8 @@ __ESTREE_TEST__:PASS:
           "start": 525,
           "end": 529
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

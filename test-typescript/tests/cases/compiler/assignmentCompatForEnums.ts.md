@@ -25,8 +25,10 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "One",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -39,8 +41,10 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "Two",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -52,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "TokenType",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -76,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "list",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -122,7 +128,8 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "returnType",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -133,16 +140,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 70,
           "end": 79,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 70,
             "end": 79,
             "decorators": [],
             "name": "TokenType",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -170,7 +180,8 @@ __ESTREE_TEST__:PASS:
                   "end": 124,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "CallExpression",
@@ -183,9 +194,11 @@ __ESTREE_TEST__:PASS:
                     "end": 137,
                     "decorators": [],
                     "name": "returnType",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -217,13 +230,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 153,
                       "end": 162,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 153,
                         "end": 162,
                         "decorators": [],
                         "name": "TokenType",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -239,7 +254,8 @@ __ESTREE_TEST__:PASS:
                     "end": 169,
                     "decorators": [],
                     "name": "list",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -266,9 +282,12 @@ __ESTREE_TEST__:PASS:
         "end": 110,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

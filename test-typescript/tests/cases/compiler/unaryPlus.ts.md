@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
             "end": 37,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -109,8 +111,10 @@ __ESTREE_TEST__:PASS:
               "end": 65,
               "decorators": [],
               "name": "some",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -123,8 +127,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "thing",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -136,7 +142,8 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -160,7 +167,8 @@ __ESTREE_TEST__:PASS:
             "end": 81,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -177,7 +185,8 @@ __ESTREE_TEST__:PASS:
                 "end": 86,
                 "decorators": [],
                 "name": "E",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -186,7 +195,8 @@ __ESTREE_TEST__:PASS:
                 "end": 91,
                 "decorators": [],
                 "name": "some",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "+",
@@ -213,7 +223,8 @@ __ESTREE_TEST__:PASS:
             "end": 134,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -250,7 +261,8 @@ __ESTREE_TEST__:PASS:
             "end": 166,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -287,7 +299,8 @@ __ESTREE_TEST__:PASS:
             "end": 199,
             "decorators": [],
             "name": "z",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",

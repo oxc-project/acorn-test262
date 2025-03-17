@@ -68,7 +68,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }
@@ -147,7 +148,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }
@@ -167,26 +169,30 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 111,
       "end": 115,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 111,
         "end": 114,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 120,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 116,
         "end": 119,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {

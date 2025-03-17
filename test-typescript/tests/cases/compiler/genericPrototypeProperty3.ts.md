@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 22,
             "end": 33,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "target",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -58,10 +60,13 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "BaseEvent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -77,6 +82,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 150,
             "end": 160,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -87,7 +93,8 @@ __ESTREE_TEST__:PASS:
               "end": 156,
               "decorators": [],
               "name": "target",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -101,13 +108,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 158,
                 "end": 159,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 158,
                   "end": 159,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -123,7 +132,8 @@ __ESTREE_TEST__:PASS:
         "end": 50,
         "decorators": [],
         "name": "MyEvent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -132,8 +142,10 @@ __ESTREE_TEST__:PASS:
         "end": 71,
         "decorators": [],
         "name": "BaseEvent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 50,
@@ -144,6 +156,8 @@ __ESTREE_TEST__:PASS:
             "start": 51,
             "end": 52,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -151,7 +165,8 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -172,6 +187,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 192,
             "end": 205,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -182,7 +198,8 @@ __ESTREE_TEST__:PASS:
               "end": 193,
               "decorators": [],
               "name": "t",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -196,13 +213,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 195,
                 "end": 204,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 195,
                   "end": 204,
                   "decorators": [],
                   "name": "BaseEvent",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -218,10 +237,13 @@ __ESTREE_TEST__:PASS:
         "end": 185,
         "decorators": [],
         "name": "BaseEventWrapper",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -237,6 +259,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 261,
             "end": 277,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -247,7 +270,8 @@ __ESTREE_TEST__:PASS:
               "end": 262,
               "decorators": [],
               "name": "t",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -279,7 +303,8 @@ __ESTREE_TEST__:PASS:
                   "end": 271,
                   "decorators": [],
                   "name": "MyEvent",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -295,7 +320,8 @@ __ESTREE_TEST__:PASS:
         "end": 229,
         "decorators": [],
         "name": "MyEventWrapper",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -304,8 +330,11 @@ __ESTREE_TEST__:PASS:
         "end": 254,
         "decorators": [],
         "name": "BaseEventWrapper",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -33,10 +33,13 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "Helper",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -57,10 +60,13 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "Inner",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -83,7 +89,8 @@ __ESTREE_TEST__:PASS:
                     "end": 133,
                     "decorators": [],
                     "name": "Outer",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -111,7 +118,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -143,10 +151,13 @@ __ESTREE_TEST__:PASS:
               "end": 205,
               "decorators": [],
               "name": "Helper",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -158,7 +169,8 @@ __ESTREE_TEST__:PASS:
         "end": 151,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

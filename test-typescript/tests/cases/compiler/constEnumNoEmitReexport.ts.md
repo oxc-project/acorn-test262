@@ -30,8 +30,10 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -44,8 +46,10 @@ __ESTREE_TEST__:PASS:
                 "end": 48,
                 "decorators": [],
                 "name": "Bar",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -57,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "MyConstEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -114,7 +120,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -138,7 +145,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -147,7 +155,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -188,7 +197,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -197,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -212,7 +223,8 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "MyConstEnum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }
@@ -253,7 +265,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -262,7 +275,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -304,7 +318,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -313,7 +328,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -354,7 +370,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "MyConstEnum1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -383,7 +400,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "MyConstEnum2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -392,6 +410,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 96,
       "end": 113,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 96,
@@ -403,7 +422,8 @@ __ESTREE_TEST__:PASS:
           "end": 108,
           "decorators": [],
           "name": "MyConstEnum1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -412,7 +432,8 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -420,6 +441,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 114,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 114,
@@ -431,7 +453,8 @@ __ESTREE_TEST__:PASS:
           "end": 126,
           "decorators": [],
           "name": "MyConstEnum2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -440,7 +463,8 @@ __ESTREE_TEST__:PASS:
           "end": 130,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -480,7 +504,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -489,7 +514,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -498,6 +524,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 46,
       "end": 62,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 46,
@@ -509,7 +536,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "MyConstEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -518,7 +546,8 @@ __ESTREE_TEST__:PASS:
           "end": 61,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -558,7 +587,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -567,7 +597,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -576,6 +607,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 42,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 42,
@@ -587,7 +619,8 @@ __ESTREE_TEST__:PASS:
           "end": 53,
           "decorators": [],
           "name": "MyConstEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -596,7 +629,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

@@ -48,7 +48,8 @@ __ESTREE_TEST__:PASS:
                   "end": 17,
                   "decorators": [],
                   "name": "Set",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -64,8 +65,10 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -76,6 +79,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 38,
       "end": 57,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 38,
@@ -100,7 +104,8 @@ __ESTREE_TEST__:PASS:
             "end": 44,
             "decorators": [],
             "name": "strSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -109,16 +114,19 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "add",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 58,
@@ -143,7 +151,8 @@ __ESTREE_TEST__:PASS:
             "end": 64,
             "decorators": [],
             "name": "strSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -152,10 +161,12 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "add",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -185,7 +196,8 @@ __ESTREE_TEST__:PASS:
               "end": 92,
               "decorators": [],
               "name": "str",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -199,7 +211,8 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "strSet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

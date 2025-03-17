@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 81,
             "end": 98,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "AssignmentExpression",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 83,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -64,8 +66,10 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -81,6 +85,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 116,
             "end": 131,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [],
@@ -96,7 +101,8 @@ __ESTREE_TEST__:PASS:
                 "end": 118,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -132,10 +138,13 @@ __ESTREE_TEST__:PASS:
         "end": 109,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

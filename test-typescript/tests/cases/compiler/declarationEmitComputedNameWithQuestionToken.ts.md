@@ -60,7 +60,8 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "dataSomething",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
                     "end": 77,
                     "decorators": [],
                     "name": "something",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
                 "quasis": [
@@ -107,13 +109,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 83,
                 "end": 88,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 83,
                   "end": 88,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -145,6 +149,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 119,
               "end": 173,
+              "accessibility": null,
               "computed": true,
               "decorators": [],
               "key": {
@@ -153,7 +158,8 @@ __ESTREE_TEST__:PASS:
                 "end": 133,
                 "decorators": [],
                 "name": "dataSomething",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": true,
@@ -187,7 +193,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -200,10 +208,13 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "WithData",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -230,7 +241,8 @@ __ESTREE_TEST__:PASS:
               "end": 191,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -257,8 +269,10 @@ __ESTREE_TEST__:PASS:
                       "end": 207,
                       "decorators": [],
                       "name": "WithData",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   "optional": false,
                   "property": {
@@ -270,7 +284,8 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],

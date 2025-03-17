@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -47,9 +48,12 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

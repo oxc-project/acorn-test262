@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 27,
             "end": 32,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -38,13 +40,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 30,
                 "end": 31,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 30,
                   "end": 31,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -59,7 +63,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "Generic",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -71,6 +76,8 @@ __ESTREE_TEST__:PASS:
             "start": 18,
             "end": 19,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -78,7 +85,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -128,7 +136,8 @@ __ESTREE_TEST__:PASS:
                   "end": 50,
                   "decorators": [],
                   "name": "Generic",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -149,7 +158,8 @@ __ESTREE_TEST__:PASS:
                   "end": 64,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,

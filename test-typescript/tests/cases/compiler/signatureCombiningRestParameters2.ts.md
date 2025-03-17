@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 22,
             "end": 73,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "log",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
                   "end": 58,
                   "decorators": [],
                   "name": "optionalParams",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "decorators": [],
                 "optional": false,
@@ -76,7 +79,8 @@ __ESTREE_TEST__:PASS:
                       "end": 63
                     }
                   }
-                }
+                },
+                "value": null
               }
             ],
             "readonly": false,
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
                 "end": 72
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -102,8 +107,10 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "Console",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -184,7 +191,8 @@ __ESTREE_TEST__:PASS:
                     "end": 133,
                     "decorators": [],
                     "name": "console",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -192,9 +200,11 @@ __ESTREE_TEST__:PASS:
                     "end": 137,
                     "decorators": [],
                     "name": "log",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           },
@@ -208,6 +218,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 139,
       "end": 192,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 139,
@@ -224,7 +235,8 @@ __ESTREE_TEST__:PASS:
             "end": 146,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -233,7 +245,8 @@ __ESTREE_TEST__:PASS:
             "end": 150,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -250,6 +263,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 170,
                 "end": 189,
+                "directive": null,
                 "expression": {
                   "type": "CallExpression",
                   "start": 170,
@@ -265,7 +279,8 @@ __ESTREE_TEST__:PASS:
                         "end": 187,
                         "decorators": [],
                         "name": "args",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -280,7 +295,8 @@ __ESTREE_TEST__:PASS:
                       "end": 174,
                       "decorators": [],
                       "name": "logs",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -289,10 +305,12 @@ __ESTREE_TEST__:PASS:
                       "end": 179,
                       "decorators": [],
                       "name": "push",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ]
@@ -311,12 +329,17 @@ __ESTREE_TEST__:PASS:
                 "end": 161,
                 "decorators": [],
                 "name": "args",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         }
       }
     }

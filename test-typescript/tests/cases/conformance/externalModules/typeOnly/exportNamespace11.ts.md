@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "intermediate",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -59,6 +60,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 60,
                 "end": 78,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 60,
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                     "end": 72,
                     "decorators": [],
                     "name": "intermediate",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -77,7 +80,8 @@ __ESTREE_TEST__:PASS:
                     "end": 78,
                     "decorators": [],
                     "name": "Ghost",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "decorators": [],
                 "name": "intermediate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -108,9 +113,11 @@ __ESTREE_TEST__:PASS:
                 "end": 103,
                 "decorators": [],
                 "name": "Ghost",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -180,10 +187,13 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Ghost",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 13,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 13,
@@ -50,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -77,7 +80,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -95,6 +99,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 36,
       "end": 44,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 36,
@@ -106,7 +111,8 @@ __ESTREE_TEST__:PASS:
           "end": 39,
           "decorators": [],
           "name": "baz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -133,7 +139,8 @@ __ESTREE_TEST__:PASS:
             "end": 54,
             "decorators": [],
             "name": "buzz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -151,6 +158,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 61,
@@ -162,7 +170,8 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "buzz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -189,7 +198,8 @@ __ESTREE_TEST__:PASS:
             "end": 81,
             "decorators": [],
             "name": "bizz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -207,6 +217,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 87,
       "end": 94,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 87,
@@ -217,7 +228,8 @@ __ESTREE_TEST__:PASS:
           "end": 91,
           "decorators": [],
           "name": "bizz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -227,6 +239,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 140,
       "end": 147,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 140,
@@ -237,7 +250,8 @@ __ESTREE_TEST__:PASS:
           "end": 144,
           "decorators": [],
           "name": "bizz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": false
@@ -247,6 +261,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 161,
       "end": 168,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 161,
@@ -257,7 +272,8 @@ __ESTREE_TEST__:PASS:
           "end": 167,
           "decorators": [],
           "name": "bizz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": true
@@ -282,7 +298,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -291,7 +308,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -304,7 +322,8 @@ __ESTREE_TEST__:PASS:
             "end": 224,
             "decorators": [],
             "name": "baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -313,7 +332,8 @@ __ESTREE_TEST__:PASS:
             "end": 224,
             "decorators": [],
             "name": "baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -326,7 +346,8 @@ __ESTREE_TEST__:PASS:
             "end": 237,
             "decorators": [],
             "name": "quux",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -335,7 +356,8 @@ __ESTREE_TEST__:PASS:
             "end": 229,
             "decorators": [],
             "name": "baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -348,7 +370,8 @@ __ESTREE_TEST__:PASS:
             "end": 243,
             "decorators": [],
             "name": "buzz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -357,7 +380,8 @@ __ESTREE_TEST__:PASS:
             "end": 243,
             "decorators": [],
             "name": "buzz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -370,7 +394,8 @@ __ESTREE_TEST__:PASS:
             "end": 249,
             "decorators": [],
             "name": "bizz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -379,7 +404,8 @@ __ESTREE_TEST__:PASS:
             "end": 249,
             "decorators": [],
             "name": "bizz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

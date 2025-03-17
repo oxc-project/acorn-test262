@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 27,
             "end": 41,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "sound",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -57,10 +59,13 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "Animal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -76,6 +81,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 76,
             "end": 91,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -86,12 +92,14 @@ __ESTREE_TEST__:PASS:
               "end": 82,
               "decorators": [],
               "name": "_sound",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 85,
@@ -104,6 +112,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 96,
             "end": 138,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
               "end": 105,
               "decorators": [],
               "name": "sound",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -149,7 +159,8 @@ __ESTREE_TEST__:PASS:
                         "end": 136,
                         "decorators": [],
                         "name": "_sound",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -169,13 +180,15 @@ __ESTREE_TEST__:PASS:
                   "start": 109,
                   "end": 115
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 143,
             "end": 187,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -184,7 +197,8 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "sound",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "set",
             "optional": false,
@@ -204,6 +218,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 168,
                     "end": 185,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 168,
@@ -226,7 +241,8 @@ __ESTREE_TEST__:PASS:
                           "end": 179,
                           "decorators": [],
                           "name": "_sound",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -235,7 +251,8 @@ __ESTREE_TEST__:PASS:
                         "end": 185,
                         "decorators": [],
                         "name": "val",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -264,7 +281,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -277,7 +296,8 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "Lion",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -286,8 +306,11 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "Animal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

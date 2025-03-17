@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 37,
               "decorators": [],
               "name": "somefn",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -39,9 +40,12 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "somefn",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

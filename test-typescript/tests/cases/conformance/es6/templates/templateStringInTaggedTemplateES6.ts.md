@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 92,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 17,
@@ -124,7 +125,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeArguments": null
       }
     }
   ],

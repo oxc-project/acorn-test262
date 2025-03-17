@@ -74,7 +74,8 @@ __ESTREE_TEST__:PASS:
                         "end": 74,
                         "decorators": [],
                         "name": "inner",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Identifier",
@@ -82,7 +83,8 @@ __ESTREE_TEST__:PASS:
                         "end": 82,
                         "decorators": [],
                         "name": "outer",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -100,9 +102,12 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -118,6 +123,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 123,
                   "end": 187,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -126,7 +132,8 @@ __ESTREE_TEST__:PASS:
                     "end": 134,
                     "decorators": [],
                     "name": "constructor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "constructor",
                   "optional": false,
@@ -158,7 +165,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 160,
                                 "decorators": [],
                                 "name": "inner",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "init": {
                                 "type": "Identifier",
@@ -166,7 +174,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 168,
                                 "decorators": [],
                                 "name": "outer",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ],
@@ -179,7 +188,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -192,10 +203,13 @@ __ESTREE_TEST__:PASS:
               "end": 111,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "TSModuleDeclaration",
@@ -222,7 +236,8 @@ __ESTREE_TEST__:PASS:
                         "end": 229,
                         "decorators": [],
                         "name": "inner",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Identifier",
@@ -230,7 +245,8 @@ __ESTREE_TEST__:PASS:
                         "end": 237,
                         "decorators": [],
                         "name": "outer",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -247,7 +263,8 @@ __ESTREE_TEST__:PASS:
               "end": 208,
               "decorators": [],
               "name": "X",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -261,7 +278,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

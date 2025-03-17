@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "fs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -41,7 +42,8 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "server",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -75,6 +77,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 207,
               "end": 236,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -82,7 +85,8 @@ __ESTREE_TEST__:PASS:
                 "end": 216,
                 "decorators": [],
                 "name": "workspace",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -95,6 +99,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 218,
                   "end": 235,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 218,
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
                       "end": 224,
                       "decorators": [],
                       "name": "server",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -113,7 +119,8 @@ __ESTREE_TEST__:PASS:
                       "end": 235,
                       "decorators": [],
                       "name": "IWorkspace",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -123,6 +130,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 241,
               "end": 265,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -130,7 +138,8 @@ __ESTREE_TEST__:PASS:
                 "end": 247,
                 "decorators": [],
                 "name": "server",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -143,6 +152,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 250,
                   "end": 264,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 250,
@@ -153,7 +163,8 @@ __ESTREE_TEST__:PASS:
                       "end": 256,
                       "decorators": [],
                       "name": "server",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -161,7 +172,8 @@ __ESTREE_TEST__:PASS:
                       "end": 264,
                       "decorators": [],
                       "name": "IServer",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -177,8 +189,10 @@ __ESTREE_TEST__:PASS:
           "end": 200,
           "decorators": [],
           "name": "IConfiguration",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -219,8 +233,10 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "IServer",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -244,6 +260,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSMethodSignature",
               "start": 64,
               "end": 136,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -251,7 +268,8 @@ __ESTREE_TEST__:PASS:
                 "end": 78,
                 "decorators": [],
                 "name": "toAbsolutePath",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -271,13 +289,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 87,
                       "end": 94,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 87,
                         "end": 94,
                         "decorators": [],
                         "name": "IServer",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -312,7 +332,8 @@ __ESTREE_TEST__:PASS:
                   "end": 135
                 }
               },
-              "static": false
+              "static": false,
+              "typeParameters": null
             }
           ]
         },
@@ -324,8 +345,10 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "IWorkspace",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -353,7 +376,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "commands",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -395,7 +419,8 @@ __ESTREE_TEST__:PASS:
                   "end": 158,
                   "decorators": [],
                   "name": "absoluteWorkspacePath",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "CallExpression",
@@ -413,7 +438,8 @@ __ESTREE_TEST__:PASS:
                         "end": 213,
                         "decorators": [],
                         "name": "configuration",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -422,7 +448,8 @@ __ESTREE_TEST__:PASS:
                         "end": 220,
                         "decorators": [],
                         "name": "server",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -442,7 +469,8 @@ __ESTREE_TEST__:PASS:
                         "end": 174,
                         "decorators": [],
                         "name": "configuration",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -451,7 +479,8 @@ __ESTREE_TEST__:PASS:
                         "end": 184,
                         "decorators": [],
                         "name": "workspace",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,
@@ -461,10 +490,12 @@ __ESTREE_TEST__:PASS:
                       "end": 199,
                       "decorators": [],
                       "name": "toAbsolutePath",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -482,7 +513,8 @@ __ESTREE_TEST__:PASS:
         "end": 86,
         "decorators": [],
         "name": "run",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -500,6 +532,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 102,
               "end": 125,
+              "typeArguments": null,
               "typeName": {
                 "type": "TSQualifiedName",
                 "start": 102,
@@ -510,7 +543,8 @@ __ESTREE_TEST__:PASS:
                   "end": 110,
                   "decorators": [],
                   "name": "commands",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -518,13 +552,16 @@ __ESTREE_TEST__:PASS:
                   "end": 125,
                   "decorators": [],
                   "name": "IConfiguration",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

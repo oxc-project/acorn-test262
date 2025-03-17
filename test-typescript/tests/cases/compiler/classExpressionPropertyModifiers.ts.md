@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ClassExpression",
@@ -37,6 +38,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 26,
                   "end": 62,
+                  "accessibility": null,
                   "computed": true,
                   "declare": true,
                   "decorators": [],
@@ -52,7 +54,8 @@ __ESTREE_TEST__:PASS:
                       "end": 41,
                       "decorators": [],
                       "name": "Symbol",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -61,13 +64,15 @@ __ESTREE_TEST__:PASS:
                       "end": 53,
                       "decorators": [],
                       "name": "toStringTag",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
                     "start": 57,
@@ -80,6 +85,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 67,
                   "end": 82,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -90,12 +96,14 @@ __ESTREE_TEST__:PASS:
                     "end": 77,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
                     "start": 80,
@@ -114,10 +122,13 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "Cat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         }
       ],

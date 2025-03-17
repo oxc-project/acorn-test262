@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "module",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 17,
@@ -50,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "module",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",

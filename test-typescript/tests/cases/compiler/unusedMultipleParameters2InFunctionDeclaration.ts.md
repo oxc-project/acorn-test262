@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 83,
                   "decorators": [],
                   "name": "unused",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 94,
             "end": 118,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 94,
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
                 "end": 101,
                 "decorators": [],
                 "name": "person2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -82,7 +85,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -139,7 +143,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

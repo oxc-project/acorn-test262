@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

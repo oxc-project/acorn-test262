@@ -91,7 +91,8 @@ __ESTREE_TEST__:PASS:
               "end": 135,
               "decorators": [],
               "name": "stuff",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -105,7 +106,8 @@ __ESTREE_TEST__:PASS:
         "end": 107,
         "decorators": [],
         "name": "func1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -131,7 +133,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -163,7 +167,8 @@ __ESTREE_TEST__:PASS:
                       "end": 223,
                       "decorators": [],
                       "name": "stuff1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     {
                       "type": "Identifier",
@@ -171,7 +176,8 @@ __ESTREE_TEST__:PASS:
                       "end": 231,
                       "decorators": [],
                       "name": "stuff2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     {
                       "type": "Identifier",
@@ -179,7 +185,8 @@ __ESTREE_TEST__:PASS:
                       "end": 239,
                       "decorators": [],
                       "name": "stuff3",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   ]
                 }
@@ -190,9 +197,11 @@ __ESTREE_TEST__:PASS:
                 "end": 215,
                 "decorators": [],
                 "name": "func1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -206,7 +215,8 @@ __ESTREE_TEST__:PASS:
         "end": 154,
         "decorators": [],
         "name": "func2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -263,7 +273,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

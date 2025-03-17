@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 96,
                     "end": 101,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 97,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -69,6 +71,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 102,
                     "end": 111,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -76,7 +79,8 @@ __ESTREE_TEST__:PASS:
                       "end": 103,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -132,6 +136,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 134,
                     "end": 144,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -139,7 +144,8 @@ __ESTREE_TEST__:PASS:
                       "end": 135,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -159,6 +165,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 145,
                     "end": 151,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -166,7 +173,8 @@ __ESTREE_TEST__:PASS:
                       "end": 146,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -203,6 +211,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 156,
       "end": 164,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 156,
@@ -214,7 +223,8 @@ __ESTREE_TEST__:PASS:
           "end": 157,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -222,7 +232,8 @@ __ESTREE_TEST__:PASS:
           "end": 163,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

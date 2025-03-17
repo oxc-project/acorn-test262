@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 32,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "isConcatSpreadable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -49,6 +52,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 33,
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 45,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -81,7 +86,8 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "toPrimitive",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

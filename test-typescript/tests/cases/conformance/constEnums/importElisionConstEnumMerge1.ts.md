@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "One",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "Enum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -102,7 +105,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -132,13 +136,15 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 68,
                 "end": 74
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -154,7 +160,8 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "Enum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -177,7 +184,8 @@ __ESTREE_TEST__:PASS:
             "end": 91,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -186,7 +194,8 @@ __ESTREE_TEST__:PASS:
             "end": 91,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -227,7 +236,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -236,7 +246,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Enum",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -245,6 +256,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 32,
       "end": 41,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 32,
@@ -256,7 +268,8 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "Enum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -265,7 +278,8 @@ __ESTREE_TEST__:PASS:
           "end": 40,
           "decorators": [],
           "name": "One",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

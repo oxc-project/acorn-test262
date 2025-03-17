@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "s1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 26,
@@ -52,6 +55,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 51,
                 "end": 59,
+                "directive": null,
                 "expression": {
                   "type": "MemberExpression",
                   "start": 51,
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
                     "end": 58,
                     "decorators": [],
                     "name": "s1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -77,6 +82,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 68,
                 "end": 73,
+                "directive": null,
                 "expression": {
                   "type": "MemberExpression",
                   "start": 68,
@@ -88,7 +94,8 @@ __ESTREE_TEST__:PASS:
                     "end": 69,
                     "decorators": [],
                     "name": "C",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -97,7 +104,8 @@ __ESTREE_TEST__:PASS:
                     "end": 72,
                     "decorators": [],
                     "name": "s1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -105,6 +113,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 83,
                 "end": 91,
+                "directive": null,
                 "expression": {
                   "type": "MemberExpression",
                   "start": 83,
@@ -122,7 +131,8 @@ __ESTREE_TEST__:PASS:
                     "end": 90,
                     "decorators": [],
                     "name": "s2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -130,6 +140,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 100,
                 "end": 105,
+                "directive": null,
                 "expression": {
                   "type": "MemberExpression",
                   "start": 100,
@@ -141,7 +152,8 @@ __ESTREE_TEST__:PASS:
                     "end": 101,
                     "decorators": [],
                     "name": "C",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -150,7 +162,8 @@ __ESTREE_TEST__:PASS:
                     "end": 104,
                     "decorators": [],
                     "name": "s2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -160,6 +173,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 117,
             "end": 131,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -170,12 +184,14 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 129,
@@ -188,6 +204,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 136,
             "end": 157,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -198,12 +215,14 @@ __ESTREE_TEST__:PASS:
               "end": 146,
               "decorators": [],
               "name": "ss2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 149,
@@ -221,7 +240,8 @@ __ESTREE_TEST__:PASS:
                 "end": 156,
                 "decorators": [],
                 "name": "s1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -235,10 +255,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

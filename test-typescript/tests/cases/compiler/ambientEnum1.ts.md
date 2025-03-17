@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "E1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -68,7 +70,8 @@ __ESTREE_TEST__:PASS:
               "end": 122,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "MemberExpression",
@@ -89,7 +92,8 @@ __ESTREE_TEST__:PASS:
                 "end": 137,
                 "decorators": [],
                 "name": "length",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -103,7 +107,8 @@ __ESTREE_TEST__:PASS:
         "end": 110,
         "decorators": [],
         "name": "E2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

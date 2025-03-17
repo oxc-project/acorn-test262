@@ -34,13 +34,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 15,
                   "end": 21,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 15,
                     "end": 21,
                     "decorators": [],
                     "name": "RegExp",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -153,13 +155,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 257,
                   "end": 263,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 257,
                     "end": 263,
                     "decorators": [],
                     "name": "RegExp",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }

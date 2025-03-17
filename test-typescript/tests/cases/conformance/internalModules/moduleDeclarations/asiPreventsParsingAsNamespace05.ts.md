@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "namespace",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -65,7 +66,8 @@ __ESTREE_TEST__:PASS:
                     "end": 52,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -97,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -105,7 +108,8 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "namespace"
@@ -114,19 +118,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 62,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 62,
         "end": 71,
         "decorators": [],
         "name": "namespace",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 72,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 72,
@@ -143,7 +150,8 @@ __ESTREE_TEST__:PASS:
             "end": 73,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -152,7 +160,8 @@ __ESTREE_TEST__:PASS:
             "end": 75,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "optional": false,
@@ -162,7 +171,8 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 91,
             "end": 108,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -57,10 +59,13 @@ __ESTREE_TEST__:PASS:
         "end": 84,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -89,6 +94,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 150,
                     "end": 159,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -96,7 +102,8 @@ __ESTREE_TEST__:PASS:
                       "end": 151,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -122,8 +129,10 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "decorators": [],
                 "name": "B",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -139,7 +148,8 @@ __ESTREE_TEST__:PASS:
         "end": 122,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -158,7 +168,8 @@ __ESTREE_TEST__:PASS:
           "end": 181,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -167,7 +178,8 @@ __ESTREE_TEST__:PASS:
           "end": 183,
           "decorators": [],
           "name": "B",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value"
@@ -208,7 +220,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -238,13 +251,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 30,
                 "end": 31,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 30,
                   "end": 31,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -265,7 +280,8 @@ __ESTREE_TEST__:PASS:
                   "end": 37,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -277,7 +293,8 @@ __ESTREE_TEST__:PASS:
                   "end": 40,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]

@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "Predicates",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 20,
             "end": 55,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -86,12 +88,14 @@ __ESTREE_TEST__:PASS:
                     "start": 48,
                     "end": 55
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -109,7 +113,8 @@ __ESTREE_TEST__:PASS:
             "end": 67,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -131,7 +136,8 @@ __ESTREE_TEST__:PASS:
                     "end": 82,
                     "decorators": [],
                     "name": "isEven",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -158,7 +164,8 @@ __ESTREE_TEST__:PASS:
                           "end": 90,
                           "decorators": [],
                           "name": "n",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Literal",
@@ -186,9 +193,12 @@ __ESTREE_TEST__:PASS:
                         "end": 85,
                         "decorators": [],
                         "name": "n",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -202,7 +212,8 @@ __ESTREE_TEST__:PASS:
                     "end": 111,
                     "decorators": [],
                     "name": "isOdd",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -229,7 +240,8 @@ __ESTREE_TEST__:PASS:
                           "end": 119,
                           "decorators": [],
                           "name": "n",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Literal",
@@ -257,9 +269,12 @@ __ESTREE_TEST__:PASS:
                         "end": 114,
                         "decorators": [],
                         "name": "n",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -268,13 +283,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 142,
               "end": 152,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 142,
                 "end": 152,
                 "decorators": [],
                 "name": "Predicates",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }

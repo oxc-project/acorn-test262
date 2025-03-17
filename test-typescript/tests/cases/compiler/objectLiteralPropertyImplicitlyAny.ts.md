@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                 "end": 18,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -56,10 +58,12 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "for",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -82,7 +86,8 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "o",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
                   "end": 47,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -112,7 +118,8 @@ __ESTREE_TEST__:PASS:
                   "end": 59,
                   "decorators": [],
                   "name": "undefined",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]

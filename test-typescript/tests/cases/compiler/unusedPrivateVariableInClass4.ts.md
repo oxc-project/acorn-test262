@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -96,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -127,7 +130,8 @@ __ESTREE_TEST__:PASS:
               "end": 104,
               "decorators": [],
               "name": "method1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -147,6 +151,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 117,
                     "end": 124,
+                    "directive": null,
                     "expression": {
                       "type": "MemberExpression",
                       "start": 117,
@@ -164,7 +169,8 @@ __ESTREE_TEST__:PASS:
                         "end": 123,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -174,7 +180,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -187,10 +195,13 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

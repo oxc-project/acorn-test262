@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 35,
             "decorators": [],
             "name": "field3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -83,6 +84,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 63,
             "end": 82,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -109,9 +111,11 @@ __ESTREE_TEST__:PASS:
                     "end": 67,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -122,12 +126,14 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "field1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 80,
@@ -140,6 +146,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 87,
             "end": 110,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [
@@ -166,9 +173,11 @@ __ESTREE_TEST__:PASS:
                     "end": 91,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -184,6 +193,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 108,
@@ -196,6 +206,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 115,
             "end": 136,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [
@@ -222,9 +233,11 @@ __ESTREE_TEST__:PASS:
                     "end": 119,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -235,12 +248,14 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "field3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 134,
@@ -259,10 +274,13 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

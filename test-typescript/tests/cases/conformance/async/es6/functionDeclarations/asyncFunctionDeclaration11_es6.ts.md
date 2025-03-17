@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "await",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -54,10 +55,12 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "Promise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

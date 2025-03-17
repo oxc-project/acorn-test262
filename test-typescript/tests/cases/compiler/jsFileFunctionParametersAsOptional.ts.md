@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 4,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -20,15 +21,18 @@ __ESTREE_TEST__:PASS:
           "end": 1,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 5,
       "end": 10,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 5,
@@ -48,15 +52,18 @@ __ESTREE_TEST__:PASS:
           "end": 6,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 11,
       "end": 19,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 11,
@@ -83,15 +90,18 @@ __ESTREE_TEST__:PASS:
           "end": 12,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 20,
       "end": 31,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 20,
@@ -125,9 +135,11 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

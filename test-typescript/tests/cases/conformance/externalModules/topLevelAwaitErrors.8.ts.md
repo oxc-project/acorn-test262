@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 50,
             "decorators": [],
             "name": "await",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -90,7 +91,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "_await",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }

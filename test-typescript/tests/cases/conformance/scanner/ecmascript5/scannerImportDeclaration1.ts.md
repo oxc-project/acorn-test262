@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "TypeScript",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "TypeScriptServices",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -36,7 +38,8 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "TypeScript",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

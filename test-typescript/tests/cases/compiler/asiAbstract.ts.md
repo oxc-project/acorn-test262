@@ -9,13 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 8,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
         "end": 8,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -32,6 +34,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractMethodDefinition",
             "start": 36,
             "end": 49,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -40,7 +43,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "s",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -56,7 +60,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -69,10 +75,13 @@ __ESTREE_TEST__:PASS:
         "end": 31,
         "decorators": [],
         "name": "NonAbstractClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -88,6 +97,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 68,
             "end": 76,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -98,18 +108,21 @@ __ESTREE_TEST__:PASS:
               "end": 76,
               "decorators": [],
               "name": "abstract",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
             "type": "MethodDefinition",
             "start": 81,
             "end": 110,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -118,7 +131,8 @@ __ESTREE_TEST__:PASS:
               "end": 100,
               "decorators": [],
               "name": "nonAbstractFunction",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -139,7 +153,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -152,10 +168,13 @@ __ESTREE_TEST__:PASS:
         "end": 61,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -171,6 +190,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 129,
             "end": 137,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -181,12 +201,14 @@ __ESTREE_TEST__:PASS:
               "end": 137,
               "decorators": [],
               "name": "abstract",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -199,10 +221,13 @@ __ESTREE_TEST__:PASS:
         "end": 122,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

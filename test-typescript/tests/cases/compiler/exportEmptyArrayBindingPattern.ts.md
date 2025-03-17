@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "elements": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrayExpression",

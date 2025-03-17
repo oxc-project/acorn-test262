@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 14,
             "end": 26,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "foof",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,8 +53,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -84,13 +88,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 47,
                 "end": 48,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 47,
                   "end": 48,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -105,6 +111,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 50,
       "end": 56,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 50,
@@ -116,7 +123,8 @@ __ESTREE_TEST__:PASS:
           "end": 51,
           "decorators": [],
           "name": "i",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -125,7 +133,8 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -133,6 +142,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 57,
       "end": 66,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 57,
@@ -144,7 +154,8 @@ __ESTREE_TEST__:PASS:
           "end": 58,
           "decorators": [],
           "name": "i",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

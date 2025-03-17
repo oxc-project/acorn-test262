@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -44,8 +46,10 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "bar",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -77,26 +81,30 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 46,
                     "end": 49,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 46,
                       "end": 49,
                       "decorators": [],
                       "name": "bar",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 52,
                     "end": 55,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 52,
                       "end": 55,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -139,26 +147,30 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 66,
                     "end": 69,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 66,
                       "end": 69,
                       "decorators": [],
                       "name": "bar",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 72,
                     "end": 75,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 72,
                       "end": 75,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]

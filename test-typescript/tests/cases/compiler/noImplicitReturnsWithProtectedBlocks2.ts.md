@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 38,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "log",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,13 +52,15 @@ __ESTREE_TEST__:PASS:
           "start": 33,
           "end": 37
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 39,
       "end": 70,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -66,7 +70,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "get",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -78,7 +83,8 @@ __ESTREE_TEST__:PASS:
           "start": 63,
           "end": 69
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -114,9 +120,11 @@ __ESTREE_TEST__:PASS:
                       "end": 128,
                       "decorators": [],
                       "name": "get",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -130,6 +138,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 206,
                   "end": 224,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 206,
@@ -149,9 +158,11 @@ __ESTREE_TEST__:PASS:
                       "end": 209,
                       "decorators": [],
                       "name": "log",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -169,6 +180,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 161,
                     "end": 177,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 161,
@@ -188,9 +200,11 @@ __ESTREE_TEST__:PASS:
                         "end": 164,
                         "decorators": [],
                         "name": "log",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -201,7 +215,8 @@ __ESTREE_TEST__:PASS:
                 "end": 149,
                 "decorators": [],
                 "name": "e",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -216,7 +231,8 @@ __ESTREE_TEST__:PASS:
         "end": 86,
         "decorators": [],
         "name": "main1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -228,7 +244,8 @@ __ESTREE_TEST__:PASS:
           "start": 91,
           "end": 97
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

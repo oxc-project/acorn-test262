@@ -60,7 +60,8 @@ __ESTREE_TEST__:PASS:
               "end": 96,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ClassExpression",
@@ -85,13 +86,16 @@ __ESTREE_TEST__:PASS:
                     "end": 105,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
               "id": null,
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             }
           }
         ],

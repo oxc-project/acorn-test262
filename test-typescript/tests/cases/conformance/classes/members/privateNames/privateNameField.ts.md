@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 33,
             "end": 93,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -57,7 +59,8 @@ __ESTREE_TEST__:PASS:
               "end": 44,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -77,6 +80,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 69,
                     "end": 87,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 69,
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
                         "end": 86,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -135,7 +140,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -148,10 +155,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

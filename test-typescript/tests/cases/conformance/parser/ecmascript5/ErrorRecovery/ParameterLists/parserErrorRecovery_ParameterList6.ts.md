@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "banana",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -65,18 +66,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 34,
                       "end": 39,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 34,
                         "end": 39,
                         "decorators": [],
                         "name": "break",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -89,10 +94,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

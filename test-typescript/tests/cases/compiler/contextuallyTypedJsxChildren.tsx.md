@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 201,
                   "end": 214,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
                     "end": 205,
                     "decorators": [],
                     "name": "icon",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -83,6 +86,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 219,
                   "end": 233,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
                     "end": 224,
                     "decorators": [],
                     "name": "label",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -116,8 +121,10 @@ __ESTREE_TEST__:PASS:
               "end": 194,
               "decorators": [],
               "name": "BaseProps",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -132,6 +139,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 292,
                   "end": 346,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -139,7 +147,8 @@ __ESTREE_TEST__:PASS:
                     "end": 300,
                     "decorators": [],
                     "name": "children",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -164,6 +173,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSPropertySignature",
                               "start": 310,
                               "end": 329,
+                              "accessibility": null,
                               "computed": false,
                               "key": {
                                 "type": "Identifier",
@@ -171,7 +181,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 317,
                                 "decorators": [],
                                 "name": "onClose",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "readonly": false,
@@ -194,7 +205,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 325,
                                       "end": 329
                                     }
-                                  }
+                                  },
+                                  "typeParameters": null
                                 }
                               }
                             }
@@ -212,6 +224,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 334,
                       "end": 345,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 334,
@@ -222,7 +235,8 @@ __ESTREE_TEST__:PASS:
                           "end": 337,
                           "decorators": [],
                           "name": "JSX",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -230,17 +244,20 @@ __ESTREE_TEST__:PASS:
                           "end": 345,
                           "decorators": [],
                           "name": "Element",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   },
-                  "static": false
+                  "static": false,
+                  "typeParameters": null
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 351,
                   "end": 380,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -248,7 +265,8 @@ __ESTREE_TEST__:PASS:
                     "end": 359,
                     "decorators": [],
                     "name": "controls",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -290,8 +308,10 @@ __ESTREE_TEST__:PASS:
                   "end": 285,
                   "decorators": [],
                   "name": "BaseProps",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -300,8 +320,10 @@ __ESTREE_TEST__:PASS:
               "end": 267,
               "decorators": [],
               "name": "PropsWithChildren",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -316,6 +338,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 439,
                   "end": 459,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -323,7 +346,8 @@ __ESTREE_TEST__:PASS:
                     "end": 447,
                     "decorators": [],
                     "name": "controls",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -340,13 +364,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 449,
                         "end": 456,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 449,
                           "end": 456,
                           "decorators": [],
                           "name": "Control",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -356,6 +382,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 464,
                   "end": 493,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -363,7 +390,8 @@ __ESTREE_TEST__:PASS:
                     "end": 472,
                     "decorators": [],
                     "name": "children",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -405,8 +433,10 @@ __ESTREE_TEST__:PASS:
                   "end": 432,
                   "decorators": [],
                   "name": "BaseProps",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -415,8 +445,10 @@ __ESTREE_TEST__:PASS:
               "end": 414,
               "decorators": [],
               "name": "PropsWithControls",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -431,6 +463,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 524,
                   "end": 538,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -438,7 +471,8 @@ __ESTREE_TEST__:PASS:
                     "end": 529,
                     "decorators": [],
                     "name": "title",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -464,8 +498,10 @@ __ESTREE_TEST__:PASS:
               "end": 517,
               "decorators": [],
               "name": "Control",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSTypeAliasDeclaration",
@@ -478,7 +514,8 @@ __ESTREE_TEST__:PASS:
               "end": 555,
               "decorators": [],
               "name": "Props",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSUnionType",
@@ -489,30 +526,35 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 558,
                   "end": 575,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 558,
                     "end": 575,
                     "decorators": [],
                     "name": "PropsWithChildren",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
                   "type": "TSTypeReference",
                   "start": 578,
                   "end": 595,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 578,
                     "end": 595,
                     "decorators": [],
                     "name": "PropsWithControls",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -524,7 +566,8 @@ __ESTREE_TEST__:PASS:
         "end": 170,
         "decorators": [],
         "name": "DropdownMenu",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -562,6 +605,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 647,
                       "end": 665,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 647,
@@ -572,7 +616,8 @@ __ESTREE_TEST__:PASS:
                           "end": 659,
                           "decorators": [],
                           "name": "DropdownMenu",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -580,7 +625,8 @@ __ESTREE_TEST__:PASS:
                           "end": 665,
                           "decorators": [],
                           "name": "Props",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -596,7 +642,8 @@ __ESTREE_TEST__:PASS:
                     "end": 632,
                     "decorators": [],
                     "name": "React",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -604,7 +651,8 @@ __ESTREE_TEST__:PASS:
                     "end": 646,
                     "decorators": [],
                     "name": "ComponentType",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -620,6 +668,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 669,
       "end": 837,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 669,
@@ -702,7 +751,8 @@ __ESTREE_TEST__:PASS:
                               "end": 785,
                               "decorators": [],
                               "name": "onClose",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -713,7 +763,8 @@ __ESTREE_TEST__:PASS:
                         "end": 768,
                         "name": "button"
                       },
-                      "selfClosing": false
+                      "selfClosing": false,
+                      "typeArguments": null
                     }
                   },
                   {
@@ -746,7 +797,8 @@ __ESTREE_TEST__:PASS:
                     "end": 753,
                     "name": "div"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               "expression": true,
@@ -771,7 +823,8 @@ __ESTREE_TEST__:PASS:
                         "end": 736,
                         "decorators": [],
                         "name": "onClose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -783,12 +836,16 @@ __ESTREE_TEST__:PASS:
                         "end": 736,
                         "decorators": [],
                         "name": "onClose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  ]
+                  ],
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -858,7 +915,8 @@ __ESTREE_TEST__:PASS:
             "end": 682,
             "name": "DropdownMenu"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -866,6 +924,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 839,
       "end": 1006,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 839,
@@ -993,7 +1052,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 967,
                                   "decorators": [],
                                   "name": "onClose",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -1004,7 +1064,8 @@ __ESTREE_TEST__:PASS:
                             "end": 950,
                             "name": "button"
                           },
-                          "selfClosing": false
+                          "selfClosing": false,
+                          "typeArguments": null
                         }
                       },
                       {
@@ -1037,7 +1098,8 @@ __ESTREE_TEST__:PASS:
                         "end": 935,
                         "name": "div"
                       },
-                      "selfClosing": false
+                      "selfClosing": false,
+                      "typeArguments": null
                     }
                   },
                   "expression": true,
@@ -1062,7 +1124,8 @@ __ESTREE_TEST__:PASS:
                             "end": 918,
                             "decorators": [],
                             "name": "onClose",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1074,12 +1137,16 @@ __ESTREE_TEST__:PASS:
                             "end": 918,
                             "decorators": [],
                             "name": "onClose",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
-                      ]
+                      ],
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             }
@@ -1090,7 +1157,8 @@ __ESTREE_TEST__:PASS:
             "end": 852,
             "name": "DropdownMenu"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

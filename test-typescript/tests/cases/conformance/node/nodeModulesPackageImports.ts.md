@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -87,7 +89,8 @@ __ESTREE_TEST__:PASS:
             "end": 93,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -96,39 +99,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 108,
       "end": 112,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 108,
         "end": 111,
         "decorators": [],
         "name": "cjs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 113,
       "end": 117,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 113,
         "end": 116,
         "decorators": [],
         "name": "mjs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 118,
       "end": 123,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 118,
         "end": 122,
         "decorators": [],
         "name": "type",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

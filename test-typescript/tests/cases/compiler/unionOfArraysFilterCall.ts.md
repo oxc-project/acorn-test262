@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 21,
             "end": 32,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 37,
             "end": 50,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 41,
               "decorators": [],
               "name": "fizz",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -78,8 +82,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Fizz",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -94,6 +100,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 75,
             "end": 86,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -101,7 +108,8 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -121,6 +129,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 91,
             "end": 104,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -128,7 +137,8 @@ __ESTREE_TEST__:PASS:
               "end": 95,
               "decorators": [],
               "name": "buzz",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -154,13 +164,16 @@ __ESTREE_TEST__:PASS:
         "end": 68,
         "decorators": [],
         "name": "Buzz",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 108,
       "end": 160,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 108,
@@ -187,7 +200,8 @@ __ESTREE_TEST__:PASS:
                   "end": 151,
                   "decorators": [],
                   "name": "item",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -196,7 +210,8 @@ __ESTREE_TEST__:PASS:
                   "end": 154,
                   "decorators": [],
                   "name": "id",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -217,9 +232,12 @@ __ESTREE_TEST__:PASS:
                 "end": 143,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -250,13 +268,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 115,
                     "end": 119,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 115,
                       "end": 119,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -268,13 +288,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 124,
                     "end": 128,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 124,
                       "end": 128,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -288,16 +310,19 @@ __ESTREE_TEST__:PASS:
             "end": 138,
             "decorators": [],
             "name": "filter",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 161,
       "end": 222,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 161,
@@ -324,7 +349,8 @@ __ESTREE_TEST__:PASS:
                   "end": 213,
                   "decorators": [],
                   "name": "item",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -333,7 +359,8 @@ __ESTREE_TEST__:PASS:
                   "end": 216,
                   "decorators": [],
                   "name": "id",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -354,9 +381,12 @@ __ESTREE_TEST__:PASS:
                 "end": 205,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -387,13 +417,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 168,
                     "end": 172,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 168,
                       "end": 172,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -410,13 +442,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 186,
                       "end": 190,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 186,
                         "end": 190,
                         "decorators": [],
                         "name": "Buzz",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -431,16 +465,19 @@ __ESTREE_TEST__:PASS:
             "end": 200,
             "decorators": [],
             "name": "filter",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 225,
       "end": 268,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 225,
@@ -457,7 +494,8 @@ __ESTREE_TEST__:PASS:
               "end": 266,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "expression": true,
             "generator": false,
@@ -469,9 +507,12 @@ __ESTREE_TEST__:PASS:
                 "end": 258,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -502,13 +543,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 232,
                     "end": 236,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 232,
                       "end": 236,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -520,13 +563,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 241,
                     "end": 245,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 241,
                       "end": 245,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -540,10 +585,12 @@ __ESTREE_TEST__:PASS:
             "end": 253,
             "decorators": [],
             "name": "find",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -551,6 +598,7 @@ __ESTREE_TEST__:PASS:
       "start": 269,
       "end": 316,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -560,7 +608,8 @@ __ESTREE_TEST__:PASS:
         "end": 292,
         "decorators": [],
         "name": "isFizz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -597,7 +646,8 @@ __ESTREE_TEST__:PASS:
             "end": 307,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -607,23 +657,27 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 311,
               "end": 315,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 311,
                 "end": 315,
                 "decorators": [],
                 "name": "Fizz",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 317,
       "end": 354,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 317,
@@ -635,7 +689,8 @@ __ESTREE_TEST__:PASS:
             "end": 352,
             "decorators": [],
             "name": "isFizz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -666,13 +721,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 324,
                     "end": 328,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 324,
                       "end": 328,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -684,13 +741,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 333,
                     "end": 337,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 333,
                       "end": 337,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -704,10 +763,12 @@ __ESTREE_TEST__:PASS:
             "end": 345,
             "decorators": [],
             "name": "find",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -715,6 +776,7 @@ __ESTREE_TEST__:PASS:
       "start": 355,
       "end": 402,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -724,7 +786,8 @@ __ESTREE_TEST__:PASS:
         "end": 378,
         "decorators": [],
         "name": "isBuzz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -761,7 +824,8 @@ __ESTREE_TEST__:PASS:
             "end": 393,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -771,23 +835,27 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 397,
               "end": 401,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 397,
                 "end": 401,
                 "decorators": [],
                 "name": "Buzz",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 403,
       "end": 440,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 403,
@@ -799,7 +867,8 @@ __ESTREE_TEST__:PASS:
             "end": 438,
             "decorators": [],
             "name": "isBuzz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -830,13 +899,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 410,
                     "end": 414,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 410,
                       "end": 414,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -848,13 +919,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 419,
                     "end": 423,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 419,
                       "end": 423,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -868,16 +941,19 @@ __ESTREE_TEST__:PASS:
             "end": 431,
             "decorators": [],
             "name": "find",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 442,
       "end": 493,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 442,
@@ -904,7 +980,8 @@ __ESTREE_TEST__:PASS:
                   "end": 484,
                   "decorators": [],
                   "name": "item",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -913,7 +990,8 @@ __ESTREE_TEST__:PASS:
                   "end": 487,
                   "decorators": [],
                   "name": "id",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -934,9 +1012,12 @@ __ESTREE_TEST__:PASS:
                 "end": 476,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -967,13 +1048,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 449,
                     "end": 453,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 449,
                       "end": 453,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -985,13 +1068,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 458,
                     "end": 462,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 458,
                       "end": 462,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1005,16 +1090,19 @@ __ESTREE_TEST__:PASS:
             "end": 471,
             "decorators": [],
             "name": "every",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 495,
       "end": 540,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 495,
@@ -1031,7 +1119,8 @@ __ESTREE_TEST__:PASS:
               "end": 538,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "expression": true,
             "generator": false,
@@ -1043,9 +1132,12 @@ __ESTREE_TEST__:PASS:
                 "end": 530,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -1076,13 +1168,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 502,
                     "end": 506,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 502,
                       "end": 506,
                       "decorators": [],
                       "name": "Fizz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -1094,13 +1188,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 511,
                     "end": 515,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 511,
                       "end": 515,
                       "decorators": [],
                       "name": "Buzz",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1114,16 +1210,19 @@ __ESTREE_TEST__:PASS:
             "end": 525,
             "decorators": [],
             "name": "reduce",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 543,
       "end": 606,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 543,
@@ -1154,7 +1253,8 @@ __ESTREE_TEST__:PASS:
                     "end": 596,
                     "decorators": [],
                     "name": "item",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "property": {
@@ -1163,7 +1263,8 @@ __ESTREE_TEST__:PASS:
                     "end": 600,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1185,9 +1286,12 @@ __ESTREE_TEST__:PASS:
                 "end": 588,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -1219,13 +1323,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 551,
                       "end": 555,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 551,
                         "end": 555,
                         "decorators": [],
                         "name": "Fizz",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -1248,13 +1354,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 569,
                           "end": 573,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 569,
                             "end": 573,
                             "decorators": [],
                             "name": "Buzz",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -1271,10 +1379,12 @@ __ESTREE_TEST__:PASS:
             "end": 583,
             "decorators": [],
             "name": "filter",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

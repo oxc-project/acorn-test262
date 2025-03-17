@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "state",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -58,10 +59,13 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Control",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -76,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 92,
             "end": 107,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -83,7 +88,8 @@ __ESTREE_TEST__:PASS:
               "end": 98,
               "decorators": [],
               "name": "select",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -99,7 +105,8 @@ __ESTREE_TEST__:PASS:
                 "end": 106
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -115,8 +122,10 @@ __ESTREE_TEST__:PASS:
             "end": 85,
             "decorators": [],
             "name": "Control",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -125,8 +134,10 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "SelectableControl",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -142,6 +153,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 145,
             "end": 157,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -150,7 +162,8 @@ __ESTREE_TEST__:PASS:
               "end": 151,
               "decorators": [],
               "name": "select",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -171,7 +184,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -184,7 +199,8 @@ __ESTREE_TEST__:PASS:
         "end": 122,
         "decorators": [],
         "name": "Button",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -193,8 +209,11 @@ __ESTREE_TEST__:PASS:
         "end": 138,
         "decorators": [],
         "name": "Control",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -210,6 +229,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 196,
             "end": 208,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -218,7 +238,8 @@ __ESTREE_TEST__:PASS:
               "end": 202,
               "decorators": [],
               "name": "select",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -239,7 +260,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -252,7 +275,8 @@ __ESTREE_TEST__:PASS:
         "end": 173,
         "decorators": [],
         "name": "TextBox",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -261,8 +285,11 @@ __ESTREE_TEST__:PASS:
         "end": 189,
         "decorators": [],
         "name": "Control",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -283,7 +310,8 @@ __ESTREE_TEST__:PASS:
         "end": 222,
         "decorators": [],
         "name": "Image",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -292,8 +320,11 @@ __ESTREE_TEST__:PASS:
         "end": 238,
         "decorators": [],
         "name": "Control",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -309,6 +340,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 264,
             "end": 276,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -317,7 +349,8 @@ __ESTREE_TEST__:PASS:
               "end": 270,
               "decorators": [],
               "name": "select",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -338,7 +371,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -351,10 +386,13 @@ __ESTREE_TEST__:PASS:
         "end": 257,
         "decorators": [],
         "name": "Location",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

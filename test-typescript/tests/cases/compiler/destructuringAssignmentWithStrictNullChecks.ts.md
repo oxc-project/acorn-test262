@@ -44,6 +44,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 13,
       "end": 31,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -66,12 +67,16 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",

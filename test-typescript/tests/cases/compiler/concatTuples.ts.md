@@ -87,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 40,
       "end": 75,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 40,
@@ -98,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 43,
           "decorators": [],
           "name": "ijs",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -166,7 +168,8 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "ijs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -175,10 +178,12 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "concat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     }

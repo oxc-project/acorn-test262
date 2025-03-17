@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 16,
             "end": 38,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 44,
             "end": 56,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -86,6 +88,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 61,
             "end": 72,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -100,6 +103,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 66,
@@ -118,10 +122,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

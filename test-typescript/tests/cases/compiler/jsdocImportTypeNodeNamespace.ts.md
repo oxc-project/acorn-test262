@@ -67,7 +67,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "_default",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -81,7 +82,8 @@ __ESTREE_TEST__:PASS:
         "end": 95,
         "decorators": [],
         "name": "_default",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }

@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Beta",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSModuleDeclaration",
@@ -76,7 +78,8 @@ __ESTREE_TEST__:PASS:
                             "end": 150,
                             "decorators": [],
                             "name": "outer",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -85,9 +88,11 @@ __ESTREE_TEST__:PASS:
                             "end": 155,
                             "decorators": [],
                             "name": "Beta",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
-                        }
+                        },
+                        "typeArguments": null
                       }
                     ],
                     "id": {
@@ -96,8 +101,10 @@ __ESTREE_TEST__:PASS:
                       "end": 136,
                       "decorators": [],
                       "name": "Beta",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -113,7 +120,8 @@ __ESTREE_TEST__:PASS:
               "end": 58,
               "decorators": [],
               "name": "inner",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "outer",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

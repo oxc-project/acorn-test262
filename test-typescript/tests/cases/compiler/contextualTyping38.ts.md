@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                       "end": 50,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -63,9 +65,12 @@ __ESTREE_TEST__:PASS:
                   "end": 38,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
@@ -86,7 +91,8 @@ __ESTREE_TEST__:PASS:
                       "start": 17,
                       "end": 23
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               ]
             }

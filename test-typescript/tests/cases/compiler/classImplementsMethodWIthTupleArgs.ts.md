@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 51,
             "end": 94,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "decorators": [],
               "name": "set",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -82,7 +84,8 @@ __ESTREE_TEST__:PASS:
                         "end": 69,
                         "decorators": [],
                         "name": "Record",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -97,13 +100,15 @@ __ESTREE_TEST__:PASS:
                   "start": 89,
                   "end": 93
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 99,
             "end": 139,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "set",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -175,7 +181,8 @@ __ESTREE_TEST__:PASS:
                   "start": 134,
                   "end": 138
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -188,7 +195,8 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "MySettable",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -201,11 +209,15 @@ __ESTREE_TEST__:PASS:
             "end": 44,
             "decorators": [],
             "name": "Settable",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -220,6 +232,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 168,
             "end": 272,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -227,7 +240,8 @@ __ESTREE_TEST__:PASS:
               "end": 171,
               "decorators": [],
               "name": "set",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -242,7 +256,8 @@ __ESTREE_TEST__:PASS:
                   "end": 179,
                   "decorators": [],
                   "name": "args",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "decorators": [],
                 "optional": false,
@@ -291,7 +306,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 196,
                                 "decorators": [],
                                 "name": "Record",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "label": {
@@ -300,7 +316,8 @@ __ESTREE_TEST__:PASS:
                               "end": 188,
                               "decorators": [],
                               "name": "option",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           }
@@ -326,7 +343,8 @@ __ESTREE_TEST__:PASS:
                               "end": 222,
                               "decorators": [],
                               "name": "name",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           },
@@ -345,7 +363,8 @@ __ESTREE_TEST__:PASS:
                               "end": 237,
                               "decorators": [],
                               "name": "value",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           }
@@ -371,7 +390,8 @@ __ESTREE_TEST__:PASS:
                               "end": 255,
                               "decorators": [],
                               "name": "name",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           }
@@ -379,7 +399,8 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   }
-                }
+                },
+                "value": null
               }
             ],
             "readonly": false,
@@ -393,7 +414,8 @@ __ESTREE_TEST__:PASS:
                 "end": 271
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -405,8 +427,10 @@ __ESTREE_TEST__:PASS:
         "end": 161,
         "decorators": [],
         "name": "Settable",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

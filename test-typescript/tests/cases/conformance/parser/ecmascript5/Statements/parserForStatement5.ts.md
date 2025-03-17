@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "optional": false,
-        "properties": []
+        "properties": [],
+        "typeAnnotation": null
       },
       "right": {
         "type": "Identifier",
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

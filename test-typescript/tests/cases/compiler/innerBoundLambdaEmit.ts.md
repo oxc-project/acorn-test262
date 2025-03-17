@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -63,7 +66,8 @@ __ESTREE_TEST__:PASS:
                   "end": 51,
                   "decorators": [],
                   "name": "bar",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
@@ -79,7 +83,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -96,7 +102,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -113,6 +120,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 92,
             "end": 106,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -120,7 +128,8 @@ __ESTREE_TEST__:PASS:
               "end": 97,
               "decorators": [],
               "name": "toFoo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -134,6 +143,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 101,
                 "end": 106,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 101,
@@ -144,7 +154,8 @@ __ESTREE_TEST__:PASS:
                     "end": 102,
                     "decorators": [],
                     "name": "M",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -152,12 +163,14 @@ __ESTREE_TEST__:PASS:
                     "end": 106,
                     "decorators": [],
                     "name": "Foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -169,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "Array",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -181,6 +195,8 @@ __ESTREE_TEST__:PASS:
             "start": 83,
             "end": 84,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -188,7 +204,8 @@ __ESTREE_TEST__:PASS:
               "end": 84,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

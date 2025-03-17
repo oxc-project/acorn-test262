@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 37,
             "end": 63,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -74,10 +78,13 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "GetSetEnumerableClassGet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -93,6 +100,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 104,
             "end": 132,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -101,7 +109,8 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "set",
             "optional": false,
@@ -141,7 +150,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -154,10 +165,13 @@ __ESTREE_TEST__:PASS:
         "end": 97,
         "decorators": [],
         "name": "GetSetEnumerableClassSet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -173,6 +187,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 176,
             "end": 202,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -181,7 +196,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -215,13 +231,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 207,
             "end": 235,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -230,7 +249,8 @@ __ESTREE_TEST__:PASS:
               "end": 215,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "set",
             "optional": false,
@@ -270,7 +290,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -283,10 +305,13 @@ __ESTREE_TEST__:PASS:
         "end": 169,
         "decorators": [],
         "name": "GetSetEnumerableClassGetSet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -304,7 +329,8 @@ __ESTREE_TEST__:PASS:
             "end": 270,
             "decorators": [],
             "name": "GetSetEnumerableObjectGet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -322,7 +348,8 @@ __ESTREE_TEST__:PASS:
                   "end": 287,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "get",
                 "method": false,
@@ -356,7 +383,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -382,7 +411,8 @@ __ESTREE_TEST__:PASS:
             "end": 342,
             "decorators": [],
             "name": "GetSetEnumerableObjectSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -400,7 +430,8 @@ __ESTREE_TEST__:PASS:
                   "end": 359,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "set",
                 "method": false,
@@ -440,7 +471,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -466,7 +499,8 @@ __ESTREE_TEST__:PASS:
             "end": 418,
             "decorators": [],
             "name": "GetSetEnumerableObjectGetSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -484,7 +518,8 @@ __ESTREE_TEST__:PASS:
                   "end": 435,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "get",
                 "method": false,
@@ -518,7 +553,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -532,7 +569,8 @@ __ESTREE_TEST__:PASS:
                   "end": 468,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "set",
                 "method": false,
@@ -572,7 +610,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

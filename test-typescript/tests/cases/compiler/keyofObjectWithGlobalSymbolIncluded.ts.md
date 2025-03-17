@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 25,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                     "end": 33,
                     "decorators": [],
                     "name": "species",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "init",
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
                   "end": 41,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -87,7 +91,8 @@ __ESTREE_TEST__:PASS:
         "end": 52,
         "decorators": [],
         "name": "Q",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeOperator",
@@ -104,10 +109,13 @@ __ESTREE_TEST__:PASS:
             "end": 71,
             "decorators": [],
             "name": "obj",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

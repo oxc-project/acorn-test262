@@ -25,8 +25,10 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "x",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -39,8 +41,10 @@ __ESTREE_TEST__:PASS:
               "end": 21,
               "decorators": [],
               "name": "y",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -53,8 +57,10 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "x",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -66,7 +72,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "e",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -89,7 +96,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -110,7 +118,8 @@ __ESTREE_TEST__:PASS:
               "end": 58,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -131,8 +140,10 @@ __ESTREE_TEST__:PASS:
               "end": 70,
               "decorators": [],
               "name": "z",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -145,8 +156,10 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "x2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -158,7 +171,8 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "e2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -179,7 +193,8 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "decorators": [],
         "name": "e3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

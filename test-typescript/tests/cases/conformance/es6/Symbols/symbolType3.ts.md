@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "s",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -34,9 +35,11 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -47,6 +50,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 18,
       "end": 41,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 18,
@@ -62,7 +66,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -71,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 40,
             "decorators": [],
             "name": "iterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "delete",
@@ -82,6 +88,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 42,
       "end": 66,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 42,
@@ -97,7 +104,8 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -106,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "toPrimitive",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "void",
@@ -117,6 +126,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 67,
       "end": 93,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 67,
@@ -132,7 +142,8 @@ __ESTREE_TEST__:PASS:
             "end": 80,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -141,7 +152,8 @@ __ESTREE_TEST__:PASS:
             "end": 92,
             "decorators": [],
             "name": "toStringTag",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "typeof",
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 94,
       "end": 98,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 94,
@@ -162,7 +175,8 @@ __ESTREE_TEST__:PASS:
           "end": 97,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": true
@@ -172,6 +186,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 99,
       "end": 103,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 99,
@@ -182,7 +197,8 @@ __ESTREE_TEST__:PASS:
           "end": 102,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": true
@@ -192,6 +208,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 104,
       "end": 115,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 104,
@@ -207,9 +224,11 @@ __ESTREE_TEST__:PASS:
             "end": 112,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "operator": "+",
         "prefix": true
@@ -219,6 +238,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 116,
       "end": 127,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 116,
@@ -234,9 +254,11 @@ __ESTREE_TEST__:PASS:
             "end": 124,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "operator": "-",
         "prefix": true
@@ -246,6 +268,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 128,
       "end": 139,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 128,
@@ -261,9 +284,11 @@ __ESTREE_TEST__:PASS:
             "end": 136,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "operator": "~",
         "prefix": true
@@ -273,6 +298,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 140,
       "end": 151,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 140,
@@ -288,9 +314,11 @@ __ESTREE_TEST__:PASS:
             "end": 148,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "operator": "!",
         "prefix": true
@@ -300,6 +328,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 153,
       "end": 170,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 153,
@@ -320,9 +349,11 @@ __ESTREE_TEST__:PASS:
               "end": 161,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "right": {
             "type": "Literal",

@@ -30,13 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9,
                 "end": 15,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 9,
                   "end": 15,
                   "decorators": [],
                   "name": "Object",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -82,13 +84,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 130,
                       "end": 145,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 130,
                         "end": 145,
                         "decorators": [],
                         "name": "ArrayBufferView",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
                   "end": 151,
                   "decorators": [],
                   "name": "obj",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -119,7 +124,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -133,7 +139,8 @@ __ESTREE_TEST__:PASS:
             "end": 32,
             "decorators": [],
             "name": "ArrayBuffer",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -142,10 +149,12 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "isView",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

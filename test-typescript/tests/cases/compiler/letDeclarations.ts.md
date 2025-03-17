@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "l1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -79,7 +80,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "l3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "l4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -134,7 +137,8 @@ __ESTREE_TEST__:PASS:
             "end": 50,
             "decorators": [],
             "name": "l6",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -158,7 +162,8 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "decorators": [],
             "name": "l7",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -228,7 +233,8 @@ __ESTREE_TEST__:PASS:
             "end": 96,
             "decorators": [],
             "name": "l9",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -280,7 +286,8 @@ __ESTREE_TEST__:PASS:
             "end": 123,
             "decorators": [],
             "name": "l11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -320,7 +327,8 @@ __ESTREE_TEST__:PASS:
               "end": 144,
               "decorators": [],
               "name": "l11",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -361,7 +369,8 @@ __ESTREE_TEST__:PASS:
               "end": 168,
               "decorators": [],
               "name": "l12",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -386,7 +395,8 @@ __ESTREE_TEST__:PASS:
           "end": 177,
           "decorators": [],
           "name": "l12",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -406,7 +416,8 @@ __ESTREE_TEST__:PASS:
           "end": 186,
           "decorators": [],
           "name": "l12",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false

@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 29,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                     "end": 65,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -87,9 +89,12 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "fooA",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
                     "end": 111,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -144,7 +150,8 @@ __ESTREE_TEST__:PASS:
                     "end": 143,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -158,9 +165,12 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "fooB",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -172,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

@@ -51,6 +51,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 59,
                   "end": 71,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
                     "end": 63,
                     "decorators": [],
                     "name": "type",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -91,8 +93,10 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "ImportAttributes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -123,7 +128,8 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "value": {
             "type": "Literal",
@@ -153,7 +159,8 @@ __ESTREE_TEST__:PASS:
             "end": 95,
             "decorators": [],
             "name": "ns",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -162,6 +169,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 134,
       "end": 142,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 134,
@@ -172,7 +180,8 @@ __ESTREE_TEST__:PASS:
           "end": 141,
           "decorators": [],
           "name": "ns",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -192,6 +201,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 169,
             "end": 255,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 169,
@@ -216,7 +226,8 @@ __ESTREE_TEST__:PASS:
                         "end": 203,
                         "decorators": [],
                         "name": "with",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -238,7 +249,8 @@ __ESTREE_TEST__:PASS:
                               "end": 223,
                               "decorators": [],
                               "name": "type",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "init",
                             "method": false,
@@ -278,9 +290,12 @@ __ESTREE_TEST__:PASS:
         "end": 160,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

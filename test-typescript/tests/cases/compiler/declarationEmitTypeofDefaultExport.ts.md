@@ -28,10 +28,13 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -76,7 +79,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -96,7 +100,8 @@ __ESTREE_TEST__:PASS:
           "end": 42,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "default",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value"

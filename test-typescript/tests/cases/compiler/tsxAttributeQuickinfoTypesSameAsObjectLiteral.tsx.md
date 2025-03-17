@@ -32,6 +32,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 65,
                     "end": 74,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                       "end": 69,
                       "decorators": [],
                       "name": "span",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -66,8 +68,10 @@ __ESTREE_TEST__:PASS:
                 "end": 54,
                 "decorators": [],
                 "name": "IntrinsicElements",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -91,6 +95,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 114,
                     "end": 130,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -98,7 +103,8 @@ __ESTREE_TEST__:PASS:
                       "end": 123,
                       "decorators": [],
                       "name": "something",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": true,
                     "readonly": false,
@@ -124,8 +130,10 @@ __ESTREE_TEST__:PASS:
                 "end": 109,
                 "decorators": [],
                 "name": "Element",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -141,7 +149,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -161,7 +170,8 @@ __ESTREE_TEST__:PASS:
             "end": 149,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -188,7 +198,8 @@ __ESTREE_TEST__:PASS:
                       "end": 201,
                       "decorators": [],
                       "name": "props",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -197,7 +208,8 @@ __ESTREE_TEST__:PASS:
                       "end": 205,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -224,7 +236,8 @@ __ESTREE_TEST__:PASS:
                   "end": 194,
                   "name": "span"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             },
             "expression": true,
@@ -251,6 +264,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 162,
                         "end": 182,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -258,7 +272,8 @@ __ESTREE_TEST__:PASS:
                           "end": 165,
                           "decorators": [],
                           "name": "foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -316,7 +331,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -327,6 +344,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 216,
       "end": 238,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 216,
@@ -348,7 +366,8 @@ __ESTREE_TEST__:PASS:
                   "end": 229,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -371,15 +390,18 @@ __ESTREE_TEST__:PASS:
           "end": 219,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 240,
       "end": 255,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 240,
@@ -416,7 +438,8 @@ __ESTREE_TEST__:PASS:
             "end": 244,
             "name": "Foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

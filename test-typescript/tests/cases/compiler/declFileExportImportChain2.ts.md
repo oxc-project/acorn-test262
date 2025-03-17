@@ -52,10 +52,13 @@ __ESTREE_TEST__:PASS:
                         "end": 58,
                         "decorators": [],
                         "name": "c1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -71,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 32,
                 "decorators": [],
                 "name": "m2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -89,7 +93,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -103,7 +108,8 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -128,7 +134,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -154,7 +161,8 @@ __ESTREE_TEST__:PASS:
         "end": 62,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -184,7 +192,8 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "importKind": "value",
         "moduleReference": {
@@ -226,7 +235,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "c",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -272,6 +282,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 66,
                   "end": 75,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 66,
@@ -290,7 +301,8 @@ __ESTREE_TEST__:PASS:
                           "end": 67,
                           "decorators": [],
                           "name": "c",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -298,7 +310,8 @@ __ESTREE_TEST__:PASS:
                           "end": 69,
                           "decorators": [],
                           "name": "b",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -307,7 +320,8 @@ __ESTREE_TEST__:PASS:
                         "end": 72,
                         "decorators": [],
                         "name": "m2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "right": {
@@ -316,7 +330,8 @@ __ESTREE_TEST__:PASS:
                       "end": 75,
                       "decorators": [],
                       "name": "c1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 44,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 33,
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
             "end": 37,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

@@ -25,8 +25,10 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "a",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -39,8 +41,10 @@ __ESTREE_TEST__:PASS:
               "end": 13,
               "decorators": [],
               "name": "b",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -52,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -161,6 +166,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 64,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 56,
@@ -172,7 +178,8 @@ __ESTREE_TEST__:PASS:
           "end": 58,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -180,7 +187,8 @@ __ESTREE_TEST__:PASS:
           "end": 63,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -188,6 +196,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 65,
       "end": 73,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 65,
@@ -199,7 +208,8 @@ __ESTREE_TEST__:PASS:
           "end": 67,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -207,7 +217,8 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -215,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 74,
       "end": 85,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 74,
@@ -226,7 +238,8 @@ __ESTREE_TEST__:PASS:
           "end": 76,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -241,6 +254,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 86,
       "end": 94,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 86,
@@ -252,7 +266,8 @@ __ESTREE_TEST__:PASS:
           "end": 88,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -267,6 +282,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 95,
       "end": 104,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 95,
@@ -278,7 +294,8 @@ __ESTREE_TEST__:PASS:
           "end": 97,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -293,6 +310,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 105,
       "end": 115,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 105,
@@ -304,7 +322,8 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -317,7 +336,8 @@ __ESTREE_TEST__:PASS:
             "end": 112,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -326,7 +346,8 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -335,6 +356,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 116,
       "end": 125,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 116,
@@ -346,7 +368,8 @@ __ESTREE_TEST__:PASS:
           "end": 118,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -360,6 +383,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 126,
       "end": 137,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 126,
@@ -371,7 +395,8 @@ __ESTREE_TEST__:PASS:
           "end": 128,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -386,6 +411,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 138,
       "end": 154,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 138,
@@ -397,7 +423,8 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "x1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -405,7 +432,8 @@ __ESTREE_TEST__:PASS:
           "end": 153,
           "decorators": [],
           "name": "undefined",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -447,6 +475,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 172,
       "end": 180,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 172,
@@ -458,7 +487,8 @@ __ESTREE_TEST__:PASS:
           "end": 174,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -466,7 +496,8 @@ __ESTREE_TEST__:PASS:
           "end": 179,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -474,6 +505,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 181,
       "end": 189,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 181,
@@ -485,7 +517,8 @@ __ESTREE_TEST__:PASS:
           "end": 183,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -493,7 +526,8 @@ __ESTREE_TEST__:PASS:
           "end": 188,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -501,6 +535,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 190,
       "end": 201,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 190,
@@ -512,7 +547,8 @@ __ESTREE_TEST__:PASS:
           "end": 192,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -527,6 +563,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 202,
       "end": 210,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 202,
@@ -538,7 +575,8 @@ __ESTREE_TEST__:PASS:
           "end": 204,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -553,6 +591,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 211,
       "end": 220,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 211,
@@ -564,7 +603,8 @@ __ESTREE_TEST__:PASS:
           "end": 213,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -579,6 +619,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 221,
       "end": 231,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 221,
@@ -590,7 +631,8 @@ __ESTREE_TEST__:PASS:
           "end": 223,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -603,7 +645,8 @@ __ESTREE_TEST__:PASS:
             "end": 228,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -612,7 +655,8 @@ __ESTREE_TEST__:PASS:
             "end": 230,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -621,6 +665,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 232,
       "end": 241,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 232,
@@ -632,7 +677,8 @@ __ESTREE_TEST__:PASS:
           "end": 234,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -646,6 +692,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 242,
       "end": 253,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 242,
@@ -657,7 +704,8 @@ __ESTREE_TEST__:PASS:
           "end": 244,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -672,6 +720,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 254,
       "end": 270,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 254,
@@ -683,7 +732,8 @@ __ESTREE_TEST__:PASS:
           "end": 256,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -691,7 +741,8 @@ __ESTREE_TEST__:PASS:
           "end": 269,
           "decorators": [],
           "name": "undefined",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -733,6 +784,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 288,
       "end": 296,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 288,
@@ -744,7 +796,8 @@ __ESTREE_TEST__:PASS:
           "end": 290,
           "decorators": [],
           "name": "x3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -752,7 +805,8 @@ __ESTREE_TEST__:PASS:
           "end": 295,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -760,6 +814,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 297,
       "end": 305,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 297,
@@ -771,7 +826,8 @@ __ESTREE_TEST__:PASS:
           "end": 299,
           "decorators": [],
           "name": "x3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -786,6 +842,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 306,
       "end": 316,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 306,
@@ -797,7 +854,8 @@ __ESTREE_TEST__:PASS:
           "end": 308,
           "decorators": [],
           "name": "x3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -810,7 +868,8 @@ __ESTREE_TEST__:PASS:
             "end": 313,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -819,7 +878,8 @@ __ESTREE_TEST__:PASS:
             "end": 315,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -828,6 +888,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 317,
       "end": 328,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 317,
@@ -839,7 +900,8 @@ __ESTREE_TEST__:PASS:
           "end": 319,
           "decorators": [],
           "name": "x3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -854,6 +916,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 329,
       "end": 345,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 329,
@@ -865,7 +928,8 @@ __ESTREE_TEST__:PASS:
           "end": 331,
           "decorators": [],
           "name": "x3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -873,7 +937,8 @@ __ESTREE_TEST__:PASS:
           "end": 344,
           "decorators": [],
           "name": "undefined",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -902,13 +967,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 355,
                 "end": 356,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 355,
                   "end": 356,
                   "decorators": [],
                   "name": "E",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -923,6 +990,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 358,
       "end": 366,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 358,
@@ -934,7 +1002,8 @@ __ESTREE_TEST__:PASS:
           "end": 360,
           "decorators": [],
           "name": "x4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -942,7 +1011,8 @@ __ESTREE_TEST__:PASS:
           "end": 365,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -950,6 +1020,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 367,
       "end": 375,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 367,
@@ -961,7 +1032,8 @@ __ESTREE_TEST__:PASS:
           "end": 369,
           "decorators": [],
           "name": "x4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -976,6 +1048,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 376,
       "end": 386,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 376,
@@ -987,7 +1060,8 @@ __ESTREE_TEST__:PASS:
           "end": 378,
           "decorators": [],
           "name": "x4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -1000,7 +1074,8 @@ __ESTREE_TEST__:PASS:
             "end": 383,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1009,7 +1084,8 @@ __ESTREE_TEST__:PASS:
             "end": 385,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -1018,6 +1094,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 387,
       "end": 398,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 387,
@@ -1029,7 +1106,8 @@ __ESTREE_TEST__:PASS:
           "end": 389,
           "decorators": [],
           "name": "x4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1044,6 +1122,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 399,
       "end": 415,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 399,
@@ -1055,7 +1134,8 @@ __ESTREE_TEST__:PASS:
           "end": 401,
           "decorators": [],
           "name": "x4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1063,7 +1143,8 @@ __ESTREE_TEST__:PASS:
           "end": 414,
           "decorators": [],
           "name": "undefined",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1105,6 +1186,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 434,
       "end": 442,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 434,
@@ -1116,7 +1198,8 @@ __ESTREE_TEST__:PASS:
           "end": 436,
           "decorators": [],
           "name": "x5",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1124,7 +1207,8 @@ __ESTREE_TEST__:PASS:
           "end": 441,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1167,6 +1251,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 456,
       "end": 464,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 456,
@@ -1178,7 +1263,8 @@ __ESTREE_TEST__:PASS:
           "end": 458,
           "decorators": [],
           "name": "x6",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1186,7 +1272,8 @@ __ESTREE_TEST__:PASS:
           "end": 463,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1194,6 +1281,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 465,
       "end": 474,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 465,
@@ -1205,7 +1293,8 @@ __ESTREE_TEST__:PASS:
           "end": 467,
           "decorators": [],
           "name": "x6",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1254,6 +1343,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 490,
       "end": 498,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 490,
@@ -1265,7 +1355,8 @@ __ESTREE_TEST__:PASS:
           "end": 492,
           "decorators": [],
           "name": "x7",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1273,7 +1364,8 @@ __ESTREE_TEST__:PASS:
           "end": 497,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

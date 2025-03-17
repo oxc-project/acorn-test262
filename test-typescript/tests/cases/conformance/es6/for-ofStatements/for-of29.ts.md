@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 56,
                     "end": 94,
+                    "accessibility": null,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                         "end": 63,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
                         "end": 72,
                         "decorators": [],
                         "name": "iterator",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "method",
@@ -89,11 +92,13 @@ __ESTREE_TEST__:PASS:
                           "end": 86,
                           "decorators": [],
                           "name": "Iterator",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               }
@@ -132,7 +137,8 @@ __ESTREE_TEST__:PASS:
               "end": 109,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -146,7 +152,8 @@ __ESTREE_TEST__:PASS:
         "end": 141,
         "decorators": [],
         "name": "iterableWithOptionalIterator",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

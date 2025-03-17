@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "decorators": [],
             "name": "test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -38,7 +39,9 @@ __ESTREE_TEST__:PASS:
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
             "end": 155,
             "decorators": [],
             "name": "jsxWithJsxFragment",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXFragment",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
                   "end": 165,
                   "decorators": [],
                   "name": "test",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -114,7 +119,8 @@ __ESTREE_TEST__:PASS:
             "end": 197,
             "decorators": [],
             "name": "jsxWithReactFragment",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -131,7 +137,8 @@ __ESTREE_TEST__:PASS:
                   "end": 221,
                   "decorators": [],
                   "name": "test",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -179,7 +186,8 @@ __ESTREE_TEST__:PASS:
                   "name": "Fragment"
                 }
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

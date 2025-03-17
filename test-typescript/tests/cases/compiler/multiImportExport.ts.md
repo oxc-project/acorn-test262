@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Drawing",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 47,
             "decorators": [],
             "name": "addr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
                   "end": 61,
                   "decorators": [],
                   "name": "Drawing",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -79,7 +82,8 @@ __ESTREE_TEST__:PASS:
                   "end": 66,
                   "decorators": [],
                   "name": "Math",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -89,9 +93,11 @@ __ESTREE_TEST__:PASS:
                 "end": 72,
                 "decorators": [],
                 "name": "Adder",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -125,7 +131,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Math",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "importKind": "value",
         "moduleReference": {
@@ -167,7 +174,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "Adder",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -199,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 44,
             "decorators": [],
             "name": "Math",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -217,7 +226,8 @@ __ESTREE_TEST__:PASS:
                   "end": 58,
                   "decorators": [],
                   "name": "Adder",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -229,7 +239,8 @@ __ESTREE_TEST__:PASS:
                   "end": 64,
                   "decorators": [],
                   "name": "Adder",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -249,7 +260,8 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "Math",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -278,6 +290,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 60,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -286,7 +299,8 @@ __ESTREE_TEST__:PASS:
               "end": 21,
               "decorators": [],
               "name": "add",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -344,7 +358,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -357,10 +373,13 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Adder",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -372,7 +391,8 @@ __ESTREE_TEST__:PASS:
         "end": 78,
         "decorators": [],
         "name": "Adder",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "b1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -55,7 +57,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "b1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -72,7 +75,8 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "b2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -102,6 +106,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 91,
             "end": 98,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 91,
@@ -113,7 +118,8 @@ __ESTREE_TEST__:PASS:
                 "end": 92,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -121,7 +127,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "decorators": [],
                 "name": "b2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -133,7 +140,8 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

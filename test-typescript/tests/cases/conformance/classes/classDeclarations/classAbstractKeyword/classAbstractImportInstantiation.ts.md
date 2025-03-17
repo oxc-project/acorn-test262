@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "A",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -51,6 +54,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 51,
             "end": 57,
+            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 51,
@@ -62,8 +66,10 @@ __ESTREE_TEST__:PASS:
                 "end": 56,
                 "decorators": [],
                 "name": "A",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           }
         ]
@@ -76,7 +82,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -90,7 +97,8 @@ __ESTREE_TEST__:PASS:
         "end": 71,
         "decorators": [],
         "name": "myA",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -103,7 +111,8 @@ __ESTREE_TEST__:PASS:
           "end": 75,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -111,7 +120,8 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -119,6 +129,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 80,
       "end": 88,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 80,
@@ -130,8 +141,10 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "myA",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

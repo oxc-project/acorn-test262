@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "LEFT_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "RIGHT_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -72,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 77,
                 "decorators": [],
                 "name": "MIDDLE_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -93,7 +96,8 @@ __ESTREE_TEST__:PASS:
                 "end": 99,
                 "decorators": [],
                 "name": "XBUTTON1_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -114,7 +118,8 @@ __ESTREE_TEST__:PASS:
                 "end": 121,
                 "decorators": [],
                 "name": "XBUTTON2_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -135,7 +140,8 @@ __ESTREE_TEST__:PASS:
                 "end": 137,
                 "decorators": [],
                 "name": "NO_BUTTON",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -155,7 +161,8 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "MouseButton",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -183,7 +190,8 @@ __ESTREE_TEST__:PASS:
               "end": 173,
               "decorators": [],
               "name": "DOMMouseButton",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -217,7 +225,8 @@ __ESTREE_TEST__:PASS:
                       "end": 196,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -226,7 +235,8 @@ __ESTREE_TEST__:PASS:
                       "end": 206,
                       "decorators": [],
                       "name": "NO_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -257,7 +267,8 @@ __ESTREE_TEST__:PASS:
                       "end": 225,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -266,7 +277,8 @@ __ESTREE_TEST__:PASS:
                       "end": 237,
                       "decorators": [],
                       "name": "LEFT_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -297,7 +309,8 @@ __ESTREE_TEST__:PASS:
                       "end": 256,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -306,7 +319,8 @@ __ESTREE_TEST__:PASS:
                       "end": 270,
                       "decorators": [],
                       "name": "MIDDLE_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -337,7 +351,8 @@ __ESTREE_TEST__:PASS:
                       "end": 289,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -346,7 +361,8 @@ __ESTREE_TEST__:PASS:
                       "end": 302,
                       "decorators": [],
                       "name": "RIGHT_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -377,7 +393,8 @@ __ESTREE_TEST__:PASS:
                       "end": 321,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -386,7 +403,8 @@ __ESTREE_TEST__:PASS:
                       "end": 337,
                       "decorators": [],
                       "name": "XBUTTON1_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -417,7 +435,8 @@ __ESTREE_TEST__:PASS:
                       "end": 356,
                       "decorators": [],
                       "name": "MouseButton",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -426,7 +445,8 @@ __ESTREE_TEST__:PASS:
                       "end": 372,
                       "decorators": [],
                       "name": "XBUTTON2_BUTTON",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }

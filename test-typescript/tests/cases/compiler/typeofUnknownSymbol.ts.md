@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "whatsthis",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "typeof",
             "prefix": true

@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "someData",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -63,10 +64,13 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Model",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -94,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "Backbone",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -134,7 +139,8 @@ __ESTREE_TEST__:PASS:
           "end": 97,
           "decorators": [],
           "name": "VisualizationModel",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -148,7 +154,8 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "decorators": [],
             "name": "Backbone",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -157,9 +164,12 @@ __ESTREE_TEST__:PASS:
             "end": 120,
             "decorators": [],
             "name": "Model",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -187,7 +197,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "Backbone",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
         "end": 80,
         "decorators": [],
         "name": "moduleA",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -242,6 +254,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 169,
             "end": 211,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -249,7 +262,8 @@ __ESTREE_TEST__:PASS:
               "end": 187,
               "decorators": [],
               "name": "VisualizationModel",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -272,7 +286,8 @@ __ESTREE_TEST__:PASS:
                     "end": 204,
                     "decorators": [],
                     "name": "Backbone",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -280,9 +295,11 @@ __ESTREE_TEST__:PASS:
                     "end": 210,
                     "decorators": [],
                     "name": "Model",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           }
@@ -296,8 +313,10 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "IHasVisualizationModel",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -324,13 +343,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 221,
                 "end": 243,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 221,
                   "end": 243,
                   "decorators": [],
                   "name": "IHasVisualizationModel",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -357,7 +378,8 @@ __ESTREE_TEST__:PASS:
             "end": 251,
             "decorators": [],
             "name": "d1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -370,7 +392,8 @@ __ESTREE_TEST__:PASS:
               "end": 255,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -378,7 +401,8 @@ __ESTREE_TEST__:PASS:
               "end": 266,
               "decorators": [],
               "name": "moduleA",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -411,13 +435,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 276,
                 "end": 298,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 276,
                   "end": 298,
                   "decorators": [],
                   "name": "IHasVisualizationModel",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -433,7 +459,8 @@ __ESTREE_TEST__:PASS:
               "end": 302,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -441,7 +468,8 @@ __ESTREE_TEST__:PASS:
               "end": 313,
               "decorators": [],
               "name": "moduleA",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -474,13 +502,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 323,
                 "end": 345,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 323,
                   "end": 345,
                   "decorators": [],
                   "name": "IHasVisualizationModel",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -496,7 +526,8 @@ __ESTREE_TEST__:PASS:
               "end": 355,
               "decorators": [],
               "name": "moduleA",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -504,7 +535,8 @@ __ESTREE_TEST__:PASS:
               "end": 360,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -542,6 +574,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 371,
                     "end": 396,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -549,7 +582,8 @@ __ESTREE_TEST__:PASS:
                       "end": 372,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -562,13 +596,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 374,
                         "end": 396,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 374,
                           "end": 396,
                           "decorators": [],
                           "name": "IHasVisualizationModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -602,6 +638,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 404,
                     "end": 429,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -609,7 +646,8 @@ __ESTREE_TEST__:PASS:
                       "end": 405,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -622,13 +660,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 407,
                         "end": 429,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 407,
                           "end": 429,
                           "decorators": [],
                           "name": "IHasVisualizationModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -652,7 +692,8 @@ __ESTREE_TEST__:PASS:
                     "end": 443,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -664,7 +705,8 @@ __ESTREE_TEST__:PASS:
                     "end": 452,
                     "decorators": [],
                     "name": "moduleA",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -705,6 +747,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 465,
                     "end": 490,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -712,7 +755,8 @@ __ESTREE_TEST__:PASS:
                       "end": 466,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -725,13 +769,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 468,
                         "end": 490,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 468,
                           "end": 490,
                           "decorators": [],
                           "name": "IHasVisualizationModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -767,7 +813,8 @@ __ESTREE_TEST__:PASS:
                     "end": 536,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -779,7 +826,8 @@ __ESTREE_TEST__:PASS:
                     "end": 545,
                     "decorators": [],
                     "name": "moduleA",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -804,6 +852,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 498,
                     "end": 523,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -811,7 +860,8 @@ __ESTREE_TEST__:PASS:
                       "end": 499,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -824,13 +874,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 501,
                         "end": 523,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 501,
                           "end": 523,
                           "decorators": [],
                           "name": "IHasVisualizationModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }

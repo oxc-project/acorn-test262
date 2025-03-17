@@ -46,6 +46,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSMethodSignature",
                             "start": 118,
                             "end": 146,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
@@ -53,7 +54,8 @@ __ESTREE_TEST__:PASS:
                               "end": 123,
                               "decorators": [],
                               "name": "Alert",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "method",
                             "optional": false,
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 145
                               }
                             },
-                            "static": false
+                            "static": false,
+                            "typeParameters": null
                           }
                         ]
                       },
@@ -100,8 +103,10 @@ __ESTREE_TEST__:PASS:
                         "end": 103,
                         "decorators": [],
                         "name": "IDiagnosticWriter",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -128,7 +133,8 @@ __ESTREE_TEST__:PASS:
                             "end": 193,
                             "decorators": [],
                             "name": "diagnosticWriter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "init": {
                             "type": "Literal",
@@ -175,6 +181,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "ExpressionStatement",
                                   "start": 303,
                                   "end": 334,
+                                  "directive": null,
                                   "expression": {
                                     "type": "CallExpression",
                                     "start": 303,
@@ -186,7 +193,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 332,
                                         "decorators": [],
                                         "name": "output",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     ],
                                     "callee": {
@@ -200,7 +208,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 319,
                                         "decorators": [],
                                         "name": "diagnosticWriter",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "optional": false,
                                       "property": {
@@ -209,10 +218,12 @@ __ESTREE_TEST__:PASS:
                                         "end": 325,
                                         "decorators": [],
                                         "name": "Alert",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
-                                    "optional": false
+                                    "optional": false,
+                                    "typeArguments": null
                                   }
                                 }
                               ]
@@ -223,7 +234,8 @@ __ESTREE_TEST__:PASS:
                               "end": 283,
                               "decorators": [],
                               "name": "diagnosticWriter",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -237,7 +249,8 @@ __ESTREE_TEST__:PASS:
                         "end": 232,
                         "decorators": [],
                         "name": "Alert",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "params": [
                         {
@@ -258,7 +271,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -274,7 +289,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "CompilerDiagnostics",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -292,7 +308,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "TypeScript",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

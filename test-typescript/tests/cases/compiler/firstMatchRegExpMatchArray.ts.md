@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "match",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -59,10 +60,12 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "match",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -118,7 +121,8 @@ __ESTREE_TEST__:PASS:
                     "end": 80,
                     "decorators": [],
                     "name": "match",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -173,7 +177,8 @@ __ESTREE_TEST__:PASS:
                     "end": 113,
                     "decorators": [],
                     "name": "match",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -202,7 +207,8 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "match",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

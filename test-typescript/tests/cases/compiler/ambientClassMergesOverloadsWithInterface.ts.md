@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 23,
             "end": 34,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 26,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -53,13 +55,15 @@ __ESTREE_TEST__:PASS:
                   "start": 30,
                   "end": 33
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 39,
             "end": 59,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -68,7 +72,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -113,7 +118,8 @@ __ESTREE_TEST__:PASS:
                   "start": 55,
                   "end": 58
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -126,10 +132,13 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -144,6 +153,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 80,
             "end": 100,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -151,7 +161,8 @@ __ESTREE_TEST__:PASS:
               "end": 83,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -186,12 +197,14 @@ __ESTREE_TEST__:PASS:
                 "end": 99
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 105,
             "end": 116,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -199,7 +212,8 @@ __ESTREE_TEST__:PASS:
               "end": 108,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -215,7 +229,8 @@ __ESTREE_TEST__:PASS:
                 "end": 115
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -227,8 +242,10 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "C",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

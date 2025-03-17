@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -36,7 +37,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "z",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -81,7 +85,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -96,7 +101,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -131,6 +137,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 89,
                     "end": 97,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 89,
@@ -141,7 +148,8 @@ __ESTREE_TEST__:PASS:
                         "end": 96,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -164,7 +172,8 @@ __ESTREE_TEST__:PASS:
                             "end": 140,
                             "decorators": [],
                             "name": "A",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -175,7 +184,8 @@ __ESTREE_TEST__:PASS:
                       "end": 114,
                       "decorators": [],
                       "name": "z",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -201,7 +211,8 @@ __ESTREE_TEST__:PASS:
                       "end": 168,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -212,7 +223,8 @@ __ESTREE_TEST__:PASS:
                 "end": 77,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -221,7 +233,8 @@ __ESTREE_TEST__:PASS:
               "end": 67,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -235,9 +248,12 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "nestedLoops",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

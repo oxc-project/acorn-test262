@@ -30,8 +30,10 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "_thisVal1",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -44,8 +46,10 @@ __ESTREE_TEST__:PASS:
                 "end": 58,
                 "decorators": [],
                 "name": "_thisVal2",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -57,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "require",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "type",
@@ -89,8 +94,10 @@ __ESTREE_TEST__:PASS:
                 "end": 105,
                 "decorators": [],
                 "name": "_thisVal1",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -103,8 +110,10 @@ __ESTREE_TEST__:PASS:
                 "end": 120,
                 "decorators": [],
                 "name": "_thisVal2",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -116,7 +125,8 @@ __ESTREE_TEST__:PASS:
           "end": 89,
           "decorators": [],
           "name": "exports",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "type",
@@ -152,8 +162,10 @@ __ESTREE_TEST__:PASS:
                     "end": 180,
                     "decorators": [],
                     "name": "_thisVal1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -166,8 +178,10 @@ __ESTREE_TEST__:PASS:
                     "end": 199,
                     "decorators": [],
                     "name": "_thisVal2",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 }
               ]
             },
@@ -179,7 +193,8 @@ __ESTREE_TEST__:PASS:
               "end": 160,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -202,8 +217,10 @@ __ESTREE_TEST__:PASS:
                     "end": 243,
                     "decorators": [],
                     "name": "_thisVal1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -216,8 +233,10 @@ __ESTREE_TEST__:PASS:
                     "end": 262,
                     "decorators": [],
                     "name": "_thisVal2",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 }
               ]
             },
@@ -229,7 +248,8 @@ __ESTREE_TEST__:PASS:
               "end": 223,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -242,7 +262,8 @@ __ESTREE_TEST__:PASS:
         "end": 141,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -280,8 +301,10 @@ __ESTREE_TEST__:PASS:
                       "end": 336,
                       "decorators": [],
                       "name": "_thisVal1",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   },
                   {
                     "type": "TSEnumMember",
@@ -294,8 +317,10 @@ __ESTREE_TEST__:PASS:
                       "end": 355,
                       "decorators": [],
                       "name": "_thisVal2",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   }
                 ]
               },
@@ -307,7 +332,8 @@ __ESTREE_TEST__:PASS:
                 "end": 315,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "type",
@@ -339,8 +365,10 @@ __ESTREE_TEST__:PASS:
                       "end": 414,
                       "decorators": [],
                       "name": "_thisVal1",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   },
                   {
                     "type": "TSEnumMember",
@@ -353,8 +381,10 @@ __ESTREE_TEST__:PASS:
                       "end": 433,
                       "decorators": [],
                       "name": "_thisVal2",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   }
                 ]
               },
@@ -366,7 +396,8 @@ __ESTREE_TEST__:PASS:
                 "end": 394,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "type",
@@ -383,7 +414,8 @@ __ESTREE_TEST__:PASS:
         "end": 281,
         "decorators": [],
         "name": "m2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }
@@ -419,8 +451,10 @@ __ESTREE_TEST__:PASS:
               "end": 36,
               "decorators": [],
               "name": "_thisVal1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -433,8 +467,10 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "_thisVal2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -446,7 +482,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "require",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -469,8 +506,10 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "_thisVal1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -483,8 +522,10 @@ __ESTREE_TEST__:PASS:
               "end": 106,
               "decorators": [],
               "name": "_thisVal2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -496,7 +537,8 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "exports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -528,8 +570,10 @@ __ESTREE_TEST__:PASS:
                     "end": 166,
                     "decorators": [],
                     "name": "_thisVal1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -542,8 +586,10 @@ __ESTREE_TEST__:PASS:
                     "end": 185,
                     "decorators": [],
                     "name": "_thisVal2",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 }
               ]
             },
@@ -555,7 +601,8 @@ __ESTREE_TEST__:PASS:
               "end": 146,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -578,8 +625,10 @@ __ESTREE_TEST__:PASS:
                     "end": 229,
                     "decorators": [],
                     "name": "_thisVal1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -592,8 +641,10 @@ __ESTREE_TEST__:PASS:
                     "end": 248,
                     "decorators": [],
                     "name": "_thisVal2",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 }
               ]
             },
@@ -605,7 +656,8 @@ __ESTREE_TEST__:PASS:
               "end": 209,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -618,7 +670,8 @@ __ESTREE_TEST__:PASS:
         "end": 127,
         "decorators": [],
         "name": "m3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -656,8 +709,10 @@ __ESTREE_TEST__:PASS:
                       "end": 321,
                       "decorators": [],
                       "name": "_thisVal1",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   },
                   {
                     "type": "TSEnumMember",
@@ -670,8 +725,10 @@ __ESTREE_TEST__:PASS:
                       "end": 340,
                       "decorators": [],
                       "name": "_thisVal2",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   }
                 ]
               },
@@ -683,7 +740,8 @@ __ESTREE_TEST__:PASS:
                 "end": 301,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "type",
@@ -715,8 +773,10 @@ __ESTREE_TEST__:PASS:
                       "end": 399,
                       "decorators": [],
                       "name": "_thisVal1",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   },
                   {
                     "type": "TSEnumMember",
@@ -729,8 +789,10 @@ __ESTREE_TEST__:PASS:
                       "end": 418,
                       "decorators": [],
                       "name": "_thisVal2",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   }
                 ]
               },
@@ -742,7 +804,8 @@ __ESTREE_TEST__:PASS:
                 "end": 379,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "type",
@@ -759,7 +822,8 @@ __ESTREE_TEST__:PASS:
         "end": 267,
         "decorators": [],
         "name": "m4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

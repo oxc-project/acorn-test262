@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 66,
                   "decorators": [],
                   "name": "unused",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "end": 86,
                   "decorators": [],
                   "name": "maker",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "FunctionExpression",
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
                               "end": 140,
                               "decorators": [],
                               "name": "unused2",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "Literal",
@@ -138,7 +141,8 @@ __ESTREE_TEST__:PASS:
                       "start": 114,
                       "end": 118
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             ],
@@ -161,7 +165,8 @@ __ESTREE_TEST__:PASS:
                   "end": 167,
                   "decorators": [],
                   "name": "maker2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "FunctionExpression",
@@ -189,7 +194,8 @@ __ESTREE_TEST__:PASS:
                               "end": 222,
                               "decorators": [],
                               "name": "unused3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "Literal",
@@ -238,7 +244,8 @@ __ESTREE_TEST__:PASS:
                       "start": 196,
                       "end": 200
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             ],
@@ -249,6 +256,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 239,
             "end": 255,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 239,
@@ -260,7 +268,8 @@ __ESTREE_TEST__:PASS:
                   "end": 253,
                   "decorators": [],
                   "name": "person2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
               "callee": {
@@ -269,9 +278,11 @@ __ESTREE_TEST__:PASS:
                 "end": 245,
                 "decorators": [],
                 "name": "maker2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -285,7 +296,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -324,7 +336,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

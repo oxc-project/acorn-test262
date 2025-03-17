@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "ns2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "ns2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -87,12 +89,14 @@ __ESTREE_TEST__:PASS:
                           "end": 100,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "typeAnnotation": {
                           "type": "TSTypeReference",
                           "start": 103,
                           "end": 115,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 103,
@@ -107,7 +111,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 106,
                                 "decorators": [],
                                 "name": "ns2",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -115,7 +120,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 113,
                                 "decorators": [],
                                 "name": "nested",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -124,10 +130,12 @@ __ESTREE_TEST__:PASS:
                               "end": 115,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
-                        }
+                        },
+                        "typeParameters": null
                       },
                       "exportKind": "type",
                       "source": null,
@@ -143,7 +151,8 @@ __ESTREE_TEST__:PASS:
                   "end": 80,
                   "decorators": [],
                   "name": "nested",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "namespace"
               },
@@ -161,7 +170,8 @@ __ESTREE_TEST__:PASS:
           "end": 52,
           "decorators": [],
           "name": "ns1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -205,7 +215,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "ns1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -214,7 +225,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "ns1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -263,12 +275,14 @@ __ESTREE_TEST__:PASS:
                           "end": 100,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "typeAnnotation": {
                           "type": "TSTypeReference",
                           "start": 103,
                           "end": 115,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 103,
@@ -283,7 +297,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 106,
                                 "decorators": [],
                                 "name": "ns1",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -291,7 +306,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 113,
                                 "decorators": [],
                                 "name": "nested",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -300,10 +316,12 @@ __ESTREE_TEST__:PASS:
                               "end": 115,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
-                        }
+                        },
+                        "typeParameters": null
                       },
                       "exportKind": "type",
                       "source": null,
@@ -319,7 +337,8 @@ __ESTREE_TEST__:PASS:
                   "end": 80,
                   "decorators": [],
                   "name": "nested",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "namespace"
               },
@@ -337,7 +356,8 @@ __ESTREE_TEST__:PASS:
           "end": 52,
           "decorators": [],
           "name": "ns2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },

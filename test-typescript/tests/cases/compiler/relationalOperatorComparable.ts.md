@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 49,
                   "decorators": [],
                   "name": "t",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "end": 69,
                   "decorators": [],
                   "name": "f",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -91,7 +93,8 @@ __ESTREE_TEST__:PASS:
                   "end": 89,
                   "decorators": [],
                   "name": "a1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
                     "end": 100,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -112,7 +116,8 @@ __ESTREE_TEST__:PASS:
                     "end": 106,
                     "decorators": [],
                     "name": "two",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
                   "end": 124,
                   "decorators": [],
                   "name": "a2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -149,7 +155,8 @@ __ESTREE_TEST__:PASS:
                     "end": 135,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Literal",
@@ -180,7 +187,8 @@ __ESTREE_TEST__:PASS:
                   "end": 183,
                   "decorators": [],
                   "name": "a3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -193,7 +201,8 @@ __ESTREE_TEST__:PASS:
                     "end": 194,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Literal",
@@ -224,7 +233,8 @@ __ESTREE_TEST__:PASS:
                   "end": 244,
                   "decorators": [],
                   "name": "a4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -237,7 +247,8 @@ __ESTREE_TEST__:PASS:
                     "end": 255,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -245,7 +256,8 @@ __ESTREE_TEST__:PASS:
                     "end": 260,
                     "decorators": [],
                     "name": "t",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -269,7 +281,8 @@ __ESTREE_TEST__:PASS:
                   "end": 301,
                   "decorators": [],
                   "name": "a5",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -282,7 +295,8 @@ __ESTREE_TEST__:PASS:
                     "end": 312,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -290,7 +304,8 @@ __ESTREE_TEST__:PASS:
                     "end": 316,
                     "decorators": [],
                     "name": "f",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -314,7 +329,8 @@ __ESTREE_TEST__:PASS:
                   "end": 357,
                   "decorators": [],
                   "name": "a6",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -334,7 +350,8 @@ __ESTREE_TEST__:PASS:
                     "end": 375,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -358,7 +375,8 @@ __ESTREE_TEST__:PASS:
                   "end": 416,
                   "decorators": [],
                   "name": "a7",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -378,7 +396,8 @@ __ESTREE_TEST__:PASS:
                     "end": 430,
                     "decorators": [],
                     "name": "two",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -402,7 +421,8 @@ __ESTREE_TEST__:PASS:
                   "end": 471,
                   "decorators": [],
                   "name": "a8",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -422,7 +442,8 @@ __ESTREE_TEST__:PASS:
                     "end": 490,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -446,7 +467,8 @@ __ESTREE_TEST__:PASS:
                   "end": 530,
                   "decorators": [],
                   "name": "a9",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -459,7 +481,8 @@ __ESTREE_TEST__:PASS:
                     "end": 541,
                     "decorators": [],
                     "name": "onethree",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Literal",
@@ -490,7 +513,8 @@ __ESTREE_TEST__:PASS:
                   "end": 564,
                   "decorators": [],
                   "name": "a10",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -510,7 +534,8 @@ __ESTREE_TEST__:PASS:
                     "end": 574,
                     "decorators": [],
                     "name": "two",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -534,7 +559,8 @@ __ESTREE_TEST__:PASS:
                   "end": 593,
                   "decorators": [],
                   "name": "a11",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "BinaryExpression",
@@ -572,7 +598,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -644,7 +671,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

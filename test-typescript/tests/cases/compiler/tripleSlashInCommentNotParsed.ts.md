@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 61,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 54,

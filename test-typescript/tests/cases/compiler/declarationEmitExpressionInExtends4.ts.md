@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "decorators": [],
                 "name": "D",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             }
           }
         ]
@@ -55,9 +58,12 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "getSomething",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -78,7 +84,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -92,9 +99,11 @@ __ESTREE_TEST__:PASS:
           "end": 80,
           "decorators": [],
           "name": "getSomething",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
             "end": 97
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -133,7 +143,8 @@ __ESTREE_TEST__:PASS:
         "end": 113,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -147,9 +158,11 @@ __ESTREE_TEST__:PASS:
           "end": 143,
           "decorators": [],
           "name": "SomeUndefinedFunction",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -167,7 +180,8 @@ __ESTREE_TEST__:PASS:
             "end": 160
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -188,7 +202,8 @@ __ESTREE_TEST__:PASS:
         "end": 177,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -197,8 +212,11 @@ __ESTREE_TEST__:PASS:
         "end": 207,
         "decorators": [],
         "name": "SomeUndefinedFunction",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

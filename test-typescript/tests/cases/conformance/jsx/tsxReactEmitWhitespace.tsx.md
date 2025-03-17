@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -158,7 +164,8 @@ __ESTREE_TEST__:PASS:
             "end": 232,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -176,6 +183,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 252,
       "end": 267,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 252,
@@ -211,7 +219,8 @@ __ESTREE_TEST__:PASS:
             "end": 256,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -219,6 +228,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 291,
       "end": 312,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 291,
@@ -241,7 +251,8 @@ __ESTREE_TEST__:PASS:
               "end": 300,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -274,7 +285,8 @@ __ESTREE_TEST__:PASS:
             "end": 295,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -282,6 +294,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 328,
       "end": 363,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 328,
@@ -304,7 +317,8 @@ __ESTREE_TEST__:PASS:
               "end": 344,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -337,7 +351,8 @@ __ESTREE_TEST__:PASS:
             "end": 332,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -345,6 +360,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 380,
       "end": 403,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 380,
@@ -367,7 +383,8 @@ __ESTREE_TEST__:PASS:
               "end": 390,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -400,7 +417,8 @@ __ESTREE_TEST__:PASS:
             "end": 384,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -408,6 +426,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 419,
       "end": 439,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 419,
@@ -443,7 +462,8 @@ __ESTREE_TEST__:PASS:
             "end": 423,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -451,6 +471,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 457,
       "end": 474,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 457,
@@ -486,7 +507,8 @@ __ESTREE_TEST__:PASS:
             "end": 461,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -494,6 +516,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 488,
       "end": 516,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 488,
@@ -529,7 +552,8 @@ __ESTREE_TEST__:PASS:
             "end": 492,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -537,6 +561,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 534,
       "end": 553,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 534,
@@ -572,7 +597,8 @@ __ESTREE_TEST__:PASS:
             "end": 538,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -580,6 +606,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 573,
       "end": 608,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 573,
@@ -615,7 +642,8 @@ __ESTREE_TEST__:PASS:
             "end": 577,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -623,6 +651,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 634,
       "end": 666,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 634,
@@ -658,7 +687,8 @@ __ESTREE_TEST__:PASS:
             "end": 638,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -666,6 +696,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 691,
       "end": 723,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 691,
@@ -701,7 +732,8 @@ __ESTREE_TEST__:PASS:
             "end": 695,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

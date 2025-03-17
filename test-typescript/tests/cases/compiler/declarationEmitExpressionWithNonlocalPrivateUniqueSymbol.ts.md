@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "AX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 12,
             "end": 37,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": true,
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -89,13 +93,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 57,
                   "end": 59,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 57,
                     "end": 59,
                     "decorators": [],
                     "name": "AX",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -162,7 +168,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -171,7 +178,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -197,7 +205,8 @@ __ESTREE_TEST__:PASS:
               "end": 40,
               "decorators": [],
               "name": "A1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Identifier",
@@ -205,7 +214,8 @@ __ESTREE_TEST__:PASS:
               "end": 44,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],

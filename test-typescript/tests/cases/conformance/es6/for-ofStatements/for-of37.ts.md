@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 23,
             "decorators": [],
             "name": "map",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -63,8 +64,10 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "Map",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -85,13 +88,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 74,
             "end": 76,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 74,
               "end": 75,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
               "end": 59,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -126,7 +132,8 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "map",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

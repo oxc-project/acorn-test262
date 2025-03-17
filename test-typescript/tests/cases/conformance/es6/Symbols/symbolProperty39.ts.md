@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 51,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 21,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -87,13 +90,15 @@ __ESTREE_TEST__:PASS:
                   "start": 44,
                   "end": 50
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 56,
             "end": 93,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -107,7 +112,8 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -116,7 +122,8 @@ __ESTREE_TEST__:PASS:
                 "end": 72,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -162,13 +169,15 @@ __ESTREE_TEST__:PASS:
                   "start": 86,
                   "end": 92
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 98,
             "end": 157,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -182,7 +191,8 @@ __ESTREE_TEST__:PASS:
                 "end": 105,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -191,7 +201,8 @@ __ESTREE_TEST__:PASS:
                 "end": 114,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -218,7 +229,8 @@ __ESTREE_TEST__:PASS:
                       "end": 150,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -246,13 +258,16 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 162,
             "end": 221,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -266,7 +281,8 @@ __ESTREE_TEST__:PASS:
                 "end": 169,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -275,7 +291,8 @@ __ESTREE_TEST__:PASS:
                 "end": 178,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -302,7 +319,8 @@ __ESTREE_TEST__:PASS:
                       "end": 214,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -330,7 +348,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -343,10 +363,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

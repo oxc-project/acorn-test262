@@ -29,10 +29,13 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "Host",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -60,7 +63,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "host",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -92,7 +96,8 @@ __ESTREE_TEST__:PASS:
             "end": 42,
             "decorators": [],
             "name": "hostVar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
             "end": 49,
             "decorators": [],
             "name": "host",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -123,7 +129,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -141,7 +148,8 @@ __ESTREE_TEST__:PASS:
                 "end": 70,
                 "decorators": [],
                 "name": "hostVar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -150,9 +158,11 @@ __ESTREE_TEST__:PASS:
                 "end": 75,
                 "decorators": [],
                 "name": "Host",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],

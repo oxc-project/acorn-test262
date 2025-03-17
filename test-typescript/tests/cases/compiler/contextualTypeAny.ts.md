@@ -69,6 +69,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 24,
                     "end": 43,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -122,7 +123,8 @@ __ESTREE_TEST__:PASS:
                   "end": 51,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -147,7 +149,8 @@ __ESTREE_TEST__:PASS:
                   "end": 58,
                   "decorators": [],
                   "name": "q",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -159,7 +162,8 @@ __ESTREE_TEST__:PASS:
                   "end": 61,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -220,7 +224,8 @@ __ESTREE_TEST__:PASS:
                 "end": 92,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }

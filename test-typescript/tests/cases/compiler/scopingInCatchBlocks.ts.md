@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 32,
                 "decorators": [],
                 "name": "ex1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -77,7 +79,8 @@ __ESTREE_TEST__:PASS:
           "end": 54,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -108,7 +111,8 @@ __ESTREE_TEST__:PASS:
           "end": 98,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -128,7 +132,8 @@ __ESTREE_TEST__:PASS:
             "end": 130,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
             "end": 136,
             "decorators": [],
             "name": "ex1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

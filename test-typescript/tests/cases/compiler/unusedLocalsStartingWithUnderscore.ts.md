@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "_",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -102,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -142,7 +145,8 @@ __ESTREE_TEST__:PASS:
                   "end": 102,
                   "decorators": [],
                   "name": "_",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -177,7 +181,8 @@ __ESTREE_TEST__:PASS:
                     "end": 120,
                     "decorators": [],
                     "name": "_",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -218,7 +223,8 @@ __ESTREE_TEST__:PASS:
                     "end": 149,
                     "decorators": [],
                     "name": "_",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -243,7 +249,8 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "_ns",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

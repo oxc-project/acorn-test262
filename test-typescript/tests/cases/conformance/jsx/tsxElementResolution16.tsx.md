@@ -23,7 +23,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -70,7 +71,8 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "members": []
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -82,8 +84,10 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "Obj1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -110,13 +114,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 74,
                 "end": 78,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 74,
                   "end": 78,
                   "decorators": [],
                   "name": "Obj1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -131,6 +137,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 80,
       "end": 96,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 80,
@@ -172,7 +179,8 @@ __ESTREE_TEST__:PASS:
             "end": 85,
             "name": "obj1"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

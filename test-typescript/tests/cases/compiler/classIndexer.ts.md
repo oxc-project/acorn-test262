@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 17,
             "end": 37,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 42,
             "end": 63,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -85,7 +88,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -98,10 +103,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "C123",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

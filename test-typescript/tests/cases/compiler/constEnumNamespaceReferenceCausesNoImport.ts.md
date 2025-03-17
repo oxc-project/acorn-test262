@@ -30,8 +30,10 @@ __ESTREE_TEST__:PASS:
                 "end": 41,
                 "decorators": [],
                 "name": "Some",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -44,8 +46,10 @@ __ESTREE_TEST__:PASS:
                 "end": 53,
                 "decorators": [],
                 "name": "Values",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -58,8 +62,10 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "Here",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -71,7 +77,8 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "ConstFooEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -108,7 +115,8 @@ __ESTREE_TEST__:PASS:
           "end": 90,
           "decorators": [],
           "name": "fooFunc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -120,7 +128,8 @@ __ESTREE_TEST__:PASS:
             "start": 94,
             "end": 98
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -162,7 +171,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -210,7 +220,8 @@ __ESTREE_TEST__:PASS:
                       "end": 102,
                       "decorators": [],
                       "name": "Foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -219,7 +230,8 @@ __ESTREE_TEST__:PASS:
                       "end": 115,
                       "decorators": [],
                       "name": "ConstFooEnum",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -229,7 +241,8 @@ __ESTREE_TEST__:PASS:
                     "end": 120,
                     "decorators": [],
                     "name": "Some",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -240,7 +253,8 @@ __ESTREE_TEST__:PASS:
               "end": 86,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -254,7 +268,8 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "check",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -272,6 +287,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 49,
               "end": 65,
+              "typeArguments": null,
               "typeName": {
                 "type": "TSQualifiedName",
                 "start": 49,
@@ -282,7 +298,8 @@ __ESTREE_TEST__:PASS:
                   "end": 52,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -290,7 +307,8 @@ __ESTREE_TEST__:PASS:
                   "end": 65,
                   "decorators": [],
                   "name": "ConstFooEnum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -306,7 +324,8 @@ __ESTREE_TEST__:PASS:
           "start": 68,
           "end": 72
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

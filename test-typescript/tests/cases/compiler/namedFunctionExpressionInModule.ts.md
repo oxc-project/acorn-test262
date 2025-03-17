@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                   "end": 27,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "FunctionExpression",
@@ -52,7 +53,8 @@ __ESTREE_TEST__:PASS:
                     "end": 42,
                     "decorators": [],
                     "name": "bar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "params": [
                     {
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
                       "end": 44,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     {
                       "type": "Identifier",
@@ -69,7 +72,8 @@ __ESTREE_TEST__:PASS:
                       "end": 47,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     {
                       "type": "Identifier",
@@ -77,9 +81,12 @@ __ESTREE_TEST__:PASS:
                       "end": 50,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -90,6 +97,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 64,
             "end": 75,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 64,
@@ -123,9 +131,11 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -138,7 +148,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "Variables",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

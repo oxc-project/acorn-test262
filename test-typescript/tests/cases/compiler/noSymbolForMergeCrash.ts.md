@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -44,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }
@@ -71,14 +74,16 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 9,
         "end": 11,
         "members": []
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

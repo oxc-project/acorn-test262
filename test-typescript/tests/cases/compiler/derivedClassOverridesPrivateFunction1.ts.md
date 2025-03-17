@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 22,
             "end": 65,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -47,6 +49,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 46,
                     "end": 59,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 46,
@@ -69,10 +72,12 @@ __ESTREE_TEST__:PASS:
                           "end": 56,
                           "decorators": [],
                           "name": "_init",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -81,7 +86,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -97,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 83,
               "decorators": [],
               "name": "_init",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -118,7 +126,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -131,10 +141,13 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "BaseClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -150,6 +163,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 139,
             "end": 177,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -158,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 150,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -178,6 +193,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 163,
                     "end": 171,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 163,
@@ -188,7 +204,8 @@ __ESTREE_TEST__:PASS:
                         "start": 163,
                         "end": 168
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -197,7 +214,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -213,7 +232,8 @@ __ESTREE_TEST__:PASS:
               "end": 195,
               "decorators": [],
               "name": "_init",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -234,7 +254,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -247,7 +269,8 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "DerivedClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -256,13 +279,17 @@ __ESTREE_TEST__:PASS:
         "end": 132,
         "decorators": [],
         "name": "BaseClass",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 208,
       "end": 227,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 208,
@@ -274,8 +301,10 @@ __ESTREE_TEST__:PASS:
           "end": 224,
           "decorators": [],
           "name": "DerivedClass",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

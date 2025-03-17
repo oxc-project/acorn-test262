@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
             "end": 72,
             "decorators": [],
             "name": "ReactElement",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 72,
             "decorators": [],
             "name": "ReactElement",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -61,6 +64,7 @@ __ESTREE_TEST__:PASS:
       "start": 90,
       "end": 186,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -70,7 +74,8 @@ __ESTREE_TEST__:PASS:
         "end": 115,
         "decorators": [],
         "name": "NotHappy",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -98,6 +103,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 126,
                       "end": 141,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -105,7 +111,8 @@ __ESTREE_TEST__:PASS:
                         "end": 131,
                         "decorators": [],
                         "name": "fixed",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": true,
                       "readonly": false,
@@ -132,6 +139,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 148,
                       "end": 162,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -139,7 +147,8 @@ __ESTREE_TEST__:PASS:
                         "end": 153,
                         "decorators": [],
                         "name": "value",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": true,
                       "readonly": false,
@@ -188,16 +197,19 @@ __ESTREE_TEST__:PASS:
             "end": 180,
             "decorators": [],
             "name": "ReactElement",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 187,
       "end": 273,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -207,7 +219,8 @@ __ESTREE_TEST__:PASS:
         "end": 209,
         "decorators": [],
         "name": "Happy",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -230,6 +243,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 219,
                   "end": 235,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -237,7 +251,8 @@ __ESTREE_TEST__:PASS:
                     "end": 224,
                     "decorators": [],
                     "name": "fixed",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -257,6 +272,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 236,
                   "end": 250,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -264,7 +280,8 @@ __ESTREE_TEST__:PASS:
                     "end": 241,
                     "decorators": [],
                     "name": "value",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -311,10 +328,12 @@ __ESTREE_TEST__:PASS:
             "end": 267,
             "decorators": [],
             "name": "ReactElement",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -332,7 +351,8 @@ __ESTREE_TEST__:PASS:
             "end": 293,
             "decorators": [],
             "name": "RootNotHappy",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -375,13 +395,16 @@ __ESTREE_TEST__:PASS:
                   "end": 312,
                   "name": "NotHappy"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -404,7 +427,8 @@ __ESTREE_TEST__:PASS:
             "end": 358,
             "decorators": [],
             "name": "RootHappy",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -447,13 +471,16 @@ __ESTREE_TEST__:PASS:
                   "end": 374,
                   "name": "Happy"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

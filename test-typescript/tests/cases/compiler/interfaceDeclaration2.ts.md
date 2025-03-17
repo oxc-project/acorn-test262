@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "I1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -44,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "I1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -66,8 +69,10 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "I2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -88,10 +93,13 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "I2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -111,8 +119,10 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "I3",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -134,9 +144,12 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "I3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -156,8 +169,10 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "I4",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",

@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 17,
                     "end": 23,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 18,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -84,6 +86,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 37,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 33,
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "end": 34,
           "decorators": [],
           "name": "$",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

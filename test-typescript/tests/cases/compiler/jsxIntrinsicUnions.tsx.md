@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
             "end": 86,
             "decorators": [],
             "name": "El",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -86,7 +88,8 @@ __ESTREE_TEST__:PASS:
                   "end": 93,
                   "decorators": [],
                   "name": "Math",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -95,10 +98,12 @@ __ESTREE_TEST__:PASS:
                   "end": 100,
                   "decorators": [],
                   "name": "random",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         }
@@ -122,7 +127,8 @@ __ESTREE_TEST__:PASS:
             "end": 128,
             "decorators": [],
             "name": "tag",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -201,7 +207,8 @@ __ESTREE_TEST__:PASS:
                 "end": 134,
                 "name": "El"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "CanvasDirection",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -63,6 +65,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 69,
             "end": 120,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
               "end": 81,
               "decorators": [],
               "name": "setDirection",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -99,13 +103,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 95,
                         "end": 110,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 95,
                           "end": 110,
                           "decorators": [],
                           "name": "CanvasDirection",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -120,7 +126,8 @@ __ESTREE_TEST__:PASS:
                     "start": 115,
                     "end": 119
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
@@ -134,8 +141,10 @@ __ESTREE_TEST__:PASS:
         "end": 64,
         "decorators": [],
         "name": "GraphActions",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -147,6 +156,7 @@ __ESTREE_TEST__:PASS:
         "start": 131,
         "end": 175,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -156,7 +166,8 @@ __ESTREE_TEST__:PASS:
           "end": 154,
           "decorators": [],
           "name": "create",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -174,13 +185,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 166,
                 "end": 167,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 166,
                   "end": 167,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -206,6 +219,8 @@ __ESTREE_TEST__:PASS:
               "start": 155,
               "end": 156,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -213,7 +228,8 @@ __ESTREE_TEST__:PASS:
                 "end": 156,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -229,6 +245,7 @@ __ESTREE_TEST__:PASS:
       "start": 177,
       "end": 243,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -238,7 +255,8 @@ __ESTREE_TEST__:PASS:
         "end": 208,
         "decorators": [],
         "name": "takesDirection",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -256,13 +274,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 220,
               "end": 235,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 220,
                 "end": 235,
                 "decorators": [],
                 "name": "CanvasDirection",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -277,12 +297,14 @@ __ESTREE_TEST__:PASS:
           "start": 238,
           "end": 242
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 245,
       "end": 350,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 245,
@@ -304,7 +326,8 @@ __ESTREE_TEST__:PASS:
                   "end": 282,
                   "decorators": [],
                   "name": "setDirection",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -324,6 +347,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 315,
                         "end": 341,
+                        "directive": null,
                         "expression": {
                           "type": "CallExpression",
                           "start": 315,
@@ -335,7 +359,8 @@ __ESTREE_TEST__:PASS:
                               "end": 339,
                               "decorators": [],
                               "name": "direction",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ],
                           "callee": {
@@ -344,9 +369,11 @@ __ESTREE_TEST__:PASS:
                             "end": 329,
                             "decorators": [],
                             "name": "takesDirection",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       }
                     ]
@@ -366,7 +393,8 @@ __ESTREE_TEST__:PASS:
                         "end": 294,
                         "decorators": [],
                         "name": "direction",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -375,9 +403,12 @@ __ESTREE_TEST__:PASS:
                         "end": 304,
                         "raw": "\"RIGHT\"",
                         "value": "RIGHT"
-                      }
+                      },
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -389,7 +420,8 @@ __ESTREE_TEST__:PASS:
           "end": 251,
           "decorators": [],
           "name": "create",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "typeArguments": {
@@ -401,13 +433,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 252,
               "end": 264,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 252,
                 "end": 264,
                 "decorators": [],
                 "name": "GraphActions",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]

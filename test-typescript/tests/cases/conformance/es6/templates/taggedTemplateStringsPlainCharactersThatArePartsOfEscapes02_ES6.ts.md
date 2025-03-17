@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -56,14 +58,18 @@ __ESTREE_TEST__:PASS:
                 "end": 38
               }
             }
-          }
+          },
+          "value": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 48,
       "end": 334,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 48,
@@ -586,8 +592,10 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "f",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

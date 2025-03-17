@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 0,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
           "end": 4,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false

@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -242,7 +248,8 @@ __ESTREE_TEST__:PASS:
             "end": 168,
             "decorators": [],
             "name": "spreads1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -259,7 +266,8 @@ __ESTREE_TEST__:PASS:
                   "end": 187,
                   "decorators": [],
                   "name": "p2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -289,7 +297,8 @@ __ESTREE_TEST__:PASS:
                     "end": 182,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -299,7 +308,8 @@ __ESTREE_TEST__:PASS:
                 "end": 175,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -323,7 +333,8 @@ __ESTREE_TEST__:PASS:
             "end": 208,
             "decorators": [],
             "name": "spreads2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -340,7 +351,8 @@ __ESTREE_TEST__:PASS:
                   "end": 227,
                   "decorators": [],
                   "name": "p2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -370,7 +382,8 @@ __ESTREE_TEST__:PASS:
                     "end": 222,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -380,7 +393,8 @@ __ESTREE_TEST__:PASS:
                 "end": 215,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -404,7 +418,8 @@ __ESTREE_TEST__:PASS:
             "end": 248,
             "decorators": [],
             "name": "spreads3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -421,7 +436,8 @@ __ESTREE_TEST__:PASS:
                   "end": 274,
                   "decorators": [],
                   "name": "p2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -461,7 +477,8 @@ __ESTREE_TEST__:PASS:
                       "end": 261,
                       "decorators": [],
                       "name": "p3",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -475,7 +492,8 @@ __ESTREE_TEST__:PASS:
                     "end": 269,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -485,7 +503,8 @@ __ESTREE_TEST__:PASS:
                 "end": 255,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -509,7 +528,8 @@ __ESTREE_TEST__:PASS:
             "end": 295,
             "decorators": [],
             "name": "spreads4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -526,7 +546,8 @@ __ESTREE_TEST__:PASS:
                   "end": 322,
                   "decorators": [],
                   "name": "p2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -556,7 +577,8 @@ __ESTREE_TEST__:PASS:
                     "end": 309,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -579,7 +601,8 @@ __ESTREE_TEST__:PASS:
                       "end": 316,
                       "decorators": [],
                       "name": "p3",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -590,7 +613,8 @@ __ESTREE_TEST__:PASS:
                 "end": 302,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -614,7 +638,8 @@ __ESTREE_TEST__:PASS:
             "end": 343,
             "decorators": [],
             "name": "spreads5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -631,7 +656,8 @@ __ESTREE_TEST__:PASS:
                   "end": 376,
                   "decorators": [],
                   "name": "p2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -671,7 +697,8 @@ __ESTREE_TEST__:PASS:
                       "end": 356,
                       "decorators": [],
                       "name": "p2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -685,7 +712,8 @@ __ESTREE_TEST__:PASS:
                     "end": 364,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -708,7 +736,8 @@ __ESTREE_TEST__:PASS:
                       "end": 371,
                       "decorators": [],
                       "name": "p3",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -719,7 +748,8 @@ __ESTREE_TEST__:PASS:
                 "end": 350,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,6 +49,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 38,
                     "end": 51,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 38,
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
                           "end": 47,
                           "decorators": [],
                           "name": "foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -88,7 +91,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -101,10 +106,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -138,7 +146,8 @@ __ESTREE_TEST__:PASS:
                     "end": 109,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -158,6 +167,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 126,
                           "end": 139,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 126,
@@ -180,7 +190,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 135,
                                 "decorators": [],
                                 "name": "foo",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -198,7 +209,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -211,10 +224,13 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -230,7 +246,8 @@ __ESTREE_TEST__:PASS:
           "end": 70,
           "decorators": [],
           "name": "M1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -238,7 +255,8 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "M2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

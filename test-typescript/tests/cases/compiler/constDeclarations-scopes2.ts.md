@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -128,7 +129,8 @@ __ESTREE_TEST__:PASS:
                   "end": 140,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -146,6 +148,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 154,
             "end": 160,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 154,
@@ -157,7 +160,8 @@ __ESTREE_TEST__:PASS:
                 "end": 155,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -165,7 +169,8 @@ __ESTREE_TEST__:PASS:
                 "end": 159,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -187,7 +192,8 @@ __ESTREE_TEST__:PASS:
               "end": 88,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -212,7 +218,8 @@ __ESTREE_TEST__:PASS:
           "end": 95,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -233,7 +240,8 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "n",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -241,7 +249,8 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

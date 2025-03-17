@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 25,
             "end": 40,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "draw",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
                 "end": 39
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -53,8 +56,10 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "Drawable",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -69,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 67,
             "end": 82,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -76,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "size",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -92,7 +99,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -104,8 +112,10 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "Sizable",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

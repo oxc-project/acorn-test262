@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "greet",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -72,7 +73,8 @@ __ESTREE_TEST__:PASS:
                   "start": 37,
                   "end": 43
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
               "end": 106,
               "decorators": [],
               "name": "greeting",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -132,7 +135,8 @@ __ESTREE_TEST__:PASS:
                   "start": 110,
                   "end": 116
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -145,10 +149,13 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

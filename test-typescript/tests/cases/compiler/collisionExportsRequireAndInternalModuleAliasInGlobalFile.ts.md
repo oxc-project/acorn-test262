@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "mOfGloalFile",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -71,7 +75,8 @@ __ESTREE_TEST__:PASS:
         "end": 65,
         "decorators": [],
         "name": "exports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -84,7 +89,8 @@ __ESTREE_TEST__:PASS:
           "end": 80,
           "decorators": [],
           "name": "mOfGloalFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -92,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "end": 82,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -106,7 +113,8 @@ __ESTREE_TEST__:PASS:
         "end": 98,
         "decorators": [],
         "name": "require",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -119,7 +127,8 @@ __ESTREE_TEST__:PASS:
           "end": 113,
           "decorators": [],
           "name": "mOfGloalFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -127,7 +136,8 @@ __ESTREE_TEST__:PASS:
           "end": 115,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -135,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 117,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 117,
@@ -146,14 +157,17 @@ __ESTREE_TEST__:PASS:
           "end": 128,
           "decorators": [],
           "name": "exports",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 132,
       "end": 146,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 132,
@@ -165,8 +179,10 @@ __ESTREE_TEST__:PASS:
           "end": 143,
           "decorators": [],
           "name": "require",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
@@ -188,7 +204,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -201,7 +218,8 @@ __ESTREE_TEST__:PASS:
                 "end": 193,
                 "decorators": [],
                 "name": "mOfGloalFile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -209,7 +227,8 @@ __ESTREE_TEST__:PASS:
                 "end": 195,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -223,7 +242,8 @@ __ESTREE_TEST__:PASS:
               "end": 215,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -236,7 +256,8 @@ __ESTREE_TEST__:PASS:
                 "end": 230,
                 "decorators": [],
                 "name": "mOfGloalFile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -244,7 +265,8 @@ __ESTREE_TEST__:PASS:
                 "end": 232,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -252,6 +274,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 238,
             "end": 252,
+            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 238,
@@ -263,14 +286,17 @@ __ESTREE_TEST__:PASS:
                 "end": 249,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 257,
             "end": 271,
+            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 257,
@@ -282,8 +308,10 @@ __ESTREE_TEST__:PASS:
                 "end": 268,
                 "decorators": [],
                 "name": "require",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           }
         ]
@@ -296,7 +324,8 @@ __ESTREE_TEST__:PASS:
         "end": 157,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -324,7 +353,8 @@ __ESTREE_TEST__:PASS:
                 "end": 312,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -337,7 +367,8 @@ __ESTREE_TEST__:PASS:
                   "end": 327,
                   "decorators": [],
                   "name": "mOfGloalFile",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -345,7 +376,8 @@ __ESTREE_TEST__:PASS:
                   "end": 329,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -368,7 +400,8 @@ __ESTREE_TEST__:PASS:
                 "end": 356,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -381,7 +414,8 @@ __ESTREE_TEST__:PASS:
                   "end": 371,
                   "decorators": [],
                   "name": "mOfGloalFile",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -389,7 +423,8 @@ __ESTREE_TEST__:PASS:
                   "end": 373,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -401,6 +436,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 379,
             "end": 393,
+            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 379,
@@ -412,14 +448,17 @@ __ESTREE_TEST__:PASS:
                 "end": 390,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 398,
             "end": 412,
+            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 398,
@@ -431,8 +470,10 @@ __ESTREE_TEST__:PASS:
                 "end": 409,
                 "decorators": [],
                 "name": "require",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           }
         ]
@@ -445,7 +486,8 @@ __ESTREE_TEST__:PASS:
         "end": 284,
         "decorators": [],
         "name": "m2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

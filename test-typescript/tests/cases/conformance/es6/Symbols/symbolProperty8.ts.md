@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 18,
             "end": 47,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 25,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 37,
                 "decorators": [],
                 "name": "unscopables",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -60,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 52,
             "end": 75,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -81,14 +86,17 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "decorators": [],
                 "name": "toPrimitive",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
             "optional": false,
             "params": [],
             "readonly": false,
-            "static": false
+            "returnType": null,
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -100,8 +108,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

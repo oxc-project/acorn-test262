@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 28,
             "end": 69,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "publish",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -90,13 +92,15 @@ __ESTREE_TEST__:PASS:
                   "start": 64,
                   "end": 68
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 74,
             "end": 103,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -105,7 +109,8 @@ __ESTREE_TEST__:PASS:
               "end": 81,
               "decorators": [],
               "name": "publish",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -142,13 +147,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 92,
                       "end": 93,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 92,
                         "end": 93,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -174,6 +181,8 @@ __ESTREE_TEST__:PASS:
                     "start": 82,
                     "end": 83,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -181,7 +190,8 @@ __ESTREE_TEST__:PASS:
                       "end": 83,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -199,10 +209,13 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "EventAggregator",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -229,13 +242,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 115,
                 "end": 130,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 115,
                   "end": 130,
                   "decorators": [],
                   "name": "EventAggregator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -250,6 +265,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 132,
       "end": 152,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 132,
@@ -295,7 +311,8 @@ __ESTREE_TEST__:PASS:
             "end": 134,
             "decorators": [],
             "name": "ea",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -304,10 +321,12 @@ __ESTREE_TEST__:PASS:
             "end": 142,
             "decorators": [],
             "name": "publish",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

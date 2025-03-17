@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 40
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                     "end": 65,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -87,7 +90,8 @@ __ESTREE_TEST__:PASS:
                           "end": 81,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
                           "end": 81,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -123,7 +128,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

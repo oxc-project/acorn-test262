@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "ANY1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -158,7 +159,8 @@ __ESTREE_TEST__:PASS:
                     "end": 100,
                     "members": []
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -184,7 +186,8 @@ __ESTREE_TEST__:PASS:
             "end": 109,
             "decorators": [],
             "name": "obj1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -202,7 +205,8 @@ __ESTREE_TEST__:PASS:
                   "end": 114,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -227,7 +231,8 @@ __ESTREE_TEST__:PASS:
                   "end": 119,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -274,7 +279,8 @@ __ESTREE_TEST__:PASS:
                   "end": 156,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -292,7 +298,8 @@ __ESTREE_TEST__:PASS:
               "end": 170,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -306,7 +313,8 @@ __ESTREE_TEST__:PASS:
         "end": 137,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -318,7 +326,8 @@ __ESTREE_TEST__:PASS:
           "start": 141,
           "end": 144
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -345,7 +354,8 @@ __ESTREE_TEST__:PASS:
               "end": 196,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -367,6 +377,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 207,
             "end": 260,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -375,7 +386,8 @@ __ESTREE_TEST__:PASS:
               "end": 217,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -407,7 +419,8 @@ __ESTREE_TEST__:PASS:
                           "end": 235,
                           "decorators": [],
                           "name": "a",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": null
                       }
@@ -425,7 +438,8 @@ __ESTREE_TEST__:PASS:
                       "end": 253,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -434,7 +448,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -447,10 +463,13 @@ __ESTREE_TEST__:PASS:
         "end": 181,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -514,7 +533,8 @@ __ESTREE_TEST__:PASS:
         "end": 271,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -534,7 +554,8 @@ __ESTREE_TEST__:PASS:
             "end": 307,
             "decorators": [],
             "name": "objA",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -547,8 +568,10 @@ __ESTREE_TEST__:PASS:
               "end": 315,
               "decorators": [],
               "name": "A",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -571,7 +594,8 @@ __ESTREE_TEST__:PASS:
             "end": 352,
             "decorators": [],
             "name": "ResultIsAny1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -583,7 +607,8 @@ __ESTREE_TEST__:PASS:
               "end": 364,
               "decorators": [],
               "name": "ANY1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -609,7 +634,8 @@ __ESTREE_TEST__:PASS:
             "end": 382,
             "decorators": [],
             "name": "ResultIsAny2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -621,7 +647,8 @@ __ESTREE_TEST__:PASS:
               "end": 394,
               "decorators": [],
               "name": "ANY2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -647,7 +674,8 @@ __ESTREE_TEST__:PASS:
             "end": 412,
             "decorators": [],
             "name": "ResultIsAny3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -659,7 +687,8 @@ __ESTREE_TEST__:PASS:
               "end": 421,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -685,7 +714,8 @@ __ESTREE_TEST__:PASS:
             "end": 439,
             "decorators": [],
             "name": "ResultIsAny4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -697,7 +727,8 @@ __ESTREE_TEST__:PASS:
               "end": 448,
               "decorators": [],
               "name": "M",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -723,7 +754,8 @@ __ESTREE_TEST__:PASS:
             "end": 466,
             "decorators": [],
             "name": "ResultIsAny5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -735,7 +767,8 @@ __ESTREE_TEST__:PASS:
               "end": 477,
               "decorators": [],
               "name": "obj",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -761,7 +794,8 @@ __ESTREE_TEST__:PASS:
             "end": 495,
             "decorators": [],
             "name": "ResultIsAny6",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -773,7 +807,8 @@ __ESTREE_TEST__:PASS:
               "end": 507,
               "decorators": [],
               "name": "obj1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -799,7 +834,8 @@ __ESTREE_TEST__:PASS:
             "end": 546,
             "decorators": [],
             "name": "ResultIsAny7",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -811,7 +847,8 @@ __ESTREE_TEST__:PASS:
               "end": 563,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -837,7 +874,8 @@ __ESTREE_TEST__:PASS:
             "end": 581,
             "decorators": [],
             "name": "ResultIsAny8",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -874,7 +912,8 @@ __ESTREE_TEST__:PASS:
             "end": 636,
             "decorators": [],
             "name": "ResultIsAny9",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -891,7 +930,8 @@ __ESTREE_TEST__:PASS:
                 "end": 648,
                 "decorators": [],
                 "name": "ANY2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -926,7 +966,8 @@ __ESTREE_TEST__:PASS:
             "end": 669,
             "decorators": [],
             "name": "ResultIsAny10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -943,7 +984,8 @@ __ESTREE_TEST__:PASS:
                 "end": 681,
                 "decorators": [],
                 "name": "obj1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -952,7 +994,8 @@ __ESTREE_TEST__:PASS:
                 "end": 683,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -979,7 +1022,8 @@ __ESTREE_TEST__:PASS:
             "end": 702,
             "decorators": [],
             "name": "ResultIsAny11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -996,7 +1040,8 @@ __ESTREE_TEST__:PASS:
                 "end": 714,
                 "decorators": [],
                 "name": "obj1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1005,7 +1050,8 @@ __ESTREE_TEST__:PASS:
                 "end": 716,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1032,7 +1078,8 @@ __ESTREE_TEST__:PASS:
             "end": 735,
             "decorators": [],
             "name": "ResultIsAny12",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1049,7 +1096,8 @@ __ESTREE_TEST__:PASS:
                 "end": 747,
                 "decorators": [],
                 "name": "objA",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1058,7 +1106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 749,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1085,7 +1134,8 @@ __ESTREE_TEST__:PASS:
             "end": 768,
             "decorators": [],
             "name": "ResultIsAny13",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1102,7 +1152,8 @@ __ESTREE_TEST__:PASS:
                 "end": 777,
                 "decorators": [],
                 "name": "M",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1111,7 +1162,8 @@ __ESTREE_TEST__:PASS:
                 "end": 779,
                 "decorators": [],
                 "name": "n",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1138,7 +1190,8 @@ __ESTREE_TEST__:PASS:
             "end": 798,
             "decorators": [],
             "name": "ResultIsAny14",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1155,9 +1208,11 @@ __ESTREE_TEST__:PASS:
                 "end": 809,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "operator": "void",
             "prefix": true
@@ -1183,7 +1238,8 @@ __ESTREE_TEST__:PASS:
             "end": 830,
             "decorators": [],
             "name": "ResultIsAny15",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1205,7 +1261,8 @@ __ESTREE_TEST__:PASS:
                   "end": 839,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1214,10 +1271,12 @@ __ESTREE_TEST__:PASS:
                   "end": 843,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "operator": "void",
             "prefix": true
@@ -1243,7 +1302,8 @@ __ESTREE_TEST__:PASS:
             "end": 864,
             "decorators": [],
             "name": "ResultIsAny16",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1260,7 +1320,8 @@ __ESTREE_TEST__:PASS:
                 "end": 876,
                 "decorators": [],
                 "name": "ANY",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -1268,7 +1329,8 @@ __ESTREE_TEST__:PASS:
                 "end": 883,
                 "decorators": [],
                 "name": "ANY1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1295,7 +1357,8 @@ __ESTREE_TEST__:PASS:
             "end": 903,
             "decorators": [],
             "name": "ResultIsAny17",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1319,7 +1382,8 @@ __ESTREE_TEST__:PASS:
                 "end": 928,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1346,7 +1410,8 @@ __ESTREE_TEST__:PASS:
             "end": 948,
             "decorators": [],
             "name": "ResultIsAny18",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1396,7 +1461,8 @@ __ESTREE_TEST__:PASS:
             "end": 988,
             "decorators": [],
             "name": "ResultIsAny19",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1413,7 +1479,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1006,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -1421,7 +1488,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1018,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "operator": "void",
@@ -1448,7 +1516,8 @@ __ESTREE_TEST__:PASS:
             "end": 1067,
             "decorators": [],
             "name": "ResultIsAny20",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1464,7 +1533,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1083,
                 "decorators": [],
                 "name": "ANY",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "void",
               "prefix": true
@@ -1493,7 +1563,8 @@ __ESTREE_TEST__:PASS:
             "end": 1102,
             "decorators": [],
             "name": "ResultIsAny21",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -1518,7 +1589,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1124,
                     "decorators": [],
                     "name": "ANY",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1526,7 +1598,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1131,
                     "decorators": [],
                     "name": "ANY1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "operator": "void",
@@ -1547,6 +1620,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1164,
       "end": 1173,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 1164,
@@ -1557,7 +1631,8 @@ __ESTREE_TEST__:PASS:
           "end": 1172,
           "decorators": [],
           "name": "ANY",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -1567,6 +1642,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1174,
       "end": 1184,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 1174,
@@ -1577,7 +1653,8 @@ __ESTREE_TEST__:PASS:
           "end": 1183,
           "decorators": [],
           "name": "ANY1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -1587,6 +1664,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1185,
       "end": 1198,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 1185,
@@ -1602,7 +1680,8 @@ __ESTREE_TEST__:PASS:
             "end": 1194,
             "decorators": [],
             "name": "ANY2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1621,6 +1700,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1199,
       "end": 1214,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 1199,
@@ -1636,7 +1716,8 @@ __ESTREE_TEST__:PASS:
               "end": 1207,
               "decorators": [],
               "name": "ANY",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "void",
             "prefix": true
@@ -1647,7 +1728,8 @@ __ESTREE_TEST__:PASS:
             "end": 1213,
             "decorators": [],
             "name": "ANY1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -1656,6 +1738,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1215,
       "end": 1227,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 1215,
@@ -1671,7 +1754,8 @@ __ESTREE_TEST__:PASS:
             "end": 1224,
             "decorators": [],
             "name": "objA",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1680,7 +1764,8 @@ __ESTREE_TEST__:PASS:
             "end": 1226,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "void",
@@ -1691,6 +1776,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1228,
       "end": 1237,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 1228,
@@ -1706,7 +1792,8 @@ __ESTREE_TEST__:PASS:
             "end": 1234,
             "decorators": [],
             "name": "M",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1715,7 +1802,8 @@ __ESTREE_TEST__:PASS:
             "end": 1236,
             "decorators": [],
             "name": "n",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "void",

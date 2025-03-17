@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 87,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "dec",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -73,13 +75,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 61,
               "end": 79,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 61,
                 "end": 79,
                 "decorators": [],
                 "name": "PropertyDescriptor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -94,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "start": 82,
           "end": 86
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -110,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 103,
             "end": 122,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -123,7 +129,8 @@ __ESTREE_TEST__:PASS:
                   "end": 107,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -134,12 +141,14 @@ __ESTREE_TEST__:PASS:
               "end": 121,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -152,10 +161,13 @@ __ESTREE_TEST__:PASS:
         "end": 96,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

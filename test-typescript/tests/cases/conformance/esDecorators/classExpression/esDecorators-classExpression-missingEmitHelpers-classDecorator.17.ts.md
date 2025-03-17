@@ -99,7 +99,8 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -111,6 +112,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 132,
       "end": 166,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 133,
@@ -134,7 +136,8 @@ __ESTREE_TEST__:PASS:
                 "end": 137,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -151,7 +154,8 @@ __ESTREE_TEST__:PASS:
                   "end": 141,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "right": {
@@ -177,17 +181,22 @@ __ESTREE_TEST__:PASS:
                         "end": 148,
                         "decorators": [],
                         "name": "dec",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
                   "id": null,
                   "implements": [],
-                  "superClass": null
-                }
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
+                },
+                "typeAnnotation": null
               }
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",

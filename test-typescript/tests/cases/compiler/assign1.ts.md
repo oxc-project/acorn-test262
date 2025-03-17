@@ -27,6 +27,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 37,
                   "end": 49,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 41,
                     "decorators": [],
                     "name": "salt",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -54,6 +56,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 58,
                   "end": 72,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
                     "end": 64,
                     "decorators": [],
                     "name": "pepper",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -87,8 +91,10 @@ __ESTREE_TEST__:PASS:
               "end": 26,
               "decorators": [],
               "name": "I",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "VariableDeclaration",
@@ -115,13 +121,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 90,
                       "end": 91,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 90,
                         "end": 91,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -142,7 +150,8 @@ __ESTREE_TEST__:PASS:
                         "end": 97,
                         "decorators": [],
                         "name": "salt",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
                         "end": 106,
                         "decorators": [],
                         "name": "pepper",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -198,7 +208,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

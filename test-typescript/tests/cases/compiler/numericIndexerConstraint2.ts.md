@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 12,
             "end": 21,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,7 +50,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -61,10 +65,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -96,6 +103,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 33,
                     "end": 54,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -126,13 +134,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 50,
                         "end": 53,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 50,
                           "end": 53,
                           "decorators": [],
                           "name": "Foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -177,6 +187,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 67,
                     "end": 79,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -184,7 +195,8 @@ __ESTREE_TEST__:PASS:
                       "end": 70,
                       "decorators": [],
                       "name": "one",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -214,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 83,
       "end": 89,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 83,
@@ -225,7 +238,8 @@ __ESTREE_TEST__:PASS:
           "end": 84,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -233,7 +247,8 @@ __ESTREE_TEST__:PASS:
           "end": 88,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

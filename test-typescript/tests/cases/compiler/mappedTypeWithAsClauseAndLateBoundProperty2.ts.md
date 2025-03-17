@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "thing",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSSatisfiesExpression",
@@ -74,7 +75,8 @@ __ESTREE_TEST__:PASS:
                     "end": 35,
                     "decorators": [],
                     "name": "K",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "nameType": {
                     "type": "TSTypeReference",
@@ -89,13 +91,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 65,
                           "end": 66,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 65,
                             "end": 66,
                             "decorators": [],
                             "name": "K",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -118,9 +122,12 @@ __ESTREE_TEST__:PASS:
                       "end": 64,
                       "decorators": [],
                       "name": "Exclude",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
+                  "optional": null,
+                  "readonly": null,
                   "typeAnnotation": {
                     "type": "TSIndexedAccessType",
                     "start": 80,
@@ -129,13 +136,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 91,
                       "end": 92,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 91,
                         "end": 92,
                         "decorators": [],
                         "name": "K",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "objectType": {

@@ -59,6 +59,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 59,
             "end": 71,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [],
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
               "end": 61,
               "decorators": [],
               "name": "O",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -97,10 +99,12 @@ __ESTREE_TEST__:PASS:
         "end": 49,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 49,
@@ -111,6 +115,8 @@ __ESTREE_TEST__:PASS:
             "start": 50,
             "end": 51,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -118,7 +124,8 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "O",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

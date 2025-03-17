@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
                   "end": 97,
                   "name": "div"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -95,9 +97,12 @@ __ESTREE_TEST__:PASS:
         "end": 77,
         "decorators": [],
         "name": "EmptySFC1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -148,7 +153,8 @@ __ESTREE_TEST__:PASS:
                   "end": 152,
                   "name": "div"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -163,9 +169,12 @@ __ESTREE_TEST__:PASS:
         "end": 132,
         "decorators": [],
         "name": "EmptySFC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -216,7 +225,8 @@ __ESTREE_TEST__:PASS:
                   "end": 221,
                   "name": "h1"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -231,7 +241,8 @@ __ESTREE_TEST__:PASS:
         "end": 182,
         "decorators": [],
         "name": "SFC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -254,6 +265,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 191,
                   "end": 201,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -261,7 +273,8 @@ __ESTREE_TEST__:PASS:
                     "end": 192,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -281,7 +294,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -299,7 +314,8 @@ __ESTREE_TEST__:PASS:
             "end": 253,
             "decorators": [],
             "name": "EmptySFCComp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -312,7 +328,8 @@ __ESTREE_TEST__:PASS:
               "end": 265,
               "decorators": [],
               "name": "EmptySFC1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -320,7 +337,8 @@ __ESTREE_TEST__:PASS:
               "end": 278,
               "decorators": [],
               "name": "EmptySFC2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -344,7 +362,8 @@ __ESTREE_TEST__:PASS:
             "end": 300,
             "decorators": [],
             "name": "SFC2AndEmptyComp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -357,7 +376,8 @@ __ESTREE_TEST__:PASS:
               "end": 307,
               "decorators": [],
               "name": "SFC2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -365,7 +385,8 @@ __ESTREE_TEST__:PASS:
               "end": 320,
               "decorators": [],
               "name": "EmptySFC1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -389,7 +410,8 @@ __ESTREE_TEST__:PASS:
             "end": 328,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -408,7 +430,8 @@ __ESTREE_TEST__:PASS:
                 "end": 344,
                 "name": "EmptySFCComp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -432,7 +455,8 @@ __ESTREE_TEST__:PASS:
             "end": 354,
             "decorators": [],
             "name": "a1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -464,7 +488,8 @@ __ESTREE_TEST__:PASS:
                 "end": 370,
                 "name": "EmptySFCComp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -488,7 +513,8 @@ __ESTREE_TEST__:PASS:
             "end": 389,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -520,7 +546,8 @@ __ESTREE_TEST__:PASS:
                 "end": 409,
                 "name": "SFC2AndEmptyComp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

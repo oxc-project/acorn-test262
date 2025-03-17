@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "file",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                 "end": 16,
                 "decorators": [],
                 "name": "Bun",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -56,10 +58,12 @@ __ESTREE_TEST__:PASS:
                 "end": 21,
                 "decorators": [],
                 "name": "file",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

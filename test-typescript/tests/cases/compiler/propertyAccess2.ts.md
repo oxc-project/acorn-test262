@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 17,
@@ -59,7 +60,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -68,10 +70,12 @@ __ESTREE_TEST__:PASS:
             "end": 26,
             "decorators": [],
             "name": "toBAZ",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

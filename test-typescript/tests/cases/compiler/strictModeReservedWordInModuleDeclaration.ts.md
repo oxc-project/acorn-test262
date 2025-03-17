@@ -36,7 +36,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "public",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "private",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
           "end": 64,
           "decorators": [],
           "name": "public",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -92,7 +95,8 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "whatever",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -123,7 +127,8 @@ __ESTREE_TEST__:PASS:
             "end": 92,
             "decorators": [],
             "name": "private",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -131,7 +136,8 @@ __ESTREE_TEST__:PASS:
             "end": 99,
             "decorators": [],
             "name": "public",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -140,7 +146,8 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
                           "end": 58,
                           "decorators": [],
                           "name": "arguments",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ArrayExpression",
@@ -69,9 +70,12 @@ __ESTREE_TEST__:PASS:
                 "end": 32,
                 "decorators": [],
                 "name": "f",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -87,7 +91,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

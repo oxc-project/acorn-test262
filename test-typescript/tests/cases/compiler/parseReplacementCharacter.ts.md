@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 32,
       "end": 47,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 32,
@@ -58,6 +59,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 48,
       "end": 68,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 48,

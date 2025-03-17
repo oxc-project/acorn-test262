@@ -39,12 +39,14 @@ __ESTREE_TEST__:PASS:
                     "end": 63,
                     "decorators": [],
                     "name": "publicMember",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": null
                 },
                 {
@@ -62,12 +64,14 @@ __ESTREE_TEST__:PASS:
                     "end": 122,
                     "decorators": [],
                     "name": "privateMember",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": null
                 },
                 {
@@ -83,7 +87,8 @@ __ESTREE_TEST__:PASS:
                     "end": 186,
                     "decorators": [],
                     "name": "publicFunction",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -106,9 +111,12 @@ __ESTREE_TEST__:PASS:
                         "end": 188,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
                     "end": 250,
                     "decorators": [],
                     "name": "privateFunction",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -147,9 +156,12 @@ __ESTREE_TEST__:PASS:
                         "end": 263,
                         "decorators": [],
                         "name": "privateParam",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -165,7 +177,8 @@ __ESTREE_TEST__:PASS:
                     "end": 325,
                     "decorators": [],
                     "name": "constructor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "constructor",
                   "optional": false,
@@ -188,9 +201,12 @@ __ESTREE_TEST__:PASS:
                         "end": 338,
                         "decorators": [],
                         "name": "privateParam",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -203,10 +219,13 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -218,7 +237,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 23,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                     "end": 32,
                     "decorators": [],
                     "name": "nonsense",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "init",
@@ -79,6 +82,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 41,
       "end": 50,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 41,
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "obj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -104,6 +109,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 52,
       "end": 73,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 52,
@@ -115,7 +121,8 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "obj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -138,7 +146,8 @@ __ESTREE_TEST__:PASS:
             "end": 71,
             "decorators": [],
             "name": "nonsense",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

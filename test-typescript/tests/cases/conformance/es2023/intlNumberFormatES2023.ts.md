@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                   "end": 107,
                   "decorators": [],
                   "name": "roundingPriority",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
                   "end": 107,
                   "decorators": [],
                   "name": "roundingPriority",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -59,7 +61,8 @@ __ESTREE_TEST__:PASS:
                   "end": 121,
                   "decorators": [],
                   "name": "roundingMode",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -71,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "end": 121,
                   "decorators": [],
                   "name": "roundingMode",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
                   "end": 140,
                   "decorators": [],
                   "name": "roundingIncrement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
                   "end": 140,
                   "decorators": [],
                   "name": "roundingIncrement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -111,7 +117,8 @@ __ESTREE_TEST__:PASS:
                   "end": 161,
                   "decorators": [],
                   "name": "trailingZeroDisplay",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -123,7 +130,8 @@ __ESTREE_TEST__:PASS:
                   "end": 161,
                   "decorators": [],
                   "name": "trailingZeroDisplay",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -137,7 +145,8 @@ __ESTREE_TEST__:PASS:
                   "end": 174,
                   "decorators": [],
                   "name": "useGrouping",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -149,10 +158,12 @@ __ESTREE_TEST__:PASS:
                   "end": 174,
                   "decorators": [],
                   "name": "useGrouping",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -188,7 +199,8 @@ __ESTREE_TEST__:PASS:
                     "end": 188,
                     "decorators": [],
                     "name": "Intl",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -197,9 +209,11 @@ __ESTREE_TEST__:PASS:
                     "end": 201,
                     "decorators": [],
                     "name": "NumberFormat",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -208,10 +222,12 @@ __ESTREE_TEST__:PASS:
                 "end": 226,
                 "decorators": [],
                 "name": "resolvedOptions",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -222,6 +238,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 248,
       "end": 283,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 248,
@@ -252,7 +269,8 @@ __ESTREE_TEST__:PASS:
             "end": 256,
             "decorators": [],
             "name": "Intl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -261,15 +279,18 @@ __ESTREE_TEST__:PASS:
             "end": 269,
             "decorators": [],
             "name": "NumberFormat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 297,
       "end": 414,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 297,
@@ -298,7 +319,8 @@ __ESTREE_TEST__:PASS:
                   "end": 346,
                   "decorators": [],
                   "name": "roundingPriority",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -323,7 +345,8 @@ __ESTREE_TEST__:PASS:
                   "end": 382,
                   "decorators": [],
                   "name": "roundingIncrement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -348,7 +371,8 @@ __ESTREE_TEST__:PASS:
                   "end": 401,
                   "decorators": [],
                   "name": "roundingMode",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -376,7 +400,8 @@ __ESTREE_TEST__:PASS:
             "end": 305,
             "decorators": [],
             "name": "Intl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -385,9 +410,11 @@ __ESTREE_TEST__:PASS:
             "end": 318,
             "decorators": [],
             "name": "NumberFormat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeArguments": null
       }
     },
     {
@@ -418,7 +445,8 @@ __ESTREE_TEST__:PASS:
                   "end": 461,
                   "decorators": [],
                   "name": "signDisplay",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -430,10 +458,12 @@ __ESTREE_TEST__:PASS:
                   "end": 461,
                   "decorators": [],
                   "name": "signDisplay",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -473,7 +503,8 @@ __ESTREE_TEST__:PASS:
                           "end": 510,
                           "decorators": [],
                           "name": "signDisplay",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -501,7 +532,8 @@ __ESTREE_TEST__:PASS:
                     "end": 474,
                     "decorators": [],
                     "name": "Intl",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -510,9 +542,11 @@ __ESTREE_TEST__:PASS:
                     "end": 487,
                     "decorators": [],
                     "name": "NumberFormat",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -521,10 +555,12 @@ __ESTREE_TEST__:PASS:
                 "end": 541,
                 "decorators": [],
                 "name": "resolvedOptions",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -535,6 +571,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 572,
       "end": 626,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 572,
@@ -563,7 +600,8 @@ __ESTREE_TEST__:PASS:
                   "end": 616,
                   "decorators": [],
                   "name": "useGrouping",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -591,7 +629,8 @@ __ESTREE_TEST__:PASS:
             "end": 580,
             "decorators": [],
             "name": "Intl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -600,15 +639,18 @@ __ESTREE_TEST__:PASS:
             "end": 593,
             "decorators": [],
             "name": "NumberFormat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 627,
       "end": 683,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 627,
@@ -637,7 +679,8 @@ __ESTREE_TEST__:PASS:
                   "end": 671,
                   "decorators": [],
                   "name": "useGrouping",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -665,7 +708,8 @@ __ESTREE_TEST__:PASS:
             "end": 635,
             "decorators": [],
             "name": "Intl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -674,15 +718,18 @@ __ESTREE_TEST__:PASS:
             "end": 648,
             "decorators": [],
             "name": "NumberFormat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 684,
       "end": 742,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 684,
@@ -711,7 +758,8 @@ __ESTREE_TEST__:PASS:
                   "end": 728,
                   "decorators": [],
                   "name": "useGrouping",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -739,7 +787,8 @@ __ESTREE_TEST__:PASS:
             "end": 692,
             "decorators": [],
             "name": "Intl",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -748,15 +797,18 @@ __ESTREE_TEST__:PASS:
             "end": 705,
             "decorators": [],
             "name": "NumberFormat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 759,
       "end": 811,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 759,
@@ -806,7 +858,8 @@ __ESTREE_TEST__:PASS:
                 "end": 767,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -815,9 +868,11 @@ __ESTREE_TEST__:PASS:
                 "end": 780,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -826,16 +881,19 @@ __ESTREE_TEST__:PASS:
             "end": 801,
             "decorators": [],
             "name": "formatRange",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 812,
       "end": 867,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 812,
@@ -887,7 +945,8 @@ __ESTREE_TEST__:PASS:
                 "end": 820,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -896,9 +955,11 @@ __ESTREE_TEST__:PASS:
                 "end": 833,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -907,16 +968,19 @@ __ESTREE_TEST__:PASS:
             "end": 854,
             "decorators": [],
             "name": "formatRange",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 868,
       "end": 931,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 868,
@@ -971,7 +1035,8 @@ __ESTREE_TEST__:PASS:
                   "end": 876,
                   "decorators": [],
                   "name": "Intl",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -980,9 +1045,11 @@ __ESTREE_TEST__:PASS:
                   "end": 889,
                   "decorators": [],
                   "name": "NumberFormat",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              }
+              },
+              "typeArguments": null
             },
             "optional": false,
             "property": {
@@ -991,10 +1058,12 @@ __ESTREE_TEST__:PASS:
               "end": 917,
               "decorators": [],
               "name": "formatRangeToParts",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -1010,6 +1079,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 932,
       "end": 997,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 932,
@@ -1066,7 +1136,8 @@ __ESTREE_TEST__:PASS:
                   "end": 940,
                   "decorators": [],
                   "name": "Intl",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1075,9 +1146,11 @@ __ESTREE_TEST__:PASS:
                   "end": 953,
                   "decorators": [],
                   "name": "NumberFormat",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              }
+              },
+              "typeArguments": null
             },
             "optional": false,
             "property": {
@@ -1086,10 +1159,12 @@ __ESTREE_TEST__:PASS:
               "end": 981,
               "decorators": [],
               "name": "formatRangeToParts",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -1105,6 +1180,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1039,
       "end": 1089,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1039,
@@ -1147,7 +1223,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1047,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1156,9 +1233,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1060,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1167,16 +1246,19 @@ __ESTREE_TEST__:PASS:
             "end": 1076,
             "decorators": [],
             "name": "format",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1090,
       "end": 1151,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1090,
@@ -1226,7 +1308,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1098,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1235,9 +1318,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1111,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1246,16 +1331,19 @@ __ESTREE_TEST__:PASS:
             "end": 1132,
             "decorators": [],
             "name": "formatRange",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1152,
       "end": 1221,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1152,
@@ -1305,7 +1393,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1160,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1314,9 +1403,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1173,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1325,16 +1416,19 @@ __ESTREE_TEST__:PASS:
             "end": 1201,
             "decorators": [],
             "name": "formatRangeToParts",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1222,
       "end": 1272,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1222,
@@ -1377,7 +1471,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1230,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1386,9 +1481,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1243,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1397,16 +1494,19 @@ __ESTREE_TEST__:PASS:
             "end": 1259,
             "decorators": [],
             "name": "format",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1273,
       "end": 1324,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1273,
@@ -1449,7 +1549,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1281,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1458,9 +1559,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1294,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1469,16 +1572,19 @@ __ESTREE_TEST__:PASS:
             "end": 1310,
             "decorators": [],
             "name": "format",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1325,
       "end": 1376,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1325,
@@ -1521,7 +1627,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1333,
                 "decorators": [],
                 "name": "Intl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1530,9 +1637,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1346,
                 "decorators": [],
                 "name": "NumberFormat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -1541,10 +1650,12 @@ __ESTREE_TEST__:PASS:
             "end": 1362,
             "decorators": [],
             "name": "format",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

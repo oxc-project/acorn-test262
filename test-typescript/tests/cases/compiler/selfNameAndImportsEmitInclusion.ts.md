@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "indirect1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "indirect2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -131,7 +133,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "indirect1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -140,7 +143,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "indirect1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -169,7 +173,8 @@ __ESTREE_TEST__:PASS:
             "end": 58,
             "decorators": [],
             "name": "indirect2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -178,7 +183,8 @@ __ESTREE_TEST__:PASS:
             "end": 58,
             "decorators": [],
             "name": "indirect2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -187,6 +193,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 86,
       "end": 120,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 86,
@@ -198,7 +205,8 @@ __ESTREE_TEST__:PASS:
             "end": 107,
             "decorators": [],
             "name": "indirect1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -206,7 +214,8 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "indirect2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -220,7 +229,8 @@ __ESTREE_TEST__:PASS:
             "end": 93,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -229,10 +239,12 @@ __ESTREE_TEST__:PASS:
             "end": 97,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -56,9 +57,12 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "eval",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

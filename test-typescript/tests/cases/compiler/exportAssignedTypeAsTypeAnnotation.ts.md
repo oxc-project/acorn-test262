@@ -27,21 +27,25 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 22,
                 "end": 26,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 22,
                   "end": 26,
                   "decorators": [],
                   "name": "Date",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 32,
             "end": 44,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -49,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -75,8 +80,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "x",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -88,7 +95,8 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -113,7 +121,8 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -154,13 +163,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 134,
                 "end": 138,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 134,
                   "end": 138,
                   "decorators": [],
                   "name": "test",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }

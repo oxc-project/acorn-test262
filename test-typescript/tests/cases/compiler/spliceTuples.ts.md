@@ -106,6 +106,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 73,
       "end": 89,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 73,
@@ -117,7 +118,8 @@ __ESTREE_TEST__:PASS:
           "end": 75,
           "decorators": [],
           "name": "k1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -141,7 +143,8 @@ __ESTREE_TEST__:PASS:
                 "end": 87,
                 "decorators": [],
                 "name": "sb",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -208,6 +211,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 134,
       "end": 153,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 134,
@@ -219,7 +223,8 @@ __ESTREE_TEST__:PASS:
           "end": 136,
           "decorators": [],
           "name": "k2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -243,7 +248,8 @@ __ESTREE_TEST__:PASS:
                 "end": 148,
                 "decorators": [],
                 "name": "sb",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -378,6 +384,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 239,
       "end": 256,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 239,
@@ -389,7 +396,8 @@ __ESTREE_TEST__:PASS:
           "end": 241,
           "decorators": [],
           "name": "k3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -413,7 +421,8 @@ __ESTREE_TEST__:PASS:
                 "end": 254,
                 "decorators": [],
                 "name": "sb_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -546,6 +555,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 352,
       "end": 370,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 352,
@@ -557,7 +567,8 @@ __ESTREE_TEST__:PASS:
           "end": 354,
           "decorators": [],
           "name": "k4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -581,7 +592,8 @@ __ESTREE_TEST__:PASS:
                 "end": 368,
                 "decorators": [],
                 "name": "sbb_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -658,6 +670,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 421,
       "end": 439,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 421,
@@ -669,7 +682,8 @@ __ESTREE_TEST__:PASS:
           "end": 423,
           "decorators": [],
           "name": "k5",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -693,7 +707,8 @@ __ESTREE_TEST__:PASS:
                 "end": 437,
                 "decorators": [],
                 "name": "sbb_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -775,6 +790,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 499,
       "end": 517,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 499,
@@ -786,7 +802,8 @@ __ESTREE_TEST__:PASS:
           "end": 501,
           "decorators": [],
           "name": "k6",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -810,7 +827,8 @@ __ESTREE_TEST__:PASS:
                 "end": 515,
                 "decorators": [],
                 "name": "sbb_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]

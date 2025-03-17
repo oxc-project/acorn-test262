@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
                       "end": 60,
                       "decorators": [],
                       "name": "i",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Literal",
@@ -69,6 +70,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 151,
                   "end": 195,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 151,
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
                               "end": 180,
                               "decorators": [],
                               "name": "i",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -102,9 +105,12 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -125,7 +131,8 @@ __ESTREE_TEST__:PASS:
                     "end": 33,
                     "decorators": [],
                     "name": "i",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -166,9 +173,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

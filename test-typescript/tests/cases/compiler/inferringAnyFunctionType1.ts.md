@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -57,13 +59,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 57,
               "end": 58,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 57,
                 "end": 58,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -77,13 +81,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 61,
           "end": 62,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 61,
             "end": 62,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -106,6 +112,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 23,
                   "end": 50,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Literal",
@@ -154,12 +161,14 @@ __ESTREE_TEST__:PASS:
                           "start": 44,
                           "end": 50
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
               ]
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -190,7 +200,8 @@ __ESTREE_TEST__:PASS:
             "end": 87,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
                       "end": 99,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "expression": true,
                     "generator": false,
@@ -225,9 +237,12 @@ __ESTREE_TEST__:PASS:
                         "end": 94,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 ]
               }
@@ -238,9 +253,11 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

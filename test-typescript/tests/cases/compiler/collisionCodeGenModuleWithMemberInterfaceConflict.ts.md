@@ -37,8 +37,10 @@ __ESTREE_TEST__:PASS:
                 "end": 35,
                 "decorators": [],
                 "name": "m1",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -68,7 +70,8 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "m2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -81,11 +84,15 @@ __ESTREE_TEST__:PASS:
                     "end": 77,
                     "decorators": [],
                     "name": "m1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -101,7 +108,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -121,7 +129,8 @@ __ESTREE_TEST__:PASS:
             "end": 95,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -139,7 +148,8 @@ __ESTREE_TEST__:PASS:
                 "end": 104,
                 "decorators": [],
                 "name": "m1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -148,9 +158,11 @@ __ESTREE_TEST__:PASS:
                 "end": 107,
                 "decorators": [],
                 "name": "m2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],

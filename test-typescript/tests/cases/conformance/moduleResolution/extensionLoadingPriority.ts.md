@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -83,7 +84,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "dir",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

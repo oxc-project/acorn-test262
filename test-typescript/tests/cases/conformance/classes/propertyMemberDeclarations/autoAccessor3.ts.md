@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 15,
             "end": 33,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -50,6 +51,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 38,
             "end": 55,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -65,6 +67,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 53,
@@ -77,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 60,
             "end": 85,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -108,6 +112,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 90,
             "end": 114,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -123,6 +128,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 112,
@@ -141,10 +147,13 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

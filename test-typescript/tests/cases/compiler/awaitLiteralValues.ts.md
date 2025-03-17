@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 29,
             "end": 45,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 29,
@@ -43,9 +44,12 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "awaitString",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -61,6 +65,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 78,
             "end": 86,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 78,
@@ -85,9 +90,12 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "awaitNumber",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -103,6 +111,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 117,
             "end": 128,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 117,
@@ -127,9 +136,12 @@ __ESTREE_TEST__:PASS:
         "end": 108,
         "decorators": [],
         "name": "awaitTrue",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -145,6 +157,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 160,
             "end": 172,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 160,
@@ -169,9 +182,12 @@ __ESTREE_TEST__:PASS:
         "end": 151,
         "decorators": [],
         "name": "awaitFalse",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -187,6 +203,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 203,
             "end": 214,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 203,
@@ -211,9 +228,12 @@ __ESTREE_TEST__:PASS:
         "end": 194,
         "decorators": [],
         "name": "awaitNull",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -229,6 +249,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 250,
             "end": 266,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 250,
@@ -239,7 +260,8 @@ __ESTREE_TEST__:PASS:
                 "end": 265,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -254,9 +276,12 @@ __ESTREE_TEST__:PASS:
         "end": 241,
         "decorators": [],
         "name": "awaitUndefined",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

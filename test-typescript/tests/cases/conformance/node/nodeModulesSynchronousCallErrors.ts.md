@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "h",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "h",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "mod",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -93,7 +96,8 @@ __ESTREE_TEST__:PASS:
             "end": 96,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -102,7 +106,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "_f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -117,7 +122,8 @@ __ESTREE_TEST__:PASS:
         "end": 134,
         "decorators": [],
         "name": "mod2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -164,7 +170,8 @@ __ESTREE_TEST__:PASS:
                     "end": 202,
                     "decorators": [],
                     "name": "mod3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -205,7 +212,8 @@ __ESTREE_TEST__:PASS:
                     "end": 249,
                     "decorators": [],
                     "name": "mod4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -234,6 +242,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 285,
               "end": 289,
+              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 285,
@@ -245,9 +254,11 @@ __ESTREE_TEST__:PASS:
                   "end": 286,
                   "decorators": [],
                   "name": "h",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -261,9 +272,12 @@ __ESTREE_TEST__:PASS:
           "end": 183,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -305,7 +319,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "h",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -314,7 +329,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "_h",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -329,7 +345,8 @@ __ESTREE_TEST__:PASS:
         "end": 65,
         "decorators": [],
         "name": "mod",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -369,7 +386,8 @@ __ESTREE_TEST__:PASS:
             "end": 100,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -378,7 +396,8 @@ __ESTREE_TEST__:PASS:
             "end": 100,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -393,7 +412,8 @@ __ESTREE_TEST__:PASS:
         "end": 142,
         "decorators": [],
         "name": "mod2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -440,7 +460,8 @@ __ESTREE_TEST__:PASS:
                     "end": 220,
                     "decorators": [],
                     "name": "mod3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -481,7 +502,8 @@ __ESTREE_TEST__:PASS:
                     "end": 266,
                     "decorators": [],
                     "name": "mod4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -510,6 +532,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 312,
               "end": 316,
+              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 312,
@@ -521,9 +544,11 @@ __ESTREE_TEST__:PASS:
                   "end": 313,
                   "decorators": [],
                   "name": "f",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -537,9 +562,12 @@ __ESTREE_TEST__:PASS:
           "end": 201,
           "decorators": [],
           "name": "h",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

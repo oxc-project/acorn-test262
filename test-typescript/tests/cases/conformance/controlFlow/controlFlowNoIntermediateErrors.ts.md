@@ -311,6 +311,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 305,
                         "end": 314,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 305,
@@ -322,7 +323,8 @@ __ESTREE_TEST__:PASS:
                             "end": 309,
                             "decorators": [],
                             "name": "code",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Literal",
@@ -344,6 +346,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 241,
                         "end": 267,
+                        "directive": null,
                         "expression": {
                           "type": "AssignmentExpression",
                           "start": 241,
@@ -355,7 +358,8 @@ __ESTREE_TEST__:PASS:
                             "end": 245,
                             "decorators": [],
                             "name": "code",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "ConditionalExpression",
@@ -386,7 +390,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 252,
                                 "decorators": [],
                                 "name": "code",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Literal",
@@ -412,7 +417,8 @@ __ESTREE_TEST__:PASS:
                       "end": 211,
                       "decorators": [],
                       "name": "code2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Literal",
@@ -441,7 +447,8 @@ __ESTREE_TEST__:PASS:
                     "end": 176,
                     "decorators": [],
                     "name": "code2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -455,7 +462,8 @@ __ESTREE_TEST__:PASS:
               "end": 190,
               "decorators": [],
               "name": "otherCodes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -469,9 +477,12 @@ __ESTREE_TEST__:PASS:
         "end": 34,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -562,6 +573,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 402,
                   "end": 428,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 402,
@@ -573,7 +585,8 @@ __ESTREE_TEST__:PASS:
                       "end": 406,
                       "decorators": [],
                       "name": "code",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ConditionalExpression",
@@ -604,7 +617,8 @@ __ESTREE_TEST__:PASS:
                           "end": 413,
                           "decorators": [],
                           "name": "code",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Literal",
@@ -638,9 +652,12 @@ __ESTREE_TEST__:PASS:
         "end": 345,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

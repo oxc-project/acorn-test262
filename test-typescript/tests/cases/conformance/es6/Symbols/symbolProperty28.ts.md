@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 15,
             "end": 71,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
                 "end": 34,
                 "decorators": [],
                 "name": "toStringTag",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -78,7 +81,8 @@ __ESTREE_TEST__:PASS:
                             "end": 58,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -101,7 +105,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -114,10 +120,13 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -138,7 +147,8 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -147,8 +157,11 @@ __ESTREE_TEST__:PASS:
         "end": 94,
         "decorators": [],
         "name": "C1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -175,13 +188,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 107,
                 "end": 109,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 107,
                   "end": 109,
                   "decorators": [],
                   "name": "C2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -208,7 +223,8 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -231,7 +247,8 @@ __ESTREE_TEST__:PASS:
                   "end": 122,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -245,7 +262,8 @@ __ESTREE_TEST__:PASS:
                     "end": 129,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -254,11 +272,13 @@ __ESTREE_TEST__:PASS:
                     "end": 141,
                     "decorators": [],
                     "name": "toStringTag",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "optional": false,
             "property": {
@@ -267,7 +287,8 @@ __ESTREE_TEST__:PASS:
               "end": 146,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

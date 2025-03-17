@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
                 "end": 20,
                 "decorators": [],
                 "name": "d1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "ObjectExpression",
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                         "end": 38,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
                         "end": 51,
                         "decorators": [],
                         "name": "asyncDispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -80,7 +83,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
                 "end": 79,
                 "decorators": [],
                 "name": "d2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "ObjectExpression",
@@ -120,7 +126,8 @@ __ESTREE_TEST__:PASS:
                         "end": 97,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
                         "end": 110,
                         "decorators": [],
                         "name": "asyncDispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -151,7 +159,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]

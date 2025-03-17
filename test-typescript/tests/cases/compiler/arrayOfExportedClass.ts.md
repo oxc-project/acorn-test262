@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 16,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -57,10 +59,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Car",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -72,7 +77,8 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "Car",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -97,7 +103,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "Car",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -138,7 +145,8 @@ __ESTREE_TEST__:PASS:
               "end": 129,
               "decorators": [],
               "name": "cars",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -156,13 +164,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 131,
                   "end": 134,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 131,
                     "end": 134,
                     "decorators": [],
                     "name": "Car",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -182,7 +192,8 @@ __ESTREE_TEST__:PASS:
               "end": 157,
               "decorators": [],
               "name": "AddCars",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -202,6 +213,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 182,
                     "end": 199,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 182,
@@ -224,7 +236,8 @@ __ESTREE_TEST__:PASS:
                           "end": 191,
                           "decorators": [],
                           "name": "cars",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -233,7 +246,8 @@ __ESTREE_TEST__:PASS:
                         "end": 198,
                         "decorators": [],
                         "name": "cars",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -263,19 +277,23 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 164,
                         "end": 167,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 164,
                           "end": 167,
                           "decorators": [],
                           "name": "Car",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -288,10 +306,13 @@ __ESTREE_TEST__:PASS:
         "end": 110,
         "decorators": [],
         "name": "Road",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -303,7 +324,8 @@ __ESTREE_TEST__:PASS:
         "end": 222,
         "decorators": [],
         "name": "Road",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

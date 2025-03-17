@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 21,
             "end": 31,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,14 +53,17 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Item",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 34,
       "end": 70,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -68,7 +73,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "getItems",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -83,17 +89,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 63,
             "end": 67,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 63,
               "end": 67,
               "decorators": [],
               "name": "Item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -105,7 +114,8 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "decorators": [],
         "name": "getItems",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

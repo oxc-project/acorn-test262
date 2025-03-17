@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "array0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -72,7 +73,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "i0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -90,6 +92,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 35,
       "end": 54,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -106,7 +109,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "array0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -119,7 +123,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "i0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -150,7 +155,8 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "array1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -201,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 85,
             "decorators": [],
             "name": "i1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -219,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 91,
       "end": 127,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 91,
@@ -235,7 +243,8 @@ __ESTREE_TEST__:PASS:
             "end": 97,
             "decorators": [],
             "name": "array1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -248,7 +257,8 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "i1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -270,7 +280,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "array1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -283,7 +294,8 @@ __ESTREE_TEST__:PASS:
                 "end": 119,
                 "decorators": [],
                 "name": "i1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": true
@@ -315,7 +327,8 @@ __ESTREE_TEST__:PASS:
             "end": 139,
             "decorators": [],
             "name": "array2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -366,7 +379,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "i2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -384,6 +398,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 164,
       "end": 199,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 164,
@@ -400,7 +415,8 @@ __ESTREE_TEST__:PASS:
             "end": 170,
             "decorators": [],
             "name": "array2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -413,7 +429,8 @@ __ESTREE_TEST__:PASS:
               "end": 175,
               "decorators": [],
               "name": "i2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -435,7 +452,8 @@ __ESTREE_TEST__:PASS:
               "end": 187,
               "decorators": [],
               "name": "array2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -448,7 +466,8 @@ __ESTREE_TEST__:PASS:
                 "end": 192,
                 "decorators": [],
                 "name": "i2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": true
@@ -480,7 +499,8 @@ __ESTREE_TEST__:PASS:
             "end": 211,
             "decorators": [],
             "name": "array3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -531,7 +551,8 @@ __ESTREE_TEST__:PASS:
             "end": 231,
             "decorators": [],
             "name": "j0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -552,7 +573,8 @@ __ESTREE_TEST__:PASS:
             "end": 239,
             "decorators": [],
             "name": "j1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -570,6 +592,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 245,
       "end": 298,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 245,
@@ -586,7 +609,8 @@ __ESTREE_TEST__:PASS:
             "end": 251,
             "decorators": [],
             "name": "array3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -599,7 +623,8 @@ __ESTREE_TEST__:PASS:
               "end": 254,
               "decorators": [],
               "name": "j0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": false
@@ -621,7 +646,8 @@ __ESTREE_TEST__:PASS:
               "end": 268,
               "decorators": [],
               "name": "array3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -634,7 +660,8 @@ __ESTREE_TEST__:PASS:
                 "end": 271,
                 "decorators": [],
                 "name": "j1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": false
@@ -656,7 +683,8 @@ __ESTREE_TEST__:PASS:
                 "end": 285,
                 "decorators": [],
                 "name": "array3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -669,7 +697,8 @@ __ESTREE_TEST__:PASS:
                   "end": 288,
                   "decorators": [],
                   "name": "j0",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "operator": "++",
                 "prefix": false

@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -60,7 +63,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -69,6 +73,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 46,
       "end": 53,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 46,
@@ -79,7 +84,8 @@ __ESTREE_TEST__:PASS:
           "end": 52,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -89,6 +95,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 61,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 54,
@@ -99,7 +106,8 @@ __ESTREE_TEST__:PASS:
           "end": 60,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true

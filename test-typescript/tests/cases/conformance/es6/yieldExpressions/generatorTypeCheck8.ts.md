@@ -27,7 +27,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "Iterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -52,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -74,8 +76,10 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "BadGenerator",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -97,7 +101,8 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "g3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -108,16 +113,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 86,
           "end": 98,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 86,
             "end": 98,
             "decorators": [],
             "name": "BadGenerator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

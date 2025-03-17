@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 64,
             "decorators": [],
             "name": "d2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TemplateLiteral",

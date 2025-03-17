@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 44,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -47,8 +48,10 @@ __ESTREE_TEST__:PASS:
         "end": 62,
         "decorators": [],
         "name": "Array",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -68,8 +71,10 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "String",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -89,8 +94,10 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "Number",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -110,8 +117,10 @@ __ESTREE_TEST__:PASS:
         "end": 122,
         "decorators": [],
         "name": "Object",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -131,8 +140,10 @@ __ESTREE_TEST__:PASS:
         "end": 140,
         "decorators": [],
         "name": "Date",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -152,8 +163,10 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "Function",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -173,8 +186,10 @@ __ESTREE_TEST__:PASS:
         "end": 182,
         "decorators": [],
         "name": "RegExp",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

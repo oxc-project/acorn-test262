@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 32,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -106,7 +107,8 @@ __ESTREE_TEST__:PASS:
                   "name": "svg"
                 }
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -130,7 +132,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -181,7 +184,8 @@ __ESTREE_TEST__:PASS:
                   "name": "svg"
                 }
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -205,7 +209,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -256,7 +261,8 @@ __ESTREE_TEST__:PASS:
                   "name": "A"
                 }
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -280,7 +286,8 @@ __ESTREE_TEST__:PASS:
             "end": 129,
             "decorators": [],
             "name": "d",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -331,7 +338,8 @@ __ESTREE_TEST__:PASS:
                   "name": "a"
                 }
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

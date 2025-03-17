@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 18,
             "end": 36,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
@@ -53,7 +54,8 @@ __ESTREE_TEST__:PASS:
                 "end": 35
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -65,8 +67,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

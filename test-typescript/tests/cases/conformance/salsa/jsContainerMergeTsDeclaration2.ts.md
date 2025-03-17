@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 46,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -40,7 +42,8 @@ __ESTREE_TEST__:PASS:
                 "start": 42,
                 "end": 46
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

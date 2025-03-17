@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 51,
                   "decorators": [],
                   "name": "_arguments",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "end": 67,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
@@ -79,12 +81,15 @@ __ESTREE_TEST__:PASS:
                       "end": 101,
                       "decorators": [],
                       "name": "_arguments",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   },
                   "expression": true,
                   "generator": false,
@@ -96,9 +101,12 @@ __ESTREE_TEST__:PASS:
                       "end": 80,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -116,9 +124,12 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

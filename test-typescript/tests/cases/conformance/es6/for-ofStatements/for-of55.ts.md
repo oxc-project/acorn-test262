@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -56,13 +57,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 52,
             "end": 54,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 52,
               "end": 53,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -83,7 +86,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -97,7 +101,8 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "v",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

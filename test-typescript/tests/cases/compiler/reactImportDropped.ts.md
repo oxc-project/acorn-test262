@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "start": 75,
             "end": 130,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -54,7 +57,8 @@ __ESTREE_TEST__:PASS:
               "end": 95,
               "decorators": [],
               "name": "createClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -84,16 +88,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 108,
                 "end": 129,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 108,
                   "end": 129,
                   "decorators": [],
                   "name": "ClassicComponentClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -136,16 +143,19 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 197,
                       "end": 218,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 197,
                         "end": 218,
                         "decorators": [],
                         "name": "ClassicComponentClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -157,8 +167,10 @@ __ESTREE_TEST__:PASS:
               "end": 167,
               "decorators": [],
               "name": "ClassicComponentClass",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -170,7 +182,8 @@ __ESTREE_TEST__:PASS:
         "end": 67,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -210,8 +223,10 @@ __ESTREE_TEST__:PASS:
                     "end": 309,
                     "decorators": [],
                     "name": "ElementAttributesProperty",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -223,7 +238,8 @@ __ESTREE_TEST__:PASS:
               "end": 263,
               "decorators": [],
               "name": "JSX",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }
@@ -237,7 +253,8 @@ __ESTREE_TEST__:PASS:
         "end": 243,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }

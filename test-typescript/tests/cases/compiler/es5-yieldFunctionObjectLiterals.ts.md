@@ -38,9 +38,12 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -68,7 +71,8 @@ __ESTREE_TEST__:PASS:
                   "end": 119,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -86,7 +90,8 @@ __ESTREE_TEST__:PASS:
                         "end": 133,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
                         "end": 147,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -142,7 +148,8 @@ __ESTREE_TEST__:PASS:
                         "end": 167,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -174,9 +181,12 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "objectLiteral1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -204,7 +214,8 @@ __ESTREE_TEST__:PASS:
                   "end": 221,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -222,7 +233,8 @@ __ESTREE_TEST__:PASS:
                         "end": 235,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -252,9 +264,11 @@ __ESTREE_TEST__:PASS:
                           "end": 250,
                           "decorators": [],
                           "name": "g",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "kind": "init",
                       "method": false,
@@ -285,7 +299,8 @@ __ESTREE_TEST__:PASS:
                         "end": 273,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -317,9 +332,12 @@ __ESTREE_TEST__:PASS:
         "end": 205,
         "decorators": [],
         "name": "objectLiteral2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -347,7 +365,8 @@ __ESTREE_TEST__:PASS:
                   "end": 327,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -365,7 +384,8 @@ __ESTREE_TEST__:PASS:
                         "end": 341,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -390,7 +410,8 @@ __ESTREE_TEST__:PASS:
                         "end": 355,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -426,9 +447,11 @@ __ESTREE_TEST__:PASS:
                           "end": 376,
                           "decorators": [],
                           "name": "g",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "kind": "init",
                       "method": false,
@@ -453,7 +476,8 @@ __ESTREE_TEST__:PASS:
                         "end": 393,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -485,9 +509,12 @@ __ESTREE_TEST__:PASS:
         "end": 311,
         "decorators": [],
         "name": "objectLiteral3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -515,7 +542,8 @@ __ESTREE_TEST__:PASS:
                   "end": 447,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -533,7 +561,8 @@ __ESTREE_TEST__:PASS:
                         "end": 461,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -563,9 +592,11 @@ __ESTREE_TEST__:PASS:
                           "end": 476,
                           "decorators": [],
                           "name": "g",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "kind": "init",
                       "method": false,
@@ -590,7 +621,8 @@ __ESTREE_TEST__:PASS:
                         "end": 493,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -621,7 +653,8 @@ __ESTREE_TEST__:PASS:
                         "end": 513,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -653,9 +686,12 @@ __ESTREE_TEST__:PASS:
         "end": 431,
         "decorators": [],
         "name": "objectLiteral4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -683,7 +719,8 @@ __ESTREE_TEST__:PASS:
                   "end": 567,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -701,7 +738,8 @@ __ESTREE_TEST__:PASS:
                         "end": 581,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -731,9 +769,11 @@ __ESTREE_TEST__:PASS:
                           "end": 596,
                           "decorators": [],
                           "name": "g",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "kind": "init",
                       "method": false,
@@ -764,7 +804,8 @@ __ESTREE_TEST__:PASS:
                         "end": 619,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -796,9 +837,12 @@ __ESTREE_TEST__:PASS:
         "end": 551,
         "decorators": [],
         "name": "objectLiteral5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -826,7 +870,8 @@ __ESTREE_TEST__:PASS:
                   "end": 673,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -844,7 +889,8 @@ __ESTREE_TEST__:PASS:
                         "end": 687,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -893,7 +939,8 @@ __ESTREE_TEST__:PASS:
                         "end": 721,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -925,9 +972,12 @@ __ESTREE_TEST__:PASS:
         "end": 657,
         "decorators": [],
         "name": "objectLiteral6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -955,7 +1005,8 @@ __ESTREE_TEST__:PASS:
                   "end": 775,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -973,7 +1024,8 @@ __ESTREE_TEST__:PASS:
                         "end": 789,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -1028,7 +1080,8 @@ __ESTREE_TEST__:PASS:
                         "end": 829,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -1060,9 +1113,12 @@ __ESTREE_TEST__:PASS:
         "end": 759,
         "decorators": [],
         "name": "objectLiteral7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

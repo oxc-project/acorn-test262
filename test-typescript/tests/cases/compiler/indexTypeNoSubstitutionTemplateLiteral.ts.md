@@ -25,14 +25,18 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 18,
       "end": 44,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 18,
@@ -49,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -86,7 +91,9 @@ __ESTREE_TEST__:PASS:
           "expression": false,
           "generator": false,
           "id": null,
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         }
       }
     },
@@ -101,7 +108,8 @@ __ESTREE_TEST__:PASS:
         "end": 55,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeOperator",
@@ -118,10 +126,13 @@ __ESTREE_TEST__:PASS:
             "end": 74,
             "decorators": [],
             "name": "Foo",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

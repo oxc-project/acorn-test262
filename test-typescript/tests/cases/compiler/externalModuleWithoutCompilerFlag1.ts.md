@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
           "end": 109,
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },

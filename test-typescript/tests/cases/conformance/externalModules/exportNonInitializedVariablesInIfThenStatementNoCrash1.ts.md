@@ -40,13 +40,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 92,
                     "end": 102,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 92,
                       "end": 102,
                       "decorators": [],
                       "name": "CssExports",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -79,7 +81,8 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "cssExports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }

@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -65,7 +66,8 @@ __ESTREE_TEST__:PASS:
                   "end": 103,
                   "name": "div"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           }
@@ -80,9 +82,12 @@ __ESTREE_TEST__:PASS:
         "end": 85,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -120,7 +125,8 @@ __ESTREE_TEST__:PASS:
                     "end": 148,
                     "name": "Bar"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               }
             }
@@ -135,9 +141,12 @@ __ESTREE_TEST__:PASS:
           "end": 130,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

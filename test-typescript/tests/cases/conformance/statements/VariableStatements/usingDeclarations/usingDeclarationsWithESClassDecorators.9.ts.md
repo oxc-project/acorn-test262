@@ -76,7 +76,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -86,10 +87,13 @@ __ESTREE_TEST__:PASS:
           "end": 62,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -97,6 +101,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 68,
       "end": 75,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 68,
@@ -107,7 +112,8 @@ __ESTREE_TEST__:PASS:
           "end": 74,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -129,7 +135,8 @@ __ESTREE_TEST__:PASS:
             "end": 88,
             "decorators": [],
             "name": "after",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",

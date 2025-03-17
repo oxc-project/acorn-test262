@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                   "end": 17,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "get",
                 "method": false,
@@ -59,6 +61,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 22,
                         "end": 32,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 22,
@@ -69,7 +72,8 @@ __ESTREE_TEST__:PASS:
                             "end": 31,
                             "decorators": [],
                             "name": "foo",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "delegate": false
                         }
@@ -80,7 +84,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

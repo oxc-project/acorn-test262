@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "y1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
               "end": 34,
               "decorators": [],
               "name": "x1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -147,7 +149,8 @@ __ESTREE_TEST__:PASS:
                     "end": 124,
                     "decorators": [],
                     "name": "display",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -176,7 +179,8 @@ __ESTREE_TEST__:PASS:
                       "end": 156,
                       "decorators": [],
                       "name": "isTreeHeader1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -194,7 +198,8 @@ __ESTREE_TEST__:PASS:
                             "end": 175,
                             "decorators": [],
                             "name": "display",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -226,9 +231,12 @@ __ESTREE_TEST__:PASS:
         "end": 97,
         "decorators": [],
         "name": "foo1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -280,7 +288,8 @@ __ESTREE_TEST__:PASS:
             "end": 233,
             "decorators": [],
             "name": "y2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -293,7 +302,8 @@ __ESTREE_TEST__:PASS:
               "end": 238,
               "decorators": [],
               "name": "x2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -372,7 +382,8 @@ __ESTREE_TEST__:PASS:
                     "end": 332,
                     "decorators": [],
                     "name": "display",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -401,7 +412,8 @@ __ESTREE_TEST__:PASS:
                       "end": 364,
                       "decorators": [],
                       "name": "isTreeHeader1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ObjectExpression",
@@ -419,7 +431,8 @@ __ESTREE_TEST__:PASS:
                             "end": 383,
                             "decorators": [],
                             "name": "display",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -451,9 +464,12 @@ __ESTREE_TEST__:PASS:
         "end": 305,
         "decorators": [],
         "name": "foo2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

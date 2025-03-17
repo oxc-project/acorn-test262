@@ -42,8 +42,10 @@ __ESTREE_TEST__:PASS:
                   "end": 46,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -73,10 +75,13 @@ __ESTREE_TEST__:PASS:
                   "end": 73,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -92,7 +97,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "require",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -138,7 +144,8 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -149,6 +156,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 107,
             "end": 116,
+            "typeArguments": null,
             "typeName": {
               "type": "TSQualifiedName",
               "start": 107,
@@ -159,7 +167,8 @@ __ESTREE_TEST__:PASS:
                 "end": 114,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -167,11 +176,13 @@ __ESTREE_TEST__:PASS:
                 "end": 116,
                 "decorators": [],
                 "name": "I",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -214,8 +225,10 @@ __ESTREE_TEST__:PASS:
                   "end": 184,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -245,10 +258,13 @@ __ESTREE_TEST__:PASS:
                   "end": 211,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -264,7 +280,8 @@ __ESTREE_TEST__:PASS:
           "end": 159,
           "decorators": [],
           "name": "exports",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -310,7 +327,8 @@ __ESTREE_TEST__:PASS:
           "end": 242,
           "decorators": [],
           "name": "foo2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -321,6 +339,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 246,
             "end": 255,
+            "typeArguments": null,
             "typeName": {
               "type": "TSQualifiedName",
               "start": 246,
@@ -331,7 +350,8 @@ __ESTREE_TEST__:PASS:
                 "end": 253,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -339,11 +359,13 @@ __ESTREE_TEST__:PASS:
                 "end": 255,
                 "decorators": [],
                 "name": "I",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -390,8 +412,10 @@ __ESTREE_TEST__:PASS:
                       "end": 336,
                       "decorators": [],
                       "name": "I",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -421,10 +445,13 @@ __ESTREE_TEST__:PASS:
                       "end": 371,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -440,7 +467,8 @@ __ESTREE_TEST__:PASS:
               "end": 307,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           },
@@ -476,8 +504,10 @@ __ESTREE_TEST__:PASS:
                       "end": 437,
                       "decorators": [],
                       "name": "I",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -507,10 +537,13 @@ __ESTREE_TEST__:PASS:
                       "end": 472,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -526,7 +559,8 @@ __ESTREE_TEST__:PASS:
               "end": 408,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -540,7 +574,8 @@ __ESTREE_TEST__:PASS:
         "end": 286,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -590,8 +625,10 @@ __ESTREE_TEST__:PASS:
                         "end": 559,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -621,10 +658,13 @@ __ESTREE_TEST__:PASS:
                         "end": 594,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -640,7 +680,8 @@ __ESTREE_TEST__:PASS:
                 "end": 530,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -685,8 +726,10 @@ __ESTREE_TEST__:PASS:
                         "end": 667,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -716,10 +759,13 @@ __ESTREE_TEST__:PASS:
                         "end": 702,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -735,7 +781,8 @@ __ESTREE_TEST__:PASS:
                 "end": 638,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -753,7 +800,8 @@ __ESTREE_TEST__:PASS:
         "end": 502,
         "decorators": [],
         "name": "m2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }
@@ -801,8 +849,10 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "I",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -832,10 +882,13 @@ __ESTREE_TEST__:PASS:
                 "end": 66,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -851,7 +904,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "require",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -887,8 +941,10 @@ __ESTREE_TEST__:PASS:
                 "end": 116,
                 "decorators": [],
                 "name": "I",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -918,10 +974,13 @@ __ESTREE_TEST__:PASS:
                 "end": 143,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -937,7 +996,8 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "exports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -982,8 +1042,10 @@ __ESTREE_TEST__:PASS:
                       "end": 213,
                       "decorators": [],
                       "name": "I",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -1013,10 +1075,13 @@ __ESTREE_TEST__:PASS:
                       "end": 248,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -1032,7 +1097,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           },
@@ -1068,8 +1134,10 @@ __ESTREE_TEST__:PASS:
                       "end": 314,
                       "decorators": [],
                       "name": "I",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -1099,10 +1167,13 @@ __ESTREE_TEST__:PASS:
                       "end": 349,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -1118,7 +1189,8 @@ __ESTREE_TEST__:PASS:
               "end": 285,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -1132,7 +1204,8 @@ __ESTREE_TEST__:PASS:
         "end": 163,
         "decorators": [],
         "name": "m3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1182,8 +1255,10 @@ __ESTREE_TEST__:PASS:
                         "end": 436,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -1213,10 +1288,13 @@ __ESTREE_TEST__:PASS:
                         "end": 471,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -1232,7 +1310,8 @@ __ESTREE_TEST__:PASS:
                 "end": 407,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -1277,8 +1356,10 @@ __ESTREE_TEST__:PASS:
                         "end": 544,
                         "decorators": [],
                         "name": "I",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -1308,10 +1389,13 @@ __ESTREE_TEST__:PASS:
                         "end": 579,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -1327,7 +1411,8 @@ __ESTREE_TEST__:PASS:
                 "end": 515,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -1345,7 +1430,8 @@ __ESTREE_TEST__:PASS:
         "end": 379,
         "decorators": [],
         "name": "m4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

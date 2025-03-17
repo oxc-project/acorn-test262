@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -38,6 +39,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 20,
       "end": 24,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 20,
@@ -49,7 +51,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

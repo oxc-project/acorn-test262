@@ -64,7 +64,8 @@ __ESTREE_TEST__:PASS:
                         "start": 31,
                         "end": 37
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -106,7 +107,8 @@ __ESTREE_TEST__:PASS:
                         "start": 60,
                         "end": 66
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -148,7 +150,8 @@ __ESTREE_TEST__:PASS:
                         "start": 91,
                         "end": 97
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -190,7 +193,8 @@ __ESTREE_TEST__:PASS:
                         "start": 119,
                         "end": 125
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -261,7 +265,8 @@ __ESTREE_TEST__:PASS:
                         "start": 162,
                         "end": 168
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -303,7 +308,8 @@ __ESTREE_TEST__:PASS:
                         "start": 191,
                         "end": 197
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -345,7 +351,8 @@ __ESTREE_TEST__:PASS:
                         "start": 220,
                         "end": 226
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -387,7 +394,8 @@ __ESTREE_TEST__:PASS:
                         "start": 248,
                         "end": 254
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }

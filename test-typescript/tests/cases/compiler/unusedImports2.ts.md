@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 30,
               "end": 45,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "handleChar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -53,7 +55,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -66,10 +70,13 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "Calculator",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -100,9 +107,12 @@ __ESTREE_TEST__:PASS:
           "end": 69,
           "decorators": [],
           "name": "test",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -144,7 +154,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "Calculator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -153,7 +164,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "Calculator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -182,7 +194,8 @@ __ESTREE_TEST__:PASS:
             "end": 47,
             "decorators": [],
             "name": "test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -191,7 +204,8 @@ __ESTREE_TEST__:PASS:
             "end": 47,
             "decorators": [],
             "name": "test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -212,7 +226,8 @@ __ESTREE_TEST__:PASS:
             "end": 70,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -225,8 +240,10 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "Calculator",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -237,6 +254,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 91,
       "end": 106,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 91,
@@ -253,7 +271,8 @@ __ESTREE_TEST__:PASS:
             "end": 92,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -262,10 +281,12 @@ __ESTREE_TEST__:PASS:
             "end": 103,
             "decorators": [],
             "name": "handleChar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

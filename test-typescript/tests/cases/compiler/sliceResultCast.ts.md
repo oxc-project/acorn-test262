@@ -84,6 +84,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 93,
+      "directive": null,
       "expression": {
         "type": "TSAsExpression",
         "start": 61,
@@ -112,7 +113,8 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -121,10 +123,12 @@ __ESTREE_TEST__:PASS:
               "end": 68,
               "decorators": [],
               "name": "slice",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "typeAnnotation": {
           "type": "TSTypeOperator",

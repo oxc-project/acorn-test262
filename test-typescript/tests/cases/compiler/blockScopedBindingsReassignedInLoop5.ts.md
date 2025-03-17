@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                   "end": 51,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
@@ -52,7 +53,8 @@ __ESTREE_TEST__:PASS:
                         "end": 61,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "operator": "++",
                       "prefix": false
@@ -67,7 +69,8 @@ __ESTREE_TEST__:PASS:
                         "end": 67,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "operator": "++",
                       "prefix": false
@@ -76,7 +79,9 @@ __ESTREE_TEST__:PASS:
                   "expression": true,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -91,6 +96,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 121,
               "end": 127,
+              "directive": null,
               "expression": {
                 "type": "AssignmentExpression",
                 "start": 121,
@@ -102,7 +108,8 @@ __ESTREE_TEST__:PASS:
                   "end": 122,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Literal",
@@ -130,7 +137,8 @@ __ESTREE_TEST__:PASS:
                 "end": 80,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -159,7 +167,8 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -180,7 +189,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -205,7 +215,8 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "update": {
@@ -231,7 +243,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -246,7 +259,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true

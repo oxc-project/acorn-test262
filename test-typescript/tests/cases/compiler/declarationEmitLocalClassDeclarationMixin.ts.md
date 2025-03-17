@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
                   "end": 39,
                   "decorators": [],
                   "name": "args",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "decorators": [],
                 "optional": false,
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                       "end": 44
                     }
                   }
-                }
+                },
+                "value": null
               }
             ],
             "returnType": {
@@ -58,16 +60,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 49,
                 "end": 50,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 49,
                   "end": 50,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -79,7 +84,8 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "Constructor",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -91,6 +97,8 @@ __ESTREE_TEST__:PASS:
             "start": 22,
             "end": 23,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -98,7 +106,8 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -129,6 +138,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 154,
                   "end": 162,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -139,12 +149,14 @@ __ESTREE_TEST__:PASS:
                     "end": 157,
                     "decorators": [],
                     "name": "bar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
                     "start": 160,
@@ -163,7 +175,8 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "PrivateMixed",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -172,8 +185,11 @@ __ESTREE_TEST__:PASS:
               "end": 143,
               "decorators": [],
               "name": "Base",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ReturnStatement",
@@ -185,7 +201,8 @@ __ESTREE_TEST__:PASS:
               "end": 192,
               "decorators": [],
               "name": "PrivateMixed",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -199,7 +216,8 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "mixin",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -217,18 +235,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 103,
               "end": 104,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 103,
                 "end": 104,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 69,
@@ -262,9 +283,11 @@ __ESTREE_TEST__:PASS:
                 "end": 91,
                 "decorators": [],
                 "name": "Constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -272,7 +295,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -298,6 +322,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 224,
               "end": 232,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -308,12 +333,14 @@ __ESTREE_TEST__:PASS:
                 "end": 227,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 230,
@@ -332,10 +359,13 @@ __ESTREE_TEST__:PASS:
           "end": 217,
           "decorators": [],
           "name": "Unmixed",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -362,7 +392,8 @@ __ESTREE_TEST__:PASS:
               "end": 254,
               "decorators": [],
               "name": "Mixed",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -375,7 +406,8 @@ __ESTREE_TEST__:PASS:
                   "end": 270,
                   "decorators": [],
                   "name": "Unmixed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
               "callee": {
@@ -384,9 +416,11 @@ __ESTREE_TEST__:PASS:
                 "end": 262,
                 "decorators": [],
                 "name": "mixin",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -421,6 +455,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSAbstractMethodDefinition",
                   "start": 382,
                   "end": 420,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -429,7 +464,8 @@ __ESTREE_TEST__:PASS:
                     "end": 396,
                     "decorators": [],
                     "name": "match",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -474,13 +510,15 @@ __ESTREE_TEST__:PASS:
                         "start": 412,
                         "end": 419
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 },
                 {
                   "type": "PropertyDefinition",
                   "start": 484,
                   "end": 495,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -491,12 +529,14 @@ __ESTREE_TEST__:PASS:
                     "end": 489,
                     "decorators": [],
                     "name": "thing",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "Literal",
                     "start": 492,
@@ -515,7 +555,8 @@ __ESTREE_TEST__:PASS:
               "end": 358,
               "decorators": [],
               "name": "FilterMixin",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -524,8 +565,11 @@ __ESTREE_TEST__:PASS:
               "end": 371,
               "decorators": [],
               "name": "ctor",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ReturnStatement",
@@ -537,7 +581,8 @@ __ESTREE_TEST__:PASS:
               "end": 524,
               "decorators": [],
               "name": "FilterMixin",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -551,7 +596,8 @@ __ESTREE_TEST__:PASS:
         "end": 289,
         "decorators": [],
         "name": "Filter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -569,18 +615,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 323,
               "end": 324,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 323,
                 "end": 324,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 289,
@@ -614,9 +663,11 @@ __ESTREE_TEST__:PASS:
                 "end": 311,
                 "decorators": [],
                 "name": "Constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -624,7 +675,8 @@ __ESTREE_TEST__:PASS:
               "end": 291,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -650,6 +702,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 586,
               "end": 635,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -658,7 +711,8 @@ __ESTREE_TEST__:PASS:
                 "end": 591,
                 "decorators": [],
                 "name": "match",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -711,7 +765,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -724,7 +780,8 @@ __ESTREE_TEST__:PASS:
           "end": 555,
           "decorators": [],
           "name": "FilteredThing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -738,7 +795,8 @@ __ESTREE_TEST__:PASS:
               "end": 578,
               "decorators": [],
               "name": "Unmixed",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -747,10 +805,14 @@ __ESTREE_TEST__:PASS:
             "end": 570,
             "decorators": [],
             "name": "Filter",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

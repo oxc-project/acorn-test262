@@ -57,14 +57,18 @@ __ESTREE_TEST__:PASS:
                     "end": 209,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 268,
                   "end": 274,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 268,
@@ -76,15 +80,18 @@ __ESTREE_TEST__:PASS:
                       "end": 271,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 283,
                   "end": 291,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 283,
@@ -104,9 +111,11 @@ __ESTREE_TEST__:PASS:
                       "end": 286,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -136,14 +145,18 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 138,
                   "end": 144,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 138,
@@ -155,15 +168,18 @@ __ESTREE_TEST__:PASS:
                       "end": 141,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 153,
                   "end": 161,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 153,
@@ -183,9 +199,11 @@ __ESTREE_TEST__:PASS:
                       "end": 156,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -201,7 +219,8 @@ __ESTREE_TEST__:PASS:
                 "end": 49,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -216,6 +235,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 312,
             "end": 320,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 312,
@@ -235,15 +255,18 @@ __ESTREE_TEST__:PASS:
                 "end": 315,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 325,
             "end": 331,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 325,
@@ -255,9 +278,11 @@ __ESTREE_TEST__:PASS:
                 "end": 328,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -271,7 +296,8 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -292,12 +318,15 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 359,
       "end": 367,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 359,
@@ -317,15 +346,18 @@ __ESTREE_TEST__:PASS:
           "end": 362,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 368,
       "end": 374,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 368,
@@ -337,9 +369,11 @@ __ESTREE_TEST__:PASS:
           "end": 371,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

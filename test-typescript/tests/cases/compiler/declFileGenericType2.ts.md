@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "IModel",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -49,7 +51,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "templa",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "mvc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -89,7 +93,8 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "IController",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
@@ -105,6 +110,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 131,
                     "end": 148,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 131,
@@ -119,7 +125,8 @@ __ESTREE_TEST__:PASS:
                           "end": 137,
                           "decorators": [],
                           "name": "templa",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
                           "end": 141,
                           "decorators": [],
                           "name": "mvc",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -136,10 +144,12 @@ __ESTREE_TEST__:PASS:
                         "end": 148,
                         "decorators": [],
                         "name": "IModel",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -147,7 +157,8 @@ __ESTREE_TEST__:PASS:
                     "end": 122,
                     "decorators": [],
                     "name": "ModelType",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -168,7 +179,8 @@ __ESTREE_TEST__:PASS:
           "end": 80,
           "decorators": [],
           "name": "templa",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -176,7 +188,8 @@ __ESTREE_TEST__:PASS:
           "end": 84,
           "decorators": [],
           "name": "mvc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -209,7 +222,8 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "decorators": [],
               "name": "AbstractController",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [
               {
@@ -227,7 +241,8 @@ __ESTREE_TEST__:PASS:
                     "end": 268,
                     "decorators": [],
                     "name": "mvc",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -236,7 +251,8 @@ __ESTREE_TEST__:PASS:
                     "end": 280,
                     "decorators": [],
                     "name": "IController",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "typeArguments": {
@@ -248,13 +264,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 281,
                       "end": 290,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 281,
                         "end": 290,
                         "decorators": [],
                         "name": "ModelType",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -262,6 +280,7 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "superClass": null,
+            "superTypeArguments": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 216,
@@ -276,6 +295,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 235,
                     "end": 252,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 235,
@@ -290,7 +310,8 @@ __ESTREE_TEST__:PASS:
                           "end": 241,
                           "decorators": [],
                           "name": "templa",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -298,7 +319,8 @@ __ESTREE_TEST__:PASS:
                           "end": 245,
                           "decorators": [],
                           "name": "mvc",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -307,10 +329,12 @@ __ESTREE_TEST__:PASS:
                         "end": 252,
                         "decorators": [],
                         "name": "IModel",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -318,7 +342,8 @@ __ESTREE_TEST__:PASS:
                     "end": 226,
                     "decorators": [],
                     "name": "ModelType",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -339,7 +364,8 @@ __ESTREE_TEST__:PASS:
           "end": 181,
           "decorators": [],
           "name": "templa",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -347,7 +373,8 @@ __ESTREE_TEST__:PASS:
           "end": 185,
           "decorators": [],
           "name": "mvc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -374,6 +401,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 409,
                   "end": 457,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -381,7 +409,8 @@ __ESTREE_TEST__:PASS:
                     "end": 423,
                     "decorators": [],
                     "name": "getControllers",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -408,6 +437,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 443,
                               "end": 453,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 443,
@@ -418,7 +448,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 446,
                                   "decorators": [],
                                   "name": "mvc",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -426,7 +457,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 453,
                                   "decorators": [],
                                   "name": "IModel",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -442,7 +474,8 @@ __ESTREE_TEST__:PASS:
                             "end": 430,
                             "decorators": [],
                             "name": "mvc",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -450,13 +483,15 @@ __ESTREE_TEST__:PASS:
                             "end": 442,
                             "decorators": [],
                             "name": "IController",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
                     }
                   },
-                  "static": false
+                  "static": false,
+                  "typeParameters": null
                 }
               ]
             },
@@ -477,7 +512,8 @@ __ESTREE_TEST__:PASS:
                     "end": 391,
                     "decorators": [],
                     "name": "mvc",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -486,9 +522,11 @@ __ESTREE_TEST__:PASS:
                     "end": 398,
                     "decorators": [],
                     "name": "IModel",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -497,8 +535,10 @@ __ESTREE_TEST__:PASS:
               "end": 379,
               "decorators": [],
               "name": "ICompositeControllerModel",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -518,7 +558,8 @@ __ESTREE_TEST__:PASS:
             "end": 323,
             "decorators": [],
             "name": "templa",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -526,7 +567,8 @@ __ESTREE_TEST__:PASS:
             "end": 327,
             "decorators": [],
             "name": "mvc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -535,7 +577,8 @@ __ESTREE_TEST__:PASS:
           "end": 337,
           "decorators": [],
           "name": "composite",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -586,7 +629,8 @@ __ESTREE_TEST__:PASS:
                         "end": 581,
                         "decorators": [],
                         "name": "templa",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -595,7 +639,8 @@ __ESTREE_TEST__:PASS:
                         "end": 585,
                         "decorators": [],
                         "name": "mvc",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,
@@ -605,7 +650,8 @@ __ESTREE_TEST__:PASS:
                       "end": 597,
                       "decorators": [],
                       "name": "IController",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "typeArguments": {
@@ -617,13 +663,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 598,
                         "end": 607,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 598,
                           "end": 607,
                           "decorators": [],
                           "name": "ModelType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -636,7 +684,8 @@ __ESTREE_TEST__:PASS:
                 "end": 529,
                 "decorators": [],
                 "name": "IElementController",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -652,6 +701,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 548,
                       "end": 565,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 548,
@@ -666,7 +716,8 @@ __ESTREE_TEST__:PASS:
                             "end": 554,
                             "decorators": [],
                             "name": "templa",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -674,7 +725,8 @@ __ESTREE_TEST__:PASS:
                             "end": 558,
                             "decorators": [],
                             "name": "mvc",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -683,10 +735,12 @@ __ESTREE_TEST__:PASS:
                           "end": 565,
                           "decorators": [],
                           "name": "IModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -694,7 +748,8 @@ __ESTREE_TEST__:PASS:
                       "end": 539,
                       "decorators": [],
                       "name": "ModelType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -723,7 +778,8 @@ __ESTREE_TEST__:PASS:
             "end": 479,
             "decorators": [],
             "name": "templa",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -731,7 +787,8 @@ __ESTREE_TEST__:PASS:
             "end": 483,
             "decorators": [],
             "name": "dom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -740,7 +797,8 @@ __ESTREE_TEST__:PASS:
           "end": 487,
           "decorators": [],
           "name": "mvc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -773,6 +831,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 834,
                     "end": 880,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -781,7 +840,8 @@ __ESTREE_TEST__:PASS:
                       "end": 845,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -801,6 +861,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 862,
                             "end": 870,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 862,
@@ -811,7 +872,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 862,
                                 "end": 867
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -820,7 +882,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -833,7 +897,8 @@ __ESTREE_TEST__:PASS:
                 "end": 696,
                 "decorators": [],
                 "name": "AbstractElementController",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -846,7 +911,8 @@ __ESTREE_TEST__:PASS:
                     "end": 812,
                     "decorators": [],
                     "name": "IElementController",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
@@ -857,13 +923,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 813,
                         "end": 822,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 813,
                           "end": 822,
                           "decorators": [],
                           "name": "ModelType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -886,7 +954,8 @@ __ESTREE_TEST__:PASS:
                     "end": 748,
                     "decorators": [],
                     "name": "templa",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -895,7 +964,8 @@ __ESTREE_TEST__:PASS:
                     "end": 752,
                     "decorators": [],
                     "name": "mvc",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "optional": false,
@@ -905,7 +975,8 @@ __ESTREE_TEST__:PASS:
                   "end": 771,
                   "decorators": [],
                   "name": "AbstractController",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "superTypeArguments": {
@@ -917,13 +988,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 772,
                     "end": 781,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 772,
                       "end": 781,
                       "decorators": [],
                       "name": "ModelType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -942,6 +1015,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 715,
                       "end": 732,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 715,
@@ -956,7 +1030,8 @@ __ESTREE_TEST__:PASS:
                             "end": 721,
                             "decorators": [],
                             "name": "templa",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -964,7 +1039,8 @@ __ESTREE_TEST__:PASS:
                             "end": 725,
                             "decorators": [],
                             "name": "mvc",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -973,10 +1049,12 @@ __ESTREE_TEST__:PASS:
                           "end": 732,
                           "decorators": [],
                           "name": "IModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -984,7 +1062,8 @@ __ESTREE_TEST__:PASS:
                       "end": 706,
                       "decorators": [],
                       "name": "ModelType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -1013,7 +1092,8 @@ __ESTREE_TEST__:PASS:
             "end": 642,
             "decorators": [],
             "name": "templa",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -1021,7 +1101,8 @@ __ESTREE_TEST__:PASS:
             "end": 646,
             "decorators": [],
             "name": "dom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -1030,7 +1111,8 @@ __ESTREE_TEST__:PASS:
           "end": 650,
           "decorators": [],
           "name": "mvc",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -1074,7 +1156,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1140,
                       "decorators": [],
                       "name": "_controllers",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -1101,6 +1184,7 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 1165,
                                 "end": 1182,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "TSQualifiedName",
                                   "start": 1165,
@@ -1115,7 +1199,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 1171,
                                       "decorators": [],
                                       "name": "templa",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "right": {
                                       "type": "Identifier",
@@ -1123,7 +1208,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 1175,
                                       "decorators": [],
                                       "name": "mvc",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "right": {
@@ -1132,7 +1218,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 1182,
                                     "decorators": [],
                                     "name": "IModel",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -1152,7 +1239,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1148,
                                 "decorators": [],
                                 "name": "templa",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -1160,7 +1248,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1152,
                                 "decorators": [],
                                 "name": "mvc",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -1169,7 +1258,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1164,
                               "decorators": [],
                               "name": "IController",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -1181,6 +1271,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 1195,
                     "end": 1277,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -1189,7 +1280,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1206,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -1209,6 +1301,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 1223,
                             "end": 1231,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 1223,
@@ -1219,13 +1312,15 @@ __ESTREE_TEST__:PASS:
                                 "start": 1223,
                                 "end": 1228
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           },
                           {
                             "type": "ExpressionStatement",
                             "start": 1244,
                             "end": 1267,
+                            "directive": null,
                             "expression": {
                               "type": "AssignmentExpression",
                               "start": 1244,
@@ -1248,7 +1343,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 1261,
                                   "decorators": [],
                                   "name": "_controllers",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "right": {
@@ -1265,7 +1361,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -1278,7 +1376,8 @@ __ESTREE_TEST__:PASS:
                 "end": 984,
                 "decorators": [],
                 "name": "AbstractCompositeElementController",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -1302,7 +1401,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1065,
                       "decorators": [],
                       "name": "templa",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -1311,7 +1411,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1069,
                       "decorators": [],
                       "name": "dom",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -1321,7 +1422,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1073,
                     "decorators": [],
                     "name": "mvc",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "optional": false,
@@ -1331,7 +1433,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1099,
                   "decorators": [],
                   "name": "AbstractElementController",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "superTypeArguments": {
@@ -1343,13 +1446,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 1100,
                     "end": 1109,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 1100,
                       "end": 1109,
                       "decorators": [],
                       "name": "ModelType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1368,6 +1473,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 1003,
                       "end": 1049,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 1003,
@@ -1386,7 +1492,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1009,
                               "decorators": [],
                               "name": "templa",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -1394,7 +1501,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1013,
                               "decorators": [],
                               "name": "mvc",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "right": {
@@ -1403,7 +1511,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1023,
                             "decorators": [],
                             "name": "composite",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -1412,10 +1521,12 @@ __ESTREE_TEST__:PASS:
                           "end": 1049,
                           "decorators": [],
                           "name": "ICompositeControllerModel",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -1423,7 +1534,8 @@ __ESTREE_TEST__:PASS:
                       "end": 994,
                       "decorators": [],
                       "name": "ModelType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -1456,7 +1568,8 @@ __ESTREE_TEST__:PASS:
               "end": 912,
               "decorators": [],
               "name": "templa",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -1464,7 +1577,8 @@ __ESTREE_TEST__:PASS:
               "end": 916,
               "decorators": [],
               "name": "dom",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "right": {
@@ -1473,7 +1587,8 @@ __ESTREE_TEST__:PASS:
             "end": 920,
             "decorators": [],
             "name": "mvc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -1482,7 +1597,8 @@ __ESTREE_TEST__:PASS:
           "end": 930,
           "decorators": [],
           "name": "composite",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

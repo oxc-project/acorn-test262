@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -58,10 +59,14 @@ __ESTREE_TEST__:PASS:
             "end": 26,
             "decorators": [],
             "name": "x",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -83,7 +88,8 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -97,7 +103,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "x0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -106,7 +113,8 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "raw": "\"\"",
             "value": ""
-          }
+          },
+          "typeAnnotation": null
         },
         {
           "type": "AssignmentPattern",
@@ -138,10 +146,14 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "x",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -157,6 +169,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 89,
             "end": 122,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -165,7 +178,8 @@ __ESTREE_TEST__:PASS:
               "end": 100,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -198,7 +212,8 @@ __ESTREE_TEST__:PASS:
                     "end": 102,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -207,7 +222,8 @@ __ESTREE_TEST__:PASS:
                     "end": 106,
                     "raw": "1",
                     "value": 1
-                  }
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "AssignmentPattern",
@@ -220,7 +236,8 @@ __ESTREE_TEST__:PASS:
                     "end": 109,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -229,16 +246,21 @@ __ESTREE_TEST__:PASS:
                     "end": 113,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 133,
             "end": 178,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -247,7 +269,8 @@ __ESTREE_TEST__:PASS:
               "end": 136,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -280,7 +303,8 @@ __ESTREE_TEST__:PASS:
                     "end": 138,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -289,7 +313,8 @@ __ESTREE_TEST__:PASS:
                     "end": 143,
                     "raw": "\"\"",
                     "value": ""
-                  }
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "AssignmentPattern",
@@ -331,7 +356,8 @@ __ESTREE_TEST__:PASS:
                         "end": 158,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -340,13 +366,18 @@ __ESTREE_TEST__:PASS:
                         "end": 167,
                         "decorators": [],
                         "name": "toString",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -359,10 +390,13 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

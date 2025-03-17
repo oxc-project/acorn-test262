@@ -67,6 +67,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 62,
                     "end": 85,
+                    "accessibility": null,
                     "computed": true,
                     "decorators": [],
                     "key": {
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
                         "end": 69,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
                         "end": 78,
                         "decorators": [],
                         "name": "iterator",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "method",
@@ -111,7 +114,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -124,10 +129,13 @@ __ESTREE_TEST__:PASS:
                 "end": 51,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -137,6 +145,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 96,
             "end": 121,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 96,
@@ -153,8 +162,10 @@ __ESTREE_TEST__:PASS:
                   "end": 102,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -168,7 +179,8 @@ __ESTREE_TEST__:PASS:
                   "end": 110,
                   "decorators": [],
                   "name": "Symbol",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -177,7 +189,8 @@ __ESTREE_TEST__:PASS:
                   "end": 119,
                   "decorators": [],
                   "name": "iterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -192,7 +205,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -200,6 +214,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 125,
       "end": 152,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 125,
@@ -221,7 +236,8 @@ __ESTREE_TEST__:PASS:
               "end": 131,
               "decorators": [],
               "name": "M",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -230,9 +246,11 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          }
+          },
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -246,7 +264,8 @@ __ESTREE_TEST__:PASS:
             "end": 141,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -255,7 +274,8 @@ __ESTREE_TEST__:PASS:
             "end": 150,
             "decorators": [],
             "name": "iterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

@@ -53,7 +53,8 @@ __ESTREE_TEST__:PASS:
                   "end": 26,
                   "decorators": [],
                   "name": "Record",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -93,6 +94,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 119,
                   "end": 129,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -103,25 +105,29 @@ __ESTREE_TEST__:PASS:
                     "end": 122,
                     "decorators": [],
                     "name": "row",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "Identifier",
                     "start": 125,
                     "end": 128,
                     "decorators": [],
                     "name": "row",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
                   "type": "PropertyDefinition",
                   "start": 134,
                   "end": 172,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -132,12 +138,14 @@ __ESTREE_TEST__:PASS:
                     "end": 148,
                     "decorators": [],
                     "name": "factory",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": true,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "ArrowFunctionExpression",
                     "start": 151,
@@ -154,13 +162,17 @@ __ESTREE_TEST__:PASS:
                         "end": 169,
                         "decorators": [],
                         "name": "RowClass",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     },
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -173,15 +185,19 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "RowClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExpressionStatement",
             "start": 180,
             "end": 209,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 180,
@@ -198,7 +214,8 @@ __ESTREE_TEST__:PASS:
                   "end": 192,
                   "decorators": [],
                   "name": "classesByRow",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -207,7 +224,8 @@ __ESTREE_TEST__:PASS:
                   "end": 196,
                   "decorators": [],
                   "name": "row",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -216,7 +234,8 @@ __ESTREE_TEST__:PASS:
                 "end": 208,
                 "decorators": [],
                 "name": "RowClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -238,7 +257,8 @@ __ESTREE_TEST__:PASS:
               "end": 63,
               "decorators": [],
               "name": "row",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -192,7 +198,8 @@ __ESTREE_TEST__:PASS:
             "end": 152,
             "decorators": [],
             "name": "openClosed1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -216,7 +223,8 @@ __ESTREE_TEST__:PASS:
                   "end": 170,
                   "decorators": [],
                   "name": "blah",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -249,7 +257,8 @@ __ESTREE_TEST__:PASS:
                 "end": 159,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -273,7 +282,8 @@ __ESTREE_TEST__:PASS:
             "end": 238,
             "decorators": [],
             "name": "spread1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -296,7 +306,8 @@ __ESTREE_TEST__:PASS:
                     "end": 251,
                     "decorators": [],
                     "name": "p",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -329,7 +340,8 @@ __ESTREE_TEST__:PASS:
                 "end": 245,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

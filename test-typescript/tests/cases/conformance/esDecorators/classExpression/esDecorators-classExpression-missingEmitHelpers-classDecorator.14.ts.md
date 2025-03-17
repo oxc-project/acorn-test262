@@ -87,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 124,
       "end": 149,
+      "directive": null,
       "expression": {
         "type": "ObjectExpression",
         "start": 125,
@@ -103,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 129,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "init",
             "method": false,
@@ -132,13 +134,16 @@ __ESTREE_TEST__:PASS:
                     "end": 136,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
               "id": null,
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             }
           }
         ]

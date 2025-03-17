@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 16,
             "end": 24,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,12 +26,14 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": true,
             "params": [],
             "readonly": false,
+            "returnType": null,
             "static": false,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
@@ -42,6 +45,8 @@ __ESTREE_TEST__:PASS:
                   "start": 19,
                   "end": 20,
                   "const": false,
+                  "constraint": null,
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -49,7 +54,8 @@ __ESTREE_TEST__:PASS:
                     "end": 20,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -66,8 +72,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

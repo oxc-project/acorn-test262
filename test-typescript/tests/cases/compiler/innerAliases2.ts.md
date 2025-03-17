@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                       "end": 104,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -63,7 +64,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -76,10 +79,13 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "UsefulClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -95,7 +101,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "_provider",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -118,7 +125,8 @@ __ESTREE_TEST__:PASS:
               "end": 213,
               "decorators": [],
               "name": "provider",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 225,
               "decorators": [],
               "name": "_provider",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -155,6 +164,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 266,
                       "end": 286,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 266,
@@ -165,7 +175,8 @@ __ESTREE_TEST__:PASS:
                           "end": 274,
                           "decorators": [],
                           "name": "provider",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -173,7 +184,8 @@ __ESTREE_TEST__:PASS:
                           "end": 286,
                           "decorators": [],
                           "name": "UsefulClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -226,6 +238,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 405,
                             "end": 425,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 405,
@@ -236,7 +249,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 413,
                                 "decorators": [],
                                 "name": "provider",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -244,7 +258,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 425,
                                 "decorators": [],
                                 "name": "UsefulClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -266,7 +281,8 @@ __ESTREE_TEST__:PASS:
                             "end": 439,
                             "decorators": [],
                             "name": "provider",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -275,9 +291,11 @@ __ESTREE_TEST__:PASS:
                             "end": 451,
                             "decorators": [],
                             "name": "UsefulClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
-                        }
+                        },
+                        "typeArguments": null
                       }
                     }
                   ],
@@ -294,7 +312,8 @@ __ESTREE_TEST__:PASS:
                     "end": 496,
                     "decorators": [],
                     "name": "p2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -308,7 +327,8 @@ __ESTREE_TEST__:PASS:
               "end": 339,
               "decorators": [],
               "name": "use",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -319,6 +339,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 342,
                 "end": 362,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 342,
@@ -329,7 +350,8 @@ __ESTREE_TEST__:PASS:
                     "end": 350,
                     "decorators": [],
                     "name": "provider",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -337,11 +359,13 @@ __ESTREE_TEST__:PASS:
                     "end": 362,
                     "decorators": [],
                     "name": "UsefulClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -353,7 +377,8 @@ __ESTREE_TEST__:PASS:
         "end": 179,
         "decorators": [],
         "name": "consumer",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

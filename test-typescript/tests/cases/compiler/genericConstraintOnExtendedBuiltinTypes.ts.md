@@ -32,6 +32,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 67,
                     "end": 80,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                       "end": 72,
                       "decorators": [],
                       "name": "Clone",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -55,7 +57,8 @@ __ESTREE_TEST__:PASS:
                         "end": 79
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -67,8 +70,10 @@ __ESTREE_TEST__:PASS:
                 "end": 56,
                 "decorators": [],
                 "name": "ICloneable",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -84,7 +89,8 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "EndGate",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -115,7 +121,8 @@ __ESTREE_TEST__:PASS:
               "end": 122,
               "decorators": [],
               "name": "EndGate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -124,9 +131,11 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "ICloneable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          }
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -135,8 +144,10 @@ __ESTREE_TEST__:PASS:
         "end": 106,
         "decorators": [],
         "name": "Number",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -177,7 +188,8 @@ __ESTREE_TEST__:PASS:
                       "end": 232,
                       "decorators": [],
                       "name": "_from",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -191,13 +203,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 234,
                         "end": 235,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 234,
                           "end": 235,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -207,6 +221,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 247,
                     "end": 318,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -215,7 +230,8 @@ __ESTREE_TEST__:PASS:
                       "end": 258,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -235,6 +251,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 282,
                             "end": 308,
+                            "directive": null,
                             "expression": {
                               "type": "AssignmentExpression",
                               "start": 282,
@@ -257,7 +274,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 292,
                                   "decorators": [],
                                   "name": "_from",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "right": {
@@ -276,7 +294,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 299,
                                     "decorators": [],
                                     "name": "from",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "optional": false,
                                   "property": {
@@ -285,10 +304,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 305,
                                     "decorators": [],
                                     "name": "Clone",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
-                                "optional": false
+                                "optional": false,
+                                "typeArguments": null
                               }
                             }
                           }
@@ -314,18 +335,22 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 265,
                               "end": 266,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 265,
                                 "end": 266,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -338,10 +363,12 @@ __ESTREE_TEST__:PASS:
                 "end": 187,
                 "decorators": [],
                 "name": "Tween",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": null,
+              "superTypeArguments": null,
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
                 "start": 187,
@@ -356,15 +383,18 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 198,
                       "end": 208,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 198,
                         "end": 208,
                         "decorators": [],
                         "name": "ICloneable",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -372,7 +402,8 @@ __ESTREE_TEST__:PASS:
                       "end": 189,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -397,7 +428,8 @@ __ESTREE_TEST__:PASS:
           "end": 153,
           "decorators": [],
           "name": "EndGate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -405,7 +437,8 @@ __ESTREE_TEST__:PASS:
           "end": 162,
           "decorators": [],
           "name": "Tweening",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -438,6 +471,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 414,
                     "end": 476,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -446,7 +480,8 @@ __ESTREE_TEST__:PASS:
                       "end": 425,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -466,6 +501,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 454,
                             "end": 466,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 454,
@@ -477,7 +513,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 464,
                                   "decorators": [],
                                   "name": "from",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -485,7 +522,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 454,
                                 "end": 459
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -513,7 +551,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -526,7 +566,8 @@ __ESTREE_TEST__:PASS:
                 "end": 382,
                 "decorators": [],
                 "name": "NumberTween",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -535,7 +576,8 @@ __ESTREE_TEST__:PASS:
                 "end": 396,
                 "decorators": [],
                 "name": "Tween",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "superTypeArguments": {
                 "type": "TSTypeParameterInstantiation",
@@ -548,7 +590,8 @@ __ESTREE_TEST__:PASS:
                     "end": 403
                   }
                 ]
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -568,7 +611,8 @@ __ESTREE_TEST__:PASS:
           "end": 342,
           "decorators": [],
           "name": "EndGate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -576,7 +620,8 @@ __ESTREE_TEST__:PASS:
           "end": 351,
           "decorators": [],
           "name": "Tweening",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

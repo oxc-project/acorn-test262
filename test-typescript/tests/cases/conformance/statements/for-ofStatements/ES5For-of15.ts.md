@@ -19,13 +19,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 24,
             "end": 26,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 24,
               "end": 25,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
                         "end": 66,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Identifier",
@@ -62,7 +65,8 @@ __ESTREE_TEST__:PASS:
                         "end": 70,
                         "decorators": [],
                         "name": "v",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -87,7 +91,8 @@ __ESTREE_TEST__:PASS:
                     "end": 43,
                     "decorators": [],
                     "name": "v",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -120,7 +125,8 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

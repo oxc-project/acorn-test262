@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 80,
                   "end": 97,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -112,6 +118,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 110,
       "end": 118,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 110,
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
             "end": 114,
             "name": "div"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -137,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 126,
       "end": 135,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 126,
@@ -154,7 +163,8 @@ __ESTREE_TEST__:PASS:
             "end": 131,
             "name": "span"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

@@ -38,9 +38,11 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 12,
@@ -51,6 +53,8 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -58,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -79,6 +84,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 49,
             "end": 80,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -87,7 +93,8 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -121,13 +128,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 85,
             "end": 101,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -141,7 +151,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "typeArguments": {
@@ -153,13 +164,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 90,
                     "end": 91,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 90,
                       "end": 91,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -184,7 +197,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -197,10 +212,12 @@ __ESTREE_TEST__:PASS:
         "end": 39,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 39,
@@ -211,6 +228,8 @@ __ESTREE_TEST__:PASS:
             "start": 40,
             "end": 41,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -218,7 +237,8 @@ __ESTREE_TEST__:PASS:
               "end": 41,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -59,7 +60,8 @@ __ESTREE_TEST__:PASS:
                         "start": 30,
                         "end": 36
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
                         "start": 51,
                         "end": 57
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -127,7 +130,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -140,10 +145,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

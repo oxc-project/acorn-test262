@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 37,
             "end": 48,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 37,
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -55,6 +57,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 81,
                   "end": 96,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 81,
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
                         "end": 94,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "callee": {
@@ -80,7 +84,8 @@ __ESTREE_TEST__:PASS:
                         "end": 88,
                         "decorators": [],
                         "name": "console",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -89,10 +94,12 @@ __ESTREE_TEST__:PASS:
                         "end": 92,
                         "decorators": [],
                         "name": "log",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -108,7 +115,8 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -130,7 +138,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -161,12 +170,14 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 30
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 105,
       "end": 115,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 105,
@@ -186,9 +197,11 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "f1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -305,6 +318,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 174,
             "end": 182,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 174,
@@ -316,7 +330,8 @@ __ESTREE_TEST__:PASS:
                 "end": 175,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -341,6 +356,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 210,
                   "end": 225,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 210,
@@ -352,7 +368,8 @@ __ESTREE_TEST__:PASS:
                         "end": 223,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "callee": {
@@ -366,7 +383,8 @@ __ESTREE_TEST__:PASS:
                         "end": 217,
                         "decorators": [],
                         "name": "console",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -375,10 +393,12 @@ __ESTREE_TEST__:PASS:
                         "end": 221,
                         "decorators": [],
                         "name": "log",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -394,7 +414,8 @@ __ESTREE_TEST__:PASS:
                 "end": 192,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -416,9 +437,12 @@ __ESTREE_TEST__:PASS:
         "end": 128,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

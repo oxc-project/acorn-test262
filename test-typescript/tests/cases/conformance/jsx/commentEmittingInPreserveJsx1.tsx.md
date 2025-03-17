@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -35,6 +36,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 91,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 59,
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -78,6 +81,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 93,
       "end": 192,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 93,
@@ -130,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 97,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -138,6 +143,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 194,
       "end": 306,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 194,
@@ -192,7 +198,8 @@ __ESTREE_TEST__:PASS:
             "end": 198,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -200,6 +207,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 308,
       "end": 396,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 308,
@@ -254,7 +262,8 @@ __ESTREE_TEST__:PASS:
             "end": 312,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

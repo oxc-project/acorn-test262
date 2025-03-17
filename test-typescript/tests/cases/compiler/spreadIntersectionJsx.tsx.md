@@ -59,6 +59,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 35,
             "end": 37,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -69,12 +70,14 @@ __ESTREE_TEST__:PASS:
               "end": 36,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -87,10 +90,13 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -106,6 +112,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 50,
             "end": 52,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -116,12 +123,14 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -134,10 +143,13 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -169,26 +181,30 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 72,
                     "end": 73,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 72,
                       "end": 73,
                       "decorators": [],
                       "name": "A",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
                     "type": "TSTypeReference",
                     "start": 76,
                     "end": 77,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 76,
                       "end": 77,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -217,7 +233,8 @@ __ESTREE_TEST__:PASS:
             "end": 90,
             "decorators": [],
             "name": "element",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -240,7 +257,8 @@ __ESTREE_TEST__:PASS:
                     "end": 114,
                     "decorators": [],
                     "name": "intersected",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -250,7 +268,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

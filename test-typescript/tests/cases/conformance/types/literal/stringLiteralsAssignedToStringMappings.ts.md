@@ -57,7 +57,8 @@ __ESTREE_TEST__:PASS:
                         "end": 34,
                         "decorators": [],
                         "name": "Lowercase",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
                   "end": 24,
                   "decorators": [],
                   "name": "Uppercase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -83,6 +85,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 62,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 54,
@@ -94,7 +97,8 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -109,6 +113,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 71,
       "end": 79,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 71,
@@ -120,7 +125,8 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -212,7 +218,8 @@ __ESTREE_TEST__:PASS:
                         "end": 115,
                         "decorators": [],
                         "name": "Lowercase",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -223,7 +230,8 @@ __ESTREE_TEST__:PASS:
                   "end": 105,
                   "decorators": [],
                   "name": "Uppercase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -238,6 +246,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 140,
       "end": 148,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 140,
@@ -249,7 +258,8 @@ __ESTREE_TEST__:PASS:
           "end": 141,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -264,6 +274,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 157,
       "end": 165,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 157,
@@ -275,7 +286,8 @@ __ESTREE_TEST__:PASS:
           "end": 158,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -290,6 +302,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 166,
       "end": 174,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 166,
@@ -301,7 +314,8 @@ __ESTREE_TEST__:PASS:
           "end": 167,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

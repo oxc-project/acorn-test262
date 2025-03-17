@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 32,
             "end": 45,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 36,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,8 +53,10 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "i1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -79,7 +83,8 @@ __ESTREE_TEST__:PASS:
               "end": 89,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -107,7 +112,8 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -120,11 +126,15 @@ __ESTREE_TEST__:PASS:
             "end": 71,
             "decorators": [],
             "name": "i1",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -151,7 +161,8 @@ __ESTREE_TEST__:PASS:
               "end": 142,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -179,7 +190,8 @@ __ESTREE_TEST__:PASS:
         "end": 109,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -192,11 +204,15 @@ __ESTREE_TEST__:PASS:
             "end": 123,
             "decorators": [],
             "name": "i1",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -223,7 +239,8 @@ __ESTREE_TEST__:PASS:
               "end": 181,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -251,10 +268,13 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -275,7 +295,8 @@ __ESTREE_TEST__:PASS:
         "end": 198,
         "decorators": [],
         "name": "C4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -288,8 +309,10 @@ __ESTREE_TEST__:PASS:
             "end": 223,
             "decorators": [],
             "name": "i1",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "superClass": {
@@ -298,8 +321,11 @@ __ESTREE_TEST__:PASS:
         "end": 209,
         "decorators": [],
         "name": "C1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -320,7 +346,8 @@ __ESTREE_TEST__:PASS:
         "end": 235,
         "decorators": [],
         "name": "C5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -333,8 +360,10 @@ __ESTREE_TEST__:PASS:
             "end": 260,
             "decorators": [],
             "name": "i1",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "superClass": {
@@ -343,8 +372,11 @@ __ESTREE_TEST__:PASS:
         "end": 246,
         "decorators": [],
         "name": "C2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -365,7 +397,8 @@ __ESTREE_TEST__:PASS:
         "end": 272,
         "decorators": [],
         "name": "C6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -378,8 +411,10 @@ __ESTREE_TEST__:PASS:
             "end": 297,
             "decorators": [],
             "name": "i1",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "superClass": {
@@ -388,8 +423,11 @@ __ESTREE_TEST__:PASS:
         "end": 283,
         "decorators": [],
         "name": "C3",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -404,6 +442,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 334,
             "end": 347,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -411,7 +450,8 @@ __ESTREE_TEST__:PASS:
               "end": 338,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -431,6 +471,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 352,
             "end": 364,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -438,7 +479,8 @@ __ESTREE_TEST__:PASS:
               "end": 355,
               "decorators": [],
               "name": "age",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -464,8 +506,10 @@ __ESTREE_TEST__:PASS:
         "end": 327,
         "decorators": [],
         "name": "i2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -492,7 +536,8 @@ __ESTREE_TEST__:PASS:
               "end": 394,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -520,10 +565,13 @@ __ESTREE_TEST__:PASS:
         "end": 376,
         "decorators": [],
         "name": "C7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -550,7 +598,8 @@ __ESTREE_TEST__:PASS:
               "end": 455,
               "decorators": [],
               "name": "age",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -578,7 +627,8 @@ __ESTREE_TEST__:PASS:
         "end": 414,
         "decorators": [],
         "name": "C8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -591,8 +641,10 @@ __ESTREE_TEST__:PASS:
             "end": 439,
             "decorators": [],
             "name": "i2",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "superClass": {
@@ -601,8 +653,11 @@ __ESTREE_TEST__:PASS:
         "end": 425,
         "decorators": [],
         "name": "C7",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

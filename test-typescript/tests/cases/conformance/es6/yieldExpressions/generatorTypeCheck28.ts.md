@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 61,
             "end": 151,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 61,
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                         "end": 87,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                         "end": 96,
                         "decorators": [],
                         "name": "iterator",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -74,6 +77,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 114,
                             "end": 134,
+                            "directive": null,
                             "expression": {
                               "type": "YieldExpression",
                               "start": 114,
@@ -94,7 +98,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 126,
                                     "decorators": [],
                                     "name": "x",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "optional": false,
                                   "property": {
@@ -103,7 +108,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 133,
                                     "decorators": [],
                                     "name": "length",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "expression": true,
@@ -116,9 +122,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 121,
                                     "decorators": [],
                                     "name": "x",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
-                                ]
+                                ],
+                                "returnType": null,
+                                "typeParameters": null
                               },
                               "delegate": false
                             }
@@ -129,7 +138,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": true,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -148,7 +159,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -197,7 +209,8 @@ __ESTREE_TEST__:PASS:
                     "start": 47,
                     "end": 53
                   }
-                }
+                },
+                "typeParameters": null
               }
             ]
           },
@@ -207,10 +220,12 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

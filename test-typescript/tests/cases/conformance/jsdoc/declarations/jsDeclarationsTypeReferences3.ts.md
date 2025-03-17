@@ -39,10 +39,13 @@ __ESTREE_TEST__:PASS:
                 "end": 48,
                 "decorators": [],
                 "name": "Something",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,

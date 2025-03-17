@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                   "end": 21,
                   "decorators": [],
                   "name": "l1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -65,7 +66,8 @@ __ESTREE_TEST__:PASS:
                     "end": 46,
                     "decorators": [],
                     "name": "l2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

@@ -47,7 +47,8 @@ __ESTREE_TEST__:PASS:
                         "end": 92,
                         "decorators": [],
                         "name": "f1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "method",
                       "optional": false,
@@ -68,7 +69,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -81,10 +84,13 @@ __ESTREE_TEST__:PASS:
                   "end": 71,
                   "decorators": [],
                   "name": "publicClassInPublicModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -109,10 +115,13 @@ __ESTREE_TEST__:PASS:
                 "end": 150,
                 "decorators": [],
                 "name": "privateClassInPublicModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ClassDeclaration",
@@ -133,7 +142,8 @@ __ESTREE_TEST__:PASS:
                 "end": 210,
                 "decorators": [],
                 "name": "privateClassExtendingPublicClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -142,8 +152,11 @@ __ESTREE_TEST__:PASS:
                 "end": 244,
                 "decorators": [],
                 "name": "publicClassInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ClassDeclaration",
@@ -164,7 +177,8 @@ __ESTREE_TEST__:PASS:
                 "end": 304,
                 "decorators": [],
                 "name": "privateClassExtendingPrivateClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -173,8 +187,11 @@ __ESTREE_TEST__:PASS:
                 "end": 339,
                 "decorators": [],
                 "name": "privateClassInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -200,7 +217,8 @@ __ESTREE_TEST__:PASS:
                   "end": 404,
                   "decorators": [],
                   "name": "publicClassExtendingPublicClassInModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
                 "superClass": {
@@ -209,8 +227,11 @@ __ESTREE_TEST__:PASS:
                   "end": 438,
                   "decorators": [],
                   "name": "publicClassInPublicModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -240,7 +261,8 @@ __ESTREE_TEST__:PASS:
                   "end": 504,
                   "decorators": [],
                   "name": "publicClassExtendingPrivateClassInModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
                 "superClass": {
@@ -249,8 +271,11 @@ __ESTREE_TEST__:PASS:
                   "end": 539,
                   "decorators": [],
                   "name": "privateClassInPublicModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -275,7 +300,8 @@ __ESTREE_TEST__:PASS:
                 "end": 618,
                 "decorators": [],
                 "name": "privateClassExtendingFromPrivateModuleClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -289,7 +315,8 @@ __ESTREE_TEST__:PASS:
                   "end": 640,
                   "decorators": [],
                   "name": "privateModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -298,9 +325,12 @@ __ESTREE_TEST__:PASS:
                   "end": 667,
                   "decorators": [],
                   "name": "publicClassInPrivateModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              }
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -326,7 +356,8 @@ __ESTREE_TEST__:PASS:
                   "end": 735,
                   "decorators": [],
                   "name": "publicClassExtendingFromPrivateModuleClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
                 "superClass": {
@@ -340,7 +371,8 @@ __ESTREE_TEST__:PASS:
                     "end": 757,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -349,9 +381,12 @@ __ESTREE_TEST__:PASS:
                     "end": 784,
                     "decorators": [],
                     "name": "publicClassInPrivateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -367,7 +402,8 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "publicModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -412,7 +448,8 @@ __ESTREE_TEST__:PASS:
                       "end": 899,
                       "decorators": [],
                       "name": "f1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -433,7 +470,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -446,10 +485,13 @@ __ESTREE_TEST__:PASS:
                 "end": 878,
                 "decorators": [],
                 "name": "publicClassInPrivateModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -474,10 +516,13 @@ __ESTREE_TEST__:PASS:
               "end": 958,
               "decorators": [],
               "name": "privateClassInPrivateModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -498,7 +543,8 @@ __ESTREE_TEST__:PASS:
               "end": 1018,
               "decorators": [],
               "name": "privateClassExtendingPublicClassInModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -507,8 +553,11 @@ __ESTREE_TEST__:PASS:
               "end": 1053,
               "decorators": [],
               "name": "publicClassInPrivateModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -529,7 +578,8 @@ __ESTREE_TEST__:PASS:
               "end": 1113,
               "decorators": [],
               "name": "privateClassExtendingPrivateClassInModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -538,8 +588,11 @@ __ESTREE_TEST__:PASS:
               "end": 1149,
               "decorators": [],
               "name": "privateClassInPrivateModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -565,7 +618,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1214,
                 "decorators": [],
                 "name": "publicClassExtendingPublicClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -574,8 +628,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1249,
                 "decorators": [],
                 "name": "publicClassInPrivateModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -605,7 +662,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1315,
                 "decorators": [],
                 "name": "publicClassExtendingPrivateClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -614,8 +672,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1351,
                 "decorators": [],
                 "name": "privateClassInPrivateModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -640,7 +701,8 @@ __ESTREE_TEST__:PASS:
               "end": 1415,
               "decorators": [],
               "name": "privateClassExtendingFromPrivateModuleClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -654,7 +716,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1437,
                 "decorators": [],
                 "name": "privateModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -663,9 +726,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1464,
                 "decorators": [],
                 "name": "publicClassInPrivateModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -691,7 +757,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1532,
                 "decorators": [],
                 "name": "publicClassExtendingFromPrivateModuleClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -705,7 +772,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1554,
                   "decorators": [],
                   "name": "privateModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -714,9 +782,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1581,
                   "decorators": [],
                   "name": "publicClassInPrivateModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              }
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -732,7 +803,8 @@ __ESTREE_TEST__:PASS:
         "end": 832,
         "decorators": [],
         "name": "privateModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -764,7 +836,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1634,
                 "decorators": [],
                 "name": "f1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -785,7 +858,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -798,10 +873,13 @@ __ESTREE_TEST__:PASS:
           "end": 1617,
           "decorators": [],
           "name": "publicClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -826,10 +904,13 @@ __ESTREE_TEST__:PASS:
         "end": 1666,
         "decorators": [],
         "name": "privateClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -850,7 +931,8 @@ __ESTREE_TEST__:PASS:
         "end": 1710,
         "decorators": [],
         "name": "privateClassExtendingPublicClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -859,8 +941,11 @@ __ESTREE_TEST__:PASS:
         "end": 1730,
         "decorators": [],
         "name": "publicClass",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -881,7 +966,8 @@ __ESTREE_TEST__:PASS:
         "end": 1782,
         "decorators": [],
         "name": "privateClassExtendingPrivateClassInModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -890,8 +976,11 @@ __ESTREE_TEST__:PASS:
         "end": 1803,
         "decorators": [],
         "name": "privateClass",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -917,7 +1006,8 @@ __ESTREE_TEST__:PASS:
           "end": 1852,
           "decorators": [],
           "name": "publicClassExtendingPublicClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -926,8 +1016,11 @@ __ESTREE_TEST__:PASS:
           "end": 1872,
           "decorators": [],
           "name": "publicClass",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -957,7 +1050,8 @@ __ESTREE_TEST__:PASS:
           "end": 1922,
           "decorators": [],
           "name": "publicClassExtendingPrivateClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -966,8 +1060,11 @@ __ESTREE_TEST__:PASS:
           "end": 1943,
           "decorators": [],
           "name": "privateClass",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -992,7 +1089,8 @@ __ESTREE_TEST__:PASS:
         "end": 2014,
         "decorators": [],
         "name": "privateClassExtendingFromPrivateModuleClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -1006,7 +1104,8 @@ __ESTREE_TEST__:PASS:
           "end": 2036,
           "decorators": [],
           "name": "privateModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -1015,9 +1114,12 @@ __ESTREE_TEST__:PASS:
           "end": 2063,
           "decorators": [],
           "name": "publicClassInPrivateModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1043,7 +1145,8 @@ __ESTREE_TEST__:PASS:
           "end": 2123,
           "decorators": [],
           "name": "publicClassExtendingFromPrivateModuleClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -1057,7 +1160,8 @@ __ESTREE_TEST__:PASS:
             "end": 2145,
             "decorators": [],
             "name": "privateModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1066,9 +1170,12 @@ __ESTREE_TEST__:PASS:
             "end": 2172,
             "decorators": [],
             "name": "publicClassInPrivateModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1123,7 +1230,8 @@ __ESTREE_TEST__:PASS:
                       "end": 93,
                       "decorators": [],
                       "name": "f1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -1144,7 +1252,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -1157,10 +1267,13 @@ __ESTREE_TEST__:PASS:
                 "end": 72,
                 "decorators": [],
                 "name": "publicClassInPublicModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1185,10 +1298,13 @@ __ESTREE_TEST__:PASS:
               "end": 151,
               "decorators": [],
               "name": "privateClassInPublicModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -1209,7 +1325,8 @@ __ESTREE_TEST__:PASS:
               "end": 211,
               "decorators": [],
               "name": "privateClassExtendingPublicClassInModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -1218,8 +1335,11 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "publicClassInPublicModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -1240,7 +1360,8 @@ __ESTREE_TEST__:PASS:
               "end": 305,
               "decorators": [],
               "name": "privateClassExtendingPrivateClassInModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -1249,8 +1370,11 @@ __ESTREE_TEST__:PASS:
               "end": 340,
               "decorators": [],
               "name": "privateClassInPublicModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1276,7 +1400,8 @@ __ESTREE_TEST__:PASS:
                 "end": 405,
                 "decorators": [],
                 "name": "publicClassExtendingPublicClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -1285,8 +1410,11 @@ __ESTREE_TEST__:PASS:
                 "end": 439,
                 "decorators": [],
                 "name": "publicClassInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1316,7 +1444,8 @@ __ESTREE_TEST__:PASS:
                 "end": 505,
                 "decorators": [],
                 "name": "publicClassExtendingPrivateClassInModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -1325,8 +1454,11 @@ __ESTREE_TEST__:PASS:
                 "end": 540,
                 "decorators": [],
                 "name": "privateClassInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1342,7 +1474,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "publicModuleInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1365,10 +1498,13 @@ __ESTREE_TEST__:PASS:
         "end": 592,
         "decorators": [],
         "name": "publicClassInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -1389,7 +1525,8 @@ __ESTREE_TEST__:PASS:
         "end": 642,
         "decorators": [],
         "name": "publicClassExtendingPublicClassInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -1398,8 +1535,11 @@ __ESTREE_TEST__:PASS:
         "end": 670,
         "decorators": [],
         "name": "publicClassInGlobal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

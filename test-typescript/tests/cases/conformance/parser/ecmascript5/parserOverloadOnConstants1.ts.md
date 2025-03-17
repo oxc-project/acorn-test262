@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 25,
             "end": 69,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "createElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -58,22 +60,26 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 57,
                 "end": 68,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 57,
                   "end": 68,
                   "decorators": [],
                   "name": "HTMLElement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 74,
             "end": 126,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -81,7 +87,8 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "createElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -121,22 +128,26 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 108,
                 "end": 125,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 108,
                   "end": 125,
                   "decorators": [],
                   "name": "HTMLCanvasElement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 131,
             "end": 177,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -144,7 +155,8 @@ __ESTREE_TEST__:PASS:
               "end": 144,
               "decorators": [],
               "name": "createElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -184,22 +196,26 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 162,
                 "end": 176,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 162,
                   "end": 176,
                   "decorators": [],
                   "name": "HTMLDivElement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 182,
             "end": 230,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -207,7 +223,8 @@ __ESTREE_TEST__:PASS:
               "end": 195,
               "decorators": [],
               "name": "createElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -247,17 +264,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 214,
                 "end": 229,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 214,
                   "end": 229,
                   "decorators": [],
                   "name": "HTMLSpanElement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -269,8 +289,10 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "Document",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

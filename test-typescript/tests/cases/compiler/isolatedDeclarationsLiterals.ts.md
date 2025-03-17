@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "constObject",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
                       "end": 58,
                       "decorators": [],
                       "name": "one",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
                       "end": 99,
                       "decorators": [],
                       "name": "oneOctal",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
                       "end": 140,
                       "decorators": [],
                       "name": "oneHex",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -123,7 +127,8 @@ __ESTREE_TEST__:PASS:
                       "end": 178,
                       "decorators": [],
                       "name": "pOne",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -155,7 +160,8 @@ __ESTREE_TEST__:PASS:
                       "end": 215,
                       "decorators": [],
                       "name": "mOne",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -187,7 +193,8 @@ __ESTREE_TEST__:PASS:
                       "end": 230,
                       "decorators": [],
                       "name": "array",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -256,7 +263,8 @@ __ESTREE_TEST__:PASS:
                       "end": 281,
                       "decorators": [],
                       "name": "onen",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -282,7 +290,8 @@ __ESTREE_TEST__:PASS:
                       "end": 320,
                       "decorators": [],
                       "name": "mOnen",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -315,7 +324,8 @@ __ESTREE_TEST__:PASS:
                       "end": 373,
                       "decorators": [],
                       "name": "oneStrDoubleQuote",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -340,7 +350,8 @@ __ESTREE_TEST__:PASS:
                       "end": 425,
                       "decorators": [],
                       "name": "oneStrSingleQuote",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -365,7 +376,8 @@ __ESTREE_TEST__:PASS:
                       "end": 474,
                       "decorators": [],
                       "name": "oneStrTemplate",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -401,7 +413,8 @@ __ESTREE_TEST__:PASS:
                       "end": 511,
                       "decorators": [],
                       "name": "method",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": true,
@@ -432,7 +445,8 @@ __ESTREE_TEST__:PASS:
                           "start": 515,
                           "end": 519
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -441,13 +455,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 535,
                 "end": 540,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 535,
                   "end": 540,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -481,7 +497,8 @@ __ESTREE_TEST__:PASS:
               "end": 559,
               "decorators": [],
               "name": "one",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -520,7 +537,8 @@ __ESTREE_TEST__:PASS:
               "end": 586,
               "decorators": [],
               "name": "oneOctal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -559,7 +577,8 @@ __ESTREE_TEST__:PASS:
               "end": 613,
               "decorators": [],
               "name": "oneHex",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -598,7 +617,8 @@ __ESTREE_TEST__:PASS:
               "end": 638,
               "decorators": [],
               "name": "pOne",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "UnaryExpression",
@@ -644,7 +664,8 @@ __ESTREE_TEST__:PASS:
               "end": 662,
               "decorators": [],
               "name": "mOne",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "UnaryExpression",
@@ -690,7 +711,8 @@ __ESTREE_TEST__:PASS:
               "end": 686,
               "decorators": [],
               "name": "onen",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -730,7 +752,8 @@ __ESTREE_TEST__:PASS:
               "end": 711,
               "decorators": [],
               "name": "mOnen",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "UnaryExpression",
@@ -777,7 +800,8 @@ __ESTREE_TEST__:PASS:
               "end": 749,
               "decorators": [],
               "name": "oneStrDoubleQuote",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -816,7 +840,8 @@ __ESTREE_TEST__:PASS:
               "end": 787,
               "decorators": [],
               "name": "oneStrSingleQuote",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -855,7 +880,8 @@ __ESTREE_TEST__:PASS:
               "end": 822,
               "decorators": [],
               "name": "oneStrTemplate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TemplateLiteral",
@@ -905,7 +931,8 @@ __ESTREE_TEST__:PASS:
               "end": 857,
               "decorators": [],
               "name": "mutableObject",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -923,7 +950,8 @@ __ESTREE_TEST__:PASS:
                     "end": 891,
                     "decorators": [],
                     "name": "one",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -948,7 +976,8 @@ __ESTREE_TEST__:PASS:
                     "end": 932,
                     "decorators": [],
                     "name": "oneOctal",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -973,7 +1002,8 @@ __ESTREE_TEST__:PASS:
                     "end": 973,
                     "decorators": [],
                     "name": "oneHex",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -998,7 +1028,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1011,
                     "decorators": [],
                     "name": "pOne",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -1030,7 +1061,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1048,
                     "decorators": [],
                     "name": "mOne",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -1062,7 +1094,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1085,
                     "decorators": [],
                     "name": "onen",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -1088,7 +1121,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1124,
                     "decorators": [],
                     "name": "mOnen",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -1121,7 +1155,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1161,
                     "decorators": [],
                     "name": "method",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": true,
@@ -1152,7 +1187,8 @@ __ESTREE_TEST__:PASS:
                         "start": 1165,
                         "end": 1169
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               ]

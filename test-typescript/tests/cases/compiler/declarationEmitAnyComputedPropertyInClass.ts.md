@@ -56,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "Test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -80,6 +81,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 51,
               "end": 70,
+              "accessibility": null,
               "computed": true,
               "decorators": [],
               "key": {
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                   "end": 56,
                   "decorators": [],
                   "name": "Test",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -102,7 +105,8 @@ __ESTREE_TEST__:PASS:
                   "end": 64,
                   "decorators": [],
                   "name": "someKey",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "kind": "method",
@@ -124,7 +128,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -137,10 +143,13 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -53,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 42,
             "end": 92,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 42,
@@ -67,7 +68,8 @@ __ESTREE_TEST__:PASS:
                   "end": 78,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
@@ -89,9 +91,12 @@ __ESTREE_TEST__:PASS:
         "end": 33,
         "decorators": [],
         "name": "t1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -107,6 +112,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 116,
             "end": 170,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 116,
@@ -126,7 +132,8 @@ __ESTREE_TEST__:PASS:
                     "end": 152,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -156,9 +163,12 @@ __ESTREE_TEST__:PASS:
         "end": 107,
         "decorators": [],
         "name": "t2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -174,6 +184,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 194,
             "end": 252,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 194,
@@ -206,7 +217,8 @@ __ESTREE_TEST__:PASS:
                     "end": 230,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -229,9 +241,12 @@ __ESTREE_TEST__:PASS:
         "end": 185,
         "decorators": [],
         "name": "t3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -247,6 +262,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 276,
             "end": 328,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 276,
@@ -266,7 +282,8 @@ __ESTREE_TEST__:PASS:
                     "end": 312,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -281,7 +298,8 @@ __ESTREE_TEST__:PASS:
                   "end": 327,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "delegate": false
@@ -298,9 +316,12 @@ __ESTREE_TEST__:PASS:
         "end": 267,
         "decorators": [],
         "name": "t4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -316,6 +337,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 352,
             "end": 405,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 352,
@@ -335,7 +357,8 @@ __ESTREE_TEST__:PASS:
                     "end": 388,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -350,7 +373,8 @@ __ESTREE_TEST__:PASS:
                   "end": 403,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "delegate": false
@@ -367,9 +391,12 @@ __ESTREE_TEST__:PASS:
         "end": 343,
         "decorators": [],
         "name": "t5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -385,6 +412,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 429,
             "end": 481,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 429,
@@ -404,7 +432,8 @@ __ESTREE_TEST__:PASS:
                     "end": 465,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -412,7 +441,8 @@ __ESTREE_TEST__:PASS:
                     "end": 472
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -428,9 +458,12 @@ __ESTREE_TEST__:PASS:
         "end": 420,
         "decorators": [],
         "name": "t6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -446,6 +479,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 505,
             "end": 557,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 505,
@@ -482,14 +516,16 @@ __ESTREE_TEST__:PASS:
                     "end": 541,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
                     "start": 545,
                     "end": 548
                   }
-                }
+                },
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -505,9 +541,12 @@ __ESTREE_TEST__:PASS:
         "end": 496,
         "decorators": [],
         "name": "t7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -523,6 +562,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 581,
             "end": 638,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 581,
@@ -541,7 +581,8 @@ __ESTREE_TEST__:PASS:
                     "end": 617,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -569,9 +610,12 @@ __ESTREE_TEST__:PASS:
         "end": 572,
         "decorators": [],
         "name": "t8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -587,6 +631,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 662,
             "end": 726,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 662,
@@ -605,7 +650,8 @@ __ESTREE_TEST__:PASS:
                     "end": 698,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -633,9 +679,12 @@ __ESTREE_TEST__:PASS:
         "end": 653,
         "decorators": [],
         "name": "t9",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -651,6 +700,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 751,
             "end": 802,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 751,
@@ -669,7 +719,8 @@ __ESTREE_TEST__:PASS:
                     "end": 787,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
@@ -692,9 +743,12 @@ __ESTREE_TEST__:PASS:
         "end": 742,
         "decorators": [],
         "name": "t10",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

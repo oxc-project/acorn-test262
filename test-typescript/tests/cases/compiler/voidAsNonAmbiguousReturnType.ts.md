@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 61,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "mkdirSync",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
             "start": 56,
             "end": 60
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "mkdirSync",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -153,7 +157,8 @@ __ESTREE_TEST__:PASS:
             "start": 118,
             "end": 122
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -181,7 +186,8 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "fs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -211,6 +217,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 134,
             "end": 155,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 134,
@@ -235,7 +242,8 @@ __ESTREE_TEST__:PASS:
                   "end": 136,
                   "decorators": [],
                   "name": "fs",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -244,10 +252,12 @@ __ESTREE_TEST__:PASS:
                   "end": 146,
                   "decorators": [],
                   "name": "mkdirSync",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -261,9 +271,12 @@ __ESTREE_TEST__:PASS:
         "end": 128,
         "decorators": [],
         "name": "main",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

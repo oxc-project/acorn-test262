@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "mod",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -89,13 +91,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 63,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 59,
         "end": 62,
         "decorators": [],
         "name": "mod",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

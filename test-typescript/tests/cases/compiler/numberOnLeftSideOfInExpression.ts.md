@@ -77,6 +77,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 34,
       "end": 48,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 34,
@@ -88,7 +89,8 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "left",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -96,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "end": 47,
           "decorators": [],
           "name": "right",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

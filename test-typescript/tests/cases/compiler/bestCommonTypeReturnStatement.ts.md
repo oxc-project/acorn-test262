@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 28,
             "end": 129,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -61,13 +63,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 65,
                             "end": 66,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 65,
                               "end": 66,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -82,7 +86,8 @@ __ESTREE_TEST__:PASS:
                         "start": 71,
                         "end": 74
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -130,7 +135,8 @@ __ESTREE_TEST__:PASS:
                         "start": 109,
                         "end": 112
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
@@ -162,11 +168,13 @@ __ESTREE_TEST__:PASS:
                   "end": 123,
                   "decorators": [],
                   "name": "IPromise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -178,7 +186,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "IPromise",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -190,6 +199,8 @@ __ESTREE_TEST__:PASS:
             "start": 19,
             "end": 20,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -197,7 +208,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -234,9 +246,11 @@ __ESTREE_TEST__:PASS:
                   "end": 170,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             "test": {
@@ -262,9 +276,11 @@ __ESTREE_TEST__:PASS:
                 "end": 186,
                 "decorators": [],
                 "name": "d",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -278,9 +294,12 @@ __ESTREE_TEST__:PASS:
         "end": 143,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -315,7 +334,8 @@ __ESTREE_TEST__:PASS:
         "end": 204,
         "decorators": [],
         "name": "b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -344,10 +364,12 @@ __ESTREE_TEST__:PASS:
             "end": 216,
             "decorators": [],
             "name": "IPromise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -382,7 +404,8 @@ __ESTREE_TEST__:PASS:
         "end": 250,
         "decorators": [],
         "name": "d",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -411,10 +434,12 @@ __ESTREE_TEST__:PASS:
             "end": 262,
             "decorators": [],
             "name": "IPromise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "log",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -34,9 +35,12 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -52,6 +56,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 37,
             "end": 128,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -62,12 +67,14 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 50,
@@ -82,6 +89,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 115,
                     "end": 125,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 115,
@@ -99,9 +107,11 @@ __ESTREE_TEST__:PASS:
                         "end": 118,
                         "decorators": [],
                         "name": "log",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -109,7 +119,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -122,10 +134,13 @@ __ESTREE_TEST__:PASS:
         "end": 33,
         "decorators": [],
         "name": "Vector",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

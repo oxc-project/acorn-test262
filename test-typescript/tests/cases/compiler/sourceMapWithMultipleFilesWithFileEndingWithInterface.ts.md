@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 27,
                     "decorators": [],
                     "name": "X",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -80,6 +82,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 61,
             "end": 90,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -87,7 +90,8 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "getGamepads",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -122,12 +126,14 @@ __ESTREE_TEST__:PASS:
                 "end": 89
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 95,
             "end": 129,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -135,7 +141,8 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "webkitGetGamepads",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -170,12 +177,14 @@ __ESTREE_TEST__:PASS:
                 "end": 129
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 134,
             "end": 165,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -183,7 +192,8 @@ __ESTREE_TEST__:PASS:
               "end": 147,
               "decorators": [],
               "name": "msGetGamepads",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -218,12 +228,14 @@ __ESTREE_TEST__:PASS:
                 "end": 164
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 170,
             "end": 202,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -231,7 +243,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "webkitGamepads",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -266,7 +279,8 @@ __ESTREE_TEST__:PASS:
                 "end": 201
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -278,8 +292,10 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "Navigator",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -326,10 +342,13 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "c1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -345,7 +364,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

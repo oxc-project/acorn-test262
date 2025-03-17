@@ -58,6 +58,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 160,
               "end": 167,
+              "directive": null,
               "expression": {
                 "type": "UnaryExpression",
                 "start": 160,
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
                   "end": 166,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "operator": "void",
                 "prefix": true
@@ -88,6 +90,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 202,
                     "end": 209,
+                    "directive": null,
                     "expression": {
                       "type": "UnaryExpression",
                       "start": 202,
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
                         "end": 208,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "operator": "void",
                       "prefix": true
@@ -126,7 +130,8 @@ __ESTREE_TEST__:PASS:
                       "end": 264,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -147,7 +152,8 @@ __ESTREE_TEST__:PASS:
                       "end": 185,
                       "decorators": [],
                       "name": "q",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -161,7 +167,8 @@ __ESTREE_TEST__:PASS:
                 "end": 190,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -187,7 +194,8 @@ __ESTREE_TEST__:PASS:
           "end": 61,
           "decorators": [],
           "name": "consoleTestResultHandler",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -218,7 +226,8 @@ __ESTREE_TEST__:PASS:
             "start": 80,
             "end": 87
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

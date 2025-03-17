@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractMethodDefinition",
             "start": 23,
             "end": 44,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                   "start": 39,
                   "end": 43
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -66,10 +69,13 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -87,7 +93,8 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ClassExpression",
@@ -110,8 +117,11 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "A",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         }
       ],

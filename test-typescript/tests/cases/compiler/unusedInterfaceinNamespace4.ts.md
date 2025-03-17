@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "i1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -58,8 +60,10 @@ __ESTREE_TEST__:PASS:
                 "end": 73,
                 "decorators": [],
                 "name": "i2",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -87,8 +91,10 @@ __ESTREE_TEST__:PASS:
                   "end": 111,
                   "decorators": [],
                   "name": "i1",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -97,8 +103,10 @@ __ESTREE_TEST__:PASS:
               "end": 100,
               "decorators": [],
               "name": "i3",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
                 "end": 141,
                 "decorators": [],
                 "name": "c1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -137,11 +146,15 @@ __ESTREE_TEST__:PASS:
                     "end": 155,
                     "decorators": [],
                     "name": "i3",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -157,7 +170,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "Validation",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

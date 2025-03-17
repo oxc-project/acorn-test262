@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 102,
       "end": 134,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 102,
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
                       "end": 117,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -76,7 +78,8 @@ __ESTREE_TEST__:PASS:
                 "end": 108,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -85,10 +88,12 @@ __ESTREE_TEST__:PASS:
                 "end": 113,
                 "decorators": [],
                 "name": "keys",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -97,10 +102,12 @@ __ESTREE_TEST__:PASS:
             "end": 128,
             "decorators": [],
             "name": "push",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "start": 23,
             "end": 47,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -56,11 +58,14 @@ __ESTREE_TEST__:PASS:
                         "start": 41,
                         "end": 45
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -72,7 +77,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "Q",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -80,6 +86,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 115,
       "end": 139,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 115,
@@ -99,6 +106,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 131,
                   "end": 136,
+                  "directive": null,
                   "expression": {
                     "type": "ThisExpression",
                     "start": 131,
@@ -111,7 +119,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -125,7 +135,8 @@ __ESTREE_TEST__:PASS:
             "end": 116,
             "decorators": [],
             "name": "Q",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -134,10 +145,12 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

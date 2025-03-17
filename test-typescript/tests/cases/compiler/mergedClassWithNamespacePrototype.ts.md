@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -64,6 +67,7 @@ __ESTREE_TEST__:PASS:
                   "start": 58,
                   "end": 77,
                   "async": false,
+                  "body": null,
                   "declare": false,
                   "expression": false,
                   "generator": false,
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
                     "end": 68,
                     "decorators": [],
                     "name": "f",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "params": [],
                   "returnType": {
@@ -85,7 +90,8 @@ __ESTREE_TEST__:PASS:
                       "start": 72,
                       "end": 76
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -97,7 +103,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "prototype",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }
@@ -111,7 +118,8 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

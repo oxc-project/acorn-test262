@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 66,
             "end": 76,
+            "directive": null,
             "expression": {
               "type": "BinaryExpression",
               "start": 66,
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 67,
                 "decorators": [],
                 "name": "t",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 103,
             "end": 113,
+            "directive": null,
             "expression": {
               "type": "BinaryExpression",
               "start": 103,
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
                 "end": 104,
                 "decorators": [],
                 "name": "t",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -96,18 +101,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 57,
               "end": 58,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 57,
                 "end": 58,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 32,
@@ -149,6 +157,7 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -156,7 +165,8 @@ __ESTREE_TEST__:PASS:
               "end": 34,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

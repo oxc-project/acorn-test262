@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "Puppeteer",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -36,6 +37,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 63,
               "end": 74,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -43,7 +45,8 @@ __ESTREE_TEST__:PASS:
                 "end": 66,
                 "decorators": [],
                 "name": "key",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -69,8 +72,10 @@ __ESTREE_TEST__:PASS:
           "end": 56,
           "decorators": [],
           "name": "Keyboard",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -86,6 +91,7 @@ __ESTREE_TEST__:PASS:
         "start": 84,
         "end": 121,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -95,7 +101,8 @@ __ESTREE_TEST__:PASS:
           "end": 100,
           "decorators": [],
           "name": "connect",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -126,7 +133,8 @@ __ESTREE_TEST__:PASS:
             "start": 116,
             "end": 120
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -149,6 +157,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 29,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -158,7 +167,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -170,7 +180,8 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 28
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -182,7 +193,8 @@ __ESTREE_TEST__:PASS:
         "end": 40,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -62,7 +63,8 @@ __ESTREE_TEST__:PASS:
                         "start": 24,
                         "end": 30
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSCallSignatureDeclaration",
@@ -97,14 +99,17 @@ __ESTREE_TEST__:PASS:
                         "start": 43,
                         "end": 49
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -115,6 +120,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 116,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 61,
@@ -153,7 +159,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
               {
                 "type": "FunctionExpression",
@@ -183,7 +191,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             ]
           }
@@ -194,9 +204,11 @@ __ESTREE_TEST__:PASS:
           "end": 64,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

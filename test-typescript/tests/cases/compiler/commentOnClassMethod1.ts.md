@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 64,
             "end": 92,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "createControl",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
                   "start": 81,
                   "end": 84
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -71,10 +74,13 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "WebControls",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

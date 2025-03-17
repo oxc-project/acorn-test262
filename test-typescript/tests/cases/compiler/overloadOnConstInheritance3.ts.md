@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 21,
             "end": 54,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 37,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
                 "end": 53
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -72,8 +75,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -88,6 +93,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 149,
             "end": 184,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -95,7 +101,8 @@ __ESTREE_TEST__:PASS:
               "end": 165,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -137,12 +144,14 @@ __ESTREE_TEST__:PASS:
                 "end": 183
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 189,
             "end": 224,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -150,7 +159,8 @@ __ESTREE_TEST__:PASS:
               "end": 205,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -192,7 +202,8 @@ __ESTREE_TEST__:PASS:
                 "end": 223
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -208,8 +219,10 @@ __ESTREE_TEST__:PASS:
             "end": 87,
             "decorators": [],
             "name": "Base",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -218,8 +231,10 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "Deriver",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

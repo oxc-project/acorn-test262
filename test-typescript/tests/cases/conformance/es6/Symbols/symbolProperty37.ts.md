@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 18,
             "end": 54,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 25,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "decorators": [],
                 "name": "isConcatSpreadable",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -60,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 59,
             "end": 95,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
                 "end": 66,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -81,7 +86,8 @@ __ESTREE_TEST__:PASS:
                 "end": 85,
                 "decorators": [],
                 "name": "isConcatSpreadable",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -108,8 +114,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

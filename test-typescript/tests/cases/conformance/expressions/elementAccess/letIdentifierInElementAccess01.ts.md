@@ -48,6 +48,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 20,
       "end": 35,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 21,
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "let",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {

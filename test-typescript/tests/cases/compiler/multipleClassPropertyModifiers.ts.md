@@ -30,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "p1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -53,12 +55,14 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "p2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -76,12 +80,14 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "p3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -99,12 +105,14 @@ __ESTREE_TEST__:PASS:
               "end": 98,
               "decorators": [],
               "name": "p4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -117,10 +125,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

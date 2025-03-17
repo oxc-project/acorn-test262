@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                   "end": 15,
                   "decorators": [],
                   "name": "bogus",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -64,6 +66,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 39,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 22,
@@ -85,13 +88,17 @@ __ESTREE_TEST__:PASS:
                 "end": 27,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",

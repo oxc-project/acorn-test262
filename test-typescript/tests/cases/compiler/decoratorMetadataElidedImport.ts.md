@@ -29,10 +29,12 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "Observable",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 31,
@@ -43,6 +45,8 @@ __ESTREE_TEST__:PASS:
               "start": 32,
               "end": 33,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -50,7 +54,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "Observable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -106,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "Observable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -131,7 +138,8 @@ __ESTREE_TEST__:PASS:
         "end": 61,
         "decorators": [],
         "name": "whatever",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -188,7 +196,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -204,6 +214,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 107,
             "end": 230,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -212,7 +223,8 @@ __ESTREE_TEST__:PASS:
               "end": 110,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -267,7 +279,8 @@ __ESTREE_TEST__:PASS:
                         "end": 129,
                         "decorators": [],
                         "name": "whatever",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -299,7 +312,8 @@ __ESTREE_TEST__:PASS:
                         "end": 161,
                         "decorators": [],
                         "name": "whatever",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -343,10 +357,12 @@ __ESTREE_TEST__:PASS:
                     "end": 192,
                     "decorators": [],
                     "name": "Observable",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -359,10 +375,13 @@ __ESTREE_TEST__:PASS:
         "end": 100,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

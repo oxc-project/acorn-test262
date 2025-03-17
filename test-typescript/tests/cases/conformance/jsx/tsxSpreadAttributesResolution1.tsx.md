@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -45,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 87,
             "end": 136,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 93,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -108,7 +111,8 @@ __ESTREE_TEST__:PASS:
                           "end": 117,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -118,7 +122,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -131,7 +137,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "Poisoned",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -145,7 +152,8 @@ __ESTREE_TEST__:PASS:
           "end": 62,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -154,7 +162,8 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -175,7 +184,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -193,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 149,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -222,7 +233,8 @@ __ESTREE_TEST__:PASS:
             "end": 168,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -245,7 +257,8 @@ __ESTREE_TEST__:PASS:
                     "end": 188,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -255,7 +268,8 @@ __ESTREE_TEST__:PASS:
                 "end": 180,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -279,7 +293,8 @@ __ESTREE_TEST__:PASS:
             "end": 199,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -298,7 +313,8 @@ __ESTREE_TEST__:PASS:
                 "end": 211,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 26,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                         "end": 57,
                         "decorators": [],
                         "name": "_extraOccluded",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "get",
                       "method": false,
@@ -81,7 +83,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 86,
                                     "decorators": [],
                                     "name": "occluded",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "init": {
                                     "type": "Literal",
@@ -105,7 +108,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 119,
                                 "decorators": [],
                                 "name": "occluded",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ]
@@ -114,7 +118,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -135,9 +141,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

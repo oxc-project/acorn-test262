@@ -52,6 +52,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 83,
             "end": 95,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 83,
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
                 "end": 87,
                 "decorators": [],
                 "name": "bing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -78,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 112,
             "end": 124,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 112,
@@ -89,7 +92,8 @@ __ESTREE_TEST__:PASS:
                 "end": 116,
                 "decorators": [],
                 "name": "bang",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -120,14 +124,18 @@ __ESTREE_TEST__:PASS:
               "end": 158,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "ExpressionStatement",
             "start": 169,
             "end": 175,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 169,
@@ -139,9 +147,11 @@ __ESTREE_TEST__:PASS:
                 "end": 172,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -187,7 +197,8 @@ __ESTREE_TEST__:PASS:
                       "end": 31,
                       "decorators": [],
                       "name": "ooo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -196,7 +207,8 @@ __ESTREE_TEST__:PASS:
                       "end": 35,
                       "decorators": [],
                       "name": "eee",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -206,7 +218,8 @@ __ESTREE_TEST__:PASS:
                     "end": 38,
                     "decorators": [],
                     "name": "oo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "optional": false,
@@ -216,7 +229,8 @@ __ESTREE_TEST__:PASS:
                   "end": 44,
                   "decorators": [],
                   "name": "ah_ah",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -226,7 +240,8 @@ __ESTREE_TEST__:PASS:
                 "end": 49,
                 "decorators": [],
                 "name": "ting",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -236,7 +251,8 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "decorators": [],
               "name": "tang",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "optional": false,
@@ -246,7 +262,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "walla",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "optional": false,
@@ -256,7 +273,8 @@ __ESTREE_TEST__:PASS:
           "end": 66,
           "decorators": [],
           "name": "walla",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

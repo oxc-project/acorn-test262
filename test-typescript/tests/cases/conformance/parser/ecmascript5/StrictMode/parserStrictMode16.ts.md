@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 26,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 14,
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 27,
       "end": 36,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 27,
@@ -58,6 +60,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 37,
       "end": 49,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 37,
@@ -77,6 +80,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 50,
       "end": 61,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 50,

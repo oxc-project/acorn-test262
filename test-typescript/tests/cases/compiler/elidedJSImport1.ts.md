@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 76,
                   "end": 88,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -35,7 +36,8 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -61,8 +63,10 @@ __ESTREE_TEST__:PASS:
               "end": 65,
               "decorators": [],
               "name": "ContractObject",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSModuleDeclaration",
@@ -89,21 +93,25 @@ __ESTREE_TEST__:PASS:
                       "end": 155,
                       "decorators": [],
                       "name": "Contract",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
                       "start": 158,
                       "end": 172,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 158,
                         "end": 172,
                         "decorators": [],
                         "name": "ContractObject",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -119,7 +127,8 @@ __ESTREE_TEST__:PASS:
               "end": 124,
               "decorators": [],
               "name": "TruffleContract",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           },
@@ -133,7 +142,8 @@ __ESTREE_TEST__:PASS:
               "end": 214,
               "decorators": [],
               "name": "TruffleContract",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "exportKind": "value"
           }

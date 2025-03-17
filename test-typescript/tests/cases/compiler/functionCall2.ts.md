@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 21
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -86,9 +89,11 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

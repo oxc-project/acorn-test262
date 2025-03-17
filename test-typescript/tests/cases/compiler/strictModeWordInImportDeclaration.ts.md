@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
             "end": 49,
             "decorators": [],
             "name": "package",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -71,7 +72,8 @@ __ESTREE_TEST__:PASS:
             "end": 72,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -80,7 +82,8 @@ __ESTREE_TEST__:PASS:
             "end": 83,
             "decorators": [],
             "name": "private",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -109,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 109,
             "decorators": [],
             "name": "public",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

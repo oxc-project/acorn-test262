@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 43,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -90,6 +92,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 64,
                     "end": 68,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -97,7 +100,8 @@ __ESTREE_TEST__:PASS:
                       "end": 65,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -140,7 +144,8 @@ __ESTREE_TEST__:PASS:
                   "end": 80,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -191,6 +196,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 99,
                     "end": 107,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -198,7 +204,8 @@ __ESTREE_TEST__:PASS:
                       "end": 100,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -225,6 +232,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 108,
                     "end": 125,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -232,7 +240,8 @@ __ESTREE_TEST__:PASS:
                       "end": 117,
                       "decorators": [],
                       "name": "overwrite",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -268,7 +277,8 @@ __ESTREE_TEST__:PASS:
                   "end": 137,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -293,7 +303,8 @@ __ESTREE_TEST__:PASS:
                   "end": 158,
                   "decorators": [],
                   "name": "overwrite",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -327,6 +338,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 189,
             "end": 193,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -334,7 +346,8 @@ __ESTREE_TEST__:PASS:
               "end": 190,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -361,6 +374,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 198,
             "end": 205,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -368,7 +382,8 @@ __ESTREE_TEST__:PASS:
               "end": 199,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -395,6 +410,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 210,
             "end": 227,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -402,7 +418,8 @@ __ESTREE_TEST__:PASS:
               "end": 219,
               "decorators": [],
               "name": "overwrite",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -428,8 +445,10 @@ __ESTREE_TEST__:PASS:
         "end": 182,
         "decorators": [],
         "name": "Prop",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -445,6 +464,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 291,
             "end": 340,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -453,7 +473,8 @@ __ESTREE_TEST__:PASS:
               "end": 297,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -508,7 +529,8 @@ __ESTREE_TEST__:PASS:
                           "end": 321,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -518,7 +540,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -531,7 +555,8 @@ __ESTREE_TEST__:PASS:
         "end": 250,
         "decorators": [],
         "name": "OverWriteAttr",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -545,7 +570,8 @@ __ESTREE_TEST__:PASS:
           "end": 264,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -554,7 +580,8 @@ __ESTREE_TEST__:PASS:
           "end": 274,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -566,13 +593,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 275,
             "end": 279,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 275,
               "end": 279,
               "decorators": [],
               "name": "Prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -582,7 +611,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -634,7 +664,8 @@ __ESTREE_TEST__:PASS:
             "end": 372,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -657,7 +688,8 @@ __ESTREE_TEST__:PASS:
                     "end": 397,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -700,7 +732,8 @@ __ESTREE_TEST__:PASS:
                     "end": 424,
                     "decorators": [],
                     "name": "obj1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -710,7 +743,8 @@ __ESTREE_TEST__:PASS:
                 "end": 389,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -734,7 +768,8 @@ __ESTREE_TEST__:PASS:
             "end": 435,
             "decorators": [],
             "name": "x1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -757,7 +792,8 @@ __ESTREE_TEST__:PASS:
                     "end": 461,
                     "decorators": [],
                     "name": "obj1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -770,7 +806,8 @@ __ESTREE_TEST__:PASS:
                     "end": 471,
                     "decorators": [],
                     "name": "obj3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -780,7 +817,8 @@ __ESTREE_TEST__:PASS:
                 "end": 452,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -804,7 +842,8 @@ __ESTREE_TEST__:PASS:
             "end": 482,
             "decorators": [],
             "name": "x2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -868,7 +907,8 @@ __ESTREE_TEST__:PASS:
                     "end": 529,
                     "decorators": [],
                     "name": "obj1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -891,7 +931,8 @@ __ESTREE_TEST__:PASS:
                           "end": 537,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -915,7 +956,8 @@ __ESTREE_TEST__:PASS:
                 "end": 499,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -939,7 +981,8 @@ __ESTREE_TEST__:PASS:
             "end": 555,
             "decorators": [],
             "name": "x3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -980,7 +1023,8 @@ __ESTREE_TEST__:PASS:
                     "end": 596,
                     "decorators": [],
                     "name": "obj1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -1026,7 +1070,8 @@ __ESTREE_TEST__:PASS:
                           "end": 610,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1051,7 +1096,8 @@ __ESTREE_TEST__:PASS:
                           "end": 619,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1076,7 +1122,8 @@ __ESTREE_TEST__:PASS:
                           "end": 633,
                           "decorators": [],
                           "name": "overwrite",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1100,7 +1147,8 @@ __ESTREE_TEST__:PASS:
                 "end": 572,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -1124,7 +1172,8 @@ __ESTREE_TEST__:PASS:
             "end": 653,
             "decorators": [],
             "name": "x4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -1157,7 +1206,8 @@ __ESTREE_TEST__:PASS:
                           "end": 677,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1194,7 +1244,8 @@ __ESTREE_TEST__:PASS:
                           "end": 697,
                           "decorators": [],
                           "name": "overwrite",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1231,7 +1282,8 @@ __ESTREE_TEST__:PASS:
                           "end": 715,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -1255,7 +1307,8 @@ __ESTREE_TEST__:PASS:
                 "end": 670,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -1279,7 +1332,8 @@ __ESTREE_TEST__:PASS:
             "end": 733,
             "decorators": [],
             "name": "x5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -1302,7 +1356,8 @@ __ESTREE_TEST__:PASS:
                     "end": 761,
                     "decorators": [],
                     "name": "anyobj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1312,7 +1367,8 @@ __ESTREE_TEST__:PASS:
                 "end": 750,
                 "name": "OverWriteAttr"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

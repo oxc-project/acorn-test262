@@ -43,10 +43,13 @@ __ESTREE_TEST__:PASS:
                   "end": 117,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "outerModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -74,7 +78,8 @@ __ESTREE_TEST__:PASS:
             "end": 72,
             "decorators": [],
             "name": "InnerModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "kind": "module"

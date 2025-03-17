@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 86,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }

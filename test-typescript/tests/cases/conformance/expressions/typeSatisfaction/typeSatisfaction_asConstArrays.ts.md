@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "arr1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -63,13 +64,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 49,
                 "end": 54,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 49,
                   "end": 54,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 117,
             "decorators": [],
             "name": "arr2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -153,13 +157,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 133,
                 "end": 138,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 133,
                   "end": 138,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },

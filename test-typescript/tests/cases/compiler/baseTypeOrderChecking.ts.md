@@ -39,13 +39,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 25,
                       "end": 31,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 25,
                         "end": 31,
                         "decorators": [],
                         "name": "Class2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
                   "end": 24,
                   "decorators": [],
                   "name": "Class4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -86,10 +89,13 @@ __ESTREE_TEST__:PASS:
         "end": 50,
         "decorators": [],
         "name": "Class1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -110,7 +116,8 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "Class2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -119,8 +126,11 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "decorators": [],
         "name": "Class1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -147,7 +157,8 @@ __ESTREE_TEST__:PASS:
               "end": 155,
               "decorators": [],
               "name": "memberVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -161,13 +172,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 157,
                 "end": 163,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 157,
                   "end": 163,
                   "decorators": [],
                   "name": "Class2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -183,10 +196,12 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "Class3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 111,
@@ -197,6 +212,8 @@ __ESTREE_TEST__:PASS:
             "start": 112,
             "end": 113,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -204,7 +221,8 @@ __ESTREE_TEST__:PASS:
               "end": 113,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -230,7 +248,8 @@ __ESTREE_TEST__:PASS:
         "end": 184,
         "decorators": [],
         "name": "Class4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -239,7 +258,8 @@ __ESTREE_TEST__:PASS:
         "end": 202,
         "decorators": [],
         "name": "Class3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -250,13 +270,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 203,
             "end": 204,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 203,
               "end": 204,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -271,6 +293,8 @@ __ESTREE_TEST__:PASS:
             "start": 185,
             "end": 186,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -278,7 +302,8 @@ __ESTREE_TEST__:PASS:
               "end": 186,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

@@ -60,7 +60,8 @@ __ESTREE_TEST__:PASS:
             "end": 23,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -114,13 +116,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 63,
                         "end": 64,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 63,
                           "end": 64,
                           "decorators": [],
                           "name": "U",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -148,9 +152,11 @@ __ESTREE_TEST__:PASS:
         "end": 43,
         "decorators": [],
         "name": "map",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 43,
@@ -161,6 +167,8 @@ __ESTREE_TEST__:PASS:
             "start": 44,
             "end": 45,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -168,7 +176,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "U",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

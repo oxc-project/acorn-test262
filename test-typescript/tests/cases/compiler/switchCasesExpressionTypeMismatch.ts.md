@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "SwitchStatement",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 40,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -234,7 +238,8 @@ __ESTREE_TEST__:PASS:
             "end": 241,
             "decorators": [],
             "name": "q",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -324,7 +329,8 @@ __ESTREE_TEST__:PASS:
         "end": 227,
         "decorators": [],
         "name": "r",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -390,7 +396,8 @@ __ESTREE_TEST__:PASS:
             "end": 420,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -460,7 +467,8 @@ __ESTREE_TEST__:PASS:
         "end": 404,
         "decorators": [],
         "name": "s",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

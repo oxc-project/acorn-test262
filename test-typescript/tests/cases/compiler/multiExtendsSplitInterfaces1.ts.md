@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 4,
             "decorators": [],
             "name": "self",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -42,10 +44,12 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "cancelAnimationFrame",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

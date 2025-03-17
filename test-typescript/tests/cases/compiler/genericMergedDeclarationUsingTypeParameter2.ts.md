@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 15,
             "end": 36,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 26,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -64,18 +66,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 30,
                       "end": 31,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 30,
                         "end": 31,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -88,10 +94,12 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 9,
@@ -102,6 +110,8 @@ __ESTREE_TEST__:PASS:
             "start": 10,
             "end": 11,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -109,7 +119,8 @@ __ESTREE_TEST__:PASS:
               "end": 11,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -155,13 +166,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 70,
                         "end": 71,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 70,
                           "end": 71,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -192,7 +205,8 @@ __ESTREE_TEST__:PASS:
                   "end": 82,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "TSTypeAssertion",
@@ -209,13 +223,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 86,
                     "end": 87,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 86,
                       "end": 87,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -234,7 +250,8 @@ __ESTREE_TEST__:PASS:
         "end": 49,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "MyModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -66,6 +67,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 85,
               "end": 101,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -95,7 +98,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
                 "end": 124,
                 "decorators": [],
                 "name": "brokenMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -180,6 +186,7 @@ __ESTREE_TEST__:PASS:
                                                   "type": "TSTypeReference",
                                                   "start": 249,
                                                   "end": 265,
+                                                  "typeArguments": null,
                                                   "typeName": {
                                                     "type": "TSQualifiedName",
                                                     "start": 249,
@@ -190,7 +197,8 @@ __ESTREE_TEST__:PASS:
                                                       "end": 257,
                                                       "decorators": [],
                                                       "name": "MyModule",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     },
                                                     "right": {
                                                       "type": "Identifier",
@@ -198,7 +206,8 @@ __ESTREE_TEST__:PASS:
                                                       "end": 265,
                                                       "decorators": [],
                                                       "name": "MyModel",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     }
                                                   }
                                                 }
@@ -210,7 +219,8 @@ __ESTREE_TEST__:PASS:
                                               "end": 248,
                                               "decorators": [],
                                               "name": "Array",
-                                              "optional": false
+                                              "optional": false,
+                                              "typeAnnotation": null
                                             }
                                           }
                                         }
@@ -242,7 +252,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 295,
                                         "decorators": [],
                                         "name": "populateItems",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "init": {
                                         "type": "ArrowFunctionExpression",
@@ -277,6 +288,7 @@ __ESTREE_TEST__:PASS:
                                                           "type": "ExpressionStatement",
                                                           "start": 367,
                                                           "end": 493,
+                                                          "directive": null,
                                                           "expression": {
                                                             "type": "CallExpression",
                                                             "start": 367,
@@ -296,6 +308,7 @@ __ESTREE_TEST__:PASS:
                                                                       "type": "ExpressionStatement",
                                                                       "start": 431,
                                                                       "end": 451,
+                                                                      "directive": null,
                                                                       "expression": {
                                                                         "type": "AssignmentExpression",
                                                                         "start": 431,
@@ -312,7 +325,8 @@ __ESTREE_TEST__:PASS:
                                                                             "end": 436,
                                                                             "decorators": [],
                                                                             "name": "order",
-                                                                            "optional": false
+                                                                            "optional": false,
+                                                                            "typeAnnotation": null
                                                                           },
                                                                           "optional": false,
                                                                           "property": {
@@ -321,7 +335,8 @@ __ESTREE_TEST__:PASS:
                                                                             "end": 442,
                                                                             "decorators": [],
                                                                             "name": "items",
-                                                                            "optional": false
+                                                                            "optional": false,
+                                                                            "typeAnnotation": null
                                                                           }
                                                                         },
                                                                         "right": {
@@ -330,7 +345,8 @@ __ESTREE_TEST__:PASS:
                                                                           "end": 450,
                                                                           "decorators": [],
                                                                           "name": "items",
-                                                                          "optional": false
+                                                                          "optional": false,
+                                                                          "typeAnnotation": null
                                                                         }
                                                                       }
                                                                     },
@@ -338,6 +354,7 @@ __ESTREE_TEST__:PASS:
                                                                       "type": "ExpressionStatement",
                                                                       "start": 464,
                                                                       "end": 479,
+                                                                      "directive": null,
                                                                       "expression": {
                                                                         "type": "CallExpression",
                                                                         "start": 464,
@@ -349,7 +366,8 @@ __ESTREE_TEST__:PASS:
                                                                             "end": 477,
                                                                             "decorators": [],
                                                                             "name": "order",
-                                                                            "optional": false
+                                                                            "optional": false,
+                                                                            "typeAnnotation": null
                                                                           }
                                                                         ],
                                                                         "callee": {
@@ -358,9 +376,11 @@ __ESTREE_TEST__:PASS:
                                                                           "end": 471,
                                                                           "decorators": [],
                                                                           "name": "resolve",
-                                                                          "optional": false
+                                                                          "optional": false,
+                                                                          "typeAnnotation": null
                                                                         },
-                                                                        "optional": false
+                                                                        "optional": false,
+                                                                        "typeArguments": null
                                                                       }
                                                                     }
                                                                   ]
@@ -375,9 +395,12 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 412,
                                                                     "decorators": [],
                                                                     "name": "items",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   }
-                                                                ]
+                                                                ],
+                                                                "returnType": null,
+                                                                "typeParameters": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -401,7 +424,8 @@ __ESTREE_TEST__:PASS:
                                                                       "end": 385,
                                                                       "decorators": [],
                                                                       "name": "order",
-                                                                      "optional": false
+                                                                      "optional": false,
+                                                                      "typeAnnotation": null
                                                                     },
                                                                     "optional": false,
                                                                     "property": {
@@ -410,7 +434,8 @@ __ESTREE_TEST__:PASS:
                                                                       "end": 388,
                                                                       "decorators": [],
                                                                       "name": "id",
-                                                                      "optional": false
+                                                                      "optional": false,
+                                                                      "typeAnnotation": null
                                                                     }
                                                                   }
                                                                 ],
@@ -431,10 +456,12 @@ __ESTREE_TEST__:PASS:
                                                                     "end": 379,
                                                                     "decorators": [],
                                                                     "name": "doStuff",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   }
                                                                 },
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeArguments": null
                                                               },
                                                               "optional": false,
                                                               "property": {
@@ -443,10 +470,12 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 405,
                                                                 "decorators": [],
                                                                 "name": "then",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeArguments": null
                                                           }
                                                         }
                                                       ]
@@ -461,7 +490,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 344,
                                                         "decorators": [],
                                                         "name": "resolve",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       {
                                                         "type": "Identifier",
@@ -469,9 +499,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 352,
                                                         "decorators": [],
                                                         "name": "reject",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
-                                                    ]
+                                                    ],
+                                                    "returnType": null,
+                                                    "typeParameters": null
                                                   }
                                                 ],
                                                 "callee": {
@@ -480,8 +513,10 @@ __ESTREE_TEST__:PASS:
                                                   "end": 335,
                                                   "decorators": [],
                                                   "name": "Promise",
-                                                  "optional": false
-                                                }
+                                                  "optional": false,
+                                                  "typeAnnotation": null
+                                                },
+                                                "typeArguments": null
                                               }
                                             }
                                           ]
@@ -496,9 +531,12 @@ __ESTREE_TEST__:PASS:
                                             "end": 304,
                                             "decorators": [],
                                             "name": "order",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
-                                        ]
+                                        ],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     }
                                   ],
@@ -528,6 +566,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 621,
                                               "end": 637,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 621,
@@ -539,7 +578,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 635,
                                                     "decorators": [],
                                                     "name": "orders",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 ],
                                                 "callee": {
@@ -548,9 +588,11 @@ __ESTREE_TEST__:PASS:
                                                   "end": 628,
                                                   "decorators": [],
                                                   "name": "resolve",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             }
                                           ]
@@ -583,6 +625,7 @@ __ESTREE_TEST__:PASS:
                                                       "type": "TSTypeReference",
                                                       "start": 589,
                                                       "end": 605,
+                                                      "typeArguments": null,
                                                       "typeName": {
                                                         "type": "TSQualifiedName",
                                                         "start": 589,
@@ -593,7 +636,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 597,
                                                           "decorators": [],
                                                           "name": "MyModule",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         },
                                                         "right": {
                                                           "type": "Identifier",
@@ -601,7 +645,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 605,
                                                           "decorators": [],
                                                           "name": "MyModel",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       }
                                                     }
@@ -613,12 +658,15 @@ __ESTREE_TEST__:PASS:
                                                   "end": 588,
                                                   "decorators": [],
                                                   "name": "Array",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 }
                                               }
                                             }
                                           }
-                                        ]
+                                        ],
+                                        "returnType": null,
+                                        "typeParameters": null
                                       }
                                     ],
                                     "callee": {
@@ -642,7 +690,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 559,
                                                 "decorators": [],
                                                 "name": "populateItems",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             ],
                                             "callee": {
@@ -656,7 +705,8 @@ __ESTREE_TEST__:PASS:
                                                 "end": 541,
                                                 "decorators": [],
                                                 "name": "result",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
                                               "optional": false,
                                               "property": {
@@ -665,10 +715,12 @@ __ESTREE_TEST__:PASS:
                                                 "end": 545,
                                                 "decorators": [],
                                                 "name": "map",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
-                                            "optional": false
+                                            "optional": false,
+                                            "typeArguments": null
                                           }
                                         ],
                                         "callee": {
@@ -682,7 +734,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 530,
                                             "decorators": [],
                                             "name": "Promise",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           },
                                           "optional": false,
                                           "property": {
@@ -691,10 +744,12 @@ __ESTREE_TEST__:PASS:
                                             "end": 534,
                                             "decorators": [],
                                             "name": "all",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         },
-                                        "optional": false
+                                        "optional": false,
+                                        "typeArguments": null
                                       },
                                       "optional": false,
                                       "property": {
@@ -703,10 +758,12 @@ __ESTREE_TEST__:PASS:
                                         "end": 573,
                                         "decorators": [],
                                         "name": "then",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
-                                    "optional": false
+                                    "optional": false,
+                                    "typeArguments": null
                                   }
                                 }
                               ]
@@ -721,7 +778,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 211,
                                 "decorators": [],
                                 "name": "resolve",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               {
                                 "type": "Identifier",
@@ -729,9 +787,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 219,
                                 "decorators": [],
                                 "name": "reject",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
-                            ]
+                            ],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         ],
                         "callee": {
@@ -740,7 +801,8 @@ __ESTREE_TEST__:PASS:
                           "end": 177,
                           "decorators": [],
                           "name": "Promise",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
@@ -760,6 +822,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSTypeReference",
                                     "start": 184,
                                     "end": 200,
+                                    "typeArguments": null,
                                     "typeName": {
                                       "type": "TSQualifiedName",
                                       "start": 184,
@@ -770,7 +833,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 192,
                                         "decorators": [],
                                         "name": "MyModule",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "right": {
                                         "type": "Identifier",
@@ -778,7 +842,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 200,
                                         "decorators": [],
                                         "name": "MyModel",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   }
@@ -790,7 +855,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 183,
                                 "decorators": [],
                                 "name": "Array",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ]
@@ -840,7 +906,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -856,7 +924,8 @@ __ESTREE_TEST__:PASS:
                 "end": 683,
                 "decorators": [],
                 "name": "doStuff",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -903,7 +972,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -916,10 +987,13 @@ __ESTREE_TEST__:PASS:
           "end": 79,
           "decorators": [],
           "name": "BrokenClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -955,6 +1029,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 31,
               "end": 42,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -962,7 +1037,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33,
                 "decorators": [],
                 "name": "id",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -988,8 +1064,10 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "MyModel",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

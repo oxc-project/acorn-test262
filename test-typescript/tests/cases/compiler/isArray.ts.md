@@ -69,6 +69,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 112,
             "end": 133,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 112,
@@ -85,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "end": 122,
                   "decorators": [],
                   "name": "maybeArray",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -94,10 +96,12 @@ __ESTREE_TEST__:PASS:
                   "end": 130,
                   "decorators": [],
                   "name": "toFixed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -111,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 74,
             "end": 92,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 74,
@@ -122,7 +127,8 @@ __ESTREE_TEST__:PASS:
                 "end": 84,
                 "decorators": [],
                 "name": "maybeArray",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -131,7 +137,8 @@ __ESTREE_TEST__:PASS:
                 "end": 91,
                 "decorators": [],
                 "name": "length",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -148,7 +155,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "maybeArray",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -162,7 +170,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "Array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -171,10 +180,12 @@ __ESTREE_TEST__:PASS:
             "end": 54,
             "decorators": [],
             "name": "isArray",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

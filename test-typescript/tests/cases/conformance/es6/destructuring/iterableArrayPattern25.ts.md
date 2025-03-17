@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "takeFirstTwoEntries",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
                     "end": 36,
                     "decorators": [],
                     "name": "k1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -58,10 +60,12 @@ __ESTREE_TEST__:PASS:
                     "end": 40,
                     "decorators": [],
                     "name": "v1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "ArrayPattern",
@@ -75,7 +79,8 @@ __ESTREE_TEST__:PASS:
                     "end": 46,
                     "decorators": [],
                     "name": "k2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -83,23 +88,31 @@ __ESTREE_TEST__:PASS:
                     "end": 50,
                     "decorators": [],
                     "name": "v2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null,
+          "value": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 112,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 58,
@@ -166,8 +179,10 @@ __ESTREE_TEST__:PASS:
               "end": 85,
               "decorators": [],
               "name": "Map",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -176,9 +191,11 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "decorators": [],
           "name": "takeFirstTwoEntries",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

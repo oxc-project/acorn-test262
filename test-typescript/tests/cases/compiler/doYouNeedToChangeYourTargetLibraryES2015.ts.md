@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "noOp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -37,7 +38,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -60,7 +63,8 @@ __ESTREE_TEST__:PASS:
             "end": 55,
             "decorators": [],
             "name": "testReflectApply",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
                 "end": 76,
                 "decorators": [],
                 "name": "noOp",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "ThisExpression",
@@ -98,7 +103,8 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -107,10 +113,12 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "decorators": [],
                 "name": "apply",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -133,7 +141,8 @@ __ESTREE_TEST__:PASS:
             "end": 115,
             "decorators": [],
             "name": "testReflectConstruct",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -146,7 +155,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "decorators": [],
                 "name": "noOp",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "ArrayExpression",
@@ -166,7 +176,8 @@ __ESTREE_TEST__:PASS:
                 "end": 125,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -175,10 +186,12 @@ __ESTREE_TEST__:PASS:
                 "end": 135,
                 "decorators": [],
                 "name": "construct",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -201,7 +214,8 @@ __ESTREE_TEST__:PASS:
             "end": 178,
             "decorators": [],
             "name": "testReflectDefineProperty",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -239,7 +253,8 @@ __ESTREE_TEST__:PASS:
                 "end": 188,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -248,10 +263,12 @@ __ESTREE_TEST__:PASS:
                 "end": 203,
                 "decorators": [],
                 "name": "defineProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -274,7 +291,8 @@ __ESTREE_TEST__:PASS:
             "end": 248,
             "decorators": [],
             "name": "testReflectDeleteProperty",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -306,7 +324,8 @@ __ESTREE_TEST__:PASS:
                 "end": 258,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -315,10 +334,12 @@ __ESTREE_TEST__:PASS:
                 "end": 273,
                 "decorators": [],
                 "name": "deleteProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -341,7 +362,8 @@ __ESTREE_TEST__:PASS:
             "end": 303,
             "decorators": [],
             "name": "testReflectGet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -373,7 +395,8 @@ __ESTREE_TEST__:PASS:
                 "end": 313,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -382,10 +405,12 @@ __ESTREE_TEST__:PASS:
                 "end": 317,
                 "decorators": [],
                 "name": "get",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -408,7 +433,8 @@ __ESTREE_TEST__:PASS:
             "end": 368,
             "decorators": [],
             "name": "testReflectGetOwnPropertyDescriptor",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -440,7 +466,8 @@ __ESTREE_TEST__:PASS:
                 "end": 378,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -449,10 +476,12 @@ __ESTREE_TEST__:PASS:
                 "end": 403,
                 "decorators": [],
                 "name": "getOwnPropertyDescriptor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -475,7 +504,8 @@ __ESTREE_TEST__:PASS:
             "end": 444,
             "decorators": [],
             "name": "testReflectGetPrototypeOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -500,7 +530,8 @@ __ESTREE_TEST__:PASS:
                 "end": 454,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -509,10 +540,12 @@ __ESTREE_TEST__:PASS:
                 "end": 469,
                 "decorators": [],
                 "name": "getPrototypeOf",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -535,7 +568,8 @@ __ESTREE_TEST__:PASS:
             "end": 504,
             "decorators": [],
             "name": "testReflectIsExtensible",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -560,7 +594,8 @@ __ESTREE_TEST__:PASS:
                 "end": 514,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -569,10 +604,12 @@ __ESTREE_TEST__:PASS:
                 "end": 527,
                 "decorators": [],
                 "name": "isExtensible",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -595,7 +632,8 @@ __ESTREE_TEST__:PASS:
             "end": 557,
             "decorators": [],
             "name": "testReflectOwnKeys",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -620,7 +658,8 @@ __ESTREE_TEST__:PASS:
                 "end": 567,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -629,10 +668,12 @@ __ESTREE_TEST__:PASS:
                 "end": 575,
                 "decorators": [],
                 "name": "ownKeys",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -655,7 +696,8 @@ __ESTREE_TEST__:PASS:
             "end": 615,
             "decorators": [],
             "name": "testReflectPreventExtensions",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -680,7 +722,8 @@ __ESTREE_TEST__:PASS:
                 "end": 625,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -689,10 +732,12 @@ __ESTREE_TEST__:PASS:
                 "end": 643,
                 "decorators": [],
                 "name": "preventExtensions",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -715,7 +760,8 @@ __ESTREE_TEST__:PASS:
             "end": 669,
             "decorators": [],
             "name": "testReflectSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -754,7 +800,8 @@ __ESTREE_TEST__:PASS:
                 "end": 679,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -763,10 +810,12 @@ __ESTREE_TEST__:PASS:
                 "end": 683,
                 "decorators": [],
                 "name": "set",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -789,7 +838,8 @@ __ESTREE_TEST__:PASS:
             "end": 727,
             "decorators": [],
             "name": "testReflectSetPrototypeOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -820,7 +870,8 @@ __ESTREE_TEST__:PASS:
                 "end": 737,
                 "decorators": [],
                 "name": "Reflect",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -829,10 +880,12 @@ __ESTREE_TEST__:PASS:
                 "end": 752,
                 "decorators": [],
                 "name": "setPrototypeOf",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -855,7 +908,8 @@ __ESTREE_TEST__:PASS:
             "end": 782,
             "decorators": [],
             "name": "testArrayFind",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -896,7 +950,8 @@ __ESTREE_TEST__:PASS:
                     "end": 799,
                     "decorators": [],
                     "name": "val",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -904,7 +959,8 @@ __ESTREE_TEST__:PASS:
                     "end": 804,
                     "decorators": [],
                     "name": "idx",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -912,9 +968,12 @@ __ESTREE_TEST__:PASS:
                     "end": 809,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             ],
             "callee": {
@@ -943,10 +1002,12 @@ __ESTREE_TEST__:PASS:
                 "end": 794,
                 "decorators": [],
                 "name": "find",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -969,7 +1030,8 @@ __ESTREE_TEST__:PASS:
             "end": 861,
             "decorators": [],
             "name": "testArrayFindIndex",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1010,7 +1072,8 @@ __ESTREE_TEST__:PASS:
                     "end": 883,
                     "decorators": [],
                     "name": "val",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -1018,7 +1081,8 @@ __ESTREE_TEST__:PASS:
                     "end": 888,
                     "decorators": [],
                     "name": "idx",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -1026,9 +1090,12 @@ __ESTREE_TEST__:PASS:
                     "end": 893,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             ],
             "callee": {
@@ -1057,10 +1124,12 @@ __ESTREE_TEST__:PASS:
                 "end": 878,
                 "decorators": [],
                 "name": "findIndex",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1083,7 +1152,8 @@ __ESTREE_TEST__:PASS:
             "end": 940,
             "decorators": [],
             "name": "testArrayFill",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1124,10 +1194,12 @@ __ESTREE_TEST__:PASS:
                 "end": 952,
                 "decorators": [],
                 "name": "fill",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1150,7 +1222,8 @@ __ESTREE_TEST__:PASS:
             "end": 987,
             "decorators": [],
             "name": "testArrayCopyWithin",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1198,10 +1271,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1005,
                 "decorators": [],
                 "name": "copyWithin",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1224,7 +1299,8 @@ __ESTREE_TEST__:PASS:
             "end": 1035,
             "decorators": [],
             "name": "testArrayEntries",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1257,10 +1333,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1050,
                 "decorators": [],
                 "name": "entries",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1283,7 +1361,8 @@ __ESTREE_TEST__:PASS:
             "end": 1073,
             "decorators": [],
             "name": "testArrayKeys",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1316,10 +1395,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1085,
                 "decorators": [],
                 "name": "keys",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1342,7 +1423,8 @@ __ESTREE_TEST__:PASS:
             "end": 1110,
             "decorators": [],
             "name": "testArrayValues",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1375,10 +1457,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1124,
                 "decorators": [],
                 "name": "values",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1401,7 +1485,8 @@ __ESTREE_TEST__:PASS:
             "end": 1158,
             "decorators": [],
             "name": "testArrayConstructorFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1426,7 +1511,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1166,
                 "decorators": [],
                 "name": "Array",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1435,10 +1521,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1171,
                 "decorators": [],
                 "name": "from",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1461,7 +1549,8 @@ __ESTREE_TEST__:PASS:
             "end": 1205,
             "decorators": [],
             "name": "testArrayConstructorOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1486,7 +1575,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1213,
                 "decorators": [],
                 "name": "Array",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1495,10 +1585,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1216,
                 "decorators": [],
                 "name": "of",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1521,7 +1613,8 @@ __ESTREE_TEST__:PASS:
             "end": 1255,
             "decorators": [],
             "name": "testObjectConstructorAssign",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1552,7 +1645,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1264,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1561,10 +1655,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1271,
                 "decorators": [],
                 "name": "assign",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1587,7 +1683,8 @@ __ESTREE_TEST__:PASS:
             "end": 1329,
             "decorators": [],
             "name": "testObjectConstructorGetOwnPropertySymbols",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1612,7 +1709,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1338,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1621,10 +1719,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1360,
                 "decorators": [],
                 "name": "getOwnPropertySymbols",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1647,7 +1747,8 @@ __ESTREE_TEST__:PASS:
             "end": 1397,
             "decorators": [],
             "name": "testObjectConstructorKeys",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1672,7 +1773,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1406,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1681,10 +1783,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1411,
                 "decorators": [],
                 "name": "keys",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1707,7 +1811,8 @@ __ESTREE_TEST__:PASS:
             "end": 1446,
             "decorators": [],
             "name": "testObjectConstructorIs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1738,7 +1843,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1455,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1747,10 +1853,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1458,
                 "decorators": [],
                 "name": "is",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1773,7 +1881,8 @@ __ESTREE_TEST__:PASS:
             "end": 1509,
             "decorators": [],
             "name": "testObjectConstructorSetPrototypeOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1804,7 +1913,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1518,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1813,10 +1923,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1533,
                 "decorators": [],
                 "name": "setPrototypeOf",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1839,7 +1951,8 @@ __ESTREE_TEST__:PASS:
             "end": 1578,
             "decorators": [],
             "name": "testNumberConstructorIsFinite",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1865,7 +1978,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1587,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1874,10 +1988,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1596,
                 "decorators": [],
                 "name": "isFinite",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1900,7 +2016,8 @@ __ESTREE_TEST__:PASS:
             "end": 1637,
             "decorators": [],
             "name": "testNumberConstructorIsInteger",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1926,7 +2043,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1646,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1935,10 +2053,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1656,
                 "decorators": [],
                 "name": "isInteger",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1961,7 +2081,8 @@ __ESTREE_TEST__:PASS:
             "end": 1693,
             "decorators": [],
             "name": "testNumberConstructorIsNan",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1987,7 +2108,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1702,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1996,10 +2118,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1708,
                 "decorators": [],
                 "name": "isNaN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2022,7 +2146,8 @@ __ESTREE_TEST__:PASS:
             "end": 1753,
             "decorators": [],
             "name": "testNumberConstructorIsSafeInteger",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2048,7 +2173,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1762,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2057,10 +2183,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1776,
                 "decorators": [],
                 "name": "isSafeInteger",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2083,7 +2211,8 @@ __ESTREE_TEST__:PASS:
             "end": 1818,
             "decorators": [],
             "name": "testNumberConstructorParseFloat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2109,7 +2238,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1827,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2118,10 +2248,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1838,
                 "decorators": [],
                 "name": "parseFloat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2144,7 +2276,8 @@ __ESTREE_TEST__:PASS:
             "end": 1880,
             "decorators": [],
             "name": "testNumberConstructorParseInt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2170,7 +2303,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1889,
                 "decorators": [],
                 "name": "Number",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2179,10 +2313,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1898,
                 "decorators": [],
                 "name": "parseInt",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2205,7 +2341,8 @@ __ESTREE_TEST__:PASS:
             "end": 1924,
             "decorators": [],
             "name": "testMathClz32",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2231,7 +2368,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1931,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2240,10 +2378,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1937,
                 "decorators": [],
                 "name": "clz32",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2266,7 +2406,8 @@ __ESTREE_TEST__:PASS:
             "end": 1960,
             "decorators": [],
             "name": "testMathImul",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2299,7 +2440,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1967,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2308,10 +2450,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1972,
                 "decorators": [],
                 "name": "imul",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2334,7 +2478,8 @@ __ESTREE_TEST__:PASS:
             "end": 1997,
             "decorators": [],
             "name": "testMathSign",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2360,7 +2505,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2004,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2369,10 +2515,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2009,
                 "decorators": [],
                 "name": "sign",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2395,7 +2543,8 @@ __ESTREE_TEST__:PASS:
             "end": 2033,
             "decorators": [],
             "name": "testMathLog10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2421,7 +2570,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2040,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2430,10 +2580,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2046,
                 "decorators": [],
                 "name": "log10",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2456,7 +2608,8 @@ __ESTREE_TEST__:PASS:
             "end": 2069,
             "decorators": [],
             "name": "testMathLog2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2482,7 +2635,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2076,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2491,10 +2645,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2081,
                 "decorators": [],
                 "name": "log2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2517,7 +2673,8 @@ __ESTREE_TEST__:PASS:
             "end": 2105,
             "decorators": [],
             "name": "testMathLog1p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2543,7 +2700,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2112,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2552,10 +2710,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2118,
                 "decorators": [],
                 "name": "log1p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2578,7 +2738,8 @@ __ESTREE_TEST__:PASS:
             "end": 2142,
             "decorators": [],
             "name": "testMathExpm1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2604,7 +2765,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2149,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2613,10 +2775,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2155,
                 "decorators": [],
                 "name": "expm1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2639,7 +2803,8 @@ __ESTREE_TEST__:PASS:
             "end": 2178,
             "decorators": [],
             "name": "testMathCosh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2665,7 +2830,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2185,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2674,10 +2840,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2190,
                 "decorators": [],
                 "name": "cosh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2700,7 +2868,8 @@ __ESTREE_TEST__:PASS:
             "end": 2213,
             "decorators": [],
             "name": "testMathSinh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2726,7 +2895,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2220,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2735,10 +2905,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2225,
                 "decorators": [],
                 "name": "sinh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2761,7 +2933,8 @@ __ESTREE_TEST__:PASS:
             "end": 2248,
             "decorators": [],
             "name": "testMathTanh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2787,7 +2960,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2255,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2796,10 +2970,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2260,
                 "decorators": [],
                 "name": "tanh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2822,7 +2998,8 @@ __ESTREE_TEST__:PASS:
             "end": 2284,
             "decorators": [],
             "name": "testMathAcosh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2848,7 +3025,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2291,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2857,10 +3035,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2297,
                 "decorators": [],
                 "name": "acosh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2883,7 +3063,8 @@ __ESTREE_TEST__:PASS:
             "end": 2321,
             "decorators": [],
             "name": "testMathAsinh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2909,7 +3090,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2328,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2918,10 +3100,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2334,
                 "decorators": [],
                 "name": "asinh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2944,7 +3128,8 @@ __ESTREE_TEST__:PASS:
             "end": 2358,
             "decorators": [],
             "name": "testMathAtanh",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2970,7 +3155,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2365,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2979,10 +3165,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2371,
                 "decorators": [],
                 "name": "atanh",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3005,7 +3193,8 @@ __ESTREE_TEST__:PASS:
             "end": 2395,
             "decorators": [],
             "name": "testMathHypot",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3038,7 +3227,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2402,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3047,10 +3237,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2408,
                 "decorators": [],
                 "name": "hypot",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3073,7 +3265,8 @@ __ESTREE_TEST__:PASS:
             "end": 2434,
             "decorators": [],
             "name": "testMathTrunc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3099,7 +3292,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2441,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3108,10 +3302,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2447,
                 "decorators": [],
                 "name": "trunc",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3134,7 +3330,8 @@ __ESTREE_TEST__:PASS:
             "end": 2472,
             "decorators": [],
             "name": "testMathFround",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3160,7 +3357,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2479,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3169,10 +3367,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2486,
                 "decorators": [],
                 "name": "fround",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3195,7 +3395,8 @@ __ESTREE_TEST__:PASS:
             "end": 2509,
             "decorators": [],
             "name": "testMathCbrt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3221,7 +3422,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2516,
                 "decorators": [],
                 "name": "Math",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3230,10 +3432,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2521,
                 "decorators": [],
                 "name": "cbrt",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3288,7 +3492,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2544,
                   "decorators": [],
                   "name": "Map",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -3358,7 +3563,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2588,
                   "decorators": [],
                   "name": "Set",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -3401,7 +3607,8 @@ __ESTREE_TEST__:PASS:
             "end": 2629,
             "decorators": [],
             "name": "testPromiseAll",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3426,7 +3633,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2639,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3435,10 +3643,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2643,
                 "decorators": [],
                 "name": "all",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3461,7 +3671,8 @@ __ESTREE_TEST__:PASS:
             "end": 2670,
             "decorators": [],
             "name": "testPromiseRace",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3486,7 +3697,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2680,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3495,10 +3707,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2685,
                 "decorators": [],
                 "name": "race",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3521,7 +3735,8 @@ __ESTREE_TEST__:PASS:
             "end": 2715,
             "decorators": [],
             "name": "testPromiseResolve",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3539,7 +3754,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2725,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3548,10 +3764,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2733,
                 "decorators": [],
                 "name": "resolve",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3574,7 +3792,8 @@ __ESTREE_TEST__:PASS:
             "end": 2760,
             "decorators": [],
             "name": "testPromiseReject",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3592,7 +3811,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2770,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3601,10 +3821,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2777,
                 "decorators": [],
                 "name": "reject",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3627,7 +3849,8 @@ __ESTREE_TEST__:PASS:
             "end": 2800,
             "decorators": [],
             "name": "testSymbolFor",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3653,7 +3876,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2809,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3662,10 +3886,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2813,
                 "decorators": [],
                 "name": "for",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3688,7 +3914,8 @@ __ESTREE_TEST__:PASS:
             "end": 2842,
             "decorators": [],
             "name": "testSymbolKeyFor",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -3701,7 +3928,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2872,
                 "decorators": [],
                 "name": "testSymbolFor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -3715,7 +3943,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2851,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3724,10 +3953,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2858,
                 "decorators": [],
                 "name": "keyFor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -3782,7 +4013,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2901,
                   "decorators": [],
                   "name": "WeakMap",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -3857,7 +4089,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2953,
                   "decorators": [],
                   "name": "WeakMap",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -3937,7 +4170,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3007,
                   "decorators": [],
                   "name": "Iterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -4017,7 +4251,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3076,
                   "decorators": [],
                   "name": "AsyncIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -4060,7 +4295,8 @@ __ESTREE_TEST__:PASS:
             "end": 3134,
             "decorators": [],
             "name": "testStringCodePointAt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4094,10 +4330,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3151,
                 "decorators": [],
                 "name": "codePointAt",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4120,7 +4358,8 @@ __ESTREE_TEST__:PASS:
             "end": 3180,
             "decorators": [],
             "name": "testStringIncludes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4154,10 +4393,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3194,
                 "decorators": [],
                 "name": "includes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4180,7 +4421,8 @@ __ESTREE_TEST__:PASS:
             "end": 3224,
             "decorators": [],
             "name": "testStringEndsWith",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4214,10 +4456,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3238,
                 "decorators": [],
                 "name": "endsWith",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4240,7 +4484,8 @@ __ESTREE_TEST__:PASS:
             "end": 3269,
             "decorators": [],
             "name": "testStringNormalize",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4266,10 +4511,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3284,
                 "decorators": [],
                 "name": "normalize",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4292,7 +4539,8 @@ __ESTREE_TEST__:PASS:
             "end": 3310,
             "decorators": [],
             "name": "testStringRepeat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4326,10 +4574,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3322,
                 "decorators": [],
                 "name": "repeat",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4352,7 +4602,8 @@ __ESTREE_TEST__:PASS:
             "end": 3353,
             "decorators": [],
             "name": "testStringStartsWith",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4386,10 +4637,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3369,
                 "decorators": [],
                 "name": "startsWith",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4412,7 +4665,8 @@ __ESTREE_TEST__:PASS:
             "end": 3397,
             "decorators": [],
             "name": "testStringAnchor",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4446,10 +4700,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3409,
                 "decorators": [],
                 "name": "anchor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4472,7 +4728,8 @@ __ESTREE_TEST__:PASS:
             "end": 3434,
             "decorators": [],
             "name": "testStringBig",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4498,10 +4755,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3443,
                 "decorators": [],
                 "name": "big",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4524,7 +4783,8 @@ __ESTREE_TEST__:PASS:
             "end": 3468,
             "decorators": [],
             "name": "testStringBlink",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4550,10 +4810,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3479,
                 "decorators": [],
                 "name": "blink",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4576,7 +4838,8 @@ __ESTREE_TEST__:PASS:
             "end": 3503,
             "decorators": [],
             "name": "testStringBold",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4602,10 +4865,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3513,
                 "decorators": [],
                 "name": "bold",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4628,7 +4893,8 @@ __ESTREE_TEST__:PASS:
             "end": 3538,
             "decorators": [],
             "name": "testStringFixed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4654,10 +4920,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3549,
                 "decorators": [],
                 "name": "fixed",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4680,7 +4948,8 @@ __ESTREE_TEST__:PASS:
             "end": 3578,
             "decorators": [],
             "name": "testStringFontColor",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4714,10 +4983,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3593,
                 "decorators": [],
                 "name": "fontcolor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4740,7 +5011,8 @@ __ESTREE_TEST__:PASS:
             "end": 3627,
             "decorators": [],
             "name": "testStringFontSize",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4774,10 +5046,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3641,
                 "decorators": [],
                 "name": "fontsize",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4800,7 +5074,8 @@ __ESTREE_TEST__:PASS:
             "end": 3669,
             "decorators": [],
             "name": "testStringItalics",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4826,10 +5101,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3682,
                 "decorators": [],
                 "name": "italics",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4852,7 +5129,8 @@ __ESTREE_TEST__:PASS:
             "end": 3706,
             "decorators": [],
             "name": "testStringLink",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4886,10 +5164,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3716,
                 "decorators": [],
                 "name": "link",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4912,7 +5192,8 @@ __ESTREE_TEST__:PASS:
             "end": 3743,
             "decorators": [],
             "name": "testStringSmall",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4938,10 +5219,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3754,
                 "decorators": [],
                 "name": "small",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -4964,7 +5247,8 @@ __ESTREE_TEST__:PASS:
             "end": 3780,
             "decorators": [],
             "name": "testStringStrike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -4990,10 +5274,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3792,
                 "decorators": [],
                 "name": "strike",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -5016,7 +5302,8 @@ __ESTREE_TEST__:PASS:
             "end": 3815,
             "decorators": [],
             "name": "testStringSub",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -5042,10 +5329,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3824,
                 "decorators": [],
                 "name": "sub",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -5068,7 +5357,8 @@ __ESTREE_TEST__:PASS:
             "end": 3847,
             "decorators": [],
             "name": "testStringSup",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -5094,10 +5384,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3856,
                 "decorators": [],
                 "name": "sup",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -5120,7 +5412,8 @@ __ESTREE_TEST__:PASS:
             "end": 3900,
             "decorators": [],
             "name": "testStringConstructorFromCodePoint",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -5138,7 +5431,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3909,
                 "decorators": [],
                 "name": "String",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -5147,10 +5441,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3923,
                 "decorators": [],
                 "name": "fromCodePoint",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -5173,7 +5469,8 @@ __ESTREE_TEST__:PASS:
             "end": 3957,
             "decorators": [],
             "name": "testStringConstructorRaw",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TaggedTemplateExpression",
@@ -5208,7 +5505,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3966,
                 "decorators": [],
                 "name": "String",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -5217,9 +5515,11 @@ __ESTREE_TEST__:PASS:
                 "end": 3970,
                 "decorators": [],
                 "name": "raw",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -5242,7 +5542,8 @@ __ESTREE_TEST__:PASS:
             "end": 3995,
             "decorators": [],
             "name": "testRegExpFlags",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -5267,7 +5568,8 @@ __ESTREE_TEST__:PASS:
               "end": 4010,
               "decorators": [],
               "name": "flags",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -5291,7 +5593,8 @@ __ESTREE_TEST__:PASS:
             "end": 4034,
             "decorators": [],
             "name": "testRegExpSticky",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -5316,7 +5619,8 @@ __ESTREE_TEST__:PASS:
               "end": 4050,
               "decorators": [],
               "name": "sticky",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -5340,7 +5644,8 @@ __ESTREE_TEST__:PASS:
             "end": 4075,
             "decorators": [],
             "name": "testRegExpUnicode",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -5365,7 +5670,8 @@ __ESTREE_TEST__:PASS:
               "end": 4092,
               "decorators": [],
               "name": "unicode",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

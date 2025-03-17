@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 19,
               "end": 31,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -62,10 +64,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -93,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 72,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -134,7 +140,8 @@ __ESTREE_TEST__:PASS:
                 "end": 177,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "MemberExpression",
@@ -147,7 +154,8 @@ __ESTREE_TEST__:PASS:
                   "end": 192,
                   "decorators": [],
                   "name": "Bar",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -156,7 +164,8 @@ __ESTREE_TEST__:PASS:
                   "end": 196,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -172,7 +181,8 @@ __ESTREE_TEST__:PASS:
         "end": 137,
         "decorators": [],
         "name": "IsFoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -203,7 +213,8 @@ __ESTREE_TEST__:PASS:
           "start": 151,
           "end": 158
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

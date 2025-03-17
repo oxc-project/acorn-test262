@@ -39,6 +39,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 65,
                         "end": 76,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 65,
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                             "end": 74,
                             "decorators": [],
                             "name": "foo",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "delegate": false
                         }
@@ -65,9 +67,12 @@ __ESTREE_TEST__:PASS:
                     "end": 54,
                     "decorators": [],
                     "name": "quux",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ]
             },
@@ -80,9 +85,12 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -95,9 +103,12 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

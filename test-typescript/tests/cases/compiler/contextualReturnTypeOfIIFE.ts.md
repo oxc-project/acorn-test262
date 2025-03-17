@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25,
                             "decorators": [],
                             "name": "one",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false
                         },
@@ -74,7 +75,8 @@ __ESTREE_TEST__:PASS:
                             "end": 38,
                             "decorators": [],
                             "name": "two",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false
                         }
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
                   "end": 20,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -139,9 +142,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -198,7 +204,8 @@ __ESTREE_TEST__:PASS:
                             "end": 121,
                             "decorators": [],
                             "name": "one",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false
                         },
@@ -217,7 +224,8 @@ __ESTREE_TEST__:PASS:
                             "end": 134,
                             "decorators": [],
                             "name": "two",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false
                         }
@@ -231,7 +239,8 @@ __ESTREE_TEST__:PASS:
                   "end": 116,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -279,9 +288,11 @@ __ESTREE_TEST__:PASS:
                     "end": 184,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 },
                 "expression": true,
                 "generator": false,
@@ -293,9 +304,12 @@ __ESTREE_TEST__:PASS:
                     "end": 172,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             ],
             "callee": {
@@ -304,8 +318,10 @@ __ESTREE_TEST__:PASS:
               "end": 158,
               "decorators": [],
               "name": "Promise",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -342,6 +358,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 215,
                     "end": 246,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -349,7 +366,8 @@ __ESTREE_TEST__:PASS:
                       "end": 218,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -378,7 +396,8 @@ __ESTREE_TEST__:PASS:
                               "end": 224,
                               "decorators": [],
                               "name": "one",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           },
@@ -397,7 +416,8 @@ __ESTREE_TEST__:PASS:
                               "end": 237,
                               "decorators": [],
                               "name": "two",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false
                           }
@@ -425,7 +445,8 @@ __ESTREE_TEST__:PASS:
                   "end": 260,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -465,9 +486,12 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ]

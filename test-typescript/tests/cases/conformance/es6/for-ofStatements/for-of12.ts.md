@@ -56,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "v",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "right": {
         "type": "CallExpression",
@@ -96,10 +97,12 @@ __ESTREE_TEST__:PASS:
             "end": 55,
             "decorators": [],
             "name": "values",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

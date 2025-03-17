@@ -86,6 +86,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 72,
       "end": 91,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 72,
@@ -97,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "end": 83,
           "decorators": [],
           "name": "exportedFoo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -112,6 +114,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 92,
       "end": 114,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 92,
@@ -123,7 +126,8 @@ __ESTREE_TEST__:PASS:
           "end": 106,
           "decorators": [],
           "name": "nonexportedFoo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -159,6 +163,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 453,
                   "end": 501,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 454,
@@ -182,7 +187,8 @@ __ESTREE_TEST__:PASS:
                               "end": 467,
                               "decorators": [],
                               "name": "exportedFoo",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             {
                               "type": "Identifier",
@@ -190,13 +196,16 @@ __ESTREE_TEST__:PASS:
                               "end": 483,
                               "decorators": [],
                               "name": "nonexportedFoo",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "TSAsExpression",
@@ -228,6 +237,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 396,
                   "end": 442,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 397,
@@ -245,7 +255,8 @@ __ESTREE_TEST__:PASS:
                           "end": 409,
                           "decorators": [],
                           "name": "exportedFoo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "Identifier",
@@ -253,10 +264,12 @@ __ESTREE_TEST__:PASS:
                           "end": 425,
                           "decorators": [],
                           "name": "nonexportedFoo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "TSAsExpression",
@@ -306,6 +319,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 301,
                 "end": 368,
+                "directive": null,
                 "expression": {
                   "type": "AssignmentExpression",
                   "start": 302,
@@ -329,7 +343,8 @@ __ESTREE_TEST__:PASS:
                           "end": 307,
                           "decorators": [],
                           "name": "foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -353,7 +368,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 314,
                                 "decorators": [],
                                 "name": "bar",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "init",
                               "method": false,
@@ -365,7 +381,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 327,
                                 "decorators": [],
                                 "name": "exportedFoo",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             {
@@ -379,7 +396,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 332,
                                 "decorators": [],
                                 "name": "baz",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "init",
                               "method": false,
@@ -391,13 +409,16 @@ __ESTREE_TEST__:PASS:
                                 "end": 348,
                                 "decorators": [],
                                 "name": "nonexportedFoo",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
-                          ]
+                          ],
+                          "typeAnnotation": null
                         }
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "TSAsExpression",
@@ -447,6 +468,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 215,
               "end": 273,
+              "directive": null,
               "expression": {
                 "type": "AssignmentExpression",
                 "start": 216,
@@ -470,7 +492,8 @@ __ESTREE_TEST__:PASS:
                         "end": 221,
                         "decorators": [],
                         "name": "foo",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -482,7 +505,8 @@ __ESTREE_TEST__:PASS:
                         "end": 234,
                         "decorators": [],
                         "name": "exportedFoo",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -496,7 +520,8 @@ __ESTREE_TEST__:PASS:
                         "end": 239,
                         "decorators": [],
                         "name": "bar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -508,10 +533,12 @@ __ESTREE_TEST__:PASS:
                         "end": 255,
                         "decorators": [],
                         "name": "nonexportedFoo",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  ]
+                  ],
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "TSAsExpression",
@@ -561,6 +588,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 139,
             "end": 187,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 140,
@@ -584,7 +612,8 @@ __ESTREE_TEST__:PASS:
                       "end": 153,
                       "decorators": [],
                       "name": "exportedFoo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -596,7 +625,8 @@ __ESTREE_TEST__:PASS:
                       "end": 153,
                       "decorators": [],
                       "name": "exportedFoo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -610,7 +640,8 @@ __ESTREE_TEST__:PASS:
                       "end": 169,
                       "decorators": [],
                       "name": "nonexportedFoo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -622,10 +653,12 @@ __ESTREE_TEST__:PASS:
                       "end": 169,
                       "decorators": [],
                       "name": "nonexportedFoo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "typeAnnotation": null
               },
               "right": {
                 "type": "TSAsExpression",
@@ -685,7 +718,8 @@ __ESTREE_TEST__:PASS:
             "end": 528,
             "decorators": [],
             "name": "nonexportedFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -694,7 +728,8 @@ __ESTREE_TEST__:PASS:
             "end": 528,
             "decorators": [],
             "name": "nonexportedFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -718,7 +753,8 @@ __ESTREE_TEST__:PASS:
             "end": 559,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -727,7 +763,8 @@ __ESTREE_TEST__:PASS:
             "end": 552,
             "decorators": [],
             "name": "exportedFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -740,7 +777,8 @@ __ESTREE_TEST__:PASS:
             "end": 583,
             "decorators": [],
             "name": "nfoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -749,7 +787,8 @@ __ESTREE_TEST__:PASS:
             "end": 575,
             "decorators": [],
             "name": "nonexportedFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

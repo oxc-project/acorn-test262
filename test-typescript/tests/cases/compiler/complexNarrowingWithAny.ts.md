@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4024,
                     "end": 4042,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -41,7 +42,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4035,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -69,9 +71,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4039,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -84,10 +89,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4019,
                 "decorators": [],
                 "name": "FormGroupDirective",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -103,7 +111,8 @@ __ESTREE_TEST__:PASS:
         "end": 3984,
         "decorators": [],
         "name": "import44",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -135,6 +144,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4104,
                     "end": 4122,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -143,7 +153,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4115,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -171,9 +182,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4119,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -186,10 +200,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4099,
                 "decorators": [],
                 "name": "NgControlStatus",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -214,6 +231,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4165,
                     "end": 4183,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -222,7 +240,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4176,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -250,9 +269,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4180,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -265,10 +287,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4160,
                 "decorators": [],
                 "name": "NgControlStatusGroup",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -284,7 +309,8 @@ __ESTREE_TEST__:PASS:
         "end": 4067,
         "decorators": [],
         "name": "import45",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -316,6 +342,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4250,
                     "end": 4268,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -324,7 +351,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4261,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -352,9 +380,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4265,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -367,10 +398,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4245,
                 "decorators": [],
                 "name": "DefaultValueAccessor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -386,7 +420,8 @@ __ESTREE_TEST__:PASS:
         "end": 4208,
         "decorators": [],
         "name": "import46",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -418,6 +453,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4330,
                     "end": 4348,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -426,7 +462,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4341,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -454,9 +491,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4345,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -469,10 +509,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4325,
                 "decorators": [],
                 "name": "FormControlName",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -488,7 +531,8 @@ __ESTREE_TEST__:PASS:
         "end": 4293,
         "decorators": [],
         "name": "import47",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -520,6 +564,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4410,
                     "end": 4428,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -528,7 +573,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4421,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -556,9 +602,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4425,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -571,10 +620,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4405,
                 "decorators": [],
                 "name": "FormControlName",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -590,7 +642,8 @@ __ESTREE_TEST__:PASS:
         "end": 4373,
         "decorators": [],
         "name": "import48",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -624,7 +677,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4689,
                     "decorators": [],
                     "name": "NG_VALUE_ACCESSOR",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -645,8 +699,10 @@ __ESTREE_TEST__:PASS:
                       "end": 4702,
                       "decorators": [],
                       "name": "String",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -667,7 +723,8 @@ __ESTREE_TEST__:PASS:
         "end": 4521,
         "decorators": [],
         "name": "import49",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -699,6 +756,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4911,
                     "end": 4929,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -707,7 +765,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4922,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -735,9 +794,12 @@ __ESTREE_TEST__:PASS:
                           "end": 4926,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -750,10 +812,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4906,
                 "decorators": [],
                 "name": "NgControl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -769,7 +834,8 @@ __ESTREE_TEST__:PASS:
         "end": 4880,
         "decorators": [],
         "name": "import50",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -801,6 +867,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 4992,
                     "end": 5010,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -809,7 +876,8 @@ __ESTREE_TEST__:PASS:
                       "end": 5003,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -837,9 +905,12 @@ __ESTREE_TEST__:PASS:
                           "end": 5007,
                           "decorators": [],
                           "name": "any",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -852,10 +923,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4987,
                 "decorators": [],
                 "name": "ControlContainer",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -871,7 +945,8 @@ __ESTREE_TEST__:PASS:
         "end": 4954,
         "decorators": [],
         "name": "import51",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -889,6 +964,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5049,
             "end": 5061,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -899,7 +975,8 @@ __ESTREE_TEST__:PASS:
               "end": 5056,
               "decorators": [],
               "name": "_text_0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -921,6 +998,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5064,
             "end": 5074,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -931,7 +1009,8 @@ __ESTREE_TEST__:PASS:
               "end": 5069,
               "decorators": [],
               "name": "_el_1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -953,6 +1032,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5077,
             "end": 5129,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -963,7 +1043,8 @@ __ESTREE_TEST__:PASS:
               "end": 5100,
               "decorators": [],
               "name": "_FormGroupDirective_1_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -977,6 +1058,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5101,
                 "end": 5128,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5101,
@@ -987,7 +1069,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5109,
                     "decorators": [],
                     "name": "import44",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -995,7 +1078,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5128,
                     "decorators": [],
                     "name": "FormGroupDirective",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1006,6 +1090,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5132,
             "end": 5158,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1016,7 +1101,8 @@ __ESTREE_TEST__:PASS:
               "end": 5153,
               "decorators": [],
               "name": "_ControlContainer_1_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1038,6 +1124,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5161,
             "end": 5217,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1048,7 +1135,8 @@ __ESTREE_TEST__:PASS:
               "end": 5186,
               "decorators": [],
               "name": "_NgControlStatusGroup_1_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1062,6 +1150,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5187,
                 "end": 5216,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5187,
@@ -1072,7 +1161,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5195,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1080,7 +1170,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5216,
                     "decorators": [],
                     "name": "NgControlStatusGroup",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1091,6 +1182,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5220,
             "end": 5232,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1101,7 +1193,8 @@ __ESTREE_TEST__:PASS:
               "end": 5227,
               "decorators": [],
               "name": "_text_2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1123,6 +1216,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5235,
             "end": 5245,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1133,7 +1227,8 @@ __ESTREE_TEST__:PASS:
               "end": 5240,
               "decorators": [],
               "name": "_el_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1155,6 +1250,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5248,
             "end": 5304,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1165,7 +1261,8 @@ __ESTREE_TEST__:PASS:
               "end": 5273,
               "decorators": [],
               "name": "_DefaultValueAccessor_3_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1179,6 +1276,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5274,
                 "end": 5303,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5274,
@@ -1189,7 +1287,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5282,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1197,7 +1296,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5303,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1208,6 +1308,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5307,
             "end": 5336,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1218,7 +1319,8 @@ __ESTREE_TEST__:PASS:
               "end": 5329,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_3_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1245,6 +1347,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5339,
             "end": 5385,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1255,7 +1358,8 @@ __ESTREE_TEST__:PASS:
               "end": 5359,
               "decorators": [],
               "name": "_FormControlName_3_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1269,6 +1373,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5360,
                 "end": 5384,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5360,
@@ -1279,7 +1384,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5368,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1287,7 +1393,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5384,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1298,6 +1405,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5388,
             "end": 5407,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1308,7 +1416,8 @@ __ESTREE_TEST__:PASS:
               "end": 5402,
               "decorators": [],
               "name": "_NgControl_3_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1330,6 +1439,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5410,
             "end": 5456,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1340,7 +1450,8 @@ __ESTREE_TEST__:PASS:
               "end": 5430,
               "decorators": [],
               "name": "_NgControlStatus_3_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1354,6 +1465,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5431,
                 "end": 5455,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5431,
@@ -1364,7 +1476,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5439,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1372,7 +1485,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5455,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1383,6 +1497,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5459,
             "end": 5469,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1393,7 +1508,8 @@ __ESTREE_TEST__:PASS:
               "end": 5464,
               "decorators": [],
               "name": "_el_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1415,6 +1531,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5472,
             "end": 5484,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1425,7 +1542,8 @@ __ESTREE_TEST__:PASS:
               "end": 5479,
               "decorators": [],
               "name": "_text_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1447,6 +1565,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5487,
             "end": 5497,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1457,7 +1576,8 @@ __ESTREE_TEST__:PASS:
               "end": 5492,
               "decorators": [],
               "name": "_el_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1479,6 +1599,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5500,
             "end": 5556,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1489,7 +1610,8 @@ __ESTREE_TEST__:PASS:
               "end": 5525,
               "decorators": [],
               "name": "_DefaultValueAccessor_6_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1503,6 +1625,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5526,
                 "end": 5555,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5526,
@@ -1513,7 +1636,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5534,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1521,7 +1645,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5555,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1532,6 +1657,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5559,
             "end": 5588,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1542,7 +1668,8 @@ __ESTREE_TEST__:PASS:
               "end": 5581,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_6_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1569,6 +1696,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5591,
             "end": 5637,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1579,7 +1707,8 @@ __ESTREE_TEST__:PASS:
               "end": 5611,
               "decorators": [],
               "name": "_FormControlName_6_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1593,6 +1722,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5612,
                 "end": 5636,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5612,
@@ -1603,7 +1733,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5620,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1611,7 +1742,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5636,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1622,6 +1754,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5640,
             "end": 5659,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1632,7 +1765,8 @@ __ESTREE_TEST__:PASS:
               "end": 5654,
               "decorators": [],
               "name": "_NgControl_6_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1654,6 +1788,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5662,
             "end": 5708,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1664,7 +1799,8 @@ __ESTREE_TEST__:PASS:
               "end": 5682,
               "decorators": [],
               "name": "_NgControlStatus_6_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1678,6 +1814,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5683,
                 "end": 5707,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5683,
@@ -1688,7 +1825,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5691,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1696,7 +1834,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5707,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1707,6 +1846,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5711,
             "end": 5721,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1717,7 +1857,8 @@ __ESTREE_TEST__:PASS:
               "end": 5716,
               "decorators": [],
               "name": "_el_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1739,6 +1880,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5724,
             "end": 5736,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1749,7 +1891,8 @@ __ESTREE_TEST__:PASS:
               "end": 5731,
               "decorators": [],
               "name": "_text_8",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1771,6 +1914,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5739,
             "end": 5749,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1781,7 +1925,8 @@ __ESTREE_TEST__:PASS:
               "end": 5744,
               "decorators": [],
               "name": "_el_9",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1803,6 +1948,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5752,
             "end": 5808,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1813,7 +1959,8 @@ __ESTREE_TEST__:PASS:
               "end": 5777,
               "decorators": [],
               "name": "_DefaultValueAccessor_9_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1827,6 +1974,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5778,
                 "end": 5807,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5778,
@@ -1837,7 +1985,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5786,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1845,7 +1994,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5807,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1856,6 +2006,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5811,
             "end": 5840,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1866,7 +2017,8 @@ __ESTREE_TEST__:PASS:
               "end": 5833,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_9_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1893,6 +2045,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5843,
             "end": 5889,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1903,7 +2056,8 @@ __ESTREE_TEST__:PASS:
               "end": 5863,
               "decorators": [],
               "name": "_FormControlName_9_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1917,6 +2071,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5864,
                 "end": 5888,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5864,
@@ -1927,7 +2082,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5872,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1935,7 +2091,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5888,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1946,6 +2103,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5892,
             "end": 5911,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1956,7 +2114,8 @@ __ESTREE_TEST__:PASS:
               "end": 5906,
               "decorators": [],
               "name": "_NgControl_9_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1978,6 +2137,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5914,
             "end": 5960,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1988,7 +2148,8 @@ __ESTREE_TEST__:PASS:
               "end": 5934,
               "decorators": [],
               "name": "_NgControlStatus_9_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2002,6 +2163,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5935,
                 "end": 5959,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 5935,
@@ -2012,7 +2174,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5943,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2020,7 +2183,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5959,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2031,6 +2195,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5963,
             "end": 5974,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2041,7 +2206,8 @@ __ESTREE_TEST__:PASS:
               "end": 5969,
               "decorators": [],
               "name": "_el_10",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2063,6 +2229,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5977,
             "end": 5990,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2073,7 +2240,8 @@ __ESTREE_TEST__:PASS:
               "end": 5985,
               "decorators": [],
               "name": "_text_11",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2095,6 +2263,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 5993,
             "end": 6004,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2105,7 +2274,8 @@ __ESTREE_TEST__:PASS:
               "end": 5999,
               "decorators": [],
               "name": "_el_12",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2127,6 +2297,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6007,
             "end": 6064,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2137,7 +2308,8 @@ __ESTREE_TEST__:PASS:
               "end": 6033,
               "decorators": [],
               "name": "_DefaultValueAccessor_12_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2151,6 +2323,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6034,
                 "end": 6063,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6034,
@@ -2161,7 +2334,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6042,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2169,7 +2343,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6063,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2180,6 +2355,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6067,
             "end": 6097,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2190,7 +2366,8 @@ __ESTREE_TEST__:PASS:
               "end": 6090,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_12_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2217,6 +2394,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6100,
             "end": 6147,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2227,7 +2405,8 @@ __ESTREE_TEST__:PASS:
               "end": 6121,
               "decorators": [],
               "name": "_FormControlName_12_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2241,6 +2420,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6122,
                 "end": 6146,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6122,
@@ -2251,7 +2431,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6130,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2259,7 +2440,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6146,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2270,6 +2452,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6150,
             "end": 6170,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2280,7 +2463,8 @@ __ESTREE_TEST__:PASS:
               "end": 6165,
               "decorators": [],
               "name": "_NgControl_12_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2302,6 +2486,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6173,
             "end": 6220,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2312,7 +2497,8 @@ __ESTREE_TEST__:PASS:
               "end": 6194,
               "decorators": [],
               "name": "_NgControlStatus_12_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2326,6 +2512,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6195,
                 "end": 6219,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6195,
@@ -2336,7 +2523,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6203,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2344,7 +2532,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6219,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2355,6 +2544,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6223,
             "end": 6234,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2365,7 +2555,8 @@ __ESTREE_TEST__:PASS:
               "end": 6229,
               "decorators": [],
               "name": "_el_13",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2387,6 +2578,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6237,
             "end": 6250,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2397,7 +2589,8 @@ __ESTREE_TEST__:PASS:
               "end": 6245,
               "decorators": [],
               "name": "_text_14",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2419,6 +2612,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6253,
             "end": 6264,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2429,7 +2623,8 @@ __ESTREE_TEST__:PASS:
               "end": 6259,
               "decorators": [],
               "name": "_el_15",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2451,6 +2646,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6267,
             "end": 6324,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2461,7 +2657,8 @@ __ESTREE_TEST__:PASS:
               "end": 6293,
               "decorators": [],
               "name": "_DefaultValueAccessor_15_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2475,6 +2672,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6294,
                 "end": 6323,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6294,
@@ -2485,7 +2683,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6302,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2493,7 +2692,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6323,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2504,6 +2704,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6327,
             "end": 6357,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2514,7 +2715,8 @@ __ESTREE_TEST__:PASS:
               "end": 6350,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_15_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2541,6 +2743,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6360,
             "end": 6407,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2551,7 +2754,8 @@ __ESTREE_TEST__:PASS:
               "end": 6381,
               "decorators": [],
               "name": "_FormControlName_15_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2565,6 +2769,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6382,
                 "end": 6406,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6382,
@@ -2575,7 +2780,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6390,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2583,7 +2789,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6406,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2594,6 +2801,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6410,
             "end": 6430,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2604,7 +2812,8 @@ __ESTREE_TEST__:PASS:
               "end": 6425,
               "decorators": [],
               "name": "_NgControl_15_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2626,6 +2835,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6433,
             "end": 6480,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2636,7 +2846,8 @@ __ESTREE_TEST__:PASS:
               "end": 6454,
               "decorators": [],
               "name": "_NgControlStatus_15_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2650,6 +2861,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6455,
                 "end": 6479,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6455,
@@ -2660,7 +2872,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6463,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2668,7 +2881,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6479,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2679,6 +2893,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6483,
             "end": 6494,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2689,7 +2904,8 @@ __ESTREE_TEST__:PASS:
               "end": 6489,
               "decorators": [],
               "name": "_el_16",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2711,6 +2927,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6497,
             "end": 6510,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2721,7 +2938,8 @@ __ESTREE_TEST__:PASS:
               "end": 6505,
               "decorators": [],
               "name": "_text_17",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2743,6 +2961,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6513,
             "end": 6524,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2753,7 +2972,8 @@ __ESTREE_TEST__:PASS:
               "end": 6519,
               "decorators": [],
               "name": "_el_18",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2775,6 +2995,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6527,
             "end": 6584,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2785,7 +3006,8 @@ __ESTREE_TEST__:PASS:
               "end": 6553,
               "decorators": [],
               "name": "_DefaultValueAccessor_18_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2799,6 +3021,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6554,
                 "end": 6583,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6554,
@@ -2809,7 +3032,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6562,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2817,7 +3041,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6583,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2828,6 +3053,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6587,
             "end": 6617,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2838,7 +3064,8 @@ __ESTREE_TEST__:PASS:
               "end": 6610,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_18_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2865,6 +3092,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6620,
             "end": 6667,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2875,7 +3103,8 @@ __ESTREE_TEST__:PASS:
               "end": 6641,
               "decorators": [],
               "name": "_FormControlName_18_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2889,6 +3118,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6642,
                 "end": 6666,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6642,
@@ -2899,7 +3129,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6650,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2907,7 +3138,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6666,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2918,6 +3150,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6670,
             "end": 6690,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2928,7 +3161,8 @@ __ESTREE_TEST__:PASS:
               "end": 6685,
               "decorators": [],
               "name": "_NgControl_18_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2950,6 +3184,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6693,
             "end": 6740,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2960,7 +3195,8 @@ __ESTREE_TEST__:PASS:
               "end": 6714,
               "decorators": [],
               "name": "_NgControlStatus_18_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -2974,6 +3210,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6715,
                 "end": 6739,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6715,
@@ -2984,7 +3221,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6723,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2992,7 +3230,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6739,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3003,6 +3242,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6743,
             "end": 6754,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3013,7 +3253,8 @@ __ESTREE_TEST__:PASS:
               "end": 6749,
               "decorators": [],
               "name": "_el_19",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3035,6 +3276,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6757,
             "end": 6770,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3045,7 +3287,8 @@ __ESTREE_TEST__:PASS:
               "end": 6765,
               "decorators": [],
               "name": "_text_20",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3067,6 +3310,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6773,
             "end": 6784,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3077,7 +3321,8 @@ __ESTREE_TEST__:PASS:
               "end": 6779,
               "decorators": [],
               "name": "_el_21",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3099,6 +3344,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6787,
             "end": 6844,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3109,7 +3355,8 @@ __ESTREE_TEST__:PASS:
               "end": 6813,
               "decorators": [],
               "name": "_DefaultValueAccessor_21_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3123,6 +3370,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6814,
                 "end": 6843,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6814,
@@ -3133,7 +3381,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6822,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3141,7 +3390,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6843,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3152,6 +3402,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6847,
             "end": 6877,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3162,7 +3413,8 @@ __ESTREE_TEST__:PASS:
               "end": 6870,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_21_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3189,6 +3441,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6880,
             "end": 6927,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3199,7 +3452,8 @@ __ESTREE_TEST__:PASS:
               "end": 6901,
               "decorators": [],
               "name": "_FormControlName_21_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3213,6 +3467,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6902,
                 "end": 6926,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6902,
@@ -3223,7 +3478,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6910,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3231,7 +3487,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6926,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3242,6 +3499,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6930,
             "end": 6950,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3252,7 +3510,8 @@ __ESTREE_TEST__:PASS:
               "end": 6945,
               "decorators": [],
               "name": "_NgControl_21_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3274,6 +3533,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 6953,
             "end": 7000,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3284,7 +3544,8 @@ __ESTREE_TEST__:PASS:
               "end": 6974,
               "decorators": [],
               "name": "_NgControlStatus_21_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3298,6 +3559,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 6975,
                 "end": 6999,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 6975,
@@ -3308,7 +3570,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6983,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3316,7 +3579,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6999,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3327,6 +3591,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7003,
             "end": 7014,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3337,7 +3602,8 @@ __ESTREE_TEST__:PASS:
               "end": 7009,
               "decorators": [],
               "name": "_el_22",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3359,6 +3625,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7017,
             "end": 7030,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3369,7 +3636,8 @@ __ESTREE_TEST__:PASS:
               "end": 7025,
               "decorators": [],
               "name": "_text_23",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3391,6 +3659,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7033,
             "end": 7044,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3401,7 +3670,8 @@ __ESTREE_TEST__:PASS:
               "end": 7039,
               "decorators": [],
               "name": "_el_24",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3423,6 +3693,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7047,
             "end": 7104,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3433,7 +3704,8 @@ __ESTREE_TEST__:PASS:
               "end": 7073,
               "decorators": [],
               "name": "_DefaultValueAccessor_24_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3447,6 +3719,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7074,
                 "end": 7103,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7074,
@@ -3457,7 +3730,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7082,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3465,7 +3739,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7103,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3476,6 +3751,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7107,
             "end": 7137,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3486,7 +3762,8 @@ __ESTREE_TEST__:PASS:
               "end": 7130,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_24_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3513,6 +3790,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7140,
             "end": 7187,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3523,7 +3801,8 @@ __ESTREE_TEST__:PASS:
               "end": 7161,
               "decorators": [],
               "name": "_FormControlName_24_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3537,6 +3816,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7162,
                 "end": 7186,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7162,
@@ -3547,7 +3827,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7170,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3555,7 +3836,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7186,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3566,6 +3848,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7190,
             "end": 7210,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3576,7 +3859,8 @@ __ESTREE_TEST__:PASS:
               "end": 7205,
               "decorators": [],
               "name": "_NgControl_24_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3598,6 +3882,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7213,
             "end": 7260,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3608,7 +3893,8 @@ __ESTREE_TEST__:PASS:
               "end": 7234,
               "decorators": [],
               "name": "_NgControlStatus_24_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3622,6 +3908,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7235,
                 "end": 7259,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7235,
@@ -3632,7 +3919,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7243,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3640,7 +3928,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7259,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3651,6 +3940,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7263,
             "end": 7274,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3661,7 +3951,8 @@ __ESTREE_TEST__:PASS:
               "end": 7269,
               "decorators": [],
               "name": "_el_25",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3683,6 +3974,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7277,
             "end": 7290,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3693,7 +3985,8 @@ __ESTREE_TEST__:PASS:
               "end": 7285,
               "decorators": [],
               "name": "_text_26",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3715,6 +4008,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7293,
             "end": 7304,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3725,7 +4019,8 @@ __ESTREE_TEST__:PASS:
               "end": 7299,
               "decorators": [],
               "name": "_el_27",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3747,6 +4042,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7307,
             "end": 7364,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3757,7 +4053,8 @@ __ESTREE_TEST__:PASS:
               "end": 7333,
               "decorators": [],
               "name": "_DefaultValueAccessor_27_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3771,6 +4068,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7334,
                 "end": 7363,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7334,
@@ -3781,7 +4079,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7342,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3789,7 +4088,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7363,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3800,6 +4100,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7367,
             "end": 7397,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3810,7 +4111,8 @@ __ESTREE_TEST__:PASS:
               "end": 7390,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_27_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3837,6 +4139,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7400,
             "end": 7447,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3847,7 +4150,8 @@ __ESTREE_TEST__:PASS:
               "end": 7421,
               "decorators": [],
               "name": "_FormControlName_27_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3861,6 +4165,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7422,
                 "end": 7446,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7422,
@@ -3871,7 +4176,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7430,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3879,7 +4185,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7446,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3890,6 +4197,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7450,
             "end": 7470,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3900,7 +4208,8 @@ __ESTREE_TEST__:PASS:
               "end": 7465,
               "decorators": [],
               "name": "_NgControl_27_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3922,6 +4231,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7473,
             "end": 7520,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3932,7 +4242,8 @@ __ESTREE_TEST__:PASS:
               "end": 7494,
               "decorators": [],
               "name": "_NgControlStatus_27_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -3946,6 +4257,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7495,
                 "end": 7519,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7495,
@@ -3956,7 +4268,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7503,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -3964,7 +4277,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7519,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3975,6 +4289,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7523,
             "end": 7534,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3985,7 +4300,8 @@ __ESTREE_TEST__:PASS:
               "end": 7529,
               "decorators": [],
               "name": "_el_28",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4007,6 +4323,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7537,
             "end": 7550,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4017,7 +4334,8 @@ __ESTREE_TEST__:PASS:
               "end": 7545,
               "decorators": [],
               "name": "_text_29",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4039,6 +4357,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7553,
             "end": 7564,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4049,7 +4368,8 @@ __ESTREE_TEST__:PASS:
               "end": 7559,
               "decorators": [],
               "name": "_el_30",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4071,6 +4391,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7567,
             "end": 7624,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4081,7 +4402,8 @@ __ESTREE_TEST__:PASS:
               "end": 7593,
               "decorators": [],
               "name": "_DefaultValueAccessor_30_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4095,6 +4417,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7594,
                 "end": 7623,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7594,
@@ -4105,7 +4428,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7602,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4113,7 +4437,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7623,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4124,6 +4449,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7627,
             "end": 7657,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4134,7 +4460,8 @@ __ESTREE_TEST__:PASS:
               "end": 7650,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_30_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4161,6 +4488,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7660,
             "end": 7707,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4171,7 +4499,8 @@ __ESTREE_TEST__:PASS:
               "end": 7681,
               "decorators": [],
               "name": "_FormControlName_30_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4185,6 +4514,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7682,
                 "end": 7706,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7682,
@@ -4195,7 +4525,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7690,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4203,7 +4534,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7706,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4214,6 +4546,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7710,
             "end": 7730,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4224,7 +4557,8 @@ __ESTREE_TEST__:PASS:
               "end": 7725,
               "decorators": [],
               "name": "_NgControl_30_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4246,6 +4580,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7733,
             "end": 7780,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4256,7 +4591,8 @@ __ESTREE_TEST__:PASS:
               "end": 7754,
               "decorators": [],
               "name": "_NgControlStatus_30_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4270,6 +4606,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7755,
                 "end": 7779,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7755,
@@ -4280,7 +4617,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7763,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4288,7 +4626,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7779,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4299,6 +4638,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7783,
             "end": 7794,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4309,7 +4649,8 @@ __ESTREE_TEST__:PASS:
               "end": 7789,
               "decorators": [],
               "name": "_el_31",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4331,6 +4672,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7797,
             "end": 7810,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4341,7 +4683,8 @@ __ESTREE_TEST__:PASS:
               "end": 7805,
               "decorators": [],
               "name": "_text_32",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4363,6 +4706,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7813,
             "end": 7824,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4373,7 +4717,8 @@ __ESTREE_TEST__:PASS:
               "end": 7819,
               "decorators": [],
               "name": "_el_33",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4395,6 +4740,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7827,
             "end": 7884,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4405,7 +4751,8 @@ __ESTREE_TEST__:PASS:
               "end": 7853,
               "decorators": [],
               "name": "_DefaultValueAccessor_33_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4419,6 +4766,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7854,
                 "end": 7883,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7854,
@@ -4429,7 +4777,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7862,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4437,7 +4786,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7883,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4448,6 +4798,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7887,
             "end": 7917,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4458,7 +4809,8 @@ __ESTREE_TEST__:PASS:
               "end": 7910,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_33_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4485,6 +4837,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7920,
             "end": 7967,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4495,7 +4848,8 @@ __ESTREE_TEST__:PASS:
               "end": 7941,
               "decorators": [],
               "name": "_FormControlName_33_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4509,6 +4863,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7942,
                 "end": 7966,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 7942,
@@ -4519,7 +4874,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7950,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4527,7 +4883,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7966,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4538,6 +4895,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7970,
             "end": 7990,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4548,7 +4906,8 @@ __ESTREE_TEST__:PASS:
               "end": 7985,
               "decorators": [],
               "name": "_NgControl_33_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4570,6 +4929,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 7993,
             "end": 8040,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4580,7 +4940,8 @@ __ESTREE_TEST__:PASS:
               "end": 8014,
               "decorators": [],
               "name": "_NgControlStatus_33_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4594,6 +4955,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8015,
                 "end": 8039,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8015,
@@ -4604,7 +4966,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8023,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4612,7 +4975,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8039,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4623,6 +4987,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8043,
             "end": 8054,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4633,7 +4998,8 @@ __ESTREE_TEST__:PASS:
               "end": 8049,
               "decorators": [],
               "name": "_el_34",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4655,6 +5021,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8057,
             "end": 8070,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4665,7 +5032,8 @@ __ESTREE_TEST__:PASS:
               "end": 8065,
               "decorators": [],
               "name": "_text_35",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4687,6 +5055,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8073,
             "end": 8084,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4697,7 +5066,8 @@ __ESTREE_TEST__:PASS:
               "end": 8079,
               "decorators": [],
               "name": "_el_36",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4719,6 +5089,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8087,
             "end": 8144,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4729,7 +5100,8 @@ __ESTREE_TEST__:PASS:
               "end": 8113,
               "decorators": [],
               "name": "_DefaultValueAccessor_36_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4743,6 +5115,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8114,
                 "end": 8143,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8114,
@@ -4753,7 +5126,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8122,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4761,7 +5135,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8143,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4772,6 +5147,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8147,
             "end": 8177,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4782,7 +5158,8 @@ __ESTREE_TEST__:PASS:
               "end": 8170,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_36_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4809,6 +5186,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8180,
             "end": 8227,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4819,7 +5197,8 @@ __ESTREE_TEST__:PASS:
               "end": 8201,
               "decorators": [],
               "name": "_FormControlName_36_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4833,6 +5212,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8202,
                 "end": 8226,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8202,
@@ -4843,7 +5223,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8210,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4851,7 +5232,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8226,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4862,6 +5244,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8230,
             "end": 8250,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4872,7 +5255,8 @@ __ESTREE_TEST__:PASS:
               "end": 8245,
               "decorators": [],
               "name": "_NgControl_36_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4894,6 +5278,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8253,
             "end": 8300,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4904,7 +5289,8 @@ __ESTREE_TEST__:PASS:
               "end": 8274,
               "decorators": [],
               "name": "_NgControlStatus_36_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4918,6 +5304,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8275,
                 "end": 8299,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8275,
@@ -4928,7 +5315,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8283,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -4936,7 +5324,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8299,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4947,6 +5336,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8303,
             "end": 8314,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4957,7 +5347,8 @@ __ESTREE_TEST__:PASS:
               "end": 8309,
               "decorators": [],
               "name": "_el_37",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -4979,6 +5370,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8317,
             "end": 8330,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -4989,7 +5381,8 @@ __ESTREE_TEST__:PASS:
               "end": 8325,
               "decorators": [],
               "name": "_text_38",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5011,6 +5404,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8333,
             "end": 8344,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5021,7 +5415,8 @@ __ESTREE_TEST__:PASS:
               "end": 8339,
               "decorators": [],
               "name": "_el_39",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5043,6 +5438,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8347,
             "end": 8404,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5053,7 +5449,8 @@ __ESTREE_TEST__:PASS:
               "end": 8373,
               "decorators": [],
               "name": "_DefaultValueAccessor_39_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5067,6 +5464,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8374,
                 "end": 8403,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8374,
@@ -5077,7 +5475,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8382,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5085,7 +5484,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8403,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5096,6 +5496,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8407,
             "end": 8437,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5106,7 +5507,8 @@ __ESTREE_TEST__:PASS:
               "end": 8430,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_39_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5133,6 +5535,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8440,
             "end": 8487,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5143,7 +5546,8 @@ __ESTREE_TEST__:PASS:
               "end": 8461,
               "decorators": [],
               "name": "_FormControlName_39_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5157,6 +5561,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8462,
                 "end": 8486,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8462,
@@ -5167,7 +5572,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8470,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5175,7 +5581,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8486,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5186,6 +5593,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8490,
             "end": 8510,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5196,7 +5604,8 @@ __ESTREE_TEST__:PASS:
               "end": 8505,
               "decorators": [],
               "name": "_NgControl_39_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5218,6 +5627,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8513,
             "end": 8560,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5228,7 +5638,8 @@ __ESTREE_TEST__:PASS:
               "end": 8534,
               "decorators": [],
               "name": "_NgControlStatus_39_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5242,6 +5653,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8535,
                 "end": 8559,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8535,
@@ -5252,7 +5664,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8543,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5260,7 +5673,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8559,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5271,6 +5685,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8563,
             "end": 8574,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5281,7 +5696,8 @@ __ESTREE_TEST__:PASS:
               "end": 8569,
               "decorators": [],
               "name": "_el_40",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5303,6 +5719,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8577,
             "end": 8590,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5313,7 +5730,8 @@ __ESTREE_TEST__:PASS:
               "end": 8585,
               "decorators": [],
               "name": "_text_41",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5335,6 +5753,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8593,
             "end": 8604,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5345,7 +5764,8 @@ __ESTREE_TEST__:PASS:
               "end": 8599,
               "decorators": [],
               "name": "_el_42",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5367,6 +5787,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8607,
             "end": 8664,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5377,7 +5798,8 @@ __ESTREE_TEST__:PASS:
               "end": 8633,
               "decorators": [],
               "name": "_DefaultValueAccessor_42_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5391,6 +5813,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8634,
                 "end": 8663,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8634,
@@ -5401,7 +5824,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8642,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5409,7 +5833,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8663,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5420,6 +5845,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8667,
             "end": 8697,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5430,7 +5856,8 @@ __ESTREE_TEST__:PASS:
               "end": 8690,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_42_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5457,6 +5884,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8700,
             "end": 8747,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5467,7 +5895,8 @@ __ESTREE_TEST__:PASS:
               "end": 8721,
               "decorators": [],
               "name": "_FormControlName_42_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5481,6 +5910,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8722,
                 "end": 8746,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8722,
@@ -5491,7 +5921,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8730,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5499,7 +5930,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8746,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5510,6 +5942,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8750,
             "end": 8770,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5520,7 +5953,8 @@ __ESTREE_TEST__:PASS:
               "end": 8765,
               "decorators": [],
               "name": "_NgControl_42_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5542,6 +5976,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8773,
             "end": 8820,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5552,7 +5987,8 @@ __ESTREE_TEST__:PASS:
               "end": 8794,
               "decorators": [],
               "name": "_NgControlStatus_42_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5566,6 +6002,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8795,
                 "end": 8819,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8795,
@@ -5576,7 +6013,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8803,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5584,7 +6022,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8819,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5595,6 +6034,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8823,
             "end": 8834,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5605,7 +6045,8 @@ __ESTREE_TEST__:PASS:
               "end": 8829,
               "decorators": [],
               "name": "_el_43",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5627,6 +6068,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8837,
             "end": 8850,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5637,7 +6079,8 @@ __ESTREE_TEST__:PASS:
               "end": 8845,
               "decorators": [],
               "name": "_text_44",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5659,6 +6102,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8853,
             "end": 8864,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5669,7 +6113,8 @@ __ESTREE_TEST__:PASS:
               "end": 8859,
               "decorators": [],
               "name": "_el_45",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5691,6 +6136,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8867,
             "end": 8924,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5701,7 +6147,8 @@ __ESTREE_TEST__:PASS:
               "end": 8893,
               "decorators": [],
               "name": "_DefaultValueAccessor_45_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5715,6 +6162,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8894,
                 "end": 8923,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8894,
@@ -5725,7 +6173,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8902,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5733,7 +6182,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8923,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5744,6 +6194,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8927,
             "end": 8957,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5754,7 +6205,8 @@ __ESTREE_TEST__:PASS:
               "end": 8950,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_45_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5781,6 +6233,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 8960,
             "end": 9007,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5791,7 +6244,8 @@ __ESTREE_TEST__:PASS:
               "end": 8981,
               "decorators": [],
               "name": "_FormControlName_45_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5805,6 +6259,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8982,
                 "end": 9006,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8982,
@@ -5815,7 +6270,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8990,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5823,7 +6279,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9006,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5834,6 +6291,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9010,
             "end": 9030,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5844,7 +6302,8 @@ __ESTREE_TEST__:PASS:
               "end": 9025,
               "decorators": [],
               "name": "_NgControl_45_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5866,6 +6325,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9033,
             "end": 9080,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5876,7 +6336,8 @@ __ESTREE_TEST__:PASS:
               "end": 9054,
               "decorators": [],
               "name": "_NgControlStatus_45_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5890,6 +6351,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9055,
                 "end": 9079,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9055,
@@ -5900,7 +6362,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9063,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -5908,7 +6371,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9079,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -5919,6 +6383,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9083,
             "end": 9094,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5929,7 +6394,8 @@ __ESTREE_TEST__:PASS:
               "end": 9089,
               "decorators": [],
               "name": "_el_46",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5951,6 +6417,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9097,
             "end": 9110,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5961,7 +6428,8 @@ __ESTREE_TEST__:PASS:
               "end": 9105,
               "decorators": [],
               "name": "_text_47",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -5983,6 +6451,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9113,
             "end": 9124,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -5993,7 +6462,8 @@ __ESTREE_TEST__:PASS:
               "end": 9119,
               "decorators": [],
               "name": "_el_48",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6015,6 +6485,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9127,
             "end": 9184,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6025,7 +6496,8 @@ __ESTREE_TEST__:PASS:
               "end": 9153,
               "decorators": [],
               "name": "_DefaultValueAccessor_48_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6039,6 +6511,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9154,
                 "end": 9183,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9154,
@@ -6049,7 +6522,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9162,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6057,7 +6531,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9183,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6068,6 +6543,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9187,
             "end": 9217,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6078,7 +6554,8 @@ __ESTREE_TEST__:PASS:
               "end": 9210,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_48_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6105,6 +6582,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9220,
             "end": 9267,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6115,7 +6593,8 @@ __ESTREE_TEST__:PASS:
               "end": 9241,
               "decorators": [],
               "name": "_FormControlName_48_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6129,6 +6608,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9242,
                 "end": 9266,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9242,
@@ -6139,7 +6619,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9250,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6147,7 +6628,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9266,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6158,6 +6640,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9270,
             "end": 9290,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6168,7 +6651,8 @@ __ESTREE_TEST__:PASS:
               "end": 9285,
               "decorators": [],
               "name": "_NgControl_48_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6190,6 +6674,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9293,
             "end": 9340,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6200,7 +6685,8 @@ __ESTREE_TEST__:PASS:
               "end": 9314,
               "decorators": [],
               "name": "_NgControlStatus_48_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6214,6 +6700,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9315,
                 "end": 9339,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9315,
@@ -6224,7 +6711,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9323,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6232,7 +6720,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9339,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6243,6 +6732,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9343,
             "end": 9354,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6253,7 +6743,8 @@ __ESTREE_TEST__:PASS:
               "end": 9349,
               "decorators": [],
               "name": "_el_49",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6275,6 +6766,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9357,
             "end": 9370,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6285,7 +6777,8 @@ __ESTREE_TEST__:PASS:
               "end": 9365,
               "decorators": [],
               "name": "_text_50",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6307,6 +6800,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9373,
             "end": 9384,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6317,7 +6811,8 @@ __ESTREE_TEST__:PASS:
               "end": 9379,
               "decorators": [],
               "name": "_el_51",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6339,6 +6834,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9387,
             "end": 9444,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6349,7 +6845,8 @@ __ESTREE_TEST__:PASS:
               "end": 9413,
               "decorators": [],
               "name": "_DefaultValueAccessor_51_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6363,6 +6860,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9414,
                 "end": 9443,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9414,
@@ -6373,7 +6871,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9422,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6381,7 +6880,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9443,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6392,6 +6892,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9447,
             "end": 9477,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6402,7 +6903,8 @@ __ESTREE_TEST__:PASS:
               "end": 9470,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_51_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6429,6 +6931,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9480,
             "end": 9527,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6439,7 +6942,8 @@ __ESTREE_TEST__:PASS:
               "end": 9501,
               "decorators": [],
               "name": "_FormControlName_51_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6453,6 +6957,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9502,
                 "end": 9526,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9502,
@@ -6463,7 +6968,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9510,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6471,7 +6977,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9526,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6482,6 +6989,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9530,
             "end": 9550,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6492,7 +7000,8 @@ __ESTREE_TEST__:PASS:
               "end": 9545,
               "decorators": [],
               "name": "_NgControl_51_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6514,6 +7023,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9553,
             "end": 9600,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6524,7 +7034,8 @@ __ESTREE_TEST__:PASS:
               "end": 9574,
               "decorators": [],
               "name": "_NgControlStatus_51_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6538,6 +7049,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9575,
                 "end": 9599,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9575,
@@ -6548,7 +7060,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9583,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6556,7 +7069,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9599,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6567,6 +7081,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9603,
             "end": 9614,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6577,7 +7092,8 @@ __ESTREE_TEST__:PASS:
               "end": 9609,
               "decorators": [],
               "name": "_el_52",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6599,6 +7115,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9617,
             "end": 9630,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6609,7 +7126,8 @@ __ESTREE_TEST__:PASS:
               "end": 9625,
               "decorators": [],
               "name": "_text_53",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6631,6 +7149,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9633,
             "end": 9644,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6641,7 +7160,8 @@ __ESTREE_TEST__:PASS:
               "end": 9639,
               "decorators": [],
               "name": "_el_54",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6663,6 +7183,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9647,
             "end": 9704,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6673,7 +7194,8 @@ __ESTREE_TEST__:PASS:
               "end": 9673,
               "decorators": [],
               "name": "_DefaultValueAccessor_54_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6687,6 +7209,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9674,
                 "end": 9703,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9674,
@@ -6697,7 +7220,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9682,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6705,7 +7229,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9703,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6716,6 +7241,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9707,
             "end": 9737,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6726,7 +7252,8 @@ __ESTREE_TEST__:PASS:
               "end": 9730,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_54_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6753,6 +7280,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9740,
             "end": 9787,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6763,7 +7291,8 @@ __ESTREE_TEST__:PASS:
               "end": 9761,
               "decorators": [],
               "name": "_FormControlName_54_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6777,6 +7306,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9762,
                 "end": 9786,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9762,
@@ -6787,7 +7317,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9770,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6795,7 +7326,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9786,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6806,6 +7338,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9790,
             "end": 9810,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6816,7 +7349,8 @@ __ESTREE_TEST__:PASS:
               "end": 9805,
               "decorators": [],
               "name": "_NgControl_54_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6838,6 +7372,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9813,
             "end": 9860,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6848,7 +7383,8 @@ __ESTREE_TEST__:PASS:
               "end": 9834,
               "decorators": [],
               "name": "_NgControlStatus_54_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6862,6 +7398,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9835,
                 "end": 9859,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9835,
@@ -6872,7 +7409,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9843,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -6880,7 +7418,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9859,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -6891,6 +7430,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9863,
             "end": 9874,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6901,7 +7441,8 @@ __ESTREE_TEST__:PASS:
               "end": 9869,
               "decorators": [],
               "name": "_el_55",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6923,6 +7464,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9877,
             "end": 9890,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6933,7 +7475,8 @@ __ESTREE_TEST__:PASS:
               "end": 9885,
               "decorators": [],
               "name": "_text_56",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6955,6 +7498,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9893,
             "end": 9904,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6965,7 +7509,8 @@ __ESTREE_TEST__:PASS:
               "end": 9899,
               "decorators": [],
               "name": "_el_57",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6987,6 +7532,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9907,
             "end": 9964,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6997,7 +7543,8 @@ __ESTREE_TEST__:PASS:
               "end": 9933,
               "decorators": [],
               "name": "_DefaultValueAccessor_57_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7011,6 +7558,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9934,
                 "end": 9963,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 9934,
@@ -7021,7 +7569,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9942,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7029,7 +7578,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9963,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7040,6 +7590,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 9967,
             "end": 9997,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7050,7 +7601,8 @@ __ESTREE_TEST__:PASS:
               "end": 9990,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_57_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7077,6 +7629,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10000,
             "end": 10047,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7087,7 +7640,8 @@ __ESTREE_TEST__:PASS:
               "end": 10021,
               "decorators": [],
               "name": "_FormControlName_57_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7101,6 +7655,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10022,
                 "end": 10046,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 10022,
@@ -7111,7 +7666,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10030,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7119,7 +7675,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10046,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7130,6 +7687,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10050,
             "end": 10070,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7140,7 +7698,8 @@ __ESTREE_TEST__:PASS:
               "end": 10065,
               "decorators": [],
               "name": "_NgControl_57_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7162,6 +7721,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10073,
             "end": 10120,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7172,7 +7732,8 @@ __ESTREE_TEST__:PASS:
               "end": 10094,
               "decorators": [],
               "name": "_NgControlStatus_57_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7186,6 +7747,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10095,
                 "end": 10119,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 10095,
@@ -7196,7 +7758,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10103,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7204,7 +7767,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10119,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7215,6 +7779,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10123,
             "end": 10134,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7225,7 +7790,8 @@ __ESTREE_TEST__:PASS:
               "end": 10129,
               "decorators": [],
               "name": "_el_58",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7247,6 +7813,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10137,
             "end": 10150,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7257,7 +7824,8 @@ __ESTREE_TEST__:PASS:
               "end": 10145,
               "decorators": [],
               "name": "_text_59",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7279,6 +7847,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10153,
             "end": 10164,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7289,7 +7858,8 @@ __ESTREE_TEST__:PASS:
               "end": 10159,
               "decorators": [],
               "name": "_el_60",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7311,6 +7881,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10167,
             "end": 10224,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7321,7 +7892,8 @@ __ESTREE_TEST__:PASS:
               "end": 10193,
               "decorators": [],
               "name": "_DefaultValueAccessor_60_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7335,6 +7907,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10194,
                 "end": 10223,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 10194,
@@ -7345,7 +7918,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10202,
                     "decorators": [],
                     "name": "import46",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7353,7 +7927,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10223,
                     "decorators": [],
                     "name": "DefaultValueAccessor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7364,6 +7939,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10227,
             "end": 10257,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7374,7 +7950,8 @@ __ESTREE_TEST__:PASS:
               "end": 10250,
               "decorators": [],
               "name": "_NG_VALUE_ACCESSOR_60_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7401,6 +7978,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10260,
             "end": 10307,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7411,7 +7989,8 @@ __ESTREE_TEST__:PASS:
               "end": 10281,
               "decorators": [],
               "name": "_FormControlName_60_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7425,6 +8004,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10282,
                 "end": 10306,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 10282,
@@ -7435,7 +8015,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10290,
                     "decorators": [],
                     "name": "import47",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7443,7 +8024,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10306,
                     "decorators": [],
                     "name": "FormControlName",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7454,6 +8036,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10310,
             "end": 10330,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7464,7 +8047,8 @@ __ESTREE_TEST__:PASS:
               "end": 10325,
               "decorators": [],
               "name": "_NgControl_60_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7486,6 +8070,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10333,
             "end": 10380,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7496,7 +8081,8 @@ __ESTREE_TEST__:PASS:
               "end": 10354,
               "decorators": [],
               "name": "_NgControlStatus_60_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7510,6 +8096,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10355,
                 "end": 10379,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 10355,
@@ -7520,7 +8107,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10363,
                     "decorators": [],
                     "name": "import45",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -7528,7 +8116,8 @@ __ESTREE_TEST__:PASS:
                     "end": 10379,
                     "decorators": [],
                     "name": "NgControlStatus",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -7539,6 +8128,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10383,
             "end": 10394,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7549,7 +8139,8 @@ __ESTREE_TEST__:PASS:
               "end": 10389,
               "decorators": [],
               "name": "_el_61",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7571,6 +8162,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10397,
             "end": 10410,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7581,7 +8173,8 @@ __ESTREE_TEST__:PASS:
               "end": 10405,
               "decorators": [],
               "name": "_text_62",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7603,6 +8196,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10413,
             "end": 10426,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7613,7 +8207,8 @@ __ESTREE_TEST__:PASS:
               "end": 10421,
               "decorators": [],
               "name": "_text_63",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7635,6 +8230,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10441,
             "end": 10453,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7645,7 +8241,8 @@ __ESTREE_TEST__:PASS:
               "end": 10448,
               "decorators": [],
               "name": "_expr_2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7667,6 +8264,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10468,
             "end": 10480,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7677,7 +8275,8 @@ __ESTREE_TEST__:PASS:
               "end": 10475,
               "decorators": [],
               "name": "_expr_3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7699,6 +8298,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10495,
             "end": 10507,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7709,7 +8309,8 @@ __ESTREE_TEST__:PASS:
               "end": 10502,
               "decorators": [],
               "name": "_expr_4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7731,6 +8332,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10522,
             "end": 10534,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7741,7 +8343,8 @@ __ESTREE_TEST__:PASS:
               "end": 10529,
               "decorators": [],
               "name": "_expr_5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7763,6 +8366,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10549,
             "end": 10561,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7773,7 +8377,8 @@ __ESTREE_TEST__:PASS:
               "end": 10556,
               "decorators": [],
               "name": "_expr_6",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7795,6 +8400,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10576,
             "end": 10588,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7805,7 +8411,8 @@ __ESTREE_TEST__:PASS:
               "end": 10583,
               "decorators": [],
               "name": "_expr_7",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7827,6 +8434,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10603,
             "end": 10615,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7837,7 +8445,8 @@ __ESTREE_TEST__:PASS:
               "end": 10610,
               "decorators": [],
               "name": "_expr_8",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7859,6 +8468,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10630,
             "end": 10643,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7869,7 +8479,8 @@ __ESTREE_TEST__:PASS:
               "end": 10638,
               "decorators": [],
               "name": "_expr_11",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7891,6 +8502,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10658,
             "end": 10671,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7901,7 +8513,8 @@ __ESTREE_TEST__:PASS:
               "end": 10666,
               "decorators": [],
               "name": "_expr_12",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7923,6 +8536,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10686,
             "end": 10699,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7933,7 +8547,8 @@ __ESTREE_TEST__:PASS:
               "end": 10694,
               "decorators": [],
               "name": "_expr_13",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7955,6 +8570,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10714,
             "end": 10727,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7965,7 +8581,8 @@ __ESTREE_TEST__:PASS:
               "end": 10722,
               "decorators": [],
               "name": "_expr_14",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -7987,6 +8604,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10742,
             "end": 10755,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -7997,7 +8615,8 @@ __ESTREE_TEST__:PASS:
               "end": 10750,
               "decorators": [],
               "name": "_expr_15",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8019,6 +8638,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10770,
             "end": 10783,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8029,7 +8649,8 @@ __ESTREE_TEST__:PASS:
               "end": 10778,
               "decorators": [],
               "name": "_expr_16",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8051,6 +8672,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10798,
             "end": 10811,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8061,7 +8683,8 @@ __ESTREE_TEST__:PASS:
               "end": 10806,
               "decorators": [],
               "name": "_expr_17",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8083,6 +8706,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10826,
             "end": 10839,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8093,7 +8717,8 @@ __ESTREE_TEST__:PASS:
               "end": 10834,
               "decorators": [],
               "name": "_expr_20",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8115,6 +8740,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10854,
             "end": 10867,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8125,7 +8751,8 @@ __ESTREE_TEST__:PASS:
               "end": 10862,
               "decorators": [],
               "name": "_expr_21",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8147,6 +8774,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10882,
             "end": 10895,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8157,7 +8785,8 @@ __ESTREE_TEST__:PASS:
               "end": 10890,
               "decorators": [],
               "name": "_expr_22",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8179,6 +8808,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10910,
             "end": 10923,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8189,7 +8819,8 @@ __ESTREE_TEST__:PASS:
               "end": 10918,
               "decorators": [],
               "name": "_expr_23",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8211,6 +8842,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10938,
             "end": 10951,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8221,7 +8853,8 @@ __ESTREE_TEST__:PASS:
               "end": 10946,
               "decorators": [],
               "name": "_expr_24",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8243,6 +8876,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10966,
             "end": 10979,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8253,7 +8887,8 @@ __ESTREE_TEST__:PASS:
               "end": 10974,
               "decorators": [],
               "name": "_expr_25",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8275,6 +8910,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10994,
             "end": 11007,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8285,7 +8921,8 @@ __ESTREE_TEST__:PASS:
               "end": 11002,
               "decorators": [],
               "name": "_expr_26",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8307,6 +8944,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11022,
             "end": 11035,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8317,7 +8955,8 @@ __ESTREE_TEST__:PASS:
               "end": 11030,
               "decorators": [],
               "name": "_expr_29",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8339,6 +8978,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11050,
             "end": 11063,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8349,7 +8989,8 @@ __ESTREE_TEST__:PASS:
               "end": 11058,
               "decorators": [],
               "name": "_expr_30",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8371,6 +9012,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11078,
             "end": 11091,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8381,7 +9023,8 @@ __ESTREE_TEST__:PASS:
               "end": 11086,
               "decorators": [],
               "name": "_expr_31",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8403,6 +9046,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11106,
             "end": 11119,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8413,7 +9057,8 @@ __ESTREE_TEST__:PASS:
               "end": 11114,
               "decorators": [],
               "name": "_expr_32",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8435,6 +9080,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11134,
             "end": 11147,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8445,7 +9091,8 @@ __ESTREE_TEST__:PASS:
               "end": 11142,
               "decorators": [],
               "name": "_expr_33",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8467,6 +9114,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11162,
             "end": 11175,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8477,7 +9125,8 @@ __ESTREE_TEST__:PASS:
               "end": 11170,
               "decorators": [],
               "name": "_expr_34",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8499,6 +9148,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11190,
             "end": 11203,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8509,7 +9159,8 @@ __ESTREE_TEST__:PASS:
               "end": 11198,
               "decorators": [],
               "name": "_expr_35",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8531,6 +9182,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11218,
             "end": 11231,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8541,7 +9193,8 @@ __ESTREE_TEST__:PASS:
               "end": 11226,
               "decorators": [],
               "name": "_expr_38",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8563,6 +9216,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11246,
             "end": 11259,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8573,7 +9227,8 @@ __ESTREE_TEST__:PASS:
               "end": 11254,
               "decorators": [],
               "name": "_expr_39",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8595,6 +9250,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11274,
             "end": 11287,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8605,7 +9261,8 @@ __ESTREE_TEST__:PASS:
               "end": 11282,
               "decorators": [],
               "name": "_expr_40",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8627,6 +9284,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11302,
             "end": 11315,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8637,7 +9295,8 @@ __ESTREE_TEST__:PASS:
               "end": 11310,
               "decorators": [],
               "name": "_expr_41",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8659,6 +9318,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11330,
             "end": 11343,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8669,7 +9329,8 @@ __ESTREE_TEST__:PASS:
               "end": 11338,
               "decorators": [],
               "name": "_expr_42",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8691,6 +9352,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11358,
             "end": 11371,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8701,7 +9363,8 @@ __ESTREE_TEST__:PASS:
               "end": 11366,
               "decorators": [],
               "name": "_expr_43",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8723,6 +9386,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11386,
             "end": 11399,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8733,7 +9397,8 @@ __ESTREE_TEST__:PASS:
               "end": 11394,
               "decorators": [],
               "name": "_expr_44",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8755,6 +9420,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11414,
             "end": 11427,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8765,7 +9431,8 @@ __ESTREE_TEST__:PASS:
               "end": 11422,
               "decorators": [],
               "name": "_expr_47",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8787,6 +9454,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11442,
             "end": 11455,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8797,7 +9465,8 @@ __ESTREE_TEST__:PASS:
               "end": 11450,
               "decorators": [],
               "name": "_expr_48",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8819,6 +9488,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11470,
             "end": 11483,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8829,7 +9499,8 @@ __ESTREE_TEST__:PASS:
               "end": 11478,
               "decorators": [],
               "name": "_expr_49",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8851,6 +9522,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11498,
             "end": 11511,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8861,7 +9533,8 @@ __ESTREE_TEST__:PASS:
               "end": 11506,
               "decorators": [],
               "name": "_expr_50",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8883,6 +9556,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11526,
             "end": 11539,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8893,7 +9567,8 @@ __ESTREE_TEST__:PASS:
               "end": 11534,
               "decorators": [],
               "name": "_expr_51",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8915,6 +9590,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11554,
             "end": 11567,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8925,7 +9601,8 @@ __ESTREE_TEST__:PASS:
               "end": 11562,
               "decorators": [],
               "name": "_expr_52",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8947,6 +9624,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11582,
             "end": 11595,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8957,7 +9635,8 @@ __ESTREE_TEST__:PASS:
               "end": 11590,
               "decorators": [],
               "name": "_expr_53",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -8979,6 +9658,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11610,
             "end": 11623,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -8989,7 +9669,8 @@ __ESTREE_TEST__:PASS:
               "end": 11618,
               "decorators": [],
               "name": "_expr_56",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9011,6 +9692,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11638,
             "end": 11651,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9021,7 +9703,8 @@ __ESTREE_TEST__:PASS:
               "end": 11646,
               "decorators": [],
               "name": "_expr_57",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9043,6 +9726,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11666,
             "end": 11679,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9053,7 +9737,8 @@ __ESTREE_TEST__:PASS:
               "end": 11674,
               "decorators": [],
               "name": "_expr_58",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9075,6 +9760,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11694,
             "end": 11707,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9085,7 +9771,8 @@ __ESTREE_TEST__:PASS:
               "end": 11702,
               "decorators": [],
               "name": "_expr_59",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9107,6 +9794,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11722,
             "end": 11735,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9117,7 +9805,8 @@ __ESTREE_TEST__:PASS:
               "end": 11730,
               "decorators": [],
               "name": "_expr_60",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9139,6 +9828,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11750,
             "end": 11763,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9149,7 +9839,8 @@ __ESTREE_TEST__:PASS:
               "end": 11758,
               "decorators": [],
               "name": "_expr_61",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9171,6 +9862,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11778,
             "end": 11791,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9181,7 +9873,8 @@ __ESTREE_TEST__:PASS:
               "end": 11786,
               "decorators": [],
               "name": "_expr_62",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9203,6 +9896,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11806,
             "end": 11819,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9213,7 +9907,8 @@ __ESTREE_TEST__:PASS:
               "end": 11814,
               "decorators": [],
               "name": "_expr_65",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9235,6 +9930,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11834,
             "end": 11847,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9245,7 +9941,8 @@ __ESTREE_TEST__:PASS:
               "end": 11842,
               "decorators": [],
               "name": "_expr_66",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9267,6 +9964,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11862,
             "end": 11875,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9277,7 +9975,8 @@ __ESTREE_TEST__:PASS:
               "end": 11870,
               "decorators": [],
               "name": "_expr_67",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9299,6 +9998,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11890,
             "end": 11903,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9309,7 +10009,8 @@ __ESTREE_TEST__:PASS:
               "end": 11898,
               "decorators": [],
               "name": "_expr_68",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9331,6 +10032,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11918,
             "end": 11931,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9341,7 +10043,8 @@ __ESTREE_TEST__:PASS:
               "end": 11926,
               "decorators": [],
               "name": "_expr_69",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9363,6 +10066,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11946,
             "end": 11959,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9373,7 +10077,8 @@ __ESTREE_TEST__:PASS:
               "end": 11954,
               "decorators": [],
               "name": "_expr_70",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9395,6 +10100,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 11974,
             "end": 11987,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9405,7 +10111,8 @@ __ESTREE_TEST__:PASS:
               "end": 11982,
               "decorators": [],
               "name": "_expr_71",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9427,6 +10134,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12002,
             "end": 12015,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9437,7 +10145,8 @@ __ESTREE_TEST__:PASS:
               "end": 12010,
               "decorators": [],
               "name": "_expr_74",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9459,6 +10168,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12030,
             "end": 12043,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9469,7 +10179,8 @@ __ESTREE_TEST__:PASS:
               "end": 12038,
               "decorators": [],
               "name": "_expr_75",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9491,6 +10202,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12058,
             "end": 12071,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9501,7 +10213,8 @@ __ESTREE_TEST__:PASS:
               "end": 12066,
               "decorators": [],
               "name": "_expr_76",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9523,6 +10236,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12086,
             "end": 12099,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9533,7 +10247,8 @@ __ESTREE_TEST__:PASS:
               "end": 12094,
               "decorators": [],
               "name": "_expr_77",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9555,6 +10270,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12114,
             "end": 12127,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9565,7 +10281,8 @@ __ESTREE_TEST__:PASS:
               "end": 12122,
               "decorators": [],
               "name": "_expr_78",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9587,6 +10304,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12142,
             "end": 12155,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9597,7 +10315,8 @@ __ESTREE_TEST__:PASS:
               "end": 12150,
               "decorators": [],
               "name": "_expr_79",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9619,6 +10338,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12170,
             "end": 12183,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9629,7 +10349,8 @@ __ESTREE_TEST__:PASS:
               "end": 12178,
               "decorators": [],
               "name": "_expr_80",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9651,6 +10372,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12198,
             "end": 12211,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9661,7 +10383,8 @@ __ESTREE_TEST__:PASS:
               "end": 12206,
               "decorators": [],
               "name": "_expr_83",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9683,6 +10406,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12226,
             "end": 12239,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9693,7 +10417,8 @@ __ESTREE_TEST__:PASS:
               "end": 12234,
               "decorators": [],
               "name": "_expr_84",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9715,6 +10440,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12254,
             "end": 12267,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9725,7 +10451,8 @@ __ESTREE_TEST__:PASS:
               "end": 12262,
               "decorators": [],
               "name": "_expr_85",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9747,6 +10474,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12282,
             "end": 12295,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9757,7 +10485,8 @@ __ESTREE_TEST__:PASS:
               "end": 12290,
               "decorators": [],
               "name": "_expr_86",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9779,6 +10508,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12310,
             "end": 12323,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9789,7 +10519,8 @@ __ESTREE_TEST__:PASS:
               "end": 12318,
               "decorators": [],
               "name": "_expr_87",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9811,6 +10542,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12338,
             "end": 12351,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9821,7 +10553,8 @@ __ESTREE_TEST__:PASS:
               "end": 12346,
               "decorators": [],
               "name": "_expr_88",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9843,6 +10576,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12366,
             "end": 12379,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9853,7 +10587,8 @@ __ESTREE_TEST__:PASS:
               "end": 12374,
               "decorators": [],
               "name": "_expr_89",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9875,6 +10610,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12394,
             "end": 12407,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9885,7 +10621,8 @@ __ESTREE_TEST__:PASS:
               "end": 12402,
               "decorators": [],
               "name": "_expr_92",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9907,6 +10644,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12422,
             "end": 12435,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9917,7 +10655,8 @@ __ESTREE_TEST__:PASS:
               "end": 12430,
               "decorators": [],
               "name": "_expr_93",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9939,6 +10678,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12450,
             "end": 12463,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9949,7 +10689,8 @@ __ESTREE_TEST__:PASS:
               "end": 12458,
               "decorators": [],
               "name": "_expr_94",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -9971,6 +10712,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12478,
             "end": 12491,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -9981,7 +10723,8 @@ __ESTREE_TEST__:PASS:
               "end": 12486,
               "decorators": [],
               "name": "_expr_95",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10003,6 +10746,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12506,
             "end": 12519,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10013,7 +10757,8 @@ __ESTREE_TEST__:PASS:
               "end": 12514,
               "decorators": [],
               "name": "_expr_96",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10035,6 +10780,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12534,
             "end": 12547,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10045,7 +10791,8 @@ __ESTREE_TEST__:PASS:
               "end": 12542,
               "decorators": [],
               "name": "_expr_97",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10067,6 +10814,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12562,
             "end": 12575,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10077,7 +10825,8 @@ __ESTREE_TEST__:PASS:
               "end": 12570,
               "decorators": [],
               "name": "_expr_98",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10099,6 +10848,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12590,
             "end": 12604,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10109,7 +10859,8 @@ __ESTREE_TEST__:PASS:
               "end": 12599,
               "decorators": [],
               "name": "_expr_101",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10131,6 +10882,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12619,
             "end": 12633,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10141,7 +10893,8 @@ __ESTREE_TEST__:PASS:
               "end": 12628,
               "decorators": [],
               "name": "_expr_102",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10163,6 +10916,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12648,
             "end": 12662,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10173,7 +10927,8 @@ __ESTREE_TEST__:PASS:
               "end": 12657,
               "decorators": [],
               "name": "_expr_103",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10195,6 +10950,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12677,
             "end": 12691,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10205,7 +10961,8 @@ __ESTREE_TEST__:PASS:
               "end": 12686,
               "decorators": [],
               "name": "_expr_104",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10227,6 +10984,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12706,
             "end": 12720,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10237,7 +10995,8 @@ __ESTREE_TEST__:PASS:
               "end": 12715,
               "decorators": [],
               "name": "_expr_105",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10259,6 +11018,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12735,
             "end": 12749,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10269,7 +11029,8 @@ __ESTREE_TEST__:PASS:
               "end": 12744,
               "decorators": [],
               "name": "_expr_106",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10291,6 +11052,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12764,
             "end": 12778,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10301,7 +11063,8 @@ __ESTREE_TEST__:PASS:
               "end": 12773,
               "decorators": [],
               "name": "_expr_107",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10323,6 +11086,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12793,
             "end": 12807,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10333,7 +11097,8 @@ __ESTREE_TEST__:PASS:
               "end": 12802,
               "decorators": [],
               "name": "_expr_110",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10355,6 +11120,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12822,
             "end": 12836,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10365,7 +11131,8 @@ __ESTREE_TEST__:PASS:
               "end": 12831,
               "decorators": [],
               "name": "_expr_111",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10387,6 +11154,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12851,
             "end": 12865,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10397,7 +11165,8 @@ __ESTREE_TEST__:PASS:
               "end": 12860,
               "decorators": [],
               "name": "_expr_112",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10419,6 +11188,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12880,
             "end": 12894,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10429,7 +11199,8 @@ __ESTREE_TEST__:PASS:
               "end": 12889,
               "decorators": [],
               "name": "_expr_113",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10451,6 +11222,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12909,
             "end": 12923,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10461,7 +11233,8 @@ __ESTREE_TEST__:PASS:
               "end": 12918,
               "decorators": [],
               "name": "_expr_114",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10483,6 +11256,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12938,
             "end": 12952,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10493,7 +11267,8 @@ __ESTREE_TEST__:PASS:
               "end": 12947,
               "decorators": [],
               "name": "_expr_115",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10515,6 +11290,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12967,
             "end": 12981,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10525,7 +11301,8 @@ __ESTREE_TEST__:PASS:
               "end": 12976,
               "decorators": [],
               "name": "_expr_116",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10547,6 +11324,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 12996,
             "end": 13010,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10557,7 +11335,8 @@ __ESTREE_TEST__:PASS:
               "end": 13005,
               "decorators": [],
               "name": "_expr_119",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10579,6 +11358,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13025,
             "end": 13039,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10589,7 +11369,8 @@ __ESTREE_TEST__:PASS:
               "end": 13034,
               "decorators": [],
               "name": "_expr_120",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10611,6 +11392,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13054,
             "end": 13068,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10621,7 +11403,8 @@ __ESTREE_TEST__:PASS:
               "end": 13063,
               "decorators": [],
               "name": "_expr_121",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10643,6 +11426,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13083,
             "end": 13097,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10653,7 +11437,8 @@ __ESTREE_TEST__:PASS:
               "end": 13092,
               "decorators": [],
               "name": "_expr_122",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10675,6 +11460,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13112,
             "end": 13126,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10685,7 +11471,8 @@ __ESTREE_TEST__:PASS:
               "end": 13121,
               "decorators": [],
               "name": "_expr_123",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10707,6 +11494,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13141,
             "end": 13155,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10717,7 +11505,8 @@ __ESTREE_TEST__:PASS:
               "end": 13150,
               "decorators": [],
               "name": "_expr_124",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10739,6 +11528,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13170,
             "end": 13184,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10749,7 +11539,8 @@ __ESTREE_TEST__:PASS:
               "end": 13179,
               "decorators": [],
               "name": "_expr_125",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10771,6 +11562,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13199,
             "end": 13213,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10781,7 +11573,8 @@ __ESTREE_TEST__:PASS:
               "end": 13208,
               "decorators": [],
               "name": "_expr_128",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10803,6 +11596,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13228,
             "end": 13242,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10813,7 +11607,8 @@ __ESTREE_TEST__:PASS:
               "end": 13237,
               "decorators": [],
               "name": "_expr_129",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10835,6 +11630,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13257,
             "end": 13271,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10845,7 +11641,8 @@ __ESTREE_TEST__:PASS:
               "end": 13266,
               "decorators": [],
               "name": "_expr_130",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10867,6 +11664,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13286,
             "end": 13300,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10877,7 +11675,8 @@ __ESTREE_TEST__:PASS:
               "end": 13295,
               "decorators": [],
               "name": "_expr_131",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10899,6 +11698,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13315,
             "end": 13329,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10909,7 +11709,8 @@ __ESTREE_TEST__:PASS:
               "end": 13324,
               "decorators": [],
               "name": "_expr_132",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10931,6 +11732,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13344,
             "end": 13358,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10941,7 +11743,8 @@ __ESTREE_TEST__:PASS:
               "end": 13353,
               "decorators": [],
               "name": "_expr_133",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10963,6 +11766,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13373,
             "end": 13387,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -10973,7 +11777,8 @@ __ESTREE_TEST__:PASS:
               "end": 13382,
               "decorators": [],
               "name": "_expr_134",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -10995,6 +11800,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13402,
             "end": 13416,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11005,7 +11811,8 @@ __ESTREE_TEST__:PASS:
               "end": 13411,
               "decorators": [],
               "name": "_expr_137",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11027,6 +11834,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13431,
             "end": 13445,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11037,7 +11845,8 @@ __ESTREE_TEST__:PASS:
               "end": 13440,
               "decorators": [],
               "name": "_expr_138",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11059,6 +11868,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13460,
             "end": 13474,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11069,7 +11879,8 @@ __ESTREE_TEST__:PASS:
               "end": 13469,
               "decorators": [],
               "name": "_expr_139",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11091,6 +11902,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13489,
             "end": 13503,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11101,7 +11913,8 @@ __ESTREE_TEST__:PASS:
               "end": 13498,
               "decorators": [],
               "name": "_expr_140",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11123,6 +11936,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13518,
             "end": 13532,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11133,7 +11947,8 @@ __ESTREE_TEST__:PASS:
               "end": 13527,
               "decorators": [],
               "name": "_expr_141",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11155,6 +11970,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13547,
             "end": 13561,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11165,7 +11981,8 @@ __ESTREE_TEST__:PASS:
               "end": 13556,
               "decorators": [],
               "name": "_expr_142",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11187,6 +12004,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13576,
             "end": 13590,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11197,7 +12015,8 @@ __ESTREE_TEST__:PASS:
               "end": 13585,
               "decorators": [],
               "name": "_expr_143",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11219,6 +12038,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13605,
             "end": 13619,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11229,7 +12049,8 @@ __ESTREE_TEST__:PASS:
               "end": 13614,
               "decorators": [],
               "name": "_expr_146",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11251,6 +12072,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13634,
             "end": 13648,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11261,7 +12083,8 @@ __ESTREE_TEST__:PASS:
               "end": 13643,
               "decorators": [],
               "name": "_expr_147",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11283,6 +12106,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13663,
             "end": 13677,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11293,7 +12117,8 @@ __ESTREE_TEST__:PASS:
               "end": 13672,
               "decorators": [],
               "name": "_expr_148",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11315,6 +12140,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13692,
             "end": 13706,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11325,7 +12151,8 @@ __ESTREE_TEST__:PASS:
               "end": 13701,
               "decorators": [],
               "name": "_expr_149",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11347,6 +12174,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13721,
             "end": 13735,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11357,7 +12185,8 @@ __ESTREE_TEST__:PASS:
               "end": 13730,
               "decorators": [],
               "name": "_expr_150",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11379,6 +12208,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13750,
             "end": 13764,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11389,7 +12219,8 @@ __ESTREE_TEST__:PASS:
               "end": 13759,
               "decorators": [],
               "name": "_expr_151",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11411,6 +12242,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13779,
             "end": 13793,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11421,7 +12253,8 @@ __ESTREE_TEST__:PASS:
               "end": 13788,
               "decorators": [],
               "name": "_expr_152",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11443,6 +12276,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13808,
             "end": 13822,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11453,7 +12287,8 @@ __ESTREE_TEST__:PASS:
               "end": 13817,
               "decorators": [],
               "name": "_expr_155",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11475,6 +12310,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13837,
             "end": 13851,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11485,7 +12321,8 @@ __ESTREE_TEST__:PASS:
               "end": 13846,
               "decorators": [],
               "name": "_expr_156",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11507,6 +12344,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13866,
             "end": 13880,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11517,7 +12355,8 @@ __ESTREE_TEST__:PASS:
               "end": 13875,
               "decorators": [],
               "name": "_expr_157",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11539,6 +12378,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13895,
             "end": 13909,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11549,7 +12389,8 @@ __ESTREE_TEST__:PASS:
               "end": 13904,
               "decorators": [],
               "name": "_expr_158",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11571,6 +12412,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13924,
             "end": 13938,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11581,7 +12423,8 @@ __ESTREE_TEST__:PASS:
               "end": 13933,
               "decorators": [],
               "name": "_expr_159",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11603,6 +12446,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13953,
             "end": 13967,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11613,7 +12457,8 @@ __ESTREE_TEST__:PASS:
               "end": 13962,
               "decorators": [],
               "name": "_expr_160",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11635,6 +12480,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 13982,
             "end": 13996,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11645,7 +12491,8 @@ __ESTREE_TEST__:PASS:
               "end": 13991,
               "decorators": [],
               "name": "_expr_161",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11667,6 +12514,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14011,
             "end": 14025,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11677,7 +12525,8 @@ __ESTREE_TEST__:PASS:
               "end": 14020,
               "decorators": [],
               "name": "_expr_164",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11699,6 +12548,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14040,
             "end": 14054,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11709,7 +12559,8 @@ __ESTREE_TEST__:PASS:
               "end": 14049,
               "decorators": [],
               "name": "_expr_165",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11731,6 +12582,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14069,
             "end": 14083,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11741,7 +12593,8 @@ __ESTREE_TEST__:PASS:
               "end": 14078,
               "decorators": [],
               "name": "_expr_166",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11763,6 +12616,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14098,
             "end": 14112,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11773,7 +12627,8 @@ __ESTREE_TEST__:PASS:
               "end": 14107,
               "decorators": [],
               "name": "_expr_167",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11795,6 +12650,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14127,
             "end": 14141,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11805,7 +12661,8 @@ __ESTREE_TEST__:PASS:
               "end": 14136,
               "decorators": [],
               "name": "_expr_168",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11827,6 +12684,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14156,
             "end": 14170,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11837,7 +12695,8 @@ __ESTREE_TEST__:PASS:
               "end": 14165,
               "decorators": [],
               "name": "_expr_169",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11859,6 +12718,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14185,
             "end": 14199,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11869,7 +12729,8 @@ __ESTREE_TEST__:PASS:
               "end": 14194,
               "decorators": [],
               "name": "_expr_170",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11891,6 +12752,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14214,
             "end": 14228,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11901,7 +12763,8 @@ __ESTREE_TEST__:PASS:
               "end": 14223,
               "decorators": [],
               "name": "_expr_173",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11923,6 +12786,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14243,
             "end": 14257,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11933,7 +12797,8 @@ __ESTREE_TEST__:PASS:
               "end": 14252,
               "decorators": [],
               "name": "_expr_174",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11955,6 +12820,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14272,
             "end": 14286,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11965,7 +12831,8 @@ __ESTREE_TEST__:PASS:
               "end": 14281,
               "decorators": [],
               "name": "_expr_175",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -11987,6 +12854,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14301,
             "end": 14315,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -11997,7 +12865,8 @@ __ESTREE_TEST__:PASS:
               "end": 14310,
               "decorators": [],
               "name": "_expr_176",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12019,6 +12888,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14330,
             "end": 14344,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12029,7 +12899,8 @@ __ESTREE_TEST__:PASS:
               "end": 14339,
               "decorators": [],
               "name": "_expr_177",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12051,6 +12922,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14359,
             "end": 14373,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12061,7 +12933,8 @@ __ESTREE_TEST__:PASS:
               "end": 14368,
               "decorators": [],
               "name": "_expr_178",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12083,6 +12956,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14388,
             "end": 14402,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12093,7 +12967,8 @@ __ESTREE_TEST__:PASS:
               "end": 14397,
               "decorators": [],
               "name": "_expr_179",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12115,6 +12990,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14417,
             "end": 14431,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12125,7 +13001,8 @@ __ESTREE_TEST__:PASS:
               "end": 14426,
               "decorators": [],
               "name": "_expr_182",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12147,6 +13024,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14446,
             "end": 14460,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12157,7 +13035,8 @@ __ESTREE_TEST__:PASS:
               "end": 14455,
               "decorators": [],
               "name": "_expr_183",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12179,6 +13058,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14475,
             "end": 14489,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12189,7 +13069,8 @@ __ESTREE_TEST__:PASS:
               "end": 14484,
               "decorators": [],
               "name": "_expr_184",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12211,6 +13092,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14504,
             "end": 14518,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12221,7 +13103,8 @@ __ESTREE_TEST__:PASS:
               "end": 14513,
               "decorators": [],
               "name": "_expr_185",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12243,6 +13126,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14533,
             "end": 14547,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12253,7 +13137,8 @@ __ESTREE_TEST__:PASS:
               "end": 14542,
               "decorators": [],
               "name": "_expr_186",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12275,6 +13160,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14562,
             "end": 14576,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12285,7 +13171,8 @@ __ESTREE_TEST__:PASS:
               "end": 14571,
               "decorators": [],
               "name": "_expr_187",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12307,6 +13194,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14591,
             "end": 14605,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -12317,7 +13205,8 @@ __ESTREE_TEST__:PASS:
               "end": 14600,
               "decorators": [],
               "name": "_expr_188",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -12339,6 +13228,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14608,
             "end": 14677,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -12347,7 +13237,8 @@ __ESTREE_TEST__:PASS:
               "end": 14619,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -12423,13 +13314,16 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 14681,
             "end": 26848,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -12438,7 +13332,8 @@ __ESTREE_TEST__:PASS:
               "end": 14700,
               "decorators": [],
               "name": "injectorGetInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -12485,7 +13380,8 @@ __ESTREE_TEST__:PASS:
                               "end": 14881,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_3_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -12507,7 +13403,8 @@ __ESTREE_TEST__:PASS:
                           "end": 14776,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -12520,7 +13417,8 @@ __ESTREE_TEST__:PASS:
                             "end": 14789,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -12529,7 +13427,8 @@ __ESTREE_TEST__:PASS:
                             "end": 14810,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -12551,7 +13450,8 @@ __ESTREE_TEST__:PASS:
                           "end": 14838,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -12587,7 +13487,8 @@ __ESTREE_TEST__:PASS:
                               "end": 14999,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_3_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -12609,7 +13510,8 @@ __ESTREE_TEST__:PASS:
                           "end": 14900,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -12622,7 +13524,8 @@ __ESTREE_TEST__:PASS:
                             "end": 14913,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -12631,7 +13534,8 @@ __ESTREE_TEST__:PASS:
                             "end": 14931,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -12653,7 +13557,8 @@ __ESTREE_TEST__:PASS:
                           "end": 14959,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -12689,7 +13594,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15113,
                               "decorators": [],
                               "name": "_FormControlName_3_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -12711,7 +13617,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15018,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -12724,7 +13631,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15031,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -12733,7 +13641,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15047,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -12755,7 +13664,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15075,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -12791,7 +13701,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15215,
                               "decorators": [],
                               "name": "_NgControl_3_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -12813,7 +13724,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15132,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -12826,7 +13738,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15145,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -12835,7 +13748,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15155,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -12857,7 +13771,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15183,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -12893,7 +13808,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15329,
                               "decorators": [],
                               "name": "_NgControlStatus_3_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -12915,7 +13831,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15234,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -12928,7 +13845,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15247,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -12937,7 +13855,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15263,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -12959,7 +13878,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15291,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -12995,7 +13915,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15453,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_6_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13017,7 +13938,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15348,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13030,7 +13952,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15361,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13039,7 +13962,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15382,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13061,7 +13985,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15410,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13097,7 +14022,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15571,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_6_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13119,7 +14045,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15472,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13132,7 +14059,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15485,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13141,7 +14069,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15503,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13163,7 +14092,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15531,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13199,7 +14129,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15685,
                               "decorators": [],
                               "name": "_FormControlName_6_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13221,7 +14152,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15590,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13234,7 +14166,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15603,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13243,7 +14176,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15619,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13265,7 +14199,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15647,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13301,7 +14236,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15787,
                               "decorators": [],
                               "name": "_NgControl_6_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13323,7 +14259,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15704,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13336,7 +14273,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15717,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13345,7 +14283,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15727,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13367,7 +14306,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15755,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13403,7 +14343,8 @@ __ESTREE_TEST__:PASS:
                               "end": 15901,
                               "decorators": [],
                               "name": "_NgControlStatus_6_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13425,7 +14366,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15806,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13438,7 +14380,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15819,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13447,7 +14390,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15835,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13469,7 +14413,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15863,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13505,7 +14450,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16025,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_9_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13527,7 +14473,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15920,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13540,7 +14487,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15933,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13549,7 +14497,8 @@ __ESTREE_TEST__:PASS:
                             "end": 15954,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13571,7 +14520,8 @@ __ESTREE_TEST__:PASS:
                           "end": 15982,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13607,7 +14557,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16143,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_9_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13629,7 +14580,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16044,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13642,7 +14594,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16057,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13651,7 +14604,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16075,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13673,7 +14627,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16103,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13709,7 +14664,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16257,
                               "decorators": [],
                               "name": "_FormControlName_9_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13731,7 +14687,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16162,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13744,7 +14701,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16175,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13753,7 +14711,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16191,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13775,7 +14734,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16219,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13811,7 +14771,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16359,
                               "decorators": [],
                               "name": "_NgControl_9_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13833,7 +14794,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16276,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13846,7 +14808,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16289,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13855,7 +14818,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16299,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13877,7 +14841,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16327,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -13913,7 +14878,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16473,
                               "decorators": [],
                               "name": "_NgControlStatus_9_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -13935,7 +14901,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16378,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -13948,7 +14915,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16391,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -13957,7 +14925,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16407,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -13979,7 +14948,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16435,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14015,7 +14985,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16599,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_12_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14037,7 +15008,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16492,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14050,7 +15022,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16505,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14059,7 +15032,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16526,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14081,7 +15055,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16555,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14117,7 +15092,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16719,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_12_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14139,7 +15115,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16618,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14152,7 +15129,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16631,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14161,7 +15139,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16649,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14183,7 +15162,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16678,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14219,7 +15199,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16835,
                               "decorators": [],
                               "name": "_FormControlName_12_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14241,7 +15222,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16738,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14254,7 +15236,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16751,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14263,7 +15246,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16767,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14285,7 +15269,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16796,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14321,7 +15306,8 @@ __ESTREE_TEST__:PASS:
                               "end": 16939,
                               "decorators": [],
                               "name": "_NgControl_12_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14343,7 +15329,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16854,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14356,7 +15343,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16867,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14365,7 +15353,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16877,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14387,7 +15376,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16906,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14423,7 +15413,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17055,
                               "decorators": [],
                               "name": "_NgControlStatus_12_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14445,7 +15436,8 @@ __ESTREE_TEST__:PASS:
                           "end": 16958,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14458,7 +15450,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16971,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14467,7 +15460,8 @@ __ESTREE_TEST__:PASS:
                             "end": 16987,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14489,7 +15483,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17016,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14525,7 +15520,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17181,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_15_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14547,7 +15543,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17074,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14560,7 +15557,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17087,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14569,7 +15567,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17108,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14591,7 +15590,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17137,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14627,7 +15627,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17301,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_15_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14649,7 +15650,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17200,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14662,7 +15664,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17213,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14671,7 +15674,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17231,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14693,7 +15697,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17260,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14729,7 +15734,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17417,
                               "decorators": [],
                               "name": "_FormControlName_15_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14751,7 +15757,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17320,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14764,7 +15771,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17333,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14773,7 +15781,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17349,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14795,7 +15804,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17378,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14831,7 +15841,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17521,
                               "decorators": [],
                               "name": "_NgControl_15_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14853,7 +15864,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17436,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14866,7 +15878,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17449,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14875,7 +15888,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17459,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14897,7 +15911,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17488,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -14933,7 +15948,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17637,
                               "decorators": [],
                               "name": "_NgControlStatus_15_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -14955,7 +15971,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17540,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -14968,7 +15985,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17553,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -14977,7 +15995,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17569,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -14999,7 +16018,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17598,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15035,7 +16055,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17763,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_18_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15057,7 +16078,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17656,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15070,7 +16092,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17669,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15079,7 +16102,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17690,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15101,7 +16125,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17719,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15137,7 +16162,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17883,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_18_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15159,7 +16185,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17782,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15172,7 +16199,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17795,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15181,7 +16209,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17813,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15203,7 +16232,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17842,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15239,7 +16269,8 @@ __ESTREE_TEST__:PASS:
                               "end": 17999,
                               "decorators": [],
                               "name": "_FormControlName_18_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15261,7 +16292,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17902,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15274,7 +16306,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17915,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15283,7 +16316,8 @@ __ESTREE_TEST__:PASS:
                             "end": 17931,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15305,7 +16339,8 @@ __ESTREE_TEST__:PASS:
                           "end": 17960,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15341,7 +16376,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18103,
                               "decorators": [],
                               "name": "_NgControl_18_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15363,7 +16399,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18018,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15376,7 +16413,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18031,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15385,7 +16423,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18041,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15407,7 +16446,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18070,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15443,7 +16483,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18219,
                               "decorators": [],
                               "name": "_NgControlStatus_18_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15465,7 +16506,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18122,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15478,7 +16520,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18135,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15487,7 +16530,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18151,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15509,7 +16553,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18180,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15545,7 +16590,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18345,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_21_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15567,7 +16613,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18238,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15580,7 +16627,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18251,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15589,7 +16637,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18272,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15611,7 +16660,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18301,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15647,7 +16697,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18465,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_21_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15669,7 +16720,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18364,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15682,7 +16734,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18377,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15691,7 +16744,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18395,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15713,7 +16767,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18424,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15749,7 +16804,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18581,
                               "decorators": [],
                               "name": "_FormControlName_21_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15771,7 +16827,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18484,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15784,7 +16841,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18497,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15793,7 +16851,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18513,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15815,7 +16874,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18542,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15851,7 +16911,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18685,
                               "decorators": [],
                               "name": "_NgControl_21_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15873,7 +16934,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18600,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15886,7 +16948,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18613,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15895,7 +16958,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18623,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -15917,7 +16981,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18652,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -15953,7 +17018,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18801,
                               "decorators": [],
                               "name": "_NgControlStatus_21_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -15975,7 +17041,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18704,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -15988,7 +17055,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18717,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -15997,7 +17065,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18733,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16019,7 +17088,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18762,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16055,7 +17125,8 @@ __ESTREE_TEST__:PASS:
                               "end": 18927,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_24_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16077,7 +17148,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18820,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16090,7 +17162,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18833,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16099,7 +17172,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18854,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16121,7 +17195,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18883,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16157,7 +17232,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19047,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_24_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16179,7 +17255,8 @@ __ESTREE_TEST__:PASS:
                           "end": 18946,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16192,7 +17269,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18959,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16201,7 +17279,8 @@ __ESTREE_TEST__:PASS:
                             "end": 18977,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16223,7 +17302,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19006,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16259,7 +17339,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19163,
                               "decorators": [],
                               "name": "_FormControlName_24_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16281,7 +17362,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19066,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16294,7 +17376,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19079,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16303,7 +17386,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19095,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16325,7 +17409,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19124,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16361,7 +17446,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19267,
                               "decorators": [],
                               "name": "_NgControl_24_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16383,7 +17469,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19182,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16396,7 +17483,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19195,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16405,7 +17493,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19205,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16427,7 +17516,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19234,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16463,7 +17553,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19383,
                               "decorators": [],
                               "name": "_NgControlStatus_24_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16485,7 +17576,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19286,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16498,7 +17590,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19299,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16507,7 +17600,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19315,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16529,7 +17623,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19344,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16565,7 +17660,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19509,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_27_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16587,7 +17683,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19402,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16600,7 +17697,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19415,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16609,7 +17707,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19436,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16631,7 +17730,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19465,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16667,7 +17767,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19629,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_27_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16689,7 +17790,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19528,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16702,7 +17804,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19541,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16711,7 +17814,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19559,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16733,7 +17837,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19588,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16769,7 +17874,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19745,
                               "decorators": [],
                               "name": "_FormControlName_27_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16791,7 +17897,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19648,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16804,7 +17911,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19661,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16813,7 +17921,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19677,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16835,7 +17944,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19706,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16871,7 +17981,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19849,
                               "decorators": [],
                               "name": "_NgControl_27_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16893,7 +18004,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19764,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -16906,7 +18018,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19777,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -16915,7 +18028,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19787,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -16937,7 +18051,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19816,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -16973,7 +18088,8 @@ __ESTREE_TEST__:PASS:
                               "end": 19965,
                               "decorators": [],
                               "name": "_NgControlStatus_27_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -16995,7 +18111,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19868,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17008,7 +18125,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19881,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17017,7 +18135,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19897,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17039,7 +18158,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19926,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17075,7 +18195,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20091,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_30_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17097,7 +18218,8 @@ __ESTREE_TEST__:PASS:
                           "end": 19984,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17110,7 +18232,8 @@ __ESTREE_TEST__:PASS:
                             "end": 19997,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17119,7 +18242,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20018,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17141,7 +18265,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20047,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17177,7 +18302,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20211,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_30_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17199,7 +18325,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20110,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17212,7 +18339,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20123,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17221,7 +18349,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20141,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17243,7 +18372,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20170,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17279,7 +18409,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20327,
                               "decorators": [],
                               "name": "_FormControlName_30_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17301,7 +18432,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20230,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17314,7 +18446,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20243,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17323,7 +18456,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20259,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17345,7 +18479,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20288,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17381,7 +18516,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20431,
                               "decorators": [],
                               "name": "_NgControl_30_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17403,7 +18539,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20346,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17416,7 +18553,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20359,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17425,7 +18563,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20369,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17447,7 +18586,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20398,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17483,7 +18623,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20547,
                               "decorators": [],
                               "name": "_NgControlStatus_30_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17505,7 +18646,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20450,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17518,7 +18660,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20463,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17527,7 +18670,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20479,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17549,7 +18693,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20508,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17585,7 +18730,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20673,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_33_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17607,7 +18753,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20566,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17620,7 +18767,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20579,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17629,7 +18777,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20600,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17651,7 +18800,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20629,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17687,7 +18837,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20793,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_33_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17709,7 +18860,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20692,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17722,7 +18874,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20705,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17731,7 +18884,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20723,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17753,7 +18907,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20752,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17789,7 +18944,8 @@ __ESTREE_TEST__:PASS:
                               "end": 20909,
                               "decorators": [],
                               "name": "_FormControlName_33_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17811,7 +18967,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20812,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17824,7 +18981,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20825,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17833,7 +18991,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20841,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17855,7 +19014,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20870,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17891,7 +19051,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21013,
                               "decorators": [],
                               "name": "_NgControl_33_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -17913,7 +19074,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20928,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -17926,7 +19088,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20941,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -17935,7 +19098,8 @@ __ESTREE_TEST__:PASS:
                             "end": 20951,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -17957,7 +19121,8 @@ __ESTREE_TEST__:PASS:
                           "end": 20980,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -17993,7 +19158,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21129,
                               "decorators": [],
                               "name": "_NgControlStatus_33_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18015,7 +19181,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21032,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18028,7 +19195,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21045,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18037,7 +19205,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21061,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18059,7 +19228,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21090,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18095,7 +19265,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21255,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_36_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18117,7 +19288,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21148,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18130,7 +19302,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21161,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18139,7 +19312,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21182,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18161,7 +19335,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21211,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18197,7 +19372,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21375,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_36_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18219,7 +19395,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21274,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18232,7 +19409,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21287,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18241,7 +19419,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21305,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18263,7 +19442,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21334,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18299,7 +19479,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21491,
                               "decorators": [],
                               "name": "_FormControlName_36_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18321,7 +19502,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21394,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18334,7 +19516,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21407,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18343,7 +19526,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21423,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18365,7 +19549,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21452,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18401,7 +19586,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21595,
                               "decorators": [],
                               "name": "_NgControl_36_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18423,7 +19609,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21510,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18436,7 +19623,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21523,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18445,7 +19633,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21533,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18467,7 +19656,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21562,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18503,7 +19693,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21711,
                               "decorators": [],
                               "name": "_NgControlStatus_36_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18525,7 +19716,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21614,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18538,7 +19730,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21627,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18547,7 +19740,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21643,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18569,7 +19763,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21672,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18605,7 +19800,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21837,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_39_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18627,7 +19823,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21730,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18640,7 +19837,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21743,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18649,7 +19847,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21764,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18671,7 +19870,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21793,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18707,7 +19907,8 @@ __ESTREE_TEST__:PASS:
                               "end": 21957,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_39_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18729,7 +19930,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21856,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18742,7 +19944,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21869,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18751,7 +19954,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21887,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18773,7 +19977,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21916,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18809,7 +20014,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22073,
                               "decorators": [],
                               "name": "_FormControlName_39_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18831,7 +20037,8 @@ __ESTREE_TEST__:PASS:
                           "end": 21976,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18844,7 +20051,8 @@ __ESTREE_TEST__:PASS:
                             "end": 21989,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18853,7 +20061,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22005,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18875,7 +20084,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22034,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -18911,7 +20121,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22177,
                               "decorators": [],
                               "name": "_NgControl_39_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -18933,7 +20144,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22092,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -18946,7 +20158,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22105,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -18955,7 +20168,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22115,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -18977,7 +20191,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22144,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19013,7 +20228,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22293,
                               "decorators": [],
                               "name": "_NgControlStatus_39_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19035,7 +20251,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22196,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19048,7 +20265,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22209,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19057,7 +20275,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22225,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19079,7 +20298,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22254,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19115,7 +20335,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22419,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_42_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19137,7 +20358,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22312,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19150,7 +20372,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22325,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19159,7 +20382,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22346,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19181,7 +20405,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22375,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19217,7 +20442,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22539,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_42_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19239,7 +20465,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22438,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19252,7 +20479,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22451,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19261,7 +20489,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22469,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19283,7 +20512,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22498,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19319,7 +20549,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22655,
                               "decorators": [],
                               "name": "_FormControlName_42_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19341,7 +20572,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22558,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19354,7 +20586,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22571,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19363,7 +20596,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22587,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19385,7 +20619,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22616,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19421,7 +20656,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22759,
                               "decorators": [],
                               "name": "_NgControl_42_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19443,7 +20679,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22674,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19456,7 +20693,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22687,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19465,7 +20703,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22697,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19487,7 +20726,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22726,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19523,7 +20763,8 @@ __ESTREE_TEST__:PASS:
                               "end": 22875,
                               "decorators": [],
                               "name": "_NgControlStatus_42_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19545,7 +20786,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22778,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19558,7 +20800,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22791,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19567,7 +20810,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22807,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19589,7 +20833,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22836,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19625,7 +20870,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23001,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_45_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19647,7 +20893,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22894,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19660,7 +20907,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22907,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19669,7 +20917,8 @@ __ESTREE_TEST__:PASS:
                             "end": 22928,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19691,7 +20940,8 @@ __ESTREE_TEST__:PASS:
                           "end": 22957,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19727,7 +20977,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23121,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_45_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19749,7 +21000,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23020,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19762,7 +21014,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23033,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19771,7 +21024,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23051,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19793,7 +21047,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23080,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19829,7 +21084,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23237,
                               "decorators": [],
                               "name": "_FormControlName_45_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19851,7 +21107,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23140,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19864,7 +21121,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23153,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19873,7 +21131,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23169,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19895,7 +21154,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23198,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -19931,7 +21191,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23341,
                               "decorators": [],
                               "name": "_NgControl_45_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -19953,7 +21214,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23256,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -19966,7 +21228,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23269,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -19975,7 +21238,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23279,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -19997,7 +21261,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23308,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20033,7 +21298,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23457,
                               "decorators": [],
                               "name": "_NgControlStatus_45_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20055,7 +21321,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23360,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20068,7 +21335,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23373,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20077,7 +21345,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23389,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20099,7 +21368,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23418,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20135,7 +21405,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23583,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_48_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20157,7 +21428,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23476,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20170,7 +21442,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23489,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20179,7 +21452,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23510,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20201,7 +21475,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23539,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20237,7 +21512,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23703,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_48_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20259,7 +21535,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23602,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20272,7 +21549,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23615,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20281,7 +21559,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23633,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20303,7 +21582,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23662,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20339,7 +21619,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23819,
                               "decorators": [],
                               "name": "_FormControlName_48_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20361,7 +21642,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23722,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20374,7 +21656,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23735,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20383,7 +21666,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23751,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20405,7 +21689,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23780,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20441,7 +21726,8 @@ __ESTREE_TEST__:PASS:
                               "end": 23923,
                               "decorators": [],
                               "name": "_NgControl_48_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20463,7 +21749,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23838,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20476,7 +21763,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23851,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20485,7 +21773,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23861,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20507,7 +21796,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23890,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20543,7 +21833,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24039,
                               "decorators": [],
                               "name": "_NgControlStatus_48_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20565,7 +21856,8 @@ __ESTREE_TEST__:PASS:
                           "end": 23942,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20578,7 +21870,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23955,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20587,7 +21880,8 @@ __ESTREE_TEST__:PASS:
                             "end": 23971,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20609,7 +21903,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24000,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20645,7 +21940,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24165,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_51_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20667,7 +21963,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24058,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20680,7 +21977,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24071,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20689,7 +21987,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24092,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20711,7 +22010,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24121,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20747,7 +22047,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24285,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_51_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20769,7 +22070,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24184,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20782,7 +22084,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24197,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20791,7 +22094,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24215,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20813,7 +22117,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24244,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20849,7 +22154,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24401,
                               "decorators": [],
                               "name": "_FormControlName_51_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20871,7 +22177,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24304,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20884,7 +22191,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24317,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20893,7 +22201,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24333,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -20915,7 +22224,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24362,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -20951,7 +22261,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24505,
                               "decorators": [],
                               "name": "_NgControl_51_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -20973,7 +22284,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24420,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -20986,7 +22298,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24433,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -20995,7 +22308,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24443,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21017,7 +22331,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24472,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21053,7 +22368,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24621,
                               "decorators": [],
                               "name": "_NgControlStatus_51_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21075,7 +22391,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24524,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21088,7 +22405,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24537,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21097,7 +22415,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24553,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21119,7 +22438,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24582,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21155,7 +22475,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24747,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_54_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21177,7 +22498,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24640,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21190,7 +22512,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24653,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21199,7 +22522,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24674,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21221,7 +22545,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24703,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21257,7 +22582,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24867,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_54_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21279,7 +22605,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24766,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21292,7 +22619,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24779,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21301,7 +22629,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24797,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21323,7 +22652,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24826,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21359,7 +22689,8 @@ __ESTREE_TEST__:PASS:
                               "end": 24983,
                               "decorators": [],
                               "name": "_FormControlName_54_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21381,7 +22712,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24886,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21394,7 +22726,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24899,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21403,7 +22736,8 @@ __ESTREE_TEST__:PASS:
                             "end": 24915,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21425,7 +22759,8 @@ __ESTREE_TEST__:PASS:
                           "end": 24944,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21461,7 +22796,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25087,
                               "decorators": [],
                               "name": "_NgControl_54_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21483,7 +22819,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25002,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21496,7 +22833,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25015,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21505,7 +22843,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25025,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21527,7 +22866,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25054,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21563,7 +22903,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25203,
                               "decorators": [],
                               "name": "_NgControlStatus_54_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21585,7 +22926,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25106,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21598,7 +22940,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25119,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21607,7 +22950,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25135,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21629,7 +22973,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25164,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21665,7 +23010,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25329,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_57_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21687,7 +23033,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25222,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21700,7 +23047,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25235,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21709,7 +23057,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25256,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21731,7 +23080,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25285,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21767,7 +23117,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25449,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_57_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21789,7 +23140,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25348,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21802,7 +23154,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25361,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21811,7 +23164,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25379,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21833,7 +23187,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25408,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21869,7 +23224,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25565,
                               "decorators": [],
                               "name": "_FormControlName_57_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21891,7 +23247,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25468,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -21904,7 +23261,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25481,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -21913,7 +23271,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25497,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -21935,7 +23294,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25526,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -21971,7 +23331,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25669,
                               "decorators": [],
                               "name": "_NgControl_57_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -21993,7 +23354,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25584,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22006,7 +23368,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25597,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22015,7 +23378,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25607,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22037,7 +23401,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25636,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22073,7 +23438,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25785,
                               "decorators": [],
                               "name": "_NgControlStatus_57_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22095,7 +23461,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25688,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22108,7 +23475,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25701,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22117,7 +23485,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25717,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22139,7 +23508,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25746,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22175,7 +23545,8 @@ __ESTREE_TEST__:PASS:
                               "end": 25911,
                               "decorators": [],
                               "name": "_DefaultValueAccessor_60_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22197,7 +23568,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25804,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22210,7 +23582,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25817,
                             "decorators": [],
                             "name": "import46",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22219,7 +23592,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25838,
                             "decorators": [],
                             "name": "DefaultValueAccessor",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22241,7 +23615,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25867,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22277,7 +23652,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26031,
                               "decorators": [],
                               "name": "_NG_VALUE_ACCESSOR_60_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22299,7 +23675,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25930,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22312,7 +23689,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25943,
                             "decorators": [],
                             "name": "import49",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22321,7 +23699,8 @@ __ESTREE_TEST__:PASS:
                             "end": 25961,
                             "decorators": [],
                             "name": "NG_VALUE_ACCESSOR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22343,7 +23722,8 @@ __ESTREE_TEST__:PASS:
                           "end": 25990,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22379,7 +23759,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26147,
                               "decorators": [],
                               "name": "_FormControlName_60_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22401,7 +23782,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26050,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22414,7 +23796,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26063,
                             "decorators": [],
                             "name": "import47",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22423,7 +23806,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26079,
                             "decorators": [],
                             "name": "FormControlName",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22445,7 +23829,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26108,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22481,7 +23866,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26251,
                               "decorators": [],
                               "name": "_NgControl_60_6",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22503,7 +23889,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26166,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22516,7 +23903,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26179,
                             "decorators": [],
                             "name": "import50",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22525,7 +23913,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26189,
                             "decorators": [],
                             "name": "NgControl",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22547,7 +23936,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26218,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22583,7 +23973,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26367,
                               "decorators": [],
                               "name": "_NgControlStatus_60_7",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22605,7 +23996,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26270,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22618,7 +24010,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26283,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22627,7 +24020,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26299,
                             "decorators": [],
                             "name": "NgControlStatus",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22649,7 +24043,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26328,
                           "decorators": [],
                           "name": "requestNodeIndex",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -22685,7 +24080,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26516,
                               "decorators": [],
                               "name": "_FormGroupDirective_1_3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22707,7 +24103,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26386,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22720,7 +24117,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26399,
                             "decorators": [],
                             "name": "import44",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22729,7 +24127,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26418,
                             "decorators": [],
                             "name": "FormGroupDirective",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22756,7 +24155,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26446,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -22770,7 +24170,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26468,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Literal",
@@ -22814,7 +24215,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26661,
                               "decorators": [],
                               "name": "_ControlContainer_1_4",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22836,7 +24238,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26535,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22849,7 +24252,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26548,
                             "decorators": [],
                             "name": "import51",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22858,7 +24262,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26565,
                             "decorators": [],
                             "name": "ControlContainer",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -22885,7 +24290,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26593,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -22899,7 +24305,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26615,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Literal",
@@ -22943,7 +24350,8 @@ __ESTREE_TEST__:PASS:
                               "end": 26814,
                               "decorators": [],
                               "name": "_NgControlStatusGroup_1_5",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -22965,7 +24373,8 @@ __ESTREE_TEST__:PASS:
                           "end": 26680,
                           "decorators": [],
                           "name": "token",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "MemberExpression",
@@ -22978,7 +24387,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26693,
                             "decorators": [],
                             "name": "import45",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -22987,7 +24397,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26714,
                             "decorators": [],
                             "name": "NgControlStatusGroup",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -23014,7 +24425,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26742,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -23028,7 +24440,8 @@ __ESTREE_TEST__:PASS:
                             "end": 26764,
                             "decorators": [],
                             "name": "requestNodeIndex",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Literal",
@@ -23051,7 +24464,8 @@ __ESTREE_TEST__:PASS:
                       "end": 26843,
                       "decorators": [],
                       "name": "notFoundResult",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -23125,7 +24539,8 @@ __ESTREE_TEST__:PASS:
                   "start": 14755,
                   "end": 14758
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -23138,10 +24553,13 @@ __ESTREE_TEST__:PASS:
         "end": 5044,
         "decorators": [],
         "name": "_View_AppComponent0",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -23173,7 +24591,8 @@ __ESTREE_TEST__:PASS:
                     "end": 26993,
                     "decorators": [],
                     "name": "viewUtils",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -23181,7 +24600,8 @@ __ESTREE_TEST__:PASS:
                     "end": 27008,
                     "decorators": [],
                     "name": "parentInjector",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   {
                     "type": "Identifier",
@@ -23189,7 +24609,8 @@ __ESTREE_TEST__:PASS:
                     "end": 27022,
                     "decorators": [],
                     "name": "declarationEl",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
                 "callee": {
@@ -23198,8 +24619,10 @@ __ESTREE_TEST__:PASS:
                   "end": 26983,
                   "decorators": [],
                   "name": "_View_AppComponent0",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           ]
@@ -23213,7 +24636,8 @@ __ESTREE_TEST__:PASS:
           "end": 26892,
           "decorators": [],
           "name": "viewFactory_AppComponent0",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -23280,7 +24704,8 @@ __ESTREE_TEST__:PASS:
             "start": 26945,
             "end": 26948
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

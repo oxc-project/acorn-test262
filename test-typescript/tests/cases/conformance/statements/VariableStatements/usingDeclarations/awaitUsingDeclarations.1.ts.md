@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "d1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 32,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                     "end": 45,
                     "decorators": [],
                     "name": "asyncDispose",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "kind": "init",
@@ -75,7 +78,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
                   "end": 96,
                   "decorators": [],
                   "name": "d3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -134,7 +140,8 @@ __ESTREE_TEST__:PASS:
                           "end": 114,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -143,7 +150,8 @@ __ESTREE_TEST__:PASS:
                           "end": 127,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -165,7 +173,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -179,6 +189,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 141,
             "end": 152,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 141,
@@ -203,9 +214,12 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "af",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -233,7 +247,8 @@ __ESTREE_TEST__:PASS:
                   "end": 198,
                   "decorators": [],
                   "name": "d5",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -256,7 +271,8 @@ __ESTREE_TEST__:PASS:
                           "end": 216,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -265,7 +281,8 @@ __ESTREE_TEST__:PASS:
                           "end": 229,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -287,7 +304,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -301,6 +320,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 243,
             "end": 249,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 243,
@@ -313,6 +333,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 254,
             "end": 265,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 254,
@@ -337,9 +358,12 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "ag",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -357,7 +381,8 @@ __ESTREE_TEST__:PASS:
             "end": 276,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -385,7 +410,8 @@ __ESTREE_TEST__:PASS:
                         "end": 311,
                         "decorators": [],
                         "name": "d6",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "ObjectExpression",
@@ -408,7 +434,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 329,
                                 "decorators": [],
                                 "name": "Symbol",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "property": {
@@ -417,7 +444,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 342,
                                 "decorators": [],
                                 "name": "asyncDispose",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "kind": "init",
@@ -439,7 +467,9 @@ __ESTREE_TEST__:PASS:
                               "expression": false,
                               "generator": false,
                               "id": null,
-                              "params": []
+                              "params": [],
+                              "returnType": null,
+                              "typeParameters": null
                             }
                           }
                         ]
@@ -454,7 +484,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -475,6 +507,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 371,
             "end": 458,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -485,12 +518,14 @@ __ESTREE_TEST__:PASS:
               "end": 372,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 375,
@@ -517,7 +552,8 @@ __ESTREE_TEST__:PASS:
                           "end": 411,
                           "decorators": [],
                           "name": "d7",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ObjectExpression",
@@ -540,7 +576,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 429,
                                   "decorators": [],
                                   "name": "Symbol",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -549,7 +586,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 442,
                                   "decorators": [],
                                   "name": "asyncDispose",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "kind": "init",
@@ -571,7 +609,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": false,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -586,13 +626,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 464,
             "end": 566,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -601,7 +644,8 @@ __ESTREE_TEST__:PASS:
               "end": 472,
               "decorators": [],
               "name": "am",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -633,7 +677,8 @@ __ESTREE_TEST__:PASS:
                           "end": 500,
                           "decorators": [],
                           "name": "d13",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ObjectExpression",
@@ -656,7 +701,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 518,
                                   "decorators": [],
                                   "name": "Symbol",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -665,7 +711,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 531,
                                   "decorators": [],
                                   "name": "asyncDispose",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "kind": "init",
@@ -687,7 +734,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": false,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -701,6 +750,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 549,
                     "end": 560,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 549,
@@ -720,13 +770,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 572,
             "end": 691,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -735,7 +788,8 @@ __ESTREE_TEST__:PASS:
               "end": 582,
               "decorators": [],
               "name": "ag",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -767,7 +821,8 @@ __ESTREE_TEST__:PASS:
                           "end": 610,
                           "decorators": [],
                           "name": "d15",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ObjectExpression",
@@ -790,7 +845,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 628,
                                   "decorators": [],
                                   "name": "Symbol",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -799,7 +855,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 641,
                                   "decorators": [],
                                   "name": "asyncDispose",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "kind": "init",
@@ -821,7 +878,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": false,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -835,6 +894,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 659,
                     "end": 665,
+                    "directive": null,
                     "expression": {
                       "type": "YieldExpression",
                       "start": 659,
@@ -847,6 +907,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 674,
                     "end": 685,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 674,
@@ -866,7 +927,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": true,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -879,10 +942,13 @@ __ESTREE_TEST__:PASS:
         "end": 364,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "BlockStatement",
@@ -905,7 +971,8 @@ __ESTREE_TEST__:PASS:
                 "end": 716,
                 "decorators": [],
                 "name": "d19",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "ObjectExpression",
@@ -928,7 +995,8 @@ __ESTREE_TEST__:PASS:
                         "end": 734,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -937,7 +1005,8 @@ __ESTREE_TEST__:PASS:
                         "end": 747,
                         "decorators": [],
                         "name": "asyncDispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -959,7 +1028,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -997,7 +1068,8 @@ __ESTREE_TEST__:PASS:
                     "end": 820,
                     "decorators": [],
                     "name": "d20",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -1020,7 +1092,8 @@ __ESTREE_TEST__:PASS:
                             "end": 838,
                             "decorators": [],
                             "name": "Symbol",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1029,7 +1102,8 @@ __ESTREE_TEST__:PASS:
                             "end": 851,
                             "decorators": [],
                             "name": "asyncDispose",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "kind": "init",
@@ -1051,7 +1125,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ]
@@ -1097,7 +1173,8 @@ __ESTREE_TEST__:PASS:
                     "end": 912,
                     "decorators": [],
                     "name": "d21",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -1120,7 +1197,8 @@ __ESTREE_TEST__:PASS:
                             "end": 930,
                             "decorators": [],
                             "name": "Symbol",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1129,7 +1207,8 @@ __ESTREE_TEST__:PASS:
                             "end": 943,
                             "decorators": [],
                             "name": "asyncDispose",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "kind": "init",
@@ -1151,7 +1230,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ]
@@ -1193,7 +1274,8 @@ __ESTREE_TEST__:PASS:
             "end": 772,
             "decorators": [],
             "name": "Math",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1202,10 +1284,12 @@ __ESTREE_TEST__:PASS:
             "end": 779,
             "decorators": [],
             "name": "random",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -1239,7 +1323,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1041,
                       "decorators": [],
                       "name": "d22",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ObjectExpression",
@@ -1262,7 +1347,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1059,
                               "decorators": [],
                               "name": "Symbol",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -1271,7 +1357,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1072,
                               "decorators": [],
                               "name": "asyncDispose",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "kind": "init",
@@ -1293,7 +1380,9 @@ __ESTREE_TEST__:PASS:
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         }
                       ]
@@ -1360,7 +1449,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1133,
                   "decorators": [],
                   "name": "d23",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1383,7 +1473,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1151,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1392,7 +1483,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1164,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1414,7 +1506,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -1447,7 +1541,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1275,
                   "decorators": [],
                   "name": "d25",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1470,7 +1565,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1293,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1479,7 +1575,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1306,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1501,7 +1598,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -1538,7 +1637,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1203,
                     "decorators": [],
                     "name": "d24",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -1561,7 +1661,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1221,
                             "decorators": [],
                             "name": "Symbol",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1570,7 +1671,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1234,
                             "decorators": [],
                             "name": "asyncDispose",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "kind": "init",
@@ -1592,7 +1694,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": false,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ]
@@ -1632,7 +1736,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1419,
                   "decorators": [],
                   "name": "d27",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1655,7 +1760,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1437,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1664,7 +1770,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1450,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1686,7 +1793,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -1719,7 +1828,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1350,
                   "decorators": [],
                   "name": "d26",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1742,7 +1852,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1368,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1751,7 +1862,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1381,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1773,7 +1885,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -1818,7 +1932,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1497,
                   "decorators": [],
                   "name": "d28",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1841,7 +1956,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1515,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1850,7 +1966,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1528,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1872,7 +1989,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -1923,7 +2042,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1576,
                   "decorators": [],
                   "name": "d29",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -1946,7 +2066,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1594,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1955,7 +2076,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1607,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -1977,7 +2099,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -2028,7 +2152,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1675,
                   "decorators": [],
                   "name": "d30",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -2051,7 +2176,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1693,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2060,7 +2186,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1706,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -2082,7 +2209,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -2129,7 +2258,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1771,
                   "decorators": [],
                   "name": "d31",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -2152,7 +2282,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1789,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2161,7 +2292,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1802,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -2183,7 +2315,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -2211,7 +2345,8 @@ __ESTREE_TEST__:PASS:
               "end": 1742,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -2252,7 +2387,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1856,
                   "decorators": [],
                   "name": "d32",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ObjectExpression",
@@ -2275,7 +2411,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1874,
                           "decorators": [],
                           "name": "Symbol",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2284,7 +2421,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1887,
                           "decorators": [],
                           "name": "asyncDispose",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "init",
@@ -2306,7 +2444,9 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -2334,7 +2474,8 @@ __ESTREE_TEST__:PASS:
               "end": 1827,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 24,
       "end": 63,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 51,
         "decorators": [],
         "name": "myRandBool",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -31,7 +33,8 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 62
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -205,7 +208,8 @@ __ESTREE_TEST__:PASS:
               "end": 147,
               "decorators": [],
               "name": "myRandBool",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -291,7 +295,8 @@ __ESTREE_TEST__:PASS:
               "end": 202,
               "decorators": [],
               "name": "myRandBool",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

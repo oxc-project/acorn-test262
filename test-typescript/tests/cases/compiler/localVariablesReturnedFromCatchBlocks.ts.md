@@ -51,7 +51,8 @@ __ESTREE_TEST__:PASS:
                           "end": 61,
                           "decorators": [],
                           "name": "stack2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "MemberExpression",
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
                             "end": 65,
                             "decorators": [],
                             "name": "e",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
                             "end": 71,
                             "decorators": [],
                             "name": "stack",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -91,7 +94,8 @@ __ESTREE_TEST__:PASS:
                       "end": 94,
                       "decorators": [],
                       "name": "stack2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -102,7 +106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "e",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -117,9 +122,12 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

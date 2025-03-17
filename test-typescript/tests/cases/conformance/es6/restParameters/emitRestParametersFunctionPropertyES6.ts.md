@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 32,
                     "end": 56,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 37,
                       "decorators": [],
                       "name": "func1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -66,10 +68,13 @@ __ESTREE_TEST__:PASS:
                               "end": 47,
                               "decorators": [],
                               "name": "rest",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "decorators": [],
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null,
+                            "value": null
                           }
                         ],
                         "returnType": {
@@ -81,7 +86,8 @@ __ESTREE_TEST__:PASS:
                             "start": 52,
                             "end": 56
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     }
                   }
@@ -111,7 +117,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "obj2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
                   "end": 81,
                   "decorators": [],
                   "name": "func",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -161,12 +169,17 @@ __ESTREE_TEST__:PASS:
                         "end": 89,
                         "decorators": [],
                         "name": "rest",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "decorators": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null,
+                      "value": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

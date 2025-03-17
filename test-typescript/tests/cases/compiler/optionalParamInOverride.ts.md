@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "func",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -59,7 +60,8 @@ __ESTREE_TEST__:PASS:
                   "start": 29,
                   "end": 33
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -72,10 +74,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "Z",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "func",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -150,7 +156,8 @@ __ESTREE_TEST__:PASS:
                   "start": 90,
                   "end": 94
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -163,7 +170,8 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "Y",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -172,8 +180,11 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "Z",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

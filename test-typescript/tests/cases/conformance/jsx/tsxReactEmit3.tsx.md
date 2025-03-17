@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -45,7 +47,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -99,7 +102,8 @@ __ESTREE_TEST__:PASS:
             "end": 85,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -114,7 +118,8 @@ __ESTREE_TEST__:PASS:
             "end": 90,
             "decorators": [],
             "name": "Bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -129,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 95,
             "decorators": [],
             "name": "baz",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -141,6 +147,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 98,
       "end": 149,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 98,
@@ -188,7 +195,8 @@ __ESTREE_TEST__:PASS:
                 "end": 108,
                 "name": "Bar"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           },
           {
@@ -215,7 +223,8 @@ __ESTREE_TEST__:PASS:
                 "end": 123,
                 "name": "Bar"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           },
           {
@@ -242,7 +251,8 @@ __ESTREE_TEST__:PASS:
                 "end": 134,
                 "name": "Bar"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           },
           {
@@ -262,7 +272,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "name": "Bar"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         ],
@@ -288,7 +299,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "name": "Foo"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

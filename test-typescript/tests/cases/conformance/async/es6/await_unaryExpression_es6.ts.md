@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 45,
             "end": 55,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 45,
@@ -50,9 +51,12 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -68,6 +72,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 93,
             "end": 103,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 93,
@@ -99,9 +104,12 @@ __ESTREE_TEST__:PASS:
         "end": 84,
         "decorators": [],
         "name": "bar1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -117,6 +125,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 141,
             "end": 151,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 141,
@@ -148,9 +157,12 @@ __ESTREE_TEST__:PASS:
         "end": 132,
         "decorators": [],
         "name": "bar3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -166,6 +178,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 189,
             "end": 199,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 189,
@@ -197,9 +210,12 @@ __ESTREE_TEST__:PASS:
         "end": 180,
         "decorators": [],
         "name": "bar4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

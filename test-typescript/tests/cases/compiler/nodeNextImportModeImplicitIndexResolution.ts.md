@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -131,7 +133,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "item",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -140,7 +143,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "item",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -169,7 +173,8 @@ __ESTREE_TEST__:PASS:
             "end": 143,
             "decorators": [],
             "name": "item",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -178,7 +183,8 @@ __ESTREE_TEST__:PASS:
             "end": 152,
             "decorators": [],
             "name": "item2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -207,7 +213,8 @@ __ESTREE_TEST__:PASS:
             "end": 291,
             "decorators": [],
             "name": "item",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -216,7 +223,8 @@ __ESTREE_TEST__:PASS:
             "end": 300,
             "decorators": [],
             "name": "item3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

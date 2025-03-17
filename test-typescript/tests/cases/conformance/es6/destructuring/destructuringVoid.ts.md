@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "optional": false,
-            "properties": []
+            "properties": [],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
             "end": 35,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

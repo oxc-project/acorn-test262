@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -49,9 +50,12 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "empty",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -67,6 +71,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 79,
             "end": 87,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 79,
@@ -77,7 +82,8 @@ __ESTREE_TEST__:PASS:
                 "end": 86,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -92,9 +98,12 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "singleAwait",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

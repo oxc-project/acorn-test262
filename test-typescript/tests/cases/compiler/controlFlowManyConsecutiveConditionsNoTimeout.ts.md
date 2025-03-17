@@ -30,8 +30,10 @@ __ESTREE_TEST__:PASS:
                 "end": 28,
                 "decorators": [],
                 "name": "One",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -44,8 +46,10 @@ __ESTREE_TEST__:PASS:
                 "end": 37,
                 "decorators": [],
                 "name": "Two",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -57,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -89,13 +94,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 56,
                 "end": 62,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 56,
                   "end": 62,
                   "decorators": [],
                   "name": "Choice",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -111,7 +118,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "Choice",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -120,7 +128,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "One",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -144,7 +153,8 @@ __ESTREE_TEST__:PASS:
             "end": 92,
             "decorators": [],
             "name": "choiceOne",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -157,7 +167,8 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "decorators": [],
               "name": "Choice",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -166,7 +177,8 @@ __ESTREE_TEST__:PASS:
               "end": 105,
               "decorators": [],
               "name": "One",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -196,7 +208,8 @@ __ESTREE_TEST__:PASS:
           "end": 118,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -204,7 +217,8 @@ __ESTREE_TEST__:PASS:
           "end": 132,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -230,7 +244,8 @@ __ESTREE_TEST__:PASS:
           "end": 147,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -238,7 +253,8 @@ __ESTREE_TEST__:PASS:
           "end": 161,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -264,7 +280,8 @@ __ESTREE_TEST__:PASS:
           "end": 176,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -272,7 +289,8 @@ __ESTREE_TEST__:PASS:
           "end": 190,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -298,7 +316,8 @@ __ESTREE_TEST__:PASS:
           "end": 205,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -306,7 +325,8 @@ __ESTREE_TEST__:PASS:
           "end": 219,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -332,7 +352,8 @@ __ESTREE_TEST__:PASS:
           "end": 234,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -340,7 +361,8 @@ __ESTREE_TEST__:PASS:
           "end": 248,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -366,7 +388,8 @@ __ESTREE_TEST__:PASS:
           "end": 263,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -374,7 +397,8 @@ __ESTREE_TEST__:PASS:
           "end": 277,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -400,7 +424,8 @@ __ESTREE_TEST__:PASS:
           "end": 292,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -408,7 +433,8 @@ __ESTREE_TEST__:PASS:
           "end": 306,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -434,7 +460,8 @@ __ESTREE_TEST__:PASS:
           "end": 321,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -442,7 +469,8 @@ __ESTREE_TEST__:PASS:
           "end": 335,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -468,7 +496,8 @@ __ESTREE_TEST__:PASS:
           "end": 350,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -476,7 +505,8 @@ __ESTREE_TEST__:PASS:
           "end": 364,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -502,7 +532,8 @@ __ESTREE_TEST__:PASS:
           "end": 379,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -510,7 +541,8 @@ __ESTREE_TEST__:PASS:
           "end": 393,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -536,7 +568,8 @@ __ESTREE_TEST__:PASS:
           "end": 408,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -544,7 +577,8 @@ __ESTREE_TEST__:PASS:
           "end": 422,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -570,7 +604,8 @@ __ESTREE_TEST__:PASS:
           "end": 437,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -578,7 +613,8 @@ __ESTREE_TEST__:PASS:
           "end": 451,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -604,7 +640,8 @@ __ESTREE_TEST__:PASS:
           "end": 466,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -612,7 +649,8 @@ __ESTREE_TEST__:PASS:
           "end": 480,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -638,7 +676,8 @@ __ESTREE_TEST__:PASS:
           "end": 495,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -646,7 +685,8 @@ __ESTREE_TEST__:PASS:
           "end": 509,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -672,7 +712,8 @@ __ESTREE_TEST__:PASS:
           "end": 524,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -680,7 +721,8 @@ __ESTREE_TEST__:PASS:
           "end": 538,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -706,7 +748,8 @@ __ESTREE_TEST__:PASS:
           "end": 553,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -714,7 +757,8 @@ __ESTREE_TEST__:PASS:
           "end": 567,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -740,7 +784,8 @@ __ESTREE_TEST__:PASS:
           "end": 582,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -748,7 +793,8 @@ __ESTREE_TEST__:PASS:
           "end": 596,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -774,7 +820,8 @@ __ESTREE_TEST__:PASS:
           "end": 611,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -782,7 +829,8 @@ __ESTREE_TEST__:PASS:
           "end": 625,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -808,7 +856,8 @@ __ESTREE_TEST__:PASS:
           "end": 640,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -816,7 +865,8 @@ __ESTREE_TEST__:PASS:
           "end": 654,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -842,7 +892,8 @@ __ESTREE_TEST__:PASS:
           "end": 669,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -850,7 +901,8 @@ __ESTREE_TEST__:PASS:
           "end": 683,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -876,7 +928,8 @@ __ESTREE_TEST__:PASS:
           "end": 698,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -884,7 +937,8 @@ __ESTREE_TEST__:PASS:
           "end": 712,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -910,7 +964,8 @@ __ESTREE_TEST__:PASS:
           "end": 727,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -918,7 +973,8 @@ __ESTREE_TEST__:PASS:
           "end": 741,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -944,7 +1000,8 @@ __ESTREE_TEST__:PASS:
           "end": 756,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -952,7 +1009,8 @@ __ESTREE_TEST__:PASS:
           "end": 770,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -978,7 +1036,8 @@ __ESTREE_TEST__:PASS:
           "end": 785,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -986,7 +1045,8 @@ __ESTREE_TEST__:PASS:
           "end": 799,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1012,7 +1072,8 @@ __ESTREE_TEST__:PASS:
           "end": 814,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1020,7 +1081,8 @@ __ESTREE_TEST__:PASS:
           "end": 828,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1046,7 +1108,8 @@ __ESTREE_TEST__:PASS:
           "end": 843,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1054,7 +1117,8 @@ __ESTREE_TEST__:PASS:
           "end": 857,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1080,7 +1144,8 @@ __ESTREE_TEST__:PASS:
           "end": 872,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1088,7 +1153,8 @@ __ESTREE_TEST__:PASS:
           "end": 886,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1114,7 +1180,8 @@ __ESTREE_TEST__:PASS:
           "end": 901,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1122,7 +1189,8 @@ __ESTREE_TEST__:PASS:
           "end": 915,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1148,7 +1216,8 @@ __ESTREE_TEST__:PASS:
           "end": 930,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1156,7 +1225,8 @@ __ESTREE_TEST__:PASS:
           "end": 944,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1182,7 +1252,8 @@ __ESTREE_TEST__:PASS:
           "end": 959,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1190,7 +1261,8 @@ __ESTREE_TEST__:PASS:
           "end": 973,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1216,7 +1288,8 @@ __ESTREE_TEST__:PASS:
           "end": 988,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1224,7 +1297,8 @@ __ESTREE_TEST__:PASS:
           "end": 1002,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1250,7 +1324,8 @@ __ESTREE_TEST__:PASS:
           "end": 1017,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1258,7 +1333,8 @@ __ESTREE_TEST__:PASS:
           "end": 1031,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1284,7 +1360,8 @@ __ESTREE_TEST__:PASS:
           "end": 1046,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1292,7 +1369,8 @@ __ESTREE_TEST__:PASS:
           "end": 1060,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1318,7 +1396,8 @@ __ESTREE_TEST__:PASS:
           "end": 1075,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1326,7 +1405,8 @@ __ESTREE_TEST__:PASS:
           "end": 1089,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1352,7 +1432,8 @@ __ESTREE_TEST__:PASS:
           "end": 1104,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1360,7 +1441,8 @@ __ESTREE_TEST__:PASS:
           "end": 1118,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1386,7 +1468,8 @@ __ESTREE_TEST__:PASS:
           "end": 1133,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1394,7 +1477,8 @@ __ESTREE_TEST__:PASS:
           "end": 1147,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1420,7 +1504,8 @@ __ESTREE_TEST__:PASS:
           "end": 1162,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1428,7 +1513,8 @@ __ESTREE_TEST__:PASS:
           "end": 1176,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1454,7 +1540,8 @@ __ESTREE_TEST__:PASS:
           "end": 1191,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1462,7 +1549,8 @@ __ESTREE_TEST__:PASS:
           "end": 1205,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1488,7 +1576,8 @@ __ESTREE_TEST__:PASS:
           "end": 1220,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1496,7 +1585,8 @@ __ESTREE_TEST__:PASS:
           "end": 1234,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1522,7 +1612,8 @@ __ESTREE_TEST__:PASS:
           "end": 1249,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1530,7 +1621,8 @@ __ESTREE_TEST__:PASS:
           "end": 1263,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1556,7 +1648,8 @@ __ESTREE_TEST__:PASS:
           "end": 1278,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1564,7 +1657,8 @@ __ESTREE_TEST__:PASS:
           "end": 1292,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1590,7 +1684,8 @@ __ESTREE_TEST__:PASS:
           "end": 1307,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1598,7 +1693,8 @@ __ESTREE_TEST__:PASS:
           "end": 1321,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1624,7 +1720,8 @@ __ESTREE_TEST__:PASS:
           "end": 1336,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1632,7 +1729,8 @@ __ESTREE_TEST__:PASS:
           "end": 1350,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1658,7 +1756,8 @@ __ESTREE_TEST__:PASS:
           "end": 1365,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1666,7 +1765,8 @@ __ESTREE_TEST__:PASS:
           "end": 1379,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1692,7 +1792,8 @@ __ESTREE_TEST__:PASS:
           "end": 1394,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1700,7 +1801,8 @@ __ESTREE_TEST__:PASS:
           "end": 1408,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1726,7 +1828,8 @@ __ESTREE_TEST__:PASS:
           "end": 1423,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1734,7 +1837,8 @@ __ESTREE_TEST__:PASS:
           "end": 1437,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1760,7 +1864,8 @@ __ESTREE_TEST__:PASS:
           "end": 1452,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1768,7 +1873,8 @@ __ESTREE_TEST__:PASS:
           "end": 1466,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1794,7 +1900,8 @@ __ESTREE_TEST__:PASS:
           "end": 1481,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1802,7 +1909,8 @@ __ESTREE_TEST__:PASS:
           "end": 1495,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1828,7 +1936,8 @@ __ESTREE_TEST__:PASS:
           "end": 1510,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1836,7 +1945,8 @@ __ESTREE_TEST__:PASS:
           "end": 1524,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1862,7 +1972,8 @@ __ESTREE_TEST__:PASS:
           "end": 1539,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1870,7 +1981,8 @@ __ESTREE_TEST__:PASS:
           "end": 1553,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1896,7 +2008,8 @@ __ESTREE_TEST__:PASS:
           "end": 1568,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1904,7 +2017,8 @@ __ESTREE_TEST__:PASS:
           "end": 1582,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1930,7 +2044,8 @@ __ESTREE_TEST__:PASS:
           "end": 1597,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1938,7 +2053,8 @@ __ESTREE_TEST__:PASS:
           "end": 1611,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1964,7 +2080,8 @@ __ESTREE_TEST__:PASS:
           "end": 1626,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1972,7 +2089,8 @@ __ESTREE_TEST__:PASS:
           "end": 1640,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1998,7 +2116,8 @@ __ESTREE_TEST__:PASS:
           "end": 1655,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2006,7 +2125,8 @@ __ESTREE_TEST__:PASS:
           "end": 1669,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2032,7 +2152,8 @@ __ESTREE_TEST__:PASS:
           "end": 1684,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2040,7 +2161,8 @@ __ESTREE_TEST__:PASS:
           "end": 1698,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2066,7 +2188,8 @@ __ESTREE_TEST__:PASS:
           "end": 1713,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2074,7 +2197,8 @@ __ESTREE_TEST__:PASS:
           "end": 1727,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2100,7 +2224,8 @@ __ESTREE_TEST__:PASS:
           "end": 1742,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2108,7 +2233,8 @@ __ESTREE_TEST__:PASS:
           "end": 1756,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2134,7 +2260,8 @@ __ESTREE_TEST__:PASS:
           "end": 1771,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2142,7 +2269,8 @@ __ESTREE_TEST__:PASS:
           "end": 1785,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2168,7 +2296,8 @@ __ESTREE_TEST__:PASS:
           "end": 1800,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2176,7 +2305,8 @@ __ESTREE_TEST__:PASS:
           "end": 1814,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2202,7 +2332,8 @@ __ESTREE_TEST__:PASS:
           "end": 1829,
           "decorators": [],
           "name": "choice",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2210,7 +2341,8 @@ __ESTREE_TEST__:PASS:
           "end": 1843,
           "decorators": [],
           "name": "choiceOne",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2245,7 +2377,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1879,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2253,7 +2386,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1893,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2279,7 +2413,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1912,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2287,7 +2422,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1926,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2313,7 +2449,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1945,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2321,7 +2458,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1959,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2347,7 +2485,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1978,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2355,7 +2494,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1992,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2381,7 +2521,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2011,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2389,7 +2530,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2025,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2415,7 +2557,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2044,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2423,7 +2566,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2058,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2449,7 +2593,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2077,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2457,7 +2602,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2091,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2483,7 +2629,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2110,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2491,7 +2638,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2124,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2517,7 +2665,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2143,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2525,7 +2674,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2157,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2551,7 +2701,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2176,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2559,7 +2710,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2190,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2585,7 +2737,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2209,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2593,7 +2746,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2223,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2619,7 +2773,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2242,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2627,7 +2782,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2256,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2653,7 +2809,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2275,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2661,7 +2818,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2289,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2687,7 +2845,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2308,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2695,7 +2854,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2322,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2721,7 +2881,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2341,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2729,7 +2890,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2355,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2755,7 +2917,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2374,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2763,7 +2926,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2388,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2789,7 +2953,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2407,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2797,7 +2962,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2421,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2823,7 +2989,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2440,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2831,7 +2998,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2454,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2857,7 +3025,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2473,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2865,7 +3034,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2487,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2891,7 +3061,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2506,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2899,7 +3070,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2520,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2925,7 +3097,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2539,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2933,7 +3106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2553,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2959,7 +3133,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2572,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -2967,7 +3142,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2586,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -2993,7 +3169,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2605,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3001,7 +3178,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2619,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3027,7 +3205,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2638,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3035,7 +3214,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2652,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3061,7 +3241,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2671,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3069,7 +3250,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2685,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3095,7 +3277,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2704,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3103,7 +3286,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2718,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3129,7 +3313,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2737,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3137,7 +3322,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2751,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3163,7 +3349,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2770,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3171,7 +3358,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2784,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3197,7 +3385,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2803,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3205,7 +3394,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2817,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3231,7 +3421,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2836,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3239,7 +3430,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2850,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3265,7 +3457,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2869,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3273,7 +3466,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2883,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3299,7 +3493,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2902,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3307,7 +3502,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2916,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3333,7 +3529,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2935,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3341,7 +3538,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2949,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3367,7 +3565,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2968,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3375,7 +3574,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2982,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3401,7 +3601,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3001,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3409,7 +3610,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3015,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3435,7 +3637,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3034,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3443,7 +3646,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3048,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3469,7 +3673,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3067,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3477,7 +3682,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3081,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3503,7 +3709,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3100,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3511,7 +3718,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3114,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3537,7 +3745,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3133,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3545,7 +3754,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3147,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3571,7 +3781,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3166,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3579,7 +3790,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3180,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3605,7 +3817,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3199,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3613,7 +3826,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3213,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3639,7 +3853,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3232,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3647,7 +3862,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3246,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3673,7 +3889,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3265,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3681,7 +3898,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3279,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3707,7 +3925,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3298,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3715,7 +3934,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3312,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3741,7 +3961,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3331,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3749,7 +3970,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3345,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3775,7 +3997,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3364,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3783,7 +4006,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3378,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3809,7 +4033,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3397,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3817,7 +4042,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3411,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3843,7 +4069,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3430,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3851,7 +4078,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3444,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3877,7 +4105,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3463,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3885,7 +4114,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3477,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3911,7 +4141,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3496,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3919,7 +4150,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3510,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3945,7 +4177,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3529,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3953,7 +4186,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3543,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -3979,7 +4213,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3562,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -3987,7 +4222,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3576,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4013,7 +4249,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3595,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4021,7 +4258,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3609,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4047,7 +4285,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3628,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4055,7 +4294,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3642,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4081,7 +4321,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3661,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4089,7 +4330,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3675,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4115,7 +4357,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3694,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4123,7 +4366,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3708,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4149,7 +4393,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3727,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4157,7 +4402,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3741,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4183,7 +4429,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3760,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4191,7 +4438,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3774,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4217,7 +4465,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3793,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4225,7 +4474,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3807,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -4251,7 +4501,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3826,
                 "decorators": [],
                 "name": "choice",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -4259,7 +4510,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3840,
                 "decorators": [],
                 "name": "choiceOne",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }

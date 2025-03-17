@@ -94,6 +94,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 74,
+      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 54,
@@ -110,7 +111,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -131,7 +133,8 @@ __ESTREE_TEST__:PASS:
             "end": 68,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -147,19 +150,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 75,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 75,
         "end": 76,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 98,
       "end": 105,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 98,
@@ -171,7 +177,8 @@ __ESTREE_TEST__:PASS:
           "end": 99,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -186,6 +193,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 106,
       "end": 122,
+      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 106,
@@ -197,7 +205,8 @@ __ESTREE_TEST__:PASS:
           "end": 110,
           "decorators": [],
           "name": "cond",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "AssignmentExpression",
@@ -210,7 +219,8 @@ __ESTREE_TEST__:PASS:
             "end": 116,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -226,13 +236,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 123,
       "end": 125,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 123,
         "end": 124,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -28,10 +28,13 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -59,10 +62,13 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -104,7 +110,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -133,7 +140,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -142,7 +150,8 @@ __ESTREE_TEST__:PASS:
             "end": 49,
             "decorators": [],
             "name": "Foo2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -171,7 +180,8 @@ __ESTREE_TEST__:PASS:
             "end": 78,
             "decorators": [],
             "name": "Bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -180,7 +190,8 @@ __ESTREE_TEST__:PASS:
             "end": 78,
             "decorators": [],
             "name": "Bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -193,7 +204,8 @@ __ESTREE_TEST__:PASS:
             "end": 87,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -202,7 +214,8 @@ __ESTREE_TEST__:PASS:
             "end": 95,
             "decorators": [],
             "name": "Foo3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -211,6 +224,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 112,
       "end": 122,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 112,
@@ -222,14 +236,17 @@ __ESTREE_TEST__:PASS:
           "end": 119,
           "decorators": [],
           "name": "Foo",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 123,
       "end": 134,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 123,
@@ -241,14 +258,17 @@ __ESTREE_TEST__:PASS:
           "end": 131,
           "decorators": [],
           "name": "Foo2",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 145,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 135,
@@ -260,14 +280,17 @@ __ESTREE_TEST__:PASS:
           "end": 142,
           "decorators": [],
           "name": "Bar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 157,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 146,
@@ -279,8 +302,10 @@ __ESTREE_TEST__:PASS:
           "end": 154,
           "decorators": [],
           "name": "Foo3",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

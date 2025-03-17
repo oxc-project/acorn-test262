@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 20,
             "end": 37,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "notMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 42,
             "end": 101,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -59,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -119,16 +123,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 65,
                   "end": 72,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 65,
                     "end": 72,
                     "decorators": [],
                     "name": "Builder",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -141,15 +148,19 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Builder",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 105,
       "end": 167,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 105,
@@ -207,8 +218,10 @@ __ESTREE_TEST__:PASS:
                       "end": 116,
                       "decorators": [],
                       "name": "Builder",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   "optional": false,
                   "property": {
@@ -217,10 +230,12 @@ __ESTREE_TEST__:PASS:
                     "end": 130,
                     "decorators": [],
                     "name": "method",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -229,10 +244,12 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -241,16 +258,19 @@ __ESTREE_TEST__:PASS:
             "end": 161,
             "decorators": [],
             "name": "method",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 174,
       "end": 239,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 174,
@@ -308,8 +328,10 @@ __ESTREE_TEST__:PASS:
                       "end": 185,
                       "decorators": [],
                       "name": "Builder",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   "optional": false,
                   "property": {
@@ -318,10 +340,12 @@ __ESTREE_TEST__:PASS:
                     "end": 199,
                     "decorators": [],
                     "name": "method",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -330,10 +354,12 @@ __ESTREE_TEST__:PASS:
                 "end": 219,
                 "decorators": [],
                 "name": "notMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -342,10 +368,12 @@ __ESTREE_TEST__:PASS:
             "end": 233,
             "decorators": [],
             "name": "method",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 34,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "noWiden",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 33,
@@ -47,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 39,
             "end": 143,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -55,7 +59,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -75,6 +80,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 81,
                     "end": 98,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 81,
@@ -97,7 +103,8 @@ __ESTREE_TEST__:PASS:
                           "end": 93,
                           "decorators": [],
                           "name": "noWiden",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -113,6 +120,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 116,
                     "end": 131,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 116,
@@ -135,7 +143,8 @@ __ESTREE_TEST__:PASS:
                           "end": 126,
                           "decorators": [],
                           "name": "widen",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -158,6 +167,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSParameterProperty",
                   "start": 51,
                   "end": 69,
+                  "accessibility": null,
                   "decorators": [],
                   "override": false,
                   "parameter": {
@@ -171,7 +181,8 @@ __ESTREE_TEST__:PASS:
                       "end": 65,
                       "decorators": [],
                       "name": "widen",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -180,12 +191,15 @@ __ESTREE_TEST__:PASS:
                       "end": 69,
                       "raw": "2",
                       "value": 2
-                    }
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": true,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -198,15 +212,19 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 155,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 146,
@@ -226,8 +244,10 @@ __ESTREE_TEST__:PASS:
           "end": 151,
           "decorators": [],
           "name": "D",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

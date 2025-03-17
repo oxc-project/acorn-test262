@@ -179,6 +179,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 117,
       "end": 129,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 117,
@@ -209,7 +210,8 @@ __ESTREE_TEST__:PASS:
             "end": 121,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -217,6 +219,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 130,
       "end": 144,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 130,
@@ -248,7 +251,8 @@ __ESTREE_TEST__:PASS:
                   "end": 139,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -259,7 +263,8 @@ __ESTREE_TEST__:PASS:
             "end": 134,
             "name": "Bar"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -267,6 +272,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 145,
       "end": 161,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 145,
@@ -284,7 +290,8 @@ __ESTREE_TEST__:PASS:
             "end": 157,
             "name": "x-component"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -292,6 +299,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 162,
       "end": 177,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 162,
@@ -313,7 +321,8 @@ __ESTREE_TEST__:PASS:
                 "end": 172,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -323,7 +332,8 @@ __ESTREE_TEST__:PASS:
             "end": 166,
             "name": "Bar"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -331,6 +341,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 178,
       "end": 201,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 178,
@@ -352,7 +363,8 @@ __ESTREE_TEST__:PASS:
                 "end": 189,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -385,7 +397,8 @@ __ESTREE_TEST__:PASS:
             "end": 182,
             "name": "Bar"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -393,6 +406,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 202,
       "end": 220,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 202,
@@ -414,7 +428,8 @@ __ESTREE_TEST__:PASS:
                 "end": 214,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -424,7 +439,8 @@ __ESTREE_TEST__:PASS:
             "end": 207,
             "name": "_Bar"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

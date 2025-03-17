@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "s",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                 "end": 14,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -56,10 +58,12 @@ __ESTREE_TEST__:PASS:
                 "end": 18,
                 "decorators": [],
                 "name": "for",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -70,6 +74,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 32,
       "end": 38,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 32,
@@ -81,7 +86,8 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -89,7 +95,8 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -97,6 +104,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 39,
       "end": 45,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 39,
@@ -108,7 +116,8 @@ __ESTREE_TEST__:PASS:
           "end": 40,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -116,7 +125,8 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -124,6 +134,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 46,
       "end": 52,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 46,
@@ -135,7 +146,8 @@ __ESTREE_TEST__:PASS:
           "end": 47,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -143,7 +155,8 @@ __ESTREE_TEST__:PASS:
           "end": 51,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -151,6 +164,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 60,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 54,
@@ -162,7 +176,8 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -177,6 +192,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 67,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 61,
@@ -195,7 +211,8 @@ __ESTREE_TEST__:PASS:
           "end": 66,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

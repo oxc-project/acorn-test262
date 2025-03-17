@@ -949,7 +949,9 @@ __ESTREE_TEST__:PASS:
         "expression": true,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

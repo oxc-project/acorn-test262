@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 38,
                   "end": 48,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
                     "end": 39,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -60,6 +62,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 57,
                   "end": 67,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
                     "end": 58,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -98,10 +102,13 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "Point",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -122,6 +129,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 110,
                     "end": 131,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -152,13 +160,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 125,
                         "end": 130,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 125,
                           "end": 130,
                           "decorators": [],
                           "name": "Point",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -167,6 +177,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 140,
                     "end": 161,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -197,13 +208,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 155,
                         "end": 160,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 155,
                           "end": 160,
                           "decorators": [],
                           "name": "Point",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -218,10 +231,13 @@ __ESTREE_TEST__:PASS:
                 "end": 98,
                 "decorators": [],
                 "name": "points",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -237,7 +253,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

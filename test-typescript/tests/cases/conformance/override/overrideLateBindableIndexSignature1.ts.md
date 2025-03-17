@@ -44,9 +44,11 @@ __ESTREE_TEST__:PASS:
               "end": 26,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -67,6 +69,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 47,
             "end": 57,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "sym",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -96,7 +100,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -109,10 +115,13 @@ __ESTREE_TEST__:PASS:
         "end": 42,
         "decorators": [],
         "name": "Base1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -128,6 +137,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 94,
             "end": 113,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -136,7 +146,8 @@ __ESTREE_TEST__:PASS:
               "end": 107,
               "decorators": [],
               "name": "sym",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -157,7 +168,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -170,7 +183,8 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "Derived1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -179,8 +193,11 @@ __ESTREE_TEST__:PASS:
         "end": 89,
         "decorators": [],
         "name": "Base1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -196,6 +213,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 133,
             "end": 143,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -204,7 +222,8 @@ __ESTREE_TEST__:PASS:
               "end": 137,
               "decorators": [],
               "name": "sym",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -225,7 +244,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -238,10 +259,13 @@ __ESTREE_TEST__:PASS:
         "end": 128,
         "decorators": [],
         "name": "Base2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -257,6 +281,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 180,
             "end": 190,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -265,7 +290,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "sym",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -286,7 +312,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -299,7 +327,8 @@ __ESTREE_TEST__:PASS:
         "end": 161,
         "decorators": [],
         "name": "Derived2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -308,8 +337,11 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "Base2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -330,10 +362,13 @@ __ESTREE_TEST__:PASS:
         "end": 205,
         "decorators": [],
         "name": "Base3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -349,6 +384,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 243,
             "end": 262,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -357,7 +393,8 @@ __ESTREE_TEST__:PASS:
               "end": 256,
               "decorators": [],
               "name": "sym",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -378,7 +415,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -391,7 +430,8 @@ __ESTREE_TEST__:PASS:
         "end": 224,
         "decorators": [],
         "name": "Derived3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -400,8 +440,11 @@ __ESTREE_TEST__:PASS:
         "end": 238,
         "decorators": [],
         "name": "Base3",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

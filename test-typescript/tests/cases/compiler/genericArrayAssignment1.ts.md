@@ -87,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 35,
       "end": 41,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -98,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "s",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -106,7 +108,8 @@ __ESTREE_TEST__:PASS:
           "end": 40,
           "decorators": [],
           "name": "n",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 17,
             "end": 35,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "sayHello",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,7 +50,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -61,10 +65,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "User",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -80,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 79,
             "end": 196,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -88,7 +96,8 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -108,6 +117,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 93,
                     "end": 190,
+                    "directive": null,
                     "expression": {
                       "type": "ArrowFunctionExpression",
                       "start": 93,
@@ -132,6 +142,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "ExpressionStatement",
                                   "start": 148,
                                   "end": 165,
+                                  "directive": null,
                                   "expression": {
                                     "type": "CallExpression",
                                     "start": 148,
@@ -154,10 +165,12 @@ __ESTREE_TEST__:PASS:
                                         "end": 162,
                                         "decorators": [],
                                         "name": "sayHello",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
-                                    "optional": false
+                                    "optional": false,
+                                    "typeArguments": null
                                   }
                                 }
                               ]
@@ -171,16 +184,21 @@ __ESTREE_TEST__:PASS:
                               "end": 127,
                               "decorators": [],
                               "name": "inner",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         ]
                       },
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -189,13 +207,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 201,
             "end": 317,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -204,7 +225,8 @@ __ESTREE_TEST__:PASS:
               "end": 202,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -234,6 +256,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 246,
                           "end": 301,
+                          "directive": null,
                           "expression": {
                             "type": "ArrowFunctionExpression",
                             "start": 246,
@@ -248,6 +271,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "ExpressionStatement",
                                   "start": 270,
                                   "end": 287,
+                                  "directive": null,
                                   "expression": {
                                     "type": "CallExpression",
                                     "start": 270,
@@ -270,10 +294,12 @@ __ESTREE_TEST__:PASS:
                                         "end": 284,
                                         "decorators": [],
                                         "name": "sayHello",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
-                                    "optional": false
+                                    "optional": false,
+                                    "typeArguments": null
                                   }
                                 }
                               ]
@@ -281,7 +307,9 @@ __ESTREE_TEST__:PASS:
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         }
                       ]
@@ -295,9 +323,12 @@ __ESTREE_TEST__:PASS:
                       "end": 229,
                       "decorators": [],
                       "name": "inner",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -305,13 +336,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 322,
             "end": 400,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -320,7 +354,8 @@ __ESTREE_TEST__:PASS:
               "end": 323,
               "decorators": [],
               "name": "h",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -350,6 +385,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 367,
                           "end": 384,
+                          "directive": null,
                           "expression": {
                             "type": "CallExpression",
                             "start": 367,
@@ -372,10 +408,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 381,
                                 "decorators": [],
                                 "name": "sayHello",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           }
                         }
                       ]
@@ -389,9 +427,12 @@ __ESTREE_TEST__:PASS:
                       "end": 350,
                       "decorators": [],
                       "name": "inner",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -399,7 +440,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -412,7 +455,8 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "RegisteredUser",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -421,8 +465,11 @@ __ESTREE_TEST__:PASS:
         "end": 72,
         "decorators": [],
         "name": "User",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

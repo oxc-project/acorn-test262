@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                       "end": 21,
                       "decorators": [],
                       "name": "p",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -49,10 +50,12 @@ __ESTREE_TEST__:PASS:
                       "end": 27,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "typeAnnotation": null
               }
             ],
             "returnType": {
@@ -64,7 +67,8 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 34
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -89,7 +93,8 @@ __ESTREE_TEST__:PASS:
                       "end": 47,
                       "decorators": [],
                       "name": "p",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -101,10 +106,12 @@ __ESTREE_TEST__:PASS:
                       "end": 56,
                       "decorators": [],
                       "name": "boolean",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                ]
+                ],
+                "typeAnnotation": null
               }
             ],
             "returnType": {
@@ -116,7 +123,8 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 63
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -128,8 +136,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "C",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

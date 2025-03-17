@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 23,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "__",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -38,13 +40,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 27,
                 "end": 28,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 27,
                   "end": 28,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -59,7 +63,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Box",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -71,6 +76,8 @@ __ESTREE_TEST__:PASS:
             "start": 14,
             "end": 15,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -78,7 +85,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -96,7 +104,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "Recursive",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -107,13 +116,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 58,
             "end": 59,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 58,
               "end": 59,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -138,13 +149,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 80,
                         "end": 81,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 80,
                           "end": 81,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -155,7 +168,8 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "Recursive",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -166,7 +180,8 @@ __ESTREE_TEST__:PASS:
               "end": 69,
               "decorators": [],
               "name": "Box",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -181,6 +196,8 @@ __ESTREE_TEST__:PASS:
             "start": 47,
             "end": 48,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -188,7 +205,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -206,7 +224,8 @@ __ESTREE_TEST__:PASS:
         "end": 104,
         "decorators": [],
         "name": "InferRecursive",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -216,13 +235,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 110,
           "end": 111,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 110,
             "end": 111,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -243,6 +264,8 @@ __ESTREE_TEST__:PASS:
                   "start": 136,
                   "end": 137,
                   "const": false,
+                  "constraint": null,
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -250,7 +273,8 @@ __ESTREE_TEST__:PASS:
                     "end": 137,
                     "decorators": [],
                     "name": "R",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -263,7 +287,8 @@ __ESTREE_TEST__:PASS:
             "end": 129,
             "decorators": [],
             "name": "Recursive",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "falseType": {
@@ -282,13 +307,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 141,
           "end": 142,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 141,
             "end": 142,
             "decorators": [],
             "name": "R",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -302,6 +329,8 @@ __ESTREE_TEST__:PASS:
             "start": 105,
             "end": 106,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -309,7 +338,8 @@ __ESTREE_TEST__:PASS:
               "end": 106,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -327,7 +357,8 @@ __ESTREE_TEST__:PASS:
         "end": 194,
         "decorators": [],
         "name": "t1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -382,7 +413,8 @@ __ESTREE_TEST__:PASS:
                     "end": 213,
                     "decorators": [],
                     "name": "Box",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -395,9 +427,11 @@ __ESTREE_TEST__:PASS:
           "end": 200,
           "decorators": [],
           "name": "Box",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -410,7 +444,8 @@ __ESTREE_TEST__:PASS:
         "end": 241,
         "decorators": [],
         "name": "t2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -425,13 +460,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 259,
               "end": 261,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 259,
                 "end": 261,
                 "decorators": [],
                 "name": "t1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -442,9 +479,11 @@ __ESTREE_TEST__:PASS:
           "end": 258,
           "decorators": [],
           "name": "InferRecursive",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -457,7 +496,8 @@ __ESTREE_TEST__:PASS:
         "end": 270,
         "decorators": [],
         "name": "t3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -521,7 +561,8 @@ __ESTREE_TEST__:PASS:
                           "end": 304,
                           "decorators": [],
                           "name": "Box",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -534,7 +575,8 @@ __ESTREE_TEST__:PASS:
                 "end": 291,
                 "decorators": [],
                 "name": "Box",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -545,9 +587,11 @@ __ESTREE_TEST__:PASS:
           "end": 287,
           "decorators": [],
           "name": "InferRecursive",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

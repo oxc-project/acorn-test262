@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 21,
               "end": 643,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 32,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -334,7 +336,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -347,10 +351,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -375,6 +382,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 668,
               "end": 726,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -383,7 +391,8 @@ __ESTREE_TEST__:PASS:
                 "end": 679,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -433,7 +442,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -446,10 +457,13 @@ __ESTREE_TEST__:PASS:
           "end": 663,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -474,6 +488,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 751,
               "end": 815,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -482,7 +497,8 @@ __ESTREE_TEST__:PASS:
                 "end": 762,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -532,7 +548,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -545,10 +563,13 @@ __ESTREE_TEST__:PASS:
           "end": 746,
           "decorators": [],
           "name": "Baz",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

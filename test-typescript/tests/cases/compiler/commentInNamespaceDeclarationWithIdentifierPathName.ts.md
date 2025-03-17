@@ -34,9 +34,12 @@ __ESTREE_TEST__:PASS:
               "end": 44,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "hello",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -64,7 +68,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "hi",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -73,7 +78,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "world",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "namespace"

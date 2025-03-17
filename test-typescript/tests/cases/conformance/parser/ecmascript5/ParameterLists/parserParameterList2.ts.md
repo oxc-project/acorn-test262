@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 12,
             "end": 24,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 13,
               "decorators": [],
               "name": "F",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
                     "end": 16,
                     "decorators": [],
                     "name": "A",
-                    "optional": true
+                    "optional": true,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -69,9 +72,12 @@ __ESTREE_TEST__:PASS:
                     "end": 19,
                     "raw": "0",
                     "value": 0
-                  }
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -84,10 +90,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

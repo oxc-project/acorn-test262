@@ -44,7 +44,8 @@ __ESTREE_TEST__:PASS:
                   "end": 12,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -57,12 +58,16 @@ __ESTREE_TEST__:PASS:
                   "end": 18,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "decorators": [],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null,
+                "value": null
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",

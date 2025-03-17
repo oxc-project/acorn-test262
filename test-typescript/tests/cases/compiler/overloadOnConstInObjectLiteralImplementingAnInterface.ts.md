@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 18,
             "end": 63,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "x1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -99,13 +101,16 @@ __ESTREE_TEST__:PASS:
                         "start": 55,
                         "end": 61
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
             ],
             "readonly": false,
-            "static": false
+            "returnType": null,
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -117,8 +122,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -145,13 +152,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 75,
                 "end": 76,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 75,
                   "end": 76,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -172,7 +181,8 @@ __ESTREE_TEST__:PASS:
                   "end": 83,
                   "decorators": [],
                   "name": "x1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -262,11 +272,14 @@ __ESTREE_TEST__:PASS:
                               "start": 114,
                               "end": 120
                             }
-                          }
+                          },
+                          "typeParameters": null
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

@@ -22,7 +22,8 @@ __ESTREE_TEST__:PASS:
         "end": 5,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

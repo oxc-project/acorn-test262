@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -45,7 +47,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -53,6 +56,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 75,
       "end": 89,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 75,
@@ -89,7 +93,8 @@ __ESTREE_TEST__:PASS:
             "end": 79,
             "name": "div"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

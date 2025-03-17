@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 29,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -94,10 +98,13 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -122,10 +129,13 @@ __ESTREE_TEST__:PASS:
               "end": 81,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -137,7 +147,8 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -166,13 +177,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 96,
                 "end": 97,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 96,
                   "end": 97,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -208,13 +221,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 106,
                 "end": 107,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 106,
                   "end": 107,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -229,6 +244,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 122,
       "end": 128,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 122,
@@ -240,7 +256,8 @@ __ESTREE_TEST__:PASS:
           "end": 123,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -248,7 +265,8 @@ __ESTREE_TEST__:PASS:
           "end": 127,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -256,6 +274,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 129,
       "end": 135,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 129,
@@ -267,7 +286,8 @@ __ESTREE_TEST__:PASS:
           "end": 130,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -275,7 +295,8 @@ __ESTREE_TEST__:PASS:
           "end": 134,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

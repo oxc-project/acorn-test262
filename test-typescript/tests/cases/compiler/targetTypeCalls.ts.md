@@ -59,7 +59,8 @@ __ESTREE_TEST__:PASS:
                     "start": 19,
                     "end": 25
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -102,7 +103,8 @@ __ESTREE_TEST__:PASS:
                               "end": 77,
                               "decorators": [],
                               "name": "v",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -130,7 +132,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -139,9 +143,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -202,7 +209,8 @@ __ESTREE_TEST__:PASS:
                     "start": 119,
                     "end": 125
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -253,7 +261,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -262,9 +272,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -325,7 +338,8 @@ __ESTREE_TEST__:PASS:
                     "start": 213,
                     "end": 219
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -387,7 +401,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 283,
                                         "decorators": [],
                                         "name": "v",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   ]
@@ -403,9 +418,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 272,
                                     "decorators": [],
                                     "name": "v",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
-                                ]
+                                ],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -414,9 +432,12 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -425,9 +446,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -488,7 +512,8 @@ __ESTREE_TEST__:PASS:
                     "start": 329,
                     "end": 333
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -550,7 +575,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 397,
                                         "decorators": [],
                                         "name": "v",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   ]
@@ -566,9 +592,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 386,
                                     "decorators": [],
                                     "name": "v",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
-                                ]
+                                ],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ]
@@ -577,9 +606,12 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -588,9 +620,12 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

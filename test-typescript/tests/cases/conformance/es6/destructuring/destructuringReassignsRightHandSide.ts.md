@@ -49,7 +49,8 @@ __ESTREE_TEST__:PASS:
                   "end": 20,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -74,7 +75,8 @@ __ESTREE_TEST__:PASS:
                   "end": 28,
                   "decorators": [],
                   "name": "bar",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -133,6 +135,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 91,
       "end": 112,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 92,
@@ -156,7 +159,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -168,7 +172,8 @@ __ESTREE_TEST__:PASS:
                 "end": 97,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -182,7 +187,8 @@ __ESTREE_TEST__:PASS:
                 "end": 102,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -194,10 +200,12 @@ __ESTREE_TEST__:PASS:
                 "end": 102,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -205,7 +213,8 @@ __ESTREE_TEST__:PASS:
           "end": 110,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -237,7 +246,8 @@ __ESTREE_TEST__:PASS:
                   "end": 157,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -249,7 +259,8 @@ __ESTREE_TEST__:PASS:
                   "end": 157,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -263,7 +274,8 @@ __ESTREE_TEST__:PASS:
                   "end": 162,
                   "decorators": [],
                   "name": "baz",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -275,10 +287,12 @@ __ESTREE_TEST__:PASS:
                   "end": 162,
                   "decorators": [],
                   "name": "baz",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -286,7 +300,8 @@ __ESTREE_TEST__:PASS:
             "end": 170,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

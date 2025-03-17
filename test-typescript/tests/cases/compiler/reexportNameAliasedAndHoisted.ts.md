@@ -21,13 +21,15 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Sizing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 21,
           "end": 24
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "Sizing",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -109,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 89,
             "decorators": [],
             "name": "GridViewSizing",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -118,7 +122,8 @@ __ESTREE_TEST__:PASS:
             "end": 71,
             "decorators": [],
             "name": "Sizing",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -158,7 +163,8 @@ __ESTREE_TEST__:PASS:
                       "end": 164,
                       "decorators": [],
                       "name": "Distribute",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ObjectExpression",
@@ -176,7 +182,8 @@ __ESTREE_TEST__:PASS:
                             "end": 173,
                             "decorators": [],
                             "name": "type",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -211,7 +218,8 @@ __ESTREE_TEST__:PASS:
           "end": 134,
           "decorators": [],
           "name": "Sizing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },

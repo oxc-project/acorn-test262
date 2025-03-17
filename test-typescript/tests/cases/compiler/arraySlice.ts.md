@@ -65,6 +65,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 30,
       "end": 47,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 30,
@@ -96,7 +97,8 @@ __ESTREE_TEST__:PASS:
             "end": 33,
             "decorators": [],
             "name": "arr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -105,10 +107,12 @@ __ESTREE_TEST__:PASS:
             "end": 40,
             "decorators": [],
             "name": "splice",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1,
@@ -81,10 +82,12 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "indexOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

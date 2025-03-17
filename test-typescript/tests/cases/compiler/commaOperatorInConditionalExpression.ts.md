@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 29,
             "end": 105,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 29,
@@ -58,7 +59,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 88,
                                   "decorators": [],
                                   "name": "m",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -75,7 +77,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 92,
                                     "decorators": [],
                                     "name": "i",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "right": {
                                     "type": "Literal",
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 75,
                                   "decorators": [],
                                   "name": "m",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -116,7 +120,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 79,
                                   "decorators": [],
                                   "name": "i",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             ]
@@ -142,9 +147,12 @@ __ESTREE_TEST__:PASS:
                       "end": 44,
                       "decorators": [],
                       "name": "i",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ],
               "callee": {
@@ -187,10 +195,12 @@ __ESTREE_TEST__:PASS:
                   "end": 42,
                   "decorators": [],
                   "name": "map",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -204,7 +214,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -225,7 +236,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

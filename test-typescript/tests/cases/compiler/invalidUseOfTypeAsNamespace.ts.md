@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "OhNo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 35,
                 "end": 45,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 35,
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
                     "end": 39,
                     "decorators": [],
                     "name": "OhNo",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
                     "end": 45,
                     "decorators": [],
                     "name": "hello",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }

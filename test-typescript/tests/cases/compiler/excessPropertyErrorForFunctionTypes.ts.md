@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "FunctionType",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -32,8 +33,10 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 29
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -46,7 +49,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "DoesntWork",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -62,6 +66,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 51,
                 "end": 61,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -69,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "end": 52,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -89,6 +95,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 62,
                 "end": 71,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -96,7 +103,8 @@ __ESTREE_TEST__:PASS:
                   "end": 63,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -118,17 +126,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 76,
             "end": 88,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 76,
               "end": 88,
               "decorators": [],
               "name": "FunctionType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -155,13 +166,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 107,
                 "end": 117,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 107,
                   "end": 117,
                   "decorators": [],
                   "name": "DoesntWork",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -182,7 +195,8 @@ __ESTREE_TEST__:PASS:
                   "end": 123,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -207,7 +221,8 @@ __ESTREE_TEST__:PASS:
                   "end": 129,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -232,7 +247,8 @@ __ESTREE_TEST__:PASS:
                   "end": 135,
                   "decorators": [],
                   "name": "d",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,

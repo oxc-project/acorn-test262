@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 63,
             "end": 73,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 78,
             "end": 85,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 79,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -111,8 +116,10 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "PoisonedProp",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -128,6 +135,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 152,
             "end": 201,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 158,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -191,7 +200,8 @@ __ESTREE_TEST__:PASS:
                           "end": 182,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -201,7 +211,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -214,7 +226,8 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "Poisoned",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -228,7 +241,8 @@ __ESTREE_TEST__:PASS:
           "end": 117,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -237,7 +251,8 @@ __ESTREE_TEST__:PASS:
           "end": 127,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -249,13 +264,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 128,
             "end": 140,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 128,
               "end": 140,
               "decorators": [],
               "name": "PoisonedProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -265,7 +282,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -283,7 +301,8 @@ __ESTREE_TEST__:PASS:
             "end": 214,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -300,6 +319,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 228,
       "end": 264,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 228,
@@ -331,7 +351,8 @@ __ESTREE_TEST__:PASS:
                       "end": 244,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -356,7 +377,8 @@ __ESTREE_TEST__:PASS:
                       "end": 253,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -380,7 +402,8 @@ __ESTREE_TEST__:PASS:
             "end": 237,
             "name": "Poisoned"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -400,7 +423,8 @@ __ESTREE_TEST__:PASS:
             "end": 280,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -423,7 +447,8 @@ __ESTREE_TEST__:PASS:
                     "end": 300,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -433,7 +458,8 @@ __ESTREE_TEST__:PASS:
                 "end": 292,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -457,7 +483,8 @@ __ESTREE_TEST__:PASS:
             "end": 311,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -476,7 +503,8 @@ __ESTREE_TEST__:PASS:
                 "end": 323,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -500,7 +528,8 @@ __ESTREE_TEST__:PASS:
             "end": 333,
             "decorators": [],
             "name": "z",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -544,7 +573,8 @@ __ESTREE_TEST__:PASS:
                 "end": 345,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -568,7 +598,8 @@ __ESTREE_TEST__:PASS:
             "end": 358,
             "decorators": [],
             "name": "w",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -601,7 +632,8 @@ __ESTREE_TEST__:PASS:
                           "end": 377,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -626,7 +658,8 @@ __ESTREE_TEST__:PASS:
                           "end": 383,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -650,7 +683,8 @@ __ESTREE_TEST__:PASS:
                 "end": 370,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -674,7 +708,8 @@ __ESTREE_TEST__:PASS:
             "end": 400,
             "decorators": [],
             "name": "w1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -707,7 +742,8 @@ __ESTREE_TEST__:PASS:
                           "end": 419,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -732,7 +768,8 @@ __ESTREE_TEST__:PASS:
                           "end": 425,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -774,7 +811,8 @@ __ESTREE_TEST__:PASS:
                 "end": 412,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

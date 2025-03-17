@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 46,
             "end": 73,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -62,10 +63,13 @@ __ESTREE_TEST__:PASS:
         "end": 39,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -81,6 +85,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 91,
             "end": 118,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -124,10 +129,13 @@ __ESTREE_TEST__:PASS:
         "end": 84,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -143,6 +151,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 139,
             "end": 161,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -173,13 +182,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 159,
                 "end": 160,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 159,
                   "end": 160,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -194,10 +205,12 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 129,
@@ -208,6 +221,8 @@ __ESTREE_TEST__:PASS:
             "start": 130,
             "end": 131,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -215,7 +230,8 @@ __ESTREE_TEST__:PASS:
               "end": 131,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

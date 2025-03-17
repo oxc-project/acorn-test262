@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 62,
@@ -66,19 +67,23 @@ __ESTREE_TEST__:PASS:
               "end": 66,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 78,
       "end": 102,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 79,
@@ -93,6 +98,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 87,
               "end": 98,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -106,7 +112,8 @@ __ESTREE_TEST__:PASS:
                     "end": 91,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -117,7 +124,8 @@ __ESTREE_TEST__:PASS:
                 "end": 93,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -141,13 +149,16 @@ __ESTREE_TEST__:PASS:
         "decorators": [],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 139,
       "end": 157,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 140,
@@ -171,7 +182,8 @@ __ESTREE_TEST__:PASS:
               "end": 144,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -181,16 +193,20 @@ __ESTREE_TEST__:PASS:
           "end": 152,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 158,
       "end": 184,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 159,
@@ -205,6 +221,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 169,
               "end": 180,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -218,7 +235,8 @@ __ESTREE_TEST__:PASS:
                     "end": 173,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -229,7 +247,8 @@ __ESTREE_TEST__:PASS:
                 "end": 175,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -257,10 +276,13 @@ __ESTREE_TEST__:PASS:
           "end": 166,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     }
   ],

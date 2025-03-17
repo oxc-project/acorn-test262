@@ -39,10 +39,13 @@ __ESTREE_TEST__:PASS:
                 "end": 66,
                 "decorators": [],
                 "name": "Request",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -94,7 +97,8 @@ __ESTREE_TEST__:PASS:
                   "end": 134,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "local": {
@@ -103,7 +107,8 @@ __ESTREE_TEST__:PASS:
                   "end": 134,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -127,7 +132,8 @@ __ESTREE_TEST__:PASS:
                   "end": 188,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "exportKind": "value",
                 "local": {
@@ -136,7 +142,8 @@ __ESTREE_TEST__:PASS:
                   "end": 188,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -173,7 +180,8 @@ __ESTREE_TEST__:PASS:
               "end": 239,
               "decorators": [],
               "name": "alias",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -199,7 +207,8 @@ __ESTREE_TEST__:PASS:
               "end": 294,
               "decorators": [],
               "name": "alias",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -248,7 +257,8 @@ __ESTREE_TEST__:PASS:
                   "end": 359,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "local": {
@@ -257,7 +267,8 @@ __ESTREE_TEST__:PASS:
                   "end": 359,
                   "decorators": [],
                   "name": "Request",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -267,6 +278,7 @@ __ESTREE_TEST__:PASS:
             "start": 383,
             "end": 427,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -276,7 +288,8 @@ __ESTREE_TEST__:PASS:
               "end": 397,
               "decorators": [],
               "name": "proxy",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -303,13 +316,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 411,
                         "end": 418,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 411,
                           "end": 418,
                           "decorators": [],
                           "name": "Request",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -324,9 +339,11 @@ __ESTREE_TEST__:PASS:
                     "start": 423,
                     "end": 426
                   }
-                }
+                },
+                "typeParameters": null
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSExportAssignment",
@@ -338,7 +355,8 @@ __ESTREE_TEST__:PASS:
               "end": 446,
               "decorators": [],
               "name": "proxy",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]

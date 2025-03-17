@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -55,11 +58,13 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "typeof",
             "prefix": true
-          }
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -68,8 +73,10 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "Class",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

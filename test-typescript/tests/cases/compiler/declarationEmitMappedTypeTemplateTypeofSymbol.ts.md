@@ -94,8 +94,10 @@ __ESTREE_TEST__:PASS:
                       "end": 123,
                       "decorators": [],
                       "name": "timestampSymbol",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   "key": {
                     "type": "Identifier",
@@ -103,9 +105,12 @@ __ESTREE_TEST__:PASS:
                     "end": 97,
                     "decorators": [],
                     "name": "TKey",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "nameType": null,
+                  "optional": null,
+                  "readonly": null,
                   "typeAnnotation": {
                     "type": "TSLiteralType",
                     "start": 126,
@@ -141,6 +146,7 @@ __ESTREE_TEST__:PASS:
         "start": 143,
         "end": 184,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -150,7 +156,8 @@ __ESTREE_TEST__:PASS:
           "end": 163,
           "decorators": [],
           "name": "now",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -167,10 +174,13 @@ __ESTREE_TEST__:PASS:
               "end": 183,
               "decorators": [],
               "name": "Timestamp",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -212,7 +222,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -238,7 +249,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "timestamp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -256,7 +268,8 @@ __ESTREE_TEST__:PASS:
                   "end": 52,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -265,10 +278,12 @@ __ESTREE_TEST__:PASS:
                   "end": 56,
                   "decorators": [],
                   "name": "now",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -315,7 +330,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "now",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -324,7 +340,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "now",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -350,7 +367,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "timestamp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -363,9 +381,11 @@ __ESTREE_TEST__:PASS:
                 "end": 56,
                 "decorators": [],
                 "name": "now",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],

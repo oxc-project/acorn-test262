@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 21,
             "end": 54,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 37,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,12 +62,14 @@ __ESTREE_TEST__:PASS:
                 "end": 53
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 59,
             "end": 94,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -115,7 +120,8 @@ __ESTREE_TEST__:PASS:
                 "end": 93
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -127,8 +133,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -143,6 +151,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 134,
             "end": 167,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -150,7 +159,8 @@ __ESTREE_TEST__:PASS:
               "end": 150,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -185,12 +195,14 @@ __ESTREE_TEST__:PASS:
                 "end": 166
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSMethodSignature",
             "start": 172,
             "end": 207,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -198,7 +210,8 @@ __ESTREE_TEST__:PASS:
               "end": 188,
               "decorators": [],
               "name": "addEventListener",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -240,7 +253,8 @@ __ESTREE_TEST__:PASS:
                 "end": 206
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -256,8 +270,10 @@ __ESTREE_TEST__:PASS:
             "end": 127,
             "decorators": [],
             "name": "Base",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -266,8 +282,10 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "Deriver",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

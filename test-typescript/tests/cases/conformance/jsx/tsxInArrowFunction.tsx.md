@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 92,
                   "end": 135,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -55,7 +58,8 @@ __ESTREE_TEST__:PASS:
                     "end": 95,
                     "decorators": [],
                     "name": "div",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -73,6 +77,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 111,
                           "end": 125,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -80,7 +85,8 @@ __ESTREE_TEST__:PASS:
                             "end": 115,
                             "decorators": [],
                             "name": "text",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": true,
                           "readonly": false,
@@ -110,8 +116,10 @@ __ESTREE_TEST__:PASS:
               "end": 81,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -123,7 +131,8 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -131,6 +140,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 161,
       "end": 199,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 161,
@@ -181,13 +191,16 @@ __ESTREE_TEST__:PASS:
                     "end": 177,
                     "name": "div"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -213,7 +226,8 @@ __ESTREE_TEST__:PASS:
             "end": 165,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -221,6 +235,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 216,
       "end": 253,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 216,
@@ -271,7 +286,8 @@ __ESTREE_TEST__:PASS:
                     "end": 231,
                     "name": "div"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               "expression": true,
@@ -284,9 +300,12 @@ __ESTREE_TEST__:PASS:
                   "end": 223,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -312,7 +331,8 @@ __ESTREE_TEST__:PASS:
             "end": 220,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -320,6 +340,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 265,
       "end": 305,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 265,
@@ -370,13 +391,16 @@ __ESTREE_TEST__:PASS:
                     "end": 282,
                     "name": "div"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -402,7 +426,8 @@ __ESTREE_TEST__:PASS:
             "end": 269,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -410,6 +435,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 321,
       "end": 363,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 321,
@@ -470,13 +496,16 @@ __ESTREE_TEST__:PASS:
                     "end": 337,
                     "name": "div"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -502,7 +531,8 @@ __ESTREE_TEST__:PASS:
             "end": 325,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

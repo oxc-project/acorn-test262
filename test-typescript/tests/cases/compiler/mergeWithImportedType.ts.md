@@ -30,8 +30,10 @@ __ESTREE_TEST__:PASS:
                 "end": 16,
                 "decorators": [],
                 "name": "X",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -43,7 +45,8 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "decorators": [],
           "name": "E",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -86,7 +89,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -95,7 +99,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -116,21 +121,25 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "E",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeReference",
           "start": 40,
           "end": 41,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 40,
             "end": 41,
             "decorators": [],
             "name": "E",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

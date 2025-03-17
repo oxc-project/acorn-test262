@@ -58,6 +58,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 57,
               "end": 72,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -66,7 +67,8 @@ __ESTREE_TEST__:PASS:
                 "end": 67,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -87,7 +89,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "deco",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -114,10 +119,13 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "Example",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -127,6 +135,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 76,
       "end": 90,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 76,
@@ -143,7 +152,8 @@ __ESTREE_TEST__:PASS:
             "end": 83,
             "decorators": [],
             "name": "Example",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -152,10 +162,12 @@ __ESTREE_TEST__:PASS:
             "end": 87,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

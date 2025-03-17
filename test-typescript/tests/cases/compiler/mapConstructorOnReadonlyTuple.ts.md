@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "pairs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -78,13 +79,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 36,
               "end": 41,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 36,
                 "end": 41,
                 "decorators": [],
                 "name": "const",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -97,6 +100,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 43,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 43,
@@ -108,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "pairs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -117,14 +122,17 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "Map",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 78,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 59,
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "pairs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -145,8 +154,10 @@ __ESTREE_TEST__:PASS:
           "end": 70,
           "decorators": [],
           "name": "WeakMap",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

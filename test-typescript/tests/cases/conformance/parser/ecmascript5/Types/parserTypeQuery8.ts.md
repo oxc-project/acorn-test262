@@ -36,7 +36,8 @@ __ESTREE_TEST__:PASS:
                   "end": 15,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
@@ -47,13 +48,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 16,
                       "end": 17,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 16,
                         "end": 17,
                         "decorators": [],
                         "name": "B",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]

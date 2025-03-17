@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 77,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -62,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 97,
             "end": 109,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [],
@@ -72,7 +74,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -100,10 +103,13 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

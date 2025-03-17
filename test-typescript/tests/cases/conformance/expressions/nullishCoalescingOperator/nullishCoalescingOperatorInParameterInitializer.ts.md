@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "expression": true,
             "generator": false,
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -72,6 +75,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 103,
       "end": 130,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 103,
@@ -103,7 +107,8 @@ __ESTREE_TEST__:PASS:
                 "end": 106,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -122,9 +127,11 @@ __ESTREE_TEST__:PASS:
                     "end": 110,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 },
                 "right": {
                   "type": "Literal",
@@ -133,11 +140,15 @@ __ESTREE_TEST__:PASS:
                   "raw": "\"d\"",
                   "value": "d"
                 }
-              }
+              },
+              "typeAnnotation": null
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

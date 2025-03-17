@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 20,
             "end": 35,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 21,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
                 "end": 34
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -72,8 +75,10 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -88,6 +93,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 58,
             "end": 72,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -95,7 +101,8 @@ __ESTREE_TEST__:PASS:
               "end": 59,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -115,13 +122,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 66,
                     "end": 67,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 66,
                       "end": 67,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -136,13 +145,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 70,
                 "end": 71,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 70,
                   "end": 71,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -157,6 +168,8 @@ __ESTREE_TEST__:PASS:
                   "start": 60,
                   "end": 61,
                   "const": false,
+                  "constraint": null,
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -164,7 +177,8 @@ __ESTREE_TEST__:PASS:
                     "end": 61,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -181,8 +195,10 @@ __ESTREE_TEST__:PASS:
         "end": 51,
         "decorators": [],
         "name": "Bar",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -206,8 +222,10 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "Foo",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         {
           "type": "TSInterfaceHeritage",
@@ -219,8 +237,10 @@ __ESTREE_TEST__:PASS:
             "end": 107,
             "decorators": [],
             "name": "Bar",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -229,8 +249,10 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "decorators": [],
         "name": "Hello",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

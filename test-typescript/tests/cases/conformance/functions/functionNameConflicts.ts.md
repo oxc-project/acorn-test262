@@ -34,9 +34,12 @@ __ESTREE_TEST__:PASS:
               "end": 166,
               "decorators": [],
               "name": "fn1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "VariableDeclaration",
@@ -54,7 +57,8 @@ __ESTREE_TEST__:PASS:
                   "end": 184,
                   "decorators": [],
                   "name": "fn1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
                   "end": 198,
                   "decorators": [],
                   "name": "fn2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -106,9 +111,12 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "decorators": [],
               "name": "fn2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -120,7 +128,8 @@ __ESTREE_TEST__:PASS:
         "end": 147,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -144,9 +153,12 @@ __ESTREE_TEST__:PASS:
         "end": 238,
         "decorators": [],
         "name": "fn3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -164,7 +176,8 @@ __ESTREE_TEST__:PASS:
             "end": 252,
             "decorators": [],
             "name": "fn3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -198,7 +211,8 @@ __ESTREE_TEST__:PASS:
                   "end": 284,
                   "decorators": [],
                   "name": "fn4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -226,9 +240,12 @@ __ESTREE_TEST__:PASS:
               "end": 302,
               "decorators": [],
               "name": "fn4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "FunctionDeclaration",
@@ -250,9 +267,12 @@ __ESTREE_TEST__:PASS:
               "end": 326,
               "decorators": [],
               "name": "fn5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           {
             "type": "VariableDeclaration",
@@ -270,7 +290,8 @@ __ESTREE_TEST__:PASS:
                   "end": 344,
                   "decorators": [],
                   "name": "fn5",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -289,15 +310,19 @@ __ESTREE_TEST__:PASS:
         "end": 268,
         "decorators": [],
         "name": "func",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 349,
       "end": 365,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -307,9 +332,12 @@ __ESTREE_TEST__:PASS:
         "end": 362,
         "decorators": [],
         "name": "over",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -331,9 +359,12 @@ __ESTREE_TEST__:PASS:
         "end": 381,
         "decorators": [],
         "name": "overrr",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

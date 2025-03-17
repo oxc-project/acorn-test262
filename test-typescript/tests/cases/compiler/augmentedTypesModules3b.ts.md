@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 12,
             "end": 21,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -48,7 +50,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -61,10 +65,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "m3b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -91,7 +98,8 @@ __ESTREE_TEST__:PASS:
                   "end": 42,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -115,7 +123,8 @@ __ESTREE_TEST__:PASS:
         "end": 34,
         "decorators": [],
         "name": "m3b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -133,6 +142,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 63,
             "end": 72,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -141,7 +151,8 @@ __ESTREE_TEST__:PASS:
               "end": 66,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -162,7 +173,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -175,10 +188,13 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "m3c",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -210,7 +226,8 @@ __ESTREE_TEST__:PASS:
                     "end": 100,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -238,7 +255,8 @@ __ESTREE_TEST__:PASS:
         "end": 85,
         "decorators": [],
         "name": "m3c",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -256,6 +274,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 130,
             "end": 141,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -264,7 +283,8 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -290,7 +310,8 @@ __ESTREE_TEST__:PASS:
                   "start": 137,
                   "end": 141
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -303,10 +324,13 @@ __ESTREE_TEST__:PASS:
         "end": 127,
         "decorators": [],
         "name": "m3d",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -338,7 +362,8 @@ __ESTREE_TEST__:PASS:
                     "end": 169,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -366,7 +391,8 @@ __ESTREE_TEST__:PASS:
         "end": 154,
         "decorators": [],
         "name": "m3d",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -400,7 +426,8 @@ __ESTREE_TEST__:PASS:
                     "end": 204,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -428,7 +455,8 @@ __ESTREE_TEST__:PASS:
         "end": 189,
         "decorators": [],
         "name": "m3e",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -446,6 +474,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 233,
             "end": 244,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -454,7 +483,8 @@ __ESTREE_TEST__:PASS:
               "end": 236,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -480,7 +510,8 @@ __ESTREE_TEST__:PASS:
                   "start": 240,
                   "end": 244
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -493,10 +524,13 @@ __ESTREE_TEST__:PASS:
         "end": 230,
         "decorators": [],
         "name": "m3e",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -512,6 +546,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 269,
             "end": 280,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -520,7 +555,8 @@ __ESTREE_TEST__:PASS:
               "end": 272,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -546,7 +582,8 @@ __ESTREE_TEST__:PASS:
                   "start": 276,
                   "end": 280
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -559,10 +596,13 @@ __ESTREE_TEST__:PASS:
         "end": 266,
         "decorators": [],
         "name": "m3f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -591,6 +631,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 317,
                     "end": 328,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -598,7 +639,8 @@ __ESTREE_TEST__:PASS:
                       "end": 320,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -614,7 +656,8 @@ __ESTREE_TEST__:PASS:
                         "end": 328
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -626,8 +669,10 @@ __ESTREE_TEST__:PASS:
                 "end": 314,
                 "decorators": [],
                 "name": "I",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -643,7 +688,8 @@ __ESTREE_TEST__:PASS:
         "end": 293,
         "decorators": [],
         "name": "m3f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -661,6 +707,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 354,
             "end": 365,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -669,7 +716,8 @@ __ESTREE_TEST__:PASS:
               "end": 357,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -695,7 +743,8 @@ __ESTREE_TEST__:PASS:
                   "start": 361,
                   "end": 365
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -708,10 +757,13 @@ __ESTREE_TEST__:PASS:
         "end": 351,
         "decorators": [],
         "name": "m3g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -741,6 +793,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 398,
                     "end": 407,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -749,7 +802,8 @@ __ESTREE_TEST__:PASS:
                       "end": 401,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -770,7 +824,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -783,10 +839,13 @@ __ESTREE_TEST__:PASS:
                 "end": 395,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -802,7 +861,8 @@ __ESTREE_TEST__:PASS:
         "end": 378,
         "decorators": [],
         "name": "m3g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

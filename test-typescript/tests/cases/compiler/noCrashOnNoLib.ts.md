@@ -73,6 +73,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 64,
                     "end": 83,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 64,
@@ -84,7 +85,8 @@ __ESTREE_TEST__:PASS:
                         "end": 65,
                         "decorators": [],
                         "name": "e",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "ArrayExpression",
@@ -106,7 +108,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 74,
                                 "decorators": [],
                                 "name": "e",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "ArrayExpression",
@@ -141,9 +144,12 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "Result",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -43,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 35,
             "end": 105,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -51,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "Property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -83,7 +88,8 @@ __ESTREE_TEST__:PASS:
                           "end": 73,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "Literal",
@@ -124,16 +130,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 51,
                   "end": 57,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 51,
                     "end": 57,
                     "decorators": [],
                     "name": "Result",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -146,10 +155,13 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -165,6 +177,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 127,
             "end": 189,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -173,7 +186,8 @@ __ESTREE_TEST__:PASS:
               "end": 139,
               "decorators": [],
               "name": "Property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -205,7 +219,8 @@ __ESTREE_TEST__:PASS:
                           "end": 157,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "Literal",
@@ -237,7 +252,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -250,10 +267,13 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "Test2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -61,7 +62,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -111,9 +114,12 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -129,6 +135,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 173,
             "end": 184,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -139,12 +146,14 @@ __ESTREE_TEST__:PASS:
               "end": 176,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 179,
@@ -157,6 +166,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 217,
             "end": 233,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -167,19 +177,22 @@ __ESTREE_TEST__:PASS:
               "end": 220,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Identifier",
               "start": 223,
               "end": 232,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -195,7 +208,8 @@ __ESTREE_TEST__:PASS:
               "end": 284,
               "decorators": [],
               "name": "tempVar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -239,7 +253,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -255,7 +271,8 @@ __ESTREE_TEST__:PASS:
               "end": 379,
               "decorators": [],
               "name": "returnBarWithCase",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -296,7 +313,8 @@ __ESTREE_TEST__:PASS:
                           "end": 446,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "typeAnnotation": {
@@ -312,7 +330,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -328,7 +348,8 @@ __ESTREE_TEST__:PASS:
               "end": 483,
               "decorators": [],
               "name": "returnFooWithCase",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -369,7 +390,8 @@ __ESTREE_TEST__:PASS:
                           "end": 516,
                           "decorators": [],
                           "name": "foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "typeAnnotation": {
@@ -385,7 +407,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -398,10 +422,13 @@ __ESTREE_TEST__:PASS:
         "end": 166,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -417,6 +444,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 574,
             "end": 590,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -427,12 +455,14 @@ __ESTREE_TEST__:PASS:
               "end": 582,
               "decorators": [],
               "name": "getValue",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 585,
@@ -454,7 +484,8 @@ __ESTREE_TEST__:PASS:
               "end": 644,
               "decorators": [],
               "name": "castedGet",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -495,7 +526,8 @@ __ESTREE_TEST__:PASS:
                           "end": 682,
                           "decorators": [],
                           "name": "getValue",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "typeAnnotation": {
@@ -511,7 +543,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -527,7 +561,8 @@ __ESTREE_TEST__:PASS:
               "end": 750,
               "decorators": [],
               "name": "notCastedGet",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -564,7 +599,8 @@ __ESTREE_TEST__:PASS:
                         "end": 783,
                         "decorators": [],
                         "name": "getValue",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -574,7 +610,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -587,10 +625,13 @@ __ESTREE_TEST__:PASS:
         "end": 567,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -635,9 +676,12 @@ __ESTREE_TEST__:PASS:
         "end": 845,
         "decorators": [],
         "name": "castedNull",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -672,9 +716,12 @@ __ESTREE_TEST__:PASS:
         "end": 929,
         "decorators": [],
         "name": "notCastedNull",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -709,7 +756,8 @@ __ESTREE_TEST__:PASS:
         "end": 1004,
         "decorators": [],
         "name": "returnTypeBar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -721,7 +769,8 @@ __ESTREE_TEST__:PASS:
           "start": 1008,
           "end": 1011
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -747,7 +796,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1117,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -767,9 +817,12 @@ __ESTREE_TEST__:PASS:
         "end": 1087,
         "decorators": [],
         "name": "undefinedBar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -839,7 +892,8 @@ __ESTREE_TEST__:PASS:
               "end": 1225,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -853,7 +907,8 @@ __ESTREE_TEST__:PASS:
         "end": 1176,
         "decorators": [],
         "name": "multipleRets1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -862,9 +917,12 @@ __ESTREE_TEST__:PASS:
           "end": 1178,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -899,7 +957,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1488,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -944,7 +1003,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1415,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Literal",
@@ -980,7 +1040,8 @@ __ESTREE_TEST__:PASS:
               "end": 1370,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -994,7 +1055,8 @@ __ESTREE_TEST__:PASS:
         "end": 1321,
         "decorators": [],
         "name": "multipleRets2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -1003,9 +1065,12 @@ __ESTREE_TEST__:PASS:
           "end": 1323,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -1023,7 +1088,8 @@ __ESTREE_TEST__:PASS:
             "end": 1538,
             "decorators": [],
             "name": "bar1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -1063,7 +1129,8 @@ __ESTREE_TEST__:PASS:
             "end": 1560,
             "decorators": [],
             "name": "bar2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -1075,7 +1142,8 @@ __ESTREE_TEST__:PASS:
               "end": 1577,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
@@ -1104,7 +1172,8 @@ __ESTREE_TEST__:PASS:
             "end": 1587,
             "decorators": [],
             "name": "bar3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -1144,7 +1213,8 @@ __ESTREE_TEST__:PASS:
             "end": 1607,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -1168,7 +1238,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1631,
                   "decorators": [],
                   "name": "undefined",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ]
             },

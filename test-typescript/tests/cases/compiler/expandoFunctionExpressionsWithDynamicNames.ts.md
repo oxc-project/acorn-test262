@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 64,
             "decorators": [],
             "name": "s",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -56,7 +57,8 @@ __ESTREE_TEST__:PASS:
               "end": 90,
               "decorators": [],
               "name": "expr",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -72,7 +74,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -87,6 +91,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 102,
       "end": 113,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 102,
@@ -103,7 +108,8 @@ __ESTREE_TEST__:PASS:
             "end": 106,
             "decorators": [],
             "name": "expr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -112,7 +118,8 @@ __ESTREE_TEST__:PASS:
             "end": 108,
             "decorators": [],
             "name": "s",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -145,7 +152,8 @@ __ESTREE_TEST__:PASS:
               "end": 133,
               "decorators": [],
               "name": "expr2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -162,7 +170,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -177,6 +187,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 151,
       "end": 163,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 151,
@@ -193,7 +204,8 @@ __ESTREE_TEST__:PASS:
             "end": 156,
             "decorators": [],
             "name": "expr2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -202,7 +214,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "s",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

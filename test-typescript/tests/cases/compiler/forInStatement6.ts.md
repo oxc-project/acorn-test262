@@ -89,7 +89,8 @@ __ESTREE_TEST__:PASS:
         "end": 33,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "right": {
         "type": "Identifier",
@@ -97,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "decorators": [],
         "name": "expr",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

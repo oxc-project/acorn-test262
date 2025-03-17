@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "Map",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -44,9 +45,12 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "P",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "nameType": null,
+            "optional": null,
+            "readonly": null,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 33,
@@ -54,7 +58,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -67,7 +72,8 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "MapOrUndefined",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -78,13 +84,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 61,
             "end": 64,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 61,
               "end": 64,
               "decorators": [],
               "name": "Map",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -105,7 +113,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -126,6 +135,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 108,
               "end": 357,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -134,7 +144,8 @@ __ESTREE_TEST__:PASS:
                 "end": 119,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -183,13 +194,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 187,
                               "end": 190,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 187,
                                 "end": 190,
                                 "decorators": [],
                                 "name": "Map",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             {
@@ -235,13 +248,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 240,
                                 "end": 254,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 240,
                                   "end": 254,
                                   "decorators": [],
                                   "name": "MapOrUndefined",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               {
@@ -264,7 +279,8 @@ __ESTREE_TEST__:PASS:
                             "end": 239,
                             "decorators": [],
                             "name": "Exclude",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -294,13 +310,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 345,
                           "end": 348,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 345,
                             "end": 348,
                             "decorators": [],
                             "name": "Map",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -308,7 +326,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -321,10 +341,13 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -355,7 +378,8 @@ __ESTREE_TEST__:PASS:
           "end": 381,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -383,13 +407,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 441,
                       "end": 444,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 441,
                         "end": 444,
                         "decorators": [],
                         "name": "Map",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -407,7 +433,8 @@ __ESTREE_TEST__:PASS:
               "start": 459,
               "end": 461,
               "properties": []
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "AssignmentPattern",
@@ -438,13 +465,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 491,
                         "end": 505,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 491,
                           "end": 505,
                           "decorators": [],
                           "name": "MapOrUndefined",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -467,7 +496,8 @@ __ESTREE_TEST__:PASS:
                     "end": 490,
                     "decorators": [],
                     "name": "Exclude",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -478,7 +508,8 @@ __ESTREE_TEST__:PASS:
               "start": 519,
               "end": 521,
               "properties": []
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "AssignmentPattern",
@@ -500,13 +531,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 594,
                   "end": 597,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 594,
                     "end": 597,
                     "decorators": [],
                     "name": "Map",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -517,7 +550,8 @@ __ESTREE_TEST__:PASS:
               "start": 600,
               "end": 602,
               "properties": []
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -537,7 +571,9 @@ __ESTREE_TEST__:PASS:
               }
             }
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 18,
       "end": 26,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 18,
@@ -41,6 +42,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 27,
       "end": 34,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 27,
@@ -66,6 +68,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 35,
       "end": 44,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 35,
@@ -98,6 +101,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 45,
       "end": 57,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 45,
@@ -136,6 +140,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 58,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 58,
@@ -181,6 +186,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 72,
       "end": 87,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 72,
@@ -226,6 +232,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 88,
       "end": 105,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 88,
@@ -271,6 +278,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 106,
       "end": 124,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 106,
@@ -323,6 +331,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 126,
       "end": 137,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 126,
@@ -361,6 +370,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 138,
       "end": 149,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 138,
@@ -399,6 +409,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 150,
       "end": 161,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 150,
@@ -437,6 +448,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 162,
       "end": 173,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 162,
@@ -475,6 +487,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 174,
       "end": 185,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 174,
@@ -513,6 +526,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 187,
       "end": 199,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 187,
@@ -558,6 +572,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 200,
       "end": 212,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 200,
@@ -603,6 +618,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 213,
       "end": 225,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 213,
@@ -648,6 +664,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 226,
       "end": 238,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 226,
@@ -693,6 +710,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 239,
       "end": 251,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 239,
@@ -738,6 +756,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 253,
       "end": 264,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 253,
@@ -776,6 +795,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 265,
       "end": 276,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 265,
@@ -814,6 +834,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 277,
       "end": 288,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 277,
@@ -852,6 +873,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 289,
       "end": 300,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 289,
@@ -890,6 +912,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 301,
       "end": 312,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 301,
@@ -928,6 +951,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 314,
       "end": 327,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 314,
@@ -966,6 +990,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 328,
       "end": 341,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 328,
@@ -1004,6 +1029,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 342,
       "end": 355,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 342,
@@ -1042,6 +1068,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 356,
       "end": 369,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 356,

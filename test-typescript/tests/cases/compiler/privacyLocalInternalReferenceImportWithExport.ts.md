@@ -38,10 +38,13 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "c_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -72,8 +75,10 @@ __ESTREE_TEST__:PASS:
                       "end": 115,
                       "decorators": [],
                       "name": "Happy",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   },
                   {
                     "type": "TSEnumMember",
@@ -86,8 +91,10 @@ __ESTREE_TEST__:PASS:
                       "end": 131,
                       "decorators": [],
                       "name": "Grumpy",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "initializer": null
                   }
                 ]
               },
@@ -99,7 +106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 99,
                 "decorators": [],
                 "name": "e_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "value",
@@ -136,8 +144,10 @@ __ESTREE_TEST__:PASS:
                         "end": 200,
                         "decorators": [],
                         "name": "c_private",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -151,9 +161,12 @@ __ESTREE_TEST__:PASS:
                 "end": 167,
                 "decorators": [],
                 "name": "f_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -180,7 +193,8 @@ __ESTREE_TEST__:PASS:
                     "end": 234,
                     "decorators": [],
                     "name": "v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -193,8 +207,10 @@ __ESTREE_TEST__:PASS:
                       "end": 250,
                       "decorators": [],
                       "name": "c_private",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -228,8 +244,10 @@ __ESTREE_TEST__:PASS:
                 "end": 284,
                 "decorators": [],
                 "name": "i_private",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -273,10 +291,13 @@ __ESTREE_TEST__:PASS:
                         "end": 346,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -292,7 +313,8 @@ __ESTREE_TEST__:PASS:
                 "end": 321,
                 "decorators": [],
                 "name": "mi_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -337,8 +359,10 @@ __ESTREE_TEST__:PASS:
                         "end": 422,
                         "decorators": [],
                         "name": "i",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "type",
                     "source": null,
@@ -354,7 +378,8 @@ __ESTREE_TEST__:PASS:
                 "end": 393,
                 "decorators": [],
                 "name": "mu_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -372,7 +397,8 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "m_private",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -414,10 +440,13 @@ __ESTREE_TEST__:PASS:
                   "end": 513,
                   "decorators": [],
                   "name": "c_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -448,8 +477,10 @@ __ESTREE_TEST__:PASS:
                         "end": 562,
                         "decorators": [],
                         "name": "Happy",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "initializer": null
                     },
                     {
                       "type": "TSEnumMember",
@@ -462,8 +493,10 @@ __ESTREE_TEST__:PASS:
                         "end": 578,
                         "decorators": [],
                         "name": "Grumpy",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "initializer": null
                     }
                   ]
                 },
@@ -475,7 +508,8 @@ __ESTREE_TEST__:PASS:
                   "end": 546,
                   "decorators": [],
                   "name": "e_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "exportKind": "value",
@@ -512,8 +546,10 @@ __ESTREE_TEST__:PASS:
                           "end": 645,
                           "decorators": [],
                           "name": "c_public",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -527,9 +563,12 @@ __ESTREE_TEST__:PASS:
                   "end": 613,
                   "decorators": [],
                   "name": "f_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -556,7 +595,8 @@ __ESTREE_TEST__:PASS:
                       "end": 678,
                       "decorators": [],
                       "name": "v_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Literal",
@@ -597,8 +637,10 @@ __ESTREE_TEST__:PASS:
                   "end": 714,
                   "decorators": [],
                   "name": "i_public",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -642,10 +684,13 @@ __ESTREE_TEST__:PASS:
                           "end": 775,
                           "decorators": [],
                           "name": "c",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "implements": [],
-                        "superClass": null
+                        "superClass": null,
+                        "superTypeArguments": null,
+                        "typeParameters": null
                       },
                       "exportKind": "value",
                       "source": null,
@@ -661,7 +706,8 @@ __ESTREE_TEST__:PASS:
                   "end": 750,
                   "decorators": [],
                   "name": "mi_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -706,8 +752,10 @@ __ESTREE_TEST__:PASS:
                           "end": 850,
                           "decorators": [],
                           "name": "i",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeParameters": null
                       },
                       "exportKind": "type",
                       "source": null,
@@ -723,7 +771,8 @@ __ESTREE_TEST__:PASS:
                   "end": 821,
                   "decorators": [],
                   "name": "mu_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -741,7 +790,8 @@ __ESTREE_TEST__:PASS:
           "end": 485,
           "decorators": [],
           "name": "m_public",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -778,7 +828,8 @@ __ESTREE_TEST__:PASS:
                   "end": 990,
                   "decorators": [],
                   "name": "im_public_c_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -791,7 +842,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1002,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -799,7 +851,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1012,
                     "decorators": [],
                     "name": "c_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -822,7 +875,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1051,
                   "decorators": [],
                   "name": "im_public_e_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -835,7 +889,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1063,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -843,7 +898,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1073,
                     "decorators": [],
                     "name": "e_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -866,7 +922,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1112,
                   "decorators": [],
                   "name": "im_public_f_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -879,7 +936,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1124,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -887,7 +945,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1134,
                     "decorators": [],
                     "name": "f_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -910,7 +969,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1173,
                   "decorators": [],
                   "name": "im_public_v_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -923,7 +983,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1185,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -931,7 +992,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1195,
                     "decorators": [],
                     "name": "v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -954,7 +1016,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1234,
                   "decorators": [],
                   "name": "im_public_i_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -967,7 +1030,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1246,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -975,7 +1039,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1256,
                     "decorators": [],
                     "name": "i_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -998,7 +1063,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1296,
                   "decorators": [],
                   "name": "im_public_mi_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1011,7 +1077,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1308,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1019,7 +1086,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1319,
                     "decorators": [],
                     "name": "mi_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1042,7 +1110,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1359,
                   "decorators": [],
                   "name": "im_public_mu_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1055,7 +1124,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1371,
                     "decorators": [],
                     "name": "m_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1063,7 +1133,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1382,
                     "decorators": [],
                     "name": "mu_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1087,7 +1158,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1461,
                     "decorators": [],
                     "name": "privateUse_im_public_c_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -1100,8 +1172,10 @@ __ESTREE_TEST__:PASS:
                       "end": 1487,
                       "decorators": [],
                       "name": "im_public_c_private",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -1129,7 +1203,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1535,
                       "decorators": [],
                       "name": "publicUse_im_public_c_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "NewExpression",
@@ -1142,8 +1217,10 @@ __ESTREE_TEST__:PASS:
                         "end": 1561,
                         "decorators": [],
                         "name": "im_public_c_private",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -1170,7 +1247,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1603,
                     "decorators": [],
                     "name": "privateUse_im_public_e_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -1183,7 +1261,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1625,
                       "decorators": [],
                       "name": "im_public_e_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -1192,7 +1271,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1631,
                       "decorators": [],
                       "name": "Happy",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1221,7 +1301,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1677,
                       "decorators": [],
                       "name": "publicUse_im_public_e_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "MemberExpression",
@@ -1234,7 +1315,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1699,
                         "decorators": [],
                         "name": "im_public_e_private",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1243,7 +1325,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1706,
                         "decorators": [],
                         "name": "Grumpy",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -1271,7 +1354,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1746,
                     "decorators": [],
                     "name": "privateUse_im_public_f_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "CallExpression",
@@ -1284,9 +1368,11 @@ __ESTREE_TEST__:PASS:
                       "end": 1768,
                       "decorators": [],
                       "name": "im_public_f_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ],
@@ -1314,7 +1400,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1816,
                       "decorators": [],
                       "name": "publicUse_im_public_f_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "CallExpression",
@@ -1327,9 +1414,11 @@ __ESTREE_TEST__:PASS:
                         "end": 1838,
                         "decorators": [],
                         "name": "im_public_f_private",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -1356,7 +1445,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1880,
                     "decorators": [],
                     "name": "privateUse_im_public_v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -1364,7 +1454,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1902,
                     "decorators": [],
                     "name": "im_public_v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1392,7 +1483,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1948,
                       "decorators": [],
                       "name": "publicUse_im_public_v_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Identifier",
@@ -1400,7 +1492,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1970,
                       "decorators": [],
                       "name": "im_public_v_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ],
@@ -1436,13 +1529,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 2012,
                         "end": 2031,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 2012,
                           "end": 2031,
                           "decorators": [],
                           "name": "im_public_i_private",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -1483,13 +1578,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2079,
                           "end": 2098,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2079,
                             "end": 2098,
                             "decorators": [],
                             "name": "im_public_i_private",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -1520,7 +1617,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2139,
                     "decorators": [],
                     "name": "privateUse_im_public_mi_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -1538,7 +1636,8 @@ __ESTREE_TEST__:PASS:
                         "end": 2166,
                         "decorators": [],
                         "name": "im_public_mi_private",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1547,9 +1646,11 @@ __ESTREE_TEST__:PASS:
                         "end": 2168,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -1577,7 +1678,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2217,
                       "decorators": [],
                       "name": "publicUse_im_public_mi_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "NewExpression",
@@ -1595,7 +1697,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2244,
                           "decorators": [],
                           "name": "im_public_mi_private",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1604,9 +1707,11 @@ __ESTREE_TEST__:PASS:
                           "end": 2246,
                           "decorators": [],
                           "name": "c",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -1642,6 +1747,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 2291,
                         "end": 2313,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 2291,
@@ -1652,7 +1758,8 @@ __ESTREE_TEST__:PASS:
                             "end": 2311,
                             "decorators": [],
                             "name": "im_public_mu_private",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -1660,7 +1767,8 @@ __ESTREE_TEST__:PASS:
                             "end": 2313,
                             "decorators": [],
                             "name": "i",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -1702,6 +1810,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2362,
                           "end": 2384,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 2362,
@@ -1712,7 +1821,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2382,
                               "decorators": [],
                               "name": "im_public_mu_private",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -1720,7 +1830,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2384,
                               "decorators": [],
                               "name": "i",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -1751,7 +1862,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2477,
                   "decorators": [],
                   "name": "im_public_c_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1764,7 +1876,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2488,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1772,7 +1885,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2497,
                     "decorators": [],
                     "name": "c_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1795,7 +1909,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2535,
                   "decorators": [],
                   "name": "im_public_e_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1808,7 +1923,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2546,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1816,7 +1932,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2555,
                     "decorators": [],
                     "name": "e_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1839,7 +1956,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2593,
                   "decorators": [],
                   "name": "im_public_f_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1852,7 +1970,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2604,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1860,7 +1979,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2613,
                     "decorators": [],
                     "name": "f_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1883,7 +2003,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2651,
                   "decorators": [],
                   "name": "im_public_v_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1896,7 +2017,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2662,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1904,7 +2026,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2671,
                     "decorators": [],
                     "name": "v_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1927,7 +2050,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2709,
                   "decorators": [],
                   "name": "im_public_i_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1940,7 +2064,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2720,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1948,7 +2073,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2729,
                     "decorators": [],
                     "name": "i_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -1971,7 +2097,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2768,
                   "decorators": [],
                   "name": "im_public_mi_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -1984,7 +2111,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2779,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1992,7 +2120,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2789,
                     "decorators": [],
                     "name": "mi_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -2015,7 +2144,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2828,
                   "decorators": [],
                   "name": "im_public_mu_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "importKind": "value",
                 "moduleReference": {
@@ -2028,7 +2158,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2839,
                     "decorators": [],
                     "name": "m_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2036,7 +2167,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2849,
                     "decorators": [],
                     "name": "mu_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -2060,7 +2192,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2911,
                     "decorators": [],
                     "name": "privateUse_im_public_c_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -2073,8 +2206,10 @@ __ESTREE_TEST__:PASS:
                       "end": 2936,
                       "decorators": [],
                       "name": "im_public_c_public",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -2102,7 +2237,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2983,
                       "decorators": [],
                       "name": "publicUse_im_public_c_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "NewExpression",
@@ -2115,8 +2251,10 @@ __ESTREE_TEST__:PASS:
                         "end": 3008,
                         "decorators": [],
                         "name": "im_public_c_public",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -2143,7 +2281,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3049,
                     "decorators": [],
                     "name": "privateUse_im_public_e_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -2156,7 +2295,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3070,
                       "decorators": [],
                       "name": "im_public_e_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -2165,7 +2305,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3076,
                       "decorators": [],
                       "name": "Happy",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -2194,7 +2335,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3121,
                       "decorators": [],
                       "name": "publicUse_im_public_e_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "MemberExpression",
@@ -2207,7 +2349,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3142,
                         "decorators": [],
                         "name": "im_public_e_public",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2216,7 +2359,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3149,
                         "decorators": [],
                         "name": "Grumpy",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -2244,7 +2388,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3188,
                     "decorators": [],
                     "name": "privateUse_im_public_f_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "CallExpression",
@@ -2257,9 +2402,11 @@ __ESTREE_TEST__:PASS:
                       "end": 3209,
                       "decorators": [],
                       "name": "im_public_f_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ],
@@ -2287,7 +2434,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3256,
                       "decorators": [],
                       "name": "publicUse_im_public_f_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "CallExpression",
@@ -2300,9 +2448,11 @@ __ESTREE_TEST__:PASS:
                         "end": 3277,
                         "decorators": [],
                         "name": "im_public_f_public",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -2329,7 +2479,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3318,
                     "decorators": [],
                     "name": "privateUse_im_public_v_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -2337,7 +2488,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3339,
                     "decorators": [],
                     "name": "im_public_v_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2365,7 +2517,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3384,
                       "decorators": [],
                       "name": "publicUse_im_public_v_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Identifier",
@@ -2373,7 +2526,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3405,
                       "decorators": [],
                       "name": "im_public_v_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ],
@@ -2409,13 +2563,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 3446,
                         "end": 3464,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 3446,
                           "end": 3464,
                           "decorators": [],
                           "name": "im_public_i_public",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -2456,13 +2612,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3511,
                           "end": 3529,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3511,
                             "end": 3529,
                             "decorators": [],
                             "name": "im_public_i_public",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -2493,7 +2651,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3569,
                     "decorators": [],
                     "name": "privateUse_im_public_mi_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -2511,7 +2670,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3595,
                         "decorators": [],
                         "name": "im_public_mi_public",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2520,9 +2680,11 @@ __ESTREE_TEST__:PASS:
                         "end": 3597,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -2550,7 +2712,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3645,
                       "decorators": [],
                       "name": "publicUse_im_public_mi_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "NewExpression",
@@ -2568,7 +2731,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3671,
                           "decorators": [],
                           "name": "im_public_mi_public",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2577,9 +2741,11 @@ __ESTREE_TEST__:PASS:
                           "end": 3673,
                           "decorators": [],
                           "name": "c",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 ],
@@ -2615,6 +2781,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 3717,
                         "end": 3738,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 3717,
@@ -2625,7 +2792,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3736,
                             "decorators": [],
                             "name": "im_public_mu_public",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -2633,7 +2801,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3738,
                             "decorators": [],
                             "name": "i",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -2675,6 +2844,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3786,
                           "end": 3807,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 3786,
@@ -2685,7 +2855,8 @@ __ESTREE_TEST__:PASS:
                               "end": 3805,
                               "decorators": [],
                               "name": "im_public_mu_public",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -2693,7 +2864,8 @@ __ESTREE_TEST__:PASS:
                               "end": 3807,
                               "decorators": [],
                               "name": "i",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -2719,7 +2891,8 @@ __ESTREE_TEST__:PASS:
           "end": 899,
           "decorators": [],
           "name": "import_public",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -2751,7 +2924,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3928,
                 "decorators": [],
                 "name": "im_private_c_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2764,7 +2938,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3940,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2772,7 +2947,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3950,
                   "decorators": [],
                   "name": "c_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -2795,7 +2971,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3990,
                 "decorators": [],
                 "name": "im_private_e_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2808,7 +2985,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4002,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2816,7 +2994,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4012,
                   "decorators": [],
                   "name": "e_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -2839,7 +3018,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4052,
                 "decorators": [],
                 "name": "im_private_f_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2852,7 +3032,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4064,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2860,7 +3041,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4074,
                   "decorators": [],
                   "name": "f_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -2883,7 +3065,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4114,
                 "decorators": [],
                 "name": "im_private_v_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2896,7 +3079,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4126,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2904,7 +3088,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4136,
                   "decorators": [],
                   "name": "v_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -2927,7 +3112,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4176,
                 "decorators": [],
                 "name": "im_private_i_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2940,7 +3126,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4188,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2948,7 +3135,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4198,
                   "decorators": [],
                   "name": "i_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -2971,7 +3159,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4239,
                 "decorators": [],
                 "name": "im_private_mi_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -2984,7 +3173,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4251,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -2992,7 +3182,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4262,
                   "decorators": [],
                   "name": "mi_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3015,7 +3206,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4303,
                 "decorators": [],
                 "name": "im_private_mu_private",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3028,7 +3220,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4315,
                   "decorators": [],
                   "name": "m_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3036,7 +3229,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4326,
                   "decorators": [],
                   "name": "mu_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3060,7 +3254,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4396,
                   "decorators": [],
                   "name": "privateUse_im_private_c_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "NewExpression",
@@ -3073,8 +3268,10 @@ __ESTREE_TEST__:PASS:
                     "end": 4423,
                     "decorators": [],
                     "name": "im_private_c_private",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             ],
@@ -3102,7 +3299,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4472,
                     "decorators": [],
                     "name": "publicUse_im_private_c_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -3115,8 +3313,10 @@ __ESTREE_TEST__:PASS:
                       "end": 4499,
                       "decorators": [],
                       "name": "im_private_c_private",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -3143,7 +3343,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4542,
                   "decorators": [],
                   "name": "privateUse_im_private_e_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -3156,7 +3357,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4565,
                     "decorators": [],
                     "name": "im_private_e_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -3165,7 +3367,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4571,
                     "decorators": [],
                     "name": "Happy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3194,7 +3397,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4618,
                     "decorators": [],
                     "name": "publicUse_im_private_e_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -3207,7 +3411,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4641,
                       "decorators": [],
                       "name": "im_private_e_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -3216,7 +3421,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4648,
                       "decorators": [],
                       "name": "Grumpy",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -3244,7 +3450,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4689,
                   "decorators": [],
                   "name": "privateUse_im_private_f_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "CallExpression",
@@ -3257,9 +3464,11 @@ __ESTREE_TEST__:PASS:
                     "end": 4712,
                     "decorators": [],
                     "name": "im_private_f_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -3287,7 +3496,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4761,
                     "decorators": [],
                     "name": "publicUse_im_private_f_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "CallExpression",
@@ -3300,9 +3510,11 @@ __ESTREE_TEST__:PASS:
                       "end": 4784,
                       "decorators": [],
                       "name": "im_private_f_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ],
@@ -3329,7 +3541,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4827,
                   "decorators": [],
                   "name": "privateUse_im_private_v_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Identifier",
@@ -3337,7 +3550,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4850,
                   "decorators": [],
                   "name": "im_private_v_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -3365,7 +3579,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4897,
                     "decorators": [],
                     "name": "publicUse_im_private_v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -3373,7 +3588,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4920,
                     "decorators": [],
                     "name": "im_private_v_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -3409,13 +3625,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 4963,
                       "end": 4983,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4963,
                         "end": 4983,
                         "decorators": [],
                         "name": "im_private_i_private",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -3456,13 +3674,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5032,
                         "end": 5052,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 5032,
                           "end": 5052,
                           "decorators": [],
                           "name": "im_private_i_private",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3493,7 +3713,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5094,
                   "decorators": [],
                   "name": "privateUse_im_private_mi_private",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "NewExpression",
@@ -3511,7 +3732,8 @@ __ESTREE_TEST__:PASS:
                       "end": 5122,
                       "decorators": [],
                       "name": "im_private_mi_private",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -3520,9 +3742,11 @@ __ESTREE_TEST__:PASS:
                       "end": 5124,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             ],
@@ -3550,7 +3774,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5174,
                     "decorators": [],
                     "name": "publicUse_im_private_mi_private",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -3568,7 +3793,8 @@ __ESTREE_TEST__:PASS:
                         "end": 5202,
                         "decorators": [],
                         "name": "im_private_mi_private",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -3577,9 +3803,11 @@ __ESTREE_TEST__:PASS:
                         "end": 5204,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -3615,6 +3843,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5250,
                       "end": 5273,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 5250,
@@ -3625,7 +3854,8 @@ __ESTREE_TEST__:PASS:
                           "end": 5271,
                           "decorators": [],
                           "name": "im_private_mu_private",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -3633,7 +3863,8 @@ __ESTREE_TEST__:PASS:
                           "end": 5273,
                           "decorators": [],
                           "name": "i",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3675,6 +3906,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5323,
                         "end": 5346,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5323,
@@ -3685,7 +3917,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5344,
                             "decorators": [],
                             "name": "im_private_mu_private",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -3693,7 +3926,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5346,
                             "decorators": [],
                             "name": "i",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3724,7 +3958,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5438,
                 "decorators": [],
                 "name": "im_private_c_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3737,7 +3972,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5449,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3745,7 +3981,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5458,
                   "decorators": [],
                   "name": "c_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3768,7 +4005,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5497,
                 "decorators": [],
                 "name": "im_private_e_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3781,7 +4019,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5508,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3789,7 +4028,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5517,
                   "decorators": [],
                   "name": "e_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3812,7 +4052,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5556,
                 "decorators": [],
                 "name": "im_private_f_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3825,7 +4066,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5567,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3833,7 +4075,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5576,
                   "decorators": [],
                   "name": "f_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3856,7 +4099,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5615,
                 "decorators": [],
                 "name": "im_private_v_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3869,7 +4113,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5626,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3877,7 +4122,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5635,
                   "decorators": [],
                   "name": "v_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3900,7 +4146,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5674,
                 "decorators": [],
                 "name": "im_private_i_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3913,7 +4160,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5685,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3921,7 +4169,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5694,
                   "decorators": [],
                   "name": "i_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3944,7 +4193,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5734,
                 "decorators": [],
                 "name": "im_private_mi_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -3957,7 +4207,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5745,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -3965,7 +4216,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5755,
                   "decorators": [],
                   "name": "mi_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3988,7 +4240,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5795,
                 "decorators": [],
                 "name": "im_private_mu_public",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -4001,7 +4254,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5806,
                   "decorators": [],
                   "name": "m_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -4009,7 +4263,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5816,
                   "decorators": [],
                   "name": "mu_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -4033,7 +4288,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5898,
                   "decorators": [],
                   "name": "privateUse_im_private_c_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "NewExpression",
@@ -4046,8 +4302,10 @@ __ESTREE_TEST__:PASS:
                     "end": 5924,
                     "decorators": [],
                     "name": "im_private_c_public",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             ],
@@ -4075,7 +4333,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5972,
                     "decorators": [],
                     "name": "publicUse_im_private_c_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -4088,8 +4347,10 @@ __ESTREE_TEST__:PASS:
                       "end": 5998,
                       "decorators": [],
                       "name": "im_private_c_public",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -4116,7 +4377,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6040,
                   "decorators": [],
                   "name": "privateUse_im_private_e_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -4129,7 +4391,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6062,
                     "decorators": [],
                     "name": "im_private_e_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -4138,7 +4401,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6068,
                     "decorators": [],
                     "name": "Happy",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -4167,7 +4431,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6114,
                     "decorators": [],
                     "name": "publicUse_im_private_e_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "MemberExpression",
@@ -4180,7 +4445,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6136,
                       "decorators": [],
                       "name": "im_private_e_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -4189,7 +4455,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6143,
                       "decorators": [],
                       "name": "Grumpy",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -4217,7 +4484,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6183,
                   "decorators": [],
                   "name": "privateUse_im_private_f_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "CallExpression",
@@ -4230,9 +4498,11 @@ __ESTREE_TEST__:PASS:
                     "end": 6205,
                     "decorators": [],
                     "name": "im_private_f_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -4260,7 +4530,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6253,
                     "decorators": [],
                     "name": "publicUse_im_private_f_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "CallExpression",
@@ -4273,9 +4544,11 @@ __ESTREE_TEST__:PASS:
                       "end": 6275,
                       "decorators": [],
                       "name": "im_private_f_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ],
@@ -4302,7 +4575,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6317,
                   "decorators": [],
                   "name": "privateUse_im_private_v_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Identifier",
@@ -4310,7 +4584,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6339,
                   "decorators": [],
                   "name": "im_private_v_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -4338,7 +4613,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6385,
                     "decorators": [],
                     "name": "publicUse_im_private_v_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -4346,7 +4622,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6407,
                     "decorators": [],
                     "name": "im_private_v_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -4382,13 +4659,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6449,
                       "end": 6468,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 6449,
                         "end": 6468,
                         "decorators": [],
                         "name": "im_private_i_public",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -4429,13 +4708,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6516,
                         "end": 6535,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6516,
                           "end": 6535,
                           "decorators": [],
                           "name": "im_private_i_public",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -4466,7 +4747,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6576,
                   "decorators": [],
                   "name": "privateUse_im_private_mi_public",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "NewExpression",
@@ -4484,7 +4766,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6603,
                       "decorators": [],
                       "name": "im_private_mi_public",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -4493,9 +4776,11 @@ __ESTREE_TEST__:PASS:
                       "end": 6605,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  }
+                  },
+                  "typeArguments": null
                 }
               }
             ],
@@ -4523,7 +4808,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6654,
                     "decorators": [],
                     "name": "publicUse_im_private_mi_public",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "NewExpression",
@@ -4541,7 +4827,8 @@ __ESTREE_TEST__:PASS:
                         "end": 6681,
                         "decorators": [],
                         "name": "im_private_mi_public",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4550,9 +4837,11 @@ __ESTREE_TEST__:PASS:
                         "end": 6683,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               ],
@@ -4588,6 +4877,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6728,
                       "end": 6750,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6728,
@@ -4598,7 +4888,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6748,
                           "decorators": [],
                           "name": "im_private_mu_public",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -4606,7 +4897,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6750,
                           "decorators": [],
                           "name": "i",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -4648,6 +4940,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6799,
                         "end": 6821,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6799,
@@ -4658,7 +4951,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6819,
                             "decorators": [],
                             "name": "im_private_mu_public",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -4666,7 +4960,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6821,
                             "decorators": [],
                             "name": "i",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -4692,7 +4987,8 @@ __ESTREE_TEST__:PASS:
         "end": 3833,
         "decorators": [],
         "name": "import_private",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

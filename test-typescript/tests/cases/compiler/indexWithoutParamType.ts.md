@@ -35,9 +35,11 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 9,
                     "end": 12,
+                    "accessibility": null,
                     "parameters": [],
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "typeAnnotation": null
                   }
                 ]
               }

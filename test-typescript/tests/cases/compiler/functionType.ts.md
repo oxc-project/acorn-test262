@@ -25,14 +25,18 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "salt",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 43,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 19,
@@ -63,7 +67,8 @@ __ESTREE_TEST__:PASS:
             "end": 23,
             "decorators": [],
             "name": "salt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -72,16 +77,19 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "apply",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 44,
       "end": 73,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 44,
@@ -106,10 +114,13 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "Function",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

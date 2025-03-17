@@ -29,6 +29,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 49,
                   "end": 60,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 49,
@@ -45,20 +46,25 @@ __ESTREE_TEST__:PASS:
                         "end": 57,
                         "decorators": [],
                         "name": "i",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "expression": true,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 65,
                   "end": 72,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 65,
@@ -69,7 +75,8 @@ __ESTREE_TEST__:PASS:
                       "end": 72,
                       "decorators": [],
                       "name": "i",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "delegate": false
                   }
@@ -92,7 +99,8 @@ __ESTREE_TEST__:PASS:
                     "end": 30,
                     "decorators": [],
                     "name": "i",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -140,9 +148,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

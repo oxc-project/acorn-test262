@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 46,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "mix",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -37,13 +39,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 34,
               "end": 38,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 34,
                 "end": 38,
                 "decorators": [],
                 "name": "TMix",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -57,13 +61,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 41,
           "end": 45,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 41,
             "end": 45,
             "decorators": [],
             "name": "TMix",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -77,6 +83,8 @@ __ESTREE_TEST__:PASS:
             "start": 21,
             "end": 25,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -84,7 +92,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "TMix",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -107,7 +116,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "DisposableMixin",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ClassExpression",
@@ -132,7 +142,8 @@ __ESTREE_TEST__:PASS:
                     "end": 104,
                     "decorators": [],
                     "name": "_onDispose",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -152,6 +163,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 117,
                           "end": 141,
+                          "directive": null,
                           "expression": {
                             "type": "CallExpression",
                             "start": 117,
@@ -174,10 +186,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 139,
                                 "decorators": [],
                                 "name": "_assertIsStripped",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           }
                         }
                       ]
@@ -186,7 +200,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -202,7 +218,8 @@ __ESTREE_TEST__:PASS:
                     "end": 177,
                     "decorators": [],
                     "name": "_assertIsStripped",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -223,7 +240,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -232,7 +251,9 @@ __ESTREE_TEST__:PASS:
             "decorators": [],
             "id": null,
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         }
       ],
@@ -254,7 +275,8 @@ __ESTREE_TEST__:PASS:
             "end": 265,
             "decorators": [],
             "name": "DisposableMixin",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -263,9 +285,11 @@ __ESTREE_TEST__:PASS:
           "end": 249,
           "decorators": [],
           "name": "mix",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       },
       "exportKind": "value"
     },
@@ -297,7 +321,8 @@ __ESTREE_TEST__:PASS:
                 "end": 344,
                 "decorators": [],
                 "name": "_onDispose",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -318,7 +343,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -331,7 +358,8 @@ __ESTREE_TEST__:PASS:
           "end": 288,
           "decorators": [],
           "name": "Monitor",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -345,7 +373,8 @@ __ESTREE_TEST__:PASS:
               "end": 316,
               "decorators": [],
               "name": "DisposableMixin",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -354,10 +383,14 @@ __ESTREE_TEST__:PASS:
             "end": 300,
             "decorators": [],
             "name": "mix",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -380,6 +413,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 46,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -389,7 +423,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "mix",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -407,13 +442,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 34,
               "end": 38,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 34,
                 "end": 38,
                 "decorators": [],
                 "name": "TMix",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -427,13 +464,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 41,
           "end": 45,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 41,
             "end": 45,
             "decorators": [],
             "name": "TMix",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -447,6 +486,8 @@ __ESTREE_TEST__:PASS:
             "start": 21,
             "end": 25,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -454,7 +495,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "TMix",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -477,7 +519,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "DisposableMixin",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ClassExpression",
@@ -502,7 +545,8 @@ __ESTREE_TEST__:PASS:
                     "end": 104,
                     "decorators": [],
                     "name": "_onDispose",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -522,6 +566,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 117,
                           "end": 141,
+                          "directive": null,
                           "expression": {
                             "type": "CallExpression",
                             "start": 117,
@@ -544,10 +589,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 139,
                                 "decorators": [],
                                 "name": "_assertIsStripped",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           }
                         }
                       ]
@@ -556,7 +603,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -572,7 +621,8 @@ __ESTREE_TEST__:PASS:
                     "end": 177,
                     "decorators": [],
                     "name": "_assertIsStripped",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -593,7 +643,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -602,7 +654,9 @@ __ESTREE_TEST__:PASS:
             "decorators": [],
             "id": null,
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         }
       ],
@@ -636,7 +690,8 @@ __ESTREE_TEST__:PASS:
                 "end": 268,
                 "decorators": [],
                 "name": "_onDispose",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -657,7 +712,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -677,7 +734,8 @@ __ESTREE_TEST__:PASS:
               "end": 240,
               "decorators": [],
               "name": "DisposableMixin",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -686,10 +744,14 @@ __ESTREE_TEST__:PASS:
             "end": 224,
             "decorators": [],
             "name": "mix",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

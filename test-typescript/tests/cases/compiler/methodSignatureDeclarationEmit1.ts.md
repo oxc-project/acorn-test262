@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                   "start": 35,
                   "end": 39
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -134,7 +137,8 @@ __ESTREE_TEST__:PASS:
                   "start": 66,
                   "end": 70
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
@@ -150,7 +154,8 @@ __ESTREE_TEST__:PASS:
               "end": 84,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -200,7 +205,8 @@ __ESTREE_TEST__:PASS:
                   "start": 94,
                   "end": 98
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -213,10 +219,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

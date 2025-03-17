@@ -28,8 +28,10 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "ThingB",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -98,7 +100,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "things",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -124,7 +127,8 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "decorators": [],
               "name": "thing2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -157,6 +161,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 66,
                       "end": 79,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 66,
@@ -167,7 +172,8 @@ __ESTREE_TEST__:PASS:
                           "end": 72,
                           "decorators": [],
                           "name": "things",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -175,13 +181,16 @@ __ESTREE_TEST__:PASS:
                           "end": 79,
                           "decorators": [],
                           "name": "ThingB",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],

@@ -25,6 +25,7 @@ __ESTREE_TEST__:PASS:
               "start": 112,
               "end": 172,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 134,
                 "decorators": [],
                 "name": "replaceInFile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -87,10 +89,12 @@ __ESTREE_TEST__:PASS:
                     "end": 160,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -106,7 +110,8 @@ __ESTREE_TEST__:PASS:
               "end": 203,
               "decorators": [],
               "name": "replaceInFile",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "exportKind": "value"
           },
@@ -129,6 +134,7 @@ __ESTREE_TEST__:PASS:
                     "start": 245,
                     "end": 287,
                     "async": false,
+                    "body": null,
                     "declare": false,
                     "expression": false,
                     "generator": false,
@@ -138,7 +144,8 @@ __ESTREE_TEST__:PASS:
                       "end": 258,
                       "decorators": [],
                       "name": "sync",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "params": [
                       {
@@ -174,7 +181,8 @@ __ESTREE_TEST__:PASS:
                           "end": 284
                         }
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -190,7 +198,8 @@ __ESTREE_TEST__:PASS:
               "end": 231,
               "decorators": [],
               "name": "replaceInFile",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }

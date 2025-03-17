@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 14,
             "end": 44,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                           "start": 33,
                           "end": 36
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
@@ -83,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "start": 39,
                   "end": 43
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -96,10 +100,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "amount",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -52,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 45,
             "end": 112,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -80,6 +83,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 88,
                     "end": 106,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 88,
@@ -102,7 +106,8 @@ __ESTREE_TEST__:PASS:
                           "end": 99,
                           "decorators": [],
                           "name": "amount",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -149,7 +154,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -165,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 127,
               "decorators": [],
               "name": "eat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -185,6 +193,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 168,
                     "end": 195,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 168,
@@ -207,7 +216,8 @@ __ESTREE_TEST__:PASS:
                           "end": 179,
                           "decorators": [],
                           "name": "amount",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -216,7 +226,8 @@ __ESTREE_TEST__:PASS:
                         "end": 194,
                         "decorators": [],
                         "name": "amountToEat",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -252,6 +263,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 240,
                           "end": 256,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 240,
@@ -274,7 +286,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 251,
                                 "decorators": [],
                                 "name": "amount",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -322,7 +335,8 @@ __ESTREE_TEST__:PASS:
                           "end": 219,
                           "decorators": [],
                           "name": "amount",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -369,7 +383,8 @@ __ESTREE_TEST__:PASS:
                   "start": 150,
                   "end": 157
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -382,10 +397,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Food",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -401,6 +419,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 388,
             "end": 465,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -409,7 +428,8 @@ __ESTREE_TEST__:PASS:
               "end": 399,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -429,6 +449,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 447,
                     "end": 459,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 447,
@@ -440,7 +461,8 @@ __ESTREE_TEST__:PASS:
                           "end": 457,
                           "decorators": [],
                           "name": "name",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -448,7 +470,8 @@ __ESTREE_TEST__:PASS:
                         "start": 447,
                         "end": 452
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -504,7 +527,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -517,7 +542,8 @@ __ESTREE_TEST__:PASS:
         "end": 368,
         "decorators": [],
         "name": "MonsterFood",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -526,8 +552,11 @@ __ESTREE_TEST__:PASS:
         "end": 381,
         "decorators": [],
         "name": "Food",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -554,7 +583,8 @@ __ESTREE_TEST__:PASS:
               "end": 528,
               "decorators": [],
               "name": "isDairyFree",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -576,6 +606,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 543,
             "end": 621,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -584,7 +615,8 @@ __ESTREE_TEST__:PASS:
               "end": 554,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -604,6 +636,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 588,
                     "end": 615,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 588,
@@ -622,7 +655,8 @@ __ESTREE_TEST__:PASS:
                           "end": 613,
                           "decorators": [],
                           "name": "flavor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -630,7 +664,8 @@ __ESTREE_TEST__:PASS:
                         "start": 588,
                         "end": 593
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -668,7 +703,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -681,7 +718,8 @@ __ESTREE_TEST__:PASS:
         "end": 482,
         "decorators": [],
         "name": "IceCream",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -690,8 +728,11 @@ __ESTREE_TEST__:PASS:
         "end": 502,
         "decorators": [],
         "name": "MonsterFood",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -707,6 +748,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 663,
             "end": 768,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -715,7 +757,8 @@ __ESTREE_TEST__:PASS:
               "end": 674,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -735,6 +778,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 738,
                     "end": 762,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 738,
@@ -753,7 +797,8 @@ __ESTREE_TEST__:PASS:
                           "end": 760,
                           "decorators": [],
                           "name": "flavor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -761,7 +806,8 @@ __ESTREE_TEST__:PASS:
                         "start": 738,
                         "end": 743
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -827,7 +873,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -840,7 +888,8 @@ __ESTREE_TEST__:PASS:
         "end": 636,
         "decorators": [],
         "name": "Cookie",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -849,8 +898,11 @@ __ESTREE_TEST__:PASS:
         "end": 656,
         "decorators": [],
         "name": "MonsterFood",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -866,6 +918,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 804,
             "end": 885,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -874,7 +927,8 @@ __ESTREE_TEST__:PASS:
               "end": 815,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -894,6 +948,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 867,
                     "end": 879,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 867,
@@ -905,7 +960,8 @@ __ESTREE_TEST__:PASS:
                           "end": 877,
                           "decorators": [],
                           "name": "name",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -913,7 +969,8 @@ __ESTREE_TEST__:PASS:
                         "start": 867,
                         "end": 872
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -969,7 +1026,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -982,7 +1041,8 @@ __ESTREE_TEST__:PASS:
         "end": 784,
         "decorators": [],
         "name": "PetFood",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -991,8 +1051,11 @@ __ESTREE_TEST__:PASS:
         "end": 797,
         "decorators": [],
         "name": "Food",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -1008,6 +1071,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 940,
             "end": 1023,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -1016,7 +1080,8 @@ __ESTREE_TEST__:PASS:
               "end": 951,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -1036,6 +1101,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 989,
                     "end": 1017,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 989,
@@ -1054,7 +1120,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1015,
                           "decorators": [],
                           "name": "whereToBuy",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -1062,7 +1129,8 @@ __ESTREE_TEST__:PASS:
                         "start": 989,
                         "end": 994
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -1100,7 +1168,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -1113,7 +1183,8 @@ __ESTREE_TEST__:PASS:
         "end": 917,
         "decorators": [],
         "name": "ExpensiveOrganicDogFood",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -1122,8 +1193,11 @@ __ESTREE_TEST__:PASS:
         "end": 933,
         "decorators": [],
         "name": "PetFood",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -1139,6 +1213,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 1078,
             "end": 1199,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -1147,7 +1222,8 @@ __ESTREE_TEST__:PASS:
               "end": 1089,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -1167,6 +1243,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 1157,
                     "end": 1193,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 1157,
@@ -1185,7 +1262,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1191,
                           "decorators": [],
                           "name": "whereToBuy",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -1193,7 +1271,8 @@ __ESTREE_TEST__:PASS:
                         "start": 1157,
                         "end": 1162
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -1259,7 +1338,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -1272,7 +1353,8 @@ __ESTREE_TEST__:PASS:
         "end": 1055,
         "decorators": [],
         "name": "ExpensiveOrganicCatFood",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -1281,8 +1363,11 @@ __ESTREE_TEST__:PASS:
         "end": 1071,
         "decorators": [],
         "name": "PetFood",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -1303,10 +1388,13 @@ __ESTREE_TEST__:PASS:
         "end": 1212,
         "decorators": [],
         "name": "Slug",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -1324,7 +1412,8 @@ __ESTREE_TEST__:PASS:
             "end": 1354,
             "decorators": [],
             "name": "foods",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -1342,7 +1431,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1368,
                 "decorators": [],
                 "name": "PetFood",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1369,8 +1459,10 @@ __ESTREE_TEST__:PASS:
                       "end": 1381,
                       "decorators": [],
                       "name": "IceCream",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "CallExpression",
@@ -1398,9 +1490,11 @@ __ESTREE_TEST__:PASS:
                       "end": 1413,
                       "decorators": [],
                       "name": "Cookie",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   },
                   {
                     "type": "NewExpression",
@@ -1428,12 +1522,15 @@ __ESTREE_TEST__:PASS:
                       "end": 1451,
                       "decorators": [],
                       "name": "Cookie",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -1469,13 +1566,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 1489,
                   "end": 1500,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 1489,
                     "end": 1500,
                     "decorators": [],
                     "name": "MonsterFood",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1497,7 +1596,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1516,
                 "decorators": [],
                 "name": "PetFood",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1524,8 +1624,10 @@ __ESTREE_TEST__:PASS:
                       "end": 1529,
                       "decorators": [],
                       "name": "IceCream",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "CallExpression",
@@ -1553,9 +1655,11 @@ __ESTREE_TEST__:PASS:
                       "end": 1561,
                       "decorators": [],
                       "name": "Cookie",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   },
                   {
                     "type": "NewExpression",
@@ -1583,12 +1687,15 @@ __ESTREE_TEST__:PASS:
                       "end": 1599,
                       "decorators": [],
                       "name": "Cookie",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
-            }
+            },
+            "typeArguments": null
           }
         }
       ],

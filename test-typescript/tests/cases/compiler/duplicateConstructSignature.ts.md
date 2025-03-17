@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 28
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSCallSignatureDeclaration",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                 "start": 38,
                 "end": 44
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -56,8 +58,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

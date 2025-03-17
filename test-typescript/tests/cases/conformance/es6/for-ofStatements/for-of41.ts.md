@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                       "end": 31,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -76,7 +78,8 @@ __ESTREE_TEST__:PASS:
                       "end": 39,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
                             "end": 43,
                             "decorators": [],
                             "name": "p",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -138,26 +142,30 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 93,
             "end": 95,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 93,
               "end": 94,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 100,
             "end": 102,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 100,
               "end": 101,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -190,7 +198,8 @@ __ESTREE_TEST__:PASS:
                     "end": 62,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -208,10 +217,12 @@ __ESTREE_TEST__:PASS:
                         "end": 66,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -225,7 +236,8 @@ __ESTREE_TEST__:PASS:
                     "end": 70,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -249,7 +261,8 @@ __ESTREE_TEST__:PASS:
                           "end": 74,
                           "decorators": [],
                           "name": "p",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -261,13 +274,16 @@ __ESTREE_TEST__:PASS:
                           "end": 74,
                           "decorators": [],
                           "name": "p",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   }
                 }
-              ]
+              ],
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -281,7 +297,8 @@ __ESTREE_TEST__:PASS:
         "end": 85,
         "decorators": [],
         "name": "array",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 57,
                     "decorators": [],
                     "name": "m",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "IllegalBecauseInstantiated",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -95,10 +97,13 @@ __ESTREE_TEST__:PASS:
               "end": 131,
               "decorators": [],
               "name": "PrivateClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -110,7 +115,8 @@ __ESTREE_TEST__:PASS:
         "end": 106,
         "decorators": [],
         "name": "AlsoIllegalBecauseInstantiated",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -134,7 +140,8 @@ __ESTREE_TEST__:PASS:
               "end": 169,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -154,7 +161,8 @@ __ESTREE_TEST__:PASS:
         "end": 161,
         "decorators": [],
         "name": "NotLegalEnum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -167,7 +175,8 @@ __ESTREE_TEST__:PASS:
         "end": 195,
         "decorators": [],
         "name": "NoGoodAlias",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -180,7 +189,8 @@ __ESTREE_TEST__:PASS:
           "end": 210,
           "decorators": [],
           "name": "NotLegalEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -188,7 +198,8 @@ __ESTREE_TEST__:PASS:
           "end": 212,
           "decorators": [],
           "name": "B",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -212,7 +223,8 @@ __ESTREE_TEST__:PASS:
               "end": 251,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -232,7 +244,8 @@ __ESTREE_TEST__:PASS:
         "end": 243,
         "decorators": [],
         "name": "NotLegalConstEnum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -249,6 +262,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 347,
             "end": 372,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -257,7 +271,8 @@ __ESTREE_TEST__:PASS:
               "end": 358,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -292,7 +307,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -305,10 +322,13 @@ __ESTREE_TEST__:PASS:
         "end": 304,
         "decorators": [],
         "name": "MyClassOk",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -342,8 +362,10 @@ __ESTREE_TEST__:PASS:
                 "end": 433,
                 "decorators": [],
                 "name": "JustAType",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -365,14 +387,16 @@ __ESTREE_TEST__:PASS:
                 "end": 471,
                 "decorators": [],
                 "name": "ATypeInANamespace",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
                 "start": 474,
                 "end": 476,
                 "members": []
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -388,7 +412,8 @@ __ESTREE_TEST__:PASS:
         "end": 400,
         "decorators": [],
         "name": "NotInstantiated",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -422,7 +447,8 @@ __ESTREE_TEST__:PASS:
                     "end": 549,
                     "decorators": [],
                     "name": "stillOk",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -450,7 +476,8 @@ __ESTREE_TEST__:PASS:
         "end": 522,
         "decorators": [],
         "name": "AmbientIsNotInstantiated",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -474,7 +501,8 @@ __ESTREE_TEST__:PASS:
               "end": 589,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -494,7 +522,8 @@ __ESTREE_TEST__:PASS:
         "end": 581,
         "decorators": [],
         "name": "LegalEnum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -536,7 +565,8 @@ __ESTREE_TEST__:PASS:
                           "end": 681,
                           "decorators": [],
                           "name": "stillOk",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "Literal",
@@ -564,7 +594,8 @@ __ESTREE_TEST__:PASS:
               "end": 650,
               "decorators": [],
               "name": "Nested",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           },
@@ -588,7 +619,8 @@ __ESTREE_TEST__:PASS:
                     "end": 735,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "initializer": {
                     "type": "Literal",
@@ -608,7 +640,8 @@ __ESTREE_TEST__:PASS:
               "end": 723,
               "decorators": [],
               "name": "EnumInAmbientContext",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -621,7 +654,8 @@ __ESTREE_TEST__:PASS:
               "end": 767,
               "decorators": [],
               "name": "FineAlias",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -634,7 +668,8 @@ __ESTREE_TEST__:PASS:
                 "end": 790,
                 "decorators": [],
                 "name": "EnumInAmbientContext",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -642,7 +677,8 @@ __ESTREE_TEST__:PASS:
                 "end": 792,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -656,7 +692,8 @@ __ESTREE_TEST__:PASS:
         "end": 627,
         "decorators": [],
         "name": "AmbientStuff",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

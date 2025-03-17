@@ -72,9 +72,11 @@ __ESTREE_TEST__:PASS:
                 "end": 26,
                 "decorators": [],
                 "name": "dec",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -84,10 +86,13 @@ __ESTREE_TEST__:PASS:
           "end": 43,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -115,6 +120,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 58,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -124,7 +130,8 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "__esDecorate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -137,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 44,
               "decorators": [],
               "name": "args",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -155,7 +163,8 @@ __ESTREE_TEST__:PASS:
                   "end": 49
                 }
               }
-            }
+            },
+            "value": null
           }
         ],
         "returnType": {
@@ -167,7 +176,8 @@ __ESTREE_TEST__:PASS:
             "start": 54,
             "end": 57
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -183,6 +193,7 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 122,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -192,7 +203,8 @@ __ESTREE_TEST__:PASS:
           "end": 100,
           "decorators": [],
           "name": "__runInitializers",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -205,7 +217,8 @@ __ESTREE_TEST__:PASS:
               "end": 108,
               "decorators": [],
               "name": "args",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -223,7 +236,8 @@ __ESTREE_TEST__:PASS:
                   "end": 113
                 }
               }
-            }
+            },
+            "value": null
           }
         ],
         "returnType": {
@@ -235,7 +249,8 @@ __ESTREE_TEST__:PASS:
             "start": 118,
             "end": 121
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

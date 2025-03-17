@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "obj2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                   "end": 39,
                   "decorators": [],
                   "name": "func1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -72,7 +74,8 @@ __ESTREE_TEST__:PASS:
                         "end": 41,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -81,7 +84,8 @@ __ESTREE_TEST__:PASS:
                         "end": 46,
                         "raw": "10",
                         "value": 10
-                      }
+                      },
+                      "typeAnnotation": null
                     },
                     {
                       "type": "RestElement",
@@ -93,12 +97,17 @@ __ESTREE_TEST__:PASS:
                         "end": 55,
                         "decorators": [],
                         "name": "rest",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "decorators": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null,
+                      "value": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
                   "end": 71,
                   "decorators": [],
                   "name": "func2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -145,7 +155,8 @@ __ESTREE_TEST__:PASS:
                         "end": 73,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -154,9 +165,12 @@ __ESTREE_TEST__:PASS:
                         "end": 83,
                         "raw": "\"hello\"",
                         "value": "hello"
-                      }
+                      },
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -170,7 +184,8 @@ __ESTREE_TEST__:PASS:
                   "end": 99,
                   "decorators": [],
                   "name": "func3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -239,7 +254,8 @@ __ESTREE_TEST__:PASS:
                         "end": 123,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -248,9 +264,12 @@ __ESTREE_TEST__:PASS:
                         "end": 133,
                         "raw": "\"hello\"",
                         "value": "hello"
-                      }
+                      },
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -264,7 +283,8 @@ __ESTREE_TEST__:PASS:
                   "end": 149,
                   "decorators": [],
                   "name": "func4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -333,7 +353,8 @@ __ESTREE_TEST__:PASS:
                         "end": 173,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -342,7 +363,8 @@ __ESTREE_TEST__:PASS:
                         "end": 183,
                         "raw": "\"hello\"",
                         "value": "hello"
-                      }
+                      },
+                      "typeAnnotation": null
                     },
                     {
                       "type": "RestElement",
@@ -354,12 +376,17 @@ __ESTREE_TEST__:PASS:
                         "end": 192,
                         "decorators": [],
                         "name": "rest",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "decorators": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null,
+                      "value": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

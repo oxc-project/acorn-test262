@@ -27,7 +27,8 @@ __ESTREE_TEST__:PASS:
                 "end": 6,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -35,10 +36,12 @@ __ESTREE_TEST__:PASS:
                 "end": 9,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -58,7 +61,8 @@ __ESTREE_TEST__:PASS:
                 "end": 26,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 13,
             "end": 150,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
                             "end": 50,
                             "decorators": [],
                             "name": "Math",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -97,10 +100,12 @@ __ESTREE_TEST__:PASS:
                             "end": 57,
                             "decorators": [],
                             "name": "random",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "right": {
                         "type": "Literal",
@@ -139,7 +144,8 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -152,10 +158,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -171,6 +180,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 167,
             "end": 327,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -179,7 +189,8 @@ __ESTREE_TEST__:PASS:
               "end": 172,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -240,7 +251,8 @@ __ESTREE_TEST__:PASS:
                             "end": 208,
                             "decorators": [],
                             "name": "Math",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -249,10 +261,12 @@ __ESTREE_TEST__:PASS:
                             "end": 215,
                             "decorators": [],
                             "name": "random",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "right": {
                         "type": "Literal",
@@ -291,7 +305,8 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -304,10 +319,13 @@ __ESTREE_TEST__:PASS:
         "end": 160,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -323,6 +341,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 344,
             "end": 488,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -331,7 +350,8 @@ __ESTREE_TEST__:PASS:
               "end": 349,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "optional": false,
@@ -392,7 +412,8 @@ __ESTREE_TEST__:PASS:
                             "end": 370,
                             "decorators": [],
                             "name": "Math",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -401,10 +422,12 @@ __ESTREE_TEST__:PASS:
                             "end": 377,
                             "decorators": [],
                             "name": "random",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "right": {
                         "type": "Literal",
@@ -421,13 +444,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 494,
             "end": 522,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -436,7 +462,8 @@ __ESTREE_TEST__:PASS:
               "end": 499,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "set",
             "optional": false,
@@ -476,7 +503,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -489,10 +518,13 @@ __ESTREE_TEST__:PASS:
         "end": 337,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

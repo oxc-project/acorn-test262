@@ -14,6 +14,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 7,
         "end": 45,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 7,
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "href",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -66,10 +69,12 @@ __ESTREE_TEST__:PASS:
               "end": 36,
               "decorators": [],
               "name": "test",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "test": {
@@ -78,7 +83,8 @@ __ESTREE_TEST__:PASS:
         "end": 5,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

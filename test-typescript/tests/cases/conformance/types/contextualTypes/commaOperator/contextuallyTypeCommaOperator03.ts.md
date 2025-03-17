@@ -59,7 +59,8 @@ __ESTREE_TEST__:PASS:
                     "start": 22,
                     "end": 28
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -73,6 +74,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 31,
       "end": 52,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 31,
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -102,7 +105,8 @@ __ESTREE_TEST__:PASS:
                 "end": 42,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "expression": true,
               "generator": false,
@@ -114,9 +118,12 @@ __ESTREE_TEST__:PASS:
                   "end": 37,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             },
             {
               "type": "ArrowFunctionExpression",
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
                 "end": 50,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "expression": true,
               "generator": false,
@@ -141,9 +149,12 @@ __ESTREE_TEST__:PASS:
                   "end": 45,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           ]
         }

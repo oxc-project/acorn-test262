@@ -34,8 +34,10 @@ __ESTREE_TEST__:PASS:
                     "end": 35,
                     "decorators": [],
                     "name": "m1",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -48,7 +50,8 @@ __ESTREE_TEST__:PASS:
                     "end": 48,
                     "decorators": [],
                     "name": "m2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "initializer": {
                     "type": "Identifier",
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
                     "end": 53,
                     "decorators": [],
                     "name": "m1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
               "end": 22,
               "decorators": [],
               "name": "e",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -82,7 +87,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

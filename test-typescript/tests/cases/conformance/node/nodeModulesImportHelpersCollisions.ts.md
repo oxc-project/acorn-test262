@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "_fs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -47,6 +49,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 67,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 54,
@@ -58,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "_fs",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -67,7 +71,8 @@ __ESTREE_TEST__:PASS:
           "end": 66,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -95,7 +100,8 @@ __ESTREE_TEST__:PASS:
             "end": 82,
             "decorators": [],
             "name": "fs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -104,6 +110,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 94,
       "end": 106,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 94,
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
           "end": 96,
           "decorators": [],
           "name": "fs",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
           "end": 105,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -164,7 +173,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -173,7 +183,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "_fs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -182,6 +193,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 67,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 54,
@@ -193,7 +205,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "_fs",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -202,7 +215,8 @@ __ESTREE_TEST__:PASS:
           "end": 66,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -230,7 +244,8 @@ __ESTREE_TEST__:PASS:
             "end": 82,
             "decorators": [],
             "name": "fs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -239,6 +254,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 94,
       "end": 106,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 94,
@@ -250,7 +266,8 @@ __ESTREE_TEST__:PASS:
           "end": 96,
           "decorators": [],
           "name": "fs",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -259,7 +276,8 @@ __ESTREE_TEST__:PASS:
           "end": 105,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

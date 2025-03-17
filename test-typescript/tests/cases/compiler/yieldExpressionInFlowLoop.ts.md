@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 30,
                   "decorators": [],
                   "name": "result",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -52,6 +53,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 56,
                   "end": 78,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 56,
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
                       "end": 62,
                       "decorators": [],
                       "name": "result",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "YieldExpression",
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
                         "end": 77,
                         "decorators": [],
                         "name": "result",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "delegate": false
                     }
@@ -102,9 +106,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -52,13 +52,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 136,
             "end": 140,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 136,
               "end": 139,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -72,13 +74,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 120,
             "end": 124,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 120,
               "end": 123,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -98,7 +102,8 @@ __ESTREE_TEST__:PASS:
             "end": 100,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true
@@ -125,13 +130,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 195,
             "end": 199,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 195,
               "end": 198,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -145,13 +152,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 179,
             "end": 183,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 179,
               "end": 182,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -171,7 +180,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true

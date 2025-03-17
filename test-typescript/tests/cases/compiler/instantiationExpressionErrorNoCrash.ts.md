@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "createCacheReducer",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                         "end": 116,
                         "decorators": [],
                         "name": "queriesMap",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "TSAsExpression",
@@ -65,13 +67,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 125,
                           "end": 127,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 125,
                             "end": 127,
                             "decorators": [],
                             "name": "QR",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -96,7 +100,8 @@ __ESTREE_TEST__:PASS:
                         "end": 152,
                         "decorators": [],
                         "name": "initialState",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "ObjectExpression",
@@ -114,7 +119,8 @@ __ESTREE_TEST__:PASS:
                               "end": 172,
                               "decorators": [],
                               "name": "queries",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "init",
                             "method": false,
@@ -126,7 +132,8 @@ __ESTREE_TEST__:PASS:
                               "end": 184,
                               "decorators": [],
                               "name": "queriesMap",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -151,7 +158,8 @@ __ESTREE_TEST__:PASS:
                       "end": 236,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "expression": true,
                     "generator": false,
@@ -168,7 +176,8 @@ __ESTREE_TEST__:PASS:
                           "end": 211,
                           "decorators": [],
                           "name": "state",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "right": {
@@ -177,10 +186,14 @@ __ESTREE_TEST__:PASS:
                           "end": 226,
                           "decorators": [],
                           "name": "initialState",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -229,26 +242,30 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 70,
                             "end": 71,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 70,
                               "end": 71,
                               "decorators": [],
                               "name": "N",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 73,
                             "end": 75,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 73,
                               "end": 75,
                               "decorators": [],
                               "name": "QR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -259,13 +276,15 @@ __ESTREE_TEST__:PASS:
                         "end": 69,
                         "decorators": [],
                         "name": "Cache",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
               }
             ],
+            "returnType": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 27,
@@ -281,6 +300,7 @@ __ESTREE_TEST__:PASS:
                     "start": 38,
                     "end": 44
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -288,7 +308,8 @@ __ESTREE_TEST__:PASS:
                     "end": 29,
                     "decorators": [],
                     "name": "N",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -297,6 +318,8 @@ __ESTREE_TEST__:PASS:
                   "start": 46,
                   "end": 48,
                   "const": false,
+                  "constraint": null,
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -304,7 +327,8 @@ __ESTREE_TEST__:PASS:
                     "end": 48,
                     "decorators": [],
                     "name": "QR",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -332,7 +356,8 @@ __ESTREE_TEST__:PASS:
           "end": 259,
           "decorators": [],
           "name": "Cache",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
@@ -343,6 +368,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 290,
               "end": 376,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -350,7 +376,8 @@ __ESTREE_TEST__:PASS:
                 "end": 297,
                 "decorators": [],
                 "name": "queries",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -372,13 +399,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 322,
                       "end": 324,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 322,
                         "end": 324,
                         "decorators": [],
                         "name": "QR",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -388,9 +417,12 @@ __ESTREE_TEST__:PASS:
                     "end": 312,
                     "decorators": [],
                     "name": "QK",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "nameType": null,
+                  "optional": null,
+                  "readonly": null,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
                     "start": 327,
@@ -410,7 +442,8 @@ __ESTREE_TEST__:PASS:
                             "end": 363,
                             "decorators": [],
                             "name": "createCacheReducer",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
@@ -421,13 +454,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 364,
                                 "end": 366,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 364,
                                   "end": 366,
                                   "decorators": [],
                                   "name": "QR",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             ]
@@ -441,7 +476,8 @@ __ESTREE_TEST__:PASS:
                       "end": 337,
                       "decorators": [],
                       "name": "ReturnType",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -464,6 +500,7 @@ __ESTREE_TEST__:PASS:
                 "start": 270,
                 "end": 276
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -471,7 +508,8 @@ __ESTREE_TEST__:PASS:
                 "end": 261,
                 "decorators": [],
                 "name": "N",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             },
@@ -480,6 +518,8 @@ __ESTREE_TEST__:PASS:
               "start": 278,
               "end": 280,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -487,7 +527,8 @@ __ESTREE_TEST__:PASS:
                 "end": 280,
                 "decorators": [],
                 "name": "QR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

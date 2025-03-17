@@ -27,7 +27,9 @@ __ESTREE_TEST__:PASS:
                   "type": "TSConstructSignatureDeclaration",
                   "start": 147,
                   "end": 154,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               ]
             },
@@ -39,8 +41,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "Interface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -65,7 +69,8 @@ __ESTREE_TEST__:PASS:
                     "end": 260,
                     "decorators": [],
                     "name": "f",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -88,7 +93,8 @@ __ESTREE_TEST__:PASS:
                         "end": 262,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "returnType": {
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
                         "start": 265,
                         "end": 268
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 },
                 {
@@ -116,7 +123,8 @@ __ESTREE_TEST__:PASS:
                     "end": 286,
                     "decorators": [],
                     "name": "g",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -151,7 +159,9 @@ __ESTREE_TEST__:PASS:
                           }
                         }
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 },
                 {
@@ -167,7 +177,8 @@ __ESTREE_TEST__:PASS:
                     "end": 357,
                     "decorators": [],
                     "name": "h",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -190,9 +201,12 @@ __ESTREE_TEST__:PASS:
                         "end": 359,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -205,16 +219,20 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "Class",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "TSDeclareFunction",
             "start": 433,
             "end": 455,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -224,7 +242,8 @@ __ESTREE_TEST__:PASS:
               "end": 443,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -245,7 +264,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -257,7 +278,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "Module",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

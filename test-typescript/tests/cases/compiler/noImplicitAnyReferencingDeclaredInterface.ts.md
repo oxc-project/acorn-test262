@@ -18,7 +18,9 @@ __ESTREE_TEST__:PASS:
             "type": "TSConstructSignatureDeclaration",
             "start": 92,
             "end": 99,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -30,8 +32,10 @@ __ESTREE_TEST__:PASS:
         "end": 40,
         "decorators": [],
         "name": "Entry",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -58,13 +62,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 118,
                 "end": 123,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 118,
                   "end": 123,
                   "decorators": [],
                   "name": "Entry",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }

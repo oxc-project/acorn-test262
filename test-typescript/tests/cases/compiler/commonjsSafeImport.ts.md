@@ -30,9 +30,12 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -74,7 +77,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -83,7 +87,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -92,6 +97,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 39,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 33,
@@ -103,9 +109,11 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -30,13 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 15,
                 "end": 29,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 15,
                   "end": 29,
                   "decorators": [],
                   "name": "ClassDecorator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "decorator",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -84,10 +87,13 @@ __ESTREE_TEST__:PASS:
           "end": 67,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }
@@ -128,13 +134,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 15,
                 "end": 29,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 15,
                   "end": 29,
                   "decorators": [],
                   "name": "ClassDecorator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -172,13 +180,16 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "decorator",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

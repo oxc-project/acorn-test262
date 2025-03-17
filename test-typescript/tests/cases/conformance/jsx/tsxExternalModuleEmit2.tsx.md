@@ -59,7 +59,8 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "exportKind": "value"
           }
@@ -111,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "Main",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -132,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -147,7 +150,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -159,6 +163,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 92,
       "end": 119,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 92,
@@ -200,7 +205,8 @@ __ESTREE_TEST__:PASS:
                   "end": 110,
                   "decorators": [],
                   "name": "Main",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -211,7 +217,8 @@ __ESTREE_TEST__:PASS:
             "end": 96,
             "name": "Foo"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -219,6 +226,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 164,
       "end": 186,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 164,
@@ -250,7 +258,8 @@ __ESTREE_TEST__:PASS:
                 "end": 177,
                 "decorators": [],
                 "name": "Main",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -260,7 +269,8 @@ __ESTREE_TEST__:PASS:
             "end": 168,
             "name": "Foo"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

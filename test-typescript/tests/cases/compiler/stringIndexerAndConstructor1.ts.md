@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 18,
             "end": 38,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -55,6 +56,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 43,
             "end": 54,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -87,8 +89,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

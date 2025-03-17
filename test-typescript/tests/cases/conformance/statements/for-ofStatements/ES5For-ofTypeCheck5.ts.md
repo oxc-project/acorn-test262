@@ -83,7 +83,8 @@ __ESTREE_TEST__:PASS:
               "end": 40,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -97,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 49,
         "decorators": [],
         "name": "union",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

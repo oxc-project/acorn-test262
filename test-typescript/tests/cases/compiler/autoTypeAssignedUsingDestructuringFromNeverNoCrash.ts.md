@@ -55,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 88,
             "decorators": [],
             "name": "file",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -76,6 +77,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 131,
             "end": 142,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 131,
@@ -93,10 +95,12 @@ __ESTREE_TEST__:PASS:
                     "end": 136,
                     "decorators": [],
                     "name": "file",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
                 "end": 141,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -127,7 +132,8 @@ __ESTREE_TEST__:PASS:
           "end": 96,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -142,13 +148,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 146,
       "end": 151,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 146,
         "end": 150,
         "decorators": [],
         "name": "file",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

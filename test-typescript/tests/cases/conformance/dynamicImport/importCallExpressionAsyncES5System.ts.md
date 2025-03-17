@@ -36,7 +36,8 @@ __ESTREE_TEST__:PASS:
                     "end": 42,
                     "decorators": [],
                     "name": "req",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -72,9 +73,12 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "fn",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -108,7 +112,8 @@ __ESTREE_TEST__:PASS:
                 "end": 115,
                 "decorators": [],
                 "name": "m",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -140,7 +145,8 @@ __ESTREE_TEST__:PASS:
                             "end": 137,
                             "decorators": [],
                             "name": "req",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "init": {
                             "type": "AwaitExpression",
@@ -171,7 +177,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -184,10 +192,13 @@ __ESTREE_TEST__:PASS:
           "end": 94,
           "decorators": [],
           "name": "cl1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -214,7 +225,8 @@ __ESTREE_TEST__:PASS:
               "end": 195,
               "decorators": [],
               "name": "obj",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -232,7 +244,8 @@ __ESTREE_TEST__:PASS:
                     "end": 205,
                     "decorators": [],
                     "name": "m",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -264,7 +277,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 238,
                                 "decorators": [],
                                 "name": "req",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "init": {
                                 "type": "AwaitExpression",
@@ -294,7 +308,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -338,12 +354,14 @@ __ESTREE_TEST__:PASS:
                 "end": 313,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ObjectExpression",
                 "start": 316,
@@ -360,7 +378,8 @@ __ESTREE_TEST__:PASS:
                       "end": 327,
                       "decorators": [],
                       "name": "m",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -392,7 +411,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 364,
                                   "decorators": [],
                                   "name": "req",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "init": {
                                   "type": "AwaitExpression",
@@ -422,7 +442,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -438,10 +460,13 @@ __ESTREE_TEST__:PASS:
           "end": 298,
           "decorators": [],
           "name": "cl2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -468,7 +493,8 @@ __ESTREE_TEST__:PASS:
               "end": 431,
               "decorators": [],
               "name": "l",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -496,7 +522,8 @@ __ESTREE_TEST__:PASS:
                           "end": 461,
                           "decorators": [],
                           "name": "req",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "AwaitExpression",
@@ -526,7 +553,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],

@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
             "value": ""
           }
         ],
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "right": {
         "type": "ArrayExpression",

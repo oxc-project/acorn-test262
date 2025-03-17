@@ -49,7 +49,8 @@ __ESTREE_TEST__:PASS:
                             "end": 69,
                             "decorators": [],
                             "name": "Elephant",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "init": null
                         }
@@ -71,7 +72,8 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "BB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -112,6 +114,7 @@ __ESTREE_TEST__:PASS:
                             "type": "PropertyDefinition",
                             "start": 136,
                             "end": 154,
+                            "accessibility": null,
                             "computed": false,
                             "declare": false,
                             "decorators": [],
@@ -122,12 +125,14 @@ __ESTREE_TEST__:PASS:
                               "end": 137,
                               "decorators": [],
                               "name": "x",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "override": false,
                             "readonly": false,
                             "static": false,
+                            "typeAnnotation": null,
                             "value": {
                               "type": "MemberExpression",
                               "start": 140,
@@ -144,7 +149,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 142,
                                   "decorators": [],
                                   "name": "BB",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -153,7 +159,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 151,
                                   "decorators": [],
                                   "name": "Elephant",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -163,7 +170,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 153,
                                 "decorators": [],
                                 "name": "X",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -177,10 +185,13 @@ __ESTREE_TEST__:PASS:
                         "end": 121,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -196,7 +207,8 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -214,7 +226,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

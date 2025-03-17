@@ -47,6 +47,7 @@ __ESTREE_TEST__:PASS:
                             "type": "MethodDefinition",
                             "start": 70,
                             "end": 130,
+                            "accessibility": null,
                             "computed": false,
                             "decorators": [],
                             "key": {
@@ -55,7 +56,8 @@ __ESTREE_TEST__:PASS:
                               "end": 81,
                               "decorators": [],
                               "name": "constructor",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "constructor",
                             "optional": false,
@@ -75,6 +77,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "ExpressionStatement",
                                     "start": 108,
                                     "end": 116,
+                                    "directive": null,
                                     "expression": {
                                       "type": "NewExpression",
                                       "start": 108,
@@ -86,8 +89,10 @@ __ESTREE_TEST__:PASS:
                                         "end": 113,
                                         "decorators": [],
                                         "name": "B",
-                                        "optional": false
-                                      }
+                                        "optional": false,
+                                        "typeAnnotation": null
+                                      },
+                                      "typeArguments": null
                                     }
                                   }
                                 ]
@@ -115,7 +120,9 @@ __ESTREE_TEST__:PASS:
                                     }
                                   }
                                 }
-                              ]
+                              ],
+                              "returnType": null,
+                              "typeParameters": null
                             }
                           }
                         ]
@@ -128,10 +135,13 @@ __ESTREE_TEST__:PASS:
                         "end": 55,
                         "decorators": [],
                         "name": "A",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -143,7 +153,8 @@ __ESTREE_TEST__:PASS:
                   "end": 37,
                   "decorators": [],
                   "name": "Y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -161,7 +172,8 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "X",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -221,10 +233,13 @@ __ESTREE_TEST__:PASS:
                           "end": 211,
                           "decorators": [],
                           "name": "B",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "implements": [],
-                        "superClass": null
+                        "superClass": null,
+                        "superTypeArguments": null,
+                        "typeParameters": null
                       },
                       "exportKind": "value",
                       "source": null,
@@ -240,7 +255,8 @@ __ESTREE_TEST__:PASS:
                   "end": 186,
                   "decorators": [],
                   "name": "Y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "module"
               },
@@ -258,7 +274,8 @@ __ESTREE_TEST__:PASS:
           "end": 164,
           "decorators": [],
           "name": "X",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },

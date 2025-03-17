@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 23,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
@@ -33,9 +34,11 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "right": {
           "type": "CallExpression",
@@ -56,9 +59,11 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -78,7 +83,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -99,9 +105,11 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "BigInt",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -112,6 +120,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 62,
       "end": 80,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 62,
@@ -123,7 +132,8 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -144,9 +154,11 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     }

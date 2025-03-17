@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 26,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 1,
@@ -23,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 9,
               "end": 22,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -33,12 +35,14 @@ __ESTREE_TEST__:PASS:
                 "end": 17,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 20,
@@ -53,7 +57,9 @@ __ESTREE_TEST__:PASS:
         "decorators": [],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     }
   ],

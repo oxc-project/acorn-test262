@@ -42,8 +42,10 @@ __ESTREE_TEST__:PASS:
                   "end": 79,
                   "decorators": [],
                   "name": "publicInterfaceInPublicModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -67,8 +69,10 @@ __ESTREE_TEST__:PASS:
                 "end": 133,
                 "decorators": [],
                 "name": "privateInterfaceInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -92,8 +96,10 @@ __ESTREE_TEST__:PASS:
                     "end": 246,
                     "decorators": [],
                     "name": "publicInterfaceInPublicModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -102,8 +108,10 @@ __ESTREE_TEST__:PASS:
                 "end": 208,
                 "decorators": [],
                 "name": "privateInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -127,8 +135,10 @@ __ESTREE_TEST__:PASS:
                     "end": 360,
                     "decorators": [],
                     "name": "privateInterfaceInPublicModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -137,8 +147,10 @@ __ESTREE_TEST__:PASS:
                 "end": 321,
                 "decorators": [],
                 "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -167,8 +179,10 @@ __ESTREE_TEST__:PASS:
                       "end": 478,
                       "decorators": [],
                       "name": "publicInterfaceInPublicModule",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ],
                 "id": {
@@ -177,8 +191,10 @@ __ESTREE_TEST__:PASS:
                   "end": 440,
                   "decorators": [],
                   "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -211,8 +227,10 @@ __ESTREE_TEST__:PASS:
                       "end": 598,
                       "decorators": [],
                       "name": "privateInterfaceInPublicModule",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ],
                 "id": {
@@ -221,8 +239,10 @@ __ESTREE_TEST__:PASS:
                   "end": 559,
                   "decorators": [],
                   "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -255,7 +275,8 @@ __ESTREE_TEST__:PASS:
                       "end": 714,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -264,9 +285,11 @@ __ESTREE_TEST__:PASS:
                       "end": 745,
                       "decorators": [],
                       "name": "publicInterfaceInPrivateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  }
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -275,8 +298,10 @@ __ESTREE_TEST__:PASS:
                 "end": 692,
                 "decorators": [],
                 "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -310,7 +335,8 @@ __ESTREE_TEST__:PASS:
                         "end": 850,
                         "decorators": [],
                         "name": "privateModule",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -319,9 +345,11 @@ __ESTREE_TEST__:PASS:
                         "end": 881,
                         "decorators": [],
                         "name": "publicInterfaceInPrivateModule",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 ],
                 "id": {
@@ -330,8 +358,10 @@ __ESTREE_TEST__:PASS:
                   "end": 828,
                   "decorators": [],
                   "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -364,8 +394,10 @@ __ESTREE_TEST__:PASS:
                       "end": 1019,
                       "decorators": [],
                       "name": "privateInterfaceInPublicModule",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSInterfaceHeritage",
@@ -377,8 +409,10 @@ __ESTREE_TEST__:PASS:
                       "end": 1050,
                       "decorators": [],
                       "name": "publicInterfaceInPublicModule",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ],
                 "id": {
@@ -387,8 +421,10 @@ __ESTREE_TEST__:PASS:
                   "end": 980,
                   "decorators": [],
                   "name": "publicInterfaceImplementingPrivateAndPublicInterface",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -404,7 +440,8 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "publicModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -444,8 +481,10 @@ __ESTREE_TEST__:PASS:
                 "end": 1152,
                 "decorators": [],
                 "name": "publicInterfaceInPrivateModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -469,8 +508,10 @@ __ESTREE_TEST__:PASS:
               "end": 1208,
               "decorators": [],
               "name": "privateInterfaceInPrivateModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -494,8 +535,10 @@ __ESTREE_TEST__:PASS:
                   "end": 1322,
                   "decorators": [],
                   "name": "publicInterfaceInPrivateModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -504,8 +547,10 @@ __ESTREE_TEST__:PASS:
               "end": 1283,
               "decorators": [],
               "name": "privateInterfaceImplementingPublicInterfaceInModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -529,8 +574,10 @@ __ESTREE_TEST__:PASS:
                   "end": 1437,
                   "decorators": [],
                   "name": "privateInterfaceInPrivateModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -539,8 +586,10 @@ __ESTREE_TEST__:PASS:
               "end": 1397,
               "decorators": [],
               "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -569,8 +618,10 @@ __ESTREE_TEST__:PASS:
                     "end": 1556,
                     "decorators": [],
                     "name": "publicInterfaceInPrivateModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -579,8 +630,10 @@ __ESTREE_TEST__:PASS:
                 "end": 1517,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -613,8 +666,10 @@ __ESTREE_TEST__:PASS:
                     "end": 1677,
                     "decorators": [],
                     "name": "privateInterfaceInPrivateModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -623,8 +678,10 @@ __ESTREE_TEST__:PASS:
                 "end": 1637,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -657,7 +714,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1777,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -666,9 +724,11 @@ __ESTREE_TEST__:PASS:
                     "end": 1808,
                     "decorators": [],
                     "name": "publicInterfaceInPrivateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -677,8 +737,10 @@ __ESTREE_TEST__:PASS:
               "end": 1755,
               "decorators": [],
               "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -712,7 +774,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1913,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -721,9 +784,11 @@ __ESTREE_TEST__:PASS:
                       "end": 1944,
                       "decorators": [],
                       "name": "publicInterfaceInPrivateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  }
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -732,8 +797,10 @@ __ESTREE_TEST__:PASS:
                 "end": 1891,
                 "decorators": [],
                 "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -749,7 +816,8 @@ __ESTREE_TEST__:PASS:
         "end": 1098,
         "decorators": [],
         "name": "privateModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -776,8 +844,10 @@ __ESTREE_TEST__:PASS:
           "end": 1988,
           "decorators": [],
           "name": "publicInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -801,8 +871,10 @@ __ESTREE_TEST__:PASS:
         "end": 2021,
         "decorators": [],
         "name": "privateInterface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -826,8 +898,10 @@ __ESTREE_TEST__:PASS:
             "end": 2104,
             "decorators": [],
             "name": "publicInterface",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -836,8 +910,10 @@ __ESTREE_TEST__:PASS:
         "end": 2080,
         "decorators": [],
         "name": "privateInterfaceImplementingPublicInterface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -861,8 +937,10 @@ __ESTREE_TEST__:PASS:
             "end": 2196,
             "decorators": [],
             "name": "privateInterface",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -871,8 +949,10 @@ __ESTREE_TEST__:PASS:
         "end": 2171,
         "decorators": [],
         "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -901,8 +981,10 @@ __ESTREE_TEST__:PASS:
               "end": 2284,
               "decorators": [],
               "name": "publicInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -911,8 +993,10 @@ __ESTREE_TEST__:PASS:
           "end": 2260,
           "decorators": [],
           "name": "publicInterfaceImplementingPublicInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -945,8 +1029,10 @@ __ESTREE_TEST__:PASS:
               "end": 2374,
               "decorators": [],
               "name": "privateInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -955,8 +1041,10 @@ __ESTREE_TEST__:PASS:
           "end": 2349,
           "decorators": [],
           "name": "publicInterfaceImplementingPrivateInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -989,7 +1077,8 @@ __ESTREE_TEST__:PASS:
               "end": 2482,
               "decorators": [],
               "name": "privateModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -998,9 +1087,11 @@ __ESTREE_TEST__:PASS:
               "end": 2513,
               "decorators": [],
               "name": "publicInterfaceInPrivateModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          }
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -1009,8 +1100,10 @@ __ESTREE_TEST__:PASS:
         "end": 2460,
         "decorators": [],
         "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1044,7 +1137,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2610,
                 "decorators": [],
                 "name": "privateModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1053,9 +1147,11 @@ __ESTREE_TEST__:PASS:
                 "end": 2641,
                 "decorators": [],
                 "name": "publicInterfaceInPrivateModule",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            }
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -1064,8 +1160,10 @@ __ESTREE_TEST__:PASS:
           "end": 2588,
           "decorators": [],
           "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -1115,8 +1213,10 @@ __ESTREE_TEST__:PASS:
                 "end": 80,
                 "decorators": [],
                 "name": "publicInterfaceInPublicModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -1140,8 +1240,10 @@ __ESTREE_TEST__:PASS:
               "end": 134,
               "decorators": [],
               "name": "privateInterfaceInPublicModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1165,8 +1267,10 @@ __ESTREE_TEST__:PASS:
                   "end": 247,
                   "decorators": [],
                   "name": "publicInterfaceInPublicModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -1175,8 +1279,10 @@ __ESTREE_TEST__:PASS:
               "end": 209,
               "decorators": [],
               "name": "privateInterfaceImplementingPublicInterfaceInModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -1200,8 +1306,10 @@ __ESTREE_TEST__:PASS:
                   "end": 361,
                   "decorators": [],
                   "name": "privateInterfaceInPublicModule",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             ],
             "id": {
@@ -1210,8 +1318,10 @@ __ESTREE_TEST__:PASS:
               "end": 322,
               "decorators": [],
               "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -1240,8 +1350,10 @@ __ESTREE_TEST__:PASS:
                     "end": 479,
                     "decorators": [],
                     "name": "publicInterfaceInPublicModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -1250,8 +1362,10 @@ __ESTREE_TEST__:PASS:
                 "end": 441,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -1284,8 +1398,10 @@ __ESTREE_TEST__:PASS:
                     "end": 599,
                     "decorators": [],
                     "name": "privateInterfaceInPublicModule",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
               "id": {
@@ -1294,8 +1410,10 @@ __ESTREE_TEST__:PASS:
                 "end": 560,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -1311,7 +1429,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "publicModuleInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1333,8 +1452,10 @@ __ESTREE_TEST__:PASS:
         "end": 659,
         "decorators": [],
         "name": "publicInterfaceInGlobal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -1358,8 +1479,10 @@ __ESTREE_TEST__:PASS:
             "end": 756,
             "decorators": [],
             "name": "publicInterfaceInGlobal",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -1368,8 +1491,10 @@ __ESTREE_TEST__:PASS:
         "end": 724,
         "decorators": [],
         "name": "publicInterfaceImplementingPublicInterfaceInGlobal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

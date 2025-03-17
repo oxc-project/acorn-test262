@@ -61,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
           "end": 39,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -95,7 +97,8 @@ __ESTREE_TEST__:PASS:
           "end": 51,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -103,7 +106,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -129,7 +133,8 @@ __ESTREE_TEST__:PASS:
           "end": 68,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -137,7 +142,8 @@ __ESTREE_TEST__:PASS:
           "end": 75,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -163,7 +169,8 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -171,7 +178,8 @@ __ESTREE_TEST__:PASS:
           "end": 92,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -197,7 +205,8 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -205,7 +214,8 @@ __ESTREE_TEST__:PASS:
           "end": 111,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -231,7 +241,8 @@ __ESTREE_TEST__:PASS:
           "end": 123,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -239,7 +250,8 @@ __ESTREE_TEST__:PASS:
           "end": 129,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -265,7 +277,8 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -273,7 +286,8 @@ __ESTREE_TEST__:PASS:
           "end": 147,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -299,7 +313,8 @@ __ESTREE_TEST__:PASS:
           "end": 159,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -307,7 +322,8 @@ __ESTREE_TEST__:PASS:
           "end": 164,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -333,7 +349,8 @@ __ESTREE_TEST__:PASS:
           "end": 175,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -341,7 +358,8 @@ __ESTREE_TEST__:PASS:
           "end": 185,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -367,7 +385,8 @@ __ESTREE_TEST__:PASS:
           "end": 201,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -375,7 +394,8 @@ __ESTREE_TEST__:PASS:
           "end": 209,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -401,7 +421,8 @@ __ESTREE_TEST__:PASS:
           "end": 220,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -409,7 +430,8 @@ __ESTREE_TEST__:PASS:
           "end": 230,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -435,7 +457,8 @@ __ESTREE_TEST__:PASS:
           "end": 246,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -443,7 +466,8 @@ __ESTREE_TEST__:PASS:
           "end": 254,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -469,7 +493,8 @@ __ESTREE_TEST__:PASS:
           "end": 267,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -477,7 +502,8 @@ __ESTREE_TEST__:PASS:
           "end": 275,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -503,7 +529,8 @@ __ESTREE_TEST__:PASS:
           "end": 287,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -511,7 +538,8 @@ __ESTREE_TEST__:PASS:
           "end": 295,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -537,7 +565,8 @@ __ESTREE_TEST__:PASS:
           "end": 308,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -545,7 +574,8 @@ __ESTREE_TEST__:PASS:
           "end": 315,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -571,7 +601,8 @@ __ESTREE_TEST__:PASS:
           "end": 327,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -579,7 +610,8 @@ __ESTREE_TEST__:PASS:
           "end": 334,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -639,7 +671,8 @@ __ESTREE_TEST__:PASS:
           "end": 374,
           "decorators": [],
           "name": "NaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -657,7 +690,8 @@ __ESTREE_TEST__:PASS:
               "end": 380,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -704,7 +738,8 @@ __ESTREE_TEST__:PASS:
                 "end": 450,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -712,7 +747,8 @@ __ESTREE_TEST__:PASS:
                 "end": 458,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -727,7 +763,8 @@ __ESTREE_TEST__:PASS:
         "end": 403,
         "decorators": [],
         "name": "t1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -766,7 +803,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -793,7 +832,8 @@ __ESTREE_TEST__:PASS:
                 "end": 525,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -801,7 +841,8 @@ __ESTREE_TEST__:PASS:
                 "end": 534,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -816,7 +857,8 @@ __ESTREE_TEST__:PASS:
         "end": 480,
         "decorators": [],
         "name": "t2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -855,7 +897,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -882,7 +926,8 @@ __ESTREE_TEST__:PASS:
                 "end": 586,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -890,7 +935,8 @@ __ESTREE_TEST__:PASS:
                 "end": 594,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -905,7 +951,8 @@ __ESTREE_TEST__:PASS:
         "end": 556,
         "decorators": [],
         "name": "t3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -926,7 +973,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

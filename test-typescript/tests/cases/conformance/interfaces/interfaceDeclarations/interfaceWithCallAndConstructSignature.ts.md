@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 30
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                 "start": 44,
                 "end": 47
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -56,8 +58,10 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -84,13 +88,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 59,
                 "end": 62,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 59,
                   "end": 62,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -117,7 +123,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "r",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -130,9 +137,11 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -155,7 +164,8 @@ __ESTREE_TEST__:PASS:
             "end": 83,
             "decorators": [],
             "name": "r2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -168,8 +178,10 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "f",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],

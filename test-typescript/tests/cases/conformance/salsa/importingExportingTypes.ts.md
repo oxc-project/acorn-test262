@@ -38,8 +38,10 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "WriteFileOptions",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -55,6 +57,7 @@ __ESTREE_TEST__:PASS:
               "start": 70,
               "end": 179,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -64,7 +67,8 @@ __ESTREE_TEST__:PASS:
                 "end": 88,
                 "decorators": [],
                 "name": "writeFile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -118,13 +122,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 123,
                       "end": 139,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 123,
                         "end": 139,
                         "decorators": [],
                         "name": "WriteFileOptions",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -160,13 +166,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 157,
                               "end": 162,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 157,
                                 "end": 162,
                                 "decorators": [],
                                 "name": "Error",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -181,7 +189,8 @@ __ESTREE_TEST__:PASS:
                           "start": 167,
                           "end": 171
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
@@ -195,7 +204,8 @@ __ESTREE_TEST__:PASS:
                   "start": 174,
                   "end": 178
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,

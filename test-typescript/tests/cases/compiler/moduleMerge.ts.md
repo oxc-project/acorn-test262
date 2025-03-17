@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                     "end": 143,
                     "decorators": [],
                     "name": "Hello",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -81,7 +82,8 @@ __ESTREE_TEST__:PASS:
                         "start": 147,
                         "end": 153
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               ]
@@ -94,10 +96,13 @@ __ESTREE_TEST__:PASS:
               "end": 116,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -109,7 +114,8 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -150,7 +156,8 @@ __ESTREE_TEST__:PASS:
                       "end": 276,
                       "decorators": [],
                       "name": "Hello",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -194,7 +201,8 @@ __ESTREE_TEST__:PASS:
                           "start": 280,
                           "end": 286
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -207,10 +215,13 @@ __ESTREE_TEST__:PASS:
                 "end": 249,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -226,7 +237,8 @@ __ESTREE_TEST__:PASS:
         "end": 228,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

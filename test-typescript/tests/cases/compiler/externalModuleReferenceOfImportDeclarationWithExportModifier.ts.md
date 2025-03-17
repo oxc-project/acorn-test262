@@ -30,9 +30,12 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "file1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "importKind": "value",
         "moduleReference": {
@@ -94,6 +98,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 97,
       "end": 109,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 97,
@@ -110,7 +115,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "file1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -119,10 +125,12 @@ __ESTREE_TEST__:PASS:
             "end": 106,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

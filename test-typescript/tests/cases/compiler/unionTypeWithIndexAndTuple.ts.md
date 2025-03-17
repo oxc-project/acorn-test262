@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 18,
             "end": 39,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -55,6 +56,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 44,
             "end": 70,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -62,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 61,
               "decorators": [],
               "name": "someOtherProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -88,8 +91,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -153,25 +159,30 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 98,
                   "end": 99,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 98,
                     "end": 99,
                     "decorators": [],
                     "name": "I",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 105,
       "end": 114,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 105,
@@ -198,9 +209,11 @@ __ESTREE_TEST__:PASS:
           "end": 106,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

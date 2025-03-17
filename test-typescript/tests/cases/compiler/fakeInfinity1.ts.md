@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "PositiveInfinity",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
             "raw": "1e999",
             "value": 1e+400
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
           "end": 111,
           "decorators": [],
           "name": "NegativeInfinity",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -76,7 +79,8 @@ __ESTREE_TEST__:PASS:
             "operator": "-",
             "prefix": true
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -98,7 +102,8 @@ __ESTREE_TEST__:PASS:
           "end": 149,
           "decorators": [],
           "name": "TypeOfInfinity",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeQuery",
@@ -110,9 +115,12 @@ __ESTREE_TEST__:PASS:
             "end": 167,
             "decorators": [],
             "name": "Infinity",
-            "optional": false
-          }
-        }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -134,7 +142,8 @@ __ESTREE_TEST__:PASS:
           "end": 190,
           "decorators": [],
           "name": "TypeOfNaN",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeQuery",
@@ -146,9 +155,12 @@ __ESTREE_TEST__:PASS:
             "end": 203,
             "decorators": [],
             "name": "NaN",
-            "optional": false
-          }
-        }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -165,7 +177,8 @@ __ESTREE_TEST__:PASS:
         "end": 212,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSLiteralType",
@@ -178,7 +191,8 @@ __ESTREE_TEST__:PASS:
           "raw": "1e999",
           "value": 1e+400
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -191,7 +205,8 @@ __ESTREE_TEST__:PASS:
         "end": 228,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSLiteralType",
@@ -204,7 +219,8 @@ __ESTREE_TEST__:PASS:
           "raw": "1e9999",
           "value": 1e+400
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -231,13 +247,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 255,
                 "end": 256,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 255,
                   "end": 256,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -273,13 +291,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 273,
                 "end": 274,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 273,
                   "end": 274,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -294,6 +314,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 277,
       "end": 283,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 277,
@@ -305,7 +326,8 @@ __ESTREE_TEST__:PASS:
           "end": 278,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -313,7 +335,8 @@ __ESTREE_TEST__:PASS:
           "end": 282,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -321,6 +344,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 284,
       "end": 290,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 284,
@@ -332,7 +356,8 @@ __ESTREE_TEST__:PASS:
           "end": 285,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -340,7 +365,8 @@ __ESTREE_TEST__:PASS:
           "end": 289,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -348,6 +374,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 292,
       "end": 305,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 292,
@@ -359,7 +386,8 @@ __ESTREE_TEST__:PASS:
           "end": 293,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -367,7 +395,8 @@ __ESTREE_TEST__:PASS:
           "end": 304,
           "decorators": [],
           "name": "Infinity",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -375,6 +404,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 306,
       "end": 316,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 306,
@@ -386,7 +416,8 @@ __ESTREE_TEST__:PASS:
           "end": 307,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -401,6 +432,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 317,
       "end": 328,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 317,
@@ -412,7 +444,8 @@ __ESTREE_TEST__:PASS:
           "end": 318,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -439,7 +472,8 @@ __ESTREE_TEST__:PASS:
           "end": 346,
           "decorators": [],
           "name": "Oops",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -452,7 +486,8 @@ __ESTREE_TEST__:PASS:
             "raw": "123456789123456789123456789123456789123456789123456789",
             "value": 1.2345678912345678e+53
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -479,7 +514,8 @@ __ESTREE_TEST__:PASS:
               "end": 422,
               "decorators": [],
               "name": "oops",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",

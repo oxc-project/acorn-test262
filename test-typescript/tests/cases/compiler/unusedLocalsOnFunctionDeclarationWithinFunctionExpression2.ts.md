@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "greeter",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                         "end": 73,
                         "decorators": [],
                         "name": "unused",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
                               "end": 141,
                               "decorators": [],
                               "name": "unused2",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "Literal",
@@ -114,7 +117,8 @@ __ESTREE_TEST__:PASS:
                     "end": 98,
                     "decorators": [],
                     "name": "maker",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "params": [
                     {
@@ -145,7 +149,8 @@ __ESTREE_TEST__:PASS:
                       "start": 115,
                       "end": 119
                     }
-                  }
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "FunctionDeclaration",
@@ -173,7 +178,8 @@ __ESTREE_TEST__:PASS:
                               "end": 217,
                               "decorators": [],
                               "name": "unused3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "Literal",
@@ -198,7 +204,8 @@ __ESTREE_TEST__:PASS:
                     "end": 173,
                     "decorators": [],
                     "name": "maker2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "params": [
                     {
@@ -229,12 +236,14 @@ __ESTREE_TEST__:PASS:
                       "start": 191,
                       "end": 195
                     }
-                  }
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 234,
                   "end": 250,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 234,
@@ -246,7 +255,8 @@ __ESTREE_TEST__:PASS:
                         "end": 248,
                         "decorators": [],
                         "name": "person2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "callee": {
@@ -255,9 +265,11 @@ __ESTREE_TEST__:PASS:
                       "end": 240,
                       "decorators": [],
                       "name": "maker2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -303,7 +315,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

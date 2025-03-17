@@ -25,9 +25,12 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "_super",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -54,12 +57,14 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "decorators": [],
               "name": "prop1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ObjectExpression",
               "start": 65,
@@ -76,7 +81,8 @@ __ESTREE_TEST__:PASS:
                     "end": 82,
                     "decorators": [],
                     "name": "doStuff",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -112,16 +118,21 @@ __ESTREE_TEST__:PASS:
                             "end": 119,
                             "decorators": [],
                             "name": "_super",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       ]
                     },
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -137,10 +148,13 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -167,12 +181,14 @@ __ESTREE_TEST__:PASS:
               "end": 206,
               "decorators": [],
               "name": "prop2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ObjectExpression",
               "start": 209,
@@ -189,7 +205,8 @@ __ESTREE_TEST__:PASS:
                     "end": 226,
                     "decorators": [],
                     "name": "doStuff",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -225,16 +242,21 @@ __ESTREE_TEST__:PASS:
                             "end": 263,
                             "decorators": [],
                             "name": "_super",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       ]
                     },
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -250,7 +272,8 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -259,8 +282,11 @@ __ESTREE_TEST__:PASS:
         "end": 187,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

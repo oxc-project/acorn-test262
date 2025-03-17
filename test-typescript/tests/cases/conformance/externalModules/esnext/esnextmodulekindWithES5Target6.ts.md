@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "f1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -53,9 +55,12 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "raw": "0",
               "value": 0
-            }
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -86,7 +91,8 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "f2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -99,12 +105,17 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "arg",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null,
+            "value": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -134,7 +145,8 @@ __ESTREE_TEST__:PASS:
           "end": 89,
           "decorators": [],
           "name": "f3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -148,7 +160,8 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -157,9 +170,12 @@ __ESTREE_TEST__:PASS:
               "end": 95,
               "raw": "0",
               "value": 0
-            }
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

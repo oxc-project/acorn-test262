@@ -54,6 +54,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 33,
             "end": 44,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 33,
@@ -76,7 +77,8 @@ __ESTREE_TEST__:PASS:
                   "end": 39,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -99,9 +101,12 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -122,7 +127,8 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -131,8 +137,11 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "undefined",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -153,7 +162,8 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -162,7 +172,9 @@ __ESTREE_TEST__:PASS:
         "end": 100,
         "raw": "true",
         "value": true
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -183,7 +195,8 @@ __ESTREE_TEST__:PASS:
         "end": 113,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -192,7 +205,9 @@ __ESTREE_TEST__:PASS:
         "end": 127,
         "raw": "false",
         "value": false
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -213,7 +228,8 @@ __ESTREE_TEST__:PASS:
         "end": 140,
         "decorators": [],
         "name": "C4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -222,7 +238,9 @@ __ESTREE_TEST__:PASS:
         "end": 151,
         "raw": "42",
         "value": 42
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -243,7 +261,8 @@ __ESTREE_TEST__:PASS:
         "end": 164,
         "decorators": [],
         "name": "C5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -252,7 +271,9 @@ __ESTREE_TEST__:PASS:
         "end": 180,
         "raw": "\"hello\"",
         "value": "hello"
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -273,7 +294,8 @@ __ESTREE_TEST__:PASS:
         "end": 193,
         "decorators": [],
         "name": "C6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -282,8 +304,11 @@ __ESTREE_TEST__:PASS:
         "end": 203,
         "decorators": [],
         "name": "x",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -304,7 +329,8 @@ __ESTREE_TEST__:PASS:
         "end": 216,
         "decorators": [],
         "name": "C7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -313,8 +339,11 @@ __ESTREE_TEST__:PASS:
         "end": 228,
         "decorators": [],
         "name": "foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

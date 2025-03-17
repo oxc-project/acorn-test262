@@ -30,13 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 7,
                 "end": 11,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 7,
                   "end": 11,
                   "decorators": [],
                   "name": "Null",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }

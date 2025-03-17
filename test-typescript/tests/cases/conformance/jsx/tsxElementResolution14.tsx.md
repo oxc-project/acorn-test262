@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -45,7 +47,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -92,7 +95,8 @@ __ESTREE_TEST__:PASS:
                 "end": 83,
                 "members": []
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,8 +108,10 @@ __ESTREE_TEST__:PASS:
         "end": 61,
         "decorators": [],
         "name": "Obj1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -132,13 +138,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 97,
                 "end": 101,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 97,
                   "end": 101,
                   "decorators": [],
                   "name": "Obj1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -153,6 +161,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 103,
       "end": 119,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 103,
@@ -194,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 108,
             "name": "obj1"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

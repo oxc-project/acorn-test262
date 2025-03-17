@@ -87,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 228,
       "end": 248,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 228,
@@ -98,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 230,
           "decorators": [],
           "name": "fa",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -131,7 +133,8 @@ __ESTREE_TEST__:PASS:
               "end": 235,
               "decorators": [],
               "name": "fa",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -140,10 +143,12 @@ __ESTREE_TEST__:PASS:
               "end": 242,
               "decorators": [],
               "name": "concat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -151,6 +156,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 249,
       "end": 267,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 249,
@@ -162,7 +168,8 @@ __ESTREE_TEST__:PASS:
           "end": 251,
           "decorators": [],
           "name": "fa",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -188,7 +195,8 @@ __ESTREE_TEST__:PASS:
               "end": 256,
               "decorators": [],
               "name": "fa",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -197,10 +205,12 @@ __ESTREE_TEST__:PASS:
               "end": 263,
               "decorators": [],
               "name": "concat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     }

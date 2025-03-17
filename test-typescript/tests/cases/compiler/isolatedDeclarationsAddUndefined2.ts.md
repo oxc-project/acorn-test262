@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 80,
               "end": 125,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 91,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -81,13 +83,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 104,
                               "end": 109,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 104,
                                 "end": 109,
                                 "decorators": [],
                                 "name": "Array",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             {
@@ -102,7 +106,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -115,10 +121,13 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -143,6 +152,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 153,
               "end": 186,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -151,7 +161,8 @@ __ESTREE_TEST__:PASS:
                 "end": 164,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -195,13 +206,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 177,
                           "end": 182,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 177,
                             "end": 182,
                             "decorators": [],
                             "name": "Array",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -209,7 +222,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -222,10 +237,13 @@ __ESTREE_TEST__:PASS:
           "end": 146,
           "decorators": [],
           "name": "Bar2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -250,6 +268,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 214,
               "end": 258,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -258,7 +277,8 @@ __ESTREE_TEST__:PASS:
                 "end": 225,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -307,13 +327,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 237,
                               "end": 242,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 237,
                                 "end": 242,
                                 "decorators": [],
                                 "name": "Array",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             {
@@ -328,7 +350,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -341,10 +365,13 @@ __ESTREE_TEST__:PASS:
           "end": 207,
           "decorators": [],
           "name": "Bar3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -369,6 +396,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 286,
               "end": 318,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -377,7 +405,8 @@ __ESTREE_TEST__:PASS:
                 "end": 297,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -421,13 +450,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 309,
                           "end": 314,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 309,
                             "end": 314,
                             "decorators": [],
                             "name": "Array",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -435,7 +466,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -448,10 +481,13 @@ __ESTREE_TEST__:PASS:
           "end": 279,
           "decorators": [],
           "name": "Bar4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -482,7 +518,8 @@ __ESTREE_TEST__:PASS:
           "end": 343,
           "decorators": [],
           "name": "test1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -505,13 +542,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 348,
                     "end": 353,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 348,
                       "end": 353,
                       "decorators": [],
                       "name": "Array",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -533,7 +572,8 @@ __ESTREE_TEST__:PASS:
             "start": 368,
             "end": 372
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -564,7 +604,8 @@ __ESTREE_TEST__:PASS:
           "end": 398,
           "decorators": [],
           "name": "test2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -587,13 +628,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 403,
                     "end": 413,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 403,
                       "end": 413,
                       "decorators": [],
                       "name": "Unresolved",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -615,7 +658,8 @@ __ESTREE_TEST__:PASS:
             "start": 428,
             "end": 432
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -646,7 +690,8 @@ __ESTREE_TEST__:PASS:
           "end": 458,
           "decorators": [],
           "name": "test3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -664,13 +709,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 463,
                 "end": 473,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 463,
                   "end": 473,
                   "decorators": [],
                   "name": "Unresolved",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -685,7 +732,8 @@ __ESTREE_TEST__:PASS:
             "start": 476,
             "end": 480
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

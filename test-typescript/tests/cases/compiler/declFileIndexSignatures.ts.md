@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 45,
               "end": 65,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -66,8 +67,10 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "IStringIndexSignature",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -91,6 +94,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 113,
               "end": 133,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -134,8 +138,10 @@ __ESTREE_TEST__:PASS:
           "end": 106,
           "decorators": [],
           "name": "INumberIndexSignature",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -159,6 +165,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 180,
               "end": 197,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -196,6 +203,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 202,
               "end": 222,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -239,8 +247,10 @@ __ESTREE_TEST__:PASS:
           "end": 173,
           "decorators": [],
           "name": "IBothIndexSignature",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -264,6 +274,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 285,
               "end": 300,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -294,13 +305,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 298,
                   "end": 299,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 298,
                     "end": 299,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -315,7 +328,8 @@ __ESTREE_TEST__:PASS:
           "end": 275,
           "decorators": [],
           "name": "IIndexSignatureWithTypeParameter",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -327,6 +341,8 @@ __ESTREE_TEST__:PASS:
               "start": 276,
               "end": 277,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -334,7 +350,8 @@ __ESTREE_TEST__:PASS:
                 "end": 277,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -370,6 +387,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 44,
             "end": 64,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -413,8 +431,10 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "IGlobalStringIndexSignature",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -429,6 +449,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 111,
             "end": 131,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -472,8 +493,10 @@ __ESTREE_TEST__:PASS:
         "end": 104,
         "decorators": [],
         "name": "IGlobalNumberIndexSignature",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -488,6 +511,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 177,
             "end": 194,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -525,6 +549,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 199,
             "end": 219,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -568,8 +593,10 @@ __ESTREE_TEST__:PASS:
         "end": 170,
         "decorators": [],
         "name": "IGlobalBothIndexSignature",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -584,6 +611,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 281,
             "end": 296,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -614,13 +642,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 294,
                 "end": 295,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 294,
                   "end": 295,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -635,7 +665,8 @@ __ESTREE_TEST__:PASS:
         "end": 271,
         "decorators": [],
         "name": "IGlobalIndexSignatureWithTypeParameter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -647,6 +678,8 @@ __ESTREE_TEST__:PASS:
             "start": 272,
             "end": 273,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -654,7 +687,8 @@ __ESTREE_TEST__:PASS:
               "end": 273,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

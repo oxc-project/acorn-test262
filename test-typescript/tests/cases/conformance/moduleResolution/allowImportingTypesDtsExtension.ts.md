@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "User",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
@@ -32,6 +33,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 33,
               "end": 46,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 37,
                 "decorators": [],
                 "name": "name",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -98,7 +102,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "User",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -107,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "User",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -137,7 +143,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "User",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -146,7 +153,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "User",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -181,13 +189,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 104,
                   "end": 108,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 104,
                     "end": 108,
                     "decorators": [],
                     "name": "User",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -208,7 +218,8 @@ __ESTREE_TEST__:PASS:
                     "end": 117,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -258,7 +269,8 @@ __ESTREE_TEST__:PASS:
                 "end": 202,
                 "decorators": [],
                 "name": "user",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -272,7 +284,8 @@ __ESTREE_TEST__:PASS:
           "end": 153,
           "decorators": [],
           "name": "getUser",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -302,11 +315,13 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "User",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

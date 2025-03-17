@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 147,
       "end": 190,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 167,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -49,6 +51,7 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 181,
           "end": 189,
+          "typeArguments": null,
           "typeName": {
             "type": "TSQualifiedName",
             "start": 181,
@@ -59,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -67,11 +71,13 @@ __ESTREE_TEST__:PASS:
               "end": 189,
               "decorators": [],
               "name": "Inst",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -87,6 +93,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 215,
             "end": 238,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -95,7 +102,8 @@ __ESTREE_TEST__:PASS:
               "end": 226,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -130,7 +138,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -143,10 +153,13 @@ __ESTREE_TEST__:PASS:
         "end": 208,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -173,13 +186,15 @@ __ESTREE_TEST__:PASS:
                 "end": 285,
                 "decorators": [],
                 "name": "Inst",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 288,
                 "end": 294
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -195,7 +210,8 @@ __ESTREE_TEST__:PASS:
         "end": 262,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -215,7 +231,8 @@ __ESTREE_TEST__:PASS:
             "end": 306,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -236,8 +253,10 @@ __ESTREE_TEST__:PASS:
               "end": 316,
               "decorators": [],
               "name": "Foo",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -260,7 +279,8 @@ __ESTREE_TEST__:PASS:
             "end": 329,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -281,9 +301,11 @@ __ESTREE_TEST__:PASS:
               "end": 335,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

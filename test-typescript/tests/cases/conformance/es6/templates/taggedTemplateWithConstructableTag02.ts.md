@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
                   "end": 30,
                   "decorators": [],
                   "name": "args",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "decorators": [],
                 "optional": false,
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                       "end": 35
                     }
                   }
-                }
+                },
+                "value": null
               }
             ],
             "returnType": {
@@ -59,7 +61,8 @@ __ESTREE_TEST__:PASS:
                 "start": 40,
                 "end": 46
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 66
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -87,8 +91,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -115,13 +121,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 79,
                 "end": 80,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 79,
                   "end": 80,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -136,6 +144,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 82,
       "end": 101,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 82,
@@ -164,8 +173,10 @@ __ESTREE_TEST__:PASS:
           "end": 85,
           "decorators": [],
           "name": "tag",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

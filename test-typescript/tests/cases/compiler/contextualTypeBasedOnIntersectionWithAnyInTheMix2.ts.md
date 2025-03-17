@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "IntrinsicElements",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 29,
             "end": 57,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -52,6 +55,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 38,
                     "end": 52,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -59,7 +63,8 @@ __ESTREE_TEST__:PASS:
                       "end": 42,
                       "decorators": [],
                       "name": "href",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": true,
                     "readonly": false,
@@ -83,6 +88,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 60,
             "end": 89,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -90,7 +96,8 @@ __ESTREE_TEST__:PASS:
               "end": 63,
               "decorators": [],
               "name": "div",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -108,6 +115,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 71,
                     "end": 84,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -115,7 +123,8 @@ __ESTREE_TEST__:PASS:
                       "end": 74,
                       "decorators": [],
                       "name": "dir",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": true,
                     "readonly": false,
@@ -136,7 +145,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -149,7 +159,8 @@ __ESTREE_TEST__:PASS:
         "end": 108,
         "decorators": [],
         "name": "Component",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -171,13 +182,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 126,
                 "end": 131,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 126,
                   "end": 131,
                   "decorators": [],
                   "name": "Props",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -192,7 +205,8 @@ __ESTREE_TEST__:PASS:
             "start": 136,
             "end": 143
           }
-        }
+        },
+        "typeParameters": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -204,6 +218,8 @@ __ESTREE_TEST__:PASS:
             "start": 109,
             "end": 114,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -211,7 +227,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "Props",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -231,6 +248,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 180,
             "end": 210,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -279,7 +297,8 @@ __ESTREE_TEST__:PASS:
                   "end": 204,
                   "decorators": [],
                   "name": "Component",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -294,8 +313,10 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "NestedMDXComponents",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -308,7 +329,8 @@ __ESTREE_TEST__:PASS:
         "end": 232,
         "decorators": [],
         "name": "MDXComponents",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -319,13 +341,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 235,
             "end": 254,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 235,
               "end": 254,
               "decorators": [],
               "name": "NestedMDXComponents",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -341,13 +365,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 275,
                 "end": 292,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 275,
                   "end": 292,
                   "decorators": [],
                   "name": "IntrinsicElements",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -357,10 +383,12 @@ __ESTREE_TEST__:PASS:
               "end": 265,
               "decorators": [],
               "name": "Key",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "nameType": null,
             "optional": true,
+            "readonly": null,
             "typeAnnotation": {
               "type": "TSTypeReference",
               "start": 296,
@@ -378,26 +406,30 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 324,
                       "end": 327,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 324,
                         "end": 327,
                         "decorators": [],
                         "name": "Key",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "objectType": {
                       "type": "TSTypeReference",
                       "start": 306,
                       "end": 323,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 306,
                         "end": 323,
                         "decorators": [],
                         "name": "IntrinsicElements",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -409,12 +441,14 @@ __ESTREE_TEST__:PASS:
                 "end": 305,
                 "decorators": [],
                 "name": "Component",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -434,6 +468,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 365,
               "end": 392,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -441,7 +476,8 @@ __ESTREE_TEST__:PASS:
                 "end": 375,
                 "decorators": [],
                 "name": "components",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -454,13 +490,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 378,
                   "end": 391,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 378,
                     "end": 391,
                     "decorators": [],
                     "name": "MDXComponents",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -475,8 +513,10 @@ __ESTREE_TEST__:PASS:
           "end": 360,
           "decorators": [],
           "name": "MDXProps",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -487,6 +527,7 @@ __ESTREE_TEST__:PASS:
       "start": 396,
       "end": 451,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -496,7 +537,8 @@ __ESTREE_TEST__:PASS:
         "end": 427,
         "decorators": [],
         "name": "MyMDXComponent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -514,13 +556,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 435,
               "end": 443,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 435,
                 "end": 443,
                 "decorators": [],
                 "name": "MDXProps",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -535,12 +579,14 @@ __ESTREE_TEST__:PASS:
           "start": 446,
           "end": 450
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 453,
       "end": 578,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 453,
@@ -562,7 +608,8 @@ __ESTREE_TEST__:PASS:
                   "end": 482,
                   "decorators": [],
                   "name": "components",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -584,7 +631,8 @@ __ESTREE_TEST__:PASS:
                         "end": 491,
                         "decorators": [],
                         "name": "a",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": true,
@@ -625,9 +673,12 @@ __ESTREE_TEST__:PASS:
                             "end": 497,
                             "decorators": [],
                             "name": "props",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
-                        ]
+                        ],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     },
                     {
@@ -641,7 +692,8 @@ __ESTREE_TEST__:PASS:
                         "end": 534,
                         "decorators": [],
                         "name": "div",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": true,
@@ -682,9 +734,12 @@ __ESTREE_TEST__:PASS:
                             "end": 540,
                             "decorators": [],
                             "name": "props",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
-                        ]
+                        ],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -699,9 +754,11 @@ __ESTREE_TEST__:PASS:
           "end": 467,
           "decorators": [],
           "name": "MyMDXComponent",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

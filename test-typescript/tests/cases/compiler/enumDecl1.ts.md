@@ -34,8 +34,10 @@ __ESTREE_TEST__:PASS:
                     "end": 48,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -48,8 +50,10 @@ __ESTREE_TEST__:PASS:
                     "end": 59,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 },
                 {
                   "type": "TSEnumMember",
@@ -62,8 +66,10 @@ __ESTREE_TEST__:PASS:
                     "end": 70,
                     "decorators": [],
                     "name": "z",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "initializer": null
                 }
               ]
             },
@@ -75,7 +81,8 @@ __ESTREE_TEST__:PASS:
               "end": 36,
               "decorators": [],
               "name": "e",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -88,7 +95,8 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "mAmbient",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

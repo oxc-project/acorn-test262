@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 14,
                     "end": 27,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 22,
                       "decorators": [],
                       "name": "iterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -82,6 +84,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 46,
             "end": 69,
+            "accessibility": null,
             "computed": true,
             "decorators": [],
             "key": {
@@ -95,7 +98,8 @@ __ESTREE_TEST__:PASS:
                 "end": 53,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
                 "end": 62,
                 "decorators": [],
                 "name": "iterator",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -126,7 +131,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -139,15 +146,19 @@ __ESTREE_TEST__:PASS:
         "end": 39,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 73,
       "end": 97,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 73,
@@ -164,8 +175,10 @@ __ESTREE_TEST__:PASS:
             "end": 79,
             "decorators": [],
             "name": "C",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -179,7 +192,8 @@ __ESTREE_TEST__:PASS:
             "end": 87,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -188,7 +202,8 @@ __ESTREE_TEST__:PASS:
             "end": 96,
             "decorators": [],
             "name": "iterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

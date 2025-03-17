@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 36,
               "end": 69,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 53,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -62,6 +64,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 74,
               "end": 88,
+              "accessibility": null,
               "computed": true,
               "decorators": [],
               "key": {
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
                   "end": 76,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -84,7 +88,8 @@ __ESTREE_TEST__:PASS:
                   "end": 78,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "kind": "method",
@@ -111,7 +116,8 @@ __ESTREE_TEST__:PASS:
                     "start": 83,
                     "end": 87
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -124,7 +130,8 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -133,8 +140,11 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "Object",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 25,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ClassExpression",
@@ -52,7 +53,8 @@ __ESTREE_TEST__:PASS:
                     "end": 35,
                     "decorators": [],
                     "name": "C",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
                   "superClass": {
@@ -61,7 +63,9 @@ __ESTREE_TEST__:PASS:
                     "end": 50,
                     "argument": null,
                     "delegate": false
-                  }
+                  },
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -79,9 +83,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -39,6 +39,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 31,
                       "end": 45,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 31,
@@ -53,7 +54,8 @@ __ESTREE_TEST__:PASS:
                             "end": 33,
                             "decorators": [],
                             "name": "D3",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
                             "end": 39,
                             "decorators": [],
                             "name": "Color",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
                           "end": 45,
                           "decorators": [],
                           "name": "Color",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -109,6 +113,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 112,
                           "end": 126,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -116,7 +121,8 @@ __ESTREE_TEST__:PASS:
                             "end": 118,
                             "decorators": [],
                             "name": "darker",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -129,13 +135,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 120,
                               "end": 125,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 120,
                                 "end": 125,
                                 "decorators": [],
                                 "name": "Color",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -150,8 +158,10 @@ __ESTREE_TEST__:PASS:
                       "end": 97,
                       "decorators": [],
                       "name": "Color",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -167,7 +177,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "Color",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }
@@ -181,7 +192,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "D3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

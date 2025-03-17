@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 76,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "create",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -58,8 +60,10 @@ __ESTREE_TEST__:PASS:
                         "end": 67,
                         "decorators": [],
                         "name": "Shape",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -77,16 +81,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 35,
                   "end": 40,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 35,
                     "end": 40,
                     "decorators": [],
                     "name": "Shape",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -99,10 +106,13 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Shape",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -117,6 +127,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 109,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -124,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 115,
               "decorators": [],
               "name": "create",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -138,17 +150,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 119,
                 "end": 124,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 119,
                   "end": 124,
                   "decorators": [],
                   "name": "Shape",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -160,8 +175,10 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "ShapeFactory",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -188,13 +205,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 136,
                 "end": 148,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 136,
                   "end": 148,
                   "decorators": [],
                   "name": "ShapeFactory",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -205,7 +224,8 @@ __ESTREE_TEST__:PASS:
             "end": 156,
             "decorators": [],
             "name": "Shape",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],

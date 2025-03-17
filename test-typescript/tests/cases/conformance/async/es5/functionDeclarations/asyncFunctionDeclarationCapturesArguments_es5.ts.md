@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 13,
             "end": 138,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -63,9 +65,12 @@ __ESTREE_TEST__:PASS:
                       "end": 44,
                       "decorators": [],
                       "name": "other",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   },
                   {
                     "type": "FunctionDeclaration",
@@ -81,6 +86,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 90,
                           "end": 125,
+                          "directive": null,
                           "expression": {
                             "type": "AwaitExpression",
                             "start": 90,
@@ -101,7 +107,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 123,
                                   "decorators": [],
                                   "name": "arguments",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 101,
                                   "decorators": [],
                                   "name": "other",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -124,10 +132,12 @@ __ESTREE_TEST__:PASS:
                                   "end": 107,
                                   "decorators": [],
                                   "name": "apply",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         }
@@ -142,9 +152,12 @@ __ESTREE_TEST__:PASS:
                       "end": 73,
                       "decorators": [],
                       "name": "fn",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -152,7 +165,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -165,10 +180,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

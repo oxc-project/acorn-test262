@@ -39,7 +39,8 @@ __ESTREE_TEST__:PASS:
                 "end": 45,
                 "decorators": [],
                 "name": "inject",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -88,7 +89,8 @@ __ESTREE_TEST__:PASS:
                   "start": 73,
                   "end": 77
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -118,10 +120,13 @@ __ESTREE_TEST__:PASS:
                 "end": 103,
                 "decorators": [],
                 "name": "Leg",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -146,6 +151,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 143,
                     "end": 164,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [
@@ -159,7 +165,8 @@ __ESTREE_TEST__:PASS:
                           "end": 150,
                           "decorators": [],
                           "name": "inject",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ],
@@ -170,7 +177,8 @@ __ESTREE_TEST__:PASS:
                       "end": 158,
                       "decorators": [],
                       "name": "leftLeg",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -184,13 +192,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 160,
                         "end": 163,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 160,
                           "end": 163,
                           "decorators": [],
                           "name": "Leg",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -206,10 +216,13 @@ __ESTREE_TEST__:PASS:
                 "end": 132,
                 "decorators": [],
                 "name": "Person",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -225,7 +238,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "MyModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

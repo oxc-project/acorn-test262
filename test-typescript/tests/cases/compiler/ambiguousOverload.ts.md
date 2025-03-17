@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 38,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "foof",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -46,7 +48,8 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       ],
       "returnType": {
@@ -58,13 +61,15 @@ __ESTREE_TEST__:PASS:
           "start": 31,
           "end": 37
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 39,
       "end": 77,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -74,7 +79,8 @@ __ESTREE_TEST__:PASS:
         "end": 52,
         "decorators": [],
         "name": "foof",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -101,7 +107,8 @@ __ESTREE_TEST__:PASS:
           "end": 67,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       ],
       "returnType": {
@@ -113,7 +120,8 @@ __ESTREE_TEST__:PASS:
           "start": 70,
           "end": 76
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -135,7 +143,8 @@ __ESTREE_TEST__:PASS:
               "end": 119,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -149,7 +158,8 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "foof",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -180,7 +190,8 @@ __ESTREE_TEST__:PASS:
           "start": 103,
           "end": 106
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -241,9 +252,11 @@ __ESTREE_TEST__:PASS:
               "end": 143,
               "decorators": [],
               "name": "foof",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -304,9 +317,11 @@ __ESTREE_TEST__:PASS:
               "end": 176,
               "decorators": [],
               "name": "foof",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -318,6 +333,7 @@ __ESTREE_TEST__:PASS:
       "start": 190,
       "end": 229,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -327,7 +343,8 @@ __ESTREE_TEST__:PASS:
         "end": 204,
         "decorators": [],
         "name": "foof2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -354,7 +371,8 @@ __ESTREE_TEST__:PASS:
           "end": 219,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       ],
       "returnType": {
@@ -366,13 +384,15 @@ __ESTREE_TEST__:PASS:
           "start": 222,
           "end": 228
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 230,
       "end": 269,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -382,7 +402,8 @@ __ESTREE_TEST__:PASS:
         "end": 244,
         "decorators": [],
         "name": "foof2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -409,7 +430,8 @@ __ESTREE_TEST__:PASS:
           "end": 259,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       ],
       "returnType": {
@@ -421,7 +443,8 @@ __ESTREE_TEST__:PASS:
           "start": 262,
           "end": 268
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -443,7 +466,8 @@ __ESTREE_TEST__:PASS:
               "end": 312,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -457,7 +481,8 @@ __ESTREE_TEST__:PASS:
         "end": 284,
         "decorators": [],
         "name": "foof2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -488,7 +513,8 @@ __ESTREE_TEST__:PASS:
           "start": 296,
           "end": 299
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -549,9 +575,11 @@ __ESTREE_TEST__:PASS:
               "end": 338,
               "decorators": [],
               "name": "foof2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -612,9 +640,11 @@ __ESTREE_TEST__:PASS:
               "end": 373,
               "decorators": [],
               "name": "foof2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

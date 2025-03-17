@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "IFoo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
@@ -49,6 +50,8 @@ __ESTREE_TEST__:PASS:
                     "start": 39,
                     "end": 40,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
                       "end": 40,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -114,7 +119,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -132,7 +138,8 @@ __ESTREE_TEST__:PASS:
                       "end": 99,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -141,7 +148,8 @@ __ESTREE_TEST__:PASS:
                       "end": 104,
                       "decorators": [],
                       "name": "IFoo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "typeArguments": {
@@ -153,13 +161,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 105,
                         "end": 106,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 105,
                           "end": 106,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -167,6 +177,7 @@ __ESTREE_TEST__:PASS:
                 }
               ],
               "superClass": null,
+              "superTypeArguments": null,
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
                 "start": 81,
@@ -177,6 +188,8 @@ __ESTREE_TEST__:PASS:
                     "start": 82,
                     "end": 83,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -184,7 +197,8 @@ __ESTREE_TEST__:PASS:
                       "end": 83,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -205,7 +219,8 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

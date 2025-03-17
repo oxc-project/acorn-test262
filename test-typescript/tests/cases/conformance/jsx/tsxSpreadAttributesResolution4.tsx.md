@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 63,
             "end": 73,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 78,
             "end": 83,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 79,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -111,8 +116,10 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "PoisonedProp",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -128,6 +135,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 150,
             "end": 199,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 156,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -191,7 +200,8 @@ __ESTREE_TEST__:PASS:
                           "end": 180,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -201,7 +211,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -214,7 +226,8 @@ __ESTREE_TEST__:PASS:
         "end": 101,
         "decorators": [],
         "name": "Poisoned",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -228,7 +241,8 @@ __ESTREE_TEST__:PASS:
           "end": 115,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -237,7 +251,8 @@ __ESTREE_TEST__:PASS:
           "end": 125,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -249,13 +264,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 126,
             "end": 138,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 126,
               "end": 138,
               "decorators": [],
               "name": "PoisonedProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -265,7 +282,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -292,13 +310,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 214,
                 "end": 226,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 214,
                   "end": 226,
                   "decorators": [],
                   "name": "PoisonedProp",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -319,7 +339,8 @@ __ESTREE_TEST__:PASS:
                   "end": 236,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -344,7 +365,8 @@ __ESTREE_TEST__:PASS:
                   "end": 258,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -381,7 +403,8 @@ __ESTREE_TEST__:PASS:
             "end": 277,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -404,7 +427,8 @@ __ESTREE_TEST__:PASS:
                     "end": 297,
                     "decorators": [],
                     "name": "obj",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -414,7 +438,8 @@ __ESTREE_TEST__:PASS:
                 "end": 289,
                 "name": "Poisoned"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -436,6 +461,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 358,
             "end": 412,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -444,7 +470,8 @@ __ESTREE_TEST__:PASS:
               "end": 364,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -499,7 +526,8 @@ __ESTREE_TEST__:PASS:
                           "end": 388,
                           "name": "div"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -509,7 +537,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -522,7 +552,8 @@ __ESTREE_TEST__:PASS:
         "end": 319,
         "decorators": [],
         "name": "EmptyProp",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -536,7 +567,8 @@ __ESTREE_TEST__:PASS:
           "end": 333,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -545,7 +577,8 @@ __ESTREE_TEST__:PASS:
           "end": 343,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -566,7 +599,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -618,7 +652,8 @@ __ESTREE_TEST__:PASS:
             "end": 440,
             "decorators": [],
             "name": "e1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -649,7 +684,8 @@ __ESTREE_TEST__:PASS:
                 "end": 453,
                 "name": "EmptyProp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -673,7 +709,8 @@ __ESTREE_TEST__:PASS:
             "end": 472,
             "decorators": [],
             "name": "e2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -696,7 +733,8 @@ __ESTREE_TEST__:PASS:
                     "end": 491,
                     "decorators": [],
                     "name": "j",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -706,7 +744,8 @@ __ESTREE_TEST__:PASS:
                 "end": 485,
                 "name": "EmptyProp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -730,7 +769,8 @@ __ESTREE_TEST__:PASS:
             "end": 502,
             "decorators": [],
             "name": "e3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -763,7 +803,8 @@ __ESTREE_TEST__:PASS:
                           "end": 525,
                           "decorators": [],
                           "name": "ref",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -783,6 +824,7 @@ __ESTREE_TEST__:PASS:
                                 "type": "ExpressionStatement",
                                 "start": 540,
                                 "end": 563,
+                                "directive": null,
                                 "expression": {
                                   "type": "AssignmentExpression",
                                   "start": 540,
@@ -805,7 +847,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 554,
                                       "decorators": [],
                                       "name": "textInput",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "right": {
@@ -814,7 +857,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 562,
                                     "decorators": [],
                                     "name": "input",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -830,9 +874,12 @@ __ESTREE_TEST__:PASS:
                               "end": 533,
                               "decorators": [],
                               "name": "input",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
-                          ]
+                          ],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ]
@@ -845,7 +892,8 @@ __ESTREE_TEST__:PASS:
                 "end": 515,
                 "name": "EmptyProp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -869,7 +917,8 @@ __ESTREE_TEST__:PASS:
             "end": 578,
             "decorators": [],
             "name": "e4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -901,7 +950,8 @@ __ESTREE_TEST__:PASS:
                 "end": 591,
                 "name": "EmptyProp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -925,7 +975,8 @@ __ESTREE_TEST__:PASS:
             "end": 611,
             "decorators": [],
             "name": "e5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -981,7 +1032,8 @@ __ESTREE_TEST__:PASS:
                 "end": 624,
                 "name": "EmptyProp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

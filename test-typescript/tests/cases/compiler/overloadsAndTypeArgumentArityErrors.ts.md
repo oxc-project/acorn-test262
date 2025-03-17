@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 49,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,13 +52,15 @@ __ESTREE_TEST__:PASS:
           "start": 44,
           "end": 48
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 50,
       "end": 102,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -66,7 +70,8 @@ __ESTREE_TEST__:PASS:
         "end": 76,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -108,6 +113,8 @@ __ESTREE_TEST__:PASS:
             "start": 77,
             "end": 78,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -127,6 +135,7 @@ __ESTREE_TEST__:PASS:
       "start": 103,
       "end": 160,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -136,7 +145,8 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "Callbacks",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -178,6 +188,8 @@ __ESTREE_TEST__:PASS:
             "start": 130,
             "end": 132,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -185,7 +197,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "T1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -194,6 +207,8 @@ __ESTREE_TEST__:PASS:
             "start": 134,
             "end": 136,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -201,7 +216,8 @@ __ESTREE_TEST__:PASS:
               "end": 136,
               "decorators": [],
               "name": "T2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -212,6 +228,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 162,
       "end": 202,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 162,
@@ -231,7 +248,8 @@ __ESTREE_TEST__:PASS:
           "end": 171,
           "decorators": [],
           "name": "Callbacks",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "typeArguments": {
@@ -262,6 +280,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 237,
       "end": 281,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 237,
@@ -281,7 +300,8 @@ __ESTREE_TEST__:PASS:
           "end": 250,
           "decorators": [],
           "name": "Callbacks",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -312,6 +332,7 @@ __ESTREE_TEST__:PASS:
       "start": 317,
       "end": 366,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -321,7 +342,8 @@ __ESTREE_TEST__:PASS:
         "end": 335,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -363,6 +385,8 @@ __ESTREE_TEST__:PASS:
             "start": 336,
             "end": 337,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -370,7 +394,8 @@ __ESTREE_TEST__:PASS:
               "end": 337,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -379,6 +404,7 @@ __ESTREE_TEST__:PASS:
             "start": 339,
             "end": 345,
             "const": false,
+            "constraint": null,
             "default": {
               "type": "TSTypeLiteral",
               "start": 343,
@@ -392,7 +418,8 @@ __ESTREE_TEST__:PASS:
               "end": 340,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -403,6 +430,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 367,
       "end": 379,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 367,
@@ -414,7 +442,8 @@ __ESTREE_TEST__:PASS:
           "end": 368,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "typeArguments": {

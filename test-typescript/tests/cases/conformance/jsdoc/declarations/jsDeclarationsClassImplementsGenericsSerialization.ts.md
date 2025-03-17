@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSMethodSignature",
               "start": 34,
               "end": 62,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "encode",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -50,13 +52,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 48,
                       "end": 49,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 48,
                         "end": 49,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -71,17 +75,20 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 52,
                   "end": 62,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 52,
                     "end": 62,
                     "decorators": [],
                     "name": "Uint8Array",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
-              "static": false
+              "static": false,
+              "typeParameters": null
             }
           ]
         },
@@ -93,7 +100,8 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "Encoder",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -105,6 +113,8 @@ __ESTREE_TEST__:PASS:
               "start": 25,
               "end": 26,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -112,7 +122,8 @@ __ESTREE_TEST__:PASS:
                 "end": 26,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

@@ -35,13 +35,15 @@ __ESTREE_TEST__:PASS:
                   "end": 59,
                   "decorators": [],
                   "name": "HTMLAttributes",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 62,
                   "end": 68
-                }
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -63,13 +65,15 @@ __ESTREE_TEST__:PASS:
                   "end": 100,
                   "decorators": [],
                   "name": "ComponentChildren",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 103,
                   "end": 109
-                }
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "JSXInternal",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -129,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "JSXInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -138,7 +144,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "JSXInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -158,7 +165,8 @@ __ESTREE_TEST__:PASS:
           "end": 54,
           "decorators": [],
           "name": "JSX",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "importKind": "value",
         "moduleReference": {
@@ -167,7 +175,8 @@ __ESTREE_TEST__:PASS:
           "end": 68,
           "decorators": [],
           "name": "JSXInternal",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -199,7 +208,8 @@ __ESTREE_TEST__:PASS:
           "end": 100,
           "decorators": [],
           "name": "createElement",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -235,6 +245,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 168,
                 "end": 186,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 168,
@@ -245,7 +256,8 @@ __ESTREE_TEST__:PASS:
                     "end": 171,
                     "decorators": [],
                     "name": "JSX",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -253,7 +265,8 @@ __ESTREE_TEST__:PASS:
                     "end": 186,
                     "decorators": [],
                     "name": "HTMLAttributes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -269,7 +282,8 @@ __ESTREE_TEST__:PASS:
               "end": 201,
               "decorators": [],
               "name": "children",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -285,6 +299,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 203,
                   "end": 224,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 203,
@@ -295,7 +310,8 @@ __ESTREE_TEST__:PASS:
                       "end": 206,
                       "decorators": [],
                       "name": "JSX",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -303,12 +319,14 @@ __ESTREE_TEST__:PASS:
                       "end": 224,
                       "decorators": [],
                       "name": "ComponentChildren",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
               }
-            }
+            },
+            "value": null
           }
         ],
         "returnType": {
@@ -335,15 +353,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 121,
                 "end": 132,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 121,
                   "end": 132,
                   "decorators": [],
                   "name": "HTMLElement",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -351,7 +372,8 @@ __ESTREE_TEST__:PASS:
                 "end": 112,
                 "decorators": [],
                 "name": "ElementType",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

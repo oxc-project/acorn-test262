@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -52,6 +53,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 45,
                   "end": 56,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 45,
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
                       "end": 48,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Literal",
@@ -97,7 +100,8 @@ __ESTREE_TEST__:PASS:
                     "end": 24,
                     "decorators": [],
                     "name": "Math",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -106,10 +110,12 @@ __ESTREE_TEST__:PASS:
                     "end": 31,
                     "decorators": [],
                     "name": "random",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "right": {
                 "type": "Literal",
@@ -136,13 +142,15 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 71,
               "end": 75,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 71,
                 "end": 74,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]

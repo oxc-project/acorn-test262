@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                   "end": 24,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -42,6 +43,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 30,
             "end": 41,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 30,
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
                   "end": 36,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -86,7 +89,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "myMod",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

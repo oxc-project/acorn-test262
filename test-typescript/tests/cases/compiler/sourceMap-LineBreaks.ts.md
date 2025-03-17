@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "endsWithlineSeparator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "endsWithParagraphSeparator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -81,7 +83,8 @@ __ESTREE_TEST__:PASS:
             "end": 91,
             "decorators": [],
             "name": "endsWithNextLine",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 117,
             "decorators": [],
             "name": "endsWithLineFeed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -141,7 +145,8 @@ __ESTREE_TEST__:PASS:
             "end": 157,
             "decorators": [],
             "name": "endsWithCarriageReturnLineFeed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -171,7 +176,8 @@ __ESTREE_TEST__:PASS:
             "end": 189,
             "decorators": [],
             "name": "endsWithCarriageReturn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -201,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 229,
             "decorators": [],
             "name": "endsWithLineFeedCarriageReturn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -231,7 +238,8 @@ __ESTREE_TEST__:PASS:
             "end": 278,
             "decorators": [],
             "name": "endsWithLineFeedCarriageReturnLineFeed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -261,7 +269,8 @@ __ESTREE_TEST__:PASS:
             "end": 314,
             "decorators": [],
             "name": "stringLiteralWithLineFeed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -291,7 +300,8 @@ __ESTREE_TEST__:PASS:
             "end": 378,
             "decorators": [],
             "name": "stringLiteralWithCarriageReturnLineFeed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -321,7 +331,8 @@ __ESTREE_TEST__:PASS:
             "end": 434,
             "decorators": [],
             "name": "stringLiteralWithCarriageReturn",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -351,7 +362,8 @@ __ESTREE_TEST__:PASS:
             "end": 490,
             "decorators": [],
             "name": "stringLiteralWithLineSeparator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -381,7 +393,8 @@ __ESTREE_TEST__:PASS:
             "end": 550,
             "decorators": [],
             "name": "stringLiteralWithParagraphSeparator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -411,7 +424,8 @@ __ESTREE_TEST__:PASS:
             "end": 600,
             "decorators": [],
             "name": "stringLiteralWithNextLine",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",

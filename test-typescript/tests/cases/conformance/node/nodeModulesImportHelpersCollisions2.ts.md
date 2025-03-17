@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "fs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value",
       "source": {
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "fs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value",
       "source": {

@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 105,
                   "end": 137,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -87,13 +88,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 128,
                       "end": 136,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 128,
                         "end": 136,
                         "decorators": [],
                         "name": "Function",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -102,6 +105,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 146,
                   "end": 166,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Literal",
@@ -134,8 +138,10 @@ __ESTREE_TEST__:PASS:
               "end": 94,
               "decorators": [],
               "name": "Attributes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -170,7 +176,8 @@ __ESTREE_TEST__:PASS:
               "end": 192,
               "decorators": [],
               "name": "tag",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "JSXElement",
@@ -219,7 +226,8 @@ __ESTREE_TEST__:PASS:
                   "end": 199,
                   "name": "div"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           }

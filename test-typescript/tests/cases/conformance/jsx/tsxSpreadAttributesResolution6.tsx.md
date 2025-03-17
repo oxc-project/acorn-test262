@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "TextProps",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -58,6 +60,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 53,
                 "end": 68,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -65,7 +68,8 @@ __ESTREE_TEST__:PASS:
                   "end": 61,
                   "decorators": [],
                   "name": "editable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -99,6 +103,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 90,
                 "end": 105,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -106,7 +111,8 @@ __ESTREE_TEST__:PASS:
                   "end": 98,
                   "decorators": [],
                   "name": "editable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -133,6 +139,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 106,
                 "end": 139,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -140,7 +147,8 @@ __ESTREE_TEST__:PASS:
                   "end": 112,
                   "decorators": [],
                   "name": "onEdit",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -182,14 +190,16 @@ __ESTREE_TEST__:PASS:
                         "start": 135,
                         "end": 139
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -205,6 +215,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 209,
             "end": 266,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
               "end": 215,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -268,7 +280,8 @@ __ESTREE_TEST__:PASS:
                           "end": 240,
                           "name": "span"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -278,7 +291,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -291,7 +306,8 @@ __ESTREE_TEST__:PASS:
         "end": 163,
         "decorators": [],
         "name": "TextComponent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -305,7 +321,8 @@ __ESTREE_TEST__:PASS:
           "end": 177,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -314,7 +331,8 @@ __ESTREE_TEST__:PASS:
           "end": 187,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -326,13 +344,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 188,
             "end": 197,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 188,
               "end": 197,
               "decorators": [],
               "name": "TextProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -342,7 +362,8 @@ __ESTREE_TEST__:PASS:
             "members": []
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -360,7 +381,8 @@ __ESTREE_TEST__:PASS:
             "end": 284,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -403,7 +425,8 @@ __ESTREE_TEST__:PASS:
                 "end": 301,
                 "name": "TextComponent"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -436,13 +459,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 339,
                 "end": 348,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 339,
                   "end": 348,
                   "decorators": [],
                   "name": "TextProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -463,7 +488,8 @@ __ESTREE_TEST__:PASS:
                   "end": 365,
                   "decorators": [],
                   "name": "editable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,

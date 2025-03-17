@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "basics",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -56,7 +57,8 @@ __ESTREE_TEST__:PASS:
                 "end": 120,
                 "decorators": [],
                 "name": "TimeUnit",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "importKind": "value",
               "moduleReference": {
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                   "end": 129,
                   "decorators": [],
                   "name": "basics",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -77,7 +80,8 @@ __ESTREE_TEST__:PASS:
                   "end": 138,
                   "decorators": [],
                   "name": "TimeUnit",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -132,7 +136,8 @@ __ESTREE_TEST__:PASS:
                       "end": 229,
                       "decorators": [],
                       "name": "Second",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -153,7 +158,8 @@ __ESTREE_TEST__:PASS:
                       "end": 249,
                       "decorators": [],
                       "name": "Minute",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -174,7 +180,8 @@ __ESTREE_TEST__:PASS:
                       "end": 267,
                       "decorators": [],
                       "name": "Hour",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -195,7 +202,8 @@ __ESTREE_TEST__:PASS:
                       "end": 284,
                       "decorators": [],
                       "name": "Day",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -216,7 +224,8 @@ __ESTREE_TEST__:PASS:
                       "end": 302,
                       "decorators": [],
                       "name": "Week",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -237,7 +246,8 @@ __ESTREE_TEST__:PASS:
                       "end": 321,
                       "decorators": [],
                       "name": "Month",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -258,7 +268,8 @@ __ESTREE_TEST__:PASS:
                       "end": 339,
                       "decorators": [],
                       "name": "Year",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "initializer": {
                       "type": "Literal",
@@ -278,7 +289,8 @@ __ESTREE_TEST__:PASS:
                 "end": 212,
                 "decorators": [],
                 "name": "TimeUnit",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "exportKind": "value",

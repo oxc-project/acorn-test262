@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -45,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -58,8 +62,10 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "C",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -70,6 +76,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 44,
       "end": 52,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 44,
@@ -81,8 +88,10 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "x",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

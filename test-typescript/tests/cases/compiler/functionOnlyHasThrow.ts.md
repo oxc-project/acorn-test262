@@ -38,8 +38,10 @@ __ESTREE_TEST__:PASS:
                 "end": 42,
                 "decorators": [],
                 "name": "Error",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           }
         ]
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "clone",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -65,7 +68,8 @@ __ESTREE_TEST__:PASS:
           "start": 17,
           "end": 23
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

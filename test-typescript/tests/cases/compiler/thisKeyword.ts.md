@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 17,
             "end": 30,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 17,
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
                   "end": 25,
                   "decorators": [],
                   "name": "bar",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -62,7 +64,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

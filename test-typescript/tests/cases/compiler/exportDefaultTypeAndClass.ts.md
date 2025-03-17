@@ -28,10 +28,13 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -46,14 +49,16 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 39,
         "end": 41,
         "members": []
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -65,7 +70,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }

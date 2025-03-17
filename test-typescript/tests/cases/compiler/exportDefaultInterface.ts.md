@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 29,
               "end": 43,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
                 "end": 34,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -55,8 +57,10 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "A",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -85,13 +89,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 54,
                 "end": 55,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 54,
                   "end": 55,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -106,6 +112,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 57,
       "end": 81,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 57,
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
               "end": 58,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "optional": false,
@@ -146,10 +155,12 @@ __ESTREE_TEST__:PASS:
             "end": 78,
             "decorators": [],
             "name": "toExponential",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],
@@ -188,7 +199,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -218,13 +230,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 29,
                 "end": 30,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 29,
                   "end": 30,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -239,6 +253,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 32,
       "end": 56,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 32,
@@ -260,7 +275,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -269,7 +285,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "optional": false,
@@ -279,10 +296,12 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "toExponential",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 31,
                 "end": 39,
+                "directive": null,
                 "expression": {
                   "type": "AwaitExpression",
                   "start": 31,
@@ -41,6 +42,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 48,
                 "end": 56,
+                "directive": null,
                 "expression": {
                   "type": "YieldExpression",
                   "start": 48,
@@ -79,10 +81,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -113,6 +118,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 150,
                       "end": 158,
+                      "directive": null,
                       "expression": {
                         "type": "AwaitExpression",
                         "start": 150,
@@ -140,6 +146,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 211,
                             "end": 219,
+                            "directive": null,
                             "expression": {
                               "type": "AwaitExpression",
                               "start": 211,
@@ -164,9 +171,12 @@ __ESTREE_TEST__:PASS:
                         "end": 189,
                         "decorators": [],
                         "name": "ff",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -180,10 +190,13 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -196,9 +209,12 @@ __ESTREE_TEST__:PASS:
         "end": 101,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -229,6 +245,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 315,
                       "end": 323,
+                      "directive": null,
                       "expression": {
                         "type": "YieldExpression",
                         "start": 315,
@@ -257,6 +274,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 372,
                             "end": 380,
+                            "directive": null,
                             "expression": {
                               "type": "YieldExpression",
                               "start": 372,
@@ -282,9 +300,12 @@ __ESTREE_TEST__:PASS:
                         "end": 350,
                         "decorators": [],
                         "name": "ff",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -298,10 +319,13 @@ __ESTREE_TEST__:PASS:
               "end": 283,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -314,9 +338,12 @@ __ESTREE_TEST__:PASS:
         "end": 266,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -388,9 +415,12 @@ __ESTREE_TEST__:PASS:
                         "end": 508,
                         "decorators": [],
                         "name": "ff",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -404,10 +434,13 @@ __ESTREE_TEST__:PASS:
               "end": 442,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -420,9 +453,12 @@ __ESTREE_TEST__:PASS:
         "end": 425,
         "decorators": [],
         "name": "f3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

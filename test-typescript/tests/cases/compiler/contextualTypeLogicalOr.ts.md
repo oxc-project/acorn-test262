@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 27,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
             "end": 40,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -124,7 +126,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 48,
                                       "decorators": [],
                                       "name": "x",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "right": {
                                       "type": "ArrayExpression",
@@ -173,7 +176,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 73,
                                       "decorators": [],
                                       "name": "x",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "right": {
                                       "type": "ArrayExpression",
@@ -223,7 +227,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 98,
                                     "decorators": [],
                                     "name": "x",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "right": {
                                     "type": "ArrayExpression",
@@ -273,7 +278,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 123,
                                   "decorators": [],
                                   "name": "x",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "ArrayExpression",
@@ -323,7 +329,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 148,
                                 "decorators": [],
                                 "name": "x",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "ArrayExpression",
@@ -373,7 +380,8 @@ __ESTREE_TEST__:PASS:
                               "end": 173,
                               "decorators": [],
                               "name": "x",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "ArrayExpression",
@@ -423,7 +431,8 @@ __ESTREE_TEST__:PASS:
                             "end": 198,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "ArrayExpression",
@@ -473,7 +482,8 @@ __ESTREE_TEST__:PASS:
                           "end": 223,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "ArrayExpression",
@@ -523,7 +533,8 @@ __ESTREE_TEST__:PASS:
                         "end": 248,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "ArrayExpression",
@@ -573,7 +584,8 @@ __ESTREE_TEST__:PASS:
                       "end": 273,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ArrayExpression",
@@ -623,7 +635,8 @@ __ESTREE_TEST__:PASS:
                     "end": 298,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "ArrayExpression",
@@ -673,7 +686,8 @@ __ESTREE_TEST__:PASS:
                   "end": 323,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "ArrayExpression",
@@ -723,7 +737,8 @@ __ESTREE_TEST__:PASS:
                 "end": 348,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "ArrayExpression",

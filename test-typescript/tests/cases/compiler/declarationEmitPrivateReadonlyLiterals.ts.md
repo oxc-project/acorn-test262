@@ -30,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 41,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 44,
@@ -59,12 +61,14 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 74,
@@ -88,12 +92,14 @@ __ESTREE_TEST__:PASS:
               "end": 108,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 111,
@@ -117,12 +123,14 @@ __ESTREE_TEST__:PASS:
               "end": 137,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 140,
@@ -141,10 +149,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

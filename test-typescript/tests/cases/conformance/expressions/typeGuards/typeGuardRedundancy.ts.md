@@ -67,7 +67,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "r1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -84,7 +85,8 @@ __ESTREE_TEST__:PASS:
                 "end": 93,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                 "end": 101,
                 "decorators": [],
                 "name": "toFixed",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "consequent": {
@@ -107,7 +110,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -116,7 +120,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "substr",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "test": {
@@ -139,7 +144,8 @@ __ESTREE_TEST__:PASS:
                     "end": 40,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -167,7 +173,8 @@ __ESTREE_TEST__:PASS:
                     "end": 65,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -203,7 +210,8 @@ __ESTREE_TEST__:PASS:
             "end": 110,
             "decorators": [],
             "name": "r2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -220,7 +228,8 @@ __ESTREE_TEST__:PASS:
                 "end": 178,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -229,7 +238,8 @@ __ESTREE_TEST__:PASS:
                 "end": 185,
                 "decorators": [],
                 "name": "substr",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "consequent": {
@@ -243,7 +253,8 @@ __ESTREE_TEST__:PASS:
                 "end": 166,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -252,7 +263,8 @@ __ESTREE_TEST__:PASS:
                 "end": 174,
                 "decorators": [],
                 "name": "toFixed",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "test": {
@@ -279,7 +291,8 @@ __ESTREE_TEST__:PASS:
                       "end": 123,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "typeof",
                     "prefix": true
@@ -307,7 +320,8 @@ __ESTREE_TEST__:PASS:
                       "end": 148,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "typeof",
                     "prefix": true
@@ -346,7 +360,8 @@ __ESTREE_TEST__:PASS:
             "end": 194,
             "decorators": [],
             "name": "r3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -363,7 +378,8 @@ __ESTREE_TEST__:PASS:
                 "end": 258,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -372,7 +388,8 @@ __ESTREE_TEST__:PASS:
                 "end": 266,
                 "decorators": [],
                 "name": "toFixed",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "consequent": {
@@ -386,7 +403,8 @@ __ESTREE_TEST__:PASS:
                 "end": 247,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -395,7 +413,8 @@ __ESTREE_TEST__:PASS:
                 "end": 254,
                 "decorators": [],
                 "name": "substr",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "test": {
@@ -418,7 +437,8 @@ __ESTREE_TEST__:PASS:
                     "end": 205,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -446,7 +466,8 @@ __ESTREE_TEST__:PASS:
                     "end": 230,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -482,7 +503,8 @@ __ESTREE_TEST__:PASS:
             "end": 275,
             "decorators": [],
             "name": "r4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -499,7 +521,8 @@ __ESTREE_TEST__:PASS:
                 "end": 343,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -508,7 +531,8 @@ __ESTREE_TEST__:PASS:
                 "end": 350,
                 "decorators": [],
                 "name": "substr",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "consequent": {
@@ -522,7 +546,8 @@ __ESTREE_TEST__:PASS:
                 "end": 331,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -531,7 +556,8 @@ __ESTREE_TEST__:PASS:
                 "end": 339,
                 "decorators": [],
                 "name": "toFixed",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "test": {
@@ -558,7 +584,8 @@ __ESTREE_TEST__:PASS:
                       "end": 288,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "typeof",
                     "prefix": true
@@ -586,7 +613,8 @@ __ESTREE_TEST__:PASS:
                       "end": 313,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "typeof",
                     "prefix": true

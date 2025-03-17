@@ -14,6 +14,7 @@ __ESTREE_TEST__:PASS:
         "start": 15,
         "end": 50,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -23,7 +24,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "start": 44,
             "end": 50
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -67,6 +70,7 @@ __ESTREE_TEST__:PASS:
         "start": 66,
         "end": 101,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -76,7 +80,8 @@ __ESTREE_TEST__:PASS:
           "end": 78,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -107,7 +112,8 @@ __ESTREE_TEST__:PASS:
             "start": 95,
             "end": 101
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -148,7 +154,8 @@ __ESTREE_TEST__:PASS:
           "end": 129,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -203,7 +210,8 @@ __ESTREE_TEST__:PASS:
               }
             ]
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -226,10 +234,13 @@ __ESTREE_TEST__:PASS:
         "end": 205,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -241,7 +252,8 @@ __ESTREE_TEST__:PASS:
         "end": 227,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     },
@@ -267,8 +279,10 @@ __ESTREE_TEST__:PASS:
           "end": 256,
           "decorators": [],
           "name": "Bar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     }

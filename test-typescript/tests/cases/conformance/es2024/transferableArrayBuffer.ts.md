@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "buffer",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -42,8 +43,10 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "ArrayBuffer",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "buffer2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -84,7 +88,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "buffer",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -93,10 +98,12 @@ __ESTREE_TEST__:PASS:
                 "end": 66,
                 "decorators": [],
                 "name": "transfer",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -107,6 +114,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 71,
       "end": 87,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 71,
@@ -118,7 +126,8 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "decorators": [],
           "name": "buffer",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -127,7 +136,8 @@ __ESTREE_TEST__:PASS:
           "end": 86,
           "decorators": [],
           "name": "detached",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -135,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 88,
       "end": 105,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 88,
@@ -146,7 +157,8 @@ __ESTREE_TEST__:PASS:
           "end": 95,
           "decorators": [],
           "name": "buffer2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -155,7 +167,8 @@ __ESTREE_TEST__:PASS:
           "end": 104,
           "decorators": [],
           "name": "detached",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

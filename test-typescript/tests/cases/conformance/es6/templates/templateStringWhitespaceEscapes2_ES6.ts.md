@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 98,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 59,

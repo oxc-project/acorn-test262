@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "regexMatchList",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -53,6 +54,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 31,
       "end": 86,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
                   "end": 79,
                   "decorators": [],
                   "name": "match",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 {
                   "type": "Literal",
@@ -103,10 +106,12 @@ __ESTREE_TEST__:PASS:
                   "end": 73,
                   "decorators": [],
                   "name": "replace",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "expression": true,
             "generator": false,
@@ -118,9 +123,12 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "match",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -134,7 +142,8 @@ __ESTREE_TEST__:PASS:
             "end": 45,
             "decorators": [],
             "name": "regexMatchList",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -143,10 +152,12 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "forEach",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

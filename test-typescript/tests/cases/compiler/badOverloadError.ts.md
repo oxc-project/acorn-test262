@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 38,
                   "decorators": [],
                   "name": "dictionary",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "TSTypeAssertion",
@@ -52,6 +53,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 44,
                         "end": 68,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -104,9 +106,12 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "method",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 70,
                     "end": 102,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
                       "end": 79,
                       "decorators": [],
                       "name": "highlight",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -75,7 +77,8 @@ __ESTREE_TEST__:PASS:
                         "end": 101
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               },
@@ -87,8 +90,10 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "HighlightAPI",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -119,13 +124,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 121,
                       "end": 133,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 121,
                         "end": 133,
                         "decorators": [],
                         "name": "HighlightAPI",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -146,7 +153,8 @@ __ESTREE_TEST__:PASS:
               "end": 156,
               "decorators": [],
               "name": "hljs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "exportKind": "value"
           }
@@ -198,7 +206,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "hljs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -213,7 +222,8 @@ __ESTREE_TEST__:PASS:
         "end": 52,
         "decorators": [],
         "name": "hljs",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }
@@ -253,7 +263,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "hljs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -262,6 +273,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 42,
       "end": 65,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 42,
@@ -286,7 +298,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "hljs",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -295,10 +308,12 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "highlight",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

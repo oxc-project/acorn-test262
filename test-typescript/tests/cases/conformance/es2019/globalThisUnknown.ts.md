@@ -35,13 +35,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 17,
                     "end": 23,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 17,
                       "end": 23,
                       "decorators": [],
                       "name": "Window",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -54,8 +56,10 @@ __ESTREE_TEST__:PASS:
                       "end": 43,
                       "decorators": [],
                       "name": "globalThis",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
@@ -71,6 +75,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 80,
       "end": 86,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 80,
@@ -82,7 +87,8 @@ __ESTREE_TEST__:PASS:
           "end": 83,
           "decorators": [],
           "name": "win",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -91,7 +97,8 @@ __ESTREE_TEST__:PASS:
           "end": 86,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -99,6 +106,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 130,
       "end": 137,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 130,
@@ -116,7 +124,8 @@ __ESTREE_TEST__:PASS:
           "end": 137,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -124,6 +133,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 138,
       "end": 151,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 138,
@@ -135,7 +145,8 @@ __ESTREE_TEST__:PASS:
           "end": 148,
           "decorators": [],
           "name": "globalThis",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -144,7 +155,8 @@ __ESTREE_TEST__:PASS:
           "end": 151,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 206,
       "end": 215,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 206,
@@ -163,7 +176,8 @@ __ESTREE_TEST__:PASS:
           "end": 209,
           "decorators": [],
           "name": "win",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -179,6 +193,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 216,
       "end": 226,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 216,
@@ -203,6 +218,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 227,
       "end": 243,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 227,
@@ -214,7 +230,8 @@ __ESTREE_TEST__:PASS:
           "end": 237,
           "decorators": [],
           "name": "globalThis",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

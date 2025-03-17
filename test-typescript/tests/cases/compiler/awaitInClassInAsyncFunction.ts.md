@@ -38,9 +38,12 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -75,6 +78,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 151,
                       "end": 169,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -85,12 +89,14 @@ __ESTREE_TEST__:PASS:
                         "end": 154,
                         "decorators": [],
                         "name": "baz",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
                       "readonly": false,
                       "static": false,
+                      "typeAnnotation": null,
                       "value": {
                         "type": "AwaitExpression",
                         "start": 157,
@@ -106,9 +112,11 @@ __ESTREE_TEST__:PASS:
                             "end": 166,
                             "decorators": [],
                             "name": "bar",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       }
                     }
@@ -118,8 +126,11 @@ __ESTREE_TEST__:PASS:
                 "decorators": [],
                 "id": null,
                 "implements": [],
-                "superClass": null
-              }
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
+              },
+              "typeArguments": null
             }
           }
         ]
@@ -133,9 +144,12 @@ __ESTREE_TEST__:PASS:
         "end": 115,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

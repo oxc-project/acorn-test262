@@ -25,8 +25,10 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "interface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -38,7 +40,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

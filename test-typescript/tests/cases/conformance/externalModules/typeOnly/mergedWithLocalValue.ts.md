@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
             "raw": "\"a\"",
             "value": "a"
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -76,7 +78,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -85,7 +88,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -115,13 +119,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 39,
                 "end": 40,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 39,
                   "end": 40,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -142,6 +148,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 48,
       "end": 64,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 48,
@@ -158,7 +165,8 @@ __ESTREE_TEST__:PASS:
             "end": 49,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -167,10 +175,12 @@ __ESTREE_TEST__:PASS:
             "end": 61,
             "decorators": [],
             "name": "toUpperCase",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

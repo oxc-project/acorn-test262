@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 22,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "e",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "expression": true,
           "generator": false,
@@ -36,9 +38,12 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
@@ -51,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "expression": true,
           "generator": false,
@@ -63,9 +69,12 @@ __ESTREE_TEST__:PASS:
               "end": 6,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         },
         "test": {
           "type": "Identifier",
@@ -73,7 +82,8 @@ __ESTREE_TEST__:PASS:
           "end": 1,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

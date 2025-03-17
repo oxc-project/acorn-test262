@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 80,
                   "end": 108,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -83,6 +86,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 95,
                           "end": 105,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
                             "end": 96,
                             "decorators": [],
                             "name": "n",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -120,8 +125,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -133,7 +140,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -141,6 +149,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 121,
       "end": 135,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 121,
@@ -177,7 +186,8 @@ __ESTREE_TEST__:PASS:
             "end": 125,
             "name": "div"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -185,6 +195,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 146,
       "end": 163,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 146,
@@ -221,7 +232,8 @@ __ESTREE_TEST__:PASS:
             "end": 151,
             "name": "span"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

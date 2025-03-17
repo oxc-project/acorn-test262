@@ -44,8 +44,10 @@ __ESTREE_TEST__:PASS:
                         "end": 79,
                         "decorators": [],
                         "name": "Some",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "initializer": null
                     },
                     {
                       "type": "TSEnumMember",
@@ -58,8 +60,10 @@ __ESTREE_TEST__:PASS:
                         "end": 91,
                         "decorators": [],
                         "name": "Values",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "initializer": null
                     },
                     {
                       "type": "TSEnumMember",
@@ -72,8 +76,10 @@ __ESTREE_TEST__:PASS:
                         "end": 101,
                         "decorators": [],
                         "name": "Here",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "initializer": null
                     }
                   ]
                 },
@@ -85,7 +91,8 @@ __ESTREE_TEST__:PASS:
                   "end": 68,
                   "decorators": [],
                   "name": "ConstFooEnum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "exportKind": "value",
@@ -102,7 +109,8 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "ConstEnumOnlyModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -146,7 +154,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -166,7 +175,8 @@ __ESTREE_TEST__:PASS:
           "end": 42,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -175,7 +185,8 @@ __ESTREE_TEST__:PASS:
           "end": 62,
           "decorators": [],
           "name": "ConstEnumOnlyModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -201,7 +212,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -260,7 +272,8 @@ __ESTREE_TEST__:PASS:
                       "end": 107,
                       "decorators": [],
                       "name": "Foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -269,7 +282,8 @@ __ESTREE_TEST__:PASS:
                       "end": 120,
                       "decorators": [],
                       "name": "ConstFooEnum",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -279,7 +293,8 @@ __ESTREE_TEST__:PASS:
                     "end": 125,
                     "decorators": [],
                     "name": "Some",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -290,7 +305,8 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -304,7 +320,8 @@ __ESTREE_TEST__:PASS:
         "end": 50,
         "decorators": [],
         "name": "check",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -322,6 +339,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 54,
               "end": 70,
+              "typeArguments": null,
               "typeName": {
                 "type": "TSQualifiedName",
                 "start": 54,
@@ -332,7 +350,8 @@ __ESTREE_TEST__:PASS:
                   "end": 57,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -340,7 +359,8 @@ __ESTREE_TEST__:PASS:
                   "end": 70,
                   "decorators": [],
                   "name": "ConstFooEnum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -356,7 +376,8 @@ __ESTREE_TEST__:PASS:
           "start": 73,
           "end": 77
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

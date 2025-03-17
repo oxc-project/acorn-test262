@@ -9,26 +9,30 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 63,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 56,
         "end": 62,
         "decorators": [],
         "name": "MODULE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 73,
       "end": 80,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 73,
         "end": 79,
         "decorators": [],
         "name": "SCRIPT",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -51,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 121,
               "decorators": [],
               "name": "SCRIPT",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -65,9 +70,12 @@ __ESTREE_TEST__:PASS:
         "end": 99,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

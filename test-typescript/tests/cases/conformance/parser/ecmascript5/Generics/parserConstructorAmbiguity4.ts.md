@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 18,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -27,7 +29,8 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "B",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "BinaryExpression",
@@ -45,8 +48,10 @@ __ESTREE_TEST__:PASS:
               "end": 8,
               "decorators": [],
               "name": "Date",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           "right": {
             "type": "Identifier",
@@ -54,7 +59,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

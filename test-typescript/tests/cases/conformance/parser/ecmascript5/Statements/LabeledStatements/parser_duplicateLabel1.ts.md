@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "target",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "label": {
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "target",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 16,
               "decorators": [],
               "name": "FOO",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -63,6 +64,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 50,
               "end": 70,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -73,19 +75,22 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "type",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": true,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Identifier",
                 "start": 66,
                 "end": 69,
                 "decorators": [],
                 "name": "FOO",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -98,10 +103,13 @@ __ESTREE_TEST__:PASS:
           "end": 43,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

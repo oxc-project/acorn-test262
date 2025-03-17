@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "raw": "'fo\"o'",
               "value": "fo\"o"
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -37,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

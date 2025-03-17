@@ -66,7 +66,8 @@ __ESTREE_TEST__:PASS:
                         "end": 65,
                         "decorators": [],
                         "name": "createB",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "params": [],
                       "returnType": {
@@ -78,7 +79,8 @@ __ESTREE_TEST__:PASS:
                           "start": 69,
                           "end": 75
                         }
-                      }
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -115,6 +118,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 146,
                   "end": 159,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -122,7 +126,8 @@ __ESTREE_TEST__:PASS:
                     "end": 150,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -142,6 +147,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 168,
                   "end": 182,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -149,7 +155,8 @@ __ESTREE_TEST__:PASS:
                     "end": 173,
                     "decorators": [],
                     "name": "value",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -175,8 +182,10 @@ __ESTREE_TEST__:PASS:
               "end": 135,
               "decorators": [],
               "name": "B",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -188,7 +197,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -241,7 +251,8 @@ __ESTREE_TEST__:PASS:
                   "end": 210,
                   "decorators": [],
                   "name": "A",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -250,7 +261,8 @@ __ESTREE_TEST__:PASS:
                   "end": 212,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -260,10 +272,12 @@ __ESTREE_TEST__:PASS:
                 "end": 220,
                 "decorators": [],
                 "name": "createB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

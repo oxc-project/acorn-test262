@@ -24,22 +24,27 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 21,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 21,
         "end": 29,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -61,22 +66,27 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 50,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 42,
         "end": 50,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -98,15 +108,19 @@ __ESTREE_TEST__:PASS:
         "end": 59,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 70,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 64,
@@ -118,14 +132,17 @@ __ESTREE_TEST__:PASS:
           "end": 69,
           "decorators": [],
           "name": "A",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 71,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 71,
@@ -137,14 +154,17 @@ __ESTREE_TEST__:PASS:
           "end": 76,
           "decorators": [],
           "name": "B",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 78,
       "end": 84,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 78,
@@ -156,8 +176,10 @@ __ESTREE_TEST__:PASS:
           "end": 83,
           "decorators": [],
           "name": "C",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

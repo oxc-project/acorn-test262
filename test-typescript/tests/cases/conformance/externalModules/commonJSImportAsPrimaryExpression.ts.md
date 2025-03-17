@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 19,
               "end": 27,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,12 +35,14 @@ __ESTREE_TEST__:PASS:
                 "end": 21,
                 "decorators": [],
                 "name": "m1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 24,
@@ -52,6 +55,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 29,
               "end": 46,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -62,12 +66,14 @@ __ESTREE_TEST__:PASS:
                 "end": 38,
                 "decorators": [],
                 "name": "s1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 41,
@@ -86,10 +92,13 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "C1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -117,7 +126,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -160,7 +170,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -169,7 +180,8 @@ __ESTREE_TEST__:PASS:
             "end": 42,
             "decorators": [],
             "name": "C1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "optional": false,
@@ -179,7 +191,8 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "s1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

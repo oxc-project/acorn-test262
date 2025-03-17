@@ -21,14 +21,16 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
           "start": 16,
           "end": 18,
           "members": []
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -45,14 +47,16 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 28,
         "end": 30,
         "members": []
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

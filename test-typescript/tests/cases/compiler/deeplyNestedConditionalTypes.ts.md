@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -26,13 +27,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 18,
           "end": 19,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 18,
             "end": 19,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -55,13 +58,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 42,
             "end": 43,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 42,
               "end": 43,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           "extendsType": {
@@ -84,13 +89,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 66,
               "end": 67,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 66,
                 "end": 67,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "extendsType": {
@@ -113,13 +120,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 90,
                 "end": 91,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 90,
                   "end": 91,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "extendsType": {
@@ -142,13 +151,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 114,
                   "end": 115,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 114,
                     "end": 115,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "extendsType": {
@@ -171,13 +182,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 138,
                     "end": 139,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 138,
                       "end": 139,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "extendsType": {
@@ -200,13 +213,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 162,
                       "end": 163,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 162,
                         "end": 163,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "extendsType": {
@@ -229,13 +244,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 186,
                         "end": 187,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 186,
                           "end": 187,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "extendsType": {
@@ -258,13 +275,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 210,
                           "end": 211,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 210,
                             "end": 211,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "extendsType": {
@@ -287,13 +306,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 234,
                             "end": 235,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 234,
                               "end": 235,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "extendsType": {
@@ -316,13 +337,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 258,
                               "end": 259,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 258,
                                 "end": 259,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "extendsType": {
@@ -345,13 +368,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 284,
                                 "end": 285,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 284,
                                   "end": 285,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "extendsType": {
@@ -374,13 +399,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 310,
                                   "end": 311,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 310,
                                     "end": 311,
                                     "decorators": [],
                                     "name": "T",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "extendsType": {
@@ -403,13 +430,15 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSTypeReference",
                                     "start": 336,
                                     "end": 337,
+                                    "typeArguments": null,
                                     "typeName": {
                                       "type": "Identifier",
                                       "start": 336,
                                       "end": 337,
                                       "decorators": [],
                                       "name": "T",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "extendsType": {
@@ -432,13 +461,15 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSTypeReference",
                                       "start": 362,
                                       "end": 363,
+                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 362,
                                         "end": 363,
                                         "decorators": [],
                                         "name": "T",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
                                     "extendsType": {
@@ -461,13 +492,15 @@ __ESTREE_TEST__:PASS:
                                         "type": "TSTypeReference",
                                         "start": 388,
                                         "end": 389,
+                                        "typeArguments": null,
                                         "typeName": {
                                           "type": "Identifier",
                                           "start": 388,
                                           "end": 389,
                                           "decorators": [],
                                           "name": "T",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       },
                                       "extendsType": {
@@ -490,13 +523,15 @@ __ESTREE_TEST__:PASS:
                                           "type": "TSTypeReference",
                                           "start": 414,
                                           "end": 415,
+                                          "typeArguments": null,
                                           "typeName": {
                                             "type": "Identifier",
                                             "start": 414,
                                             "end": 415,
                                             "decorators": [],
                                             "name": "T",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         },
                                         "extendsType": {
@@ -519,13 +554,15 @@ __ESTREE_TEST__:PASS:
                                             "type": "TSTypeReference",
                                             "start": 440,
                                             "end": 441,
+                                            "typeArguments": null,
                                             "typeName": {
                                               "type": "Identifier",
                                               "start": 440,
                                               "end": 441,
                                               "decorators": [],
                                               "name": "T",
-                                              "optional": false
+                                              "optional": false,
+                                              "typeAnnotation": null
                                             }
                                           },
                                           "extendsType": {
@@ -548,13 +585,15 @@ __ESTREE_TEST__:PASS:
                                               "type": "TSTypeReference",
                                               "start": 466,
                                               "end": 467,
+                                              "typeArguments": null,
                                               "typeName": {
                                                 "type": "Identifier",
                                                 "start": 466,
                                                 "end": 467,
                                                 "decorators": [],
                                                 "name": "T",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               }
                                             },
                                             "extendsType": {
@@ -577,13 +616,15 @@ __ESTREE_TEST__:PASS:
                                                 "type": "TSTypeReference",
                                                 "start": 492,
                                                 "end": 493,
+                                                "typeArguments": null,
                                                 "typeName": {
                                                   "type": "Identifier",
                                                   "start": 492,
                                                   "end": 493,
                                                   "decorators": [],
                                                   "name": "T",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 }
                                               },
                                               "extendsType": {
@@ -606,13 +647,15 @@ __ESTREE_TEST__:PASS:
                                                   "type": "TSTypeReference",
                                                   "start": 518,
                                                   "end": 519,
+                                                  "typeArguments": null,
                                                   "typeName": {
                                                     "type": "Identifier",
                                                     "start": 518,
                                                     "end": 519,
                                                     "decorators": [],
                                                     "name": "T",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
                                                 "extendsType": {
@@ -635,13 +678,15 @@ __ESTREE_TEST__:PASS:
                                                     "type": "TSTypeReference",
                                                     "start": 544,
                                                     "end": 545,
+                                                    "typeArguments": null,
                                                     "typeName": {
                                                       "type": "Identifier",
                                                       "start": 544,
                                                       "end": 545,
                                                       "decorators": [],
                                                       "name": "T",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     }
                                                   },
                                                   "extendsType": {
@@ -664,13 +709,15 @@ __ESTREE_TEST__:PASS:
                                                       "type": "TSTypeReference",
                                                       "start": 570,
                                                       "end": 571,
+                                                      "typeArguments": null,
                                                       "typeName": {
                                                         "type": "Identifier",
                                                         "start": 570,
                                                         "end": 571,
                                                         "decorators": [],
                                                         "name": "T",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
                                                     "extendsType": {
@@ -693,13 +740,15 @@ __ESTREE_TEST__:PASS:
                                                         "type": "TSTypeReference",
                                                         "start": 596,
                                                         "end": 597,
+                                                        "typeArguments": null,
                                                         "typeName": {
                                                           "type": "Identifier",
                                                           "start": 596,
                                                           "end": 597,
                                                           "decorators": [],
                                                           "name": "T",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       },
                                                       "extendsType": {
@@ -722,13 +771,15 @@ __ESTREE_TEST__:PASS:
                                                           "type": "TSTypeReference",
                                                           "start": 622,
                                                           "end": 623,
+                                                          "typeArguments": null,
                                                           "typeName": {
                                                             "type": "Identifier",
                                                             "start": 622,
                                                             "end": 623,
                                                             "decorators": [],
                                                             "name": "T",
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeAnnotation": null
                                                           }
                                                         },
                                                         "extendsType": {
@@ -751,13 +802,15 @@ __ESTREE_TEST__:PASS:
                                                             "type": "TSTypeReference",
                                                             "start": 648,
                                                             "end": 649,
+                                                            "typeArguments": null,
                                                             "typeName": {
                                                               "type": "Identifier",
                                                               "start": 648,
                                                               "end": 649,
                                                               "decorators": [],
                                                               "name": "T",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "typeAnnotation": null
                                                             }
                                                           },
                                                           "extendsType": {
@@ -780,13 +833,15 @@ __ESTREE_TEST__:PASS:
                                                               "type": "TSTypeReference",
                                                               "start": 674,
                                                               "end": 675,
+                                                              "typeArguments": null,
                                                               "typeName": {
                                                                 "type": "Identifier",
                                                                 "start": 674,
                                                                 "end": 675,
                                                                 "decorators": [],
                                                                 "name": "T",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
                                                             "extendsType": {
@@ -809,13 +864,15 @@ __ESTREE_TEST__:PASS:
                                                                 "type": "TSTypeReference",
                                                                 "start": 700,
                                                                 "end": 701,
+                                                                "typeArguments": null,
                                                                 "typeName": {
                                                                   "type": "Identifier",
                                                                   "start": 700,
                                                                   "end": 701,
                                                                   "decorators": [],
                                                                   "name": "T",
-                                                                  "optional": false
+                                                                  "optional": false,
+                                                                  "typeAnnotation": null
                                                                 }
                                                               },
                                                               "extendsType": {
@@ -838,13 +895,15 @@ __ESTREE_TEST__:PASS:
                                                                   "type": "TSTypeReference",
                                                                   "start": 726,
                                                                   "end": 727,
+                                                                  "typeArguments": null,
                                                                   "typeName": {
                                                                     "type": "Identifier",
                                                                     "start": 726,
                                                                     "end": 727,
                                                                     "decorators": [],
                                                                     "name": "T",
-                                                                    "optional": false
+                                                                    "optional": false,
+                                                                    "typeAnnotation": null
                                                                   }
                                                                 },
                                                                 "extendsType": {
@@ -867,13 +926,15 @@ __ESTREE_TEST__:PASS:
                                                                     "type": "TSTypeReference",
                                                                     "start": 752,
                                                                     "end": 753,
+                                                                    "typeArguments": null,
                                                                     "typeName": {
                                                                       "type": "Identifier",
                                                                       "start": 752,
                                                                       "end": 753,
                                                                       "decorators": [],
                                                                       "name": "T",
-                                                                      "optional": false
+                                                                      "optional": false,
+                                                                      "typeAnnotation": null
                                                                     }
                                                                   },
                                                                   "extendsType": {
@@ -896,13 +957,15 @@ __ESTREE_TEST__:PASS:
                                                                       "type": "TSTypeReference",
                                                                       "start": 778,
                                                                       "end": 779,
+                                                                      "typeArguments": null,
                                                                       "typeName": {
                                                                         "type": "Identifier",
                                                                         "start": 778,
                                                                         "end": 779,
                                                                         "decorators": [],
                                                                         "name": "T",
-                                                                        "optional": false
+                                                                        "optional": false,
+                                                                        "typeAnnotation": null
                                                                       }
                                                                     },
                                                                     "extendsType": {
@@ -925,13 +988,15 @@ __ESTREE_TEST__:PASS:
                                                                         "type": "TSTypeReference",
                                                                         "start": 804,
                                                                         "end": 805,
+                                                                        "typeArguments": null,
                                                                         "typeName": {
                                                                           "type": "Identifier",
                                                                           "start": 804,
                                                                           "end": 805,
                                                                           "decorators": [],
                                                                           "name": "T",
-                                                                          "optional": false
+                                                                          "optional": false,
+                                                                          "typeAnnotation": null
                                                                         }
                                                                       },
                                                                       "extendsType": {
@@ -954,13 +1019,15 @@ __ESTREE_TEST__:PASS:
                                                                           "type": "TSTypeReference",
                                                                           "start": 830,
                                                                           "end": 831,
+                                                                          "typeArguments": null,
                                                                           "typeName": {
                                                                             "type": "Identifier",
                                                                             "start": 830,
                                                                             "end": 831,
                                                                             "decorators": [],
                                                                             "name": "T",
-                                                                            "optional": false
+                                                                            "optional": false,
+                                                                            "typeAnnotation": null
                                                                           }
                                                                         },
                                                                         "extendsType": {
@@ -983,13 +1050,15 @@ __ESTREE_TEST__:PASS:
                                                                             "type": "TSTypeReference",
                                                                             "start": 856,
                                                                             "end": 857,
+                                                                            "typeArguments": null,
                                                                             "typeName": {
                                                                               "type": "Identifier",
                                                                               "start": 856,
                                                                               "end": 857,
                                                                               "decorators": [],
                                                                               "name": "T",
-                                                                              "optional": false
+                                                                              "optional": false,
+                                                                              "typeAnnotation": null
                                                                             }
                                                                           },
                                                                           "extendsType": {
@@ -1012,13 +1081,15 @@ __ESTREE_TEST__:PASS:
                                                                               "type": "TSTypeReference",
                                                                               "start": 882,
                                                                               "end": 883,
+                                                                              "typeArguments": null,
                                                                               "typeName": {
                                                                                 "type": "Identifier",
                                                                                 "start": 882,
                                                                                 "end": 883,
                                                                                 "decorators": [],
                                                                                 "name": "T",
-                                                                                "optional": false
+                                                                                "optional": false,
+                                                                                "typeAnnotation": null
                                                                               }
                                                                             },
                                                                             "extendsType": {
@@ -1041,13 +1112,15 @@ __ESTREE_TEST__:PASS:
                                                                                 "type": "TSTypeReference",
                                                                                 "start": 908,
                                                                                 "end": 909,
+                                                                                "typeArguments": null,
                                                                                 "typeName": {
                                                                                   "type": "Identifier",
                                                                                   "start": 908,
                                                                                   "end": 909,
                                                                                   "decorators": [],
                                                                                   "name": "T",
-                                                                                  "optional": false
+                                                                                  "optional": false,
+                                                                                  "typeAnnotation": null
                                                                                 }
                                                                               },
                                                                               "extendsType": {
@@ -1070,13 +1143,15 @@ __ESTREE_TEST__:PASS:
                                                                                   "type": "TSTypeReference",
                                                                                   "start": 934,
                                                                                   "end": 935,
+                                                                                  "typeArguments": null,
                                                                                   "typeName": {
                                                                                     "type": "Identifier",
                                                                                     "start": 934,
                                                                                     "end": 935,
                                                                                     "decorators": [],
                                                                                     "name": "T",
-                                                                                    "optional": false
+                                                                                    "optional": false,
+                                                                                    "typeAnnotation": null
                                                                                   }
                                                                                 },
                                                                                 "extendsType": {
@@ -1099,13 +1174,15 @@ __ESTREE_TEST__:PASS:
                                                                                     "type": "TSTypeReference",
                                                                                     "start": 960,
                                                                                     "end": 961,
+                                                                                    "typeArguments": null,
                                                                                     "typeName": {
                                                                                       "type": "Identifier",
                                                                                       "start": 960,
                                                                                       "end": 961,
                                                                                       "decorators": [],
                                                                                       "name": "T",
-                                                                                      "optional": false
+                                                                                      "optional": false,
+                                                                                      "typeAnnotation": null
                                                                                     }
                                                                                   },
                                                                                   "extendsType": {
@@ -1128,13 +1205,15 @@ __ESTREE_TEST__:PASS:
                                                                                       "type": "TSTypeReference",
                                                                                       "start": 986,
                                                                                       "end": 987,
+                                                                                      "typeArguments": null,
                                                                                       "typeName": {
                                                                                         "type": "Identifier",
                                                                                         "start": 986,
                                                                                         "end": 987,
                                                                                         "decorators": [],
                                                                                         "name": "T",
-                                                                                        "optional": false
+                                                                                        "optional": false,
+                                                                                        "typeAnnotation": null
                                                                                       }
                                                                                     },
                                                                                     "extendsType": {
@@ -1157,13 +1236,15 @@ __ESTREE_TEST__:PASS:
                                                                                         "type": "TSTypeReference",
                                                                                         "start": 1012,
                                                                                         "end": 1013,
+                                                                                        "typeArguments": null,
                                                                                         "typeName": {
                                                                                           "type": "Identifier",
                                                                                           "start": 1012,
                                                                                           "end": 1013,
                                                                                           "decorators": [],
                                                                                           "name": "T",
-                                                                                          "optional": false
+                                                                                          "optional": false,
+                                                                                          "typeAnnotation": null
                                                                                         }
                                                                                       },
                                                                                       "extendsType": {
@@ -1186,13 +1267,15 @@ __ESTREE_TEST__:PASS:
                                                                                           "type": "TSTypeReference",
                                                                                           "start": 1038,
                                                                                           "end": 1039,
+                                                                                          "typeArguments": null,
                                                                                           "typeName": {
                                                                                             "type": "Identifier",
                                                                                             "start": 1038,
                                                                                             "end": 1039,
                                                                                             "decorators": [],
                                                                                             "name": "T",
-                                                                                            "optional": false
+                                                                                            "optional": false,
+                                                                                            "typeAnnotation": null
                                                                                           }
                                                                                         },
                                                                                         "extendsType": {
@@ -1215,13 +1298,15 @@ __ESTREE_TEST__:PASS:
                                                                                             "type": "TSTypeReference",
                                                                                             "start": 1064,
                                                                                             "end": 1065,
+                                                                                            "typeArguments": null,
                                                                                             "typeName": {
                                                                                               "type": "Identifier",
                                                                                               "start": 1064,
                                                                                               "end": 1065,
                                                                                               "decorators": [],
                                                                                               "name": "T",
-                                                                                              "optional": false
+                                                                                              "optional": false,
+                                                                                              "typeAnnotation": null
                                                                                             }
                                                                                           },
                                                                                           "extendsType": {
@@ -1244,13 +1329,15 @@ __ESTREE_TEST__:PASS:
                                                                                               "type": "TSTypeReference",
                                                                                               "start": 1090,
                                                                                               "end": 1091,
+                                                                                              "typeArguments": null,
                                                                                               "typeName": {
                                                                                                 "type": "Identifier",
                                                                                                 "start": 1090,
                                                                                                 "end": 1091,
                                                                                                 "decorators": [],
                                                                                                 "name": "T",
-                                                                                                "optional": false
+                                                                                                "optional": false,
+                                                                                                "typeAnnotation": null
                                                                                               }
                                                                                             },
                                                                                             "extendsType": {
@@ -1273,13 +1360,15 @@ __ESTREE_TEST__:PASS:
                                                                                                 "type": "TSTypeReference",
                                                                                                 "start": 1116,
                                                                                                 "end": 1117,
+                                                                                                "typeArguments": null,
                                                                                                 "typeName": {
                                                                                                   "type": "Identifier",
                                                                                                   "start": 1116,
                                                                                                   "end": 1117,
                                                                                                   "decorators": [],
                                                                                                   "name": "T",
-                                                                                                  "optional": false
+                                                                                                  "optional": false,
+                                                                                                  "typeAnnotation": null
                                                                                                 }
                                                                                               },
                                                                                               "extendsType": {
@@ -1302,13 +1391,15 @@ __ESTREE_TEST__:PASS:
                                                                                                   "type": "TSTypeReference",
                                                                                                   "start": 1142,
                                                                                                   "end": 1143,
+                                                                                                  "typeArguments": null,
                                                                                                   "typeName": {
                                                                                                     "type": "Identifier",
                                                                                                     "start": 1142,
                                                                                                     "end": 1143,
                                                                                                     "decorators": [],
                                                                                                     "name": "T",
-                                                                                                    "optional": false
+                                                                                                    "optional": false,
+                                                                                                    "typeAnnotation": null
                                                                                                   }
                                                                                                 },
                                                                                                 "extendsType": {
@@ -1331,13 +1422,15 @@ __ESTREE_TEST__:PASS:
                                                                                                     "type": "TSTypeReference",
                                                                                                     "start": 1168,
                                                                                                     "end": 1169,
+                                                                                                    "typeArguments": null,
                                                                                                     "typeName": {
                                                                                                       "type": "Identifier",
                                                                                                       "start": 1168,
                                                                                                       "end": 1169,
                                                                                                       "decorators": [],
                                                                                                       "name": "T",
-                                                                                                      "optional": false
+                                                                                                      "optional": false,
+                                                                                                      "typeAnnotation": null
                                                                                                     }
                                                                                                   },
                                                                                                   "extendsType": {
@@ -1360,13 +1453,15 @@ __ESTREE_TEST__:PASS:
                                                                                                       "type": "TSTypeReference",
                                                                                                       "start": 1194,
                                                                                                       "end": 1195,
+                                                                                                      "typeArguments": null,
                                                                                                       "typeName": {
                                                                                                         "type": "Identifier",
                                                                                                         "start": 1194,
                                                                                                         "end": 1195,
                                                                                                         "decorators": [],
                                                                                                         "name": "T",
-                                                                                                        "optional": false
+                                                                                                        "optional": false,
+                                                                                                        "typeAnnotation": null
                                                                                                       }
                                                                                                     },
                                                                                                     "extendsType": {
@@ -1389,13 +1484,15 @@ __ESTREE_TEST__:PASS:
                                                                                                         "type": "TSTypeReference",
                                                                                                         "start": 1220,
                                                                                                         "end": 1221,
+                                                                                                        "typeArguments": null,
                                                                                                         "typeName": {
                                                                                                           "type": "Identifier",
                                                                                                           "start": 1220,
                                                                                                           "end": 1221,
                                                                                                           "decorators": [],
                                                                                                           "name": "T",
-                                                                                                          "optional": false
+                                                                                                          "optional": false,
+                                                                                                          "typeAnnotation": null
                                                                                                         }
                                                                                                       },
                                                                                                       "extendsType": {
@@ -1418,13 +1515,15 @@ __ESTREE_TEST__:PASS:
                                                                                                           "type": "TSTypeReference",
                                                                                                           "start": 1246,
                                                                                                           "end": 1247,
+                                                                                                          "typeArguments": null,
                                                                                                           "typeName": {
                                                                                                             "type": "Identifier",
                                                                                                             "start": 1246,
                                                                                                             "end": 1247,
                                                                                                             "decorators": [],
                                                                                                             "name": "T",
-                                                                                                            "optional": false
+                                                                                                            "optional": false,
+                                                                                                            "typeAnnotation": null
                                                                                                           }
                                                                                                         },
                                                                                                         "extendsType": {
@@ -1447,13 +1546,15 @@ __ESTREE_TEST__:PASS:
                                                                                                             "type": "TSTypeReference",
                                                                                                             "start": 1272,
                                                                                                             "end": 1273,
+                                                                                                            "typeArguments": null,
                                                                                                             "typeName": {
                                                                                                               "type": "Identifier",
                                                                                                               "start": 1272,
                                                                                                               "end": 1273,
                                                                                                               "decorators": [],
                                                                                                               "name": "T",
-                                                                                                              "optional": false
+                                                                                                              "optional": false,
+                                                                                                              "typeAnnotation": null
                                                                                                             }
                                                                                                           },
                                                                                                           "extendsType": {
@@ -1476,13 +1577,15 @@ __ESTREE_TEST__:PASS:
                                                                                                               "type": "TSTypeReference",
                                                                                                               "start": 1298,
                                                                                                               "end": 1299,
+                                                                                                              "typeArguments": null,
                                                                                                               "typeName": {
                                                                                                                 "type": "Identifier",
                                                                                                                 "start": 1298,
                                                                                                                 "end": 1299,
                                                                                                                 "decorators": [],
                                                                                                                 "name": "T",
-                                                                                                                "optional": false
+                                                                                                                "optional": false,
+                                                                                                                "typeAnnotation": null
                                                                                                               }
                                                                                                             },
                                                                                                             "extendsType": {
@@ -1505,13 +1608,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                 "type": "TSTypeReference",
                                                                                                                 "start": 1324,
                                                                                                                 "end": 1325,
+                                                                                                                "typeArguments": null,
                                                                                                                 "typeName": {
                                                                                                                   "type": "Identifier",
                                                                                                                   "start": 1324,
                                                                                                                   "end": 1325,
                                                                                                                   "decorators": [],
                                                                                                                   "name": "T",
-                                                                                                                  "optional": false
+                                                                                                                  "optional": false,
+                                                                                                                  "typeAnnotation": null
                                                                                                                 }
                                                                                                               },
                                                                                                               "extendsType": {
@@ -1534,13 +1639,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                   "type": "TSTypeReference",
                                                                                                                   "start": 1350,
                                                                                                                   "end": 1351,
+                                                                                                                  "typeArguments": null,
                                                                                                                   "typeName": {
                                                                                                                     "type": "Identifier",
                                                                                                                     "start": 1350,
                                                                                                                     "end": 1351,
                                                                                                                     "decorators": [],
                                                                                                                     "name": "T",
-                                                                                                                    "optional": false
+                                                                                                                    "optional": false,
+                                                                                                                    "typeAnnotation": null
                                                                                                                   }
                                                                                                                 },
                                                                                                                 "extendsType": {
@@ -1563,13 +1670,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                     "type": "TSTypeReference",
                                                                                                                     "start": 1376,
                                                                                                                     "end": 1377,
+                                                                                                                    "typeArguments": null,
                                                                                                                     "typeName": {
                                                                                                                       "type": "Identifier",
                                                                                                                       "start": 1376,
                                                                                                                       "end": 1377,
                                                                                                                       "decorators": [],
                                                                                                                       "name": "T",
-                                                                                                                      "optional": false
+                                                                                                                      "optional": false,
+                                                                                                                      "typeAnnotation": null
                                                                                                                     }
                                                                                                                   },
                                                                                                                   "extendsType": {
@@ -1592,13 +1701,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                       "type": "TSTypeReference",
                                                                                                                       "start": 1402,
                                                                                                                       "end": 1403,
+                                                                                                                      "typeArguments": null,
                                                                                                                       "typeName": {
                                                                                                                         "type": "Identifier",
                                                                                                                         "start": 1402,
                                                                                                                         "end": 1403,
                                                                                                                         "decorators": [],
                                                                                                                         "name": "T",
-                                                                                                                        "optional": false
+                                                                                                                        "optional": false,
+                                                                                                                        "typeAnnotation": null
                                                                                                                       }
                                                                                                                     },
                                                                                                                     "extendsType": {
@@ -1621,13 +1732,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                         "type": "TSTypeReference",
                                                                                                                         "start": 1428,
                                                                                                                         "end": 1429,
+                                                                                                                        "typeArguments": null,
                                                                                                                         "typeName": {
                                                                                                                           "type": "Identifier",
                                                                                                                           "start": 1428,
                                                                                                                           "end": 1429,
                                                                                                                           "decorators": [],
                                                                                                                           "name": "T",
-                                                                                                                          "optional": false
+                                                                                                                          "optional": false,
+                                                                                                                          "typeAnnotation": null
                                                                                                                         }
                                                                                                                       },
                                                                                                                       "extendsType": {
@@ -1650,13 +1763,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                           "type": "TSTypeReference",
                                                                                                                           "start": 1454,
                                                                                                                           "end": 1455,
+                                                                                                                          "typeArguments": null,
                                                                                                                           "typeName": {
                                                                                                                             "type": "Identifier",
                                                                                                                             "start": 1454,
                                                                                                                             "end": 1455,
                                                                                                                             "decorators": [],
                                                                                                                             "name": "T",
-                                                                                                                            "optional": false
+                                                                                                                            "optional": false,
+                                                                                                                            "typeAnnotation": null
                                                                                                                           }
                                                                                                                         },
                                                                                                                         "extendsType": {
@@ -1679,13 +1794,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                             "type": "TSTypeReference",
                                                                                                                             "start": 1480,
                                                                                                                             "end": 1481,
+                                                                                                                            "typeArguments": null,
                                                                                                                             "typeName": {
                                                                                                                               "type": "Identifier",
                                                                                                                               "start": 1480,
                                                                                                                               "end": 1481,
                                                                                                                               "decorators": [],
                                                                                                                               "name": "T",
-                                                                                                                              "optional": false
+                                                                                                                              "optional": false,
+                                                                                                                              "typeAnnotation": null
                                                                                                                             }
                                                                                                                           },
                                                                                                                           "extendsType": {
@@ -1708,13 +1825,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                               "type": "TSTypeReference",
                                                                                                                               "start": 1506,
                                                                                                                               "end": 1507,
+                                                                                                                              "typeArguments": null,
                                                                                                                               "typeName": {
                                                                                                                                 "type": "Identifier",
                                                                                                                                 "start": 1506,
                                                                                                                                 "end": 1507,
                                                                                                                                 "decorators": [],
                                                                                                                                 "name": "T",
-                                                                                                                                "optional": false
+                                                                                                                                "optional": false,
+                                                                                                                                "typeAnnotation": null
                                                                                                                               }
                                                                                                                             },
                                                                                                                             "extendsType": {
@@ -1737,13 +1856,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                 "start": 1532,
                                                                                                                                 "end": 1533,
+                                                                                                                                "typeArguments": null,
                                                                                                                                 "typeName": {
                                                                                                                                   "type": "Identifier",
                                                                                                                                   "start": 1532,
                                                                                                                                   "end": 1533,
                                                                                                                                   "decorators": [],
                                                                                                                                   "name": "T",
-                                                                                                                                  "optional": false
+                                                                                                                                  "optional": false,
+                                                                                                                                  "typeAnnotation": null
                                                                                                                                 }
                                                                                                                               },
                                                                                                                               "extendsType": {
@@ -1766,13 +1887,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                   "type": "TSTypeReference",
                                                                                                                                   "start": 1558,
                                                                                                                                   "end": 1559,
+                                                                                                                                  "typeArguments": null,
                                                                                                                                   "typeName": {
                                                                                                                                     "type": "Identifier",
                                                                                                                                     "start": 1558,
                                                                                                                                     "end": 1559,
                                                                                                                                     "decorators": [],
                                                                                                                                     "name": "T",
-                                                                                                                                    "optional": false
+                                                                                                                                    "optional": false,
+                                                                                                                                    "typeAnnotation": null
                                                                                                                                   }
                                                                                                                                 },
                                                                                                                                 "extendsType": {
@@ -1795,13 +1918,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                     "type": "TSTypeReference",
                                                                                                                                     "start": 1584,
                                                                                                                                     "end": 1585,
+                                                                                                                                    "typeArguments": null,
                                                                                                                                     "typeName": {
                                                                                                                                       "type": "Identifier",
                                                                                                                                       "start": 1584,
                                                                                                                                       "end": 1585,
                                                                                                                                       "decorators": [],
                                                                                                                                       "name": "T",
-                                                                                                                                      "optional": false
+                                                                                                                                      "optional": false,
+                                                                                                                                      "typeAnnotation": null
                                                                                                                                     }
                                                                                                                                   },
                                                                                                                                   "extendsType": {
@@ -1824,13 +1949,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                       "type": "TSTypeReference",
                                                                                                                                       "start": 1610,
                                                                                                                                       "end": 1611,
+                                                                                                                                      "typeArguments": null,
                                                                                                                                       "typeName": {
                                                                                                                                         "type": "Identifier",
                                                                                                                                         "start": 1610,
                                                                                                                                         "end": 1611,
                                                                                                                                         "decorators": [],
                                                                                                                                         "name": "T",
-                                                                                                                                        "optional": false
+                                                                                                                                        "optional": false,
+                                                                                                                                        "typeAnnotation": null
                                                                                                                                       }
                                                                                                                                     },
                                                                                                                                     "extendsType": {
@@ -1853,13 +1980,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                         "type": "TSTypeReference",
                                                                                                                                         "start": 1636,
                                                                                                                                         "end": 1637,
+                                                                                                                                        "typeArguments": null,
                                                                                                                                         "typeName": {
                                                                                                                                           "type": "Identifier",
                                                                                                                                           "start": 1636,
                                                                                                                                           "end": 1637,
                                                                                                                                           "decorators": [],
                                                                                                                                           "name": "T",
-                                                                                                                                          "optional": false
+                                                                                                                                          "optional": false,
+                                                                                                                                          "typeAnnotation": null
                                                                                                                                         }
                                                                                                                                       },
                                                                                                                                       "extendsType": {
@@ -1882,13 +2011,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                           "type": "TSTypeReference",
                                                                                                                                           "start": 1662,
                                                                                                                                           "end": 1663,
+                                                                                                                                          "typeArguments": null,
                                                                                                                                           "typeName": {
                                                                                                                                             "type": "Identifier",
                                                                                                                                             "start": 1662,
                                                                                                                                             "end": 1663,
                                                                                                                                             "decorators": [],
                                                                                                                                             "name": "T",
-                                                                                                                                            "optional": false
+                                                                                                                                            "optional": false,
+                                                                                                                                            "typeAnnotation": null
                                                                                                                                           }
                                                                                                                                         },
                                                                                                                                         "extendsType": {
@@ -1911,13 +2042,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                             "type": "TSTypeReference",
                                                                                                                                             "start": 1688,
                                                                                                                                             "end": 1689,
+                                                                                                                                            "typeArguments": null,
                                                                                                                                             "typeName": {
                                                                                                                                               "type": "Identifier",
                                                                                                                                               "start": 1688,
                                                                                                                                               "end": 1689,
                                                                                                                                               "decorators": [],
                                                                                                                                               "name": "T",
-                                                                                                                                              "optional": false
+                                                                                                                                              "optional": false,
+                                                                                                                                              "typeAnnotation": null
                                                                                                                                             }
                                                                                                                                           },
                                                                                                                                           "extendsType": {
@@ -1940,13 +2073,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                               "type": "TSTypeReference",
                                                                                                                                               "start": 1714,
                                                                                                                                               "end": 1715,
+                                                                                                                                              "typeArguments": null,
                                                                                                                                               "typeName": {
                                                                                                                                                 "type": "Identifier",
                                                                                                                                                 "start": 1714,
                                                                                                                                                 "end": 1715,
                                                                                                                                                 "decorators": [],
                                                                                                                                                 "name": "T",
-                                                                                                                                                "optional": false
+                                                                                                                                                "optional": false,
+                                                                                                                                                "typeAnnotation": null
                                                                                                                                               }
                                                                                                                                             },
                                                                                                                                             "extendsType": {
@@ -1969,13 +2104,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                                 "start": 1740,
                                                                                                                                                 "end": 1741,
+                                                                                                                                                "typeArguments": null,
                                                                                                                                                 "typeName": {
                                                                                                                                                   "type": "Identifier",
                                                                                                                                                   "start": 1740,
                                                                                                                                                   "end": 1741,
                                                                                                                                                   "decorators": [],
                                                                                                                                                   "name": "T",
-                                                                                                                                                  "optional": false
+                                                                                                                                                  "optional": false,
+                                                                                                                                                  "typeAnnotation": null
                                                                                                                                                 }
                                                                                                                                               },
                                                                                                                                               "extendsType": {
@@ -1998,13 +2135,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                   "type": "TSTypeReference",
                                                                                                                                                   "start": 1766,
                                                                                                                                                   "end": 1767,
+                                                                                                                                                  "typeArguments": null,
                                                                                                                                                   "typeName": {
                                                                                                                                                     "type": "Identifier",
                                                                                                                                                     "start": 1766,
                                                                                                                                                     "end": 1767,
                                                                                                                                                     "decorators": [],
                                                                                                                                                     "name": "T",
-                                                                                                                                                    "optional": false
+                                                                                                                                                    "optional": false,
+                                                                                                                                                    "typeAnnotation": null
                                                                                                                                                   }
                                                                                                                                                 },
                                                                                                                                                 "extendsType": {
@@ -2027,13 +2166,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                     "type": "TSTypeReference",
                                                                                                                                                     "start": 1792,
                                                                                                                                                     "end": 1793,
+                                                                                                                                                    "typeArguments": null,
                                                                                                                                                     "typeName": {
                                                                                                                                                       "type": "Identifier",
                                                                                                                                                       "start": 1792,
                                                                                                                                                       "end": 1793,
                                                                                                                                                       "decorators": [],
                                                                                                                                                       "name": "T",
-                                                                                                                                                      "optional": false
+                                                                                                                                                      "optional": false,
+                                                                                                                                                      "typeAnnotation": null
                                                                                                                                                     }
                                                                                                                                                   },
                                                                                                                                                   "extendsType": {
@@ -2056,13 +2197,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                       "type": "TSTypeReference",
                                                                                                                                                       "start": 1818,
                                                                                                                                                       "end": 1819,
+                                                                                                                                                      "typeArguments": null,
                                                                                                                                                       "typeName": {
                                                                                                                                                         "type": "Identifier",
                                                                                                                                                         "start": 1818,
                                                                                                                                                         "end": 1819,
                                                                                                                                                         "decorators": [],
                                                                                                                                                         "name": "T",
-                                                                                                                                                        "optional": false
+                                                                                                                                                        "optional": false,
+                                                                                                                                                        "typeAnnotation": null
                                                                                                                                                       }
                                                                                                                                                     },
                                                                                                                                                     "extendsType": {
@@ -2085,13 +2228,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                         "type": "TSTypeReference",
                                                                                                                                                         "start": 1844,
                                                                                                                                                         "end": 1845,
+                                                                                                                                                        "typeArguments": null,
                                                                                                                                                         "typeName": {
                                                                                                                                                           "type": "Identifier",
                                                                                                                                                           "start": 1844,
                                                                                                                                                           "end": 1845,
                                                                                                                                                           "decorators": [],
                                                                                                                                                           "name": "T",
-                                                                                                                                                          "optional": false
+                                                                                                                                                          "optional": false,
+                                                                                                                                                          "typeAnnotation": null
                                                                                                                                                         }
                                                                                                                                                       },
                                                                                                                                                       "extendsType": {
@@ -2114,13 +2259,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                           "type": "TSTypeReference",
                                                                                                                                                           "start": 1870,
                                                                                                                                                           "end": 1871,
+                                                                                                                                                          "typeArguments": null,
                                                                                                                                                           "typeName": {
                                                                                                                                                             "type": "Identifier",
                                                                                                                                                             "start": 1870,
                                                                                                                                                             "end": 1871,
                                                                                                                                                             "decorators": [],
                                                                                                                                                             "name": "T",
-                                                                                                                                                            "optional": false
+                                                                                                                                                            "optional": false,
+                                                                                                                                                            "typeAnnotation": null
                                                                                                                                                           }
                                                                                                                                                         },
                                                                                                                                                         "extendsType": {
@@ -2143,13 +2290,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                             "type": "TSTypeReference",
                                                                                                                                                             "start": 1896,
                                                                                                                                                             "end": 1897,
+                                                                                                                                                            "typeArguments": null,
                                                                                                                                                             "typeName": {
                                                                                                                                                               "type": "Identifier",
                                                                                                                                                               "start": 1896,
                                                                                                                                                               "end": 1897,
                                                                                                                                                               "decorators": [],
                                                                                                                                                               "name": "T",
-                                                                                                                                                              "optional": false
+                                                                                                                                                              "optional": false,
+                                                                                                                                                              "typeAnnotation": null
                                                                                                                                                             }
                                                                                                                                                           },
                                                                                                                                                           "extendsType": {
@@ -2172,13 +2321,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                               "type": "TSTypeReference",
                                                                                                                                                               "start": 1922,
                                                                                                                                                               "end": 1923,
+                                                                                                                                                              "typeArguments": null,
                                                                                                                                                               "typeName": {
                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                 "start": 1922,
                                                                                                                                                                 "end": 1923,
                                                                                                                                                                 "decorators": [],
                                                                                                                                                                 "name": "T",
-                                                                                                                                                                "optional": false
+                                                                                                                                                                "optional": false,
+                                                                                                                                                                "typeAnnotation": null
                                                                                                                                                               }
                                                                                                                                                             },
                                                                                                                                                             "extendsType": {
@@ -2201,13 +2352,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                                                 "start": 1948,
                                                                                                                                                                 "end": 1949,
+                                                                                                                                                                "typeArguments": null,
                                                                                                                                                                 "typeName": {
                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                   "start": 1948,
                                                                                                                                                                   "end": 1949,
                                                                                                                                                                   "decorators": [],
                                                                                                                                                                   "name": "T",
-                                                                                                                                                                  "optional": false
+                                                                                                                                                                  "optional": false,
+                                                                                                                                                                  "typeAnnotation": null
                                                                                                                                                                 }
                                                                                                                                                               },
                                                                                                                                                               "extendsType": {
@@ -2230,13 +2383,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                   "type": "TSTypeReference",
                                                                                                                                                                   "start": 1974,
                                                                                                                                                                   "end": 1975,
+                                                                                                                                                                  "typeArguments": null,
                                                                                                                                                                   "typeName": {
                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                     "start": 1974,
                                                                                                                                                                     "end": 1975,
                                                                                                                                                                     "decorators": [],
                                                                                                                                                                     "name": "T",
-                                                                                                                                                                    "optional": false
+                                                                                                                                                                    "optional": false,
+                                                                                                                                                                    "typeAnnotation": null
                                                                                                                                                                   }
                                                                                                                                                                 },
                                                                                                                                                                 "extendsType": {
@@ -2259,13 +2414,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                     "type": "TSTypeReference",
                                                                                                                                                                     "start": 2000,
                                                                                                                                                                     "end": 2001,
+                                                                                                                                                                    "typeArguments": null,
                                                                                                                                                                     "typeName": {
                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                       "start": 2000,
                                                                                                                                                                       "end": 2001,
                                                                                                                                                                       "decorators": [],
                                                                                                                                                                       "name": "T",
-                                                                                                                                                                      "optional": false
+                                                                                                                                                                      "optional": false,
+                                                                                                                                                                      "typeAnnotation": null
                                                                                                                                                                     }
                                                                                                                                                                   },
                                                                                                                                                                   "extendsType": {
@@ -2288,13 +2445,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                       "type": "TSTypeReference",
                                                                                                                                                                       "start": 2026,
                                                                                                                                                                       "end": 2027,
+                                                                                                                                                                      "typeArguments": null,
                                                                                                                                                                       "typeName": {
                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                         "start": 2026,
                                                                                                                                                                         "end": 2027,
                                                                                                                                                                         "decorators": [],
                                                                                                                                                                         "name": "T",
-                                                                                                                                                                        "optional": false
+                                                                                                                                                                        "optional": false,
+                                                                                                                                                                        "typeAnnotation": null
                                                                                                                                                                       }
                                                                                                                                                                     },
                                                                                                                                                                     "extendsType": {
@@ -2317,13 +2476,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                         "type": "TSTypeReference",
                                                                                                                                                                         "start": 2052,
                                                                                                                                                                         "end": 2053,
+                                                                                                                                                                        "typeArguments": null,
                                                                                                                                                                         "typeName": {
                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                           "start": 2052,
                                                                                                                                                                           "end": 2053,
                                                                                                                                                                           "decorators": [],
                                                                                                                                                                           "name": "T",
-                                                                                                                                                                          "optional": false
+                                                                                                                                                                          "optional": false,
+                                                                                                                                                                          "typeAnnotation": null
                                                                                                                                                                         }
                                                                                                                                                                       },
                                                                                                                                                                       "extendsType": {
@@ -2346,13 +2507,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                           "type": "TSTypeReference",
                                                                                                                                                                           "start": 2078,
                                                                                                                                                                           "end": 2079,
+                                                                                                                                                                          "typeArguments": null,
                                                                                                                                                                           "typeName": {
                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                             "start": 2078,
                                                                                                                                                                             "end": 2079,
                                                                                                                                                                             "decorators": [],
                                                                                                                                                                             "name": "T",
-                                                                                                                                                                            "optional": false
+                                                                                                                                                                            "optional": false,
+                                                                                                                                                                            "typeAnnotation": null
                                                                                                                                                                           }
                                                                                                                                                                         },
                                                                                                                                                                         "extendsType": {
@@ -2375,13 +2538,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                             "type": "TSTypeReference",
                                                                                                                                                                             "start": 2104,
                                                                                                                                                                             "end": 2105,
+                                                                                                                                                                            "typeArguments": null,
                                                                                                                                                                             "typeName": {
                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                               "start": 2104,
                                                                                                                                                                               "end": 2105,
                                                                                                                                                                               "decorators": [],
                                                                                                                                                                               "name": "T",
-                                                                                                                                                                              "optional": false
+                                                                                                                                                                              "optional": false,
+                                                                                                                                                                              "typeAnnotation": null
                                                                                                                                                                             }
                                                                                                                                                                           },
                                                                                                                                                                           "extendsType": {
@@ -2404,13 +2569,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                               "type": "TSTypeReference",
                                                                                                                                                                               "start": 2130,
                                                                                                                                                                               "end": 2131,
+                                                                                                                                                                              "typeArguments": null,
                                                                                                                                                                               "typeName": {
                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                 "start": 2130,
                                                                                                                                                                                 "end": 2131,
                                                                                                                                                                                 "decorators": [],
                                                                                                                                                                                 "name": "T",
-                                                                                                                                                                                "optional": false
+                                                                                                                                                                                "optional": false,
+                                                                                                                                                                                "typeAnnotation": null
                                                                                                                                                                               }
                                                                                                                                                                             },
                                                                                                                                                                             "extendsType": {
@@ -2433,13 +2600,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                                                                 "start": 2156,
                                                                                                                                                                                 "end": 2157,
+                                                                                                                                                                                "typeArguments": null,
                                                                                                                                                                                 "typeName": {
                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                   "start": 2156,
                                                                                                                                                                                   "end": 2157,
                                                                                                                                                                                   "decorators": [],
                                                                                                                                                                                   "name": "T",
-                                                                                                                                                                                  "optional": false
+                                                                                                                                                                                  "optional": false,
+                                                                                                                                                                                  "typeAnnotation": null
                                                                                                                                                                                 }
                                                                                                                                                                               },
                                                                                                                                                                               "extendsType": {
@@ -2462,13 +2631,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                   "type": "TSTypeReference",
                                                                                                                                                                                   "start": 2182,
                                                                                                                                                                                   "end": 2183,
+                                                                                                                                                                                  "typeArguments": null,
                                                                                                                                                                                   "typeName": {
                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                     "start": 2182,
                                                                                                                                                                                     "end": 2183,
                                                                                                                                                                                     "decorators": [],
                                                                                                                                                                                     "name": "T",
-                                                                                                                                                                                    "optional": false
+                                                                                                                                                                                    "optional": false,
+                                                                                                                                                                                    "typeAnnotation": null
                                                                                                                                                                                   }
                                                                                                                                                                                 },
                                                                                                                                                                                 "extendsType": {
@@ -2491,13 +2662,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                     "type": "TSTypeReference",
                                                                                                                                                                                     "start": 2208,
                                                                                                                                                                                     "end": 2209,
+                                                                                                                                                                                    "typeArguments": null,
                                                                                                                                                                                     "typeName": {
                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                       "start": 2208,
                                                                                                                                                                                       "end": 2209,
                                                                                                                                                                                       "decorators": [],
                                                                                                                                                                                       "name": "T",
-                                                                                                                                                                                      "optional": false
+                                                                                                                                                                                      "optional": false,
+                                                                                                                                                                                      "typeAnnotation": null
                                                                                                                                                                                     }
                                                                                                                                                                                   },
                                                                                                                                                                                   "extendsType": {
@@ -2520,13 +2693,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                       "type": "TSTypeReference",
                                                                                                                                                                                       "start": 2234,
                                                                                                                                                                                       "end": 2235,
+                                                                                                                                                                                      "typeArguments": null,
                                                                                                                                                                                       "typeName": {
                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                         "start": 2234,
                                                                                                                                                                                         "end": 2235,
                                                                                                                                                                                         "decorators": [],
                                                                                                                                                                                         "name": "T",
-                                                                                                                                                                                        "optional": false
+                                                                                                                                                                                        "optional": false,
+                                                                                                                                                                                        "typeAnnotation": null
                                                                                                                                                                                       }
                                                                                                                                                                                     },
                                                                                                                                                                                     "extendsType": {
@@ -2549,13 +2724,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                         "type": "TSTypeReference",
                                                                                                                                                                                         "start": 2260,
                                                                                                                                                                                         "end": 2261,
+                                                                                                                                                                                        "typeArguments": null,
                                                                                                                                                                                         "typeName": {
                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                           "start": 2260,
                                                                                                                                                                                           "end": 2261,
                                                                                                                                                                                           "decorators": [],
                                                                                                                                                                                           "name": "T",
-                                                                                                                                                                                          "optional": false
+                                                                                                                                                                                          "optional": false,
+                                                                                                                                                                                          "typeAnnotation": null
                                                                                                                                                                                         }
                                                                                                                                                                                       },
                                                                                                                                                                                       "extendsType": {
@@ -2578,13 +2755,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                           "type": "TSTypeReference",
                                                                                                                                                                                           "start": 2286,
                                                                                                                                                                                           "end": 2287,
+                                                                                                                                                                                          "typeArguments": null,
                                                                                                                                                                                           "typeName": {
                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                             "start": 2286,
                                                                                                                                                                                             "end": 2287,
                                                                                                                                                                                             "decorators": [],
                                                                                                                                                                                             "name": "T",
-                                                                                                                                                                                            "optional": false
+                                                                                                                                                                                            "optional": false,
+                                                                                                                                                                                            "typeAnnotation": null
                                                                                                                                                                                           }
                                                                                                                                                                                         },
                                                                                                                                                                                         "extendsType": {
@@ -2607,13 +2786,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                             "type": "TSTypeReference",
                                                                                                                                                                                             "start": 2312,
                                                                                                                                                                                             "end": 2313,
+                                                                                                                                                                                            "typeArguments": null,
                                                                                                                                                                                             "typeName": {
                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                               "start": 2312,
                                                                                                                                                                                               "end": 2313,
                                                                                                                                                                                               "decorators": [],
                                                                                                                                                                                               "name": "T",
-                                                                                                                                                                                              "optional": false
+                                                                                                                                                                                              "optional": false,
+                                                                                                                                                                                              "typeAnnotation": null
                                                                                                                                                                                             }
                                                                                                                                                                                           },
                                                                                                                                                                                           "extendsType": {
@@ -2636,13 +2817,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                               "type": "TSTypeReference",
                                                                                                                                                                                               "start": 2338,
                                                                                                                                                                                               "end": 2339,
+                                                                                                                                                                                              "typeArguments": null,
                                                                                                                                                                                               "typeName": {
                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                 "start": 2338,
                                                                                                                                                                                                 "end": 2339,
                                                                                                                                                                                                 "decorators": [],
                                                                                                                                                                                                 "name": "T",
-                                                                                                                                                                                                "optional": false
+                                                                                                                                                                                                "optional": false,
+                                                                                                                                                                                                "typeAnnotation": null
                                                                                                                                                                                               }
                                                                                                                                                                                             },
                                                                                                                                                                                             "extendsType": {
@@ -2665,13 +2848,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                                                                                 "start": 2364,
                                                                                                                                                                                                 "end": 2365,
+                                                                                                                                                                                                "typeArguments": null,
                                                                                                                                                                                                 "typeName": {
                                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                                   "start": 2364,
                                                                                                                                                                                                   "end": 2365,
                                                                                                                                                                                                   "decorators": [],
                                                                                                                                                                                                   "name": "T",
-                                                                                                                                                                                                  "optional": false
+                                                                                                                                                                                                  "optional": false,
+                                                                                                                                                                                                  "typeAnnotation": null
                                                                                                                                                                                                 }
                                                                                                                                                                                               },
                                                                                                                                                                                               "extendsType": {
@@ -2694,13 +2879,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                   "type": "TSTypeReference",
                                                                                                                                                                                                   "start": 2390,
                                                                                                                                                                                                   "end": 2391,
+                                                                                                                                                                                                  "typeArguments": null,
                                                                                                                                                                                                   "typeName": {
                                                                                                                                                                                                     "type": "Identifier",
                                                                                                                                                                                                     "start": 2390,
                                                                                                                                                                                                     "end": 2391,
                                                                                                                                                                                                     "decorators": [],
                                                                                                                                                                                                     "name": "T",
-                                                                                                                                                                                                    "optional": false
+                                                                                                                                                                                                    "optional": false,
+                                                                                                                                                                                                    "typeAnnotation": null
                                                                                                                                                                                                   }
                                                                                                                                                                                                 },
                                                                                                                                                                                                 "extendsType": {
@@ -2723,13 +2910,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                     "type": "TSTypeReference",
                                                                                                                                                                                                     "start": 2416,
                                                                                                                                                                                                     "end": 2417,
+                                                                                                                                                                                                    "typeArguments": null,
                                                                                                                                                                                                     "typeName": {
                                                                                                                                                                                                       "type": "Identifier",
                                                                                                                                                                                                       "start": 2416,
                                                                                                                                                                                                       "end": 2417,
                                                                                                                                                                                                       "decorators": [],
                                                                                                                                                                                                       "name": "T",
-                                                                                                                                                                                                      "optional": false
+                                                                                                                                                                                                      "optional": false,
+                                                                                                                                                                                                      "typeAnnotation": null
                                                                                                                                                                                                     }
                                                                                                                                                                                                   },
                                                                                                                                                                                                   "extendsType": {
@@ -2752,13 +2941,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                       "type": "TSTypeReference",
                                                                                                                                                                                                       "start": 2442,
                                                                                                                                                                                                       "end": 2443,
+                                                                                                                                                                                                      "typeArguments": null,
                                                                                                                                                                                                       "typeName": {
                                                                                                                                                                                                         "type": "Identifier",
                                                                                                                                                                                                         "start": 2442,
                                                                                                                                                                                                         "end": 2443,
                                                                                                                                                                                                         "decorators": [],
                                                                                                                                                                                                         "name": "T",
-                                                                                                                                                                                                        "optional": false
+                                                                                                                                                                                                        "optional": false,
+                                                                                                                                                                                                        "typeAnnotation": null
                                                                                                                                                                                                       }
                                                                                                                                                                                                     },
                                                                                                                                                                                                     "extendsType": {
@@ -2781,13 +2972,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                         "type": "TSTypeReference",
                                                                                                                                                                                                         "start": 2468,
                                                                                                                                                                                                         "end": 2469,
+                                                                                                                                                                                                        "typeArguments": null,
                                                                                                                                                                                                         "typeName": {
                                                                                                                                                                                                           "type": "Identifier",
                                                                                                                                                                                                           "start": 2468,
                                                                                                                                                                                                           "end": 2469,
                                                                                                                                                                                                           "decorators": [],
                                                                                                                                                                                                           "name": "T",
-                                                                                                                                                                                                          "optional": false
+                                                                                                                                                                                                          "optional": false,
+                                                                                                                                                                                                          "typeAnnotation": null
                                                                                                                                                                                                         }
                                                                                                                                                                                                       },
                                                                                                                                                                                                       "extendsType": {
@@ -2810,13 +3003,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                           "type": "TSTypeReference",
                                                                                                                                                                                                           "start": 2494,
                                                                                                                                                                                                           "end": 2495,
+                                                                                                                                                                                                          "typeArguments": null,
                                                                                                                                                                                                           "typeName": {
                                                                                                                                                                                                             "type": "Identifier",
                                                                                                                                                                                                             "start": 2494,
                                                                                                                                                                                                             "end": 2495,
                                                                                                                                                                                                             "decorators": [],
                                                                                                                                                                                                             "name": "T",
-                                                                                                                                                                                                            "optional": false
+                                                                                                                                                                                                            "optional": false,
+                                                                                                                                                                                                            "typeAnnotation": null
                                                                                                                                                                                                           }
                                                                                                                                                                                                         },
                                                                                                                                                                                                         "extendsType": {
@@ -2839,13 +3034,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                             "type": "TSTypeReference",
                                                                                                                                                                                                             "start": 2520,
                                                                                                                                                                                                             "end": 2521,
+                                                                                                                                                                                                            "typeArguments": null,
                                                                                                                                                                                                             "typeName": {
                                                                                                                                                                                                               "type": "Identifier",
                                                                                                                                                                                                               "start": 2520,
                                                                                                                                                                                                               "end": 2521,
                                                                                                                                                                                                               "decorators": [],
                                                                                                                                                                                                               "name": "T",
-                                                                                                                                                                                                              "optional": false
+                                                                                                                                                                                                              "optional": false,
+                                                                                                                                                                                                              "typeAnnotation": null
                                                                                                                                                                                                             }
                                                                                                                                                                                                           },
                                                                                                                                                                                                           "extendsType": {
@@ -2868,13 +3065,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                               "type": "TSTypeReference",
                                                                                                                                                                                                               "start": 2546,
                                                                                                                                                                                                               "end": 2547,
+                                                                                                                                                                                                              "typeArguments": null,
                                                                                                                                                                                                               "typeName": {
                                                                                                                                                                                                                 "type": "Identifier",
                                                                                                                                                                                                                 "start": 2546,
                                                                                                                                                                                                                 "end": 2547,
                                                                                                                                                                                                                 "decorators": [],
                                                                                                                                                                                                                 "name": "T",
-                                                                                                                                                                                                                "optional": false
+                                                                                                                                                                                                                "optional": false,
+                                                                                                                                                                                                                "typeAnnotation": null
                                                                                                                                                                                                               }
                                                                                                                                                                                                             },
                                                                                                                                                                                                             "extendsType": {
@@ -2897,13 +3096,15 @@ __ESTREE_TEST__:PASS:
                                                                                                                                                                                                                 "type": "TSTypeReference",
                                                                                                                                                                                                                 "start": 2572,
                                                                                                                                                                                                                 "end": 2573,
+                                                                                                                                                                                                                "typeArguments": null,
                                                                                                                                                                                                                 "typeName": {
                                                                                                                                                                                                                   "type": "Identifier",
                                                                                                                                                                                                                   "start": 2572,
                                                                                                                                                                                                                   "end": 2573,
                                                                                                                                                                                                                   "decorators": [],
                                                                                                                                                                                                                   "name": "T",
-                                                                                                                                                                                                                  "optional": false
+                                                                                                                                                                                                                  "optional": false,
+                                                                                                                                                                                                                  "typeAnnotation": null
                                                                                                                                                                                                                 }
                                                                                                                                                                                                               },
                                                                                                                                                                                                               "extendsType": {
@@ -4233,6 +4434,8 @@ __ESTREE_TEST__:PASS:
             "start": 9,
             "end": 10,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -4240,7 +4443,8 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -4258,7 +4462,8 @@ __ESTREE_TEST__:PASS:
         "end": 2613,
         "decorators": [],
         "name": "T0",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -4289,9 +4494,11 @@ __ESTREE_TEST__:PASS:
           "end": 2619,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -4304,7 +4511,8 @@ __ESTREE_TEST__:PASS:
         "end": 2632,
         "decorators": [],
         "name": "T1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -4328,9 +4536,11 @@ __ESTREE_TEST__:PASS:
           "end": 2638,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

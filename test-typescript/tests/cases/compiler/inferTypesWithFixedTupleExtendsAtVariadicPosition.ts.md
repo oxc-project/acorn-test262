@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 40,
         "decorators": [],
         "name": "SubTup2FixedLength",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -26,13 +27,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 64,
           "end": 65,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 64,
             "end": 65,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -70,6 +73,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
                     "end": 88,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -99,13 +104,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 121,
           "end": 122,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 121,
             "end": 122,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -129,6 +136,7 @@ __ESTREE_TEST__:PASS:
                 "end": 58
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -136,7 +144,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -154,7 +163,8 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "SubTup2FixedLengthTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -192,7 +202,8 @@ __ESTREE_TEST__:PASS:
                     "end": 186,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -218,7 +229,8 @@ __ESTREE_TEST__:PASS:
                     "end": 192,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -244,7 +256,8 @@ __ESTREE_TEST__:PASS:
                     "end": 198,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -258,9 +271,11 @@ __ESTREE_TEST__:PASS:
           "end": 183,
           "decorators": [],
           "name": "SubTup2FixedLength",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -273,7 +288,8 @@ __ESTREE_TEST__:PASS:
         "end": 226,
         "decorators": [],
         "name": "SubTup2Variadic",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -283,13 +299,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 250,
           "end": 251,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 250,
             "end": 251,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -327,6 +345,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -334,7 +353,8 @@ __ESTREE_TEST__:PASS:
                     "end": 274,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -361,13 +381,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 310,
           "end": 311,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 310,
             "end": 311,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -391,6 +413,7 @@ __ESTREE_TEST__:PASS:
                 "end": 244
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -398,7 +421,8 @@ __ESTREE_TEST__:PASS:
               "end": 228,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -416,7 +440,8 @@ __ESTREE_TEST__:PASS:
         "end": 348,
         "decorators": [],
         "name": "SubTup2VariadicTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -454,7 +479,8 @@ __ESTREE_TEST__:PASS:
                     "end": 369,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -480,7 +506,8 @@ __ESTREE_TEST__:PASS:
                     "end": 375,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -515,7 +542,8 @@ __ESTREE_TEST__:PASS:
                       "end": 384,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -530,9 +558,11 @@ __ESTREE_TEST__:PASS:
           "end": 366,
           "decorators": [],
           "name": "SubTup2Variadic",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -545,7 +575,8 @@ __ESTREE_TEST__:PASS:
         "end": 418,
         "decorators": [],
         "name": "SubTup2VariadicTest2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -583,7 +614,8 @@ __ESTREE_TEST__:PASS:
                     "end": 439,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -609,7 +641,8 @@ __ESTREE_TEST__:PASS:
                     "end": 445,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -635,7 +668,8 @@ __ESTREE_TEST__:PASS:
                     "end": 451,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -670,7 +704,8 @@ __ESTREE_TEST__:PASS:
                       "end": 460,
                       "decorators": [],
                       "name": "d",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -685,9 +720,11 @@ __ESTREE_TEST__:PASS:
           "end": 436,
           "decorators": [],
           "name": "SubTup2Variadic",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -700,7 +737,8 @@ __ESTREE_TEST__:PASS:
         "end": 497,
         "decorators": [],
         "name": "SubTup2VariadicAndRest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -710,13 +748,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 521,
           "end": 522,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 521,
             "end": 522,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -754,6 +794,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -761,7 +802,8 @@ __ESTREE_TEST__:PASS:
                     "end": 547,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -784,6 +826,8 @@ __ESTREE_TEST__:PASS:
                     "start": 582,
                     "end": 583,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -791,7 +835,8 @@ __ESTREE_TEST__:PASS:
                       "end": 583,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -818,13 +863,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 599,
                 "end": 600,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 599,
                   "end": 600,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -841,13 +888,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 606,
                     "end": 607,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 606,
                       "end": 607,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -876,6 +925,7 @@ __ESTREE_TEST__:PASS:
                 "end": 515
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -883,7 +933,8 @@ __ESTREE_TEST__:PASS:
               "end": 499,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -901,7 +952,8 @@ __ESTREE_TEST__:PASS:
         "end": 655,
         "decorators": [],
         "name": "SubTup2VariadicAndRestTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -939,7 +991,8 @@ __ESTREE_TEST__:PASS:
                     "end": 683,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -965,7 +1018,8 @@ __ESTREE_TEST__:PASS:
                     "end": 689,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1000,7 +1054,8 @@ __ESTREE_TEST__:PASS:
                       "end": 698,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -1015,9 +1070,11 @@ __ESTREE_TEST__:PASS:
           "end": 680,
           "decorators": [],
           "name": "SubTup2VariadicAndRest",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1030,7 +1087,8 @@ __ESTREE_TEST__:PASS:
         "end": 736,
         "decorators": [],
         "name": "SubTup2TrailingVariadic",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -1040,13 +1098,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 760,
           "end": 761,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 760,
             "end": 761,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -1094,6 +1154,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -1101,7 +1162,8 @@ __ESTREE_TEST__:PASS:
                     "end": 794,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -1118,13 +1180,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 821,
           "end": 822,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 821,
             "end": 822,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -1148,6 +1212,7 @@ __ESTREE_TEST__:PASS:
                 "end": 754
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -1155,7 +1220,8 @@ __ESTREE_TEST__:PASS:
               "end": 738,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -1173,7 +1239,8 @@ __ESTREE_TEST__:PASS:
         "end": 867,
         "decorators": [],
         "name": "SubTup2TrailingVariadicTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -1220,7 +1287,8 @@ __ESTREE_TEST__:PASS:
                       "end": 899,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -1247,7 +1315,8 @@ __ESTREE_TEST__:PASS:
                     "end": 907,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1273,7 +1342,8 @@ __ESTREE_TEST__:PASS:
                     "end": 913,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -1287,9 +1357,11 @@ __ESTREE_TEST__:PASS:
           "end": 893,
           "decorators": [],
           "name": "SubTup2TrailingVariadic",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1302,7 +1374,8 @@ __ESTREE_TEST__:PASS:
         "end": 953,
         "decorators": [],
         "name": "SubTup2TrailingVariadicTest2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -1349,7 +1422,8 @@ __ESTREE_TEST__:PASS:
                       "end": 985,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -1376,7 +1450,8 @@ __ESTREE_TEST__:PASS:
                     "end": 993,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1402,7 +1477,8 @@ __ESTREE_TEST__:PASS:
                     "end": 999,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1428,7 +1504,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1005,
                     "decorators": [],
                     "name": "d",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -1442,9 +1519,11 @@ __ESTREE_TEST__:PASS:
           "end": 979,
           "decorators": [],
           "name": "SubTup2TrailingVariadic",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1457,7 +1536,8 @@ __ESTREE_TEST__:PASS:
         "end": 1049,
         "decorators": [],
         "name": "SubTup2RestAndTrailingVariadic2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -1467,13 +1547,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1073,
           "end": 1074,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1073,
             "end": 1074,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -1498,6 +1580,8 @@ __ESTREE_TEST__:PASS:
                     "start": 1099,
                     "end": 1100,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -1505,7 +1589,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1100,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -1542,6 +1627,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -1549,7 +1635,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1119,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -1571,13 +1658,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 1149,
               "end": 1150,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 1149,
                 "end": 1150,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -1588,13 +1677,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1155,
                 "end": 1156,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1155,
                   "end": 1156,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1621,6 +1712,7 @@ __ESTREE_TEST__:PASS:
                 "end": 1067
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -1628,7 +1720,8 @@ __ESTREE_TEST__:PASS:
               "end": 1051,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -1646,7 +1739,8 @@ __ESTREE_TEST__:PASS:
         "end": 1212,
         "decorators": [],
         "name": "SubTup2RestAndTrailingVariadic2Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -1693,7 +1787,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1252,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -1720,7 +1815,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1260,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1746,7 +1842,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1266,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -1760,9 +1857,11 @@ __ESTREE_TEST__:PASS:
           "end": 1246,
           "decorators": [],
           "name": "SubTup2RestAndTrailingVariadic2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1775,7 +1874,8 @@ __ESTREE_TEST__:PASS:
         "end": 1318,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElements",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -1785,13 +1885,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1342,
           "end": 1343,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1342,
             "end": 1343,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -1834,6 +1936,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -1841,7 +1944,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1373,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -1868,13 +1972,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1409,
           "end": 1410,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1409,
             "end": 1410,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -1898,6 +2004,7 @@ __ESTREE_TEST__:PASS:
                 "end": 1336
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -1905,7 +2012,8 @@ __ESTREE_TEST__:PASS:
               "end": 1320,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -1923,7 +2031,8 @@ __ESTREE_TEST__:PASS:
         "end": 1471,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElementsTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -1961,7 +2070,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1516,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -1987,7 +2097,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1522,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2013,7 +2124,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1528,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2048,7 +2160,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1537,
                       "decorators": [],
                       "name": "d",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -2063,9 +2176,11 @@ __ESTREE_TEST__:PASS:
           "end": 1513,
           "decorators": [],
           "name": "SubTup2VariadicWithLeadingFixedElements",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -2078,7 +2193,8 @@ __ESTREE_TEST__:PASS:
         "end": 1595,
         "decorators": [],
         "name": "SubTup2VariadicWithLeadingFixedElementsTest2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -2116,7 +2232,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1640,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2142,7 +2259,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1646,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2168,7 +2286,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1652,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2194,7 +2313,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1658,
                     "decorators": [],
                     "name": "d",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2229,7 +2349,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1667,
                       "decorators": [],
                       "name": "e",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -2244,9 +2365,11 @@ __ESTREE_TEST__:PASS:
           "end": 1637,
           "decorators": [],
           "name": "SubTup2VariadicWithLeadingFixedElements",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -2259,7 +2382,8 @@ __ESTREE_TEST__:PASS:
         "end": 1730,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -2269,13 +2393,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1754,
           "end": 1755,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1754,
             "end": 1755,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -2323,6 +2449,7 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -2330,7 +2457,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1788,
                     "decorators": [],
                     "name": "B",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -2352,13 +2480,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1822,
           "end": 1823,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1822,
             "end": 1823,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -2382,6 +2512,7 @@ __ESTREE_TEST__:PASS:
                 "end": 1748
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -2389,7 +2520,8 @@ __ESTREE_TEST__:PASS:
               "end": 1732,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -2407,7 +2539,8 @@ __ESTREE_TEST__:PASS:
         "end": 1893,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElementsTest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -2454,7 +2587,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1950,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -2481,7 +2615,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1958,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2507,7 +2642,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1964,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2533,7 +2669,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1970,
                     "decorators": [],
                     "name": "d",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -2547,9 +2684,11 @@ __ESTREE_TEST__:PASS:
           "end": 1944,
           "decorators": [],
           "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -2562,7 +2701,8 @@ __ESTREE_TEST__:PASS:
         "end": 2035,
         "decorators": [],
         "name": "SubTup2TrailingVariadicWithTrailingFixedElementsTest2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -2609,7 +2749,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2092,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false
                   }
@@ -2636,7 +2777,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2100,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2662,7 +2804,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2106,
                     "decorators": [],
                     "name": "c",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2688,7 +2831,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2112,
                     "decorators": [],
                     "name": "d",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 },
@@ -2714,7 +2858,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2118,
                     "decorators": [],
                     "name": "e",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false
                 }
@@ -2728,9 +2873,11 @@ __ESTREE_TEST__:PASS:
           "end": 2086,
           "decorators": [],
           "name": "SubTup2TrailingVariadicWithTrailingFixedElements",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -29,10 +29,13 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Service",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -74,7 +77,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "Service",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -83,7 +87,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "Service",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -136,6 +141,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 107,
             "end": 151,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -144,7 +150,8 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -188,13 +195,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 135,
                         "end": 142,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 135,
                           "end": 142,
                           "decorators": [],
                           "name": "Service",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -202,13 +211,16 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 157,
             "end": 195,
+            "accessibility": null,
             "computed": false,
             "decorators": [
               {
@@ -221,7 +233,8 @@ __ESTREE_TEST__:PASS:
                   "end": 167,
                   "decorators": [],
                   "name": "decorator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -231,7 +244,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -271,7 +285,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -288,7 +304,8 @@ __ESTREE_TEST__:PASS:
             "end": 82,
             "decorators": [],
             "name": "decorator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -298,10 +315,13 @@ __ESTREE_TEST__:PASS:
         "end": 100,
         "decorators": [],
         "name": "MyComponent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

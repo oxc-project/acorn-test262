@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 33,
               "end": 80,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 47,
                 "decorators": [],
                 "name": "translationKey",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -43,6 +45,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 49,
                   "end": 79,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 49,
@@ -53,7 +56,8 @@ __ESTREE_TEST__:PASS:
                       "end": 60,
                       "decorators": [],
                       "name": "Translation",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -61,7 +65,8 @@ __ESTREE_TEST__:PASS:
                       "end": 79,
                       "decorators": [],
                       "name": "TranslationKeyEnum",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -77,8 +82,10 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "Translation",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -114,7 +121,8 @@ __ESTREE_TEST__:PASS:
                   "end": 147,
                   "decorators": [],
                   "name": "TranslationKeyEnum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeAnnotation": {
                   "type": "TSUnionType",
@@ -146,7 +154,8 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ]
-                }
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -173,7 +182,8 @@ __ESTREE_TEST__:PASS:
                       "end": 216,
                       "decorators": [],
                       "name": "TranslationKeyEnum",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ObjectExpression",
@@ -191,7 +201,8 @@ __ESTREE_TEST__:PASS:
                             "end": 237,
                             "decorators": [],
                             "name": "Translation1",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -212,13 +223,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 257,
                               "end": 275,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 257,
                                 "end": 275,
                                 "decorators": [],
                                 "name": "TranslationKeyEnum",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -234,7 +247,8 @@ __ESTREE_TEST__:PASS:
                             "end": 293,
                             "decorators": [],
                             "name": "Translation2",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -255,13 +269,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 313,
                               "end": 331,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 313,
                                 "end": 331,
                                 "decorators": [],
                                 "name": "TranslationKeyEnum",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -287,7 +303,8 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "Translation",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -331,7 +348,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "Translation",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -340,7 +358,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "Translation",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -355,7 +374,8 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "TranslationKeyEnum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -368,7 +388,8 @@ __ESTREE_TEST__:PASS:
           "end": 84,
           "decorators": [],
           "name": "Translation",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -376,7 +397,8 @@ __ESTREE_TEST__:PASS:
           "end": 103,
           "decorators": [],
           "name": "TranslationKeyEnum",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -399,6 +421,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 128,
               "end": 168,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -409,25 +432,29 @@ __ESTREE_TEST__:PASS:
                 "end": 146,
                 "decorators": [],
                 "name": "TranslationKeyEnum",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Identifier",
                 "start": 149,
                 "end": 167,
                 "decorators": [],
                 "name": "TranslationKeyEnum",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 171,
               "end": 234,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -436,7 +463,8 @@ __ESTREE_TEST__:PASS:
                 "end": 176,
                 "decorators": [],
                 "name": "print",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -456,6 +484,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 185,
                       "end": 230,
+                      "directive": null,
                       "expression": {
                         "type": "CallExpression",
                         "start": 185,
@@ -472,7 +501,8 @@ __ESTREE_TEST__:PASS:
                               "end": 215,
                               "decorators": [],
                               "name": "TranslationKeyEnum",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -481,7 +511,8 @@ __ESTREE_TEST__:PASS:
                               "end": 228,
                               "decorators": [],
                               "name": "Translation1",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ],
@@ -496,7 +527,8 @@ __ESTREE_TEST__:PASS:
                             "end": 192,
                             "decorators": [],
                             "name": "console",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -505,10 +537,12 @@ __ESTREE_TEST__:PASS:
                             "end": 196,
                             "decorators": [],
                             "name": "log",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -517,7 +551,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -530,10 +566,13 @@ __ESTREE_TEST__:PASS:
           "end": 123,
           "decorators": [],
           "name": "Test",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -575,7 +614,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -584,7 +624,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Test",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -593,6 +634,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 31,
       "end": 50,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
@@ -614,8 +656,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Test",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -624,10 +668,12 @@ __ESTREE_TEST__:PASS:
             "end": 47,
             "decorators": [],
             "name": "print",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

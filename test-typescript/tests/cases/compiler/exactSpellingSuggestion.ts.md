@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "BIT_0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "BinaryExpression",
@@ -59,7 +60,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "BIT_1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "BinaryExpression",
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "BIT_2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "BinaryExpression",
@@ -126,13 +129,15 @@ __ESTREE_TEST__:PASS:
         "end": 100,
         "decorators": [],
         "name": "U8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 173,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 165,
@@ -144,7 +149,8 @@ __ESTREE_TEST__:PASS:
           "end": 167,
           "decorators": [],
           "name": "U8",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -153,7 +159,8 @@ __ESTREE_TEST__:PASS:
           "end": 173,
           "decorators": [],
           "name": "bit_2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

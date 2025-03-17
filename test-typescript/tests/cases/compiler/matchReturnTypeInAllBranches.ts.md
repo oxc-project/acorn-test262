@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 95,
               "decorators": [],
               "name": "iceCreamFlavor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 134,
               "decorators": [],
               "name": "iceCreamRemaining",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -96,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 170,
               "decorators": [],
               "name": "wantsSprinkles",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -129,7 +132,8 @@ __ESTREE_TEST__:PASS:
               "end": 209,
               "decorators": [],
               "name": "soundsWhenEating",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -162,7 +166,8 @@ __ESTREE_TEST__:PASS:
               "end": 234,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -184,6 +189,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 248,
             "end": 562,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -192,7 +198,8 @@ __ESTREE_TEST__:PASS:
               "end": 259,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -212,6 +219,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 359,
                     "end": 396,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 359,
@@ -234,7 +242,8 @@ __ESTREE_TEST__:PASS:
                           "end": 378,
                           "decorators": [],
                           "name": "iceCreamFlavor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -243,7 +252,8 @@ __ESTREE_TEST__:PASS:
                         "end": 395,
                         "decorators": [],
                         "name": "iceCreamFlavor",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -251,6 +261,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 405,
                     "end": 434,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 405,
@@ -273,7 +284,8 @@ __ESTREE_TEST__:PASS:
                           "end": 427,
                           "decorators": [],
                           "name": "iceCreamRemaining",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -289,6 +301,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 443,
                     "end": 480,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 443,
@@ -311,7 +324,8 @@ __ESTREE_TEST__:PASS:
                           "end": 462,
                           "decorators": [],
                           "name": "wantsSprinkles",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -320,7 +334,8 @@ __ESTREE_TEST__:PASS:
                         "end": 479,
                         "decorators": [],
                         "name": "wantsSprinkles",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -328,6 +343,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 489,
                     "end": 530,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 489,
@@ -350,7 +366,8 @@ __ESTREE_TEST__:PASS:
                           "end": 510,
                           "decorators": [],
                           "name": "soundsWhenEating",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -359,7 +376,8 @@ __ESTREE_TEST__:PASS:
                         "end": 529,
                         "decorators": [],
                         "name": "soundsWhenEating",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -367,6 +385,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 539,
                     "end": 556,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 539,
@@ -389,7 +408,8 @@ __ESTREE_TEST__:PASS:
                           "end": 548,
                           "decorators": [],
                           "name": "name",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -398,7 +418,8 @@ __ESTREE_TEST__:PASS:
                         "end": 555,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -481,7 +502,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -497,7 +520,8 @@ __ESTREE_TEST__:PASS:
               "end": 812,
               "decorators": [],
               "name": "eatIceCream",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -517,6 +541,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 848,
                     "end": 881,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 848,
@@ -539,7 +564,8 @@ __ESTREE_TEST__:PASS:
                           "end": 870,
                           "decorators": [],
                           "name": "iceCreamRemaining",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -548,7 +574,8 @@ __ESTREE_TEST__:PASS:
                         "end": 880,
                         "decorators": [],
                         "name": "amount",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -584,6 +611,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 945,
                           "end": 972,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 945,
@@ -606,7 +634,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 967,
                                 "decorators": [],
                                 "name": "iceCreamRemaining",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -654,7 +683,8 @@ __ESTREE_TEST__:PASS:
                           "end": 916,
                           "decorators": [],
                           "name": "iceCreamRemaining",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -701,7 +731,8 @@ __ESTREE_TEST__:PASS:
                   "start": 830,
                   "end": 837
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -714,10 +745,13 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "IceCreamMonster",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -744,13 +778,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1095,
                 "end": 1110,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1095,
                   "end": 1110,
                   "decorators": [],
                   "name": "IceCreamMonster",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -765,6 +801,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1112,
       "end": 1204,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1112,
@@ -776,7 +813,8 @@ __ESTREE_TEST__:PASS:
           "end": 1125,
           "decorators": [],
           "name": "cookieMonster",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "NewExpression",
@@ -818,8 +856,10 @@ __ESTREE_TEST__:PASS:
             "end": 1147,
             "decorators": [],
             "name": "IceCreamMonster",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       }
     }

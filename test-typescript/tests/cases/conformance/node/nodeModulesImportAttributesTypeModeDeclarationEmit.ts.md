@@ -28,8 +28,10 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "ImportInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -70,8 +72,10 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "RequireInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -105,7 +109,8 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "LocalInterface",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSIntersectionType",
@@ -144,7 +149,8 @@ __ESTREE_TEST__:PASS:
                       "end": 55,
                       "decorators": [],
                       "name": "with",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -190,7 +196,8 @@ __ESTREE_TEST__:PASS:
                 "end": 107,
                 "decorators": [],
                 "name": "RequireInterface",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeArguments": null
             },
@@ -226,7 +233,8 @@ __ESTREE_TEST__:PASS:
                       "end": 134,
                       "decorators": [],
                       "name": "with",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -272,12 +280,14 @@ __ESTREE_TEST__:PASS:
                 "end": 184,
                 "decorators": [],
                 "name": "ImportInterface",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeArguments": null
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -304,7 +314,8 @@ __ESTREE_TEST__:PASS:
               "end": 201,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -359,7 +370,8 @@ __ESTREE_TEST__:PASS:
                         "end": 240,
                         "decorators": [],
                         "name": "with",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -405,7 +417,8 @@ __ESTREE_TEST__:PASS:
                   "end": 292,
                   "decorators": [],
                   "name": "RequireInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeArguments": null
               }
@@ -440,7 +453,8 @@ __ESTREE_TEST__:PASS:
               "end": 309,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -495,7 +509,8 @@ __ESTREE_TEST__:PASS:
                         "end": 348,
                         "decorators": [],
                         "name": "with",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -541,7 +556,8 @@ __ESTREE_TEST__:PASS:
                   "end": 398,
                   "decorators": [],
                   "name": "ImportInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "typeArguments": null
               }

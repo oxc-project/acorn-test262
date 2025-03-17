@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 160,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "handleParamGovernance",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -59,6 +61,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 53,
                 "end": 157,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
                   "end": 64,
                   "decorators": [],
                   "name": "publicMixin",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -84,6 +88,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 72,
                         "end": 152,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -91,7 +96,8 @@ __ESTREE_TEST__:PASS:
                           "end": 89,
                           "decorators": [],
                           "name": "getGovernedParams",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -141,7 +147,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 150,
                                         "decorators": [],
                                         "name": "ParamStateRecord",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "typeArguments": null
                                     }
@@ -157,7 +164,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 107,
                                     "decorators": [],
                                     "name": "globalThis",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "right": {
                                     "type": "Identifier",
@@ -165,11 +173,13 @@ __ESTREE_TEST__:PASS:
                                     "end": 112,
                                     "decorators": [],
                                     "name": "ERef",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
-                            }
+                            },
+                            "typeParameters": null
                           }
                         }
                       }
@@ -179,7 +189,8 @@ __ESTREE_TEST__:PASS:
               }
             ]
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -208,7 +219,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "_ERef",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -219,13 +231,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 16,
             "end": 17,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 16,
               "end": 17,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -241,13 +255,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 28,
                   "end": 29,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 28,
                     "end": 29,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -258,7 +274,8 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "Promise",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -273,6 +290,8 @@ __ESTREE_TEST__:PASS:
             "start": 11,
             "end": 12,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -280,7 +299,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -311,7 +331,8 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "ParamStateRecord",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -320,7 +341,8 @@ __ESTREE_TEST__:PASS:
             "end": 78,
             "decorators": [],
             "name": "_ParamStateRecord",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -353,7 +375,8 @@ __ESTREE_TEST__:PASS:
                   "end": 168,
                   "decorators": [],
                   "name": "ERef",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "exportKind": "value",
                 "local": {
@@ -362,7 +385,8 @@ __ESTREE_TEST__:PASS:
                   "end": 160,
                   "decorators": [],
                   "name": "_ERef",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -375,7 +399,8 @@ __ESTREE_TEST__:PASS:
                   "end": 211,
                   "decorators": [],
                   "name": "ParamStateRecord",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "exportKind": "value",
                 "local": {
@@ -384,7 +409,8 @@ __ESTREE_TEST__:PASS:
                   "end": 191,
                   "decorators": [],
                   "name": "_ParamStateRecord",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -399,7 +425,8 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }

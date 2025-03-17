@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 19,
             "end": 29,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 30,
             "end": 40,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "r",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -83,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 41,
             "end": 51,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -93,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -115,6 +121,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 52,
             "end": 62,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -125,7 +132,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -153,10 +161,13 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "_Color",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -171,6 +182,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 94,
             "end": 108,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -178,7 +190,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "azure",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -191,13 +204,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 101,
                 "end": 107,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 101,
                   "end": 107,
                   "decorators": [],
                   "name": "_Color",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -206,6 +221,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 113,
             "end": 128,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -225,13 +241,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 121,
                 "end": 127,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 121,
                   "end": 127,
                   "decorators": [],
                   "name": "_Color",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -240,6 +258,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 133,
             "end": 153,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -259,13 +278,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 146,
                 "end": 152,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 146,
                   "end": 152,
                   "decorators": [],
                   "name": "_Color",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -280,8 +301,10 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "NamedColors",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -322,13 +345,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 199,
                         "end": 210,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 199,
                           "end": 210,
                           "decorators": [],
                           "name": "NamedColors",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -353,7 +378,8 @@ __ESTREE_TEST__:PASS:
         "end": 168,
         "decorators": [],
         "name": "Color",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -373,7 +399,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -391,7 +418,8 @@ __ESTREE_TEST__:PASS:
                 "end": 227,
                 "decorators": [],
                 "name": "Color",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -400,7 +428,8 @@ __ESTREE_TEST__:PASS:
                 "end": 239,
                 "decorators": [],
                 "name": "namedColors",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -433,7 +462,8 @@ __ESTREE_TEST__:PASS:
             "end": 255,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -451,7 +481,8 @@ __ESTREE_TEST__:PASS:
                 "end": 263,
                 "decorators": [],
                 "name": "Color",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -460,7 +491,8 @@ __ESTREE_TEST__:PASS:
                 "end": 275,
                 "decorators": [],
                 "name": "namedColors",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -470,7 +502,8 @@ __ESTREE_TEST__:PASS:
               "end": 280,
               "decorators": [],
               "name": "blue",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -494,7 +527,8 @@ __ESTREE_TEST__:PASS:
             "end": 307,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -512,7 +546,8 @@ __ESTREE_TEST__:PASS:
                 "end": 315,
                 "decorators": [],
                 "name": "Color",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -521,7 +556,8 @@ __ESTREE_TEST__:PASS:
                 "end": 327,
                 "decorators": [],
                 "name": "namedColors",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,

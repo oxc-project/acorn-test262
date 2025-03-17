@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 25,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 14,
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 23,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -42,9 +44,11 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "yield",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

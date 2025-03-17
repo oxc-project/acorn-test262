@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "someData",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -63,10 +64,13 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "Model",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -94,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "Backbone",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -134,7 +139,8 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "VisualizationModel",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -148,7 +154,8 @@ __ESTREE_TEST__:PASS:
             "end": 129,
             "decorators": [],
             "name": "Backbone",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -157,9 +164,12 @@ __ESTREE_TEST__:PASS:
             "end": 135,
             "decorators": [],
             "name": "Model",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -187,7 +197,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "Backbone",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
         "end": 95,
         "decorators": [],
         "name": "moduleA",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -242,6 +254,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 199,
             "end": 241,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -249,7 +262,8 @@ __ESTREE_TEST__:PASS:
               "end": 217,
               "decorators": [],
               "name": "VisualizationModel",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -272,7 +286,8 @@ __ESTREE_TEST__:PASS:
                     "end": 234,
                     "decorators": [],
                     "name": "Backbone",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -280,9 +295,11 @@ __ESTREE_TEST__:PASS:
                     "end": 240,
                     "decorators": [],
                     "name": "Model",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                }
+                },
+                "typeArguments": null
               }
             }
           }
@@ -296,8 +313,10 @@ __ESTREE_TEST__:PASS:
         "end": 192,
         "decorators": [],
         "name": "IHasVisualizationModel",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -313,6 +332,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 292,
             "end": 297,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -323,7 +343,8 @@ __ESTREE_TEST__:PASS:
               "end": 293,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -337,13 +358,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 295,
                 "end": 296,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 295,
                   "end": 296,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -359,10 +382,12 @@ __ESTREE_TEST__:PASS:
         "end": 251,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 251,
@@ -377,15 +402,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 262,
               "end": 284,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 262,
                 "end": 284,
                 "decorators": [],
                 "name": "IHasVisualizationModel",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -393,7 +421,8 @@ __ESTREE_TEST__:PASS:
               "end": 253,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -414,6 +443,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 348,
             "end": 360,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -424,19 +454,22 @@ __ESTREE_TEST__:PASS:
               "end": 349,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Identifier",
               "start": 352,
               "end": 359,
               "decorators": [],
               "name": "moduleA",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -449,7 +482,8 @@ __ESTREE_TEST__:PASS:
         "end": 307,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -458,7 +492,8 @@ __ESTREE_TEST__:PASS:
         "end": 317,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -469,17 +504,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 318,
             "end": 340,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 318,
               "end": 340,
               "decorators": [],
               "name": "IHasVisualizationModel",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

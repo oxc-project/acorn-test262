@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "ObjType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 19,
             "end": 29,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -54,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 30,
             "end": 40,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -61,7 +65,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -81,6 +86,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 41,
             "end": 51,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -88,7 +94,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -105,7 +112,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -118,7 +126,8 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "TupleType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -129,13 +138,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 73,
             "end": 81,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 73,
               "end": 81,
               "decorators": [],
               "name": "ObjType1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -149,7 +160,8 @@ __ESTREE_TEST__:PASS:
             "end": 97
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -165,6 +177,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 115,
             "end": 300,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -173,7 +186,8 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -243,7 +257,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 197,
                                   "decorators": [],
                                   "name": "x1",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -251,7 +266,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 203,
                                   "decorators": [],
                                   "name": "x2",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "right": {
@@ -260,7 +276,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 209,
                                 "decorators": [],
                                 "name": "x3",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -269,7 +286,8 @@ __ESTREE_TEST__:PASS:
                               "end": 214,
                               "decorators": [],
                               "name": "y",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "right": {
@@ -278,7 +296,8 @@ __ESTREE_TEST__:PASS:
                             "end": 219,
                             "decorators": [],
                             "name": "z",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -351,7 +370,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 251,
                                     "decorators": [],
                                     "name": "x1",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "right": {
@@ -371,7 +391,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 262,
                                     "decorators": [],
                                     "name": "x2",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -392,7 +413,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 273,
                                   "decorators": [],
                                   "name": "x3",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -413,7 +435,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 283,
                                 "decorators": [],
                                 "name": "y",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -434,7 +457,8 @@ __ESTREE_TEST__:PASS:
                               "end": 293,
                               "decorators": [],
                               "name": "z",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -481,7 +505,8 @@ __ESTREE_TEST__:PASS:
                               "end": 139,
                               "decorators": [],
                               "name": "x1",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "init",
                             "method": false,
@@ -493,7 +518,8 @@ __ESTREE_TEST__:PASS:
                               "end": 139,
                               "decorators": [],
                               "name": "x1",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -507,7 +533,8 @@ __ESTREE_TEST__:PASS:
                               "end": 143,
                               "decorators": [],
                               "name": "x2",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "init",
                             "method": false,
@@ -519,7 +546,8 @@ __ESTREE_TEST__:PASS:
                               "end": 143,
                               "decorators": [],
                               "name": "x2",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -533,7 +561,8 @@ __ESTREE_TEST__:PASS:
                               "end": 147,
                               "decorators": [],
                               "name": "x3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "init",
                             "method": false,
@@ -545,10 +574,12 @@ __ESTREE_TEST__:PASS:
                               "end": 147,
                               "decorators": [],
                               "name": "x3",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
-                        ]
+                        ],
+                        "typeAnnotation": null
                       },
                       {
                         "type": "Identifier",
@@ -556,7 +587,8 @@ __ESTREE_TEST__:PASS:
                         "end": 152,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       {
                         "type": "Identifier",
@@ -564,7 +596,8 @@ __ESTREE_TEST__:PASS:
                         "end": 155,
                         "decorators": [],
                         "name": "z",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ],
                     "optional": false,
@@ -576,13 +609,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 158,
                         "end": 168,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 158,
                           "end": 168,
                           "decorators": [],
                           "name": "TupleType1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -590,7 +625,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -603,10 +640,13 @@ __ESTREE_TEST__:PASS:
         "end": 108,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -624,7 +664,8 @@ __ESTREE_TEST__:PASS:
             "end": 309,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -652,7 +693,8 @@ __ESTREE_TEST__:PASS:
                           "end": 324,
                           "decorators": [],
                           "name": "x1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -677,7 +719,8 @@ __ESTREE_TEST__:PASS:
                           "end": 332,
                           "decorators": [],
                           "name": "x2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -702,7 +745,8 @@ __ESTREE_TEST__:PASS:
                           "end": 340,
                           "decorators": [],
                           "name": "x3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -741,8 +785,10 @@ __ESTREE_TEST__:PASS:
               "end": 318,
               "decorators": [],
               "name": "C1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -771,7 +817,8 @@ __ESTREE_TEST__:PASS:
                 "end": 372,
                 "decorators": [],
                 "name": "a_x1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -779,7 +826,8 @@ __ESTREE_TEST__:PASS:
                 "end": 378,
                 "decorators": [],
                 "name": "a_x2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -787,7 +835,8 @@ __ESTREE_TEST__:PASS:
                 "end": 384,
                 "decorators": [],
                 "name": "a_x3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -795,7 +844,8 @@ __ESTREE_TEST__:PASS:
                 "end": 389,
                 "decorators": [],
                 "name": "a_y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -803,10 +853,12 @@ __ESTREE_TEST__:PASS:
                 "end": 394,
                 "decorators": [],
                 "name": "a_z",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -824,7 +876,8 @@ __ESTREE_TEST__:PASS:
                   "end": 400,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -833,7 +886,8 @@ __ESTREE_TEST__:PASS:
                   "end": 403,
                   "decorators": [],
                   "name": "x1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -847,7 +901,8 @@ __ESTREE_TEST__:PASS:
                   "end": 406,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -856,7 +911,8 @@ __ESTREE_TEST__:PASS:
                   "end": 409,
                   "decorators": [],
                   "name": "x2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -870,7 +926,8 @@ __ESTREE_TEST__:PASS:
                   "end": 412,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -879,7 +936,8 @@ __ESTREE_TEST__:PASS:
                   "end": 415,
                   "decorators": [],
                   "name": "x3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -893,7 +951,8 @@ __ESTREE_TEST__:PASS:
                   "end": 418,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -902,7 +961,8 @@ __ESTREE_TEST__:PASS:
                   "end": 420,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -916,7 +976,8 @@ __ESTREE_TEST__:PASS:
                   "end": 423,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -925,7 +986,8 @@ __ESTREE_TEST__:PASS:
                   "end": 425,
                   "decorators": [],
                   "name": "z",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]

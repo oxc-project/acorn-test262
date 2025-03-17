@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "Hmm",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -55,6 +56,8 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 61,
                 "const": false,
+                "constraint": null,
+                "default": null,
                 "in": false,
                 "name": {
                   "type": "Identifier",
@@ -62,7 +65,8 @@ __ESTREE_TEST__:PASS:
                   "end": 61,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "out": false
               }
@@ -93,13 +97,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 76,
               "end": 77,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 76,
                 "end": 77,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -134,13 +140,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 92,
                     "end": 93,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 92,
                       "end": 93,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -172,7 +180,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

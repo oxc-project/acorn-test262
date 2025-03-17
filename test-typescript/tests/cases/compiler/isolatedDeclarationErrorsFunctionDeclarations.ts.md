@@ -30,9 +30,12 @@ __ESTREE_TEST__:PASS:
           "end": 24,
           "decorators": [],
           "name": "noReturn",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -63,7 +66,8 @@ __ESTREE_TEST__:PASS:
           "end": 64,
           "decorators": [],
           "name": "noParamAnnotation",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "returnType": {
@@ -84,7 +89,8 @@ __ESTREE_TEST__:PASS:
             "start": 69,
             "end": 73
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -115,7 +121,8 @@ __ESTREE_TEST__:PASS:
           "end": 118,
           "decorators": [],
           "name": "noParamAnnotationDefault",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -138,7 +146,8 @@ __ESTREE_TEST__:PASS:
               "end": 124,
               "raw": "1",
               "value": 1
-            }
+            },
+            "typeAnnotation": null
           }
         ],
         "returnType": {
@@ -150,7 +159,8 @@ __ESTREE_TEST__:PASS:
             "start": 127,
             "end": 131
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -181,7 +191,8 @@ __ESTREE_TEST__:PASS:
           "end": 179,
           "decorators": [],
           "name": "noParamAnnotationBadDefault",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -195,7 +206,8 @@ __ESTREE_TEST__:PASS:
               "end": 181,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -217,7 +229,8 @@ __ESTREE_TEST__:PASS:
                 "raw": "1",
                 "value": 1
               }
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "AssignmentPattern",
@@ -230,7 +243,8 @@ __ESTREE_TEST__:PASS:
               "end": 193,
               "decorators": [],
               "name": "p2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -249,7 +263,8 @@ __ESTREE_TEST__:PASS:
                     "end": 199,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -277,7 +292,8 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ]
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "AssignmentPattern",
@@ -290,7 +306,8 @@ __ESTREE_TEST__:PASS:
               "end": 212,
               "decorators": [],
               "name": "p3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -328,16 +345,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 226,
                 "end": 231,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 226,
                   "end": 231,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeAnnotation": null
           }
         ],
         "returnType": {
@@ -349,7 +369,8 @@ __ESTREE_TEST__:PASS:
             "start": 234,
             "end": 238
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -380,7 +401,8 @@ __ESTREE_TEST__:PASS:
           "end": 287,
           "decorators": [],
           "name": "noParamAnnotationBadDefault2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -394,7 +416,8 @@ __ESTREE_TEST__:PASS:
               "end": 289,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -413,7 +436,8 @@ __ESTREE_TEST__:PASS:
                     "end": 295,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -441,7 +465,8 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               ]
-            }
+            },
+            "typeAnnotation": null
           }
         ],
         "returnType": {
@@ -453,7 +478,8 @@ __ESTREE_TEST__:PASS:
             "start": 307,
             "end": 311
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

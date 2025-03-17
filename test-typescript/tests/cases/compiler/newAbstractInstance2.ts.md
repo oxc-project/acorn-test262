@@ -24,7 +24,9 @@ __ESTREE_TEST__:PASS:
         "decorators": [],
         "id": null,
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -73,6 +76,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 21,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 21,
@@ -84,8 +88,10 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "A",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

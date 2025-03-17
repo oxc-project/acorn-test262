@@ -13,6 +13,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 107,
         "end": 121,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 107,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -38,7 +40,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "console",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -47,10 +50,12 @@ __ESTREE_TEST__:PASS:
               "end": 118,
               "decorators": [],
               "name": "log",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "left": {
@@ -80,7 +85,8 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -101,10 +107,12 @@ __ESTREE_TEST__:PASS:
                       "end": 91,
                       "properties": []
                     }
-                  }
+                  },
+                  "typeAnnotation": null
                 }
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -152,6 +160,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 161,
         "end": 175,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 161,
@@ -163,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 174,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -177,7 +187,8 @@ __ESTREE_TEST__:PASS:
               "end": 168,
               "decorators": [],
               "name": "console",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -186,10 +197,12 @@ __ESTREE_TEST__:PASS:
               "end": 172,
               "decorators": [],
               "name": "log",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "left": {
@@ -220,7 +233,8 @@ __ESTREE_TEST__:PASS:
                     "end": 133,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -237,7 +251,8 @@ __ESTREE_TEST__:PASS:
                       "end": 133,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -258,10 +273,12 @@ __ESTREE_TEST__:PASS:
                         "end": 145,
                         "properties": []
                       }
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 }
-              ]
+              ],
+              "typeAnnotation": null
             },
             "init": null
           }

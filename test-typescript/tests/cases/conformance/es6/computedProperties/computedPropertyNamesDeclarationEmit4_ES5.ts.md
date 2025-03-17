@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 13,
                     "end": 31,
+                    "accessibility": null,
                     "computed": true,
                     "key": {
                       "type": "BinaryExpression",
@@ -70,7 +71,8 @@ __ESTREE_TEST__:PASS:
                         "end": 30
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               }

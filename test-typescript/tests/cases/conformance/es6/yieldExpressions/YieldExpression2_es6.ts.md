@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
+      "directive": null,
       "expression": {
         "type": "YieldExpression",
         "start": 0,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
           "end": 9,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "delegate": false
       }

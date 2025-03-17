@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 54,
             "end": 65,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 70,
             "end": 79,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -75,13 +79,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 77,
                 "end": 78,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 77,
                   "end": 78,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -97,10 +103,12 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "clodule1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 44,
@@ -111,6 +119,8 @@ __ESTREE_TEST__:PASS:
             "start": 45,
             "end": 46,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -118,7 +128,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -154,7 +165,8 @@ __ESTREE_TEST__:PASS:
               "end": 115,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -172,18 +184,22 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 119,
                     "end": 120,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 119,
                       "end": 120,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -195,7 +211,8 @@ __ESTREE_TEST__:PASS:
         "end": 98,
         "decorators": [],
         "name": "clodule1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -213,6 +230,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 153,
             "end": 164,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -223,7 +241,8 @@ __ESTREE_TEST__:PASS:
               "end": 155,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -245,6 +264,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 169,
             "end": 178,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -255,7 +275,8 @@ __ESTREE_TEST__:PASS:
               "end": 174,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -269,13 +290,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 176,
                 "end": 177,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 176,
                   "end": 177,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -291,10 +314,12 @@ __ESTREE_TEST__:PASS:
         "end": 143,
         "decorators": [],
         "name": "clodule2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 143,
@@ -305,6 +330,8 @@ __ESTREE_TEST__:PASS:
             "start": 144,
             "end": 145,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -312,7 +339,8 @@ __ESTREE_TEST__:PASS:
               "end": 145,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -353,13 +381,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 211,
                       "end": 212,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 211,
                         "end": 212,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -384,6 +414,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 249,
                   "end": 260,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -394,7 +425,8 @@ __ESTREE_TEST__:PASS:
                     "end": 251,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -416,6 +448,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 269,
                   "end": 278,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -426,7 +459,8 @@ __ESTREE_TEST__:PASS:
                     "end": 274,
                     "decorators": [],
                     "name": "value",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -440,13 +474,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 276,
                       "end": 277,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 276,
                         "end": 277,
                         "decorators": [],
                         "name": "U",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -462,10 +498,12 @@ __ESTREE_TEST__:PASS:
               "end": 226,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": null,
+            "superTypeArguments": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 226,
@@ -480,15 +518,18 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 237,
                     "end": 238,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 237,
                       "end": 238,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -496,7 +537,8 @@ __ESTREE_TEST__:PASS:
                     "end": 228,
                     "decorators": [],
                     "name": "U",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -513,7 +555,8 @@ __ESTREE_TEST__:PASS:
         "end": 197,
         "decorators": [],
         "name": "clodule2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -531,6 +574,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 312,
             "end": 323,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -541,7 +585,8 @@ __ESTREE_TEST__:PASS:
               "end": 314,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -563,6 +608,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 328,
             "end": 337,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -573,7 +619,8 @@ __ESTREE_TEST__:PASS:
               "end": 333,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -587,13 +634,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 335,
                 "end": 336,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 335,
                   "end": 336,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -609,10 +658,12 @@ __ESTREE_TEST__:PASS:
         "end": 302,
         "decorators": [],
         "name": "clodule3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 302,
@@ -623,6 +674,8 @@ __ESTREE_TEST__:PASS:
             "start": 303,
             "end": 304,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -630,7 +683,8 @@ __ESTREE_TEST__:PASS:
               "end": 304,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -667,7 +721,8 @@ __ESTREE_TEST__:PASS:
                     "end": 375,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -685,7 +740,8 @@ __ESTREE_TEST__:PASS:
                           "end": 382,
                           "decorators": [],
                           "name": "id",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -697,7 +753,8 @@ __ESTREE_TEST__:PASS:
                           "end": 385,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -721,7 +778,8 @@ __ESTREE_TEST__:PASS:
         "end": 356,
         "decorators": [],
         "name": "clodule3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -739,6 +797,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 416,
             "end": 427,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -749,7 +808,8 @@ __ESTREE_TEST__:PASS:
               "end": 418,
               "decorators": [],
               "name": "id",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -771,6 +831,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 432,
             "end": 441,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -781,7 +842,8 @@ __ESTREE_TEST__:PASS:
               "end": 437,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -795,13 +857,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 439,
                 "end": 440,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 439,
                   "end": 440,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -817,10 +881,12 @@ __ESTREE_TEST__:PASS:
         "end": 406,
         "decorators": [],
         "name": "clodule4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 406,
@@ -831,6 +897,8 @@ __ESTREE_TEST__:PASS:
             "start": 407,
             "end": 408,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -838,7 +906,8 @@ __ESTREE_TEST__:PASS:
               "end": 408,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -868,6 +937,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 485,
                   "end": 493,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -878,7 +948,8 @@ __ESTREE_TEST__:PASS:
                     "end": 489,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -892,13 +963,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 491,
                       "end": 492,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 491,
                         "end": 492,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -914,10 +987,13 @@ __ESTREE_TEST__:PASS:
               "end": 474,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -929,7 +1005,8 @@ __ESTREE_TEST__:PASS:
         "end": 460,
         "decorators": [],
         "name": "clodule4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

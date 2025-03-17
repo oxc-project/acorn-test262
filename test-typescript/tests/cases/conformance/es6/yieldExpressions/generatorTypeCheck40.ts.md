@@ -34,7 +34,8 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
             "superClass": {
@@ -49,7 +50,9 @@ __ESTREE_TEST__:PASS:
                 "value": 0
               },
               "delegate": false
-            }
+            },
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -62,9 +65,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Type",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
@@ -32,6 +33,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 21,
               "end": 40,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -57,6 +60,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 27,
                       "end": 38,
+                      "accessibility": null,
                       "computed": true,
                       "key": {
                         "type": "MemberExpression",
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
                           "end": 32,
                           "decorators": [],
                           "name": "Enum",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -78,7 +83,8 @@ __ESTREE_TEST__:PASS:
                           "end": 34,
                           "decorators": [],
                           "name": "A",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "optional": false,
@@ -107,7 +113,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -149,7 +156,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "Type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "type",
           "local": {
@@ -158,7 +166,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "Type",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -184,7 +193,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -209,13 +219,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 68,
                       "end": 72,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 68,
                         "end": 72,
                         "decorators": [],
                         "name": "Type",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }

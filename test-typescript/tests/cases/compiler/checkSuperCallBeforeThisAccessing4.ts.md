@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "Based",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -54,7 +57,8 @@ __ESTREE_TEST__:PASS:
               "end": 59,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -76,6 +80,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 73,
             "end": 354,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -84,7 +89,8 @@ __ESTREE_TEST__:PASS:
               "end": 84,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -104,6 +110,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 97,
                     "end": 148,
+                    "directive": null,
                     "expression": {
                       "type": "ArrowFunctionExpression",
                       "start": 98,
@@ -118,6 +125,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 118,
                             "end": 123,
+                            "directive": null,
                             "expression": {
                               "type": "ThisExpression",
                               "start": 118,
@@ -129,13 +137,16 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 157,
                     "end": 206,
+                    "directive": null,
                     "expression": {
                       "type": "ArrowFunctionExpression",
                       "start": 157,
@@ -150,6 +161,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 177,
                             "end": 182,
+                            "directive": null,
                             "expression": {
                               "type": "ThisExpression",
                               "start": 177,
@@ -161,13 +173,16 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 215,
                     "end": 268,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 215,
@@ -187,6 +202,7 @@ __ESTREE_TEST__:PASS:
                               "type": "ExpressionStatement",
                               "start": 236,
                               "end": 241,
+                              "directive": null,
                               "expression": {
                                 "type": "ThisExpression",
                                 "start": 236,
@@ -198,15 +214,19 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 277,
                     "end": 285,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 277,
@@ -217,13 +237,15 @@ __ESTREE_TEST__:PASS:
                         "start": 277,
                         "end": 282
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 294,
                     "end": 302,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 294,
@@ -234,13 +256,15 @@ __ESTREE_TEST__:PASS:
                         "start": 294,
                         "end": 299
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 311,
                     "end": 323,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 311,
@@ -263,7 +287,8 @@ __ESTREE_TEST__:PASS:
                           "end": 317,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -291,7 +316,8 @@ __ESTREE_TEST__:PASS:
                           "end": 340,
                           "decorators": [],
                           "name": "that",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "ThisExpression",
@@ -309,7 +335,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -322,7 +350,8 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -331,8 +360,11 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "Based",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

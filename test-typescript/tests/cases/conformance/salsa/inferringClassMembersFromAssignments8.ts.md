@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "app",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -49,7 +50,8 @@ __ESTREE_TEST__:PASS:
                         "end": 91,
                         "decorators": [],
                         "name": "_this",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "ThisExpression",
@@ -65,6 +67,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 104,
                   "end": 131,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 104,
@@ -81,7 +84,8 @@ __ESTREE_TEST__:PASS:
                         "end": 109,
                         "decorators": [],
                         "name": "_this",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -90,7 +94,8 @@ __ESTREE_TEST__:PASS:
                         "end": 114,
                         "decorators": [],
                         "name": "swap",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "right": {
@@ -108,7 +113,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 }
@@ -118,7 +125,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -141,7 +150,8 @@ __ESTREE_TEST__:PASS:
             "end": 139,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -154,8 +164,10 @@ __ESTREE_TEST__:PASS:
               "end": 149,
               "decorators": [],
               "name": "app",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -166,13 +178,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 152,
       "end": 153,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 152,
         "end": 153,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

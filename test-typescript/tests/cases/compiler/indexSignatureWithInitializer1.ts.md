@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 12,
             "end": 36,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "AssignmentPattern",
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
                   "end": 26,
                   "raw": "1",
                   "value": 1
-                }
+                },
+                "typeAnnotation": null
               }
             ],
             "readonly": false,
@@ -76,10 +78,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 43,
             "end": 66,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "_commandBased",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 71,
             "end": 96,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 86,
               "decorators": [],
               "name": "_commandElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -83,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 101,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -93,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 115,
               "decorators": [],
               "name": "commandElement",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -115,6 +121,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 131,
             "end": 551,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -123,7 +130,8 @@ __ESTREE_TEST__:PASS:
               "end": 142,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -152,6 +160,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 352,
                           "end": 379,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 352,
@@ -174,7 +183,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 370,
                                 "decorators": [],
                                 "name": "_commandBased",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -197,6 +207,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 238,
                           "end": 264,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 238,
@@ -219,7 +230,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 256,
                                 "decorators": [],
                                 "name": "_commandBased",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -235,6 +247,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 277,
                           "end": 322,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 277,
@@ -257,7 +270,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 297,
                                 "decorators": [],
                                 "name": "_commandElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -271,7 +285,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 306,
                                 "decorators": [],
                                 "name": "target",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "property": {
@@ -280,7 +295,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 321,
                                 "decorators": [],
                                 "name": "commandElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -298,7 +314,8 @@ __ESTREE_TEST__:PASS:
                         "end": 180,
                         "decorators": [],
                         "name": "target",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -306,7 +323,8 @@ __ESTREE_TEST__:PASS:
                         "end": 222,
                         "decorators": [],
                         "name": "DatasourceCommandWidgetElement",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -324,6 +342,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 490,
                           "end": 535,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 490,
@@ -346,7 +365,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 510,
                                 "decorators": [],
                                 "name": "_commandElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "right": {
@@ -360,7 +380,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 519,
                                 "decorators": [],
                                 "name": "target",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "property": {
@@ -369,7 +390,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 534,
                                 "decorators": [],
                                 "name": "commandElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -398,7 +420,8 @@ __ESTREE_TEST__:PASS:
                           "end": 421,
                           "decorators": [],
                           "name": "_commandBased",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -412,7 +435,8 @@ __ESTREE_TEST__:PASS:
                           "end": 431,
                           "decorators": [],
                           "name": "target",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -420,7 +444,8 @@ __ESTREE_TEST__:PASS:
                           "end": 473,
                           "decorators": [],
                           "name": "DatasourceCommandWidgetElement",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -450,7 +475,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -463,10 +490,13 @@ __ESTREE_TEST__:PASS:
         "end": 36,
         "decorators": [],
         "name": "DatasourceCommandWidgetElement",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

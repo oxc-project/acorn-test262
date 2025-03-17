@@ -63,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 110,
             "end": 178,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 110,
@@ -84,7 +85,8 @@ __ESTREE_TEST__:PASS:
                     "end": 114,
                     "decorators": [],
                     "name": "comp",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                     "end": 117,
                     "decorators": [],
                     "name": "sp",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "optional": false,
@@ -103,7 +106,8 @@ __ESTREE_TEST__:PASS:
                   "end": 119,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -132,7 +136,8 @@ __ESTREE_TEST__:PASS:
                           "end": 150,
                           "decorators": [],
                           "name": "k",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -141,7 +146,8 @@ __ESTREE_TEST__:PASS:
                           "end": 152,
                           "decorators": [],
                           "name": "c",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -173,7 +179,8 @@ __ESTREE_TEST__:PASS:
                             "end": 161,
                             "decorators": [],
                             "name": "comp",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -182,7 +189,8 @@ __ESTREE_TEST__:PASS:
                             "end": 164,
                             "decorators": [],
                             "name": "xp",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -209,7 +217,9 @@ __ESTREE_TEST__:PASS:
                           }
                         }
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 ],
                 "callee": {
@@ -233,7 +243,8 @@ __ESTREE_TEST__:PASS:
                         "end": 126,
                         "decorators": [],
                         "name": "comp",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -242,7 +253,8 @@ __ESTREE_TEST__:PASS:
                         "end": 129,
                         "decorators": [],
                         "name": "sp",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,
@@ -252,7 +264,8 @@ __ESTREE_TEST__:PASS:
                       "end": 131,
                       "decorators": [],
                       "name": "r",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -262,10 +275,12 @@ __ESTREE_TEST__:PASS:
                     "end": 136,
                     "decorators": [],
                     "name": "find",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           },
@@ -283,6 +298,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 220,
                   "end": 245,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 220,
@@ -299,7 +315,8 @@ __ESTREE_TEST__:PASS:
                         "end": 224,
                         "decorators": [],
                         "name": "item",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -308,7 +325,8 @@ __ESTREE_TEST__:PASS:
                         "end": 226,
                         "decorators": [],
                         "name": "v",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "right": {
@@ -339,7 +357,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 235,
                                 "decorators": [],
                                 "name": "item",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "property": {
@@ -348,7 +367,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 237,
                                 "decorators": [],
                                 "name": "t",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": true,
@@ -358,7 +378,8 @@ __ESTREE_TEST__:PASS:
                               "end": 245,
                               "decorators": [],
                               "name": "length",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -388,7 +409,8 @@ __ESTREE_TEST__:PASS:
                     "end": 198,
                     "decorators": [],
                     "name": "item",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -407,7 +429,8 @@ __ESTREE_TEST__:PASS:
                 "end": 206,
                 "decorators": [],
                 "name": "comp",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -416,7 +439,8 @@ __ESTREE_TEST__:PASS:
                 "end": 208,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -438,7 +462,8 @@ __ESTREE_TEST__:PASS:
               "end": 94,
               "decorators": [],
               "name": "comp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -452,7 +477,8 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "list",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 33,
       "end": 45,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 33,
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -72,6 +75,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 46,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 46,
@@ -87,7 +91,8 @@ __ESTREE_TEST__:PASS:
             "end": 52,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -105,6 +110,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 59,
@@ -120,7 +126,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": false
@@ -138,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 72,
       "end": 84,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 72,
@@ -153,7 +161,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -171,6 +180,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 85,
       "end": 104,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 85,
@@ -186,7 +196,8 @@ __ESTREE_TEST__:PASS:
             "end": 91,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -202,7 +213,8 @@ __ESTREE_TEST__:PASS:
             "end": 98,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -218,6 +230,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 105,
       "end": 124,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 105,
@@ -233,7 +246,8 @@ __ESTREE_TEST__:PASS:
             "end": 111,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -249,7 +263,8 @@ __ESTREE_TEST__:PASS:
             "end": 118,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -265,6 +280,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 125,
       "end": 144,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 125,
@@ -280,7 +296,8 @@ __ESTREE_TEST__:PASS:
             "end": 131,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -296,7 +313,8 @@ __ESTREE_TEST__:PASS:
             "end": 138,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -312,6 +330,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 145,
       "end": 164,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 145,
@@ -327,7 +346,8 @@ __ESTREE_TEST__:PASS:
             "end": 151,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -343,7 +363,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -359,6 +380,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 165,
       "end": 184,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 165,
@@ -374,7 +396,8 @@ __ESTREE_TEST__:PASS:
             "end": 171,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -390,7 +413,8 @@ __ESTREE_TEST__:PASS:
             "end": 178,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -406,6 +430,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 185,
       "end": 197,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 185,
@@ -421,7 +446,8 @@ __ESTREE_TEST__:PASS:
             "end": 189,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -439,6 +465,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 198,
       "end": 210,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 198,
@@ -454,7 +481,8 @@ __ESTREE_TEST__:PASS:
             "end": 202,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": false
@@ -472,6 +500,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 211,
       "end": 227,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 211,
@@ -487,7 +516,8 @@ __ESTREE_TEST__:PASS:
             "end": 215,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -502,7 +532,8 @@ __ESTREE_TEST__:PASS:
             "end": 226,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "-",
           "prefix": true
@@ -513,6 +544,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 228,
       "end": 244,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 228,
@@ -528,7 +560,8 @@ __ESTREE_TEST__:PASS:
             "end": 232,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": false
@@ -543,7 +576,8 @@ __ESTREE_TEST__:PASS:
             "end": 243,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "+",
           "prefix": true
@@ -554,6 +588,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 246,
       "end": 265,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 246,
@@ -569,7 +604,8 @@ __ESTREE_TEST__:PASS:
             "end": 250,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -585,7 +621,8 @@ __ESTREE_TEST__:PASS:
             "end": 259,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -601,6 +638,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 266,
       "end": 285,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 266,
@@ -616,7 +654,8 @@ __ESTREE_TEST__:PASS:
             "end": 270,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -632,7 +671,8 @@ __ESTREE_TEST__:PASS:
             "end": 279,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -648,6 +688,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 286,
       "end": 305,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 286,
@@ -663,7 +704,8 @@ __ESTREE_TEST__:PASS:
             "end": 290,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -679,7 +721,8 @@ __ESTREE_TEST__:PASS:
             "end": 299,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -695,6 +738,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 306,
       "end": 325,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 306,
@@ -710,7 +754,8 @@ __ESTREE_TEST__:PASS:
             "end": 310,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -726,7 +771,8 @@ __ESTREE_TEST__:PASS:
             "end": 319,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -742,6 +788,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 326,
       "end": 345,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 326,
@@ -757,7 +804,8 @@ __ESTREE_TEST__:PASS:
             "end": 330,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -773,7 +821,8 @@ __ESTREE_TEST__:PASS:
             "end": 339,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Literal",
@@ -789,6 +838,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 347,
       "end": 363,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 347,
@@ -804,7 +854,8 @@ __ESTREE_TEST__:PASS:
             "end": 353,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -835,6 +886,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 364,
       "end": 380,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 364,
@@ -850,7 +902,8 @@ __ESTREE_TEST__:PASS:
             "end": 370,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -881,6 +934,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 381,
       "end": 397,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 381,
@@ -896,7 +950,8 @@ __ESTREE_TEST__:PASS:
             "end": 387,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -927,6 +982,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 398,
       "end": 414,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 398,
@@ -942,7 +998,8 @@ __ESTREE_TEST__:PASS:
             "end": 404,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -973,6 +1030,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 415,
       "end": 431,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 415,
@@ -988,7 +1046,8 @@ __ESTREE_TEST__:PASS:
             "end": 421,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -1019,6 +1078,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 433,
       "end": 449,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 433,
@@ -1034,7 +1094,8 @@ __ESTREE_TEST__:PASS:
             "end": 439,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -1065,6 +1126,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 450,
       "end": 466,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 450,
@@ -1080,7 +1142,8 @@ __ESTREE_TEST__:PASS:
             "end": 456,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -1111,6 +1174,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 467,
       "end": 483,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 467,
@@ -1126,7 +1190,8 @@ __ESTREE_TEST__:PASS:
             "end": 473,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -1157,6 +1222,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 484,
       "end": 500,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 484,
@@ -1172,7 +1238,8 @@ __ESTREE_TEST__:PASS:
             "end": 490,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -1203,6 +1270,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 502,
       "end": 514,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 502,
@@ -1225,7 +1293,8 @@ __ESTREE_TEST__:PASS:
             "end": 513,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": true
@@ -1236,6 +1305,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 515,
       "end": 527,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 515,
@@ -1258,7 +1328,8 @@ __ESTREE_TEST__:PASS:
             "end": 526,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": true
@@ -1269,6 +1340,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 528,
       "end": 540,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 528,
@@ -1291,7 +1363,8 @@ __ESTREE_TEST__:PASS:
             "end": 537,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "++",
           "prefix": false
@@ -1302,6 +1375,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 541,
       "end": 553,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 541,
@@ -1324,7 +1398,8 @@ __ESTREE_TEST__:PASS:
             "end": 550,
             "decorators": [],
             "name": "temp",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "--",
           "prefix": false
@@ -1335,6 +1410,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 555,
       "end": 572,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 555,
@@ -1362,7 +1438,8 @@ __ESTREE_TEST__:PASS:
               "end": 566,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1381,6 +1458,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 573,
       "end": 590,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 573,
@@ -1408,7 +1486,8 @@ __ESTREE_TEST__:PASS:
               "end": 584,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true
@@ -1427,6 +1506,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 591,
       "end": 608,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 591,
@@ -1454,7 +1534,8 @@ __ESTREE_TEST__:PASS:
               "end": 600,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": false
@@ -1473,6 +1554,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 609,
       "end": 626,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 609,
@@ -1500,7 +1582,8 @@ __ESTREE_TEST__:PASS:
               "end": 618,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": false
@@ -1519,6 +1602,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 628,
       "end": 644,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 628,
@@ -1546,7 +1630,8 @@ __ESTREE_TEST__:PASS:
               "end": 639,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1565,6 +1650,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 645,
       "end": 661,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 645,
@@ -1592,7 +1678,8 @@ __ESTREE_TEST__:PASS:
               "end": 656,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1611,6 +1698,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 662,
       "end": 678,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 662,
@@ -1638,7 +1726,8 @@ __ESTREE_TEST__:PASS:
               "end": 673,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1657,6 +1746,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 679,
       "end": 695,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 679,
@@ -1684,7 +1774,8 @@ __ESTREE_TEST__:PASS:
               "end": 690,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1703,6 +1794,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 696,
       "end": 712,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 696,
@@ -1730,7 +1822,8 @@ __ESTREE_TEST__:PASS:
               "end": 707,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "++",
             "prefix": true
@@ -1749,6 +1842,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 714,
       "end": 730,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 714,
@@ -1776,7 +1870,8 @@ __ESTREE_TEST__:PASS:
               "end": 725,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true
@@ -1795,6 +1890,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 731,
       "end": 747,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 731,
@@ -1822,7 +1918,8 @@ __ESTREE_TEST__:PASS:
               "end": 742,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true
@@ -1841,6 +1938,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 748,
       "end": 764,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 748,
@@ -1868,7 +1966,8 @@ __ESTREE_TEST__:PASS:
               "end": 759,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true
@@ -1887,6 +1986,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 765,
       "end": 781,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 765,
@@ -1914,7 +2014,8 @@ __ESTREE_TEST__:PASS:
               "end": 776,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true
@@ -1933,6 +2034,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 782,
       "end": 798,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 782,
@@ -1960,7 +2062,8 @@ __ESTREE_TEST__:PASS:
               "end": 793,
               "decorators": [],
               "name": "temp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "--",
             "prefix": true

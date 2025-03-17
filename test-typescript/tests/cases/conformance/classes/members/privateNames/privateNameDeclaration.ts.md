@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 27,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 32,
             "end": 41,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -63,6 +65,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 39,
@@ -75,6 +78,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 46,
             "end": 58,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -107,6 +112,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 63,
             "end": 71,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -117,12 +123,14 @@ __ESTREE_TEST__:PASS:
               "end": 66,
               "decorators": [],
               "name": "qux",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 69,
@@ -135,6 +143,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 76,
             "end": 97,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -143,7 +152,8 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "quux",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -174,7 +184,8 @@ __ESTREE_TEST__:PASS:
                   "start": 84,
                   "end": 88
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -187,10 +198,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

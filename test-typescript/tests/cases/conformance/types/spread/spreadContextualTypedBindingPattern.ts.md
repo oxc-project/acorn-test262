@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 31,
             "end": 44,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "naam",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 47,
             "end": 58,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "age",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -78,8 +82,10 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "Person",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -106,13 +112,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 81,
                 "end": 87,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 81,
                   "end": 87,
                   "decorators": [],
                   "name": "Person",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -148,13 +156,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 109,
                 "end": 115,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 109,
                   "end": 115,
                   "decorators": [],
                   "name": "Person",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -193,7 +203,8 @@ __ESTREE_TEST__:PASS:
                   "end": 238,
                   "decorators": [],
                   "name": "naam",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -205,7 +216,8 @@ __ESTREE_TEST__:PASS:
                   "end": 238,
                   "decorators": [],
                   "name": "naam",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -219,7 +231,8 @@ __ESTREE_TEST__:PASS:
                   "end": 243,
                   "decorators": [],
                   "name": "age",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -231,10 +244,12 @@ __ESTREE_TEST__:PASS:
                   "end": 243,
                   "decorators": [],
                   "name": "age",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -251,7 +266,8 @@ __ESTREE_TEST__:PASS:
                   "end": 255,
                   "decorators": [],
                   "name": "bob",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -264,7 +280,8 @@ __ESTREE_TEST__:PASS:
                   "end": 265,
                   "decorators": [],
                   "name": "alice",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]

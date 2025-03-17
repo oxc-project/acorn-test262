@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 18,
             "end": 53,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
                     "start": 46,
                     "end": 52
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -85,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 58,
             "end": 90,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -144,7 +147,8 @@ __ESTREE_TEST__:PASS:
                     "start": 83,
                     "end": 89
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
@@ -158,8 +162,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -186,13 +192,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 120,
                 "end": 121,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 120,
                   "end": 121,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -256,7 +264,8 @@ __ESTREE_TEST__:PASS:
                             "end": 152,
                             "decorators": [],
                             "name": "y",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -265,7 +274,8 @@ __ESTREE_TEST__:PASS:
                             "end": 159,
                             "decorators": [],
                             "name": "length",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -282,9 +292,12 @@ __ESTREE_TEST__:PASS:
                       "end": 140,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -332,7 +345,8 @@ __ESTREE_TEST__:PASS:
                       "end": 184,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -341,7 +355,8 @@ __ESTREE_TEST__:PASS:
                       "end": 191,
                       "decorators": [],
                       "name": "length",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "expression": true,
@@ -354,9 +369,12 @@ __ESTREE_TEST__:PASS:
                       "end": 179,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

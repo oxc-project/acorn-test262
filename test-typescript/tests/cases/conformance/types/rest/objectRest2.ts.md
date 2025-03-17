@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 19,
       "end": 88,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 55,
         "decorators": [],
         "name": "connectionFromArray",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "members": []
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -101,7 +104,8 @@ __ESTREE_TEST__:PASS:
                     "end": 151,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -145,7 +149,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 203,
                                       "decorators": [],
                                       "name": "objects",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -157,10 +162,12 @@ __ESTREE_TEST__:PASS:
                                       "end": 203,
                                       "decorators": [],
                                       "name": "objects",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
-                                ]
+                                ],
+                                "typeAnnotation": null
                               },
                               "init": {
                                 "type": "AwaitExpression",
@@ -182,7 +189,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 223,
                                         "decorators": [],
                                         "name": "objects",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "kind": "init",
                                       "method": false,
@@ -228,7 +236,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 284,
                                       "decorators": [],
                                       "name": "objects",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     {
                                       "type": "Identifier",
@@ -236,7 +245,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 290,
                                       "decorators": [],
                                       "name": "args",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   ],
                                   "callee": {
@@ -245,9 +255,11 @@ __ESTREE_TEST__:PASS:
                                     "end": 276,
                                     "decorators": [],
                                     "name": "connectionFromArray",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
-                                  "optional": false
+                                  "optional": false,
+                                  "typeArguments": null
                                 }
                               }
                             ]
@@ -265,7 +277,8 @@ __ESTREE_TEST__:PASS:
                         "end": 167,
                         "decorators": [],
                         "name": "context",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       {
                         "type": "Identifier",
@@ -273,9 +286,12 @@ __ESTREE_TEST__:PASS:
                         "end": 173,
                         "decorators": [],
                         "name": "args",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -292,7 +308,8 @@ __ESTREE_TEST__:PASS:
         "end": 112,
         "decorators": [],
         "name": "rootConnection",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -313,12 +330,15 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 314,
       "end": 337,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 314,
@@ -338,9 +358,11 @@ __ESTREE_TEST__:PASS:
           "end": 328,
           "decorators": [],
           "name": "rootConnection",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -63,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 90,
             "end": 103,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -76,7 +77,8 @@ __ESTREE_TEST__:PASS:
                   "end": 94,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -113,10 +115,13 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

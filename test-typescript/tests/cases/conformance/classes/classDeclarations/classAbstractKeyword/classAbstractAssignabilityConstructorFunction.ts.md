@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -64,16 +67,19 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 61,
                     "end": 62,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 61,
                       "end": 62,
                       "decorators": [],
                       "name": "A",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -87,6 +93,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 84,
       "end": 92,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 84,
@@ -98,7 +105,8 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "AAA",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -106,7 +114,8 @@ __ESTREE_TEST__:PASS:
           "end": 91,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -114,6 +123,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 104,
       "end": 117,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 104,
@@ -125,7 +135,8 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "AAA",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

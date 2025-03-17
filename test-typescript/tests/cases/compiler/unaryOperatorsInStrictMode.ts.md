@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 14,
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": true
@@ -42,6 +44,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 22,
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": true
@@ -62,6 +66,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 30,
       "end": 42,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 30,
@@ -72,7 +77,8 @@ __ESTREE_TEST__:PASS:
           "end": 41,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": true
@@ -82,6 +88,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 43,
       "end": 55,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 43,
@@ -92,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 54,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": true
@@ -102,6 +110,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 63,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 56,
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
           "end": 60,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -122,6 +132,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 64,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 64,
@@ -132,7 +143,8 @@ __ESTREE_TEST__:PASS:
           "end": 68,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": false
@@ -142,6 +154,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 72,
       "end": 84,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 72,
@@ -152,7 +165,8 @@ __ESTREE_TEST__:PASS:
           "end": 81,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -162,6 +176,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 85,
       "end": 97,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 85,
@@ -172,7 +187,8 @@ __ESTREE_TEST__:PASS:
           "end": 94,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "--",
         "prefix": false

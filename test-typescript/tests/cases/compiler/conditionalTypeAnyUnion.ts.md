@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 31,
         "decorators": [],
         "name": "Spec",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 58
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -55,19 +57,22 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "WithSpec",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 104,
         "end": 105,
+        "typeArguments": null,
         "typeName": {
           "type": "Identifier",
           "start": 104,
           "end": 105,
           "decorators": [],
           "name": "T",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "typeParameters": {
@@ -85,6 +90,7 @@ __ESTREE_TEST__:PASS:
               "start": 94,
               "end": 100
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -92,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 85,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -110,7 +117,8 @@ __ESTREE_TEST__:PASS:
         "end": 113,
         "decorators": [],
         "name": "R",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -125,13 +133,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 125,
               "end": 129,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 125,
                 "end": 129,
                 "decorators": [],
                 "name": "Spec",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -142,9 +152,11 @@ __ESTREE_TEST__:PASS:
           "end": 124,
           "decorators": [],
           "name": "WithSpec",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

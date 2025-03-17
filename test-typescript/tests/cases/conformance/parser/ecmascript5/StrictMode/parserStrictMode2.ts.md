@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 14,
@@ -33,15 +34,18 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 22,
@@ -53,15 +57,18 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 37,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 30,
@@ -73,15 +80,18 @@ __ESTREE_TEST__:PASS:
           "end": 34,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 38,
       "end": 47,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 38,
@@ -93,9 +103,11 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "static",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

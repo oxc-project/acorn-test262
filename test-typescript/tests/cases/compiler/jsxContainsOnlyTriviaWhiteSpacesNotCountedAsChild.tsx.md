@@ -32,6 +32,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 66,
                     "end": 79,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                       "end": 74,
                       "decorators": [],
                       "name": "children",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -66,8 +68,10 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "ElementChildrenAttribute",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -83,7 +87,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -100,6 +105,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 107,
             "end": 138,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -107,7 +113,8 @@ __ESTREE_TEST__:PASS:
               "end": 116,
               "decorators": [],
               "name": "className",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -145,8 +152,10 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "Props",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -181,7 +190,8 @@ __ESTREE_TEST__:PASS:
         "end": 161,
         "decorators": [],
         "name": "NoticeList",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -199,23 +209,28 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 169,
               "end": 174,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 169,
                 "end": 174,
                 "decorators": [],
                 "name": "Props",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 196,
       "end": 250,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 196,
@@ -270,7 +285,8 @@ __ESTREE_TEST__:PASS:
             "end": 207,
             "name": "NoticeList"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -278,6 +294,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 252,
       "end": 307,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 252,
@@ -332,7 +349,8 @@ __ESTREE_TEST__:PASS:
             "end": 263,
             "name": "NoticeList"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

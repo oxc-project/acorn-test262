@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 19,
             "end": 30,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 19,
@@ -41,7 +42,8 @@ __ESTREE_TEST__:PASS:
                   "end": 25,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -64,9 +66,12 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Point",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -107,8 +112,10 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "decorators": [],
               "name": "Point",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],

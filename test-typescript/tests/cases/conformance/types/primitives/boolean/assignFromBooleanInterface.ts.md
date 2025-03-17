@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -60,13 +61,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 21,
                 "end": 28,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 21,
                   "end": 28,
                   "decorators": [],
                   "name": "Boolean",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -81,6 +84,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 30,
       "end": 36,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 30,
@@ -92,7 +96,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
           "end": 35,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -108,6 +114,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 37,
       "end": 43,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 37,
@@ -119,7 +126,8 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
           "end": 42,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

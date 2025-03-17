@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 19,
                     "end": 38,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -108,6 +109,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 53,
                     "end": 72,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -160,7 +162,8 @@ __ESTREE_TEST__:PASS:
                   "end": 83,
                   "decorators": [],
                   "name": "m",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {

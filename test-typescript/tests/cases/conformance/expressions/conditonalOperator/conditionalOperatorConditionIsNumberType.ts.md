@@ -200,13 +200,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 224,
                 "end": 230,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 224,
                   "end": 230,
                   "decorators": [],
                   "name": "Object",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -378,13 +380,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 348,
                 "end": 354,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 348,
                   "end": 354,
                   "decorators": [],
                   "name": "Object",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -399,6 +403,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 390,
       "end": 423,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 390,
@@ -409,7 +414,8 @@ __ESTREE_TEST__:PASS:
           "end": 422,
           "decorators": [],
           "name": "exprAny2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -417,7 +423,8 @@ __ESTREE_TEST__:PASS:
           "end": 411,
           "decorators": [],
           "name": "exprAny1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -425,7 +432,8 @@ __ESTREE_TEST__:PASS:
           "end": 400,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -433,6 +441,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 424,
       "end": 465,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 424,
@@ -443,7 +452,8 @@ __ESTREE_TEST__:PASS:
           "end": 464,
           "decorators": [],
           "name": "exprBoolean2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -451,7 +461,8 @@ __ESTREE_TEST__:PASS:
           "end": 449,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -459,7 +470,8 @@ __ESTREE_TEST__:PASS:
           "end": 434,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -467,6 +479,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 466,
       "end": 505,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 466,
@@ -477,7 +490,8 @@ __ESTREE_TEST__:PASS:
           "end": 504,
           "decorators": [],
           "name": "exprNumber2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -485,7 +499,8 @@ __ESTREE_TEST__:PASS:
           "end": 490,
           "decorators": [],
           "name": "exprNumber1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -493,7 +508,8 @@ __ESTREE_TEST__:PASS:
           "end": 476,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -501,6 +517,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 506,
       "end": 545,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 506,
@@ -511,7 +528,8 @@ __ESTREE_TEST__:PASS:
           "end": 544,
           "decorators": [],
           "name": "exprString2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -519,7 +537,8 @@ __ESTREE_TEST__:PASS:
           "end": 530,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -527,7 +546,8 @@ __ESTREE_TEST__:PASS:
           "end": 516,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -535,6 +555,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 546,
       "end": 589,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 546,
@@ -545,7 +566,8 @@ __ESTREE_TEST__:PASS:
           "end": 588,
           "decorators": [],
           "name": "exprIsObject2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -553,7 +575,8 @@ __ESTREE_TEST__:PASS:
           "end": 572,
           "decorators": [],
           "name": "exprIsObject1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -561,7 +584,8 @@ __ESTREE_TEST__:PASS:
           "end": 556,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -569,6 +593,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 590,
       "end": 630,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 590,
@@ -579,7 +604,8 @@ __ESTREE_TEST__:PASS:
           "end": 629,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -587,7 +613,8 @@ __ESTREE_TEST__:PASS:
           "end": 614,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Identifier",
@@ -595,7 +622,8 @@ __ESTREE_TEST__:PASS:
           "end": 600,
           "decorators": [],
           "name": "condNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -603,6 +631,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 673,
       "end": 697,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 673,
@@ -613,7 +642,8 @@ __ESTREE_TEST__:PASS:
           "end": 696,
           "decorators": [],
           "name": "exprAny2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -621,7 +651,8 @@ __ESTREE_TEST__:PASS:
           "end": 685,
           "decorators": [],
           "name": "exprAny1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Literal",
@@ -636,6 +667,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 698,
       "end": 730,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 698,
@@ -646,7 +678,8 @@ __ESTREE_TEST__:PASS:
           "end": 729,
           "decorators": [],
           "name": "exprBoolean2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -654,7 +687,8 @@ __ESTREE_TEST__:PASS:
           "end": 714,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Literal",
@@ -669,6 +703,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 731,
       "end": 771,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 731,
@@ -679,7 +714,8 @@ __ESTREE_TEST__:PASS:
           "end": 770,
           "decorators": [],
           "name": "exprNumber2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -687,7 +723,8 @@ __ESTREE_TEST__:PASS:
           "end": 756,
           "decorators": [],
           "name": "exprNumber1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Literal",
@@ -702,6 +739,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 772,
       "end": 817,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 772,
@@ -712,7 +750,8 @@ __ESTREE_TEST__:PASS:
           "end": 816,
           "decorators": [],
           "name": "exprString2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -720,7 +759,8 @@ __ESTREE_TEST__:PASS:
           "end": 802,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "UnaryExpression",
@@ -742,6 +782,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 818,
       "end": 864,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 818,
@@ -752,7 +793,8 @@ __ESTREE_TEST__:PASS:
           "end": 863,
           "decorators": [],
           "name": "exprIsObject2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -760,7 +802,8 @@ __ESTREE_TEST__:PASS:
           "end": 847,
           "decorators": [],
           "name": "exprIsObject1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Literal",
@@ -775,6 +818,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 865,
       "end": 900,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 865,
@@ -785,7 +829,8 @@ __ESTREE_TEST__:PASS:
           "end": 899,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -793,7 +838,8 @@ __ESTREE_TEST__:PASS:
           "end": 884,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "Literal",
@@ -837,9 +883,12 @@ __ESTREE_TEST__:PASS:
         "end": 958,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -862,7 +911,8 @@ __ESTREE_TEST__:PASS:
             "end": 984,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -901,6 +951,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 999,
       "end": 1027,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 999,
@@ -911,7 +962,8 @@ __ESTREE_TEST__:PASS:
           "end": 1026,
           "decorators": [],
           "name": "exprAny2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -919,7 +971,8 @@ __ESTREE_TEST__:PASS:
           "end": 1015,
           "decorators": [],
           "name": "exprAny1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "BinaryExpression",
@@ -947,6 +1000,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1028,
       "end": 1064,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 1028,
@@ -957,7 +1011,8 @@ __ESTREE_TEST__:PASS:
           "end": 1063,
           "decorators": [],
           "name": "exprBoolean2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -965,7 +1020,8 @@ __ESTREE_TEST__:PASS:
           "end": 1048,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "BinaryExpression",
@@ -993,6 +1049,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1065,
       "end": 1109,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 1065,
@@ -1003,7 +1060,8 @@ __ESTREE_TEST__:PASS:
           "end": 1108,
           "decorators": [],
           "name": "exprNumber2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -1011,7 +1069,8 @@ __ESTREE_TEST__:PASS:
           "end": 1094,
           "decorators": [],
           "name": "exprNumber1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "MemberExpression",
@@ -1032,7 +1091,8 @@ __ESTREE_TEST__:PASS:
             "end": 1080,
             "decorators": [],
             "name": "length",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -1041,6 +1101,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1110,
       "end": 1144,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 1110,
@@ -1051,7 +1112,8 @@ __ESTREE_TEST__:PASS:
           "end": 1143,
           "decorators": [],
           "name": "exprString2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -1059,7 +1121,8 @@ __ESTREE_TEST__:PASS:
           "end": 1129,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "CallExpression",
@@ -1072,9 +1135,11 @@ __ESTREE_TEST__:PASS:
             "end": 1113,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1082,6 +1147,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1145,
       "end": 1194,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 1145,
@@ -1092,7 +1158,8 @@ __ESTREE_TEST__:PASS:
           "end": 1193,
           "decorators": [],
           "name": "exprIsObject2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -1100,7 +1167,8 @@ __ESTREE_TEST__:PASS:
           "end": 1177,
           "decorators": [],
           "name": "exprIsObject1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "BinaryExpression",
@@ -1118,9 +1186,11 @@ __ESTREE_TEST__:PASS:
               "end": 1148,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "right": {
             "type": "MemberExpression",
@@ -1133,7 +1203,8 @@ __ESTREE_TEST__:PASS:
               "end": 1158,
               "decorators": [],
               "name": "array",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1151,6 +1222,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1195,
       "end": 1230,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 1195,
@@ -1161,7 +1233,8 @@ __ESTREE_TEST__:PASS:
           "end": 1229,
           "decorators": [],
           "name": "exprBoolean1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "consequent": {
           "type": "Identifier",
@@ -1169,7 +1242,8 @@ __ESTREE_TEST__:PASS:
           "end": 1214,
           "decorators": [],
           "name": "exprString1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "test": {
           "type": "CallExpression",
@@ -1182,9 +1256,11 @@ __ESTREE_TEST__:PASS:
             "end": 1198,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1204,7 +1280,8 @@ __ESTREE_TEST__:PASS:
             "end": 1300,
             "decorators": [],
             "name": "resultIsAny1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1216,7 +1293,8 @@ __ESTREE_TEST__:PASS:
               "end": 1335,
               "decorators": [],
               "name": "exprAny2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1224,7 +1302,8 @@ __ESTREE_TEST__:PASS:
               "end": 1324,
               "decorators": [],
               "name": "exprAny1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1232,7 +1311,8 @@ __ESTREE_TEST__:PASS:
               "end": 1313,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1256,7 +1336,8 @@ __ESTREE_TEST__:PASS:
             "end": 1357,
             "decorators": [],
             "name": "resultIsBoolean1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1268,7 +1349,8 @@ __ESTREE_TEST__:PASS:
               "end": 1400,
               "decorators": [],
               "name": "exprBoolean2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1276,7 +1358,8 @@ __ESTREE_TEST__:PASS:
               "end": 1385,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1284,7 +1367,8 @@ __ESTREE_TEST__:PASS:
               "end": 1370,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1308,7 +1392,8 @@ __ESTREE_TEST__:PASS:
             "end": 1421,
             "decorators": [],
             "name": "resultIsNumber1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1320,7 +1405,8 @@ __ESTREE_TEST__:PASS:
               "end": 1462,
               "decorators": [],
               "name": "exprNumber2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1328,7 +1414,8 @@ __ESTREE_TEST__:PASS:
               "end": 1448,
               "decorators": [],
               "name": "exprNumber1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1336,7 +1423,8 @@ __ESTREE_TEST__:PASS:
               "end": 1434,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1360,7 +1448,8 @@ __ESTREE_TEST__:PASS:
             "end": 1483,
             "decorators": [],
             "name": "resultIsString1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1372,7 +1461,8 @@ __ESTREE_TEST__:PASS:
               "end": 1524,
               "decorators": [],
               "name": "exprString2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1380,7 +1470,8 @@ __ESTREE_TEST__:PASS:
               "end": 1510,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1388,7 +1479,8 @@ __ESTREE_TEST__:PASS:
               "end": 1496,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1412,7 +1504,8 @@ __ESTREE_TEST__:PASS:
             "end": 1545,
             "decorators": [],
             "name": "resultIsObject1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1424,7 +1517,8 @@ __ESTREE_TEST__:PASS:
               "end": 1590,
               "decorators": [],
               "name": "exprIsObject2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1432,7 +1526,8 @@ __ESTREE_TEST__:PASS:
               "end": 1574,
               "decorators": [],
               "name": "exprIsObject1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1440,7 +1535,8 @@ __ESTREE_TEST__:PASS:
               "end": 1558,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1464,7 +1560,8 @@ __ESTREE_TEST__:PASS:
             "end": 1620,
             "decorators": [],
             "name": "resultIsStringOrBoolean1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1476,7 +1573,8 @@ __ESTREE_TEST__:PASS:
               "end": 1662,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1484,7 +1582,8 @@ __ESTREE_TEST__:PASS:
               "end": 1647,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Identifier",
@@ -1492,7 +1591,8 @@ __ESTREE_TEST__:PASS:
               "end": 1633,
               "decorators": [],
               "name": "condNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1516,7 +1616,8 @@ __ESTREE_TEST__:PASS:
             "end": 1690,
             "decorators": [],
             "name": "resultIsAny2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1528,7 +1629,8 @@ __ESTREE_TEST__:PASS:
               "end": 1716,
               "decorators": [],
               "name": "exprAny2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1536,7 +1638,8 @@ __ESTREE_TEST__:PASS:
               "end": 1705,
               "decorators": [],
               "name": "exprAny1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Literal",
@@ -1567,7 +1670,8 @@ __ESTREE_TEST__:PASS:
             "end": 1738,
             "decorators": [],
             "name": "resultIsBoolean2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1579,7 +1683,8 @@ __ESTREE_TEST__:PASS:
               "end": 1772,
               "decorators": [],
               "name": "exprBoolean2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1587,7 +1692,8 @@ __ESTREE_TEST__:PASS:
               "end": 1757,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Literal",
@@ -1618,7 +1724,8 @@ __ESTREE_TEST__:PASS:
             "end": 1793,
             "decorators": [],
             "name": "resultIsNumber2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1630,7 +1737,8 @@ __ESTREE_TEST__:PASS:
               "end": 1835,
               "decorators": [],
               "name": "exprNumber2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1638,7 +1746,8 @@ __ESTREE_TEST__:PASS:
               "end": 1821,
               "decorators": [],
               "name": "exprNumber1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Literal",
@@ -1669,7 +1778,8 @@ __ESTREE_TEST__:PASS:
             "end": 1856,
             "decorators": [],
             "name": "resultIsString2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1681,7 +1791,8 @@ __ESTREE_TEST__:PASS:
               "end": 1903,
               "decorators": [],
               "name": "exprString2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1689,7 +1800,8 @@ __ESTREE_TEST__:PASS:
               "end": 1889,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "UnaryExpression",
@@ -1727,7 +1839,8 @@ __ESTREE_TEST__:PASS:
             "end": 1924,
             "decorators": [],
             "name": "resultIsObject2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1739,7 +1852,8 @@ __ESTREE_TEST__:PASS:
               "end": 1972,
               "decorators": [],
               "name": "exprIsObject2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1747,7 +1861,8 @@ __ESTREE_TEST__:PASS:
               "end": 1956,
               "decorators": [],
               "name": "exprIsObject1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Literal",
@@ -1778,7 +1893,8 @@ __ESTREE_TEST__:PASS:
             "end": 2002,
             "decorators": [],
             "name": "resultIsStringOrBoolean2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1790,7 +1906,8 @@ __ESTREE_TEST__:PASS:
               "end": 2039,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1798,7 +1915,8 @@ __ESTREE_TEST__:PASS:
               "end": 2024,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "Literal",
@@ -1829,7 +1947,8 @@ __ESTREE_TEST__:PASS:
             "end": 2067,
             "decorators": [],
             "name": "resultIsAny3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1841,7 +1960,8 @@ __ESTREE_TEST__:PASS:
               "end": 2097,
               "decorators": [],
               "name": "exprAny2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1849,7 +1969,8 @@ __ESTREE_TEST__:PASS:
               "end": 2086,
               "decorators": [],
               "name": "exprAny1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "BinaryExpression",
@@ -1893,7 +2014,8 @@ __ESTREE_TEST__:PASS:
             "end": 2119,
             "decorators": [],
             "name": "resultIsBoolean3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1905,7 +2027,8 @@ __ESTREE_TEST__:PASS:
               "end": 2157,
               "decorators": [],
               "name": "exprBoolean2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1913,7 +2036,8 @@ __ESTREE_TEST__:PASS:
               "end": 2142,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "BinaryExpression",
@@ -1957,7 +2081,8 @@ __ESTREE_TEST__:PASS:
             "end": 2178,
             "decorators": [],
             "name": "resultIsNumber3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -1969,7 +2094,8 @@ __ESTREE_TEST__:PASS:
               "end": 2224,
               "decorators": [],
               "name": "exprNumber2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -1977,7 +2103,8 @@ __ESTREE_TEST__:PASS:
               "end": 2210,
               "decorators": [],
               "name": "exprNumber1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "MemberExpression",
@@ -1998,7 +2125,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2196,
                 "decorators": [],
                 "name": "length",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -2023,7 +2151,8 @@ __ESTREE_TEST__:PASS:
             "end": 2245,
             "decorators": [],
             "name": "resultIsString3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -2035,7 +2164,8 @@ __ESTREE_TEST__:PASS:
               "end": 2281,
               "decorators": [],
               "name": "exprString2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -2043,7 +2173,8 @@ __ESTREE_TEST__:PASS:
               "end": 2267,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "CallExpression",
@@ -2056,9 +2187,11 @@ __ESTREE_TEST__:PASS:
                 "end": 2251,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         }
@@ -2082,7 +2215,8 @@ __ESTREE_TEST__:PASS:
             "end": 2302,
             "decorators": [],
             "name": "resultIsObject3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -2094,7 +2228,8 @@ __ESTREE_TEST__:PASS:
               "end": 2353,
               "decorators": [],
               "name": "exprIsObject2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -2102,7 +2237,8 @@ __ESTREE_TEST__:PASS:
               "end": 2337,
               "decorators": [],
               "name": "exprIsObject1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "BinaryExpression",
@@ -2120,9 +2256,11 @@ __ESTREE_TEST__:PASS:
                   "end": 2308,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "right": {
                 "type": "MemberExpression",
@@ -2135,7 +2273,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2318,
                   "decorators": [],
                   "name": "array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2169,7 +2308,8 @@ __ESTREE_TEST__:PASS:
             "end": 2383,
             "decorators": [],
             "name": "resultIsStringOrBoolean3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ConditionalExpression",
@@ -2181,7 +2321,8 @@ __ESTREE_TEST__:PASS:
               "end": 2431,
               "decorators": [],
               "name": "exprBoolean1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "consequent": {
               "type": "Identifier",
@@ -2189,7 +2330,8 @@ __ESTREE_TEST__:PASS:
               "end": 2416,
               "decorators": [],
               "name": "exprString1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "test": {
               "type": "BinaryExpression",
@@ -2207,9 +2349,11 @@ __ESTREE_TEST__:PASS:
                   "end": 2389,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "right": {
                 "type": "MemberExpression",
@@ -2222,7 +2366,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2399,
                   "decorators": [],
                   "name": "array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {

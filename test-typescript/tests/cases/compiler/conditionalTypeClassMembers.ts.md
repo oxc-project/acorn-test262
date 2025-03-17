@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -44,13 +45,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 46,
             "end": 59,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -59,7 +63,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -85,7 +90,8 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 58
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -98,10 +104,13 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "MyRecord",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -126,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 123,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -151,16 +161,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 127,
                   "end": 131,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 127,
                     "end": 131,
                     "decorators": [],
                     "name": "TSet",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -173,10 +186,12 @@ __ESTREE_TEST__:PASS:
         "end": 82,
         "decorators": [],
         "name": "MySet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 82,
@@ -191,15 +206,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 96,
               "end": 104,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 96,
                 "end": 104,
                 "decorators": [],
                 "name": "MyRecord",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -207,7 +225,8 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "TSet",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -225,7 +244,8 @@ __ESTREE_TEST__:PASS:
         "end": 143,
         "decorators": [],
         "name": "DS",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -235,26 +255,30 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 198,
           "end": 202,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 198,
             "end": 202,
             "decorators": [],
             "name": "TRec",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
           "type": "TSTypeReference",
           "start": 211,
           "end": 219,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 211,
             "end": 219,
             "decorators": [],
             "name": "MyRecord",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "falseType": {
@@ -265,13 +289,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 236,
             "end": 240,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 236,
               "end": 240,
               "decorators": [],
               "name": "TRec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         },
@@ -288,13 +314,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 228,
                 "end": 232,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 228,
                   "end": 232,
                   "decorators": [],
                   "name": "TRec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -305,7 +333,8 @@ __ESTREE_TEST__:PASS:
             "end": 227,
             "decorators": [],
             "name": "MySet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -328,13 +357,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 157,
                   "end": 165,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 157,
                     "end": 165,
                     "decorators": [],
                     "name": "MyRecord",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -346,6 +377,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSIndexSignature",
                       "start": 170,
                       "end": 192,
+                      "accessibility": null,
                       "parameters": [
                         {
                           "type": "Identifier",
@@ -383,6 +415,7 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -390,7 +423,8 @@ __ESTREE_TEST__:PASS:
               "end": 148,
               "decorators": [],
               "name": "TRec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

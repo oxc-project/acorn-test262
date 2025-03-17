@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 30,
             "end": 68,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 41,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -47,6 +49,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 54,
                     "end": 62,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 54,
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
                         "start": 54,
                         "end": 59
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -66,7 +70,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -79,7 +85,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "MySet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -88,8 +95,11 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "Set",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -105,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 110,
             "end": 148,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -113,7 +124,8 @@ __ESTREE_TEST__:PASS:
               "end": 121,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -133,6 +145,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 134,
                     "end": 142,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 134,
@@ -143,7 +156,8 @@ __ESTREE_TEST__:PASS:
                         "start": 134,
                         "end": 139
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -152,7 +166,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -165,7 +181,8 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "MyWeakSet",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -174,8 +191,11 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "WeakSet",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -191,6 +211,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 182,
             "end": 220,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -199,7 +220,8 @@ __ESTREE_TEST__:PASS:
               "end": 193,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -219,6 +241,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 206,
                     "end": 214,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 206,
@@ -229,7 +252,8 @@ __ESTREE_TEST__:PASS:
                         "start": 206,
                         "end": 211
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -238,7 +262,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -251,7 +277,8 @@ __ESTREE_TEST__:PASS:
         "end": 163,
         "decorators": [],
         "name": "MyMap",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -260,8 +287,11 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "Map",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -277,6 +307,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 262,
             "end": 300,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -285,7 +316,8 @@ __ESTREE_TEST__:PASS:
               "end": 273,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -305,6 +337,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 286,
                     "end": 294,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 286,
@@ -315,7 +348,8 @@ __ESTREE_TEST__:PASS:
                         "start": 286,
                         "end": 291
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -324,7 +358,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -337,7 +373,8 @@ __ESTREE_TEST__:PASS:
         "end": 239,
         "decorators": [],
         "name": "MyWeakMap",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -346,8 +383,11 @@ __ESTREE_TEST__:PASS:
         "end": 255,
         "decorators": [],
         "name": "WeakMap",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

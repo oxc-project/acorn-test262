@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 25,
             "end": 35,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -50,8 +51,10 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "Numbers1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -66,6 +69,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 63,
             "end": 75,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Literal",
@@ -98,8 +102,10 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "Strings1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -126,13 +132,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 89,
                 "end": 97,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 89,
                   "end": 97,
                   "decorators": [],
                   "name": "Numbers1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -147,6 +155,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 99,
       "end": 108,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 99,
@@ -163,7 +172,8 @@ __ESTREE_TEST__:PASS:
             "end": 100,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -187,6 +197,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 118,
       "end": 129,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 118,
@@ -203,7 +214,8 @@ __ESTREE_TEST__:PASS:
             "end": 119,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -248,13 +260,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 147,
                 "end": 155,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 147,
                   "end": 155,
                   "decorators": [],
                   "name": "Strings1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -269,6 +283,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 157,
       "end": 168,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 157,
@@ -285,7 +300,8 @@ __ESTREE_TEST__:PASS:
             "end": 158,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -309,6 +325,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 188,
       "end": 197,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 188,
@@ -325,7 +342,8 @@ __ESTREE_TEST__:PASS:
             "end": 189,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {

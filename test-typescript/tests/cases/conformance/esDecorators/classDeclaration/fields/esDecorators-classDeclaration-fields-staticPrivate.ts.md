@@ -53,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 37,
             "end": 61,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -66,7 +67,8 @@ __ESTREE_TEST__:PASS:
                   "end": 41,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -81,6 +83,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 59,
@@ -99,10 +102,13 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -118,6 +124,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 84,
             "end": 103,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -132,6 +139,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 101,
@@ -149,6 +157,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 125,
                 "end": 138,
+                "directive": null,
                 "expression": {
                   "type": "MemberExpression",
                   "start": 125,
@@ -172,6 +181,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 147,
                 "end": 164,
+                "directive": null,
                 "expression": {
                   "type": "AssignmentExpression",
                   "start": 147,
@@ -220,7 +230,8 @@ __ESTREE_TEST__:PASS:
             "end": 69,
             "decorators": [],
             "name": "dec",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -230,10 +241,13 @@ __ESTREE_TEST__:PASS:
         "end": 77,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "named",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
                   "end": 30,
                   "decorators": [],
                   "name": "named",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -75,10 +77,12 @@ __ESTREE_TEST__:PASS:
                   "end": 37,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -96,7 +100,8 @@ __ESTREE_TEST__:PASS:
                   "end": 46,
                   "decorators": [],
                   "name": "prop",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -121,6 +126,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 66,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 56,
@@ -131,7 +137,8 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "prop",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -167,6 +174,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 87,
                     "end": 108,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -256,6 +264,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 144,
                     "end": 165,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -331,7 +340,8 @@ __ESTREE_TEST__:PASS:
             "end": 192,
             "decorators": [],
             "name": "numed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -361,7 +371,8 @@ __ESTREE_TEST__:PASS:
             "end": 210,
             "decorators": [],
             "name": "symed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -374,9 +385,11 @@ __ESTREE_TEST__:PASS:
               "end": 219,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -399,7 +412,8 @@ __ESTREE_TEST__:PASS:
             "end": 233,
             "decorators": [],
             "name": "symed2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -412,9 +426,11 @@ __ESTREE_TEST__:PASS:
               "end": 242,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -449,7 +465,8 @@ __ESTREE_TEST__:PASS:
                   "end": 258,
                   "decorators": [],
                   "name": "named",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -461,10 +478,12 @@ __ESTREE_TEST__:PASS:
                   "end": 266,
                   "decorators": [],
                   "name": "prop2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -472,7 +491,8 @@ __ESTREE_TEST__:PASS:
             "end": 280,
             "decorators": [],
             "name": "numIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -483,6 +503,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 282,
       "end": 293,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 282,
@@ -493,7 +514,8 @@ __ESTREE_TEST__:PASS:
           "end": 292,
           "decorators": [],
           "name": "prop2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -527,7 +549,8 @@ __ESTREE_TEST__:PASS:
                   "end": 305,
                   "decorators": [],
                   "name": "numed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -539,10 +562,12 @@ __ESTREE_TEST__:PASS:
                   "end": 313,
                   "decorators": [],
                   "name": "prop3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -550,7 +575,8 @@ __ESTREE_TEST__:PASS:
             "end": 327,
             "decorators": [],
             "name": "numIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -561,6 +587,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 329,
       "end": 340,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 329,
@@ -571,7 +598,8 @@ __ESTREE_TEST__:PASS:
           "end": 339,
           "decorators": [],
           "name": "prop3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -605,7 +633,8 @@ __ESTREE_TEST__:PASS:
                   "end": 352,
                   "decorators": [],
                   "name": "named",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -617,10 +646,12 @@ __ESTREE_TEST__:PASS:
                   "end": 360,
                   "decorators": [],
                   "name": "prop4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -628,7 +659,8 @@ __ESTREE_TEST__:PASS:
             "end": 374,
             "decorators": [],
             "name": "strIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -639,6 +671,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 376,
       "end": 387,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 376,
@@ -649,7 +682,8 @@ __ESTREE_TEST__:PASS:
           "end": 386,
           "decorators": [],
           "name": "prop4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -683,7 +717,8 @@ __ESTREE_TEST__:PASS:
                   "end": 399,
                   "decorators": [],
                   "name": "numed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -695,10 +730,12 @@ __ESTREE_TEST__:PASS:
                   "end": 407,
                   "decorators": [],
                   "name": "prop5",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -706,7 +743,8 @@ __ESTREE_TEST__:PASS:
             "end": 421,
             "decorators": [],
             "name": "strIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -717,6 +755,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 423,
       "end": 434,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 423,
@@ -727,7 +766,8 @@ __ESTREE_TEST__:PASS:
           "end": 433,
           "decorators": [],
           "name": "prop5",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -761,7 +801,8 @@ __ESTREE_TEST__:PASS:
                   "end": 446,
                   "decorators": [],
                   "name": "symed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -773,10 +814,12 @@ __ESTREE_TEST__:PASS:
                   "end": 454,
                   "decorators": [],
                   "name": "prop6",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -784,7 +827,8 @@ __ESTREE_TEST__:PASS:
             "end": 468,
             "decorators": [],
             "name": "numIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -795,6 +839,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 470,
       "end": 481,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 470,
@@ -805,7 +850,8 @@ __ESTREE_TEST__:PASS:
           "end": 480,
           "decorators": [],
           "name": "prop6",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -839,7 +885,8 @@ __ESTREE_TEST__:PASS:
                   "end": 493,
                   "decorators": [],
                   "name": "symed",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -851,10 +898,12 @@ __ESTREE_TEST__:PASS:
                   "end": 501,
                   "decorators": [],
                   "name": "prop7",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -862,7 +911,8 @@ __ESTREE_TEST__:PASS:
             "end": 515,
             "decorators": [],
             "name": "strIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -873,6 +923,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 517,
       "end": 528,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 517,
@@ -883,7 +934,8 @@ __ESTREE_TEST__:PASS:
           "end": 527,
           "decorators": [],
           "name": "prop7",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -917,7 +969,8 @@ __ESTREE_TEST__:PASS:
                   "end": 541,
                   "decorators": [],
                   "name": "symed2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -929,10 +982,12 @@ __ESTREE_TEST__:PASS:
                   "end": 549,
                   "decorators": [],
                   "name": "prop8",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -940,7 +995,8 @@ __ESTREE_TEST__:PASS:
             "end": 563,
             "decorators": [],
             "name": "numIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -951,6 +1007,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 565,
       "end": 576,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 565,
@@ -961,7 +1018,8 @@ __ESTREE_TEST__:PASS:
           "end": 575,
           "decorators": [],
           "name": "prop8",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -995,7 +1053,8 @@ __ESTREE_TEST__:PASS:
                   "end": 589,
                   "decorators": [],
                   "name": "symed2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -1007,10 +1066,12 @@ __ESTREE_TEST__:PASS:
                   "end": 597,
                   "decorators": [],
                   "name": "prop9",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Identifier",
@@ -1018,7 +1079,8 @@ __ESTREE_TEST__:PASS:
             "end": 611,
             "decorators": [],
             "name": "strIndexed",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -1029,6 +1091,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 613,
       "end": 624,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 613,
@@ -1039,7 +1102,8 @@ __ESTREE_TEST__:PASS:
           "end": 623,
           "decorators": [],
           "name": "prop9",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true

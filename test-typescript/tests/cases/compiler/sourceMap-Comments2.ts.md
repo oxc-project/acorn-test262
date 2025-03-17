@@ -32,7 +32,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -81,7 +82,8 @@ __ESTREE_TEST__:PASS:
           "start": 40,
           "end": 44
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -110,7 +112,8 @@ __ESTREE_TEST__:PASS:
         "end": 110,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -159,7 +162,8 @@ __ESTREE_TEST__:PASS:
           "start": 138,
           "end": 142
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -188,7 +192,8 @@ __ESTREE_TEST__:PASS:
         "end": 196,
         "decorators": [],
         "name": "baz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -237,7 +242,8 @@ __ESTREE_TEST__:PASS:
           "start": 224,
           "end": 228
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -266,7 +272,8 @@ __ESTREE_TEST__:PASS:
         "end": 258,
         "decorators": [],
         "name": "qat",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -315,7 +322,8 @@ __ESTREE_TEST__:PASS:
           "start": 286,
           "end": 290
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

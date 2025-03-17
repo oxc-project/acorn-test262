@@ -47,7 +47,8 @@ __ESTREE_TEST__:PASS:
                 "start": 31,
                 "end": 37
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -59,8 +60,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
                 "start": 83,
                 "end": 89
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -120,8 +124,10 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "A",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -130,8 +136,10 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "B",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -175,7 +183,8 @@ __ESTREE_TEST__:PASS:
                 "start": 182,
                 "end": 188
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -187,8 +196,10 @@ __ESTREE_TEST__:PASS:
         "end": 158,
         "decorators": [],
         "name": "C",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -232,7 +243,8 @@ __ESTREE_TEST__:PASS:
                 "start": 238,
                 "end": 244
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -248,8 +260,10 @@ __ESTREE_TEST__:PASS:
             "end": 214,
             "decorators": [],
             "name": "C",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -258,8 +272,10 @@ __ESTREE_TEST__:PASS:
         "end": 204,
         "decorators": [],
         "name": "D",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -274,6 +290,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 320,
             "end": 340,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -317,8 +334,10 @@ __ESTREE_TEST__:PASS:
         "end": 313,
         "decorators": [],
         "name": "E",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -333,6 +352,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 372,
             "end": 392,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -380,8 +400,10 @@ __ESTREE_TEST__:PASS:
             "end": 365,
             "decorators": [],
             "name": "E",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -390,8 +412,10 @@ __ESTREE_TEST__:PASS:
         "end": 355,
         "decorators": [],
         "name": "F",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -406,6 +430,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 467,
             "end": 487,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -449,8 +474,10 @@ __ESTREE_TEST__:PASS:
         "end": 460,
         "decorators": [],
         "name": "G",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -465,6 +492,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 519,
             "end": 539,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -512,8 +540,10 @@ __ESTREE_TEST__:PASS:
             "end": 512,
             "decorators": [],
             "name": "G",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -522,8 +552,10 @@ __ESTREE_TEST__:PASS:
         "end": 502,
         "decorators": [],
         "name": "H",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

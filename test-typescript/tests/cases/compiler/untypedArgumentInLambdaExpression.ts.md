@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 46,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -66,16 +68,20 @@ __ESTREE_TEST__:PASS:
                   "start": 38,
                   "end": 44
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 49,
       "end": 99,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 49,
@@ -113,7 +119,8 @@ __ESTREE_TEST__:PASS:
                       "end": 94,
                       "decorators": [],
                       "name": "input",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -129,7 +136,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "input",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "returnType": {
@@ -141,7 +149,8 @@ __ESTREE_TEST__:PASS:
                 "start": 60,
                 "end": 66
               }
-            }
+            },
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -150,9 +159,11 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

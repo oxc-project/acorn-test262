@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "CM",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -47,7 +50,8 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "CM",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -69,7 +73,8 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "MC",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -92,10 +97,13 @@ __ESTREE_TEST__:PASS:
         "end": 65,
         "decorators": [],
         "name": "MC",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -116,10 +124,13 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "CI",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -139,8 +150,10 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "CI",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -160,8 +173,10 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "IC",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -182,10 +197,13 @@ __ESTREE_TEST__:PASS:
         "end": 141,
         "decorators": [],
         "name": "IC",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -206,10 +224,13 @@ __ESTREE_TEST__:PASS:
         "end": 164,
         "decorators": [],
         "name": "CC1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -230,10 +251,13 @@ __ESTREE_TEST__:PASS:
         "end": 177,
         "decorators": [],
         "name": "CC1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -254,10 +278,13 @@ __ESTREE_TEST__:PASS:
         "end": 191,
         "decorators": [],
         "name": "CC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -278,10 +305,13 @@ __ESTREE_TEST__:PASS:
         "end": 213,
         "decorators": [],
         "name": "CC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -302,10 +332,13 @@ __ESTREE_TEST__:PASS:
         "end": 244,
         "decorators": [],
         "name": "DCI",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -325,8 +358,10 @@ __ESTREE_TEST__:PASS:
         "end": 261,
         "decorators": [],
         "name": "DCI",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -346,8 +381,10 @@ __ESTREE_TEST__:PASS:
         "end": 279,
         "decorators": [],
         "name": "DIC",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -368,10 +405,13 @@ __ESTREE_TEST__:PASS:
         "end": 309,
         "decorators": [],
         "name": "DIC",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -392,10 +432,13 @@ __ESTREE_TEST__:PASS:
         "end": 341,
         "decorators": [],
         "name": "DCC1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -416,10 +459,13 @@ __ESTREE_TEST__:PASS:
         "end": 363,
         "decorators": [],
         "name": "DCC1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -440,10 +486,13 @@ __ESTREE_TEST__:PASS:
         "end": 386,
         "decorators": [],
         "name": "DCC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -464,15 +513,19 @@ __ESTREE_TEST__:PASS:
         "end": 417,
         "decorators": [],
         "name": "DCC2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 422,
       "end": 429,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 422,
@@ -484,14 +537,17 @@ __ESTREE_TEST__:PASS:
           "end": 428,
           "decorators": [],
           "name": "CM",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 430,
       "end": 437,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 430,
@@ -503,14 +559,17 @@ __ESTREE_TEST__:PASS:
           "end": 436,
           "decorators": [],
           "name": "MC",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 438,
       "end": 445,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 438,
@@ -522,14 +581,17 @@ __ESTREE_TEST__:PASS:
           "end": 444,
           "decorators": [],
           "name": "CI",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 446,
       "end": 453,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 446,
@@ -541,14 +603,17 @@ __ESTREE_TEST__:PASS:
           "end": 452,
           "decorators": [],
           "name": "IC",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 454,
       "end": 462,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 454,
@@ -560,14 +625,17 @@ __ESTREE_TEST__:PASS:
           "end": 461,
           "decorators": [],
           "name": "CC1",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 463,
       "end": 471,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 463,
@@ -579,14 +647,17 @@ __ESTREE_TEST__:PASS:
           "end": 470,
           "decorators": [],
           "name": "CC2",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 472,
       "end": 480,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 472,
@@ -598,14 +669,17 @@ __ESTREE_TEST__:PASS:
           "end": 479,
           "decorators": [],
           "name": "DCI",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 481,
       "end": 489,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 481,
@@ -617,14 +691,17 @@ __ESTREE_TEST__:PASS:
           "end": 488,
           "decorators": [],
           "name": "DIC",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 490,
       "end": 499,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 490,
@@ -636,14 +713,17 @@ __ESTREE_TEST__:PASS:
           "end": 498,
           "decorators": [],
           "name": "DCC1",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 500,
       "end": 509,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 500,
@@ -655,8 +735,10 @@ __ESTREE_TEST__:PASS:
           "end": 508,
           "decorators": [],
           "name": "DCC2",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

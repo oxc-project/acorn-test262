@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 31,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -33,6 +34,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 21,
@@ -56,6 +58,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 36,
             "end": 53,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -70,6 +73,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 43,
@@ -93,6 +97,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 58,
             "end": 82,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [],
@@ -108,6 +113,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 69,
@@ -138,10 +144,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

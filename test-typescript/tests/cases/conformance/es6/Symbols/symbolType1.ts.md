@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 27,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
@@ -25,9 +26,11 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "right": {
           "type": "Identifier",
@@ -35,7 +38,8 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "Symbol",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -43,6 +47,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 28,
       "end": 55,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 28,
@@ -54,7 +59,8 @@ __ESTREE_TEST__:PASS:
           "end": 34,
           "decorators": [],
           "name": "Symbol",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -67,9 +73,11 @@ __ESTREE_TEST__:PASS:
             "end": 52,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -77,6 +85,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 91,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 56,
@@ -98,9 +107,11 @@ __ESTREE_TEST__:PASS:
               "end": 63,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "right": {
             "type": "ObjectExpression",
@@ -115,7 +126,8 @@ __ESTREE_TEST__:PASS:
           "end": 90,
           "decorators": [],
           "name": "Object",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -123,6 +135,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 161,
       "end": 196,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 161,
@@ -134,7 +147,8 @@ __ESTREE_TEST__:PASS:
           "end": 167,
           "decorators": [],
           "name": "Symbol",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "LogicalExpression",
@@ -152,9 +166,11 @@ __ESTREE_TEST__:PASS:
               "end": 186,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "right": {
             "type": "ObjectExpression",

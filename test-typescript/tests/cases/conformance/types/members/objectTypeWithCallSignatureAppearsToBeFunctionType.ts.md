@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 137,
                 "end": 141
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -40,8 +41,10 @@ __ESTREE_TEST__:PASS:
         "end": 126,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -68,13 +71,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 153,
                 "end": 154,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 153,
                   "end": 154,
                   "decorators": [],
                   "name": "I",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -124,9 +129,11 @@ __ESTREE_TEST__:PASS:
               "end": 172,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -205,7 +212,8 @@ __ESTREE_TEST__:PASS:
                     "start": 206,
                     "end": 209
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -220,7 +228,8 @@ __ESTREE_TEST__:PASS:
               "end": 213,
               "decorators": [],
               "name": "i",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -229,7 +238,8 @@ __ESTREE_TEST__:PASS:
               "end": 219,
               "decorators": [],
               "name": "apply",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -277,7 +287,8 @@ __ESTREE_TEST__:PASS:
                         "start": 239,
                         "end": 243
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -328,9 +339,11 @@ __ESTREE_TEST__:PASS:
               "end": 264,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -409,7 +422,8 @@ __ESTREE_TEST__:PASS:
                     "start": 298,
                     "end": 301
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -424,7 +438,8 @@ __ESTREE_TEST__:PASS:
               "end": 305,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -433,7 +448,8 @@ __ESTREE_TEST__:PASS:
               "end": 311,
               "decorators": [],
               "name": "apply",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

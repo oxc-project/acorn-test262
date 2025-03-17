@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 81,
             "end": 96,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 87,
               "decorators": [],
               "name": "street",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 99,
             "end": 115,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 106,
               "decorators": [],
               "name": "country",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -104,8 +109,10 @@ __ESTREE_TEST__:PASS:
         "end": 76,
         "decorators": [],
         "name": "Address",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -120,6 +127,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 167,
             "end": 186,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "postalCode",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -157,8 +166,10 @@ __ESTREE_TEST__:PASS:
             "end": 160,
             "decorators": [],
             "name": "Address",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -167,8 +178,10 @@ __ESTREE_TEST__:PASS:
         "end": 144,
         "decorators": [],
         "name": "CanadianAddress",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -183,6 +196,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 238,
             "end": 254,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -190,7 +204,8 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "zipCode",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -220,8 +235,10 @@ __ESTREE_TEST__:PASS:
             "end": 231,
             "decorators": [],
             "name": "Address",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -230,8 +247,10 @@ __ESTREE_TEST__:PASS:
         "end": 215,
         "decorators": [],
         "name": "AmericanAddress",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -244,7 +263,8 @@ __ESTREE_TEST__:PASS:
         "end": 273,
         "decorators": [],
         "name": "Properties",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -255,30 +275,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 276,
             "end": 291,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 276,
               "end": 291,
               "decorators": [],
               "name": "CanadianAddress",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "TSTypeReference",
             "start": 294,
             "end": 309,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 294,
               "end": 309,
               "decorators": [],
               "name": "AmericanAddress",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -308,7 +333,8 @@ __ESTREE_TEST__:PASS:
                 "end": 396,
                 "decorators": [],
                 "name": "render",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -342,7 +368,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -355,7 +383,8 @@ __ESTREE_TEST__:PASS:
           "end": 336,
           "decorators": [],
           "name": "AddressComp",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -369,7 +398,8 @@ __ESTREE_TEST__:PASS:
             "end": 350,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -378,7 +408,8 @@ __ESTREE_TEST__:PASS:
             "end": 360,
             "decorators": [],
             "name": "Component",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "superTypeArguments": {
@@ -390,13 +421,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 361,
               "end": 371,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 361,
                 "end": 371,
                 "decorators": [],
                 "name": "Properties",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -405,7 +438,8 @@ __ESTREE_TEST__:PASS:
               "end": 377
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -427,7 +461,8 @@ __ESTREE_TEST__:PASS:
             "end": 430,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -501,7 +536,8 @@ __ESTREE_TEST__:PASS:
                 "end": 445,
                 "name": "AddressComp"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

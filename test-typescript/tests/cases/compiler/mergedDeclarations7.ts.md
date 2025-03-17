@@ -37,6 +37,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSMethodSignature",
                         "start": 94,
                         "end": 106,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                           "end": 97,
                           "decorators": [],
                           "name": "use",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "method",
                         "optional": false,
@@ -60,7 +62,8 @@ __ESTREE_TEST__:PASS:
                             "end": 105
                           }
                         },
-                        "static": false
+                        "static": false,
+                        "typeParameters": null
                       }
                     ]
                   },
@@ -72,8 +75,10 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "Passport",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -88,6 +93,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 182,
                         "end": 210,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -95,7 +101,8 @@ __ESTREE_TEST__:PASS:
                           "end": 190,
                           "decorators": [],
                           "name": "Passport",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -122,16 +129,19 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSTypeReference",
                                     "start": 200,
                                     "end": 208,
+                                    "typeArguments": null,
                                     "typeName": {
                                       "type": "Identifier",
                                       "start": 200,
                                       "end": 208,
                                       "decorators": [],
                                       "name": "Passport",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
-                                }
+                                },
+                                "typeParameters": null
                               }
                             ]
                           }
@@ -151,8 +161,10 @@ __ESTREE_TEST__:PASS:
                         "end": 167,
                         "decorators": [],
                         "name": "Passport",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   ],
                   "id": {
@@ -161,8 +173,10 @@ __ESTREE_TEST__:PASS:
                     "end": 150,
                     "decorators": [],
                     "name": "PassportStatic",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -174,7 +188,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "passport",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           },
@@ -203,6 +218,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 248,
                       "end": 271,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 248,
@@ -213,7 +229,8 @@ __ESTREE_TEST__:PASS:
                           "end": 256,
                           "decorators": [],
                           "name": "passport",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -221,7 +238,8 @@ __ESTREE_TEST__:PASS:
                           "end": 271,
                           "decorators": [],
                           "name": "PassportStatic",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -243,7 +261,8 @@ __ESTREE_TEST__:PASS:
               "end": 294,
               "decorators": [],
               "name": "passport",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -294,7 +313,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "passport",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -323,7 +343,8 @@ __ESTREE_TEST__:PASS:
             "end": 55,
             "decorators": [],
             "name": "Passport",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -332,7 +353,8 @@ __ESTREE_TEST__:PASS:
             "end": 55,
             "decorators": [],
             "name": "Passport",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -362,13 +384,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 83,
                 "end": 91,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 83,
                   "end": 91,
                   "decorators": [],
                   "name": "Passport",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -389,7 +413,8 @@ __ESTREE_TEST__:PASS:
                 "end": 102,
                 "decorators": [],
                 "name": "passport",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -398,10 +423,12 @@ __ESTREE_TEST__:PASS:
                 "end": 106,
                 "decorators": [],
                 "name": "use",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 22,
+      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 17,

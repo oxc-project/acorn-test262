@@ -13,6 +13,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 28,
         "end": 32,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 28,
@@ -24,15 +25,18 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "consequent": {
         "type": "ExpressionStatement",
         "start": 14,
         "end": 18,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 14,
@@ -44,9 +48,11 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "test": {
@@ -114,7 +120,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -126,7 +133,8 @@ __ESTREE_TEST__:PASS:
           "start": 50,
           "end": 57
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 16,
             "end": 29,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "decorators": [],
               "name": "key",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -58,8 +60,10 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Obj",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -96,13 +100,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 86,
                       "end": 89,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 86,
                         "end": 89,
                         "decorators": [],
                         "name": "Obj",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -127,7 +133,8 @@ __ESTREE_TEST__:PASS:
                           "end": 103,
                           "decorators": [],
                           "name": "key",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -174,13 +181,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 132,
                       "end": 135,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 132,
                         "end": 135,
                         "decorators": [],
                         "name": "Obj",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -220,7 +229,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 180,
                                     "decorators": [],
                                     "name": "key",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -243,9 +253,11 @@ __ESTREE_TEST__:PASS:
                             "end": 174,
                             "decorators": [],
                             "name": "resolve",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         },
                         "expression": true,
                         "generator": false,
@@ -257,9 +269,12 @@ __ESTREE_TEST__:PASS:
                             "end": 163,
                             "decorators": [],
                             "name": "resolve",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
-                        ]
+                        ],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     ],
                     "callee": {
@@ -268,8 +283,10 @@ __ESTREE_TEST__:PASS:
                       "end": 155,
                       "decorators": [],
                       "name": "Promise",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               }
@@ -301,7 +318,8 @@ __ESTREE_TEST__:PASS:
                       "end": 217,
                       "decorators": [],
                       "name": "key",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -330,7 +348,8 @@ __ESTREE_TEST__:PASS:
         "end": 51,
         "decorators": [],
         "name": "fn1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -350,13 +369,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 63,
                 "end": 66,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 63,
                   "end": 66,
                   "decorators": [],
                   "name": "Obj",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -367,10 +388,12 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "Promise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

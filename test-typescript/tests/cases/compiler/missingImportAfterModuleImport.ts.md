@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
                     "end": 82,
                     "decorators": [],
                     "name": "StaticVar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
                     "end": 118,
                     "decorators": [],
                     "name": "InstanceVar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -95,6 +97,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 136,
                   "end": 150,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -103,7 +106,8 @@ __ESTREE_TEST__:PASS:
                     "end": 147,
                     "decorators": [],
                     "name": "constructor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "constructor",
                   "optional": false,
@@ -119,7 +123,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -132,10 +138,13 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "SubModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "TSExportAssignment",
@@ -147,7 +156,8 @@ __ESTREE_TEST__:PASS:
               "end": 179,
               "decorators": [],
               "name": "SubModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -184,7 +194,8 @@ __ESTREE_TEST__:PASS:
         "end": 92,
         "decorators": [],
         "name": "SubModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -225,7 +236,8 @@ __ESTREE_TEST__:PASS:
               "end": 199,
               "decorators": [],
               "name": "SubModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -239,13 +251,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 201,
                 "end": 210,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 201,
                   "end": 210,
                   "decorators": [],
                   "name": "SubModule",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -255,6 +269,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 216,
             "end": 233,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -263,7 +278,8 @@ __ESTREE_TEST__:PASS:
               "end": 227,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -284,7 +300,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -297,10 +315,13 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "MainModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSExportAssignment",
@@ -312,7 +333,8 @@ __ESTREE_TEST__:PASS:
         "end": 255,
         "decorators": [],
         "name": "MainModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "Data",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSUnionType",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                 "end": 58
               }
             ]
-          }
+          },
+          "typeParameters": null
         },
         {
           "type": "VariableDeclaration",
@@ -66,13 +68,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 73,
                     "end": 77,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 73,
                       "end": 77,
                       "decorators": [],
                       "name": "Data",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -129,7 +133,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "LogicalExpression",
@@ -166,7 +171,8 @@ __ESTREE_TEST__:PASS:
         "end": 35,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }

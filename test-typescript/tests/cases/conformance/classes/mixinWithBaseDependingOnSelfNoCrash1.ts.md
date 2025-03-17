@@ -24,10 +24,12 @@ __ESTREE_TEST__:PASS:
         "end": 79,
         "decorators": [],
         "name": "Document",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 79,
@@ -38,6 +40,8 @@ __ESTREE_TEST__:PASS:
             "start": 80,
             "end": 86,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -45,7 +49,8 @@ __ESTREE_TEST__:PASS:
               "end": 86,
               "decorators": [],
               "name": "Parent",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -71,7 +76,8 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "BaseItem",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -80,7 +86,8 @@ __ESTREE_TEST__:PASS:
         "end": 131,
         "decorators": [],
         "name": "Document",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -97,17 +104,21 @@ __ESTREE_TEST__:PASS:
               "end": 143,
               "decorators": [],
               "name": "Item",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 149,
       "end": 260,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -117,7 +128,8 @@ __ESTREE_TEST__:PASS:
         "end": 185,
         "decorators": [],
         "name": "ClientDocumentMixin",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -135,13 +147,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 244,
               "end": 253,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 244,
                 "end": 253,
                 "decorators": [],
                 "name": "BaseClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -183,7 +197,8 @@ __ESTREE_TEST__:PASS:
                     "end": 219,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -201,7 +216,8 @@ __ESTREE_TEST__:PASS:
                         "end": 224
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -213,8 +229,10 @@ __ESTREE_TEST__:PASS:
                   "start": 231,
                   "end": 234
                 }
-              }
+              },
+              "typeParameters": null
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -222,7 +240,8 @@ __ESTREE_TEST__:PASS:
               "end": 198,
               "decorators": [],
               "name": "BaseClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -248,7 +267,8 @@ __ESTREE_TEST__:PASS:
         "end": 280,
         "decorators": [],
         "name": "Item",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -262,7 +282,8 @@ __ESTREE_TEST__:PASS:
             "end": 317,
             "decorators": [],
             "name": "BaseItem",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -271,10 +292,14 @@ __ESTREE_TEST__:PASS:
           "end": 308,
           "decorators": [],
           "name": "ClientDocumentMixin",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
-      }
+        "optional": false,
+        "typeArguments": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",

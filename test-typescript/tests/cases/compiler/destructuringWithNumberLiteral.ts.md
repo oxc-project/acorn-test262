@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                   "end": 19,
                   "decorators": [],
                   "name": "toExponential",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -45,10 +46,12 @@ __ESTREE_TEST__:PASS:
                   "end": 19,
                   "decorators": [],
                   "name": "toExponential",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",

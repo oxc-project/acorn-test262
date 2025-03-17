@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 66,
             "end": 86,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -61,8 +62,10 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "indexSig",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -78,6 +81,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 159,
             "end": 178,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -121,10 +125,13 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "indexSig2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

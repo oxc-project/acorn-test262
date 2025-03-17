@@ -69,8 +69,10 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "F",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

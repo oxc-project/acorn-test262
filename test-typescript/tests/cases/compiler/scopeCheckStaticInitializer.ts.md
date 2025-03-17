@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 14,
             "end": 52,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "illegalBeforeProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 45,
@@ -46,7 +49,8 @@ __ESTREE_TEST__:PASS:
                 "end": 46,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -55,7 +59,8 @@ __ESTREE_TEST__:PASS:
                 "end": 51,
                 "decorators": [],
                 "name": "data",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -63,6 +68,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 57,
             "end": 90,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -73,12 +79,14 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "okBeforeMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 81,
@@ -90,7 +98,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -99,7 +108,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -107,6 +117,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 96,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -117,12 +128,14 @@ __ESTREE_TEST__:PASS:
               "end": 111,
               "decorators": [],
               "name": "illegal2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 114,
@@ -134,7 +147,8 @@ __ESTREE_TEST__:PASS:
                 "end": 119,
                 "decorators": [],
                 "name": "After",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -143,7 +157,8 @@ __ESTREE_TEST__:PASS:
                 "end": 124,
                 "decorators": [],
                 "name": "data",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -151,6 +166,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 130,
             "end": 161,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -161,12 +177,14 @@ __ESTREE_TEST__:PASS:
               "end": 145,
               "decorators": [],
               "name": "illegal3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 148,
@@ -178,7 +196,8 @@ __ESTREE_TEST__:PASS:
                 "end": 153,
                 "decorators": [],
                 "name": "After",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -187,7 +206,8 @@ __ESTREE_TEST__:PASS:
                 "end": 160,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -195,6 +215,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 166,
             "end": 183,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -205,12 +226,14 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "data",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 180,
@@ -223,6 +246,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 188,
             "end": 207,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -231,7 +255,8 @@ __ESTREE_TEST__:PASS:
               "end": 201,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -252,7 +277,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -265,10 +292,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -284,6 +314,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 228,
             "end": 245,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -294,12 +325,14 @@ __ESTREE_TEST__:PASS:
               "end": 239,
               "decorators": [],
               "name": "data",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 242,
@@ -312,6 +345,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 250,
             "end": 269,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -320,7 +354,8 @@ __ESTREE_TEST__:PASS:
               "end": 263,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -341,7 +376,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -354,10 +391,13 @@ __ESTREE_TEST__:PASS:
         "end": 221,
         "decorators": [],
         "name": "After",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

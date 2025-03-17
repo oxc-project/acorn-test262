@@ -30,14 +30,16 @@ __ESTREE_TEST__:PASS:
                 "end": 70,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSTupleType",
                 "start": 73,
                 "end": 75,
                 "elementTypes": []
-              }
+              },
+              "typeParameters": null
             },
             "init": {
               "type": "VariableDeclaration",
@@ -55,7 +57,8 @@ __ESTREE_TEST__:PASS:
                     "end": 36,
                     "decorators": [],
                     "name": "i",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -80,7 +83,8 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "i",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -100,7 +104,8 @@ __ESTREE_TEST__:PASS:
                 "end": 50,
                 "decorators": [],
                 "name": "i",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "operator": "++",
               "prefix": false
@@ -110,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 85,
             "end": 103,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 85,
@@ -134,7 +140,8 @@ __ESTREE_TEST__:PASS:
                   "end": 92,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -143,10 +150,12 @@ __ESTREE_TEST__:PASS:
                   "end": 96,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -160,7 +169,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -172,7 +182,8 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 19
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -199,14 +210,16 @@ __ESTREE_TEST__:PASS:
                 "end": 162,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSTupleType",
                 "start": 165,
                 "end": 167,
                 "elementTypes": []
-              }
+              },
+              "typeParameters": null
             },
             "test": {
               "type": "Literal",
@@ -220,6 +233,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 177,
             "end": 195,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 177,
@@ -244,7 +258,8 @@ __ESTREE_TEST__:PASS:
                   "end": 184,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -253,10 +268,12 @@ __ESTREE_TEST__:PASS:
                   "end": 188,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -270,7 +287,8 @@ __ESTREE_TEST__:PASS:
         "end": 118,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -282,7 +300,8 @@ __ESTREE_TEST__:PASS:
           "start": 122,
           "end": 126
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -310,14 +329,16 @@ __ESTREE_TEST__:PASS:
                 "end": 251,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "typeAnnotation": {
                 "type": "TSTupleType",
                 "start": 254,
                 "end": 256,
                 "elementTypes": []
-              }
+              },
+              "typeParameters": null
             },
             "test": {
               "type": "Literal",
@@ -331,6 +352,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 266,
             "end": 284,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 266,
@@ -355,7 +377,8 @@ __ESTREE_TEST__:PASS:
                   "end": 273,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -364,10 +387,12 @@ __ESTREE_TEST__:PASS:
                   "end": 277,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -381,7 +406,8 @@ __ESTREE_TEST__:PASS:
         "end": 210,
         "decorators": [],
         "name": "f3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -393,7 +419,8 @@ __ESTREE_TEST__:PASS:
           "start": 214,
           "end": 218
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

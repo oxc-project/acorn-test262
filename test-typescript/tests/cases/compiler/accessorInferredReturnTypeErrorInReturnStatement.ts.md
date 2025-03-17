@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "basePrototype",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 46,
                     "decorators": [],
                     "name": "primaryPath",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "get",
                   "method": false,
@@ -76,7 +78,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 64,
                                 "decorators": [],
                                 "name": "_this",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "init": {
                                 "type": "ThisExpression",
@@ -113,7 +116,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 89,
                                   "decorators": [],
                                   "name": "_this",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -122,7 +126,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 100,
                                   "decorators": [],
                                   "name": "collection",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -132,7 +137,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 107,
                                 "decorators": [],
                                 "name": "schema",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -142,7 +148,8 @@ __ESTREE_TEST__:PASS:
                               "end": 119,
                               "decorators": [],
                               "name": "primaryPath",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -152,7 +159,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]

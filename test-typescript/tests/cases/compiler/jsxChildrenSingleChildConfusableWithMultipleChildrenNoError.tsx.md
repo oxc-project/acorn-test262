@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 85,
         "decorators": [],
         "name": "Tab",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -61,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 97,
             "end": 112,
+            "typeArguments": null,
             "typeName": {
               "type": "TSQualifiedName",
               "start": 97,
@@ -71,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 102,
                 "decorators": [],
                 "name": "React",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -79,12 +83,14 @@ __ESTREE_TEST__:PASS:
                 "end": 112,
                 "decorators": [],
                 "name": "ReactNode",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -99,6 +105,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 163,
             "end": 178,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -106,7 +113,8 @@ __ESTREE_TEST__:PASS:
               "end": 171,
               "decorators": [],
               "name": "children",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -123,13 +131,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 173,
                   "end": 176,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 173,
                     "end": 176,
                     "decorators": [],
                     "name": "Tab",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -145,8 +155,10 @@ __ESTREE_TEST__:PASS:
         "end": 156,
         "decorators": [],
         "name": "Props",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -179,7 +191,8 @@ __ESTREE_TEST__:PASS:
                   "end": 232,
                   "name": "div"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           }
@@ -194,7 +207,8 @@ __ESTREE_TEST__:PASS:
         "end": 200,
         "decorators": [],
         "name": "TabLayout",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -212,18 +226,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 208,
               "end": 213,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 208,
                 "end": 213,
                 "decorators": [],
                 "name": "Props",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -244,6 +262,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 289,
               "end": 455,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -252,7 +271,8 @@ __ESTREE_TEST__:PASS:
                 "end": 295,
                 "decorators": [],
                 "name": "render",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -322,7 +342,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 372,
                                           "name": "div"
                                         },
-                                        "selfClosing": true
+                                        "selfClosing": true,
+                                        "typeArguments": null
                                       }
                                     }
                                   ]
@@ -356,7 +377,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 410,
                                           "name": "div"
                                         },
-                                        "selfClosing": true
+                                        "selfClosing": true,
+                                        "typeArguments": null
                                       }
                                     }
                                   ]
@@ -394,7 +416,8 @@ __ESTREE_TEST__:PASS:
                             "end": 325,
                             "name": "TabLayout"
                           },
-                          "selfClosing": false
+                          "selfClosing": false,
+                          "typeArguments": null
                         }
                       }
                     }
@@ -404,7 +427,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -417,7 +442,8 @@ __ESTREE_TEST__:PASS:
           "end": 254,
           "decorators": [],
           "name": "App",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -431,7 +457,8 @@ __ESTREE_TEST__:PASS:
             "end": 268,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -440,7 +467,8 @@ __ESTREE_TEST__:PASS:
             "end": 278,
             "decorators": [],
             "name": "Component",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "superTypeArguments": {
@@ -455,7 +483,8 @@ __ESTREE_TEST__:PASS:
               "members": []
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

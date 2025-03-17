@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 23,
             "end": 41,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "iconProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 46,
             "end": 94,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 56,
               "decorators": [],
               "name": "nestedProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -70,6 +74,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 69,
                     "end": 88,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -77,7 +82,8 @@ __ESTREE_TEST__:PASS:
                       "end": 77,
                       "decorators": [],
                       "name": "testBool",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": true,
                     "readonly": false,
@@ -107,8 +113,10 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "IProps",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -123,6 +131,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 127,
             "end": 148,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -130,7 +139,8 @@ __ESTREE_TEST__:PASS:
               "end": 138,
               "decorators": [],
               "name": "nestedProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -143,13 +153,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 141,
                 "end": 147,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 141,
                   "end": 147,
                   "decorators": [],
                   "name": "IProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -164,8 +176,10 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "INestedProps",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -197,13 +211,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 208,
                     "end": 214,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 208,
                       "end": 214,
                       "decorators": [],
                       "name": "IProps",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -231,7 +247,8 @@ __ESTREE_TEST__:PASS:
                   "end": 245,
                   "decorators": [],
                   "name": "INVALID_PROP_NAME",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -256,7 +273,8 @@ __ESTREE_TEST__:PASS:
                   "end": 264,
                   "decorators": [],
                   "name": "iconProp",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -307,13 +325,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 354,
                     "end": 360,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 354,
                       "end": 360,
                       "decorators": [],
                       "name": "IProps",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -341,7 +361,8 @@ __ESTREE_TEST__:PASS:
                   "end": 384,
                   "decorators": [],
                   "name": "nestedProp",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -363,7 +384,8 @@ __ESTREE_TEST__:PASS:
                         "end": 396,
                         "decorators": [],
                         "name": "asdfasdf",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -391,7 +413,8 @@ __ESTREE_TEST__:PASS:
                   "end": 416,
                   "decorators": [],
                   "name": "iconProp",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -442,13 +465,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 496,
                     "end": 508,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 496,
                       "end": 508,
                       "decorators": [],
                       "name": "INestedProps",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -476,7 +501,8 @@ __ESTREE_TEST__:PASS:
                   "end": 533,
                   "decorators": [],
                   "name": "nestedProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -498,7 +524,8 @@ __ESTREE_TEST__:PASS:
                         "end": 554,
                         "decorators": [],
                         "name": "INVALID_PROP_NAME",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -523,7 +550,8 @@ __ESTREE_TEST__:PASS:
                         "end": 573,
                         "decorators": [],
                         "name": "iconProp",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,

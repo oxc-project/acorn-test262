@@ -125,7 +125,8 @@ __ESTREE_TEST__:PASS:
                           "end": 46,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -137,7 +138,8 @@ __ESTREE_TEST__:PASS:
                           "end": 46,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -150,12 +152,16 @@ __ESTREE_TEST__:PASS:
                           "end": 60,
                           "decorators": [],
                           "name": "extraArgs",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "value": null
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Identifier",
@@ -163,7 +169,8 @@ __ESTREE_TEST__:PASS:
                     "end": 69,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -180,7 +187,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "extraArgs",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -194,7 +202,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -215,7 +224,9 @@ __ESTREE_TEST__:PASS:
               }
             }
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -48,7 +48,8 @@ __ESTREE_TEST__:PASS:
                   "end": 18,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -86,7 +87,8 @@ __ESTREE_TEST__:PASS:
               "end": 40,
               "decorators": [],
               "name": "num",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -100,7 +102,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "iter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

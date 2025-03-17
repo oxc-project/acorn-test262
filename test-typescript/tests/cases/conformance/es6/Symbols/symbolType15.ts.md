@@ -64,13 +64,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 29,
                 "end": 35,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 29,
                   "end": 35,
                   "decorators": [],
                   "name": "Symbol",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -85,6 +87,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 38,
       "end": 51,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 38,
@@ -96,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "end": 44,
           "decorators": [],
           "name": "symObj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "sym",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -112,6 +117,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 52,
       "end": 65,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 52,
@@ -123,7 +129,8 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "sym",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -131,7 +138,8 @@ __ESTREE_TEST__:PASS:
           "end": 64,
           "decorators": [],
           "name": "symObj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

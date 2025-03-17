@@ -30,13 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9,
                 "end": 17,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 9,
                   "end": 17,
                   "decorators": [],
                   "name": "Function",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -51,6 +53,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 19,
       "end": 38,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 19,
@@ -79,8 +82,10 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "tag",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

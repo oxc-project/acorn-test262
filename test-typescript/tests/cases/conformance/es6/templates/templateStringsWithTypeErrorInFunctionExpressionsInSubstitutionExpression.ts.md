@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 3,
       "end": 45,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 3,
@@ -28,6 +29,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 29,
                   "end": 39,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 29,
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                       "end": 30,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Literal",
@@ -75,7 +78,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "quasis": [

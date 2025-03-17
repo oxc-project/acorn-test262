@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 35,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -37,7 +38,8 @@ __ESTREE_TEST__:PASS:
           "start": 39,
           "end": 42
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -74,7 +76,8 @@ __ESTREE_TEST__:PASS:
                     "start": 61,
                     "end": 64
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -92,7 +95,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -115,7 +120,8 @@ __ESTREE_TEST__:PASS:
             "end": 84,
             "decorators": [],
             "name": "f3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -141,7 +147,8 @@ __ESTREE_TEST__:PASS:
                 "start": 91,
                 "end": 94
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],

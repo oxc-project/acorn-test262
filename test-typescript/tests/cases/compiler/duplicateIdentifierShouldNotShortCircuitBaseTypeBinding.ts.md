@@ -28,8 +28,10 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "IPoint",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
                   "end": 74,
                   "decorators": [],
                   "name": "Point",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [
                   {
@@ -86,11 +89,15 @@ __ESTREE_TEST__:PASS:
                       "end": 92,
                       "decorators": [],
                       "name": "IPoint",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -106,7 +113,8 @@ __ESTREE_TEST__:PASS:
           "end": 48,
           "decorators": [],
           "name": "Shapes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },

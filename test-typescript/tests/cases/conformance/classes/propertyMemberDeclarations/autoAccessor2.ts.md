@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 15,
             "end": 32,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 37,
             "end": 53,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -63,6 +65,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 51,
@@ -75,6 +78,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 58,
             "end": 82,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -105,6 +109,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 87,
             "end": 110,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -119,6 +124,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 108,
@@ -131,6 +137,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 116,
             "end": 179,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -139,7 +146,8 @@ __ESTREE_TEST__:PASS:
               "end": 127,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -159,6 +167,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 140,
                     "end": 152,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 140,
@@ -195,6 +204,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 161,
                     "end": 173,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 161,
@@ -233,7 +243,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -245,6 +257,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 202,
                 "end": 214,
+                "directive": null,
                 "expression": {
                   "type": "AssignmentExpression",
                   "start": 202,
@@ -281,6 +294,7 @@ __ESTREE_TEST__:PASS:
                 "type": "ExpressionStatement",
                 "start": 223,
                 "end": 235,
+                "directive": null,
                 "expression": {
                   "type": "AssignmentExpression",
                   "start": 223,
@@ -325,10 +339,13 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

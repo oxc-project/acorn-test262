@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "Deps",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "var2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "var2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -60,6 +63,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 36,
       "end": 46,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 36,
@@ -70,7 +74,8 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "Deps",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -80,6 +85,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 47,
       "end": 57,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 47,
@@ -90,7 +96,8 @@ __ESTREE_TEST__:PASS:
           "end": 56,
           "decorators": [],
           "name": "var2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true

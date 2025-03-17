@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 110,
             "end": 120,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 111,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 125,
             "end": 135,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -78,13 +82,16 @@ __ESTREE_TEST__:PASS:
         "end": 103,
         "decorators": [],
         "name": "IFoo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 182,
       "end": 202,
+      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 183,
@@ -105,7 +112,8 @@ __ESTREE_TEST__:PASS:
                 "end": 192,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -125,13 +133,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 184,
           "end": 188,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 184,
             "end": 188,
             "decorators": [],
             "name": "IFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -140,6 +150,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 243,
       "end": 274,
+      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 244,
@@ -160,7 +171,8 @@ __ESTREE_TEST__:PASS:
                 "end": 253,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -185,7 +197,8 @@ __ESTREE_TEST__:PASS:
                 "end": 259,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -197,7 +210,8 @@ __ESTREE_TEST__:PASS:
                 "end": 270,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -206,13 +220,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 245,
           "end": 249,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 245,
             "end": 249,
             "decorators": [],
             "name": "IFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -221,6 +237,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 321,
       "end": 341,
+      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 322,
@@ -241,7 +258,8 @@ __ESTREE_TEST__:PASS:
                 "end": 331,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -261,13 +279,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 323,
           "end": 327,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 323,
             "end": 327,
             "decorators": [],
             "name": "IFoo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

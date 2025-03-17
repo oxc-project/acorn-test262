@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 8,
+      "directive": null,
       "expression": {
         "type": "AwaitExpression",
         "start": 0,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
           "end": 7,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "arr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -62,7 +65,8 @@ __ESTREE_TEST__:PASS:
                     "end": 30,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -71,10 +75,12 @@ __ESTREE_TEST__:PASS:
                     "end": 38,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             ]
           }
@@ -97,13 +103,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 78,
             "end": 83,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 78,
               "end": 82,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
               "end": 65,
               "decorators": [],
               "name": "item",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -138,7 +147,8 @@ __ESTREE_TEST__:PASS:
         "end": 72,
         "decorators": [],
         "name": "arr",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

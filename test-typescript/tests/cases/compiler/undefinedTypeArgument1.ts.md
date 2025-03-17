@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "cats",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "Array",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -45,13 +47,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 21,
                   "end": 25,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 21,
                     "end": 25,
                     "decorators": [],
                     "name": "WAWA",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]

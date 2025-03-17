@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 27,
             "end": 41,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 32,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 44,
             "end": 69,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
                 "end": 51,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -66,7 +70,8 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "dispose",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -83,7 +88,8 @@ __ESTREE_TEST__:PASS:
                 "end": 68
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -95,8 +101,10 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "MyDisposable",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "BlockStatement",
@@ -119,7 +127,8 @@ __ESTREE_TEST__:PASS:
                 "end": 84,
                 "decorators": [],
                 "name": "_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "ObjectExpression",
@@ -142,7 +151,8 @@ __ESTREE_TEST__:PASS:
                         "end": 96,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -151,7 +161,8 @@ __ESTREE_TEST__:PASS:
                         "end": 104,
                         "decorators": [],
                         "name": "dispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -173,7 +184,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -206,7 +219,8 @@ __ESTREE_TEST__:PASS:
                 "end": 128,
                 "decorators": [],
                 "name": "_",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "ObjectExpression",
@@ -229,7 +243,8 @@ __ESTREE_TEST__:PASS:
                         "end": 140,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -238,7 +253,8 @@ __ESTREE_TEST__:PASS:
                         "end": 148,
                         "decorators": [],
                         "name": "dispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -260,7 +276,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
@@ -274,7 +292,8 @@ __ESTREE_TEST__:PASS:
                       "end": 161,
                       "decorators": [],
                       "name": "value",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -327,13 +346,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 184,
                     "end": 196,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 184,
                       "end": 196,
                       "decorators": [],
                       "name": "MyDisposable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -359,7 +380,8 @@ __ESTREE_TEST__:PASS:
                         "end": 208,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -368,7 +390,8 @@ __ESTREE_TEST__:PASS:
                         "end": 216,
                         "decorators": [],
                         "name": "dispose",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "init",
@@ -390,7 +413,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
@@ -404,7 +429,8 @@ __ESTREE_TEST__:PASS:
                       "end": 229,
                       "decorators": [],
                       "name": "value",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -429,7 +455,8 @@ __ESTREE_TEST__:PASS:
                       "end": 239,
                       "decorators": [],
                       "name": "extra",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -465,6 +492,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 285,
             "end": 299,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -472,7 +500,8 @@ __ESTREE_TEST__:PASS:
               "end": 290,
               "decorators": [],
               "name": "value",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -492,6 +521,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 302,
             "end": 341,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -504,7 +534,8 @@ __ESTREE_TEST__:PASS:
                 "end": 309,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -513,7 +544,8 @@ __ESTREE_TEST__:PASS:
                 "end": 322,
                 "decorators": [],
                 "name": "asyncDispose",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "kind": "method",
@@ -546,11 +578,13 @@ __ESTREE_TEST__:PASS:
                   "end": 334,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -562,8 +596,10 @@ __ESTREE_TEST__:PASS:
         "end": 280,
         "decorators": [],
         "name": "MyAsyncDisposable",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -596,7 +632,8 @@ __ESTREE_TEST__:PASS:
                       "end": 387,
                       "decorators": [],
                       "name": "_",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ObjectExpression",
@@ -619,7 +656,8 @@ __ESTREE_TEST__:PASS:
                               "end": 405,
                               "decorators": [],
                               "name": "Symbol",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -628,7 +666,8 @@ __ESTREE_TEST__:PASS:
                               "end": 418,
                               "decorators": [],
                               "name": "asyncDispose",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "kind": "init",
@@ -650,7 +689,9 @@ __ESTREE_TEST__:PASS:
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         }
                       ]
@@ -683,7 +724,8 @@ __ESTREE_TEST__:PASS:
                       "end": 454,
                       "decorators": [],
                       "name": "_",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "ObjectExpression",
@@ -706,7 +748,8 @@ __ESTREE_TEST__:PASS:
                               "end": 472,
                               "decorators": [],
                               "name": "Symbol",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -715,7 +758,8 @@ __ESTREE_TEST__:PASS:
                               "end": 485,
                               "decorators": [],
                               "name": "asyncDispose",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "kind": "init",
@@ -737,7 +781,9 @@ __ESTREE_TEST__:PASS:
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         },
                         {
@@ -751,7 +797,8 @@ __ESTREE_TEST__:PASS:
                             "end": 498,
                             "decorators": [],
                             "name": "value",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -804,13 +851,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 533,
                           "end": 550,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 533,
                             "end": 550,
                             "decorators": [],
                             "name": "MyAsyncDisposable",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -836,7 +885,8 @@ __ESTREE_TEST__:PASS:
                               "end": 574,
                               "decorators": [],
                               "name": "Symbol",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -845,7 +895,8 @@ __ESTREE_TEST__:PASS:
                               "end": 587,
                               "decorators": [],
                               "name": "asyncDispose",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "kind": "init",
@@ -867,7 +918,9 @@ __ESTREE_TEST__:PASS:
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           }
                         },
                         {
@@ -881,7 +934,8 @@ __ESTREE_TEST__:PASS:
                             "end": 606,
                             "decorators": [],
                             "name": "value",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -906,7 +960,8 @@ __ESTREE_TEST__:PASS:
                             "end": 622,
                             "decorators": [],
                             "name": "extra",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -940,9 +995,12 @@ __ESTREE_TEST__:PASS:
         "end": 361,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",

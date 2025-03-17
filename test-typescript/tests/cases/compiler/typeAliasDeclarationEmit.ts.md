@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "callback",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -36,16 +37,19 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 32,
               "end": 33,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 32,
                 "end": 33,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
-          }
+          },
+          "typeParameters": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -57,6 +61,8 @@ __ESTREE_TEST__:PASS:
               "start": 21,
               "end": 22,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -64,7 +70,8 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -91,7 +98,8 @@ __ESTREE_TEST__:PASS:
           "end": 61,
           "decorators": [],
           "name": "CallbackArray",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -106,16 +114,19 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 90,
               "end": 91,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 90,
                 "end": 91,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
-          }
+          },
+          "typeParameters": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -131,15 +142,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 72,
                 "end": 80,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 72,
                   "end": 80,
                   "decorators": [],
                   "name": "callback",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -147,7 +161,8 @@ __ESTREE_TEST__:PASS:
                 "end": 63,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

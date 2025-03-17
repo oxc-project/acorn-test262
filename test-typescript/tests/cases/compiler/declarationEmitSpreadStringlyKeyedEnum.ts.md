@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "raw": "\"0-17\"",
               "value": "0-17"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "raw": "\"18-22\"",
               "value": "18-22"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 43,
               "raw": "\"23-27\"",
               "value": "23-27"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -64,7 +67,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "raw": "\"28-34\"",
               "value": "28-34"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
               "end": 63,
               "raw": "\"35-44\"",
               "value": "35-44"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -90,7 +95,8 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "raw": "\"45-59\"",
               "value": "45-59"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -103,7 +109,8 @@ __ESTREE_TEST__:PASS:
               "end": 84,
               "raw": "\"60-150\"",
               "value": "60-150"
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "AgeGroups",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -139,7 +147,8 @@ __ESTREE_TEST__:PASS:
               "end": 119,
               "decorators": [],
               "name": "SpotifyAgeGroupEnum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",
@@ -156,7 +165,8 @@ __ESTREE_TEST__:PASS:
                     "end": 136,
                     "decorators": [],
                     "name": "AgeGroups",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 4,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -20,15 +21,18 @@ __ESTREE_TEST__:PASS:
           "end": 1,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 14,
       "end": 19,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 14,
@@ -48,15 +52,18 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 37,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 29,
@@ -83,15 +90,18 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 48,
       "end": 59,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 48,
@@ -125,9 +135,11 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

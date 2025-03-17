@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 101,
               "end": 121,
+              "directive": null,
               "expression": {
                 "type": "AssignmentExpression",
                 "start": 101,
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
                     "end": 107,
                     "decorators": [],
                     "name": "module",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -49,7 +51,8 @@ __ESTREE_TEST__:PASS:
                     "end": 115,
                     "decorators": [],
                     "name": "exports",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "right": {
@@ -76,7 +79,8 @@ __ESTREE_TEST__:PASS:
                   "end": 91,
                   "decorators": [],
                   "name": "module",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
                   "end": 99,
                   "decorators": [],
                   "name": "exports",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "operator": "!",
@@ -108,7 +113,8 @@ __ESTREE_TEST__:PASS:
                   "end": 131,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -133,9 +139,12 @@ __ESTREE_TEST__:PASS:
         "end": 71,
         "decorators": [],
         "name": "myWrapper",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

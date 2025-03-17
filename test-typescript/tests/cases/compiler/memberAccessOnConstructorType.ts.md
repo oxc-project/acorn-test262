@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
                     "start": 17,
                     "end": 21
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -55,6 +56,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 23,
       "end": 40,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 23,
@@ -71,7 +73,8 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -80,7 +83,8 @@ __ESTREE_TEST__:PASS:
             "end": 34,
             "decorators": [],
             "name": "arguments",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

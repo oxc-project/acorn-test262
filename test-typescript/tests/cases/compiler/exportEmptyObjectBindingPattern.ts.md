@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "decorators": [],
               "optional": false,
-              "properties": []
+              "properties": [],
+              "typeAnnotation": null
             },
             "init": {
               "type": "ObjectExpression",

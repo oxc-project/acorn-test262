@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
@@ -32,6 +33,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 21,
               "end": 29,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 26,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -52,13 +55,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 28,
                   "end": 29,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 28,
                     "end": 29,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -75,6 +80,8 @@ __ESTREE_TEST__:PASS:
               "start": 14,
               "end": 15,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -82,7 +89,8 @@ __ESTREE_TEST__:PASS:
                 "end": 15,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

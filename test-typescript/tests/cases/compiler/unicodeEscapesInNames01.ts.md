@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -48,6 +49,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 24,
       "end": 28,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 24,
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -97,7 +100,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "xx",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -119,6 +123,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 30,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 25,
@@ -129,7 +134,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "xx",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -168,7 +174,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -190,6 +197,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 24,
       "end": 28,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 24,
@@ -200,7 +208,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -239,7 +248,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "xx",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -261,6 +271,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 30,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 25,
@@ -271,7 +282,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "xx",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "++",
         "prefix": false
@@ -308,6 +320,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 45,
               "end": 60,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -318,7 +331,8 @@ __ESTREE_TEST__:PASS:
                 "end": 51,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -340,6 +354,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 66,
               "end": 112,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -348,7 +363,8 @@ __ESTREE_TEST__:PASS:
                 "end": 77,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -368,6 +384,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 90,
                       "end": 106,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 90,
@@ -390,7 +407,8 @@ __ESTREE_TEST__:PASS:
                             "end": 101,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -408,13 +426,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 118,
               "end": 156,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -423,7 +444,8 @@ __ESTREE_TEST__:PASS:
                 "end": 125,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -443,6 +465,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 138,
                       "end": 150,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 138,
@@ -465,7 +488,8 @@ __ESTREE_TEST__:PASS:
                             "end": 144,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -483,7 +507,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -496,10 +522,13 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "IdentifierNameWithEscape1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -536,6 +565,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 45,
               "end": 61,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -546,7 +576,8 @@ __ESTREE_TEST__:PASS:
                 "end": 52,
                 "decorators": [],
                 "name": "xx",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -568,6 +599,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 67,
               "end": 114,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -576,7 +608,8 @@ __ESTREE_TEST__:PASS:
                 "end": 78,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -596,6 +629,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 91,
                       "end": 108,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 91,
@@ -618,7 +652,8 @@ __ESTREE_TEST__:PASS:
                             "end": 103,
                             "decorators": [],
                             "name": "xx",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -636,13 +671,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 120,
               "end": 159,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -651,7 +689,8 @@ __ESTREE_TEST__:PASS:
                 "end": 127,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -671,6 +710,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 140,
                       "end": 153,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 140,
@@ -693,7 +733,8 @@ __ESTREE_TEST__:PASS:
                             "end": 147,
                             "decorators": [],
                             "name": "xx",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -711,7 +752,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -724,10 +767,13 @@ __ESTREE_TEST__:PASS:
           "end": 38,
           "decorators": [],
           "name": "IdentifierNameWithEscape2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -764,6 +810,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 53,
               "end": 68,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -774,7 +821,8 @@ __ESTREE_TEST__:PASS:
                 "end": 59,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -796,6 +844,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 74,
               "end": 120,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -804,7 +853,8 @@ __ESTREE_TEST__:PASS:
                 "end": 85,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -824,6 +874,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 98,
                       "end": 114,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 98,
@@ -846,7 +897,8 @@ __ESTREE_TEST__:PASS:
                             "end": 109,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -864,13 +916,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 126,
               "end": 164,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -879,7 +934,8 @@ __ESTREE_TEST__:PASS:
                 "end": 133,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -899,6 +955,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 146,
                       "end": 158,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 146,
@@ -921,7 +978,8 @@ __ESTREE_TEST__:PASS:
                             "end": 152,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -939,7 +997,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -952,10 +1012,13 @@ __ESTREE_TEST__:PASS:
           "end": 46,
           "decorators": [],
           "name": "IdentifierNameWithExtendedEscape1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -992,6 +1055,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 53,
               "end": 69,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1002,7 +1066,8 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "decorators": [],
                 "name": "xx",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -1024,6 +1089,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 75,
               "end": 122,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1032,7 +1098,8 @@ __ESTREE_TEST__:PASS:
                 "end": 86,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1052,6 +1119,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 99,
                       "end": 116,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 99,
@@ -1074,7 +1142,8 @@ __ESTREE_TEST__:PASS:
                             "end": 111,
                             "decorators": [],
                             "name": "xx",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -1092,13 +1161,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 128,
               "end": 167,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1107,7 +1179,8 @@ __ESTREE_TEST__:PASS:
                 "end": 135,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1127,6 +1200,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 148,
                       "end": 161,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 148,
@@ -1149,7 +1223,8 @@ __ESTREE_TEST__:PASS:
                             "end": 155,
                             "decorators": [],
                             "name": "xx",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -1167,7 +1242,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -1180,10 +1257,13 @@ __ESTREE_TEST__:PASS:
           "end": 46,
           "decorators": [],
           "name": "IdentifierNameWithExtendedEscape2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1220,6 +1300,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 48,
               "end": 64,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1250,6 +1331,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 70,
               "end": 117,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1258,7 +1340,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1278,6 +1361,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 94,
                       "end": 111,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 94,
@@ -1316,13 +1400,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 123,
               "end": 162,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1331,7 +1418,8 @@ __ESTREE_TEST__:PASS:
                 "end": 130,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1351,6 +1439,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 143,
                       "end": 156,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 143,
@@ -1389,7 +1478,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -1402,10 +1493,13 @@ __ESTREE_TEST__:PASS:
           "end": 41,
           "decorators": [],
           "name": "PrivateIdentifierWithEscape1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1442,6 +1536,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 48,
               "end": 65,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1472,6 +1567,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 71,
               "end": 119,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1480,7 +1576,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1500,6 +1597,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 95,
                       "end": 113,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 95,
@@ -1538,13 +1636,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 125,
               "end": 165,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1553,7 +1654,8 @@ __ESTREE_TEST__:PASS:
                 "end": 132,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1573,6 +1675,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 145,
                       "end": 159,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 145,
@@ -1611,7 +1714,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -1624,10 +1729,13 @@ __ESTREE_TEST__:PASS:
           "end": 41,
           "decorators": [],
           "name": "PrivateIdentifierWithEscape2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1664,6 +1772,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 56,
               "end": 72,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1694,6 +1803,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 78,
               "end": 125,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1702,7 +1812,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1722,6 +1833,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 102,
                       "end": 119,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 102,
@@ -1760,13 +1872,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 131,
               "end": 170,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1775,7 +1890,8 @@ __ESTREE_TEST__:PASS:
                 "end": 138,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1795,6 +1911,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 151,
                       "end": 164,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 151,
@@ -1833,7 +1950,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -1846,10 +1965,13 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "PrivateIdentifierWithExtendedEscape1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1886,6 +2008,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 56,
               "end": 73,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1916,6 +2039,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 79,
               "end": 127,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1924,7 +2048,8 @@ __ESTREE_TEST__:PASS:
                 "end": 90,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1944,6 +2069,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 103,
                       "end": 121,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 103,
@@ -1982,13 +2108,16 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 133,
               "end": 173,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1997,7 +2126,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "decorators": [],
                 "name": "doThing",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -2017,6 +2147,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 153,
                       "end": 167,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 153,
@@ -2055,7 +2186,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -2068,10 +2201,13 @@ __ESTREE_TEST__:PASS:
           "end": 49,
           "decorators": [],
           "name": "PrivateIdentifierWithExtendedEscape2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

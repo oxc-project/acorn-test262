@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 5,
           "decorators": [],
           "name": "yield",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",

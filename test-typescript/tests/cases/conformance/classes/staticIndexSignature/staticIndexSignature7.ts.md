@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 14,
             "end": 45,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -56,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 50,
             "end": 64,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -66,12 +68,14 @@ __ESTREE_TEST__:PASS:
               "end": 58,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 61,
@@ -90,10 +94,13 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -109,6 +116,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 132,
             "end": 163,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -146,6 +154,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 168,
             "end": 183,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -154,7 +163,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -175,7 +185,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -188,10 +200,13 @@ __ESTREE_TEST__:PASS:
         "end": 125,
         "decorators": [],
         "name": "Y",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

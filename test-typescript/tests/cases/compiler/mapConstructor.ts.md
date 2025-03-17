@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
@@ -20,8 +21,10 @@ __ESTREE_TEST__:PASS:
           "end": 7,
           "decorators": [],
           "name": "Map",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
@@ -40,7 +43,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "potentiallyUndefinedIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -134,7 +138,8 @@ __ESTREE_TEST__:PASS:
                     "end": 81,
                     "decorators": [],
                     "name": "Iterable",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -154,6 +159,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 113,
       "end": 151,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 113,
@@ -165,7 +171,8 @@ __ESTREE_TEST__:PASS:
             "end": 149,
             "decorators": [],
             "name": "potentiallyUndefinedIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -174,8 +181,10 @@ __ESTREE_TEST__:PASS:
           "end": 120,
           "decorators": [],
           "name": "Map",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
@@ -194,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 182,
             "decorators": [],
             "name": "potentiallyNullIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -288,7 +298,8 @@ __ESTREE_TEST__:PASS:
                     "end": 217,
                     "decorators": [],
                     "name": "Iterable",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -308,6 +319,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 244,
       "end": 277,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 244,
@@ -319,7 +331,8 @@ __ESTREE_TEST__:PASS:
             "end": 275,
             "decorators": [],
             "name": "potentiallyNullIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -328,8 +341,10 @@ __ESTREE_TEST__:PASS:
           "end": 251,
           "decorators": [],
           "name": "Map",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

@@ -46,7 +46,8 @@ __ESTREE_TEST__:PASS:
                     "end": 126,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -55,10 +56,12 @@ __ESTREE_TEST__:PASS:
                     "end": 138,
                     "decorators": [],
                     "name": "toUpperCase",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "test": {
                 "type": "BinaryExpression",
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
                     "end": 102,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -101,7 +105,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "stringify1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -129,6 +134,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSMethodSignature",
                       "start": 32,
                       "end": 50,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -136,7 +142,8 @@ __ESTREE_TEST__:PASS:
                         "end": 40,
                         "decorators": [],
                         "name": "toString",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "method",
                       "optional": false,
@@ -152,7 +159,8 @@ __ESTREE_TEST__:PASS:
                           "end": 50
                         }
                       },
-                      "static": false
+                      "static": false,
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -175,7 +183,8 @@ __ESTREE_TEST__:PASS:
           "start": 67,
           "end": 73
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -218,7 +227,8 @@ __ESTREE_TEST__:PASS:
                     "end": 256,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -227,10 +237,12 @@ __ESTREE_TEST__:PASS:
                     "end": 268,
                     "decorators": [],
                     "name": "toUpperCase",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "test": {
                 "type": "BinaryExpression",
@@ -247,7 +259,8 @@ __ESTREE_TEST__:PASS:
                     "end": 232,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -273,7 +286,8 @@ __ESTREE_TEST__:PASS:
         "end": 169,
         "decorators": [],
         "name": "stringify2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -317,7 +331,8 @@ __ESTREE_TEST__:PASS:
           "start": 197,
           "end": 203
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -360,7 +375,8 @@ __ESTREE_TEST__:PASS:
                     "end": 453,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -369,10 +385,12 @@ __ESTREE_TEST__:PASS:
                     "end": 465,
                     "decorators": [],
                     "name": "toUpperCase",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "test": {
                 "type": "BinaryExpression",
@@ -389,7 +407,8 @@ __ESTREE_TEST__:PASS:
                     "end": 429,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -415,7 +434,8 @@ __ESTREE_TEST__:PASS:
         "end": 299,
         "decorators": [],
         "name": "stringify3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -458,7 +478,8 @@ __ESTREE_TEST__:PASS:
           "start": 332,
           "end": 338
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -501,7 +522,8 @@ __ESTREE_TEST__:PASS:
                     "end": 604,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -510,10 +532,12 @@ __ESTREE_TEST__:PASS:
                     "end": 616,
                     "decorators": [],
                     "name": "toUpperCase",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "test": {
                 "type": "BinaryExpression",
@@ -530,7 +554,8 @@ __ESTREE_TEST__:PASS:
                     "end": 580,
                     "decorators": [],
                     "name": "anything",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "operator": "typeof",
                   "prefix": true
@@ -556,7 +581,8 @@ __ESTREE_TEST__:PASS:
         "end": 496,
         "decorators": [],
         "name": "stringify4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -584,6 +610,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSMethodSignature",
                       "start": 509,
                       "end": 528,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -591,7 +618,8 @@ __ESTREE_TEST__:PASS:
                         "end": 517,
                         "decorators": [],
                         "name": "toString",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "method",
                       "optional": true,
@@ -607,7 +635,8 @@ __ESTREE_TEST__:PASS:
                           "end": 528
                         }
                       },
-                      "static": false
+                      "static": false,
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -630,7 +659,8 @@ __ESTREE_TEST__:PASS:
           "start": 545,
           "end": 551
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

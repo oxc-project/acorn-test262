@@ -69,12 +69,14 @@ __ESTREE_TEST__:PASS:
                             "start": 32,
                             "end": 38
                           }
-                        }
+                        },
+                        "typeParameters": null
                       },
                       {
                         "type": "TSPropertySignature",
                         "start": 40,
                         "end": 45,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -82,7 +84,8 @@ __ESTREE_TEST__:PASS:
                           "end": 41,
                           "decorators": [],
                           "name": "a",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -116,6 +119,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 52,
                         "end": 61,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -123,7 +127,8 @@ __ESTREE_TEST__:PASS:
                           "end": 53,
                           "decorators": [],
                           "name": "a",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -155,6 +160,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 64,
       "end": 67,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 64,
@@ -166,9 +172,11 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

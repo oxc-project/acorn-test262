@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
                     "start": 14,
                     "end": 21
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -59,7 +60,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -101,7 +104,8 @@ __ESTREE_TEST__:PASS:
                     "start": 79,
                     "end": 86
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -130,7 +134,8 @@ __ESTREE_TEST__:PASS:
                 "start": 101,
                 "end": 108
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],

@@ -58,7 +58,8 @@ __ESTREE_TEST__:PASS:
                       "end": 75,
                       "decorators": [],
                       "name": "InterpolationValue",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeArguments": null
                   }
@@ -110,8 +111,10 @@ __ESTREE_TEST__:PASS:
           "end": 35,
           "decorators": [],
           "name": "InterpolationValue",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -153,7 +156,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "styles",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -162,7 +166,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "styles",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -192,7 +197,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81,
                 "decorators": [],
                 "name": "styles",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -206,9 +212,12 @@ __ESTREE_TEST__:PASS:
           "end": 62,
           "decorators": [],
           "name": "getStyles",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

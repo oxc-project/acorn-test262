@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -65,7 +66,8 @@ __ESTREE_TEST__:PASS:
               "end": 34,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -101,6 +103,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 82,
               "end": 95,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -108,7 +111,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "_brand1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -134,8 +138,10 @@ __ESTREE_TEST__:PASS:
           "end": 78,
           "decorators": [],
           "name": "Bar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -159,6 +165,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 142,
               "end": 155,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -166,7 +173,8 @@ __ESTREE_TEST__:PASS:
                 "end": 149,
                 "decorators": [],
                 "name": "_brand2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -192,8 +200,10 @@ __ESTREE_TEST__:PASS:
           "end": 119,
           "decorators": [],
           "name": "Bar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -234,7 +244,8 @@ __ESTREE_TEST__:PASS:
                       "end": 204,
                       "decorators": [],
                       "name": "member1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Literal",
@@ -262,7 +273,8 @@ __ESTREE_TEST__:PASS:
           "end": 182,
           "decorators": [],
           "name": "FooBar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -305,7 +317,8 @@ __ESTREE_TEST__:PASS:
                       "end": 277,
                       "decorators": [],
                       "name": "member2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Literal",
@@ -333,7 +346,8 @@ __ESTREE_TEST__:PASS:
           "end": 236,
           "decorators": [],
           "name": "FooBar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },
@@ -360,6 +374,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 310,
               "end": 322,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -370,12 +385,14 @@ __ESTREE_TEST__:PASS:
                 "end": 317,
                 "decorators": [],
                 "name": "member1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 320,
@@ -394,10 +411,13 @@ __ESTREE_TEST__:PASS:
           "end": 306,
           "decorators": [],
           "name": "Kettle",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -422,6 +442,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 365,
               "end": 378,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -432,12 +453,14 @@ __ESTREE_TEST__:PASS:
                 "end": 372,
                 "decorators": [],
                 "name": "member2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 375,
@@ -456,10 +479,13 @@ __ESTREE_TEST__:PASS:
           "end": 345,
           "decorators": [],
           "name": "Kettle",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -486,7 +512,8 @@ __ESTREE_TEST__:PASS:
               "end": 396,
               "decorators": [],
               "name": "Pot",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -508,6 +535,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 402,
       "end": 411,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 402,
@@ -519,7 +547,8 @@ __ESTREE_TEST__:PASS:
           "end": 405,
           "decorators": [],
           "name": "Pot",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -555,8 +584,10 @@ __ESTREE_TEST__:PASS:
                 "end": 461,
                 "decorators": [],
                 "name": "Spoon",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -569,8 +600,10 @@ __ESTREE_TEST__:PASS:
                 "end": 468,
                 "decorators": [],
                 "name": "Fork",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -583,8 +616,10 @@ __ESTREE_TEST__:PASS:
                 "end": 476,
                 "decorators": [],
                 "name": "Knife",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -596,7 +631,8 @@ __ESTREE_TEST__:PASS:
           "end": 452,
           "decorators": [],
           "name": "Utensils",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -628,7 +664,8 @@ __ESTREE_TEST__:PASS:
                 "end": 528,
                 "decorators": [],
                 "name": "Spork",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -648,7 +685,8 @@ __ESTREE_TEST__:PASS:
           "end": 500,
           "decorators": [],
           "name": "Utensils",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",

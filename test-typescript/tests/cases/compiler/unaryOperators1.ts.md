@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 5,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 0,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
           "end": 4,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "+",
         "prefix": true
@@ -29,6 +31,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 6,
       "end": 11,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 6,
@@ -39,7 +42,8 @@ __ESTREE_TEST__:PASS:
           "end": 10,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "-",
         "prefix": true
@@ -49,6 +53,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 12,
       "end": 18,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 12,
@@ -59,7 +64,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "quux",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "~",
         "prefix": true

@@ -20,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 5,
         "decorators": [],
         "name": "d",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "right": {
         "type": "SequenceExpression",
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
                   "end": 10,
                   "decorators": [],
                   "name": "_",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -57,7 +59,8 @@ __ESTREE_TEST__:PASS:
                   "end": 13,
                   "decorators": [],
                   "name": "jh",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -67,7 +70,8 @@ __ESTREE_TEST__:PASS:
                 "end": 15,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "right": {
@@ -91,7 +95,8 @@ __ESTREE_TEST__:PASS:
                     "end": 18,
                     "decorators": [],
                     "name": "_",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -100,7 +105,8 @@ __ESTREE_TEST__:PASS:
                     "end": 21,
                     "decorators": [],
                     "name": "jh",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "optional": false,
@@ -110,7 +116,8 @@ __ESTREE_TEST__:PASS:
                   "end": 23,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }

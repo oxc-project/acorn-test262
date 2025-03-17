@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "functions",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -82,6 +83,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 57,
                       "end": 74,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 57,
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                           "end": 58,
                           "decorators": [],
                           "name": "k",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "NewExpression",
@@ -106,8 +109,10 @@ __ESTREE_TEST__:PASS:
                             "end": 71,
                             "decorators": [],
                             "name": "Object",
-                            "optional": false
-                          }
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "typeArguments": null
                         }
                       }
                     },
@@ -115,6 +120,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 79,
                       "end": 109,
+                      "directive": null,
                       "expression": {
                         "type": "CallExpression",
                         "start": 79,
@@ -160,16 +166,19 @@ __ESTREE_TEST__:PASS:
                             "end": 106,
                             "decorators": [],
                             "name": "NonexistantMethod",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     },
                     {
                       "type": "ExpressionStatement",
                       "start": 114,
                       "end": 121,
+                      "directive": null,
                       "expression": {
                         "type": "CallExpression",
                         "start": 114,
@@ -181,9 +190,11 @@ __ESTREE_TEST__:PASS:
                           "end": 118,
                           "decorators": [],
                           "name": "derp",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -192,7 +203,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             ]
           }

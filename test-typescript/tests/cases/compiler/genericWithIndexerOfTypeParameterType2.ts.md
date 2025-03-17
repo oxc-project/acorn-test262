@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 60,
               "end": 99,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "decorators": [],
                 "name": "_itemsByKey",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -53,6 +55,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSIndexSignature",
                       "start": 75,
                       "end": 96,
+                      "accessibility": null,
                       "parameters": [
                         {
                           "type": "Identifier",
@@ -83,13 +86,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 90,
                           "end": 95,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 90,
                             "end": 95,
                             "decorators": [],
                             "name": "TItem",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -109,10 +114,12 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "Collection",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 23,
@@ -127,15 +134,18 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 38,
                 "end": 52,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 38,
                   "end": 52,
                   "decorators": [],
                   "name": "CollectionItem",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -143,7 +153,8 @@ __ESTREE_TEST__:PASS:
                 "end": 29,
                 "decorators": [],
                 "name": "TItem",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -173,6 +184,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 155,
               "end": 163,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -181,7 +193,8 @@ __ESTREE_TEST__:PASS:
                 "end": 158,
                 "decorators": [],
                 "name": "Bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -202,7 +215,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -215,7 +230,8 @@ __ESTREE_TEST__:PASS:
           "end": 120,
           "decorators": [],
           "name": "List",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -224,7 +240,8 @@ __ESTREE_TEST__:PASS:
           "end": 139,
           "decorators": [],
           "name": "Collection",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -235,17 +252,20 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 140,
               "end": 148,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 140,
                 "end": 148,
                 "decorators": [],
                 "name": "ListItem",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -275,10 +295,13 @@ __ESTREE_TEST__:PASS:
           "end": 194,
           "decorators": [],
           "name": "CollectionItem",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -303,6 +326,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 250,
               "end": 267,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -313,7 +337,8 @@ __ESTREE_TEST__:PASS:
                 "end": 257,
                 "decorators": [],
                 "name": "__isNew",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -341,7 +366,8 @@ __ESTREE_TEST__:PASS:
           "end": 220,
           "decorators": [],
           "name": "ListItem",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -350,8 +376,11 @@ __ESTREE_TEST__:PASS:
           "end": 243,
           "decorators": [],
           "name": "CollectionItem",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

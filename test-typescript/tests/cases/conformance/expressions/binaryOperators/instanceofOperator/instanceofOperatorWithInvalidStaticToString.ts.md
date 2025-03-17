@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 35,
             "end": 59,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "toString",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                   "start": 54,
                   "end": 58
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -66,10 +69,13 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "StaticToString",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -96,7 +102,8 @@ __ESTREE_TEST__:PASS:
                 "end": 135,
                 "decorators": [],
                 "name": "staticToString",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -104,7 +111,8 @@ __ESTREE_TEST__:PASS:
                 "end": 161,
                 "decorators": [],
                 "name": "StaticToString",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -119,7 +127,8 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -137,18 +146,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 92,
               "end": 106,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 92,
                 "end": 106,
                 "decorators": [],
                 "name": "StaticToString",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -164,6 +177,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 201,
             "end": 225,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -172,7 +186,8 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "decorators": [],
               "name": "toNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -198,7 +213,8 @@ __ESTREE_TEST__:PASS:
                   "start": 220,
                   "end": 224
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -211,10 +227,13 @@ __ESTREE_TEST__:PASS:
         "end": 194,
         "decorators": [],
         "name": "StaticToNumber",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -241,7 +260,8 @@ __ESTREE_TEST__:PASS:
                 "end": 300,
                 "decorators": [],
                 "name": "staticToNumber",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -249,7 +269,8 @@ __ESTREE_TEST__:PASS:
                 "end": 326,
                 "decorators": [],
                 "name": "StaticToNumber",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -264,7 +285,8 @@ __ESTREE_TEST__:PASS:
         "end": 240,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -282,18 +304,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 257,
               "end": 271,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 257,
                 "end": 271,
                 "decorators": [],
                 "name": "StaticToNumber",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -309,6 +335,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 366,
             "end": 383,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -317,7 +344,8 @@ __ESTREE_TEST__:PASS:
               "end": 374,
               "decorators": [],
               "name": "toString",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -343,7 +371,8 @@ __ESTREE_TEST__:PASS:
                   "start": 378,
                   "end": 382
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -356,10 +385,13 @@ __ESTREE_TEST__:PASS:
         "end": 359,
         "decorators": [],
         "name": "NormalToString",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -386,7 +418,8 @@ __ESTREE_TEST__:PASS:
                 "end": 442,
                 "decorators": [],
                 "name": "normal",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Identifier",
@@ -394,7 +427,8 @@ __ESTREE_TEST__:PASS:
                 "end": 468,
                 "decorators": [],
                 "name": "NormalToString",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -409,7 +443,8 @@ __ESTREE_TEST__:PASS:
         "end": 398,
         "decorators": [],
         "name": "baz",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -427,18 +462,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 407,
               "end": 421,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 407,
                 "end": 421,
                 "decorators": [],
                 "name": "NormalToString",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

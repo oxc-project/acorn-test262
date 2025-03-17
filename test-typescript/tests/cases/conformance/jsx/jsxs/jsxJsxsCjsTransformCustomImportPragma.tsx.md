@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 81,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXFragment",
@@ -62,7 +63,8 @@ __ESTREE_TEST__:PASS:
                     "end": 91,
                     "name": "p"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -118,7 +120,8 @@ __ESTREE_TEST__:PASS:
                     "end": 110,
                     "name": "div"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -198,7 +201,8 @@ __ESTREE_TEST__:PASS:
             "end": 99,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXFragment",
@@ -239,7 +243,8 @@ __ESTREE_TEST__:PASS:
                     "end": 109,
                     "name": "p"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -295,7 +300,8 @@ __ESTREE_TEST__:PASS:
                     "end": 128,
                     "name": "div"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {

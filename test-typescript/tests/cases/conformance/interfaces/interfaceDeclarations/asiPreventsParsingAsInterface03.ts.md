@@ -77,26 +77,30 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 53,
             "end": 62,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 53,
               "end": 62,
               "decorators": [],
               "name": "interface",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 114,
             "end": 115,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 114,
               "end": 115,
               "decorators": [],
               "name": "I",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -115,7 +119,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "n",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

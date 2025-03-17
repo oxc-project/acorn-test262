@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 1025,
       "end": 1062,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 1045,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -41,13 +43,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1054,
                 "end": 1055,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1054,
                   "end": 1055,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -62,13 +66,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 1060,
           "end": 1061,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 1060,
             "end": 1061,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -82,6 +88,8 @@ __ESTREE_TEST__:PASS:
             "start": 1046,
             "end": 1047,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -89,7 +97,8 @@ __ESTREE_TEST__:PASS:
               "end": 1047,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -100,6 +109,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1063,
       "end": 1075,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 1063,
@@ -123,9 +133,11 @@ __ESTREE_TEST__:PASS:
             "end": 1066,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         },
         "optional": false,
         "property": {
@@ -134,7 +146,8 @@ __ESTREE_TEST__:PASS:
           "end": 1074,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "_C__1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -43,6 +44,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 24,
             "end": 39,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -57,6 +59,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 37,
@@ -69,6 +72,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 42,
             "end": 57,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -83,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 55,
@@ -95,6 +100,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 60,
             "end": 75,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -109,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 73,
@@ -163,15 +170,19 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 152,
       "end": 170,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 152,
@@ -183,7 +194,8 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "_C__1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -197,7 +209,8 @@ __ESTREE_TEST__:PASS:
             "end": 159,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -206,10 +219,12 @@ __ESTREE_TEST__:PASS:
             "end": 163,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

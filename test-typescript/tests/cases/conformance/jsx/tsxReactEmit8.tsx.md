@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 45,
       "end": 58,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 45,
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
             "end": 49,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     },
@@ -52,6 +54,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 89,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 59,
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "name": "div"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

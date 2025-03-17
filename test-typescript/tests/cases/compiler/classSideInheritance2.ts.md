@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 22,
             "end": 34,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 25,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,8 +53,10 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "IText",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -72,8 +76,10 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "TextSpan",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -89,6 +95,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 103,
             "end": 176,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -97,7 +104,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -117,6 +125,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 158,
                     "end": 166,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 158,
@@ -127,7 +136,8 @@ __ESTREE_TEST__:PASS:
                         "start": 158,
                         "end": 163
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -152,13 +162,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 121,
                       "end": 126,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 121,
                         "end": 126,
                         "decorators": [],
                         "name": "IText",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -178,18 +190,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 134,
                       "end": 142,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 134,
                         "end": 142,
                         "decorators": [],
                         "name": "TextSpan",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -202,7 +218,8 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "SubText",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -211,8 +228,11 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "TextBase",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -239,7 +259,8 @@ __ESTREE_TEST__:PASS:
               "end": 232,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -270,7 +291,8 @@ __ESTREE_TEST__:PASS:
               "end": 264,
               "decorators": [],
               "name": "subText",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -306,7 +328,8 @@ __ESTREE_TEST__:PASS:
                           "end": 332,
                           "decorators": [],
                           "name": "span",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -315,8 +338,10 @@ __ESTREE_TEST__:PASS:
                         "end": 321,
                         "decorators": [],
                         "name": "SubText",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -341,13 +366,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 271,
                       "end": 279,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 271,
                         "end": 279,
                         "decorators": [],
                         "name": "TextSpan",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -361,16 +388,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 282,
                   "end": 287,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 282,
                     "end": 287,
                     "decorators": [],
                     "name": "IText",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -383,7 +413,8 @@ __ESTREE_TEST__:PASS:
         "end": 194,
         "decorators": [],
         "name": "TextBase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [
         {
@@ -396,11 +427,15 @@ __ESTREE_TEST__:PASS:
             "end": 211,
             "decorators": [],
             "name": "IText",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

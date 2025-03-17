@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 176,
             "end": 184,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 176,
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
         "end": 141,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -73,10 +75,12 @@ __ESTREE_TEST__:PASS:
             "end": 161,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

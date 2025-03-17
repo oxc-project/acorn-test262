@@ -39,7 +39,8 @@ __ESTREE_TEST__:PASS:
                       "end": 129,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -53,7 +54,8 @@ __ESTREE_TEST__:PASS:
                 "end": 70,
                 "decorators": [],
                 "name": "createValidator1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -99,13 +101,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 95,
                           "end": 96,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 95,
                             "end": 96,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -119,13 +123,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 101,
                       "end": 102,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 101,
                         "end": 102,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -139,6 +145,8 @@ __ESTREE_TEST__:PASS:
                         "start": 86,
                         "end": 87,
                         "const": false,
+                        "constraint": null,
+                        "default": null,
                         "in": false,
                         "name": {
                           "type": "Identifier",
@@ -146,14 +154,16 @@ __ESTREE_TEST__:PASS:
                           "end": 87,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "out": false
                       }
                     ]
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -169,7 +179,8 @@ __ESTREE_TEST__:PASS:
         "end": 31,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -207,7 +218,8 @@ __ESTREE_TEST__:PASS:
                       "end": 276,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -221,7 +233,8 @@ __ESTREE_TEST__:PASS:
                 "end": 213,
                 "decorators": [],
                 "name": "createValidator2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -268,13 +281,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 242,
                           "end": 243,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 242,
                             "end": 243,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -288,13 +303,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 248,
                       "end": 249,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 248,
                         "end": 249,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -308,6 +325,8 @@ __ESTREE_TEST__:PASS:
                         "start": 233,
                         "end": 234,
                         "const": false,
+                        "constraint": null,
+                        "default": null,
                         "in": false,
                         "name": {
                           "type": "Identifier",
@@ -315,14 +334,16 @@ __ESTREE_TEST__:PASS:
                           "end": 234,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "out": false
                       }
                     ]
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -338,7 +359,8 @@ __ESTREE_TEST__:PASS:
         "end": 174,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -376,7 +398,8 @@ __ESTREE_TEST__:PASS:
                       "end": 431,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -390,7 +413,8 @@ __ESTREE_TEST__:PASS:
                 "end": 355,
                 "decorators": [],
                 "name": "createValidator3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -451,13 +475,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 395,
                                   "end": 396,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 395,
                                     "end": 396,
                                     "decorators": [],
                                     "name": "T",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -471,13 +497,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 399,
                               "end": 400,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 399,
                                 "end": 400,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -491,6 +519,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 386,
                                 "end": 387,
                                 "const": false,
+                                "constraint": null,
+                                "default": null,
                                 "in": false,
                                 "name": {
                                   "type": "Identifier",
@@ -498,7 +528,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 387,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "out": false
                               }
@@ -509,7 +540,8 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -525,7 +557,8 @@ __ESTREE_TEST__:PASS:
         "end": 315,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -563,7 +596,8 @@ __ESTREE_TEST__:PASS:
                       "end": 578,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -577,7 +611,8 @@ __ESTREE_TEST__:PASS:
                 "end": 510,
                 "decorators": [],
                 "name": "createValidator4",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -632,13 +667,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 541,
                                 "end": 542,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 541,
                                   "end": 542,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -652,13 +689,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 545,
                             "end": 546,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 545,
                               "end": 546,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -672,6 +711,8 @@ __ESTREE_TEST__:PASS:
                               "start": 532,
                               "end": 533,
                               "const": false,
+                              "constraint": null,
+                              "default": null,
                               "in": false,
                               "name": {
                                 "type": "Identifier",
@@ -679,7 +720,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 533,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "out": false
                             }
@@ -689,7 +731,8 @@ __ESTREE_TEST__:PASS:
                     ]
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -705,7 +748,8 @@ __ESTREE_TEST__:PASS:
         "end": 470,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -743,7 +787,8 @@ __ESTREE_TEST__:PASS:
                       "end": 723,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -757,7 +802,8 @@ __ESTREE_TEST__:PASS:
                 "end": 658,
                 "decorators": [],
                 "name": "createValidator5",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -808,13 +854,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 689,
                               "end": 690,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 689,
                                 "end": 690,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -828,13 +876,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 693,
                           "end": 694,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 693,
                             "end": 694,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -848,6 +898,8 @@ __ESTREE_TEST__:PASS:
                             "start": 680,
                             "end": 681,
                             "const": false,
+                            "constraint": null,
+                            "default": null,
                             "in": false,
                             "name": {
                               "type": "Identifier",
@@ -855,7 +907,8 @@ __ESTREE_TEST__:PASS:
                               "end": 681,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "out": false
                           }
@@ -864,7 +917,8 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -880,7 +934,8 @@ __ESTREE_TEST__:PASS:
         "end": 619,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -918,7 +973,8 @@ __ESTREE_TEST__:PASS:
                       "end": 875,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -932,7 +988,8 @@ __ESTREE_TEST__:PASS:
                 "end": 801,
                 "decorators": [],
                 "name": "createValidator6",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -984,13 +1041,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 832,
                               "end": 833,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 832,
                                 "end": 833,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -1004,13 +1063,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 838,
                           "end": 839,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 838,
                             "end": 839,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -1024,6 +1085,8 @@ __ESTREE_TEST__:PASS:
                             "start": 823,
                             "end": 824,
                             "const": false,
+                            "constraint": null,
+                            "default": null,
                             "in": false,
                             "name": {
                               "type": "Identifier",
@@ -1031,7 +1094,8 @@ __ESTREE_TEST__:PASS:
                               "end": 824,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "out": false
                           }
@@ -1045,7 +1109,8 @@ __ESTREE_TEST__:PASS:
                     }
                   ]
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1061,7 +1126,8 @@ __ESTREE_TEST__:PASS:
         "end": 762,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1099,7 +1165,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1019,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1113,7 +1180,8 @@ __ESTREE_TEST__:PASS:
                 "end": 953,
                 "decorators": [],
                 "name": "createValidator7",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -1164,13 +1232,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 983,
                             "end": 984,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 983,
                               "end": 984,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -1184,13 +1254,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 987,
                         "end": 988,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 987,
                           "end": 988,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -1204,6 +1276,8 @@ __ESTREE_TEST__:PASS:
                           "start": 974,
                           "end": 975,
                           "const": false,
+                          "constraint": null,
+                          "default": null,
                           "in": false,
                           "name": {
                             "type": "Identifier",
@@ -1211,7 +1285,8 @@ __ESTREE_TEST__:PASS:
                             "end": 975,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "out": false
                         }
@@ -1219,7 +1294,8 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1235,7 +1311,8 @@ __ESTREE_TEST__:PASS:
         "end": 914,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1273,7 +1350,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1168,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1287,7 +1365,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1100,
                 "decorators": [],
                 "name": "createValidator8",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -1347,13 +1426,15 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSTypeReference",
                                     "start": 1133,
                                     "end": 1134,
+                                    "typeArguments": null,
                                     "typeName": {
                                       "type": "Identifier",
                                       "start": 1133,
                                       "end": 1134,
                                       "decorators": [],
                                       "name": "T",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 }
@@ -1367,13 +1448,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 1138,
                                 "end": 1139,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 1138,
                                   "end": 1139,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -1387,6 +1470,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 1124,
                                   "end": 1125,
                                   "const": false,
+                                  "constraint": null,
+                                  "default": null,
                                   "in": false,
                                   "name": {
                                     "type": "Identifier",
@@ -1394,7 +1479,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 1125,
                                     "decorators": [],
                                     "name": "T",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "out": false
                                 }
@@ -1411,10 +1497,12 @@ __ESTREE_TEST__:PASS:
                     "end": 1120,
                     "decorators": [],
                     "name": "Array",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1430,7 +1518,8 @@ __ESTREE_TEST__:PASS:
         "end": 1061,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -1462,6 +1551,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 1225,
                     "end": 1308,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -1470,7 +1560,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1245,
                       "decorators": [],
                       "name": "createValidator9",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "get",
                     "optional": false,
@@ -1496,7 +1587,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1297,
                               "decorators": [],
                               "name": "undefined",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -1530,13 +1622,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1259,
                                   "end": 1260,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1259,
                                     "end": 1260,
                                     "decorators": [],
                                     "name": "T",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -1550,13 +1644,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1265,
                               "end": 1266,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1265,
                                 "end": 1266,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -1570,6 +1666,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 1250,
                                 "end": 1251,
                                 "const": false,
+                                "constraint": null,
+                                "default": null,
                                 "in": false,
                                 "name": {
                                   "type": "Identifier",
@@ -1577,20 +1675,23 @@ __ESTREE_TEST__:PASS:
                                   "end": 1251,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "out": false
                               }
                             ]
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 1326,
                     "end": 1381,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -1599,7 +1700,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1347,
                       "decorators": [],
                       "name": "createValidator10",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "set",
                     "optional": false,
@@ -1652,13 +1754,15 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSTypeReference",
                                       "start": 1361,
                                       "end": 1362,
+                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 1361,
                                         "end": 1362,
                                         "decorators": [],
                                         "name": "T",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   }
@@ -1672,13 +1776,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1367,
                                   "end": 1368,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1367,
                                     "end": 1368,
                                     "decorators": [],
                                     "name": "T",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -1692,6 +1798,8 @@ __ESTREE_TEST__:PASS:
                                     "start": 1352,
                                     "end": 1353,
                                     "const": false,
+                                    "constraint": null,
+                                    "default": null,
                                     "in": false,
                                     "name": {
                                       "type": "Identifier",
@@ -1699,7 +1807,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 1353,
                                       "decorators": [],
                                       "name": "T",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "out": false
                                   }
@@ -1708,7 +1817,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -1721,10 +1832,13 @@ __ESTREE_TEST__:PASS:
                 "end": 1214,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1740,7 +1854,8 @@ __ESTREE_TEST__:PASS:
         "end": 1193,
         "decorators": [],
         "name": "schema",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

@@ -81,9 +81,12 @@ __ESTREE_TEST__:PASS:
                                         "end": 149,
                                         "decorators": [],
                                         "name": "foo",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
-                                      "params": []
+                                      "params": [],
+                                      "returnType": null,
+                                      "typeParameters": null
                                     },
                                     "exportKind": "value",
                                     "source": null,
@@ -99,7 +102,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 111,
                                 "decorators": [],
                                 "name": "data",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "module"
                             },
@@ -121,7 +125,8 @@ __ESTREE_TEST__:PASS:
                           "end": 74,
                           "decorators": [],
                           "name": "my",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -129,7 +134,8 @@ __ESTREE_TEST__:PASS:
                           "end": 78,
                           "decorators": [],
                           "name": "buz",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "module"
@@ -185,6 +191,7 @@ __ESTREE_TEST__:PASS:
                                             "type": "ExpressionStatement",
                                             "start": 326,
                                             "end": 332,
+                                            "directive": null,
                                             "expression": {
                                               "type": "CallExpression",
                                               "start": 326,
@@ -196,9 +203,11 @@ __ESTREE_TEST__:PASS:
                                                 "end": 329,
                                                 "decorators": [],
                                                 "name": "foo",
-                                                "optional": false
+                                                "optional": false,
+                                                "typeAnnotation": null
                                               },
-                                              "optional": false
+                                              "optional": false,
+                                              "typeArguments": null
                                             }
                                           }
                                         ]
@@ -212,7 +221,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 279,
                                         "decorators": [],
                                         "name": "bar",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "params": [
                                         {
@@ -221,7 +231,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 287,
                                           "decorators": [],
                                           "name": "contain",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -229,7 +240,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 291,
                                           "decorators": [],
                                           "name": "my",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -237,7 +249,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 296,
                                           "decorators": [],
                                           "name": "buz",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         },
                                         {
                                           "type": "Identifier",
@@ -245,9 +258,12 @@ __ESTREE_TEST__:PASS:
                                           "end": 302,
                                           "decorators": [],
                                           "name": "data",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
-                                      ]
+                                      ],
+                                      "returnType": null,
+                                      "typeParameters": null
                                     },
                                     "exportKind": "value",
                                     "source": null,
@@ -263,7 +279,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 241,
                                 "decorators": [],
                                 "name": "data",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "module"
                             },
@@ -285,7 +302,8 @@ __ESTREE_TEST__:PASS:
                           "end": 204,
                           "decorators": [],
                           "name": "my",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -293,7 +311,8 @@ __ESTREE_TEST__:PASS:
                           "end": 208,
                           "decorators": [],
                           "name": "buz",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "kind": "module"
@@ -312,7 +331,8 @@ __ESTREE_TEST__:PASS:
                 "end": 47,
                 "decorators": [],
                 "name": "contain",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -330,7 +350,8 @@ __ESTREE_TEST__:PASS:
         "end": 19,
         "decorators": [],
         "name": "superContain",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

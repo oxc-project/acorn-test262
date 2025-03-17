@@ -335,7 +335,8 @@ __ESTREE_TEST__:PASS:
             "end": 255,
             "decorators": [],
             "name": "idx0",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -365,7 +366,8 @@ __ESTREE_TEST__:PASS:
             "end": 269,
             "decorators": [],
             "name": "idx1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -395,7 +397,8 @@ __ESTREE_TEST__:PASS:
             "end": 284,
             "decorators": [],
             "name": "ele10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -408,7 +411,8 @@ __ESTREE_TEST__:PASS:
               "end": 298,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -440,7 +444,8 @@ __ESTREE_TEST__:PASS:
             "end": 322,
             "decorators": [],
             "name": "ele11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -453,7 +458,8 @@ __ESTREE_TEST__:PASS:
               "end": 336,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -485,7 +491,8 @@ __ESTREE_TEST__:PASS:
             "end": 360,
             "decorators": [],
             "name": "ele12",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -498,7 +505,8 @@ __ESTREE_TEST__:PASS:
               "end": 374,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -530,7 +538,8 @@ __ESTREE_TEST__:PASS:
             "end": 407,
             "decorators": [],
             "name": "ele13",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -543,7 +552,8 @@ __ESTREE_TEST__:PASS:
               "end": 421,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -552,7 +562,8 @@ __ESTREE_TEST__:PASS:
               "end": 426,
               "decorators": [],
               "name": "idx0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -576,7 +587,8 @@ __ESTREE_TEST__:PASS:
             "end": 457,
             "decorators": [],
             "name": "ele14",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -589,7 +601,8 @@ __ESTREE_TEST__:PASS:
               "end": 471,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -598,7 +611,8 @@ __ESTREE_TEST__:PASS:
               "end": 476,
               "decorators": [],
               "name": "idx1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -622,7 +636,8 @@ __ESTREE_TEST__:PASS:
             "end": 507,
             "decorators": [],
             "name": "ele15",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -635,7 +650,8 @@ __ESTREE_TEST__:PASS:
               "end": 521,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -667,7 +683,8 @@ __ESTREE_TEST__:PASS:
             "end": 547,
             "decorators": [],
             "name": "ele16",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -680,7 +697,8 @@ __ESTREE_TEST__:PASS:
               "end": 561,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -712,7 +730,8 @@ __ESTREE_TEST__:PASS:
             "end": 594,
             "decorators": [],
             "name": "strNumTuple1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -725,7 +744,8 @@ __ESTREE_TEST__:PASS:
               "end": 610,
               "decorators": [],
               "name": "numTupleTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -757,7 +777,8 @@ __ESTREE_TEST__:PASS:
             "end": 645,
             "decorators": [],
             "name": "ele17",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -770,7 +791,8 @@ __ESTREE_TEST__:PASS:
               "end": 661,
               "decorators": [],
               "name": "numTupleTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -802,7 +824,8 @@ __ESTREE_TEST__:PASS:
             "end": 704,
             "decorators": [],
             "name": "ele19",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -815,7 +838,8 @@ __ESTREE_TEST__:PASS:
               "end": 718,
               "decorators": [],
               "name": "strNumTuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -854,7 +878,8 @@ __ESTREE_TEST__:PASS:
             "end": 753,
             "decorators": [],
             "name": "eleUnion10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -867,7 +892,8 @@ __ESTREE_TEST__:PASS:
               "end": 767,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -899,7 +925,8 @@ __ESTREE_TEST__:PASS:
             "end": 796,
             "decorators": [],
             "name": "eleUnion11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -912,7 +939,8 @@ __ESTREE_TEST__:PASS:
               "end": 810,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -944,7 +972,8 @@ __ESTREE_TEST__:PASS:
             "end": 848,
             "decorators": [],
             "name": "eleUnion12",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -957,7 +986,8 @@ __ESTREE_TEST__:PASS:
               "end": 862,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -989,7 +1019,8 @@ __ESTREE_TEST__:PASS:
             "end": 900,
             "decorators": [],
             "name": "eleUnion13",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1002,7 +1033,8 @@ __ESTREE_TEST__:PASS:
               "end": 914,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1011,7 +1043,8 @@ __ESTREE_TEST__:PASS:
               "end": 919,
               "decorators": [],
               "name": "idx0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1035,7 +1068,8 @@ __ESTREE_TEST__:PASS:
             "end": 955,
             "decorators": [],
             "name": "eleUnion14",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1048,7 +1082,8 @@ __ESTREE_TEST__:PASS:
               "end": 969,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1057,7 +1092,8 @@ __ESTREE_TEST__:PASS:
               "end": 974,
               "decorators": [],
               "name": "idx1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1081,7 +1117,8 @@ __ESTREE_TEST__:PASS:
             "end": 1010,
             "decorators": [],
             "name": "eleUnion15",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1094,7 +1131,8 @@ __ESTREE_TEST__:PASS:
               "end": 1024,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1126,7 +1164,8 @@ __ESTREE_TEST__:PASS:
             "end": 1055,
             "decorators": [],
             "name": "eleUnion16",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1139,7 +1178,8 @@ __ESTREE_TEST__:PASS:
               "end": 1069,
               "decorators": [],
               "name": "unionTuple1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1171,7 +1211,8 @@ __ESTREE_TEST__:PASS:
             "end": 1110,
             "decorators": [],
             "name": "eleUnion20",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1184,7 +1225,8 @@ __ESTREE_TEST__:PASS:
               "end": 1124,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1216,7 +1258,8 @@ __ESTREE_TEST__:PASS:
             "end": 1154,
             "decorators": [],
             "name": "eleUnion21",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1229,7 +1272,8 @@ __ESTREE_TEST__:PASS:
               "end": 1168,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1261,7 +1305,8 @@ __ESTREE_TEST__:PASS:
             "end": 1206,
             "decorators": [],
             "name": "eleUnion22",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1274,7 +1319,8 @@ __ESTREE_TEST__:PASS:
               "end": 1220,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1306,7 +1352,8 @@ __ESTREE_TEST__:PASS:
             "end": 1268,
             "decorators": [],
             "name": "eleUnion23",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1319,7 +1366,8 @@ __ESTREE_TEST__:PASS:
               "end": 1282,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1328,7 +1376,8 @@ __ESTREE_TEST__:PASS:
               "end": 1287,
               "decorators": [],
               "name": "idx0",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1352,7 +1401,8 @@ __ESTREE_TEST__:PASS:
             "end": 1333,
             "decorators": [],
             "name": "eleUnion24",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1365,7 +1415,8 @@ __ESTREE_TEST__:PASS:
               "end": 1347,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1374,7 +1425,8 @@ __ESTREE_TEST__:PASS:
               "end": 1352,
               "decorators": [],
               "name": "idx1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -1398,7 +1450,8 @@ __ESTREE_TEST__:PASS:
             "end": 1398,
             "decorators": [],
             "name": "eleUnion25",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1411,7 +1464,8 @@ __ESTREE_TEST__:PASS:
               "end": 1412,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1443,7 +1497,8 @@ __ESTREE_TEST__:PASS:
             "end": 1444,
             "decorators": [],
             "name": "eleUnion26",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "MemberExpression",
@@ -1456,7 +1511,8 @@ __ESTREE_TEST__:PASS:
               "end": 1458,
               "decorators": [],
               "name": "unionTuple2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -1483,7 +1539,8 @@ __ESTREE_TEST__:PASS:
         "end": 1492,
         "decorators": [],
         "name": "t1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -1518,7 +1575,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1531,7 +1589,8 @@ __ESTREE_TEST__:PASS:
         "end": 1534,
         "decorators": [],
         "name": "t2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -1566,7 +1625,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -1579,7 +1639,8 @@ __ESTREE_TEST__:PASS:
         "end": 1576,
         "decorators": [],
         "name": "t3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -1621,7 +1682,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

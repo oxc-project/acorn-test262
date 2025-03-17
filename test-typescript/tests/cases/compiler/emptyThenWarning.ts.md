@@ -39,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -93,6 +94,7 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 47,
           "end": 53,
+          "directive": null,
           "expression": {
             "type": "AssignmentExpression",
             "start": 47,
@@ -104,7 +106,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",

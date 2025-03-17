@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 35,
             "decorators": [],
             "name": "self",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -38,13 +39,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 64,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 59,
         "end": 63,
         "decorators": [],
         "name": "self",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

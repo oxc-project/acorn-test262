@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "takesCallback",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -72,16 +73,20 @@ __ESTREE_TEST__:PASS:
                   "start": 42,
                   "end": 46
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 62,
       "end": 106,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 62,
@@ -138,7 +143,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -147,9 +154,11 @@ __ESTREE_TEST__:PASS:
           "end": 75,
           "decorators": [],
           "name": "takesCallback",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

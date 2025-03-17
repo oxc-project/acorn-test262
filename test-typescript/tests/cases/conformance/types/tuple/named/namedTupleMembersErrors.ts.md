@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Segment1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -43,7 +44,8 @@ __ESTREE_TEST__:PASS:
                 "end": 30,
                 "decorators": [],
                 "name": "length",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 46
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
           "end": 69,
           "decorators": [],
           "name": "Segment2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -102,12 +106,14 @@ __ESTREE_TEST__:PASS:
                 "end": 85,
                 "decorators": [],
                 "name": "size",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -129,7 +135,8 @@ __ESTREE_TEST__:PASS:
           "end": 113,
           "decorators": [],
           "name": "List",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -151,7 +158,8 @@ __ESTREE_TEST__:PASS:
                 "end": 121,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -166,7 +174,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -188,7 +197,8 @@ __ESTREE_TEST__:PASS:
           "end": 155,
           "decorators": [],
           "name": "List2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -219,13 +229,15 @@ __ESTREE_TEST__:PASS:
                   "end": 176,
                   "decorators": [],
                   "name": "remainder",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -247,7 +259,8 @@ __ESTREE_TEST__:PASS:
           "end": 202,
           "decorators": [],
           "name": "Pair",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -269,7 +282,8 @@ __ESTREE_TEST__:PASS:
                 "end": 210,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -284,7 +298,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -306,7 +321,8 @@ __ESTREE_TEST__:PASS:
           "end": 242,
           "decorators": [],
           "name": "Pair2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -333,12 +349,14 @@ __ESTREE_TEST__:PASS:
                 "end": 255,
                 "decorators": [],
                 "name": "last",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -360,7 +378,8 @@ __ESTREE_TEST__:PASS:
           "end": 281,
           "decorators": [],
           "name": "Opt",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -387,12 +406,14 @@ __ESTREE_TEST__:PASS:
                 "end": 292,
                 "decorators": [],
                 "name": "element",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -414,7 +435,8 @@ __ESTREE_TEST__:PASS:
           "end": 364,
           "decorators": [],
           "name": "Trailing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -436,7 +458,8 @@ __ESTREE_TEST__:PASS:
                 "end": 373,
                 "decorators": [],
                 "name": "first",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -465,12 +488,14 @@ __ESTREE_TEST__:PASS:
                 "end": 387,
                 "decorators": [],
                 "name": "rest",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -492,7 +517,8 @@ __ESTREE_TEST__:PASS:
           "end": 457,
           "decorators": [],
           "name": "OptTrailing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -514,7 +540,8 @@ __ESTREE_TEST__:PASS:
                 "end": 466,
                 "decorators": [],
                 "name": "first",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -546,6 +573,8 @@ __ESTREE_TEST__:PASS:
                     }
                   },
                   "id": 0,
+                  "original": null,
+                  "emitNode": null,
                   "postfix": true
                 }
               },
@@ -555,12 +584,14 @@ __ESTREE_TEST__:PASS:
                 "end": 480,
                 "decorators": [],
                 "name": "rest",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -582,7 +613,8 @@ __ESTREE_TEST__:PASS:
           "end": 556,
           "decorators": [],
           "name": "OptRest",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -604,7 +636,8 @@ __ESTREE_TEST__:PASS:
                 "end": 565,
                 "decorators": [],
                 "name": "first",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -632,13 +665,15 @@ __ESTREE_TEST__:PASS:
                   "end": 582,
                   "decorators": [],
                   "name": "rest",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": true
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -660,7 +695,8 @@ __ESTREE_TEST__:PASS:
           "end": 649,
           "decorators": [],
           "name": "NonArrayRest",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -682,7 +718,8 @@ __ESTREE_TEST__:PASS:
                 "end": 658,
                 "decorators": [],
                 "name": "first",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -705,13 +742,15 @@ __ESTREE_TEST__:PASS:
                   "end": 675,
                   "decorators": [],
                   "name": "rest",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -733,7 +772,8 @@ __ESTREE_TEST__:PASS:
           "end": 754,
           "decorators": [],
           "name": "RecusiveRestUnlabeled",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -753,18 +793,21 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 769,
                 "end": 790,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 769,
                   "end": 790,
                   "decorators": [],
                   "name": "RecusiveRestUnlabeled",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -786,7 +829,8 @@ __ESTREE_TEST__:PASS:
           "end": 817,
           "decorators": [],
           "name": "RecusiveRest",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTupleType",
@@ -808,7 +852,8 @@ __ESTREE_TEST__:PASS:
                 "end": 826,
                 "decorators": [],
                 "name": "first",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             },
@@ -824,13 +869,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 845,
                   "end": 857,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 845,
                     "end": 857,
                     "decorators": [],
                     "name": "RecusiveRest",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "label": {
@@ -839,13 +886,15 @@ __ESTREE_TEST__:PASS:
                   "end": 843,
                   "decorators": [],
                   "name": "rest",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

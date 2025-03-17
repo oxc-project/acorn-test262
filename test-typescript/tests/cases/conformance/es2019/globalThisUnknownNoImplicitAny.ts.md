@@ -35,13 +35,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 17,
                     "end": 23,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 17,
                       "end": 23,
                       "decorators": [],
                       "name": "Window",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -54,8 +56,10 @@ __ESTREE_TEST__:PASS:
                       "end": 43,
                       "decorators": [],
                       "name": "globalThis",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               }
@@ -71,6 +75,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 79,
       "end": 85,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 79,
@@ -82,7 +87,8 @@ __ESTREE_TEST__:PASS:
           "end": 82,
           "decorators": [],
           "name": "win",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -91,7 +97,8 @@ __ESTREE_TEST__:PASS:
           "end": 85,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -99,6 +106,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 86,
       "end": 93,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 86,
@@ -116,7 +124,8 @@ __ESTREE_TEST__:PASS:
           "end": 93,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -124,6 +133,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 94,
       "end": 107,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 94,
@@ -135,7 +145,8 @@ __ESTREE_TEST__:PASS:
           "end": 104,
           "decorators": [],
           "name": "globalThis",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -144,7 +155,8 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "hi",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 109,
       "end": 118,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 109,
@@ -163,7 +176,8 @@ __ESTREE_TEST__:PASS:
           "end": 112,
           "decorators": [],
           "name": "win",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -179,6 +193,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 119,
       "end": 129,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 119,
@@ -203,6 +218,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 130,
       "end": 146,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 130,
@@ -214,7 +230,8 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "globalThis",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

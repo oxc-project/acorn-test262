@@ -213,6 +213,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 222,
       "end": 258,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 222,
@@ -224,7 +225,8 @@ __ESTREE_TEST__:PASS:
           "end": 237,
           "decorators": [],
           "name": "resultIsBoolean",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -237,7 +239,8 @@ __ESTREE_TEST__:PASS:
               "end": 248,
               "decorators": [],
               "name": "BOOLEAN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -245,7 +248,8 @@ __ESTREE_TEST__:PASS:
               "end": 256,
               "decorators": [],
               "name": "STRING",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }
@@ -255,6 +259,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 259,
       "end": 295,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 259,
@@ -266,7 +271,8 @@ __ESTREE_TEST__:PASS:
           "end": 274,
           "decorators": [],
           "name": "resultIsBoolean",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -279,7 +285,8 @@ __ESTREE_TEST__:PASS:
               "end": 285,
               "decorators": [],
               "name": "BOOLEAN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -287,7 +294,8 @@ __ESTREE_TEST__:PASS:
               "end": 293,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }
@@ -297,6 +305,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 297,
       "end": 332,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 297,
@@ -308,7 +317,8 @@ __ESTREE_TEST__:PASS:
           "end": 311,
           "decorators": [],
           "name": "resultIsNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -321,7 +331,8 @@ __ESTREE_TEST__:PASS:
               "end": 321,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -329,7 +340,8 @@ __ESTREE_TEST__:PASS:
               "end": 330,
               "decorators": [],
               "name": "BOOLEAN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }
@@ -339,6 +351,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 333,
       "end": 367,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 333,
@@ -350,7 +363,8 @@ __ESTREE_TEST__:PASS:
           "end": 347,
           "decorators": [],
           "name": "resultIsNumber",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -363,7 +377,8 @@ __ESTREE_TEST__:PASS:
               "end": 357,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -371,7 +386,8 @@ __ESTREE_TEST__:PASS:
               "end": 365,
               "decorators": [],
               "name": "STRING",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }
@@ -381,6 +397,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 369,
       "end": 404,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 369,
@@ -392,7 +409,8 @@ __ESTREE_TEST__:PASS:
           "end": 383,
           "decorators": [],
           "name": "resultIsString",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -405,7 +423,8 @@ __ESTREE_TEST__:PASS:
               "end": 393,
               "decorators": [],
               "name": "STRING",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -413,7 +432,8 @@ __ESTREE_TEST__:PASS:
               "end": 402,
               "decorators": [],
               "name": "BOOLEAN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }
@@ -423,6 +443,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 405,
       "end": 439,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 405,
@@ -434,7 +455,8 @@ __ESTREE_TEST__:PASS:
           "end": 419,
           "decorators": [],
           "name": "resultIsString",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "SequenceExpression",
@@ -447,7 +469,8 @@ __ESTREE_TEST__:PASS:
               "end": 429,
               "decorators": [],
               "name": "STRING",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -455,7 +478,8 @@ __ESTREE_TEST__:PASS:
               "end": 437,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ]
         }

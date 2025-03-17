@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 53,
+      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "expression": true,
             "generator": false,
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
                 "end": 21,
                 "decorators": [],
                 "name": "param",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "returnType": {
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 30
               }
-            }
+            },
+            "typeParameters": null
           },
           "test": {
             "type": "Literal",

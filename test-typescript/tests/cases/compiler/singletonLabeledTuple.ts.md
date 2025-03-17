@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "AliasOptional",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -38,12 +39,14 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "p",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
         "end": 77,
         "decorators": [],
         "name": "Literal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -82,7 +86,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true
             }
@@ -124,7 +129,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -137,7 +143,8 @@ __ESTREE_TEST__:PASS:
         "end": 170,
         "decorators": [],
         "name": "Alias",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -147,13 +154,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 173,
           "end": 186,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 173,
             "end": 186,
             "decorators": [],
             "name": "AliasOptional",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -192,7 +201,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -205,7 +215,8 @@ __ESTREE_TEST__:PASS:
         "end": 302,
         "decorators": [],
         "name": "Labeled",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -231,7 +242,8 @@ __ESTREE_TEST__:PASS:
                 "end": 307,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true
             }
@@ -273,7 +285,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -286,7 +299,8 @@ __ESTREE_TEST__:PASS:
         "end": 398,
         "decorators": [],
         "name": "Normal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -345,7 +359,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -358,7 +373,8 @@ __ESTREE_TEST__:PASS:
         "end": 499,
         "decorators": [],
         "name": "AliasRest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -389,13 +405,15 @@ __ESTREE_TEST__:PASS:
                 "end": 507,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -408,7 +426,8 @@ __ESTREE_TEST__:PASS:
         "end": 537,
         "decorators": [],
         "name": "LiteralRest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -443,7 +462,8 @@ __ESTREE_TEST__:PASS:
                   "end": 545,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false
               }
@@ -486,7 +506,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -499,7 +520,8 @@ __ESTREE_TEST__:PASS:
         "end": 645,
         "decorators": [],
         "name": "AliasedRest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -509,13 +531,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 648,
           "end": 657,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 648,
             "end": 657,
             "decorators": [],
             "name": "AliasRest",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -554,7 +578,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -567,7 +592,8 @@ __ESTREE_TEST__:PASS:
         "end": 745,
         "decorators": [],
         "name": "NormalRest",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -631,7 +657,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

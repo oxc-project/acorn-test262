@@ -21,13 +21,15 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "decorators": [],
           "name": "T",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 16,
           "end": 22
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

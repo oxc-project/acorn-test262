@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 133,
                 "end": 139
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
                 "start": 162,
                 "end": 168
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -75,8 +77,10 @@ __ESTREE_TEST__:PASS:
         "end": 122,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -101,7 +105,8 @@ __ESTREE_TEST__:PASS:
                 "start": 214,
                 "end": 220
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
                 "start": 243,
                 "end": 249
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -152,8 +158,10 @@ __ESTREE_TEST__:PASS:
             "end": 203,
             "decorators": [],
             "name": "Base",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -162,8 +170,10 @@ __ESTREE_TEST__:PASS:
         "end": 190,
         "decorators": [],
         "name": "Derived",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

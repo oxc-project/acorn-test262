@@ -86,32 +86,37 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 65,
             "end": 72,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 65,
               "end": 72,
               "decorators": [],
               "name": "declare",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 128,
             "end": 134,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 128,
               "end": 134,
               "decorators": [],
               "name": "module",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 190,
             "end": 210,
+            "directive": null,
             "expression": {
               "type": "Literal",
               "start": 190,
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "container",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

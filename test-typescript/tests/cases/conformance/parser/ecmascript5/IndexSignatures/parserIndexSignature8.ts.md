@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 11,
                     "end": 24,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -56,7 +57,8 @@ __ESTREE_TEST__:PASS:
                       }
                     ],
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "typeAnnotation": null
                   }
                 ]
               }
@@ -98,6 +100,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 64,
                     "end": 80,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -114,20 +117,23 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 72,
                             "end": 78,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 72,
                               "end": 78,
                               "decorators": [],
                               "name": "RegExp",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
                       }
                     ],
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "typeAnnotation": null
                   }
                 ]
               }

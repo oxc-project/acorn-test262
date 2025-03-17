@@ -21,13 +21,15 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSNumberKeyword",
           "start": 18,
           "end": 24
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -43,6 +45,7 @@ __ESTREE_TEST__:PASS:
         "start": 33,
         "end": 56,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -64,7 +68,8 @@ __ESTREE_TEST__:PASS:
             "start": 49,
             "end": 55
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -95,7 +100,8 @@ __ESTREE_TEST__:PASS:
           "end": 76,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -107,7 +113,8 @@ __ESTREE_TEST__:PASS:
             "start": 80,
             "end": 83
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

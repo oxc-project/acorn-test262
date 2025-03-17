@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "j",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
                     "start": 20,
                     "end": 23
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -78,6 +80,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 56,
+      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 25,
@@ -93,7 +96,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "j",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "CallExpression",
@@ -106,9 +110,11 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         },
         "typeAnnotation": {

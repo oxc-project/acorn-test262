@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "raw": "1",
               "value": 1
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
               "end": 15,
               "raw": "2",
               "value": 2
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "raw": "3",
               "value": 3
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -63,7 +66,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

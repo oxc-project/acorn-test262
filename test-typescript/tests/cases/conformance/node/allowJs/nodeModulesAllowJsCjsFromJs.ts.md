@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -38,6 +39,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 28,
       "end": 36,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 28,
@@ -49,7 +51,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -58,7 +61,8 @@ __ESTREE_TEST__:PASS:
           "end": 35,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

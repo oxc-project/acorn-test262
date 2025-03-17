@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "undefined",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     },
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "__esModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

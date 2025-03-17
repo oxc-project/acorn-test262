@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 75,
             "end": 104,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                 "end": 94,
                 "decorators": [],
                 "name": "toStringTag",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -60,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 109,
             "end": 131,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -103,8 +107,10 @@ __ESTREE_TEST__:PASS:
         "end": 68,
         "decorators": [],
         "name": "I1",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -119,6 +125,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 154,
             "end": 183,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "MemberExpression",
@@ -131,7 +138,8 @@ __ESTREE_TEST__:PASS:
                 "end": 161,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -140,7 +148,8 @@ __ESTREE_TEST__:PASS:
                 "end": 173,
                 "decorators": [],
                 "name": "toStringTag",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "optional": false,
@@ -161,6 +170,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 188,
             "end": 211,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -204,8 +214,10 @@ __ESTREE_TEST__:PASS:
         "end": 147,
         "decorators": [],
         "name": "I2",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -260,6 +272,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 274,
             "end": 293,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -267,7 +280,8 @@ __ESTREE_TEST__:PASS:
               "end": 283,
               "decorators": [],
               "name": "mySymbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -287,6 +301,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 298,
             "end": 320,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -330,8 +345,10 @@ __ESTREE_TEST__:PASS:
         "end": 267,
         "decorators": [],
         "name": "I3",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -346,6 +363,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 343,
             "end": 362,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -353,7 +371,8 @@ __ESTREE_TEST__:PASS:
               "end": 352,
               "decorators": [],
               "name": "mySymbol",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -373,6 +392,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 367,
             "end": 390,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -416,8 +436,10 @@ __ESTREE_TEST__:PASS:
         "end": 336,
         "decorators": [],
         "name": "I4",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -34,6 +34,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 68,
                     "end": 81,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                       "end": 72,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -72,10 +74,13 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "Widget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -91,6 +96,7 @@ __ESTREE_TEST__:PASS:
               "start": 99,
               "end": 133,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 121,
                 "decorators": [],
                 "name": "createWidget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -111,16 +118,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 125,
                   "end": 132,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 125,
                     "end": 132,
                     "decorators": [],
                     "name": "Widget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -159,6 +169,7 @@ __ESTREE_TEST__:PASS:
                             "type": "PropertyDefinition",
                             "start": 222,
                             "end": 235,
+                            "accessibility": null,
                             "computed": false,
                             "declare": false,
                             "decorators": [],
@@ -169,7 +180,8 @@ __ESTREE_TEST__:PASS:
                               "end": 226,
                               "decorators": [],
                               "name": "name",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "override": false,
@@ -197,10 +209,13 @@ __ESTREE_TEST__:PASS:
                         "end": 207,
                         "decorators": [],
                         "name": "Widget4",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -211,6 +226,7 @@ __ESTREE_TEST__:PASS:
                     "start": 254,
                     "end": 288,
                     "async": false,
+                    "body": null,
                     "declare": false,
                     "expression": false,
                     "generator": false,
@@ -220,7 +236,8 @@ __ESTREE_TEST__:PASS:
                       "end": 276,
                       "decorators": [],
                       "name": "createWidget4",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "params": [],
                     "returnType": {
@@ -231,16 +248,19 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 280,
                         "end": 287,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 280,
                           "end": 287,
                           "decorators": [],
                           "name": "Widget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               },
@@ -252,7 +272,8 @@ __ESTREE_TEST__:PASS:
                 "end": 176,
                 "decorators": [],
                 "name": "SpecializedGlobalWidget",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -303,6 +324,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 27,
               "end": 40,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -313,12 +335,14 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "name",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 34,
@@ -337,10 +361,13 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Widget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -376,8 +403,10 @@ __ESTREE_TEST__:PASS:
                   "end": 99,
                   "decorators": [],
                   "name": "Widget1",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           ]
@@ -391,9 +420,12 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "createWidget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -432,6 +464,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 175,
                       "end": 188,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -442,12 +475,14 @@ __ESTREE_TEST__:PASS:
                         "end": 179,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
                       "readonly": false,
                       "static": false,
+                      "typeAnnotation": null,
                       "value": {
                         "type": "Literal",
                         "start": 182,
@@ -466,10 +501,13 @@ __ESTREE_TEST__:PASS:
                   "end": 164,
                   "decorators": [],
                   "name": "Widget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -505,8 +543,10 @@ __ESTREE_TEST__:PASS:
                           "end": 259,
                           "decorators": [],
                           "name": "Widget2",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -520,9 +560,12 @@ __ESTREE_TEST__:PASS:
                   "end": 228,
                   "decorators": [],
                   "name": "createWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -538,7 +581,8 @@ __ESTREE_TEST__:PASS:
           "end": 137,
           "decorators": [],
           "name": "SpecializedWidget",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -568,7 +612,8 @@ __ESTREE_TEST__:PASS:
         "end": 87,
         "decorators": [],
         "name": "Widgets",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -594,7 +639,8 @@ __ESTREE_TEST__:PASS:
         "end": 160,
         "decorators": [],
         "name": "Widgets1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -645,7 +691,8 @@ __ESTREE_TEST__:PASS:
                     "end": 249,
                     "decorators": [],
                     "name": "Widgets",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -654,10 +701,12 @@ __ESTREE_TEST__:PASS:
                     "end": 263,
                     "decorators": [],
                     "name": "createWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -671,9 +720,12 @@ __ESTREE_TEST__:PASS:
           "end": 226,
           "decorators": [],
           "name": "createExportedWidget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -719,7 +771,8 @@ __ESTREE_TEST__:PASS:
                       "end": 329,
                       "decorators": [],
                       "name": "Widgets",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -728,7 +781,8 @@ __ESTREE_TEST__:PASS:
                       "end": 347,
                       "decorators": [],
                       "name": "SpecializedWidget",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -738,10 +792,12 @@ __ESTREE_TEST__:PASS:
                     "end": 361,
                     "decorators": [],
                     "name": "createWidget2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -755,9 +811,12 @@ __ESTREE_TEST__:PASS:
           "end": 306,
           "decorators": [],
           "name": "createExportedWidget2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -798,7 +857,8 @@ __ESTREE_TEST__:PASS:
                     "end": 428,
                     "decorators": [],
                     "name": "Widgets1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -807,10 +867,12 @@ __ESTREE_TEST__:PASS:
                     "end": 442,
                     "decorators": [],
                     "name": "createWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -824,9 +886,12 @@ __ESTREE_TEST__:PASS:
           "end": 404,
           "decorators": [],
           "name": "createExportedWidget3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -872,7 +937,8 @@ __ESTREE_TEST__:PASS:
                       "end": 509,
                       "decorators": [],
                       "name": "Widgets1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -881,7 +947,8 @@ __ESTREE_TEST__:PASS:
                       "end": 533,
                       "decorators": [],
                       "name": "SpecializedGlobalWidget",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -891,10 +958,12 @@ __ESTREE_TEST__:PASS:
                     "end": 547,
                     "decorators": [],
                     "name": "createWidget4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -908,9 +977,12 @@ __ESTREE_TEST__:PASS:
           "end": 485,
           "decorators": [],
           "name": "createExportedWidget4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -938,7 +1010,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "exporter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -973,6 +1046,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 133,
               "end": 198,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -983,12 +1057,14 @@ __ESTREE_TEST__:PASS:
                 "end": 162,
                 "decorators": [],
                 "name": "myPublicStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 165,
@@ -1005,7 +1081,8 @@ __ESTREE_TEST__:PASS:
                     "end": 173,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1014,10 +1091,12 @@ __ESTREE_TEST__:PASS:
                     "end": 195,
                     "decorators": [],
                     "name": "createExportedWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
@@ -1035,12 +1114,14 @@ __ESTREE_TEST__:PASS:
                 "end": 250,
                 "decorators": [],
                 "name": "myPrivateStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 253,
@@ -1057,7 +1138,8 @@ __ESTREE_TEST__:PASS:
                     "end": 261,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1066,16 +1148,19 @@ __ESTREE_TEST__:PASS:
                     "end": 283,
                     "decorators": [],
                     "name": "createExportedWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 291,
               "end": 343,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1086,12 +1171,14 @@ __ESTREE_TEST__:PASS:
                 "end": 307,
                 "decorators": [],
                 "name": "myPublicProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 310,
@@ -1108,7 +1195,8 @@ __ESTREE_TEST__:PASS:
                     "end": 318,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1117,10 +1205,12 @@ __ESTREE_TEST__:PASS:
                     "end": 340,
                     "decorators": [],
                     "name": "createExportedWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
@@ -1138,12 +1228,14 @@ __ESTREE_TEST__:PASS:
                 "end": 382,
                 "decorators": [],
                 "name": "myPrivateProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 385,
@@ -1160,7 +1252,8 @@ __ESTREE_TEST__:PASS:
                     "end": 393,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1169,16 +1262,19 @@ __ESTREE_TEST__:PASS:
                     "end": 415,
                     "decorators": [],
                     "name": "createExportedWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 424,
               "end": 490,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1189,12 +1285,14 @@ __ESTREE_TEST__:PASS:
                 "end": 454,
                 "decorators": [],
                 "name": "myPublicStaticProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 457,
@@ -1211,7 +1309,8 @@ __ESTREE_TEST__:PASS:
                     "end": 465,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1220,10 +1319,12 @@ __ESTREE_TEST__:PASS:
                     "end": 487,
                     "decorators": [],
                     "name": "createExportedWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
@@ -1241,12 +1342,14 @@ __ESTREE_TEST__:PASS:
                 "end": 543,
                 "decorators": [],
                 "name": "myPrivateStaticProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 546,
@@ -1263,7 +1366,8 @@ __ESTREE_TEST__:PASS:
                     "end": 554,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1272,16 +1376,19 @@ __ESTREE_TEST__:PASS:
                     "end": 576,
                     "decorators": [],
                     "name": "createExportedWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 584,
               "end": 637,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1292,12 +1399,14 @@ __ESTREE_TEST__:PASS:
                 "end": 601,
                 "decorators": [],
                 "name": "myPublicProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 604,
@@ -1314,7 +1423,8 @@ __ESTREE_TEST__:PASS:
                     "end": 612,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1323,10 +1433,12 @@ __ESTREE_TEST__:PASS:
                     "end": 634,
                     "decorators": [],
                     "name": "createExportedWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
@@ -1344,12 +1456,14 @@ __ESTREE_TEST__:PASS:
                 "end": 677,
                 "decorators": [],
                 "name": "myPrivateProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 680,
@@ -1366,7 +1480,8 @@ __ESTREE_TEST__:PASS:
                     "end": 688,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1375,10 +1490,12 @@ __ESTREE_TEST__:PASS:
                     "end": 710,
                     "decorators": [],
                     "name": "createExportedWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -1391,10 +1508,13 @@ __ESTREE_TEST__:PASS:
           "end": 126,
           "decorators": [],
           "name": "publicClassWithWithPrivatePropertyTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1414,6 +1534,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 770,
             "end": 835,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1424,12 +1545,14 @@ __ESTREE_TEST__:PASS:
               "end": 799,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 802,
@@ -1446,7 +1569,8 @@ __ESTREE_TEST__:PASS:
                   "end": 810,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1455,10 +1579,12 @@ __ESTREE_TEST__:PASS:
                   "end": 832,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -1476,12 +1602,14 @@ __ESTREE_TEST__:PASS:
               "end": 879,
               "decorators": [],
               "name": "myPrivateStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 882,
@@ -1498,7 +1626,8 @@ __ESTREE_TEST__:PASS:
                   "end": 890,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1507,16 +1636,19 @@ __ESTREE_TEST__:PASS:
                   "end": 912,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 920,
             "end": 972,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1527,12 +1659,14 @@ __ESTREE_TEST__:PASS:
               "end": 936,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 939,
@@ -1549,7 +1683,8 @@ __ESTREE_TEST__:PASS:
                   "end": 947,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1558,10 +1693,12 @@ __ESTREE_TEST__:PASS:
                   "end": 969,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -1579,12 +1716,14 @@ __ESTREE_TEST__:PASS:
               "end": 1003,
               "decorators": [],
               "name": "myPrivateProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 1006,
@@ -1601,7 +1740,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1014,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1610,16 +1750,19 @@ __ESTREE_TEST__:PASS:
                   "end": 1036,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 1045,
             "end": 1111,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1630,12 +1773,14 @@ __ESTREE_TEST__:PASS:
               "end": 1075,
               "decorators": [],
               "name": "myPublicStaticProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 1078,
@@ -1652,7 +1797,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1086,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1661,10 +1807,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1108,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -1682,12 +1830,14 @@ __ESTREE_TEST__:PASS:
               "end": 1156,
               "decorators": [],
               "name": "myPrivateStaticProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 1159,
@@ -1704,7 +1854,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1167,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1713,16 +1864,19 @@ __ESTREE_TEST__:PASS:
                   "end": 1189,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 1197,
             "end": 1250,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1733,12 +1887,14 @@ __ESTREE_TEST__:PASS:
               "end": 1214,
               "decorators": [],
               "name": "myPublicProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 1217,
@@ -1755,7 +1911,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1225,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1764,10 +1921,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1247,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -1785,12 +1944,14 @@ __ESTREE_TEST__:PASS:
               "end": 1282,
               "decorators": [],
               "name": "myPrivateProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 1285,
@@ -1807,7 +1968,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1293,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1816,10 +1978,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1315,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1832,10 +1996,13 @@ __ESTREE_TEST__:PASS:
         "end": 763,
         "decorators": [],
         "name": "privateClassWithWithPrivatePropertyTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1858,7 +2025,8 @@ __ESTREE_TEST__:PASS:
               "end": 1366,
               "decorators": [],
               "name": "publicVarWithPrivatePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -1876,7 +2044,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1376,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1885,10 +2054,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1398,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -1915,7 +2086,8 @@ __ESTREE_TEST__:PASS:
             "end": 1449,
             "decorators": [],
             "name": "privateVarWithPrivatePropertyTypes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1933,7 +2105,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1459,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -1942,10 +2115,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1481,
                 "decorators": [],
                 "name": "createExportedWidget1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1973,7 +2148,8 @@ __ESTREE_TEST__:PASS:
               "end": 1530,
               "decorators": [],
               "name": "publicVarWithPrivatePropertyTypes1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -1991,7 +2167,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1541,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2000,10 +2177,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1563,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -2030,7 +2209,8 @@ __ESTREE_TEST__:PASS:
             "end": 1615,
             "decorators": [],
             "name": "privateVarWithPrivatePropertyTypes1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2048,7 +2228,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1626,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2057,10 +2238,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1648,
                 "decorators": [],
                 "name": "createExportedWidget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2086,6 +2269,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 1714,
               "end": 1778,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2096,12 +2280,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1743,
                 "decorators": [],
                 "name": "myPublicStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 1745,
@@ -2118,7 +2304,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1753,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2127,16 +2314,19 @@ __ESTREE_TEST__:PASS:
                     "end": 1775,
                     "decorators": [],
                     "name": "createExportedWidget2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1792,
               "end": 1844,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2147,12 +2337,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1808,
                 "decorators": [],
                 "name": "myPublicProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 1811,
@@ -2169,7 +2361,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1819,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2178,16 +2371,19 @@ __ESTREE_TEST__:PASS:
                     "end": 1841,
                     "decorators": [],
                     "name": "createExportedWidget2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1858,
               "end": 1924,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2198,12 +2394,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1888,
                 "decorators": [],
                 "name": "myPublicStaticProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 1891,
@@ -2220,7 +2418,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1899,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2229,16 +2428,19 @@ __ESTREE_TEST__:PASS:
                     "end": 1921,
                     "decorators": [],
                     "name": "createExportedWidget4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1938,
               "end": 1991,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2249,12 +2451,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1955,
                 "decorators": [],
                 "name": "myPublicProperty1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "CallExpression",
                 "start": 1958,
@@ -2271,7 +2475,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1966,
                     "decorators": [],
                     "name": "exporter",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2280,10 +2485,12 @@ __ESTREE_TEST__:PASS:
                     "end": 1988,
                     "decorators": [],
                     "name": "createExportedWidget4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -2296,10 +2503,13 @@ __ESTREE_TEST__:PASS:
           "end": 1707,
           "decorators": [],
           "name": "publicClassWithPrivateModulePropertyTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -2326,7 +2536,8 @@ __ESTREE_TEST__:PASS:
               "end": 2053,
               "decorators": [],
               "name": "publicVarWithPrivateModulePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -2344,7 +2555,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2063,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2353,10 +2565,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2085,
                   "decorators": [],
                   "name": "createExportedWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -2388,7 +2602,8 @@ __ESTREE_TEST__:PASS:
               "end": 2149,
               "decorators": [],
               "name": "publicVarWithPrivateModulePropertyTypes1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -2406,7 +2621,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2160,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2415,10 +2631,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2182,
                   "decorators": [],
                   "name": "createExportedWidget4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -2443,6 +2661,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 2251,
             "end": 2315,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2453,12 +2672,14 @@ __ESTREE_TEST__:PASS:
               "end": 2280,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 2282,
@@ -2475,7 +2696,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2290,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2484,16 +2706,19 @@ __ESTREE_TEST__:PASS:
                   "end": 2312,
                   "decorators": [],
                   "name": "createExportedWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2320,
             "end": 2371,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2504,12 +2729,14 @@ __ESTREE_TEST__:PASS:
               "end": 2336,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 2338,
@@ -2526,7 +2753,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2346,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2535,16 +2763,19 @@ __ESTREE_TEST__:PASS:
                   "end": 2368,
                   "decorators": [],
                   "name": "createExportedWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2376,
             "end": 2442,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2555,12 +2786,14 @@ __ESTREE_TEST__:PASS:
               "end": 2406,
               "decorators": [],
               "name": "myPublicStaticProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 2409,
@@ -2577,7 +2810,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2417,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2586,16 +2820,19 @@ __ESTREE_TEST__:PASS:
                   "end": 2439,
                   "decorators": [],
                   "name": "createExportedWidget4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2447,
             "end": 2500,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2606,12 +2843,14 @@ __ESTREE_TEST__:PASS:
               "end": 2464,
               "decorators": [],
               "name": "myPublicProperty1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "CallExpression",
               "start": 2467,
@@ -2628,7 +2867,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2475,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2637,10 +2877,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2497,
                   "decorators": [],
                   "name": "createExportedWidget4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2653,10 +2895,13 @@ __ESTREE_TEST__:PASS:
         "end": 2244,
         "decorators": [],
         "name": "privateClassWithPrivateModulePropertyTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -2674,7 +2919,8 @@ __ESTREE_TEST__:PASS:
             "end": 2547,
             "decorators": [],
             "name": "privateVarWithPrivateModulePropertyTypes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2692,7 +2938,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2557,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2701,10 +2948,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2579,
                 "decorators": [],
                 "name": "createExportedWidget2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -2727,7 +2976,8 @@ __ESTREE_TEST__:PASS:
             "end": 2628,
             "decorators": [],
             "name": "privateVarWithPrivateModulePropertyTypes1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -2745,7 +2995,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2639,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -2754,10 +3005,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2661,
                 "decorators": [],
                 "name": "createExportedWidget4",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

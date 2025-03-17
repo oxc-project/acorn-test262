@@ -37,7 +37,8 @@ __ESTREE_TEST__:PASS:
                     "end": 79,
                     "decorators": [],
                     "name": "currentNode",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -80,16 +81,19 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 83,
                         "end": 93,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 83,
                           "end": 93,
                           "decorators": [],
                           "name": "SyntaxNode",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               ]
@@ -102,10 +106,13 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "SyntaxCursor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -121,7 +128,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "TypeScript",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -129,7 +137,8 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "Parser",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"
@@ -166,8 +175,10 @@ __ESTREE_TEST__:PASS:
                 "end": 195,
                 "decorators": [],
                 "name": "ISyntaxElement",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -201,8 +212,10 @@ __ESTREE_TEST__:PASS:
                 "end": 234,
                 "decorators": [],
                 "name": "ISyntaxToken",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -241,7 +254,8 @@ __ESTREE_TEST__:PASS:
                       "end": 303,
                       "decorators": [],
                       "name": "childIndex",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -277,7 +291,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 354,
                                   "decorators": [],
                                   "name": "Syntax",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -286,10 +301,12 @@ __ESTREE_TEST__:PASS:
                                   "end": 365,
                                   "decorators": [],
                                   "name": "childIndex",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -314,18 +331,22 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 311,
                               "end": 325,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 311,
                                 "end": 325,
                                 "decorators": [],
                                 "name": "ISyntaxElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -338,10 +359,13 @@ __ESTREE_TEST__:PASS:
                 "end": 275,
                 "decorators": [],
                 "name": "PositionedElement",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -366,6 +390,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 429,
                     "end": 519,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -374,7 +399,8 @@ __ESTREE_TEST__:PASS:
                       "end": 440,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -411,13 +437,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 449,
                               "end": 466,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 449,
                                 "end": 466,
                                 "decorators": [],
                                 "name": "PositionedElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -437,13 +465,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 475,
                               "end": 487,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 475,
                                 "end": 487,
                                 "decorators": [],
                                 "name": "ISyntaxToken",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -466,7 +496,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -479,10 +511,13 @@ __ESTREE_TEST__:PASS:
                 "end": 418,
                 "decorators": [],
                 "name": "PositionedToken",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -498,7 +533,8 @@ __ESTREE_TEST__:PASS:
         "end": 157,
         "decorators": [],
         "name": "TypeScript",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -539,7 +575,8 @@ __ESTREE_TEST__:PASS:
                       "end": 603,
                       "decorators": [],
                       "name": "findToken",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -571,7 +608,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 711,
                                   "decorators": [],
                                   "name": "positionedToken",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "init": {
                                   "type": "CallExpression",
@@ -591,7 +629,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 751,
                                       "decorators": [],
                                       "name": "position",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     {
                                       "type": "Literal",
@@ -618,10 +657,12 @@ __ESTREE_TEST__:PASS:
                                       "end": 736,
                                       "decorators": [],
                                       "name": "findTokenInternal",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
-                                  "optional": false
+                                  "optional": false,
+                                  "typeArguments": null
                                 }
                               }
                             ],
@@ -695,7 +736,8 @@ __ESTREE_TEST__:PASS:
                             "end": 659,
                             "raw": "false",
                             "value": false
-                          }
+                          },
+                          "typeAnnotation": null
                         }
                       ],
                       "returnType": {
@@ -706,22 +748,26 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 662,
                           "end": 677,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 662,
                             "end": 677,
                             "decorators": [],
                             "name": "PositionedToken",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 800,
                     "end": 863,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -730,7 +776,8 @@ __ESTREE_TEST__:PASS:
                       "end": 817,
                       "decorators": [],
                       "name": "findTokenInternal",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -771,7 +818,8 @@ __ESTREE_TEST__:PASS:
                           "end": 819,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "Identifier",
@@ -779,7 +827,8 @@ __ESTREE_TEST__:PASS:
                           "end": 822,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "Identifier",
@@ -787,9 +836,12 @@ __ESTREE_TEST__:PASS:
                           "end": 825,
                           "decorators": [],
                           "name": "z",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -802,10 +854,13 @@ __ESTREE_TEST__:PASS:
                 "end": 576,
                 "decorators": [],
                 "name": "SyntaxNode",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -821,7 +876,8 @@ __ESTREE_TEST__:PASS:
         "end": 546,
         "decorators": [],
         "name": "TypeScript",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -859,9 +915,12 @@ __ESTREE_TEST__:PASS:
                 "end": 930,
                 "decorators": [],
                 "name": "childIndex",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -895,7 +954,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1051,
                       "decorators": [],
                       "name": "findTokenInternal",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -926,7 +986,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 1163,
                                   "decorators": [],
                                   "name": "parent",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 {
                                   "type": "ThisExpression",
@@ -939,7 +1000,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 1180,
                                   "decorators": [],
                                   "name": "fullStart",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -948,8 +1010,10 @@ __ESTREE_TEST__:PASS:
                                 "end": 1156,
                                 "decorators": [],
                                 "name": "PositionedToken",
-                                "optional": false
-                              }
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -974,13 +1038,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1060,
                               "end": 1077,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1060,
                                 "end": 1077,
                                 "decorators": [],
                                 "name": "PositionedElement",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -1021,7 +1087,9 @@ __ESTREE_TEST__:PASS:
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -1034,7 +1102,8 @@ __ESTREE_TEST__:PASS:
                 "end": 991,
                 "decorators": [],
                 "name": "VariableWidthTokenWithTrailingTrivia",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -1047,11 +1116,15 @@ __ESTREE_TEST__:PASS:
                     "end": 1015,
                     "decorators": [],
                     "name": "ISyntaxToken",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -1071,7 +1144,8 @@ __ESTREE_TEST__:PASS:
           "end": 890,
           "decorators": [],
           "name": "TypeScript",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1079,7 +1153,8 @@ __ESTREE_TEST__:PASS:
           "end": 897,
           "decorators": [],
           "name": "Syntax",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

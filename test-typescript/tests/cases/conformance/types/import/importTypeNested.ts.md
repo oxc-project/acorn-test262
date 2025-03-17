@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "LookAt",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
             "raw": "\"./b\"",
             "value": "./b"
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -68,7 +70,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "Value",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -81,7 +84,8 @@ __ESTREE_TEST__:PASS:
             "raw": "\"yes\"",
             "value": "yes"
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -152,7 +156,8 @@ __ESTREE_TEST__:PASS:
                       "end": 43,
                       "decorators": [],
                       "name": "LookAt",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeArguments": null
                   },
@@ -163,7 +168,8 @@ __ESTREE_TEST__:PASS:
                     "end": 50,
                     "decorators": [],
                     "name": "Value",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeArguments": null
                 }

@@ -47,7 +47,8 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 33
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -59,8 +60,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
                 "start": 76,
                 "end": 82
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSCallSignatureDeclaration",
@@ -153,7 +157,8 @@ __ESTREE_TEST__:PASS:
                 "start": 98,
                 "end": 104
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -169,8 +174,10 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "decorators": [],
             "name": "A",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -179,8 +186,10 @@ __ESTREE_TEST__:PASS:
         "end": 49,
         "decorators": [],
         "name": "B",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

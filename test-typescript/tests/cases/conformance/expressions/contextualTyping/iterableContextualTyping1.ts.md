@@ -68,7 +68,8 @@ __ESTREE_TEST__:PASS:
                           "start": 50,
                           "end": 56
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -78,7 +79,8 @@ __ESTREE_TEST__:PASS:
                   "end": 34,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -104,7 +106,8 @@ __ESTREE_TEST__:PASS:
                     "end": 67,
                     "decorators": [],
                     "name": "s",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -113,7 +116,8 @@ __ESTREE_TEST__:PASS:
                     "end": 74,
                     "decorators": [],
                     "name": "length",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "expression": true,
@@ -126,9 +130,12 @@ __ESTREE_TEST__:PASS:
                     "end": 62,
                     "decorators": [],
                     "name": "s",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             ]
           }

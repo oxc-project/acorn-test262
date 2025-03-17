@@ -38,9 +38,12 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "nullWidenFunction",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -62,7 +65,8 @@ __ESTREE_TEST__:PASS:
               "end": 168,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -76,9 +80,12 @@ __ESTREE_TEST__:PASS:
         "end": 147,
         "decorators": [],
         "name": "undefinedWidenFunction",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -94,6 +101,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 225,
             "end": 304,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -102,7 +110,8 @@ __ESTREE_TEST__:PASS:
               "end": 241,
               "decorators": [],
               "name": "nullWidenFuncOfC",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -136,13 +145,16 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 310,
             "end": 406,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -151,7 +163,8 @@ __ESTREE_TEST__:PASS:
               "end": 332,
               "decorators": [],
               "name": "underfinedWidenFuncOfC",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -177,7 +190,8 @@ __ESTREE_TEST__:PASS:
                       "end": 399,
                       "decorators": [],
                       "name": "undefined",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -186,7 +200,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -199,10 +215,13 @@ __ESTREE_TEST__:PASS:
         "end": 218,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -237,7 +256,8 @@ __ESTREE_TEST__:PASS:
         "end": 454,
         "decorators": [],
         "name": "foo1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -249,7 +269,8 @@ __ESTREE_TEST__:PASS:
           "start": 458,
           "end": 461
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -271,7 +292,8 @@ __ESTREE_TEST__:PASS:
               "end": 518,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -285,7 +307,8 @@ __ESTREE_TEST__:PASS:
         "end": 492,
         "decorators": [],
         "name": "bar1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -297,7 +320,8 @@ __ESTREE_TEST__:PASS:
           "start": 496,
           "end": 499
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -332,7 +356,8 @@ __ESTREE_TEST__:PASS:
         "end": 537,
         "decorators": [],
         "name": "fooBar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -344,7 +369,8 @@ __ESTREE_TEST__:PASS:
           "start": 541,
           "end": 547
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -379,14 +405,18 @@ __ESTREE_TEST__:PASS:
         "end": 577,
         "decorators": [],
         "name": "fooFoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 663,
       "end": 683,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 663,
@@ -398,15 +428,18 @@ __ESTREE_TEST__:PASS:
           "end": 680,
           "decorators": [],
           "name": "nullWidenFunction",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 684,
       "end": 709,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 684,
@@ -418,9 +451,11 @@ __ESTREE_TEST__:PASS:
           "end": 706,
           "decorators": [],
           "name": "undefinedWidenFunction",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

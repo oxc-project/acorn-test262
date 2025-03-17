@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 9,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 0,
@@ -28,7 +29,8 @@ __ESTREE_TEST__:PASS:
           "end": 8,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

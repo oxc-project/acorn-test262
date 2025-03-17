@@ -14,6 +14,7 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 4,
           "end": 28,
+          "directive": null,
           "expression": {
             "type": "ImportExpression",
             "start": 4,
@@ -45,6 +46,7 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 31,
           "end": 50,
+          "directive": null,
           "expression": {
             "type": "ImportExpression",
             "start": 31,

@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 28,
               "end": 55,
+              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
@@ -39,13 +40,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 36,
                       "end": 48,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 36,
                         "end": 48,
                         "decorators": [],
                         "name": "TypeNotFound",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -74,8 +77,10 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "Test",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

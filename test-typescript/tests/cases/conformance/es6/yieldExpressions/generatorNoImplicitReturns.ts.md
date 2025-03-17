@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
                     "end": 42,
                     "decorators": [],
                     "name": "Math",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -63,10 +64,12 @@ __ESTREE_TEST__:PASS:
                     "end": 49,
                     "decorators": [],
                     "name": "random",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "right": {
                 "type": "Literal",
@@ -81,6 +84,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 84,
             "end": 98,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 84,
@@ -106,9 +110,12 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "testGenerator",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

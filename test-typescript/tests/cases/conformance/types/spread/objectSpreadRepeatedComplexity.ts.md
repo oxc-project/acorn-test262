@@ -49,7 +49,8 @@ __ESTREE_TEST__:PASS:
                           "end": 203,
                           "decorators": [],
                           "name": "cnd",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -71,7 +72,8 @@ __ESTREE_TEST__:PASS:
                           "end": 225,
                           "decorators": [],
                           "name": "cnd",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -99,7 +101,8 @@ __ESTREE_TEST__:PASS:
                             "end": 251,
                             "decorators": [],
                             "name": "prop0",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -137,7 +140,8 @@ __ESTREE_TEST__:PASS:
                         "end": 357,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -164,7 +168,8 @@ __ESTREE_TEST__:PASS:
                             "end": 384,
                             "decorators": [],
                             "name": "prop3a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -189,7 +194,8 @@ __ESTREE_TEST__:PASS:
                             "end": 407,
                             "decorators": [],
                             "name": "prop3b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -227,7 +233,8 @@ __ESTREE_TEST__:PASS:
                         "end": 439,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -254,7 +261,8 @@ __ESTREE_TEST__:PASS:
                             "end": 466,
                             "decorators": [],
                             "name": "prop4a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -279,7 +287,8 @@ __ESTREE_TEST__:PASS:
                             "end": 489,
                             "decorators": [],
                             "name": "prop4b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -317,7 +326,8 @@ __ESTREE_TEST__:PASS:
                         "end": 521,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -344,7 +354,8 @@ __ESTREE_TEST__:PASS:
                             "end": 548,
                             "decorators": [],
                             "name": "prop5a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -369,7 +380,8 @@ __ESTREE_TEST__:PASS:
                             "end": 571,
                             "decorators": [],
                             "name": "prop5b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -407,7 +419,8 @@ __ESTREE_TEST__:PASS:
                         "end": 603,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -434,7 +447,8 @@ __ESTREE_TEST__:PASS:
                             "end": 630,
                             "decorators": [],
                             "name": "prop6a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -459,7 +473,8 @@ __ESTREE_TEST__:PASS:
                             "end": 653,
                             "decorators": [],
                             "name": "prop6b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -497,7 +512,8 @@ __ESTREE_TEST__:PASS:
                         "end": 685,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -524,7 +540,8 @@ __ESTREE_TEST__:PASS:
                             "end": 712,
                             "decorators": [],
                             "name": "prop7a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -549,7 +566,8 @@ __ESTREE_TEST__:PASS:
                             "end": 735,
                             "decorators": [],
                             "name": "prop7b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -587,7 +605,8 @@ __ESTREE_TEST__:PASS:
                         "end": 767,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -614,7 +633,8 @@ __ESTREE_TEST__:PASS:
                             "end": 794,
                             "decorators": [],
                             "name": "prop8a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -639,7 +659,8 @@ __ESTREE_TEST__:PASS:
                             "end": 817,
                             "decorators": [],
                             "name": "prop8b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -677,7 +698,8 @@ __ESTREE_TEST__:PASS:
                         "end": 849,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -704,7 +726,8 @@ __ESTREE_TEST__:PASS:
                             "end": 876,
                             "decorators": [],
                             "name": "prop9a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -729,7 +752,8 @@ __ESTREE_TEST__:PASS:
                             "end": 899,
                             "decorators": [],
                             "name": "prop9b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -767,7 +791,8 @@ __ESTREE_TEST__:PASS:
                         "end": 931,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -794,7 +819,8 @@ __ESTREE_TEST__:PASS:
                             "end": 960,
                             "decorators": [],
                             "name": "prop10a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -819,7 +845,8 @@ __ESTREE_TEST__:PASS:
                             "end": 984,
                             "decorators": [],
                             "name": "prop10b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -857,7 +884,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1016,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -884,7 +912,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1045,
                             "decorators": [],
                             "name": "prop11a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -909,7 +938,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1069,
                             "decorators": [],
                             "name": "prop11b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -947,7 +977,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1101,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -974,7 +1005,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1130,
                             "decorators": [],
                             "name": "prop12a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -999,7 +1031,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1154,
                             "decorators": [],
                             "name": "prop12b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1037,7 +1070,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1186,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1064,7 +1098,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1215,
                             "decorators": [],
                             "name": "prop13a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1089,7 +1124,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1239,
                             "decorators": [],
                             "name": "prop13b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1127,7 +1163,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1271,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1154,7 +1191,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1300,
                             "decorators": [],
                             "name": "prop14a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1179,7 +1217,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1324,
                             "decorators": [],
                             "name": "prop14b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1217,7 +1256,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1356,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1244,7 +1284,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1385,
                             "decorators": [],
                             "name": "prop15a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1269,7 +1310,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1409,
                             "decorators": [],
                             "name": "prop15b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1307,7 +1349,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1441,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1334,7 +1377,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1470,
                             "decorators": [],
                             "name": "prop16a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1359,7 +1403,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1494,
                             "decorators": [],
                             "name": "prop16b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1397,7 +1442,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1526,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1424,7 +1470,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1555,
                             "decorators": [],
                             "name": "prop17a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1449,7 +1496,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1579,
                             "decorators": [],
                             "name": "prop17b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1487,7 +1535,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1611,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1514,7 +1563,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1640,
                             "decorators": [],
                             "name": "prop18a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1539,7 +1589,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1664,
                             "decorators": [],
                             "name": "prop18b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1577,7 +1628,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1696,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1604,7 +1656,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1725,
                             "decorators": [],
                             "name": "prop19a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1629,7 +1682,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1749,
                             "decorators": [],
                             "name": "prop19b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1667,7 +1721,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1781,
                         "decorators": [],
                         "name": "cnd",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -1694,7 +1749,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1810,
                             "decorators": [],
                             "name": "prop20a",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1719,7 +1775,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1834,
                             "decorators": [],
                             "name": "prop20b",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -1751,7 +1808,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -1792,12 +1850,15 @@ __ESTREE_TEST__:PASS:
                 "end": 22,
                 "decorators": [],
                 "name": "Record",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

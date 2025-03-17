@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
@@ -31,7 +32,8 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "arg1",
-            "optional": true
+            "optional": true,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -39,15 +41,19 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "arg2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 39,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 22,
@@ -74,18 +80,24 @@ __ESTREE_TEST__:PASS:
               "end": 29,
               "decorators": [],
               "name": "arg",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
-            "optional": true
+            "optional": true,
+            "typeAnnotation": null,
+            "value": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 56,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 40,
@@ -112,18 +124,24 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "arg",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null,
+            "value": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 57,
       "end": 88,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 57,
@@ -150,7 +168,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "decorators": [],
               "name": "arg",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -168,15 +187,19 @@ __ESTREE_TEST__:PASS:
                   "end": 71
                 }
               }
-            }
+            },
+            "value": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 152,
       "end": 174,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 152,
@@ -204,7 +227,8 @@ __ESTREE_TEST__:PASS:
               "end": 157,
               "decorators": [],
               "name": "arg1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -213,7 +237,8 @@ __ESTREE_TEST__:PASS:
               "end": 161,
               "raw": "1",
               "value": 1
-            }
+            },
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -221,9 +246,12 @@ __ESTREE_TEST__:PASS:
             "end": 167,
             "decorators": [],
             "name": "arg2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     }
   ],

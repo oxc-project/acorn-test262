@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 15,
                     "end": 51,
+                    "accessibility": null,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                         "end": 22,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
                         "end": 41,
                         "decorators": [],
                         "name": "isConcatSpreadable",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,

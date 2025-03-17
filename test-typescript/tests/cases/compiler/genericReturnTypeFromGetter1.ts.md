@@ -48,13 +48,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 45,
                             "end": 46,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 45,
                               "end": 46,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -65,7 +67,8 @@ __ESTREE_TEST__:PASS:
                         "end": 44,
                         "decorators": [],
                         "name": "DbSet",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -79,16 +82,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 50,
                   "end": 51,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 50,
                     "end": 51,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           ]
         },
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -112,6 +119,8 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 20,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -119,7 +128,8 @@ __ESTREE_TEST__:PASS:
                 "end": 20,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -149,6 +159,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 83,
               "end": 98,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -159,7 +170,8 @@ __ESTREE_TEST__:PASS:
                 "end": 94,
                 "decorators": [],
                 "name": "_entityType",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -173,13 +185,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 96,
                   "end": 97,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 96,
                     "end": 97,
                     "decorators": [],
                     "name": "A",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -189,6 +203,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 101,
               "end": 146,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -197,7 +212,8 @@ __ESTREE_TEST__:PASS:
                 "end": 115,
                 "decorators": [],
                 "name": "entityType",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "get",
               "optional": false,
@@ -234,7 +250,8 @@ __ESTREE_TEST__:PASS:
                           "end": 143,
                           "decorators": [],
                           "name": "_entityType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -244,7 +261,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -257,10 +276,12 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "DbSet",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 73,
@@ -271,6 +292,8 @@ __ESTREE_TEST__:PASS:
               "start": 74,
               "end": 75,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -278,7 +301,8 @@ __ESTREE_TEST__:PASS:
                 "end": 75,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

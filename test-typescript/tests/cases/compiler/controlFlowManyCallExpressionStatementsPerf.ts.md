@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -70,7 +72,8 @@ __ESTREE_TEST__:PASS:
           "start": 27,
           "end": 34
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -88,7 +91,8 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "decorators": [],
             "name": "state",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -116,6 +120,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 84,
             "end": 112,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 84,
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
                       "end": 94,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -150,7 +156,8 @@ __ESTREE_TEST__:PASS:
                     "end": 110,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -160,15 +167,18 @@ __ESTREE_TEST__:PASS:
                 "end": 88,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 115,
             "end": 143,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 115,
@@ -189,7 +199,8 @@ __ESTREE_TEST__:PASS:
                       "end": 125,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -203,7 +214,8 @@ __ESTREE_TEST__:PASS:
                     "end": 141,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -213,15 +225,18 @@ __ESTREE_TEST__:PASS:
                 "end": 119,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 146,
             "end": 174,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 146,
@@ -242,7 +257,8 @@ __ESTREE_TEST__:PASS:
                       "end": 156,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -256,7 +272,8 @@ __ESTREE_TEST__:PASS:
                     "end": 172,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -266,15 +283,18 @@ __ESTREE_TEST__:PASS:
                 "end": 150,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 177,
             "end": 205,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 177,
@@ -295,7 +315,8 @@ __ESTREE_TEST__:PASS:
                       "end": 187,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -309,7 +330,8 @@ __ESTREE_TEST__:PASS:
                     "end": 203,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -319,15 +341,18 @@ __ESTREE_TEST__:PASS:
                 "end": 181,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 208,
             "end": 236,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 208,
@@ -348,7 +373,8 @@ __ESTREE_TEST__:PASS:
                       "end": 218,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -362,7 +388,8 @@ __ESTREE_TEST__:PASS:
                     "end": 234,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -372,15 +399,18 @@ __ESTREE_TEST__:PASS:
                 "end": 212,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 239,
             "end": 267,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 239,
@@ -401,7 +431,8 @@ __ESTREE_TEST__:PASS:
                       "end": 249,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -415,7 +446,8 @@ __ESTREE_TEST__:PASS:
                     "end": 265,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -425,15 +457,18 @@ __ESTREE_TEST__:PASS:
                 "end": 243,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 270,
             "end": 298,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 270,
@@ -454,7 +489,8 @@ __ESTREE_TEST__:PASS:
                       "end": 280,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -468,7 +504,8 @@ __ESTREE_TEST__:PASS:
                     "end": 296,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -478,15 +515,18 @@ __ESTREE_TEST__:PASS:
                 "end": 274,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 301,
             "end": 329,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 301,
@@ -507,7 +547,8 @@ __ESTREE_TEST__:PASS:
                       "end": 311,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -521,7 +562,8 @@ __ESTREE_TEST__:PASS:
                     "end": 327,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -531,15 +573,18 @@ __ESTREE_TEST__:PASS:
                 "end": 305,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 332,
             "end": 360,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 332,
@@ -560,7 +605,8 @@ __ESTREE_TEST__:PASS:
                       "end": 342,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -574,7 +620,8 @@ __ESTREE_TEST__:PASS:
                     "end": 358,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -584,15 +631,18 @@ __ESTREE_TEST__:PASS:
                 "end": 336,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 363,
             "end": 391,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 363,
@@ -613,7 +663,8 @@ __ESTREE_TEST__:PASS:
                       "end": 373,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -627,7 +678,8 @@ __ESTREE_TEST__:PASS:
                     "end": 389,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -637,15 +689,18 @@ __ESTREE_TEST__:PASS:
                 "end": 367,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 394,
             "end": 422,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 394,
@@ -666,7 +721,8 @@ __ESTREE_TEST__:PASS:
                       "end": 404,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -680,7 +736,8 @@ __ESTREE_TEST__:PASS:
                     "end": 420,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -690,15 +747,18 @@ __ESTREE_TEST__:PASS:
                 "end": 398,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 425,
             "end": 453,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 425,
@@ -719,7 +779,8 @@ __ESTREE_TEST__:PASS:
                       "end": 435,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -733,7 +794,8 @@ __ESTREE_TEST__:PASS:
                     "end": 451,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -743,15 +805,18 @@ __ESTREE_TEST__:PASS:
                 "end": 429,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 456,
             "end": 484,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 456,
@@ -772,7 +837,8 @@ __ESTREE_TEST__:PASS:
                       "end": 466,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -786,7 +852,8 @@ __ESTREE_TEST__:PASS:
                     "end": 482,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -796,15 +863,18 @@ __ESTREE_TEST__:PASS:
                 "end": 460,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 487,
             "end": 515,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 487,
@@ -825,7 +895,8 @@ __ESTREE_TEST__:PASS:
                       "end": 497,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -839,7 +910,8 @@ __ESTREE_TEST__:PASS:
                     "end": 513,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -849,15 +921,18 @@ __ESTREE_TEST__:PASS:
                 "end": 491,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 518,
             "end": 546,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 518,
@@ -878,7 +953,8 @@ __ESTREE_TEST__:PASS:
                       "end": 528,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -892,7 +968,8 @@ __ESTREE_TEST__:PASS:
                     "end": 544,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -902,15 +979,18 @@ __ESTREE_TEST__:PASS:
                 "end": 522,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 549,
             "end": 577,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 549,
@@ -931,7 +1011,8 @@ __ESTREE_TEST__:PASS:
                       "end": 559,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -945,7 +1026,8 @@ __ESTREE_TEST__:PASS:
                     "end": 575,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -955,15 +1037,18 @@ __ESTREE_TEST__:PASS:
                 "end": 553,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 580,
             "end": 608,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 580,
@@ -984,7 +1069,8 @@ __ESTREE_TEST__:PASS:
                       "end": 590,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -998,7 +1084,8 @@ __ESTREE_TEST__:PASS:
                     "end": 606,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1008,15 +1095,18 @@ __ESTREE_TEST__:PASS:
                 "end": 584,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 611,
             "end": 639,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 611,
@@ -1037,7 +1127,8 @@ __ESTREE_TEST__:PASS:
                       "end": 621,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1051,7 +1142,8 @@ __ESTREE_TEST__:PASS:
                     "end": 637,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1061,15 +1153,18 @@ __ESTREE_TEST__:PASS:
                 "end": 615,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 642,
             "end": 670,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 642,
@@ -1090,7 +1185,8 @@ __ESTREE_TEST__:PASS:
                       "end": 652,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1104,7 +1200,8 @@ __ESTREE_TEST__:PASS:
                     "end": 668,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1114,15 +1211,18 @@ __ESTREE_TEST__:PASS:
                 "end": 646,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 673,
             "end": 701,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 673,
@@ -1143,7 +1243,8 @@ __ESTREE_TEST__:PASS:
                       "end": 683,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1157,7 +1258,8 @@ __ESTREE_TEST__:PASS:
                     "end": 699,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1167,15 +1269,18 @@ __ESTREE_TEST__:PASS:
                 "end": 677,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 704,
             "end": 732,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 704,
@@ -1196,7 +1301,8 @@ __ESTREE_TEST__:PASS:
                       "end": 714,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1210,7 +1316,8 @@ __ESTREE_TEST__:PASS:
                     "end": 730,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1220,15 +1327,18 @@ __ESTREE_TEST__:PASS:
                 "end": 708,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 735,
             "end": 763,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 735,
@@ -1249,7 +1359,8 @@ __ESTREE_TEST__:PASS:
                       "end": 745,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1263,7 +1374,8 @@ __ESTREE_TEST__:PASS:
                     "end": 761,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1273,15 +1385,18 @@ __ESTREE_TEST__:PASS:
                 "end": 739,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 766,
             "end": 794,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 766,
@@ -1302,7 +1417,8 @@ __ESTREE_TEST__:PASS:
                       "end": 776,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1316,7 +1432,8 @@ __ESTREE_TEST__:PASS:
                     "end": 792,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1326,15 +1443,18 @@ __ESTREE_TEST__:PASS:
                 "end": 770,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 797,
             "end": 825,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 797,
@@ -1355,7 +1475,8 @@ __ESTREE_TEST__:PASS:
                       "end": 807,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1369,7 +1490,8 @@ __ESTREE_TEST__:PASS:
                     "end": 823,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1379,15 +1501,18 @@ __ESTREE_TEST__:PASS:
                 "end": 801,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 828,
             "end": 856,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 828,
@@ -1408,7 +1533,8 @@ __ESTREE_TEST__:PASS:
                       "end": 838,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1422,7 +1548,8 @@ __ESTREE_TEST__:PASS:
                     "end": 854,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1432,15 +1559,18 @@ __ESTREE_TEST__:PASS:
                 "end": 832,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 859,
             "end": 887,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 859,
@@ -1461,7 +1591,8 @@ __ESTREE_TEST__:PASS:
                       "end": 869,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1475,7 +1606,8 @@ __ESTREE_TEST__:PASS:
                     "end": 885,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1485,15 +1617,18 @@ __ESTREE_TEST__:PASS:
                 "end": 863,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 890,
             "end": 918,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 890,
@@ -1514,7 +1649,8 @@ __ESTREE_TEST__:PASS:
                       "end": 900,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1528,7 +1664,8 @@ __ESTREE_TEST__:PASS:
                     "end": 916,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1538,15 +1675,18 @@ __ESTREE_TEST__:PASS:
                 "end": 894,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 921,
             "end": 949,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 921,
@@ -1567,7 +1707,8 @@ __ESTREE_TEST__:PASS:
                       "end": 931,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1581,7 +1722,8 @@ __ESTREE_TEST__:PASS:
                     "end": 947,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1591,15 +1733,18 @@ __ESTREE_TEST__:PASS:
                 "end": 925,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 952,
             "end": 980,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 952,
@@ -1620,7 +1765,8 @@ __ESTREE_TEST__:PASS:
                       "end": 962,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1634,7 +1780,8 @@ __ESTREE_TEST__:PASS:
                     "end": 978,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1644,15 +1791,18 @@ __ESTREE_TEST__:PASS:
                 "end": 956,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 983,
             "end": 1011,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 983,
@@ -1673,7 +1823,8 @@ __ESTREE_TEST__:PASS:
                       "end": 993,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1687,7 +1838,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1009,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1697,15 +1849,18 @@ __ESTREE_TEST__:PASS:
                 "end": 987,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1014,
             "end": 1042,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1014,
@@ -1726,7 +1881,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1024,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1740,7 +1896,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1040,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1750,15 +1907,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1018,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1045,
             "end": 1073,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1045,
@@ -1779,7 +1939,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1055,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1793,7 +1954,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1071,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1803,15 +1965,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1049,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1076,
             "end": 1104,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1076,
@@ -1832,7 +1997,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1086,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1846,7 +2012,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1102,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1856,15 +2023,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1080,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1107,
             "end": 1135,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1107,
@@ -1885,7 +2055,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1117,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1899,7 +2070,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1133,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1909,15 +2081,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1111,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1138,
             "end": 1166,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1138,
@@ -1938,7 +2113,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1148,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -1952,7 +2128,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1164,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -1962,15 +2139,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1142,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1169,
             "end": 1197,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1169,
@@ -1991,7 +2171,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1179,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2005,7 +2186,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1195,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2015,15 +2197,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1173,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1200,
             "end": 1228,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1200,
@@ -2044,7 +2229,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1210,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2058,7 +2244,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1226,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2068,15 +2255,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1204,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1231,
             "end": 1259,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1231,
@@ -2097,7 +2287,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1241,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2111,7 +2302,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1257,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2121,15 +2313,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1235,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1262,
             "end": 1290,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1262,
@@ -2150,7 +2345,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1272,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2164,7 +2360,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1288,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2174,15 +2371,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1266,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1293,
             "end": 1321,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1293,
@@ -2203,7 +2403,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1303,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2217,7 +2418,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1319,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2227,15 +2429,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1297,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1324,
             "end": 1352,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1324,
@@ -2256,7 +2461,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1334,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2270,7 +2476,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1350,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2280,15 +2487,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1328,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1355,
             "end": 1383,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1355,
@@ -2309,7 +2519,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1365,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2323,7 +2534,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1381,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2333,15 +2545,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1359,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1386,
             "end": 1414,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1386,
@@ -2362,7 +2577,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1396,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2376,7 +2592,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1412,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2386,15 +2603,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1390,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1417,
             "end": 1445,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1417,
@@ -2415,7 +2635,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1427,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2429,7 +2650,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1443,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2439,15 +2661,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1421,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1448,
             "end": 1476,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1448,
@@ -2468,7 +2693,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1458,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2482,7 +2708,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1474,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2492,15 +2719,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1452,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1479,
             "end": 1507,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1479,
@@ -2521,7 +2751,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1489,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2535,7 +2766,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1505,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2545,15 +2777,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1483,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1510,
             "end": 1538,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1510,
@@ -2574,7 +2809,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1520,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2588,7 +2824,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1536,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2598,15 +2835,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1514,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1541,
             "end": 1569,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1541,
@@ -2627,7 +2867,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1551,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2641,7 +2882,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1567,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2651,15 +2893,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1545,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1572,
             "end": 1600,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1572,
@@ -2680,7 +2925,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1582,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2694,7 +2940,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1598,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2704,15 +2951,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1576,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1603,
             "end": 1631,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1603,
@@ -2733,7 +2983,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1613,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2747,7 +2998,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1629,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2757,15 +3009,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1607,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1634,
             "end": 1662,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1634,
@@ -2786,7 +3041,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1644,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2800,7 +3056,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1660,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2810,15 +3067,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1638,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1665,
             "end": 1693,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1665,
@@ -2839,7 +3099,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1675,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2853,7 +3114,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1691,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2863,15 +3125,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1669,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1696,
             "end": 1724,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1696,
@@ -2892,7 +3157,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1706,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2906,7 +3172,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1722,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2916,15 +3183,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1700,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1727,
             "end": 1755,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1727,
@@ -2945,7 +3215,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1737,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -2959,7 +3230,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1753,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -2969,15 +3241,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1731,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1758,
             "end": 1786,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1758,
@@ -2998,7 +3273,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1768,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -3012,7 +3288,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1784,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -3022,15 +3299,18 @@ __ESTREE_TEST__:PASS:
                 "end": 1762,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 1789,
             "end": 1817,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1789,
@@ -3051,7 +3331,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1799,
                       "decorators": [],
                       "name": "state",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
@@ -3065,7 +3346,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1815,
                     "decorators": [],
                     "name": "state",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -3075,9 +3357,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1793,
                 "decorators": [],
                 "name": "test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -3088,7 +3372,8 @@ __ESTREE_TEST__:PASS:
         "end": 78,
         "decorators": [],
         "name": "state",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

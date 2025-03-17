@@ -55,9 +55,11 @@ __ESTREE_TEST__:PASS:
                           "end": 44,
                           "decorators": [],
                           "name": "no",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -84,9 +86,12 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Test1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

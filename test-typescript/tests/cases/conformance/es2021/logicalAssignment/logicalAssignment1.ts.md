@@ -501,6 +501,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 286,
       "end": 297,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 286,
@@ -512,7 +513,8 @@ __ESTREE_TEST__:PASS:
           "end": 287,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -527,6 +529,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 298,
       "end": 309,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 298,
@@ -538,7 +541,8 @@ __ESTREE_TEST__:PASS:
           "end": 299,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -553,6 +557,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 310,
       "end": 321,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 310,
@@ -564,7 +569,8 @@ __ESTREE_TEST__:PASS:
           "end": 311,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -579,6 +585,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 324,
       "end": 332,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 324,
@@ -590,7 +597,8 @@ __ESTREE_TEST__:PASS:
           "end": 325,
           "decorators": [],
           "name": "d",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -605,6 +613,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 333,
       "end": 341,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 333,
@@ -616,7 +625,8 @@ __ESTREE_TEST__:PASS:
           "end": 334,
           "decorators": [],
           "name": "e",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -631,6 +641,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 342,
       "end": 350,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 342,
@@ -642,7 +653,8 @@ __ESTREE_TEST__:PASS:
           "end": 343,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -657,6 +669,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 352,
       "end": 360,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 352,
@@ -668,7 +681,8 @@ __ESTREE_TEST__:PASS:
           "end": 353,
           "decorators": [],
           "name": "g",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -683,6 +697,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 361,
       "end": 369,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 361,
@@ -694,7 +709,8 @@ __ESTREE_TEST__:PASS:
           "end": 362,
           "decorators": [],
           "name": "h",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -709,6 +725,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 370,
       "end": 378,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 370,
@@ -720,7 +737,8 @@ __ESTREE_TEST__:PASS:
           "end": 371,
           "decorators": [],
           "name": "i",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

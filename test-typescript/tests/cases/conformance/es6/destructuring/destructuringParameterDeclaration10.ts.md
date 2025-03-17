@@ -24,13 +24,15 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 178,
               "end": 182,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 178,
                 "end": 182,
                 "decorators": [],
                 "name": "json",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -44,7 +46,8 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "prepareConfig",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -70,7 +73,8 @@ __ESTREE_TEST__:PASS:
                     "end": 51,
                     "decorators": [],
                     "name": "additionalFiles",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -99,7 +103,8 @@ __ESTREE_TEST__:PASS:
                             "end": 67,
                             "decorators": [],
                             "name": "json",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -116,7 +121,8 @@ __ESTREE_TEST__:PASS:
                               "end": 67,
                               "decorators": [],
                               "name": "json",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "right": {
@@ -124,10 +130,12 @@ __ESTREE_TEST__:PASS:
                               "start": 70,
                               "end": 72,
                               "elements": []
-                            }
+                            },
+                            "typeAnnotation": null
                           }
                         }
-                      ]
+                      ],
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -135,7 +143,8 @@ __ESTREE_TEST__:PASS:
                       "start": 81,
                       "end": 83,
                       "properties": []
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -152,6 +161,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 91,
                       "end": 163,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -159,7 +169,8 @@ __ESTREE_TEST__:PASS:
                         "end": 106,
                         "decorators": [],
                         "name": "additionalFiles",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": true,
                       "readonly": false,
@@ -247,7 +258,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 123,
                                   "decorators": [],
                                   "name": "Record",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             ]
@@ -258,7 +270,8 @@ __ESTREE_TEST__:PASS:
                             "end": 116,
                             "decorators": [],
                             "name": "Partial",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -273,9 +286,12 @@ __ESTREE_TEST__:PASS:
               "start": 168,
               "end": 170,
               "properties": []
-            }
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -300,13 +316,15 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 313,
               "end": 317,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 313,
                 "end": 317,
                 "decorators": [],
                 "name": "json",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -320,7 +338,8 @@ __ESTREE_TEST__:PASS:
           "end": 244,
           "decorators": [],
           "name": "prepareConfigWithoutAnnotation",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -346,7 +365,8 @@ __ESTREE_TEST__:PASS:
                     "end": 266,
                     "decorators": [],
                     "name": "additionalFiles",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -375,7 +395,8 @@ __ESTREE_TEST__:PASS:
                             "end": 282,
                             "decorators": [],
                             "name": "json",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "init",
                           "method": false,
@@ -392,7 +413,8 @@ __ESTREE_TEST__:PASS:
                               "end": 282,
                               "decorators": [],
                               "name": "json",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "right": {
@@ -400,10 +422,12 @@ __ESTREE_TEST__:PASS:
                               "start": 285,
                               "end": 287,
                               "elements": []
-                            }
+                            },
+                            "typeAnnotation": null
                           }
                         }
-                      ]
+                      ],
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -411,10 +435,12 @@ __ESTREE_TEST__:PASS:
                       "start": 296,
                       "end": 298,
                       "properties": []
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 }
-              ]
+              ],
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -422,9 +448,12 @@ __ESTREE_TEST__:PASS:
               "start": 303,
               "end": 305,
               "properties": []
-            }
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -481,6 +510,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSPropertySignature",
                               "start": 383,
                               "end": 455,
+                              "accessibility": null,
                               "computed": false,
                               "key": {
                                 "type": "Identifier",
@@ -488,7 +518,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 398,
                                 "decorators": [],
                                 "name": "additionalFiles",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": true,
                               "readonly": false,
@@ -576,7 +607,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 415,
                                           "decorators": [],
                                           "name": "Record",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       }
                                     ]
@@ -587,7 +619,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 408,
                                     "decorators": [],
                                     "name": "Partial",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -606,7 +639,8 @@ __ESTREE_TEST__:PASS:
                       "start": 462,
                       "end": 466
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             },
@@ -624,13 +658,15 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 541,
                     "end": 545,
+                    "directive": null,
                     "expression": {
                       "type": "Identifier",
                       "start": 541,
                       "end": 545,
                       "decorators": [],
                       "name": "json",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -662,7 +698,8 @@ __ESTREE_TEST__:PASS:
                           "end": 491,
                           "decorators": [],
                           "name": "additionalFiles",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -691,7 +728,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 507,
                                   "decorators": [],
                                   "name": "json",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -708,7 +746,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 507,
                                     "decorators": [],
                                     "name": "json",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "optional": false,
                                   "right": {
@@ -716,10 +755,12 @@ __ESTREE_TEST__:PASS:
                                     "start": 510,
                                     "end": 512,
                                     "elements": []
-                                  }
+                                  },
+                                  "typeAnnotation": null
                                 }
                               }
-                            ]
+                            ],
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "right": {
@@ -727,10 +768,12 @@ __ESTREE_TEST__:PASS:
                             "start": 521,
                             "end": 523,
                             "properties": []
-                          }
+                          },
+                          "typeAnnotation": null
                         }
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -738,9 +781,12 @@ __ESTREE_TEST__:PASS:
                     "start": 528,
                     "end": 530,
                     "properties": []
-                  }
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],

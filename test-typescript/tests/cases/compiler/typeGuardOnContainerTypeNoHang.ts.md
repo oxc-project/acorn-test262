@@ -53,7 +53,8 @@ __ESTREE_TEST__:PASS:
                             "end": 132,
                             "decorators": [],
                             "name": "value",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "operator": "typeof",
                           "prefix": true
@@ -78,7 +79,8 @@ __ESTREE_TEST__:PASS:
                   "end": 58,
                   "decorators": [],
                   "name": "IsObject",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -115,7 +117,8 @@ __ESTREE_TEST__:PASS:
                       "end": 78,
                       "decorators": [],
                       "name": "value",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
@@ -130,6 +133,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSIndexSignature",
                             "start": 83,
                             "end": 101,
+                            "accessibility": null,
                             "parameters": [
                               {
                                 "type": "Identifier",
@@ -167,7 +171,8 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                }
+                },
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -183,7 +188,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "TypeGuards",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "namespace"
       },

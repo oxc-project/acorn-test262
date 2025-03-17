@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 34,
             "end": 86,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -71,13 +73,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 72,
                         "end": 82,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 72,
                           "end": 82,
                           "decorators": [],
                           "name": "Recursive1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -85,7 +89,9 @@ __ESTREE_TEST__:PASS:
                   "readonly": true,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -103,7 +109,8 @@ __ESTREE_TEST__:PASS:
               "end": 104,
               "decorators": [],
               "name": "depth",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -157,7 +164,8 @@ __ESTREE_TEST__:PASS:
                       "end": 140,
                       "decorators": [],
                       "name": "parent",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -167,7 +175,8 @@ __ESTREE_TEST__:PASS:
                     "end": 146,
                     "decorators": [],
                     "name": "depth",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "right": {
@@ -195,7 +204,8 @@ __ESTREE_TEST__:PASS:
                   "end": 126,
                   "decorators": [],
                   "name": "parent",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -210,10 +220,13 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "Recursive1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -229,6 +242,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 182,
             "end": 202,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -239,7 +253,8 @@ __ESTREE_TEST__:PASS:
               "end": 188,
               "decorators": [],
               "name": "parent",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -253,13 +268,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 191,
                 "end": 201,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 191,
                   "end": 201,
                   "decorators": [],
                   "name": "Recursive2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -269,6 +286,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 207,
             "end": 241,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -279,7 +297,8 @@ __ESTREE_TEST__:PASS:
               "end": 212,
               "decorators": [],
               "name": "depth",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -317,7 +336,8 @@ __ESTREE_TEST__:PASS:
                   "end": 234,
                   "decorators": [],
                   "name": "parent",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -327,7 +347,8 @@ __ESTREE_TEST__:PASS:
                 "end": 240,
                 "decorators": [],
                 "name": "depth",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -341,10 +362,13 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "Recursive2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -360,6 +384,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 268,
             "end": 288,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -370,7 +395,8 @@ __ESTREE_TEST__:PASS:
               "end": 274,
               "decorators": [],
               "name": "parent",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -384,13 +410,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 277,
                 "end": 287,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 277,
                   "end": 287,
                   "decorators": [],
                   "name": "Recursive3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -400,6 +428,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 293,
             "end": 327,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -410,7 +439,8 @@ __ESTREE_TEST__:PASS:
               "end": 298,
               "decorators": [],
               "name": "depth",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -448,7 +478,8 @@ __ESTREE_TEST__:PASS:
                   "end": 320,
                   "decorators": [],
                   "name": "parent",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "optional": false,
@@ -458,7 +489,8 @@ __ESTREE_TEST__:PASS:
                 "end": 326,
                 "decorators": [],
                 "name": "alpha",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -466,6 +498,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 332,
             "end": 342,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -476,12 +509,14 @@ __ESTREE_TEST__:PASS:
               "end": 337,
               "decorators": [],
               "name": "alpha",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 340,
@@ -500,10 +535,13 @@ __ESTREE_TEST__:PASS:
         "end": 261,
         "decorators": [],
         "name": "Recursive3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

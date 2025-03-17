@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
               "start": 50,
               "end": 122,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "simple",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -129,7 +131,8 @@ __ESTREE_TEST__:PASS:
                   "start": 118,
                   "end": 121
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -183,7 +186,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "simple",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -192,7 +196,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "simple",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

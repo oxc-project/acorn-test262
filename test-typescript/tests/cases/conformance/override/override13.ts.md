@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 16,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -29,12 +30,14 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 27,
@@ -47,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 33,
             "end": 58,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -57,12 +61,14 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "decorators": [],
               "name": "staticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 57,
@@ -81,10 +87,13 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -100,6 +109,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 93,
             "end": 107,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -110,12 +120,14 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "decorators": [],
               "name": "property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 104,
@@ -128,6 +140,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 112,
             "end": 132,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -138,12 +151,14 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "staticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 129,
@@ -162,7 +177,8 @@ __ESTREE_TEST__:PASS:
         "end": 74,
         "decorators": [],
         "name": "SubFoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -171,8 +187,11 @@ __ESTREE_TEST__:PASS:
         "end": 86,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -188,6 +207,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 173,
             "end": 194,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -198,12 +218,14 @@ __ESTREE_TEST__:PASS:
               "end": 188,
               "decorators": [],
               "name": "property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 191,
@@ -216,6 +238,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 199,
             "end": 226,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -226,12 +249,14 @@ __ESTREE_TEST__:PASS:
               "end": 220,
               "decorators": [],
               "name": "staticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 223,
@@ -250,7 +275,8 @@ __ESTREE_TEST__:PASS:
         "end": 154,
         "decorators": [],
         "name": "StaticSubFoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -259,8 +285,11 @@ __ESTREE_TEST__:PASS:
         "end": 166,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -281,7 +310,8 @@ __ESTREE_TEST__:PASS:
         "end": 248,
         "decorators": [],
         "name": "Intermediate",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -290,8 +320,11 @@ __ESTREE_TEST__:PASS:
         "end": 260,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -307,6 +340,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 306,
             "end": 320,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -317,12 +351,14 @@ __ESTREE_TEST__:PASS:
               "end": 314,
               "decorators": [],
               "name": "property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 317,
@@ -335,6 +371,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 325,
             "end": 345,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -345,12 +382,14 @@ __ESTREE_TEST__:PASS:
               "end": 339,
               "decorators": [],
               "name": "staticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 342,
@@ -369,7 +408,8 @@ __ESTREE_TEST__:PASS:
         "end": 278,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -378,8 +418,11 @@ __ESTREE_TEST__:PASS:
         "end": 299,
         "decorators": [],
         "name": "Intermediate",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -395,6 +438,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 396,
             "end": 417,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -405,12 +449,14 @@ __ESTREE_TEST__:PASS:
               "end": 411,
               "decorators": [],
               "name": "property",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 414,
@@ -423,6 +469,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 422,
             "end": 449,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -433,12 +480,14 @@ __ESTREE_TEST__:PASS:
               "end": 443,
               "decorators": [],
               "name": "staticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 446,
@@ -457,7 +506,8 @@ __ESTREE_TEST__:PASS:
         "end": 368,
         "decorators": [],
         "name": "StaticDerived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -466,8 +516,11 @@ __ESTREE_TEST__:PASS:
         "end": 389,
         "decorators": [],
         "name": "Intermediate",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

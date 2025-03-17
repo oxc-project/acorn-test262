@@ -98,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -112,7 +113,8 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "tuple",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

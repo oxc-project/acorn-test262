@@ -27,6 +27,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 42,
                   "end": 52,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                     "end": 43,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -54,6 +56,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 61,
                   "end": 71,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
                     "end": 62,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -81,6 +85,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 81,
                   "end": 110,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -88,7 +93,8 @@ __ESTREE_TEST__:PASS:
                     "end": 91,
                     "decorators": [],
                     "name": "fromOrigin",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -108,13 +114,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 95,
                           "end": 100,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 95,
                             "end": 100,
                             "decorators": [],
                             "name": "Point",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -131,7 +139,8 @@ __ESTREE_TEST__:PASS:
                       "end": 109
                     }
                   },
-                  "static": false
+                  "static": false,
+                  "typeParameters": null
                 }
               ]
             },
@@ -143,8 +152,10 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "Point",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -165,6 +176,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 170,
                     "end": 221,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -173,7 +185,8 @@ __ESTREE_TEST__:PASS:
                       "end": 181,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -251,13 +264,16 @@ __ESTREE_TEST__:PASS:
                           "readonly": false,
                           "static": false
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 231,
                     "end": 285,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -266,7 +282,8 @@ __ESTREE_TEST__:PASS:
                       "end": 241,
                       "decorators": [],
                       "name": "fromOrigin",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -316,18 +333,22 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 245,
                               "end": 250,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 245,
                                 "end": 250,
                                 "decorators": [],
                                 "name": "Point",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -340,7 +361,8 @@ __ESTREE_TEST__:PASS:
                 "end": 142,
                 "decorators": [],
                 "name": "Point2d",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [
                 {
@@ -353,11 +375,15 @@ __ESTREE_TEST__:PASS:
                     "end": 159,
                     "decorators": [],
                     "name": "Point",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               ],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -373,7 +399,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }
