@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 6,
       "end": 28,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 6,
@@ -20,14 +21,17 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "Array",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 35,
       "end": 60,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 35,
@@ -38,7 +42,8 @@ __ESTREE_TEST__:PASS:
           "end": 53,
           "decorators": [],
           "name": "Array",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "typeof",
         "prefix": true
@@ -48,6 +53,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 67,
       "end": 90,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 67,
@@ -58,7 +64,8 @@ __ESTREE_TEST__:PASS:
           "end": 83,
           "decorators": [],
           "name": "Array",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "void",
         "prefix": true
@@ -68,6 +75,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 97,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 97,
@@ -83,7 +91,8 @@ __ESTREE_TEST__:PASS:
             "end": 115,
             "decorators": [],
             "name": "Array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -92,7 +101,8 @@ __ESTREE_TEST__:PASS:
             "end": 124,
             "decorators": [],
             "name": "toString",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "delete",

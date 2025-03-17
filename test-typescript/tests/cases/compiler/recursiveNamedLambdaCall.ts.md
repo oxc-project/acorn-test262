@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "promise",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -47,6 +48,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 68,
                         "end": 293,
+                        "directive": null,
                         "expression": {
                           "type": "CallExpression",
                           "start": 68,
@@ -85,6 +87,7 @@ __ESTREE_TEST__:PASS:
                                               "type": "ExpressionStatement",
                                               "start": 133,
                                               "end": 154,
+                                              "directive": null,
                                               "expression": {
                                                 "type": "CallExpression",
                                                 "start": 133,
@@ -109,7 +112,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 136,
                                                     "decorators": [],
                                                     "name": "top",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -118,10 +122,12 @@ __ESTREE_TEST__:PASS:
                                                     "end": 145,
                                                     "decorators": [],
                                                     "name": "doScroll",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 },
-                                                "optional": false
+                                                "optional": false,
+                                                "typeArguments": null
                                               }
                                             }
                                           ]
@@ -151,7 +157,8 @@ __ESTREE_TEST__:PASS:
                                                       "end": 211,
                                                       "decorators": [],
                                                       "name": "doScrollCheck",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     },
                                                     {
                                                       "type": "Literal",
@@ -167,9 +174,11 @@ __ESTREE_TEST__:PASS:
                                                     "end": 196,
                                                     "decorators": [],
                                                     "name": "setTimeout",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeArguments": null
                                                 }
                                               }
                                             ]
@@ -180,7 +189,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 169,
                                             "decorators": [],
                                             "name": "e",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         }
                                       },
@@ -188,6 +198,7 @@ __ESTREE_TEST__:PASS:
                                         "type": "ExpressionStatement",
                                         "start": 268,
                                         "end": 277,
+                                        "directive": null,
                                         "expression": {
                                           "type": "CallExpression",
                                           "start": 268,
@@ -199,9 +210,11 @@ __ESTREE_TEST__:PASS:
                                             "end": 274,
                                             "decorators": [],
                                             "name": "detach",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           },
-                                          "optional": false
+                                          "optional": false,
+                                          "typeArguments": null
                                         }
                                       }
                                     ]
@@ -225,11 +238,15 @@ __ESTREE_TEST__:PASS:
                               "end": 91,
                               "decorators": [],
                               "name": "doScrollCheck",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
-                            "params": []
+                            "params": [],
+                            "returnType": null,
+                            "typeParameters": null
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       }
                     ]
@@ -245,7 +262,8 @@ __ESTREE_TEST__:PASS:
                       "end": 44,
                       "decorators": [],
                       "name": "top",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "MemberExpression",
@@ -258,7 +276,8 @@ __ESTREE_TEST__:PASS:
                         "end": 51,
                         "decorators": [],
                         "name": "top",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -267,7 +286,8 @@ __ESTREE_TEST__:PASS:
                         "end": 60,
                         "decorators": [],
                         "name": "doScroll",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -285,9 +305,12 @@ __ESTREE_TEST__:PASS:
                 "end": 27,
                 "decorators": [],
                 "name": "obj",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

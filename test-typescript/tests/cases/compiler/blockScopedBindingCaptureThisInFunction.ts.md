@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 164,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 56,
@@ -37,6 +38,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 114,
                       "end": 132,
+                      "directive": null,
                       "expression": {
                         "type": "CallExpression",
                         "start": 114,
@@ -59,16 +61,19 @@ __ESTREE_TEST__:PASS:
                             "end": 129,
                             "decorators": [],
                             "name": "helloWorld",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     },
                     {
                       "type": "ExpressionStatement",
                       "start": 141,
                       "end": 155,
+                      "directive": null,
                       "expression": {
                         "type": "ArrowFunctionExpression",
                         "start": 141,
@@ -80,12 +85,15 @@ __ESTREE_TEST__:PASS:
                           "end": 154,
                           "decorators": [],
                           "name": "someKey",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "expression": true,
                         "generator": false,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -106,7 +114,8 @@ __ESTREE_TEST__:PASS:
                         "end": 96,
                         "decorators": [],
                         "name": "someKey",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": null
                     }
@@ -127,12 +136,16 @@ __ESTREE_TEST__:PASS:
           "expression": false,
           "generator": false,
           "id": null,
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         },
         "expression": true,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     }
   ],

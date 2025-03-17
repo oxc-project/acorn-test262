@@ -61,6 +61,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 89,
                   "end": 106,
+                  "accessibility": null,
                   "computed": true,
                   "key": {
                     "type": "Literal",
@@ -93,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -106,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -141,7 +145,8 @@ __ESTREE_TEST__:PASS:
                   "end": 150,
                   "name": "package"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           }
@@ -156,9 +161,12 @@ __ESTREE_TEST__:PASS:
         "end": 126,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -201,7 +209,8 @@ __ESTREE_TEST__:PASS:
                   "end": 191,
                   "name": "package"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           }
@@ -216,9 +225,12 @@ __ESTREE_TEST__:PASS:
         "end": 167,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -101,13 +101,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 2,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
         "end": 1,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

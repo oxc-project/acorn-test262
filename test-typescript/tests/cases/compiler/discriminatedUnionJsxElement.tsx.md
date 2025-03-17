@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 111,
             "end": 146,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 127,
               "decorators": [],
               "name": "menuItemsVariant",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -38,13 +40,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 130,
                 "end": 145,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 130,
                   "end": 145,
                   "decorators": [],
                   "name": "MenuItemVariant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -59,7 +63,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "IData",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -75,19 +80,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 62,
               "end": 77,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 62,
                 "end": 77,
                 "decorators": [],
                 "name": "ListItemVariant",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "default": {
               "type": "TSTypeReference",
               "start": 80,
               "end": 103,
+              "typeArguments": null,
               "typeName": {
                 "type": "TSQualifiedName",
                 "start": 80,
@@ -98,7 +106,8 @@ __ESTREE_TEST__:PASS:
                   "end": 95,
                   "decorators": [],
                   "name": "ListItemVariant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -106,7 +115,8 @@ __ESTREE_TEST__:PASS:
                   "end": 103,
                   "decorators": [],
                   "name": "OneLine",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -117,7 +127,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "MenuItemVariant",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -150,7 +161,8 @@ __ESTREE_TEST__:PASS:
                   "end": 288,
                   "decorators": [],
                   "name": "listItemVariant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "LogicalExpression",
@@ -168,7 +180,8 @@ __ESTREE_TEST__:PASS:
                       "end": 295,
                       "decorators": [],
                       "name": "data",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -177,7 +190,8 @@ __ESTREE_TEST__:PASS:
                       "end": 312,
                       "decorators": [],
                       "name": "menuItemsVariant",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "right": {
@@ -191,7 +205,8 @@ __ESTREE_TEST__:PASS:
                       "end": 331,
                       "decorators": [],
                       "name": "ListItemVariant",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -200,7 +215,8 @@ __ESTREE_TEST__:PASS:
                       "end": 339,
                       "decorators": [],
                       "name": "OneLine",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -244,7 +260,8 @@ __ESTREE_TEST__:PASS:
                         "end": 386,
                         "decorators": [],
                         "name": "listItemVariant",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -255,7 +272,8 @@ __ESTREE_TEST__:PASS:
                   "end": 361,
                   "name": "ListItem"
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           }
@@ -270,7 +288,8 @@ __ESTREE_TEST__:PASS:
         "end": 163,
         "decorators": [],
         "name": "Menu",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -297,13 +316,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 243,
                     "end": 258,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 243,
                       "end": 258,
                       "decorators": [],
                       "name": "MenuItemVariant",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -314,12 +335,14 @@ __ESTREE_TEST__:PASS:
                 "end": 242,
                 "decorators": [],
                 "name": "IData",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 163,
@@ -334,19 +357,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 188,
               "end": 203,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 188,
                 "end": 203,
                 "decorators": [],
                 "name": "ListItemVariant",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "default": {
               "type": "TSTypeReference",
               "start": 206,
               "end": 229,
+              "typeArguments": null,
               "typeName": {
                 "type": "TSQualifiedName",
                 "start": 206,
@@ -357,7 +383,8 @@ __ESTREE_TEST__:PASS:
                   "end": 221,
                   "decorators": [],
                   "name": "ListItemVariant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -365,7 +392,8 @@ __ESTREE_TEST__:PASS:
                   "end": 229,
                   "decorators": [],
                   "name": "OneLine",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -376,7 +404,8 @@ __ESTREE_TEST__:PASS:
               "end": 179,
               "decorators": [],
               "name": "MenuItemVariant",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -394,7 +423,8 @@ __ESTREE_TEST__:PASS:
         "end": 413,
         "decorators": [],
         "name": "IListItemData",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -410,6 +440,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 418,
                 "end": 450,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -417,7 +448,8 @@ __ESTREE_TEST__:PASS:
                   "end": 425,
                   "decorators": [],
                   "name": "variant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -430,6 +462,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 427,
                     "end": 449,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 427,
@@ -440,7 +473,8 @@ __ESTREE_TEST__:PASS:
                         "end": 442,
                         "decorators": [],
                         "name": "ListItemVariant",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -448,7 +482,8 @@ __ESTREE_TEST__:PASS:
                         "end": 449,
                         "decorators": [],
                         "name": "Avatar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -465,6 +500,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 457,
                 "end": 490,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -472,7 +508,8 @@ __ESTREE_TEST__:PASS:
                   "end": 464,
                   "decorators": [],
                   "name": "variant",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -485,6 +522,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 466,
                     "end": 489,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "TSQualifiedName",
                       "start": 466,
@@ -495,7 +533,8 @@ __ESTREE_TEST__:PASS:
                         "end": 481,
                         "decorators": [],
                         "name": "ListItemVariant",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -503,7 +542,8 @@ __ESTREE_TEST__:PASS:
                         "end": 489,
                         "decorators": [],
                         "name": "OneLine",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -512,7 +552,8 @@ __ESTREE_TEST__:PASS:
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSEnumDeclaration",
@@ -534,8 +575,10 @@ __ESTREE_TEST__:PASS:
               "end": 529,
               "decorators": [],
               "name": "OneLine",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -548,8 +591,10 @@ __ESTREE_TEST__:PASS:
               "end": 541,
               "decorators": [],
               "name": "Avatar",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -561,7 +606,8 @@ __ESTREE_TEST__:PASS:
         "end": 515,
         "decorators": [],
         "name": "ListItemVariant",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -597,7 +643,8 @@ __ESTREE_TEST__:PASS:
         "end": 563,
         "decorators": [],
         "name": "ListItem",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -615,18 +662,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 571,
               "end": 584,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 571,
                 "end": 584,
                 "decorators": [],
                 "name": "IListItemData",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

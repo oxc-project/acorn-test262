@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
             "end": 52,
             "decorators": [],
             "name": "SvgIcon",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -54,7 +55,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -95,7 +97,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "StyledComponentProps",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "decorators": [],
             "name": "StyledComponentProps",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -127,6 +131,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 128,
               "end": 148,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -134,7 +139,8 @@ __ESTREE_TEST__:PASS:
                 "end": 136,
                 "decorators": [],
                 "name": "children",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -169,7 +175,8 @@ __ESTREE_TEST__:PASS:
               "end": 113,
               "decorators": [],
               "name": "StyledComponentProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -198,8 +205,10 @@ __ESTREE_TEST__:PASS:
           "end": 84,
           "decorators": [],
           "name": "SvgIconProps",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -223,6 +232,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 188,
               "end": 203,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -230,7 +240,8 @@ __ESTREE_TEST__:PASS:
                 "end": 194,
                 "decorators": [],
                 "name": "myProp",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -256,8 +267,10 @@ __ESTREE_TEST__:PASS:
           "end": 181,
           "decorators": [],
           "name": "SomeInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -288,13 +301,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 229,
                 "end": 242,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 229,
                   "end": 242,
                   "decorators": [],
                   "name": "SomeInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -315,7 +330,8 @@ __ESTREE_TEST__:PASS:
         "end": 266,
         "decorators": [],
         "name": "SvgIcon",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "exportKind": "value"
     }
@@ -355,7 +371,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "SvgIcon",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -370,6 +387,7 @@ __ESTREE_TEST__:PASS:
         "start": 40,
         "end": 114,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -379,7 +397,8 @@ __ESTREE_TEST__:PASS:
           "end": 62,
           "decorators": [],
           "name": "createSvgIcon",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -433,10 +452,13 @@ __ESTREE_TEST__:PASS:
               "end": 113,
               "decorators": [],
               "name": "SvgIcon",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -472,6 +494,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 69,
               "end": 104,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -479,7 +502,8 @@ __ESTREE_TEST__:PASS:
                 "end": 76,
                 "decorators": [],
                 "name": "classes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -501,13 +525,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 86,
                         "end": 94,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 86,
                           "end": 94,
                           "decorators": [],
                           "name": "ClassKey",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -523,7 +549,8 @@ __ESTREE_TEST__:PASS:
                     "end": 85,
                     "decorators": [],
                     "name": "Record",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -538,7 +565,8 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "StyledComponentProps",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
@@ -555,6 +583,7 @@ __ESTREE_TEST__:PASS:
                 "start": 55,
                 "end": 61
               },
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -562,7 +591,8 @@ __ESTREE_TEST__:PASS:
                 "end": 46,
                 "decorators": [],
                 "name": "ClassKey",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -609,7 +639,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "createSvgIcon",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -618,7 +649,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "createSvgIcon",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -653,9 +685,11 @@ __ESTREE_TEST__:PASS:
           "end": 80,
           "decorators": [],
           "name": "createSvgIcon",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       },
       "exportKind": "value"
     }

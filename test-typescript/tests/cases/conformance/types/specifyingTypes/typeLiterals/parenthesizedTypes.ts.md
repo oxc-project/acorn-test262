@@ -212,7 +212,8 @@ __ESTREE_TEST__:PASS:
                     "start": 193,
                     "end": 199
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -276,7 +277,8 @@ __ESTREE_TEST__:PASS:
                     "start": 227,
                     "end": 233
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -517,7 +519,8 @@ __ESTREE_TEST__:PASS:
                           "start": 359,
                           "end": 365
                         }
-                      }
+                      },
+                      "typeParameters": null
                     },
                     {
                       "type": "TSFunctionType",
@@ -552,7 +555,8 @@ __ESTREE_TEST__:PASS:
                           "start": 385,
                           "end": 391
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -633,7 +637,8 @@ __ESTREE_TEST__:PASS:
                               "start": 420,
                               "end": 426
                             }
-                          }
+                          },
+                          "typeParameters": null
                         }
                       ]
                     },
@@ -675,7 +680,8 @@ __ESTREE_TEST__:PASS:
                               "start": 446,
                               "end": 452
                             }
-                          }
+                          },
+                          "typeParameters": null
                         }
                       ]
                     }
@@ -758,7 +764,8 @@ __ESTREE_TEST__:PASS:
                               "start": 488,
                               "end": 494
                             }
-                          }
+                          },
+                          "typeParameters": null
                         },
                         {
                           "type": "TSFunctionType",
@@ -793,7 +800,8 @@ __ESTREE_TEST__:PASS:
                               "start": 514,
                               "end": 520
                             }
-                          }
+                          },
+                          "typeParameters": null
                         }
                       ]
                     }
@@ -805,7 +813,8 @@ __ESTREE_TEST__:PASS:
                   "end": 471,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -889,7 +898,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 552,
                                   "end": 558
                                 }
-                              }
+                              },
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -931,7 +941,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 578,
                                   "end": 584
                                 }
-                              }
+                              },
+                              "typeParameters": null
                             }
                           ]
                         }
@@ -945,7 +956,8 @@ __ESTREE_TEST__:PASS:
                   "end": 536,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1029,7 +1041,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 618,
                                   "end": 624
                                 }
-                              }
+                              },
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -1071,7 +1084,8 @@ __ESTREE_TEST__:PASS:
                                   "start": 644,
                                   "end": 650
                                 }
-                              }
+                              },
+                              "typeParameters": null
                             }
                           ]
                         }
@@ -1085,7 +1099,8 @@ __ESTREE_TEST__:PASS:
                   "end": 602,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1131,8 +1146,10 @@ __ESTREE_TEST__:PASS:
                     "end": 672,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             }
@@ -1178,8 +1195,10 @@ __ESTREE_TEST__:PASS:
                     "end": 692,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             }
@@ -1222,7 +1241,8 @@ __ESTREE_TEST__:PASS:
                     "end": 712,
                     "decorators": [],
                     "name": "string",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -1234,7 +1254,8 @@ __ESTREE_TEST__:PASS:
                     "start": 717,
                     "end": 723
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1298,7 +1319,8 @@ __ESTREE_TEST__:PASS:
                     "start": 749,
                     "end": 755
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1441,8 +1463,10 @@ __ESTREE_TEST__:PASS:
                       "end": 839,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               }

@@ -48,7 +48,8 @@ __ESTREE_TEST__:PASS:
                   "end": 24,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -107,7 +108,8 @@ __ESTREE_TEST__:PASS:
                   "end": 58,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -171,7 +173,8 @@ __ESTREE_TEST__:PASS:
                   "end": 97,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -230,7 +233,8 @@ __ESTREE_TEST__:PASS:
                   "end": 141,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -294,7 +298,8 @@ __ESTREE_TEST__:PASS:
                   "end": 186,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -344,13 +349,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 245,
                       "end": 266,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 245,
                         "end": 266,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -361,7 +368,8 @@ __ESTREE_TEST__:PASS:
                   "end": 236,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -411,13 +419,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 302,
                       "end": 323,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 302,
                         "end": 323,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -433,7 +443,8 @@ __ESTREE_TEST__:PASS:
                   "end": 293,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -487,7 +498,8 @@ __ESTREE_TEST__:PASS:
                   "end": 364,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -546,7 +558,8 @@ __ESTREE_TEST__:PASS:
                   "end": 406,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -610,7 +623,8 @@ __ESTREE_TEST__:PASS:
                   "end": 454,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -669,7 +683,8 @@ __ESTREE_TEST__:PASS:
                   "end": 507,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -733,7 +748,8 @@ __ESTREE_TEST__:PASS:
                   "end": 561,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -783,13 +799,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 629,
                       "end": 650,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 629,
                         "end": 650,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -800,7 +818,8 @@ __ESTREE_TEST__:PASS:
                   "end": 620,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -850,13 +869,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 695,
                       "end": 716,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 695,
                         "end": 716,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -872,7 +893,8 @@ __ESTREE_TEST__:PASS:
                   "end": 686,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -888,6 +910,7 @@ __ESTREE_TEST__:PASS:
       "start": 725,
       "end": 765,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -897,7 +920,8 @@ __ESTREE_TEST__:PASS:
         "end": 744,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -926,16 +950,19 @@ __ESTREE_TEST__:PASS:
             "end": 756,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 766,
       "end": 811,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -945,7 +972,8 @@ __ESTREE_TEST__:PASS:
         "end": 785,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -979,16 +1007,19 @@ __ESTREE_TEST__:PASS:
             "end": 797,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 812,
       "end": 862,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -998,7 +1029,8 @@ __ESTREE_TEST__:PASS:
         "end": 831,
         "decorators": [],
         "name": "f3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1037,16 +1069,19 @@ __ESTREE_TEST__:PASS:
             "end": 843,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 863,
       "end": 914,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1056,7 +1091,8 @@ __ESTREE_TEST__:PASS:
         "end": 882,
         "decorators": [],
         "name": "f4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1090,16 +1126,19 @@ __ESTREE_TEST__:PASS:
             "end": 894,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 915,
       "end": 971,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1109,7 +1148,8 @@ __ESTREE_TEST__:PASS:
         "end": 934,
         "decorators": [],
         "name": "f5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1148,16 +1188,19 @@ __ESTREE_TEST__:PASS:
             "end": 946,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 972,
       "end": 1035,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1167,7 +1210,8 @@ __ESTREE_TEST__:PASS:
         "end": 991,
         "decorators": [],
         "name": "f6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1192,13 +1236,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1012,
                 "end": 1033,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1012,
                   "end": 1033,
                   "decorators": [],
                   "name": "BuiltinIteratorReturn",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -1209,16 +1255,19 @@ __ESTREE_TEST__:PASS:
             "end": 1003,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1036,
       "end": 1104,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1228,7 +1277,8 @@ __ESTREE_TEST__:PASS:
         "end": 1055,
         "decorators": [],
         "name": "f7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1253,13 +1303,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1076,
                 "end": 1097,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1076,
                   "end": 1097,
                   "decorators": [],
                   "name": "BuiltinIteratorReturn",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -1275,16 +1327,19 @@ __ESTREE_TEST__:PASS:
             "end": 1067,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1106,
       "end": 1154,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1294,7 +1349,8 @@ __ESTREE_TEST__:PASS:
         "end": 1125,
         "decorators": [],
         "name": "f8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1323,16 +1379,19 @@ __ESTREE_TEST__:PASS:
             "end": 1145,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1155,
       "end": 1208,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1342,7 +1401,8 @@ __ESTREE_TEST__:PASS:
         "end": 1174,
         "decorators": [],
         "name": "f9",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1376,16 +1436,19 @@ __ESTREE_TEST__:PASS:
             "end": 1194,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1209,
       "end": 1268,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1395,7 +1458,8 @@ __ESTREE_TEST__:PASS:
         "end": 1229,
         "decorators": [],
         "name": "f10",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1434,16 +1498,19 @@ __ESTREE_TEST__:PASS:
             "end": 1249,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1269,
       "end": 1329,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1453,7 +1520,8 @@ __ESTREE_TEST__:PASS:
         "end": 1289,
         "decorators": [],
         "name": "f11",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1487,16 +1555,19 @@ __ESTREE_TEST__:PASS:
             "end": 1309,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1330,
       "end": 1395,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1506,7 +1577,8 @@ __ESTREE_TEST__:PASS:
         "end": 1350,
         "decorators": [],
         "name": "f12",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1545,16 +1617,19 @@ __ESTREE_TEST__:PASS:
             "end": 1370,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1396,
       "end": 1468,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1564,7 +1639,8 @@ __ESTREE_TEST__:PASS:
         "end": 1416,
         "decorators": [],
         "name": "f13",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1589,13 +1665,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1445,
                 "end": 1466,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1445,
                   "end": 1466,
                   "decorators": [],
                   "name": "BuiltinIteratorReturn",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -1606,16 +1684,19 @@ __ESTREE_TEST__:PASS:
             "end": 1436,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 1469,
       "end": 1546,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -1625,7 +1706,8 @@ __ESTREE_TEST__:PASS:
         "end": 1489,
         "decorators": [],
         "name": "f14",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -1650,13 +1732,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1518,
                 "end": 1539,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1518,
                   "end": 1539,
                   "decorators": [],
                   "name": "BuiltinIteratorReturn",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -1672,10 +1756,12 @@ __ESTREE_TEST__:PASS:
             "end": 1509,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -1693,7 +1779,8 @@ __ESTREE_TEST__:PASS:
             "end": 1556,
             "decorators": [],
             "name": "a1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1742,10 +1829,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1571,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -1768,7 +1857,8 @@ __ESTREE_TEST__:PASS:
             "end": 1598,
             "decorators": [],
             "name": "a2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1822,10 +1912,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1613,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -1848,7 +1940,8 @@ __ESTREE_TEST__:PASS:
             "end": 1645,
             "decorators": [],
             "name": "a3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1907,10 +2000,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1660,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -1933,7 +2028,8 @@ __ESTREE_TEST__:PASS:
             "end": 1697,
             "decorators": [],
             "name": "a4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1987,10 +2083,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1712,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2013,7 +2111,8 @@ __ESTREE_TEST__:PASS:
             "end": 1750,
             "decorators": [],
             "name": "a5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2072,10 +2171,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1765,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2098,7 +2199,8 @@ __ESTREE_TEST__:PASS:
             "end": 1808,
             "decorators": [],
             "name": "a6",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2143,13 +2245,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 1832,
                       "end": 1853,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 1832,
                         "end": 1853,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -2160,10 +2264,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1823,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2186,7 +2292,8 @@ __ESTREE_TEST__:PASS:
             "end": 1873,
             "decorators": [],
             "name": "a7",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2231,13 +2338,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 1897,
                       "end": 1918,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 1897,
                         "end": 1918,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -2253,10 +2362,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1888,
                   "decorators": [],
                   "name": "Iterable",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2279,7 +2390,8 @@ __ESTREE_TEST__:PASS:
             "end": 1944,
             "decorators": [],
             "name": "a8",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2328,10 +2440,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1967,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2354,7 +2468,8 @@ __ESTREE_TEST__:PASS:
             "end": 1994,
             "decorators": [],
             "name": "a9",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2408,10 +2523,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2017,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2434,7 +2551,8 @@ __ESTREE_TEST__:PASS:
             "end": 2050,
             "decorators": [],
             "name": "a10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2493,10 +2611,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2073,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2519,7 +2639,8 @@ __ESTREE_TEST__:PASS:
             "end": 2111,
             "decorators": [],
             "name": "a11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2573,10 +2694,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2134,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2599,7 +2722,8 @@ __ESTREE_TEST__:PASS:
             "end": 2173,
             "decorators": [],
             "name": "a12",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2658,10 +2782,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2196,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2684,7 +2810,8 @@ __ESTREE_TEST__:PASS:
             "end": 2240,
             "decorators": [],
             "name": "a13",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2729,13 +2856,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2272,
                       "end": 2293,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2272,
                         "end": 2293,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -2746,10 +2875,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2263,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -2772,7 +2903,8 @@ __ESTREE_TEST__:PASS:
             "end": 2314,
             "decorators": [],
             "name": "a14",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -2817,13 +2949,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 2346,
                       "end": 2367,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 2346,
                         "end": 2367,
                         "decorators": [],
                         "name": "BuiltinIteratorReturn",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -2839,10 +2973,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2337,
                   "decorators": [],
                   "name": "IterableIterator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],

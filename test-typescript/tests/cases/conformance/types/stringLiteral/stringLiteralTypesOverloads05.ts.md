@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 43,
             "end": 53,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "animal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -52,8 +54,10 @@ __ESTREE_TEST__:PASS:
         "end": 40,
         "decorators": [],
         "name": "Animal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "EmptyStatement",
@@ -73,6 +77,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 88,
             "end": 95,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -80,7 +85,8 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "dog",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -111,8 +117,10 @@ __ESTREE_TEST__:PASS:
             "end": 85,
             "decorators": [],
             "name": "Animal",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -121,8 +129,10 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "Dog",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -137,6 +147,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 129,
             "end": 136,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -144,7 +155,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "cat",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -175,8 +187,10 @@ __ESTREE_TEST__:PASS:
             "end": 126,
             "decorators": [],
             "name": "Animal",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -185,8 +199,10 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "Cat",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -201,6 +217,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 172,
             "end": 181,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -208,7 +225,8 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "moose",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -239,8 +257,10 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "Animal",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -249,14 +269,17 @@ __ESTREE_TEST__:PASS:
         "end": 154,
         "decorators": [],
         "name": "Moose",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 185,
       "end": 217,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -266,7 +289,8 @@ __ESTREE_TEST__:PASS:
         "end": 201,
         "decorators": [],
         "name": "doThing",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -303,22 +327,26 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 213,
           "end": 216,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 213,
             "end": 216,
             "decorators": [],
             "name": "Dog",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 218,
       "end": 250,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -328,7 +356,8 @@ __ESTREE_TEST__:PASS:
         "end": 234,
         "decorators": [],
         "name": "doThing",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -365,22 +394,26 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 246,
           "end": 249,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 246,
             "end": 249,
             "decorators": [],
             "name": "Cat",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 251,
       "end": 287,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -390,7 +423,8 @@ __ESTREE_TEST__:PASS:
         "end": 267,
         "decorators": [],
         "name": "doThing",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -420,16 +454,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 280,
           "end": 286,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 280,
             "end": 286,
             "decorators": [],
             "name": "Animal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -451,7 +488,8 @@ __ESTREE_TEST__:PASS:
               "end": 357,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -465,7 +503,8 @@ __ESTREE_TEST__:PASS:
         "end": 304,
         "decorators": [],
         "name": "doThing",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -513,16 +552,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 329,
           "end": 334,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 329,
             "end": 334,
             "decorators": [],
             "name": "Moose",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

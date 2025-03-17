@@ -58,7 +58,8 @@ __ESTREE_TEST__:PASS:
                         "options": null,
                         "qualifier": null,
                         "typeArguments": null
-                      }
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -78,7 +79,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -114,7 +116,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -127,7 +130,8 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -144,6 +148,7 @@ __ESTREE_TEST__:PASS:
             "start": 74,
             "end": 100,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -153,7 +158,8 @@ __ESTREE_TEST__:PASS:
               "end": 92,
               "decorators": [],
               "name": "createRef",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -165,7 +171,8 @@ __ESTREE_TEST__:PASS:
                 "start": 96,
                 "end": 99
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -177,7 +184,8 @@ __ESTREE_TEST__:PASS:
         "end": 67,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }
@@ -207,6 +215,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 12,
       "end": 28,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 12,
@@ -218,7 +227,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -227,7 +237,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "createRef",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }
@@ -247,6 +258,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -271,7 +283,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -280,16 +293,19 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 38,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 22,
@@ -301,7 +317,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -310,7 +327,8 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "createRef",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

@@ -24,7 +24,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "ExtendsNull",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -33,7 +34,9 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "raw": "null",
         "value": null
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

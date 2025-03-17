@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "CollectionItem2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -43,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 86,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -53,7 +57,8 @@ __ESTREE_TEST__:PASS:
               "end": 97,
               "decorators": [],
               "name": "_itemsByKey",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -72,6 +77,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 101,
                     "end": 122,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -102,13 +108,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 116,
                         "end": 121,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 116,
                           "end": 121,
                           "decorators": [],
                           "name": "TItem",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -122,6 +130,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 130,
             "end": 182,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -130,7 +139,8 @@ __ESTREE_TEST__:PASS:
               "end": 141,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -150,6 +160,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 154,
                     "end": 176,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 154,
@@ -172,7 +183,8 @@ __ESTREE_TEST__:PASS:
                           "end": 170,
                           "decorators": [],
                           "name": "_itemsByKey",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -189,7 +201,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -202,10 +216,12 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "BaseCollection2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 48,
@@ -220,15 +236,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 63,
               "end": 78,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 63,
                 "end": 78,
                 "decorators": [],
                 "name": "CollectionItem2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -236,7 +255,8 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "decorators": [],
               "name": "TItem",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -257,6 +277,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 249,
             "end": 331,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -265,7 +286,8 @@ __ESTREE_TEST__:PASS:
               "end": 258,
               "decorators": [],
               "name": "fillItems",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -285,6 +307,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 292,
                     "end": 325,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 292,
@@ -312,7 +335,8 @@ __ESTREE_TEST__:PASS:
                             "end": 308,
                             "decorators": [],
                             "name": "_itemsByKey",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "optional": false,
@@ -330,7 +354,8 @@ __ESTREE_TEST__:PASS:
                         "end": 324,
                         "decorators": [],
                         "name": "item",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -356,18 +381,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 265,
                       "end": 280,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 265,
                         "end": 280,
                         "decorators": [],
                         "name": "CollectionItem2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -380,7 +409,8 @@ __ESTREE_TEST__:PASS:
         "end": 201,
         "decorators": [],
         "name": "DataView2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -389,7 +419,8 @@ __ESTREE_TEST__:PASS:
         "end": 225,
         "decorators": [],
         "name": "BaseCollection2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
@@ -400,17 +431,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 226,
             "end": 241,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 226,
               "end": 241,
               "decorators": [],
               "name": "CollectionItem2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

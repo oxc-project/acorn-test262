@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "foobar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

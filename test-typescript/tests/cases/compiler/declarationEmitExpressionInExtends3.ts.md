@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 33,
               "end": 38,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 34,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -48,13 +50,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 36,
                   "end": 37,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 36,
                     "end": 37,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -70,10 +74,12 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "ExportedClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 26,
@@ -84,6 +90,8 @@ __ESTREE_TEST__:PASS:
               "start": 27,
               "end": 28,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -91,7 +99,8 @@ __ESTREE_TEST__:PASS:
                 "end": 28,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -116,6 +125,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 71,
             "end": 76,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -126,7 +136,8 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -140,13 +151,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 74,
                 "end": 75,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 74,
                   "end": 75,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -156,6 +169,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 81,
             "end": 86,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -166,7 +180,8 @@ __ESTREE_TEST__:PASS:
               "end": 82,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -180,13 +195,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 84,
                 "end": 85,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 84,
                   "end": 85,
                   "decorators": [],
                   "name": "U",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -202,10 +219,12 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "LocalClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 58,
@@ -216,6 +235,8 @@ __ESTREE_TEST__:PASS:
             "start": 59,
             "end": 60,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -223,7 +244,8 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -232,6 +254,8 @@ __ESTREE_TEST__:PASS:
             "start": 62,
             "end": 63,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -239,7 +263,8 @@ __ESTREE_TEST__:PASS:
               "end": 63,
               "decorators": [],
               "name": "U",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -264,6 +289,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 131,
               "end": 141,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -271,7 +297,8 @@ __ESTREE_TEST__:PASS:
                 "end": 132,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -297,8 +324,10 @@ __ESTREE_TEST__:PASS:
           "end": 124,
           "decorators": [],
           "name": "ExportedInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -317,6 +346,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 176,
             "end": 186,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -324,7 +354,8 @@ __ESTREE_TEST__:PASS:
               "end": 177,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -350,8 +381,10 @@ __ESTREE_TEST__:PASS:
         "end": 169,
         "decorators": [],
         "name": "LocalInterface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -373,7 +406,8 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "LocalClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -387,7 +421,8 @@ __ESTREE_TEST__:PASS:
         "end": 212,
         "decorators": [],
         "name": "getLocalClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -405,18 +440,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 219,
               "end": 220,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 219,
                 "end": 220,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 212,
@@ -427,6 +465,8 @@ __ESTREE_TEST__:PASS:
             "start": 213,
             "end": 214,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -434,7 +474,8 @@ __ESTREE_TEST__:PASS:
               "end": 214,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -461,7 +502,8 @@ __ESTREE_TEST__:PASS:
               "end": 311,
               "decorators": [],
               "name": "ExportedClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -475,7 +517,8 @@ __ESTREE_TEST__:PASS:
         "end": 275,
         "decorators": [],
         "name": "getExportedClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -493,18 +536,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 282,
               "end": 283,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 282,
                 "end": 283,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 275,
@@ -515,6 +561,8 @@ __ESTREE_TEST__:PASS:
             "start": 276,
             "end": 277,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -522,7 +570,8 @@ __ESTREE_TEST__:PASS:
               "end": 277,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -553,7 +602,8 @@ __ESTREE_TEST__:PASS:
           "end": 338,
           "decorators": [],
           "name": "MyClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -567,7 +617,8 @@ __ESTREE_TEST__:PASS:
               "end": 386,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -576,7 +627,8 @@ __ESTREE_TEST__:PASS:
             "end": 360,
             "decorators": [],
             "name": "getLocalClass",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "typeArguments": {
@@ -588,13 +640,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 361,
                 "end": 375,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 361,
                   "end": 375,
                   "decorators": [],
                   "name": "LocalInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -616,7 +670,8 @@ __ESTREE_TEST__:PASS:
               "end": 402
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -646,7 +701,8 @@ __ESTREE_TEST__:PASS:
           "end": 466,
           "decorators": [],
           "name": "MyClass2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -660,7 +716,8 @@ __ESTREE_TEST__:PASS:
               "end": 517,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -669,7 +726,8 @@ __ESTREE_TEST__:PASS:
             "end": 491,
             "decorators": [],
             "name": "getExportedClass",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "typeArguments": {
@@ -681,13 +739,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 492,
                 "end": 506,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 492,
                   "end": 506,
                   "decorators": [],
                   "name": "LocalInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -704,7 +764,8 @@ __ESTREE_TEST__:PASS:
               "end": 525
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -734,7 +795,8 @@ __ESTREE_TEST__:PASS:
           "end": 560,
           "decorators": [],
           "name": "MyClass3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -748,7 +810,8 @@ __ESTREE_TEST__:PASS:
               "end": 611,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -757,7 +820,8 @@ __ESTREE_TEST__:PASS:
             "end": 585,
             "decorators": [],
             "name": "getExportedClass",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "typeArguments": {
@@ -769,13 +833,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 586,
                 "end": 600,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 586,
                   "end": 600,
                   "decorators": [],
                   "name": "LocalInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -790,17 +856,20 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 613,
               "end": 627,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 613,
                 "end": 627,
                 "decorators": [],
                 "name": "LocalInterface",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -830,7 +899,8 @@ __ESTREE_TEST__:PASS:
           "end": 694,
           "decorators": [],
           "name": "MyClass4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -844,7 +914,8 @@ __ESTREE_TEST__:PASS:
               "end": 745,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "callee": {
@@ -853,7 +924,8 @@ __ESTREE_TEST__:PASS:
             "end": 719,
             "decorators": [],
             "name": "getExportedClass",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "typeArguments": {
@@ -865,13 +937,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 720,
                 "end": 734,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 720,
                   "end": 734,
                   "decorators": [],
                   "name": "LocalInterface",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -886,17 +960,20 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 747,
               "end": 764,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 747,
                 "end": 764,
                 "decorators": [],
                 "name": "ExportedInterface",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

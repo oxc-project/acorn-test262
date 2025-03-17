@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 20,
             "end": 47,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 38,
               "decorators": [],
               "name": "interfaceFooMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -41,12 +43,14 @@ __ESTREE_TEST__:PASS:
                 "end": 46
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 52,
             "end": 79,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -54,7 +58,8 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "interfaceFooProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -80,8 +85,10 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -97,6 +104,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 99,
             "end": 122,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -107,7 +115,8 @@ __ESTREE_TEST__:PASS:
               "end": 115,
               "decorators": [],
               "name": "classFooProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -129,6 +138,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 128,
             "end": 179,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -137,7 +147,8 @@ __ESTREE_TEST__:PASS:
               "end": 142,
               "decorators": [],
               "name": "classFooMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -179,7 +190,8 @@ __ESTREE_TEST__:PASS:
                   "start": 146,
                   "end": 150
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -192,10 +204,13 @@ __ESTREE_TEST__:PASS:
         "end": 92,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -210,6 +225,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 204,
             "end": 231,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -217,7 +233,8 @@ __ESTREE_TEST__:PASS:
               "end": 222,
               "decorators": [],
               "name": "interfaceBarMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -233,12 +250,14 @@ __ESTREE_TEST__:PASS:
                 "end": 230
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 236,
             "end": 263,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -246,7 +265,8 @@ __ESTREE_TEST__:PASS:
               "end": 256,
               "decorators": [],
               "name": "interfaceBarProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -272,8 +292,10 @@ __ESTREE_TEST__:PASS:
         "end": 197,
         "decorators": [],
         "name": "Bar",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -289,6 +311,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 295,
             "end": 318,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -299,7 +322,8 @@ __ESTREE_TEST__:PASS:
               "end": 311,
               "decorators": [],
               "name": "classBarProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -321,6 +345,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 324,
             "end": 375,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -329,7 +354,8 @@ __ESTREE_TEST__:PASS:
               "end": 338,
               "decorators": [],
               "name": "classBarMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -371,7 +397,8 @@ __ESTREE_TEST__:PASS:
                   "start": 342,
                   "end": 346
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -384,7 +411,8 @@ __ESTREE_TEST__:PASS:
         "end": 276,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -393,8 +421,11 @@ __ESTREE_TEST__:PASS:
         "end": 288,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -412,7 +443,8 @@ __ESTREE_TEST__:PASS:
             "end": 387,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -425,8 +457,10 @@ __ESTREE_TEST__:PASS:
               "end": 397,
               "decorators": [],
               "name": "Bar",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -437,6 +471,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 401,
       "end": 481,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 401,
@@ -483,7 +518,8 @@ __ESTREE_TEST__:PASS:
                         "end": 404,
                         "decorators": [],
                         "name": "bar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -492,10 +528,12 @@ __ESTREE_TEST__:PASS:
                         "end": 423,
                         "decorators": [],
                         "name": "interfaceBarMethod",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   },
                   "optional": false,
                   "property": {
@@ -504,10 +542,12 @@ __ESTREE_TEST__:PASS:
                     "end": 444,
                     "decorators": [],
                     "name": "interfaceFooMethod",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "optional": false,
               "property": {
@@ -516,10 +556,12 @@ __ESTREE_TEST__:PASS:
                 "end": 461,
                 "decorators": [],
                 "name": "classBarMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -528,10 +570,12 @@ __ESTREE_TEST__:PASS:
             "end": 478,
             "decorators": [],
             "name": "classFooMethod",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -550,7 +594,8 @@ __ESTREE_TEST__:PASS:
             "end": 491,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -563,8 +608,10 @@ __ESTREE_TEST__:PASS:
               "end": 501,
               "decorators": [],
               "name": "Foo",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -575,6 +622,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 506,
       "end": 516,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 506,
@@ -586,7 +634,8 @@ __ESTREE_TEST__:PASS:
           "end": 509,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -594,7 +643,8 @@ __ESTREE_TEST__:PASS:
           "end": 515,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

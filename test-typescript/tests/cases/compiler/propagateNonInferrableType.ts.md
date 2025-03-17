@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 43,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "resolver",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -40,7 +42,8 @@ __ESTREE_TEST__:PASS:
               "start": 38,
               "end": 42
             }
-          }
+          },
+          "typeParameters": null
         }
       },
       "typeParameters": {
@@ -53,6 +56,8 @@ __ESTREE_TEST__:PASS:
             "start": 26,
             "end": 27,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -60,7 +65,8 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -72,6 +78,7 @@ __ESTREE_TEST__:PASS:
       "start": 44,
       "end": 113,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -81,7 +88,8 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "wrapResolver",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -109,7 +117,8 @@ __ESTREE_TEST__:PASS:
                   "start": 101,
                   "end": 105
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -134,6 +143,8 @@ __ESTREE_TEST__:PASS:
             "start": 74,
             "end": 75,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -141,7 +152,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 115,
       "end": 146,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 115,
@@ -173,9 +186,11 @@ __ESTREE_TEST__:PASS:
                 "end": 136,
                 "decorators": [],
                 "name": "resolver",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             },
             "right": {
               "type": "ArrayExpression",
@@ -191,9 +206,11 @@ __ESTREE_TEST__:PASS:
           "end": 127,
           "decorators": [],
           "name": "wrapResolver",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

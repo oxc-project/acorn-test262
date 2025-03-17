@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 25,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ClassExpression",
@@ -47,6 +48,7 @@ __ESTREE_TEST__:PASS:
                         "type": "MethodDefinition",
                         "start": 46,
                         "end": 91,
+                        "accessibility": null,
                         "computed": true,
                         "decorators": [],
                         "key": {
@@ -80,6 +82,7 @@ __ESTREE_TEST__:PASS:
                                 "type": "ExpressionStatement",
                                 "start": 73,
                                 "end": 81,
+                                "directive": null,
                                 "expression": {
                                   "type": "YieldExpression",
                                   "start": 73,
@@ -100,7 +103,9 @@ __ESTREE_TEST__:PASS:
                           "expression": false,
                           "generator": true,
                           "id": null,
-                          "params": []
+                          "params": [],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       }
                     ]
@@ -113,10 +118,13 @@ __ESTREE_TEST__:PASS:
                     "end": 35,
                     "decorators": [],
                     "name": "C",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
-                  "superClass": null
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -134,9 +142,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

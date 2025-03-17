@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 316,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -72,7 +73,8 @@ __ESTREE_TEST__:PASS:
             "end": 340,
             "decorators": [],
             "name": "array1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -414,7 +416,8 @@ __ESTREE_TEST__:PASS:
             "end": 839,
             "decorators": [],
             "name": "spr",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -452,7 +455,8 @@ __ESTREE_TEST__:PASS:
                   "end": 860,
                   "decorators": [],
                   "name": "array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -478,7 +482,8 @@ __ESTREE_TEST__:PASS:
             "end": 871,
             "decorators": [],
             "name": "spr1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -516,7 +521,8 @@ __ESTREE_TEST__:PASS:
                   "end": 890,
                   "decorators": [],
                   "name": "tup",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -607,7 +613,8 @@ __ESTREE_TEST__:PASS:
                   "end": 945,
                   "decorators": [],
                   "name": "tup",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]

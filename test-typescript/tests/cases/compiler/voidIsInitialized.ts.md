@@ -39,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -80,7 +81,8 @@ __ESTREE_TEST__:PASS:
             "end": 52,
             "decorators": [],
             "name": "undefined",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -101,13 +103,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 90,
             "end": 91,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 90,
               "end": 91,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -127,7 +131,8 @@ __ESTREE_TEST__:PASS:
             "end": 66,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true
@@ -155,13 +160,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 168,
             "end": 169,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 168,
               "end": 169,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -181,7 +188,8 @@ __ESTREE_TEST__:PASS:
             "end": 144,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true

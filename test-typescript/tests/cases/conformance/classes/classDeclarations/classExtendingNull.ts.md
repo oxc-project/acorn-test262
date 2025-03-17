@@ -24,7 +24,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -33,7 +34,9 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "raw": "null",
         "value": null
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -54,7 +57,8 @@ __ESTREE_TEST__:PASS:
         "end": 34,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -63,7 +67,9 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "raw": "null",
         "value": null
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -79,6 +85,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 78,
             "end": 84,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -89,12 +96,14 @@ __ESTREE_TEST__:PASS:
               "end": 79,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 82,
@@ -113,7 +122,8 @@ __ESTREE_TEST__:PASS:
         "end": 62,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -122,7 +132,9 @@ __ESTREE_TEST__:PASS:
         "end": 75,
         "raw": "null",
         "value": null
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -138,6 +150,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 113,
             "end": 119,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -148,12 +161,14 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 117,
@@ -172,7 +187,8 @@ __ESTREE_TEST__:PASS:
         "end": 95,
         "decorators": [],
         "name": "C4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -181,7 +197,9 @@ __ESTREE_TEST__:PASS:
         "end": 109,
         "raw": "null",
         "value": null
-      }
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

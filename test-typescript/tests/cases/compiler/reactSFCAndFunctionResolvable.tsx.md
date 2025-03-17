@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -111,7 +112,8 @@ __ESTREE_TEST__:PASS:
                         "end": 119,
                         "decorators": [],
                         "name": "React",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -119,11 +121,13 @@ __ESTREE_TEST__:PASS:
                         "end": 132,
                         "decorators": [],
                         "name": "ReactElement",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -190,7 +194,8 @@ __ESTREE_TEST__:PASS:
                         "end": 175,
                         "decorators": [],
                         "name": "React",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -198,11 +203,13 @@ __ESTREE_TEST__:PASS:
                         "end": 188,
                         "decorators": [],
                         "name": "ReactElement",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -237,6 +244,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 218,
                 "end": 227,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 218,
@@ -247,7 +255,8 @@ __ESTREE_TEST__:PASS:
                     "end": 223,
                     "decorators": [],
                     "name": "React",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -255,7 +264,8 @@ __ESTREE_TEST__:PASS:
                     "end": 227,
                     "decorators": [],
                     "name": "SFC",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -394,6 +404,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 359,
                 "end": 368,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 359,
@@ -404,7 +415,8 @@ __ESTREE_TEST__:PASS:
                     "end": 364,
                     "decorators": [],
                     "name": "React",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -412,7 +424,8 @@ __ESTREE_TEST__:PASS:
                     "end": 368,
                     "decorators": [],
                     "name": "SFC",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -444,7 +457,8 @@ __ESTREE_TEST__:PASS:
                         "end": 396,
                         "decorators": [],
                         "name": "Component",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "ConditionalExpression",
@@ -456,7 +470,8 @@ __ESTREE_TEST__:PASS:
                           "end": 444,
                           "decorators": [],
                           "name": "Checkbox",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "consequent": {
                           "type": "Identifier",
@@ -464,7 +479,8 @@ __ESTREE_TEST__:PASS:
                           "end": 427,
                           "decorators": [],
                           "name": "Radio",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "test": {
                           "type": "Identifier",
@@ -472,7 +488,8 @@ __ESTREE_TEST__:PASS:
                           "end": 413,
                           "decorators": [],
                           "name": "condition1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -496,7 +513,8 @@ __ESTREE_TEST__:PASS:
                         "end": 469,
                         "decorators": [],
                         "name": "OtherComponent",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "ConditionalExpression",
@@ -508,7 +526,8 @@ __ESTREE_TEST__:PASS:
                           "end": 522,
                           "decorators": [],
                           "name": "Checkbox",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "consequent": {
                           "type": "Identifier",
@@ -516,7 +535,8 @@ __ESTREE_TEST__:PASS:
                           "end": 505,
                           "decorators": [],
                           "name": "OtherRadio",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "test": {
                           "type": "Identifier",
@@ -524,7 +544,8 @@ __ESTREE_TEST__:PASS:
                           "end": 486,
                           "decorators": [],
                           "name": "condition2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -557,7 +578,8 @@ __ESTREE_TEST__:PASS:
                           "end": 577,
                           "name": "OtherComponent"
                         },
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "typeArguments": null
                       }
                     },
                     "consequent": {
@@ -577,7 +599,8 @@ __ESTREE_TEST__:PASS:
                           "end": 556,
                           "name": "Component"
                         },
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "typeArguments": null
                       }
                     },
                     "test": {
@@ -586,7 +609,8 @@ __ESTREE_TEST__:PASS:
                       "end": 543,
                       "decorators": [],
                       "name": "condition1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -595,7 +619,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

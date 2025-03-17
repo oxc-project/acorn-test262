@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 35,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "exports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -31,13 +33,15 @@ __ESTREE_TEST__:PASS:
           "start": 28,
           "end": 34
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 36,
       "end": 71,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -47,7 +51,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "require",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -59,7 +64,8 @@ __ESTREE_TEST__:PASS:
           "start": 64,
           "end": 70
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSModuleDeclaration",
@@ -75,6 +81,7 @@ __ESTREE_TEST__:PASS:
             "start": 96,
             "end": 125,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -84,7 +91,8 @@ __ESTREE_TEST__:PASS:
               "end": 112,
               "decorators": [],
               "name": "exports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -101,13 +109,15 @@ __ESTREE_TEST__:PASS:
                   "end": 122
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSDeclareFunction",
             "start": 130,
             "end": 159,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -117,7 +127,8 @@ __ESTREE_TEST__:PASS:
               "end": 146,
               "decorators": [],
               "name": "require",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -134,7 +145,8 @@ __ESTREE_TEST__:PASS:
                   "end": 156
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -146,7 +158,8 @@ __ESTREE_TEST__:PASS:
         "end": 89,
         "decorators": [],
         "name": "m3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -169,6 +182,7 @@ __ESTREE_TEST__:PASS:
               "start": 185,
               "end": 220,
               "async": false,
+              "body": null,
               "declare": true,
               "expression": false,
               "generator": false,
@@ -178,7 +192,8 @@ __ESTREE_TEST__:PASS:
                 "end": 209,
                 "decorators": [],
                 "name": "exports",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -190,7 +205,8 @@ __ESTREE_TEST__:PASS:
                   "start": 213,
                   "end": 219
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -206,6 +222,7 @@ __ESTREE_TEST__:PASS:
               "start": 232,
               "end": 267,
               "async": false,
+              "body": null,
               "declare": true,
               "expression": false,
               "generator": false,
@@ -215,7 +232,8 @@ __ESTREE_TEST__:PASS:
                 "end": 256,
                 "decorators": [],
                 "name": "require",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -227,7 +245,8 @@ __ESTREE_TEST__:PASS:
                   "start": 260,
                   "end": 266
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -249,7 +268,8 @@ __ESTREE_TEST__:PASS:
                   "end": 277,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -273,7 +293,8 @@ __ESTREE_TEST__:PASS:
         "end": 171,
         "decorators": [],
         "name": "m4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

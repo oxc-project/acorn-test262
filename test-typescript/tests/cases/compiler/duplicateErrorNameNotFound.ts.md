@@ -16,14 +16,16 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "RoomInterfae",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 20,
         "end": 22,
         "members": []
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -44,7 +46,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "RoomInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -53,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "end": 56,
             "decorators": [],
             "name": "RoomInterface",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]

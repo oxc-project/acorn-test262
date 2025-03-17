@@ -56,7 +56,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "EventList",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -65,7 +66,8 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "EventList",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -172,13 +174,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 96,
                   "end": 105,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 96,
                     "end": 105,
                     "decorators": [],
                     "name": "EventList",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -190,7 +194,8 @@ __ESTREE_TEST__:PASS:
             "end": 112,
             "decorators": [],
             "name": "p012",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ],
@@ -227,6 +232,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 33,
               "end": 40,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -234,7 +240,8 @@ __ESTREE_TEST__:PASS:
                 "end": 35,
                 "decorators": [],
                 "name": "p0",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -261,8 +268,10 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "EventList",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -303,6 +312,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 61,
                   "end": 67,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -310,7 +320,8 @@ __ESTREE_TEST__:PASS:
                     "end": 63,
                     "decorators": [],
                     "name": "p1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -337,8 +348,10 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "EventList",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -397,6 +410,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 61,
                   "end": 67,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -404,7 +418,8 @@ __ESTREE_TEST__:PASS:
                     "end": 63,
                     "decorators": [],
                     "name": "p2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -431,8 +446,10 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "EventList",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },

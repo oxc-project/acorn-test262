@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 26
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -40,13 +41,16 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "C",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 34,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 30,
@@ -58,9 +62,11 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
                         "start": 85,
                         "end": 89
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               },
@@ -112,8 +119,10 @@ __ESTREE_TEST__:PASS:
                 "end": 70,
                 "decorators": [],
                 "name": "C",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -129,7 +138,8 @@ __ESTREE_TEST__:PASS:
         "end": 45,
         "decorators": [],
         "name": "m2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -137,6 +147,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 100,
       "end": 107,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 100,
@@ -153,7 +164,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "m2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -162,10 +174,12 @@ __ESTREE_TEST__:PASS:
             "end": 104,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 16,
             "end": 20,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,11 +26,13 @@ __ESTREE_TEST__:PASS:
               "end": 20,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
-            "static": false
+            "static": false,
+            "typeAnnotation": null
           }
         ]
       },
@@ -41,8 +44,10 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -79,13 +84,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 39,
                     "end": 42,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 39,
                       "end": 42,
                       "decorators": [],
                       "name": "Foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -102,13 +109,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 45,
       "end": 47,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 45,
         "end": 46,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -124,13 +133,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 97,
             "end": 99,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 97,
               "end": 98,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -144,13 +155,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 81,
             "end": 83,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 81,
               "end": 82,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -170,7 +183,8 @@ __ESTREE_TEST__:PASS:
             "end": 60,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true

@@ -30,9 +30,12 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "decorators": [],
           "name": "createElement",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -63,9 +66,12 @@ __ESTREE_TEST__:PASS:
           "end": 55,
           "decorators": [],
           "name": "lazy",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -96,9 +102,12 @@ __ESTREE_TEST__:PASS:
           "end": 85,
           "decorators": [],
           "name": "useState",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -131,7 +140,8 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "importKind": "value",
         "moduleReference": {

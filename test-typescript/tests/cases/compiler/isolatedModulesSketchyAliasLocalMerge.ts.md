@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "FC",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSFunctionType",
@@ -37,8 +38,10 @@ __ESTREE_TEST__:PASS:
               "start": 23,
               "end": 27
             }
-          }
-        }
+          },
+          "typeParameters": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -80,7 +83,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "FC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -89,7 +93,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "FC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -124,13 +129,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 38,
                     "end": 40,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 38,
                       "end": 40,
                       "decorators": [],
                       "name": "FC",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -190,7 +197,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "FC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -199,7 +207,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "FC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -234,13 +243,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 43,
                     "end": 45,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 43,
                       "end": 45,
                       "decorators": [],
                       "name": "FC",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {

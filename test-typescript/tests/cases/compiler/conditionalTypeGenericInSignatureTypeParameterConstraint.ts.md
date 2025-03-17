@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "H_inline1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -35,13 +36,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 55,
               "end": 56,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 55,
                 "end": 56,
                 "decorators": [],
                 "name": "o",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -59,15 +62,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 47,
                   "end": 48,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 47,
                     "end": 48,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
+                "default": null,
                 "in": false,
                 "name": {
                   "type": "Identifier",
@@ -75,7 +81,8 @@ __ESTREE_TEST__:PASS:
                   "end": 38,
                   "decorators": [],
                   "name": "o",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "out": false
               }
@@ -100,6 +107,8 @@ __ESTREE_TEST__:PASS:
                 "start": 79,
                 "end": 80,
                 "const": false,
+                "constraint": null,
+                "default": null,
                 "in": false,
                 "name": {
                   "type": "Identifier",
@@ -107,12 +116,14 @@ __ESTREE_TEST__:PASS:
                   "end": 80,
                   "decorators": [],
                   "name": "o",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "out": false
               }
             }
-          }
+          },
+          "typeParameters": null
         },
         "falseType": {
           "type": "TSNeverKeyword",
@@ -123,13 +134,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 84,
           "end": 85,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 84,
             "end": 85,
             "decorators": [],
             "name": "o",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -143,6 +156,8 @@ __ESTREE_TEST__:PASS:
             "start": 30,
             "end": 31,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -150,7 +165,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -168,7 +184,8 @@ __ESTREE_TEST__:PASS:
         "end": 107,
         "decorators": [],
         "name": "Result",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -192,9 +209,11 @@ __ESTREE_TEST__:PASS:
           "end": 119,
           "decorators": [],
           "name": "H_inline1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

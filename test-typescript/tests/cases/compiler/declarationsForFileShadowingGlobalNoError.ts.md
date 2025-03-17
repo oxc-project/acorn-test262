@@ -21,21 +21,25 @@ __ESTREE_TEST__:PASS:
           "end": 19,
           "decorators": [],
           "name": "DOMNode",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeReference",
           "start": 22,
           "end": 26,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 22,
             "end": 26,
             "decorators": [],
             "name": "Node",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -69,14 +73,16 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Node",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
           "start": 19,
           "end": 21,
           "members": []
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -118,7 +124,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Node",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -127,7 +134,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "Node",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -156,7 +164,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "DOMNode",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -165,7 +174,8 @@ __ESTREE_TEST__:PASS:
             "end": 48,
             "decorators": [],
             "name": "DOMNode",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -181,7 +191,8 @@ __ESTREE_TEST__:PASS:
         "end": 81,
         "decorators": [],
         "name": "Constructor",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConstructorType",
@@ -199,7 +210,8 @@ __ESTREE_TEST__:PASS:
               "end": 96,
               "decorators": [],
               "name": "args",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -217,7 +229,8 @@ __ESTREE_TEST__:PASS:
                   "end": 101
                 }
               }
-            }
+            },
+            "value": null
           }
         ],
         "returnType": {
@@ -229,8 +242,10 @@ __ESTREE_TEST__:PASS:
             "start": 108,
             "end": 111
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -253,7 +268,8 @@ __ESTREE_TEST__:PASS:
               "end": 131,
               "decorators": [],
               "name": "mixin",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -283,6 +299,7 @@ __ESTREE_TEST__:PASS:
                             "type": "MethodDefinition",
                             "start": 193,
                             "end": 217,
+                            "accessibility": null,
                             "computed": false,
                             "decorators": [],
                             "key": {
@@ -291,7 +308,8 @@ __ESTREE_TEST__:PASS:
                               "end": 196,
                               "decorators": [],
                               "name": "get",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "kind": "method",
                             "optional": false,
@@ -328,18 +346,22 @@ __ESTREE_TEST__:PASS:
                                       "type": "TSTypeReference",
                                       "start": 206,
                                       "end": 213,
+                                      "typeArguments": null,
                                       "typeName": {
                                         "type": "Identifier",
                                         "start": 206,
                                         "end": 213,
                                         "decorators": [],
                                         "name": "DOMNode",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   }
                                 }
-                              ]
+                              ],
+                              "returnType": null,
+                              "typeParameters": null
                             }
                           }
                         ]
@@ -354,8 +376,11 @@ __ESTREE_TEST__:PASS:
                         "end": 186,
                         "decorators": [],
                         "name": "Base",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -379,18 +404,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 141,
                       "end": 152,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 141,
                         "end": 152,
                         "decorators": [],
                         "name": "Constructor",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],

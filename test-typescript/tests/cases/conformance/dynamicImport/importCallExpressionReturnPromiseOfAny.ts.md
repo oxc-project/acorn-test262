@@ -29,10 +29,13 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -74,7 +77,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "defaultModule",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -84,6 +88,7 @@ __ESTREE_TEST__:PASS:
       "start": 48,
       "end": 88,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -93,7 +98,8 @@ __ESTREE_TEST__:PASS:
         "end": 77,
         "decorators": [],
         "name": "getSpecifier",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -105,13 +111,15 @@ __ESTREE_TEST__:PASS:
           "start": 81,
           "end": 87
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 89,
       "end": 136,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -121,7 +129,8 @@ __ESTREE_TEST__:PASS:
         "end": 124,
         "decorators": [],
         "name": "ValidSomeCondition",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -133,7 +142,8 @@ __ESTREE_TEST__:PASS:
           "start": 128,
           "end": 135
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -241,6 +251,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 238,
       "end": 276,
+      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 238,
@@ -257,7 +268,8 @@ __ESTREE_TEST__:PASS:
               "end": 257,
               "decorators": [],
               "name": "directory",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -265,7 +277,8 @@ __ESTREE_TEST__:PASS:
               "end": 272,
               "decorators": [],
               "name": "moduleFile",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           ],
           "quasis": [
@@ -307,6 +320,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 277,
       "end": 300,
+      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 277,
@@ -323,9 +337,11 @@ __ESTREE_TEST__:PASS:
             "end": 296,
             "decorators": [],
             "name": "getSpecifier",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -345,7 +361,8 @@ __ESTREE_TEST__:PASS:
             "end": 308,
             "decorators": [],
             "name": "p1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ImportExpression",
@@ -381,9 +398,11 @@ __ESTREE_TEST__:PASS:
                   "end": 336,
                   "decorators": [],
                   "name": "ValidSomeCondition",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           }
@@ -435,7 +454,8 @@ __ESTREE_TEST__:PASS:
                   "end": 383,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -456,9 +476,11 @@ __ESTREE_TEST__:PASS:
                 "end": 410,
                 "decorators": [],
                 "name": "getSpecifier",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         }
@@ -506,8 +528,10 @@ __ESTREE_TEST__:PASS:
                         "end": 452,
                         "decorators": [],
                         "name": "defaultModule",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   ]
                 },
@@ -517,7 +541,8 @@ __ESTREE_TEST__:PASS:
                   "end": 431,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -538,9 +563,11 @@ __ESTREE_TEST__:PASS:
                 "end": 475,
                 "decorators": [],
                 "name": "getSpecifier",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         }
@@ -564,7 +591,8 @@ __ESTREE_TEST__:PASS:
             "end": 488,
             "decorators": [],
             "name": "p2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -597,9 +625,11 @@ __ESTREE_TEST__:PASS:
                     "end": 523,
                     "decorators": [],
                     "name": "getSpecifier",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
-                  "optional": false
+                  "optional": false,
+                  "typeArguments": null
                 },
                 "test": {
                   "type": "Identifier",
@@ -607,7 +637,8 @@ __ESTREE_TEST__:PASS:
                   "end": 508,
                   "decorators": [],
                   "name": "whatToLoad",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -630,8 +661,10 @@ __ESTREE_TEST__:PASS:
                       "end": 573,
                       "decorators": [],
                       "name": "defaultModule",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 ]
               },
@@ -641,7 +674,8 @@ __ESTREE_TEST__:PASS:
                 "end": 552,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -654,6 +688,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 576,
       "end": 640,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 576,
@@ -689,7 +724,8 @@ __ESTREE_TEST__:PASS:
                         "end": 609,
                         "decorators": [],
                         "name": "zero",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -698,10 +734,12 @@ __ESTREE_TEST__:PASS:
                         "end": 613,
                         "decorators": [],
                         "name": "foo",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -716,9 +754,12 @@ __ESTREE_TEST__:PASS:
                 "end": 588,
                 "decorators": [],
                 "name": "zero",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -732,7 +773,8 @@ __ESTREE_TEST__:PASS:
             "end": 578,
             "decorators": [],
             "name": "p1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -741,10 +783,12 @@ __ESTREE_TEST__:PASS:
             "end": 583,
             "decorators": [],
             "name": "then",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -821,8 +865,10 @@ __ESTREE_TEST__:PASS:
                         "end": 693,
                         "decorators": [],
                         "name": "defaultModule",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   ]
                 },
@@ -832,7 +878,8 @@ __ESTREE_TEST__:PASS:
                   "end": 672,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -853,7 +900,8 @@ __ESTREE_TEST__:PASS:
                 "end": 705,
                 "decorators": [],
                 "name": "j",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "CallExpression",
@@ -866,9 +914,11 @@ __ESTREE_TEST__:PASS:
                   "end": 718,
                   "decorators": [],
                   "name": "getSpecifier",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           }
@@ -913,7 +963,8 @@ __ESTREE_TEST__:PASS:
                         "end": 832,
                         "decorators": [],
                         "name": "path",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "TemplateLiteral",
@@ -926,7 +977,8 @@ __ESTREE_TEST__:PASS:
                             "end": 847,
                             "decorators": [],
                             "name": "directory",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "quasis": [
@@ -961,6 +1013,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 871,
                   "end": 890,
+                  "directive": null,
                   "expression": {
                     "type": "ImportExpression",
                     "start": 871,
@@ -976,7 +1029,8 @@ __ESTREE_TEST__:PASS:
                         "end": 888,
                         "decorators": [],
                         "name": "path",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "delegate": false
                     }
@@ -1000,7 +1054,8 @@ __ESTREE_TEST__:PASS:
                     "end": 795,
                     "decorators": [],
                     "name": "directory",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -1014,7 +1069,8 @@ __ESTREE_TEST__:PASS:
               "end": 810,
               "decorators": [],
               "name": "directories",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1028,7 +1084,8 @@ __ESTREE_TEST__:PASS:
         "end": 745,
         "decorators": [],
         "name": "loadModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -1054,7 +1111,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

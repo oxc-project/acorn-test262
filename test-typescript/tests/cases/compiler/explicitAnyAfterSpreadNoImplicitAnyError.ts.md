@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 30,
+      "directive": null,
       "expression": {
         "type": "ObjectExpression",
         "start": 1,
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 4,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "init",
             "method": false,

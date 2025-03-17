@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 9,
+      "directive": null,
       "expression": {
         "type": "TSInstantiationExpression",
         "start": 0,
@@ -17,7 +18,8 @@ __ESTREE_TEST__:PASS:
           "type": "TSImportKeyword",
           "start": 0,
           "end": 6,
-          "id": 0
+          "id": 0,
+          "emitNode": null
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -28,13 +30,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 7,
               "end": 8,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 7,
                 "end": 8,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -57,7 +61,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSInstantiationExpression",
@@ -67,7 +72,8 @@ __ESTREE_TEST__:PASS:
               "type": "TSImportKeyword",
               "start": 20,
               "end": 26,
-              "id": 0
+              "id": 0,
+              "emitNode": null
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",

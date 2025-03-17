@@ -47,7 +47,8 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
                         "end": 60,
                         "decorators": [],
                         "name": "intermediate",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "CallExpression",
@@ -90,9 +92,11 @@ __ESTREE_TEST__:PASS:
                           "end": 66,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   ],
@@ -103,6 +107,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 74,
                   "end": 94,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 74,
@@ -114,7 +119,8 @@ __ESTREE_TEST__:PASS:
                       "end": 86,
                       "decorators": [],
                       "name": "intermediate",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "ArrayExpression",
@@ -147,7 +153,8 @@ __ESTREE_TEST__:PASS:
                         "end": 116,
                         "decorators": [],
                         "name": "undefined",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     ]
                   }
@@ -163,9 +170,12 @@ __ESTREE_TEST__:PASS:
               "end": 35,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

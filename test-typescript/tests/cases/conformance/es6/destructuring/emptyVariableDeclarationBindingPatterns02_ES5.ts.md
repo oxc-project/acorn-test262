@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 97,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
                       "end": 25,
                       "decorators": [],
                       "optional": false,
-                      "properties": []
+                      "properties": [],
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
                       "end": 37,
                       "decorators": [],
                       "optional": false,
-                      "properties": []
+                      "properties": [],
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -88,7 +91,8 @@ __ESTREE_TEST__:PASS:
                       "end": 51,
                       "decorators": [],
                       "optional": false,
-                      "properties": []
+                      "properties": [],
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -112,7 +116,8 @@ __ESTREE_TEST__:PASS:
                       "end": 64,
                       "decorators": [],
                       "elements": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
                       "end": 76,
                       "decorators": [],
                       "elements": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -160,7 +166,8 @@ __ESTREE_TEST__:PASS:
                       "end": 90,
                       "decorators": [],
                       "elements": [],
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": null
                   }
@@ -174,9 +181,12 @@ __ESTREE_TEST__:PASS:
           "expression": false,
           "generator": false,
           "id": null,
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

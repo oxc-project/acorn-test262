@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 29,
               "end": 46,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Literal",
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 51,
               "end": 66,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "artist",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -82,8 +85,10 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "Album",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

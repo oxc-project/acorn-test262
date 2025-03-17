@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 19,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
             "end": 6,
             "decorators": [],
             "name": "module",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "exports",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

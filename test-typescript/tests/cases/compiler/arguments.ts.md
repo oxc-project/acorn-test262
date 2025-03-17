@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 24,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                     "end": 34,
                     "decorators": [],
                     "name": "arguments",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -64,6 +66,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 44,
             "end": 64,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 44,
@@ -80,14 +83,18 @@ __ESTREE_TEST__:PASS:
                   "end": 60,
                   "decorators": [],
                   "name": "arguments",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -101,14 +108,18 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 68,
       "end": 88,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 68,
@@ -125,14 +136,18 @@ __ESTREE_TEST__:PASS:
             "end": 84,
             "decorators": [],
             "name": "arguments",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "expression": true,
           "generator": false,
           "id": null,
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -148,6 +163,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 108,
             "end": 145,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -155,7 +171,8 @@ __ESTREE_TEST__:PASS:
               "end": 114,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -181,8 +198,10 @@ __ESTREE_TEST__:PASS:
                       "end": 137,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               }
@@ -198,12 +217,14 @@ __ESTREE_TEST__:PASS:
                 "end": 144
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 150,
             "end": 187,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -211,7 +232,8 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "fn",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -246,8 +268,10 @@ __ESTREE_TEST__:PASS:
                           "end": 177,
                           "decorators": [],
                           "name": "arguments",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeArguments": null
                       }
                     }
                   }
@@ -261,7 +285,8 @@ __ESTREE_TEST__:PASS:
                     "start": 182,
                     "end": 186
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -291,8 +316,10 @@ __ESTREE_TEST__:PASS:
                       "end": 215,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               }
@@ -306,7 +333,8 @@ __ESTREE_TEST__:PASS:
                 "start": 218,
                 "end": 222
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSConstructSignatureDeclaration",
@@ -334,8 +362,10 @@ __ESTREE_TEST__:PASS:
                       "end": 255,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               }
@@ -349,12 +379,14 @@ __ESTREE_TEST__:PASS:
                 "start": 258,
                 "end": 262
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSPropertySignature",
             "start": 268,
             "end": 316,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -362,7 +394,8 @@ __ESTREE_TEST__:PASS:
               "end": 277,
               "decorators": [],
               "name": "construct",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -398,8 +431,10 @@ __ESTREE_TEST__:PASS:
                           "end": 306,
                           "decorators": [],
                           "name": "arguments",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeArguments": null
                       }
                     }
                   }
@@ -413,7 +448,8 @@ __ESTREE_TEST__:PASS:
                     "start": 311,
                     "end": 315
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
@@ -427,8 +463,10 @@ __ESTREE_TEST__:PASS:
         "end": 101,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 18,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 7,
           "decorators": [],
           "name": "Map",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",

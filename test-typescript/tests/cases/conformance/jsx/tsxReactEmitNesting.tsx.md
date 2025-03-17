@@ -123,7 +123,8 @@ __ESTREE_TEST__:PASS:
             "end": 145,
             "decorators": [],
             "name": "render",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -189,7 +190,8 @@ __ESTREE_TEST__:PASS:
                           "end": 242,
                           "name": "h1"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     },
                     {
@@ -301,7 +303,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 378,
                                   "decorators": [],
                                   "name": "model",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -310,7 +313,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 386,
                                   "decorators": [],
                                   "name": "newTodo",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -340,7 +344,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 419,
                                     "decorators": [],
                                     "name": "ctrl",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   {
                                     "type": "Identifier",
@@ -348,7 +353,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 426,
                                     "decorators": [],
                                     "name": "model",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 ],
                                 "callee": {
@@ -367,7 +373,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 401,
                                       "decorators": [],
                                       "name": "ctrl",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "optional": false,
                                     "property": {
@@ -376,7 +383,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 409,
                                       "decorators": [],
                                       "name": "addTodo",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "optional": false,
@@ -386,10 +394,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 414,
                                     "decorators": [],
                                     "name": "bind",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
-                                "optional": false
+                                "optional": false,
+                                "typeArguments": null
                               }
                             }
                           }
@@ -400,7 +410,8 @@ __ESTREE_TEST__:PASS:
                           "end": 282,
                           "name": "input"
                         },
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "typeArguments": null
                       }
                     },
                     {
@@ -452,7 +463,8 @@ __ESTREE_TEST__:PASS:
                       "end": 210,
                       "name": "header"
                     },
-                    "selfClosing": false
+                    "selfClosing": false,
+                    "typeArguments": null
                   }
                 },
                 {
@@ -546,7 +558,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 642,
                                     "decorators": [],
                                     "name": "ctrl",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 ],
                                 "callee": {
@@ -565,7 +578,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 622,
                                       "decorators": [],
                                       "name": "ctrl",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "optional": false,
                                     "property": {
@@ -574,7 +588,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 632,
                                       "decorators": [],
                                       "name": "toggleAll",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "optional": false,
@@ -584,10 +599,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 637,
                                     "decorators": [],
                                     "name": "bind",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
-                                "optional": false
+                                "optional": false,
+                                "typeArguments": null
                               }
                             }
                           }
@@ -598,7 +615,8 @@ __ESTREE_TEST__:PASS:
                           "end": 572,
                           "name": "input"
                         },
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "typeArguments": null
                       }
                     },
                     {
@@ -737,7 +755,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 970,
                                                   "name": "input"
                                                 },
-                                                "selfClosing": false
+                                                "selfClosing": false,
+                                                "typeArguments": null
                                               }
                                             },
                                             "test": {
@@ -755,7 +774,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 919,
                                                   "decorators": [],
                                                   "name": "todo",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
                                                 "optional": false,
                                                 "property": {
@@ -764,7 +784,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 928,
                                                   "decorators": [],
                                                   "name": "editable",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 }
                                               },
                                               "operator": "!",
@@ -799,7 +820,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 1162,
                                                   "decorators": [],
                                                   "name": "todo",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
                                                 "optional": false,
                                                 "property": {
@@ -808,7 +830,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 1168,
                                                   "decorators": [],
                                                   "name": "title",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 }
                                               }
                                             }
@@ -857,6 +880,7 @@ __ESTREE_TEST__:PASS:
                                                           "type": "ExpressionStatement",
                                                           "start": 1135,
                                                           "end": 1154,
+                                                          "directive": null,
                                                           "expression": {
                                                             "type": "CallExpression",
                                                             "start": 1135,
@@ -868,7 +892,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1153,
                                                                 "decorators": [],
                                                                 "name": "todo",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             ],
                                                             "callee": {
@@ -882,7 +907,8 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1139,
                                                                 "decorators": [],
                                                                 "name": "ctrl",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               },
                                                               "optional": false,
                                                               "property": {
@@ -891,10 +917,12 @@ __ESTREE_TEST__:PASS:
                                                                 "end": 1148,
                                                                 "decorators": [],
                                                                 "name": "editTodo",
-                                                                "optional": false
+                                                                "optional": false,
+                                                                "typeAnnotation": null
                                                               }
                                                             },
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "typeArguments": null
                                                           }
                                                         }
                                                       ]
@@ -902,7 +930,9 @@ __ESTREE_TEST__:PASS:
                                                     "expression": false,
                                                     "generator": false,
                                                     "id": null,
-                                                    "params": []
+                                                    "params": [],
+                                                    "returnType": null,
+                                                    "typeParameters": null
                                                   }
                                                 }
                                               }
@@ -913,7 +943,8 @@ __ESTREE_TEST__:PASS:
                                               "end": 1114,
                                               "name": "label"
                                             },
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -987,7 +1018,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 1264,
                                                         "decorators": [],
                                                         "name": "ctrl",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       },
                                                       {
                                                         "type": "Identifier",
@@ -995,7 +1027,8 @@ __ESTREE_TEST__:PASS:
                                                         "end": 1269,
                                                         "decorators": [],
                                                         "name": "todo",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     ],
                                                     "callee": {
@@ -1014,7 +1047,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 1243,
                                                           "decorators": [],
                                                           "name": "ctrl",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         },
                                                         "optional": false,
                                                         "property": {
@@ -1023,7 +1057,8 @@ __ESTREE_TEST__:PASS:
                                                           "end": 1254,
                                                           "decorators": [],
                                                           "name": "removeTodo",
-                                                          "optional": false
+                                                          "optional": false,
+                                                          "typeAnnotation": null
                                                         }
                                                       },
                                                       "optional": false,
@@ -1033,10 +1068,12 @@ __ESTREE_TEST__:PASS:
                                                         "end": 1259,
                                                         "decorators": [],
                                                         "name": "bind",
-                                                        "optional": false
+                                                        "optional": false,
+                                                        "typeAnnotation": null
                                                       }
                                                     },
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeArguments": null
                                                   }
                                                 }
                                               }
@@ -1047,7 +1084,8 @@ __ESTREE_TEST__:PASS:
                                               "end": 1213,
                                               "name": "button"
                                             },
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -1105,7 +1143,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 1371,
                                                   "name": "div"
                                                 },
-                                                "selfClosing": true
+                                                "selfClosing": true,
+                                                "typeArguments": null
                                               }
                                             },
                                             {
@@ -1157,7 +1196,8 @@ __ESTREE_TEST__:PASS:
                                               "end": 1314,
                                               "name": "div"
                                             },
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "typeArguments": null
                                           }
                                         },
                                         {
@@ -1209,7 +1249,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 869,
                                           "name": "div"
                                         },
-                                        "selfClosing": false
+                                        "selfClosing": false,
+                                        "typeArguments": null
                                       }
                                     },
                                     {
@@ -1266,7 +1307,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 769,
                                                   "decorators": [],
                                                   "name": "todo",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
                                                 "kind": "init",
                                                 "method": false,
@@ -1291,7 +1333,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 786,
                                                   "decorators": [],
                                                   "name": "completed",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
                                                 "kind": "init",
                                                 "method": false,
@@ -1308,7 +1351,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 792,
                                                     "decorators": [],
                                                     "name": "todo",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "optional": false,
                                                   "property": {
@@ -1317,7 +1361,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 802,
                                                     "decorators": [],
                                                     "name": "completed",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   }
                                                 }
                                               },
@@ -1332,7 +1377,8 @@ __ESTREE_TEST__:PASS:
                                                   "end": 811,
                                                   "decorators": [],
                                                   "name": "editing",
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "typeAnnotation": null
                                                 },
                                                 "kind": "init",
                                                 "method": false,
@@ -1349,7 +1395,8 @@ __ESTREE_TEST__:PASS:
                                                     "end": 817,
                                                     "decorators": [],
                                                     "name": "todo",
-                                                    "optional": false
+                                                    "optional": false,
+                                                    "typeAnnotation": null
                                                   },
                                                   "right": {
                                                     "type": "MemberExpression",
@@ -1362,7 +1409,8 @@ __ESTREE_TEST__:PASS:
                                                       "end": 826,
                                                       "decorators": [],
                                                       "name": "model",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     },
                                                     "optional": false,
                                                     "property": {
@@ -1371,7 +1419,8 @@ __ESTREE_TEST__:PASS:
                                                       "end": 837,
                                                       "decorators": [],
                                                       "name": "editedTodo",
-                                                      "optional": false
+                                                      "optional": false,
+                                                      "typeAnnotation": null
                                                     }
                                                   }
                                                 }
@@ -1387,7 +1436,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 756,
                                       "name": "li"
                                     },
-                                    "selfClosing": false
+                                    "selfClosing": false,
+                                    "typeArguments": null
                                   }
                                 },
                                 "expression": true,
@@ -1400,9 +1450,12 @@ __ESTREE_TEST__:PASS:
                                     "end": 728,
                                     "decorators": [],
                                     "name": "todo",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
-                                ]
+                                ],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             ],
                             "callee": {
@@ -1421,7 +1474,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 704,
                                   "decorators": [],
                                   "name": "model",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -1430,7 +1484,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 718,
                                   "decorators": [],
                                   "name": "filteredTodos",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -1440,10 +1495,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 722,
                                 "decorators": [],
                                 "name": "map",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           }
                         },
                         {
@@ -1495,7 +1552,8 @@ __ESTREE_TEST__:PASS:
                           "end": 662,
                           "name": "ul"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     },
                     {
@@ -1570,7 +1628,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 495,
                                   "decorators": [],
                                   "name": "display",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -1610,7 +1669,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 502,
                                         "decorators": [],
                                         "name": "model",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       "optional": false,
                                       "property": {
@@ -1619,7 +1679,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 508,
                                         "decorators": [],
                                         "name": "todos",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     },
                                     "right": {
@@ -1638,7 +1699,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 517,
                                           "decorators": [],
                                           "name": "model",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         },
                                         "optional": false,
                                         "property": {
@@ -1647,7 +1709,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 523,
                                           "decorators": [],
                                           "name": "todos",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       },
                                       "optional": false,
@@ -1657,7 +1720,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 530,
                                         "decorators": [],
                                         "name": "length",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     }
                                   }
@@ -1674,7 +1738,8 @@ __ESTREE_TEST__:PASS:
                       "end": 466,
                       "name": "section"
                     },
-                    "selfClosing": false
+                    "selfClosing": false,
+                    "typeArguments": null
                   }
                 },
                 {
@@ -1726,7 +1791,8 @@ __ESTREE_TEST__:PASS:
                   "end": 177,
                   "name": "section"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             },
             "expression": true,
@@ -1739,7 +1805,8 @@ __ESTREE_TEST__:PASS:
                 "end": 153,
                 "decorators": [],
                 "name": "ctrl",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -1747,9 +1814,12 @@ __ESTREE_TEST__:PASS:
                 "end": 160,
                 "decorators": [],
                 "name": "model",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

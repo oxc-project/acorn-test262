@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -63,8 +64,10 @@ __ESTREE_TEST__:PASS:
               "end": 23,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -87,7 +90,8 @@ __ESTREE_TEST__:PASS:
             "end": 50,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -122,8 +126,10 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -146,7 +152,8 @@ __ESTREE_TEST__:PASS:
             "end": 88,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "NewExpression",
@@ -207,8 +214,10 @@ __ESTREE_TEST__:PASS:
               "end": 98,
               "decorators": [],
               "name": "Map",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -231,7 +240,8 @@ __ESTREE_TEST__:PASS:
             "end": 138,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -249,7 +259,8 @@ __ESTREE_TEST__:PASS:
                   "end": 149,
                   "decorators": [],
                   "name": "size",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -274,7 +285,8 @@ __ESTREE_TEST__:PASS:
                   "end": 161,
                   "decorators": [],
                   "name": "keys",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -294,6 +306,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 166,
                         "end": 173,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 166,
@@ -314,7 +327,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": true,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               },
               {
@@ -328,7 +343,8 @@ __ESTREE_TEST__:PASS:
                   "end": 182,
                   "decorators": [],
                   "name": "has",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -359,7 +375,8 @@ __ESTREE_TEST__:PASS:
                             "end": 196,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Literal",
@@ -383,9 +400,12 @@ __ESTREE_TEST__:PASS:
                       "end": 184,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -399,6 +419,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 210,
       "end": 230,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 210,
@@ -422,7 +443,8 @@ __ESTREE_TEST__:PASS:
             "end": 219,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -431,16 +453,19 @@ __ESTREE_TEST__:PASS:
             "end": 225,
             "decorators": [],
             "name": "union",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 231,
       "end": 256,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 231,
@@ -457,8 +482,10 @@ __ESTREE_TEST__:PASS:
               "end": 254,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -472,7 +499,8 @@ __ESTREE_TEST__:PASS:
             "end": 240,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -481,16 +509,19 @@ __ESTREE_TEST__:PASS:
             "end": 246,
             "decorators": [],
             "name": "union",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 257,
       "end": 284,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 257,
@@ -502,7 +533,8 @@ __ESTREE_TEST__:PASS:
             "end": 282,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -516,7 +548,8 @@ __ESTREE_TEST__:PASS:
             "end": 266,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -525,16 +558,19 @@ __ESTREE_TEST__:PASS:
             "end": 272,
             "decorators": [],
             "name": "union",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 285,
       "end": 312,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 285,
@@ -546,7 +582,8 @@ __ESTREE_TEST__:PASS:
             "end": 310,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -560,7 +597,8 @@ __ESTREE_TEST__:PASS:
             "end": 294,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -569,16 +607,19 @@ __ESTREE_TEST__:PASS:
             "end": 300,
             "decorators": [],
             "name": "union",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 313,
       "end": 344,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 313,
@@ -590,7 +631,8 @@ __ESTREE_TEST__:PASS:
             "end": 342,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -604,7 +646,8 @@ __ESTREE_TEST__:PASS:
             "end": 322,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -613,16 +656,19 @@ __ESTREE_TEST__:PASS:
             "end": 328,
             "decorators": [],
             "name": "union",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 346,
       "end": 373,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 346,
@@ -646,7 +692,8 @@ __ESTREE_TEST__:PASS:
             "end": 355,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -655,16 +702,19 @@ __ESTREE_TEST__:PASS:
             "end": 368,
             "decorators": [],
             "name": "intersection",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 374,
       "end": 406,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 374,
@@ -681,8 +731,10 @@ __ESTREE_TEST__:PASS:
               "end": 404,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -696,7 +748,8 @@ __ESTREE_TEST__:PASS:
             "end": 383,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -705,16 +758,19 @@ __ESTREE_TEST__:PASS:
             "end": 396,
             "decorators": [],
             "name": "intersection",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 407,
       "end": 441,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 407,
@@ -726,7 +782,8 @@ __ESTREE_TEST__:PASS:
             "end": 439,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -740,7 +797,8 @@ __ESTREE_TEST__:PASS:
             "end": 416,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -749,16 +807,19 @@ __ESTREE_TEST__:PASS:
             "end": 429,
             "decorators": [],
             "name": "intersection",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 442,
       "end": 476,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 442,
@@ -770,7 +831,8 @@ __ESTREE_TEST__:PASS:
             "end": 474,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -784,7 +846,8 @@ __ESTREE_TEST__:PASS:
             "end": 451,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -793,16 +856,19 @@ __ESTREE_TEST__:PASS:
             "end": 464,
             "decorators": [],
             "name": "intersection",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 477,
       "end": 515,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 477,
@@ -814,7 +880,8 @@ __ESTREE_TEST__:PASS:
             "end": 513,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -828,7 +895,8 @@ __ESTREE_TEST__:PASS:
             "end": 486,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -837,16 +905,19 @@ __ESTREE_TEST__:PASS:
             "end": 499,
             "decorators": [],
             "name": "intersection",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 517,
       "end": 542,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 517,
@@ -870,7 +941,8 @@ __ESTREE_TEST__:PASS:
             "end": 526,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -879,16 +951,19 @@ __ESTREE_TEST__:PASS:
             "end": 537,
             "decorators": [],
             "name": "difference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 543,
       "end": 573,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 543,
@@ -905,8 +980,10 @@ __ESTREE_TEST__:PASS:
               "end": 571,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -920,7 +997,8 @@ __ESTREE_TEST__:PASS:
             "end": 552,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -929,16 +1007,19 @@ __ESTREE_TEST__:PASS:
             "end": 563,
             "decorators": [],
             "name": "difference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 574,
       "end": 606,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 574,
@@ -950,7 +1031,8 @@ __ESTREE_TEST__:PASS:
             "end": 604,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -964,7 +1046,8 @@ __ESTREE_TEST__:PASS:
             "end": 583,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -973,16 +1056,19 @@ __ESTREE_TEST__:PASS:
             "end": 594,
             "decorators": [],
             "name": "difference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 607,
       "end": 639,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 607,
@@ -994,7 +1080,8 @@ __ESTREE_TEST__:PASS:
             "end": 637,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1008,7 +1095,8 @@ __ESTREE_TEST__:PASS:
             "end": 616,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1017,16 +1105,19 @@ __ESTREE_TEST__:PASS:
             "end": 627,
             "decorators": [],
             "name": "difference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 640,
       "end": 676,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 640,
@@ -1038,7 +1129,8 @@ __ESTREE_TEST__:PASS:
             "end": 674,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1052,7 +1144,8 @@ __ESTREE_TEST__:PASS:
             "end": 649,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1061,16 +1154,19 @@ __ESTREE_TEST__:PASS:
             "end": 660,
             "decorators": [],
             "name": "difference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 678,
       "end": 712,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 678,
@@ -1094,7 +1190,8 @@ __ESTREE_TEST__:PASS:
             "end": 687,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1103,16 +1200,19 @@ __ESTREE_TEST__:PASS:
             "end": 707,
             "decorators": [],
             "name": "symmetricDifference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 713,
       "end": 752,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 713,
@@ -1129,8 +1229,10 @@ __ESTREE_TEST__:PASS:
               "end": 750,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -1144,7 +1246,8 @@ __ESTREE_TEST__:PASS:
             "end": 722,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1153,16 +1256,19 @@ __ESTREE_TEST__:PASS:
             "end": 742,
             "decorators": [],
             "name": "symmetricDifference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 753,
       "end": 794,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 753,
@@ -1174,7 +1280,8 @@ __ESTREE_TEST__:PASS:
             "end": 792,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1188,7 +1295,8 @@ __ESTREE_TEST__:PASS:
             "end": 762,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1197,16 +1305,19 @@ __ESTREE_TEST__:PASS:
             "end": 782,
             "decorators": [],
             "name": "symmetricDifference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 795,
       "end": 836,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 795,
@@ -1218,7 +1329,8 @@ __ESTREE_TEST__:PASS:
             "end": 834,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1232,7 +1344,8 @@ __ESTREE_TEST__:PASS:
             "end": 804,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1241,16 +1354,19 @@ __ESTREE_TEST__:PASS:
             "end": 824,
             "decorators": [],
             "name": "symmetricDifference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 837,
       "end": 882,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 837,
@@ -1262,7 +1378,8 @@ __ESTREE_TEST__:PASS:
             "end": 880,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1276,7 +1393,8 @@ __ESTREE_TEST__:PASS:
             "end": 846,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1285,16 +1403,19 @@ __ESTREE_TEST__:PASS:
             "end": 866,
             "decorators": [],
             "name": "symmetricDifference",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 884,
       "end": 909,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 884,
@@ -1318,7 +1439,8 @@ __ESTREE_TEST__:PASS:
             "end": 893,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1327,16 +1449,19 @@ __ESTREE_TEST__:PASS:
             "end": 904,
             "decorators": [],
             "name": "isSubsetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 910,
       "end": 940,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 910,
@@ -1353,8 +1478,10 @@ __ESTREE_TEST__:PASS:
               "end": 938,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -1368,7 +1495,8 @@ __ESTREE_TEST__:PASS:
             "end": 919,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1377,16 +1505,19 @@ __ESTREE_TEST__:PASS:
             "end": 930,
             "decorators": [],
             "name": "isSubsetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 941,
       "end": 973,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 941,
@@ -1398,7 +1529,8 @@ __ESTREE_TEST__:PASS:
             "end": 971,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1412,7 +1544,8 @@ __ESTREE_TEST__:PASS:
             "end": 950,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1421,16 +1554,19 @@ __ESTREE_TEST__:PASS:
             "end": 961,
             "decorators": [],
             "name": "isSubsetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 974,
       "end": 1006,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 974,
@@ -1442,7 +1578,8 @@ __ESTREE_TEST__:PASS:
             "end": 1004,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1456,7 +1593,8 @@ __ESTREE_TEST__:PASS:
             "end": 983,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1465,16 +1603,19 @@ __ESTREE_TEST__:PASS:
             "end": 994,
             "decorators": [],
             "name": "isSubsetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1007,
       "end": 1043,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1007,
@@ -1486,7 +1627,8 @@ __ESTREE_TEST__:PASS:
             "end": 1041,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1500,7 +1642,8 @@ __ESTREE_TEST__:PASS:
             "end": 1016,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1509,16 +1652,19 @@ __ESTREE_TEST__:PASS:
             "end": 1027,
             "decorators": [],
             "name": "isSubsetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1045,
       "end": 1072,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1045,
@@ -1542,7 +1688,8 @@ __ESTREE_TEST__:PASS:
             "end": 1054,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1551,16 +1698,19 @@ __ESTREE_TEST__:PASS:
             "end": 1067,
             "decorators": [],
             "name": "isSupersetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1073,
       "end": 1105,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1073,
@@ -1577,8 +1727,10 @@ __ESTREE_TEST__:PASS:
               "end": 1103,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -1592,7 +1744,8 @@ __ESTREE_TEST__:PASS:
             "end": 1082,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1601,16 +1754,19 @@ __ESTREE_TEST__:PASS:
             "end": 1095,
             "decorators": [],
             "name": "isSupersetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1106,
       "end": 1140,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1106,
@@ -1622,7 +1778,8 @@ __ESTREE_TEST__:PASS:
             "end": 1138,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1636,7 +1793,8 @@ __ESTREE_TEST__:PASS:
             "end": 1115,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1645,16 +1803,19 @@ __ESTREE_TEST__:PASS:
             "end": 1128,
             "decorators": [],
             "name": "isSupersetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1141,
       "end": 1175,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1141,
@@ -1666,7 +1827,8 @@ __ESTREE_TEST__:PASS:
             "end": 1173,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1680,7 +1842,8 @@ __ESTREE_TEST__:PASS:
             "end": 1150,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1689,16 +1852,19 @@ __ESTREE_TEST__:PASS:
             "end": 1163,
             "decorators": [],
             "name": "isSupersetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1176,
       "end": 1214,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1176,
@@ -1710,7 +1876,8 @@ __ESTREE_TEST__:PASS:
             "end": 1212,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1724,7 +1891,8 @@ __ESTREE_TEST__:PASS:
             "end": 1185,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1733,16 +1901,19 @@ __ESTREE_TEST__:PASS:
             "end": 1198,
             "decorators": [],
             "name": "isSupersetOf",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1216,
       "end": 1245,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1216,
@@ -1766,7 +1937,8 @@ __ESTREE_TEST__:PASS:
             "end": 1225,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1775,16 +1947,19 @@ __ESTREE_TEST__:PASS:
             "end": 1240,
             "decorators": [],
             "name": "isDisjointFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1246,
       "end": 1280,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1246,
@@ -1801,8 +1976,10 @@ __ESTREE_TEST__:PASS:
               "end": 1278,
               "decorators": [],
               "name": "Set",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -1816,7 +1993,8 @@ __ESTREE_TEST__:PASS:
             "end": 1255,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1825,16 +2003,19 @@ __ESTREE_TEST__:PASS:
             "end": 1270,
             "decorators": [],
             "name": "isDisjointFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1281,
       "end": 1317,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1281,
@@ -1846,7 +2027,8 @@ __ESTREE_TEST__:PASS:
             "end": 1315,
             "decorators": [],
             "name": "stringSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1860,7 +2042,8 @@ __ESTREE_TEST__:PASS:
             "end": 1290,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1869,16 +2052,19 @@ __ESTREE_TEST__:PASS:
             "end": 1305,
             "decorators": [],
             "name": "isDisjointFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1318,
       "end": 1354,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1318,
@@ -1890,7 +2076,8 @@ __ESTREE_TEST__:PASS:
             "end": 1352,
             "decorators": [],
             "name": "numberMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1904,7 +2091,8 @@ __ESTREE_TEST__:PASS:
             "end": 1327,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1913,16 +2101,19 @@ __ESTREE_TEST__:PASS:
             "end": 1342,
             "decorators": [],
             "name": "isDisjointFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1355,
       "end": 1395,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1355,
@@ -1934,7 +2125,8 @@ __ESTREE_TEST__:PASS:
             "end": 1393,
             "decorators": [],
             "name": "numberSetLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -1948,7 +2140,8 @@ __ESTREE_TEST__:PASS:
             "end": 1364,
             "decorators": [],
             "name": "numberSet",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -1957,10 +2150,12 @@ __ESTREE_TEST__:PASS:
             "end": 1379,
             "decorators": [],
             "name": "isDisjointFrom",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

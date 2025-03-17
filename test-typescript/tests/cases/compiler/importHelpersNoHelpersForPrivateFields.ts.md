@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 23,
               "end": 37,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -38,6 +39,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 32,
@@ -50,6 +52,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 42,
               "end": 112,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -58,7 +61,8 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "f",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -78,6 +82,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 56,
                       "end": 82,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 56,
@@ -125,6 +130,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 91,
                       "end": 106,
+                      "directive": null,
                       "expression": {
                         "type": "BinaryExpression",
                         "start": 91,
@@ -149,7 +155,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -162,10 +170,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

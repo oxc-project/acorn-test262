@@ -59,7 +59,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -71,7 +72,8 @@ __ESTREE_TEST__:PASS:
           "start": 33,
           "end": 39
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
         "end": 56,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -105,7 +108,8 @@ __ESTREE_TEST__:PASS:
           "start": 60,
           "end": 66
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

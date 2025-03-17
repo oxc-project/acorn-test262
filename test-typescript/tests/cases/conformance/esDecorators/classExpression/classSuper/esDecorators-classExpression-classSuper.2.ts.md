@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 86,
       "end": 163,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 87,
@@ -62,6 +63,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 142,
                   "end": 153,
+                  "directive": null,
                   "expression": {
                     "type": "MemberExpression",
                     "start": 142,
@@ -79,7 +81,8 @@ __ESTREE_TEST__:PASS:
                       "end": 152,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -99,7 +102,8 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -109,7 +113,8 @@ __ESTREE_TEST__:PASS:
           "end": 100,
           "decorators": [],
           "name": "C1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -127,14 +132,19 @@ __ESTREE_TEST__:PASS:
           "decorators": [],
           "id": null,
           "implements": [],
-          "superClass": null
-        }
+          "superClass": null,
+          "superTypeArguments": null,
+          "typeParameters": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 231,
       "end": 321,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 232,
@@ -154,6 +164,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 300,
                   "end": 311,
+                  "directive": null,
                   "expression": {
                     "type": "MemberExpression",
                     "start": 300,
@@ -171,7 +182,8 @@ __ESTREE_TEST__:PASS:
                       "end": 310,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -191,7 +203,8 @@ __ESTREE_TEST__:PASS:
               "end": 236,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -201,7 +214,8 @@ __ESTREE_TEST__:PASS:
           "end": 245,
           "decorators": [],
           "name": "C2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -223,20 +237,25 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           "typeAnnotation": {
             "type": "TSAnyKeyword",
             "start": 272,
             "end": 275
           }
-        }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 384,
       "end": 471,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 385,
@@ -256,6 +275,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 450,
                   "end": 461,
+                  "directive": null,
                   "expression": {
                     "type": "MemberExpression",
                     "start": 450,
@@ -273,7 +293,8 @@ __ESTREE_TEST__:PASS:
                       "end": 460,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -293,7 +314,8 @@ __ESTREE_TEST__:PASS:
               "end": 389,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -303,7 +325,8 @@ __ESTREE_TEST__:PASS:
           "end": 398,
           "decorators": [],
           "name": "C3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -324,14 +347,18 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           },
           "typeAnnotation": {
             "type": "TSAnyKeyword",
             "start": 422,
             "end": 425
           }
-        }
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     }
   ],

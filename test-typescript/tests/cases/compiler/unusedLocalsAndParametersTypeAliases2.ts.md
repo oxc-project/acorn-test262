@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "handler1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -32,8 +33,10 @@ __ESTREE_TEST__:PASS:
             "start": 32,
             "end": 36
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
               "end": 74,
               "decorators": [],
               "name": "handler2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSFunctionType",
@@ -72,13 +76,16 @@ __ESTREE_TEST__:PASS:
                   "start": 83,
                   "end": 87
                 }
-              }
-            }
+              },
+              "typeParameters": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExpressionStatement",
             "start": 93,
             "end": 99,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 93,
@@ -90,9 +97,11 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -106,9 +115,12 @@ __ESTREE_TEST__:PASS:
         "end": 52,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",

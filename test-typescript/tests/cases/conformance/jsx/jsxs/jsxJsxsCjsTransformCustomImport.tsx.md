@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 51,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXFragment",
@@ -62,7 +63,8 @@ __ESTREE_TEST__:PASS:
                     "end": 61,
                     "name": "p"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -118,7 +120,8 @@ __ESTREE_TEST__:PASS:
                     "end": 80,
                     "name": "div"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {

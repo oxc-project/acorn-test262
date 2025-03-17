@@ -42,7 +42,8 @@ __ESTREE_TEST__:PASS:
                       "end": 61,
                       "decorators": [],
                       "name": "doX",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -170,7 +171,8 @@ __ESTREE_TEST__:PASS:
                               "end": 124,
                               "decorators": [],
                               "name": "f",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -189,7 +191,8 @@ __ESTREE_TEST__:PASS:
                           "start": 65,
                           "end": 69
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -202,10 +205,13 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "Test",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -225,7 +231,8 @@ __ESTREE_TEST__:PASS:
           "end": 10,
           "decorators": [],
           "name": "sas",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -233,7 +240,8 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "tools",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "kind": "module"

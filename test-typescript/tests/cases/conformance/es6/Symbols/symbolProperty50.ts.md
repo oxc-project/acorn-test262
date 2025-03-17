@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -49,6 +51,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 59,
                   "end": 82,
+                  "accessibility": null,
                   "computed": true,
                   "decorators": [],
                   "key": {
@@ -62,7 +65,8 @@ __ESTREE_TEST__:PASS:
                       "end": 66,
                       "decorators": [],
                       "name": "Symbol",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -71,7 +75,8 @@ __ESTREE_TEST__:PASS:
                       "end": 75,
                       "decorators": [],
                       "name": "iterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "kind": "method",
@@ -93,7 +98,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -106,10 +113,13 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -121,7 +131,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

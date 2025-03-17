@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 43,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
@@ -23,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 33,
               "end": 41,
+              "directive": null,
               "expression": {
                 "type": "AwaitExpression",
                 "start": 33,
@@ -68,10 +70,12 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "Promise",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
-        }
+        },
+        "typeParameters": null
       }
     },
     {
@@ -88,6 +92,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 78,
             "end": 86,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 78,
@@ -112,9 +117,12 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "asyncFunc",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -132,7 +140,8 @@ __ESTREE_TEST__:PASS:
             "end": 110,
             "decorators": [],
             "name": "asyncArrowFunc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -148,6 +157,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 146,
                   "end": 154,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 146,
@@ -193,10 +203,12 @@ __ESTREE_TEST__:PASS:
                   "end": 130,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],
@@ -217,6 +229,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 191,
             "end": 199,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 191,
@@ -234,6 +247,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 205,
             "end": 272,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 205,
@@ -257,6 +271,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 254,
                         "end": 262,
+                        "directive": null,
                         "expression": {
                           "type": "AwaitExpression",
                           "start": 254,
@@ -303,12 +318,15 @@ __ESTREE_TEST__:PASS:
                         "end": 237,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           },
@@ -316,6 +334,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 282,
             "end": 364,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 282,
@@ -339,6 +358,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 346,
                         "end": 354,
+                        "directive": null,
                         "expression": {
                           "type": "AwaitExpression",
                           "start": 346,
@@ -363,7 +383,8 @@ __ESTREE_TEST__:PASS:
                     "end": 318,
                     "decorators": [],
                     "name": "asyncNamedFunc",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "params": [],
                   "returnType": {
@@ -392,12 +413,15 @@ __ESTREE_TEST__:PASS:
                         "end": 329,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           },
@@ -405,6 +429,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 374,
             "end": 436,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 374,
@@ -428,6 +453,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 418,
                         "end": 426,
+                        "directive": null,
                         "expression": {
                           "type": "AwaitExpression",
                           "start": 418,
@@ -473,12 +499,15 @@ __ESTREE_TEST__:PASS:
                         "end": 398,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           }
@@ -493,9 +522,12 @@ __ESTREE_TEST__:PASS:
         "end": 182,
         "decorators": [],
         "name": "asyncIIFE",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -511,6 +543,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 463,
             "end": 535,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -521,12 +554,14 @@ __ESTREE_TEST__:PASS:
               "end": 476,
               "decorators": [],
               "name": "asyncPropFunc",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 479,
@@ -541,6 +576,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 521,
                     "end": 529,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 521,
@@ -587,16 +623,19 @@ __ESTREE_TEST__:PASS:
                     "end": 504,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 545,
             "end": 632,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -607,12 +646,14 @@ __ESTREE_TEST__:PASS:
               "end": 563,
               "decorators": [],
               "name": "asyncPropNamedFunc",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 566,
@@ -627,6 +668,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 618,
                     "end": 626,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 618,
@@ -651,7 +693,8 @@ __ESTREE_TEST__:PASS:
                 "end": 590,
                 "decorators": [],
                 "name": "namedFunc",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -680,16 +723,19 @@ __ESTREE_TEST__:PASS:
                     "end": 601,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 638,
             "end": 710,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -700,12 +746,14 @@ __ESTREE_TEST__:PASS:
               "end": 656,
               "decorators": [],
               "name": "asyncPropArrowFunc",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 659,
@@ -720,6 +768,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 696,
                     "end": 704,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 696,
@@ -765,16 +814,19 @@ __ESTREE_TEST__:PASS:
                     "end": 676,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 716,
             "end": 775,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -783,7 +835,8 @@ __ESTREE_TEST__:PASS:
               "end": 733,
               "decorators": [],
               "name": "asyncMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -803,6 +856,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 761,
                     "end": 769,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 761,
@@ -849,10 +903,12 @@ __ESTREE_TEST__:PASS:
                     "end": 744,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -865,10 +921,13 @@ __ESTREE_TEST__:PASS:
         "end": 456,
         "decorators": [],
         "name": "AsyncClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

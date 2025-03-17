@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "BrandedNum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -37,6 +38,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 29,
                 "end": 47,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -44,7 +46,8 @@ __ESTREE_TEST__:PASS:
                   "end": 42,
                   "decorators": [],
                   "name": "__numberBrand",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -63,7 +66,8 @@ __ESTREE_TEST__:PASS:
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -90,13 +94,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 59,
                 "end": 69,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 59,
                   "end": 69,
                   "decorators": [],
                   "name": "BrandedNum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -111,6 +117,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 86,
       "end": 92,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 86,
@@ -122,7 +129,8 @@ __ESTREE_TEST__:PASS:
           "end": 87,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -137,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 93,
       "end": 107,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 93,
@@ -148,7 +157,8 @@ __ESTREE_TEST__:PASS:
           "end": 94,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -173,6 +183,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 108,
       "end": 126,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 108,
@@ -184,7 +195,8 @@ __ESTREE_TEST__:PASS:
           "end": 109,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -201,13 +213,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 113,
             "end": 123,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 113,
               "end": 123,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -217,6 +231,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 142,
       "end": 148,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 142,
@@ -228,7 +243,8 @@ __ESTREE_TEST__:PASS:
           "end": 143,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -243,6 +259,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 149,
       "end": 163,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 149,
@@ -254,7 +271,8 @@ __ESTREE_TEST__:PASS:
           "end": 150,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -279,6 +297,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 164,
       "end": 182,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 164,
@@ -290,7 +309,8 @@ __ESTREE_TEST__:PASS:
           "end": 165,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -307,13 +327,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 169,
             "end": 179,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 169,
               "end": 179,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -323,6 +345,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 199,
       "end": 206,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 199,
@@ -334,7 +357,8 @@ __ESTREE_TEST__:PASS:
           "end": 200,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -349,6 +373,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 207,
       "end": 222,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 207,
@@ -360,7 +385,8 @@ __ESTREE_TEST__:PASS:
           "end": 208,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -385,6 +411,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 223,
       "end": 242,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 223,
@@ -396,7 +423,8 @@ __ESTREE_TEST__:PASS:
           "end": 224,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -413,13 +441,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 229,
             "end": 239,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 229,
               "end": 239,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -429,6 +459,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 259,
       "end": 266,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 259,
@@ -440,7 +471,8 @@ __ESTREE_TEST__:PASS:
           "end": 260,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -455,6 +487,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 267,
       "end": 282,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 267,
@@ -466,7 +499,8 @@ __ESTREE_TEST__:PASS:
           "end": 268,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -491,6 +525,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 283,
       "end": 302,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 283,
@@ -502,7 +537,8 @@ __ESTREE_TEST__:PASS:
           "end": 284,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -519,13 +555,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 289,
             "end": 299,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 289,
               "end": 299,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -535,6 +573,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 319,
       "end": 326,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 319,
@@ -546,7 +585,8 @@ __ESTREE_TEST__:PASS:
           "end": 320,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -561,6 +601,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 327,
       "end": 342,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 327,
@@ -572,7 +613,8 @@ __ESTREE_TEST__:PASS:
           "end": 328,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -597,6 +639,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 343,
       "end": 362,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 343,
@@ -608,7 +651,8 @@ __ESTREE_TEST__:PASS:
           "end": 344,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -625,13 +669,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 349,
             "end": 359,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 349,
               "end": 359,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -641,6 +687,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 379,
       "end": 386,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 379,
@@ -652,7 +699,8 @@ __ESTREE_TEST__:PASS:
           "end": 380,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -667,6 +715,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 387,
       "end": 402,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 387,
@@ -678,7 +727,8 @@ __ESTREE_TEST__:PASS:
           "end": 388,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -703,6 +753,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 403,
       "end": 422,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 403,
@@ -714,7 +765,8 @@ __ESTREE_TEST__:PASS:
           "end": 404,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -731,13 +783,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 409,
             "end": 419,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 409,
               "end": 419,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -747,6 +801,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 440,
       "end": 448,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 440,
@@ -758,7 +813,8 @@ __ESTREE_TEST__:PASS:
           "end": 441,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -773,6 +829,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 449,
       "end": 465,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 449,
@@ -784,7 +841,8 @@ __ESTREE_TEST__:PASS:
           "end": 450,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -809,6 +867,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 466,
       "end": 486,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 466,
@@ -820,7 +879,8 @@ __ESTREE_TEST__:PASS:
           "end": 467,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -837,13 +897,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 473,
             "end": 483,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 473,
               "end": 483,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -853,6 +915,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 504,
       "end": 512,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 504,
@@ -864,7 +927,8 @@ __ESTREE_TEST__:PASS:
           "end": 505,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -879,6 +943,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 513,
       "end": 529,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 513,
@@ -890,7 +955,8 @@ __ESTREE_TEST__:PASS:
           "end": 514,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -915,6 +981,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 530,
       "end": 550,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 530,
@@ -926,7 +993,8 @@ __ESTREE_TEST__:PASS:
           "end": 531,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -943,13 +1011,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 537,
             "end": 547,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 537,
               "end": 547,
               "decorators": [],
               "name": "BrandedNum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }

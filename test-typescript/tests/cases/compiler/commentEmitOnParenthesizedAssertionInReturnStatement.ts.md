@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 21,
               "end": 75,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,12 +35,14 @@ __ESTREE_TEST__:PASS:
                 "end": 27,
                 "decorators": [],
                 "name": "client",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ObjectExpression",
                 "start": 30,
@@ -56,7 +59,8 @@ __ESTREE_TEST__:PASS:
                       "end": 44,
                       "decorators": [],
                       "name": "getThing",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -91,7 +95,8 @@ __ESTREE_TEST__:PASS:
                             "end": 59,
                             "decorators": [],
                             "name": "Promise",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -100,15 +105,19 @@ __ESTREE_TEST__:PASS:
                             "end": 67,
                             "decorators": [],
                             "name": "resolve",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       },
                       "expression": true,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -118,6 +127,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 79,
               "end": 249,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -126,7 +136,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -181,7 +192,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 190,
                                   "decorators": [],
                                   "name": "client",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -191,10 +203,12 @@ __ESTREE_TEST__:PASS:
                                 "end": 208,
                                 "decorators": [],
                                 "name": "getThing",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "typeArguments": null
                           },
                           "typeAnnotation": {
                             "type": "TSUnknownKeyword",
@@ -224,7 +238,8 @@ __ESTREE_TEST__:PASS:
                             "end": 232,
                             "decorators": [],
                             "name": "Promise",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -262,10 +277,12 @@ __ESTREE_TEST__:PASS:
                       "end": 93,
                       "decorators": [],
                       "name": "Promise",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -278,10 +295,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

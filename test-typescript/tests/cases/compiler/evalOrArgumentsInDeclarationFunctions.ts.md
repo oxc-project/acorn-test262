@@ -38,6 +38,7 @@ __ESTREE_TEST__:PASS:
                       "start": 58,
                       "end": 80,
                       "async": false,
+                      "body": null,
                       "declare": false,
                       "expression": false,
                       "generator": false,
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                         "end": 71,
                         "decorators": [],
                         "name": "eval",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "params": [],
                       "returnType": {
@@ -59,7 +61,8 @@ __ESTREE_TEST__:PASS:
                           "start": 75,
                           "end": 79
                         }
-                      }
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -75,6 +78,7 @@ __ESTREE_TEST__:PASS:
                       "start": 96,
                       "end": 123,
                       "async": false,
+                      "body": null,
                       "declare": false,
                       "expression": false,
                       "generator": false,
@@ -84,7 +88,8 @@ __ESTREE_TEST__:PASS:
                         "end": 114,
                         "decorators": [],
                         "name": "arguments",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "params": [],
                       "returnType": {
@@ -96,7 +101,8 @@ __ESTREE_TEST__:PASS:
                           "start": 118,
                           "end": 122
                         }
-                      }
+                      },
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -112,7 +118,8 @@ __ESTREE_TEST__:PASS:
                 "end": 40,
                 "decorators": [],
                 "name": "ns",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "namespace"
             },
@@ -130,7 +137,8 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -139,6 +147,7 @@ __ESTREE_TEST__:PASS:
       "start": 133,
       "end": 163,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -148,7 +157,8 @@ __ESTREE_TEST__:PASS:
         "end": 154,
         "decorators": [],
         "name": "eval",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -160,13 +170,15 @@ __ESTREE_TEST__:PASS:
           "start": 158,
           "end": 162
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 164,
       "end": 199,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -176,7 +188,8 @@ __ESTREE_TEST__:PASS:
         "end": 190,
         "decorators": [],
         "name": "arguments",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -188,7 +201,8 @@ __ESTREE_TEST__:PASS:
           "start": 194,
           "end": 198
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",

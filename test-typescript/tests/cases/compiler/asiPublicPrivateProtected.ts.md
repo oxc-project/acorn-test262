@@ -9,13 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 6,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
         "end": 6,
         "decorators": [],
         "name": "public",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -41,7 +43,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "s",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -62,7 +65,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -75,10 +80,13 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "NonPublicClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -94,6 +102,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 84,
             "end": 90,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -104,12 +113,14 @@ __ESTREE_TEST__:PASS:
               "end": 90,
               "decorators": [],
               "name": "public",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -125,7 +136,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "nonPublicFunction",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -146,7 +158,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -159,22 +173,27 @@ __ESTREE_TEST__:PASS:
         "end": 77,
         "decorators": [],
         "name": "NonPublicClass2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 133,
       "end": 140,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 133,
         "end": 140,
         "decorators": [],
         "name": "private",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -200,7 +219,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "s",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -221,7 +241,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -234,10 +256,13 @@ __ESTREE_TEST__:PASS:
         "end": 162,
         "decorators": [],
         "name": "NonPrivateClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -253,6 +278,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 221,
             "end": 228,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -263,12 +289,14 @@ __ESTREE_TEST__:PASS:
               "end": 228,
               "decorators": [],
               "name": "private",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -284,7 +312,8 @@ __ESTREE_TEST__:PASS:
               "end": 258,
               "decorators": [],
               "name": "nonPrivateFunction",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -305,7 +334,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -318,22 +349,27 @@ __ESTREE_TEST__:PASS:
         "end": 214,
         "decorators": [],
         "name": "NonPrivateClass2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 271,
       "end": 280,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 271,
         "end": 280,
         "decorators": [],
         "name": "protected",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -359,7 +395,8 @@ __ESTREE_TEST__:PASS:
               "end": 320,
               "decorators": [],
               "name": "s",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -380,7 +417,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -393,10 +432,13 @@ __ESTREE_TEST__:PASS:
         "end": 304,
         "decorators": [],
         "name": "NonProtectedClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -412,6 +454,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 363,
             "end": 372,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -422,12 +465,14 @@ __ESTREE_TEST__:PASS:
               "end": 372,
               "decorators": [],
               "name": "protected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
@@ -443,7 +488,8 @@ __ESTREE_TEST__:PASS:
               "end": 404,
               "decorators": [],
               "name": "nonProtectedFunction",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -464,7 +510,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -477,10 +525,13 @@ __ESTREE_TEST__:PASS:
         "end": 356,
         "decorators": [],
         "name": "NonProtectedClass2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -496,6 +547,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 452,
             "end": 458,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -506,18 +558,21 @@ __ESTREE_TEST__:PASS:
               "end": 458,
               "decorators": [],
               "name": "public",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
             "type": "PropertyDefinition",
             "start": 463,
             "end": 470,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -528,18 +583,21 @@ __ESTREE_TEST__:PASS:
               "end": 470,
               "decorators": [],
               "name": "private",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           },
           {
             "type": "PropertyDefinition",
             "start": 475,
             "end": 484,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -550,12 +608,14 @@ __ESTREE_TEST__:PASS:
               "end": 484,
               "decorators": [],
               "name": "protected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": null
           }
         ]
@@ -568,10 +628,13 @@ __ESTREE_TEST__:PASS:
         "end": 445,
         "decorators": [],
         "name": "ClassWithThreeMembers",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

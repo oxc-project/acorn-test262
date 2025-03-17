@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -33,6 +34,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 43,
       "end": 65,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 43,
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -82,6 +85,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 95,
       "end": 108,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 95,
@@ -97,7 +101,8 @@ __ESTREE_TEST__:PASS:
             "end": 97,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSAnyKeyword",
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
           "end": 107,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -120,6 +126,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 131,
       "end": 148,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 131,
@@ -140,16 +147,19 @@ __ESTREE_TEST__:PASS:
               "end": 137,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "typeAnnotation": {
             "type": "TSAnyKeyword",
             "start": 143,
             "end": 146
           }
-        }
+        },
+        "typeArguments": null
       }
     }
   ],

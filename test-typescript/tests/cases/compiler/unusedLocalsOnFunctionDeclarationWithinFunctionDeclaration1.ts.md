@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 66,
                   "decorators": [],
                   "name": "unused",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -71,7 +72,8 @@ __ESTREE_TEST__:PASS:
                         "end": 134,
                         "decorators": [],
                         "name": "unused2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "Literal",
@@ -96,7 +98,8 @@ __ESTREE_TEST__:PASS:
               "end": 91,
               "decorators": [],
               "name": "maker",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [
               {
@@ -127,12 +130,14 @@ __ESTREE_TEST__:PASS:
                 "start": 108,
                 "end": 112
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "ExpressionStatement",
             "start": 151,
             "end": 175,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 151,
@@ -144,7 +149,8 @@ __ESTREE_TEST__:PASS:
                 "end": 158,
                 "decorators": [],
                 "name": "person2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -166,7 +172,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -205,7 +212,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

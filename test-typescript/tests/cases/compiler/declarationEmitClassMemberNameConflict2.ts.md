@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "Bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -55,8 +56,10 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "World",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -68,7 +71,8 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "Hello",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -91,8 +95,10 @@ __ESTREE_TEST__:PASS:
               "end": 70,
               "decorators": [],
               "name": "World1",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -104,7 +110,8 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "Hello1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -121,6 +128,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 123,
             "end": 133,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -131,25 +139,29 @@ __ESTREE_TEST__:PASS:
               "end": 126,
               "decorators": [],
               "name": "Bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Identifier",
               "start": 129,
               "end": 132,
               "decorators": [],
               "name": "Bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 170,
             "end": 184,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -160,25 +172,29 @@ __ESTREE_TEST__:PASS:
               "end": 175,
               "decorators": [],
               "name": "Hello",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Identifier",
               "start": 178,
               "end": 183,
               "decorators": [],
               "name": "Hello",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 226,
             "end": 242,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -189,19 +205,22 @@ __ESTREE_TEST__:PASS:
               "end": 232,
               "decorators": [],
               "name": "Hello2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Identifier",
               "start": 235,
               "end": 241,
               "decorators": [],
               "name": "Hello1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -214,10 +233,13 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

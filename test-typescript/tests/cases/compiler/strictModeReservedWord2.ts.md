@@ -36,8 +36,10 @@ __ESTREE_TEST__:PASS:
         "end": 30,
         "decorators": [],
         "name": "public",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -52,6 +54,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 62,
             "end": 86,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -59,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 65,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -70,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 73,
                 "decorators": [],
                 "name": "package",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -78,11 +83,14 @@ __ESTREE_TEST__:PASS:
                 "end": 84,
                 "decorators": [],
                 "name": "protected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "readonly": false,
-            "static": false
+            "returnType": null,
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -94,8 +102,10 @@ __ESTREE_TEST__:PASS:
         "end": 55,
         "decorators": [],
         "name": "implements",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSEnumDeclaration",
@@ -115,7 +125,8 @@ __ESTREE_TEST__:PASS:
         "end": 101,
         "decorators": [],
         "name": "package",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -138,8 +149,10 @@ __ESTREE_TEST__:PASS:
               "end": 127,
               "decorators": [],
               "name": "public",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -152,8 +165,10 @@ __ESTREE_TEST__:PASS:
               "end": 140,
               "decorators": [],
               "name": "private",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -166,8 +181,10 @@ __ESTREE_TEST__:PASS:
               "end": 153,
               "decorators": [],
               "name": "pacakge",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -179,7 +196,8 @@ __ESTREE_TEST__:PASS:
         "end": 114,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -202,8 +220,10 @@ __ESTREE_TEST__:PASS:
               "end": 188,
               "decorators": [],
               "name": "public",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -216,8 +236,10 @@ __ESTREE_TEST__:PASS:
               "end": 201,
               "decorators": [],
               "name": "private",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -230,8 +252,10 @@ __ESTREE_TEST__:PASS:
               "end": 214,
               "decorators": [],
               "name": "pacakge",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -243,7 +267,8 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "private",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -266,8 +291,10 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "public",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -280,8 +307,10 @@ __ESTREE_TEST__:PASS:
               "end": 258,
               "decorators": [],
               "name": "private",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -294,8 +323,10 @@ __ESTREE_TEST__:PASS:
               "end": 271,
               "decorators": [],
               "name": "pacakge",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           }
         ]
       },
@@ -307,7 +338,8 @@ __ESTREE_TEST__:PASS:
         "end": 232,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

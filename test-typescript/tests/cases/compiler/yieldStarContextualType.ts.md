@@ -48,39 +48,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 42,
                           "end": 43,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 42,
                             "end": 43,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 45,
                           "end": 46,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 45,
                             "end": 46,
                             "decorators": [],
                             "name": "U",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 48,
                           "end": 49,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 48,
                             "end": 49,
                             "decorators": [],
                             "name": "V",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -91,7 +97,8 @@ __ESTREE_TEST__:PASS:
                       "end": 41,
                       "decorators": [],
                       "name": "Generator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -105,6 +112,8 @@ __ESTREE_TEST__:PASS:
                       "start": 18,
                       "end": 19,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -112,7 +121,8 @@ __ESTREE_TEST__:PASS:
                         "end": 19,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     },
@@ -121,6 +131,8 @@ __ESTREE_TEST__:PASS:
                       "start": 21,
                       "end": 22,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -128,7 +140,8 @@ __ESTREE_TEST__:PASS:
                         "end": 22,
                         "decorators": [],
                         "name": "U",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     },
@@ -137,6 +150,8 @@ __ESTREE_TEST__:PASS:
                       "start": 24,
                       "end": 25,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -144,7 +159,8 @@ __ESTREE_TEST__:PASS:
                         "end": 25,
                         "decorators": [],
                         "name": "V",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }
@@ -185,7 +201,8 @@ __ESTREE_TEST__:PASS:
                   "end": 115,
                   "decorators": [],
                   "name": "x1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "YieldExpression",
@@ -202,9 +219,11 @@ __ESTREE_TEST__:PASS:
                       "end": 126,
                       "decorators": [],
                       "name": "g",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   },
                   "delegate": true
                 }
@@ -256,9 +275,11 @@ __ESTREE_TEST__:PASS:
                       "end": 161,
                       "decorators": [],
                       "name": "g",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   },
                   "delegate": true
                 }
@@ -278,7 +299,8 @@ __ESTREE_TEST__:PASS:
         "end": 64,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -317,10 +339,12 @@ __ESTREE_TEST__:PASS:
             "end": 77,
             "decorators": [],
             "name": "Generator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -55,6 +55,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 59,
+      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 54,
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
             "end": 55,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "operator": "++",

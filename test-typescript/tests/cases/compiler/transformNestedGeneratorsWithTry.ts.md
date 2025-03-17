@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "Bluebird",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -69,7 +70,8 @@ __ESTREE_TEST__:PASS:
                         "end": 150,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "init": {
                         "type": "FunctionExpression",
@@ -94,6 +96,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "ExpressionStatement",
                                     "start": 210,
                                     "end": 235,
+                                    "directive": null,
                                     "expression": {
                                       "type": "AwaitExpression",
                                       "start": 210,
@@ -114,7 +117,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 224,
                                             "decorators": [],
                                             "name": "Bluebird",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           },
                                           "optional": false,
                                           "property": {
@@ -123,10 +127,12 @@ __ESTREE_TEST__:PASS:
                                             "end": 232,
                                             "decorators": [],
                                             "name": "resolve",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         },
-                                        "optional": false
+                                        "optional": false,
+                                        "typeArguments": null
                                       }
                                     }
                                   }
@@ -149,7 +155,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 290,
                                   "decorators": [],
                                   "name": "error",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -164,7 +171,8 @@ __ESTREE_TEST__:PASS:
                           "end": 169,
                           "decorators": [],
                           "name": "b",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "params": [],
                         "returnType": {
@@ -193,10 +201,12 @@ __ESTREE_TEST__:PASS:
                               "end": 181,
                               "decorators": [],
                               "name": "Bluebird",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     }
                   ],
@@ -207,6 +217,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 308,
                   "end": 318,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 308,
@@ -222,9 +233,11 @@ __ESTREE_TEST__:PASS:
                         "end": 315,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 }
@@ -247,7 +260,8 @@ __ESTREE_TEST__:PASS:
                 "end": 372,
                 "decorators": [],
                 "name": "error",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -262,7 +276,8 @@ __ESTREE_TEST__:PASS:
         "end": 110,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -291,10 +306,12 @@ __ESTREE_TEST__:PASS:
             "end": 122,
             "decorators": [],
             "name": "Bluebird",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -329,7 +346,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "Bluebird",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
@@ -344,13 +362,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 59,
                     "end": 60,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 59,
                       "end": 60,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -361,7 +381,8 @@ __ESTREE_TEST__:PASS:
                 "end": 58,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "typeParameters": {
@@ -374,6 +395,8 @@ __ESTREE_TEST__:PASS:
                   "start": 46,
                   "end": 47,
                   "const": false,
+                  "constraint": null,
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -381,7 +404,8 @@ __ESTREE_TEST__:PASS:
                     "end": 47,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -419,8 +443,10 @@ __ESTREE_TEST__:PASS:
                         "end": 97,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeAnnotation": null
+                      },
+                      "typeArguments": null
                     }
                   }
                 },
@@ -440,7 +466,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "Bluebird",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]

@@ -63,6 +63,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 109,
             "end": 148,
+            "accessibility": null,
             "computed": false,
             "decorators": [
               {
@@ -75,7 +76,8 @@ __ESTREE_TEST__:PASS:
                   "end": 113,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -123,7 +125,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -136,10 +140,13 @@ __ESTREE_TEST__:PASS:
         "end": 102,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

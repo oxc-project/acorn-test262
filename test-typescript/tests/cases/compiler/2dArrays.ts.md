@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Cell",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -43,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 33,
             "end": 49,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -53,7 +57,8 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "isSunk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -81,10 +86,13 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "Ship",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -100,6 +108,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 71,
             "end": 85,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -110,7 +119,8 @@ __ESTREE_TEST__:PASS:
               "end": 76,
               "decorators": [],
               "name": "ships",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -128,13 +138,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 78,
                   "end": 82,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 78,
                     "end": 82,
                     "decorators": [],
                     "name": "Ship",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -145,6 +157,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 90,
             "end": 104,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -155,7 +168,8 @@ __ESTREE_TEST__:PASS:
               "end": 95,
               "decorators": [],
               "name": "cells",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -173,13 +187,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 97,
                   "end": 101,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 97,
                     "end": 101,
                     "decorators": [],
                     "name": "Cell",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -199,7 +215,8 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "allShipsSunk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -249,7 +266,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 194,
                                     "decorators": [],
                                     "name": "val",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "optional": false,
                                   "property": {
@@ -258,7 +276,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 201,
                                     "decorators": [],
                                     "name": "isSunk",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -275,9 +294,12 @@ __ESTREE_TEST__:PASS:
                               "end": 180,
                               "decorators": [],
                               "name": "val",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
-                          ]
+                          ],
+                          "returnType": null,
+                          "typeParameters": null
                         }
                       ],
                       "callee": {
@@ -302,7 +324,8 @@ __ESTREE_TEST__:PASS:
                             "end": 160,
                             "decorators": [],
                             "name": "ships",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "optional": false,
@@ -312,10 +335,12 @@ __ESTREE_TEST__:PASS:
                           "end": 166,
                           "decorators": [],
                           "name": "every",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -324,7 +349,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -337,10 +364,13 @@ __ESTREE_TEST__:PASS:
         "end": 64,
         "decorators": [],
         "name": "Board",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -33,12 +33,14 @@ __ESTREE_TEST__:PASS:
                   "start": 31,
                   "end": 37
                 }
-              }
+              },
+              "typeParameters": null
             },
             {
               "type": "TSPropertySignature",
               "start": 40,
               "end": 54,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -46,7 +48,8 @@ __ESTREE_TEST__:PASS:
                 "end": 45,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -72,8 +75,10 @@ __ESTREE_TEST__:PASS:
           "end": 23,
           "decorators": [],
           "name": "Scalar",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -127,7 +132,8 @@ __ESTREE_TEST__:PASS:
           "end": 80,
           "decorators": [],
           "name": "scalar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -157,16 +163,19 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 97,
             "end": 103,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 97,
               "end": 103,
               "decorators": [],
               "name": "Scalar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -208,7 +217,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "scalar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -217,7 +227,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "scalar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -242,7 +253,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "xs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "get",
             "method": false,
@@ -281,9 +293,11 @@ __ESTREE_TEST__:PASS:
                         "end": 95,
                         "decorators": [],
                         "name": "scalar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -292,7 +306,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]

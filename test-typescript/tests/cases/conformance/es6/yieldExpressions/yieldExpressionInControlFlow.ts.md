@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 52,
                   "decorators": [],
                   "name": "o",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "ArrayExpression",
@@ -57,6 +58,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 85,
                   "end": 97,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 85,
@@ -68,7 +70,8 @@ __ESTREE_TEST__:PASS:
                       "end": 86,
                       "decorators": [],
                       "name": "o",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "YieldExpression",
@@ -80,7 +83,8 @@ __ESTREE_TEST__:PASS:
                         "end": 97,
                         "decorators": [],
                         "name": "o",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "delegate": true
                     }
@@ -107,9 +111,12 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

@@ -24,15 +24,19 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "CtorTag",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 42,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 19,
@@ -61,8 +65,10 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "CtorTag",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

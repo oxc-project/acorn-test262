@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 37,
             "decorators": [],
             "name": "rest",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -56,14 +58,18 @@ __ESTREE_TEST__:PASS:
                 "end": 42
               }
             }
-          }
+          },
+          "value": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 51,
       "end": 97,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 51,
@@ -87,6 +93,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 81,
                     "end": 91,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 81,
@@ -98,7 +105,8 @@ __ESTREE_TEST__:PASS:
                         "end": 82,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Literal",
@@ -134,7 +142,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           ],
           "quasis": [
@@ -166,8 +176,10 @@ __ESTREE_TEST__:PASS:
           "end": 54,
           "decorators": [],
           "name": "foo",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

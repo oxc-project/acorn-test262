@@ -166,13 +166,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 88,
                 "end": 94,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 88,
                   "end": 94,
                   "decorators": [],
                   "name": "Object",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -187,6 +189,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 133,
       "end": 145,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 133,
@@ -198,7 +201,8 @@ __ESTREE_TEST__:PASS:
             "end": 136,
             "decorators": [],
             "name": "ANY",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -206,7 +210,8 @@ __ESTREE_TEST__:PASS:
             "end": 144,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -215,6 +220,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 146,
       "end": 162,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 146,
@@ -226,7 +232,8 @@ __ESTREE_TEST__:PASS:
             "end": 153,
             "decorators": [],
             "name": "BOOLEAN",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -234,7 +241,8 @@ __ESTREE_TEST__:PASS:
             "end": 161,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -243,6 +251,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 163,
       "end": 178,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 163,
@@ -254,7 +263,8 @@ __ESTREE_TEST__:PASS:
             "end": 169,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -262,7 +272,8 @@ __ESTREE_TEST__:PASS:
             "end": 177,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -271,6 +282,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 179,
       "end": 194,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 179,
@@ -282,7 +294,8 @@ __ESTREE_TEST__:PASS:
             "end": 185,
             "decorators": [],
             "name": "STRING",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -290,7 +303,8 @@ __ESTREE_TEST__:PASS:
             "end": 193,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -299,6 +313,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 195,
       "end": 210,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 195,
@@ -310,7 +325,8 @@ __ESTREE_TEST__:PASS:
             "end": 201,
             "decorators": [],
             "name": "OBJECT",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -318,7 +334,8 @@ __ESTREE_TEST__:PASS:
             "end": 209,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -339,7 +356,8 @@ __ESTREE_TEST__:PASS:
             "end": 255,
             "decorators": [],
             "name": "resultIsNumber1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -352,7 +370,8 @@ __ESTREE_TEST__:PASS:
                 "end": 262,
                 "decorators": [],
                 "name": "ANY",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -360,7 +379,8 @@ __ESTREE_TEST__:PASS:
                 "end": 270,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -385,7 +405,8 @@ __ESTREE_TEST__:PASS:
             "end": 292,
             "decorators": [],
             "name": "resultIsNumber2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -398,7 +419,8 @@ __ESTREE_TEST__:PASS:
                 "end": 303,
                 "decorators": [],
                 "name": "BOOLEAN",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -406,7 +428,8 @@ __ESTREE_TEST__:PASS:
                 "end": 311,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -431,7 +454,8 @@ __ESTREE_TEST__:PASS:
             "end": 333,
             "decorators": [],
             "name": "resultIsNumber3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -444,7 +468,8 @@ __ESTREE_TEST__:PASS:
                 "end": 343,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -452,7 +477,8 @@ __ESTREE_TEST__:PASS:
                 "end": 351,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -477,7 +503,8 @@ __ESTREE_TEST__:PASS:
             "end": 373,
             "decorators": [],
             "name": "resultIsNumber4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -490,7 +517,8 @@ __ESTREE_TEST__:PASS:
                 "end": 383,
                 "decorators": [],
                 "name": "STRING",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -498,7 +526,8 @@ __ESTREE_TEST__:PASS:
                 "end": 391,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -523,7 +552,8 @@ __ESTREE_TEST__:PASS:
             "end": 413,
             "decorators": [],
             "name": "resultIsNumber5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -536,7 +566,8 @@ __ESTREE_TEST__:PASS:
                 "end": 423,
                 "decorators": [],
                 "name": "OBJECT",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -544,7 +575,8 @@ __ESTREE_TEST__:PASS:
                 "end": 431,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -557,6 +589,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 460,
       "end": 473,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 460,
@@ -575,7 +608,8 @@ __ESTREE_TEST__:PASS:
             "end": 472,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -584,6 +618,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 474,
       "end": 498,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 474,
@@ -600,7 +635,8 @@ __ESTREE_TEST__:PASS:
               "end": 477,
               "decorators": [],
               "name": "ANY",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -608,7 +644,8 @@ __ESTREE_TEST__:PASS:
               "end": 489,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -617,7 +654,8 @@ __ESTREE_TEST__:PASS:
             "end": 497,
             "decorators": [],
             "name": "NUMBER",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }
@@ -626,6 +664,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 499,
       "end": 507,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 499,
@@ -652,6 +691,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 508,
       "end": 527,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 508,
@@ -668,7 +708,8 @@ __ESTREE_TEST__:PASS:
               "end": 515,
               "decorators": [],
               "name": "BOOLEAN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -692,6 +733,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 528,
       "end": 543,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 528,
@@ -715,7 +757,8 @@ __ESTREE_TEST__:PASS:
               "end": 538,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -732,6 +775,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 544,
       "end": 570,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 544,
@@ -753,7 +797,8 @@ __ESTREE_TEST__:PASS:
                 "end": 550,
                 "decorators": [],
                 "name": "STRING",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -762,10 +807,12 @@ __ESTREE_TEST__:PASS:
                 "end": 555,
                 "decorators": [],
                 "name": "trim",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           {
             "type": "AssignmentExpression",
@@ -778,7 +825,8 @@ __ESTREE_TEST__:PASS:
               "end": 565,
               "decorators": [],
               "name": "NUMBER",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Literal",
@@ -807,7 +855,8 @@ __ESTREE_TEST__:PASS:
             "end": 591,
             "decorators": [],
             "name": "resultIsNumber6",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -827,7 +876,8 @@ __ESTREE_TEST__:PASS:
                 "end": 607,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -852,7 +902,8 @@ __ESTREE_TEST__:PASS:
             "end": 629,
             "decorators": [],
             "name": "resultIsNumber7",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -870,7 +921,8 @@ __ESTREE_TEST__:PASS:
                   "end": 636,
                   "decorators": [],
                   "name": "ANY",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Identifier",
@@ -878,7 +930,8 @@ __ESTREE_TEST__:PASS:
                   "end": 648,
                   "decorators": [],
                   "name": "undefined",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -887,7 +940,8 @@ __ESTREE_TEST__:PASS:
                 "end": 656,
                 "decorators": [],
                 "name": "NUMBER",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ]
           }
@@ -912,7 +966,8 @@ __ESTREE_TEST__:PASS:
             "end": 678,
             "decorators": [],
             "name": "resultIsNumber8",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -956,7 +1011,8 @@ __ESTREE_TEST__:PASS:
             "end": 711,
             "decorators": [],
             "name": "resultIsNumber9",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -974,7 +1030,8 @@ __ESTREE_TEST__:PASS:
                   "end": 722,
                   "decorators": [],
                   "name": "BOOLEAN",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Literal",
@@ -1014,7 +1071,8 @@ __ESTREE_TEST__:PASS:
             "end": 756,
             "decorators": [],
             "name": "resultIsNumber10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -1039,7 +1097,8 @@ __ESTREE_TEST__:PASS:
                   "end": 770,
                   "decorators": [],
                   "name": "NUMBER",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Literal",
@@ -1072,7 +1131,8 @@ __ESTREE_TEST__:PASS:
             "end": 797,
             "decorators": [],
             "name": "resultIsNumber11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "SequenceExpression",
@@ -1095,7 +1155,8 @@ __ESTREE_TEST__:PASS:
                     "end": 807,
                     "decorators": [],
                     "name": "STRING",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -1104,10 +1165,12 @@ __ESTREE_TEST__:PASS:
                     "end": 812,
                     "decorators": [],
                     "name": "trim",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               {
                 "type": "AssignmentExpression",
@@ -1120,7 +1183,8 @@ __ESTREE_TEST__:PASS:
                   "end": 822,
                   "decorators": [],
                   "name": "NUMBER",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "right": {
                   "type": "Literal",

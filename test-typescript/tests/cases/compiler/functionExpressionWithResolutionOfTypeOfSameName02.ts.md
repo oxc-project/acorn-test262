@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 14,
         "decorators": [],
         "name": "Foo",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -42,7 +44,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -79,13 +82,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 56,
                             "end": 59,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 56,
                               "end": 59,
                               "decorators": [],
                               "name": "Foo",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -107,9 +112,12 @@ __ESTREE_TEST__:PASS:
               "end": 40,
               "decorators": [],
               "name": "Foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

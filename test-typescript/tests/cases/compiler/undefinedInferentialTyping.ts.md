@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -60,13 +61,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 19,
                 "end": 20,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 19,
                   "end": 20,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -87,13 +90,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 32,
               "end": 33,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 32,
                 "end": 33,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -107,13 +112,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 36,
           "end": 37,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 36,
             "end": 37,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -127,6 +134,8 @@ __ESTREE_TEST__:PASS:
             "start": 11,
             "end": 12,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -134,7 +143,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -157,7 +167,8 @@ __ESTREE_TEST__:PASS:
             "end": 65,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -184,9 +195,11 @@ __ESTREE_TEST__:PASS:
               "end": 69,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

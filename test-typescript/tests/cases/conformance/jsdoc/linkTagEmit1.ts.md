@@ -25,13 +25,15 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "R",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 36,
               "end": 42
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -43,7 +45,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "NS",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

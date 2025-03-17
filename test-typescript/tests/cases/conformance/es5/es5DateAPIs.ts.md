@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -33,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 4,
             "decorators": [],
             "name": "Date",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -42,10 +44,12 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "UTC",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

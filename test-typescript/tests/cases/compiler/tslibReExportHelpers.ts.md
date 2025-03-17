@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 56,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -24,7 +25,8 @@ __ESTREE_TEST__:PASS:
           "end": 34,
           "decorators": [],
           "name": "__decorate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -37,7 +39,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "decorators": [],
               "name": "args",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
             "optional": false,
@@ -55,7 +58,8 @@ __ESTREE_TEST__:PASS:
                   "end": 47
                 }
               }
-            }
+            },
+            "value": null
           }
         ],
         "returnType": {
@@ -67,7 +71,8 @@ __ESTREE_TEST__:PASS:
             "start": 52,
             "end": 55
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

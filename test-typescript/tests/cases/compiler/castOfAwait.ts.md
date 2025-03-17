@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 25,
             "end": 42,
+            "directive": null,
             "expression": {
               "type": "TSTypeAssertion",
               "start": 25,
@@ -46,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 47,
             "end": 62,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 47,
@@ -70,6 +72,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 67,
             "end": 80,
+            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 67,
@@ -94,6 +97,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 85,
             "end": 134,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 85,
@@ -157,6 +161,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 139,
             "end": 153,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 139,
@@ -186,9 +191,12 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -48,7 +48,8 @@ __ESTREE_TEST__:PASS:
                           "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -60,10 +61,12 @@ __ESTREE_TEST__:PASS:
                           "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -99,9 +102,12 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "main",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -162,7 +168,8 @@ __ESTREE_TEST__:PASS:
                           "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "init",
                         "method": false,
@@ -174,10 +181,12 @@ __ESTREE_TEST__:PASS:
                           "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    ]
+                    ],
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -213,9 +222,12 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "main",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

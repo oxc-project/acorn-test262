@@ -19,13 +19,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 74,
             "end": 80,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 74,
               "end": 79,
               "decorators": [],
               "name": "entry",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -52,7 +54,8 @@ __ESTREE_TEST__:PASS:
                   "end": 40,
                   "decorators": [],
                   "name": "key",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 {
                   "type": "Identifier",
@@ -60,10 +63,12 @@ __ESTREE_TEST__:PASS:
                   "end": 47,
                   "decorators": [],
                   "name": "entry",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -82,8 +87,10 @@ __ESTREE_TEST__:PASS:
           "end": 64,
           "decorators": [],
           "name": "FormData",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

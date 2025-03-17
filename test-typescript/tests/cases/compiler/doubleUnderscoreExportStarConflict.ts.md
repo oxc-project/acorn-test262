@@ -72,7 +72,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "__foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -96,7 +97,8 @@ __ESTREE_TEST__:PASS:
               }
             ]
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -139,7 +141,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "__foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -163,7 +166,8 @@ __ESTREE_TEST__:PASS:
               }
             ]
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

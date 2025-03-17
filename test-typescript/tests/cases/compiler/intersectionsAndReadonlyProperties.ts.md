@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "Intersection1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -32,6 +33,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 52,
                 "end": 70,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -39,7 +41,8 @@ __ESTREE_TEST__:PASS:
                   "end": 62,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": true,
@@ -66,6 +69,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 77,
                 "end": 86,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
                   "end": 78,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": false,
@@ -92,7 +97,8 @@ __ESTREE_TEST__:PASS:
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -119,13 +125,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 106,
                 "end": 119,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 106,
                   "end": 119,
                   "decorators": [],
                   "name": "Intersection1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -140,6 +148,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 122,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 122,
@@ -156,7 +165,8 @@ __ESTREE_TEST__:PASS:
             "end": 124,
             "decorators": [],
             "name": "i1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -165,7 +175,8 @@ __ESTREE_TEST__:PASS:
             "end": 126,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -188,7 +199,8 @@ __ESTREE_TEST__:PASS:
         "end": 172,
         "decorators": [],
         "name": "Intersection2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -204,6 +216,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSMethodSignature",
                 "start": 177,
                 "end": 192,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -211,7 +224,8 @@ __ESTREE_TEST__:PASS:
                   "end": 182,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "get",
                 "optional": false,
@@ -227,7 +241,8 @@ __ESTREE_TEST__:PASS:
                     "end": 192
                   }
                 },
-                "static": false
+                "static": false,
+                "typeParameters": null
               }
             ]
           },
@@ -240,6 +255,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSMethodSignature",
                 "start": 199,
                 "end": 215,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -247,7 +263,8 @@ __ESTREE_TEST__:PASS:
                   "end": 204,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "set",
                 "optional": false,
@@ -272,12 +289,15 @@ __ESTREE_TEST__:PASS:
                   }
                 ],
                 "readonly": false,
-                "static": false
+                "returnType": null,
+                "static": false,
+                "typeParameters": null
               }
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -304,13 +324,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 235,
                 "end": 248,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 235,
                   "end": 248,
                   "decorators": [],
                   "name": "Intersection2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -325,6 +347,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 251,
       "end": 260,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 251,
@@ -341,7 +364,8 @@ __ESTREE_TEST__:PASS:
             "end": 253,
             "decorators": [],
             "name": "i2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -350,7 +374,8 @@ __ESTREE_TEST__:PASS:
             "end": 255,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {
@@ -373,7 +398,8 @@ __ESTREE_TEST__:PASS:
         "end": 360,
         "decorators": [],
         "name": "IntersectionAllReadonly",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIntersectionType",
@@ -389,6 +415,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSPropertySignature",
                 "start": 365,
                 "end": 383,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -396,7 +423,8 @@ __ESTREE_TEST__:PASS:
                   "end": 375,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "readonly": true,
@@ -423,6 +451,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSMethodSignature",
                 "start": 390,
                 "end": 405,
+                "accessibility": null,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
@@ -430,7 +459,8 @@ __ESTREE_TEST__:PASS:
                   "end": 395,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "get",
                 "optional": false,
@@ -446,12 +476,14 @@ __ESTREE_TEST__:PASS:
                     "end": 405
                   }
                 },
-                "static": false
+                "static": false,
+                "typeParameters": null
               }
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -478,13 +510,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 425,
                 "end": 448,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 425,
                   "end": 448,
                   "decorators": [],
                   "name": "IntersectionAllReadonly",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -499,6 +533,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 451,
       "end": 460,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 451,
@@ -515,7 +550,8 @@ __ESTREE_TEST__:PASS:
             "end": 453,
             "decorators": [],
             "name": "ia",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -524,7 +560,8 @@ __ESTREE_TEST__:PASS:
             "end": 455,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "right": {

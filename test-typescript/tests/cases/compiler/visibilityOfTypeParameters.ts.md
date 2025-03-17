@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 45,
                 "decorators": [],
                 "name": "myMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -59,7 +60,8 @@ __ESTREE_TEST__:PASS:
                         "end": 80,
                         "decorators": [],
                         "name": "val",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -84,13 +86,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 54,
                         "end": 55,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 54,
                           "end": 55,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -104,13 +108,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 58,
                     "end": 59,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 58,
                       "end": 59,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -124,6 +130,8 @@ __ESTREE_TEST__:PASS:
                       "start": 46,
                       "end": 47,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -131,7 +139,8 @@ __ESTREE_TEST__:PASS:
                         "end": 47,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }
@@ -149,10 +158,13 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "MyClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -61,7 +61,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 15,
                                 "end": 21
                               }
-                            }
+                            },
+                            "typeParameters": null
                           },
                           {
                             "type": "TSCallSignatureDeclaration",
@@ -96,7 +97,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 34,
                                 "end": 40
                               }
-                            }
+                            },
+                            "typeParameters": null
                           }
                         ]
                       }
@@ -112,7 +114,8 @@ __ESTREE_TEST__:PASS:
                     "start": 46,
                     "end": 52
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -126,6 +129,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 54,
       "end": 101,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 54,
@@ -137,7 +141,8 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "FunctionExpression",
@@ -204,7 +209,9 @@ __ESTREE_TEST__:PASS:
                 }
               }
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         }
       }
     }

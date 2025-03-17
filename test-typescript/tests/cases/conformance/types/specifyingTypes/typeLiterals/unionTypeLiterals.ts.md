@@ -208,7 +208,8 @@ __ESTREE_TEST__:PASS:
                   "end": 184,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -259,7 +260,8 @@ __ESTREE_TEST__:PASS:
                         "start": 236,
                         "end": 242
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSFunctionType",
@@ -275,7 +277,8 @@ __ESTREE_TEST__:PASS:
                         "start": 253,
                         "end": 259
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -332,7 +335,8 @@ __ESTREE_TEST__:PASS:
                             "start": 293,
                             "end": 299
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     ]
                   },
@@ -355,7 +359,8 @@ __ESTREE_TEST__:PASS:
                             "start": 310,
                             "end": 316
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     ]
                   }
@@ -416,7 +421,8 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -467,7 +473,8 @@ __ESTREE_TEST__:PASS:
                         "start": 408,
                         "end": 414
                       }
-                    }
+                    },
+                    "typeParameters": null
                   },
                   {
                     "type": "TSConstructorType",
@@ -484,7 +491,8 @@ __ESTREE_TEST__:PASS:
                         "start": 429,
                         "end": 435
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -541,7 +549,8 @@ __ESTREE_TEST__:PASS:
                             "start": 476,
                             "end": 482
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     ]
                   },
@@ -564,7 +573,8 @@ __ESTREE_TEST__:PASS:
                             "start": 497,
                             "end": 503
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     ]
                   }
@@ -626,7 +636,8 @@ __ESTREE_TEST__:PASS:
                       }
                     ]
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },

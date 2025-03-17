@@ -28,7 +28,8 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 23
               }
-            }
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -40,8 +41,10 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "I6",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -65,8 +68,10 @@ __ESTREE_TEST__:PASS:
             "end": 51,
             "decorators": [],
             "name": "I6",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         }
       ],
       "id": {
@@ -75,8 +80,10 @@ __ESTREE_TEST__:PASS:
         "end": 40,
         "decorators": [],
         "name": "I7",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -103,13 +110,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 64,
                 "end": 66,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 64,
                   "end": 66,
                   "decorators": [],
                   "name": "I7",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -124,6 +133,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 68,
       "end": 73,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 68,
@@ -135,9 +145,11 @@ __ESTREE_TEST__:PASS:
           "end": 70,
           "decorators": [],
           "name": "v1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 40,
               "end": 63,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 54,
                 "decorators": [],
                 "name": "yadda",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -58,7 +60,8 @@ __ESTREE_TEST__:PASS:
                     "start": 58,
                     "end": 62
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -71,10 +74,13 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "AmbientClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -99,6 +105,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 102,
               "end": 127,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -107,7 +114,8 @@ __ESTREE_TEST__:PASS:
                 "end": 116,
                 "decorators": [],
                 "name": "yadda",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -138,7 +146,8 @@ __ESTREE_TEST__:PASS:
                     "start": 120,
                     "end": 124
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -151,10 +160,13 @@ __ESTREE_TEST__:PASS:
           "end": 95,
           "decorators": [],
           "name": "NonAmbientClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -179,6 +191,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 177,
               "end": 189,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -187,7 +200,8 @@ __ESTREE_TEST__:PASS:
                 "end": 180,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -213,7 +227,8 @@ __ESTREE_TEST__:PASS:
                     "start": 184,
                     "end": 188
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -226,10 +241,13 @@ __ESTREE_TEST__:PASS:
           "end": 170,
           "decorators": [],
           "name": "AmbientBase",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -254,6 +272,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 255,
               "end": 267,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -262,7 +281,8 @@ __ESTREE_TEST__:PASS:
                 "end": 258,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -288,13 +308,15 @@ __ESTREE_TEST__:PASS:
                     "start": 262,
                     "end": 266
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 273,
               "end": 294,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -303,7 +325,8 @@ __ESTREE_TEST__:PASS:
                 "end": 285,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -329,7 +352,8 @@ __ESTREE_TEST__:PASS:
                     "start": 289,
                     "end": 293
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -342,7 +366,8 @@ __ESTREE_TEST__:PASS:
           "end": 228,
           "decorators": [],
           "name": "AmbientDerived",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -351,8 +376,11 @@ __ESTREE_TEST__:PASS:
           "end": 248,
           "decorators": [],
           "name": "AmbientBase",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -386,6 +414,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 381,
                     "end": 393,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -394,7 +423,8 @@ __ESTREE_TEST__:PASS:
                       "end": 384,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -420,7 +450,8 @@ __ESTREE_TEST__:PASS:
                           "start": 388,
                           "end": 392
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -433,10 +464,13 @@ __ESTREE_TEST__:PASS:
                 "end": 370,
                 "decorators": [],
                 "name": "AmbientBase",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -461,6 +495,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 463,
                     "end": 475,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -469,7 +504,8 @@ __ESTREE_TEST__:PASS:
                       "end": 466,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -495,13 +531,15 @@ __ESTREE_TEST__:PASS:
                           "start": 470,
                           "end": 474
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 485,
                     "end": 506,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -510,7 +548,8 @@ __ESTREE_TEST__:PASS:
                       "end": 497,
                       "decorators": [],
                       "name": "bar",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -536,7 +575,8 @@ __ESTREE_TEST__:PASS:
                           "start": 501,
                           "end": 505
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -549,7 +589,8 @@ __ESTREE_TEST__:PASS:
                 "end": 432,
                 "decorators": [],
                 "name": "AmbientDerived",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -558,8 +599,11 @@ __ESTREE_TEST__:PASS:
                 "end": 452,
                 "decorators": [],
                 "name": "AmbientBase",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -575,7 +619,8 @@ __ESTREE_TEST__:PASS:
         "end": 339,
         "decorators": [],
         "name": "ambientNamespace",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -598,6 +643,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 557,
               "end": 571,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -606,7 +652,8 @@ __ESTREE_TEST__:PASS:
                 "end": 560,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -637,7 +684,8 @@ __ESTREE_TEST__:PASS:
                     "start": 564,
                     "end": 568
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -650,10 +698,13 @@ __ESTREE_TEST__:PASS:
           "end": 550,
           "decorators": [],
           "name": "NonAmbientBase",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -678,6 +729,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 635,
               "end": 649,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -686,7 +738,8 @@ __ESTREE_TEST__:PASS:
                 "end": 638,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -717,13 +770,15 @@ __ESTREE_TEST__:PASS:
                     "start": 642,
                     "end": 646
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 655,
               "end": 678,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -732,7 +787,8 @@ __ESTREE_TEST__:PASS:
                 "end": 667,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -763,7 +819,8 @@ __ESTREE_TEST__:PASS:
                     "start": 671,
                     "end": 675
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -776,7 +833,8 @@ __ESTREE_TEST__:PASS:
           "end": 605,
           "decorators": [],
           "name": "NonAmbientDerived",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -785,8 +843,11 @@ __ESTREE_TEST__:PASS:
           "end": 628,
           "decorators": [],
           "name": "NonAmbientBase",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

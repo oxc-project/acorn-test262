@@ -37,6 +37,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 63,
                         "end": 64,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -44,11 +45,13 @@ __ESTREE_TEST__:PASS:
                           "end": 64,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
-                        "static": false
+                        "static": false,
+                        "typeAnnotation": null
                       }
                     ]
                   },
@@ -60,8 +63,10 @@ __ESTREE_TEST__:PASS:
                     "end": 61,
                     "decorators": [],
                     "name": "Something",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -73,7 +78,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "global",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "global"
           }
@@ -133,6 +139,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 63,
                         "end": 64,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -140,11 +147,13 @@ __ESTREE_TEST__:PASS:
                           "end": 64,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
-                        "static": false
+                        "static": false,
+                        "typeAnnotation": null
                       }
                     ]
                   },
@@ -156,8 +165,10 @@ __ESTREE_TEST__:PASS:
                     "end": 61,
                     "decorators": [],
                     "name": "Something",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 }
               ]
             },
@@ -169,7 +180,8 @@ __ESTREE_TEST__:PASS:
               "end": 31,
               "decorators": [],
               "name": "global",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "global"
           }

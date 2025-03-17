@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 15,
                     "end": 33,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -65,13 +66,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 28,
                         "end": 32,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 28,
                           "end": 32,
                           "decorators": [],
                           "name": "Date",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -116,13 +119,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 48,
                 "end": 52,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 48,
                   "end": 52,
                   "decorators": [],
                   "name": "Date",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -138,7 +143,8 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "decorators": [],
               "name": "dateMap",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {

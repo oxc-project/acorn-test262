@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

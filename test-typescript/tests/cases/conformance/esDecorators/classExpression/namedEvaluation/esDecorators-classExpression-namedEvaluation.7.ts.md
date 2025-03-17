@@ -93,6 +93,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 166,
       "end": 193,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 166,
@@ -115,7 +116,8 @@ __ESTREE_TEST__:PASS:
                 "end": 168,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -141,17 +143,22 @@ __ESTREE_TEST__:PASS:
                       "end": 175,
                       "decorators": [],
                       "name": "dec",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ],
                 "id": null,
                 "implements": [],
-                "superClass": null
-              }
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -159,7 +166,8 @@ __ESTREE_TEST__:PASS:
           "end": 192,
           "decorators": [],
           "name": "obj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -167,6 +175,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 194,
       "end": 229,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 194,
@@ -189,7 +198,8 @@ __ESTREE_TEST__:PASS:
                 "end": 196,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -206,6 +216,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 207,
                       "end": 219,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [
@@ -219,7 +230,8 @@ __ESTREE_TEST__:PASS:
                             "end": 211,
                             "decorators": [],
                             "name": "dec",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ],
@@ -230,7 +242,8 @@ __ESTREE_TEST__:PASS:
                         "end": 213,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -254,11 +267,15 @@ __ESTREE_TEST__:PASS:
                 "decorators": [],
                 "id": null,
                 "implements": [],
-                "superClass": null
-              }
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -266,7 +283,8 @@ __ESTREE_TEST__:PASS:
           "end": 228,
           "decorators": [],
           "name": "obj",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

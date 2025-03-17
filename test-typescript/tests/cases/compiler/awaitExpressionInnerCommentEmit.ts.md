@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 40,
             "end": 48,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 40,
@@ -36,6 +37,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 53,
             "end": 74,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 53,
@@ -53,6 +55,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 79,
             "end": 86,
+            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 79,
@@ -77,9 +80,12 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

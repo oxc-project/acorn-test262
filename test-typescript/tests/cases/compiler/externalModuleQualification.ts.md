@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 13,
               "decorators": [],
               "name": "ID",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "Literal",
@@ -74,7 +75,8 @@ __ESTREE_TEST__:PASS:
                 "end": 89,
                 "decorators": [],
                 "name": "previousDiffAction",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -88,13 +90,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 91,
                   "end": 105,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 91,
                     "end": 105,
                     "decorators": [],
                     "name": "NavigateAction",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -104,6 +108,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 111,
               "end": 147,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -112,7 +117,8 @@ __ESTREE_TEST__:PASS:
                 "end": 122,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -164,10 +170,14 @@ __ESTREE_TEST__:PASS:
                       "end": 138,
                       "decorators": [],
                       "name": "ID",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -180,10 +190,12 @@ __ESTREE_TEST__:PASS:
           "end": 47,
           "decorators": [],
           "name": "DiffEditor",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 47,
@@ -194,6 +206,8 @@ __ESTREE_TEST__:PASS:
               "start": 48,
               "end": 49,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -201,7 +215,8 @@ __ESTREE_TEST__:PASS:
                 "end": 49,
                 "decorators": [],
                 "name": "A",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             },
@@ -210,6 +225,8 @@ __ESTREE_TEST__:PASS:
               "start": 51,
               "end": 52,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -217,7 +234,8 @@ __ESTREE_TEST__:PASS:
                 "end": 52,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             },
@@ -226,6 +244,8 @@ __ESTREE_TEST__:PASS:
               "start": 54,
               "end": 55,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -233,7 +253,8 @@ __ESTREE_TEST__:PASS:
                 "end": 55,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -258,6 +279,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 177,
             "end": 221,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -266,7 +288,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -331,12 +354,15 @@ __ESTREE_TEST__:PASS:
                         "end": 197,
                         "decorators": [],
                         "name": "DiffEditor",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -349,10 +375,13 @@ __ESTREE_TEST__:PASS:
         "end": 170,
         "decorators": [],
         "name": "NavigateAction",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

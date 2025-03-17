@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 20,
             "end": 26,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 20,
@@ -31,6 +32,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 31,
             "end": 39,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 31,
@@ -56,9 +58,12 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -74,6 +79,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 89,
             "end": 95,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 89,
@@ -86,6 +92,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 100,
             "end": 108,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 100,
@@ -111,7 +118,8 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "b",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -140,10 +148,12 @@ __ESTREE_TEST__:PASS:
             "end": 74,
             "decorators": [],
             "name": "IterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

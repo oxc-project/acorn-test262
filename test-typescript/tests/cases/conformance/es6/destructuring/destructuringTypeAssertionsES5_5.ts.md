@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -45,10 +46,12 @@ __ESTREE_TEST__:PASS:
                   "end": 7,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            ]
+            ],
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",

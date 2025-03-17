@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "unreachable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -257,7 +258,8 @@ __ESTREE_TEST__:PASS:
                       "end": 66,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "operator": "typeof",
                     "prefix": true
@@ -267,13 +269,15 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 342,
                   "end": 344,
+                  "directive": null,
                   "expression": {
                     "type": "Identifier",
                     "start": 342,
                     "end": 343,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -310,7 +314,8 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 40
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],

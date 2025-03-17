@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "Unresolved",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "Unresolved",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -64,7 +66,8 @@ __ESTREE_TEST__:PASS:
               "end": 109,
               "decorators": [],
               "name": "foo1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -96,13 +99,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 120,
                       "end": 130,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 120,
                         "end": 130,
                         "decorators": [],
                         "name": "Unresolved",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -117,7 +122,8 @@ __ESTREE_TEST__:PASS:
                   "start": 133,
                   "end": 137
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -149,7 +155,8 @@ __ESTREE_TEST__:PASS:
               "end": 162,
               "decorators": [],
               "name": "foo2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -186,13 +193,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 173,
                           "end": 183,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 173,
                             "end": 183,
                             "decorators": [],
                             "name": "Unresolved",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -214,7 +223,8 @@ __ESTREE_TEST__:PASS:
                   "start": 198,
                   "end": 202
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -246,7 +256,8 @@ __ESTREE_TEST__:PASS:
               "end": 227,
               "decorators": [],
               "name": "foo3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -278,13 +289,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 237,
                       "end": 247,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 237,
                         "end": 247,
                         "decorators": [],
                         "name": "Unresolved",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -299,7 +312,8 @@ __ESTREE_TEST__:PASS:
                   "start": 250,
                   "end": 254
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],

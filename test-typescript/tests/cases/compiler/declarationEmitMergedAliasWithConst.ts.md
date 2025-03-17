@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "Color",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "TSAsExpression",
@@ -48,7 +49,8 @@ __ESTREE_TEST__:PASS:
                       "end": 30,
                       "decorators": [],
                       "name": "Red",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
                       "end": 48,
                       "decorators": [],
                       "name": "Green",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -98,7 +101,8 @@ __ESTREE_TEST__:PASS:
                       "end": 67,
                       "decorators": [],
                       "name": "Blue",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -118,13 +122,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 81,
                 "end": 86,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 81,
                   "end": 86,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -153,7 +159,8 @@ __ESTREE_TEST__:PASS:
           "end": 105,
           "decorators": [],
           "name": "Color",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSTypeQuery",
@@ -165,9 +172,12 @@ __ESTREE_TEST__:PASS:
             "end": 120,
             "decorators": [],
             "name": "Color",
-            "optional": false
-          }
-        }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -189,7 +199,8 @@ __ESTREE_TEST__:PASS:
           "end": 139,
           "decorators": [],
           "name": "Colors",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
@@ -204,13 +215,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 154,
               "end": 159,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 154,
                 "end": 159,
                 "decorators": [],
                 "name": "Color",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -218,16 +231,19 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 142,
             "end": 147,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 142,
               "end": 147,
               "decorators": [],
               "name": "Color",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

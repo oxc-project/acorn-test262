@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 22,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 14,
@@ -45,6 +46,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 23,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 23,
@@ -68,6 +70,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 34,
       "end": 50,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 34,
@@ -91,6 +94,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 51,
       "end": 65,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 51,
@@ -114,6 +118,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 66,
       "end": 75,
+      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 66,

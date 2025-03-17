@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 20,
       "end": 27,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 20,
@@ -71,14 +72,17 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "a",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 41,
+      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 29,
@@ -125,8 +129,10 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "a",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "JQuery",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "module",
@@ -77,13 +79,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 84,
                         "end": 90,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 84,
                           "end": 90,
                           "decorators": [],
                           "name": "JQuery",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -108,7 +112,8 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

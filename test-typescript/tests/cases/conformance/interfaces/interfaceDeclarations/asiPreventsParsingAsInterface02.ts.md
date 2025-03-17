@@ -19,26 +19,30 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 47,
             "end": 56,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 47,
               "end": 56,
               "decorators": [],
               "name": "interface",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 108,
             "end": 109,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 108,
               "end": 109,
               "decorators": [],
               "name": "I",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -58,7 +62,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -97,7 +102,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

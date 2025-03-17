@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
             "end": 46,
             "decorators": [],
             "name": "k1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -96,7 +98,8 @@ __ESTREE_TEST__:PASS:
                     "end": 58,
                     "name": "h2"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -141,7 +144,8 @@ __ESTREE_TEST__:PASS:
                     "end": 75,
                     "name": "h1"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -167,7 +171,8 @@ __ESTREE_TEST__:PASS:
                 "end": 53,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -191,7 +196,8 @@ __ESTREE_TEST__:PASS:
             "end": 102,
             "decorators": [],
             "name": "k2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -240,7 +246,8 @@ __ESTREE_TEST__:PASS:
                     "end": 114,
                     "name": "h2"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -279,7 +286,8 @@ __ESTREE_TEST__:PASS:
                             "end": 153,
                             "decorators": [],
                             "name": "user",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -288,7 +296,8 @@ __ESTREE_TEST__:PASS:
                             "end": 158,
                             "decorators": [],
                             "name": "name",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -315,7 +324,8 @@ __ESTREE_TEST__:PASS:
                         "end": 147,
                         "name": "h2"
                       },
-                      "selfClosing": false
+                      "selfClosing": false,
+                      "typeArguments": null
                     }
                   },
                   "expression": true,
@@ -340,7 +350,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ],
@@ -366,7 +378,8 @@ __ESTREE_TEST__:PASS:
                 "end": 109,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -390,7 +403,8 @@ __ESTREE_TEST__:PASS:
             "end": 179,
             "decorators": [],
             "name": "k3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -465,7 +479,8 @@ __ESTREE_TEST__:PASS:
                 "end": 186,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

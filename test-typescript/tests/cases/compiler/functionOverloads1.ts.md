@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 15,
       "async": false,
+      "body": null,
       "declare": false,
       "expression": false,
       "generator": false,
@@ -19,14 +20,18 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 20,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 16,
@@ -81,7 +86,8 @@ __ESTREE_TEST__:PASS:
         "end": 33,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -93,7 +99,8 @@ __ESTREE_TEST__:PASS:
           "start": 36,
           "end": 42
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

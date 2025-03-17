@@ -23,7 +23,8 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "ENUM",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -51,8 +52,10 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "A",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -65,8 +68,10 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "B",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -79,7 +84,8 @@ __ESTREE_TEST__:PASS:
               "end": 64,
               "raw": "\"\"",
               "value": ""
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -91,7 +97,8 @@ __ESTREE_TEST__:PASS:
         "end": 53,
         "decorators": [],
         "name": "ENUM1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -115,7 +122,8 @@ __ESTREE_TEST__:PASS:
             "end": 105,
             "decorators": [],
             "name": "ResultIsNumber1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 113,
               "decorators": [],
               "name": "ENUM",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "-",
             "prefix": true
@@ -153,7 +162,8 @@ __ESTREE_TEST__:PASS:
             "end": 150,
             "decorators": [],
             "name": "ResultIsNumber2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -170,7 +180,8 @@ __ESTREE_TEST__:PASS:
                 "end": 159,
                 "decorators": [],
                 "name": "ENUM1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -205,7 +216,8 @@ __ESTREE_TEST__:PASS:
             "end": 185,
             "decorators": [],
             "name": "ResultIsNumber3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "UnaryExpression",
@@ -227,7 +239,8 @@ __ESTREE_TEST__:PASS:
                   "end": 195,
                   "decorators": [],
                   "name": "ENUM1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -236,7 +249,8 @@ __ESTREE_TEST__:PASS:
                   "end": 197,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -250,7 +264,8 @@ __ESTREE_TEST__:PASS:
                   "end": 205,
                   "decorators": [],
                   "name": "ENUM1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -274,6 +289,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 242,
       "end": 248,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 242,
@@ -284,7 +300,8 @@ __ESTREE_TEST__:PASS:
           "end": 247,
           "decorators": [],
           "name": "ENUM",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "-",
         "prefix": true
@@ -294,6 +311,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 249,
       "end": 256,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 249,
@@ -304,7 +322,8 @@ __ESTREE_TEST__:PASS:
           "end": 255,
           "decorators": [],
           "name": "ENUM1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "-",
         "prefix": true
@@ -314,6 +333,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 257,
       "end": 269,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 257,
@@ -329,7 +349,8 @@ __ESTREE_TEST__:PASS:
             "end": 263,
             "decorators": [],
             "name": "ENUM1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -348,6 +369,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 270,
       "end": 283,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 270,
@@ -363,7 +385,8 @@ __ESTREE_TEST__:PASS:
               "end": 275,
               "decorators": [],
               "name": "ENUM",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "-",
             "prefix": true
@@ -374,7 +397,8 @@ __ESTREE_TEST__:PASS:
             "end": 282,
             "decorators": [],
             "name": "ENUM1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ]
       }

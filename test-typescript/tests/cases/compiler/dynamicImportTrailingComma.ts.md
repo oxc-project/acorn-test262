@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "path",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -39,6 +40,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 36,
+      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 22,
@@ -50,7 +52,8 @@ __ESTREE_TEST__:PASS:
           "end": 33,
           "decorators": [],
           "name": "path",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

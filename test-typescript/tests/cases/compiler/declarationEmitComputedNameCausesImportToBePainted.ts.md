@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 16,
               "decorators": [],
               "name": "Key",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -39,9 +40,11 @@ __ESTREE_TEST__:PASS:
                 "end": 25,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -70,6 +73,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 58,
               "end": 72,
+              "accessibility": null,
               "computed": true,
               "key": {
                 "type": "Identifier",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
                 "end": 62,
                 "decorators": [],
                 "name": "Key",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -103,8 +108,10 @@ __ESTREE_TEST__:PASS:
           "end": 53,
           "decorators": [],
           "name": "Context",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -146,7 +153,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "Key",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -155,7 +163,8 @@ __ESTREE_TEST__:PASS:
             "end": 12,
             "decorators": [],
             "name": "Key",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -168,7 +177,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "Context",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -177,7 +187,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "Context",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -212,13 +223,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 65,
                   "end": 72,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 65,
                     "end": 72,
                     "decorators": [],
                     "name": "Context",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -239,7 +252,8 @@ __ESTREE_TEST__:PASS:
                     "end": 83,
                     "decorators": [],
                     "name": "Key",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "init",
                   "method": false,
@@ -285,7 +299,8 @@ __ESTREE_TEST__:PASS:
               "end": 120,
               "decorators": [],
               "name": "withContext",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -298,7 +313,8 @@ __ESTREE_TEST__:PASS:
                 "end": 159,
                 "decorators": [],
                 "name": "value",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "expression": true,
               "generator": false,
@@ -322,7 +338,8 @@ __ESTREE_TEST__:PASS:
                         "end": 130,
                         "decorators": [],
                         "name": "Key",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -334,7 +351,8 @@ __ESTREE_TEST__:PASS:
                         "end": 138,
                         "decorators": [],
                         "name": "value",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ],
@@ -346,18 +364,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 142,
                       "end": 149,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 142,
                         "end": 149,
                         "decorators": [],
                         "name": "Context",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],

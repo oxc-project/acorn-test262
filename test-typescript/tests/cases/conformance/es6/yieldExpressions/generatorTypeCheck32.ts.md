@@ -74,7 +74,8 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 34
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -93,14 +94,17 @@ __ESTREE_TEST__:PASS:
                 "end": 50,
                 "decorators": [],
                 "name": "s",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "delegate": false
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],

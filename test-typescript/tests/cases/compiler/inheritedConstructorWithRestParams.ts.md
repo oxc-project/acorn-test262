@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 17,
             "end": 48,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -59,7 +61,8 @@ __ESTREE_TEST__:PASS:
                     "end": 33,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -77,9 +80,12 @@ __ESTREE_TEST__:PASS:
                         "end": 41
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -92,10 +98,13 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -116,7 +125,8 @@ __ESTREE_TEST__:PASS:
         "end": 65,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -125,13 +135,17 @@ __ESTREE_TEST__:PASS:
         "end": 78,
         "decorators": [],
         "name": "Base",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 90,
       "end": 110,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 90,
@@ -158,14 +172,17 @@ __ESTREE_TEST__:PASS:
           "end": 101,
           "decorators": [],
           "name": "Derived",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 111,
       "end": 127,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 111,
@@ -185,14 +202,17 @@ __ESTREE_TEST__:PASS:
           "end": 122,
           "decorators": [],
           "name": "Derived",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 128,
       "end": 142,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 128,
@@ -204,14 +224,17 @@ __ESTREE_TEST__:PASS:
           "end": 139,
           "decorators": [],
           "name": "Derived",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 154,
       "end": 173,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 154,
@@ -238,14 +261,17 @@ __ESTREE_TEST__:PASS:
           "end": 165,
           "decorators": [],
           "name": "Derived",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 174,
       "end": 189,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 174,
@@ -265,8 +291,10 @@ __ESTREE_TEST__:PASS:
           "end": 185,
           "decorators": [],
           "name": "Derived",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

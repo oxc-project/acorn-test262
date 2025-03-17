@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "bar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -43,13 +44,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 23,
               "end": 24,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 23,
                 "end": 24,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -69,18 +72,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 33,
               "end": 34,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 33,
                 "end": 34,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 12,
@@ -91,6 +97,8 @@ __ESTREE_TEST__:PASS:
             "start": 13,
             "end": 14,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -98,7 +106,8 @@ __ESTREE_TEST__:PASS:
               "end": 14,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -109,6 +118,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 40,
       "end": 51,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 40,
@@ -135,9 +145,11 @@ __ESTREE_TEST__:PASS:
           "end": 43,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 58,
                   "end": 89,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -35,7 +36,8 @@ __ESTREE_TEST__:PASS:
                     "end": 64,
                     "decorators": [],
                     "name": "decode",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -70,12 +72,14 @@ __ESTREE_TEST__:PASS:
                       "end": 88
                     }
                   },
-                  "static": false
+                  "static": false,
+                  "typeParameters": null
                 },
                 {
                   "type": "TSMethodSignature",
                   "start": 98,
                   "end": 135,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -83,7 +87,8 @@ __ESTREE_TEST__:PASS:
                     "end": 104,
                     "decorators": [],
                     "name": "encode",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -123,7 +128,8 @@ __ESTREE_TEST__:PASS:
                       "end": 134
                     }
                   },
-                  "static": false
+                  "static": false,
+                  "typeParameters": null
                 }
               ]
             },
@@ -135,8 +141,10 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "ucs2",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -168,13 +176,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 164,
                         "end": 168,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 164,
                           "end": 168,
                           "decorators": [],
                           "name": "ucs2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }

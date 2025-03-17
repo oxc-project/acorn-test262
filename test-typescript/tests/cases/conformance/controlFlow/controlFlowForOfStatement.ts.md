@@ -89,13 +89,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 54,
                     "end": 60,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 54,
                       "end": 60,
                       "decorators": [],
                       "name": "RegExp",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -122,6 +124,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 82,
             "end": 91,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 82,
@@ -133,7 +136,8 @@ __ESTREE_TEST__:PASS:
                 "end": 83,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -158,6 +162,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 121,
                   "end": 143,
+                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 121,
@@ -169,7 +174,8 @@ __ESTREE_TEST__:PASS:
                       "end": 122,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "CallExpression",
@@ -187,7 +193,8 @@ __ESTREE_TEST__:PASS:
                           "end": 126,
                           "decorators": [],
                           "name": "x",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -196,10 +203,12 @@ __ESTREE_TEST__:PASS:
                           "end": 140,
                           "decorators": [],
                           "name": "toExponential",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 }
@@ -211,7 +220,8 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "right": {
               "type": "Identifier",
@@ -219,20 +229,23 @@ __ESTREE_TEST__:PASS:
               "end": 109,
               "decorators": [],
               "name": "obj",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 154,
             "end": 156,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 154,
               "end": 155,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -246,9 +259,12 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

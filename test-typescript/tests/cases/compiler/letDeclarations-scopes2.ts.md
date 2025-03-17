@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "global",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -56,7 +57,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33,
                 "decorators": [],
                 "name": "local",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": {
                 "type": "Literal",
@@ -74,39 +76,45 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 44,
           "end": 50,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 44,
             "end": 49,
             "decorators": [],
             "name": "local",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
           "type": "ExpressionStatement",
           "start": 62,
           "end": 69,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 62,
             "end": 68,
             "decorators": [],
             "name": "global",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
           "type": "ExpressionStatement",
           "start": 80,
           "end": 87,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 80,
             "end": 86,
             "decorators": [],
             "name": "local2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -130,7 +138,8 @@ __ESTREE_TEST__:PASS:
                     "end": 122,
                     "decorators": [],
                     "name": "local2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": {
                     "type": "Literal",
@@ -148,39 +157,45 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 137,
               "end": 143,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 137,
                 "end": 142,
                 "decorators": [],
                 "name": "local",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
               "type": "ExpressionStatement",
               "start": 159,
               "end": 166,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 159,
                 "end": 165,
                 "decorators": [],
                 "name": "global",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
               "type": "ExpressionStatement",
               "start": 181,
               "end": 188,
+              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 181,
                 "end": 187,
                 "decorators": [],
                 "name": "local2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -189,39 +204,45 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 207,
           "end": 213,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 207,
             "end": 212,
             "decorators": [],
             "name": "local",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
           "type": "ExpressionStatement",
           "start": 225,
           "end": 232,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 225,
             "end": 231,
             "decorators": [],
             "name": "global",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
           "type": "ExpressionStatement",
           "start": 243,
           "end": 250,
+          "directive": null,
           "expression": {
             "type": "Identifier",
             "start": 243,
             "end": 249,
             "decorators": [],
             "name": "local2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -230,39 +251,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 263,
       "end": 269,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 263,
         "end": 268,
         "decorators": [],
         "name": "local",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 280,
       "end": 287,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 280,
         "end": 286,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 294,
       "end": 301,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 294,
         "end": 300,
         "decorators": [],
         "name": "local2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

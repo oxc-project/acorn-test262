@@ -56,10 +56,13 @@ __ESTREE_TEST__:PASS:
                             "end": 106,
                             "decorators": [],
                             "name": "Val",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "implements": [],
-                          "superClass": null
+                          "superClass": null,
+                          "superTypeArguments": null,
+                          "typeParameters": null
                         },
                         "exportKind": "value",
                         "source": null,
@@ -78,6 +81,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSPropertySignature",
                               "start": 158,
                               "end": 177,
+                              "accessibility": null,
                               "computed": false,
                               "key": {
                                 "type": "Identifier",
@@ -85,7 +89,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 168,
                                 "decorators": [],
                                 "name": "createText",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "optional": false,
                               "readonly": false,
@@ -111,8 +116,10 @@ __ESTREE_TEST__:PASS:
                           "end": 139,
                           "decorators": [],
                           "name": "common",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeParameters": null
                       },
                       {
                         "type": "TSModuleDeclaration",
@@ -136,6 +143,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "TSMethodSignature",
                                     "start": 282,
                                     "end": 295,
+                                    "accessibility": null,
                                     "computed": false,
                                     "key": {
                                       "type": "Identifier",
@@ -143,7 +151,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 285,
                                       "decorators": [],
                                       "name": "gfx",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "kind": "method",
                                     "optional": false,
@@ -159,7 +168,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 295
                                       }
                                     },
-                                    "static": false
+                                    "static": false,
+                                    "typeParameters": null
                                   }
                                 ]
                               },
@@ -171,8 +181,10 @@ __ESTREE_TEST__:PASS:
                                 "end": 259,
                                 "decorators": [],
                                 "name": "createText",
-                                "optional": false
-                              }
+                                "optional": false,
+                                "typeAnnotation": null
+                              },
+                              "typeParameters": null
                             }
                           ]
                         },
@@ -184,7 +196,8 @@ __ESTREE_TEST__:PASS:
                           "end": 220,
                           "decorators": [],
                           "name": "common",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "kind": "namespace"
                       }
@@ -198,7 +211,8 @@ __ESTREE_TEST__:PASS:
                     "end": 75,
                     "decorators": [],
                     "name": "axis2d",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "namespace"
                 }
@@ -212,7 +226,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "charting",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }
@@ -226,7 +241,8 @@ __ESTREE_TEST__:PASS:
         "end": 23,
         "decorators": [],
         "name": "dojox",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -250,7 +266,8 @@ __ESTREE_TEST__:PASS:
               "end": 419,
               "decorators": [],
               "name": "exp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -271,7 +288,8 @@ __ESTREE_TEST__:PASS:
                     "end": 427,
                     "decorators": [],
                     "name": "dojox",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -279,7 +297,8 @@ __ESTREE_TEST__:PASS:
                     "end": 436,
                     "decorators": [],
                     "name": "charting",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "right": {
@@ -288,7 +307,8 @@ __ESTREE_TEST__:PASS:
                   "end": 443,
                   "decorators": [],
                   "name": "axis2d",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -297,7 +317,8 @@ __ESTREE_TEST__:PASS:
                 "end": 450,
                 "decorators": [],
                 "name": "common",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -311,7 +332,8 @@ __ESTREE_TEST__:PASS:
               "end": 467,
               "decorators": [],
               "name": "exp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]

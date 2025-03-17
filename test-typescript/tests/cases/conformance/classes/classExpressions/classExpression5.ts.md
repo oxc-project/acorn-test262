@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 60,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -38,6 +39,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 16,
                     "end": 50,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -46,7 +48,8 @@ __ESTREE_TEST__:PASS:
                       "end": 18,
                       "decorators": [],
                       "name": "hi",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -80,7 +83,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -89,8 +94,11 @@ __ESTREE_TEST__:PASS:
               "decorators": [],
               "id": null,
               "implements": [],
-              "superClass": null
-            }
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
+            },
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -99,10 +107,12 @@ __ESTREE_TEST__:PASS:
             "end": 57,
             "decorators": [],
             "name": "hi",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

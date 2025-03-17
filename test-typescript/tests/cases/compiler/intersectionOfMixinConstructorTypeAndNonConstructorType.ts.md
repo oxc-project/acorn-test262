@@ -40,6 +40,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 37,
                         "end": 51,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                           "end": 40,
                           "decorators": [],
                           "name": "foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -85,7 +87,8 @@ __ESTREE_TEST__:PASS:
                               "end": 67,
                               "decorators": [],
                               "name": "args",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "decorators": [],
                             "optional": false,
@@ -103,7 +106,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 72
                                 }
                               }
-                            }
+                            },
+                            "value": null
                           }
                         ],
                         "returnType": {
@@ -115,7 +119,8 @@ __ESTREE_TEST__:PASS:
                             "start": 77,
                             "end": 80
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     ]
                   }
@@ -133,6 +138,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 83,
       "end": 91,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 83,
@@ -144,8 +150,10 @@ __ESTREE_TEST__:PASS:
           "end": 88,
           "decorators": [],
           "name": "x",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

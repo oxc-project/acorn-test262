@@ -42,8 +42,10 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "ImportInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -55,7 +57,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }
@@ -108,8 +111,10 @@ __ESTREE_TEST__:PASS:
               "end": 58,
               "decorators": [],
               "name": "RequireInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -121,7 +126,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     }
@@ -164,8 +170,10 @@ __ESTREE_TEST__:PASS:
               "end": 198,
               "decorators": [],
               "name": "ImportInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           },
           {
             "type": "TSInterfaceHeritage",
@@ -177,8 +185,10 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "decorators": [],
               "name": "RequireInterface",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "id": {
@@ -187,8 +197,10 @@ __ESTREE_TEST__:PASS:
           "end": 174,
           "decorators": [],
           "name": "LocalInterface",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

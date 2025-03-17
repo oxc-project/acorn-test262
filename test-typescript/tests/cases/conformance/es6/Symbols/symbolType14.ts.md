@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
@@ -20,8 +21,10 @@ __ESTREE_TEST__:PASS:
           "end": 10,
           "decorators": [],
           "name": "Symbol",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

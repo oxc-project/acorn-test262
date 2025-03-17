@@ -23,6 +23,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 41,
               "end": 64,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -30,7 +31,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "rejectOnNotFound",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -56,8 +58,10 @@ __ESTREE_TEST__:PASS:
           "end": 36,
           "decorators": [],
           "name": "PrismaClientOptions",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -93,12 +97,14 @@ __ESTREE_TEST__:PASS:
                 "end": 166,
                 "decorators": [],
                 "name": "fetcher",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             }
           ]
@@ -111,10 +117,12 @@ __ESTREE_TEST__:PASS:
           "end": 93,
           "decorators": [],
           "name": "PrismaClient",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 93,
@@ -129,26 +137,30 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 104,
                 "end": 123,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 104,
                   "end": 123,
                   "decorators": [],
                   "name": "PrismaClientOptions",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "default": {
                 "type": "TSTypeReference",
                 "start": 126,
                 "end": 145,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 126,
                   "end": 145,
                   "decorators": [],
                   "name": "PrismaClientOptions",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "in": false,
@@ -158,7 +170,8 @@ __ESTREE_TEST__:PASS:
                 "end": 95,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -232,7 +245,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "PrismaClient",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -241,7 +255,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "name": "PrismaClient",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -287,13 +302,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 104,
                         "end": 121,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 104,
                           "end": 121,
                           "decorators": [],
                           "name": "TPrismaClientCtor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -312,13 +329,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 126,
                         "end": 143,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 126,
                           "end": 143,
                           "decorators": [],
                           "name": "TPrismaClientCtor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -330,6 +349,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 148,
                             "end": 165,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
@@ -337,7 +357,8 @@ __ESTREE_TEST__:PASS:
                               "end": 156,
                               "decorators": [],
                               "name": "enhanced",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "readonly": false,
@@ -368,6 +389,8 @@ __ESTREE_TEST__:PASS:
                       "start": 77,
                       "end": 94,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -375,7 +398,8 @@ __ESTREE_TEST__:PASS:
                         "end": 94,
                         "decorators": [],
                         "name": "TPrismaClientCtor",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }
@@ -406,7 +430,8 @@ __ESTREE_TEST__:PASS:
             "end": 189,
             "decorators": [],
             "name": "EnhancedPrisma",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -419,7 +444,8 @@ __ESTREE_TEST__:PASS:
                 "end": 218,
                 "decorators": [],
                 "name": "PrismaClient",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -428,9 +454,11 @@ __ESTREE_TEST__:PASS:
               "end": 205,
               "decorators": [],
               "name": "enhancePrisma",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -452,8 +480,10 @@ __ESTREE_TEST__:PASS:
           "end": 254,
           "decorators": [],
           "name": "EnhancedPrisma",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       },
       "exportKind": "value"
     }

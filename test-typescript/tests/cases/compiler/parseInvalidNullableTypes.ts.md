@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "f1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -75,7 +76,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -96,11 +98,14 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": false
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -122,7 +127,8 @@ __ESTREE_TEST__:PASS:
         "end": 70,
         "decorators": [],
         "name": "f2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -151,11 +157,15 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": true
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -177,7 +187,8 @@ __ESTREE_TEST__:PASS:
         "end": 97,
         "decorators": [],
         "name": "f3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -206,11 +217,15 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": true
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -232,7 +247,8 @@ __ESTREE_TEST__:PASS:
         "end": 125,
         "decorators": [],
         "name": "f4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -261,11 +277,15 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": false
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -287,7 +307,8 @@ __ESTREE_TEST__:PASS:
         "end": 152,
         "decorators": [],
         "name": "f5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -316,11 +337,15 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": false
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -355,7 +380,8 @@ __ESTREE_TEST__:PASS:
         "end": 180,
         "decorators": [],
         "name": "f6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -396,9 +422,12 @@ __ESTREE_TEST__:PASS:
             }
           },
           "id": 0,
+          "original": null,
+          "emitNode": null,
           "postfix": false
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -416,7 +445,8 @@ __ESTREE_TEST__:PASS:
             "end": 230,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -444,6 +474,8 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": true
             }
           }
@@ -488,6 +520,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": true
               }
             }
@@ -520,7 +554,8 @@ __ESTREE_TEST__:PASS:
             "end": 274,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSAsExpression",
@@ -548,6 +583,8 @@ __ESTREE_TEST__:PASS:
                 }
               },
               "id": 0,
+              "original": null,
+              "emitNode": null,
               "postfix": false
             }
           }
@@ -592,6 +629,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": false
               }
             }
@@ -644,6 +683,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": true
               }
             }
@@ -690,6 +731,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": true
               }
             }
@@ -736,6 +779,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": true
               }
             }
@@ -782,6 +827,8 @@ __ESTREE_TEST__:PASS:
                   }
                 },
                 "id": 0,
+                "original": null,
+                "emitNode": null,
                 "postfix": true
               }
             }

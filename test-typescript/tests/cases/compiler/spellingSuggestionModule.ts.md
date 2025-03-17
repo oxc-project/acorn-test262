@@ -74,13 +74,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 52,
       "end": 59,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 52,
         "end": 58,
         "decorators": [],
         "name": "foobar",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -152,13 +154,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 113,
       "end": 120,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 113,
         "end": 119,
         "decorators": [],
         "name": "barfoo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -223,7 +227,8 @@ __ESTREE_TEST__:PASS:
         "end": 143,
         "decorators": [],
         "name": "farboo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -231,13 +236,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 172,
       "end": 178,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 172,
         "end": 177,
         "decorators": [],
         "name": "faroo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

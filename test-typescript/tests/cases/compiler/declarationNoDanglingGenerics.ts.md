@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 19,
                     "end": 42,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
@@ -123,7 +124,8 @@ __ESTREE_TEST__:PASS:
                             "end": 169,
                             "decorators": [],
                             "name": "kind",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "quasis": [
@@ -156,8 +158,10 @@ __ESTREE_TEST__:PASS:
                       "end": 144,
                       "decorators": [],
                       "name": "Error",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   }
                 }
               ]
@@ -173,7 +177,8 @@ __ESTREE_TEST__:PASS:
                 "end": 115,
                 "decorators": [],
                 "name": "kindCache",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -182,7 +187,8 @@ __ESTREE_TEST__:PASS:
                 "end": 120,
                 "decorators": [],
                 "name": "kind",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -190,6 +196,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 204,
             "end": 227,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 204,
@@ -206,7 +213,8 @@ __ESTREE_TEST__:PASS:
                   "end": 213,
                   "decorators": [],
                   "name": "kindCache",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -215,7 +223,8 @@ __ESTREE_TEST__:PASS:
                   "end": 218,
                   "decorators": [],
                   "name": "kind",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -238,7 +247,8 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "register",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -281,7 +291,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -297,6 +308,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 292,
             "end": 307,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 292,
@@ -308,7 +320,8 @@ __ESTREE_TEST__:PASS:
                   "end": 305,
                   "decorators": [],
                   "name": "kind",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
               "callee": {
@@ -317,9 +330,11 @@ __ESTREE_TEST__:PASS:
                 "end": 300,
                 "decorators": [],
                 "name": "register",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           },
           {
@@ -340,6 +355,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 330,
                     "end": 369,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -350,7 +366,8 @@ __ESTREE_TEST__:PASS:
                       "end": 354,
                       "decorators": [],
                       "name": "THE_KIND",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -364,13 +381,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 356,
                         "end": 361,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 356,
                           "end": 361,
                           "decorators": [],
                           "name": "TKind",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -380,13 +399,15 @@ __ESTREE_TEST__:PASS:
                       "end": 368,
                       "decorators": [],
                       "name": "kind",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
                     "type": "PropertyDefinition",
                     "start": 374,
                     "end": 402,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -397,7 +418,8 @@ __ESTREE_TEST__:PASS:
                       "end": 387,
                       "decorators": [],
                       "name": "kind",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -411,13 +433,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 389,
                         "end": 394,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 389,
                           "end": 394,
                           "decorators": [],
                           "name": "TKind",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -427,7 +451,8 @@ __ESTREE_TEST__:PASS:
                       "end": 401,
                       "decorators": [],
                       "name": "kind",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -436,7 +461,9 @@ __ESTREE_TEST__:PASS:
               "decorators": [],
               "id": null,
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             }
           }
         ]
@@ -450,7 +477,8 @@ __ESTREE_TEST__:PASS:
         "end": 252,
         "decorators": [],
         "name": "ClassFactory",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -468,18 +496,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 281,
               "end": 286,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 281,
                 "end": 286,
                 "decorators": [],
                 "name": "TKind",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 252,
@@ -495,6 +526,7 @@ __ESTREE_TEST__:PASS:
               "start": 267,
               "end": 273
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -502,7 +534,8 @@ __ESTREE_TEST__:PASS:
               "end": 258,
               "decorators": [],
               "name": "TKind",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -523,6 +556,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 427,
             "end": 451,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -533,12 +567,14 @@ __ESTREE_TEST__:PASS:
               "end": 444,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 447,
@@ -551,6 +587,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 454,
             "end": 478,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -561,12 +598,14 @@ __ESTREE_TEST__:PASS:
               "end": 471,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 474,
@@ -579,6 +618,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 481,
             "end": 505,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -589,12 +629,14 @@ __ESTREE_TEST__:PASS:
               "end": 498,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": true,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 501,
@@ -613,10 +655,13 @@ __ESTREE_TEST__:PASS:
         "end": 422,
         "decorators": [],
         "name": "Kinds",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -642,7 +687,8 @@ __ESTREE_TEST__:PASS:
           "end": 527,
           "decorators": [],
           "name": "AKind",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -661,7 +707,8 @@ __ESTREE_TEST__:PASS:
                 "end": 554,
                 "decorators": [],
                 "name": "Kinds",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -670,7 +717,8 @@ __ESTREE_TEST__:PASS:
                 "end": 556,
                 "decorators": [],
                 "name": "A",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -680,10 +728,14 @@ __ESTREE_TEST__:PASS:
             "end": 548,
             "decorators": [],
             "name": "ClassFactory",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -713,7 +765,8 @@ __ESTREE_TEST__:PASS:
           "end": 581,
           "decorators": [],
           "name": "BKind",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -732,7 +785,8 @@ __ESTREE_TEST__:PASS:
                 "end": 608,
                 "decorators": [],
                 "name": "Kinds",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -741,7 +795,8 @@ __ESTREE_TEST__:PASS:
                 "end": 610,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -751,10 +806,14 @@ __ESTREE_TEST__:PASS:
             "end": 602,
             "decorators": [],
             "name": "ClassFactory",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -784,7 +843,8 @@ __ESTREE_TEST__:PASS:
           "end": 635,
           "decorators": [],
           "name": "CKind",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -803,7 +863,8 @@ __ESTREE_TEST__:PASS:
                 "end": 662,
                 "decorators": [],
                 "name": "Kinds",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -812,7 +873,8 @@ __ESTREE_TEST__:PASS:
                 "end": 664,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -822,10 +884,14 @@ __ESTREE_TEST__:PASS:
             "end": 656,
             "decorators": [],
             "name": "ClassFactory",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
-        }
+          "optional": false,
+          "typeArguments": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

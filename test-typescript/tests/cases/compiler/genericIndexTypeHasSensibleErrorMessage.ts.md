@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 8,
         "decorators": [],
         "name": "Wat",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 31,
             "end": 45,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -43,13 +45,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 35,
                     "end": 36,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 35,
                       "end": 36,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -85,6 +89,7 @@ __ESTREE_TEST__:PASS:
               "start": 19,
               "end": 25
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -92,7 +97,8 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

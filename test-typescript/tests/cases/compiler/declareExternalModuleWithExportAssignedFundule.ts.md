@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "express",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -33,6 +34,7 @@ __ESTREE_TEST__:PASS:
             "start": 55,
             "end": 97,
             "async": false,
+            "body": null,
             "declare": false,
             "expression": false,
             "generator": false,
@@ -42,7 +44,8 @@ __ESTREE_TEST__:PASS:
               "end": 71,
               "decorators": [],
               "name": "express",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "params": [],
             "returnType": {
@@ -53,6 +56,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 75,
                 "end": 96,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 75,
@@ -63,7 +67,8 @@ __ESTREE_TEST__:PASS:
                     "end": 82,
                     "decorators": [],
                     "name": "express",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -71,11 +76,13 @@ __ESTREE_TEST__:PASS:
                     "end": 96,
                     "decorators": [],
                     "name": "ExpressServer",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
-            }
+            },
+            "typeParameters": null
           },
           {
             "type": "TSModuleDeclaration",
@@ -104,6 +111,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSMethodSignature",
                           "start": 175,
                           "end": 211,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -111,7 +119,8 @@ __ESTREE_TEST__:PASS:
                             "end": 181,
                             "decorators": [],
                             "name": "enable",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "method",
                           "optional": false,
@@ -144,22 +153,26 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 197,
                               "end": 210,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 197,
                                 "end": 210,
                                 "decorators": [],
                                 "name": "ExpressServer",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
-                          "static": false
+                          "static": false,
+                          "typeParameters": null
                         },
                         {
                           "type": "TSMethodSignature",
                           "start": 225,
                           "end": 285,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -167,7 +180,8 @@ __ESTREE_TEST__:PASS:
                             "end": 229,
                             "decorators": [],
                             "name": "post",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "kind": "method",
                           "optional": false,
@@ -187,13 +201,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 236,
                                   "end": 242,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 236,
                                     "end": 242,
                                     "decorators": [],
                                     "name": "RegExp",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -229,13 +245,15 @@ __ESTREE_TEST__:PASS:
                                           "type": "TSTypeReference",
                                           "start": 259,
                                           "end": 267,
+                                          "typeArguments": null,
                                           "typeName": {
                                             "type": "Identifier",
                                             "start": 259,
                                             "end": 267,
                                             "decorators": [],
                                             "name": "Function",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         }
                                       }
@@ -250,7 +268,8 @@ __ESTREE_TEST__:PASS:
                                       "start": 272,
                                       "end": 276
                                     }
-                                  }
+                                  },
+                                  "typeParameters": null
                                 }
                               }
                             }
@@ -266,7 +285,8 @@ __ESTREE_TEST__:PASS:
                               "end": 284
                             }
                           },
-                          "static": false
+                          "static": false,
+                          "typeParameters": null
                         }
                       ]
                     },
@@ -278,8 +298,10 @@ __ESTREE_TEST__:PASS:
                       "end": 159,
                       "decorators": [],
                       "name": "ExpressServer",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -309,10 +331,13 @@ __ESTREE_TEST__:PASS:
                       "end": 339,
                       "decorators": [],
                       "name": "ExpressServerRequest",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -328,7 +353,8 @@ __ESTREE_TEST__:PASS:
               "end": 117,
               "decorators": [],
               "name": "express",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           }

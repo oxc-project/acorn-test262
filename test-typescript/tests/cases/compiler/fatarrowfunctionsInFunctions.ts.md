@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 84,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 27,
         "decorators": [],
         "name": "setTimeout",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -86,7 +88,8 @@ __ESTREE_TEST__:PASS:
           "start": 77,
           "end": 83
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -104,7 +107,8 @@ __ESTREE_TEST__:PASS:
             "end": 99,
             "decorators": [],
             "name": "messenger",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -122,7 +126,8 @@ __ESTREE_TEST__:PASS:
                   "end": 115,
                   "decorators": [],
                   "name": "message",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -147,7 +152,8 @@ __ESTREE_TEST__:PASS:
                   "end": 141,
                   "decorators": [],
                   "name": "start",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -179,7 +185,8 @@ __ESTREE_TEST__:PASS:
                               "end": 173,
                               "decorators": [],
                               "name": "_self",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "ThisExpression",
@@ -195,6 +202,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 190,
                         "end": 270,
+                        "directive": null,
                         "expression": {
                           "type": "CallExpression",
                           "start": 190,
@@ -214,6 +222,7 @@ __ESTREE_TEST__:PASS:
                                     "type": "ExpressionStatement",
                                     "start": 226,
                                     "end": 251,
+                                    "directive": null,
                                     "expression": {
                                       "type": "CallExpression",
                                       "start": 226,
@@ -235,7 +244,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 231,
                                             "decorators": [],
                                             "name": "_self",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           },
                                           "optional": false,
                                           "property": {
@@ -244,7 +254,8 @@ __ESTREE_TEST__:PASS:
                                             "end": 239,
                                             "decorators": [],
                                             "name": "message",
-                                            "optional": false
+                                            "optional": false,
+                                            "typeAnnotation": null
                                           }
                                         },
                                         "optional": false,
@@ -254,10 +265,12 @@ __ESTREE_TEST__:PASS:
                                           "end": 248,
                                           "decorators": [],
                                           "name": "toString",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       },
-                                      "optional": false
+                                      "optional": false,
+                                      "typeArguments": null
                                     }
                                   }
                                 ]
@@ -266,7 +279,9 @@ __ESTREE_TEST__:PASS:
                               "expression": false,
                               "generator": false,
                               "id": null,
-                              "params": []
+                              "params": [],
+                              "returnType": null,
+                              "typeParameters": null
                             },
                             {
                               "type": "Literal",
@@ -282,9 +297,11 @@ __ESTREE_TEST__:PASS:
                             "end": 200,
                             "decorators": [],
                             "name": "setTimeout",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       }
                     ]
@@ -293,7 +310,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -307,6 +326,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 282,
       "end": 300,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 282,
@@ -323,7 +343,8 @@ __ESTREE_TEST__:PASS:
             "end": 291,
             "decorators": [],
             "name": "messenger",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -332,10 +353,12 @@ __ESTREE_TEST__:PASS:
             "end": 297,
             "decorators": [],
             "name": "start",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

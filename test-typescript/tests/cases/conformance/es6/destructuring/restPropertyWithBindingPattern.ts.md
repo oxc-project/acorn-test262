@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1,
@@ -31,12 +32,16 @@ __ESTREE_TEST__:PASS:
                 "end": 7,
                 "decorators": [],
                 "optional": false,
-                "properties": []
+                "properties": [],
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -50,6 +55,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 16,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 17,
@@ -73,9 +79,12 @@ __ESTREE_TEST__:PASS:
                 "properties": []
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -89,6 +98,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 34,
       "end": 49,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -111,12 +121,16 @@ __ESTREE_TEST__:PASS:
                 "end": 41,
                 "decorators": [],
                 "elements": [],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",
@@ -130,6 +144,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 50,
       "end": 67,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 51,
@@ -153,9 +168,12 @@ __ESTREE_TEST__:PASS:
                 "elements": []
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
-          ]
+          ],
+          "typeAnnotation": null
         },
         "right": {
           "type": "ObjectExpression",

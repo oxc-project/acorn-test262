@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 33,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "openFile",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -31,13 +33,15 @@ __ESTREE_TEST__:PASS:
           "start": 29,
           "end": 33
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 34,
       "end": 68,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -47,7 +51,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "closeFile",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -59,13 +64,15 @@ __ESTREE_TEST__:PASS:
           "start": 64,
           "end": 68
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 69,
       "end": 105,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -75,7 +82,8 @@ __ESTREE_TEST__:PASS:
         "end": 99,
         "decorators": [],
         "name": "someOperation",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -88,7 +96,8 @@ __ESTREE_TEST__:PASS:
           "end": 105,
           "members": []
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -129,6 +138,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 122,
       "end": 132,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 122,
@@ -140,9 +150,11 @@ __ESTREE_TEST__:PASS:
           "end": 130,
           "decorators": [],
           "name": "openFile",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -158,6 +170,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 141,
             "end": 165,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 141,
@@ -169,7 +182,8 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "decorators": [],
                 "name": "result",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "CallExpression",
@@ -182,9 +196,11 @@ __ESTREE_TEST__:PASS:
                   "end": 163,
                   "decorators": [],
                   "name": "someOperation",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           }
@@ -199,6 +215,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 180,
             "end": 191,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 180,
@@ -210,9 +227,11 @@ __ESTREE_TEST__:PASS:
                 "end": 189,
                 "decorators": [],
                 "name": "closeFile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -223,13 +242,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 195,
       "end": 201,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 195,
         "end": 201,
         "decorators": [],
         "name": "result",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

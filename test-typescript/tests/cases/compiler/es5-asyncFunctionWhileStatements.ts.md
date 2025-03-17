@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 13,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -36,7 +37,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
             "end": 19,
             "decorators": [],
             "name": "z",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -81,7 +85,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         },
@@ -96,7 +101,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -127,13 +133,15 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 82,
                   "end": 84,
+                  "directive": null,
                   "expression": {
                     "type": "Identifier",
                     "start": 82,
                     "end": 83,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -144,7 +152,8 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -158,9 +167,12 @@ __ESTREE_TEST__:PASS:
         "end": 61,
         "decorators": [],
         "name": "whileStatement0",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -185,13 +197,15 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 147,
                   "end": 149,
+                  "directive": null,
                   "expression": {
                     "type": "Identifier",
                     "start": 147,
                     "end": 148,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -206,7 +220,8 @@ __ESTREE_TEST__:PASS:
                 "end": 143,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -221,9 +236,12 @@ __ESTREE_TEST__:PASS:
         "end": 120,
         "decorators": [],
         "name": "whileStatement1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -248,6 +266,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 206,
                   "end": 214,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 206,
@@ -258,7 +277,8 @@ __ESTREE_TEST__:PASS:
                       "end": 213,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -270,7 +290,8 @@ __ESTREE_TEST__:PASS:
               "end": 202,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -284,9 +305,12 @@ __ESTREE_TEST__:PASS:
         "end": 185,
         "decorators": [],
         "name": "whileStatement2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -321,7 +345,8 @@ __ESTREE_TEST__:PASS:
               "end": 267,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -335,9 +360,12 @@ __ESTREE_TEST__:PASS:
         "end": 250,
         "decorators": [],
         "name": "whileStatement3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -376,7 +404,8 @@ __ESTREE_TEST__:PASS:
                 "end": 339,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -391,9 +420,12 @@ __ESTREE_TEST__:PASS:
         "end": 316,
         "decorators": [],
         "name": "whileStatement4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -418,6 +450,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 409,
                   "end": 417,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 409,
@@ -428,7 +461,8 @@ __ESTREE_TEST__:PASS:
                       "end": 416,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -446,7 +480,8 @@ __ESTREE_TEST__:PASS:
               "end": 405,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -460,9 +495,12 @@ __ESTREE_TEST__:PASS:
         "end": 388,
         "decorators": [],
         "name": "whileStatement5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -506,6 +544,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 501,
                   "end": 509,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 501,
@@ -516,7 +555,8 @@ __ESTREE_TEST__:PASS:
                       "end": 508,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -528,7 +568,8 @@ __ESTREE_TEST__:PASS:
               "end": 480,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -542,9 +583,12 @@ __ESTREE_TEST__:PASS:
         "end": 463,
         "decorators": [],
         "name": "whileStatement6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -579,7 +623,8 @@ __ESTREE_TEST__:PASS:
                       "end": 579,
                       "decorators": [],
                       "name": "A",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -590,7 +635,8 @@ __ESTREE_TEST__:PASS:
                 "end": 565,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -599,7 +645,8 @@ __ESTREE_TEST__:PASS:
               "end": 555,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -613,9 +660,12 @@ __ESTREE_TEST__:PASS:
         "end": 545,
         "decorators": [],
         "name": "whileStatement7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -650,7 +700,8 @@ __ESTREE_TEST__:PASS:
                       "end": 656,
                       "decorators": [],
                       "name": "B",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -665,7 +716,8 @@ __ESTREE_TEST__:PASS:
                   "end": 642,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -675,7 +727,8 @@ __ESTREE_TEST__:PASS:
               "end": 626,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -689,9 +742,12 @@ __ESTREE_TEST__:PASS:
         "end": 616,
         "decorators": [],
         "name": "whileStatement8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -720,6 +776,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 717,
                     "end": 725,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 717,
@@ -730,7 +787,8 @@ __ESTREE_TEST__:PASS:
                         "end": 724,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -744,7 +802,8 @@ __ESTREE_TEST__:PASS:
                       "end": 736,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -755,7 +814,8 @@ __ESTREE_TEST__:PASS:
                 "end": 713,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -764,7 +824,8 @@ __ESTREE_TEST__:PASS:
               "end": 703,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -778,9 +839,12 @@ __ESTREE_TEST__:PASS:
         "end": 693,
         "decorators": [],
         "name": "whileStatement9",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -820,7 +884,8 @@ __ESTREE_TEST__:PASS:
                         "end": 815,
                         "decorators": [],
                         "name": "D",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "test": {
@@ -835,6 +900,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 817,
                     "end": 825,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 817,
@@ -845,7 +911,8 @@ __ESTREE_TEST__:PASS:
                         "end": 824,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -857,7 +924,8 @@ __ESTREE_TEST__:PASS:
                 "end": 794,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -866,7 +934,8 @@ __ESTREE_TEST__:PASS:
               "end": 784,
               "decorators": [],
               "name": "D",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -880,9 +949,12 @@ __ESTREE_TEST__:PASS:
         "end": 774,
         "decorators": [],
         "name": "whileStatement10",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -917,7 +989,8 @@ __ESTREE_TEST__:PASS:
               "end": 879,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -931,9 +1004,12 @@ __ESTREE_TEST__:PASS:
         "end": 862,
         "decorators": [],
         "name": "whileStatement11",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -972,7 +1048,8 @@ __ESTREE_TEST__:PASS:
                 "end": 949,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -987,9 +1064,12 @@ __ESTREE_TEST__:PASS:
         "end": 926,
         "decorators": [],
         "name": "whileStatement12",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1014,6 +1094,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1017,
                   "end": 1025,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 1017,
@@ -1024,7 +1105,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1024,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -1042,7 +1124,8 @@ __ESTREE_TEST__:PASS:
               "end": 1013,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1056,9 +1139,12 @@ __ESTREE_TEST__:PASS:
         "end": 996,
         "decorators": [],
         "name": "whileStatement13",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1102,6 +1188,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1104,
                   "end": 1112,
+                  "directive": null,
                   "expression": {
                     "type": "AwaitExpression",
                     "start": 1104,
@@ -1112,7 +1199,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1111,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1124,7 +1212,8 @@ __ESTREE_TEST__:PASS:
               "end": 1086,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1138,9 +1227,12 @@ __ESTREE_TEST__:PASS:
         "end": 1069,
         "decorators": [],
         "name": "whileStatement14",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1175,7 +1267,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1180,
                       "decorators": [],
                       "name": "E",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1186,7 +1279,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1169,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -1195,7 +1289,8 @@ __ESTREE_TEST__:PASS:
               "end": 1159,
               "decorators": [],
               "name": "E",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1209,9 +1304,12 @@ __ESTREE_TEST__:PASS:
         "end": 1149,
         "decorators": [],
         "name": "whileStatement15",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1246,7 +1344,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1255,
                       "decorators": [],
                       "name": "F",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1261,7 +1360,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1244,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -1271,7 +1371,8 @@ __ESTREE_TEST__:PASS:
               "end": 1228,
               "decorators": [],
               "name": "F",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1285,9 +1386,12 @@ __ESTREE_TEST__:PASS:
         "end": 1218,
         "decorators": [],
         "name": "whileStatement16",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1316,6 +1420,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 1317,
                     "end": 1325,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 1317,
@@ -1326,7 +1431,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1324,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -1340,7 +1446,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1333,
                       "decorators": [],
                       "name": "G",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -1351,7 +1458,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1313,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -1360,7 +1468,8 @@ __ESTREE_TEST__:PASS:
               "end": 1303,
               "decorators": [],
               "name": "G",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1374,9 +1483,12 @@ __ESTREE_TEST__:PASS:
         "end": 1293,
         "decorators": [],
         "name": "whileStatement17",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -1416,7 +1528,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1409,
                         "decorators": [],
                         "name": "H",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "test": {
@@ -1431,6 +1544,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 1411,
                     "end": 1419,
+                    "directive": null,
                     "expression": {
                       "type": "AwaitExpression",
                       "start": 1411,
@@ -1441,7 +1555,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1418,
                         "decorators": [],
                         "name": "y",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -1453,7 +1568,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1391,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "label": {
@@ -1462,7 +1578,8 @@ __ESTREE_TEST__:PASS:
               "end": 1381,
               "decorators": [],
               "name": "H",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -1476,9 +1593,12 @@ __ESTREE_TEST__:PASS:
         "end": 1371,
         "decorators": [],
         "name": "whileStatement18",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

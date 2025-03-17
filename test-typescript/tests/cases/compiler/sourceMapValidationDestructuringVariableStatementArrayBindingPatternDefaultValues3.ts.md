@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 27,
                     "end": 47,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 30,
                       "decorators": [],
                       "name": "log",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "method",
                     "optional": false,
@@ -77,7 +79,8 @@ __ESTREE_TEST__:PASS:
                         "end": 46
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               }
@@ -100,7 +103,8 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "Robot",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -123,7 +127,8 @@ __ESTREE_TEST__:PASS:
             "end": 86
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -136,7 +141,8 @@ __ESTREE_TEST__:PASS:
         "end": 111,
         "decorators": [],
         "name": "MultiSkilledRobot",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTupleType",
@@ -159,7 +165,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -186,13 +193,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 147,
                 "end": 152,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 147,
                   "end": 152,
                   "decorators": [],
                   "name": "Robot",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -255,13 +264,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 191,
                 "end": 196,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 191,
                   "end": 196,
                   "decorators": [],
                   "name": "Robot",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -324,13 +335,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 244,
                 "end": 261,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 244,
                   "end": 261,
                   "decorators": [],
                   "name": "MultiSkilledRobot",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -400,13 +413,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 308,
                 "end": 325,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 308,
                   "end": 325,
                   "decorators": [],
                   "name": "MultiSkilledRobot",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -785,6 +800,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 607,
       "end": 642,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 607,
@@ -808,7 +824,8 @@ __ESTREE_TEST__:PASS:
                 "end": 615,
                 "decorators": [],
                 "name": "nameA",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -817,10 +834,12 @@ __ESTREE_TEST__:PASS:
                 "end": 631,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -828,7 +847,8 @@ __ESTREE_TEST__:PASS:
           "end": 641,
           "decorators": [],
           "name": "robotA",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -836,6 +856,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 643,
       "end": 683,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 643,
@@ -859,7 +880,8 @@ __ESTREE_TEST__:PASS:
                 "end": 651,
                 "decorators": [],
                 "name": "nameB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -868,10 +890,12 @@ __ESTREE_TEST__:PASS:
                 "end": 667,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -884,9 +908,11 @@ __ESTREE_TEST__:PASS:
             "end": 680,
             "decorators": [],
             "name": "getRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -894,6 +920,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 684,
       "end": 739,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 684,
@@ -917,7 +944,8 @@ __ESTREE_TEST__:PASS:
                 "end": 692,
                 "decorators": [],
                 "name": "nameB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -926,10 +954,12 @@ __ESTREE_TEST__:PASS:
                 "end": 708,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -965,6 +995,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 740,
       "end": 775,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 740,
@@ -988,7 +1019,8 @@ __ESTREE_TEST__:PASS:
                 "end": 754,
                 "decorators": [],
                 "name": "multiSkillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -996,10 +1028,12 @@ __ESTREE_TEST__:PASS:
                 "start": 757,
                 "end": 759,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1007,7 +1041,8 @@ __ESTREE_TEST__:PASS:
           "end": 774,
           "decorators": [],
           "name": "multiRobotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1015,6 +1050,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 776,
       "end": 816,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 776,
@@ -1038,7 +1074,8 @@ __ESTREE_TEST__:PASS:
                 "end": 790,
                 "decorators": [],
                 "name": "multiSkillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1046,10 +1083,12 @@ __ESTREE_TEST__:PASS:
                 "start": 793,
                 "end": 795,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -1062,9 +1101,11 @@ __ESTREE_TEST__:PASS:
             "end": 813,
             "decorators": [],
             "name": "getMultiRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1072,6 +1113,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 817,
       "end": 874,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 817,
@@ -1095,7 +1137,8 @@ __ESTREE_TEST__:PASS:
                 "end": 831,
                 "decorators": [],
                 "name": "multiSkillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1103,10 +1146,12 @@ __ESTREE_TEST__:PASS:
                 "start": 834,
                 "end": 836,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -1149,6 +1194,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 876,
       "end": 900,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 876,
@@ -1171,7 +1217,8 @@ __ESTREE_TEST__:PASS:
                 "end": 884,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1187,10 +1234,12 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1198,7 +1247,8 @@ __ESTREE_TEST__:PASS:
           "end": 899,
           "decorators": [],
           "name": "robotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1206,6 +1256,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 901,
       "end": 930,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 901,
@@ -1228,7 +1279,8 @@ __ESTREE_TEST__:PASS:
                 "end": 909,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1244,10 +1296,12 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -1260,9 +1314,11 @@ __ESTREE_TEST__:PASS:
             "end": 927,
             "decorators": [],
             "name": "getRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1270,6 +1326,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 931,
       "end": 975,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 931,
@@ -1292,7 +1349,8 @@ __ESTREE_TEST__:PASS:
                 "end": 939,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1308,10 +1366,12 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -1347,6 +1407,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 976,
       "end": 1015,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 976,
@@ -1369,7 +1430,8 @@ __ESTREE_TEST__:PASS:
                 "end": 983,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1378,10 +1440,12 @@ __ESTREE_TEST__:PASS:
                 "end": 999,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1389,7 +1453,8 @@ __ESTREE_TEST__:PASS:
           "end": 1014,
           "decorators": [],
           "name": "multiRobotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1397,6 +1462,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1016,
       "end": 1060,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1016,
@@ -1419,7 +1485,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1023,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1428,10 +1495,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1039,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -1444,9 +1513,11 @@ __ESTREE_TEST__:PASS:
             "end": 1057,
             "decorators": [],
             "name": "getMultiRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1454,6 +1525,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1061,
       "end": 1124,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1061,
@@ -1476,7 +1548,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1068,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1485,10 +1558,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1084,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -1531,6 +1606,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1126,
       "end": 1193,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1126,
@@ -1553,7 +1629,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1134,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1569,7 +1646,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1582,7 +1660,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1146,
                 "decorators": [],
                 "name": "nameB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1591,7 +1670,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1162,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1604,7 +1684,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1170,
                 "decorators": [],
                 "name": "skillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1613,10 +1694,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1182,
                 "raw": "\"noSkill\"",
                 "value": "noSkill"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1624,7 +1707,8 @@ __ESTREE_TEST__:PASS:
           "end": 1192,
           "decorators": [],
           "name": "robotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1632,6 +1716,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1194,
       "end": 1266,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1194,
@@ -1654,7 +1739,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1202,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1670,7 +1756,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1683,7 +1770,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1214,
                 "decorators": [],
                 "name": "nameB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1692,7 +1780,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1230,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1705,7 +1794,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1238,
                 "decorators": [],
                 "name": "skillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1714,10 +1804,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1250,
                 "raw": "\"noSkill\"",
                 "value": "noSkill"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -1730,9 +1822,11 @@ __ESTREE_TEST__:PASS:
             "end": 1263,
             "decorators": [],
             "name": "getRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -1740,6 +1834,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1267,
       "end": 1354,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1267,
@@ -1762,7 +1857,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1275,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1778,7 +1874,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1791,7 +1888,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1287,
                 "decorators": [],
                 "name": "nameB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1800,7 +1898,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1303,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1813,7 +1912,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1311,
                 "decorators": [],
                 "name": "skillB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1822,10 +1922,12 @@ __ESTREE_TEST__:PASS:
                 "end": 1323,
                 "raw": "\"noSkill\"",
                 "value": "noSkill"
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -1861,6 +1963,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1355,
       "end": 1457,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1355,
@@ -1883,7 +1986,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1362,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1892,7 +1996,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1378,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -1916,7 +2021,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1394,
                       "decorators": [],
                       "name": "primarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1925,7 +2031,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1406,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "AssignmentPattern",
@@ -1938,7 +2045,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1423,
                       "decorators": [],
                       "name": "secondarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1947,10 +2055,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1435,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -1958,10 +2068,12 @@ __ESTREE_TEST__:PASS:
                 "start": 1439,
                 "end": 1441,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -1969,7 +2081,8 @@ __ESTREE_TEST__:PASS:
           "end": 1456,
           "decorators": [],
           "name": "multiRobotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -1977,6 +2090,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1458,
       "end": 1565,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1458,
@@ -1999,7 +2113,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1465,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2008,7 +2123,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1481,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -2032,7 +2148,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1497,
                       "decorators": [],
                       "name": "primarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2041,7 +2158,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1509,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "AssignmentPattern",
@@ -2054,7 +2172,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1526,
                       "decorators": [],
                       "name": "secondarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2063,10 +2182,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1538,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2074,10 +2195,12 @@ __ESTREE_TEST__:PASS:
                 "start": 1542,
                 "end": 1544,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -2090,9 +2213,11 @@ __ESTREE_TEST__:PASS:
             "end": 1562,
             "decorators": [],
             "name": "getMultiRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -2100,6 +2225,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1566,
       "end": 1696,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1566,
@@ -2122,7 +2248,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1573,
                 "decorators": [],
                 "name": "nameMB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2131,7 +2258,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1589,
                 "raw": "\"helloNoName\"",
                 "value": "helloNoName"
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "AssignmentPattern",
@@ -2155,7 +2283,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1605,
                       "decorators": [],
                       "name": "primarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2164,7 +2293,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1617,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "AssignmentPattern",
@@ -2177,7 +2307,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1634,
                       "decorators": [],
                       "name": "secondarySkillB",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2186,10 +2317,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1646,
                       "raw": "\"noSkill\"",
                       "value": "noSkill"
-                    }
+                    },
+                    "typeAnnotation": null
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2197,10 +2330,12 @@ __ESTREE_TEST__:PASS:
                 "start": 1650,
                 "end": 1652,
                 "elements": []
-              }
+              },
+              "typeAnnotation": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrayExpression",
@@ -2243,6 +2378,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1698,
       "end": 1737,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1698,
@@ -2265,7 +2401,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1706,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2281,7 +2418,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "RestElement",
@@ -2293,13 +2431,17 @@ __ESTREE_TEST__:PASS:
                 "end": 1726,
                 "decorators": [],
                 "name": "robotAInfo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2307,7 +2449,8 @@ __ESTREE_TEST__:PASS:
           "end": 1736,
           "decorators": [],
           "name": "robotB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2315,6 +2458,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1738,
       "end": 1782,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1738,
@@ -2337,7 +2481,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1746,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2353,7 +2498,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "RestElement",
@@ -2365,13 +2511,17 @@ __ESTREE_TEST__:PASS:
                 "end": 1766,
                 "decorators": [],
                 "name": "robotAInfo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "CallExpression",
@@ -2384,9 +2534,11 @@ __ESTREE_TEST__:PASS:
             "end": 1779,
             "decorators": [],
             "name": "getRobotB",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       }
     },
@@ -2394,6 +2546,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1783,
       "end": 1849,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1783,
@@ -2416,7 +2569,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1791,
                 "decorators": [],
                 "name": "numberB",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "right": {
@@ -2432,7 +2586,8 @@ __ESTREE_TEST__:PASS:
                 },
                 "operator": "-",
                 "prefix": true
-              }
+              },
+              "typeAnnotation": null
             },
             {
               "type": "RestElement",
@@ -2444,13 +2599,17 @@ __ESTREE_TEST__:PASS:
                 "end": 1811,
                 "decorators": [],
                 "name": "robotAInfo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null,
+              "value": null
             }
           ],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "TSTypeAssertion",
@@ -2488,13 +2647,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 1816,
             "end": 1821,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 1816,
               "end": 1821,
               "decorators": [],
               "name": "Robot",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -2514,6 +2675,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1877,
             "end": 1897,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1877,
@@ -2525,7 +2687,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1895,
                   "decorators": [],
                   "name": "skillB",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
               "callee": {
@@ -2539,7 +2702,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1884,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -2548,10 +2712,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1888,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2567,7 +2733,8 @@ __ESTREE_TEST__:PASS:
           "end": 1860,
           "decorators": [],
           "name": "nameA",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -2575,7 +2742,8 @@ __ESTREE_TEST__:PASS:
           "end": 1869,
           "decorators": [],
           "name": "nameB",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -2599,7 +2767,8 @@ __ESTREE_TEST__:PASS:
               "end": 1941,
               "decorators": [],
               "name": "robotB",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -2613,9 +2782,12 @@ __ESTREE_TEST__:PASS:
         "end": 1919,
         "decorators": [],
         "name": "getRobotB",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2637,7 +2809,8 @@ __ESTREE_TEST__:PASS:
               "end": 1996,
               "decorators": [],
               "name": "multiRobotB",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -2651,9 +2824,12 @@ __ESTREE_TEST__:PASS:
         "end": 1969,
         "decorators": [],
         "name": "getMultiRobotB",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

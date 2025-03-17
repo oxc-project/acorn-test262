@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 16,
               "decorators": [],
               "name": "None",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "initializer": {
               "type": "Literal",
@@ -45,7 +46,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Enum",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -73,13 +75,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 37,
                 "end": 41,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 37,
                   "end": 41,
                   "decorators": [],
                   "name": "Enum",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -95,7 +99,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "Enum",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "property": {
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
               "end": 53,
               "decorators": [],
               "name": "None",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -196,6 +202,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 107,
       "end": 129,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 107,
@@ -207,7 +214,8 @@ __ESTREE_TEST__:PASS:
           "end": 115,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -215,7 +223,8 @@ __ESTREE_TEST__:PASS:
           "end": 128,
           "decorators": [],
           "name": "numberType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -223,6 +232,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 130,
       "end": 151,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 130,
@@ -234,7 +244,8 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "numberType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -242,7 +253,8 @@ __ESTREE_TEST__:PASS:
           "end": 150,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -250,6 +262,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 154,
       "end": 173,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 154,
@@ -261,7 +274,8 @@ __ESTREE_TEST__:PASS:
           "end": 162,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -269,7 +283,8 @@ __ESTREE_TEST__:PASS:
           "end": 172,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -277,6 +292,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 174,
       "end": 193,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 174,
@@ -288,7 +304,8 @@ __ESTREE_TEST__:PASS:
           "end": 182,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -296,7 +313,8 @@ __ESTREE_TEST__:PASS:
           "end": 192,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -304,6 +322,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 194,
       "end": 213,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 194,
@@ -315,7 +334,8 @@ __ESTREE_TEST__:PASS:
           "end": 202,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -323,7 +343,8 @@ __ESTREE_TEST__:PASS:
           "end": 212,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -331,6 +352,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 214,
       "end": 223,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 214,
@@ -341,7 +363,8 @@ __ESTREE_TEST__:PASS:
           "end": 222,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "~",
         "prefix": true
@@ -351,6 +374,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 224,
       "end": 243,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 224,
@@ -362,7 +386,8 @@ __ESTREE_TEST__:PASS:
           "end": 232,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -370,7 +395,8 @@ __ESTREE_TEST__:PASS:
           "end": 242,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -378,6 +404,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 244,
       "end": 263,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 244,
@@ -389,7 +416,8 @@ __ESTREE_TEST__:PASS:
           "end": 252,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -397,7 +425,8 @@ __ESTREE_TEST__:PASS:
           "end": 262,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -405,6 +434,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 264,
       "end": 284,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 264,
@@ -416,7 +446,8 @@ __ESTREE_TEST__:PASS:
           "end": 272,
           "decorators": [],
           "name": "enumType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -424,7 +455,8 @@ __ESTREE_TEST__:PASS:
           "end": 283,
           "decorators": [],
           "name": "anyType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

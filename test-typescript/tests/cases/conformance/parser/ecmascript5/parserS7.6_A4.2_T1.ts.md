@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 295,
             "decorators": [],
             "name": "А",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -49,6 +50,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 318,
             "end": 331,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 318,
@@ -68,9 +70,11 @@ __ESTREE_TEST__:PASS:
                 "end": 324,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -86,7 +90,8 @@ __ESTREE_TEST__:PASS:
           "end": 306,
           "decorators": [],
           "name": "А",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -113,7 +118,8 @@ __ESTREE_TEST__:PASS:
             "end": 344,
             "decorators": [],
             "name": "Б",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -141,6 +147,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 367,
             "end": 380,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 367,
@@ -160,9 +167,11 @@ __ESTREE_TEST__:PASS:
                 "end": 373,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -178,7 +187,8 @@ __ESTREE_TEST__:PASS:
           "end": 355,
           "decorators": [],
           "name": "Б",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -205,7 +215,8 @@ __ESTREE_TEST__:PASS:
             "end": 393,
             "decorators": [],
             "name": "В",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -233,6 +244,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 416,
             "end": 429,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 416,
@@ -252,9 +264,11 @@ __ESTREE_TEST__:PASS:
                 "end": 422,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -270,7 +284,8 @@ __ESTREE_TEST__:PASS:
           "end": 404,
           "decorators": [],
           "name": "В",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -297,7 +312,8 @@ __ESTREE_TEST__:PASS:
             "end": 442,
             "decorators": [],
             "name": "Г",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -325,6 +341,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 465,
             "end": 478,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 465,
@@ -344,9 +361,11 @@ __ESTREE_TEST__:PASS:
                 "end": 471,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -362,7 +381,8 @@ __ESTREE_TEST__:PASS:
           "end": 453,
           "decorators": [],
           "name": "Г",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -389,7 +409,8 @@ __ESTREE_TEST__:PASS:
             "end": 491,
             "decorators": [],
             "name": "Д",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -417,6 +438,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 514,
             "end": 527,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 514,
@@ -436,9 +458,11 @@ __ESTREE_TEST__:PASS:
                 "end": 520,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -454,7 +478,8 @@ __ESTREE_TEST__:PASS:
           "end": 502,
           "decorators": [],
           "name": "Д",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -481,7 +506,8 @@ __ESTREE_TEST__:PASS:
             "end": 540,
             "decorators": [],
             "name": "Е",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -509,6 +535,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 563,
             "end": 576,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 563,
@@ -528,9 +555,11 @@ __ESTREE_TEST__:PASS:
                 "end": 569,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -546,7 +575,8 @@ __ESTREE_TEST__:PASS:
           "end": 551,
           "decorators": [],
           "name": "Е",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -573,7 +603,8 @@ __ESTREE_TEST__:PASS:
             "end": 589,
             "decorators": [],
             "name": "Ж",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -601,6 +632,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 612,
             "end": 625,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 612,
@@ -620,9 +652,11 @@ __ESTREE_TEST__:PASS:
                 "end": 618,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -638,7 +672,8 @@ __ESTREE_TEST__:PASS:
           "end": 600,
           "decorators": [],
           "name": "Ж",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -665,7 +700,8 @@ __ESTREE_TEST__:PASS:
             "end": 638,
             "decorators": [],
             "name": "З",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -693,6 +729,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 661,
             "end": 674,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 661,
@@ -712,9 +749,11 @@ __ESTREE_TEST__:PASS:
                 "end": 667,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -730,7 +769,8 @@ __ESTREE_TEST__:PASS:
           "end": 649,
           "decorators": [],
           "name": "З",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -757,7 +797,8 @@ __ESTREE_TEST__:PASS:
             "end": 687,
             "decorators": [],
             "name": "И",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -785,6 +826,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 710,
             "end": 723,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 710,
@@ -804,9 +846,11 @@ __ESTREE_TEST__:PASS:
                 "end": 716,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -822,7 +866,8 @@ __ESTREE_TEST__:PASS:
           "end": 698,
           "decorators": [],
           "name": "И",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -849,7 +894,8 @@ __ESTREE_TEST__:PASS:
             "end": 736,
             "decorators": [],
             "name": "Й",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -877,6 +923,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 759,
             "end": 772,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 759,
@@ -896,9 +943,11 @@ __ESTREE_TEST__:PASS:
                 "end": 765,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -914,7 +963,8 @@ __ESTREE_TEST__:PASS:
           "end": 747,
           "decorators": [],
           "name": "Й",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -941,7 +991,8 @@ __ESTREE_TEST__:PASS:
             "end": 785,
             "decorators": [],
             "name": "К",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -969,6 +1020,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 808,
             "end": 821,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 808,
@@ -988,9 +1040,11 @@ __ESTREE_TEST__:PASS:
                 "end": 814,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1006,7 +1060,8 @@ __ESTREE_TEST__:PASS:
           "end": 796,
           "decorators": [],
           "name": "К",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1033,7 +1088,8 @@ __ESTREE_TEST__:PASS:
             "end": 834,
             "decorators": [],
             "name": "Л",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1061,6 +1117,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 857,
             "end": 870,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 857,
@@ -1080,9 +1137,11 @@ __ESTREE_TEST__:PASS:
                 "end": 863,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1098,7 +1157,8 @@ __ESTREE_TEST__:PASS:
           "end": 845,
           "decorators": [],
           "name": "Л",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1125,7 +1185,8 @@ __ESTREE_TEST__:PASS:
             "end": 883,
             "decorators": [],
             "name": "М",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1153,6 +1214,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 906,
             "end": 919,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 906,
@@ -1172,9 +1234,11 @@ __ESTREE_TEST__:PASS:
                 "end": 912,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1190,7 +1254,8 @@ __ESTREE_TEST__:PASS:
           "end": 894,
           "decorators": [],
           "name": "М",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1217,7 +1282,8 @@ __ESTREE_TEST__:PASS:
             "end": 932,
             "decorators": [],
             "name": "Н",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1245,6 +1311,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 955,
             "end": 968,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 955,
@@ -1264,9 +1331,11 @@ __ESTREE_TEST__:PASS:
                 "end": 961,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1282,7 +1351,8 @@ __ESTREE_TEST__:PASS:
           "end": 943,
           "decorators": [],
           "name": "Н",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1309,7 +1379,8 @@ __ESTREE_TEST__:PASS:
             "end": 981,
             "decorators": [],
             "name": "О",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1337,6 +1408,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1004,
             "end": 1017,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1004,
@@ -1356,9 +1428,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1010,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1374,7 +1448,8 @@ __ESTREE_TEST__:PASS:
           "end": 992,
           "decorators": [],
           "name": "О",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1401,7 +1476,8 @@ __ESTREE_TEST__:PASS:
             "end": 1030,
             "decorators": [],
             "name": "П",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1429,6 +1505,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1053,
             "end": 1066,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1053,
@@ -1448,9 +1525,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1059,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1466,7 +1545,8 @@ __ESTREE_TEST__:PASS:
           "end": 1041,
           "decorators": [],
           "name": "П",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1493,7 +1573,8 @@ __ESTREE_TEST__:PASS:
             "end": 1079,
             "decorators": [],
             "name": "Р",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1521,6 +1602,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1102,
             "end": 1115,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1102,
@@ -1540,9 +1622,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1108,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1558,7 +1642,8 @@ __ESTREE_TEST__:PASS:
           "end": 1090,
           "decorators": [],
           "name": "Р",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1585,7 +1670,8 @@ __ESTREE_TEST__:PASS:
             "end": 1128,
             "decorators": [],
             "name": "С",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1613,6 +1699,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1151,
             "end": 1164,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1151,
@@ -1632,9 +1719,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1157,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1650,7 +1739,8 @@ __ESTREE_TEST__:PASS:
           "end": 1139,
           "decorators": [],
           "name": "С",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1677,7 +1767,8 @@ __ESTREE_TEST__:PASS:
             "end": 1177,
             "decorators": [],
             "name": "Т",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1705,6 +1796,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1200,
             "end": 1213,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1200,
@@ -1724,9 +1816,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1206,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1742,7 +1836,8 @@ __ESTREE_TEST__:PASS:
           "end": 1188,
           "decorators": [],
           "name": "Т",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1769,7 +1864,8 @@ __ESTREE_TEST__:PASS:
             "end": 1226,
             "decorators": [],
             "name": "У",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1797,6 +1893,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1249,
             "end": 1262,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1249,
@@ -1816,9 +1913,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1255,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1834,7 +1933,8 @@ __ESTREE_TEST__:PASS:
           "end": 1237,
           "decorators": [],
           "name": "У",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1861,7 +1961,8 @@ __ESTREE_TEST__:PASS:
             "end": 1275,
             "decorators": [],
             "name": "Ф",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1889,6 +1990,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1298,
             "end": 1311,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1298,
@@ -1908,9 +2010,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1304,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -1926,7 +2030,8 @@ __ESTREE_TEST__:PASS:
           "end": 1286,
           "decorators": [],
           "name": "Ф",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -1953,7 +2058,8 @@ __ESTREE_TEST__:PASS:
             "end": 1324,
             "decorators": [],
             "name": "Х",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -1981,6 +2087,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1347,
             "end": 1360,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1347,
@@ -2000,9 +2107,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1353,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2018,7 +2127,8 @@ __ESTREE_TEST__:PASS:
           "end": 1335,
           "decorators": [],
           "name": "Х",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2045,7 +2155,8 @@ __ESTREE_TEST__:PASS:
             "end": 1373,
             "decorators": [],
             "name": "Ц",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2073,6 +2184,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1396,
             "end": 1409,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1396,
@@ -2092,9 +2204,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1402,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2110,7 +2224,8 @@ __ESTREE_TEST__:PASS:
           "end": 1384,
           "decorators": [],
           "name": "Ц",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2137,7 +2252,8 @@ __ESTREE_TEST__:PASS:
             "end": 1422,
             "decorators": [],
             "name": "Ч",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2165,6 +2281,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1445,
             "end": 1458,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1445,
@@ -2184,9 +2301,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1451,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2202,7 +2321,8 @@ __ESTREE_TEST__:PASS:
           "end": 1433,
           "decorators": [],
           "name": "Ч",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2229,7 +2349,8 @@ __ESTREE_TEST__:PASS:
             "end": 1471,
             "decorators": [],
             "name": "Ш",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2257,6 +2378,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1494,
             "end": 1507,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1494,
@@ -2276,9 +2398,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1500,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2294,7 +2418,8 @@ __ESTREE_TEST__:PASS:
           "end": 1482,
           "decorators": [],
           "name": "Ш",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2321,7 +2446,8 @@ __ESTREE_TEST__:PASS:
             "end": 1520,
             "decorators": [],
             "name": "Щ",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2349,6 +2475,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1543,
             "end": 1556,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1543,
@@ -2368,9 +2495,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1549,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2386,7 +2515,8 @@ __ESTREE_TEST__:PASS:
           "end": 1531,
           "decorators": [],
           "name": "Щ",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2413,7 +2543,8 @@ __ESTREE_TEST__:PASS:
             "end": 1569,
             "decorators": [],
             "name": "Ъ",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2441,6 +2572,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1592,
             "end": 1605,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1592,
@@ -2460,9 +2592,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1598,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2478,7 +2612,8 @@ __ESTREE_TEST__:PASS:
           "end": 1580,
           "decorators": [],
           "name": "Ъ",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2505,7 +2640,8 @@ __ESTREE_TEST__:PASS:
             "end": 1618,
             "decorators": [],
             "name": "Ы",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2533,6 +2669,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1641,
             "end": 1654,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1641,
@@ -2552,9 +2689,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1647,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2570,7 +2709,8 @@ __ESTREE_TEST__:PASS:
           "end": 1629,
           "decorators": [],
           "name": "Ы",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2597,7 +2737,8 @@ __ESTREE_TEST__:PASS:
             "end": 1667,
             "decorators": [],
             "name": "Ь",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2625,6 +2766,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1690,
             "end": 1703,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1690,
@@ -2644,9 +2786,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1696,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2662,7 +2806,8 @@ __ESTREE_TEST__:PASS:
           "end": 1678,
           "decorators": [],
           "name": "Ь",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2689,7 +2834,8 @@ __ESTREE_TEST__:PASS:
             "end": 1716,
             "decorators": [],
             "name": "Э",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2717,6 +2863,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1739,
             "end": 1752,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1739,
@@ -2736,9 +2883,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1745,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2754,7 +2903,8 @@ __ESTREE_TEST__:PASS:
           "end": 1727,
           "decorators": [],
           "name": "Э",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2781,7 +2931,8 @@ __ESTREE_TEST__:PASS:
             "end": 1765,
             "decorators": [],
             "name": "Ю",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2809,6 +2960,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1788,
             "end": 1801,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1788,
@@ -2828,9 +2980,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1794,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2846,7 +3000,8 @@ __ESTREE_TEST__:PASS:
           "end": 1776,
           "decorators": [],
           "name": "Ю",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2873,7 +3028,8 @@ __ESTREE_TEST__:PASS:
             "end": 1814,
             "decorators": [],
             "name": "Я",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2901,6 +3057,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1837,
             "end": 1850,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1837,
@@ -2920,9 +3077,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1843,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -2938,7 +3097,8 @@ __ESTREE_TEST__:PASS:
           "end": 1825,
           "decorators": [],
           "name": "Я",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",
@@ -2965,7 +3125,8 @@ __ESTREE_TEST__:PASS:
             "end": 1863,
             "decorators": [],
             "name": "Ё",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -2993,6 +3154,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1886,
             "end": 1899,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1886,
@@ -3012,9 +3174,11 @@ __ESTREE_TEST__:PASS:
                 "end": 1892,
                 "decorators": [],
                 "name": "$ERROR",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -3030,7 +3194,8 @@ __ESTREE_TEST__:PASS:
           "end": 1874,
           "decorators": [],
           "name": "Ё",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Literal",

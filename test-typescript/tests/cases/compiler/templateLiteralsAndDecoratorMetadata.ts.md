@@ -58,6 +58,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 50,
               "end": 116,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -84,9 +85,11 @@ __ESTREE_TEST__:PASS:
                       "end": 57,
                       "decorators": [],
                       "name": "format",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               ],
@@ -97,7 +100,8 @@ __ESTREE_TEST__:PASS:
                 "end": 81,
                 "decorators": [],
                 "name": "greeting",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -190,10 +194,13 @@ __ESTREE_TEST__:PASS:
           "end": 45,
           "decorators": [],
           "name": "Greeter",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

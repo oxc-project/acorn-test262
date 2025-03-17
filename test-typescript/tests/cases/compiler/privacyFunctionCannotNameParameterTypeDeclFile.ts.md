@@ -34,6 +34,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 68,
                     "end": 81,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                       "end": 72,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -72,10 +74,13 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "Widget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -91,6 +96,7 @@ __ESTREE_TEST__:PASS:
               "start": 99,
               "end": 133,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -100,7 +106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 121,
                 "decorators": [],
                 "name": "createWidget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -111,16 +118,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 125,
                   "end": 132,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 125,
                     "end": 132,
                     "decorators": [],
                     "name": "Widget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -159,6 +169,7 @@ __ESTREE_TEST__:PASS:
                             "type": "PropertyDefinition",
                             "start": 222,
                             "end": 235,
+                            "accessibility": null,
                             "computed": false,
                             "declare": false,
                             "decorators": [],
@@ -169,7 +180,8 @@ __ESTREE_TEST__:PASS:
                               "end": 226,
                               "decorators": [],
                               "name": "name",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "override": false,
@@ -197,10 +209,13 @@ __ESTREE_TEST__:PASS:
                         "end": 207,
                         "decorators": [],
                         "name": "Widget4",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -211,6 +226,7 @@ __ESTREE_TEST__:PASS:
                     "start": 254,
                     "end": 288,
                     "async": false,
+                    "body": null,
                     "declare": false,
                     "expression": false,
                     "generator": false,
@@ -220,7 +236,8 @@ __ESTREE_TEST__:PASS:
                       "end": 276,
                       "decorators": [],
                       "name": "createWidget4",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "params": [],
                     "returnType": {
@@ -231,16 +248,19 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 280,
                         "end": 287,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 280,
                           "end": 287,
                           "decorators": [],
                           "name": "Widget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               },
@@ -252,7 +272,8 @@ __ESTREE_TEST__:PASS:
                 "end": 176,
                 "decorators": [],
                 "name": "SpecializedGlobalWidget",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -303,6 +324,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 27,
               "end": 40,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -313,12 +335,14 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "name",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 34,
@@ -337,10 +361,13 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Widget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -376,8 +403,10 @@ __ESTREE_TEST__:PASS:
                   "end": 99,
                   "decorators": [],
                   "name": "Widget1",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeArguments": null
               }
             }
           ]
@@ -391,9 +420,12 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "createWidget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -432,6 +464,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 175,
                       "end": 188,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -442,12 +475,14 @@ __ESTREE_TEST__:PASS:
                         "end": 179,
                         "decorators": [],
                         "name": "name",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
                       "readonly": false,
                       "static": false,
+                      "typeAnnotation": null,
                       "value": {
                         "type": "Literal",
                         "start": 182,
@@ -466,10 +501,13 @@ __ESTREE_TEST__:PASS:
                   "end": 164,
                   "decorators": [],
                   "name": "Widget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -505,8 +543,10 @@ __ESTREE_TEST__:PASS:
                           "end": 259,
                           "decorators": [],
                           "name": "Widget2",
-                          "optional": false
-                        }
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "typeArguments": null
                       }
                     }
                   ]
@@ -520,9 +560,12 @@ __ESTREE_TEST__:PASS:
                   "end": 228,
                   "decorators": [],
                   "name": "createWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -538,7 +581,8 @@ __ESTREE_TEST__:PASS:
           "end": 137,
           "decorators": [],
           "name": "SpecializedWidget",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -568,7 +612,8 @@ __ESTREE_TEST__:PASS:
         "end": 101,
         "decorators": [],
         "name": "Widgets",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -594,7 +639,8 @@ __ESTREE_TEST__:PASS:
         "end": 188,
         "decorators": [],
         "name": "Widgets1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -645,7 +691,8 @@ __ESTREE_TEST__:PASS:
                     "end": 277,
                     "decorators": [],
                     "name": "Widgets",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -654,10 +701,12 @@ __ESTREE_TEST__:PASS:
                     "end": 291,
                     "decorators": [],
                     "name": "createWidget1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -671,9 +720,12 @@ __ESTREE_TEST__:PASS:
           "end": 254,
           "decorators": [],
           "name": "createExportedWidget1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -719,7 +771,8 @@ __ESTREE_TEST__:PASS:
                       "end": 357,
                       "decorators": [],
                       "name": "Widgets",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -728,7 +781,8 @@ __ESTREE_TEST__:PASS:
                       "end": 375,
                       "decorators": [],
                       "name": "SpecializedWidget",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -738,10 +792,12 @@ __ESTREE_TEST__:PASS:
                     "end": 389,
                     "decorators": [],
                     "name": "createWidget2",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -755,9 +811,12 @@ __ESTREE_TEST__:PASS:
           "end": 334,
           "decorators": [],
           "name": "createExportedWidget2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -798,7 +857,8 @@ __ESTREE_TEST__:PASS:
                     "end": 456,
                     "decorators": [],
                     "name": "Widgets1",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -807,10 +867,12 @@ __ESTREE_TEST__:PASS:
                     "end": 470,
                     "decorators": [],
                     "name": "createWidget3",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -824,9 +886,12 @@ __ESTREE_TEST__:PASS:
           "end": 432,
           "decorators": [],
           "name": "createExportedWidget3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -872,7 +937,8 @@ __ESTREE_TEST__:PASS:
                       "end": 537,
                       "decorators": [],
                       "name": "Widgets1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -881,7 +947,8 @@ __ESTREE_TEST__:PASS:
                       "end": 561,
                       "decorators": [],
                       "name": "SpecializedGlobalWidget",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
@@ -891,10 +958,12 @@ __ESTREE_TEST__:PASS:
                     "end": 575,
                     "decorators": [],
                     "name": "createWidget4",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               }
             }
           ]
@@ -908,9 +977,12 @@ __ESTREE_TEST__:PASS:
           "end": 513,
           "decorators": [],
           "name": "createExportedWidget4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -938,7 +1010,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "exporter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -973,6 +1046,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 147,
               "end": 233,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -981,7 +1055,8 @@ __ESTREE_TEST__:PASS:
                 "end": 174,
                 "decorators": [],
                 "name": "myPublicStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1014,7 +1089,8 @@ __ESTREE_TEST__:PASS:
                       "end": 180,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1033,7 +1109,8 @@ __ESTREE_TEST__:PASS:
                           "end": 191,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1042,13 +1119,18 @@ __ESTREE_TEST__:PASS:
                           "end": 213,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1064,7 +1146,8 @@ __ESTREE_TEST__:PASS:
                 "end": 274,
                 "decorators": [],
                 "name": "myPrivateStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1097,7 +1180,8 @@ __ESTREE_TEST__:PASS:
                       "end": 280,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1116,7 +1200,8 @@ __ESTREE_TEST__:PASS:
                           "end": 291,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1125,19 +1210,25 @@ __ESTREE_TEST__:PASS:
                           "end": 313,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 329,
               "end": 403,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1146,7 +1237,8 @@ __ESTREE_TEST__:PASS:
                 "end": 343,
                 "decorators": [],
                 "name": "myPublicMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1179,7 +1271,8 @@ __ESTREE_TEST__:PASS:
                       "end": 349,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1198,7 +1291,8 @@ __ESTREE_TEST__:PASS:
                           "end": 361,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1207,13 +1301,18 @@ __ESTREE_TEST__:PASS:
                           "end": 383,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1229,7 +1328,8 @@ __ESTREE_TEST__:PASS:
                 "end": 431,
                 "decorators": [],
                 "name": "myPrivateMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1262,7 +1362,8 @@ __ESTREE_TEST__:PASS:
                       "end": 437,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1281,7 +1382,8 @@ __ESTREE_TEST__:PASS:
                           "end": 448,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1290,19 +1392,25 @@ __ESTREE_TEST__:PASS:
                           "end": 470,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 486,
               "end": 657,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1311,7 +1419,8 @@ __ESTREE_TEST__:PASS:
                 "end": 497,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1344,7 +1453,8 @@ __ESTREE_TEST__:PASS:
                       "end": 503,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1363,7 +1473,8 @@ __ESTREE_TEST__:PASS:
                           "end": 514,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1372,11 +1483,14 @@ __ESTREE_TEST__:PASS:
                           "end": 536,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "TSParameterProperty",
@@ -1396,7 +1510,8 @@ __ESTREE_TEST__:PASS:
                         "end": 554,
                         "decorators": [],
                         "name": "param1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -1415,7 +1530,8 @@ __ESTREE_TEST__:PASS:
                             "end": 565,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1424,11 +1540,14 @@ __ESTREE_TEST__:PASS:
                             "end": 587,
                             "decorators": [],
                             "name": "createExportedWidget1",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
@@ -1451,7 +1570,8 @@ __ESTREE_TEST__:PASS:
                         "end": 604,
                         "decorators": [],
                         "name": "param2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -1470,7 +1590,8 @@ __ESTREE_TEST__:PASS:
                             "end": 615,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1479,16 +1600,21 @@ __ESTREE_TEST__:PASS:
                             "end": 637,
                             "decorators": [],
                             "name": "createExportedWidget1",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -1501,10 +1627,13 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "publicClassWithWithPrivateParmeterTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1529,6 +1658,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 720,
               "end": 806,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1537,7 +1667,8 @@ __ESTREE_TEST__:PASS:
                 "end": 747,
                 "decorators": [],
                 "name": "myPublicStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1570,7 +1701,8 @@ __ESTREE_TEST__:PASS:
                       "end": 753,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1589,7 +1721,8 @@ __ESTREE_TEST__:PASS:
                           "end": 764,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1598,13 +1731,18 @@ __ESTREE_TEST__:PASS:
                           "end": 786,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1620,7 +1758,8 @@ __ESTREE_TEST__:PASS:
                 "end": 847,
                 "decorators": [],
                 "name": "myPrivateStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1653,7 +1792,8 @@ __ESTREE_TEST__:PASS:
                       "end": 853,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1672,7 +1812,8 @@ __ESTREE_TEST__:PASS:
                           "end": 864,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1681,19 +1822,25 @@ __ESTREE_TEST__:PASS:
                           "end": 886,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 902,
               "end": 976,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1702,7 +1849,8 @@ __ESTREE_TEST__:PASS:
                 "end": 916,
                 "decorators": [],
                 "name": "myPublicMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1735,7 +1883,8 @@ __ESTREE_TEST__:PASS:
                       "end": 922,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1754,7 +1903,8 @@ __ESTREE_TEST__:PASS:
                           "end": 934,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1763,13 +1913,18 @@ __ESTREE_TEST__:PASS:
                           "end": 956,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1785,7 +1940,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1004,
                 "decorators": [],
                 "name": "myPrivateMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -1818,7 +1974,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1010,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1837,7 +1994,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1021,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1846,19 +2004,25 @@ __ESTREE_TEST__:PASS:
                           "end": 1043,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 1059,
               "end": 1230,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -1867,7 +2031,8 @@ __ESTREE_TEST__:PASS:
                 "end": 1070,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -1900,7 +2065,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1076,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -1919,7 +2085,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1087,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1928,11 +2095,14 @@ __ESTREE_TEST__:PASS:
                           "end": 1109,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "TSParameterProperty",
@@ -1952,7 +2122,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1127,
                         "decorators": [],
                         "name": "param1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -1971,7 +2142,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1138,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -1980,11 +2152,14 @@ __ESTREE_TEST__:PASS:
                             "end": 1160,
                             "decorators": [],
                             "name": "createExportedWidget3",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
@@ -2007,7 +2182,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1177,
                         "decorators": [],
                         "name": "param2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -2026,7 +2202,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1188,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -2035,16 +2212,21 @@ __ESTREE_TEST__:PASS:
                             "end": 1210,
                             "decorators": [],
                             "name": "createExportedWidget3",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -2057,10 +2239,13 @@ __ESTREE_TEST__:PASS:
           "end": 713,
           "decorators": [],
           "name": "publicClassWithWithPrivateParmeterTypes1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -2080,6 +2265,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 1287,
             "end": 1364,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2088,7 +2274,8 @@ __ESTREE_TEST__:PASS:
               "end": 1314,
               "decorators": [],
               "name": "myPublicStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2121,7 +2308,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1320,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2140,7 +2328,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1331,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2149,13 +2338,18 @@ __ESTREE_TEST__:PASS:
                         "end": 1353,
                         "decorators": [],
                         "name": "createExportedWidget1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2171,7 +2365,8 @@ __ESTREE_TEST__:PASS:
               "end": 1405,
               "decorators": [],
               "name": "myPrivateStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2204,7 +2399,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1411,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2223,7 +2419,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1422,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2232,19 +2429,25 @@ __ESTREE_TEST__:PASS:
                         "end": 1444,
                         "decorators": [],
                         "name": "createExportedWidget1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 1460,
             "end": 1525,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2253,7 +2456,8 @@ __ESTREE_TEST__:PASS:
               "end": 1474,
               "decorators": [],
               "name": "myPublicMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2286,7 +2490,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1480,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2305,7 +2510,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1492,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2314,13 +2520,18 @@ __ESTREE_TEST__:PASS:
                         "end": 1514,
                         "decorators": [],
                         "name": "createExportedWidget1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2336,7 +2547,8 @@ __ESTREE_TEST__:PASS:
               "end": 1553,
               "decorators": [],
               "name": "myPrivateMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2369,7 +2581,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1559,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2388,7 +2601,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1570,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2397,19 +2611,25 @@ __ESTREE_TEST__:PASS:
                         "end": 1592,
                         "decorators": [],
                         "name": "createExportedWidget1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 1608,
             "end": 1770,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2418,7 +2638,8 @@ __ESTREE_TEST__:PASS:
               "end": 1619,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -2451,7 +2672,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1625,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2470,7 +2692,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1636,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2479,11 +2702,14 @@ __ESTREE_TEST__:PASS:
                         "end": 1658,
                         "decorators": [],
                         "name": "createExportedWidget1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "TSParameterProperty",
@@ -2503,7 +2729,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1676,
                       "decorators": [],
                       "name": "param1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2522,7 +2749,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1687,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2531,11 +2759,14 @@ __ESTREE_TEST__:PASS:
                           "end": 1709,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
@@ -2558,7 +2789,8 @@ __ESTREE_TEST__:PASS:
                       "end": 1726,
                       "decorators": [],
                       "name": "param2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -2577,7 +2809,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1737,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -2586,16 +2819,21 @@ __ESTREE_TEST__:PASS:
                           "end": 1759,
                           "decorators": [],
                           "name": "createExportedWidget1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -2608,10 +2846,13 @@ __ESTREE_TEST__:PASS:
         "end": 1280,
         "decorators": [],
         "name": "privateClassWithWithPrivateParmeterTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -2627,6 +2868,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 1827,
             "end": 1904,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2635,7 +2877,8 @@ __ESTREE_TEST__:PASS:
               "end": 1854,
               "decorators": [],
               "name": "myPublicStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2668,7 +2911,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1860,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2687,7 +2931,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1871,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2696,13 +2941,18 @@ __ESTREE_TEST__:PASS:
                         "end": 1893,
                         "decorators": [],
                         "name": "createExportedWidget3",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2718,7 +2968,8 @@ __ESTREE_TEST__:PASS:
               "end": 1945,
               "decorators": [],
               "name": "myPrivateStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2751,7 +3002,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1951,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2770,7 +3022,8 @@ __ESTREE_TEST__:PASS:
                         "end": 1962,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2779,19 +3032,25 @@ __ESTREE_TEST__:PASS:
                         "end": 1984,
                         "decorators": [],
                         "name": "createExportedWidget3",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 2000,
             "end": 2065,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2800,7 +3059,8 @@ __ESTREE_TEST__:PASS:
               "end": 2014,
               "decorators": [],
               "name": "myPublicMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2833,7 +3093,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2020,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2852,7 +3113,8 @@ __ESTREE_TEST__:PASS:
                         "end": 2032,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2861,13 +3123,18 @@ __ESTREE_TEST__:PASS:
                         "end": 2054,
                         "decorators": [],
                         "name": "createExportedWidget3",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2883,7 +3150,8 @@ __ESTREE_TEST__:PASS:
               "end": 2093,
               "decorators": [],
               "name": "myPrivateMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2916,7 +3184,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2099,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -2935,7 +3204,8 @@ __ESTREE_TEST__:PASS:
                         "end": 2110,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2944,19 +3214,25 @@ __ESTREE_TEST__:PASS:
                         "end": 2132,
                         "decorators": [],
                         "name": "createExportedWidget3",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 2148,
             "end": 2310,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -2965,7 +3241,8 @@ __ESTREE_TEST__:PASS:
               "end": 2159,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -2998,7 +3275,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2165,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -3017,7 +3295,8 @@ __ESTREE_TEST__:PASS:
                         "end": 2176,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -3026,11 +3305,14 @@ __ESTREE_TEST__:PASS:
                         "end": 2198,
                         "decorators": [],
                         "name": "createExportedWidget3",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "TSParameterProperty",
@@ -3050,7 +3332,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2216,
                       "decorators": [],
                       "name": "param1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3069,7 +3352,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2227,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3078,11 +3362,14 @@ __ESTREE_TEST__:PASS:
                           "end": 2249,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
@@ -3105,7 +3392,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2266,
                       "decorators": [],
                       "name": "param2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3124,7 +3412,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2277,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3133,16 +3422,21 @@ __ESTREE_TEST__:PASS:
                           "end": 2299,
                           "decorators": [],
                           "name": "createExportedWidget3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -3155,10 +3449,13 @@ __ESTREE_TEST__:PASS:
         "end": 1820,
         "decorators": [],
         "name": "privateClassWithWithPrivateParmeterTypes2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -3185,7 +3482,8 @@ __ESTREE_TEST__:PASS:
           "end": 2368,
           "decorators": [],
           "name": "publicFunctionWithPrivateParmeterTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -3199,7 +3497,8 @@ __ESTREE_TEST__:PASS:
               "end": 2374,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -3218,7 +3517,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2385,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -3227,13 +3527,18 @@ __ESTREE_TEST__:PASS:
                   "end": 2407,
                   "decorators": [],
                   "name": "createExportedWidget1",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
-            }
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -3259,7 +3564,8 @@ __ESTREE_TEST__:PASS:
         "end": 2472,
         "decorators": [],
         "name": "privateFunctionWithPrivateParmeterTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -3273,7 +3579,8 @@ __ESTREE_TEST__:PASS:
             "end": 2478,
             "decorators": [],
             "name": "param",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -3292,7 +3599,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2489,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3301,13 +3609,18 @@ __ESTREE_TEST__:PASS:
                 "end": 2511,
                 "decorators": [],
                 "name": "createExportedWidget1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
-          }
+            "optional": false,
+            "typeArguments": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -3334,7 +3647,8 @@ __ESTREE_TEST__:PASS:
           "end": 2574,
           "decorators": [],
           "name": "publicFunctionWithPrivateParmeterTypes1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -3348,7 +3662,8 @@ __ESTREE_TEST__:PASS:
               "end": 2580,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -3367,7 +3682,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2591,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -3376,13 +3692,18 @@ __ESTREE_TEST__:PASS:
                   "end": 2613,
                   "decorators": [],
                   "name": "createExportedWidget3",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
-            }
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -3408,7 +3729,8 @@ __ESTREE_TEST__:PASS:
         "end": 2679,
         "decorators": [],
         "name": "privateFunctionWithPrivateParmeterTypes1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -3422,7 +3744,8 @@ __ESTREE_TEST__:PASS:
             "end": 2685,
             "decorators": [],
             "name": "param",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -3441,7 +3764,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2696,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -3450,13 +3774,18 @@ __ESTREE_TEST__:PASS:
                 "end": 2718,
                 "decorators": [],
                 "name": "createExportedWidget3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
-          }
+            "optional": false,
+            "typeArguments": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -3477,6 +3806,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 2790,
               "end": 2875,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -3485,7 +3815,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2817,
                 "decorators": [],
                 "name": "myPublicStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -3518,7 +3849,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2823,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3537,7 +3869,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2833,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3546,19 +3879,25 @@ __ESTREE_TEST__:PASS:
                           "end": 2855,
                           "decorators": [],
                           "name": "createExportedWidget2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 2880,
               "end": 2952,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -3567,7 +3906,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2894,
                 "decorators": [],
                 "name": "myPublicMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -3600,7 +3940,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2900,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3619,7 +3960,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2910,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3628,19 +3970,25 @@ __ESTREE_TEST__:PASS:
                           "end": 2932,
                           "decorators": [],
                           "name": "createExportedWidget2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 2957,
               "end": 3125,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -3649,7 +3997,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2968,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -3682,7 +4031,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2974,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3701,7 +4051,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2984,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3710,11 +4061,14 @@ __ESTREE_TEST__:PASS:
                           "end": 3006,
                           "decorators": [],
                           "name": "createExportedWidget2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "TSParameterProperty",
@@ -3734,7 +4088,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3024,
                         "decorators": [],
                         "name": "param1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -3753,7 +4108,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3034,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -3762,11 +4118,14 @@ __ESTREE_TEST__:PASS:
                             "end": 3056,
                             "decorators": [],
                             "name": "createExportedWidget2",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
@@ -3789,7 +4148,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3073,
                         "decorators": [],
                         "name": "param2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -3808,7 +4168,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3083,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -3817,16 +4178,21 @@ __ESTREE_TEST__:PASS:
                             "end": 3105,
                             "decorators": [],
                             "name": "createExportedWidget2",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -3839,10 +4205,13 @@ __ESTREE_TEST__:PASS:
           "end": 2783,
           "decorators": [],
           "name": "publicClassWithPrivateModuleParameterTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -3867,6 +4236,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 3191,
               "end": 3276,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -3875,7 +4245,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3218,
                 "decorators": [],
                 "name": "myPublicStaticMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -3908,7 +4279,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3224,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -3927,7 +4299,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3234,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -3936,19 +4309,25 @@ __ESTREE_TEST__:PASS:
                           "end": 3256,
                           "decorators": [],
                           "name": "createExportedWidget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 3281,
               "end": 3353,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -3957,7 +4336,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3295,
                 "decorators": [],
                 "name": "myPublicMethod",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -3990,7 +4370,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3301,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -4009,7 +4390,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3311,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -4018,19 +4400,25 @@ __ESTREE_TEST__:PASS:
                           "end": 3333,
                           "decorators": [],
                           "name": "createExportedWidget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "MethodDefinition",
               "start": 3358,
               "end": 3526,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -4039,7 +4427,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3369,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -4072,7 +4461,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3375,
                       "decorators": [],
                       "name": "param",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -4091,7 +4481,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3385,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -4100,11 +4491,14 @@ __ESTREE_TEST__:PASS:
                           "end": 3407,
                           "decorators": [],
                           "name": "createExportedWidget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   {
                     "type": "TSParameterProperty",
@@ -4124,7 +4518,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3425,
                         "decorators": [],
                         "name": "param1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -4143,7 +4538,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3435,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -4152,11 +4548,14 @@ __ESTREE_TEST__:PASS:
                             "end": 3457,
                             "decorators": [],
                             "name": "createExportedWidget4",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
@@ -4179,7 +4578,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3474,
                         "decorators": [],
                         "name": "param2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "right": {
@@ -4198,7 +4598,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3484,
                             "decorators": [],
                             "name": "exporter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "property": {
@@ -4207,16 +4608,21 @@ __ESTREE_TEST__:PASS:
                             "end": 3506,
                             "decorators": [],
                             "name": "createExportedWidget4",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
-                      }
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "typeAnnotation": null
                     },
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -4229,10 +4635,13 @@ __ESTREE_TEST__:PASS:
           "end": 3184,
           "decorators": [],
           "name": "publicClassWithPrivateModuleParameterTypes2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -4263,7 +4672,8 @@ __ESTREE_TEST__:PASS:
           "end": 3590,
           "decorators": [],
           "name": "publicFunctionWithPrivateModuleParameterTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -4277,7 +4687,8 @@ __ESTREE_TEST__:PASS:
               "end": 3596,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -4296,7 +4707,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3606,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -4305,13 +4717,18 @@ __ESTREE_TEST__:PASS:
                   "end": 3628,
                   "decorators": [],
                   "name": "createExportedWidget2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
-            }
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -4342,7 +4759,8 @@ __ESTREE_TEST__:PASS:
           "end": 3707,
           "decorators": [],
           "name": "publicFunctionWithPrivateModuleParameterTypes1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -4356,7 +4774,8 @@ __ESTREE_TEST__:PASS:
               "end": 3713,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "right": {
@@ -4375,7 +4794,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3723,
                   "decorators": [],
                   "name": "exporter",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -4384,13 +4804,18 @@ __ESTREE_TEST__:PASS:
                   "end": 3745,
                   "decorators": [],
                   "name": "createExportedWidget4",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
-              "optional": false
-            }
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -4410,6 +4835,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 3820,
             "end": 3896,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4418,7 +4844,8 @@ __ESTREE_TEST__:PASS:
               "end": 3847,
               "decorators": [],
               "name": "myPublicStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -4451,7 +4878,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3853,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4470,7 +4898,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3863,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4479,19 +4908,25 @@ __ESTREE_TEST__:PASS:
                         "end": 3885,
                         "decorators": [],
                         "name": "createExportedWidget2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 3901,
             "end": 3964,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4500,7 +4935,8 @@ __ESTREE_TEST__:PASS:
               "end": 3915,
               "decorators": [],
               "name": "myPublicMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -4533,7 +4969,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3921,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4552,7 +4989,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3931,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4561,19 +4999,25 @@ __ESTREE_TEST__:PASS:
                         "end": 3953,
                         "decorators": [],
                         "name": "createExportedWidget2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 3969,
             "end": 4128,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4582,7 +5026,8 @@ __ESTREE_TEST__:PASS:
               "end": 3980,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -4615,7 +5060,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3986,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4634,7 +5080,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3996,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4643,11 +5090,14 @@ __ESTREE_TEST__:PASS:
                         "end": 4018,
                         "decorators": [],
                         "name": "createExportedWidget2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "TSParameterProperty",
@@ -4667,7 +5117,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4036,
                       "decorators": [],
                       "name": "param1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -4686,7 +5137,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4046,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -4695,11 +5147,14 @@ __ESTREE_TEST__:PASS:
                           "end": 4068,
                           "decorators": [],
                           "name": "createExportedWidget2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
@@ -4722,7 +5177,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4085,
                       "decorators": [],
                       "name": "param2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -4741,7 +5197,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4095,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -4750,16 +5207,21 @@ __ESTREE_TEST__:PASS:
                           "end": 4117,
                           "decorators": [],
                           "name": "createExportedWidget2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -4772,10 +5234,13 @@ __ESTREE_TEST__:PASS:
         "end": 3813,
         "decorators": [],
         "name": "privateClassWithPrivateModuleParameterTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -4791,6 +5256,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 4188,
             "end": 4264,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4799,7 +5265,8 @@ __ESTREE_TEST__:PASS:
               "end": 4215,
               "decorators": [],
               "name": "myPublicStaticMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -4832,7 +5299,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4221,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4851,7 +5319,8 @@ __ESTREE_TEST__:PASS:
                         "end": 4231,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4860,19 +5329,25 @@ __ESTREE_TEST__:PASS:
                         "end": 4253,
                         "decorators": [],
                         "name": "createExportedWidget4",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 4269,
             "end": 4332,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4881,7 +5356,8 @@ __ESTREE_TEST__:PASS:
               "end": 4283,
               "decorators": [],
               "name": "myPublicMethod",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -4914,7 +5390,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4289,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4933,7 +5410,8 @@ __ESTREE_TEST__:PASS:
                         "end": 4299,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -4942,19 +5420,25 @@ __ESTREE_TEST__:PASS:
                         "end": 4321,
                         "decorators": [],
                         "name": "createExportedWidget4",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "MethodDefinition",
             "start": 4337,
             "end": 4496,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -4963,7 +5447,8 @@ __ESTREE_TEST__:PASS:
               "end": 4348,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -4996,7 +5481,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4354,
                     "decorators": [],
                     "name": "param",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5015,7 +5501,8 @@ __ESTREE_TEST__:PASS:
                         "end": 4364,
                         "decorators": [],
                         "name": "exporter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -5024,11 +5511,14 @@ __ESTREE_TEST__:PASS:
                         "end": 4386,
                         "decorators": [],
                         "name": "createExportedWidget4",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "typeAnnotation": null
                 },
                 {
                   "type": "TSParameterProperty",
@@ -5048,7 +5538,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4404,
                       "decorators": [],
                       "name": "param1",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -5067,7 +5558,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4414,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -5076,11 +5568,14 @@ __ESTREE_TEST__:PASS:
                           "end": 4436,
                           "decorators": [],
                           "name": "createExportedWidget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
@@ -5103,7 +5598,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4453,
                       "decorators": [],
                       "name": "param2",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -5122,7 +5618,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4463,
                           "decorators": [],
                           "name": "exporter",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -5131,16 +5628,21 @@ __ESTREE_TEST__:PASS:
                           "end": 4485,
                           "decorators": [],
                           "name": "createExportedWidget4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "typeAnnotation": null
                   },
                   "readonly": false,
                   "static": false
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -5153,10 +5655,13 @@ __ESTREE_TEST__:PASS:
         "end": 4181,
         "decorators": [],
         "name": "privateClassWithPrivateModuleParameterTypes1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -5178,7 +5683,8 @@ __ESTREE_TEST__:PASS:
         "end": 4554,
         "decorators": [],
         "name": "privateFunctionWithPrivateModuleParameterTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -5192,7 +5698,8 @@ __ESTREE_TEST__:PASS:
             "end": 4560,
             "decorators": [],
             "name": "param",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -5211,7 +5718,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4570,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -5220,13 +5728,18 @@ __ESTREE_TEST__:PASS:
                 "end": 4592,
                 "decorators": [],
                 "name": "createExportedWidget2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
-          }
+            "optional": false,
+            "typeArguments": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -5248,7 +5761,8 @@ __ESTREE_TEST__:PASS:
         "end": 4656,
         "decorators": [],
         "name": "privateFunctionWithPrivateModuleParameterTypes1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -5262,7 +5776,8 @@ __ESTREE_TEST__:PASS:
             "end": 4662,
             "decorators": [],
             "name": "param",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "right": {
@@ -5281,7 +5796,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4672,
                 "decorators": [],
                 "name": "exporter",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -5290,13 +5806,18 @@ __ESTREE_TEST__:PASS:
                 "end": 4694,
                 "decorators": [],
                 "name": "createExportedWidget4",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
-            "optional": false
-          }
+            "optional": false,
+            "typeArguments": null
+          },
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "module",

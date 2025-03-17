@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 60,
               "end": 168,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -52,6 +54,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 112,
                       "end": 158,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 112,
@@ -74,7 +77,8 @@ __ESTREE_TEST__:PASS:
                             "end": 129,
                             "decorators": [],
                             "name": "_information",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -104,7 +108,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 143,
                                 "decorators": [],
                                 "name": "logger",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -114,10 +119,12 @@ __ESTREE_TEST__:PASS:
                               "end": 155,
                               "decorators": [],
                               "name": "information",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       }
                     }
@@ -150,13 +157,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 88,
                           "end": 95,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 88,
                             "end": 95,
                             "decorators": [],
                             "name": "ILogger",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -164,7 +173,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -177,7 +188,8 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "LoggerAdapter",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [
           {
@@ -190,11 +202,15 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "ILogger",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

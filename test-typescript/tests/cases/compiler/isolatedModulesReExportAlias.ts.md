@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 64,
                   "end": 92,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -35,7 +36,8 @@ __ESTREE_TEST__:PASS:
                     "end": 81,
                     "decorators": [],
                     "name": "captureRejections",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": true,
                   "readonly": false,
@@ -61,8 +63,10 @@ __ESTREE_TEST__:PASS:
               "end": 57,
               "decorators": [],
               "name": "EventEmitterOptions",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -78,6 +82,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 124,
                   "end": 167,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -86,7 +91,8 @@ __ESTREE_TEST__:PASS:
                     "end": 135,
                     "decorators": [],
                     "name": "constructor",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "constructor",
                   "optional": false,
@@ -118,18 +124,22 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 146,
                             "end": 165,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 146,
                               "end": 165,
                               "decorators": [],
                               "name": "EventEmitterOptions",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
                       }
-                    ]
+                    ],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -142,10 +152,13 @@ __ESTREE_TEST__:PASS:
               "end": 117,
               "decorators": [],
               "name": "EventEmitter",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "TSExportAssignment",
@@ -157,7 +170,8 @@ __ESTREE_TEST__:PASS:
               "end": 195,
               "decorators": [],
               "name": "EventEmitter",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -192,7 +206,8 @@ __ESTREE_TEST__:PASS:
               "end": 245,
               "decorators": [],
               "name": "events",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "importKind": "value",
             "moduleReference": {
@@ -218,7 +233,8 @@ __ESTREE_TEST__:PASS:
               "end": 284,
               "decorators": [],
               "name": "events",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -255,7 +271,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "events",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -281,7 +298,8 @@ __ESTREE_TEST__:PASS:
         "end": 50,
         "decorators": [],
         "name": "events",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

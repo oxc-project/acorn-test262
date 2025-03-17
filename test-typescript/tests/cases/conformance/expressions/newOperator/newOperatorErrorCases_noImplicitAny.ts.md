@@ -38,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "fnNumber",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -69,12 +70,14 @@ __ESTREE_TEST__:PASS:
           "start": 31,
           "end": 37
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 53,
       "end": 68,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 53,
@@ -86,8 +89,10 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "fnNumber",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
@@ -110,7 +115,8 @@ __ESTREE_TEST__:PASS:
         "end": 94,
         "decorators": [],
         "name": "fnVoid",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -141,12 +147,14 @@ __ESTREE_TEST__:PASS:
           "start": 108,
           "end": 112
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 116,
       "end": 129,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 116,
@@ -158,8 +166,10 @@ __ESTREE_TEST__:PASS:
           "end": 126,
           "decorators": [],
           "name": "fnVoid",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     },
     {
@@ -182,7 +192,8 @@ __ESTREE_TEST__:PASS:
         "end": 167,
         "decorators": [],
         "name": "functionVoidNoThis",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -194,12 +205,14 @@ __ESTREE_TEST__:PASS:
           "start": 171,
           "end": 175
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 179,
       "end": 204,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 179,
@@ -211,8 +224,10 @@ __ESTREE_TEST__:PASS:
           "end": 201,
           "decorators": [],
           "name": "functionVoidNoThis",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

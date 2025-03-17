@@ -40,13 +40,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 25,
                     "end": 29,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 25,
                       "end": 29,
                       "decorators": [],
                       "name": "Date",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -128,6 +130,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 254,
                         "end": 274,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -172,6 +175,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 281,
                         "end": 299,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -202,13 +206,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 294,
                             "end": 298,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 294,
                               "end": 298,
                               "decorators": [],
                               "name": "Date",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -229,6 +235,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 303,
       "end": 351,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 303,
@@ -240,7 +247,8 @@ __ESTREE_TEST__:PASS:
           "end": 312,
           "decorators": [],
           "name": "numOrDate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -253,7 +261,8 @@ __ESTREE_TEST__:PASS:
             "end": 341,
             "decorators": [],
             "name": "unionOfDifferentReturnType",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -270,6 +279,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 369,
       "end": 412,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 369,
@@ -281,7 +291,8 @@ __ESTREE_TEST__:PASS:
           "end": 378,
           "decorators": [],
           "name": "numOrDate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -294,7 +305,8 @@ __ESTREE_TEST__:PASS:
             "end": 407,
             "decorators": [],
             "name": "unionOfDifferentReturnType",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -342,6 +354,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 480,
                         "end": 500,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -396,6 +409,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 514,
       "end": 574,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 514,
@@ -407,7 +421,8 @@ __ESTREE_TEST__:PASS:
           "end": 520,
           "decorators": [],
           "name": "anyVar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -420,7 +435,8 @@ __ESTREE_TEST__:PASS:
             "end": 564,
             "decorators": [],
             "name": "unionOfTypesWithAndWithoutStringSignature",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -437,6 +453,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 582,
       "end": 637,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 582,
@@ -448,7 +465,8 @@ __ESTREE_TEST__:PASS:
           "end": 588,
           "decorators": [],
           "name": "anyVar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -461,7 +479,8 @@ __ESTREE_TEST__:PASS:
             "end": 632,
             "decorators": [],
             "name": "unionOfTypesWithAndWithoutStringSignature",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -509,6 +528,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 851,
                         "end": 871,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -553,6 +573,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 878,
                         "end": 896,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -583,13 +604,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 891,
                             "end": 895,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 891,
                               "end": 895,
                               "decorators": [],
                               "name": "Date",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -610,6 +633,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 900,
       "end": 949,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 900,
@@ -621,7 +645,8 @@ __ESTREE_TEST__:PASS:
           "end": 909,
           "decorators": [],
           "name": "numOrDate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -634,7 +659,8 @@ __ESTREE_TEST__:PASS:
             "end": 939,
             "decorators": [],
             "name": "unionOfDifferentReturnType1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -651,6 +677,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 957,
       "end": 1001,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 957,
@@ -662,7 +689,8 @@ __ESTREE_TEST__:PASS:
           "end": 966,
           "decorators": [],
           "name": "numOrDate",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -675,7 +703,8 @@ __ESTREE_TEST__:PASS:
             "end": 996,
             "decorators": [],
             "name": "unionOfDifferentReturnType1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -723,6 +752,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSIndexSignature",
                         "start": 1070,
                         "end": 1090,
+                        "accessibility": null,
                         "parameters": [
                           {
                             "type": "Identifier",
@@ -777,6 +807,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1104,
       "end": 1165,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1104,
@@ -788,7 +819,8 @@ __ESTREE_TEST__:PASS:
           "end": 1110,
           "decorators": [],
           "name": "anyVar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -801,7 +833,8 @@ __ESTREE_TEST__:PASS:
             "end": 1155,
             "decorators": [],
             "name": "unionOfTypesWithAndWithoutStringSignature1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -818,6 +851,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1173,
       "end": 1229,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1173,
@@ -829,7 +863,8 @@ __ESTREE_TEST__:PASS:
           "end": 1179,
           "decorators": [],
           "name": "anyVar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "MemberExpression",
@@ -842,7 +877,8 @@ __ESTREE_TEST__:PASS:
             "end": 1224,
             "decorators": [],
             "name": "unionOfTypesWithAndWithoutStringSignature1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {

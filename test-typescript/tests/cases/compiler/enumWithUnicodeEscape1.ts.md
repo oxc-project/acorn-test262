@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "raw": "'gold \\u2730'",
               "value": "gold ✰"
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -37,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

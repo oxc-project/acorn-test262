@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
                       "end": 64,
                       "decorators": [],
                       "name": "debug",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "init": {
                       "type": "Literal",
@@ -76,6 +77,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSMethodSignature",
                       "start": 131,
                       "end": 159,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -83,7 +85,8 @@ __ESTREE_TEST__:PASS:
                         "end": 136,
                         "decorators": [],
                         "name": "Alert",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "method",
                       "optional": false,
@@ -118,7 +121,8 @@ __ESTREE_TEST__:PASS:
                           "end": 158
                         }
                       },
-                      "static": false
+                      "static": false,
+                      "typeParameters": null
                     }
                   ]
                 },
@@ -130,8 +134,10 @@ __ESTREE_TEST__:PASS:
                   "end": 116,
                   "decorators": [],
                   "name": "IDiagnosticWriter",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -167,13 +173,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 208,
                           "end": 225,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 208,
                             "end": 225,
                             "decorators": [],
                             "name": "IDiagnosticWriter",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -272,6 +280,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 381,
                             "end": 412,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 381,
@@ -283,7 +292,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 410,
                                   "decorators": [],
                                   "name": "output",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -297,7 +307,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 397,
                                   "decorators": [],
                                   "name": "diagnosticWriter",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "optional": false,
                                 "property": {
@@ -306,10 +317,12 @@ __ESTREE_TEST__:PASS:
                                   "end": 403,
                                   "decorators": [],
                                   "name": "Alert",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -320,7 +333,8 @@ __ESTREE_TEST__:PASS:
                         "end": 361,
                         "decorators": [],
                         "name": "diagnosticWriter",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -334,7 +348,8 @@ __ESTREE_TEST__:PASS:
                   "end": 310,
                   "decorators": [],
                   "name": "Alert",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -355,7 +370,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -390,6 +407,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 527,
                             "end": 536,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 527,
@@ -401,7 +419,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 534,
                                   "decorators": [],
                                   "name": "s",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -410,9 +429,11 @@ __ESTREE_TEST__:PASS:
                                 "end": 532,
                                 "decorators": [],
                                 "name": "Alert",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -423,7 +444,8 @@ __ESTREE_TEST__:PASS:
                         "end": 507,
                         "decorators": [],
                         "name": "debug",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -437,7 +459,8 @@ __ESTREE_TEST__:PASS:
                   "end": 472,
                   "decorators": [],
                   "name": "debugPrint",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -458,7 +481,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -503,6 +528,7 @@ __ESTREE_TEST__:PASS:
                                   "type": "ExpressionStatement",
                                   "start": 705,
                                   "end": 714,
+                                  "directive": null,
                                   "expression": {
                                     "type": "CallExpression",
                                     "start": 705,
@@ -514,7 +540,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 712,
                                         "decorators": [],
                                         "name": "s",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     ],
                                     "callee": {
@@ -523,9 +550,11 @@ __ESTREE_TEST__:PASS:
                                       "end": 710,
                                       "decorators": [],
                                       "name": "Alert",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
-                                    "optional": false
+                                    "optional": false,
+                                    "typeArguments": null
                                   }
                                 }
                               ]
@@ -540,7 +569,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 681,
                                 "decorators": [],
                                 "name": "condition",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "operator": "!",
                               "prefix": true
@@ -554,7 +584,8 @@ __ESTREE_TEST__:PASS:
                         "end": 647,
                         "decorators": [],
                         "name": "debug",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -568,7 +599,8 @@ __ESTREE_TEST__:PASS:
                   "end": 592,
                   "decorators": [],
                   "name": "assert",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -607,7 +639,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -623,7 +657,8 @@ __ESTREE_TEST__:PASS:
           "end": 37,
           "decorators": [],
           "name": "CompilerDiagnostics",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },

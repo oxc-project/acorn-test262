@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 34,
               "end": 42,
+              "directive": null,
               "expression": {
                 "type": "AwaitExpression",
                 "start": 34,
@@ -41,6 +42,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 47,
               "end": 55,
+              "directive": null,
               "expression": {
                 "type": "YieldExpression",
                 "start": 47,
@@ -59,6 +61,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 60,
               "end": 71,
+              "directive": null,
               "expression": {
                 "type": "YieldExpression",
                 "start": 60,
@@ -91,9 +94,12 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

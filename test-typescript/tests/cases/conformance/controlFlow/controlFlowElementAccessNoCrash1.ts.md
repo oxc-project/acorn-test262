@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 26,
             "end": 42,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 33,
               "decorators": [],
               "name": "caption",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 45,
             "end": 81,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -52,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "commandLineArgs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -89,8 +93,10 @@ __ESTREE_TEST__:PASS:
         "end": 21,
         "decorators": [],
         "name": "TestTscEdit",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -105,6 +111,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 114,
             "end": 134,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -112,7 +119,8 @@ __ESTREE_TEST__:PASS:
               "end": 125,
               "decorators": [],
               "name": "subScenario",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -132,6 +140,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 137,
             "end": 172,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -139,7 +148,8 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "commandLineArgs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -176,8 +186,10 @@ __ESTREE_TEST__:PASS:
         "end": 109,
         "decorators": [],
         "name": "TestTscCompile",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -192,6 +204,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 222,
             "end": 236,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -199,7 +212,8 @@ __ESTREE_TEST__:PASS:
               "end": 227,
               "decorators": [],
               "name": "index",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -219,6 +233,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 239,
             "end": 269,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -226,7 +241,8 @@ __ESTREE_TEST__:PASS:
               "end": 244,
               "decorators": [],
               "name": "edits",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -248,13 +264,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 255,
                     "end": 266,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 255,
                       "end": 266,
                       "decorators": [],
                       "name": "TestTscEdit",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -265,6 +283,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 272,
             "end": 323,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -272,7 +291,8 @@ __ESTREE_TEST__:PASS:
               "end": 287,
               "decorators": [],
               "name": "commandLineArgs",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -301,13 +321,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 289,
                   "end": 303,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 289,
                     "end": 303,
                     "decorators": [],
                     "name": "TestTscCompile",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -323,8 +345,10 @@ __ESTREE_TEST__:PASS:
         "end": 217,
         "decorators": [],
         "name": "VerifyTscEditDiscrepanciesInput",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -346,7 +370,8 @@ __ESTREE_TEST__:PASS:
         "end": 350,
         "decorators": [],
         "name": "testTscCompile",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -364,18 +389,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 358,
               "end": 372,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 358,
                 "end": 372,
                 "decorators": [],
                 "name": "TestTscCompile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -415,7 +444,8 @@ __ESTREE_TEST__:PASS:
                         "end": 508,
                         "decorators": [],
                         "name": "caption",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -427,10 +457,12 @@ __ESTREE_TEST__:PASS:
                         "end": 508,
                         "decorators": [],
                         "name": "caption",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  ]
+                  ],
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "MemberExpression",
@@ -443,7 +475,8 @@ __ESTREE_TEST__:PASS:
                     "end": 518,
                     "decorators": [],
                     "name": "edits",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -452,7 +485,8 @@ __ESTREE_TEST__:PASS:
                     "end": 524,
                     "decorators": [],
                     "name": "index",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -464,6 +498,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 529,
             "end": 647,
+            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 529,
@@ -485,7 +520,8 @@ __ESTREE_TEST__:PASS:
                         "end": 561,
                         "decorators": [],
                         "name": "subScenario",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -497,7 +533,8 @@ __ESTREE_TEST__:PASS:
                         "end": 570,
                         "decorators": [],
                         "name": "caption",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -511,7 +548,8 @@ __ESTREE_TEST__:PASS:
                         "end": 591,
                         "decorators": [],
                         "name": "commandLineArgs",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -538,7 +576,8 @@ __ESTREE_TEST__:PASS:
                               "end": 598,
                               "decorators": [],
                               "name": "edits",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -547,7 +586,8 @@ __ESTREE_TEST__:PASS:
                               "end": 604,
                               "decorators": [],
                               "name": "index",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "optional": false,
@@ -557,7 +597,8 @@ __ESTREE_TEST__:PASS:
                             "end": 621,
                             "decorators": [],
                             "name": "commandLineArgs",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "right": {
@@ -566,7 +607,8 @@ __ESTREE_TEST__:PASS:
                           "end": 640,
                           "decorators": [],
                           "name": "commandLineArgs",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -579,9 +621,11 @@ __ESTREE_TEST__:PASS:
                 "end": 543,
                 "decorators": [],
                 "name": "testTscCompile",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ]
@@ -595,7 +639,8 @@ __ESTREE_TEST__:PASS:
         "end": 413,
         "decorators": [],
         "name": "verifyTscEditDiscrepancies",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -616,7 +661,8 @@ __ESTREE_TEST__:PASS:
                 "end": 423,
                 "decorators": [],
                 "name": "index",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -628,7 +674,8 @@ __ESTREE_TEST__:PASS:
                 "end": 423,
                 "decorators": [],
                 "name": "index",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -642,7 +689,8 @@ __ESTREE_TEST__:PASS:
                 "end": 432,
                 "decorators": [],
                 "name": "edits",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -654,7 +702,8 @@ __ESTREE_TEST__:PASS:
                 "end": 432,
                 "decorators": [],
                 "name": "edits",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -668,7 +717,8 @@ __ESTREE_TEST__:PASS:
                 "end": 451,
                 "decorators": [],
                 "name": "commandLineArgs",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "init",
               "method": false,
@@ -680,7 +730,8 @@ __ESTREE_TEST__:PASS:
                 "end": 451,
                 "decorators": [],
                 "name": "commandLineArgs",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
@@ -692,18 +743,22 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 456,
               "end": 487,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 456,
                 "end": 487,
                 "decorators": [],
                 "name": "VerifyTscEditDiscrepanciesInput",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

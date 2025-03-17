@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 83,
         "decorators": [],
         "name": "TypeVariable",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -48,6 +51,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 121,
               "end": 154,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -61,7 +65,8 @@ __ESTREE_TEST__:PASS:
                     "end": 130,
                     "decorators": [],
                     "name": "Decorate",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -72,7 +77,8 @@ __ESTREE_TEST__:PASS:
                 "end": 139,
                 "decorators": [],
                 "name": "member",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -86,13 +92,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 141,
                   "end": 153,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 141,
                     "end": 153,
                     "decorators": [],
                     "name": "TypeVariable",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -108,10 +116,12 @@ __ESTREE_TEST__:PASS:
           "end": 102,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 102,
@@ -122,6 +132,8 @@ __ESTREE_TEST__:PASS:
               "start": 103,
               "end": 115,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -129,7 +141,8 @@ __ESTREE_TEST__:PASS:
                 "end": 115,
                 "decorators": [],
                 "name": "TypeVariable",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

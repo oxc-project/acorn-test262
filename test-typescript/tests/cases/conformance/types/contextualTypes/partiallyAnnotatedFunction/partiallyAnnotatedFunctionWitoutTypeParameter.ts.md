@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 15,
       "end": 77,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 38,
         "decorators": [],
         "name": "simple",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -84,7 +86,8 @@ __ESTREE_TEST__:PASS:
                   "start": 68,
                   "end": 72
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -99,12 +102,14 @@ __ESTREE_TEST__:PASS:
           "end": 77,
           "members": []
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 107,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 79,
@@ -149,9 +154,12 @@ __ESTREE_TEST__:PASS:
                 "end": 99,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -160,15 +168,18 @@ __ESTREE_TEST__:PASS:
           "end": 85,
           "decorators": [],
           "name": "simple",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 108,
       "end": 136,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 108,
@@ -195,7 +206,8 @@ __ESTREE_TEST__:PASS:
                 "end": 117,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               {
                 "type": "Identifier",
@@ -215,7 +227,9 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -224,9 +238,11 @@ __ESTREE_TEST__:PASS:
           "end": 114,
           "decorators": [],
           "name": "simple",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

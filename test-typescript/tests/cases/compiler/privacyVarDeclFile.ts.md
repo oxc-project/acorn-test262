@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "privateClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -53,10 +56,13 @@ __ESTREE_TEST__:PASS:
           "end": 48,
           "decorators": [],
           "name": "publicClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -80,6 +86,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 117,
               "end": 142,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -87,7 +94,8 @@ __ESTREE_TEST__:PASS:
                 "end": 127,
                 "decorators": [],
                 "name": "myProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -100,13 +108,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 129,
                   "end": 141,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 129,
                     "end": 141,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -121,8 +131,10 @@ __ESTREE_TEST__:PASS:
           "end": 110,
           "decorators": [],
           "name": "publicInterfaceWithPrivatePropertyTypes",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -146,6 +158,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 218,
               "end": 242,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -153,7 +166,8 @@ __ESTREE_TEST__:PASS:
                 "end": 228,
                 "decorators": [],
                 "name": "myProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -166,13 +180,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 230,
                   "end": 241,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 230,
                     "end": 241,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -187,8 +203,10 @@ __ESTREE_TEST__:PASS:
           "end": 211,
           "decorators": [],
           "name": "publicInterfaceWithPublicPropertyTypes",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -207,6 +225,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 303,
             "end": 328,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -214,7 +233,8 @@ __ESTREE_TEST__:PASS:
               "end": 313,
               "decorators": [],
               "name": "myProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -227,13 +247,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 315,
                 "end": 327,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 315,
                   "end": 327,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -248,8 +270,10 @@ __ESTREE_TEST__:PASS:
         "end": 296,
         "decorators": [],
         "name": "privateInterfaceWithPrivatePropertyTypes",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -264,6 +288,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 388,
             "end": 412,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -271,7 +296,8 @@ __ESTREE_TEST__:PASS:
               "end": 398,
               "decorators": [],
               "name": "myProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -284,13 +310,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 400,
                 "end": 411,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 400,
                   "end": 411,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -305,8 +333,10 @@ __ESTREE_TEST__:PASS:
         "end": 381,
         "decorators": [],
         "name": "privateInterfaceWithPublicPropertyTypes",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -327,6 +357,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 475,
               "end": 519,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -337,7 +368,8 @@ __ESTREE_TEST__:PASS:
                 "end": 504,
                 "decorators": [],
                 "name": "myPublicStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -351,13 +383,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 506,
                   "end": 518,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 506,
                     "end": 518,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -378,7 +412,8 @@ __ESTREE_TEST__:PASS:
                 "end": 571,
                 "decorators": [],
                 "name": "myPrivateStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -392,13 +427,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 573,
                   "end": 585,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 573,
                     "end": 585,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -408,6 +445,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 591,
               "end": 622,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -418,7 +456,8 @@ __ESTREE_TEST__:PASS:
                 "end": 607,
                 "decorators": [],
                 "name": "myPublicProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -432,13 +471,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 609,
                   "end": 621,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 609,
                     "end": 621,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -459,7 +500,8 @@ __ESTREE_TEST__:PASS:
                 "end": 661,
                 "decorators": [],
                 "name": "myPrivateProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -473,13 +515,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 663,
                   "end": 675,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 663,
                     "end": 675,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -495,10 +539,13 @@ __ESTREE_TEST__:PASS:
           "end": 468,
           "decorators": [],
           "name": "publicClassWithWithPrivatePropertyTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -523,6 +570,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 738,
               "end": 781,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -533,7 +581,8 @@ __ESTREE_TEST__:PASS:
                 "end": 767,
                 "decorators": [],
                 "name": "myPublicStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -547,13 +596,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 769,
                   "end": 780,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 769,
                     "end": 780,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -574,7 +625,8 @@ __ESTREE_TEST__:PASS:
                 "end": 824,
                 "decorators": [],
                 "name": "myPrivateStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -588,13 +640,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 826,
                   "end": 837,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 826,
                     "end": 837,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -604,6 +658,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 843,
               "end": 873,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -614,7 +669,8 @@ __ESTREE_TEST__:PASS:
                 "end": 859,
                 "decorators": [],
                 "name": "myPublicProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -628,13 +684,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 861,
                   "end": 872,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 861,
                     "end": 872,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -655,7 +713,8 @@ __ESTREE_TEST__:PASS:
                 "end": 903,
                 "decorators": [],
                 "name": "myPrivateProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -669,13 +728,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 905,
                   "end": 916,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 905,
                     "end": 916,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -691,10 +752,13 @@ __ESTREE_TEST__:PASS:
           "end": 731,
           "decorators": [],
           "name": "publicClassWithWithPublicPropertyTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -714,6 +778,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 974,
             "end": 1018,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -724,7 +789,8 @@ __ESTREE_TEST__:PASS:
               "end": 1003,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -738,13 +804,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1005,
                 "end": 1017,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1005,
                   "end": 1017,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -765,7 +833,8 @@ __ESTREE_TEST__:PASS:
               "end": 1061,
               "decorators": [],
               "name": "myPrivateStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -779,13 +848,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1063,
                 "end": 1075,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1063,
                   "end": 1075,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -795,6 +866,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 1081,
             "end": 1112,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -805,7 +877,8 @@ __ESTREE_TEST__:PASS:
               "end": 1097,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -819,13 +892,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1099,
                 "end": 1111,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1099,
                   "end": 1111,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -846,7 +921,8 @@ __ESTREE_TEST__:PASS:
               "end": 1142,
               "decorators": [],
               "name": "myPrivateProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -860,13 +936,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1144,
                 "end": 1156,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1144,
                   "end": 1156,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -882,10 +960,13 @@ __ESTREE_TEST__:PASS:
         "end": 967,
         "decorators": [],
         "name": "privateClassWithWithPrivatePropertyTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -901,6 +982,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 1213,
             "end": 1256,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -911,7 +993,8 @@ __ESTREE_TEST__:PASS:
               "end": 1242,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -925,13 +1008,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1244,
                 "end": 1255,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1244,
                   "end": 1255,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -952,7 +1037,8 @@ __ESTREE_TEST__:PASS:
               "end": 1299,
               "decorators": [],
               "name": "myPrivateStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -966,13 +1052,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1301,
                 "end": 1312,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1301,
                   "end": 1312,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -982,6 +1070,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 1318,
             "end": 1348,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -992,7 +1081,8 @@ __ESTREE_TEST__:PASS:
               "end": 1334,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1006,13 +1096,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1336,
                 "end": 1347,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1336,
                   "end": 1347,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -1033,7 +1125,8 @@ __ESTREE_TEST__:PASS:
               "end": 1378,
               "decorators": [],
               "name": "myPrivateProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1047,13 +1140,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1380,
                 "end": 1391,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1380,
                   "end": 1391,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -1069,10 +1164,13 @@ __ESTREE_TEST__:PASS:
         "end": 1206,
         "decorators": [],
         "name": "privateClassWithWithPublicPropertyTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -1104,13 +1202,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 1442,
                   "end": 1454,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 1442,
                     "end": 1454,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1155,13 +1255,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 1510,
                   "end": 1521,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 1510,
                     "end": 1521,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1201,13 +1303,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1563,
                 "end": 1575,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1563,
                   "end": 1575,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1243,13 +1347,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1616,
                 "end": 1627,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1616,
                   "end": 1627,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1290,13 +1396,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 1691,
                   "end": 1703,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 1691,
                     "end": 1703,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1341,13 +1449,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 1774,
                   "end": 1785,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 1774,
                     "end": 1785,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1387,13 +1497,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1842,
                 "end": 1854,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1842,
                   "end": 1854,
                   "decorators": [],
                   "name": "privateClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1429,13 +1541,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1910,
                 "end": 1921,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1910,
                   "end": 1921,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1464,6 +1578,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 1993,
               "end": 2031,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -1471,7 +1586,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2003,
                 "decorators": [],
                 "name": "myProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -1484,6 +1600,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 2005,
                   "end": 2030,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 2005,
@@ -1494,7 +1611,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2018,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -1502,7 +1620,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2030,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1518,8 +1637,10 @@ __ESTREE_TEST__:PASS:
           "end": 1986,
           "decorators": [],
           "name": "publicInterfaceWithPrivateModulePropertyTypes",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -1544,6 +1665,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 2104,
               "end": 2161,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1554,7 +1676,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2133,
                 "decorators": [],
                 "name": "myPublicStaticProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -1568,6 +1691,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 2135,
                   "end": 2160,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 2135,
@@ -1578,7 +1702,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2148,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -1586,7 +1711,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2160,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1597,6 +1723,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 2175,
               "end": 2219,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1607,7 +1734,8 @@ __ESTREE_TEST__:PASS:
                 "end": 2191,
                 "decorators": [],
                 "name": "myPublicProperty",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -1621,6 +1749,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 2193,
                   "end": 2218,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 2193,
@@ -1631,7 +1760,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2206,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -1639,7 +1769,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2218,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1656,10 +1787,13 @@ __ESTREE_TEST__:PASS:
           "end": 2097,
           "decorators": [],
           "name": "publicClassWithPrivateModulePropertyTypes",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -1695,6 +1829,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 2283,
                   "end": 2308,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 2283,
@@ -1705,7 +1840,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2296,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -1713,7 +1849,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2308,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1759,6 +1896,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 2386,
                   "end": 2411,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "TSQualifiedName",
                     "start": 2386,
@@ -1769,7 +1907,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2399,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "right": {
                       "type": "Identifier",
@@ -1777,7 +1916,8 @@ __ESTREE_TEST__:PASS:
                       "end": 2411,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -1806,6 +1946,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 2486,
             "end": 2524,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -1813,7 +1954,8 @@ __ESTREE_TEST__:PASS:
               "end": 2496,
               "decorators": [],
               "name": "myProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -1826,6 +1968,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2498,
                 "end": 2523,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 2498,
@@ -1836,7 +1979,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2511,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1844,7 +1988,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2523,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1860,8 +2005,10 @@ __ESTREE_TEST__:PASS:
         "end": 2479,
         "decorators": [],
         "name": "privateInterfaceWithPrivateModulePropertyTypes",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -1877,6 +2024,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 2582,
             "end": 2639,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1887,7 +2035,8 @@ __ESTREE_TEST__:PASS:
               "end": 2611,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1901,6 +2050,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2613,
                 "end": 2638,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 2613,
@@ -1911,7 +2061,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2626,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1919,7 +2070,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2638,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1930,6 +2082,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 2644,
             "end": 2688,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -1940,7 +2093,8 @@ __ESTREE_TEST__:PASS:
               "end": 2660,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -1954,6 +2108,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2662,
                 "end": 2687,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 2662,
@@ -1964,7 +2119,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2675,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1972,7 +2128,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2687,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1989,10 +2146,13 @@ __ESTREE_TEST__:PASS:
         "end": 2575,
         "decorators": [],
         "name": "privateClassWithPrivateModulePropertyTypes",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -2019,6 +2179,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2737,
                 "end": 2762,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 2737,
@@ -2029,7 +2190,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2750,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2037,7 +2199,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2762,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2074,6 +2237,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 2825,
                 "end": 2850,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 2825,
@@ -2084,7 +2248,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2838,
                     "decorators": [],
                     "name": "privateModule",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -2092,7 +2257,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2850,
                     "decorators": [],
                     "name": "publicClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -2137,10 +2303,13 @@ __ESTREE_TEST__:PASS:
                 "end": 2904,
                 "decorators": [],
                 "name": "privateClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2166,10 +2335,13 @@ __ESTREE_TEST__:PASS:
                   "end": 2942,
                   "decorators": [],
                   "name": "publicClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -2193,6 +2365,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 3023,
                       "end": 3048,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -2200,7 +2373,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3033,
                         "decorators": [],
                         "name": "myProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -2213,13 +2387,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3035,
                           "end": 3047,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3035,
                             "end": 3047,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -2234,8 +2410,10 @@ __ESTREE_TEST__:PASS:
                   "end": 3012,
                   "decorators": [],
                   "name": "publicInterfaceWithPrivatePropertyTypes",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -2259,6 +2437,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 3136,
                       "end": 3160,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -2266,7 +2445,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3146,
                         "decorators": [],
                         "name": "myProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -2279,13 +2459,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3148,
                           "end": 3159,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3148,
                             "end": 3159,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -2300,8 +2482,10 @@ __ESTREE_TEST__:PASS:
                   "end": 3125,
                   "decorators": [],
                   "name": "publicInterfaceWithPublicPropertyTypes",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -2320,6 +2504,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 3233,
                     "end": 3258,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -2327,7 +2512,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3243,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -2340,13 +2526,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 3245,
                         "end": 3257,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 3245,
                           "end": 3257,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -2361,8 +2549,10 @@ __ESTREE_TEST__:PASS:
                 "end": 3222,
                 "decorators": [],
                 "name": "privateInterfaceWithPrivatePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "TSInterfaceDeclaration",
@@ -2377,6 +2567,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 3330,
                     "end": 3354,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -2384,7 +2575,8 @@ __ESTREE_TEST__:PASS:
                       "end": 3340,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -2397,13 +2589,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 3342,
                         "end": 3353,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 3342,
                           "end": 3353,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -2418,8 +2612,10 @@ __ESTREE_TEST__:PASS:
                 "end": 3319,
                 "decorators": [],
                 "name": "privateInterfaceWithPublicPropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -2440,6 +2636,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 3429,
                       "end": 3473,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -2450,7 +2647,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3458,
                         "decorators": [],
                         "name": "myPublicStaticProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2464,13 +2662,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3460,
                           "end": 3472,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3460,
                             "end": 3472,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2491,7 +2691,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3529,
                         "decorators": [],
                         "name": "myPrivateStaticProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2505,13 +2706,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3531,
                           "end": 3543,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3531,
                             "end": 3543,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2521,6 +2724,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 3553,
                       "end": 3584,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -2531,7 +2735,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3569,
                         "decorators": [],
                         "name": "myPublicProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2545,13 +2750,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3571,
                           "end": 3583,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3571,
                             "end": 3583,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2572,7 +2779,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3627,
                         "decorators": [],
                         "name": "myPrivateProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2586,13 +2794,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3629,
                           "end": 3641,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3629,
                             "end": 3641,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2608,10 +2818,13 @@ __ESTREE_TEST__:PASS:
                   "end": 3418,
                   "decorators": [],
                   "name": "publicClassWithWithPrivatePropertyTypes",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -2636,6 +2849,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 3716,
                       "end": 3759,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -2646,7 +2860,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3745,
                         "decorators": [],
                         "name": "myPublicStaticProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2660,13 +2875,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3747,
                           "end": 3758,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3747,
                             "end": 3758,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2687,7 +2904,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3806,
                         "decorators": [],
                         "name": "myPrivateStaticProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2701,13 +2919,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3808,
                           "end": 3819,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3808,
                             "end": 3819,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2717,6 +2937,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 3829,
                       "end": 3859,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -2727,7 +2948,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3845,
                         "decorators": [],
                         "name": "myPublicProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2741,13 +2963,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3847,
                           "end": 3858,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3847,
                             "end": 3858,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2768,7 +2992,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3893,
                         "decorators": [],
                         "name": "myPrivateProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -2782,13 +3007,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3895,
                           "end": 3906,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3895,
                             "end": 3906,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       },
@@ -2804,10 +3031,13 @@ __ESTREE_TEST__:PASS:
                   "end": 3705,
                   "decorators": [],
                   "name": "publicClassWithWithPublicPropertyTypes",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -2827,6 +3057,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 3976,
                     "end": 4020,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -2837,7 +3068,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4005,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -2851,13 +3083,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4007,
                         "end": 4019,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4007,
                           "end": 4019,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -2878,7 +3112,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4067,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -2892,13 +3127,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4069,
                         "end": 4081,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4069,
                           "end": 4081,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -2908,6 +3145,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4091,
                     "end": 4122,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -2918,7 +3156,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4107,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -2932,13 +3171,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4109,
                         "end": 4121,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4109,
                           "end": 4121,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -2959,7 +3200,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4156,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -2973,13 +3215,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4158,
                         "end": 4170,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4158,
                           "end": 4170,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -2995,10 +3239,13 @@ __ESTREE_TEST__:PASS:
                 "end": 3965,
                 "decorators": [],
                 "name": "privateClassWithWithPrivatePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ClassDeclaration",
@@ -3014,6 +3261,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4239,
                     "end": 4282,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -3024,7 +3272,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4268,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -3038,13 +3287,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4270,
                         "end": 4281,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4270,
                           "end": 4281,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -3065,7 +3316,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4329,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -3079,13 +3331,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4331,
                         "end": 4342,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4331,
                           "end": 4342,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -3095,6 +3349,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4352,
                     "end": 4382,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -3105,7 +3360,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4368,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -3119,13 +3375,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4370,
                         "end": 4381,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4370,
                           "end": 4381,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -3146,7 +3404,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4416,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -3160,13 +3419,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4418,
                         "end": 4429,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4418,
                           "end": 4429,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -3182,10 +3443,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4228,
                 "decorators": [],
                 "name": "privateClassWithWithPublicPropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "ExportNamedDeclaration",
@@ -3217,13 +3481,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4488,
                           "end": 4500,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4488,
                             "end": 4500,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3268,13 +3534,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4560,
                           "end": 4571,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4560,
                             "end": 4571,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3314,13 +3582,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4617,
                         "end": 4629,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4617,
                           "end": 4629,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3356,13 +3626,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4674,
                         "end": 4685,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4674,
                           "end": 4685,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3403,13 +3675,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4753,
                           "end": 4765,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4753,
                             "end": 4765,
                             "decorators": [],
                             "name": "privateClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3454,13 +3728,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4840,
                           "end": 4851,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4840,
                             "end": 4851,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3500,13 +3776,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4912,
                         "end": 4924,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4912,
                           "end": 4924,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3542,13 +3820,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4984,
                         "end": 4995,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4984,
                           "end": 4995,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -3577,6 +3857,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 5075,
                       "end": 5113,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -3584,7 +3865,8 @@ __ESTREE_TEST__:PASS:
                         "end": 5085,
                         "decorators": [],
                         "name": "myProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -3597,6 +3879,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 5087,
                           "end": 5112,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 5087,
@@ -3607,7 +3890,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5100,
                               "decorators": [],
                               "name": "privateModule",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -3615,7 +3899,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5112,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3631,8 +3916,10 @@ __ESTREE_TEST__:PASS:
                   "end": 5064,
                   "decorators": [],
                   "name": "publicInterfaceWithPrivateModulePropertyTypes",
-                  "optional": false
-                }
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "typeParameters": null
               },
               "exportKind": "type",
               "source": null,
@@ -3657,6 +3944,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 5198,
                       "end": 5255,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -3667,7 +3955,8 @@ __ESTREE_TEST__:PASS:
                         "end": 5227,
                         "decorators": [],
                         "name": "myPublicStaticProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -3681,6 +3970,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 5229,
                           "end": 5254,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 5229,
@@ -3691,7 +3981,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5242,
                               "decorators": [],
                               "name": "privateModule",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -3699,7 +3990,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5254,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3710,6 +4002,7 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 5273,
                       "end": 5317,
+                      "accessibility": null,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
@@ -3720,7 +4013,8 @@ __ESTREE_TEST__:PASS:
                         "end": 5289,
                         "decorators": [],
                         "name": "myPublicProperty",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "override": false,
@@ -3734,6 +4028,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 5291,
                           "end": 5316,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 5291,
@@ -3744,7 +4039,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5304,
                               "decorators": [],
                               "name": "privateModule",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -3752,7 +4048,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5316,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3769,10 +4066,13 @@ __ESTREE_TEST__:PASS:
                   "end": 5187,
                   "decorators": [],
                   "name": "publicClassWithPrivateModulePropertyTypes",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -3808,6 +4108,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 5389,
                           "end": 5414,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 5389,
@@ -3818,7 +4119,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5402,
                               "decorators": [],
                               "name": "privateModule",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -3826,7 +4128,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5414,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3872,6 +4175,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 5496,
                           "end": 5521,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "TSQualifiedName",
                             "start": 5496,
@@ -3882,7 +4186,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5509,
                               "decorators": [],
                               "name": "privateModule",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "Identifier",
@@ -3890,7 +4195,8 @@ __ESTREE_TEST__:PASS:
                               "end": 5521,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3919,6 +4225,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 5604,
                     "end": 5642,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -3926,7 +4233,8 @@ __ESTREE_TEST__:PASS:
                       "end": 5614,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -3939,6 +4247,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5616,
                         "end": 5641,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5616,
@@ -3949,7 +4258,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5629,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -3957,7 +4267,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5641,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -3973,8 +4284,10 @@ __ESTREE_TEST__:PASS:
                 "end": 5593,
                 "decorators": [],
                 "name": "privateInterfaceWithPrivateModulePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             {
               "type": "ClassDeclaration",
@@ -3990,6 +4303,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 5712,
                     "end": 5769,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4000,7 +4314,8 @@ __ESTREE_TEST__:PASS:
                       "end": 5741,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4014,6 +4329,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5743,
                         "end": 5768,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5743,
@@ -4024,7 +4340,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5756,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -4032,7 +4349,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5768,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -4043,6 +4361,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 5778,
                     "end": 5822,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4053,7 +4372,8 @@ __ESTREE_TEST__:PASS:
                       "end": 5794,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4067,6 +4387,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5796,
                         "end": 5821,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5796,
@@ -4077,7 +4398,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5809,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -4085,7 +4407,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5821,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -4102,10 +4425,13 @@ __ESTREE_TEST__:PASS:
                 "end": 5701,
                 "decorators": [],
                 "name": "privateClassWithPrivateModulePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             {
               "type": "VariableDeclaration",
@@ -4132,6 +4458,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5879,
                         "end": 5904,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5879,
@@ -4142,7 +4469,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5892,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -4150,7 +4478,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5904,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -4187,6 +4516,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5971,
                         "end": 5996,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 5971,
@@ -4197,7 +4527,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5984,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -4205,7 +4536,8 @@ __ESTREE_TEST__:PASS:
                             "end": 5996,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -4227,7 +4559,8 @@ __ESTREE_TEST__:PASS:
           "end": 2879,
           "decorators": [],
           "name": "publicModule",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -4263,10 +4596,13 @@ __ESTREE_TEST__:PASS:
               "end": 6046,
               "decorators": [],
               "name": "privateClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4292,10 +4628,13 @@ __ESTREE_TEST__:PASS:
                 "end": 6084,
                 "decorators": [],
                 "name": "publicClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -4319,6 +4658,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 6165,
                     "end": 6190,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -4326,7 +4666,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6175,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -4339,13 +4680,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6177,
                         "end": 6189,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6177,
                           "end": 6189,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -4360,8 +4703,10 @@ __ESTREE_TEST__:PASS:
                 "end": 6154,
                 "decorators": [],
                 "name": "publicInterfaceWithPrivatePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -4385,6 +4730,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 6270,
                     "end": 6294,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -4392,7 +4738,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6280,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -4405,13 +4752,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6282,
                         "end": 6293,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6282,
                           "end": 6293,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -4426,8 +4775,10 @@ __ESTREE_TEST__:PASS:
                 "end": 6259,
                 "decorators": [],
                 "name": "publicInterfaceWithPublicPropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -4446,6 +4797,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 6367,
                   "end": 6392,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -4453,7 +4805,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6377,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -4466,13 +4819,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6379,
                       "end": 6391,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 6379,
                         "end": 6391,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -4487,8 +4842,10 @@ __ESTREE_TEST__:PASS:
               "end": 6356,
               "decorators": [],
               "name": "privateInterfaceWithPrivatePropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -4503,6 +4860,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 6464,
                   "end": 6488,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -4510,7 +4868,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6474,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -4523,13 +4882,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6476,
                       "end": 6487,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 6476,
                         "end": 6487,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -4544,8 +4905,10 @@ __ESTREE_TEST__:PASS:
               "end": 6453,
               "decorators": [],
               "name": "privateInterfaceWithPublicPropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -4566,6 +4929,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6563,
                     "end": 6607,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4576,7 +4940,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6592,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4590,13 +4955,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6594,
                         "end": 6606,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6594,
                           "end": 6606,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4617,7 +4984,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6655,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4631,13 +4999,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6657,
                         "end": 6669,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6657,
                           "end": 6669,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4647,6 +5017,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6679,
                     "end": 6710,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4657,7 +5028,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6695,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4671,13 +5043,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6697,
                         "end": 6709,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6697,
                           "end": 6709,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4698,7 +5072,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6745,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4712,13 +5087,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6747,
                         "end": 6759,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6747,
                           "end": 6759,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4734,10 +5111,13 @@ __ESTREE_TEST__:PASS:
                 "end": 6552,
                 "decorators": [],
                 "name": "publicClassWithWithPrivatePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -4762,6 +5142,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6834,
                     "end": 6877,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4772,7 +5153,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6863,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4786,13 +5168,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6865,
                         "end": 6876,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6865,
                           "end": 6876,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4813,7 +5197,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6924,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4827,13 +5212,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6926,
                         "end": 6937,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6926,
                           "end": 6937,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4843,6 +5230,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6947,
                     "end": 6977,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -4853,7 +5241,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6963,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4867,13 +5256,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6965,
                         "end": 6976,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 6965,
                           "end": 6976,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4894,7 +5285,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7011,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -4908,13 +5300,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 7013,
                         "end": 7024,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 7013,
                           "end": 7024,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -4930,10 +5324,13 @@ __ESTREE_TEST__:PASS:
                 "end": 6823,
                 "decorators": [],
                 "name": "publicClassWithWithPublicPropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -4953,6 +5350,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 7094,
                   "end": 7138,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -4963,7 +5361,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7123,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -4977,13 +5376,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7125,
                       "end": 7137,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7125,
                         "end": 7137,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5004,7 +5405,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7185,
                     "decorators": [],
                     "name": "myPrivateStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5018,13 +5420,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7187,
                       "end": 7199,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7187,
                         "end": 7199,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5034,6 +5438,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 7209,
                   "end": 7240,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -5044,7 +5449,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7225,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5058,13 +5464,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7227,
                       "end": 7239,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7227,
                         "end": 7239,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5085,7 +5493,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7274,
                     "decorators": [],
                     "name": "myPrivateProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5099,13 +5508,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7276,
                       "end": 7288,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7276,
                         "end": 7288,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5121,10 +5532,13 @@ __ESTREE_TEST__:PASS:
               "end": 7083,
               "decorators": [],
               "name": "privateClassWithWithPrivatePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -5140,6 +5554,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 7357,
                   "end": 7400,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -5150,7 +5565,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7386,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5164,13 +5580,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7388,
                       "end": 7399,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7388,
                         "end": 7399,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5191,7 +5609,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7447,
                     "decorators": [],
                     "name": "myPrivateStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5205,13 +5624,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7449,
                       "end": 7460,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7449,
                         "end": 7460,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5221,6 +5642,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 7470,
                   "end": 7500,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -5231,7 +5653,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7486,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5245,13 +5668,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7488,
                       "end": 7499,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7488,
                         "end": 7499,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5272,7 +5697,8 @@ __ESTREE_TEST__:PASS:
                     "end": 7534,
                     "decorators": [],
                     "name": "myPrivateProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -5286,13 +5712,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7536,
                       "end": 7547,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7536,
                         "end": 7547,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -5308,10 +5736,13 @@ __ESTREE_TEST__:PASS:
               "end": 7346,
               "decorators": [],
               "name": "privateClassWithWithPublicPropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -5343,13 +5774,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 7606,
                         "end": 7618,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 7606,
                           "end": 7618,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -5394,13 +5827,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 7670,
                         "end": 7681,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 7670,
                           "end": 7681,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -5440,13 +5875,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7727,
                       "end": 7739,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7727,
                         "end": 7739,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -5482,13 +5919,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 7784,
                       "end": 7795,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 7784,
                         "end": 7795,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -5529,13 +5968,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 7863,
                         "end": 7875,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 7863,
                           "end": 7875,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -5580,13 +6021,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 7942,
                         "end": 7953,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 7942,
                           "end": 7953,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -5626,13 +6069,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8014,
                       "end": 8026,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 8014,
                         "end": 8026,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -5668,13 +6113,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8086,
                       "end": 8097,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 8086,
                         "end": 8097,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -5703,6 +6150,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 8177,
                     "end": 8215,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -5710,7 +6158,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8187,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -5723,6 +6172,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 8189,
                         "end": 8214,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 8189,
@@ -5733,7 +6183,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8202,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -5741,7 +6192,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8214,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -5757,8 +6209,10 @@ __ESTREE_TEST__:PASS:
                 "end": 8166,
                 "decorators": [],
                 "name": "publicInterfaceWithPrivateModulePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -5783,6 +6237,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 8292,
                     "end": 8349,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -5793,7 +6248,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8321,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -5807,6 +6263,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 8323,
                         "end": 8348,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 8323,
@@ -5817,7 +6274,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8336,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -5825,7 +6283,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8348,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -5836,6 +6295,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 8359,
                     "end": 8403,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -5846,7 +6306,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8375,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -5860,6 +6321,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 8377,
                         "end": 8402,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 8377,
@@ -5870,7 +6332,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8390,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -5878,7 +6341,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8402,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -5895,10 +6359,13 @@ __ESTREE_TEST__:PASS:
                 "end": 8281,
                 "decorators": [],
                 "name": "publicClassWithPrivateModulePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -5934,6 +6401,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 8467,
                         "end": 8492,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 8467,
@@ -5944,7 +6412,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8480,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -5952,7 +6421,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8492,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -5998,6 +6468,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 8566,
                         "end": 8591,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 8566,
@@ -6008,7 +6479,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8579,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -6016,7 +6488,8 @@ __ESTREE_TEST__:PASS:
                             "end": 8591,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -6045,6 +6518,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 8665,
                   "end": 8703,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -6052,7 +6526,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8675,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -6065,6 +6540,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8677,
                       "end": 8702,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 8677,
@@ -6075,7 +6551,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8690,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -6083,7 +6560,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8702,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -6099,8 +6577,10 @@ __ESTREE_TEST__:PASS:
               "end": 8654,
               "decorators": [],
               "name": "privateInterfaceWithPrivateModulePropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -6116,6 +6596,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 8773,
                   "end": 8830,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -6126,7 +6607,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8802,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -6140,6 +6622,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8804,
                       "end": 8829,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 8804,
@@ -6150,7 +6633,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8817,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -6158,7 +6642,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8829,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -6169,6 +6654,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 8839,
                   "end": 8883,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -6179,7 +6665,8 @@ __ESTREE_TEST__:PASS:
                     "end": 8855,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -6193,6 +6680,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8857,
                       "end": 8882,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 8857,
@@ -6203,7 +6691,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8870,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -6211,7 +6700,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8882,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -6228,10 +6718,13 @@ __ESTREE_TEST__:PASS:
               "end": 8762,
               "decorators": [],
               "name": "privateClassWithPrivateModulePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "VariableDeclaration",
@@ -6258,6 +6751,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 8940,
                       "end": 8965,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 8940,
@@ -6268,7 +6762,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8953,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -6276,7 +6771,8 @@ __ESTREE_TEST__:PASS:
                           "end": 8965,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -6313,6 +6809,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 9032,
                       "end": 9057,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 9032,
@@ -6323,7 +6820,8 @@ __ESTREE_TEST__:PASS:
                           "end": 9045,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -6331,7 +6829,8 @@ __ESTREE_TEST__:PASS:
                           "end": 9057,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -6353,7 +6852,8 @@ __ESTREE_TEST__:PASS:
         "end": 6021,
         "decorators": [],
         "name": "privateModule",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }
@@ -6388,10 +6888,13 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "publicClassInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -6406,6 +6909,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 93,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -6413,7 +6917,8 @@ __ESTREE_TEST__:PASS:
               "end": 103,
               "decorators": [],
               "name": "myProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -6426,13 +6931,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 105,
                 "end": 124,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 105,
                   "end": 124,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -6447,8 +6954,10 @@ __ESTREE_TEST__:PASS:
         "end": 86,
         "decorators": [],
         "name": "publicInterfaceWithPublicPropertyTypesInGlobal",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -6464,6 +6973,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 187,
             "end": 238,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6474,7 +6984,8 @@ __ESTREE_TEST__:PASS:
               "end": 216,
               "decorators": [],
               "name": "myPublicStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6488,13 +6999,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 218,
                 "end": 237,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 218,
                   "end": 237,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -6515,7 +7028,8 @@ __ESTREE_TEST__:PASS:
               "end": 281,
               "decorators": [],
               "name": "myPrivateStaticProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6529,13 +7043,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 283,
                 "end": 302,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 283,
                   "end": 302,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -6545,6 +7061,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 308,
             "end": 346,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -6555,7 +7072,8 @@ __ESTREE_TEST__:PASS:
               "end": 324,
               "decorators": [],
               "name": "myPublicProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6569,13 +7087,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 326,
                 "end": 345,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 326,
                   "end": 345,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -6596,7 +7116,8 @@ __ESTREE_TEST__:PASS:
               "end": 376,
               "decorators": [],
               "name": "myPrivateProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -6610,13 +7131,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 378,
                 "end": 397,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 378,
                   "end": 397,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -6632,10 +7155,13 @@ __ESTREE_TEST__:PASS:
         "end": 180,
         "decorators": [],
         "name": "publicClassWithWithPublicPropertyTypesInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -6662,13 +7188,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 447,
                 "end": 466,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 447,
                   "end": 466,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -6704,13 +7232,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 529,
                 "end": 548,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 529,
                   "end": 548,
                   "decorators": [],
                   "name": "publicClassInGlobal",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -6749,10 +7279,13 @@ __ESTREE_TEST__:PASS:
               "end": 603,
               "decorators": [],
               "name": "privateClass",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -6778,10 +7311,13 @@ __ESTREE_TEST__:PASS:
                 "end": 641,
                 "decorators": [],
                 "name": "publicClass",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -6815,10 +7351,13 @@ __ESTREE_TEST__:PASS:
                     "end": 704,
                     "decorators": [],
                     "name": "privateClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
-                  "superClass": null
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "ExportNamedDeclaration",
@@ -6844,10 +7383,13 @@ __ESTREE_TEST__:PASS:
                       "end": 750,
                       "decorators": [],
                       "name": "publicClass",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -6871,6 +7413,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 843,
                           "end": 868,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -6878,7 +7421,8 @@ __ESTREE_TEST__:PASS:
                             "end": 853,
                             "decorators": [],
                             "name": "myProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -6891,13 +7435,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 855,
                               "end": 867,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 855,
                                 "end": 867,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -6912,8 +7458,10 @@ __ESTREE_TEST__:PASS:
                       "end": 828,
                       "decorators": [],
                       "name": "publicInterfaceWithPrivatePropertyTypes",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -6937,6 +7485,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 958,
                           "end": 982,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -6944,7 +7493,8 @@ __ESTREE_TEST__:PASS:
                             "end": 968,
                             "decorators": [],
                             "name": "myProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -6957,13 +7507,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 970,
                               "end": 981,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 970,
                                 "end": 981,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -6978,8 +7530,10 @@ __ESTREE_TEST__:PASS:
                       "end": 943,
                       "decorators": [],
                       "name": "publicInterfaceWithPublicPropertyTypes",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -6998,6 +7552,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 1067,
                         "end": 1092,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -7005,7 +7560,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1077,
                           "decorators": [],
                           "name": "myProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -7018,13 +7574,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1079,
                             "end": 1091,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1079,
                               "end": 1091,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -7039,8 +7597,10 @@ __ESTREE_TEST__:PASS:
                     "end": 1052,
                     "decorators": [],
                     "name": "privateInterfaceWithPrivatePropertyTypes",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "TSInterfaceDeclaration",
@@ -7055,6 +7615,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 1176,
                         "end": 1200,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -7062,7 +7623,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1186,
                           "decorators": [],
                           "name": "myProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -7075,13 +7637,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1188,
                             "end": 1199,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1188,
                               "end": 1199,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -7096,8 +7660,10 @@ __ESTREE_TEST__:PASS:
                     "end": 1161,
                     "decorators": [],
                     "name": "privateInterfaceWithPublicPropertyTypes",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "ExportNamedDeclaration",
@@ -7118,6 +7684,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 1287,
                           "end": 1331,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -7128,7 +7695,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1316,
                             "decorators": [],
                             "name": "myPublicStaticProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7142,13 +7710,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1318,
                               "end": 1330,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1318,
                                 "end": 1330,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7169,7 +7739,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1382,
                             "decorators": [],
                             "name": "myPrivateStaticProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7183,13 +7754,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1384,
                               "end": 1396,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1384,
                                 "end": 1396,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7199,6 +7772,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 1410,
                           "end": 1441,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -7209,7 +7783,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1426,
                             "decorators": [],
                             "name": "myPublicProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7223,13 +7798,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1428,
                               "end": 1440,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1428,
                                 "end": 1440,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7250,7 +7827,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1479,
                             "decorators": [],
                             "name": "myPrivateProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7264,13 +7842,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1481,
                               "end": 1493,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1481,
                                 "end": 1493,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7286,10 +7866,13 @@ __ESTREE_TEST__:PASS:
                       "end": 1272,
                       "decorators": [],
                       "name": "publicClassWithWithPrivatePropertyTypes",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -7314,6 +7897,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 1580,
                           "end": 1623,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -7324,7 +7908,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1609,
                             "decorators": [],
                             "name": "myPublicStaticProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7338,13 +7923,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1611,
                               "end": 1622,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1611,
                                 "end": 1622,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7365,7 +7952,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1674,
                             "decorators": [],
                             "name": "myPrivateStaticProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7379,13 +7967,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1676,
                               "end": 1687,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1676,
                                 "end": 1687,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7395,6 +7985,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 1701,
                           "end": 1731,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -7405,7 +7996,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1717,
                             "decorators": [],
                             "name": "myPublicProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7419,13 +8011,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1719,
                               "end": 1730,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1719,
                                 "end": 1730,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7446,7 +8040,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1769,
                             "decorators": [],
                             "name": "myPrivateProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -7460,13 +8055,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1771,
                               "end": 1782,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1771,
                                 "end": 1782,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -7482,10 +8079,13 @@ __ESTREE_TEST__:PASS:
                       "end": 1565,
                       "decorators": [],
                       "name": "publicClassWithWithPublicPropertyTypes",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -7505,6 +8105,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 1864,
                         "end": 1908,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -7515,7 +8116,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1893,
                           "decorators": [],
                           "name": "myPublicStaticProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7529,13 +8131,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1895,
                             "end": 1907,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1895,
                               "end": 1907,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7556,7 +8160,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1959,
                           "decorators": [],
                           "name": "myPrivateStaticProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7570,13 +8175,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1961,
                             "end": 1973,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1961,
                               "end": 1973,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7586,6 +8193,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 1987,
                         "end": 2018,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -7596,7 +8204,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2003,
                           "decorators": [],
                           "name": "myPublicProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7610,13 +8219,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2005,
                             "end": 2017,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2005,
                               "end": 2017,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7637,7 +8248,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2056,
                           "decorators": [],
                           "name": "myPrivateProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7651,13 +8263,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2058,
                             "end": 2070,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2058,
                               "end": 2070,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7673,10 +8287,13 @@ __ESTREE_TEST__:PASS:
                     "end": 1849,
                     "decorators": [],
                     "name": "privateClassWithWithPrivatePropertyTypes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
-                  "superClass": null
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "ClassDeclaration",
@@ -7692,6 +8309,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 2151,
                         "end": 2194,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -7702,7 +8320,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2180,
                           "decorators": [],
                           "name": "myPublicStaticProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7716,13 +8335,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2182,
                             "end": 2193,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2182,
                               "end": 2193,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7743,7 +8364,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2245,
                           "decorators": [],
                           "name": "myPrivateStaticProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7757,13 +8379,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2247,
                             "end": 2258,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2247,
                               "end": 2258,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7773,6 +8397,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 2272,
                         "end": 2302,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -7783,7 +8408,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2288,
                           "decorators": [],
                           "name": "myPublicProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7797,13 +8423,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2290,
                             "end": 2301,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2290,
                               "end": 2301,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7824,7 +8452,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2340,
                           "decorators": [],
                           "name": "myPrivateProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -7838,13 +8467,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2342,
                             "end": 2353,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2342,
                               "end": 2353,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -7860,10 +8491,13 @@ __ESTREE_TEST__:PASS:
                     "end": 2136,
                     "decorators": [],
                     "name": "privateClassWithWithPublicPropertyTypes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
-                  "superClass": null
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "ExportNamedDeclaration",
@@ -7895,13 +8529,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2420,
                               "end": 2432,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2420,
                                 "end": 2432,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -7946,13 +8582,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2487,
                               "end": 2498,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2487,
                                 "end": 2498,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -7992,13 +8630,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2548,
                             "end": 2560,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2548,
                               "end": 2560,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -8034,13 +8674,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2609,
                             "end": 2620,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2609,
                               "end": 2620,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -8081,13 +8723,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2692,
                               "end": 2704,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2692,
                                 "end": 2704,
                                 "decorators": [],
                                 "name": "privateClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8132,13 +8776,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2774,
                               "end": 2785,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2774,
                                 "end": 2785,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8178,13 +8824,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2850,
                             "end": 2862,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2850,
                               "end": 2862,
                               "decorators": [],
                               "name": "privateClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -8220,13 +8868,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2926,
                             "end": 2937,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2926,
                               "end": 2937,
                               "decorators": [],
                               "name": "publicClass",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -8255,6 +8905,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSPropertySignature",
                           "start": 3025,
                           "end": 3063,
+                          "accessibility": null,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
@@ -8262,7 +8913,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3035,
                             "decorators": [],
                             "name": "myProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "readonly": false,
@@ -8275,6 +8927,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3037,
                               "end": 3062,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 3037,
@@ -8285,7 +8938,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3050,
                                   "decorators": [],
                                   "name": "privateModule",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -8293,7 +8947,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3062,
                                   "decorators": [],
                                   "name": "publicClass",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -8309,8 +8964,10 @@ __ESTREE_TEST__:PASS:
                       "end": 3010,
                       "decorators": [],
                       "name": "publicInterfaceWithPrivateModulePropertyTypes",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeParameters": null
                   },
                   "exportKind": "type",
                   "source": null,
@@ -8335,6 +8992,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 3151,
                           "end": 3208,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -8345,7 +9003,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3180,
                             "decorators": [],
                             "name": "myPublicStaticProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -8359,6 +9018,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3182,
                               "end": 3207,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 3182,
@@ -8369,7 +9029,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3195,
                                   "decorators": [],
                                   "name": "privateModule",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -8377,7 +9038,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3207,
                                   "decorators": [],
                                   "name": "publicClass",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -8388,6 +9050,7 @@ __ESTREE_TEST__:PASS:
                           "type": "PropertyDefinition",
                           "start": 3221,
                           "end": 3265,
+                          "accessibility": null,
                           "computed": false,
                           "declare": false,
                           "decorators": [],
@@ -8398,7 +9061,8 @@ __ESTREE_TEST__:PASS:
                             "end": 3237,
                             "decorators": [],
                             "name": "myPublicProperty",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "optional": false,
                           "override": false,
@@ -8412,6 +9076,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3239,
                               "end": 3264,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 3239,
@@ -8422,7 +9087,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3252,
                                   "decorators": [],
                                   "name": "privateModule",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -8430,7 +9096,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3264,
                                   "decorators": [],
                                   "name": "publicClass",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -8447,10 +9114,13 @@ __ESTREE_TEST__:PASS:
                       "end": 3136,
                       "decorators": [],
                       "name": "publicClassWithPrivateModulePropertyTypes",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "implements": [],
-                    "superClass": null
+                    "superClass": null,
+                    "superTypeArguments": null,
+                    "typeParameters": null
                   },
                   "exportKind": "value",
                   "source": null,
@@ -8486,6 +9156,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3336,
                               "end": 3361,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 3336,
@@ -8496,7 +9167,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3349,
                                   "decorators": [],
                                   "name": "privateModule",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -8504,7 +9176,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3361,
                                   "decorators": [],
                                   "name": "publicClass",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -8550,6 +9223,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3438,
                               "end": 3463,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 3438,
@@ -8560,7 +9234,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3451,
                                   "decorators": [],
                                   "name": "privateModule",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -8568,7 +9243,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 3463,
                                   "decorators": [],
                                   "name": "publicClass",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -8597,6 +9273,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 3545,
                         "end": 3583,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -8604,7 +9281,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3555,
                           "decorators": [],
                           "name": "myProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -8617,6 +9295,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3557,
                             "end": 3582,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 3557,
@@ -8627,7 +9306,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3570,
                                 "decorators": [],
                                 "name": "privateModule",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -8635,7 +9315,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3582,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8651,8 +9332,10 @@ __ESTREE_TEST__:PASS:
                     "end": 3530,
                     "decorators": [],
                     "name": "privateInterfaceWithPrivateModulePropertyTypes",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "ClassDeclaration",
@@ -8668,6 +9351,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 3665,
                         "end": 3722,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -8678,7 +9362,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3694,
                           "decorators": [],
                           "name": "myPublicStaticProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -8692,6 +9377,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3696,
                             "end": 3721,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 3696,
@@ -8702,7 +9388,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3709,
                                 "decorators": [],
                                 "name": "privateModule",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -8710,7 +9397,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3721,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8721,6 +9409,7 @@ __ESTREE_TEST__:PASS:
                         "type": "PropertyDefinition",
                         "start": 3735,
                         "end": 3779,
+                        "accessibility": null,
                         "computed": false,
                         "declare": false,
                         "decorators": [],
@@ -8731,7 +9420,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3751,
                           "decorators": [],
                           "name": "myPublicProperty",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "override": false,
@@ -8745,6 +9435,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3753,
                             "end": 3778,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 3753,
@@ -8755,7 +9446,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3766,
                                 "decorators": [],
                                 "name": "privateModule",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -8763,7 +9455,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3778,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8780,10 +9473,13 @@ __ESTREE_TEST__:PASS:
                     "end": 3650,
                     "decorators": [],
                     "name": "privateClassWithPrivateModulePropertyTypes",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "implements": [],
-                  "superClass": null
+                  "superClass": null,
+                  "superTypeArguments": null,
+                  "typeParameters": null
                 },
                 {
                   "type": "VariableDeclaration",
@@ -8810,6 +9506,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3844,
                             "end": 3869,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 3844,
@@ -8820,7 +9517,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3857,
                                 "decorators": [],
                                 "name": "privateModule",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -8828,7 +9526,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3869,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8865,6 +9564,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3940,
                             "end": 3965,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 3940,
@@ -8875,7 +9575,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3953,
                                 "decorators": [],
                                 "name": "privateModule",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -8883,7 +9584,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 3965,
                                 "decorators": [],
                                 "name": "publicClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -8905,7 +9607,8 @@ __ESTREE_TEST__:PASS:
               "end": 675,
               "decorators": [],
               "name": "privateModule",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "module"
           },
@@ -8927,6 +9630,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 4045,
                     "end": 4070,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -8934,7 +9638,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4055,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -8947,13 +9652,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4057,
                         "end": 4069,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4057,
                           "end": 4069,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -8968,8 +9675,10 @@ __ESTREE_TEST__:PASS:
                 "end": 4034,
                 "decorators": [],
                 "name": "publicInterfaceWithPrivatePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -8993,6 +9702,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 4158,
                     "end": 4182,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -9000,7 +9710,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4168,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -9013,13 +9724,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4170,
                         "end": 4181,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4170,
                           "end": 4181,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -9034,8 +9747,10 @@ __ESTREE_TEST__:PASS:
                 "end": 4147,
                 "decorators": [],
                 "name": "publicInterfaceWithPublicPropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -9054,6 +9769,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 4255,
                   "end": 4280,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -9061,7 +9777,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4265,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -9074,13 +9791,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 4267,
                       "end": 4279,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4267,
                         "end": 4279,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -9095,8 +9814,10 @@ __ESTREE_TEST__:PASS:
               "end": 4244,
               "decorators": [],
               "name": "privateInterfaceWithPrivatePropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -9111,6 +9832,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 4352,
                   "end": 4376,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -9118,7 +9840,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4362,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -9131,13 +9854,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 4364,
                       "end": 4375,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4364,
                         "end": 4375,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -9152,8 +9877,10 @@ __ESTREE_TEST__:PASS:
               "end": 4341,
               "decorators": [],
               "name": "privateInterfaceWithPublicPropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -9174,6 +9901,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4451,
                     "end": 4495,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -9184,7 +9912,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4480,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9198,13 +9927,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4482,
                         "end": 4494,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4482,
                           "end": 4494,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9225,7 +9956,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4551,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9239,13 +9971,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4553,
                         "end": 4565,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4553,
                           "end": 4565,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9255,6 +9989,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4575,
                     "end": 4606,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -9265,7 +10000,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4591,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9279,13 +10015,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4593,
                         "end": 4605,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4593,
                           "end": 4605,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9306,7 +10044,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4649,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9320,13 +10059,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4651,
                         "end": 4663,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4651,
                           "end": 4663,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9342,10 +10083,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4440,
                 "decorators": [],
                 "name": "publicClassWithWithPrivatePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -9370,6 +10114,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4738,
                     "end": 4781,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -9380,7 +10125,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4767,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9394,13 +10140,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4769,
                         "end": 4780,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4769,
                           "end": 4780,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9421,7 +10169,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4828,
                       "decorators": [],
                       "name": "myPrivateStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9435,13 +10184,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4830,
                         "end": 4841,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4830,
                           "end": 4841,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9451,6 +10202,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 4851,
                     "end": 4881,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -9461,7 +10213,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4867,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9475,13 +10228,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4869,
                         "end": 4880,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4869,
                           "end": 4880,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9502,7 +10257,8 @@ __ESTREE_TEST__:PASS:
                       "end": 4915,
                       "decorators": [],
                       "name": "myPrivateProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -9516,13 +10272,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 4917,
                         "end": 4928,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 4917,
                           "end": 4928,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     },
@@ -9538,10 +10296,13 @@ __ESTREE_TEST__:PASS:
                 "end": 4727,
                 "decorators": [],
                 "name": "publicClassWithWithPublicPropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -9561,6 +10322,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 4998,
                   "end": 5042,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -9571,7 +10333,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5027,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9585,13 +10348,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5029,
                       "end": 5041,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5029,
                         "end": 5041,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9612,7 +10377,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5089,
                     "decorators": [],
                     "name": "myPrivateStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9626,13 +10392,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5091,
                       "end": 5103,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5091,
                         "end": 5103,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9642,6 +10410,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 5113,
                   "end": 5144,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -9652,7 +10421,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5129,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9666,13 +10436,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5131,
                       "end": 5143,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5131,
                         "end": 5143,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9693,7 +10465,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5178,
                     "decorators": [],
                     "name": "myPrivateProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9707,13 +10480,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5180,
                       "end": 5192,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5180,
                         "end": 5192,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9729,10 +10504,13 @@ __ESTREE_TEST__:PASS:
               "end": 4987,
               "decorators": [],
               "name": "privateClassWithWithPrivatePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -9748,6 +10526,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 5261,
                   "end": 5304,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -9758,7 +10537,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5290,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9772,13 +10552,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5292,
                       "end": 5303,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5292,
                         "end": 5303,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9799,7 +10581,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5351,
                     "decorators": [],
                     "name": "myPrivateStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9813,13 +10596,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5353,
                       "end": 5364,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5353,
                         "end": 5364,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9829,6 +10614,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 5374,
                   "end": 5404,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -9839,7 +10625,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5390,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9853,13 +10640,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5392,
                       "end": 5403,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5392,
                         "end": 5403,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9880,7 +10669,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5438,
                     "decorators": [],
                     "name": "myPrivateProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -9894,13 +10684,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5440,
                       "end": 5451,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5440,
                         "end": 5451,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -9916,10 +10708,13 @@ __ESTREE_TEST__:PASS:
               "end": 5250,
               "decorators": [],
               "name": "privateClassWithWithPublicPropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ExportNamedDeclaration",
@@ -9951,13 +10746,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5510,
                         "end": 5522,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 5510,
                           "end": 5522,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10002,13 +10799,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5582,
                         "end": 5593,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 5582,
                           "end": 5593,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10048,13 +10847,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5639,
                       "end": 5651,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5639,
                         "end": 5651,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -10090,13 +10891,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5696,
                       "end": 5707,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5696,
                         "end": 5707,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -10137,13 +10940,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5775,
                         "end": 5787,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 5775,
                           "end": 5787,
                           "decorators": [],
                           "name": "privateClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10188,13 +10993,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 5862,
                         "end": 5873,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 5862,
                           "end": 5873,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10234,13 +11041,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5934,
                       "end": 5946,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5934,
                         "end": 5946,
                         "decorators": [],
                         "name": "privateClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -10276,13 +11085,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6006,
                       "end": 6017,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 6006,
                         "end": 6017,
                         "decorators": [],
                         "name": "publicClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -10311,6 +11122,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 6097,
                     "end": 6135,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -10318,7 +11130,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6107,
                       "decorators": [],
                       "name": "myProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -10331,6 +11144,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6109,
                         "end": 6134,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6109,
@@ -10341,7 +11155,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6122,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -10349,7 +11164,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6134,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -10365,8 +11181,10 @@ __ESTREE_TEST__:PASS:
                 "end": 6086,
                 "decorators": [],
                 "name": "publicInterfaceWithPrivateModulePropertyTypes",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -10391,6 +11209,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6220,
                     "end": 6277,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -10401,7 +11220,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6249,
                       "decorators": [],
                       "name": "myPublicStaticProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -10415,6 +11235,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6251,
                         "end": 6276,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6251,
@@ -10425,7 +11246,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6264,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -10433,7 +11255,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6276,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -10444,6 +11267,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 6295,
                     "end": 6339,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -10454,7 +11278,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6311,
                       "decorators": [],
                       "name": "myPublicProperty",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -10468,6 +11293,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6313,
                         "end": 6338,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6313,
@@ -10478,7 +11304,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6326,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -10486,7 +11313,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6338,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -10503,10 +11331,13 @@ __ESTREE_TEST__:PASS:
                 "end": 6209,
                 "decorators": [],
                 "name": "publicClassWithPrivateModulePropertyTypes",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -10542,6 +11373,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6411,
                         "end": 6436,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6411,
@@ -10552,7 +11384,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6424,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -10560,7 +11393,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6436,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -10606,6 +11440,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 6518,
                         "end": 6543,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "TSQualifiedName",
                           "start": 6518,
@@ -10616,7 +11451,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6531,
                             "decorators": [],
                             "name": "privateModule",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -10624,7 +11460,8 @@ __ESTREE_TEST__:PASS:
                             "end": 6543,
                             "decorators": [],
                             "name": "publicClass",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -10653,6 +11490,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 6626,
                   "end": 6664,
+                  "accessibility": null,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
@@ -10660,7 +11498,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6636,
                     "decorators": [],
                     "name": "myProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "readonly": false,
@@ -10673,6 +11512,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6638,
                       "end": 6663,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6638,
@@ -10683,7 +11523,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6651,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -10691,7 +11532,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6663,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10707,8 +11549,10 @@ __ESTREE_TEST__:PASS:
               "end": 6615,
               "decorators": [],
               "name": "privateInterfaceWithPrivateModulePropertyTypes",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -10724,6 +11568,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 6734,
                   "end": 6791,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -10734,7 +11579,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6763,
                     "decorators": [],
                     "name": "myPublicStaticProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -10748,6 +11594,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6765,
                       "end": 6790,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6765,
@@ -10758,7 +11605,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6778,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -10766,7 +11614,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6790,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10777,6 +11626,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 6800,
                   "end": 6844,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -10787,7 +11637,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6816,
                     "decorators": [],
                     "name": "myPublicProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -10801,6 +11652,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6818,
                       "end": 6843,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6818,
@@ -10811,7 +11663,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6831,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -10819,7 +11672,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6843,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10836,10 +11690,13 @@ __ESTREE_TEST__:PASS:
               "end": 6723,
               "decorators": [],
               "name": "privateClassWithPrivateModulePropertyTypes",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "VariableDeclaration",
@@ -10866,6 +11723,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6901,
                       "end": 6926,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6901,
@@ -10876,7 +11734,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6914,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -10884,7 +11743,8 @@ __ESTREE_TEST__:PASS:
                           "end": 6926,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10921,6 +11781,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 6993,
                       "end": 7018,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "TSQualifiedName",
                         "start": 6993,
@@ -10931,7 +11792,8 @@ __ESTREE_TEST__:PASS:
                           "end": 7006,
                           "decorators": [],
                           "name": "privateModule",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "right": {
                           "type": "Identifier",
@@ -10939,7 +11801,8 @@ __ESTREE_TEST__:PASS:
                           "end": 7018,
                           "decorators": [],
                           "name": "publicClass",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -10961,7 +11824,8 @@ __ESTREE_TEST__:PASS:
         "end": 578,
         "decorators": [],
         "name": "publicModuleInGlobal",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

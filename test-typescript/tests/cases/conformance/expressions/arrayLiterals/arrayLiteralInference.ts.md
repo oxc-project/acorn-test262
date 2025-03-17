@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "decorators": [],
                 "name": "HeaderDetail",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -51,7 +52,8 @@ __ESTREE_TEST__:PASS:
                 "end": 100,
                 "decorators": [],
                 "name": "HeaderMultiDetail",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -72,7 +74,8 @@ __ESTREE_TEST__:PASS:
                 "end": 140,
                 "decorators": [],
                 "name": "AdvancedList",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -93,7 +96,8 @@ __ESTREE_TEST__:PASS:
                 "end": 171,
                 "decorators": [],
                 "name": "Standard",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -114,7 +118,8 @@ __ESTREE_TEST__:PASS:
                 "end": 202,
                 "decorators": [],
                 "name": "Relationship",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -135,7 +140,8 @@ __ESTREE_TEST__:PASS:
                 "end": 231,
                 "decorators": [],
                 "name": "Report",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -156,7 +162,8 @@ __ESTREE_TEST__:PASS:
                 "end": 257,
                 "decorators": [],
                 "name": "Composite",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -177,7 +184,8 @@ __ESTREE_TEST__:PASS:
                 "end": 285,
                 "decorators": [],
                 "name": "ListOnly",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -198,7 +206,8 @@ __ESTREE_TEST__:PASS:
                 "end": 318,
                 "decorators": [],
                 "name": "ModuleSettings",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "initializer": {
                 "type": "Literal",
@@ -218,7 +227,8 @@ __ESTREE_TEST__:PASS:
           "end": 41,
           "decorators": [],
           "name": "AppType",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -250,8 +260,10 @@ __ESTREE_TEST__:PASS:
                 "end": 372,
                 "decorators": [],
                 "name": "Tree",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -264,8 +276,10 @@ __ESTREE_TEST__:PASS:
                 "end": 388,
                 "decorators": [],
                 "name": "TreeEntity",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -278,8 +292,10 @@ __ESTREE_TEST__:PASS:
                 "end": 402,
                 "decorators": [],
                 "name": "Standard",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -292,8 +308,10 @@ __ESTREE_TEST__:PASS:
                 "end": 415,
                 "decorators": [],
                 "name": "MiniApp",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             },
             {
               "type": "TSEnumMember",
@@ -306,8 +324,10 @@ __ESTREE_TEST__:PASS:
                 "end": 431,
                 "decorators": [],
                 "name": "PivotTable",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "initializer": null
             }
           ]
         },
@@ -319,7 +339,8 @@ __ESTREE_TEST__:PASS:
           "end": 361,
           "decorators": [],
           "name": "AppStyle",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "exportKind": "value",
@@ -360,13 +381,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 469,
                       "end": 476,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 469,
                         "end": 476,
                         "decorators": [],
                         "name": "AppType",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
@@ -382,13 +405,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 484,
                             "end": 492,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 484,
                               "end": 492,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -399,7 +424,8 @@ __ESTREE_TEST__:PASS:
                         "end": 483,
                         "decorators": [],
                         "name": "Array",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -410,7 +436,8 @@ __ESTREE_TEST__:PASS:
                   "end": 468,
                   "decorators": [],
                   "name": "Map",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -441,7 +468,8 @@ __ESTREE_TEST__:PASS:
                           "end": 519,
                           "decorators": [],
                           "name": "AppType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -450,7 +478,8 @@ __ESTREE_TEST__:PASS:
                           "end": 528,
                           "decorators": [],
                           "name": "Standard",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -469,7 +498,8 @@ __ESTREE_TEST__:PASS:
                               "end": 539,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -478,7 +508,8 @@ __ESTREE_TEST__:PASS:
                               "end": 548,
                               "decorators": [],
                               "name": "Standard",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -492,7 +523,8 @@ __ESTREE_TEST__:PASS:
                               "end": 558,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -501,7 +533,8 @@ __ESTREE_TEST__:PASS:
                               "end": 566,
                               "decorators": [],
                               "name": "MiniApp",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -524,7 +557,8 @@ __ESTREE_TEST__:PASS:
                           "end": 582,
                           "decorators": [],
                           "name": "AppType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -533,7 +567,8 @@ __ESTREE_TEST__:PASS:
                           "end": 595,
                           "decorators": [],
                           "name": "Relationship",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -552,7 +587,8 @@ __ESTREE_TEST__:PASS:
                               "end": 606,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -561,7 +597,8 @@ __ESTREE_TEST__:PASS:
                               "end": 615,
                               "decorators": [],
                               "name": "Standard",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -575,7 +612,8 @@ __ESTREE_TEST__:PASS:
                               "end": 625,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -584,7 +622,8 @@ __ESTREE_TEST__:PASS:
                               "end": 630,
                               "decorators": [],
                               "name": "Tree",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -598,7 +637,8 @@ __ESTREE_TEST__:PASS:
                               "end": 640,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -607,7 +647,8 @@ __ESTREE_TEST__:PASS:
                               "end": 651,
                               "decorators": [],
                               "name": "TreeEntity",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -630,7 +671,8 @@ __ESTREE_TEST__:PASS:
                           "end": 667,
                           "decorators": [],
                           "name": "AppType",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -639,7 +681,8 @@ __ESTREE_TEST__:PASS:
                           "end": 680,
                           "decorators": [],
                           "name": "AdvancedList",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -658,7 +701,8 @@ __ESTREE_TEST__:PASS:
                               "end": 691,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -667,7 +711,8 @@ __ESTREE_TEST__:PASS:
                               "end": 700,
                               "decorators": [],
                               "name": "Standard",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -681,7 +726,8 @@ __ESTREE_TEST__:PASS:
                               "end": 710,
                               "decorators": [],
                               "name": "AppStyle",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -690,7 +736,8 @@ __ESTREE_TEST__:PASS:
                               "end": 718,
                               "decorators": [],
                               "name": "MiniApp",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
@@ -706,8 +753,10 @@ __ESTREE_TEST__:PASS:
               "end": 504,
               "decorators": [],
               "name": "Map",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -719,6 +768,7 @@ __ESTREE_TEST__:PASS:
       "start": 748,
       "end": 791,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -728,7 +778,8 @@ __ESTREE_TEST__:PASS:
         "end": 768,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -741,7 +792,8 @@ __ESTREE_TEST__:PASS:
             "end": 779,
             "decorators": [],
             "name": "args",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -757,17 +809,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 781,
                 "end": 782,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 781,
                   "end": 782,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -782,13 +837,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 787,
             "end": 788,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 787,
               "end": 788,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -803,6 +860,8 @@ __ESTREE_TEST__:PASS:
             "start": 769,
             "end": 770,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -810,7 +869,8 @@ __ESTREE_TEST__:PASS:
               "end": 770,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -851,6 +911,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 802,
                       "end": 812,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -858,7 +919,8 @@ __ESTREE_TEST__:PASS:
                         "end": 803,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -900,7 +962,8 @@ __ESTREE_TEST__:PASS:
                       "end": 826,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -932,7 +995,8 @@ __ESTREE_TEST__:PASS:
                       "end": 839,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -955,9 +1019,11 @@ __ESTREE_TEST__:PASS:
               "end": 822,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -1042,9 +1108,11 @@ __ESTREE_TEST__:PASS:
               "end": 876,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

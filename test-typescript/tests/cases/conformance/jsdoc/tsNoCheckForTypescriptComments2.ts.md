@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 51,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "BinaryExpression",
@@ -74,6 +75,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 224,
               "end": 234,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -81,7 +83,8 @@ __ESTREE_TEST__:PASS:
                 "end": 225,
                 "decorators": [],
                 "name": "q",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -107,8 +110,10 @@ __ESTREE_TEST__:PASS:
           "end": 217,
           "decorators": [],
           "name": "Aleph",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -133,6 +138,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 278,
               "end": 295,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -143,7 +149,8 @@ __ESTREE_TEST__:PASS:
                 "end": 279,
                 "decorators": [],
                 "name": "q",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -177,7 +184,8 @@ __ESTREE_TEST__:PASS:
           "end": 254,
           "decorators": [],
           "name": "Bet",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [
           {
@@ -190,11 +198,15 @@ __ESTREE_TEST__:PASS:
               "end": 271,
               "decorators": [],
               "name": "Aleph",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

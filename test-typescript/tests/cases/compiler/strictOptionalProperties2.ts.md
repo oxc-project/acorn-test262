@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 29,
         "decorators": [],
         "name": "T1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -31,6 +32,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 34,
               "end": 56,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Literal",
@@ -76,6 +78,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 69,
               "end": 79,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Literal",
@@ -124,7 +127,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -137,7 +141,8 @@ __ESTREE_TEST__:PASS:
         "end": 115,
         "decorators": [],
         "name": "T2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -213,7 +218,8 @@ __ESTREE_TEST__:PASS:
             "value": true
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

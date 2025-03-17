@@ -65,7 +65,8 @@ __ESTREE_TEST__:PASS:
             "end": 39,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -77,6 +78,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 101,
       "end": 121,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 101,
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
           "end": 102,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ClassExpression",
@@ -113,13 +116,16 @@ __ESTREE_TEST__:PASS:
                 "end": 111,
                 "decorators": [],
                 "name": "dec",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ],
           "id": null,
           "implements": [],
-          "superClass": null
+          "superClass": null,
+          "superTypeArguments": null,
+          "typeParameters": null
         }
       }
     }

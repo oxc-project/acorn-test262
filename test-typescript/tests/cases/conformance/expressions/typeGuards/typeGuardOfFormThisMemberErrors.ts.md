@@ -33,6 +33,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 134,
                     "end": 166,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -43,7 +44,8 @@ __ESTREE_TEST__:PASS:
                       "end": 139,
                       "decorators": [],
                       "name": "isFSO",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -71,13 +73,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 149,
                             "end": 165,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 149,
                               "end": 165,
                               "decorators": [],
                               "name": "FileSystemObject",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -89,6 +93,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 169,
                     "end": 233,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -97,7 +102,8 @@ __ESTREE_TEST__:PASS:
                       "end": 179,
                       "decorators": [],
                       "name": "isFile",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "get",
                     "optional": false,
@@ -133,7 +139,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 228,
                                 "decorators": [],
                                 "name": "File",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -166,24 +173,28 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 191,
                               "end": 195,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 191,
                                 "end": 195,
                                 "decorators": [],
                                 "name": "File",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 236,
                     "end": 270,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -192,7 +203,8 @@ __ESTREE_TEST__:PASS:
                       "end": 246,
                       "decorators": [],
                       "name": "isFile",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "set",
                     "optional": false,
@@ -220,15 +232,19 @@ __ESTREE_TEST__:PASS:
                           "end": 252,
                           "decorators": [],
                           "name": "param",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 273,
                     "end": 352,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -237,7 +253,8 @@ __ESTREE_TEST__:PASS:
                       "end": 288,
                       "decorators": [],
                       "name": "isDirectory",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "get",
                     "optional": false,
@@ -273,7 +290,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 347,
                                 "decorators": [],
                                 "name": "Directory",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -306,24 +324,28 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 300,
                               "end": 309,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 300,
                                 "end": 309,
                                 "decorators": [],
                                 "name": "Directory",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   },
                   {
                     "type": "PropertyDefinition",
                     "start": 355,
                     "end": 395,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -334,7 +356,8 @@ __ESTREE_TEST__:PASS:
                       "end": 366,
                       "decorators": [],
                       "name": "isNetworked",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -367,13 +390,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 377,
                                 "end": 386,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 377,
                                   "end": 386,
                                   "decorators": [],
                                   "name": "Networked",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               {
@@ -392,6 +417,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 398,
                     "end": 433,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -400,7 +426,8 @@ __ESTREE_TEST__:PASS:
                       "end": 409,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -450,7 +477,9 @@ __ESTREE_TEST__:PASS:
                           "readonly": false,
                           "static": false
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -463,10 +492,13 @@ __ESTREE_TEST__:PASS:
                 "end": 129,
                 "decorators": [],
                 "name": "FileSystemObject",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -491,6 +523,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 486,
                     "end": 552,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -499,7 +532,8 @@ __ESTREE_TEST__:PASS:
                       "end": 497,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -519,6 +553,7 @@ __ESTREE_TEST__:PASS:
                             "type": "ExpressionStatement",
                             "start": 538,
                             "end": 550,
+                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 538,
@@ -530,7 +565,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 548,
                                   "decorators": [],
                                   "name": "path",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               ],
                               "callee": {
@@ -538,7 +574,8 @@ __ESTREE_TEST__:PASS:
                                 "start": 538,
                                 "end": 543
                               },
-                              "optional": false
+                              "optional": false,
+                              "typeArguments": null
                             }
                           }
                         ]
@@ -594,7 +631,9 @@ __ESTREE_TEST__:PASS:
                           "readonly": false,
                           "static": false
                         }
-                      ]
+                      ],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -607,7 +646,8 @@ __ESTREE_TEST__:PASS:
                 "end": 456,
                 "decorators": [],
                 "name": "File",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -616,8 +656,11 @@ __ESTREE_TEST__:PASS:
                 "end": 481,
                 "decorators": [],
                 "name": "FileSystemObject",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -642,6 +685,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 609,
                     "end": 638,
+                    "accessibility": null,
                     "computed": false,
                     "declare": false,
                     "decorators": [],
@@ -652,7 +696,8 @@ __ESTREE_TEST__:PASS:
                       "end": 617,
                       "decorators": [],
                       "name": "children",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "override": false,
@@ -670,13 +715,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 619,
                           "end": 635,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 619,
                             "end": 635,
                             "decorators": [],
                             "name": "FileSystemObject",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -693,7 +740,8 @@ __ESTREE_TEST__:PASS:
                 "end": 579,
                 "decorators": [],
                 "name": "Directory",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
               "superClass": {
@@ -702,8 +750,11 @@ __ESTREE_TEST__:PASS:
                 "end": 604,
                 "decorators": [],
                 "name": "FileSystemObject",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -727,6 +778,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 674,
                     "end": 687,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -734,7 +786,8 @@ __ESTREE_TEST__:PASS:
                       "end": 678,
                       "decorators": [],
                       "name": "host",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -760,8 +813,10 @@ __ESTREE_TEST__:PASS:
                 "end": 669,
                 "decorators": [],
                 "name": "Networked",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -792,13 +847,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 703,
                       "end": 719,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 703,
                         "end": 719,
                         "decorators": [],
                         "name": "FileSystemObject",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -829,8 +886,10 @@ __ESTREE_TEST__:PASS:
                     "end": 730,
                     "decorators": [],
                     "name": "File",
-                    "optional": false
-                  }
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "typeArguments": null
                 }
               }
             ],
@@ -841,6 +900,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 755,
             "end": 786,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 755,
@@ -857,7 +917,8 @@ __ESTREE_TEST__:PASS:
                   "end": 759,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -866,7 +927,8 @@ __ESTREE_TEST__:PASS:
                   "end": 771,
                   "decorators": [],
                   "name": "isNetworked",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -880,7 +942,8 @@ __ESTREE_TEST__:PASS:
                   "end": 778,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -889,7 +952,8 @@ __ESTREE_TEST__:PASS:
                   "end": 785,
                   "decorators": [],
                   "name": "isFile",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -898,6 +962,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 788,
             "end": 818,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 788,
@@ -914,7 +979,8 @@ __ESTREE_TEST__:PASS:
                   "end": 792,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -923,7 +989,8 @@ __ESTREE_TEST__:PASS:
                   "end": 798,
                   "decorators": [],
                   "name": "isFSO",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -937,7 +1004,8 @@ __ESTREE_TEST__:PASS:
                   "end": 805,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -946,7 +1014,8 @@ __ESTREE_TEST__:PASS:
                   "end": 817,
                   "decorators": [],
                   "name": "isNetworked",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -955,6 +1024,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 820,
             "end": 845,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 820,
@@ -971,7 +1041,8 @@ __ESTREE_TEST__:PASS:
                   "end": 824,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -980,7 +1051,8 @@ __ESTREE_TEST__:PASS:
                   "end": 831,
                   "decorators": [],
                   "name": "isFile",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               "right": {
@@ -994,7 +1066,8 @@ __ESTREE_TEST__:PASS:
                   "end": 838,
                   "decorators": [],
                   "name": "file",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "property": {
@@ -1003,7 +1076,8 @@ __ESTREE_TEST__:PASS:
                   "end": 844,
                   "decorators": [],
                   "name": "isFSO",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -1018,7 +1092,8 @@ __ESTREE_TEST__:PASS:
         "end": 96,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     }

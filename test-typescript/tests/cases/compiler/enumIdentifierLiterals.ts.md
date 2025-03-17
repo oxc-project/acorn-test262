@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
               "end": 19,
               "raw": "1.0",
               "value": 1
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "raw": "11e-1",
               "value": 1.1
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 42,
               "raw": "0.12e1",
               "value": 1.2
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -64,7 +67,8 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "raw": "\"13e-1\"",
               "value": "13e-1"
-            }
+            },
+            "initializer": null
           },
           {
             "type": "TSEnumMember",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
               "end": 67,
               "raw": "0xF00D",
               "value": 61453
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -89,7 +94,8 @@ __ESTREE_TEST__:PASS:
         "end": 9,
         "decorators": [],
         "name": "Nums",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

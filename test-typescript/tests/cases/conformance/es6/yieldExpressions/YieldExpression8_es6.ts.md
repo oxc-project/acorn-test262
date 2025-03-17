@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -29,9 +31,11 @@ __ESTREE_TEST__:PASS:
           "end": 5,
           "decorators": [],
           "name": "yield",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -48,6 +52,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 32,
             "end": 43,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 32,
@@ -58,7 +63,8 @@ __ESTREE_TEST__:PASS:
                 "end": 41,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "delegate": false
             }
@@ -74,9 +80,12 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

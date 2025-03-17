@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
+      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 1,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 2,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           {
             "type": "Literal",

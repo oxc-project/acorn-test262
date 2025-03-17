@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "t02",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -70,7 +71,8 @@ __ESTREE_TEST__:PASS:
                 "end": 12,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
             "end": 30,
             "decorators": [],
             "name": "t03",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -143,7 +146,8 @@ __ESTREE_TEST__:PASS:
                 "end": 35,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -167,7 +171,8 @@ __ESTREE_TEST__:PASS:
             "end": 53,
             "decorators": [],
             "name": "t04",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -223,7 +228,8 @@ __ESTREE_TEST__:PASS:
                 "end": 58,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -247,7 +253,8 @@ __ESTREE_TEST__:PASS:
             "end": 77,
             "decorators": [],
             "name": "t05",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -288,7 +295,8 @@ __ESTREE_TEST__:PASS:
                     "end": 86,
                     "name": "i"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -314,7 +322,8 @@ __ESTREE_TEST__:PASS:
                 "end": 82,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -338,7 +347,8 @@ __ESTREE_TEST__:PASS:
             "end": 104,
             "decorators": [],
             "name": "t06",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -379,7 +389,8 @@ __ESTREE_TEST__:PASS:
                     "end": 113,
                     "name": "i"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -405,7 +416,8 @@ __ESTREE_TEST__:PASS:
                 "end": 109,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -429,7 +441,8 @@ __ESTREE_TEST__:PASS:
             "end": 131,
             "decorators": [],
             "name": "t07",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -478,7 +491,8 @@ __ESTREE_TEST__:PASS:
                     "end": 140,
                     "name": "i"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -504,7 +518,8 @@ __ESTREE_TEST__:PASS:
                 "end": 136,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -528,7 +543,8 @@ __ESTREE_TEST__:PASS:
             "end": 159,
             "decorators": [],
             "name": "t08",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -562,7 +578,8 @@ __ESTREE_TEST__:PASS:
                     "end": 167,
                     "name": "i"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -595,7 +612,8 @@ __ESTREE_TEST__:PASS:
                 "end": 164,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -619,7 +637,8 @@ __ESTREE_TEST__:PASS:
             "end": 186,
             "decorators": [],
             "name": "t09",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -660,7 +679,8 @@ __ESTREE_TEST__:PASS:
                     "end": 195,
                     "name": "i"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -693,7 +713,8 @@ __ESTREE_TEST__:PASS:
                 "end": 191,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -717,7 +738,8 @@ __ESTREE_TEST__:PASS:
             "end": 214,
             "decorators": [],
             "name": "t10",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -741,7 +763,8 @@ __ESTREE_TEST__:PASS:
                     "end": 222,
                     "name": "i"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -774,7 +797,8 @@ __ESTREE_TEST__:PASS:
                 "end": 219,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -798,7 +822,8 @@ __ESTREE_TEST__:PASS:
             "end": 238,
             "decorators": [],
             "name": "t11",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -829,7 +854,8 @@ __ESTREE_TEST__:PASS:
                     "end": 247,
                     "name": "i"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               }
             ],
@@ -855,7 +881,8 @@ __ESTREE_TEST__:PASS:
                 "end": 243,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -879,7 +906,8 @@ __ESTREE_TEST__:PASS:
             "end": 262,
             "decorators": [],
             "name": "t12",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -916,7 +944,8 @@ __ESTREE_TEST__:PASS:
                 "end": 267,
                 "name": "a"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

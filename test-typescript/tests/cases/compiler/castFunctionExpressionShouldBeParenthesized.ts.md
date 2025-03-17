@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -48,9 +49,12 @@ __ESTREE_TEST__:PASS:
                   "end": 11,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
@@ -58,7 +62,8 @@ __ESTREE_TEST__:PASS:
                 "end": 24
               }
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           },
           "optional": false,
           "property": {
@@ -67,10 +72,12 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 13,
                     "end": 43,
+                    "accessibility": null,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
@@ -47,7 +48,8 @@ __ESTREE_TEST__:PASS:
                         "end": 20,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
                         "end": 32,
                         "decorators": [],
                         "name": "toPrimitive",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "kind": "method",
@@ -73,7 +76,8 @@ __ESTREE_TEST__:PASS:
                         "end": 43
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               }

@@ -16,13 +16,15 @@ __ESTREE_TEST__:PASS:
         "end": 96,
         "decorators": [],
         "name": "LoadCallback",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSVoidKeyword",
         "start": 99,
         "end": 103
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 12,
                     "end": 16,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -42,7 +43,8 @@ __ESTREE_TEST__:PASS:
                       "end": 13,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -55,13 +57,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 15,
                         "end": 16,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 15,
                           "end": 16,
                           "decorators": [],
                           "name": "B",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -70,9 +74,11 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 20,
                     "end": 23,
+                    "accessibility": null,
                     "parameters": [],
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "typeAnnotation": null
                   }
                 ]
               }

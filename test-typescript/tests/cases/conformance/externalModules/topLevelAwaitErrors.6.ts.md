@@ -30,9 +30,12 @@ __ESTREE_TEST__:PASS:
           "end": 68,
           "decorators": [],
           "name": "await",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

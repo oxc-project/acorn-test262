@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -146,6 +152,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 125,
       "end": 131,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 125,
@@ -167,6 +174,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 149,
       "end": 162,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 149,
@@ -188,6 +196,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 185,
       "end": 226,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 185,
@@ -209,6 +218,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 251,
       "end": 259,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 251,
@@ -238,6 +248,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 275,
       "end": 310,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 275,
@@ -278,7 +289,8 @@ __ESTREE_TEST__:PASS:
                 "end": 282,
                 "name": "span"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           },
           {
@@ -316,7 +328,8 @@ __ESTREE_TEST__:PASS:
                 "end": 296,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         ],
@@ -336,6 +349,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 323,
       "end": 394,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 323,
@@ -376,7 +390,8 @@ __ESTREE_TEST__:PASS:
                 "end": 330,
                 "name": "span"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           },
           {
@@ -419,7 +434,8 @@ __ESTREE_TEST__:PASS:
                     "end": 346,
                     "name": "span"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -457,7 +473,8 @@ __ESTREE_TEST__:PASS:
                     "end": 362,
                     "name": "span"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],
@@ -507,7 +524,8 @@ __ESTREE_TEST__:PASS:
                 "end": 381,
                 "name": "span"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         ],
@@ -527,6 +545,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 415,
       "end": 422,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 415,

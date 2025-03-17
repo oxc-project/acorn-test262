@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 24,
       "end": 186,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 24,
@@ -158,7 +159,8 @@ __ESTREE_TEST__:PASS:
                           "end": 85,
                           "name": "RefreshControl"
                         },
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -199,7 +201,8 @@ __ESTREE_TEST__:PASS:
                           "end": 144,
                           "decorators": [],
                           "name": "state",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "optional": false,
@@ -209,7 +212,8 @@ __ESTREE_TEST__:PASS:
                         "end": 147,
                         "decorators": [],
                         "name": "ds",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -242,7 +246,8 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "name": "ListView"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           },
           {
@@ -275,7 +280,8 @@ __ESTREE_TEST__:PASS:
             "end": 29,
             "name": "View"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

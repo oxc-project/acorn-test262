@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 75,
             "end": 87,
+            "accessibility": null,
             "computed": true,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -45,6 +47,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 92,
             "end": 104,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -66,7 +69,8 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "readonly": false,
-            "static": false
+            "static": false,
+            "typeAnnotation": null
           }
         ]
       },
@@ -78,8 +82,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -95,6 +101,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 179,
             "end": 190,
+            "accessibility": null,
             "computed": true,
             "declare": false,
             "decorators": [],
@@ -105,7 +112,8 @@ __ESTREE_TEST__:PASS:
               "end": 181,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -133,10 +141,13 @@ __ESTREE_TEST__:PASS:
         "end": 115,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -152,6 +163,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 214,
             "end": 225,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -173,7 +185,8 @@ __ESTREE_TEST__:PASS:
               }
             ],
             "readonly": false,
-            "static": false
+            "static": false,
+            "typeAnnotation": null
           }
         ]
       },
@@ -185,10 +198,13 @@ __ESTREE_TEST__:PASS:
         "end": 207,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

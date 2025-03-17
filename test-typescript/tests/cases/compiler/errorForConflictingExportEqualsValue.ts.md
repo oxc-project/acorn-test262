@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 12,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }
@@ -48,13 +49,15 @@ __ESTREE_TEST__:PASS:
         "end": 24,
         "decorators": [],
         "name": "x",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 40,
+      "directive": null,
       "expression": {
         "type": "ImportExpression",
         "start": 26,

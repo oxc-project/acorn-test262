@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 20,
             "end": 34,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "barkable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -58,14 +60,17 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Dog",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 38,
       "end": 70,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -75,7 +80,8 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "getRover",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -86,16 +92,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 67,
           "end": 70,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 67,
             "end": 70,
             "decorators": [],
             "name": "Dog",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -127,13 +136,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 89,
                   "end": 92,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 89,
                     "end": 92,
                     "decorators": [],
                     "name": "Dog",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -144,7 +155,8 @@ __ESTREE_TEST__:PASS:
               "end": 103,
               "decorators": [],
               "name": "getRover",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],

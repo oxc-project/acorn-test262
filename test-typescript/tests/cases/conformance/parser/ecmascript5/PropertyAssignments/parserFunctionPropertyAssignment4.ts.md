@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -60,6 +61,7 @@ __ESTREE_TEST__:PASS:
                   "generator": false,
                   "id": null,
                   "params": [],
+                  "returnType": null,
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
                     "start": 11,
@@ -70,6 +72,8 @@ __ESTREE_TEST__:PASS:
                         "start": 12,
                         "end": 13,
                         "const": false,
+                        "constraint": null,
+                        "default": null,
                         "in": false,
                         "name": {
                           "type": "Identifier",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
                           "end": 13,
                           "decorators": [],
                           "name": "T",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "out": false
                       }

@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 44,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "dec",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -46,13 +48,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 36,
                   "end": 37,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 36,
                     "end": 37,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -66,13 +70,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 42,
               "end": 43,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 42,
                 "end": 43,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -86,6 +92,8 @@ __ESTREE_TEST__:PASS:
                 "start": 25,
                 "end": 26,
                 "const": false,
+                "constraint": null,
+                "default": null,
                 "in": false,
                 "name": {
                   "type": "Identifier",
@@ -93,14 +101,16 @@ __ESTREE_TEST__:PASS:
                   "end": 26,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "out": false
               }
             ]
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -130,9 +140,11 @@ __ESTREE_TEST__:PASS:
               "end": 50,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -142,10 +154,13 @@ __ESTREE_TEST__:PASS:
         "end": 60,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

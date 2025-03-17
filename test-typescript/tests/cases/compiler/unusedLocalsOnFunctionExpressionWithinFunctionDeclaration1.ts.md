@@ -31,7 +31,8 @@ __ESTREE_TEST__:PASS:
                   "end": 66,
                   "decorators": [],
                   "name": "unused",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
                   "end": 86,
                   "decorators": [],
                   "name": "maker",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "FunctionExpression",
@@ -89,7 +91,8 @@ __ESTREE_TEST__:PASS:
                               "end": 141,
                               "decorators": [],
                               "name": "unused2",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "init": {
                               "type": "Literal",
@@ -138,7 +141,8 @@ __ESTREE_TEST__:PASS:
                       "start": 115,
                       "end": 119
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               }
             ],
@@ -149,6 +153,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 158,
             "end": 182,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 158,
@@ -160,7 +165,8 @@ __ESTREE_TEST__:PASS:
                 "end": 165,
                 "decorators": [],
                 "name": "person2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",
@@ -182,7 +188,8 @@ __ESTREE_TEST__:PASS:
         "end": 16,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -221,7 +228,9 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

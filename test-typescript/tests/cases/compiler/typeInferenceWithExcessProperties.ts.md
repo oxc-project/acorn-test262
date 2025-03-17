@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 44,
             "end": 57,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -51,8 +53,10 @@ __ESTREE_TEST__:PASS:
         "end": 37,
         "decorators": [],
         "name": "Named",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -74,7 +78,8 @@ __ESTREE_TEST__:PASS:
               "end": 121,
               "decorators": [],
               "name": "obj",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -88,7 +93,8 @@ __ESTREE_TEST__:PASS:
         "end": 76,
         "decorators": [],
         "name": "parrot",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -106,13 +112,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 99,
               "end": 100,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 99,
                 "end": 100,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
@@ -126,13 +134,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 103,
           "end": 104,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 103,
             "end": 104,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -150,15 +160,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 87,
               "end": 92,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 87,
                 "end": 92,
                 "decorators": [],
                 "name": "Named",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -166,7 +179,8 @@ __ESTREE_TEST__:PASS:
               "end": 78,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -177,6 +191,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 127,
       "end": 163,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 127,
@@ -198,7 +213,8 @@ __ESTREE_TEST__:PASS:
                   "end": 144,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -221,15 +237,18 @@ __ESTREE_TEST__:PASS:
           "end": 133,
           "decorators": [],
           "name": "parrot",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 213,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 165,
@@ -251,7 +270,8 @@ __ESTREE_TEST__:PASS:
                   "end": 182,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -276,7 +296,8 @@ __ESTREE_TEST__:PASS:
                   "end": 205,
                   "decorators": [],
                   "name": "age",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -299,15 +320,18 @@ __ESTREE_TEST__:PASS:
           "end": 171,
           "decorators": [],
           "name": "parrot",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 215,
       "end": 277,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 215,
@@ -329,7 +353,8 @@ __ESTREE_TEST__:PASS:
                   "end": 232,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -354,7 +379,8 @@ __ESTREE_TEST__:PASS:
                   "end": 255,
                   "decorators": [],
                   "name": "age",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -375,7 +401,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -387,15 +415,18 @@ __ESTREE_TEST__:PASS:
           "end": 221,
           "decorators": [],
           "name": "parrot",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 279,
       "end": 339,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 279,
@@ -417,7 +448,8 @@ __ESTREE_TEST__:PASS:
                   "end": 296,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -442,7 +474,8 @@ __ESTREE_TEST__:PASS:
                   "end": 324,
                   "decorators": [],
                   "name": "sayHello",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": true,
@@ -463,7 +496,9 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]
@@ -475,9 +510,11 @@ __ESTREE_TEST__:PASS:
           "end": 285,
           "decorators": [],
           "name": "parrot",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

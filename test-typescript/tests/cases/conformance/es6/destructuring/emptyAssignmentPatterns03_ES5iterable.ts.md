@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 13,
       "end": 27,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -54,7 +55,8 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "optional": false,
-          "properties": []
+          "properties": [],
+          "typeAnnotation": null
         },
         "right": {
           "type": "AssignmentExpression",
@@ -67,7 +69,8 @@ __ESTREE_TEST__:PASS:
             "end": 21,
             "decorators": [],
             "optional": false,
-            "properties": []
+            "properties": [],
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -75,7 +78,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }
@@ -84,6 +88,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 28,
       "end": 42,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 29,
@@ -95,7 +100,8 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "decorators": [],
           "elements": [],
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "AssignmentExpression",
@@ -108,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 36,
             "decorators": [],
             "elements": [],
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "right": {
             "type": "Identifier",
@@ -116,7 +123,8 @@ __ESTREE_TEST__:PASS:
             "end": 40,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       }

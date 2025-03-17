@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
@@ -20,15 +21,18 @@ __ESTREE_TEST__:PASS:
           "end": 4,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 8,
       "end": 15,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 8,
@@ -40,15 +44,18 @@ __ESTREE_TEST__:PASS:
           "end": 12,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 23,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 16,
@@ -60,15 +67,18 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "foo1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 24,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 24,
@@ -80,9 +90,11 @@ __ESTREE_TEST__:PASS:
           "end": 30,
           "decorators": [],
           "name": "static",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

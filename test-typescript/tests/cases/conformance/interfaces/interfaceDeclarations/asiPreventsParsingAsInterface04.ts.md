@@ -93,39 +93,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 53,
       "end": 60,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 53,
         "end": 60,
         "decorators": [],
         "name": "declare",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 108,
       "end": 117,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 108,
         "end": 117,
         "decorators": [],
         "name": "interface",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 165,
       "end": 166,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 165,
         "end": 166,
         "decorators": [],
         "name": "I",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {

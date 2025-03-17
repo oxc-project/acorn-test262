@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 29,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 1,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "item",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "expression": true,
         "generator": false,
@@ -44,7 +46,9 @@ __ESTREE_TEST__:PASS:
               }
             }
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     }
   ],

@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "TypeStructure",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSUnionType",
@@ -48,13 +49,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 32,
                   "end": 45,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 32,
                     "end": 45,
                     "decorators": [],
                     "name": "TypeStructure",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -119,19 +122,22 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 135,
                 "end": 148,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 135,
                   "end": 148,
                   "decorators": [],
                   "name": "TypeStructure",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
           }
         ]
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

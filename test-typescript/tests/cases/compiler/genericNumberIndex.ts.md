@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
@@ -26,13 +27,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 33,
           "end": 34,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 33,
             "end": 34,
             "decorators": [],
             "name": "I",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "objectType": {
@@ -70,6 +73,7 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 23
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -77,7 +81,8 @@ __ESTREE_TEST__:PASS:
               "end": 8,
               "decorators": [],
               "name": "I",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }

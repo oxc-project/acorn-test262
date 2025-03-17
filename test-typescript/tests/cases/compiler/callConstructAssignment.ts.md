@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
                         "start": 14,
                         "end": 18
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -97,7 +98,8 @@ __ESTREE_TEST__:PASS:
                         "start": 41,
                         "end": 44
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -113,6 +115,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 49,
       "end": 59,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 49,
@@ -124,7 +127,8 @@ __ESTREE_TEST__:PASS:
           "end": 52,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -132,7 +136,8 @@ __ESTREE_TEST__:PASS:
           "end": 58,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -140,6 +145,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 69,
       "end": 79,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 69,
@@ -151,7 +157,8 @@ __ESTREE_TEST__:PASS:
           "end": 72,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -159,7 +166,8 @@ __ESTREE_TEST__:PASS:
           "end": 78,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

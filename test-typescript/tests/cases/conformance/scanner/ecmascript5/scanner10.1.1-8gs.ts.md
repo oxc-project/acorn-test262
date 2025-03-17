@@ -41,7 +41,8 @@ __ESTREE_TEST__:PASS:
         "end": 633,
         "decorators": [],
         "name": "NotEarlyError",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -60,7 +61,8 @@ __ESTREE_TEST__:PASS:
             "end": 645,
             "decorators": [],
             "name": "public",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",

@@ -56,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 48,
         "decorators": [],
         "name": "_exports",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -115,7 +116,8 @@ __ESTREE_TEST__:PASS:
             "end": 22,
             "decorators": [],
             "name": "pkgRequire",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -164,7 +166,8 @@ __ESTREE_TEST__:PASS:
             "end": 94,
             "decorators": [],
             "name": "pkgImport",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -173,26 +176,30 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 144,
       "end": 155,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 144,
         "end": 154,
         "decorators": [],
         "name": "pkgRequire",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 156,
       "end": 166,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 156,
         "end": 165,
         "decorators": [],
         "name": "pkgImport",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

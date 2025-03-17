@@ -45,6 +45,7 @@ __ESTREE_TEST__:PASS:
                           "type": "TSIndexSignature",
                           "start": 33,
                           "end": 57,
+                          "accessibility": null,
                           "parameters": [
                             {
                               "type": "Identifier",
@@ -99,7 +100,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "then",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -108,9 +110,12 @@ __ESTREE_TEST__:PASS:
           "end": 15,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

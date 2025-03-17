@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 75,
                 "decorators": [],
                 "name": "information",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -77,7 +78,8 @@ __ESTREE_TEST__:PASS:
                     "start": 79,
                     "end": 86
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -93,7 +95,8 @@ __ESTREE_TEST__:PASS:
                 "end": 125,
                 "decorators": [],
                 "name": "debug",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -137,7 +140,8 @@ __ESTREE_TEST__:PASS:
                     "start": 129,
                     "end": 136
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -153,7 +157,8 @@ __ESTREE_TEST__:PASS:
                 "end": 177,
                 "decorators": [],
                 "name": "warning",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -197,7 +202,8 @@ __ESTREE_TEST__:PASS:
                     "start": 181,
                     "end": 188
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -213,7 +219,8 @@ __ESTREE_TEST__:PASS:
                 "end": 227,
                 "decorators": [],
                 "name": "error",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -257,7 +264,8 @@ __ESTREE_TEST__:PASS:
                     "start": 231,
                     "end": 238
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -273,7 +281,8 @@ __ESTREE_TEST__:PASS:
                 "end": 277,
                 "decorators": [],
                 "name": "fatal",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -317,7 +326,8 @@ __ESTREE_TEST__:PASS:
                     "start": 281,
                     "end": 288
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -333,7 +343,8 @@ __ESTREE_TEST__:PASS:
                 "end": 325,
                 "decorators": [],
                 "name": "log",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -383,7 +394,8 @@ __ESTREE_TEST__:PASS:
                     "start": 338,
                     "end": 342
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           ]
@@ -396,7 +408,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "NullLogger",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [
           {
@@ -409,11 +422,15 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "ILogger",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

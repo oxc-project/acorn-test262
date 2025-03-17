@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
@@ -33,8 +34,10 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "Uint8Array",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         ],
         "callee": {
@@ -43,8 +46,10 @@ __ESTREE_TEST__:PASS:
           "end": 12,
           "decorators": [],
           "name": "DataView",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeArguments": null
       }
     }
   ],

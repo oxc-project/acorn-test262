@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 10,
         "decorators": [],
         "name": "Test1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -31,6 +32,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 15,
               "end": 27,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -38,7 +40,8 @@ __ESTREE_TEST__:PASS:
                 "end": 19,
                 "decorators": [],
                 "name": "prop",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -65,6 +68,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 40,
               "end": 54,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -72,7 +76,8 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "decorators": [],
                 "name": "prop",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -90,6 +95,8 @@ __ESTREE_TEST__:PASS:
                     "start": 53,
                     "end": 54,
                     "const": false,
+                    "constraint": null,
+                    "default": null,
                     "in": false,
                     "name": {
                       "type": "Identifier",
@@ -97,7 +104,8 @@ __ESTREE_TEST__:PASS:
                       "end": 54,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "out": false
                   }
@@ -122,16 +130,19 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 59,
           "end": 60,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 59,
             "end": 60,
             "decorators": [],
             "name": "T",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

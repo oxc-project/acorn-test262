@@ -24,7 +24,8 @@ __ESTREE_TEST__:PASS:
               "start": 13,
               "end": 15,
               "name": "x"
-            }
+            },
+            "initializer": null
           }
         ]
       },
@@ -36,7 +37,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

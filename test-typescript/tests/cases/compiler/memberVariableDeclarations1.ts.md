@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 46,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
               "end": 74,
               "decorators": [],
               "name": "address",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -96,12 +98,14 @@ __ESTREE_TEST__:PASS:
               "end": 102,
               "decorators": [],
               "name": "retired",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 105,
@@ -125,7 +129,8 @@ __ESTREE_TEST__:PASS:
               "end": 130,
               "decorators": [],
               "name": "manager",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -139,13 +144,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 132,
                 "end": 140,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 132,
                   "end": 140,
                   "decorators": [],
                   "name": "Employee",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -172,7 +179,8 @@ __ESTREE_TEST__:PASS:
               "end": 167,
               "decorators": [],
               "name": "reports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -190,13 +198,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 169,
                   "end": 177,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 169,
                     "end": 177,
                     "decorators": [],
                     "name": "Employee",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -218,10 +228,13 @@ __ESTREE_TEST__:PASS:
         "end": 28,
         "decorators": [],
         "name": "Employee",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -248,7 +261,8 @@ __ESTREE_TEST__:PASS:
               "end": 222,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -281,7 +295,8 @@ __ESTREE_TEST__:PASS:
               "end": 250,
               "decorators": [],
               "name": "address",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -314,7 +329,8 @@ __ESTREE_TEST__:PASS:
               "end": 278,
               "decorators": [],
               "name": "retired",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -347,7 +363,8 @@ __ESTREE_TEST__:PASS:
               "end": 307,
               "decorators": [],
               "name": "manager",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -361,13 +378,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 309,
                 "end": 317,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 309,
                   "end": 317,
                   "decorators": [],
                   "name": "Employee",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -388,7 +407,8 @@ __ESTREE_TEST__:PASS:
               "end": 337,
               "decorators": [],
               "name": "reports",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -406,13 +426,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 339,
                   "end": 347,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 339,
                     "end": 347,
                     "decorators": [],
                     "name": "Employee",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -423,6 +445,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 355,
             "end": 462,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -431,7 +454,8 @@ __ESTREE_TEST__:PASS:
               "end": 366,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -451,6 +475,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 379,
                     "end": 400,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 379,
@@ -473,7 +498,8 @@ __ESTREE_TEST__:PASS:
                           "end": 391,
                           "decorators": [],
                           "name": "retired",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -489,6 +515,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 409,
                     "end": 429,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 409,
@@ -511,7 +538,8 @@ __ESTREE_TEST__:PASS:
                           "end": 421,
                           "decorators": [],
                           "name": "manager",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -527,6 +555,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 438,
                     "end": 456,
+                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 438,
@@ -549,7 +578,8 @@ __ESTREE_TEST__:PASS:
                           "end": 450,
                           "decorators": [],
                           "name": "reports",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       "right": {
@@ -566,7 +596,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -579,10 +611,13 @@ __ESTREE_TEST__:PASS:
         "end": 204,
         "decorators": [],
         "name": "Employee2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -609,13 +644,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 474,
                 "end": 482,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 474,
                   "end": 482,
                   "decorators": [],
                   "name": "Employee",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -651,13 +688,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 492,
                 "end": 501,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 492,
                   "end": 501,
                   "decorators": [],
                   "name": "Employee2",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -672,6 +711,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 503,
       "end": 511,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 503,
@@ -683,7 +723,8 @@ __ESTREE_TEST__:PASS:
           "end": 505,
           "decorators": [],
           "name": "e1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -691,7 +732,8 @@ __ESTREE_TEST__:PASS:
           "end": 510,
           "decorators": [],
           "name": "e2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     },
@@ -699,6 +741,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 512,
       "end": 520,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 512,
@@ -710,7 +753,8 @@ __ESTREE_TEST__:PASS:
           "end": 514,
           "decorators": [],
           "name": "e2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
@@ -718,7 +762,8 @@ __ESTREE_TEST__:PASS:
           "end": 519,
           "decorators": [],
           "name": "e1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

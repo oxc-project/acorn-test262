@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 40,
       "end": 117,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "isObject1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -56,7 +58,8 @@ __ESTREE_TEST__:PASS:
             "end": 89,
             "decorators": [],
             "name": "value",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -89,12 +92,14 @@ __ESTREE_TEST__:PASS:
                 "end": 99,
                 "decorators": [],
                 "name": "Record",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -145,19 +150,22 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 170,
             "end": 175,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 170,
               "end": 174,
               "decorators": [],
               "name": "obj1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 180,
             "end": 193,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 180,
@@ -169,7 +177,8 @@ __ESTREE_TEST__:PASS:
                 "end": 184,
                 "decorators": [],
                 "name": "obj1",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -194,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 161,
             "decorators": [],
             "name": "obj1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -203,22 +213,26 @@ __ESTREE_TEST__:PASS:
           "end": 156,
           "decorators": [],
           "name": "isObject1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 234,
       "end": 239,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 234,
         "end": 238,
         "decorators": [],
         "name": "obj1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -282,19 +296,22 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 304,
             "end": 309,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 304,
               "end": 308,
               "decorators": [],
               "name": "obj2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 314,
             "end": 327,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 314,
@@ -306,7 +323,8 @@ __ESTREE_TEST__:PASS:
                 "end": 318,
                 "decorators": [],
                 "name": "obj2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -331,7 +349,8 @@ __ESTREE_TEST__:PASS:
             "end": 295,
             "decorators": [],
             "name": "obj2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -340,22 +359,26 @@ __ESTREE_TEST__:PASS:
           "end": 290,
           "decorators": [],
           "name": "isObject1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 368,
       "end": 373,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 368,
         "end": 372,
         "decorators": [],
         "name": "obj2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -363,6 +386,7 @@ __ESTREE_TEST__:PASS:
       "start": 375,
       "end": 431,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -372,7 +396,8 @@ __ESTREE_TEST__:PASS:
         "end": 401,
         "decorators": [],
         "name": "isObject2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -409,7 +434,8 @@ __ESTREE_TEST__:PASS:
             "end": 424,
             "decorators": [],
             "name": "value",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
@@ -423,7 +449,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -473,7 +500,8 @@ __ESTREE_TEST__:PASS:
                   "end": 459,
                   "decorators": [],
                   "name": "Record",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -498,19 +526,22 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 505,
             "end": 510,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 505,
               "end": 509,
               "decorators": [],
               "name": "obj3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 515,
             "end": 528,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 515,
@@ -522,7 +553,8 @@ __ESTREE_TEST__:PASS:
                 "end": 519,
                 "decorators": [],
                 "name": "obj3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -547,7 +579,8 @@ __ESTREE_TEST__:PASS:
             "end": 496,
             "decorators": [],
             "name": "obj3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -556,22 +589,26 @@ __ESTREE_TEST__:PASS:
           "end": 491,
           "decorators": [],
           "name": "isObject2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 569,
       "end": 574,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 569,
         "end": 573,
         "decorators": [],
         "name": "obj3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     },
     {
@@ -627,7 +664,8 @@ __ESTREE_TEST__:PASS:
                       "end": 602,
                       "decorators": [],
                       "name": "Record",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -659,19 +697,22 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 660,
             "end": 665,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 660,
               "end": 664,
               "decorators": [],
               "name": "obj4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
             "type": "ExpressionStatement",
             "start": 670,
             "end": 683,
+            "directive": null,
             "expression": {
               "type": "MemberExpression",
               "start": 670,
@@ -683,7 +724,8 @@ __ESTREE_TEST__:PASS:
                 "end": 674,
                 "decorators": [],
                 "name": "obj4",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "property": {
@@ -708,7 +750,8 @@ __ESTREE_TEST__:PASS:
             "end": 651,
             "decorators": [],
             "name": "obj4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         ],
         "callee": {
@@ -717,22 +760,26 @@ __ESTREE_TEST__:PASS:
           "end": 646,
           "decorators": [],
           "name": "isObject2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 724,
       "end": 729,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 724,
         "end": 728,
         "decorators": [],
         "name": "obj4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

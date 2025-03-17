@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 71,
+      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 17,
@@ -140,7 +141,8 @@ __ESTREE_TEST__:PASS:
               }
             }
           ]
-        }
+        },
+        "typeArguments": null
       }
     }
   ],

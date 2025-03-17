@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 64,
             "end": 99,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -27,7 +28,8 @@ __ESTREE_TEST__:PASS:
               "end": 75,
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "constructor",
             "optional": false,
@@ -77,18 +79,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 97,
                       "end": 98,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 97,
                         "end": 98,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -101,10 +107,12 @@ __ESTREE_TEST__:PASS:
         "end": 43,
         "decorators": [],
         "name": "Banana",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": null,
+      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 43,
@@ -120,6 +128,7 @@ __ESTREE_TEST__:PASS:
               "start": 54,
               "end": 60
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -127,7 +136,8 @@ __ESTREE_TEST__:PASS:
               "end": 45,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -139,6 +149,7 @@ __ESTREE_TEST__:PASS:
       "start": 103,
       "end": 188,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -148,7 +159,8 @@ __ESTREE_TEST__:PASS:
         "end": 133,
         "decorators": [],
         "name": "fruitFactory1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -178,7 +190,8 @@ __ESTREE_TEST__:PASS:
                     "end": 161,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -196,7 +209,8 @@ __ESTREE_TEST__:PASS:
                         "end": 166
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -207,16 +221,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 173,
                   "end": 179,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 173,
                     "end": 179,
                     "decorators": [],
                     "name": "TFruit",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -229,13 +246,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 182,
           "end": 188,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 182,
             "end": 188,
             "decorators": [],
             "name": "TFruit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -249,6 +268,8 @@ __ESTREE_TEST__:PASS:
             "start": 134,
             "end": 140,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -256,7 +277,8 @@ __ESTREE_TEST__:PASS:
               "end": 140,
               "decorators": [],
               "name": "TFruit",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -279,7 +301,8 @@ __ESTREE_TEST__:PASS:
             "end": 202,
             "decorators": [],
             "name": "banana1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -292,7 +315,8 @@ __ESTREE_TEST__:PASS:
                 "end": 225,
                 "decorators": [],
                 "name": "Banana",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -301,9 +325,11 @@ __ESTREE_TEST__:PASS:
               "end": 218,
               "decorators": [],
               "name": "fruitFactory1",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -315,6 +341,7 @@ __ESTREE_TEST__:PASS:
       "start": 243,
       "end": 339,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -324,7 +351,8 @@ __ESTREE_TEST__:PASS:
         "end": 273,
         "decorators": [],
         "name": "fruitFactory2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -372,7 +400,8 @@ __ESTREE_TEST__:PASS:
                     "end": 312,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -390,7 +419,8 @@ __ESTREE_TEST__:PASS:
                         "end": 317
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -401,16 +431,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 324,
                   "end": 330,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 324,
                     "end": 330,
                     "decorators": [],
                     "name": "TFruit",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -423,13 +456,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 333,
           "end": 339,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 333,
             "end": 339,
             "decorators": [],
             "name": "TFruit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -443,6 +478,8 @@ __ESTREE_TEST__:PASS:
             "start": 274,
             "end": 280,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -450,7 +487,8 @@ __ESTREE_TEST__:PASS:
               "end": 280,
               "decorators": [],
               "name": "TFruit",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -473,7 +511,8 @@ __ESTREE_TEST__:PASS:
             "end": 353,
             "decorators": [],
             "name": "banana2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -486,7 +525,8 @@ __ESTREE_TEST__:PASS:
                 "end": 376,
                 "decorators": [],
                 "name": "Banana",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -495,9 +535,11 @@ __ESTREE_TEST__:PASS:
               "end": 369,
               "decorators": [],
               "name": "fruitFactory2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -509,6 +551,7 @@ __ESTREE_TEST__:PASS:
       "start": 394,
       "end": 500,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -518,7 +561,8 @@ __ESTREE_TEST__:PASS:
         "end": 424,
         "decorators": [],
         "name": "fruitFactory3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -591,7 +635,8 @@ __ESTREE_TEST__:PASS:
                     "end": 473,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -609,7 +654,8 @@ __ESTREE_TEST__:PASS:
                         "end": 478
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -620,16 +666,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 485,
                   "end": 491,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 485,
                     "end": 491,
                     "decorators": [],
                     "name": "TFruit",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -642,13 +691,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 494,
           "end": 500,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 494,
             "end": 500,
             "decorators": [],
             "name": "TFruit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -662,6 +713,8 @@ __ESTREE_TEST__:PASS:
             "start": 425,
             "end": 431,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -669,7 +722,8 @@ __ESTREE_TEST__:PASS:
               "end": 431,
               "decorators": [],
               "name": "TFruit",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -692,7 +746,8 @@ __ESTREE_TEST__:PASS:
             "end": 514,
             "decorators": [],
             "name": "banana3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -705,7 +760,8 @@ __ESTREE_TEST__:PASS:
                 "end": 537,
                 "decorators": [],
                 "name": "Banana",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -714,9 +770,11 @@ __ESTREE_TEST__:PASS:
               "end": 530,
               "decorators": [],
               "name": "fruitFactory3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -728,6 +786,7 @@ __ESTREE_TEST__:PASS:
       "start": 557,
       "end": 655,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -737,7 +796,8 @@ __ESTREE_TEST__:PASS:
         "end": 587,
         "decorators": [],
         "name": "fruitFactory4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -785,7 +845,8 @@ __ESTREE_TEST__:PASS:
                     "end": 626,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -810,7 +871,8 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -821,16 +883,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 640,
                   "end": 646,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 640,
                     "end": 646,
                     "decorators": [],
                     "name": "TFruit",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -843,13 +908,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 649,
           "end": 655,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 649,
             "end": 655,
             "decorators": [],
             "name": "TFruit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -863,6 +930,8 @@ __ESTREE_TEST__:PASS:
             "start": 588,
             "end": 594,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -870,7 +939,8 @@ __ESTREE_TEST__:PASS:
               "end": 594,
               "decorators": [],
               "name": "TFruit",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -893,7 +963,8 @@ __ESTREE_TEST__:PASS:
             "end": 669,
             "decorators": [],
             "name": "banana4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -906,7 +977,8 @@ __ESTREE_TEST__:PASS:
                 "end": 692,
                 "decorators": [],
                 "name": "Banana",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -915,9 +987,11 @@ __ESTREE_TEST__:PASS:
               "end": 685,
               "decorators": [],
               "name": "fruitFactory4",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -929,6 +1003,7 @@ __ESTREE_TEST__:PASS:
       "start": 712,
       "end": 799,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -938,7 +1013,8 @@ __ESTREE_TEST__:PASS:
         "end": 742,
         "decorators": [],
         "name": "fruitFactory5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -968,7 +1044,8 @@ __ESTREE_TEST__:PASS:
                     "end": 770,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -993,7 +1070,8 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -1004,16 +1082,19 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 784,
                   "end": 790,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 784,
                     "end": 790,
                     "decorators": [],
                     "name": "TFruit",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
@@ -1026,13 +1107,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 793,
           "end": 799,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 793,
             "end": 799,
             "decorators": [],
             "name": "TFruit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -1046,6 +1129,8 @@ __ESTREE_TEST__:PASS:
             "start": 743,
             "end": 749,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -1053,7 +1138,8 @@ __ESTREE_TEST__:PASS:
               "end": 749,
               "decorators": [],
               "name": "TFruit",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -1076,7 +1162,8 @@ __ESTREE_TEST__:PASS:
             "end": 813,
             "decorators": [],
             "name": "banana5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "CallExpression",
@@ -1089,7 +1176,8 @@ __ESTREE_TEST__:PASS:
                 "end": 836,
                 "decorators": [],
                 "name": "Banana",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             ],
             "callee": {
@@ -1098,9 +1186,11 @@ __ESTREE_TEST__:PASS:
               "end": 829,
               "decorators": [],
               "name": "fruitFactory5",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

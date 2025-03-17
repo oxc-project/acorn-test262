@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -53,6 +54,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 100,
               "end": 116,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
                 "end": 112,
                 "decorators": [],
                 "name": "internalProp",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -77,13 +80,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 114,
                   "end": 115,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 114,
                     "end": 115,
                     "decorators": [],
                     "name": "P",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -99,7 +104,8 @@ __ESTREE_TEST__:PASS:
           "end": 59,
           "decorators": [],
           "name": "MyComp",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -113,7 +119,8 @@ __ESTREE_TEST__:PASS:
             "end": 76,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -122,7 +129,8 @@ __ESTREE_TEST__:PASS:
             "end": 86,
             "decorators": [],
             "name": "Component",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "superTypeArguments": {
@@ -134,13 +142,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 87,
               "end": 88,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 87,
                 "end": 88,
                 "decorators": [],
                 "name": "P",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             {
@@ -161,6 +171,8 @@ __ESTREE_TEST__:PASS:
               "start": 60,
               "end": 61,
               "const": false,
+              "constraint": null,
+              "default": null,
               "in": false,
               "name": {
                 "type": "Identifier",
@@ -168,7 +180,8 @@ __ESTREE_TEST__:PASS:
                 "end": 61,
                 "decorators": [],
                 "name": "P",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }
@@ -197,6 +210,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 148,
               "end": 158,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -204,7 +218,8 @@ __ESTREE_TEST__:PASS:
                 "end": 149,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -224,6 +239,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 163,
               "end": 172,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -231,7 +247,8 @@ __ESTREE_TEST__:PASS:
                 "end": 164,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -257,8 +274,10 @@ __ESTREE_TEST__:PASS:
           "end": 141,
           "decorators": [],
           "name": "Prop",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

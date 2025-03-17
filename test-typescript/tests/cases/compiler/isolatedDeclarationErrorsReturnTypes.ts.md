@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 60,
               "decorators": [],
               "name": "fnExpressionConstVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -61,9 +62,12 @@ __ESTREE_TEST__:PASS:
                 "end": 75,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -95,7 +99,8 @@ __ESTREE_TEST__:PASS:
               "end": 124,
               "decorators": [],
               "name": "fnArrowConstVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -112,7 +117,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -144,7 +151,8 @@ __ESTREE_TEST__:PASS:
               "end": 173,
               "decorators": [],
               "name": "fnExpressionLetVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -179,9 +187,12 @@ __ESTREE_TEST__:PASS:
                 "end": 188,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -213,7 +224,8 @@ __ESTREE_TEST__:PASS:
               "end": 233,
               "decorators": [],
               "name": "fnArrowLetVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -230,7 +242,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -262,7 +276,8 @@ __ESTREE_TEST__:PASS:
               "end": 282,
               "decorators": [],
               "name": "fnExpressionVarVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -297,9 +312,12 @@ __ESTREE_TEST__:PASS:
                 "end": 297,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -331,7 +349,8 @@ __ESTREE_TEST__:PASS:
               "end": 342,
               "decorators": [],
               "name": "fnArrowVarVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -348,7 +367,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -380,7 +401,8 @@ __ESTREE_TEST__:PASS:
               "end": 410,
               "decorators": [],
               "name": "fnExpressionConstVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -415,7 +437,8 @@ __ESTREE_TEST__:PASS:
                 "end": 425,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -427,7 +450,8 @@ __ESTREE_TEST__:PASS:
                   "start": 429,
                   "end": 435
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -459,7 +483,8 @@ __ESTREE_TEST__:PASS:
               "end": 484,
               "decorators": [],
               "name": "fnArrowConstVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -488,7 +513,8 @@ __ESTREE_TEST__:PASS:
                     "end": 490,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -506,8 +532,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -519,7 +548,8 @@ __ESTREE_TEST__:PASS:
                   "start": 509,
                   "end": 515
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -551,7 +581,8 @@ __ESTREE_TEST__:PASS:
               "end": 561,
               "decorators": [],
               "name": "fnExpressionLetVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -586,7 +617,8 @@ __ESTREE_TEST__:PASS:
                 "end": 576,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -598,7 +630,8 @@ __ESTREE_TEST__:PASS:
                   "start": 580,
                   "end": 586
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -630,7 +663,8 @@ __ESTREE_TEST__:PASS:
               "end": 631,
               "decorators": [],
               "name": "fnArrowLetVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -659,7 +693,8 @@ __ESTREE_TEST__:PASS:
                     "end": 637,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -677,8 +712,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -690,7 +728,8 @@ __ESTREE_TEST__:PASS:
                   "start": 656,
                   "end": 662
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -722,7 +761,8 @@ __ESTREE_TEST__:PASS:
               "end": 708,
               "decorators": [],
               "name": "fnExpressionVarVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -757,7 +797,8 @@ __ESTREE_TEST__:PASS:
                 "end": 723,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -769,7 +810,8 @@ __ESTREE_TEST__:PASS:
                   "start": 727,
                   "end": 733
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -801,7 +843,8 @@ __ESTREE_TEST__:PASS:
               "end": 778,
               "decorators": [],
               "name": "fnArrowVarVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -830,7 +873,8 @@ __ESTREE_TEST__:PASS:
                     "end": 784,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -848,8 +892,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -861,7 +908,8 @@ __ESTREE_TEST__:PASS:
                   "start": 803,
                   "end": 809
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -888,7 +936,8 @@ __ESTREE_TEST__:PASS:
             "end": 874,
             "decorators": [],
             "name": "fnExpressionConstVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -923,9 +972,12 @@ __ESTREE_TEST__:PASS:
               "end": 889,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -948,7 +1000,8 @@ __ESTREE_TEST__:PASS:
             "end": 939,
             "decorators": [],
             "name": "fnArrowConstVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -965,7 +1018,9 @@ __ESTREE_TEST__:PASS:
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -988,7 +1043,8 @@ __ESTREE_TEST__:PASS:
             "end": 989,
             "decorators": [],
             "name": "fnExpressionLetVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -1023,9 +1079,12 @@ __ESTREE_TEST__:PASS:
               "end": 1004,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1048,7 +1107,8 @@ __ESTREE_TEST__:PASS:
             "end": 1050,
             "decorators": [],
             "name": "fnArrowLetVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1065,7 +1125,9 @@ __ESTREE_TEST__:PASS:
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1088,7 +1150,8 @@ __ESTREE_TEST__:PASS:
             "end": 1100,
             "decorators": [],
             "name": "fnExpressionVarVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "FunctionExpression",
@@ -1123,9 +1186,12 @@ __ESTREE_TEST__:PASS:
               "end": 1115,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1148,7 +1214,8 @@ __ESTREE_TEST__:PASS:
             "end": 1161,
             "decorators": [],
             "name": "fnArrowVarVariableInternal",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -1165,7 +1232,9 @@ __ESTREE_TEST__:PASS:
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1191,6 +1260,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 1249,
               "end": 1292,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1201,12 +1271,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1261,
                 "decorators": [],
                 "name": "fnExpression",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1264,
@@ -1240,15 +1312,19 @@ __ESTREE_TEST__:PASS:
                   "end": 1276,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1297,
               "end": 1317,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1259,12 +1335,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1304,
                 "decorators": [],
                 "name": "fnArrow",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1307,
@@ -1280,7 +1358,9 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1298,12 +1378,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1357,
                 "decorators": [],
                 "name": "fnExpressionProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1360,
@@ -1337,9 +1419,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1372,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1357,12 +1442,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1419,
                 "decorators": [],
                 "name": "fnArrowProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1422,
@@ -1378,13 +1465,16 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1438,
               "end": 1494,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1395,12 +1485,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1463,
                 "decorators": [],
                 "name": "fnStaticExpression",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1466,
@@ -1434,15 +1526,19 @@ __ESTREE_TEST__:PASS:
                   "end": 1478,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1499,
               "end": 1532,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1453,12 +1549,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1519,
                 "decorators": [],
                 "name": "fnStaticArrow",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1522,
@@ -1474,7 +1572,9 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1492,12 +1592,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1581,
                 "decorators": [],
                 "name": "fnStaticExpressionProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1584,
@@ -1531,9 +1633,12 @@ __ESTREE_TEST__:PASS:
                   "end": 1596,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -1551,12 +1656,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1660,
                 "decorators": [],
                 "name": "fnStaticArrowProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1663,
@@ -1572,13 +1679,16 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1710,
               "end": 1763,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1589,12 +1699,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1724,
                 "decorators": [],
                 "name": "fnExpressionOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1727,
@@ -1628,7 +1740,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1739,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [],
                 "returnType": {
@@ -1640,13 +1753,15 @@ __ESTREE_TEST__:PASS:
                     "start": 1743,
                     "end": 1749
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1768,
               "end": 1798,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1657,12 +1772,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1777,
                 "decorators": [],
                 "name": "fnArrowOK",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1780,
@@ -1688,7 +1805,8 @@ __ESTREE_TEST__:PASS:
                     "start": 1784,
                     "end": 1790
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -1706,12 +1824,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1836,
                 "decorators": [],
                 "name": "fnExpressionProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1839,
@@ -1745,7 +1865,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1851,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [],
                 "returnType": {
@@ -1757,7 +1878,8 @@ __ESTREE_TEST__:PASS:
                     "start": 1855,
                     "end": 1861
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -1775,12 +1897,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1908,
                 "decorators": [],
                 "name": "fnArrowProtectedOK",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 1911,
@@ -1806,13 +1930,15 @@ __ESTREE_TEST__:PASS:
                     "start": 1915,
                     "end": 1921
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 1935,
               "end": 2001,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1823,12 +1949,14 @@ __ESTREE_TEST__:PASS:
                 "end": 1962,
                 "decorators": [],
                 "name": "fnStaticExpressionOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 1965,
@@ -1862,7 +1990,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1977,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [],
                 "returnType": {
@@ -1874,13 +2003,15 @@ __ESTREE_TEST__:PASS:
                     "start": 1981,
                     "end": 1987
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 2006,
               "end": 2049,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -1891,12 +2022,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2028,
                 "decorators": [],
                 "name": "fnStaticArrowOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 2031,
@@ -1922,7 +2055,8 @@ __ESTREE_TEST__:PASS:
                     "start": 2035,
                     "end": 2041
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -1940,12 +2074,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2100,
                 "decorators": [],
                 "name": "fnStaticExpressionProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 2103,
@@ -1979,7 +2115,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2115,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [],
                 "returnType": {
@@ -1991,7 +2128,8 @@ __ESTREE_TEST__:PASS:
                     "start": 2119,
                     "end": 2125
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -2009,12 +2147,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2189,
                 "decorators": [],
                 "name": "fnStaticArrowProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 2192,
@@ -2040,7 +2180,8 @@ __ESTREE_TEST__:PASS:
                     "start": 2196,
                     "end": 2202
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -2058,12 +2199,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2284,
                 "decorators": [],
                 "name": "fnExpressionPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 2287,
@@ -2097,9 +2240,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2299,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -2117,12 +2263,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2342,
                 "decorators": [],
                 "name": "fnArrowPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 2345,
@@ -2138,13 +2286,16 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 2360,
               "end": 2381,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2159,6 +2310,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 2371,
@@ -2174,13 +2326,16 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 2386,
               "end": 2429,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -2195,6 +2350,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 2402,
@@ -2228,9 +2384,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2414,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -2248,12 +2407,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2474,
                 "decorators": [],
                 "name": "fnStaticExpressionPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 2477,
@@ -2287,9 +2448,12 @@ __ESTREE_TEST__:PASS:
                   "end": 2489,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -2307,12 +2471,14 @@ __ESTREE_TEST__:PASS:
                 "end": 2545,
                 "decorators": [],
                 "name": "fnStaticArrowPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 2548,
@@ -2328,7 +2494,9 @@ __ESTREE_TEST__:PASS:
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -2341,10 +2509,13 @@ __ESTREE_TEST__:PASS:
           "end": 1221,
           "decorators": [],
           "name": "ExportedClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -2364,6 +2535,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 2615,
             "end": 2658,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2374,12 +2546,14 @@ __ESTREE_TEST__:PASS:
               "end": 2627,
               "decorators": [],
               "name": "fnExpression",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 2630,
@@ -2413,15 +2587,19 @@ __ESTREE_TEST__:PASS:
                 "end": 2642,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2663,
             "end": 2683,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2432,12 +2610,14 @@ __ESTREE_TEST__:PASS:
               "end": 2670,
               "decorators": [],
               "name": "fnArrow",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 2673,
@@ -2453,13 +2633,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2689,
             "end": 2745,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2470,12 +2653,14 @@ __ESTREE_TEST__:PASS:
               "end": 2714,
               "decorators": [],
               "name": "fnStaticExpression",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 2717,
@@ -2509,15 +2694,19 @@ __ESTREE_TEST__:PASS:
                 "end": 2729,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 2750,
             "end": 2783,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2528,12 +2717,14 @@ __ESTREE_TEST__:PASS:
               "end": 2770,
               "decorators": [],
               "name": "fnStaticArrow",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 2773,
@@ -2549,7 +2740,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2567,12 +2760,14 @@ __ESTREE_TEST__:PASS:
               "end": 2837,
               "decorators": [],
               "name": "fnStaticExpressionProtected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 2840,
@@ -2606,9 +2801,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2852,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2626,12 +2824,14 @@ __ESTREE_TEST__:PASS:
               "end": 2916,
               "decorators": [],
               "name": "fnStaticArrowProtected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 2919,
@@ -2647,7 +2847,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2665,12 +2867,14 @@ __ESTREE_TEST__:PASS:
               "end": 2962,
               "decorators": [],
               "name": "fnExpressionPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 2965,
@@ -2704,9 +2908,12 @@ __ESTREE_TEST__:PASS:
                 "end": 2977,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2724,12 +2931,14 @@ __ESTREE_TEST__:PASS:
               "end": 3020,
               "decorators": [],
               "name": "fnArrowPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3023,
@@ -2745,13 +2954,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3038,
             "end": 3059,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2766,6 +2978,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3049,
@@ -2781,13 +2994,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3064,
             "end": 3107,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -2802,6 +3018,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3080,
@@ -2835,9 +3052,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3092,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2855,12 +3075,14 @@ __ESTREE_TEST__:PASS:
               "end": 3152,
               "decorators": [],
               "name": "fnStaticExpressionPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3155,
@@ -2894,9 +3116,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3167,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -2914,12 +3139,14 @@ __ESTREE_TEST__:PASS:
               "end": 3223,
               "decorators": [],
               "name": "fnStaticArrowPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3226,
@@ -2935,7 +3162,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -2948,10 +3177,13 @@ __ESTREE_TEST__:PASS:
         "end": 2607,
         "decorators": [],
         "name": "IndirectlyExportedClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -2983,13 +3215,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 3262,
                   "end": 3285,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 3262,
                     "end": 3285,
                     "decorators": [],
                     "name": "IndirectlyExportedClass",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -3005,8 +3239,10 @@ __ESTREE_TEST__:PASS:
                 "end": 3315,
                 "decorators": [],
                 "name": "IndirectlyExportedClass",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeArguments": null
             }
           }
         ],
@@ -3031,6 +3267,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 3360,
             "end": 3403,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3041,12 +3278,14 @@ __ESTREE_TEST__:PASS:
               "end": 3372,
               "decorators": [],
               "name": "fnExpression",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3375,
@@ -3080,15 +3319,19 @@ __ESTREE_TEST__:PASS:
                 "end": 3387,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3408,
             "end": 3428,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3099,12 +3342,14 @@ __ESTREE_TEST__:PASS:
               "end": 3415,
               "decorators": [],
               "name": "fnArrow",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3418,
@@ -3120,13 +3365,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3434,
             "end": 3490,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3137,12 +3385,14 @@ __ESTREE_TEST__:PASS:
               "end": 3459,
               "decorators": [],
               "name": "fnStaticExpression",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3462,
@@ -3176,15 +3426,19 @@ __ESTREE_TEST__:PASS:
                 "end": 3474,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3495,
             "end": 3528,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3195,12 +3449,14 @@ __ESTREE_TEST__:PASS:
               "end": 3515,
               "decorators": [],
               "name": "fnStaticArrow",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3518,
@@ -3216,7 +3472,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3234,12 +3492,14 @@ __ESTREE_TEST__:PASS:
               "end": 3582,
               "decorators": [],
               "name": "fnStaticExpressionProtected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3585,
@@ -3273,9 +3533,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3597,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3293,12 +3556,14 @@ __ESTREE_TEST__:PASS:
               "end": 3661,
               "decorators": [],
               "name": "fnStaticArrowProtected",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3664,
@@ -3314,7 +3579,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3332,12 +3599,14 @@ __ESTREE_TEST__:PASS:
               "end": 3707,
               "decorators": [],
               "name": "fnExpressionPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3710,
@@ -3371,9 +3640,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3722,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3391,12 +3663,14 @@ __ESTREE_TEST__:PASS:
               "end": 3765,
               "decorators": [],
               "name": "fnArrowPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3768,
@@ -3412,13 +3686,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3783,
             "end": 3804,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3433,6 +3710,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3794,
@@ -3448,13 +3726,16 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
             "type": "PropertyDefinition",
             "start": 3809,
             "end": 3852,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -3469,6 +3750,7 @@ __ESTREE_TEST__:PASS:
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3825,
@@ -3502,9 +3784,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3837,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3522,12 +3807,14 @@ __ESTREE_TEST__:PASS:
               "end": 3897,
               "decorators": [],
               "name": "fnStaticExpressionPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "FunctionExpression",
               "start": 3900,
@@ -3561,9 +3848,12 @@ __ESTREE_TEST__:PASS:
                 "end": 3912,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           },
           {
@@ -3581,12 +3871,14 @@ __ESTREE_TEST__:PASS:
               "end": 3968,
               "decorators": [],
               "name": "fnStaticArrowPrivate",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 3971,
@@ -3602,7 +3894,9 @@ __ESTREE_TEST__:PASS:
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -3615,10 +3909,13 @@ __ESTREE_TEST__:PASS:
         "end": 3352,
         "decorators": [],
         "name": "InternalClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -3645,13 +3942,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 4008,
                 "end": 4021,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 4008,
                   "end": 4021,
                   "decorators": [],
                   "name": "InternalClass",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -3667,8 +3966,10 @@ __ESTREE_TEST__:PASS:
               "end": 4041,
               "decorators": [],
               "name": "InternalClass",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeArguments": null
           }
         }
       ],
@@ -3696,7 +3997,8 @@ __ESTREE_TEST__:PASS:
               "end": 4156,
               "decorators": [],
               "name": "fnParamExpressionConstVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -3731,7 +4033,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4171,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -3745,7 +4048,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4174,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -3763,10 +4067,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -3798,7 +4107,8 @@ __ESTREE_TEST__:PASS:
               "end": 4243,
               "decorators": [],
               "name": "fnParamArrowConstVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -3827,7 +4137,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4249,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -3845,10 +4156,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -3880,7 +4196,8 @@ __ESTREE_TEST__:PASS:
               "end": 4309,
               "decorators": [],
               "name": "fnParamExpressionLetVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -3915,7 +4232,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4324,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -3929,7 +4247,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4327,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -3947,10 +4266,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -3982,7 +4306,8 @@ __ESTREE_TEST__:PASS:
               "end": 4392,
               "decorators": [],
               "name": "fnParamArrowLetVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -4011,7 +4336,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4398,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4029,10 +4355,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -4064,7 +4395,8 @@ __ESTREE_TEST__:PASS:
               "end": 4458,
               "decorators": [],
               "name": "fnParamExpressionVarVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -4099,7 +4431,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4473,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -4113,7 +4446,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4476,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4131,10 +4465,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -4166,7 +4505,8 @@ __ESTREE_TEST__:PASS:
               "end": 4541,
               "decorators": [],
               "name": "fnParamArrowVarVariable",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -4195,7 +4535,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4547,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4213,10 +4554,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -4248,7 +4594,8 @@ __ESTREE_TEST__:PASS:
               "end": 4684,
               "decorators": [],
               "name": "fnParamExpressionConstVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -4283,7 +4630,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4699,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -4297,7 +4645,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4702,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4315,8 +4664,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4328,7 +4680,8 @@ __ESTREE_TEST__:PASS:
                   "start": 4721,
                   "end": 4727
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4360,7 +4713,8 @@ __ESTREE_TEST__:PASS:
               "end": 4797,
               "decorators": [],
               "name": "fnParamArrowConstVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -4389,7 +4743,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4803,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4407,8 +4762,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4420,7 +4778,8 @@ __ESTREE_TEST__:PASS:
                   "start": 4822,
                   "end": 4828
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4452,7 +4811,8 @@ __ESTREE_TEST__:PASS:
               "end": 4895,
               "decorators": [],
               "name": "fnParamExpressionLetVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -4487,7 +4847,8 @@ __ESTREE_TEST__:PASS:
                 "end": 4910,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -4501,7 +4862,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4913,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4519,8 +4881,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4532,7 +4897,8 @@ __ESTREE_TEST__:PASS:
                   "start": 4932,
                   "end": 4938
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4564,7 +4930,8 @@ __ESTREE_TEST__:PASS:
               "end": 5004,
               "decorators": [],
               "name": "fnParamArrowLetVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -4593,7 +4960,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5010,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4611,8 +4979,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4624,7 +4995,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5029,
                   "end": 5035
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4656,7 +5028,8 @@ __ESTREE_TEST__:PASS:
               "end": 5102,
               "decorators": [],
               "name": "fnParamExpressionVarVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -4691,7 +5064,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5117,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -4705,7 +5079,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5120,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4723,8 +5098,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4736,7 +5114,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5139,
                   "end": 5145
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4768,7 +5147,8 @@ __ESTREE_TEST__:PASS:
               "end": 5211,
               "decorators": [],
               "name": "fnParamArrowVarVariableOwnerHasReturnType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -4797,7 +5177,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5217,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4815,8 +5196,11 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4828,7 +5212,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5236,
                   "end": 5242
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4860,7 +5245,8 @@ __ESTREE_TEST__:PASS:
               "end": 5310,
               "decorators": [],
               "name": "fnParamExpressionConstVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -4895,7 +5281,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5325,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -4909,7 +5296,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5328,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -4937,8 +5325,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5343,
                         "end": 5347
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -4950,7 +5340,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5353,
                   "end": 5359
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -4982,7 +5373,8 @@ __ESTREE_TEST__:PASS:
               "end": 5413,
               "decorators": [],
               "name": "fnParamArrowConstVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -5011,7 +5403,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5419,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5039,8 +5432,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5434,
                         "end": 5438
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -5052,7 +5447,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5444,
                   "end": 5450
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -5084,7 +5480,8 @@ __ESTREE_TEST__:PASS:
               "end": 5501,
               "decorators": [],
               "name": "fnParamExpressionLetVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -5119,7 +5516,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5516,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -5133,7 +5531,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5519,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5161,8 +5560,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5534,
                         "end": 5538
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -5174,7 +5575,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5544,
                   "end": 5550
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -5206,7 +5608,8 @@ __ESTREE_TEST__:PASS:
               "end": 5600,
               "decorators": [],
               "name": "fnParamArrowLetVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -5235,7 +5638,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5606,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5263,8 +5667,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5621,
                         "end": 5625
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -5276,7 +5682,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5631,
                   "end": 5637
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -5308,7 +5715,8 @@ __ESTREE_TEST__:PASS:
               "end": 5688,
               "decorators": [],
               "name": "fnParamExpressionVarVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -5343,7 +5751,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5703,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -5357,7 +5766,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5706,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5385,8 +5795,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5721,
                         "end": 5725
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -5398,7 +5810,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5731,
                   "end": 5737
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -5430,7 +5843,8 @@ __ESTREE_TEST__:PASS:
               "end": 5787,
               "decorators": [],
               "name": "fnParamArrowVarVariableOk",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -5459,7 +5873,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5793,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5487,8 +5902,10 @@ __ESTREE_TEST__:PASS:
                         "start": 5808,
                         "end": 5812
                       }
-                    }
-                  }
+                    },
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -5500,7 +5917,8 @@ __ESTREE_TEST__:PASS:
                   "start": 5818,
                   "end": 5824
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ],
@@ -5532,7 +5950,8 @@ __ESTREE_TEST__:PASS:
               "end": 5885,
               "decorators": [],
               "name": "fnParamExpressionConstVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -5567,7 +5986,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5900,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -5581,7 +6001,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5903,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5599,10 +6020,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -5634,7 +6060,8 @@ __ESTREE_TEST__:PASS:
               "end": 5980,
               "decorators": [],
               "name": "fnParamArrowConstVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -5663,7 +6090,8 @@ __ESTREE_TEST__:PASS:
                     "end": 5986,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5681,10 +6109,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -5716,7 +6149,8 @@ __ESTREE_TEST__:PASS:
               "end": 6054,
               "decorators": [],
               "name": "fnParamExpressionLetVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -5751,7 +6185,8 @@ __ESTREE_TEST__:PASS:
                 "end": 6069,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -5765,7 +6200,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6072,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5783,10 +6219,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -5818,7 +6259,8 @@ __ESTREE_TEST__:PASS:
               "end": 6145,
               "decorators": [],
               "name": "fnParamArrowLetVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -5847,7 +6289,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6151,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5865,10 +6308,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -5900,7 +6348,8 @@ __ESTREE_TEST__:PASS:
               "end": 6219,
               "decorators": [],
               "name": "fnParamExpressionVarVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "FunctionExpression",
@@ -5935,7 +6384,8 @@ __ESTREE_TEST__:PASS:
                 "end": 6234,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -5949,7 +6399,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6237,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -5967,10 +6418,15 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -6002,7 +6458,8 @@ __ESTREE_TEST__:PASS:
               "end": 6310,
               "decorators": [],
               "name": "fnParamArrowVarVariableInternal",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "ArrowFunctionExpression",
@@ -6031,7 +6488,8 @@ __ESTREE_TEST__:PASS:
                     "end": 6316,
                     "decorators": [],
                     "name": "cb",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "right": {
@@ -6049,10 +6507,15 @@ __ESTREE_TEST__:PASS:
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
-                  }
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
+                  },
+                  "typeAnnotation": null
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ],
@@ -6082,6 +6545,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 6422,
               "end": 6483,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6092,12 +6556,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6434,
                 "decorators": [],
                 "name": "fnExpression",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 6437,
@@ -6131,7 +6597,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6449,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6145,7 +6612,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6452,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6163,16 +6631,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 6488,
               "end": 6526,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6183,12 +6657,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6495,
                 "decorators": [],
                 "name": "fnArrow",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 6498,
@@ -6216,7 +6692,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6501,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6234,10 +6711,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -6255,12 +6737,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6562,
                 "decorators": [],
                 "name": "fnExpressionProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 6565,
@@ -6294,7 +6778,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6577,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6308,7 +6793,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6580,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6326,10 +6812,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -6347,12 +6838,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6642,
                 "decorators": [],
                 "name": "fnArrowProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 6645,
@@ -6380,7 +6873,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6648,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6398,16 +6892,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 6679,
               "end": 6753,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6418,12 +6918,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6704,
                 "decorators": [],
                 "name": "fnStaticExpression",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 6707,
@@ -6457,7 +6959,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6719,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6471,7 +6974,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6722,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6489,16 +6993,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 6758,
               "end": 6809,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6509,12 +7019,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6778,
                 "decorators": [],
                 "name": "fnStaticArrow",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 6781,
@@ -6542,7 +7054,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6784,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6560,10 +7073,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -6581,12 +7099,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6858,
                 "decorators": [],
                 "name": "fnStaticExpressionProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 6861,
@@ -6620,7 +7140,8 @@ __ESTREE_TEST__:PASS:
                   "end": 6873,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6634,7 +7155,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6876,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6652,10 +7174,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -6673,12 +7200,14 @@ __ESTREE_TEST__:PASS:
                 "end": 6955,
                 "decorators": [],
                 "name": "fnStaticArrowProtected",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 6958,
@@ -6706,7 +7235,8 @@ __ESTREE_TEST__:PASS:
                       "end": 6961,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6724,16 +7254,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7024,
               "end": 7108,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6744,12 +7280,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7051,
                 "decorators": [],
                 "name": "fnExpressionMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 7054,
@@ -6783,7 +7321,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7066,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6797,7 +7336,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7069,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6815,8 +7355,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -6828,13 +7371,15 @@ __ESTREE_TEST__:PASS:
                     "start": 7088,
                     "end": 7094
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7113,
               "end": 7174,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -6845,12 +7390,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7135,
                 "decorators": [],
                 "name": "fnArrowMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 7138,
@@ -6878,7 +7425,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7141,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6896,8 +7444,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -6909,7 +7460,8 @@ __ESTREE_TEST__:PASS:
                     "start": 7160,
                     "end": 7166
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -6927,12 +7479,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7225,
                 "decorators": [],
                 "name": "fnExpressionProtectedMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 7228,
@@ -6966,7 +7520,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7240,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -6980,7 +7535,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7243,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -6998,8 +7554,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7011,7 +7570,8 @@ __ESTREE_TEST__:PASS:
                     "start": 7262,
                     "end": 7268
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -7029,12 +7589,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7328,
                 "decorators": [],
                 "name": "fnArrowProtectedMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 7331,
@@ -7062,7 +7624,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7334,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7080,8 +7643,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7093,13 +7659,15 @@ __ESTREE_TEST__:PASS:
                     "start": 7353,
                     "end": 7359
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7373,
               "end": 7470,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7110,12 +7678,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7413,
                 "decorators": [],
                 "name": "fnStaticExpressionMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 7416,
@@ -7149,7 +7719,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7428,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -7163,7 +7734,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7431,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7181,8 +7753,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7194,13 +7769,15 @@ __ESTREE_TEST__:PASS:
                     "start": 7450,
                     "end": 7456
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7475,
               "end": 7549,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7211,12 +7788,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7510,
                 "decorators": [],
                 "name": "fnStaticArrowMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 7513,
@@ -7244,7 +7823,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7516,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7262,8 +7842,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7275,7 +7858,8 @@ __ESTREE_TEST__:PASS:
                     "start": 7535,
                     "end": 7541
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -7293,12 +7877,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7613,
                 "decorators": [],
                 "name": "fnStaticExpressionProtectedMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 7616,
@@ -7332,7 +7918,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7628,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -7346,7 +7933,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7631,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7364,8 +7952,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7377,7 +7968,8 @@ __ESTREE_TEST__:PASS:
                     "start": 7650,
                     "end": 7656
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -7395,12 +7987,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7733,
                 "decorators": [],
                 "name": "fnStaticArrowProtectedMethodHasReturn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 7736,
@@ -7428,7 +8022,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7739,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7446,8 +8041,11 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -7459,13 +8057,15 @@ __ESTREE_TEST__:PASS:
                     "start": 7758,
                     "end": 7764
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7819,
               "end": 7898,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7476,12 +8076,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7842,
                 "decorators": [],
                 "name": "fnExpressionOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 7845,
@@ -7515,7 +8117,8 @@ __ESTREE_TEST__:PASS:
                   "end": 7857,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -7529,7 +8132,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7860,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7557,16 +8161,21 @@ __ESTREE_TEST__:PASS:
                           "start": 7875,
                           "end": 7879
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 7903,
               "end": 7959,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7577,12 +8186,14 @@ __ESTREE_TEST__:PASS:
                 "end": 7921,
                 "decorators": [],
                 "name": "fnArrowOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 7924,
@@ -7610,7 +8221,8 @@ __ESTREE_TEST__:PASS:
                       "end": 7927,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7638,10 +8250,14 @@ __ESTREE_TEST__:PASS:
                           "start": 7942,
                           "end": 7946
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -7659,12 +8275,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8006,
                 "decorators": [],
                 "name": "fnExpressionProtectedOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8009,
@@ -7698,7 +8316,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8021,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -7712,7 +8331,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8024,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7740,10 +8360,14 @@ __ESTREE_TEST__:PASS:
                           "start": 8039,
                           "end": 8043
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -7761,12 +8385,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8104,
                 "decorators": [],
                 "name": "fnArrowProtectedOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 8107,
@@ -7794,7 +8420,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8110,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7822,16 +8449,21 @@ __ESTREE_TEST__:PASS:
                           "start": 8125,
                           "end": 8129
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8148,
               "end": 8239,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7842,12 +8474,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8184,
                 "decorators": [],
                 "name": "fnStaticExpressionOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8187,
@@ -7881,7 +8515,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8199,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -7895,7 +8530,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8202,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -7923,16 +8559,21 @@ __ESTREE_TEST__:PASS:
                           "start": 8217,
                           "end": 8221
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8244,
               "end": 8312,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -7943,12 +8584,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8275,
                 "decorators": [],
                 "name": "fnStaticArrowOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 8278,
@@ -7976,7 +8619,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8281,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8004,10 +8648,14 @@ __ESTREE_TEST__:PASS:
                           "start": 8296,
                           "end": 8300
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -8025,12 +8673,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8372,
                 "decorators": [],
                 "name": "fnStaticExpressionProtectedOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8375,
@@ -8064,7 +8714,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8387,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -8078,7 +8729,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8390,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8106,10 +8758,14 @@ __ESTREE_TEST__:PASS:
                           "start": 8405,
                           "end": 8409
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -8127,12 +8783,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8486,
                 "decorators": [],
                 "name": "fnStaticArrowProtectedOnlyOnParam",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 8489,
@@ -8160,7 +8818,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8492,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8188,16 +8847,21 @@ __ESTREE_TEST__:PASS:
                           "start": 8507,
                           "end": 8511
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8560,
               "end": 8638,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -8208,12 +8872,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8574,
                 "decorators": [],
                 "name": "fnExpressionOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8577,
@@ -8247,7 +8913,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8589,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -8261,7 +8928,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8592,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8289,8 +8957,10 @@ __ESTREE_TEST__:PASS:
                           "start": 8607,
                           "end": 8611
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8302,13 +8972,15 @@ __ESTREE_TEST__:PASS:
                     "start": 8618,
                     "end": 8624
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8643,
               "end": 8698,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -8319,12 +8991,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8652,
                 "decorators": [],
                 "name": "fnArrowOK",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 8655,
@@ -8352,7 +9026,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8658,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8380,8 +9055,10 @@ __ESTREE_TEST__:PASS:
                           "start": 8673,
                           "end": 8677
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8393,7 +9070,8 @@ __ESTREE_TEST__:PASS:
                     "start": 8684,
                     "end": 8690
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -8411,12 +9089,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8736,
                 "decorators": [],
                 "name": "fnExpressionProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8739,
@@ -8450,7 +9130,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8751,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -8464,7 +9145,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8754,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8492,8 +9174,10 @@ __ESTREE_TEST__:PASS:
                           "start": 8769,
                           "end": 8773
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8505,7 +9189,8 @@ __ESTREE_TEST__:PASS:
                     "start": 8780,
                     "end": 8786
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -8523,12 +9208,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8833,
                 "decorators": [],
                 "name": "fnArrowProtectedOK",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 8836,
@@ -8556,7 +9243,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8839,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8584,8 +9272,10 @@ __ESTREE_TEST__:PASS:
                           "start": 8854,
                           "end": 8858
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8597,13 +9287,15 @@ __ESTREE_TEST__:PASS:
                     "start": 8865,
                     "end": 8871
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8885,
               "end": 8975,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -8614,12 +9306,14 @@ __ESTREE_TEST__:PASS:
                 "end": 8912,
                 "decorators": [],
                 "name": "fnStaticExpressionOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 8915,
@@ -8653,7 +9347,8 @@ __ESTREE_TEST__:PASS:
                   "end": 8927,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -8667,7 +9362,8 @@ __ESTREE_TEST__:PASS:
                       "end": 8930,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8695,8 +9391,10 @@ __ESTREE_TEST__:PASS:
                           "start": 8945,
                           "end": 8949
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8708,13 +9406,15 @@ __ESTREE_TEST__:PASS:
                     "start": 8955,
                     "end": 8961
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 8980,
               "end": 9047,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -8725,12 +9425,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9002,
                 "decorators": [],
                 "name": "fnStaticArrowOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 9005,
@@ -8758,7 +9460,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9008,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8786,8 +9489,10 @@ __ESTREE_TEST__:PASS:
                           "start": 9023,
                           "end": 9027
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8799,7 +9504,8 @@ __ESTREE_TEST__:PASS:
                     "start": 9033,
                     "end": 9039
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -8817,12 +9523,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9098,
                 "decorators": [],
                 "name": "fnStaticExpressionProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 9101,
@@ -8856,7 +9564,8 @@ __ESTREE_TEST__:PASS:
                   "end": 9113,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -8870,7 +9579,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9116,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8898,8 +9608,10 @@ __ESTREE_TEST__:PASS:
                           "start": 9131,
                           "end": 9135
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -8911,7 +9623,8 @@ __ESTREE_TEST__:PASS:
                     "start": 9141,
                     "end": 9147
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -8929,12 +9642,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9211,
                 "decorators": [],
                 "name": "fnStaticArrowProtectedOk",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 9214,
@@ -8962,7 +9677,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9217,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -8990,8 +9706,10 @@ __ESTREE_TEST__:PASS:
                           "start": 9232,
                           "end": 9236
                         }
-                      }
-                    }
+                      },
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
                 ],
                 "returnType": {
@@ -9003,7 +9721,8 @@ __ESTREE_TEST__:PASS:
                     "start": 9242,
                     "end": 9248
                   }
-                }
+                },
+                "typeParameters": null
               }
             },
             {
@@ -9021,12 +9740,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9331,
                 "decorators": [],
                 "name": "fnExpressionPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 9334,
@@ -9060,7 +9781,8 @@ __ESTREE_TEST__:PASS:
                   "end": 9346,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -9074,7 +9796,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9349,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9092,10 +9815,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -9113,12 +9841,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9407,
                 "decorators": [],
                 "name": "fnArrowPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 9410,
@@ -9146,7 +9876,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9413,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9164,16 +9895,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 9443,
               "end": 9482,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -9188,6 +9925,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 9454,
@@ -9215,7 +9953,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9457,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9233,16 +9972,22 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
               "type": "PropertyDefinition",
               "start": 9487,
               "end": 9548,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -9257,6 +10002,7 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 9503,
@@ -9290,7 +10036,8 @@ __ESTREE_TEST__:PASS:
                   "end": 9515,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -9304,7 +10051,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9518,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9322,10 +10070,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -9343,12 +10096,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9593,
                 "decorators": [],
                 "name": "fnStaticExpressionPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "FunctionExpression",
                 "start": 9596,
@@ -9382,7 +10137,8 @@ __ESTREE_TEST__:PASS:
                   "end": 9608,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "params": [
                   {
@@ -9396,7 +10152,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9611,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9414,10 +10171,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {
@@ -9435,12 +10197,14 @@ __ESTREE_TEST__:PASS:
                 "end": 9682,
                 "decorators": [],
                 "name": "fnStaticArrowPrivate",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "ArrowFunctionExpression",
                 "start": 9685,
@@ -9468,7 +10232,8 @@ __ESTREE_TEST__:PASS:
                       "end": 9688,
                       "decorators": [],
                       "name": "cb",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "right": {
@@ -9486,10 +10251,15 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
-                    }
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
+                    },
+                    "typeAnnotation": null
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -9502,10 +10272,13 @@ __ESTREE_TEST__:PASS:
           "end": 6394,
           "decorators": [],
           "name": "FnParamsExportedClass",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

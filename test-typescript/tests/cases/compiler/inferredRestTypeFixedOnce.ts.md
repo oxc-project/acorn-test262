@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "wrap",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -54,7 +55,8 @@ __ESTREE_TEST__:PASS:
                     "end": 49,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -66,16 +68,19 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 51,
                       "end": 55,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 51,
                         "end": 55,
                         "decorators": [],
                         "name": "Args",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -87,11 +92,13 @@ __ESTREE_TEST__:PASS:
                   "start": 60,
                   "end": 64
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         }
       ],
+      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 13,
@@ -112,6 +119,7 @@ __ESTREE_TEST__:PASS:
                 "end": 34
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -119,7 +127,8 @@ __ESTREE_TEST__:PASS:
               "end": 18,
               "decorators": [],
               "name": "Args",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -130,6 +139,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 69,
       "end": 103,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 69,
@@ -173,7 +183,8 @@ __ESTREE_TEST__:PASS:
                         "end": 87,
                         "decorators": [],
                         "name": "cancelable",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "init",
                       "method": false,
@@ -185,10 +196,12 @@ __ESTREE_TEST__:PASS:
                         "end": 87,
                         "decorators": [],
                         "name": "cancelable",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  ]
+                  ],
+                  "typeAnnotation": null
                 },
                 "optional": false,
                 "right": {
@@ -196,9 +209,12 @@ __ESTREE_TEST__:PASS:
                   "start": 92,
                   "end": 94,
                   "properties": []
-                }
+                },
+                "typeAnnotation": null
               }
-            ]
+            ],
+            "returnType": null,
+            "typeParameters": null
           }
         ],
         "callee": {
@@ -207,9 +223,11 @@ __ESTREE_TEST__:PASS:
           "end": 73,
           "decorators": [],
           "name": "wrap",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

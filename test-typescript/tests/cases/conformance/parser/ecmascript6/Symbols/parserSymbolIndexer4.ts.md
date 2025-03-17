@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 13,
                     "end": 33,
+                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",

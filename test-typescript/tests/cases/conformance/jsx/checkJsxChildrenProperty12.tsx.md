@@ -15,7 +15,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "React",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -44,6 +45,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 61,
             "end": 71,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -51,7 +53,8 @@ __ESTREE_TEST__:PASS:
               "end": 62,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -71,6 +74,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 76,
             "end": 86,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -78,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 77,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -98,6 +103,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 91,
             "end": 108,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -105,7 +111,8 @@ __ESTREE_TEST__:PASS:
               "end": 99,
               "decorators": [],
               "name": "children",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -118,13 +125,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 101,
                 "end": 107,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 101,
                   "end": 107,
                   "decorators": [],
                   "name": "Button",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -139,8 +148,10 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "ButtonProp",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -156,6 +167,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 172,
             "end": 388,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -164,7 +176,8 @@ __ESTREE_TEST__:PASS:
               "end": 178,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -274,7 +287,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 339,
                                     "name": "div"
                                   },
-                                  "selfClosing": false
+                                  "selfClosing": false,
+                                  "typeArguments": null
                                 }
                               },
                               {
@@ -322,7 +336,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 327,
                                       "decorators": [],
                                       "name": "props",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 }
@@ -333,7 +348,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 312,
                                 "name": "InnerButton"
                               },
-                              "selfClosing": false
+                              "selfClosing": false,
+                              "typeArguments": null
                             }
                           }
                         }
@@ -380,7 +396,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 271,
                                       "decorators": [],
                                       "name": "props",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 }
@@ -391,7 +408,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 256,
                                 "name": "InnerButton"
                               },
-                              "selfClosing": true
+                              "selfClosing": true,
+                              "typeArguments": null
                             }
                           }
                         }
@@ -403,7 +421,8 @@ __ESTREE_TEST__:PASS:
                       "end": 224,
                       "decorators": [],
                       "name": "condition",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -412,7 +431,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -425,7 +446,8 @@ __ESTREE_TEST__:PASS:
         "end": 124,
         "decorators": [],
         "name": "Button",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -439,7 +461,8 @@ __ESTREE_TEST__:PASS:
           "end": 138,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -448,7 +471,8 @@ __ESTREE_TEST__:PASS:
           "end": 148,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -460,13 +484,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 149,
             "end": 159,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 149,
               "end": 159,
               "decorators": [],
               "name": "ButtonProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -475,7 +501,8 @@ __ESTREE_TEST__:PASS:
             "end": 164
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -490,6 +517,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 421,
             "end": 430,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -497,7 +525,8 @@ __ESTREE_TEST__:PASS:
               "end": 422,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -523,8 +552,10 @@ __ESTREE_TEST__:PASS:
         "end": 417,
         "decorators": [],
         "name": "InnerButtonProp",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -540,6 +571,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 501,
             "end": 549,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -548,7 +580,8 @@ __ESTREE_TEST__:PASS:
               "end": 507,
               "decorators": [],
               "name": "render",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -603,7 +636,8 @@ __ESTREE_TEST__:PASS:
                           "end": 529,
                           "name": "button"
                         },
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -613,7 +647,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -626,7 +662,8 @@ __ESTREE_TEST__:PASS:
         "end": 451,
         "decorators": [],
         "name": "InnerButton",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -640,7 +677,8 @@ __ESTREE_TEST__:PASS:
           "end": 465,
           "decorators": [],
           "name": "React",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -649,7 +687,8 @@ __ESTREE_TEST__:PASS:
           "end": 475,
           "decorators": [],
           "name": "Component",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "superTypeArguments": {
@@ -661,13 +700,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 476,
             "end": 491,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 476,
               "end": 491,
               "decorators": [],
               "name": "InnerButtonProp",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -676,7 +717,8 @@ __ESTREE_TEST__:PASS:
             "end": 496
           }
         ]
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

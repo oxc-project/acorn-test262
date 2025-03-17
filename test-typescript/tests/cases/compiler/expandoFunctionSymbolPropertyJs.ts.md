@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 17,
               "decorators": [],
               "name": "symb",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": {
               "type": "CallExpression",
@@ -39,9 +40,11 @@ __ESTREE_TEST__:PASS:
                 "end": 26,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
-              "optional": false
+              "optional": false,
+              "typeArguments": null
             }
           }
         ],
@@ -80,12 +83,14 @@ __ESTREE_TEST__:PASS:
                   "start": 65,
                   "end": 69
                 }
-              }
+              },
+              "typeParameters": null
             },
             {
               "type": "TSPropertySignature",
               "start": 73,
               "end": 98,
+              "accessibility": null,
               "computed": true,
               "key": {
                 "type": "Identifier",
@@ -93,7 +98,8 @@ __ESTREE_TEST__:PASS:
                 "end": 87,
                 "decorators": [],
                 "name": "symb",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": true,
@@ -119,8 +125,10 @@ __ESTREE_TEST__:PASS:
           "end": 56,
           "decorators": [],
           "name": "TestSymb",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

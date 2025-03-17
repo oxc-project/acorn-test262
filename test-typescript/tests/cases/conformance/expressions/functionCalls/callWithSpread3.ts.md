@@ -307,6 +307,7 @@ __ESTREE_TEST__:PASS:
       "start": 238,
       "end": 287,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -316,7 +317,8 @@ __ESTREE_TEST__:PASS:
         "end": 258,
         "decorators": [],
         "name": "fs2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -365,13 +367,15 @@ __ESTREE_TEST__:PASS:
           "start": 282,
           "end": 286
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 288,
       "end": 354,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -381,7 +385,8 @@ __ESTREE_TEST__:PASS:
         "end": 309,
         "decorators": [],
         "name": "fs2_",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -430,7 +435,8 @@ __ESTREE_TEST__:PASS:
             "end": 336,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -448,7 +454,8 @@ __ESTREE_TEST__:PASS:
                 "end": 344
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -460,13 +467,15 @@ __ESTREE_TEST__:PASS:
           "start": 349,
           "end": 353
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 355,
       "end": 422,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -476,7 +485,8 @@ __ESTREE_TEST__:PASS:
         "end": 377,
         "decorators": [],
         "name": "fs2n_",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -525,7 +535,8 @@ __ESTREE_TEST__:PASS:
             "end": 404,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -543,7 +554,8 @@ __ESTREE_TEST__:PASS:
                 "end": 412
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -555,13 +567,15 @@ __ESTREE_TEST__:PASS:
           "start": 417,
           "end": 421
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 423,
       "end": 505,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -571,7 +585,8 @@ __ESTREE_TEST__:PASS:
         "end": 443,
         "decorators": [],
         "name": "fs5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -674,12 +689,14 @@ __ESTREE_TEST__:PASS:
           "start": 500,
           "end": 504
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 516,
       "end": 532,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 516,
@@ -702,7 +719,8 @@ __ESTREE_TEST__:PASS:
               "end": 530,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -712,15 +730,18 @@ __ESTREE_TEST__:PASS:
           "end": 519,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 551,
       "end": 577,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 551,
@@ -757,7 +778,8 @@ __ESTREE_TEST__:PASS:
               "end": 575,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -767,15 +789,18 @@ __ESTREE_TEST__:PASS:
           "end": 554,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 604,
       "end": 630,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 604,
@@ -805,7 +830,8 @@ __ESTREE_TEST__:PASS:
               "end": 623,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -822,15 +848,18 @@ __ESTREE_TEST__:PASS:
           "end": 607,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 657,
       "end": 688,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 657,
@@ -867,7 +896,8 @@ __ESTREE_TEST__:PASS:
               "end": 681,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -884,15 +914,18 @@ __ESTREE_TEST__:PASS:
           "end": 660,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 720,
       "end": 736,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 720,
@@ -908,7 +941,8 @@ __ESTREE_TEST__:PASS:
               "end": 729,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -925,15 +959,18 @@ __ESTREE_TEST__:PASS:
           "end": 723,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 753,
       "end": 764,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 753,
@@ -949,7 +986,8 @@ __ESTREE_TEST__:PASS:
               "end": 762,
               "decorators": [],
               "name": "s3",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -959,15 +997,18 @@ __ESTREE_TEST__:PASS:
           "end": 756,
           "decorators": [],
           "name": "fs2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 783,
       "end": 795,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 783,
@@ -983,7 +1024,8 @@ __ESTREE_TEST__:PASS:
               "end": 793,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -993,15 +1035,18 @@ __ESTREE_TEST__:PASS:
           "end": 787,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 814,
       "end": 828,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 814,
@@ -1017,7 +1062,8 @@ __ESTREE_TEST__:PASS:
               "end": 826,
               "decorators": [],
               "name": "s2n_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1027,15 +1073,18 @@ __ESTREE_TEST__:PASS:
           "end": 818,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 849,
       "end": 868,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 849,
@@ -1051,7 +1100,8 @@ __ESTREE_TEST__:PASS:
               "end": 859,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1064,7 +1114,8 @@ __ESTREE_TEST__:PASS:
               "end": 866,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1074,15 +1125,18 @@ __ESTREE_TEST__:PASS:
           "end": 853,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 887,
       "end": 913,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 887,
@@ -1098,7 +1152,8 @@ __ESTREE_TEST__:PASS:
               "end": 897,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1111,7 +1166,8 @@ __ESTREE_TEST__:PASS:
               "end": 904,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1124,7 +1180,8 @@ __ESTREE_TEST__:PASS:
               "end": 911,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1134,15 +1191,18 @@ __ESTREE_TEST__:PASS:
           "end": 891,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 999,
       "end": 1013,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 999,
@@ -1158,7 +1218,8 @@ __ESTREE_TEST__:PASS:
               "end": 1011,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1168,15 +1229,18 @@ __ESTREE_TEST__:PASS:
           "end": 1004,
           "decorators": [],
           "name": "fs2n_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1040,
       "end": 1053,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1040,
@@ -1192,7 +1256,8 @@ __ESTREE_TEST__:PASS:
               "end": 1051,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1202,15 +1267,18 @@ __ESTREE_TEST__:PASS:
           "end": 1044,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1054,
       "end": 1074,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1054,
@@ -1226,7 +1294,8 @@ __ESTREE_TEST__:PASS:
               "end": 1065,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1239,7 +1308,8 @@ __ESTREE_TEST__:PASS:
               "end": 1072,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1249,15 +1319,18 @@ __ESTREE_TEST__:PASS:
           "end": 1058,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1075,
       "end": 1096,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1075,
@@ -1273,7 +1346,8 @@ __ESTREE_TEST__:PASS:
               "end": 1086,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1286,7 +1360,8 @@ __ESTREE_TEST__:PASS:
               "end": 1094,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1296,15 +1371,18 @@ __ESTREE_TEST__:PASS:
           "end": 1079,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1097,
       "end": 1117,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1097,
@@ -1320,7 +1398,8 @@ __ESTREE_TEST__:PASS:
               "end": 1107,
               "decorators": [],
               "name": "s_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1333,7 +1412,8 @@ __ESTREE_TEST__:PASS:
               "end": 1115,
               "decorators": [],
               "name": "s2_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1343,15 +1423,18 @@ __ESTREE_TEST__:PASS:
           "end": 1101,
           "decorators": [],
           "name": "fs2_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1118,
       "end": 1133,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1118,
@@ -1367,7 +1450,8 @@ __ESTREE_TEST__:PASS:
               "end": 1131,
               "decorators": [],
               "name": "s2n_",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1377,15 +1461,18 @@ __ESTREE_TEST__:PASS:
           "end": 1123,
           "decorators": [],
           "name": "fs2n_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1134,
       "end": 1147,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1134,
@@ -1401,7 +1488,8 @@ __ESTREE_TEST__:PASS:
               "end": 1145,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1411,15 +1499,18 @@ __ESTREE_TEST__:PASS:
           "end": 1139,
           "decorators": [],
           "name": "fs2n_",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 1197,
       "end": 1222,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1197,
@@ -1435,7 +1526,8 @@ __ESTREE_TEST__:PASS:
               "end": 1206,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -1455,7 +1547,8 @@ __ESTREE_TEST__:PASS:
               "end": 1220,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -1465,9 +1558,11 @@ __ESTREE_TEST__:PASS:
           "end": 1200,
           "decorators": [],
           "name": "fs5",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

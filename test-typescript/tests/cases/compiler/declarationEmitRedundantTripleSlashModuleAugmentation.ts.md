@@ -38,8 +38,10 @@ __ESTREE_TEST__:PASS:
                 "end": 52,
                 "decorators": [],
                 "name": "Original",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -92,8 +94,10 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "FooOptions",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -132,8 +136,10 @@ __ESTREE_TEST__:PASS:
                 "end": 87,
                 "decorators": [],
                 "name": "Augmentation",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -187,7 +193,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "Original",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -196,7 +203,8 @@ __ESTREE_TEST__:PASS:
             "end": 17,
             "decorators": [],
             "name": "Original",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         {
@@ -209,7 +217,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "Augmentation",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -218,7 +227,8 @@ __ESTREE_TEST__:PASS:
             "end": 31,
             "decorators": [],
             "name": "Augmentation",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -247,7 +257,8 @@ __ESTREE_TEST__:PASS:
             "end": 70,
             "decorators": [],
             "name": "FooOptions",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -256,7 +267,8 @@ __ESTREE_TEST__:PASS:
             "end": 70,
             "decorators": [],
             "name": "FooOptions",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -279,6 +291,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 121,
               "end": 140,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -286,7 +299,8 @@ __ESTREE_TEST__:PASS:
                 "end": 129,
                 "decorators": [],
                 "name": "original",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -299,13 +313,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 131,
                   "end": 139,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 131,
                     "end": 139,
                     "decorators": [],
                     "name": "Original",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -314,6 +330,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 145,
               "end": 172,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -321,7 +338,8 @@ __ESTREE_TEST__:PASS:
                 "end": 157,
                 "decorators": [],
                 "name": "augmentation",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -334,13 +352,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 159,
                   "end": 171,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 159,
                     "end": 171,
                     "decorators": [],
                     "name": "Augmentation",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -349,6 +369,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 177,
               "end": 197,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -356,7 +377,8 @@ __ESTREE_TEST__:PASS:
                 "end": 184,
                 "decorators": [],
                 "name": "options",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "readonly": false,
@@ -369,13 +391,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 186,
                   "end": 196,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 186,
                     "end": 196,
                     "decorators": [],
                     "name": "FooOptions",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -390,8 +414,10 @@ __ESTREE_TEST__:PASS:
           "end": 114,
           "decorators": [],
           "name": "_",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

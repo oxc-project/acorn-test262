@@ -35,6 +35,7 @@ __ESTREE_TEST__:PASS:
               "start": 74,
               "end": 97,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -44,7 +45,8 @@ __ESTREE_TEST__:PASS:
                 "end": 84,
                 "decorators": [],
                 "name": "f",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [
                 {
@@ -53,7 +55,8 @@ __ESTREE_TEST__:PASS:
                   "end": 86,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 {
                   "type": "Identifier",
@@ -61,7 +64,8 @@ __ESTREE_TEST__:PASS:
                   "end": 89,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               ],
               "returnType": {
@@ -73,7 +77,8 @@ __ESTREE_TEST__:PASS:
                   "start": 92,
                   "end": 96
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -113,6 +118,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 26,
         "async": false,
+        "body": null,
         "declare": false,
         "expression": false,
         "generator": false,
@@ -122,7 +128,8 @@ __ESTREE_TEST__:PASS:
           "end": 17,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [
           {
@@ -131,7 +138,8 @@ __ESTREE_TEST__:PASS:
             "end": 20,
             "decorators": [],
             "name": "a",
-            "optional": true
+            "optional": true,
+            "typeAnnotation": null
           },
           {
             "type": "Identifier",
@@ -139,9 +147,12 @@ __ESTREE_TEST__:PASS:
             "end": 24,
             "decorators": [],
             "name": "b",
-            "optional": true
+            "optional": true,
+            "typeAnnotation": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

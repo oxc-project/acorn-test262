@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -67,7 +68,8 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   ]
-                }
+                },
+                "typeArguments": null
               }
             ]
           }

@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "A",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -37,7 +39,8 @@ __ESTREE_TEST__:PASS:
         "end": 22,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
@@ -47,13 +50,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 25,
           "end": 26,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 25,
             "end": 26,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "extendsType": {
@@ -90,7 +95,8 @@ __ESTREE_TEST__:PASS:
             "end": 41,
             "decorators": [],
             "name": "Record",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "falseType": {
@@ -118,17 +124,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 59,
             "end": 60,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 59,
               "end": 60,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 79,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 62,
@@ -31,13 +32,16 @@ __ESTREE_TEST__:PASS:
             "end": 77,
             "decorators": [],
             "name": "window",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
         "expression": true,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
@@ -56,7 +60,8 @@ __ESTREE_TEST__:PASS:
             "end": 90,
             "decorators": [],
             "name": "parts",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrayExpression",
@@ -73,6 +78,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 143,
       "end": 152,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 143,
@@ -84,7 +90,8 @@ __ESTREE_TEST__:PASS:
           "end": 148,
           "decorators": [],
           "name": "parts",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

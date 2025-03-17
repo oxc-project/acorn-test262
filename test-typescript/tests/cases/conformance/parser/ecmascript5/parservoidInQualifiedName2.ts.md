@@ -30,6 +30,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 8,
                 "end": 14,
+                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 8,
@@ -40,7 +41,8 @@ __ESTREE_TEST__:PASS:
                     "end": 9,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -48,7 +50,8 @@ __ESTREE_TEST__:PASS:
                     "end": 14,
                     "decorators": [],
                     "name": "void",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }

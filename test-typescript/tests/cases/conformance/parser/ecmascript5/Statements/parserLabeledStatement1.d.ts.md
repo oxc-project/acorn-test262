@@ -13,6 +13,7 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 7,
         "end": 13,
+        "directive": null,
         "expression": {
           "type": "CallExpression",
           "start": 7,
@@ -24,9 +25,11 @@ __ESTREE_TEST__:PASS:
             "end": 10,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "optional": false
+          "optional": false,
+          "typeArguments": null
         }
       },
       "label": {
@@ -35,7 +38,8 @@ __ESTREE_TEST__:PASS:
         "end": 3,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 17,
         "decorators": [],
         "name": "MyMappedType",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 46,
             "end": 67,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -34,7 +36,8 @@ __ESTREE_TEST__:PASS:
               "end": 55,
               "decorators": [],
               "name": "primitive",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -47,13 +50,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 57,
                 "end": 66,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 57,
                   "end": 66,
                   "decorators": [],
                   "name": "Primitive",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -75,6 +80,7 @@ __ESTREE_TEST__:PASS:
               "start": 36,
               "end": 39
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -82,7 +88,8 @@ __ESTREE_TEST__:PASS:
               "end": 27,
               "decorators": [],
               "name": "Primitive",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -100,7 +107,8 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "TupleMapperOld",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSMappedType",
@@ -115,13 +123,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 132,
             "end": 137,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 132,
               "end": 137,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         },
@@ -131,9 +141,12 @@ __ESTREE_TEST__:PASS:
           "end": 122,
           "decorators": [],
           "name": "Key",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "nameType": null,
+        "optional": null,
+        "readonly": null,
         "typeAnnotation": {
           "type": "TSConditionalType",
           "start": 140,
@@ -146,26 +159,30 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 146,
               "end": 149,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 146,
                 "end": 149,
                 "decorators": [],
                 "name": "Key",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             },
             "objectType": {
               "type": "TSTypeReference",
               "start": 140,
               "end": 145,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 140,
                 "end": 145,
                 "decorators": [],
                 "name": "Tuple",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -182,13 +199,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 159,
               "end": 164,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 159,
                 "end": 164,
                 "decorators": [],
                 "name": "Tuple",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           },
@@ -214,26 +233,30 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 194,
                     "end": 197,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 194,
                       "end": 197,
                       "decorators": [],
                       "name": "Key",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "objectType": {
                     "type": "TSTypeReference",
                     "start": 188,
                     "end": 193,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 188,
                       "end": 193,
                       "decorators": [],
                       "name": "Tuple",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -245,7 +268,8 @@ __ESTREE_TEST__:PASS:
               "end": 187,
               "decorators": [],
               "name": "MyMappedType",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         }
@@ -270,6 +294,7 @@ __ESTREE_TEST__:PASS:
                 "end": 109
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -277,7 +302,8 @@ __ESTREE_TEST__:PASS:
               "end": 97,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -295,7 +321,8 @@ __ESTREE_TEST__:PASS:
         "end": 234,
         "decorators": [],
         "name": "MyMappedTupleOld",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -331,15 +358,18 @@ __ESTREE_TEST__:PASS:
           "end": 251,
           "decorators": [],
           "name": "TupleMapperOld",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 320,
       "end": 425,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -349,7 +379,8 @@ __ESTREE_TEST__:PASS:
         "end": 357,
         "decorators": [],
         "name": "extractPrimitivesOld",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -362,7 +393,8 @@ __ESTREE_TEST__:PASS:
             "end": 393,
             "decorators": [],
             "name": "mappedTypes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -383,13 +415,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 410,
                     "end": 415,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 410,
                       "end": 415,
                       "decorators": [],
                       "name": "Tuple",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -400,10 +434,12 @@ __ESTREE_TEST__:PASS:
                 "end": 409,
                 "decorators": [],
                 "name": "TupleMapperOld",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -414,13 +450,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 419,
           "end": 424,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 419,
             "end": 424,
             "decorators": [],
             "name": "Tuple",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -444,6 +482,7 @@ __ESTREE_TEST__:PASS:
                 "end": 375
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -451,7 +490,8 @@ __ESTREE_TEST__:PASS:
               "end": 363,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -519,7 +559,8 @@ __ESTREE_TEST__:PASS:
                       "end": 505,
                       "decorators": [],
                       "name": "primitive",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -551,7 +592,8 @@ __ESTREE_TEST__:PASS:
                       "end": 524,
                       "decorators": [],
                       "name": "primitive",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -574,9 +616,11 @@ __ESTREE_TEST__:PASS:
               "end": 493,
               "decorators": [],
               "name": "extractPrimitivesOld",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],
@@ -594,7 +638,8 @@ __ESTREE_TEST__:PASS:
         "end": 552,
         "decorators": [],
         "name": "TupleMapperNew",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSMappedType",
@@ -609,13 +654,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 593,
             "end": 598,
+            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 593,
               "end": 598,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         },
@@ -625,9 +672,12 @@ __ESTREE_TEST__:PASS:
           "end": 583,
           "decorators": [],
           "name": "Key",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "nameType": null,
+        "optional": null,
+        "readonly": null,
         "typeAnnotation": {
           "type": "TSTypeReference",
           "start": 601,
@@ -645,26 +695,30 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 620,
                   "end": 623,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 620,
                     "end": 623,
                     "decorators": [],
                     "name": "Key",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 "objectType": {
                   "type": "TSTypeReference",
                   "start": 614,
                   "end": 619,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 614,
                     "end": 619,
                     "decorators": [],
                     "name": "Tuple",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -676,7 +730,8 @@ __ESTREE_TEST__:PASS:
             "end": 613,
             "decorators": [],
             "name": "MyMappedType",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -700,6 +755,7 @@ __ESTREE_TEST__:PASS:
                 "end": 570
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -707,7 +763,8 @@ __ESTREE_TEST__:PASS:
               "end": 558,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -725,7 +782,8 @@ __ESTREE_TEST__:PASS:
         "end": 652,
         "decorators": [],
         "name": "MyMappedTupleNew",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -761,15 +819,18 @@ __ESTREE_TEST__:PASS:
           "end": 669,
           "decorators": [],
           "name": "TupleMapperNew",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 690,
       "end": 795,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -779,7 +840,8 @@ __ESTREE_TEST__:PASS:
         "end": 727,
         "decorators": [],
         "name": "extractPrimitivesNew",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -792,7 +854,8 @@ __ESTREE_TEST__:PASS:
             "end": 763,
             "decorators": [],
             "name": "mappedTypes",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -813,13 +876,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 780,
                     "end": 785,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 780,
                       "end": 785,
                       "decorators": [],
                       "name": "Tuple",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 ]
@@ -830,10 +895,12 @@ __ESTREE_TEST__:PASS:
                 "end": 779,
                 "decorators": [],
                 "name": "TupleMapperNew",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -844,13 +911,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 789,
           "end": 794,
+          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 789,
             "end": 794,
             "decorators": [],
             "name": "Tuple",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       },
@@ -874,6 +943,7 @@ __ESTREE_TEST__:PASS:
                 "end": 745
               }
             },
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -881,7 +951,8 @@ __ESTREE_TEST__:PASS:
               "end": 733,
               "decorators": [],
               "name": "Tuple",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -949,7 +1020,8 @@ __ESTREE_TEST__:PASS:
                       "end": 875,
                       "decorators": [],
                       "name": "primitive",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -981,7 +1053,8 @@ __ESTREE_TEST__:PASS:
                       "end": 894,
                       "decorators": [],
                       "name": "primitive",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "init",
                     "method": false,
@@ -1004,9 +1077,11 @@ __ESTREE_TEST__:PASS:
               "end": 863,
               "decorators": [],
               "name": "extractPrimitivesNew",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "optional": false
+            "optional": false,
+            "typeArguments": null
           }
         }
       ],

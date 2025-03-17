@@ -30,8 +30,11 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "SomeUndefinedFunction",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 61,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -63,7 +64,8 @@ __ESTREE_TEST__:PASS:
                     "end": 132,
                     "decorators": [],
                     "name": "ElementType",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSUnionType",
@@ -83,6 +85,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 276,
                             "end": 297,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 276,
@@ -93,7 +96,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 279,
                                 "decorators": [],
                                 "name": "JSX",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -101,7 +105,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 297,
                                 "decorators": [],
                                 "name": "IntrinsicElements",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -119,6 +124,7 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 174,
                               "end": 195,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "TSQualifiedName",
                                 "start": 174,
@@ -129,7 +135,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 177,
                                   "decorators": [],
                                   "name": "JSX",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -137,7 +144,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 195,
                                   "decorators": [],
                                   "name": "IntrinsicElements",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -148,9 +156,12 @@ __ESTREE_TEST__:PASS:
                             "end": 164,
                             "decorators": [],
                             "name": "K",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "nameType": null,
+                          "optional": null,
+                          "readonly": null,
                           "typeAnnotation": {
                             "type": "TSConditionalType",
                             "start": 198,
@@ -159,13 +170,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 198,
                               "end": 199,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 198,
                                 "end": 199,
                                 "decorators": [],
                                 "name": "P",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "extendsType": {
@@ -176,19 +189,22 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 230,
                                 "end": 231,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 230,
                                   "end": 231,
                                   "decorators": [],
                                   "name": "K",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "objectType": {
                                 "type": "TSTypeReference",
                                 "start": 208,
                                 "end": 229,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "TSQualifiedName",
                                   "start": 208,
@@ -199,7 +215,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 211,
                                     "decorators": [],
                                     "name": "JSX",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   "right": {
                                     "type": "Identifier",
@@ -207,7 +224,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 229,
                                     "decorators": [],
                                     "name": "IntrinsicElements",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -221,13 +239,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 243,
                               "end": 244,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 243,
                                 "end": 244,
                                 "decorators": [],
                                 "name": "K",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -246,13 +266,15 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 327,
                               "end": 328,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 327,
                                 "end": 328,
                                 "decorators": [],
                                 "name": "P",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ]
@@ -267,7 +289,8 @@ __ESTREE_TEST__:PASS:
                             "end": 312,
                             "decorators": [],
                             "name": "React",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "right": {
                             "type": "Identifier",
@@ -275,7 +298,8 @@ __ESTREE_TEST__:PASS:
                             "end": 326,
                             "decorators": [],
                             "name": "ComponentType",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -291,6 +315,7 @@ __ESTREE_TEST__:PASS:
                         "start": 133,
                         "end": 140,
                         "const": false,
+                        "constraint": null,
                         "default": {
                           "type": "TSAnyKeyword",
                           "start": 137,
@@ -303,7 +328,8 @@ __ESTREE_TEST__:PASS:
                           "end": 134,
                           "decorators": [],
                           "name": "P",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "out": false
                       }
@@ -320,7 +346,8 @@ __ESTREE_TEST__:PASS:
               "end": 109,
               "decorators": [],
               "name": "JSX",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "namespace"
           }
@@ -334,7 +361,8 @@ __ESTREE_TEST__:PASS:
         "end": 91,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "global"
     },
@@ -354,7 +382,8 @@ __ESTREE_TEST__:PASS:
             "end": 391,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -373,7 +402,8 @@ __ESTREE_TEST__:PASS:
                 "end": 398,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -397,7 +427,8 @@ __ESTREE_TEST__:PASS:
             "end": 496,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -416,7 +447,8 @@ __ESTREE_TEST__:PASS:
                 "end": 506,
                 "name": "ruhroh"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }

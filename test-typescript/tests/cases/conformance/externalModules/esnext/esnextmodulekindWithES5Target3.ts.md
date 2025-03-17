@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 42,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -32,7 +34,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "decorators": [],
             "name": "args",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "decorators": [],
           "optional": false,
@@ -50,7 +53,8 @@ __ESTREE_TEST__:PASS:
                 "end": 33
               }
             }
-          }
+          },
+          "value": null
         }
       ],
       "returnType": {
@@ -62,7 +66,8 @@ __ESTREE_TEST__:PASS:
           "start": 38,
           "end": 41
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -82,6 +87,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 77,
               "end": 90,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -92,12 +98,14 @@ __ESTREE_TEST__:PASS:
                 "end": 85,
                 "decorators": [],
                 "name": "s",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": true,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 88,
@@ -110,6 +118,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 95,
               "end": 101,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -120,12 +129,14 @@ __ESTREE_TEST__:PASS:
                 "end": 96,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 99,
@@ -138,6 +149,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 106,
               "end": 118,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -146,7 +158,8 @@ __ESTREE_TEST__:PASS:
                 "end": 112,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -167,7 +180,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -184,7 +199,8 @@ __ESTREE_TEST__:PASS:
               "end": 47,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -194,10 +210,13 @@ __ESTREE_TEST__:PASS:
           "end": 70,
           "decorators": [],
           "name": "D",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value"
     }

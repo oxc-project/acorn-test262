@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "thing",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "srcthing",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -80,7 +82,8 @@ __ESTREE_TEST__:PASS:
             "end": 405,
             "decorators": [],
             "name": "me",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -89,6 +92,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 429,
       "end": 440,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 429,
@@ -105,7 +109,8 @@ __ESTREE_TEST__:PASS:
             "end": 431,
             "decorators": [],
             "name": "me",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "optional": false,
           "property": {
@@ -114,10 +119,12 @@ __ESTREE_TEST__:PASS:
             "end": 437,
             "decorators": [],
             "name": "thing",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     },
     {
@@ -145,7 +152,8 @@ __ESTREE_TEST__:PASS:
           "end": 466,
           "decorators": [],
           "name": "srcthing",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -157,7 +165,8 @@ __ESTREE_TEST__:PASS:
             "start": 470,
             "end": 474
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

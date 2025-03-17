@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
+      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
@@ -25,8 +26,10 @@ __ESTREE_TEST__:PASS:
             "end": 8,
             "decorators": [],
             "name": "Date",
-            "optional": false
-          }
+            "optional": false,
+            "typeAnnotation": null
+          },
+          "typeArguments": null
         },
         "right": {
           "type": "Identifier",
@@ -34,7 +37,8 @@ __ESTREE_TEST__:PASS:
           "end": 10,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       }
     }

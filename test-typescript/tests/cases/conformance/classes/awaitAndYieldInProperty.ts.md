@@ -29,6 +29,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 65,
                   "end": 85,
+                  "accessibility": null,
                   "computed": true,
                   "declare": false,
                   "decorators": [],
@@ -43,13 +44,15 @@ __ESTREE_TEST__:PASS:
                       "end": 73,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "AwaitExpression",
                     "start": 77,
@@ -60,7 +63,8 @@ __ESTREE_TEST__:PASS:
                       "end": 84,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -68,6 +72,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 94,
                   "end": 121,
+                  "accessibility": null,
                   "computed": true,
                   "declare": false,
                   "decorators": [],
@@ -82,13 +87,15 @@ __ESTREE_TEST__:PASS:
                       "end": 109,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   "optional": false,
                   "override": false,
                   "readonly": false,
                   "static": true,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "AwaitExpression",
                     "start": 113,
@@ -99,7 +106,8 @@ __ESTREE_TEST__:PASS:
                       "end": 120,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -107,6 +115,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 131,
                   "end": 151,
+                  "accessibility": null,
                   "computed": true,
                   "declare": false,
                   "decorators": [],
@@ -128,6 +137,7 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "readonly": false,
                   "static": false,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "YieldExpression",
                     "start": 143,
@@ -146,6 +156,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 160,
                   "end": 187,
+                  "accessibility": null,
                   "computed": true,
                   "declare": false,
                   "decorators": [],
@@ -167,6 +178,7 @@ __ESTREE_TEST__:PASS:
                   "override": false,
                   "readonly": false,
                   "static": true,
+                  "typeAnnotation": null,
                   "value": {
                     "type": "YieldExpression",
                     "start": 179,
@@ -191,10 +203,13 @@ __ESTREE_TEST__:PASS:
               "end": 54,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ReturnStatement",
@@ -214,6 +229,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 222,
                     "end": 242,
+                    "accessibility": null,
                     "computed": true,
                     "declare": false,
                     "decorators": [],
@@ -228,13 +244,15 @@ __ESTREE_TEST__:PASS:
                         "end": 230,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,
                     "override": false,
                     "readonly": false,
                     "static": false,
+                    "typeAnnotation": null,
                     "value": {
                       "type": "AwaitExpression",
                       "start": 234,
@@ -245,7 +263,8 @@ __ESTREE_TEST__:PASS:
                         "end": 241,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -253,6 +272,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 251,
                     "end": 278,
+                    "accessibility": null,
                     "computed": true,
                     "declare": false,
                     "decorators": [],
@@ -267,13 +287,15 @@ __ESTREE_TEST__:PASS:
                         "end": 266,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     "optional": false,
                     "override": false,
                     "readonly": false,
                     "static": true,
+                    "typeAnnotation": null,
                     "value": {
                       "type": "AwaitExpression",
                       "start": 270,
@@ -284,7 +306,8 @@ __ESTREE_TEST__:PASS:
                         "end": 277,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   },
@@ -292,6 +315,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 288,
                     "end": 308,
+                    "accessibility": null,
                     "computed": true,
                     "declare": false,
                     "decorators": [],
@@ -313,6 +337,7 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "readonly": false,
                     "static": false,
+                    "typeAnnotation": null,
                     "value": {
                       "type": "YieldExpression",
                       "start": 300,
@@ -331,6 +356,7 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 317,
                     "end": 344,
+                    "accessibility": null,
                     "computed": true,
                     "declare": false,
                     "decorators": [],
@@ -352,6 +378,7 @@ __ESTREE_TEST__:PASS:
                     "override": false,
                     "readonly": false,
                     "static": true,
+                    "typeAnnotation": null,
                     "value": {
                       "type": "YieldExpression",
                       "start": 336,
@@ -372,7 +399,9 @@ __ESTREE_TEST__:PASS:
               "decorators": [],
               "id": null,
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             }
           }
         ]
@@ -386,7 +415,8 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -422,12 +452,15 @@ __ESTREE_TEST__:PASS:
                 "end": 31,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }
         }
-      ]
+      ],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

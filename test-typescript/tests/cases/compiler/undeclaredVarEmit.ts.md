@@ -13,13 +13,15 @@ __ESTREE_TEST__:PASS:
         "type": "ExpressionStatement",
         "start": 3,
         "end": 10,
+        "directive": null,
         "expression": {
           "type": "Identifier",
           "start": 3,
           "end": 9,
           "decorators": [],
           "name": "number",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
       },
       "label": {
@@ -28,7 +30,8 @@ __ESTREE_TEST__:PASS:
         "end": 1,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

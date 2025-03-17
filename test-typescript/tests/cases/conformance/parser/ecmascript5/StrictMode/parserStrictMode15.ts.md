@@ -22,6 +22,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 23,
+      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 14,
@@ -32,7 +33,8 @@ __ESTREE_TEST__:PASS:
           "end": 22,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "operator": "delete",
         "prefix": true

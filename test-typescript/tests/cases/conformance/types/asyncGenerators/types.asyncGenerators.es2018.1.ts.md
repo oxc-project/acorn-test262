@@ -25,9 +25,12 @@ __ESTREE_TEST__:PASS:
         "end": 33,
         "decorators": [],
         "name": "inferReturnType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -43,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 82,
             "end": 88,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 82,
@@ -62,9 +66,12 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "inferReturnType2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -80,6 +87,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 133,
             "end": 141,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 133,
@@ -105,9 +113,12 @@ __ESTREE_TEST__:PASS:
         "end": 124,
         "decorators": [],
         "name": "inferReturnType3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -123,6 +134,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 186,
             "end": 211,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 186,
@@ -151,7 +163,8 @@ __ESTREE_TEST__:PASS:
                     "end": 199,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -160,10 +173,12 @@ __ESTREE_TEST__:PASS:
                     "end": 207,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -179,9 +194,12 @@ __ESTREE_TEST__:PASS:
         "end": 177,
         "decorators": [],
         "name": "inferReturnType4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -197,6 +215,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 256,
             "end": 264,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 256,
@@ -215,6 +234,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 269,
             "end": 294,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 269,
@@ -243,7 +263,8 @@ __ESTREE_TEST__:PASS:
                     "end": 282,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -252,10 +273,12 @@ __ESTREE_TEST__:PASS:
                     "end": 290,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -271,9 +294,12 @@ __ESTREE_TEST__:PASS:
         "end": 247,
         "decorators": [],
         "name": "inferReturnType5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -289,6 +315,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 339,
             "end": 353,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 339,
@@ -328,9 +355,12 @@ __ESTREE_TEST__:PASS:
         "end": 330,
         "decorators": [],
         "name": "inferReturnType6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -346,6 +376,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 398,
             "end": 426,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 398,
@@ -379,7 +410,8 @@ __ESTREE_TEST__:PASS:
                         "end": 413,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -388,10 +420,12 @@ __ESTREE_TEST__:PASS:
                         "end": 421,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 ]
               },
@@ -409,9 +443,12 @@ __ESTREE_TEST__:PASS:
         "end": 389,
         "decorators": [],
         "name": "inferReturnType7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -427,6 +464,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 471,
             "end": 515,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 471,
@@ -450,6 +488,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 501,
                         "end": 509,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 501,
@@ -470,9 +509,12 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": true,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": true
             }
@@ -488,9 +530,12 @@ __ESTREE_TEST__:PASS:
         "end": 462,
         "decorators": [],
         "name": "inferReturnType8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -544,10 +589,12 @@ __ESTREE_TEST__:PASS:
                       "end": 567,
                       "decorators": [],
                       "name": "AsyncIterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -565,6 +612,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 604,
                   "end": 612,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 604,
@@ -585,7 +633,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -644,10 +694,12 @@ __ESTREE_TEST__:PASS:
                       "end": 665,
                       "decorators": [],
                       "name": "AsyncIterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -665,6 +717,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 702,
                   "end": 727,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 702,
@@ -693,7 +746,8 @@ __ESTREE_TEST__:PASS:
                           "end": 715,
                           "decorators": [],
                           "name": "Promise",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -702,10 +756,12 @@ __ESTREE_TEST__:PASS:
                           "end": 723,
                           "decorators": [],
                           "name": "resolve",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": false
                   }
@@ -716,7 +772,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -775,10 +833,12 @@ __ESTREE_TEST__:PASS:
                       "end": 780,
                       "decorators": [],
                       "name": "AsyncIterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -796,6 +856,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 817,
                   "end": 831,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 817,
@@ -830,7 +891,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -889,10 +952,12 @@ __ESTREE_TEST__:PASS:
                       "end": 884,
                       "decorators": [],
                       "name": "AsyncIterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -910,6 +975,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 921,
                   "end": 949,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 921,
@@ -943,7 +1009,8 @@ __ESTREE_TEST__:PASS:
                               "end": 936,
                               "decorators": [],
                               "name": "Promise",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -952,10 +1019,12 @@ __ESTREE_TEST__:PASS:
                               "end": 944,
                               "decorators": [],
                               "name": "resolve",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -968,7 +1037,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1027,10 +1098,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1002,
                       "decorators": [],
                       "name": "AsyncIterableIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1048,6 +1121,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1039,
                   "end": 1083,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1039,
@@ -1071,6 +1145,7 @@ __ESTREE_TEST__:PASS:
                               "type": "ExpressionStatement",
                               "start": 1069,
                               "end": 1077,
+                              "directive": null,
                               "expression": {
                                 "type": "YieldExpression",
                                 "start": 1069,
@@ -1091,9 +1166,12 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": true,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": true
                   }
@@ -1104,7 +1182,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1163,10 +1243,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1128,
                       "decorators": [],
                       "name": "AsyncIterable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1184,6 +1266,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1165,
                   "end": 1173,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1165,
@@ -1204,7 +1287,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1263,10 +1348,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1218,
                       "decorators": [],
                       "name": "AsyncIterable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1284,6 +1371,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1255,
                   "end": 1280,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1255,
@@ -1312,7 +1400,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1268,
                           "decorators": [],
                           "name": "Promise",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1321,10 +1410,12 @@ __ESTREE_TEST__:PASS:
                           "end": 1276,
                           "decorators": [],
                           "name": "resolve",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": false
                   }
@@ -1335,7 +1426,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1394,10 +1487,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1325,
                       "decorators": [],
                       "name": "AsyncIterable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1415,6 +1510,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1362,
                   "end": 1376,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1362,
@@ -1449,7 +1545,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1508,10 +1606,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1421,
                       "decorators": [],
                       "name": "AsyncIterable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1529,6 +1629,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1458,
                   "end": 1486,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1458,
@@ -1562,7 +1663,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1473,
                               "decorators": [],
                               "name": "Promise",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -1571,10 +1673,12 @@ __ESTREE_TEST__:PASS:
                               "end": 1481,
                               "decorators": [],
                               "name": "resolve",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -1587,7 +1691,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1646,10 +1752,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1532,
                       "decorators": [],
                       "name": "AsyncIterable",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1667,6 +1775,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1569,
                   "end": 1613,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1569,
@@ -1690,6 +1799,7 @@ __ESTREE_TEST__:PASS:
                               "type": "ExpressionStatement",
                               "start": 1599,
                               "end": 1607,
+                              "directive": null,
                               "expression": {
                                 "type": "YieldExpression",
                                 "start": 1599,
@@ -1710,9 +1820,12 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": true,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": true
                   }
@@ -1723,7 +1836,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1782,10 +1897,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1659,
                       "decorators": [],
                       "name": "AsyncIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1803,6 +1920,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1696,
                   "end": 1704,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1696,
@@ -1823,7 +1941,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -1882,10 +2002,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1750,
                       "decorators": [],
                       "name": "AsyncIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -1903,6 +2025,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1787,
                   "end": 1812,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1787,
@@ -1931,7 +2054,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1800,
                           "decorators": [],
                           "name": "Promise",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -1940,10 +2064,12 @@ __ESTREE_TEST__:PASS:
                           "end": 1808,
                           "decorators": [],
                           "name": "resolve",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": false
                   }
@@ -1954,7 +2080,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -2013,10 +2141,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1858,
                       "decorators": [],
                       "name": "AsyncIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -2034,6 +2164,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1895,
                   "end": 1909,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1895,
@@ -2068,7 +2199,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -2127,10 +2260,12 @@ __ESTREE_TEST__:PASS:
                       "end": 1955,
                       "decorators": [],
                       "name": "AsyncIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -2148,6 +2283,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 1992,
                   "end": 2020,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 1992,
@@ -2181,7 +2317,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2007,
                               "decorators": [],
                               "name": "Promise",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "property": {
@@ -2190,10 +2327,12 @@ __ESTREE_TEST__:PASS:
                               "end": 2015,
                               "decorators": [],
                               "name": "resolve",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
-                          "optional": false
+                          "optional": false,
+                          "typeArguments": null
                         }
                       ]
                     },
@@ -2206,7 +2345,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -2265,10 +2406,12 @@ __ESTREE_TEST__:PASS:
                       "end": 2066,
                       "decorators": [],
                       "name": "AsyncIterator",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -2286,6 +2429,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 2103,
                   "end": 2147,
+                  "directive": null,
                   "expression": {
                     "type": "YieldExpression",
                     "start": 2103,
@@ -2309,6 +2453,7 @@ __ESTREE_TEST__:PASS:
                               "type": "ExpressionStatement",
                               "start": 2133,
                               "end": 2141,
+                              "directive": null,
                               "expression": {
                                 "type": "YieldExpression",
                                 "start": 2133,
@@ -2329,9 +2474,12 @@ __ESTREE_TEST__:PASS:
                         "expression": false,
                         "generator": true,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "returnType": null,
+                        "typeParameters": null
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     },
                     "delegate": true
                   }
@@ -2342,7 +2490,9 @@ __ESTREE_TEST__:PASS:
             "expression": false,
             "generator": true,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ],
@@ -2363,6 +2513,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2227,
             "end": 2235,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2227,
@@ -2388,7 +2539,8 @@ __ESTREE_TEST__:PASS:
         "end": 2187,
         "decorators": [],
         "name": "explicitReturnType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2417,10 +2569,12 @@ __ESTREE_TEST__:PASS:
             "end": 2212,
             "decorators": [],
             "name": "AsyncIterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2436,6 +2590,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2314,
             "end": 2339,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2314,
@@ -2464,7 +2619,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2327,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2473,10 +2629,12 @@ __ESTREE_TEST__:PASS:
                     "end": 2335,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -2492,7 +2650,8 @@ __ESTREE_TEST__:PASS:
         "end": 2274,
         "decorators": [],
         "name": "explicitReturnType2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2521,10 +2680,12 @@ __ESTREE_TEST__:PASS:
             "end": 2299,
             "decorators": [],
             "name": "AsyncIterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2540,6 +2701,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2418,
             "end": 2432,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2418,
@@ -2579,7 +2741,8 @@ __ESTREE_TEST__:PASS:
         "end": 2378,
         "decorators": [],
         "name": "explicitReturnType3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2608,10 +2771,12 @@ __ESTREE_TEST__:PASS:
             "end": 2403,
             "decorators": [],
             "name": "AsyncIterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2627,6 +2792,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2511,
             "end": 2539,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2511,
@@ -2660,7 +2826,8 @@ __ESTREE_TEST__:PASS:
                         "end": 2526,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -2669,10 +2836,12 @@ __ESTREE_TEST__:PASS:
                         "end": 2534,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 ]
               },
@@ -2690,7 +2859,8 @@ __ESTREE_TEST__:PASS:
         "end": 2471,
         "decorators": [],
         "name": "explicitReturnType4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2719,10 +2889,12 @@ __ESTREE_TEST__:PASS:
             "end": 2496,
             "decorators": [],
             "name": "AsyncIterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2738,6 +2910,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2618,
             "end": 2662,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2618,
@@ -2761,6 +2934,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 2648,
                         "end": 2656,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 2648,
@@ -2781,9 +2955,12 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": true,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": true
             }
@@ -2799,7 +2976,8 @@ __ESTREE_TEST__:PASS:
         "end": 2578,
         "decorators": [],
         "name": "explicitReturnType5",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2828,10 +3006,12 @@ __ESTREE_TEST__:PASS:
             "end": 2603,
             "decorators": [],
             "name": "AsyncIterableIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2847,6 +3027,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2733,
             "end": 2741,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2733,
@@ -2872,7 +3053,8 @@ __ESTREE_TEST__:PASS:
         "end": 2701,
         "decorators": [],
         "name": "explicitReturnType6",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -2901,10 +3083,12 @@ __ESTREE_TEST__:PASS:
             "end": 2718,
             "decorators": [],
             "name": "AsyncIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -2920,6 +3104,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2812,
             "end": 2837,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2812,
@@ -2948,7 +3133,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2825,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -2957,10 +3143,12 @@ __ESTREE_TEST__:PASS:
                     "end": 2833,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -2976,7 +3164,8 @@ __ESTREE_TEST__:PASS:
         "end": 2780,
         "decorators": [],
         "name": "explicitReturnType7",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3005,10 +3194,12 @@ __ESTREE_TEST__:PASS:
             "end": 2797,
             "decorators": [],
             "name": "AsyncIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3024,6 +3215,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2908,
             "end": 2922,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2908,
@@ -3063,7 +3255,8 @@ __ESTREE_TEST__:PASS:
         "end": 2876,
         "decorators": [],
         "name": "explicitReturnType8",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3092,10 +3285,12 @@ __ESTREE_TEST__:PASS:
             "end": 2893,
             "decorators": [],
             "name": "AsyncIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3111,6 +3306,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 2993,
             "end": 3021,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 2993,
@@ -3144,7 +3340,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3008,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -3153,10 +3350,12 @@ __ESTREE_TEST__:PASS:
                         "end": 3016,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 ]
               },
@@ -3174,7 +3373,8 @@ __ESTREE_TEST__:PASS:
         "end": 2961,
         "decorators": [],
         "name": "explicitReturnType9",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3203,10 +3403,12 @@ __ESTREE_TEST__:PASS:
             "end": 2978,
             "decorators": [],
             "name": "AsyncIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3222,6 +3424,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3093,
             "end": 3137,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3093,
@@ -3245,6 +3448,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 3123,
                         "end": 3131,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 3123,
@@ -3265,9 +3469,12 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": true,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": true
             }
@@ -3283,7 +3490,8 @@ __ESTREE_TEST__:PASS:
         "end": 3061,
         "decorators": [],
         "name": "explicitReturnType10",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3312,10 +3520,12 @@ __ESTREE_TEST__:PASS:
             "end": 3078,
             "decorators": [],
             "name": "AsyncIterable",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3331,6 +3541,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3209,
             "end": 3217,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3209,
@@ -3356,7 +3567,8 @@ __ESTREE_TEST__:PASS:
         "end": 3177,
         "decorators": [],
         "name": "explicitReturnType11",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3385,10 +3597,12 @@ __ESTREE_TEST__:PASS:
             "end": 3194,
             "decorators": [],
             "name": "AsyncIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3404,6 +3618,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3289,
             "end": 3314,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3289,
@@ -3432,7 +3647,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3302,
                     "decorators": [],
                     "name": "Promise",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -3441,10 +3657,12 @@ __ESTREE_TEST__:PASS:
                     "end": 3310,
                     "decorators": [],
                     "name": "resolve",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": false
             }
@@ -3460,7 +3678,8 @@ __ESTREE_TEST__:PASS:
         "end": 3257,
         "decorators": [],
         "name": "explicitReturnType12",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3489,10 +3708,12 @@ __ESTREE_TEST__:PASS:
             "end": 3274,
             "decorators": [],
             "name": "AsyncIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3508,6 +3729,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3386,
             "end": 3400,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3386,
@@ -3547,7 +3769,8 @@ __ESTREE_TEST__:PASS:
         "end": 3354,
         "decorators": [],
         "name": "explicitReturnType13",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3576,10 +3799,12 @@ __ESTREE_TEST__:PASS:
             "end": 3371,
             "decorators": [],
             "name": "AsyncIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3595,6 +3820,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3472,
             "end": 3500,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3472,
@@ -3628,7 +3854,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3487,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -3637,10 +3864,12 @@ __ESTREE_TEST__:PASS:
                         "end": 3495,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 ]
               },
@@ -3658,7 +3887,8 @@ __ESTREE_TEST__:PASS:
         "end": 3440,
         "decorators": [],
         "name": "explicitReturnType14",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3687,10 +3917,12 @@ __ESTREE_TEST__:PASS:
             "end": 3457,
             "decorators": [],
             "name": "AsyncIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3706,6 +3938,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3572,
             "end": 3616,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3572,
@@ -3729,6 +3962,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 3602,
                         "end": 3610,
+                        "directive": null,
                         "expression": {
                           "type": "YieldExpression",
                           "start": 3602,
@@ -3749,9 +3983,12 @@ __ESTREE_TEST__:PASS:
                   "expression": false,
                   "generator": true,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "returnType": null,
+                  "typeParameters": null
                 },
-                "optional": false
+                "optional": false,
+                "typeArguments": null
               },
               "delegate": true
             }
@@ -3767,7 +4004,8 @@ __ESTREE_TEST__:PASS:
         "end": 3540,
         "decorators": [],
         "name": "explicitReturnType15",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3796,10 +4034,12 @@ __ESTREE_TEST__:PASS:
             "end": 3557,
             "decorators": [],
             "name": "AsyncIterator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3815,6 +4055,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 3669,
             "end": 3677,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 3669,
@@ -3840,7 +4081,8 @@ __ESTREE_TEST__:PASS:
         "end": 3656,
         "decorators": [],
         "name": "explicitReturnType16",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -3853,7 +4095,8 @@ __ESTREE_TEST__:PASS:
           "end": 3662,
           "members": []
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3881,7 +4124,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3725,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "AwaitExpression",
@@ -3911,9 +4155,12 @@ __ESTREE_TEST__:PASS:
         "end": 3709,
         "decorators": [],
         "name": "awaitedType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -3941,7 +4188,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3784,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "AwaitExpression",
@@ -3971,7 +4219,8 @@ __ESTREE_TEST__:PASS:
                         "end": 3800,
                         "decorators": [],
                         "name": "Promise",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -3980,10 +4229,12 @@ __ESTREE_TEST__:PASS:
                         "end": 3808,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 }
               }
@@ -4002,9 +4253,12 @@ __ESTREE_TEST__:PASS:
         "end": 3768,
         "decorators": [],
         "name": "awaitedType2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -4032,7 +4286,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3918,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "YieldExpression",
@@ -4057,7 +4312,8 @@ __ESTREE_TEST__:PASS:
         "end": 3841,
         "decorators": [],
         "name": "nextType1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -4073,6 +4329,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSMethodSignature",
               "start": 3847,
               "end": 3902,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -4080,7 +4337,8 @@ __ESTREE_TEST__:PASS:
                 "end": 3851,
                 "decorators": [],
                 "name": "next",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -4095,7 +4353,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3859,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -4151,7 +4410,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 3887,
                                     "decorators": [],
                                     "name": "PromiseLike",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -4160,7 +4420,8 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "readonly": false,
@@ -4174,11 +4435,13 @@ __ESTREE_TEST__:PASS:
                   "end": 3902
                 }
               },
-              "static": false
+              "static": false,
+              "typeParameters": null
             }
           ]
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

@@ -56,6 +56,8 @@ __ESTREE_TEST__:PASS:
                           "start": 26,
                           "end": 27,
                           "const": false,
+                          "constraint": null,
+                          "default": null,
                           "in": false,
                           "name": {
                             "type": "Identifier",
@@ -63,7 +65,8 @@ __ESTREE_TEST__:PASS:
                             "end": 27,
                             "decorators": [],
                             "name": "T",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "out": false
                         }
@@ -120,7 +123,8 @@ __ESTREE_TEST__:PASS:
                         "start": 71,
                         "end": 77
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -179,6 +183,8 @@ __ESTREE_TEST__:PASS:
                       "start": 102,
                       "end": 103,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -186,7 +192,8 @@ __ESTREE_TEST__:PASS:
                         "end": 103,
                         "decorators": [],
                         "name": "T",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }

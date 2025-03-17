@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 111,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -60,7 +61,8 @@ __ESTREE_TEST__:PASS:
                         "end": 135,
                         "name": "div"
                       },
-                      "selfClosing": true
+                      "selfClosing": true,
+                      "typeArguments": null
                     }
                   },
                   "typeAnnotation": {
@@ -94,7 +96,8 @@ __ESTREE_TEST__:PASS:
                     "end": 161,
                     "name": "span"
                   },
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "typeArguments": null
                 }
               },
               {
@@ -127,7 +130,8 @@ __ESTREE_TEST__:PASS:
                 "end": 123,
                 "name": "main"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

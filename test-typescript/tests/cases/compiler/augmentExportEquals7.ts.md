@@ -40,7 +40,8 @@ __ESTREE_TEST__:PASS:
                     "start": 23,
                     "end": 27
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -68,7 +69,8 @@ __ESTREE_TEST__:PASS:
         "end": 50,
         "decorators": [],
         "name": "lib",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -82,7 +84,8 @@ __ESTREE_TEST__:PASS:
         "end": 66,
         "decorators": [],
         "name": "lib",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -121,7 +124,8 @@ __ESTREE_TEST__:PASS:
             "end": 15,
             "decorators": [],
             "name": "lib",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -146,6 +150,7 @@ __ESTREE_TEST__:PASS:
               "start": 62,
               "end": 82,
               "async": false,
+              "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
@@ -155,7 +160,8 @@ __ESTREE_TEST__:PASS:
                 "end": 73,
                 "decorators": [],
                 "name": "fn",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "params": [],
               "returnType": {
@@ -167,7 +173,8 @@ __ESTREE_TEST__:PASS:
                   "start": 77,
                   "end": 81
                 }
-              }
+              },
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,

@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 24,
       "end": 40,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 24,
@@ -73,7 +74,8 @@ __ESTREE_TEST__:PASS:
             "end": 28,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -81,6 +83,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 41,
       "end": 54,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 41,
@@ -111,7 +114,8 @@ __ESTREE_TEST__:PASS:
             "end": 45,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -119,6 +123,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 55,
       "end": 75,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 55,
@@ -155,7 +160,8 @@ __ESTREE_TEST__:PASS:
             "end": 59,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     },
@@ -163,6 +169,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 76,
       "end": 93,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 76,
@@ -199,7 +206,8 @@ __ESTREE_TEST__:PASS:
             "end": 80,
             "name": "foo"
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "typeArguments": null
         }
       }
     }

@@ -32,7 +32,8 @@ __ESTREE_TEST__:PASS:
               "end": 28,
               "decorators": [],
               "name": "let",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

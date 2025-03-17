@@ -35,7 +35,8 @@ __ESTREE_TEST__:PASS:
                 "end": 57,
                 "decorators": [],
                 "name": "_filterProviders",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -54,6 +55,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 61,
                       "end": 84,
+                      "accessibility": null,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
@@ -61,7 +63,8 @@ __ESTREE_TEST__:PASS:
                         "end": 66,
                         "decorators": [],
                         "name": "index",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "readonly": false,
@@ -74,13 +77,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 68,
                           "end": 83,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 68,
                             "end": 83,
                             "decorators": [],
                             "name": "IFilterProvider",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -105,7 +110,8 @@ __ESTREE_TEST__:PASS:
                 "end": 117,
                 "decorators": [],
                 "name": "_filterProviders2",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -124,6 +130,7 @@ __ESTREE_TEST__:PASS:
                       "type": "TSIndexSignature",
                       "start": 121,
                       "end": 154,
+                      "accessibility": null,
                       "parameters": [
                         {
                           "type": "Identifier",
@@ -154,13 +161,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 138,
                           "end": 153,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 138,
                             "end": 153,
                             "decorators": [],
                             "name": "IFilterProvider",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -185,7 +194,8 @@ __ESTREE_TEST__:PASS:
                 "end": 187,
                 "decorators": [],
                 "name": "_filterProviders3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -232,16 +242,19 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 208,
                           "end": 223,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 208,
                             "end": 223,
                             "decorators": [],
                             "name": "IFilterProvider",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -263,7 +276,8 @@ __ESTREE_TEST__:PASS:
                 "end": 257,
                 "decorators": [],
                 "name": "_filterProviders4",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -305,16 +319,19 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 278,
                       "end": 293,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 278,
                         "end": 293,
                         "decorators": [],
                         "name": "IFilterProvider",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
-                  }
+                  },
+                  "typeParameters": null
                 }
               },
               "value": null
@@ -329,10 +346,13 @@ __ESTREE_TEST__:PASS:
           "end": 26,
           "decorators": [],
           "name": "FilterManager",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -361,8 +381,10 @@ __ESTREE_TEST__:PASS:
           "end": 329,
           "decorators": [],
           "name": "IFilterProvider",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

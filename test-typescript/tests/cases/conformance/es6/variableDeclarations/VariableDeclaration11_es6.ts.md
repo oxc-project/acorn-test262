@@ -22,13 +22,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 14,
       "end": 17,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 14,
         "end": 17,
         "decorators": [],
         "name": "let",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

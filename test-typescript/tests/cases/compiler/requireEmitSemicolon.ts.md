@@ -38,6 +38,7 @@ __ESTREE_TEST__:PASS:
                       "type": "MethodDefinition",
                       "start": 54,
                       "end": 83,
+                      "accessibility": null,
                       "computed": false,
                       "decorators": [],
                       "key": {
@@ -46,7 +47,8 @@ __ESTREE_TEST__:PASS:
                         "end": 65,
                         "decorators": [],
                         "name": "constructor",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "constructor",
                       "optional": false,
@@ -86,7 +88,9 @@ __ESTREE_TEST__:PASS:
                               }
                             }
                           }
-                        ]
+                        ],
+                        "returnType": null,
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -99,10 +103,13 @@ __ESTREE_TEST__:PASS:
                   "end": 43,
                   "decorators": [],
                   "name": "Person",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -118,7 +125,8 @@ __ESTREE_TEST__:PASS:
           "end": 20,
           "decorators": [],
           "name": "Models",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },
@@ -148,7 +156,8 @@ __ESTREE_TEST__:PASS:
         "end": 57,
         "decorators": [],
         "name": "P",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -206,7 +215,8 @@ __ESTREE_TEST__:PASS:
                         "end": 240,
                         "decorators": [],
                         "name": "findPerson",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "kind": "method",
                       "optional": false,
@@ -255,7 +265,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 293,
                                       "decorators": [],
                                       "name": "P",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "optional": false,
                                     "property": {
@@ -264,7 +275,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 300,
                                       "decorators": [],
                                       "name": "Models",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "optional": false,
@@ -274,9 +286,11 @@ __ESTREE_TEST__:PASS:
                                     "end": 307,
                                     "decorators": [],
                                     "name": "Person",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
-                                }
+                                },
+                                "typeArguments": null
                               }
                             }
                           ]
@@ -313,6 +327,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 254,
                             "end": 269,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 254,
@@ -327,7 +342,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 255,
                                   "decorators": [],
                                   "name": "P",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 },
                                 "right": {
                                   "type": "Identifier",
@@ -335,7 +351,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 262,
                                   "decorators": [],
                                   "name": "Models",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "right": {
@@ -344,11 +361,13 @@ __ESTREE_TEST__:PASS:
                                 "end": 269,
                                 "decorators": [],
                                 "name": "Person",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "typeParameters": null
                       }
                     }
                   ]
@@ -361,10 +380,13 @@ __ESTREE_TEST__:PASS:
                   "end": 215,
                   "decorators": [],
                   "name": "DB",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "superTypeArguments": null,
+                "typeParameters": null
               },
               "exportKind": "value",
               "source": null,
@@ -380,7 +402,8 @@ __ESTREE_TEST__:PASS:
           "end": 196,
           "decorators": [],
           "name": "Database",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "kind": "module"
       },

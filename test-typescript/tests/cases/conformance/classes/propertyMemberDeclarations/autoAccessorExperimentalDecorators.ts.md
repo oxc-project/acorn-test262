@@ -64,13 +64,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 36,
                         "end": 47,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 36,
                           "end": 47,
                           "decorators": [],
                           "name": "PropertyKey",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -90,13 +92,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 55,
                         "end": 73,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 55,
                           "end": 73,
                           "decorators": [],
                           "name": "PropertyDescriptor",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -111,7 +115,8 @@ __ESTREE_TEST__:PASS:
                     "start": 78,
                     "end": 82
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -135,6 +140,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 100,
             "end": 125,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -148,7 +154,8 @@ __ESTREE_TEST__:PASS:
                   "end": 104,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -159,7 +166,8 @@ __ESTREE_TEST__:PASS:
               "end": 119,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -181,6 +189,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 131,
             "end": 163,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -194,7 +203,8 @@ __ESTREE_TEST__:PASS:
                   "end": 135,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -205,7 +215,8 @@ __ESTREE_TEST__:PASS:
               "end": 157,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -233,10 +244,13 @@ __ESTREE_TEST__:PASS:
         "end": 93,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -252,6 +266,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 182,
             "end": 208,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -265,7 +280,8 @@ __ESTREE_TEST__:PASS:
                   "end": 186,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -296,6 +312,7 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 214,
             "end": 247,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [
@@ -309,7 +326,8 @@ __ESTREE_TEST__:PASS:
                   "end": 218,
                   "decorators": [],
                   "name": "dec",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -346,10 +364,13 @@ __ESTREE_TEST__:PASS:
         "end": 175,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

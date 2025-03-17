@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 62,
             "decorators": [],
             "name": "React",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -50,7 +51,8 @@ __ESTREE_TEST__:PASS:
             "end": 89,
             "decorators": [],
             "name": "myHoc",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -73,7 +75,8 @@ __ESTREE_TEST__:PASS:
                     "end": 236,
                     "decorators": [],
                     "name": "WrapperComponentProps",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeAnnotation": {
                     "type": "TSIntersectionType",
@@ -84,13 +87,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 239,
                         "end": 261,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 239,
                           "end": 261,
                           "decorators": [],
                           "name": "ComposedComponentProps",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
                       {
@@ -102,6 +107,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 266,
                             "end": 280,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
@@ -109,7 +115,8 @@ __ESTREE_TEST__:PASS:
                               "end": 272,
                               "decorators": [],
                               "name": "myProp",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "optional": false,
                             "readonly": false,
@@ -128,7 +135,8 @@ __ESTREE_TEST__:PASS:
                         ]
                       }
                     ]
-                  }
+                  },
+                  "typeParameters": null
                 },
                 {
                   "type": "VariableDeclaration",
@@ -164,13 +172,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 333,
                                   "end": 354,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 333,
                                     "end": 354,
                                     "decorators": [],
                                     "name": "WrapperComponentProps",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -185,7 +195,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 317,
                                 "decorators": [],
                                 "name": "React",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "Identifier",
@@ -193,7 +204,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 332,
                                 "decorators": [],
                                 "name": "ComponentClass",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
@@ -246,13 +258,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 389,
                             "end": 411,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 389,
                               "end": 411,
                               "decorators": [],
                               "name": "ComposedComponentProps",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -283,6 +297,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 432,
                   "end": 483,
+                  "directive": null,
                   "expression": {
                     "type": "JSXElement",
                     "start": 432,
@@ -304,7 +319,8 @@ __ESTREE_TEST__:PASS:
                             "end": 459,
                             "decorators": [],
                             "name": "props",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -337,7 +353,8 @@ __ESTREE_TEST__:PASS:
                         "end": 449,
                         "name": "WrapperComponent"
                       },
-                      "selfClosing": true
+                      "selfClosing": true,
+                      "typeArguments": null
                     }
                   }
                 },
@@ -345,6 +362,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 488,
                   "end": 537,
+                  "directive": null,
                   "expression": {
                     "type": "JSXElement",
                     "start": 488,
@@ -366,7 +384,8 @@ __ESTREE_TEST__:PASS:
                             "end": 515,
                             "decorators": [],
                             "name": "props",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -399,7 +418,8 @@ __ESTREE_TEST__:PASS:
                         "end": 505,
                         "name": "WrapperComponent"
                       },
-                      "selfClosing": true
+                      "selfClosing": true,
+                      "typeArguments": null
                     }
                   }
                 }
@@ -433,13 +453,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 174,
                           "end": 196,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 174,
                             "end": 196,
                             "decorators": [],
                             "name": "ComposedComponentProps",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -454,7 +476,8 @@ __ESTREE_TEST__:PASS:
                         "end": 158,
                         "decorators": [],
                         "name": "React",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "right": {
                         "type": "Identifier",
@@ -462,13 +485,15 @@ __ESTREE_TEST__:PASS:
                         "end": 173,
                         "decorators": [],
                         "name": "ComponentClass",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
                 }
               }
             ],
+            "returnType": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 92,
@@ -484,6 +509,7 @@ __ESTREE_TEST__:PASS:
                     "start": 124,
                     "end": 127
                   },
+                  "default": null,
                   "in": false,
                   "name": {
                     "type": "Identifier",
@@ -491,7 +517,8 @@ __ESTREE_TEST__:PASS:
                     "end": 115,
                     "decorators": [],
                     "name": "ComposedComponentProps",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }

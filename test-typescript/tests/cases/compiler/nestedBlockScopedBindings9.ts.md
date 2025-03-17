@@ -26,7 +26,8 @@ __ESTREE_TEST__:PASS:
                 "end": 11,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "init": null
             }
@@ -38,6 +39,7 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 17,
           "end": 25,
+          "directive": null,
           "expression": {
             "type": "ArrowFunctionExpression",
             "start": 17,
@@ -49,12 +51,15 @@ __ESTREE_TEST__:PASS:
               "end": 24,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         }
       ]
@@ -85,7 +90,8 @@ __ESTREE_TEST__:PASS:
                     "end": 67,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "init": null
                 }
@@ -97,6 +103,7 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 77,
               "end": 85,
+              "directive": null,
               "expression": {
                 "type": "ArrowFunctionExpression",
                 "start": 77,
@@ -108,12 +115,15 @@ __ESTREE_TEST__:PASS:
                   "end": 84,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             },
             {

@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 21,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSLiteralType",
@@ -34,7 +35,8 @@ __ESTREE_TEST__:PASS:
             "raw": "1",
             "value": 1
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

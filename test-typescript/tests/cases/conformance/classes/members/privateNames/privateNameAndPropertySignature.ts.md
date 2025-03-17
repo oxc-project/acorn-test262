@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 6,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -27,6 +28,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 15,
             "end": 28,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
@@ -52,6 +54,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 33,
             "end": 48,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
@@ -73,10 +76,12 @@ __ESTREE_TEST__:PASS:
                 "end": 47
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -91,6 +96,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 70,
             "end": 83,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
@@ -116,6 +122,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 88,
             "end": 103,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "PrivateIdentifier",
@@ -137,7 +144,8 @@ __ESTREE_TEST__:PASS:
                 "end": 102
               }
             },
-            "static": false
+            "static": false,
+            "typeParameters": null
           }
         ]
       },
@@ -149,8 +157,10 @@ __ESTREE_TEST__:PASS:
         "end": 63,
         "decorators": [],
         "name": "B",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -182,6 +192,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 130,
                     "end": 143,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "PrivateIdentifier",
@@ -207,6 +218,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 148,
                     "end": 206,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
@@ -214,7 +226,8 @@ __ESTREE_TEST__:PASS:
                       "end": 151,
                       "decorators": [],
                       "name": "bar",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "readonly": false,
@@ -232,6 +245,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSPropertySignature",
                             "start": 163,
                             "end": 176,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "PrivateIdentifier",
@@ -257,6 +271,7 @@ __ESTREE_TEST__:PASS:
                             "type": "TSMethodSignature",
                             "start": 185,
                             "end": 200,
+                            "accessibility": null,
                             "computed": false,
                             "key": {
                               "type": "PrivateIdentifier",
@@ -278,7 +293,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 199
                               }
                             },
-                            "static": false
+                            "static": false,
+                            "typeParameters": null
                           }
                         ]
                       }
@@ -288,6 +304,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 211,
                     "end": 226,
+                    "accessibility": null,
                     "computed": false,
                     "key": {
                       "type": "PrivateIdentifier",
@@ -309,7 +326,8 @@ __ESTREE_TEST__:PASS:
                         "end": 225
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "typeParameters": null
                   }
                 ]
               }
@@ -356,6 +374,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 251,
                         "end": 268,
+                        "accessibility": null,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
@@ -363,7 +382,8 @@ __ESTREE_TEST__:PASS:
                           "end": 254,
                           "decorators": [],
                           "name": "qux",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "readonly": false,
@@ -381,6 +401,7 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSPropertySignature",
                                 "start": 258,
                                 "end": 266,
+                                "accessibility": null,
                                 "computed": false,
                                 "key": {
                                   "type": "PrivateIdentifier",

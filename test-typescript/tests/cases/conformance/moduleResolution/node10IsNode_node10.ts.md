@@ -153,7 +153,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "fancy",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -162,7 +163,8 @@ __ESTREE_TEST__:PASS:
             "end": 14,
             "decorators": [],
             "name": "fancy",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -171,13 +173,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 35,
       "end": 41,
+      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 35,
         "end": 40,
         "decorators": [],
         "name": "fancy",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],

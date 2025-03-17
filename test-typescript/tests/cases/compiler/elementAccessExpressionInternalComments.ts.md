@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 6,
       "end": 50,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 6,
@@ -20,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 11,
           "decorators": [],
           "name": "Array",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {
@@ -36,6 +38,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 64,
       "end": 148,
+      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 64,
@@ -47,7 +50,8 @@ __ESTREE_TEST__:PASS:
           "end": 69,
           "decorators": [],
           "name": "Array",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "optional": false,
         "property": {

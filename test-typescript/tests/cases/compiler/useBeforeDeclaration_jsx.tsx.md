@@ -37,8 +37,10 @@ __ESTREE_TEST__:PASS:
                 "end": 44,
                 "decorators": [],
                 "name": "Element",
-                "optional": false
-              }
+                "optional": false,
+                "typeAnnotation": null
+              },
+              "typeParameters": null
             },
             "exportKind": "type",
             "source": null,
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "namespace"
     },
@@ -72,6 +75,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 65,
             "end": 88,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -82,12 +86,14 @@ __ESTREE_TEST__:PASS:
               "end": 73,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "JSXElement",
               "start": 76,
@@ -137,7 +143,8 @@ __ESTREE_TEST__:PASS:
                     "name": "z"
                   }
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           },
@@ -145,6 +152,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 93,
             "end": 111,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -155,12 +163,14 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "JSXElement",
               "start": 104,
@@ -189,7 +199,8 @@ __ESTREE_TEST__:PASS:
                     "name": "z"
                   }
                 },
-                "selfClosing": true
+                "selfClosing": true,
+                "typeArguments": null
               }
             }
           },
@@ -197,6 +208,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 116,
             "end": 150,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -207,12 +219,14 @@ __ESTREE_TEST__:PASS:
               "end": 124,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "JSXElement",
               "start": 127,
@@ -249,7 +263,8 @@ __ESTREE_TEST__:PASS:
                         "end": 138,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "optional": false,
                       "property": {
@@ -258,7 +273,8 @@ __ESTREE_TEST__:PASS:
                         "end": 140,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
@@ -269,7 +285,8 @@ __ESTREE_TEST__:PASS:
                   "end": 132,
                   "name": "span"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           },
@@ -277,6 +294,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 155,
             "end": 189,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -287,12 +305,14 @@ __ESTREE_TEST__:PASS:
               "end": 163,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "JSXElement",
               "start": 166,
@@ -339,7 +359,8 @@ __ESTREE_TEST__:PASS:
                           "end": 177,
                           "decorators": [],
                           "name": "C",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "optional": false,
                         "property": {
@@ -348,7 +369,8 @@ __ESTREE_TEST__:PASS:
                           "end": 179,
                           "decorators": [],
                           "name": "y",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
@@ -360,7 +382,8 @@ __ESTREE_TEST__:PASS:
                   "end": 171,
                   "name": "span"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           },
@@ -368,6 +391,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 194,
             "end": 224,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -378,12 +402,14 @@ __ESTREE_TEST__:PASS:
               "end": 202,
               "decorators": [],
               "name": "e",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "JSXElement",
               "start": 205,
@@ -404,7 +430,8 @@ __ESTREE_TEST__:PASS:
                       "end": 213,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "optional": false,
                     "property": {
@@ -413,7 +440,8 @@ __ESTREE_TEST__:PASS:
                       "end": 215,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 }
@@ -440,7 +468,8 @@ __ESTREE_TEST__:PASS:
                   "end": 210,
                   "name": "span"
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "typeArguments": null
               }
             }
           },
@@ -448,6 +477,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 229,
             "end": 243,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -458,12 +488,14 @@ __ESTREE_TEST__:PASS:
               "end": 237,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ObjectExpression",
               "start": 240,
@@ -475,6 +507,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 248,
             "end": 262,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -485,12 +518,14 @@ __ESTREE_TEST__:PASS:
               "end": 256,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 259,
@@ -503,6 +538,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 267,
             "end": 292,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -513,12 +549,14 @@ __ESTREE_TEST__:PASS:
               "end": 275,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 278,
@@ -551,13 +589,16 @@ __ESTREE_TEST__:PASS:
                     "end": 286,
                     "name": "b"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -570,10 +611,13 @@ __ESTREE_TEST__:PASS:
         "end": 58,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

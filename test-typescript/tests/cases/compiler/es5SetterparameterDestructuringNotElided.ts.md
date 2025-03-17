@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 9,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ObjectExpression",
@@ -39,7 +40,8 @@ __ESTREE_TEST__:PASS:
                   "end": 25,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "set",
                 "method": false,
@@ -59,6 +61,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 62,
                         "end": 73,
+                        "directive": null,
                         "expression": {
                           "type": "UnaryExpression",
                           "start": 62,
@@ -69,7 +72,8 @@ __ESTREE_TEST__:PASS:
                             "end": 72,
                             "decorators": [],
                             "name": "start",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "operator": "void",
                           "prefix": true
@@ -79,6 +83,7 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 82,
                         "end": 91,
+                        "directive": null,
                         "expression": {
                           "type": "UnaryExpression",
                           "start": 82,
@@ -89,7 +94,8 @@ __ESTREE_TEST__:PASS:
                             "end": 90,
                             "decorators": [],
                             "name": "end",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "operator": "void",
                           "prefix": true
@@ -114,7 +120,8 @@ __ESTREE_TEST__:PASS:
                           "end": 32,
                           "decorators": [],
                           "name": "start",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "Identifier",
@@ -122,7 +129,8 @@ __ESTREE_TEST__:PASS:
                           "end": 37,
                           "decorators": [],
                           "name": "end",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "optional": false,
@@ -149,7 +157,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

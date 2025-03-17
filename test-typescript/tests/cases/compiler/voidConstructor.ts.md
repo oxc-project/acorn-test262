@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
                         "start": 19,
                         "end": 23
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }

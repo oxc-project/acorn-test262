@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 37,
             "end": 45,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 37,
@@ -37,6 +38,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 50,
             "end": 71,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 50,
@@ -55,6 +57,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 76,
             "end": 83,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 76,
@@ -73,6 +76,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 101,
             "end": 125,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 101,
@@ -98,6 +102,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 130,
             "end": 154,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 130,
@@ -130,9 +135,12 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "foo2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

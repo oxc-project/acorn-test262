@@ -24,10 +24,13 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "IHeapObjectProperty",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -43,6 +46,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 118,
             "end": 159,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -51,7 +55,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "hasOwnProperty",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -96,13 +101,15 @@ __ESTREE_TEST__:PASS:
                   "start": 152,
                   "end": 159
                 }
-              }
+              },
+              "typeParameters": null
             }
           },
           {
             "type": "TSIndexSignature",
             "start": 164,
             "end": 205,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -137,13 +144,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 184,
                   "end": 203,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 184,
                     "end": 203,
                     "decorators": [],
                     "name": "IHeapObjectProperty",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -159,10 +168,13 @@ __ESTREE_TEST__:PASS:
         "end": 54,
         "decorators": [],
         "name": "IDirectChildrenMap",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -180,7 +192,8 @@ __ESTREE_TEST__:PASS:
             "end": 229,
             "decorators": [],
             "name": "directChildrenMap",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -196,13 +209,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 233,
               "end": 251,
+              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 233,
                 "end": 251,
                 "decorators": [],
                 "name": "IDirectChildrenMap",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           }

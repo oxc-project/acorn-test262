@@ -53,6 +53,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 48,
             "end": 84,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -61,7 +62,8 @@ __ESTREE_TEST__:PASS:
               "end": 61,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -88,7 +90,8 @@ __ESTREE_TEST__:PASS:
                     "end": 69,
                     "decorators": [],
                     "name": "args",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "decorators": [],
                   "optional": false,
@@ -106,7 +109,8 @@ __ESTREE_TEST__:PASS:
                         "end": 74
                       }
                     }
-                  }
+                  },
+                  "value": null
                 }
               ],
               "returnType": {
@@ -118,7 +122,8 @@ __ESTREE_TEST__:PASS:
                   "start": 79,
                   "end": 83
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -131,10 +136,13 @@ __ESTREE_TEST__:PASS:
         "end": 41,
         "decorators": [],
         "name": "Base",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -152,7 +160,8 @@ __ESTREE_TEST__:PASS:
             "end": 100,
             "decorators": [],
             "name": "method",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "Literal",
@@ -170,6 +179,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 114,
       "end": 318,
+      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 115,
@@ -189,6 +199,7 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 164,
                   "end": 179,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 164,
@@ -211,16 +222,19 @@ __ESTREE_TEST__:PASS:
                         "end": 176,
                         "decorators": [],
                         "name": "method",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 188,
                   "end": 206,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 188,
@@ -245,13 +259,15 @@ __ESTREE_TEST__:PASS:
                         "value": "method"
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 215,
                   "end": 231,
+                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 215,
@@ -274,16 +290,19 @@ __ESTREE_TEST__:PASS:
                         "end": 227,
                         "decorators": [],
                         "name": "method",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
-                    "optional": false
+                    "optional": false,
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 241,
                   "end": 256,
+                  "directive": null,
                   "expression": {
                     "type": "TaggedTemplateExpression",
                     "start": 241,
@@ -323,15 +342,18 @@ __ESTREE_TEST__:PASS:
                         "end": 253,
                         "decorators": [],
                         "name": "method",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 265,
                   "end": 283,
+                  "directive": null,
                   "expression": {
                     "type": "TaggedTemplateExpression",
                     "start": 265,
@@ -372,13 +394,15 @@ __ESTREE_TEST__:PASS:
                         "raw": "\"method\"",
                         "value": "method"
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 },
                 {
                   "type": "ExpressionStatement",
                   "start": 292,
                   "end": 308,
+                  "directive": null,
                   "expression": {
                     "type": "TaggedTemplateExpression",
                     "start": 292,
@@ -418,9 +442,11 @@ __ESTREE_TEST__:PASS:
                         "end": 304,
                         "decorators": [],
                         "name": "method",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
-                    }
+                    },
+                    "typeArguments": null
                   }
                 }
               ]
@@ -439,7 +465,8 @@ __ESTREE_TEST__:PASS:
               "end": 119,
               "decorators": [],
               "name": "dec",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ],
@@ -449,7 +476,8 @@ __ESTREE_TEST__:PASS:
           "end": 127,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": {
@@ -458,8 +486,11 @@ __ESTREE_TEST__:PASS:
           "end": 140,
           "decorators": [],
           "name": "Base",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "superTypeArguments": null,
+        "typeParameters": null
       }
     }
   ],

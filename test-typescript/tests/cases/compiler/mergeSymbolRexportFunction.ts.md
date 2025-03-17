@@ -29,7 +29,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "Row",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "importKind": "value",
           "local": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
             "end": 11,
             "decorators": [],
             "name": "Row",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -47,6 +49,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 28,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 22,
@@ -58,9 +61,11 @@ __ESTREE_TEST__:PASS:
           "end": 25,
           "decorators": [],
           "name": "Row",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],
@@ -135,7 +140,8 @@ __ESTREE_TEST__:PASS:
                           "start": 51,
                           "end": 55
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 },
@@ -194,7 +200,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "Row",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "exportKind": "value",
           "local": {
@@ -203,7 +210,8 @@ __ESTREE_TEST__:PASS:
             "end": 16,
             "decorators": [],
             "name": "Row",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
       ]
@@ -230,6 +238,7 @@ __ESTREE_TEST__:PASS:
         "start": 7,
         "end": 36,
         "async": false,
+        "body": null,
         "declare": true,
         "expression": false,
         "generator": false,
@@ -239,7 +248,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "Row",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "params": [],
         "returnType": {
@@ -251,7 +261,8 @@ __ESTREE_TEST__:PASS:
             "start": 31,
             "end": 35
           }
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

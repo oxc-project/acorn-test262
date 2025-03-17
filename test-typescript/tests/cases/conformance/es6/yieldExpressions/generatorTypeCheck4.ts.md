@@ -25,7 +25,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "g1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
           "end": 18,
           "members": []
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

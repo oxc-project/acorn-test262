@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -53,8 +55,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -66,7 +70,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -98,6 +103,7 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 111,
                     "end": 128,
+                    "accessibility": null,
                     "computed": false,
                     "decorators": [],
                     "key": {
@@ -106,7 +112,8 @@ __ESTREE_TEST__:PASS:
                       "end": 122,
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -127,7 +134,9 @@ __ESTREE_TEST__:PASS:
                       "expression": false,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "returnType": null,
+                      "typeParameters": null
                     }
                   }
                 ]
@@ -140,10 +149,13 @@ __ESTREE_TEST__:PASS:
                 "end": 108,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "superTypeArguments": null,
+              "typeParameters": null
             },
             "exportKind": "value",
             "source": null,
@@ -187,10 +199,13 @@ __ESTREE_TEST__:PASS:
                         "end": 168,
                         "decorators": [],
                         "name": "Bar",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "implements": [],
-                      "superClass": null
+                      "superClass": null,
+                      "superTypeArguments": null,
+                      "typeParameters": null
                     },
                     "exportKind": "value",
                     "source": null,
@@ -206,7 +221,8 @@ __ESTREE_TEST__:PASS:
                 "end": 147,
                 "decorators": [],
                 "name": "S",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -224,7 +240,8 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -241,6 +258,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 240,
             "end": 253,
+            "directive": null,
             "expression": {
               "type": "SequenceExpression",
               "start": 240,
@@ -252,7 +270,8 @@ __ESTREE_TEST__:PASS:
                   "end": 243,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 {
                   "type": "JSXElement",
@@ -271,7 +290,8 @@ __ESTREE_TEST__:PASS:
                       "end": 249,
                       "name": "Foo"
                     },
-                    "selfClosing": true
+                    "selfClosing": true,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -295,6 +315,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 292,
                     "end": 305,
+                    "directive": null,
                     "expression": {
                       "type": "SequenceExpression",
                       "start": 292,
@@ -306,7 +327,8 @@ __ESTREE_TEST__:PASS:
                           "end": 295,
                           "decorators": [],
                           "name": "Foo",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "JSXElement",
@@ -325,7 +347,8 @@ __ESTREE_TEST__:PASS:
                               "end": 301,
                               "name": "Foo"
                             },
-                            "selfClosing": true
+                            "selfClosing": true,
+                            "typeArguments": null
                           }
                         }
                       ]
@@ -335,6 +358,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 325,
                     "end": 338,
+                    "directive": null,
                     "expression": {
                       "type": "SequenceExpression",
                       "start": 325,
@@ -346,7 +370,8 @@ __ESTREE_TEST__:PASS:
                           "end": 328,
                           "decorators": [],
                           "name": "Bar",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         {
                           "type": "JSXElement",
@@ -365,7 +390,8 @@ __ESTREE_TEST__:PASS:
                               "end": 334,
                               "name": "Bar"
                             },
-                            "selfClosing": true
+                            "selfClosing": true,
+                            "typeArguments": null
                           }
                         }
                       ]
@@ -381,7 +407,8 @@ __ESTREE_TEST__:PASS:
                 "end": 271,
                 "decorators": [],
                 "name": "S",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "module"
             },
@@ -399,7 +426,8 @@ __ESTREE_TEST__:PASS:
         "end": 221,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -416,6 +444,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 375,
             "end": 392,
+            "directive": null,
             "expression": {
               "type": "SequenceExpression",
               "start": 375,
@@ -432,7 +461,8 @@ __ESTREE_TEST__:PASS:
                     "end": 376,
                     "decorators": [],
                     "name": "S",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "property": {
@@ -441,7 +471,8 @@ __ESTREE_TEST__:PASS:
                     "end": 380,
                     "decorators": [],
                     "name": "Bar",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 },
                 {
@@ -472,7 +503,8 @@ __ESTREE_TEST__:PASS:
                         "name": "Bar"
                       }
                     },
-                    "selfClosing": true
+                    "selfClosing": true,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -488,7 +520,8 @@ __ESTREE_TEST__:PASS:
         "end": 354,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -517,7 +550,8 @@ __ESTREE_TEST__:PASS:
                   "end": 413,
                   "decorators": [],
                   "name": "M",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "Literal",
@@ -535,6 +569,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 439,
             "end": 452,
+            "directive": null,
             "expression": {
               "type": "SequenceExpression",
               "start": 439,
@@ -546,7 +581,8 @@ __ESTREE_TEST__:PASS:
                   "end": 442,
                   "decorators": [],
                   "name": "Foo",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 {
                   "type": "JSXElement",
@@ -565,7 +601,8 @@ __ESTREE_TEST__:PASS:
                       "end": 448,
                       "name": "Foo"
                     },
-                    "selfClosing": true
+                    "selfClosing": true,
+                    "typeArguments": null
                   }
                 }
               ]
@@ -581,7 +618,8 @@ __ESTREE_TEST__:PASS:
         "end": 404,
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

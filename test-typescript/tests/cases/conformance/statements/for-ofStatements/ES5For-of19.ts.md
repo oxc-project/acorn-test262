@@ -19,13 +19,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 24,
             "end": 26,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 24,
               "end": 25,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           },
           {
@@ -52,13 +54,15 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 90,
                         "end": 92,
+                        "directive": null,
                         "expression": {
                           "type": "Identifier",
                           "start": 90,
                           "end": 91,
                           "decorators": [],
                           "name": "v",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     ]
@@ -79,7 +83,8 @@ __ESTREE_TEST__:PASS:
                           "end": 68,
                           "decorators": [],
                           "name": "v",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": null
                       }
@@ -105,9 +110,12 @@ __ESTREE_TEST__:PASS:
               "end": 43,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
-            "params": []
+            "params": [],
+            "returnType": null,
+            "typeParameters": null
           }
         ]
       },
@@ -127,7 +135,8 @@ __ESTREE_TEST__:PASS:
               "end": 10,
               "decorators": [],
               "name": "v",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "init": null
           }

@@ -45,7 +45,8 @@ __ESTREE_TEST__:PASS:
                         "start": 22,
                         "end": 25
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -67,7 +68,8 @@ __ESTREE_TEST__:PASS:
         "end": 46,
         "decorators": [],
         "name": "server",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       }
     }
   ],
@@ -92,7 +94,8 @@ __ESTREE_TEST__:PASS:
         "end": 69,
         "decorators": [],
         "name": "connect",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "importKind": "value",
       "moduleReference": {
@@ -112,6 +115,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 116,
       "end": 126,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 116,
@@ -123,9 +127,11 @@ __ESTREE_TEST__:PASS:
           "end": 123,
           "decorators": [],
           "name": "connect",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

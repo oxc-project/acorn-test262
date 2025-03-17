@@ -33,7 +33,8 @@ __ESTREE_TEST__:PASS:
                 "end": 68,
                 "decorators": [],
                 "name": "injectRequestService",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -53,6 +54,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 104,
                       "end": 152,
+                      "directive": null,
                       "expression": {
                         "type": "CallExpression",
                         "start": 104,
@@ -69,7 +71,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 149,
                                 "decorators": [],
                                 "name": "service",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             ],
                             "callee": {
@@ -78,8 +81,10 @@ __ESTREE_TEST__:PASS:
                               "end": 141,
                               "decorators": [],
                               "name": "X",
-                              "optional": false
-                            }
+                              "optional": false,
+                              "typeAnnotation": null
+                            },
+                            "typeArguments": null
                           }
                         ],
                         "callee": {
@@ -99,7 +104,8 @@ __ESTREE_TEST__:PASS:
                             "end": 127,
                             "decorators": [],
                             "name": "injectBuildService",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "optional": false,
@@ -139,18 +145,21 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 90,
                         "end": 92,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 90,
                           "end": 92,
                           "decorators": [],
                           "name": "P0",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
                 ],
+                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 68,
@@ -161,6 +170,8 @@ __ESTREE_TEST__:PASS:
                       "start": 69,
                       "end": 71,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -168,7 +179,8 @@ __ESTREE_TEST__:PASS:
                         "end": 71,
                         "decorators": [],
                         "name": "P0",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     },
@@ -177,6 +189,8 @@ __ESTREE_TEST__:PASS:
                       "start": 73,
                       "end": 75,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -184,7 +198,8 @@ __ESTREE_TEST__:PASS:
                         "end": 75,
                         "decorators": [],
                         "name": "P1",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     },
@@ -193,6 +208,8 @@ __ESTREE_TEST__:PASS:
                       "start": 77,
                       "end": 79,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -200,7 +217,8 @@ __ESTREE_TEST__:PASS:
                         "end": 79,
                         "decorators": [],
                         "name": "P2",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }
@@ -221,7 +239,8 @@ __ESTREE_TEST__:PASS:
                 "end": 188,
                 "decorators": [],
                 "name": "injectBuildService",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "method",
               "optional": false,
@@ -258,18 +277,21 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 202,
                         "end": 204,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 202,
                           "end": 204,
                           "decorators": [],
                           "name": "P0",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
                 ],
+                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 188,
@@ -280,6 +302,8 @@ __ESTREE_TEST__:PASS:
                       "start": 189,
                       "end": 191,
                       "const": false,
+                      "constraint": null,
+                      "default": null,
                       "in": false,
                       "name": {
                         "type": "Identifier",
@@ -287,7 +311,8 @@ __ESTREE_TEST__:PASS:
                         "end": 191,
                         "decorators": [],
                         "name": "P0",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       },
                       "out": false
                     }
@@ -305,10 +330,13 @@ __ESTREE_TEST__:PASS:
           "end": 34,
           "decorators": [],
           "name": "BuildWorkspaceService",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

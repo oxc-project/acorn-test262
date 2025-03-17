@@ -10,6 +10,7 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 43,
       "async": false,
+      "body": null,
       "declare": true,
       "expression": false,
       "generator": false,
@@ -19,7 +20,8 @@ __ESTREE_TEST__:PASS:
         "end": 25,
         "decorators": [],
         "name": "parseInt",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [
         {
@@ -50,12 +52,14 @@ __ESTREE_TEST__:PASS:
           "start": 36,
           "end": 42
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 59,
+      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 45,
@@ -75,9 +79,11 @@ __ESTREE_TEST__:PASS:
           "end": 53,
           "decorators": [],
           "name": "parseInt",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
-        "optional": false
+        "optional": false,
+        "typeArguments": null
       }
     }
   ],

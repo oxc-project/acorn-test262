@@ -77,7 +77,8 @@ __ESTREE_TEST__:PASS:
                     "start": 697,
                     "end": 703
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           },
@@ -123,8 +124,10 @@ __ESTREE_TEST__:PASS:
                       "end": 721,
                       "decorators": [],
                       "name": "a0",
-                      "optional": false
-                    }
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSFunctionType",
@@ -177,7 +180,8 @@ __ESTREE_TEST__:PASS:
                         "start": 751,
                         "end": 757
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 ]
               }
@@ -193,6 +197,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 760,
       "end": 795,
+      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 760,
@@ -204,7 +209,8 @@ __ESTREE_TEST__:PASS:
           "end": 762,
           "decorators": [],
           "name": "a1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "right": {
           "type": "ArrowFunctionExpression",
@@ -240,7 +246,8 @@ __ESTREE_TEST__:PASS:
               "end": 769,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             {
               "type": "Identifier",
@@ -248,9 +255,12 @@ __ESTREE_TEST__:PASS:
               "end": 774,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
-          ]
+          ],
+          "returnType": null,
+          "typeParameters": null
         }
       }
     }

@@ -43,6 +43,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 21,
       "end": 27,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 21,
@@ -64,6 +65,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 28,
       "end": 85,
+      "directive": null,
       "expression": {
         "type": "JSXFragment",
         "start": 28,
@@ -104,7 +106,8 @@ __ESTREE_TEST__:PASS:
                 "end": 35,
                 "name": "span"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           },
           {
@@ -147,7 +150,8 @@ __ESTREE_TEST__:PASS:
                     "end": 51,
                     "name": "span"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               },
               {
@@ -185,7 +189,8 @@ __ESTREE_TEST__:PASS:
                     "end": 67,
                     "name": "span"
                   },
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "typeArguments": null
                 }
               }
             ],

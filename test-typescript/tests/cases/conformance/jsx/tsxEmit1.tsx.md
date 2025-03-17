@@ -32,8 +32,10 @@ __ESTREE_TEST__:PASS:
               "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           },
           {
             "type": "TSInterfaceDeclaration",
@@ -48,6 +50,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSIndexSignature",
                   "start": 77,
                   "end": 94,
+                  "accessibility": null,
                   "parameters": [
                     {
                       "type": "Identifier",
@@ -91,8 +94,10 @@ __ESTREE_TEST__:PASS:
               "end": 72,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
-            }
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "typeParameters": null
           }
         ]
       },
@@ -104,7 +109,8 @@ __ESTREE_TEST__:PASS:
         "end": 18,
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     },
@@ -124,7 +130,8 @@ __ESTREE_TEST__:PASS:
             "end": 106,
             "decorators": [],
             "name": "p",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": null
         }
@@ -148,7 +155,8 @@ __ESTREE_TEST__:PASS:
             "end": 123,
             "decorators": [],
             "name": "selfClosed1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -167,7 +175,8 @@ __ESTREE_TEST__:PASS:
                 "end": 130,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -191,7 +200,8 @@ __ESTREE_TEST__:PASS:
             "end": 150,
             "decorators": [],
             "name": "selfClosed2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -229,7 +239,8 @@ __ESTREE_TEST__:PASS:
                 "end": 157,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -253,7 +264,8 @@ __ESTREE_TEST__:PASS:
             "end": 183,
             "decorators": [],
             "name": "selfClosed3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -291,7 +303,8 @@ __ESTREE_TEST__:PASS:
                 "end": 190,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -315,7 +328,8 @@ __ESTREE_TEST__:PASS:
             "end": 216,
             "decorators": [],
             "name": "selfClosed4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -371,7 +385,8 @@ __ESTREE_TEST__:PASS:
                 "end": 223,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -395,7 +410,8 @@ __ESTREE_TEST__:PASS:
             "end": 255,
             "decorators": [],
             "name": "selfClosed5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -456,7 +472,8 @@ __ESTREE_TEST__:PASS:
                 "end": 262,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -480,7 +497,8 @@ __ESTREE_TEST__:PASS:
             "end": 294,
             "decorators": [],
             "name": "selfClosed6",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -541,7 +559,8 @@ __ESTREE_TEST__:PASS:
                 "end": 301,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -565,7 +584,8 @@ __ESTREE_TEST__:PASS:
             "end": 335,
             "decorators": [],
             "name": "selfClosed7",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -598,7 +618,8 @@ __ESTREE_TEST__:PASS:
                       "end": 347,
                       "decorators": [],
                       "name": "p",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   }
                 },
@@ -627,7 +648,8 @@ __ESTREE_TEST__:PASS:
                 "end": 342,
                 "name": "div"
               },
-              "selfClosing": true
+              "selfClosing": true,
+              "typeArguments": null
             }
           }
         }
@@ -651,7 +673,8 @@ __ESTREE_TEST__:PASS:
             "end": 375,
             "decorators": [],
             "name": "openClosed1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -680,7 +703,8 @@ __ESTREE_TEST__:PASS:
                 "end": 382,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -704,7 +728,8 @@ __ESTREE_TEST__:PASS:
             "end": 406,
             "decorators": [],
             "name": "openClosed2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -760,7 +785,8 @@ __ESTREE_TEST__:PASS:
                 "end": 413,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -784,7 +810,8 @@ __ESTREE_TEST__:PASS:
             "end": 446,
             "decorators": [],
             "name": "openClosed3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -801,7 +828,8 @@ __ESTREE_TEST__:PASS:
                   "end": 462,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ],
@@ -846,7 +874,8 @@ __ESTREE_TEST__:PASS:
                 "end": 453,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -870,7 +899,8 @@ __ESTREE_TEST__:PASS:
             "end": 486,
             "decorators": [],
             "name": "openClosed4",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -892,7 +922,8 @@ __ESTREE_TEST__:PASS:
                     "end": 502,
                     "decorators": [],
                     "name": "p",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -900,7 +931,8 @@ __ESTREE_TEST__:PASS:
                     "end": 506,
                     "decorators": [],
                     "name": "p",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -946,7 +978,8 @@ __ESTREE_TEST__:PASS:
                 "end": 493,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -970,7 +1003,8 @@ __ESTREE_TEST__:PASS:
             "end": 530,
             "decorators": [],
             "name": "openClosed5",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -992,7 +1026,8 @@ __ESTREE_TEST__:PASS:
                     "end": 546,
                     "decorators": [],
                     "name": "p",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "right": {
                     "type": "Identifier",
@@ -1000,7 +1035,8 @@ __ESTREE_TEST__:PASS:
                     "end": 550,
                     "decorators": [],
                     "name": "p",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -1046,7 +1082,8 @@ __ESTREE_TEST__:PASS:
                 "end": 537,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -1068,6 +1105,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 579,
             "end": 845,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -1076,7 +1114,8 @@ __ESTREE_TEST__:PASS:
               "end": 580,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -1108,7 +1147,8 @@ __ESTREE_TEST__:PASS:
                           "end": 600,
                           "decorators": [],
                           "name": "rewrites1",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1132,7 +1172,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": true,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           ],
@@ -1158,7 +1200,8 @@ __ESTREE_TEST__:PASS:
                               "end": 607,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1182,7 +1225,8 @@ __ESTREE_TEST__:PASS:
                           "end": 643,
                           "decorators": [],
                           "name": "rewrites2",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1204,7 +1248,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 654,
                                     "decorators": [],
                                     "name": "p",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   },
                                   {
                                     "type": "SpreadElement",
@@ -1216,7 +1261,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 660,
                                       "decorators": [],
                                       "name": "p",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   {
@@ -1225,7 +1271,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 663,
                                     "decorators": [],
                                     "name": "p",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 ]
                               }
@@ -1253,7 +1300,8 @@ __ESTREE_TEST__:PASS:
                               "end": 650,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1277,7 +1325,8 @@ __ESTREE_TEST__:PASS:
                           "end": 688,
                           "decorators": [],
                           "name": "rewrites3",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1304,7 +1353,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 699,
                                       "decorators": [],
                                       "name": "p",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     },
                                     "kind": "init",
                                     "method": false,
@@ -1316,7 +1366,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 699,
                                       "decorators": [],
                                       "name": "p",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 ]
@@ -1345,7 +1396,8 @@ __ESTREE_TEST__:PASS:
                               "end": 695,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1369,7 +1421,8 @@ __ESTREE_TEST__:PASS:
                           "end": 725,
                           "decorators": [],
                           "name": "rewrites4",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1419,7 +1472,9 @@ __ESTREE_TEST__:PASS:
                                     "expression": true,
                                     "generator": false,
                                     "id": null,
-                                    "params": []
+                                    "params": [],
+                                    "returnType": null,
+                                    "typeParameters": null
                                   }
                                 }
                               }
@@ -1430,7 +1485,8 @@ __ESTREE_TEST__:PASS:
                               "end": 732,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1454,7 +1510,8 @@ __ESTREE_TEST__:PASS:
                           "end": 771,
                           "decorators": [],
                           "name": "rewrites5",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1502,7 +1559,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 784,
                                         "decorators": [],
                                         "name": "p",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       },
                                       {
                                         "type": "SpreadElement",
@@ -1514,7 +1572,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 790,
                                           "decorators": [],
                                           "name": "p",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       },
                                       {
@@ -1523,7 +1582,8 @@ __ESTREE_TEST__:PASS:
                                         "end": 793,
                                         "decorators": [],
                                         "name": "p",
-                                        "optional": false
+                                        "optional": false,
+                                        "typeAnnotation": null
                                       }
                                     ]
                                   }
@@ -1536,7 +1596,8 @@ __ESTREE_TEST__:PASS:
                               "end": 778,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1560,7 +1621,8 @@ __ESTREE_TEST__:PASS:
                           "end": 819,
                           "decorators": [],
                           "name": "rewrites6",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "init": {
                           "type": "JSXElement",
@@ -1613,7 +1675,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 832,
                                           "decorators": [],
                                           "name": "p",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         },
                                         "kind": "init",
                                         "method": false,
@@ -1625,7 +1688,8 @@ __ESTREE_TEST__:PASS:
                                           "end": 832,
                                           "decorators": [],
                                           "name": "p",
-                                          "optional": false
+                                          "optional": false,
+                                          "typeAnnotation": null
                                         }
                                       }
                                     ]
@@ -1639,7 +1703,8 @@ __ESTREE_TEST__:PASS:
                               "end": 826,
                               "name": "div"
                             },
-                            "selfClosing": false
+                            "selfClosing": false,
+                            "typeArguments": null
                           }
                         }
                       }
@@ -1653,7 +1718,9 @@ __ESTREE_TEST__:PASS:
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -1666,10 +1733,13 @@ __ESTREE_TEST__:PASS:
         "end": 575,
         "decorators": [],
         "name": "SomeClass",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -1687,7 +1757,8 @@ __ESTREE_TEST__:PASS:
             "end": 864,
             "decorators": [],
             "name": "whitespace1",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -1724,7 +1795,8 @@ __ESTREE_TEST__:PASS:
                 "end": 871,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -1748,7 +1820,8 @@ __ESTREE_TEST__:PASS:
             "end": 901,
             "decorators": [],
             "name": "whitespace2",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -1772,7 +1845,8 @@ __ESTREE_TEST__:PASS:
                   "end": 913,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -1805,7 +1879,8 @@ __ESTREE_TEST__:PASS:
                 "end": 908,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }
@@ -1829,7 +1904,8 @@ __ESTREE_TEST__:PASS:
             "end": 941,
             "decorators": [],
             "name": "whitespace3",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "JSXElement",
@@ -1853,7 +1929,8 @@ __ESTREE_TEST__:PASS:
                   "end": 960,
                   "decorators": [],
                   "name": "p",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -1886,7 +1963,8 @@ __ESTREE_TEST__:PASS:
                 "end": 948,
                 "name": "div"
               },
-              "selfClosing": false
+              "selfClosing": false,
+              "typeArguments": null
             }
           }
         }

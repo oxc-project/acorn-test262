@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 26,
       "end": 77,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 26,
@@ -36,13 +37,16 @@ __ESTREE_TEST__:PASS:
         "expression": false,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 144,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 79,
@@ -70,13 +74,16 @@ __ESTREE_TEST__:PASS:
         "expression": false,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 228,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 146,
@@ -104,13 +111,16 @@ __ESTREE_TEST__:PASS:
         "expression": false,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 230,
       "end": 326,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 230,
@@ -138,7 +148,9 @@ __ESTREE_TEST__:PASS:
         "expression": false,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "returnType": null,
+        "typeParameters": null
       }
     }
   ],

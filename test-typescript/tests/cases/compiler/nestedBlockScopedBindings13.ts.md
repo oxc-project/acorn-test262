@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
                   "end": 26,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -42,6 +43,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 32,
             "end": 40,
+            "directive": null,
             "expression": {
               "type": "ArrowFunctionExpression",
               "start": 32,
@@ -53,12 +55,15 @@ __ESTREE_TEST__:PASS:
                 "end": 39,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -98,7 +103,8 @@ __ESTREE_TEST__:PASS:
                   "end": 70,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": null
               }
@@ -110,6 +116,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 76,
             "end": 82,
+            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 76,
@@ -121,7 +128,8 @@ __ESTREE_TEST__:PASS:
                 "end": 77,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "right": {
                 "type": "Literal",

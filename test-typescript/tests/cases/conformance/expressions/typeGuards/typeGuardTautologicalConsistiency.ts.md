@@ -75,13 +75,15 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 134,
                   "end": 149,
+                  "directive": null,
                   "expression": {
                     "type": "Identifier",
                     "start": 134,
                     "end": 148,
                     "decorators": [],
                     "name": "stringOrNumber",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ]
@@ -101,7 +103,8 @@ __ESTREE_TEST__:PASS:
                   "end": 109,
                   "decorators": [],
                   "name": "stringOrNumber",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "operator": "typeof",
                 "prefix": true
@@ -132,7 +135,8 @@ __ESTREE_TEST__:PASS:
             "end": 63,
             "decorators": [],
             "name": "stringOrNumber",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "operator": "typeof",
           "prefix": true
@@ -160,13 +164,15 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 243,
             "end": 258,
+            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 243,
               "end": 257,
               "decorators": [],
               "name": "stringOrNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             }
           }
         ]
@@ -191,7 +197,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "stringOrNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "typeof",
             "prefix": true
@@ -219,7 +226,8 @@ __ESTREE_TEST__:PASS:
               "end": 222,
               "decorators": [],
               "name": "stringOrNumber",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "operator": "typeof",
             "prefix": true

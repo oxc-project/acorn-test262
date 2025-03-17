@@ -28,6 +28,7 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 41,
                   "end": 56,
+                  "accessibility": null,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
@@ -38,7 +39,8 @@ __ESTREE_TEST__:PASS:
                     "end": 47,
                     "decorators": [],
                     "name": "myProp",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "optional": false,
                   "override": false,
@@ -66,10 +68,13 @@ __ESTREE_TEST__:PASS:
               "end": 30,
               "decorators": [],
               "name": "Mocked",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           },
           {
             "type": "ClassDeclaration",
@@ -85,6 +90,7 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 91,
                   "end": 284,
+                  "accessibility": null,
                   "computed": false,
                   "decorators": [],
                   "key": {
@@ -93,7 +99,8 @@ __ESTREE_TEST__:PASS:
                     "end": 105,
                     "decorators": [],
                     "name": "willThrowError",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "kind": "method",
                   "optional": false,
@@ -113,6 +120,7 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 122,
                           "end": 274,
+                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 122,
@@ -124,7 +132,8 @@ __ESTREE_TEST__:PASS:
                               "end": 128,
                               "decorators": [],
                               "name": "Mocked",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             },
                             "right": {
                               "type": "LogicalExpression",
@@ -137,7 +146,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 137,
                                 "decorators": [],
                                 "name": "Mocked",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "right": {
                                 "type": "FunctionExpression",
@@ -169,7 +179,8 @@ __ESTREE_TEST__:PASS:
                                               "end": 248,
                                               "decorators": [],
                                               "name": "myProp",
-                                              "optional": false
+                                              "optional": false,
+                                              "typeAnnotation": null
                                             },
                                             "kind": "init",
                                             "method": false,
@@ -192,7 +203,9 @@ __ESTREE_TEST__:PASS:
                                 "expression": false,
                                 "generator": false,
                                 "id": null,
-                                "params": []
+                                "params": [],
+                                "returnType": null,
+                                "typeParameters": null
                               }
                             }
                           }
@@ -203,7 +216,9 @@ __ESTREE_TEST__:PASS:
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "returnType": null,
+                    "typeParameters": null
                   }
                 }
               ]
@@ -216,10 +231,13 @@ __ESTREE_TEST__:PASS:
               "end": 80,
               "decorators": [],
               "name": "Tester",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "superTypeArguments": null,
+            "typeParameters": null
           }
         ]
       },
@@ -231,7 +249,8 @@ __ESTREE_TEST__:PASS:
         "end": 11,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "kind": "module"
     }

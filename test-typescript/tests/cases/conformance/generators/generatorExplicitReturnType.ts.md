@@ -19,6 +19,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 57,
             "end": 63,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 57,
@@ -31,6 +32,7 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 77,
             "end": 87,
+            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 77,
@@ -114,7 +116,8 @@ __ESTREE_TEST__:PASS:
         "end": 12,
         "decorators": [],
         "name": "g1",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -153,10 +156,12 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "decorators": [],
             "name": "Generator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -184,7 +189,8 @@ __ESTREE_TEST__:PASS:
                   "end": 228,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "YieldExpression",
@@ -227,7 +233,8 @@ __ESTREE_TEST__:PASS:
         "end": 176,
         "decorators": [],
         "name": "g2",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -266,10 +273,12 @@ __ESTREE_TEST__:PASS:
             "end": 189,
             "decorators": [],
             "name": "Generator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -324,7 +333,8 @@ __ESTREE_TEST__:PASS:
                   "end": 294,
                   "decorators": [],
                   "name": "Generator",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -383,7 +393,8 @@ __ESTREE_TEST__:PASS:
                     "end": 412,
                     "decorators": [],
                     "name": "generator",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "delegate": true
                 }
@@ -415,7 +426,8 @@ __ESTREE_TEST__:PASS:
         "end": 333,
         "decorators": [],
         "name": "g3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -454,10 +466,12 @@ __ESTREE_TEST__:PASS:
             "end": 346,
             "decorators": [],
             "name": "Generator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "FunctionDeclaration",
@@ -485,7 +499,8 @@ __ESTREE_TEST__:PASS:
                   "end": 507,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "init": {
                   "type": "YieldExpression",
@@ -497,7 +512,8 @@ __ESTREE_TEST__:PASS:
                     "end": 526,
                     "decorators": [],
                     "name": "generator",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "delegate": true
                 }
@@ -529,7 +545,8 @@ __ESTREE_TEST__:PASS:
         "end": 455,
         "decorators": [],
         "name": "g4",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "params": [],
       "returnType": {
@@ -568,10 +585,12 @@ __ESTREE_TEST__:PASS:
             "end": 468,
             "decorators": [],
             "name": "Generator",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           }
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

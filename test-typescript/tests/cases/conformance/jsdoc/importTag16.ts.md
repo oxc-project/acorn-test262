@@ -27,8 +27,10 @@ __ESTREE_TEST__:PASS:
           "end": 28,
           "decorators": [],
           "name": "Foo",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "value"
     },
@@ -55,8 +57,10 @@ __ESTREE_TEST__:PASS:
           "end": 50,
           "decorators": [],
           "name": "I",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

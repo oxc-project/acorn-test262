@@ -54,7 +54,8 @@ __ESTREE_TEST__:PASS:
                     "end": 53,
                     "decorators": [],
                     "name": "Modifier",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
@@ -81,13 +82,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 61,
                                 "end": 62,
+                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 61,
                                   "end": 62,
                                   "decorators": [],
                                   "name": "T",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             }
@@ -101,13 +104,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 67,
                             "end": 68,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 67,
                               "end": 68,
                               "decorators": [],
                               "name": "T",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         },
@@ -121,6 +126,8 @@ __ESTREE_TEST__:PASS:
                               "start": 55,
                               "end": 56,
                               "const": false,
+                              "constraint": null,
+                              "default": null,
                               "in": false,
                               "name": {
                                 "type": "Identifier",
@@ -128,7 +135,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 56,
                                 "decorators": [],
                                 "name": "T",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "out": false
                             }

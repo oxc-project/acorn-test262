@@ -15,6 +15,7 @@ __ESTREE_TEST__:PASS:
           "start": 6,
           "end": 21,
           "async": false,
+          "body": null,
           "declare": false,
           "expression": false,
           "generator": false,
@@ -24,9 +25,12 @@ __ESTREE_TEST__:PASS:
             "end": 18,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         },
         {
           "type": "FunctionDeclaration",
@@ -48,9 +52,12 @@ __ESTREE_TEST__:PASS:
             "end": 38,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
-          "params": []
+          "params": [],
+          "returnType": null,
+          "typeParameters": null
         }
       ]
     }

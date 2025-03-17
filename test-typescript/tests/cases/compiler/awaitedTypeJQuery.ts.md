@@ -27,7 +27,8 @@ __ESTREE_TEST__:PASS:
             "end": 70,
             "decorators": [],
             "name": "PromiseLike",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -38,13 +39,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 71,
                 "end": 72,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 71,
                   "end": 72,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             ]
@@ -57,7 +60,8 @@ __ESTREE_TEST__:PASS:
         "end": 47,
         "decorators": [],
         "name": "Thenable",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -69,6 +73,8 @@ __ESTREE_TEST__:PASS:
             "start": 48,
             "end": 49,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -76,7 +82,8 @@ __ESTREE_TEST__:PASS:
               "end": 49,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -96,6 +103,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 192,
             "end": 1611,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -103,7 +111,8 @@ __ESTREE_TEST__:PASS:
               "end": 196,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -139,13 +148,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 782,
                             "end": 784,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 782,
                               "end": 784,
                               "decorators": [],
                               "name": "TR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -165,13 +176,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 789,
                             "end": 791,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 789,
                               "end": 791,
                               "decorators": [],
                               "name": "UR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -191,13 +204,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 796,
                             "end": 798,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 796,
                               "end": 798,
                               "decorators": [],
                               "name": "VR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -212,7 +227,8 @@ __ESTREE_TEST__:PASS:
                           "end": 804,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -228,17 +244,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 806,
                               "end": 808,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 806,
                                 "end": 808,
                                 "decorators": [],
                                 "name": "SR",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -263,156 +282,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 827,
                                   "end": 830,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 827,
                                     "end": 830,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 832,
                                   "end": 835,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 832,
                                     "end": 835,
                                     "decorators": [],
                                     "name": "AJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 837,
                                   "end": 840,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 837,
                                     "end": 840,
                                     "decorators": [],
                                     "name": "AND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 858,
                                   "end": 861,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 858,
                                     "end": 861,
                                     "decorators": [],
                                     "name": "BRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 863,
                                   "end": 866,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 863,
                                     "end": 866,
                                     "decorators": [],
                                     "name": "BJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 868,
                                   "end": 871,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 868,
                                     "end": 871,
                                     "decorators": [],
                                     "name": "BND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 889,
                                   "end": 892,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 889,
                                     "end": 892,
                                     "decorators": [],
                                     "name": "CRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 894,
                                   "end": 897,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 894,
                                     "end": 897,
                                     "decorators": [],
                                     "name": "CJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 899,
                                   "end": 902,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 899,
                                     "end": 902,
                                     "decorators": [],
                                     "name": "CND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 920,
                                   "end": 923,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 920,
                                     "end": 923,
                                     "decorators": [],
                                     "name": "RRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 925,
                                   "end": 928,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 925,
                                     "end": 928,
                                     "decorators": [],
                                     "name": "RJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 930,
                                   "end": 933,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 930,
                                     "end": 933,
                                     "decorators": [],
                                     "name": "RND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -423,7 +466,8 @@ __ESTREE_TEST__:PASS:
                               "end": 826,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -439,13 +483,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 946,
                                   "end": 949,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 946,
                                     "end": 949,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -456,25 +502,29 @@ __ESTREE_TEST__:PASS:
                               "end": 945,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 953,
                             "end": 956,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 953,
                               "end": 956,
                               "decorators": [],
                               "name": "ARD",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -509,13 +559,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 986,
                             "end": 988,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 986,
                               "end": 988,
                               "decorators": [],
                               "name": "TJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -535,13 +587,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 993,
                             "end": 995,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 993,
                               "end": 995,
                               "decorators": [],
                               "name": "UJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -561,13 +615,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1000,
                             "end": 1002,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1000,
                               "end": 1002,
                               "decorators": [],
                               "name": "VJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -582,7 +638,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1008,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -598,17 +655,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1010,
                               "end": 1012,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1010,
                                 "end": 1012,
                                 "decorators": [],
                                 "name": "SJ",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -633,156 +693,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1031,
                                   "end": 1034,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1031,
                                     "end": 1034,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1036,
                                   "end": 1039,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1036,
                                     "end": 1039,
                                     "decorators": [],
                                     "name": "AJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1041,
                                   "end": 1044,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1041,
                                     "end": 1044,
                                     "decorators": [],
                                     "name": "ANF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1062,
                                   "end": 1065,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1062,
                                     "end": 1065,
                                     "decorators": [],
                                     "name": "BRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1067,
                                   "end": 1070,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1067,
                                     "end": 1070,
                                     "decorators": [],
                                     "name": "BJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1072,
                                   "end": 1075,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1072,
                                     "end": 1075,
                                     "decorators": [],
                                     "name": "BNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1093,
                                   "end": 1096,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1093,
                                     "end": 1096,
                                     "decorators": [],
                                     "name": "CRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1098,
                                   "end": 1101,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1098,
                                     "end": 1101,
                                     "decorators": [],
                                     "name": "CJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1103,
                                   "end": 1106,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1103,
                                     "end": 1106,
                                     "decorators": [],
                                     "name": "CNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1124,
                                   "end": 1127,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1124,
                                     "end": 1127,
                                     "decorators": [],
                                     "name": "RRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1129,
                                   "end": 1132,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1129,
                                     "end": 1132,
                                     "decorators": [],
                                     "name": "RJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1134,
                                   "end": 1137,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1134,
                                     "end": 1137,
                                     "decorators": [],
                                     "name": "RNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -793,7 +877,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1030,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -809,13 +894,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1150,
                                   "end": 1153,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1150,
                                     "end": 1153,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -826,25 +913,29 @@ __ESTREE_TEST__:PASS:
                               "end": 1149,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1157,
                             "end": 1160,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1157,
                               "end": 1160,
                               "decorators": [],
                               "name": "ARF",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -879,13 +970,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1194,
                             "end": 1196,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1194,
                               "end": 1196,
                               "decorators": [],
                               "name": "TN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -905,13 +998,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1201,
                             "end": 1203,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1201,
                               "end": 1203,
                               "decorators": [],
                               "name": "UN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -931,13 +1026,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 1208,
                             "end": 1210,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1208,
                               "end": 1210,
                               "decorators": [],
                               "name": "VN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -952,7 +1049,8 @@ __ESTREE_TEST__:PASS:
                           "end": 1216,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -968,17 +1066,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 1218,
                               "end": 1220,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 1218,
                                 "end": 1220,
                                 "decorators": [],
                                 "name": "SN",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -1003,156 +1104,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1239,
                                   "end": 1242,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1239,
                                     "end": 1242,
                                     "decorators": [],
                                     "name": "ARP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1244,
                                   "end": 1247,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1244,
                                     "end": 1247,
                                     "decorators": [],
                                     "name": "AJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1249,
                                   "end": 1252,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1249,
                                     "end": 1252,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1270,
                                   "end": 1273,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1270,
                                     "end": 1273,
                                     "decorators": [],
                                     "name": "BRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1275,
                                   "end": 1278,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1275,
                                     "end": 1278,
                                     "decorators": [],
                                     "name": "BJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1280,
                                   "end": 1283,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1280,
                                     "end": 1283,
                                     "decorators": [],
                                     "name": "BNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1301,
                                   "end": 1304,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1301,
                                     "end": 1304,
                                     "decorators": [],
                                     "name": "CRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1306,
                                   "end": 1309,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1306,
                                     "end": 1309,
                                     "decorators": [],
                                     "name": "CJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1311,
                                   "end": 1314,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1311,
                                     "end": 1314,
                                     "decorators": [],
                                     "name": "CNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1332,
                                   "end": 1335,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1332,
                                     "end": 1335,
                                     "decorators": [],
                                     "name": "RRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1337,
                                   "end": 1340,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1337,
                                     "end": 1340,
                                     "decorators": [],
                                     "name": "RJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 1342,
                                   "end": 1345,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1342,
                                     "end": 1345,
                                     "decorators": [],
                                     "name": "RNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -1163,7 +1288,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1238,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -1179,13 +1305,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 1358,
                                   "end": 1361,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 1358,
                                     "end": 1361,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -1196,25 +1324,29 @@ __ESTREE_TEST__:PASS:
                               "end": 1357,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 1365,
                             "end": 1368,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 1365,
                               "end": 1368,
                               "decorators": [],
                               "name": "ANP",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
@@ -1242,39 +1374,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1383,
                           "end": 1386,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1383,
                             "end": 1386,
                             "decorators": [],
                             "name": "ARD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1389,
                           "end": 1392,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1389,
                             "end": 1392,
                             "decorators": [],
                             "name": "ARF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1395,
                           "end": 1398,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1395,
                             "end": 1398,
                             "decorators": [],
                             "name": "ARP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1288,39 +1426,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1400,
                           "end": 1403,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1400,
                             "end": 1403,
                             "decorators": [],
                             "name": "AJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1406,
                           "end": 1409,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1406,
                             "end": 1409,
                             "decorators": [],
                             "name": "AJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1412,
                           "end": 1415,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1412,
                             "end": 1415,
                             "decorators": [],
                             "name": "AJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1334,39 +1478,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1417,
                           "end": 1420,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1417,
                             "end": 1420,
                             "decorators": [],
                             "name": "AND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1423,
                           "end": 1426,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1423,
                             "end": 1426,
                             "decorators": [],
                             "name": "ANF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1429,
                           "end": 1432,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1429,
                             "end": 1432,
                             "decorators": [],
                             "name": "ANP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1380,39 +1530,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1442,
                           "end": 1445,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1442,
                             "end": 1445,
                             "decorators": [],
                             "name": "BRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1448,
                           "end": 1451,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1448,
                             "end": 1451,
                             "decorators": [],
                             "name": "BRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1454,
                           "end": 1457,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1454,
                             "end": 1457,
                             "decorators": [],
                             "name": "BRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1426,39 +1582,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1459,
                           "end": 1462,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1459,
                             "end": 1462,
                             "decorators": [],
                             "name": "BJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1465,
                           "end": 1468,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1465,
                             "end": 1468,
                             "decorators": [],
                             "name": "BJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1471,
                           "end": 1474,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1471,
                             "end": 1474,
                             "decorators": [],
                             "name": "BJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1472,39 +1634,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1476,
                           "end": 1479,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1476,
                             "end": 1479,
                             "decorators": [],
                             "name": "BND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1482,
                           "end": 1485,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1482,
                             "end": 1485,
                             "decorators": [],
                             "name": "BNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1488,
                           "end": 1491,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1488,
                             "end": 1491,
                             "decorators": [],
                             "name": "BNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1518,39 +1686,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1501,
                           "end": 1504,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1501,
                             "end": 1504,
                             "decorators": [],
                             "name": "CRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1507,
                           "end": 1510,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1507,
                             "end": 1510,
                             "decorators": [],
                             "name": "CRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1513,
                           "end": 1516,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1513,
                             "end": 1516,
                             "decorators": [],
                             "name": "CRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1564,39 +1738,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1518,
                           "end": 1521,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1518,
                             "end": 1521,
                             "decorators": [],
                             "name": "CJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1524,
                           "end": 1527,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1524,
                             "end": 1527,
                             "decorators": [],
                             "name": "CJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1530,
                           "end": 1533,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1530,
                             "end": 1533,
                             "decorators": [],
                             "name": "CJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1610,39 +1790,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1535,
                           "end": 1538,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1535,
                             "end": 1538,
                             "decorators": [],
                             "name": "CND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1541,
                           "end": 1544,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1541,
                             "end": 1544,
                             "decorators": [],
                             "name": "CNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1547,
                           "end": 1550,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1547,
                             "end": 1550,
                             "decorators": [],
                             "name": "CNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1656,39 +1842,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1560,
                           "end": 1563,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1560,
                             "end": 1563,
                             "decorators": [],
                             "name": "RRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1566,
                           "end": 1569,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1566,
                             "end": 1569,
                             "decorators": [],
                             "name": "RRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1572,
                           "end": 1575,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1572,
                             "end": 1575,
                             "decorators": [],
                             "name": "RRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1702,39 +1894,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1577,
                           "end": 1580,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1577,
                             "end": 1580,
                             "decorators": [],
                             "name": "RJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1583,
                           "end": 1586,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1583,
                             "end": 1586,
                             "decorators": [],
                             "name": "RJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1589,
                           "end": 1592,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1589,
                             "end": 1592,
                             "decorators": [],
                             "name": "RJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1748,39 +1946,45 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 1594,
                           "end": 1597,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1594,
                             "end": 1597,
                             "decorators": [],
                             "name": "RND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1600,
                           "end": 1603,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1600,
                             "end": 1603,
                             "decorators": [],
                             "name": "RNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 1606,
                           "end": 1609,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 1606,
                             "end": 1609,
                             "decorators": [],
                             "name": "RNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -1793,7 +1997,8 @@ __ESTREE_TEST__:PASS:
                   "end": 1382,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -1808,6 +2013,7 @@ __ESTREE_TEST__:PASS:
                   "start": 197,
                   "end": 208,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 203,
@@ -1820,7 +2026,8 @@ __ESTREE_TEST__:PASS:
                     "end": 200,
                     "decorators": [],
                     "name": "ARD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1829,6 +2036,7 @@ __ESTREE_TEST__:PASS:
                   "start": 210,
                   "end": 221,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 216,
@@ -1841,7 +2049,8 @@ __ESTREE_TEST__:PASS:
                     "end": 213,
                     "decorators": [],
                     "name": "AJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1850,6 +2059,7 @@ __ESTREE_TEST__:PASS:
                   "start": 223,
                   "end": 234,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 229,
@@ -1862,7 +2072,8 @@ __ESTREE_TEST__:PASS:
                     "end": 226,
                     "decorators": [],
                     "name": "AND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1871,6 +2082,7 @@ __ESTREE_TEST__:PASS:
                   "start": 244,
                   "end": 255,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 250,
@@ -1883,7 +2095,8 @@ __ESTREE_TEST__:PASS:
                     "end": 247,
                     "decorators": [],
                     "name": "BRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1892,6 +2105,7 @@ __ESTREE_TEST__:PASS:
                   "start": 257,
                   "end": 268,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 263,
@@ -1904,7 +2118,8 @@ __ESTREE_TEST__:PASS:
                     "end": 260,
                     "decorators": [],
                     "name": "BJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1913,6 +2128,7 @@ __ESTREE_TEST__:PASS:
                   "start": 270,
                   "end": 281,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 276,
@@ -1925,7 +2141,8 @@ __ESTREE_TEST__:PASS:
                     "end": 273,
                     "decorators": [],
                     "name": "BND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1934,6 +2151,7 @@ __ESTREE_TEST__:PASS:
                   "start": 291,
                   "end": 302,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 297,
@@ -1946,7 +2164,8 @@ __ESTREE_TEST__:PASS:
                     "end": 294,
                     "decorators": [],
                     "name": "CRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1955,6 +2174,7 @@ __ESTREE_TEST__:PASS:
                   "start": 304,
                   "end": 315,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 310,
@@ -1967,7 +2187,8 @@ __ESTREE_TEST__:PASS:
                     "end": 307,
                     "decorators": [],
                     "name": "CJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1976,6 +2197,7 @@ __ESTREE_TEST__:PASS:
                   "start": 317,
                   "end": 328,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 323,
@@ -1988,7 +2210,8 @@ __ESTREE_TEST__:PASS:
                     "end": 320,
                     "decorators": [],
                     "name": "CND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -1997,6 +2220,7 @@ __ESTREE_TEST__:PASS:
                   "start": 338,
                   "end": 349,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 344,
@@ -2009,7 +2233,8 @@ __ESTREE_TEST__:PASS:
                     "end": 341,
                     "decorators": [],
                     "name": "RRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2018,6 +2243,7 @@ __ESTREE_TEST__:PASS:
                   "start": 351,
                   "end": 362,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 357,
@@ -2030,7 +2256,8 @@ __ESTREE_TEST__:PASS:
                     "end": 354,
                     "decorators": [],
                     "name": "RJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2039,6 +2266,7 @@ __ESTREE_TEST__:PASS:
                   "start": 364,
                   "end": 375,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 370,
@@ -2051,7 +2279,8 @@ __ESTREE_TEST__:PASS:
                     "end": 367,
                     "decorators": [],
                     "name": "RND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2060,6 +2289,7 @@ __ESTREE_TEST__:PASS:
                   "start": 385,
                   "end": 396,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 391,
@@ -2072,7 +2302,8 @@ __ESTREE_TEST__:PASS:
                     "end": 388,
                     "decorators": [],
                     "name": "ARF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2081,6 +2312,7 @@ __ESTREE_TEST__:PASS:
                   "start": 398,
                   "end": 409,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 404,
@@ -2093,7 +2325,8 @@ __ESTREE_TEST__:PASS:
                     "end": 401,
                     "decorators": [],
                     "name": "AJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2102,6 +2335,7 @@ __ESTREE_TEST__:PASS:
                   "start": 411,
                   "end": 422,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 417,
@@ -2114,7 +2348,8 @@ __ESTREE_TEST__:PASS:
                     "end": 414,
                     "decorators": [],
                     "name": "ANF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2123,6 +2358,7 @@ __ESTREE_TEST__:PASS:
                   "start": 432,
                   "end": 443,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 438,
@@ -2135,7 +2371,8 @@ __ESTREE_TEST__:PASS:
                     "end": 435,
                     "decorators": [],
                     "name": "BRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2144,6 +2381,7 @@ __ESTREE_TEST__:PASS:
                   "start": 445,
                   "end": 456,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 451,
@@ -2156,7 +2394,8 @@ __ESTREE_TEST__:PASS:
                     "end": 448,
                     "decorators": [],
                     "name": "BJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2165,6 +2404,7 @@ __ESTREE_TEST__:PASS:
                   "start": 458,
                   "end": 469,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 464,
@@ -2177,7 +2417,8 @@ __ESTREE_TEST__:PASS:
                     "end": 461,
                     "decorators": [],
                     "name": "BNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2186,6 +2427,7 @@ __ESTREE_TEST__:PASS:
                   "start": 479,
                   "end": 490,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 485,
@@ -2198,7 +2440,8 @@ __ESTREE_TEST__:PASS:
                     "end": 482,
                     "decorators": [],
                     "name": "CRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2207,6 +2450,7 @@ __ESTREE_TEST__:PASS:
                   "start": 492,
                   "end": 503,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 498,
@@ -2219,7 +2463,8 @@ __ESTREE_TEST__:PASS:
                     "end": 495,
                     "decorators": [],
                     "name": "CJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2228,6 +2473,7 @@ __ESTREE_TEST__:PASS:
                   "start": 505,
                   "end": 516,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 511,
@@ -2240,7 +2486,8 @@ __ESTREE_TEST__:PASS:
                     "end": 508,
                     "decorators": [],
                     "name": "CNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2249,6 +2496,7 @@ __ESTREE_TEST__:PASS:
                   "start": 526,
                   "end": 537,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 532,
@@ -2261,7 +2509,8 @@ __ESTREE_TEST__:PASS:
                     "end": 529,
                     "decorators": [],
                     "name": "RRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2270,6 +2519,7 @@ __ESTREE_TEST__:PASS:
                   "start": 539,
                   "end": 550,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 545,
@@ -2282,7 +2532,8 @@ __ESTREE_TEST__:PASS:
                     "end": 542,
                     "decorators": [],
                     "name": "RJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2291,6 +2542,7 @@ __ESTREE_TEST__:PASS:
                   "start": 552,
                   "end": 563,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 558,
@@ -2303,7 +2555,8 @@ __ESTREE_TEST__:PASS:
                     "end": 555,
                     "decorators": [],
                     "name": "RNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2312,6 +2565,7 @@ __ESTREE_TEST__:PASS:
                   "start": 573,
                   "end": 584,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 579,
@@ -2324,7 +2578,8 @@ __ESTREE_TEST__:PASS:
                     "end": 576,
                     "decorators": [],
                     "name": "ARP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2333,6 +2588,7 @@ __ESTREE_TEST__:PASS:
                   "start": 586,
                   "end": 597,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 592,
@@ -2345,7 +2601,8 @@ __ESTREE_TEST__:PASS:
                     "end": 589,
                     "decorators": [],
                     "name": "AJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2354,6 +2611,7 @@ __ESTREE_TEST__:PASS:
                   "start": 599,
                   "end": 610,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 605,
@@ -2366,7 +2624,8 @@ __ESTREE_TEST__:PASS:
                     "end": 602,
                     "decorators": [],
                     "name": "ANP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2375,6 +2634,7 @@ __ESTREE_TEST__:PASS:
                   "start": 620,
                   "end": 631,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 626,
@@ -2387,7 +2647,8 @@ __ESTREE_TEST__:PASS:
                     "end": 623,
                     "decorators": [],
                     "name": "BRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2396,6 +2657,7 @@ __ESTREE_TEST__:PASS:
                   "start": 633,
                   "end": 644,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 639,
@@ -2408,7 +2670,8 @@ __ESTREE_TEST__:PASS:
                     "end": 636,
                     "decorators": [],
                     "name": "BJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2417,6 +2680,7 @@ __ESTREE_TEST__:PASS:
                   "start": 646,
                   "end": 657,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 652,
@@ -2429,7 +2693,8 @@ __ESTREE_TEST__:PASS:
                     "end": 649,
                     "decorators": [],
                     "name": "BNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2438,6 +2703,7 @@ __ESTREE_TEST__:PASS:
                   "start": 667,
                   "end": 678,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 673,
@@ -2450,7 +2716,8 @@ __ESTREE_TEST__:PASS:
                     "end": 670,
                     "decorators": [],
                     "name": "CRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2459,6 +2726,7 @@ __ESTREE_TEST__:PASS:
                   "start": 680,
                   "end": 691,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 686,
@@ -2471,7 +2739,8 @@ __ESTREE_TEST__:PASS:
                     "end": 683,
                     "decorators": [],
                     "name": "CJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2480,6 +2749,7 @@ __ESTREE_TEST__:PASS:
                   "start": 693,
                   "end": 704,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 699,
@@ -2492,7 +2762,8 @@ __ESTREE_TEST__:PASS:
                     "end": 696,
                     "decorators": [],
                     "name": "CNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2501,6 +2772,7 @@ __ESTREE_TEST__:PASS:
                   "start": 714,
                   "end": 725,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 720,
@@ -2513,7 +2785,8 @@ __ESTREE_TEST__:PASS:
                     "end": 717,
                     "decorators": [],
                     "name": "RRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2522,6 +2795,7 @@ __ESTREE_TEST__:PASS:
                   "start": 727,
                   "end": 738,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 733,
@@ -2534,7 +2808,8 @@ __ESTREE_TEST__:PASS:
                     "end": 730,
                     "decorators": [],
                     "name": "RJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -2543,6 +2818,7 @@ __ESTREE_TEST__:PASS:
                   "start": 740,
                   "end": 751,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 746,
@@ -2555,7 +2831,8 @@ __ESTREE_TEST__:PASS:
                     "end": 743,
                     "decorators": [],
                     "name": "RNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -2566,6 +2843,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 1616,
             "end": 2601,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -2573,7 +2851,8 @@ __ESTREE_TEST__:PASS:
               "end": 1620,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -2627,13 +2906,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2048,
                             "end": 2050,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2048,
                               "end": 2050,
                               "decorators": [],
                               "name": "TJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -2653,13 +2934,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2055,
                             "end": 2057,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2055,
                               "end": 2057,
                               "decorators": [],
                               "name": "UJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -2679,13 +2962,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2062,
                             "end": 2064,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2062,
                               "end": 2064,
                               "decorators": [],
                               "name": "VJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -2700,7 +2985,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2070,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -2716,17 +3002,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2072,
                               "end": 2074,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2072,
                                 "end": 2074,
                                 "decorators": [],
                                 "name": "SJ",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -2751,156 +3040,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2093,
                                   "end": 2096,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2093,
                                     "end": 2096,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2098,
                                   "end": 2101,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2098,
                                     "end": 2101,
                                     "decorators": [],
                                     "name": "AJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2103,
                                   "end": 2106,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2103,
                                     "end": 2106,
                                     "decorators": [],
                                     "name": "ANF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2124,
                                   "end": 2127,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2124,
                                     "end": 2127,
                                     "decorators": [],
                                     "name": "BRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2129,
                                   "end": 2132,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2129,
                                     "end": 2132,
                                     "decorators": [],
                                     "name": "BJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2134,
                                   "end": 2137,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2134,
                                     "end": 2137,
                                     "decorators": [],
                                     "name": "BNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2155,
                                   "end": 2158,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2155,
                                     "end": 2158,
                                     "decorators": [],
                                     "name": "CRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2160,
                                   "end": 2163,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2160,
                                     "end": 2163,
                                     "decorators": [],
                                     "name": "CJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2165,
                                   "end": 2168,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2165,
                                     "end": 2168,
                                     "decorators": [],
                                     "name": "CNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2186,
                                   "end": 2189,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2186,
                                     "end": 2189,
                                     "decorators": [],
                                     "name": "RRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2191,
                                   "end": 2194,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2191,
                                     "end": 2194,
                                     "decorators": [],
                                     "name": "RJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2196,
                                   "end": 2199,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2196,
                                     "end": 2199,
                                     "decorators": [],
                                     "name": "RNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -2911,7 +3224,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2092,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -2927,13 +3241,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2212,
                                   "end": 2215,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2212,
                                     "end": 2215,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -2944,25 +3260,29 @@ __ESTREE_TEST__:PASS:
                               "end": 2211,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2219,
                             "end": 2222,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2219,
                               "end": 2222,
                               "decorators": [],
                               "name": "ARF",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -2997,13 +3317,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2256,
                             "end": 2258,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2256,
                               "end": 2258,
                               "decorators": [],
                               "name": "TN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3023,13 +3345,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2263,
                             "end": 2265,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2263,
                               "end": 2265,
                               "decorators": [],
                               "name": "UN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3049,13 +3373,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2270,
                             "end": 2272,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2270,
                               "end": 2272,
                               "decorators": [],
                               "name": "VN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -3070,7 +3396,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2278,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -3086,17 +3413,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2280,
                               "end": 2282,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2280,
                                 "end": 2282,
                                 "decorators": [],
                                 "name": "SN",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -3121,156 +3451,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2301,
                                   "end": 2304,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2301,
                                     "end": 2304,
                                     "decorators": [],
                                     "name": "ARP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2306,
                                   "end": 2309,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2306,
                                     "end": 2309,
                                     "decorators": [],
                                     "name": "AJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2311,
                                   "end": 2314,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2311,
                                     "end": 2314,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2332,
                                   "end": 2335,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2332,
                                     "end": 2335,
                                     "decorators": [],
                                     "name": "BRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2337,
                                   "end": 2340,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2337,
                                     "end": 2340,
                                     "decorators": [],
                                     "name": "BJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2342,
                                   "end": 2345,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2342,
                                     "end": 2345,
                                     "decorators": [],
                                     "name": "BNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2363,
                                   "end": 2366,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2363,
                                     "end": 2366,
                                     "decorators": [],
                                     "name": "CRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2368,
                                   "end": 2371,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2368,
                                     "end": 2371,
                                     "decorators": [],
                                     "name": "CJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2373,
                                   "end": 2376,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2373,
                                     "end": 2376,
                                     "decorators": [],
                                     "name": "CNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2394,
                                   "end": 2397,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2394,
                                     "end": 2397,
                                     "decorators": [],
                                     "name": "RRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2399,
                                   "end": 2402,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2399,
                                     "end": 2402,
                                     "decorators": [],
                                     "name": "RJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2404,
                                   "end": 2407,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2404,
                                     "end": 2407,
                                     "decorators": [],
                                     "name": "RNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -3281,7 +3635,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2300,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -3297,13 +3652,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2420,
                                   "end": 2423,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2420,
                                     "end": 2423,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -3314,25 +3671,29 @@ __ESTREE_TEST__:PASS:
                               "end": 2419,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 2427,
                             "end": 2430,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2427,
                               "end": 2430,
                               "decorators": [],
                               "name": "ANP",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
@@ -3360,26 +3721,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2445,
                           "end": 2448,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2445,
                             "end": 2448,
                             "decorators": [],
                             "name": "ARF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2451,
                           "end": 2454,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2451,
                             "end": 2454,
                             "decorators": [],
                             "name": "ARP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3393,26 +3758,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2456,
                           "end": 2459,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2456,
                             "end": 2459,
                             "decorators": [],
                             "name": "AJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2462,
                           "end": 2465,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2462,
                             "end": 2465,
                             "decorators": [],
                             "name": "AJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3426,26 +3795,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2467,
                           "end": 2470,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2467,
                             "end": 2470,
                             "decorators": [],
                             "name": "ANF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2473,
                           "end": 2476,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2473,
                             "end": 2476,
                             "decorators": [],
                             "name": "ANP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3459,26 +3832,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2486,
                           "end": 2489,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2486,
                             "end": 2489,
                             "decorators": [],
                             "name": "BRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2492,
                           "end": 2495,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2492,
                             "end": 2495,
                             "decorators": [],
                             "name": "BRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3492,26 +3869,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2497,
                           "end": 2500,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2497,
                             "end": 2500,
                             "decorators": [],
                             "name": "BJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2503,
                           "end": 2506,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2503,
                             "end": 2506,
                             "decorators": [],
                             "name": "BJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3525,26 +3906,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2508,
                           "end": 2511,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2508,
                             "end": 2511,
                             "decorators": [],
                             "name": "BNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2514,
                           "end": 2517,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2514,
                             "end": 2517,
                             "decorators": [],
                             "name": "BNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3558,26 +3943,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2527,
                           "end": 2530,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2527,
                             "end": 2530,
                             "decorators": [],
                             "name": "CRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2533,
                           "end": 2536,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2533,
                             "end": 2536,
                             "decorators": [],
                             "name": "CRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3591,26 +3980,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2538,
                           "end": 2541,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2538,
                             "end": 2541,
                             "decorators": [],
                             "name": "CJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2544,
                           "end": 2547,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2544,
                             "end": 2547,
                             "decorators": [],
                             "name": "CJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3624,26 +4017,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2549,
                           "end": 2552,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2549,
                             "end": 2552,
                             "decorators": [],
                             "name": "CNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2555,
                           "end": 2558,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2555,
                             "end": 2558,
                             "decorators": [],
                             "name": "CNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3657,26 +4054,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2568,
                           "end": 2571,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2568,
                             "end": 2571,
                             "decorators": [],
                             "name": "RRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2574,
                           "end": 2577,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2574,
                             "end": 2577,
                             "decorators": [],
                             "name": "RRP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3690,26 +4091,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2579,
                           "end": 2582,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2579,
                             "end": 2582,
                             "decorators": [],
                             "name": "RJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2585,
                           "end": 2588,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2585,
                             "end": 2588,
                             "decorators": [],
                             "name": "RJP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3723,26 +4128,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 2590,
                           "end": 2593,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2590,
                             "end": 2593,
                             "decorators": [],
                             "name": "RNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 2596,
                           "end": 2599,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 2596,
                             "end": 2599,
                             "decorators": [],
                             "name": "RNP",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -3755,7 +4164,8 @@ __ESTREE_TEST__:PASS:
                   "end": 2444,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -3770,6 +4180,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1621,
                   "end": 1632,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1627,
@@ -3782,7 +4193,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1624,
                     "decorators": [],
                     "name": "ARF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3791,6 +4203,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1634,
                   "end": 1645,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1640,
@@ -3803,7 +4216,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1637,
                     "decorators": [],
                     "name": "AJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3812,6 +4226,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1647,
                   "end": 1658,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1653,
@@ -3824,7 +4239,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1650,
                     "decorators": [],
                     "name": "ANF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3833,6 +4249,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1668,
                   "end": 1679,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1674,
@@ -3845,7 +4262,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1671,
                     "decorators": [],
                     "name": "BRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3854,6 +4272,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1681,
                   "end": 1692,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1687,
@@ -3866,7 +4285,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1684,
                     "decorators": [],
                     "name": "BJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3875,6 +4295,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1694,
                   "end": 1705,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1700,
@@ -3887,7 +4308,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1697,
                     "decorators": [],
                     "name": "BNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3896,6 +4318,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1715,
                   "end": 1726,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1721,
@@ -3908,7 +4331,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1718,
                     "decorators": [],
                     "name": "CRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3917,6 +4341,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1728,
                   "end": 1739,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1734,
@@ -3929,7 +4354,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1731,
                     "decorators": [],
                     "name": "CJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3938,6 +4364,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1741,
                   "end": 1752,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1747,
@@ -3950,7 +4377,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1744,
                     "decorators": [],
                     "name": "CNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3959,6 +4387,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1762,
                   "end": 1773,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1768,
@@ -3971,7 +4400,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1765,
                     "decorators": [],
                     "name": "RRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -3980,6 +4410,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1775,
                   "end": 1786,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1781,
@@ -3992,7 +4423,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1778,
                     "decorators": [],
                     "name": "RJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4001,6 +4433,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1788,
                   "end": 1799,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1794,
@@ -4013,7 +4446,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1791,
                     "decorators": [],
                     "name": "RNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4022,6 +4456,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1809,
                   "end": 1820,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1815,
@@ -4034,7 +4469,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1812,
                     "decorators": [],
                     "name": "ARP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4043,6 +4479,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1822,
                   "end": 1833,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1828,
@@ -4055,7 +4492,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1825,
                     "decorators": [],
                     "name": "AJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4064,6 +4502,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1835,
                   "end": 1846,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1841,
@@ -4076,7 +4515,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1838,
                     "decorators": [],
                     "name": "ANP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4085,6 +4525,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1856,
                   "end": 1867,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1862,
@@ -4097,7 +4538,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1859,
                     "decorators": [],
                     "name": "BRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4106,6 +4548,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1869,
                   "end": 1880,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1875,
@@ -4118,7 +4561,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1872,
                     "decorators": [],
                     "name": "BJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4127,6 +4571,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1882,
                   "end": 1893,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1888,
@@ -4139,7 +4584,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1885,
                     "decorators": [],
                     "name": "BNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4148,6 +4594,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1903,
                   "end": 1914,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1909,
@@ -4160,7 +4607,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1906,
                     "decorators": [],
                     "name": "CRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4169,6 +4617,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1916,
                   "end": 1927,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1922,
@@ -4181,7 +4630,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1919,
                     "decorators": [],
                     "name": "CJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4190,6 +4640,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1929,
                   "end": 1940,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1935,
@@ -4202,7 +4653,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1932,
                     "decorators": [],
                     "name": "CNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4211,6 +4663,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1950,
                   "end": 1961,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1956,
@@ -4223,7 +4676,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1953,
                     "decorators": [],
                     "name": "RRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4232,6 +4686,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1963,
                   "end": 1974,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1969,
@@ -4244,7 +4699,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1966,
                     "decorators": [],
                     "name": "RJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4253,6 +4709,7 @@ __ESTREE_TEST__:PASS:
                   "start": 1976,
                   "end": 1987,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 1982,
@@ -4265,7 +4722,8 @@ __ESTREE_TEST__:PASS:
                     "end": 1979,
                     "decorators": [],
                     "name": "RNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -4276,6 +4734,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 2606,
             "end": 3158,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -4283,7 +4742,8 @@ __ESTREE_TEST__:PASS:
               "end": 2610,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -4355,13 +4815,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2885,
                             "end": 2887,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2885,
                               "end": 2887,
                               "decorators": [],
                               "name": "TN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -4381,13 +4843,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2892,
                             "end": 2894,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2892,
                               "end": 2894,
                               "decorators": [],
                               "name": "UN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -4407,13 +4871,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 2899,
                             "end": 2901,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 2899,
                               "end": 2901,
                               "decorators": [],
                               "name": "VN",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -4428,7 +4894,8 @@ __ESTREE_TEST__:PASS:
                           "end": 2907,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -4444,17 +4911,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 2909,
                               "end": 2911,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 2909,
                                 "end": 2911,
                                 "decorators": [],
                                 "name": "SN",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -4479,156 +4949,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 2930,
                                   "end": 2933,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2930,
                                     "end": 2933,
                                     "decorators": [],
                                     "name": "ARP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2935,
                                   "end": 2938,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2935,
                                     "end": 2938,
                                     "decorators": [],
                                     "name": "AJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2940,
                                   "end": 2943,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2940,
                                     "end": 2943,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2961,
                                   "end": 2964,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2961,
                                     "end": 2964,
                                     "decorators": [],
                                     "name": "BRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2966,
                                   "end": 2969,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2966,
                                     "end": 2969,
                                     "decorators": [],
                                     "name": "BJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2971,
                                   "end": 2974,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2971,
                                     "end": 2974,
                                     "decorators": [],
                                     "name": "BNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2992,
                                   "end": 2995,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2992,
                                     "end": 2995,
                                     "decorators": [],
                                     "name": "CRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 2997,
                                   "end": 3000,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 2997,
                                     "end": 3000,
                                     "decorators": [],
                                     "name": "CJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3002,
                                   "end": 3005,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3002,
                                     "end": 3005,
                                     "decorators": [],
                                     "name": "CNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3023,
                                   "end": 3026,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3023,
                                     "end": 3026,
                                     "decorators": [],
                                     "name": "RRP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3028,
                                   "end": 3031,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3028,
                                     "end": 3031,
                                     "decorators": [],
                                     "name": "RJP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3033,
                                   "end": 3036,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3033,
                                     "end": 3036,
                                     "decorators": [],
                                     "name": "RNP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -4639,7 +5133,8 @@ __ESTREE_TEST__:PASS:
                               "end": 2929,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -4655,13 +5150,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3049,
                                   "end": 3052,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3049,
                                     "end": 3052,
                                     "decorators": [],
                                     "name": "ANP",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -4672,25 +5169,29 @@ __ESTREE_TEST__:PASS:
                               "end": 3048,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3056,
                             "end": 3059,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3056,
                               "end": 3059,
                               "decorators": [],
                               "name": "ANP",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               }
@@ -4713,156 +5214,180 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 3074,
                       "end": 3077,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3074,
                         "end": 3077,
                         "decorators": [],
                         "name": "ARP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3079,
                       "end": 3082,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3079,
                         "end": 3082,
                         "decorators": [],
                         "name": "AJP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3084,
                       "end": 3087,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3084,
                         "end": 3087,
                         "decorators": [],
                         "name": "ANP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3097,
                       "end": 3100,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3097,
                         "end": 3100,
                         "decorators": [],
                         "name": "BRP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3102,
                       "end": 3105,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3102,
                         "end": 3105,
                         "decorators": [],
                         "name": "BJP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3107,
                       "end": 3110,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3107,
                         "end": 3110,
                         "decorators": [],
                         "name": "BNP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3120,
                       "end": 3123,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3120,
                         "end": 3123,
                         "decorators": [],
                         "name": "CRP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3125,
                       "end": 3128,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3125,
                         "end": 3128,
                         "decorators": [],
                         "name": "CJP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3130,
                       "end": 3133,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3130,
                         "end": 3133,
                         "decorators": [],
                         "name": "CNP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3143,
                       "end": 3146,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3143,
                         "end": 3146,
                         "decorators": [],
                         "name": "RRP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3148,
                       "end": 3151,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3148,
                         "end": 3151,
                         "decorators": [],
                         "name": "RJP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 3153,
                       "end": 3156,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 3153,
                         "end": 3156,
                         "decorators": [],
                         "name": "RNP",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -4873,7 +5398,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3073,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -4888,6 +5414,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2611,
                   "end": 2622,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2617,
@@ -4900,7 +5427,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2614,
                     "decorators": [],
                     "name": "ARP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4909,6 +5437,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2624,
                   "end": 2635,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2630,
@@ -4921,7 +5450,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2627,
                     "decorators": [],
                     "name": "AJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4930,6 +5460,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2637,
                   "end": 2648,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2643,
@@ -4942,7 +5473,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2640,
                     "decorators": [],
                     "name": "ANP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4951,6 +5483,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2658,
                   "end": 2669,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2664,
@@ -4963,7 +5496,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2661,
                     "decorators": [],
                     "name": "BRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4972,6 +5506,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2671,
                   "end": 2682,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2677,
@@ -4984,7 +5519,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2674,
                     "decorators": [],
                     "name": "BJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -4993,6 +5529,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2684,
                   "end": 2695,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2690,
@@ -5005,7 +5542,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2687,
                     "decorators": [],
                     "name": "BNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5014,6 +5552,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2705,
                   "end": 2716,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2711,
@@ -5026,7 +5565,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2708,
                     "decorators": [],
                     "name": "CRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5035,6 +5575,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2718,
                   "end": 2729,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2724,
@@ -5047,7 +5588,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2721,
                     "decorators": [],
                     "name": "CJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5056,6 +5598,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2731,
                   "end": 2742,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2737,
@@ -5068,7 +5611,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2734,
                     "decorators": [],
                     "name": "CNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5077,6 +5621,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2752,
                   "end": 2763,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2758,
@@ -5089,7 +5634,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2755,
                     "decorators": [],
                     "name": "RRP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5098,6 +5644,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2765,
                   "end": 2776,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2771,
@@ -5110,7 +5657,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2768,
                     "decorators": [],
                     "name": "RJP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -5119,6 +5667,7 @@ __ESTREE_TEST__:PASS:
                   "start": 2778,
                   "end": 2789,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 2784,
@@ -5131,7 +5680,8 @@ __ESTREE_TEST__:PASS:
                     "end": 2781,
                     "decorators": [],
                     "name": "RNP",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -5142,6 +5692,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 3163,
             "end": 4149,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -5149,7 +5700,8 @@ __ESTREE_TEST__:PASS:
               "end": 3167,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -5185,13 +5737,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3565,
                             "end": 3567,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3565,
                               "end": 3567,
                               "decorators": [],
                               "name": "TR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5211,13 +5765,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3572,
                             "end": 3574,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3572,
                               "end": 3574,
                               "decorators": [],
                               "name": "UR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5237,13 +5793,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3579,
                             "end": 3581,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3579,
                               "end": 3581,
                               "decorators": [],
                               "name": "VR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5258,7 +5816,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3587,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -5274,17 +5833,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3589,
                               "end": 3591,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 3589,
                                 "end": 3591,
                                 "decorators": [],
                                 "name": "SR",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -5309,156 +5871,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3610,
                                   "end": 3613,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3610,
                                     "end": 3613,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3615,
                                   "end": 3618,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3615,
                                     "end": 3618,
                                     "decorators": [],
                                     "name": "AJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3620,
                                   "end": 3623,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3620,
                                     "end": 3623,
                                     "decorators": [],
                                     "name": "AND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3641,
                                   "end": 3644,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3641,
                                     "end": 3644,
                                     "decorators": [],
                                     "name": "BRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3646,
                                   "end": 3649,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3646,
                                     "end": 3649,
                                     "decorators": [],
                                     "name": "BJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3651,
                                   "end": 3654,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3651,
                                     "end": 3654,
                                     "decorators": [],
                                     "name": "BND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3672,
                                   "end": 3675,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3672,
                                     "end": 3675,
                                     "decorators": [],
                                     "name": "CRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3677,
                                   "end": 3680,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3677,
                                     "end": 3680,
                                     "decorators": [],
                                     "name": "CJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3682,
                                   "end": 3685,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3682,
                                     "end": 3685,
                                     "decorators": [],
                                     "name": "CND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3703,
                                   "end": 3706,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3703,
                                     "end": 3706,
                                     "decorators": [],
                                     "name": "RRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3708,
                                   "end": 3711,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3708,
                                     "end": 3711,
                                     "decorators": [],
                                     "name": "RJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3713,
                                   "end": 3716,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3713,
                                     "end": 3716,
                                     "decorators": [],
                                     "name": "RND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -5469,7 +6055,8 @@ __ESTREE_TEST__:PASS:
                               "end": 3609,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -5485,13 +6072,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3729,
                                   "end": 3732,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3729,
                                     "end": 3732,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -5502,25 +6091,29 @@ __ESTREE_TEST__:PASS:
                               "end": 3728,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3736,
                             "end": 3739,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3736,
                               "end": 3739,
                               "decorators": [],
                               "name": "ARD",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -5555,13 +6148,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3769,
                             "end": 3771,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3769,
                               "end": 3771,
                               "decorators": [],
                               "name": "TJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5581,13 +6176,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3776,
                             "end": 3778,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3776,
                               "end": 3778,
                               "decorators": [],
                               "name": "UJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5607,13 +6204,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 3783,
                             "end": 3785,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3783,
                               "end": 3785,
                               "decorators": [],
                               "name": "VJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -5628,7 +6227,8 @@ __ESTREE_TEST__:PASS:
                           "end": 3791,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -5644,17 +6244,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 3793,
                               "end": 3795,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 3793,
                                 "end": 3795,
                                 "decorators": [],
                                 "name": "SJ",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -5679,156 +6282,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3814,
                                   "end": 3817,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3814,
                                     "end": 3817,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3819,
                                   "end": 3822,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3819,
                                     "end": 3822,
                                     "decorators": [],
                                     "name": "AJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3824,
                                   "end": 3827,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3824,
                                     "end": 3827,
                                     "decorators": [],
                                     "name": "ANF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3845,
                                   "end": 3848,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3845,
                                     "end": 3848,
                                     "decorators": [],
                                     "name": "BRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3850,
                                   "end": 3853,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3850,
                                     "end": 3853,
                                     "decorators": [],
                                     "name": "BJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3855,
                                   "end": 3858,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3855,
                                     "end": 3858,
                                     "decorators": [],
                                     "name": "BNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3876,
                                   "end": 3879,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3876,
                                     "end": 3879,
                                     "decorators": [],
                                     "name": "CRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3881,
                                   "end": 3884,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3881,
                                     "end": 3884,
                                     "decorators": [],
                                     "name": "CJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3886,
                                   "end": 3889,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3886,
                                     "end": 3889,
                                     "decorators": [],
                                     "name": "CNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3907,
                                   "end": 3910,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3907,
                                     "end": 3910,
                                     "decorators": [],
                                     "name": "RRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3912,
                                   "end": 3915,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3912,
                                     "end": 3915,
                                     "decorators": [],
                                     "name": "RJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 3917,
                                   "end": 3920,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3917,
                                     "end": 3920,
                                     "decorators": [],
                                     "name": "RNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -5839,7 +6466,8 @@ __ESTREE_TEST__:PASS:
                               "end": 3813,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -5855,13 +6483,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 3933,
                                   "end": 3936,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 3933,
                                     "end": 3936,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -5872,25 +6502,29 @@ __ESTREE_TEST__:PASS:
                               "end": 3932,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 3940,
                             "end": 3943,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 3940,
                               "end": 3943,
                               "decorators": [],
                               "name": "ARF",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -5936,26 +6570,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 3993,
                           "end": 3996,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3993,
                             "end": 3996,
                             "decorators": [],
                             "name": "ARD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 3999,
                           "end": 4002,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 3999,
                             "end": 4002,
                             "decorators": [],
                             "name": "ARF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -5969,26 +6607,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4004,
                           "end": 4007,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4004,
                             "end": 4007,
                             "decorators": [],
                             "name": "AJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4010,
                           "end": 4013,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4010,
                             "end": 4013,
                             "decorators": [],
                             "name": "AJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6002,26 +6644,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4015,
                           "end": 4018,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4015,
                             "end": 4018,
                             "decorators": [],
                             "name": "AND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4021,
                           "end": 4024,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4021,
                             "end": 4024,
                             "decorators": [],
                             "name": "ANF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6035,26 +6681,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4034,
                           "end": 4037,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4034,
                             "end": 4037,
                             "decorators": [],
                             "name": "BRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4040,
                           "end": 4043,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4040,
                             "end": 4043,
                             "decorators": [],
                             "name": "BRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6068,26 +6718,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4045,
                           "end": 4048,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4045,
                             "end": 4048,
                             "decorators": [],
                             "name": "BJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4051,
                           "end": 4054,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4051,
                             "end": 4054,
                             "decorators": [],
                             "name": "BJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6101,26 +6755,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4056,
                           "end": 4059,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4056,
                             "end": 4059,
                             "decorators": [],
                             "name": "BND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4062,
                           "end": 4065,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4062,
                             "end": 4065,
                             "decorators": [],
                             "name": "BNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6134,26 +6792,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4075,
                           "end": 4078,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4075,
                             "end": 4078,
                             "decorators": [],
                             "name": "CRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4081,
                           "end": 4084,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4081,
                             "end": 4084,
                             "decorators": [],
                             "name": "CRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6167,26 +6829,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4086,
                           "end": 4089,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4086,
                             "end": 4089,
                             "decorators": [],
                             "name": "CJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4092,
                           "end": 4095,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4092,
                             "end": 4095,
                             "decorators": [],
                             "name": "CJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6200,26 +6866,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4097,
                           "end": 4100,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4097,
                             "end": 4100,
                             "decorators": [],
                             "name": "CND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4103,
                           "end": 4106,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4103,
                             "end": 4106,
                             "decorators": [],
                             "name": "CNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6233,26 +6903,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4116,
                           "end": 4119,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4116,
                             "end": 4119,
                             "decorators": [],
                             "name": "RRD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4122,
                           "end": 4125,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4122,
                             "end": 4125,
                             "decorators": [],
                             "name": "RRF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6266,26 +6940,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4127,
                           "end": 4130,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4127,
                             "end": 4130,
                             "decorators": [],
                             "name": "RJD",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4133,
                           "end": 4136,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4133,
                             "end": 4136,
                             "decorators": [],
                             "name": "RJF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6299,26 +6977,30 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 4138,
                           "end": 4141,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4138,
                             "end": 4141,
                             "decorators": [],
                             "name": "RND",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
                           "type": "TSTypeReference",
                           "start": 4144,
                           "end": 4147,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 4144,
                             "end": 4147,
                             "decorators": [],
                             "name": "RNF",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       ]
@@ -6331,7 +7013,8 @@ __ESTREE_TEST__:PASS:
                   "end": 3992,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -6346,6 +7029,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3168,
                   "end": 3179,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3174,
@@ -6358,7 +7042,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3171,
                     "decorators": [],
                     "name": "ARD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6367,6 +7052,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3181,
                   "end": 3192,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3187,
@@ -6379,7 +7065,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3184,
                     "decorators": [],
                     "name": "AJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6388,6 +7075,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3194,
                   "end": 3205,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3200,
@@ -6400,7 +7088,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3197,
                     "decorators": [],
                     "name": "AND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6409,6 +7098,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3215,
                   "end": 3226,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3221,
@@ -6421,7 +7111,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3218,
                     "decorators": [],
                     "name": "BRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6430,6 +7121,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3228,
                   "end": 3239,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3234,
@@ -6442,7 +7134,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3231,
                     "decorators": [],
                     "name": "BJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6451,6 +7144,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3241,
                   "end": 3252,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3247,
@@ -6463,7 +7157,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3244,
                     "decorators": [],
                     "name": "BND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6472,6 +7167,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3262,
                   "end": 3273,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3268,
@@ -6484,7 +7180,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3265,
                     "decorators": [],
                     "name": "CRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6493,6 +7190,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3275,
                   "end": 3286,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3281,
@@ -6505,7 +7203,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3278,
                     "decorators": [],
                     "name": "CJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6514,6 +7213,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3288,
                   "end": 3299,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3294,
@@ -6526,7 +7226,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3291,
                     "decorators": [],
                     "name": "CND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6535,6 +7236,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3309,
                   "end": 3320,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3315,
@@ -6547,7 +7249,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3312,
                     "decorators": [],
                     "name": "RRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6556,6 +7259,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3322,
                   "end": 3333,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3328,
@@ -6568,7 +7272,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3325,
                     "decorators": [],
                     "name": "RJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6577,6 +7282,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3335,
                   "end": 3346,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3341,
@@ -6589,7 +7295,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3338,
                     "decorators": [],
                     "name": "RND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6598,6 +7305,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3356,
                   "end": 3367,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3362,
@@ -6610,7 +7318,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3359,
                     "decorators": [],
                     "name": "ARF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6619,6 +7328,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3369,
                   "end": 3380,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3375,
@@ -6631,7 +7341,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3372,
                     "decorators": [],
                     "name": "AJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6640,6 +7351,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3382,
                   "end": 3393,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3388,
@@ -6652,7 +7364,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3385,
                     "decorators": [],
                     "name": "ANF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6661,6 +7374,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3403,
                   "end": 3414,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3409,
@@ -6673,7 +7387,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3406,
                     "decorators": [],
                     "name": "BRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6682,6 +7397,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3416,
                   "end": 3427,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3422,
@@ -6694,7 +7410,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3419,
                     "decorators": [],
                     "name": "BJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6703,6 +7420,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3429,
                   "end": 3440,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3435,
@@ -6715,7 +7433,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3432,
                     "decorators": [],
                     "name": "BNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6724,6 +7443,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3450,
                   "end": 3461,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3456,
@@ -6736,7 +7456,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3453,
                     "decorators": [],
                     "name": "CRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6745,6 +7466,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3463,
                   "end": 3474,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3469,
@@ -6757,7 +7479,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3466,
                     "decorators": [],
                     "name": "CJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6766,6 +7489,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3476,
                   "end": 3487,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3482,
@@ -6778,7 +7502,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3479,
                     "decorators": [],
                     "name": "CNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6787,6 +7512,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3497,
                   "end": 3508,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3503,
@@ -6799,7 +7525,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3500,
                     "decorators": [],
                     "name": "RRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6808,6 +7535,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3510,
                   "end": 3521,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3516,
@@ -6820,7 +7548,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3513,
                     "decorators": [],
                     "name": "RJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -6829,6 +7558,7 @@ __ESTREE_TEST__:PASS:
                   "start": 3523,
                   "end": 3534,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 3529,
@@ -6841,7 +7571,8 @@ __ESTREE_TEST__:PASS:
                     "end": 3526,
                     "decorators": [],
                     "name": "RNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -6852,6 +7583,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 4154,
             "end": 4706,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -6859,7 +7591,8 @@ __ESTREE_TEST__:PASS:
               "end": 4158,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -6913,13 +7646,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4398,
                             "end": 4400,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4398,
                               "end": 4400,
                               "decorators": [],
                               "name": "TJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -6939,13 +7674,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4405,
                             "end": 4407,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4405,
                               "end": 4407,
                               "decorators": [],
                               "name": "UJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -6965,13 +7702,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4412,
                             "end": 4414,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4412,
                               "end": 4414,
                               "decorators": [],
                               "name": "VJ",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -6986,7 +7725,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4420,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -7002,17 +7742,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 4422,
                               "end": 4424,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 4422,
                                 "end": 4424,
                                 "decorators": [],
                                 "name": "SJ",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -7037,156 +7780,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4443,
                                   "end": 4446,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4443,
                                     "end": 4446,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4448,
                                   "end": 4451,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4448,
                                     "end": 4451,
                                     "decorators": [],
                                     "name": "AJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4453,
                                   "end": 4456,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4453,
                                     "end": 4456,
                                     "decorators": [],
                                     "name": "ANF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4474,
                                   "end": 4477,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4474,
                                     "end": 4477,
                                     "decorators": [],
                                     "name": "BRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4479,
                                   "end": 4482,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4479,
                                     "end": 4482,
                                     "decorators": [],
                                     "name": "BJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4484,
                                   "end": 4487,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4484,
                                     "end": 4487,
                                     "decorators": [],
                                     "name": "BNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4505,
                                   "end": 4508,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4505,
                                     "end": 4508,
                                     "decorators": [],
                                     "name": "CRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4510,
                                   "end": 4513,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4510,
                                     "end": 4513,
                                     "decorators": [],
                                     "name": "CJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4515,
                                   "end": 4518,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4515,
                                     "end": 4518,
                                     "decorators": [],
                                     "name": "CNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4536,
                                   "end": 4539,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4536,
                                     "end": 4539,
                                     "decorators": [],
                                     "name": "RRF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4541,
                                   "end": 4544,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4541,
                                     "end": 4544,
                                     "decorators": [],
                                     "name": "RJF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4546,
                                   "end": 4549,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4546,
                                     "end": 4549,
                                     "decorators": [],
                                     "name": "RNF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -7197,7 +7964,8 @@ __ESTREE_TEST__:PASS:
                               "end": 4442,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -7213,13 +7981,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4562,
                                   "end": 4565,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4562,
                                     "end": 4565,
                                     "decorators": [],
                                     "name": "ARF",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -7230,25 +8000,29 @@ __ESTREE_TEST__:PASS:
                               "end": 4561,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 4569,
                             "end": 4572,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4569,
                               "end": 4572,
                               "decorators": [],
                               "name": "ARF",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -7289,156 +8063,180 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 4622,
                       "end": 4625,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4622,
                         "end": 4625,
                         "decorators": [],
                         "name": "ARF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4627,
                       "end": 4630,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4627,
                         "end": 4630,
                         "decorators": [],
                         "name": "AJF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4632,
                       "end": 4635,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4632,
                         "end": 4635,
                         "decorators": [],
                         "name": "ANF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4645,
                       "end": 4648,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4645,
                         "end": 4648,
                         "decorators": [],
                         "name": "BRF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4650,
                       "end": 4653,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4650,
                         "end": 4653,
                         "decorators": [],
                         "name": "BJF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4655,
                       "end": 4658,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4655,
                         "end": 4658,
                         "decorators": [],
                         "name": "BNF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4668,
                       "end": 4671,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4668,
                         "end": 4671,
                         "decorators": [],
                         "name": "CRF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4673,
                       "end": 4676,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4673,
                         "end": 4676,
                         "decorators": [],
                         "name": "CJF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4678,
                       "end": 4681,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4678,
                         "end": 4681,
                         "decorators": [],
                         "name": "CNF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4691,
                       "end": 4694,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4691,
                         "end": 4694,
                         "decorators": [],
                         "name": "RRF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4696,
                       "end": 4699,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4696,
                         "end": 4699,
                         "decorators": [],
                         "name": "RJF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 4701,
                       "end": 4704,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 4701,
                         "end": 4704,
                         "decorators": [],
                         "name": "RNF",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -7449,7 +8247,8 @@ __ESTREE_TEST__:PASS:
                   "end": 4621,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -7464,6 +8263,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4159,
                   "end": 4170,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4165,
@@ -7476,7 +8276,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4162,
                     "decorators": [],
                     "name": "ARF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7485,6 +8286,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4172,
                   "end": 4183,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4178,
@@ -7497,7 +8299,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4175,
                     "decorators": [],
                     "name": "AJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7506,6 +8309,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4185,
                   "end": 4196,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4191,
@@ -7518,7 +8322,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4188,
                     "decorators": [],
                     "name": "ANF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7527,6 +8332,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4206,
                   "end": 4217,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4212,
@@ -7539,7 +8345,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4209,
                     "decorators": [],
                     "name": "BRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7548,6 +8355,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4219,
                   "end": 4230,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4225,
@@ -7560,7 +8368,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4222,
                     "decorators": [],
                     "name": "BJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7569,6 +8378,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4232,
                   "end": 4243,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4238,
@@ -7581,7 +8391,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4235,
                     "decorators": [],
                     "name": "BNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7590,6 +8401,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4253,
                   "end": 4264,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4259,
@@ -7602,7 +8414,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4256,
                     "decorators": [],
                     "name": "CRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7611,6 +8424,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4266,
                   "end": 4277,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4272,
@@ -7623,7 +8437,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4269,
                     "decorators": [],
                     "name": "CJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7632,6 +8447,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4279,
                   "end": 4290,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4285,
@@ -7644,7 +8460,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4282,
                     "decorators": [],
                     "name": "CNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7653,6 +8470,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4300,
                   "end": 4311,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4306,
@@ -7665,7 +8483,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4303,
                     "decorators": [],
                     "name": "RRF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7674,6 +8493,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4313,
                   "end": 4324,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4319,
@@ -7686,7 +8506,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4316,
                     "decorators": [],
                     "name": "RJF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -7695,6 +8516,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4326,
                   "end": 4337,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4332,
@@ -7707,7 +8529,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4329,
                     "decorators": [],
                     "name": "RNF",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -7718,6 +8541,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 4711,
             "end": 5264,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -7725,7 +8549,8 @@ __ESTREE_TEST__:PASS:
               "end": 4715,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -7761,13 +8586,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4925,
                             "end": 4927,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4925,
                               "end": 4927,
                               "decorators": [],
                               "name": "TR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -7787,13 +8614,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4932,
                             "end": 4934,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4932,
                               "end": 4934,
                               "decorators": [],
                               "name": "UR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -7813,13 +8642,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 4939,
                             "end": 4941,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 4939,
                               "end": 4941,
                               "decorators": [],
                               "name": "VR",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -7834,7 +8665,8 @@ __ESTREE_TEST__:PASS:
                           "end": 4947,
                           "decorators": [],
                           "name": "s",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         },
                         "decorators": [],
                         "optional": false,
@@ -7850,17 +8682,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 4949,
                               "end": 4951,
+                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 4949,
                                 "end": 4951,
                                 "decorators": [],
                                 "name": "SR",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           }
-                        }
+                        },
+                        "value": null
                       }
                     ],
                     "returnType": {
@@ -7885,156 +8720,180 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 4970,
                                   "end": 4973,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4970,
                                     "end": 4973,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4975,
                                   "end": 4978,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4975,
                                     "end": 4978,
                                     "decorators": [],
                                     "name": "AJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 4980,
                                   "end": 4983,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 4980,
                                     "end": 4983,
                                     "decorators": [],
                                     "name": "AND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5001,
                                   "end": 5004,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5001,
                                     "end": 5004,
                                     "decorators": [],
                                     "name": "BRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5006,
                                   "end": 5009,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5006,
                                     "end": 5009,
                                     "decorators": [],
                                     "name": "BJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5011,
                                   "end": 5014,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5011,
                                     "end": 5014,
                                     "decorators": [],
                                     "name": "BND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5032,
                                   "end": 5035,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5032,
                                     "end": 5035,
                                     "decorators": [],
                                     "name": "CRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5037,
                                   "end": 5040,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5037,
                                     "end": 5040,
                                     "decorators": [],
                                     "name": "CJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5042,
                                   "end": 5045,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5042,
                                     "end": 5045,
                                     "decorators": [],
                                     "name": "CND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5063,
                                   "end": 5066,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5063,
                                     "end": 5066,
                                     "decorators": [],
                                     "name": "RRD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5068,
                                   "end": 5071,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5068,
                                     "end": 5071,
                                     "decorators": [],
                                     "name": "RJD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 {
                                   "type": "TSTypeReference",
                                   "start": 5073,
                                   "end": 5076,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5073,
                                     "end": 5076,
                                     "decorators": [],
                                     "name": "RND",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -8045,7 +8904,8 @@ __ESTREE_TEST__:PASS:
                               "end": 4969,
                               "decorators": [],
                               "name": "PromiseBase",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
@@ -8061,13 +8921,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 5089,
                                   "end": 5092,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 5089,
                                     "end": 5092,
                                     "decorators": [],
                                     "name": "ARD",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               ]
@@ -8078,25 +8940,29 @@ __ESTREE_TEST__:PASS:
                               "end": 5088,
                               "decorators": [],
                               "name": "Thenable",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           {
                             "type": "TSTypeReference",
                             "start": 5096,
                             "end": 5099,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 5096,
                               "end": 5099,
                               "decorators": [],
                               "name": "ARD",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         ]
                       }
-                    }
+                    },
+                    "typeParameters": null
                   }
                 }
               },
@@ -8155,156 +9021,180 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 5180,
                       "end": 5183,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5180,
                         "end": 5183,
                         "decorators": [],
                         "name": "ARD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5185,
                       "end": 5188,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5185,
                         "end": 5188,
                         "decorators": [],
                         "name": "AJD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5190,
                       "end": 5193,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5190,
                         "end": 5193,
                         "decorators": [],
                         "name": "AND",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5203,
                       "end": 5206,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5203,
                         "end": 5206,
                         "decorators": [],
                         "name": "BRD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5208,
                       "end": 5211,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5208,
                         "end": 5211,
                         "decorators": [],
                         "name": "BJD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5213,
                       "end": 5216,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5213,
                         "end": 5216,
                         "decorators": [],
                         "name": "BND",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5226,
                       "end": 5229,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5226,
                         "end": 5229,
                         "decorators": [],
                         "name": "CRD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5231,
                       "end": 5234,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5231,
                         "end": 5234,
                         "decorators": [],
                         "name": "CJD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5236,
                       "end": 5239,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5236,
                         "end": 5239,
                         "decorators": [],
                         "name": "CND",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5249,
                       "end": 5252,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5249,
                         "end": 5252,
                         "decorators": [],
                         "name": "RRD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5254,
                       "end": 5257,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5254,
                         "end": 5257,
                         "decorators": [],
                         "name": "RJD",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     },
                     {
                       "type": "TSTypeReference",
                       "start": 5259,
                       "end": 5262,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 5259,
                         "end": 5262,
                         "decorators": [],
                         "name": "RND",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -8315,7 +9205,8 @@ __ESTREE_TEST__:PASS:
                   "end": 5179,
                   "decorators": [],
                   "name": "PromiseBase",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -8330,6 +9221,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4716,
                   "end": 4727,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4722,
@@ -8342,7 +9234,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4719,
                     "decorators": [],
                     "name": "ARD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8351,6 +9244,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4729,
                   "end": 4740,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4735,
@@ -8363,7 +9257,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4732,
                     "decorators": [],
                     "name": "AJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8372,6 +9267,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4742,
                   "end": 4753,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4748,
@@ -8384,7 +9280,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4745,
                     "decorators": [],
                     "name": "AND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8393,6 +9290,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4763,
                   "end": 4774,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4769,
@@ -8405,7 +9303,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4766,
                     "decorators": [],
                     "name": "BRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8414,6 +9313,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4776,
                   "end": 4787,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4782,
@@ -8426,7 +9326,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4779,
                     "decorators": [],
                     "name": "BJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8435,6 +9336,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4789,
                   "end": 4800,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4795,
@@ -8447,7 +9349,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4792,
                     "decorators": [],
                     "name": "BND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8456,6 +9359,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4810,
                   "end": 4821,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4816,
@@ -8468,7 +9372,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4813,
                     "decorators": [],
                     "name": "CRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8477,6 +9382,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4823,
                   "end": 4834,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4829,
@@ -8489,7 +9395,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4826,
                     "decorators": [],
                     "name": "CJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8498,6 +9405,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4836,
                   "end": 4847,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4842,
@@ -8510,7 +9418,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4839,
                     "decorators": [],
                     "name": "CND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8519,6 +9428,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4857,
                   "end": 4868,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4863,
@@ -8531,7 +9441,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4860,
                     "decorators": [],
                     "name": "RRD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8540,6 +9451,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4870,
                   "end": 4881,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4876,
@@ -8552,7 +9464,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4873,
                     "decorators": [],
                     "name": "RJD",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 },
@@ -8561,6 +9474,7 @@ __ESTREE_TEST__:PASS:
                   "start": 4883,
                   "end": 4894,
                   "const": false,
+                  "constraint": null,
                   "default": {
                     "type": "TSNeverKeyword",
                     "start": 4889,
@@ -8573,7 +9487,8 @@ __ESTREE_TEST__:PASS:
                     "end": 4886,
                     "decorators": [],
                     "name": "RND",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   },
                   "out": false
                 }
@@ -8590,7 +9505,8 @@ __ESTREE_TEST__:PASS:
         "end": 125,
         "decorators": [],
         "name": "PromiseBase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -8602,6 +9518,8 @@ __ESTREE_TEST__:PASS:
             "start": 126,
             "end": 128,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8609,7 +9527,8 @@ __ESTREE_TEST__:PASS:
               "end": 128,
               "decorators": [],
               "name": "TR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8618,6 +9537,8 @@ __ESTREE_TEST__:PASS:
             "start": 130,
             "end": 132,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8625,7 +9546,8 @@ __ESTREE_TEST__:PASS:
               "end": 132,
               "decorators": [],
               "name": "TJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8634,6 +9556,8 @@ __ESTREE_TEST__:PASS:
             "start": 134,
             "end": 136,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8641,7 +9565,8 @@ __ESTREE_TEST__:PASS:
               "end": 136,
               "decorators": [],
               "name": "TN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8650,6 +9575,8 @@ __ESTREE_TEST__:PASS:
             "start": 142,
             "end": 144,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8657,7 +9584,8 @@ __ESTREE_TEST__:PASS:
               "end": 144,
               "decorators": [],
               "name": "UR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8666,6 +9594,8 @@ __ESTREE_TEST__:PASS:
             "start": 146,
             "end": 148,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8673,7 +9603,8 @@ __ESTREE_TEST__:PASS:
               "end": 148,
               "decorators": [],
               "name": "UJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8682,6 +9613,8 @@ __ESTREE_TEST__:PASS:
             "start": 150,
             "end": 152,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8689,7 +9622,8 @@ __ESTREE_TEST__:PASS:
               "end": 152,
               "decorators": [],
               "name": "UN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8698,6 +9632,8 @@ __ESTREE_TEST__:PASS:
             "start": 158,
             "end": 160,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8705,7 +9641,8 @@ __ESTREE_TEST__:PASS:
               "end": 160,
               "decorators": [],
               "name": "VR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8714,6 +9651,8 @@ __ESTREE_TEST__:PASS:
             "start": 162,
             "end": 164,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8721,7 +9660,8 @@ __ESTREE_TEST__:PASS:
               "end": 164,
               "decorators": [],
               "name": "VJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8730,6 +9670,8 @@ __ESTREE_TEST__:PASS:
             "start": 166,
             "end": 168,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8737,7 +9679,8 @@ __ESTREE_TEST__:PASS:
               "end": 168,
               "decorators": [],
               "name": "VN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8746,6 +9689,8 @@ __ESTREE_TEST__:PASS:
             "start": 174,
             "end": 176,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8753,7 +9698,8 @@ __ESTREE_TEST__:PASS:
               "end": 176,
               "decorators": [],
               "name": "SR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8762,6 +9708,8 @@ __ESTREE_TEST__:PASS:
             "start": 178,
             "end": 180,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8769,7 +9717,8 @@ __ESTREE_TEST__:PASS:
               "end": 180,
               "decorators": [],
               "name": "SJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8778,6 +9727,8 @@ __ESTREE_TEST__:PASS:
             "start": 182,
             "end": 184,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8785,7 +9736,8 @@ __ESTREE_TEST__:PASS:
               "end": 184,
               "decorators": [],
               "name": "SN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -8814,7 +9766,8 @@ __ESTREE_TEST__:PASS:
             "end": 5350,
             "decorators": [],
             "name": "PromiseBase",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
@@ -8825,117 +9778,135 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 5351,
                 "end": 5353,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5351,
                   "end": 5353,
                   "decorators": [],
                   "name": "TR",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5355,
                 "end": 5357,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5355,
                   "end": 5357,
                   "decorators": [],
                   "name": "TJ",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5359,
                 "end": 5361,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5359,
                   "end": 5361,
                   "decorators": [],
                   "name": "TN",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5367,
                 "end": 5369,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5367,
                   "end": 5369,
                   "decorators": [],
                   "name": "UR",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5371,
                 "end": 5373,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5371,
                   "end": 5373,
                   "decorators": [],
                   "name": "UJ",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5375,
                 "end": 5377,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5375,
                   "end": 5377,
                   "decorators": [],
                   "name": "UN",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5383,
                 "end": 5385,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5383,
                   "end": 5385,
                   "decorators": [],
                   "name": "VR",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5387,
                 "end": 5389,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5387,
                   "end": 5389,
                   "decorators": [],
                   "name": "VJ",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
                 "type": "TSTypeReference",
                 "start": 5391,
                 "end": 5393,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 5391,
                   "end": 5393,
                   "decorators": [],
                   "name": "VN",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               },
               {
@@ -8963,7 +9934,8 @@ __ESTREE_TEST__:PASS:
         "end": 5286,
         "decorators": [],
         "name": "Promise3",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -8975,6 +9947,8 @@ __ESTREE_TEST__:PASS:
             "start": 5287,
             "end": 5289,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8982,7 +9956,8 @@ __ESTREE_TEST__:PASS:
               "end": 5289,
               "decorators": [],
               "name": "TR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -8991,6 +9966,8 @@ __ESTREE_TEST__:PASS:
             "start": 5291,
             "end": 5293,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -8998,7 +9975,8 @@ __ESTREE_TEST__:PASS:
               "end": 5293,
               "decorators": [],
               "name": "TJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9007,6 +9985,8 @@ __ESTREE_TEST__:PASS:
             "start": 5295,
             "end": 5297,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9014,7 +9994,8 @@ __ESTREE_TEST__:PASS:
               "end": 5297,
               "decorators": [],
               "name": "TN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9023,6 +10004,8 @@ __ESTREE_TEST__:PASS:
             "start": 5303,
             "end": 5305,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9030,7 +10013,8 @@ __ESTREE_TEST__:PASS:
               "end": 5305,
               "decorators": [],
               "name": "UR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9039,6 +10023,8 @@ __ESTREE_TEST__:PASS:
             "start": 5307,
             "end": 5309,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9046,7 +10032,8 @@ __ESTREE_TEST__:PASS:
               "end": 5309,
               "decorators": [],
               "name": "UJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9055,6 +10042,8 @@ __ESTREE_TEST__:PASS:
             "start": 5311,
             "end": 5313,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9062,7 +10051,8 @@ __ESTREE_TEST__:PASS:
               "end": 5313,
               "decorators": [],
               "name": "UN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9071,6 +10061,8 @@ __ESTREE_TEST__:PASS:
             "start": 5319,
             "end": 5321,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9078,7 +10070,8 @@ __ESTREE_TEST__:PASS:
               "end": 5321,
               "decorators": [],
               "name": "VR",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9087,6 +10080,8 @@ __ESTREE_TEST__:PASS:
             "start": 5323,
             "end": 5325,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9094,7 +10089,8 @@ __ESTREE_TEST__:PASS:
               "end": 5325,
               "decorators": [],
               "name": "VJ",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           },
@@ -9103,6 +10099,8 @@ __ESTREE_TEST__:PASS:
             "start": 5327,
             "end": 5329,
             "const": false,
+            "constraint": null,
+            "default": null,
             "in": false,
             "name": {
               "type": "Identifier",
@@ -9110,7 +10108,8 @@ __ESTREE_TEST__:PASS:
               "end": 5329,
               "decorators": [],
               "name": "VN",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "out": false
           }
@@ -9128,7 +10127,8 @@ __ESTREE_TEST__:PASS:
         "end": 5431,
         "decorators": [],
         "name": "T",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
@@ -9157,13 +10157,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 5459,
                     "end": 5464,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 5459,
                       "end": 5464,
                       "decorators": [],
                       "name": "Error",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -9196,13 +10198,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 5500,
                     "end": 5507,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 5500,
                       "end": 5507,
                       "decorators": [],
                       "name": "Element",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -9218,7 +10222,8 @@ __ESTREE_TEST__:PASS:
                 "end": 5450,
                 "decorators": [],
                 "name": "Promise3",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               }
             }
           ]
@@ -9229,9 +10234,11 @@ __ESTREE_TEST__:PASS:
           "end": 5441,
           "decorators": [],
           "name": "Awaited",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         }
-      }
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

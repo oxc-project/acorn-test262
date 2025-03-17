@@ -16,7 +16,8 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "ElementRef",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSFunctionType",
@@ -43,13 +44,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 28,
                     "end": 39,
+                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 28,
                       "end": 39,
                       "decorators": [],
                       "name": "HTMLElement",
-                      "optional": false
+                      "optional": false,
+                      "typeAnnotation": null
                     }
                   },
                   {
@@ -71,8 +74,10 @@ __ESTREE_TEST__:PASS:
             "start": 51,
             "end": 55
           }
-        }
-      }
+        },
+        "typeParameters": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -85,7 +90,8 @@ __ESTREE_TEST__:PASS:
         "end": 73,
         "decorators": [],
         "name": "ThumbProps",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -96,6 +102,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 82,
             "end": 106,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -103,7 +110,8 @@ __ESTREE_TEST__:PASS:
               "end": 92,
               "decorators": [],
               "name": "elementRef",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -116,19 +124,22 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 95,
                 "end": 105,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 95,
                   "end": 105,
                   "decorators": [],
                   "name": "ElementRef",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "TSTypeAliasDeclaration",
@@ -141,7 +152,8 @@ __ESTREE_TEST__:PASS:
         "end": 129,
         "decorators": [],
         "name": "ComponentProps",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
@@ -152,6 +164,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 138,
             "end": 163,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -159,7 +172,8 @@ __ESTREE_TEST__:PASS:
               "end": 149,
               "decorators": [],
               "name": "thumbYProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -172,13 +186,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 152,
                 "end": 162,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 152,
                   "end": 162,
                   "decorators": [],
                   "name": "ThumbProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -187,6 +203,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 168,
             "end": 192,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -194,7 +211,8 @@ __ESTREE_TEST__:PASS:
               "end": 179,
               "decorators": [],
               "name": "thumbXProps",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -207,19 +225,22 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 181,
                 "end": 191,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 181,
                   "end": 191,
                   "decorators": [],
                   "name": "ThumbProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
           }
         ]
-      }
+      },
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -235,6 +256,7 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 218,
             "end": 241,
+            "accessibility": null,
             "computed": false,
             "declare": false,
             "decorators": [],
@@ -245,7 +267,8 @@ __ESTREE_TEST__:PASS:
               "end": 223,
               "decorators": [],
               "name": "props",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -259,13 +282,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 226,
                 "end": 240,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 226,
                   "end": 240,
                   "decorators": [],
                   "name": "ComponentProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             },
@@ -286,12 +311,14 @@ __ESTREE_TEST__:PASS:
               "end": 269,
               "decorators": [],
               "name": "thumbYElementRef",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
+            "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
               "start": 272,
@@ -306,6 +333,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 311,
                     "end": 411,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 311,
@@ -351,7 +379,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 328,
                                     "decorators": [],
                                     "name": "props",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "optional": false,
@@ -361,7 +390,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 340,
                                   "decorators": [],
                                   "name": "thumbYProps",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -372,7 +402,8 @@ __ESTREE_TEST__:PASS:
                               "end": 352,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -397,7 +428,8 @@ __ESTREE_TEST__:PASS:
                             "end": 409,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -431,7 +463,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 381,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -441,7 +474,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 393,
                                 "decorators": [],
                                 "name": "thumbYProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -452,10 +486,12 @@ __ESTREE_TEST__:PASS:
                             "end": 405,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -463,6 +499,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 421,
                     "end": 523,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 421,
@@ -508,7 +545,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 439,
                                     "decorators": [],
                                     "name": "props",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 },
                                 "optional": false,
@@ -518,7 +556,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 451,
                                   "decorators": [],
                                   "name": "thumbYProps",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -529,7 +568,8 @@ __ESTREE_TEST__:PASS:
                               "end": 463,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -554,7 +594,8 @@ __ESTREE_TEST__:PASS:
                             "end": 521,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -588,7 +629,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 493,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -598,7 +640,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 505,
                                 "decorators": [],
                                 "name": "thumbYProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -609,10 +652,12 @@ __ESTREE_TEST__:PASS:
                             "end": 517,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -620,6 +665,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 533,
                     "end": 638,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 533,
@@ -669,7 +715,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 552,
                                       "decorators": [],
                                       "name": "props",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   },
                                   "optional": false,
@@ -679,7 +726,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 565,
                                     "decorators": [],
                                     "name": "thumbYProps",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -690,7 +738,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 577,
                                 "decorators": [],
                                 "name": "elementRef",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -716,7 +765,8 @@ __ESTREE_TEST__:PASS:
                             "end": 636,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -750,7 +800,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 608,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -760,7 +811,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 620,
                                 "decorators": [],
                                 "name": "thumbYProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -771,10 +823,12 @@ __ESTREE_TEST__:PASS:
                             "end": 632,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -782,6 +836,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 648,
                     "end": 746,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 648,
@@ -823,7 +878,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 665,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -833,7 +889,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 677,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -843,7 +900,8 @@ __ESTREE_TEST__:PASS:
                               "end": 688,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -868,7 +926,8 @@ __ESTREE_TEST__:PASS:
                             "end": 744,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -898,7 +957,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 717,
                                 "decorators": [],
                                 "name": "props",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -908,7 +968,8 @@ __ESTREE_TEST__:PASS:
                               "end": 729,
                               "decorators": [],
                               "name": "thumbXProps",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "optional": false,
@@ -918,10 +979,12 @@ __ESTREE_TEST__:PASS:
                             "end": 740,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -929,6 +992,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 756,
                     "end": 856,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 756,
@@ -970,7 +1034,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 773,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -980,7 +1045,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 785,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -990,7 +1056,8 @@ __ESTREE_TEST__:PASS:
                               "end": 796,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -1015,7 +1082,8 @@ __ESTREE_TEST__:PASS:
                             "end": 854,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -1045,7 +1113,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 826,
                                 "decorators": [],
                                 "name": "props",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -1055,7 +1124,8 @@ __ESTREE_TEST__:PASS:
                               "end": 839,
                               "decorators": [],
                               "name": "thumbXProps",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "optional": false,
@@ -1065,10 +1135,12 @@ __ESTREE_TEST__:PASS:
                             "end": 850,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -1076,6 +1148,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 866,
                     "end": 966,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 866,
@@ -1117,7 +1190,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 883,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -1127,7 +1201,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 895,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -1137,7 +1212,8 @@ __ESTREE_TEST__:PASS:
                               "end": 906,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -1162,7 +1238,8 @@ __ESTREE_TEST__:PASS:
                             "end": 964,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -1192,7 +1269,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 936,
                                 "decorators": [],
                                 "name": "props",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -1202,7 +1280,8 @@ __ESTREE_TEST__:PASS:
                               "end": 948,
                               "decorators": [],
                               "name": "thumbXProps",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "optional": false,
@@ -1212,10 +1291,12 @@ __ESTREE_TEST__:PASS:
                             "end": 960,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -1223,6 +1304,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 976,
                     "end": 1080,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 976,
@@ -1264,7 +1346,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 993,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -1274,7 +1357,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1005,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -1284,7 +1368,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1016,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -1309,7 +1394,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1078,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -1347,7 +1433,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 1047,
                                     "decorators": [],
                                     "name": "props",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -1358,7 +1445,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1061,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -1369,10 +1457,12 @@ __ESTREE_TEST__:PASS:
                             "end": 1074,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -1380,6 +1470,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 1090,
                     "end": 1196,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 1090,
@@ -1421,7 +1512,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 1108,
                                   "decorators": [],
                                   "name": "props",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               },
                               "optional": false,
@@ -1431,7 +1523,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1120,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             },
                             "optional": false,
@@ -1441,7 +1534,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1132,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -1466,7 +1560,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1194,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -1504,7 +1599,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 1163,
                                     "decorators": [],
                                     "name": "props",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -1515,7 +1611,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1177,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -1526,10 +1623,12 @@ __ESTREE_TEST__:PASS:
                             "end": 1190,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   },
@@ -1537,6 +1636,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 1206,
                     "end": 1312,
+                    "directive": null,
                     "expression": {
                       "type": "LogicalExpression",
                       "start": 1206,
@@ -1586,7 +1686,8 @@ __ESTREE_TEST__:PASS:
                                       "end": 1223,
                                       "decorators": [],
                                       "name": "props",
-                                      "optional": false
+                                      "optional": false,
+                                      "typeAnnotation": null
                                     }
                                   }
                                 },
@@ -1597,7 +1698,8 @@ __ESTREE_TEST__:PASS:
                                   "end": 1236,
                                   "decorators": [],
                                   "name": "thumbXProps",
-                                  "optional": false
+                                  "optional": false,
+                                  "typeAnnotation": null
                                 }
                               }
                             },
@@ -1608,7 +1710,8 @@ __ESTREE_TEST__:PASS:
                               "end": 1248,
                               "decorators": [],
                               "name": "elementRef",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           },
                           "operator": "typeof",
@@ -1633,7 +1736,8 @@ __ESTREE_TEST__:PASS:
                             "end": 1310,
                             "decorators": [],
                             "name": "ref",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         ],
                         "callee": {
@@ -1671,7 +1775,8 @@ __ESTREE_TEST__:PASS:
                                     "end": 1279,
                                     "decorators": [],
                                     "name": "props",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               },
@@ -1682,7 +1787,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 1293,
                                 "decorators": [],
                                 "name": "thumbXProps",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           },
@@ -1693,10 +1799,12 @@ __ESTREE_TEST__:PASS:
                             "end": 1306,
                             "decorators": [],
                             "name": "elementRef",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "typeArguments": null
                       }
                     }
                   }
@@ -1726,13 +1834,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 278,
                           "end": 289,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 278,
                             "end": 289,
                             "decorators": [],
                             "name": "HTMLElement",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         {
@@ -1744,7 +1854,9 @@ __ESTREE_TEST__:PASS:
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -1757,10 +1869,13 @@ __ESTREE_TEST__:PASS:
         "end": 211,
         "decorators": [],
         "name": "Component",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

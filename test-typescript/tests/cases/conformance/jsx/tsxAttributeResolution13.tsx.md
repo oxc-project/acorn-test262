@@ -25,14 +25,18 @@ __ESTREE_TEST__:PASS:
         "end": 13,
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
-      "params": []
+      "params": [],
+      "returnType": null,
+      "typeParameters": null
     },
     {
       "type": "ExpressionStatement",
       "start": 20,
       "end": 33,
+      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 20,
@@ -60,7 +64,8 @@ __ESTREE_TEST__:PASS:
             "end": 25,
             "name": "Test"
           },
-          "selfClosing": false
+          "selfClosing": false,
+          "typeArguments": null
         }
       }
     }

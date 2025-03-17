@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 42,
               "end": 75,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [
@@ -37,7 +38,8 @@ __ESTREE_TEST__:PASS:
                     "end": 51,
                     "decorators": [],
                     "name": "Decorate",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               ],
@@ -48,7 +50,8 @@ __ESTREE_TEST__:PASS:
                 "end": 60,
                 "decorators": [],
                 "name": "member",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
@@ -62,13 +65,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 62,
                   "end": 74,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 62,
                     "end": 74,
                     "decorators": [],
                     "name": "TypeVariable",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               },
@@ -84,10 +89,12 @@ __ESTREE_TEST__:PASS:
           "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
         "superClass": null,
+        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 14,
@@ -98,6 +105,7 @@ __ESTREE_TEST__:PASS:
               "start": 15,
               "end": 36,
               "const": false,
+              "constraint": null,
               "default": {
                 "type": "TSStringKeyword",
                 "start": 30,
@@ -110,7 +118,8 @@ __ESTREE_TEST__:PASS:
                 "end": 27,
                 "decorators": [],
                 "name": "TypeVariable",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "out": false
             }

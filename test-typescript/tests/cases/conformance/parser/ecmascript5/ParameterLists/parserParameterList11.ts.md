@@ -9,6 +9,7 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 17,
+      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
@@ -35,12 +36,17 @@ __ESTREE_TEST__:PASS:
               "end": 7,
               "decorators": [],
               "name": "arg",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "decorators": [],
-            "optional": true
+            "optional": true,
+            "typeAnnotation": null,
+            "value": null
           }
-        ]
+        ],
+        "returnType": null,
+        "typeParameters": null
       }
     }
   ],

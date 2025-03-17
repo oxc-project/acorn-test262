@@ -99,6 +99,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 72,
               "end": 81,
+              "accessibility": null,
               "computed": true,
               "declare": false,
               "decorators": [],
@@ -109,12 +110,14 @@ __ESTREE_TEST__:PASS:
                 "end": 74,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 78,
@@ -127,6 +130,7 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 86,
               "end": 95,
+              "accessibility": null,
               "computed": true,
               "declare": false,
               "decorators": [],
@@ -137,12 +141,14 @@ __ESTREE_TEST__:PASS:
                 "end": 88,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 92,
@@ -161,10 +167,13 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "decorators": [],
           "name": "Test",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

@@ -30,13 +30,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 21,
                 "end": 36,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 21,
                   "end": 36,
                   "decorators": [],
                   "name": "WizardStepProps",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -66,6 +68,7 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 62,
               "end": 164,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -74,7 +77,8 @@ __ESTREE_TEST__:PASS:
                 "end": 71,
                 "decorators": [],
                 "name": "steps",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "get",
               "optional": false,
@@ -114,7 +118,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 101,
                                 "decorators": [],
                                 "name": "wizard",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "init",
                               "method": false,
@@ -133,13 +138,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 111,
                                   "end": 117,
+                                  "typeArguments": null,
                                   "typeName": {
                                     "type": "Identifier",
                                     "start": 111,
                                     "end": 117,
                                     "decorators": [],
                                     "name": "Wizard",
-                                    "optional": false
+                                    "optional": false,
+                                    "typeAnnotation": null
                                   }
                                 }
                               }
@@ -154,7 +161,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 133,
                                 "decorators": [],
                                 "name": "props",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ]
@@ -163,13 +171,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 144,
                           "end": 159,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 144,
                             "end": 159,
                             "decorators": [],
                             "name": "WizardStepProps",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -180,7 +190,9 @@ __ESTREE_TEST__:PASS:
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -193,10 +205,13 @@ __ESTREE_TEST__:PASS:
           "end": 57,
           "decorators": [],
           "name": "Wizard",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -220,6 +235,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 205,
               "end": 221,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -227,7 +243,8 @@ __ESTREE_TEST__:PASS:
                 "end": 211,
                 "decorators": [],
                 "name": "wizard",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -240,13 +257,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 214,
                   "end": 220,
+                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 214,
                     "end": 220,
                     "decorators": [],
                     "name": "Wizard",
-                    "optional": false
+                    "optional": false,
+                    "typeAnnotation": null
                   }
                 }
               }
@@ -261,8 +280,10 @@ __ESTREE_TEST__:PASS:
           "end": 200,
           "decorators": [],
           "name": "WizardStepProps",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

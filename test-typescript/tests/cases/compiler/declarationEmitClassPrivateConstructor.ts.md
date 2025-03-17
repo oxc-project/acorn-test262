@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 26,
         "decorators": [],
         "name": "PrivateInterface",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "ExportNamedDeclaration",
@@ -54,7 +56,8 @@ __ESTREE_TEST__:PASS:
                 "end": 85,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -91,18 +94,22 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 92,
                         "end": 108,
+                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 92,
                           "end": 108,
                           "decorators": [],
                           "name": "PrivateInterface",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -115,10 +122,13 @@ __ESTREE_TEST__:PASS:
           "end": 59,
           "decorators": [],
           "name": "ExportedClass1",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -152,7 +162,8 @@ __ESTREE_TEST__:PASS:
                 "end": 170,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -196,13 +207,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 185,
                           "end": 201,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 185,
                             "end": 201,
                             "decorators": [],
                             "name": "PrivateInterface",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -210,7 +223,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -223,10 +238,13 @@ __ESTREE_TEST__:PASS:
           "end": 144,
           "decorators": [],
           "name": "ExportedClass2",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -260,7 +278,8 @@ __ESTREE_TEST__:PASS:
                 "end": 263,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -304,13 +323,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 278,
                           "end": 294,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 278,
                             "end": 294,
                             "decorators": [],
                             "name": "PrivateInterface",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -346,7 +367,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -359,10 +382,13 @@ __ESTREE_TEST__:PASS:
           "end": 237,
           "decorators": [],
           "name": "ExportedClass3",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,
@@ -396,7 +422,8 @@ __ESTREE_TEST__:PASS:
                 "end": 375,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -440,13 +467,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 390,
                           "end": 406,
+                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 390,
                             "end": 406,
                             "decorators": [],
                             "name": "PrivateInterface",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         }
                       }
@@ -482,7 +511,9 @@ __ESTREE_TEST__:PASS:
                     "readonly": false,
                     "static": false
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -495,10 +526,13 @@ __ESTREE_TEST__:PASS:
           "end": 349,
           "decorators": [],
           "name": "ExportedClass4",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

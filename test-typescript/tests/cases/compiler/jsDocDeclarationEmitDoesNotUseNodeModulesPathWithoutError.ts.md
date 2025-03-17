@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
           "end": 27,
           "decorators": [],
           "name": "LionRequestInit",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "typeAnnotation": {
           "type": "TSImportType",
@@ -46,10 +47,12 @@ __ESTREE_TEST__:PASS:
             "end": 73,
             "decorators": [],
             "name": "LionRequestInit",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "typeArguments": null
-        }
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,
@@ -85,6 +88,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 39,
               "end": 60,
+              "accessibility": null,
               "computed": false,
               "key": {
                 "type": "Identifier",
@@ -92,7 +96,8 @@ __ESTREE_TEST__:PASS:
                 "end": 43,
                 "decorators": [],
                 "name": "body",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": true,
               "readonly": false,
@@ -115,13 +120,15 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 53,
                       "end": 59,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 53,
                         "end": 59,
                         "decorators": [],
                         "name": "Object",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   ]
@@ -138,8 +145,10 @@ __ESTREE_TEST__:PASS:
           "end": 32,
           "decorators": [],
           "name": "LionRequestInit",
-          "optional": false
-        }
+          "optional": false,
+          "typeAnnotation": null
+        },
+        "typeParameters": null
       },
       "exportKind": "type",
       "source": null,

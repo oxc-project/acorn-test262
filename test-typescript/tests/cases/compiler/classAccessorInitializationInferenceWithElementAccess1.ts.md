@@ -24,6 +24,7 @@ __ESTREE_TEST__:PASS:
               "type": "AccessorProperty",
               "start": 23,
               "end": 34,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -34,18 +35,21 @@ __ESTREE_TEST__:PASS:
                 "end": 33,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             },
             {
               "type": "AccessorProperty",
               "start": 39,
               "end": 50,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -56,18 +60,21 @@ __ESTREE_TEST__:PASS:
                 "end": 49,
                 "decorators": [],
                 "name": "y",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             },
             {
               "type": "AccessorProperty",
               "start": 55,
               "end": 66,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -78,18 +85,21 @@ __ESTREE_TEST__:PASS:
                 "end": 65,
                 "decorators": [],
                 "name": "z",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "optional": false,
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             },
             {
               "type": "AccessorProperty",
               "start": 72,
               "end": 83,
+              "accessibility": null,
               "computed": false,
               "declare": false,
               "decorators": [],
@@ -105,12 +115,14 @@ __ESTREE_TEST__:PASS:
               "override": false,
               "readonly": false,
               "static": false,
+              "typeAnnotation": null,
               "value": null
             },
             {
               "type": "MethodDefinition",
               "start": 89,
               "end": 238,
+              "accessibility": null,
               "computed": false,
               "decorators": [],
               "key": {
@@ -119,7 +131,8 @@ __ESTREE_TEST__:PASS:
                 "end": 100,
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "typeAnnotation": null
               },
               "kind": "constructor",
               "optional": false,
@@ -139,6 +152,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 125,
                       "end": 144,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 125,
@@ -174,7 +188,8 @@ __ESTREE_TEST__:PASS:
                               "end": 142,
                               "decorators": [],
                               "name": "seed",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ]
                         }
@@ -184,6 +199,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 153,
                       "end": 174,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 153,
@@ -224,7 +240,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 171,
                                 "decorators": [],
                                 "name": "seed",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               },
                               "kind": "init",
                               "method": false,
@@ -236,7 +253,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 171,
                                 "decorators": [],
                                 "name": "seed",
-                                "optional": false
+                                "optional": false,
+                                "typeAnnotation": null
                               }
                             }
                           ]
@@ -247,6 +265,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 183,
                       "end": 205,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 183,
@@ -282,7 +301,8 @@ __ESTREE_TEST__:PASS:
                               "end": 202,
                               "decorators": [],
                               "name": "seed",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ],
                           "quasis": [
@@ -314,6 +334,7 @@ __ESTREE_TEST__:PASS:
                       "type": "ExpressionStatement",
                       "start": 215,
                       "end": 232,
+                      "directive": null,
                       "expression": {
                         "type": "AssignmentExpression",
                         "start": 215,
@@ -349,7 +370,8 @@ __ESTREE_TEST__:PASS:
                               "end": 230,
                               "decorators": [],
                               "name": "seed",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           ]
                         }
@@ -380,7 +402,9 @@ __ESTREE_TEST__:PASS:
                       }
                     }
                   }
-                ]
+                ],
+                "returnType": null,
+                "typeParameters": null
               }
             }
           ]
@@ -393,10 +417,13 @@ __ESTREE_TEST__:PASS:
           "end": 16,
           "decorators": [],
           "name": "Cls",
-          "optional": false
+          "optional": false,
+          "typeAnnotation": null
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "superTypeArguments": null,
+        "typeParameters": null
       },
       "exportKind": "value",
       "source": null,

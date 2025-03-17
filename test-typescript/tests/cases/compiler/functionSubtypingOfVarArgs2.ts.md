@@ -30,7 +30,8 @@ __ESTREE_TEST__:PASS:
               "end": 40,
               "decorators": [],
               "name": "_listeners",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "override": false,
@@ -64,7 +65,8 @@ __ESTREE_TEST__:PASS:
                             "end": 52,
                             "decorators": [],
                             "name": "args",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "decorators": [],
                           "optional": false,
@@ -82,7 +84,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 57
                               }
                             }
-                          }
+                          },
+                          "value": null
                         }
                       ],
                       "returnType": {
@@ -94,7 +97,8 @@ __ESTREE_TEST__:PASS:
                           "start": 62,
                           "end": 66
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   ]
                 }
@@ -111,6 +115,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 83,
             "end": 176,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -119,7 +124,8 @@ __ESTREE_TEST__:PASS:
               "end": 86,
               "decorators": [],
               "name": "add",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -139,6 +145,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 139,
                     "end": 170,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 139,
@@ -150,7 +157,8 @@ __ESTREE_TEST__:PASS:
                           "end": 168,
                           "decorators": [],
                           "name": "listener",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -175,7 +183,8 @@ __ESTREE_TEST__:PASS:
                             "end": 154,
                             "decorators": [],
                             "name": "_listeners",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           }
                         },
                         "optional": false,
@@ -185,10 +194,12 @@ __ESTREE_TEST__:PASS:
                           "end": 159,
                           "decorators": [],
                           "name": "push",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -224,7 +235,8 @@ __ESTREE_TEST__:PASS:
                             "end": 105,
                             "decorators": [],
                             "name": "args",
-                            "optional": false
+                            "optional": false,
+                            "typeAnnotation": null
                           },
                           "decorators": [],
                           "optional": false,
@@ -242,7 +254,8 @@ __ESTREE_TEST__:PASS:
                                 "end": 110
                               }
                             }
-                          }
+                          },
+                          "value": null
                         }
                       ],
                       "returnType": {
@@ -254,7 +267,8 @@ __ESTREE_TEST__:PASS:
                           "start": 117,
                           "end": 121
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
@@ -268,7 +282,8 @@ __ESTREE_TEST__:PASS:
                   "start": 124,
                   "end": 128
                 }
-              }
+              },
+              "typeParameters": null
             }
           }
         ]
@@ -281,10 +296,13 @@ __ESTREE_TEST__:PASS:
         "end": 15,
         "decorators": [],
         "name": "EventBase",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "superTypeArguments": null,
+      "typeParameters": null
     },
     {
       "type": "ClassDeclaration",
@@ -300,6 +318,7 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 222,
             "end": 317,
+            "accessibility": null,
             "computed": false,
             "decorators": [],
             "key": {
@@ -308,7 +327,8 @@ __ESTREE_TEST__:PASS:
               "end": 225,
               "decorators": [],
               "name": "add",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "kind": "method",
             "optional": false,
@@ -328,6 +348,7 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 291,
                     "end": 311,
+                    "directive": null,
                     "expression": {
                       "type": "CallExpression",
                       "start": 291,
@@ -339,7 +360,8 @@ __ESTREE_TEST__:PASS:
                           "end": 309,
                           "decorators": [],
                           "name": "listener",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       ],
                       "callee": {
@@ -359,10 +381,12 @@ __ESTREE_TEST__:PASS:
                           "end": 300,
                           "decorators": [],
                           "name": "add",
-                          "optional": false
+                          "optional": false,
+                          "typeAnnotation": null
                         }
                       },
-                      "optional": false
+                      "optional": false,
+                      "typeArguments": null
                     }
                   }
                 ]
@@ -434,11 +458,14 @@ __ESTREE_TEST__:PASS:
                           "start": 274,
                           "end": 278
                         }
-                      }
+                      },
+                      "typeParameters": null
                     }
                   }
                 }
-              ]
+              ],
+              "returnType": null,
+              "typeParameters": null
             }
           }
         ]
@@ -451,7 +478,8 @@ __ESTREE_TEST__:PASS:
         "end": 197,
         "decorators": [],
         "name": "StringEvent",
-        "optional": false
+        "optional": false,
+        "typeAnnotation": null
       },
       "implements": [],
       "superClass": {
@@ -460,8 +488,11 @@ __ESTREE_TEST__:PASS:
         "end": 215,
         "decorators": [],
         "name": "EventBase",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "superTypeArguments": null,
+      "typeParameters": null
     }
   ],
   "sourceType": "script",

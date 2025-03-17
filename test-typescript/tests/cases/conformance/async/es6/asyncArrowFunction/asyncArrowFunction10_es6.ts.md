@@ -21,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "typeAnnotation": null
           },
           "init": {
             "type": "ArrowFunctionExpression",
@@ -58,13 +59,15 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 95,
                             "end": 100,
+                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 95,
                               "end": 100,
                               "decorators": [],
                               "name": "await",
-                              "optional": false
+                              "optional": false,
+                              "typeAnnotation": null
                             }
                           }
                         }
@@ -107,10 +110,12 @@ __ESTREE_TEST__:PASS:
                   "end": 27,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "typeParameters": null
           }
         }
       ],

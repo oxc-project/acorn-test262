@@ -18,6 +18,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 27,
             "end": 91,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -25,7 +26,8 @@ __ESTREE_TEST__:PASS:
               "end": 52,
               "decorators": [],
               "name": "initialLeftPageTransforms",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": true,
             "readonly": false,
@@ -70,17 +72,20 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 74,
                       "end": 88,
+                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 74,
                         "end": 88,
                         "decorators": [],
                         "name": "NamedTransform",
-                        "optional": false
+                        "optional": false,
+                        "typeAnnotation": null
                       }
                     }
                   }
-                }
+                },
+                "typeParameters": null
               }
             }
           }
@@ -94,8 +99,10 @@ __ESTREE_TEST__:PASS:
         "end": 20,
         "decorators": [],
         "name": "IBookStyle",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -110,6 +117,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 126,
             "end": 154,
+            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
@@ -140,13 +148,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 142,
                 "end": 153,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 142,
                   "end": 153,
                   "decorators": [],
                   "name": "Transform3D",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -161,8 +171,10 @@ __ESTREE_TEST__:PASS:
         "end": 119,
         "decorators": [],
         "name": "NamedTransform",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "TSInterfaceDeclaration",
@@ -177,6 +189,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 186,
             "end": 204,
+            "accessibility": null,
             "computed": false,
             "key": {
               "type": "Identifier",
@@ -184,7 +197,8 @@ __ESTREE_TEST__:PASS:
               "end": 195,
               "decorators": [],
               "name": "cachedCss",
-              "optional": false
+              "optional": false,
+              "typeAnnotation": null
             },
             "optional": false,
             "readonly": false,
@@ -210,8 +224,10 @@ __ESTREE_TEST__:PASS:
         "end": 179,
         "decorators": [],
         "name": "Transform3D",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     },
     {
       "type": "VariableDeclaration",
@@ -238,13 +254,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 219,
                 "end": 229,
+                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 219,
                   "end": 229,
                   "decorators": [],
                   "name": "IBookStyle",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 }
               }
             }
@@ -265,7 +283,8 @@ __ESTREE_TEST__:PASS:
                   "end": 263,
                   "decorators": [],
                   "name": "initialLeftPageTransforms",
-                  "optional": false
+                  "optional": false,
+                  "typeAnnotation": null
                 },
                 "kind": "init",
                 "method": false,
@@ -348,7 +367,9 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     }
-                  ]
+                  ],
+                  "returnType": null,
+                  "typeParameters": null
                 }
               }
             ]

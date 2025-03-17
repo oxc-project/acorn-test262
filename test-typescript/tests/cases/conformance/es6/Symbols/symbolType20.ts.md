@@ -23,8 +23,10 @@ __ESTREE_TEST__:PASS:
         "end": 32,
         "decorators": [],
         "name": "symbol",
-        "optional": false
-      }
+        "optional": false,
+        "typeAnnotation": null
+      },
+      "typeParameters": null
     }
   ],
   "sourceType": "script",
