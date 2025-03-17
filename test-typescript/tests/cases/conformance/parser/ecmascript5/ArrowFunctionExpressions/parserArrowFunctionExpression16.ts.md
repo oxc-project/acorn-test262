@@ -9,57 +9,57 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 53,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 53,
-        "alternate": {
+        "test": {
           "type": "Literal",
-          "start": 49,
-          "end": 53,
-          "raw": "null",
-          "value": null
+          "start": 0,
+          "end": 4,
+          "value": true,
+          "raw": "true"
         },
         "consequent": {
           "type": "ConditionalExpression",
           "start": 7,
           "end": 46,
-          "alternate": {
+          "test": {
             "type": "Literal",
-            "start": 42,
-            "end": 46,
-            "raw": "null",
-            "value": null
+            "start": 7,
+            "end": 12,
+            "value": false,
+            "raw": "false"
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
             "start": 15,
             "end": 39,
-            "async": false,
-            "body": {
-              "type": "Identifier",
-              "start": 34,
-              "end": 39,
-              "decorators": [],
-              "name": "param",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "id": null,
             "expression": true,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 16,
                 "end": 21,
-                "decorators": [],
                 "name": "param",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
+            "body": {
+              "type": "Identifier",
+              "start": 34,
+              "end": 39,
+              "name": "param",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 22,
@@ -69,25 +69,25 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 30
               }
-            },
-            "typeParameters": null
+            }
           },
-          "test": {
+          "alternate": {
             "type": "Literal",
-            "start": 7,
-            "end": 12,
-            "raw": "false",
-            "value": false
+            "start": 42,
+            "end": 46,
+            "value": null,
+            "raw": "null"
           }
         },
-        "test": {
+        "alternate": {
           "type": "Literal",
-          "start": 0,
-          "end": 4,
-          "raw": "true",
-          "value": true
+          "start": 49,
+          "end": 53,
+          "value": null,
+          "raw": "null"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 16,
       "end": 40,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 23,
@@ -19,53 +18,64 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 29,
             "end": 39,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 29,
               "end": 30,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "BinaryExpression",
               "start": 33,
               "end": 39,
-              "operator": "+",
               "left": {
                 "type": "Literal",
                 "start": 33,
                 "end": 34,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
+              "operator": "+",
               "right": {
                 "type": "ObjectExpression",
                 "start": 37,
                 "end": 39,
                 "properties": []
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 174,
       "end": 215,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 181,
         "end": 215,
+        "id": {
+          "type": "Identifier",
+          "start": 191,
+          "end": 196,
+          "name": "Aleph",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 197,
@@ -75,20 +85,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 203,
               "end": 213,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 203,
                 "end": 204,
-                "decorators": [],
                 "name": "q",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 204,
@@ -98,37 +106,37 @@ __ESTREE_TEST__:PASS:
                   "start": 206,
                   "end": 212
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 191,
-          "end": 196,
-          "decorators": [],
-          "name": "Aleph",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 217,
       "end": 313,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 224,
         "end": 313,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 230,
+          "end": 233,
+          "name": "Bet",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 251,
@@ -138,24 +146,30 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 257,
               "end": 274,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 257,
                 "end": 258,
-                "decorators": [],
                 "name": "q",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": {
+                "type": "Literal",
+                "start": 269,
+                "end": 274,
+                "value": "lol",
+                "raw": "\"lol\""
+              },
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 258,
@@ -166,27 +180,12 @@ __ESTREE_TEST__:PASS:
                   "end": 266
                 }
               },
-              "value": {
-                "type": "Literal",
-                "start": 269,
-                "end": 274,
-                "raw": "\"lol\"",
-                "value": "lol"
-              }
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 230,
-          "end": 233,
-          "decorators": [],
-          "name": "Bet",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [
           {
             "type": "TSClassImplements",
@@ -196,21 +195,22 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 245,
               "end": 250,
-              "decorators": [],
               "name": "Aleph",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "typeArguments": null
           }
         ],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

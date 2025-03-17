@@ -9,26 +9,26 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 35,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 24,
-          "decorators": [],
           "name": "sayHello",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [],
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 26,
@@ -38,12 +38,12 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 34
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -66,14 +66,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 27,
-            "decorators": [],
             "name": "anything",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 22,
@@ -83,13 +80,16 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 27
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -99,10 +99,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 38,
         "end": 46,
-        "decorators": [],
         "name": "anything",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -126,14 +126,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 27,
-            "decorators": [],
             "name": "anything",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 22,
@@ -143,13 +140,16 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 27
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -159,10 +159,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 38,
         "end": 46,
-        "decorators": [],
         "name": "anything",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -181,15 +181,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 35,
-        "raw": "\"./hybrid\"",
-        "value": "./hybrid"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -199,37 +190,37 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 17,
-            "decorators": [],
             "name": "sayHello",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 17,
-            "decorators": [],
             "name": "sayHello",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 35,
+        "value": "./hybrid",
+        "raw": "\"./hybrid\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 37,
       "end": 63,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 54,
-        "end": 62,
-        "raw": "\"./path\"",
-        "value": "./path"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -239,27 +230,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 44,
             "end": 48,
-            "decorators": [],
             "name": "path",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 54,
+        "end": 62,
+        "value": "./path",
+        "raw": "\"./path\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 64,
       "end": 91,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 84,
-        "end": 90,
-        "raw": "\"./fs\"",
-        "value": "./fs"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -269,66 +260,75 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 76,
             "end": 78,
-            "decorators": [],
             "name": "fs",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 84,
+        "end": 90,
+        "value": "./fs",
+        "raw": "\"./fs\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 93,
       "end": 98,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 93,
         "end": 97,
-        "decorators": [],
         "name": "path",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 99,
       "end": 110,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 99,
         "end": 109,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 99,
           "end": 107,
-          "decorators": [],
           "name": "sayHello",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 111,
       "end": 114,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 111,
         "end": 113,
-        "decorators": [],
         "name": "fs",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

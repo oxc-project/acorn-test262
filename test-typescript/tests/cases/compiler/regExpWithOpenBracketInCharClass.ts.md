@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 137,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 23,
-            "decorators": [],
             "name": "regexes",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -34,19 +31,21 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 15,
                   "end": 21,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 15,
                     "end": 21,
-                    "decorators": [],
                     "name": "RegExp",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -57,41 +56,42 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 30,
                 "end": 35,
+                "value": null,
                 "raw": "/[[]/",
                 "regex": {
                   "flags": "",
                   "pattern": "[[]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 49,
                 "end": 55,
+                "value": null,
                 "raw": "/[[]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "[[]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 68,
                 "end": 74,
+                "value": null,
                 "raw": "/[[]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "[[]"
-                },
-                "value": null
+                }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

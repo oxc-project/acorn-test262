@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 3,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
         "end": 3,
-        "decorators": [],
         "name": "let",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

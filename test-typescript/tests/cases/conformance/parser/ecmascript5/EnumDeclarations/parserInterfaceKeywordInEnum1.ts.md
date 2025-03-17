@@ -9,19 +9,48 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": "use strict",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 12,
-        "raw": "\"use strict\"",
-        "value": "use strict"
-      }
+        "value": "use strict",
+        "raw": "\"use strict\""
+      },
+      "directive": "use strict"
     },
     {
       "type": "TSEnumDeclaration",
       "start": 15,
       "end": 42,
+      "id": {
+        "type": "Identifier",
+        "start": 20,
+        "end": 23,
+        "name": "Bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 30,
+          "end": 39,
+          "id": {
+            "type": "Identifier",
+            "start": 30,
+            "end": 39,
+            "name": "interface",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 24,
@@ -31,30 +60,19 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 30,
             "end": 39,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 30,
               "end": 39,
-              "decorators": [],
               "name": "interface",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 20,
-        "end": 23,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

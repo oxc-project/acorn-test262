@@ -9,12 +9,60 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 96,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 27,
+          "name": "assertNever",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 28,
+            "end": 36,
+            "name": "x",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 29,
+              "end": 36,
+              "typeAnnotation": {
+                "type": "TSNeverKeyword",
+                "start": 31,
+                "end": 36
+              }
+            },
+            "decorators": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 38,
+            "end": 49,
+            "name": "msg",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 41,
+              "end": 49,
+              "typeAnnotation": {
+                "type": "TSStringKeyword",
+                "start": 43,
+                "end": 49
+              }
+            },
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 51,
@@ -28,100 +76,52 @@ __ESTREE_TEST__:PASS:
                 "type": "NewExpression",
                 "start": 63,
                 "end": 93,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 67,
+                  "end": 72,
+                  "name": "Error",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
                     "start": 73,
                     "end": 92,
-                    "operator": "+",
                     "left": {
                       "type": "Literal",
                       "start": 73,
                       "end": 86,
-                      "raw": "\"Unexpected \"",
-                      "value": "Unexpected "
+                      "value": "Unexpected ",
+                      "raw": "\"Unexpected \""
                     },
+                    "operator": "+",
                     "right": {
                       "type": "Identifier",
                       "start": 89,
                       "end": 92,
-                      "decorators": [],
                       "name": "msg",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     }
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 67,
-                  "end": 72,
-                  "decorators": [],
-                  "name": "Error",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "typeArguments": null
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 27,
-          "decorators": [],
-          "name": "assertNever",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 28,
-            "end": 36,
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 29,
-              "end": 36,
-              "typeAnnotation": {
-                "type": "TSNeverKeyword",
-                "start": 31,
-                "end": 36
-              }
-            }
-          },
-          {
-            "type": "Identifier",
-            "start": 38,
-            "end": 49,
-            "decorators": [],
-            "name": "msg",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 41,
-              "end": 49,
-              "typeAnnotation": {
-                "type": "TSStringKeyword",
-                "start": 43,
-                "end": 49
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -139,15 +139,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 33,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -157,23 +148,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "assertNevar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "assertNevar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 33,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

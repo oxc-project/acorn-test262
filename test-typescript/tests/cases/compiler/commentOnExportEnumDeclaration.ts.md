@@ -9,11 +9,71 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 20,
       "end": 53,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 27,
         "end": 53,
+        "id": {
+          "type": "Identifier",
+          "start": 32,
+          "end": 37,
+          "name": "Color",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 44,
+            "end": 45,
+            "id": {
+              "type": "Identifier",
+              "start": 44,
+              "end": 45,
+              "name": "r",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          },
+          {
+            "type": "TSEnumMember",
+            "start": 47,
+            "end": 48,
+            "id": {
+              "type": "Identifier",
+              "start": 47,
+              "end": 48,
+              "name": "g",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          },
+          {
+            "type": "TSEnumMember",
+            "start": 50,
+            "end": 51,
+            "id": {
+              "type": "Identifier",
+              "start": 50,
+              "end": 51,
+              "name": "b",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          }
+        ],
+        "const": false,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 38,
@@ -23,67 +83,57 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 44,
               "end": 45,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 44,
                 "end": 45,
-                "decorators": [],
                 "name": "r",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 47,
               "end": 48,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 47,
                 "end": 48,
-                "decorators": [],
                 "name": "g",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 50,
               "end": 51,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 50,
                 "end": 51,
-                "decorators": [],
                 "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
-        },
-        "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 32,
-          "end": 37,
-          "decorators": [],
-          "name": "Color",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

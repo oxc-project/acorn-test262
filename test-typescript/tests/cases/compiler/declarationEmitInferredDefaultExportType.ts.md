@@ -18,80 +18,80 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 30,
             "end": 37,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 30,
               "end": 33,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "ArrayExpression",
               "start": 35,
               "end": 37,
               "elements": []
-            }
+            },
+            "kind": "init",
+            "optional": false
           },
           {
             "type": "Property",
             "start": 41,
             "end": 55,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 41,
               "end": 44,
-              "decorators": [],
               "name": "bar",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Identifier",
               "start": 46,
               "end": 55,
-              "decorators": [],
               "name": "undefined",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "kind": "init",
+            "optional": false
           },
           {
             "type": "Property",
             "start": 59,
             "end": 68,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 59,
               "end": 62,
-              "decorators": [],
               "name": "baz",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 64,
               "end": 68,
-              "raw": "null",
-              "value": null
-            }
+              "value": null,
+              "raw": "null"
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },

@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 12,
-        "decorators": [],
         "name": "React",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -27,15 +26,27 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "raw": "'react'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 34,
       "end": 110,
+      "id": {
+        "type": "Identifier",
+        "start": 44,
+        "end": 54,
+        "name": "ButtonProp",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 55,
@@ -45,20 +56,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 61,
             "end": 71,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 61,
               "end": 62,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 62,
@@ -68,26 +77,26 @@ __ESTREE_TEST__:PASS:
                 "start": 64,
                 "end": 70
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 76,
             "end": 86,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 76,
               "end": 77,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 77,
@@ -97,26 +106,26 @@ __ESTREE_TEST__:PASS:
                 "start": 79,
                 "end": 85
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 91,
             "end": 108,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 91,
               "end": 99,
-              "decorators": [],
               "name": "children",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 99,
@@ -125,39 +134,63 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 101,
                 "end": 107,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 101,
                   "end": 107,
-                  "decorators": [],
                   "name": "Button",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 44,
-        "end": 54,
-        "decorators": [],
-        "name": "ButtonProp",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 112,
       "end": 360,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 118,
+        "end": 124,
+        "name": "Button",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 133,
+        "end": 148,
+        "object": {
+          "type": "Identifier",
+          "start": 133,
+          "end": 138,
+          "name": "React",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 139,
+          "end": 148,
+          "name": "Component",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 166,
@@ -167,27 +200,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 172,
             "end": 358,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 172,
               "end": 178,
-              "decorators": [],
               "name": "render",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 178,
               "end": 358,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 181,
@@ -201,72 +234,6 @@ __ESTREE_TEST__:PASS:
                       "type": "JSXElement",
                       "start": 245,
                       "end": 350,
-                      "children": [
-                        {
-                          "type": "JSXText",
-                          "start": 288,
-                          "end": 301,
-                          "raw": "\n            ",
-                          "value": "\n            "
-                        },
-                        {
-                          "type": "JSXElement",
-                          "start": 301,
-                          "end": 323,
-                          "children": [
-                            {
-                              "type": "JSXText",
-                              "start": 306,
-                              "end": 317,
-                              "raw": "Hello World",
-                              "value": "Hello World"
-                            }
-                          ],
-                          "closingElement": {
-                            "type": "JSXClosingElement",
-                            "start": 317,
-                            "end": 323,
-                            "name": {
-                              "type": "JSXIdentifier",
-                              "start": 319,
-                              "end": 322,
-                              "name": "div"
-                            }
-                          },
-                          "openingElement": {
-                            "type": "JSXOpeningElement",
-                            "start": 301,
-                            "end": 306,
-                            "attributes": [],
-                            "name": {
-                              "type": "JSXIdentifier",
-                              "start": 302,
-                              "end": 305,
-                              "name": "div"
-                            },
-                            "selfClosing": false,
-                            "typeArguments": null
-                          }
-                        },
-                        {
-                          "type": "JSXText",
-                          "start": 323,
-                          "end": 336,
-                          "raw": "\n            ",
-                          "value": "\n            "
-                        }
-                      ],
-                      "closingElement": {
-                        "type": "JSXClosingElement",
-                        "start": 336,
-                        "end": 350,
-                        "name": {
-                          "type": "JSXIdentifier",
-                          "start": 338,
-                          "end": 349,
-                          "name": "InnerButton"
-                        }
-                      },
                       "openingElement": {
                         "type": "JSXOpeningElement",
                         "start": 245,
@@ -280,22 +247,22 @@ __ESTREE_TEST__:PASS:
                               "type": "MemberExpression",
                               "start": 262,
                               "end": 272,
-                              "computed": false,
                               "object": {
                                 "type": "ThisExpression",
                                 "start": 262,
                                 "end": 266
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 267,
                                 "end": 272,
-                                "decorators": [],
                                 "name": "props",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
                             }
                           },
                           {
@@ -312,8 +279,8 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 283,
                               "end": 287,
-                              "raw": "\"hi\"",
-                              "value": "hi"
+                              "value": "hi",
+                              "raw": "\"hi\""
                             }
                           }
                         ],
@@ -325,59 +292,93 @@ __ESTREE_TEST__:PASS:
                         },
                         "selfClosing": false,
                         "typeArguments": null
-                      }
+                      },
+                      "closingElement": {
+                        "type": "JSXClosingElement",
+                        "start": 336,
+                        "end": 350,
+                        "name": {
+                          "type": "JSXIdentifier",
+                          "start": 338,
+                          "end": 349,
+                          "name": "InnerButton"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "JSXText",
+                          "start": 288,
+                          "end": 301,
+                          "value": "\n            ",
+                          "raw": "\n            "
+                        },
+                        {
+                          "type": "JSXElement",
+                          "start": 301,
+                          "end": 323,
+                          "openingElement": {
+                            "type": "JSXOpeningElement",
+                            "start": 301,
+                            "end": 306,
+                            "attributes": [],
+                            "name": {
+                              "type": "JSXIdentifier",
+                              "start": 302,
+                              "end": 305,
+                              "name": "div"
+                            },
+                            "selfClosing": false,
+                            "typeArguments": null
+                          },
+                          "closingElement": {
+                            "type": "JSXClosingElement",
+                            "start": 317,
+                            "end": 323,
+                            "name": {
+                              "type": "JSXIdentifier",
+                              "start": 319,
+                              "end": 322,
+                              "name": "div"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "JSXText",
+                              "start": 306,
+                              "end": 317,
+                              "value": "Hello World",
+                              "raw": "Hello World"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "JSXText",
+                          "start": 323,
+                          "end": 336,
+                          "value": "\n            ",
+                          "raw": "\n            "
+                        }
+                      ]
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 118,
-        "end": 124,
-        "decorators": [],
-        "name": "Button",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "MemberExpression",
-        "start": 133,
-        "end": 148,
-        "computed": false,
-        "object": {
-          "type": "Identifier",
-          "start": 133,
-          "end": 138,
-          "decorators": [],
-          "name": "React",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "property": {
-          "type": "Identifier",
-          "start": 139,
-          "end": 148,
-          "decorators": [],
-          "name": "Component",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
+      "abstract": false,
+      "declare": false,
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
         "start": 148,
@@ -387,16 +388,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 149,
             "end": 159,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 149,
               "end": 159,
-              "decorators": [],
               "name": "ButtonProp",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           },
           {
             "type": "TSAnyKeyword",
@@ -404,13 +405,23 @@ __ESTREE_TEST__:PASS:
             "end": 164
           }
         ]
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 362,
       "end": 402,
+      "id": {
+        "type": "Identifier",
+        "start": 372,
+        "end": 387,
+        "name": "InnerButtonProp",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 388,
@@ -420,20 +431,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 391,
             "end": 400,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 391,
               "end": 392,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 392,
@@ -443,28 +452,52 @@ __ESTREE_TEST__:PASS:
                 "start": 394,
                 "end": 400
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 372,
-        "end": 387,
-        "decorators": [],
-        "name": "InnerButtonProp",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 404,
       "end": 521,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 410,
+        "end": 421,
+        "name": "InnerButton",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 430,
+        "end": 445,
+        "object": {
+          "type": "Identifier",
+          "start": 430,
+          "end": 435,
+          "name": "React",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 436,
+          "end": 445,
+          "name": "Component",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 468,
@@ -474,27 +507,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 471,
             "end": 519,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 471,
               "end": 477,
-              "decorators": [],
               "name": "render",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 477,
               "end": 519,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 480,
@@ -508,26 +541,6 @@ __ESTREE_TEST__:PASS:
                       "type": "JSXElement",
                       "start": 492,
                       "end": 514,
-                      "children": [
-                        {
-                          "type": "JSXText",
-                          "start": 500,
-                          "end": 505,
-                          "raw": "Hello",
-                          "value": "Hello"
-                        }
-                      ],
-                      "closingElement": {
-                        "type": "JSXClosingElement",
-                        "start": 505,
-                        "end": 514,
-                        "name": {
-                          "type": "JSXIdentifier",
-                          "start": 507,
-                          "end": 513,
-                          "name": "button"
-                        }
-                      },
                       "openingElement": {
                         "type": "JSXOpeningElement",
                         "start": 492,
@@ -541,59 +554,47 @@ __ESTREE_TEST__:PASS:
                         },
                         "selfClosing": false,
                         "typeArguments": null
-                      }
+                      },
+                      "closingElement": {
+                        "type": "JSXClosingElement",
+                        "start": 505,
+                        "end": 514,
+                        "name": {
+                          "type": "JSXIdentifier",
+                          "start": 507,
+                          "end": 513,
+                          "name": "button"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "JSXText",
+                          "start": 500,
+                          "end": 505,
+                          "value": "Hello",
+                          "raw": "Hello"
+                        }
+                      ]
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 410,
-        "end": 421,
-        "decorators": [],
-        "name": "InnerButton",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "MemberExpression",
-        "start": 430,
-        "end": 445,
-        "computed": false,
-        "object": {
-          "type": "Identifier",
-          "start": 430,
-          "end": 435,
-          "decorators": [],
-          "name": "React",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "property": {
-          "type": "Identifier",
-          "start": 436,
-          "end": 445,
-          "decorators": [],
-          "name": "Component",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
+      "abstract": false,
+      "declare": false,
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
         "start": 445,
@@ -603,16 +604,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 446,
             "end": 461,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 446,
               "end": 461,
-              "decorators": [],
               "name": "InnerButtonProp",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           },
           {
             "type": "TSAnyKeyword",
@@ -620,8 +621,7 @@ __ESTREE_TEST__:PASS:
             "end": 466
           }
         ]
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

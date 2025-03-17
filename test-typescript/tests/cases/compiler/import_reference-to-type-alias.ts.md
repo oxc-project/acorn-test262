@@ -9,11 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 196,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 7,
         "end": 196,
+        "id": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 17,
+          "name": "App",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 18,
@@ -23,11 +31,19 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 24,
               "end": 194,
-              "attributes": [],
               "declaration": {
                 "type": "TSModuleDeclaration",
                 "start": 31,
                 "end": 194,
+                "id": {
+                  "type": "Identifier",
+                  "start": 38,
+                  "end": 46,
+                  "name": "Services",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "body": {
                   "type": "TSModuleBlock",
                   "start": 47,
@@ -37,12 +53,20 @@ __ESTREE_TEST__:PASS:
                       "type": "ExportNamedDeclaration",
                       "start": 57,
                       "end": 188,
-                      "attributes": [],
                       "declaration": {
                         "type": "ClassDeclaration",
                         "start": 64,
                         "end": 188,
-                        "abstract": false,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 70,
+                          "end": 82,
+                          "name": "UserServices",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "superClass": null,
                         "body": {
                           "type": "ClassBody",
                           "start": 83,
@@ -52,27 +76,27 @@ __ESTREE_TEST__:PASS:
                               "type": "MethodDefinition",
                               "start": 97,
                               "end": 178,
-                              "accessibility": "public",
+                              "static": false,
                               "computed": false,
-                              "decorators": [],
                               "key": {
                                 "type": "Identifier",
                                 "start": 104,
                                 "end": 115,
-                                "decorators": [],
                                 "name": "getUserName",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
                               "kind": "method",
-                              "optional": false,
-                              "override": false,
-                              "static": false,
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 115,
                                 "end": 178,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
                                 "async": false,
+                                "params": [],
                                 "body": {
                                   "type": "BlockStatement",
                                   "start": 126,
@@ -86,17 +110,14 @@ __ESTREE_TEST__:PASS:
                                         "type": "Literal",
                                         "start": 151,
                                         "end": 163,
-                                        "raw": "\"Bill Gates\"",
-                                        "value": "Bill Gates"
+                                        "value": "Bill Gates",
+                                        "raw": "\"Bill Gates\""
                                       }
                                     }
                                   ]
                                 },
                                 "declare": false,
-                                "expression": false,
-                                "generator": false,
-                                "id": null,
-                                "params": [],
+                                "typeParameters": null,
                                 "returnType": {
                                   "type": "TSTypeAnnotation",
                                   "start": 117,
@@ -106,69 +127,48 @@ __ESTREE_TEST__:PASS:
                                     "start": 119,
                                     "end": 125
                                   }
-                                },
-                                "typeParameters": null
-                              }
+                                }
+                              },
+                              "decorators": [],
+                              "override": false,
+                              "optional": false,
+                              "accessibility": "public"
                             }
                           ]
                         },
-                        "declare": false,
                         "decorators": [],
-                        "id": {
-                          "type": "Identifier",
-                          "start": 70,
-                          "end": 82,
-                          "decorators": [],
-                          "name": "UserServices",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
+                        "typeParameters": null,
                         "implements": [],
-                        "superClass": null,
-                        "superTypeArguments": null,
-                        "typeParameters": null
+                        "abstract": false,
+                        "declare": false,
+                        "superTypeArguments": null
                       },
-                      "exportKind": "value",
+                      "specifiers": [],
                       "source": null,
-                      "specifiers": []
+                      "attributes": [],
+                      "exportKind": "value"
                     }
                   ]
                 },
+                "kind": "module",
                 "declare": false,
-                "global": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 38,
-                  "end": 46,
-                  "decorators": [],
-                  "name": "Services",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "kind": "module"
+                "global": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "attributes": [],
+              "exportKind": "value"
             }
           ]
         },
+        "kind": "module",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 17,
-          "decorators": [],
-          "name": "App",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "module"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -190,12 +190,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 12,
-        "decorators": [],
         "name": "appJs",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -204,10 +203,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 30,
-          "raw": "\"file1\"",
-          "value": "file1"
+          "value": "file1",
+          "raw": "\"file1\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -217,12 +217,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 40,
         "end": 48,
-        "decorators": [],
         "name": "Services",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 51,
@@ -235,31 +234,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 51,
             "end": 56,
-            "decorators": [],
             "name": "appJs",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 57,
             "end": 60,
-            "decorators": [],
             "name": "App",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 61,
           "end": 69,
-          "decorators": [],
           "name": "Services",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -270,76 +270,76 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 75,
           "end": 120,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 75,
             "end": 76,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 79,
             "end": 120,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 79,
               "end": 118,
-              "computed": false,
               "object": {
                 "type": "NewExpression",
                 "start": 79,
                 "end": 106,
-                "arguments": [],
                 "callee": {
                   "type": "MemberExpression",
                   "start": 83,
                   "end": 104,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 83,
                     "end": 91,
-                    "decorators": [],
                     "name": "Services",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 92,
                     "end": 104,
-                    "decorators": [],
                     "name": "UserServices",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
+                "arguments": [],
                 "typeArguments": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 107,
                 "end": 118,
-                "decorators": [],
                 "name": "getUserName",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",

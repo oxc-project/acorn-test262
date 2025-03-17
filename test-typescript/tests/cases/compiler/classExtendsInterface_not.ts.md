@@ -9,50 +9,50 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 27,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "C",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "MemberExpression",
+        "start": 16,
+        "end": 24,
+        "object": {
+          "type": "Literal",
+          "start": 16,
+          "end": 18,
+          "value": "",
+          "raw": "\"\""
+        },
+        "property": {
+          "type": "Identifier",
+          "start": 19,
+          "end": 24,
+          "name": "bogus",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 25,
         "end": 27,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "MemberExpression",
-        "start": 16,
-        "end": 24,
-        "computed": false,
-        "object": {
-          "type": "Literal",
-          "start": 16,
-          "end": 18,
-          "raw": "\"\"",
-          "value": ""
-        },
-        "optional": false,
-        "property": {
-          "type": "Identifier",
-          "start": 19,
-          "end": 24,
-          "decorators": [],
-          "name": "bogus",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

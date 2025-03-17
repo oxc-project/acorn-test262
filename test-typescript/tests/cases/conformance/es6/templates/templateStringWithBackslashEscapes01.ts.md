@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 7,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 7,
             "end": 8,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -34,18 +33,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 11,
                 "end": 24,
-                "tail": true,
                 "value": {
                   "cooked": "helloworld",
                   "raw": "hello\\world"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -56,15 +56,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 30,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 30,
             "end": 31,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -76,18 +75,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 34,
                 "end": 48,
-                "tail": true,
                 "value": {
                   "cooked": "hello\\world",
                   "raw": "hello\\\\world"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -98,15 +98,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 54,
           "end": 73,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
             "end": 55,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -118,18 +117,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 58,
                 "end": 73,
-                "tail": true,
                 "value": {
                   "cooked": "hello\\world",
                   "raw": "hello\\\\\\world"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -140,15 +140,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 79,
           "end": 99,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 79,
             "end": 80,
-            "decorators": [],
             "name": "d",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -160,18 +159,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 83,
                 "end": 99,
-                "tail": true,
                 "value": {
                   "cooked": "hello\\\\world",
                   "raw": "hello\\\\\\\\world"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

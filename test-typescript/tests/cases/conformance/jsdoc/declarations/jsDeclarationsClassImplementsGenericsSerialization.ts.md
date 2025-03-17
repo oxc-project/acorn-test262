@@ -9,100 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 64,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 64,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 28,
-          "end": 64,
-          "body": [
-            {
-              "type": "TSMethodSignature",
-              "start": 34,
-              "end": 62,
-              "accessibility": null,
-              "computed": false,
-              "key": {
-                "type": "Identifier",
-                "start": 34,
-                "end": 40,
-                "decorators": [],
-                "name": "encode",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "method",
-              "optional": false,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 41,
-                  "end": 49,
-                  "decorators": [],
-                  "name": "value",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 46,
-                    "end": 49,
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 48,
-                      "end": 49,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 48,
-                        "end": 49,
-                        "decorators": [],
-                        "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                }
-              ],
-              "readonly": false,
-              "returnType": {
-                "type": "TSTypeAnnotation",
-                "start": 50,
-                "end": 62,
-                "typeAnnotation": {
-                  "type": "TSTypeReference",
-                  "start": 52,
-                  "end": 62,
-                  "typeArguments": null,
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 52,
-                    "end": 62,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              },
-              "static": false,
-              "typeParameters": null
-            }
-          ]
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 17,
           "end": 24,
-          "decorators": [],
           "name": "Encoder",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "extends": [],
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 24,
@@ -112,27 +32,107 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 25,
               "end": 26,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 25,
                 "end": 26,
-                "decorators": [],
                 "name": "T",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "out": false
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 28,
+          "end": 64,
+          "body": [
+            {
+              "type": "TSMethodSignature",
+              "start": 34,
+              "end": 62,
+              "key": {
+                "type": "Identifier",
+                "start": 34,
+                "end": 40,
+                "name": "encode",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false,
+              "kind": "method",
+              "typeParameters": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 41,
+                  "end": 49,
+                  "name": "value",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 46,
+                    "end": 49,
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 48,
+                      "end": 49,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 48,
+                        "end": 49,
+                        "name": "T",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
+              "returnType": {
+                "type": "TSTypeAnnotation",
+                "start": 50,
+                "end": 62,
+                "typeAnnotation": {
+                  "type": "TSTypeReference",
+                  "start": 52,
+                  "end": 62,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 52,
+                    "end": 62,
+                    "name": "Uint8Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
+                }
+              },
+              "accessibility": null,
+              "readonly": false,
+              "static": false
+            }
+          ]
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 56,
       "end": 101,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 63,
@@ -19,59 +18,70 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 69,
             "end": 100,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 69,
               "end": 72,
-              "decorators": [],
               "name": "SYM",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "CallExpression",
               "start": 75,
               "end": 100,
+              "callee": {
+                "type": "Identifier",
+                "start": 75,
+                "end": 81,
+                "name": "Symbol",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 82,
                   "end": 99,
-                  "raw": "'a unique symbol'",
-                  "value": "a unique symbol"
+                  "value": "a unique symbol",
+                  "raw": "'a unique symbol'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 75,
-                "end": 81,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 103,
       "end": 163,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 110,
         "end": 163,
+        "id": {
+          "type": "Identifier",
+          "start": 120,
+          "end": 121,
+          "name": "I",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 122,
@@ -81,20 +91,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 126,
               "end": 139,
-              "accessibility": null,
               "computed": true,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 127,
                 "end": 130,
-                "decorators": [],
                 "name": "SYM",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 131,
@@ -107,25 +115,24 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 133,
                     "end": 138,
-                    "raw": "'sym'",
-                    "value": "sym"
+                    "value": "sym",
+                    "raw": "'sym'"
                   }
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             },
             {
               "type": "TSIndexSignature",
               "start": 142,
               "end": 161,
-              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
                   "start": 143,
                   "end": 152,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 144,
@@ -135,11 +142,11 @@ __ESTREE_TEST__:PASS:
                       "start": 146,
                       "end": 152
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 153,
@@ -152,30 +159,23 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 155,
                     "end": 160,
-                    "raw": "'str'",
-                    "value": "str"
+                    "value": "str",
+                    "raw": "'str'"
                   }
                 }
-              }
+              },
+              "readonly": false,
+              "static": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 120,
-          "end": 121,
-          "decorators": [],
-          "name": "I",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "VariableDeclaration",
@@ -186,14 +186,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 169,
           "end": 190,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 169,
             "end": 173,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 170,
@@ -202,18 +199,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 172,
                 "end": 173,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 172,
                   "end": 173,
-                  "decorators": [],
                   "name": "I",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -224,34 +223,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 177,
                 "end": 189,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
                   "start": 178,
                   "end": 181,
-                  "decorators": [],
                   "name": "SYM",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 184,
                   "end": 189,
-                  "raw": "'sym'",
-                  "value": "sym"
-                }
+                  "value": "sym",
+                  "raw": "'sym'"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -262,14 +262,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 209,
           "end": 230,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 209,
             "end": 213,
-            "decorators": [],
             "name": "b",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 210,
@@ -278,18 +275,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 212,
                 "end": 213,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 212,
                   "end": 213,
-                  "decorators": [],
                   "name": "I",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -300,34 +299,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 217,
                 "end": 229,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
                   "start": 218,
                   "end": 221,
-                  "decorators": [],
                   "name": "SYM",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 224,
                   "end": 229,
-                  "raw": "'str'",
-                  "value": "str"
-                }
+                  "value": "str",
+                  "raw": "'str'"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

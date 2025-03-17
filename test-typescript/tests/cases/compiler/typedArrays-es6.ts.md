@@ -14,50 +14,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 40,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 18,
-            "decorators": [],
             "name": "float32Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 21,
             "end": 40,
+            "callee": {
+              "type": "Identifier",
+              "start": 25,
+              "end": 37,
+              "name": "Float32Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 38,
                 "end": 39,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 25,
-              "end": 37,
-              "decorators": [],
-              "name": "Float32Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 42,
       "end": 60,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 42,
@@ -71,14 +70,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 46,
               "end": 58,
-              "decorators": [],
               "name": "float32Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -89,50 +89,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 68,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 68,
             "end": 80,
-            "decorators": [],
             "name": "float64Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 83,
             "end": 102,
+            "callee": {
+              "type": "Identifier",
+              "start": 87,
+              "end": 99,
+              "name": "Float64Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 100,
                 "end": 101,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 87,
-              "end": 99,
-              "decorators": [],
-              "name": "Float64Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 104,
       "end": 122,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 104,
@@ -146,14 +145,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 108,
               "end": 120,
-              "decorators": [],
               "name": "float64Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -164,50 +164,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 130,
           "end": 160,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 130,
             "end": 140,
-            "decorators": [],
             "name": "int16Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 143,
             "end": 160,
+            "callee": {
+              "type": "Identifier",
+              "start": 147,
+              "end": 157,
+              "name": "Int16Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 158,
                 "end": 159,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 147,
-              "end": 157,
-              "decorators": [],
-              "name": "Int16Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 162,
       "end": 178,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 162,
@@ -221,14 +220,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 166,
               "end": 176,
-              "decorators": [],
               "name": "int16Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -239,50 +239,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 186,
           "end": 216,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 186,
             "end": 196,
-            "decorators": [],
             "name": "int32Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 199,
             "end": 216,
+            "callee": {
+              "type": "Identifier",
+              "start": 203,
+              "end": 213,
+              "name": "Int32Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 214,
                 "end": 215,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 203,
-              "end": 213,
-              "decorators": [],
-              "name": "Int32Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 218,
       "end": 234,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 218,
@@ -296,14 +295,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 222,
               "end": 232,
-              "decorators": [],
               "name": "int32Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -314,50 +314,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 242,
           "end": 270,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 242,
             "end": 251,
-            "decorators": [],
             "name": "int8Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 254,
             "end": 270,
+            "callee": {
+              "type": "Identifier",
+              "start": 258,
+              "end": 267,
+              "name": "Int8Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 268,
                 "end": 269,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 258,
-              "end": 267,
-              "decorators": [],
-              "name": "Int8Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 272,
       "end": 287,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 272,
@@ -371,14 +370,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 276,
               "end": 285,
-              "decorators": [],
               "name": "int8Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -389,42 +389,41 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 295,
           "end": 320,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 295,
             "end": 303,
-            "decorators": [],
             "name": "nodeList",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 306,
             "end": 320,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 310,
               "end": 318,
-              "decorators": [],
               "name": "NodeList",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 322,
       "end": 336,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 322,
@@ -438,14 +437,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 326,
               "end": 334,
-              "decorators": [],
               "name": "nodeList",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -456,50 +456,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 344,
           "end": 376,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 344,
             "end": 355,
-            "decorators": [],
             "name": "uint16Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 358,
             "end": 376,
+            "callee": {
+              "type": "Identifier",
+              "start": 362,
+              "end": 373,
+              "name": "Uint16Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 374,
                 "end": 375,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 362,
-              "end": 373,
-              "decorators": [],
-              "name": "Uint16Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 378,
       "end": 395,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 378,
@@ -513,14 +512,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 382,
               "end": 393,
-              "decorators": [],
               "name": "uint16Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -531,50 +531,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 403,
           "end": 435,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 403,
             "end": 414,
-            "decorators": [],
             "name": "uint32Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 417,
             "end": 435,
+            "callee": {
+              "type": "Identifier",
+              "start": 421,
+              "end": 432,
+              "name": "Uint32Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 433,
                 "end": 434,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 421,
-              "end": 432,
-              "decorators": [],
-              "name": "Uint32Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 437,
       "end": 454,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 437,
@@ -588,14 +587,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 441,
               "end": 452,
-              "decorators": [],
               "name": "uint32Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -606,50 +606,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 462,
           "end": 492,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 462,
             "end": 472,
-            "decorators": [],
             "name": "uint8Array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 475,
             "end": 492,
+            "callee": {
+              "type": "Identifier",
+              "start": 479,
+              "end": 489,
+              "name": "Uint8Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 490,
                 "end": 491,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 479,
-              "end": 489,
-              "decorators": [],
-              "name": "Uint8Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 494,
       "end": 510,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 494,
@@ -663,14 +662,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 498,
               "end": 508,
-              "decorators": [],
               "name": "uint8Array",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -681,50 +681,49 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 518,
           "end": 562,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 518,
             "end": 535,
-            "decorators": [],
             "name": "uint8ClampedArray",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 538,
             "end": 562,
+            "callee": {
+              "type": "Identifier",
+              "start": 542,
+              "end": 559,
+              "name": "Uint8ClampedArray",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 560,
                 "end": 561,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 542,
-              "end": 559,
-              "decorators": [],
-              "name": "Uint8ClampedArray",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 564,
       "end": 587,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 564,
@@ -738,14 +737,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 568,
               "end": 585,
-              "decorators": [],
               "name": "uint8ClampedArray",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

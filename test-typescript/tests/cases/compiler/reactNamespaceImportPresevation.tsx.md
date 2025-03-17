@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 65,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 29,
+        "value": "my-React-Lib",
+        "raw": "\"my-React-Lib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 30,
@@ -24,14 +30,11 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 40,
                 "end": 46,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 40,
                   "end": 46,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 41,
@@ -41,13 +44,16 @@ __ESTREE_TEST__:PASS:
                       "start": 43,
                       "end": 46
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -57,23 +63,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 61,
               "end": 62,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 29,
-        "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -91,15 +91,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 42,
-        "raw": "\"my-React-Lib\"",
-        "value": "my-React-Lib"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -109,13 +100,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 22,
-            "decorators": [],
             "name": "myReactLib",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 42,
+        "value": "my-React-Lib",
+        "raw": "\"my-React-Lib\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -126,14 +126,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 80,
           "end": 88,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 80,
             "end": 88,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 83,
@@ -143,25 +140,25 @@ __ESTREE_TEST__:PASS:
                 "start": 85,
                 "end": 88
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 91,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 91,
         "end": 102,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 91,
@@ -188,8 +185,11 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

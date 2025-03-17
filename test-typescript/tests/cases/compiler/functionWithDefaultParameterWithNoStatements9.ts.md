@@ -9,7 +9,62 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 33,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 13,
+          "end": 28,
+          "left": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 14,
+            "name": "a",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 17,
+            "end": 28,
+            "object": {
+              "type": "Identifier",
+              "start": 17,
+              "end": 24,
+              "name": "console",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 25,
+              "end": 28,
+              "name": "log",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "decorators": [],
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 30,
@@ -17,69 +72,69 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "AssignmentPattern",
-          "start": 13,
-          "end": 28,
-          "decorators": [],
-          "left": {
-            "type": "Identifier",
-            "start": 13,
-            "end": 14,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "right": {
-            "type": "MemberExpression",
-            "start": 17,
-            "end": 28,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 17,
-              "end": 24,
-              "decorators": [],
-              "name": "console",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 25,
-              "end": 28,
-              "decorators": [],
-              "name": "log",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 35,
       "end": 68,
+      "id": {
+        "type": "Identifier",
+        "start": 44,
+        "end": 47,
+        "name": "bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "AssignmentPattern",
+          "start": 48,
+          "end": 63,
+          "left": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 49,
+            "name": "a",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 52,
+            "end": 63,
+            "object": {
+              "type": "Identifier",
+              "start": 52,
+              "end": 59,
+              "name": "console",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 60,
+              "end": 63,
+              "name": "log",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "decorators": [],
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 65,
@@ -87,63 +142,8 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 44,
-        "end": 47,
-        "decorators": [],
-        "name": "bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "AssignmentPattern",
-          "start": 48,
-          "end": 63,
-          "decorators": [],
-          "left": {
-            "type": "Identifier",
-            "start": 48,
-            "end": 49,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "right": {
-            "type": "MemberExpression",
-            "start": 52,
-            "end": 63,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 52,
-              "end": 59,
-              "decorators": [],
-              "name": "console",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 60,
-              "end": 63,
-              "decorators": [],
-              "name": "log",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

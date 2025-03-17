@@ -9,71 +9,57 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 62,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 62,
-        "async": true,
-        "body": {
-          "type": "BlockStatement",
-          "start": 59,
-          "end": 62,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 22,
           "end": 25,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": true,
         "params": [
           {
             "type": "ObjectPattern",
             "start": 26,
             "end": 57,
-            "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "Property",
                 "start": 28,
                 "end": 55,
+                "method": false,
+                "shorthand": true,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 28,
                   "end": 31,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 28,
                   "end": 55,
-                  "decorators": [],
                   "left": {
                     "type": "Identifier",
                     "start": 28,
                     "end": 31,
-                    "decorators": [],
                     "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "right": {
                     "type": "AwaitExpression",
                     "start": 34,
@@ -82,40 +68,125 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 40,
                       "end": 55,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 47,
                         "end": 54,
-                        "raw": "\"./bar\"",
-                        "value": "./bar"
-                      }
+                        "value": "./bar",
+                        "raw": "\"./bar\""
+                      },
+                      "options": null
                     }
                   },
+                  "decorators": [],
+                  "optional": false,
                   "typeAnnotation": null
-                }
+                },
+                "kind": "init",
+                "optional": false
               }
             ],
+            "decorators": [],
+            "optional": false,
             "typeAnnotation": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 59,
+          "end": 62,
+          "body": []
+        },
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 64,
       "end": 110,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 71,
         "end": 110,
+        "id": {
+          "type": "Identifier",
+          "start": 81,
+          "end": 85,
+          "name": "foo2",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": true,
         "async": false,
+        "params": [
+          {
+            "type": "ObjectPattern",
+            "start": 86,
+            "end": 105,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 88,
+                "end": 103,
+                "method": false,
+                "shorthand": true,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 88,
+                  "end": 91,
+                  "name": "foo",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "value": {
+                  "type": "AssignmentPattern",
+                  "start": 88,
+                  "end": 103,
+                  "left": {
+                    "type": "Identifier",
+                    "start": 88,
+                    "end": 91,
+                    "name": "foo",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "YieldExpression",
+                    "start": 94,
+                    "end": 103,
+                    "delegate": false,
+                    "argument": {
+                      "type": "Literal",
+                      "start": 100,
+                      "end": 103,
+                      "value": "a",
+                      "raw": "\"a\""
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false,
+                  "typeAnnotation": null
+                },
+                "kind": "init",
+                "optional": false
+              }
+            ],
+            "decorators": [],
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 107,
@@ -123,84 +194,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": true,
-        "id": {
-          "type": "Identifier",
-          "start": 81,
-          "end": 85,
-          "decorators": [],
-          "name": "foo2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "ObjectPattern",
-            "start": 86,
-            "end": 105,
-            "decorators": [],
-            "optional": false,
-            "properties": [
-              {
-                "type": "Property",
-                "start": 88,
-                "end": 103,
-                "computed": false,
-                "key": {
-                  "type": "Identifier",
-                  "start": 88,
-                  "end": 91,
-                  "decorators": [],
-                  "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": true,
-                "value": {
-                  "type": "AssignmentPattern",
-                  "start": 88,
-                  "end": 103,
-                  "decorators": [],
-                  "left": {
-                    "type": "Identifier",
-                    "start": 88,
-                    "end": 91,
-                    "decorators": [],
-                    "name": "foo",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "right": {
-                    "type": "YieldExpression",
-                    "start": 94,
-                    "end": 103,
-                    "argument": {
-                      "type": "Literal",
-                      "start": 100,
-                      "end": 103,
-                      "raw": "\"a\"",
-                      "value": "a"
-                    },
-                    "delegate": false
-                  },
-                  "typeAnnotation": null
-                }
-              }
-            ],
-            "typeAnnotation": null
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

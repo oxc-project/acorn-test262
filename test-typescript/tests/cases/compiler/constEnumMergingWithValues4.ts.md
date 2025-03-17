@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 37,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
@@ -18,6 +27,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumDeclaration",
             "start": 17,
             "end": 35,
+            "id": {
+              "type": "Identifier",
+              "start": 28,
+              "end": 29,
+              "name": "E",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "members": [
+              {
+                "type": "TSEnumMember",
+                "start": 32,
+                "end": 33,
+                "id": {
+                  "type": "Identifier",
+                  "start": 32,
+                  "end": 33,
+                  "name": "X",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "initializer": null,
+                "computed": false
+              }
+            ],
+            "const": true,
+            "declare": false,
             "body": {
               "type": "TSEnumBody",
               "start": 30,
@@ -27,51 +65,40 @@ __ESTREE_TEST__:PASS:
                   "type": "TSEnumMember",
                   "start": 32,
                   "end": 33,
-                  "computed": false,
                   "id": {
                     "type": "Identifier",
                     "start": 32,
                     "end": 33,
-                    "decorators": [],
                     "name": "X",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "initializer": null
+                  "initializer": null,
+                  "computed": false
                 }
               ]
-            },
-            "const": true,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 28,
-              "end": 29,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 39,
       "end": 68,
+      "id": {
+        "type": "Identifier",
+        "start": 46,
+        "end": 49,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 50,
@@ -86,42 +113,33 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 60,
                 "end": 65,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 60,
                   "end": 61,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
                   "start": 64,
                   "end": 65,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 46,
-        "end": 49,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -131,10 +149,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 80,
         "end": 83,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

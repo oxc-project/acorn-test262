@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 130,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,15 +18,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 11,
             "end": 129,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
               "end": 24,
-              "decorators": [],
               "name": "basePrototype",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ObjectExpression",
@@ -38,25 +36,27 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 31,
                   "end": 124,
+                  "method": false,
+                  "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 35,
                     "end": 46,
-                    "decorators": [],
                     "name": "primaryPath",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "get",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 46,
                     "end": 124,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 49,
@@ -71,25 +71,25 @@ __ESTREE_TEST__:PASS:
                               "type": "VariableDeclarator",
                               "start": 59,
                               "end": 71,
-                              "definite": false,
                               "id": {
                                 "type": "Identifier",
                                 "start": 59,
                                 "end": 64,
-                                "decorators": [],
                                 "name": "_this",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
                               "init": {
                                 "type": "ThisExpression",
                                 "start": 67,
                                 "end": 71
-                              }
+                              },
+                              "definite": false
                             }
                           ],
-                          "declare": false,
-                          "kind": "var"
+                          "kind": "var",
+                          "declare": false
                         },
                         {
                           "type": "ReturnStatement",
@@ -99,81 +99,81 @@ __ESTREE_TEST__:PASS:
                             "type": "MemberExpression",
                             "start": 84,
                             "end": 119,
-                            "computed": false,
                             "object": {
                               "type": "MemberExpression",
                               "start": 84,
                               "end": 107,
-                              "computed": false,
                               "object": {
                                 "type": "MemberExpression",
                                 "start": 84,
                                 "end": 100,
-                                "computed": false,
                                 "object": {
                                   "type": "Identifier",
                                   "start": 84,
                                   "end": 89,
-                                  "decorators": [],
                                   "name": "_this",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 90,
                                   "end": 100,
-                                  "decorators": [],
                                   "name": "collection",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
                               },
-                              "optional": false,
                               "property": {
                                 "type": "Identifier",
                                 "start": 101,
                                 "end": 107,
-                                "decorators": [],
                                 "name": "schema",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
                             },
-                            "optional": false,
                             "property": {
                               "type": "Identifier",
                               "start": 108,
                               "end": 119,
-                              "decorators": [],
                               "name": "primaryPath",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "computed": false,
+                            "optional": false
                           }
                         }
                       ]
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "kind": "get",
+                  "optional": false
                 }
               ]
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

@@ -14,21 +14,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 6,
-            "decorators": [],
             "name": "fn",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 9,
             "end": 48,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 19,
+                "end": 31,
+                "name": "val",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 22,
+                  "end": 31,
+                  "typeAnnotation": {
+                    "type": "TSBooleanKeyword",
+                    "start": 24,
+                    "end": 31
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 33,
@@ -42,68 +64,54 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 42,
                     "end": 45,
-                    "decorators": [],
                     "name": "val",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 19,
-                "end": 31,
-                "decorators": [],
-                "name": "val",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 22,
-                  "end": 31,
-                  "typeAnnotation": {
-                    "type": "TSBooleanKeyword",
-                    "start": 24,
-                    "end": 31
-                  }
-                }
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 49,
       "end": 74,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 49,
         "end": 73,
+        "callee": {
+          "type": "Identifier",
+          "start": 49,
+          "end": 51,
+          "name": "fn",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "BinaryExpression",
             "start": 52,
             "end": 72,
-            "operator": "in",
             "left": {
               "type": "Literal",
               "start": 52,
               "end": 55,
-              "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "raw": "\"a\""
             },
+            "operator": "in",
             "right": {
               "type": "ObjectExpression",
               "start": 59,
@@ -113,42 +121,34 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 61,
                   "end": 70,
+                  "method": false,
+                  "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Literal",
                     "start": 61,
                     "end": 64,
-                    "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "raw": "\"a\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 66,
                     "end": 70,
-                    "raw": "true",
-                    "value": true
-                  }
+                    "value": true,
+                    "raw": "true"
+                  },
+                  "kind": "init",
+                  "optional": false
                 }
               ]
             }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 49,
-          "end": 51,
-          "decorators": [],
-          "name": "fn",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

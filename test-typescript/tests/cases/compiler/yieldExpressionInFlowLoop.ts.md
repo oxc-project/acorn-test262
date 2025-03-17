@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -24,26 +36,33 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 24,
                 "end": 30,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 24,
                   "end": 30,
-                  "decorators": [],
                   "name": "result",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "WhileStatement",
             "start": 36,
             "end": 84,
+            "test": {
+              "type": "Literal",
+              "start": 43,
+              "end": 44,
+              "value": 1,
+              "raw": "1"
+            },
             "body": {
               "type": "BlockStatement",
               "start": 46,
@@ -53,7 +72,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 56,
                   "end": 78,
-                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 56,
@@ -63,55 +81,37 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 56,
                       "end": 62,
-                      "decorators": [],
                       "name": "result",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "right": {
                       "type": "YieldExpression",
                       "start": 65,
                       "end": 77,
+                      "delegate": false,
                       "argument": {
                         "type": "Identifier",
                         "start": 71,
                         "end": 77,
-                        "decorators": [],
                         "name": "result",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "delegate": false
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
                     }
-                  }
+                  },
+                  "directive": null
                 }
               ]
-            },
-            "test": {
-              "type": "Literal",
-              "start": 43,
-              "end": 44,
-              "raw": "1",
-              "value": 1
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

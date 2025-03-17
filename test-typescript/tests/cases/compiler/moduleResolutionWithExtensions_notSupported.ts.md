@@ -20,15 +20,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 23,
-        "raw": "\"./tsx\"",
-        "value": "./tsx"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -38,27 +29,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "tsx",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 23,
+        "value": "./tsx",
+        "raw": "\"./tsx\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 41,
       "end": 65,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 57,
-        "end": 64,
-        "raw": "\"./jsx\"",
-        "value": "./jsx"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -68,27 +59,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 48,
             "end": 51,
-            "decorators": [],
             "name": "jsx",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 57,
+        "end": 64,
+        "value": "./jsx",
+        "raw": "\"./jsx\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 82,
       "end": 104,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 97,
-        "end": 103,
-        "raw": "\"./js\"",
-        "value": "./js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -98,13 +89,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 89,
             "end": 91,
-            "decorators": [],
             "name": "js",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 97,
+        "end": 103,
+        "value": "./js",
+        "raw": "\"./js\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

@@ -9,28 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 29,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 20,
-        "decorators": [],
         "name": "use",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 21,
           "end": 27,
-          "decorators": [],
           "name": "a",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 22,
@@ -40,16 +36,49 @@ __ESTREE_TEST__:PASS:
               "start": 24,
               "end": 27
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "TSEnumDeclaration",
       "start": 30,
       "end": 64,
+      "id": {
+        "type": "Identifier",
+        "start": 41,
+        "end": 58,
+        "name": "TopLevelConstEnum",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 61,
+          "end": 62,
+          "id": {
+            "type": "Identifier",
+            "start": 61,
+            "end": 62,
+            "name": "X",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": true,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 59,
@@ -59,42 +88,42 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 61,
             "end": 62,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 61,
               "end": 62,
-              "decorators": [],
               "name": "X",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": true,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 41,
-        "end": 58,
-        "decorators": [],
-        "name": "TopLevelConstEnum",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 66,
       "end": 156,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 73,
         "end": 156,
+        "id": {
+          "type": "Identifier",
+          "start": 82,
+          "end": 85,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 88,
@@ -104,142 +133,140 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 94,
               "end": 119,
-              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 94,
                 "end": 118,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 94,
+                  "end": 97,
+                  "name": "use",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "MemberExpression",
                     "start": 98,
                     "end": 117,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 98,
                       "end": 115,
-                      "decorators": [],
                       "name": "TopLevelConstEnum",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 116,
                       "end": 117,
-                      "decorators": [],
                       "name": "X",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 94,
-                  "end": 97,
-                  "decorators": [],
-                  "name": "use",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "optional": false,
                 "typeArguments": null
-              }
+              },
+              "directive": null
             },
             {
               "type": "ExpressionStatement",
               "start": 124,
               "end": 154,
-              "directive": null,
               "expression": {
                 "type": "CallExpression",
                 "start": 124,
                 "end": 153,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 124,
+                  "end": 127,
+                  "name": "use",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "MemberExpression",
                     "start": 128,
                     "end": 152,
-                    "computed": false,
                     "object": {
                       "type": "MemberExpression",
                       "start": 128,
                       "end": 150,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 128,
                         "end": 129,
-                        "decorators": [],
                         "name": "M",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 130,
                         "end": 150,
-                        "decorators": [],
                         "name": "NonTopLevelConstEnum",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 151,
                       "end": 152,
-                      "decorators": [],
                       "name": "X",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 124,
-                  "end": 127,
-                  "decorators": [],
-                  "name": "use",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "optional": false,
                 "typeArguments": null
-              }
+              },
+              "directive": null
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 82,
-          "end": 85,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 158,
       "end": 219,
+      "id": {
+        "type": "Identifier",
+        "start": 165,
+        "end": 166,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 167,
@@ -249,11 +276,39 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 173,
             "end": 217,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 180,
               "end": 217,
+              "id": {
+                "type": "Identifier",
+                "start": 191,
+                "end": 211,
+                "name": "NonTopLevelConstEnum",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 214,
+                  "end": 215,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 214,
+                    "end": 215,
+                    "name": "X",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": true,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 212,
@@ -263,50 +318,31 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 214,
                     "end": 215,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 214,
                       "end": 215,
-                      "decorators": [],
                       "name": "X",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": true,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 191,
-                "end": 211,
-                "decorators": [],
-                "name": "NonTopLevelConstEnum",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 165,
-        "end": 166,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

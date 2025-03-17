@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 36,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 20,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": true,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 23,
@@ -24,36 +35,25 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 29,
               "end": 34,
-              "directive": null,
               "expression": {
                 "type": "YieldExpression",
                 "start": 29,
                 "end": 34,
-                "argument": null,
-                "delegate": false
-              }
+                "delegate": false,
+                "argument": null
+              },
+              "directive": null
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": true,
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 20,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

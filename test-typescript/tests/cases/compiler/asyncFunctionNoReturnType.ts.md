@@ -9,12 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
         "end": 47,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 12,
@@ -24,32 +27,29 @@ __ESTREE_TEST__:PASS:
               "type": "IfStatement",
               "start": 18,
               "end": 45,
-              "alternate": null,
+              "test": {
+                "type": "Identifier",
+                "start": 22,
+                "end": 28,
+                "name": "window",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "consequent": {
                 "type": "ReturnStatement",
                 "start": 38,
                 "end": 45,
                 "argument": null
               },
-              "test": {
-                "type": "Identifier",
-                "start": 22,
-                "end": 28,
-                "decorators": [],
-                "name": "window",
-                "optional": false,
-                "typeAnnotation": null
-              }
+              "alternate": null
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

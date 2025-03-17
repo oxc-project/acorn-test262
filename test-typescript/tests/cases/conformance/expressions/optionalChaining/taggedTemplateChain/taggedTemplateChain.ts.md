@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 18,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -31,23 +28,34 @@ __ESTREE_TEST__:PASS:
                 "start": 15,
                 "end": 18
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "kind": "let",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 20,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 20,
         "end": 26,
+        "tag": {
+          "type": "Identifier",
+          "start": 20,
+          "end": 21,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 23,
@@ -58,35 +66,35 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 23,
               "end": 26,
-              "tail": true,
               "value": {
                 "cooked": "b",
                 "raw": "b"
-              }
+              },
+              "tail": true
             }
           ]
         },
-        "tag": {
-          "type": "Identifier",
-          "start": 20,
-          "end": 21,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 29,
       "end": 41,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 29,
         "end": 40,
+        "tag": {
+          "type": "Identifier",
+          "start": 29,
+          "end": 30,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 32,
@@ -96,8 +104,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
           "quasis": [
@@ -105,35 +113,27 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 32,
               "end": 36,
-              "tail": false,
               "value": {
                 "cooked": "b",
                 "raw": "b"
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 37,
               "end": 40,
-              "tail": true,
               "value": {
                 "cooked": "c",
                 "raw": "c"
-              }
+              },
+              "tail": true
             }
           ]
         },
-        "tag": {
-          "type": "Identifier",
-          "start": 29,
-          "end": 30,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

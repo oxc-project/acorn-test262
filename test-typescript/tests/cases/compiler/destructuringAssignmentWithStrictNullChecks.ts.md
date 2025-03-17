@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 11,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 11,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 7,
@@ -32,19 +29,21 @@ __ESTREE_TEST__:PASS:
                 "end": 11,
                 "members": []
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 13,
       "end": 31,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -54,8 +53,6 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 14,
           "end": 24,
-          "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "RestElement",
@@ -65,10 +62,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 19,
                 "end": 22,
-                "decorators": [],
                 "name": "bar",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "decorators": [],
               "optional": false,
@@ -76,6 +73,8 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -84,7 +83,8 @@ __ESTREE_TEST__:PASS:
           "end": 29,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

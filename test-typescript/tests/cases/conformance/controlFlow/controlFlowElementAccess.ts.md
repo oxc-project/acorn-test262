@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 36,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 21,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -35,20 +32,18 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 9,
                     "end": 19,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": false,
                     "key": {
                       "type": "Identifier",
                       "start": 9,
                       "end": 10,
-                      "decorators": [],
                       "name": "o",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 10,
@@ -58,11 +53,15 @@ __ESTREE_TEST__:PASS:
                         "start": 12,
                         "end": 19
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -73,40 +72,76 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 26,
                 "end": 34,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 26,
                   "end": 27,
-                  "decorators": [],
                   "name": "o",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 29,
                   "end": 34,
-                  "raw": "false",
-                  "value": false
-                }
+                  "value": false,
+                  "raw": "false"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 37,
       "end": 80,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 41,
+        "end": 57,
+        "left": {
+          "type": "MemberExpression",
+          "start": 41,
+          "end": 47,
+          "object": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 42,
+            "name": "x",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 43,
+            "end": 46,
+            "value": "o",
+            "raw": "'o'"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 52,
+          "end": 57,
+          "value": false,
+          "raw": "false"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 59,
@@ -116,7 +151,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 65,
             "end": 78,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 65,
@@ -126,72 +160,38 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 65,
                 "end": 71,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 65,
                   "end": 66,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 67,
                   "end": 70,
-                  "raw": "'o'",
-                  "value": "o"
-                }
+                  "value": "o",
+                  "raw": "'o'"
+                },
+                "computed": true,
+                "optional": false
               },
               "right": {
                 "type": "Literal",
                 "start": 74,
                 "end": 78,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 41,
-        "end": 57,
-        "operator": "===",
-        "left": {
-          "type": "MemberExpression",
-          "start": 41,
-          "end": 47,
-          "computed": true,
-          "object": {
-            "type": "Identifier",
-            "start": 41,
-            "end": 42,
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Literal",
-            "start": 43,
-            "end": 46,
-            "raw": "'o'",
-            "value": "o"
-          }
-        },
-        "right": {
-          "type": "Literal",
-          "start": 52,
-          "end": 57,
-          "raw": "false",
-          "value": false
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -202,14 +202,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 88,
           "end": 116,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
             "end": 107,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 89,
@@ -231,7 +228,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -242,28 +241,64 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 111,
                 "end": 112,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 114,
                 "end": 115,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 118,
       "end": 152,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 122,
+        "end": 132,
+        "left": {
+          "type": "MemberExpression",
+          "start": 122,
+          "end": 126,
+          "object": {
+            "type": "Identifier",
+            "start": 122,
+            "end": 123,
+            "name": "y",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Literal",
+            "start": 124,
+            "end": 125,
+            "value": 0,
+            "raw": "0"
+          },
+          "computed": true,
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 131,
+          "end": 132,
+          "value": 0,
+          "raw": "0"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 134,
@@ -273,7 +308,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 140,
             "end": 150,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 140,
@@ -283,79 +317,45 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 140,
                 "end": 144,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 140,
                   "end": 141,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 142,
                   "end": 143,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "computed": true,
+                "optional": false
               },
               "right": {
                 "type": "UnaryExpression",
                 "start": 147,
                 "end": 149,
+                "operator": "-",
+                "prefix": true,
                 "argument": {
                   "type": "Literal",
                   "start": 148,
                   "end": 149,
-                  "raw": "1",
-                  "value": 1
-                },
-                "operator": "-",
-                "prefix": true
+                  "value": 1,
+                  "raw": "1"
+                }
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 122,
-        "end": 132,
-        "operator": "===",
-        "left": {
-          "type": "MemberExpression",
-          "start": 122,
-          "end": 126,
-          "computed": true,
-          "object": {
-            "type": "Identifier",
-            "start": 122,
-            "end": 123,
-            "decorators": [],
-            "name": "y",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Literal",
-            "start": 124,
-            "end": 125,
-            "raw": "0",
-            "value": 0
-          }
-        },
-        "right": {
-          "type": "Literal",
-          "start": 131,
-          "end": 132,
-          "raw": "0",
-          "value": 0
-        }
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

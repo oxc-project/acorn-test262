@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 8,
-        "decorators": [],
         "name": "d",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 27,
-          "raw": "\"d.json\"",
-          "value": "d.json"
+          "value": "d.json",
+          "raw": "\"d.json\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -40,12 +40,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 52,
         "end": 53,
-        "decorators": [],
         "name": "e",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 56,
@@ -54,10 +53,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 64,
           "end": 67,
-          "raw": "\"e\"",
-          "value": "e"
+          "value": "e",
+          "raw": "\"e\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

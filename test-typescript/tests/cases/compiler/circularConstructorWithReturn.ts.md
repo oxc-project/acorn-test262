@@ -9,21 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 125,
       "end": 218,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 132,
         "end": 218,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 137,
           "end": 143,
-          "decorators": [],
           "name": "Client",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSConditionalType",
           "start": 146,
@@ -32,6 +31,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 146,
             "end": 180,
+            "typeName": {
+              "type": "Identifier",
+              "start": 146,
+              "end": 156,
+              "name": "ReturnType",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "start": 156,
@@ -45,23 +53,14 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 164,
                     "end": 179,
-                    "decorators": [],
                     "name": "getPrismaClient",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 }
               ]
-            },
-            "typeName": {
-              "type": "Identifier",
-              "start": 146,
-              "end": 156,
-              "decorators": [],
-              "name": "ReturnType",
-              "optional": false,
-              "typeAnnotation": null
             }
           },
           "extendsType": {
@@ -69,6 +68,7 @@ __ESTREE_TEST__:PASS:
             "start": 189,
             "end": 206,
             "abstract": false,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -82,62 +82,92 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 205,
                   "end": 206,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 205,
                     "end": 206,
-                    "decorators": [],
                     "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               }
-            },
-            "typeParameters": null
-          },
-          "falseType": {
-            "type": "TSNeverKeyword",
-            "start": 213,
-            "end": 218
+            }
           },
           "trueType": {
             "type": "TSTypeReference",
             "start": 209,
             "end": 210,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 209,
               "end": 210,
-              "decorators": [],
               "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
+          },
+          "falseType": {
+            "type": "TSNeverKeyword",
+            "start": 213,
+            "end": 218
           }
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 220,
       "end": 442,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 227,
         "end": 442,
+        "id": {
+          "type": "Identifier",
+          "start": 236,
+          "end": 251,
+          "name": "getPrismaClient",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 252,
+            "end": 265,
+            "name": "options",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 260,
+              "end": 265,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 262,
+                "end": 265
+              }
+            },
+            "decorators": [],
+            "optional": true
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 267,
@@ -147,7 +177,16 @@ __ESTREE_TEST__:PASS:
               "type": "ClassDeclaration",
               "start": 271,
               "end": 417,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 277,
+                "end": 289,
+                "name": "PrismaClient",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 290,
@@ -157,24 +196,24 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 296,
                     "end": 309,
-                    "accessibility": null,
+                    "static": false,
                     "computed": false,
-                    "declare": false,
-                    "decorators": [],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 296,
                       "end": 300,
-                      "decorators": [],
                       "name": "self",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
+                    "value": null,
+                    "decorators": [],
+                    "declare": false,
                     "override": false,
+                    "optional": false,
+                    "definite": false,
                     "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 300,
@@ -183,45 +222,64 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 302,
                         "end": 308,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 302,
                           "end": 308,
-                          "decorators": [],
                           "name": "Client",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
                     },
-                    "value": null
+                    "accessibility": null
                   },
                   {
                     "type": "MethodDefinition",
                     "start": 314,
                     "end": 413,
-                    "accessibility": null,
+                    "static": false,
                     "computed": false,
-                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 314,
                       "end": 325,
-                      "decorators": [],
                       "name": "constructor",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "kind": "constructor",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 325,
                       "end": 413,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
                       "async": false,
+                      "params": [
+                        {
+                          "type": "Identifier",
+                          "start": 326,
+                          "end": 339,
+                          "name": "options",
+                          "typeAnnotation": {
+                            "type": "TSTypeAnnotation",
+                            "start": 334,
+                            "end": 339,
+                            "typeAnnotation": {
+                              "type": "TSAnyKeyword",
+                              "start": 336,
+                              "end": 339
+                            }
+                          },
+                          "decorators": [],
+                          "optional": true
+                        }
+                      ],
                       "body": {
                         "type": "BlockStatement",
                         "start": 341,
@@ -240,27 +298,36 @@ __ESTREE_TEST__:PASS:
                                 "type": "MemberExpression",
                                 "start": 357,
                                 "end": 366,
-                                "computed": false,
                                 "object": {
                                   "type": "ThisExpression",
                                   "start": 357,
                                   "end": 361
                                 },
-                                "optional": false,
                                 "property": {
                                   "type": "Identifier",
                                   "start": 362,
                                   "end": 366,
-                                  "decorators": [],
                                   "name": "self",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
                               },
                               "right": {
                                 "type": "CallExpression",
                                 "start": 369,
                                 "end": 405,
+                                "callee": {
+                                  "type": "Identifier",
+                                  "start": 369,
+                                  "end": 399,
+                                  "name": "applyModelsAndClientExtensions",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
                                 "arguments": [
                                   {
                                     "type": "ThisExpression",
@@ -268,15 +335,6 @@ __ESTREE_TEST__:PASS:
                                     "end": 404
                                   }
                                 ],
-                                "callee": {
-                                  "type": "Identifier",
-                                  "start": 369,
-                                  "end": 399,
-                                  "decorators": [],
-                                  "name": "applyModelsAndClientExtensions",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
                                 "optional": false,
                                 "typeArguments": null
                               }
@@ -285,50 +343,22 @@ __ESTREE_TEST__:PASS:
                         ]
                       },
                       "declare": false,
-                      "expression": false,
-                      "generator": false,
-                      "id": null,
-                      "params": [
-                        {
-                          "type": "Identifier",
-                          "start": 326,
-                          "end": 339,
-                          "decorators": [],
-                          "name": "options",
-                          "optional": true,
-                          "typeAnnotation": {
-                            "type": "TSTypeAnnotation",
-                            "start": 334,
-                            "end": 339,
-                            "typeAnnotation": {
-                              "type": "TSAnyKeyword",
-                              "start": 336,
-                              "end": 339
-                            }
-                          }
-                        }
-                      ],
-                      "returnType": null,
-                      "typeParameters": null
-                    }
+                      "typeParameters": null,
+                      "returnType": null
+                    },
+                    "decorators": [],
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 277,
-                "end": 289,
-                "decorators": [],
-                "name": "PrismaClient",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
             {
               "type": "ReturnStatement",
@@ -338,63 +368,73 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 428,
                 "end": 440,
-                "decorators": [],
                 "name": "PrismaClient",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 236,
-          "end": 251,
-          "decorators": [],
-          "name": "getPrismaClient",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 252,
-            "end": 265,
-            "decorators": [],
-            "name": "options",
-            "optional": true,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 260,
-              "end": 265,
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 262,
-                "end": 265
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 444,
       "end": 527,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 451,
         "end": 527,
+        "id": {
+          "type": "Identifier",
+          "start": 460,
+          "end": 490,
+          "name": "applyModelsAndClientExtensions",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 491,
+            "end": 505,
+            "name": "client",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 497,
+              "end": 505,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 499,
+                "end": 505,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 499,
+                  "end": 505,
+                  "name": "Client",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 507,
@@ -408,62 +448,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 518,
                 "end": 524,
-                "decorators": [],
                 "name": "client",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 460,
-          "end": 490,
-          "decorators": [],
-          "name": "applyModelsAndClientExtensions",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 491,
-            "end": 505,
-            "decorators": [],
-            "name": "client",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 497,
-              "end": 505,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 499,
-                "end": 505,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 499,
-                  "end": 505,
-                  "decorators": [],
-                  "name": "Client",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

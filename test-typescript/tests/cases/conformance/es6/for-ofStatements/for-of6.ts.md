@@ -10,6 +10,29 @@ __ESTREE_TEST__:PASS:
       "start": 16,
       "end": 45,
       "await": false,
+      "left": {
+        "type": "Identifier",
+        "start": 21,
+        "end": 22,
+        "name": "v",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 26,
+        "end": 29,
+        "elements": [
+          {
+            "type": "Literal",
+            "start": 27,
+            "end": 28,
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      },
       "body": {
         "type": "BlockStatement",
         "start": 31,
@@ -24,44 +47,21 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 41,
                 "end": 42,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 41,
                   "end": 42,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
-          }
-        ]
-      },
-      "left": {
-        "type": "Identifier",
-        "start": 21,
-        "end": 22,
-        "decorators": [],
-        "name": "v",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 26,
-        "end": 29,
-        "elements": [
-          {
-            "type": "Literal",
-            "start": 27,
-            "end": 28,
-            "raw": "0",
-            "value": 0
+            "kind": "let",
+            "declare": false
           }
         ]
       }

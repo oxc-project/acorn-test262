@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 45,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 16,
+        "name": "Mixin1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 17,
@@ -18,21 +29,20 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 23,
             "end": 43,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Identifier",
               "start": 23,
               "end": 34,
-              "decorators": [],
               "name": "mixinMethod",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "method",
+            "computed": false,
             "optional": false,
+            "kind": "method",
+            "typeParameters": null,
             "params": [],
-            "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 36,
@@ -43,29 +53,28 @@ __ESTREE_TEST__:PASS:
                 "end": 42
               }
             },
-            "static": false,
-            "typeParameters": null
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 16,
-        "decorators": [],
-        "name": "Mixin1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 47,
       "end": 119,
-      "abstract": true,
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 74,
+        "name": "AbstractBase",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 75,
@@ -75,33 +84,30 @@ __ESTREE_TEST__:PASS:
             "type": "TSAbstractMethodDefinition",
             "start": 81,
             "end": 117,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 90,
               "end": 108,
-              "decorators": [],
               "name": "abstractBaseMethod",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
               "start": 108,
               "end": 117,
-              "async": false,
-              "body": null,
-              "declare": false,
+              "id": null,
               "expression": false,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [],
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 110,
@@ -111,33 +117,68 @@ __ESTREE_TEST__:PASS:
                   "start": 112,
                   "end": 116
                 }
-              },
-              "typeParameters": null
-            }
+              }
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 74,
-        "decorators": [],
-        "name": "AbstractBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": true,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 121,
       "end": 530,
+      "id": {
+        "type": "Identifier",
+        "start": 130,
+        "end": 136,
+        "name": "Mixin2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 189,
+          "end": 205,
+          "name": "baseClass",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 198,
+            "end": 205,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 200,
+              "end": 205,
+              "typeName": {
+                "type": "Identifier",
+                "start": 200,
+                "end": 205,
+                "name": "TBase",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 207,
@@ -147,7 +188,24 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 361,
             "end": 505,
-            "abstract": true,
+            "id": {
+              "type": "Identifier",
+              "start": 376,
+              "end": 386,
+              "name": "MixinClass",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 395,
+              "end": 404,
+              "name": "baseClass",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 423,
@@ -157,27 +215,27 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 433,
                   "end": 455,
-                  "accessibility": null,
+                  "static": false,
                   "computed": false,
-                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 433,
                     "end": 444,
-                    "decorators": [],
                     "name": "mixinMethod",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 444,
                     "end": 455,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 453,
@@ -185,10 +243,7 @@ __ESTREE_TEST__:PASS:
                       "body": []
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
+                    "typeParameters": null,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 446,
@@ -198,35 +253,38 @@ __ESTREE_TEST__:PASS:
                         "start": 448,
                         "end": 452
                       }
-                    },
-                    "typeParameters": null
-                  }
+                    }
+                  },
+                  "decorators": [],
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 },
                 {
                   "type": "MethodDefinition",
                   "start": 464,
                   "end": 499,
-                  "accessibility": null,
+                  "static": true,
                   "computed": false,
-                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 471,
                     "end": 488,
-                    "decorators": [],
                     "name": "staticMixinMethod",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": true,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 488,
                     "end": 499,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 497,
@@ -234,10 +292,7 @@ __ESTREE_TEST__:PASS:
                       "body": []
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
+                    "typeParameters": null,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 490,
@@ -247,23 +302,17 @@ __ESTREE_TEST__:PASS:
                         "start": 492,
                         "end": 496
                       }
-                    },
-                    "typeParameters": null
-                  }
+                    }
+                  },
+                  "decorators": [],
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 376,
-              "end": 386,
-              "decorators": [],
-              "name": "MixinClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [
               {
                 "type": "TSClassImplements",
@@ -273,25 +322,17 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 416,
                   "end": 422,
-                  "decorators": [],
                   "name": "Mixin1",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
             ],
-            "superClass": {
-              "type": "Identifier",
-              "start": 395,
-              "end": 404,
-              "decorators": [],
-              "name": "baseClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": true,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ReturnStatement",
@@ -301,57 +342,15 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 517,
               "end": 527,
-              "decorators": [],
               "name": "MixinClass",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 130,
-        "end": 136,
-        "decorators": [],
-        "name": "Mixin2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 189,
-          "end": 205,
-          "decorators": [],
-          "name": "baseClass",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 198,
-            "end": 205,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 200,
-              "end": 205,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 200,
-                "end": 205,
-                "decorators": [],
-                "name": "TBase",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        }
-      ],
-      "returnType": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 136,
@@ -361,12 +360,21 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 137,
             "end": 187,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 137,
+              "end": 142,
+              "name": "TBase",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "constraint": {
               "type": "TSConstructorType",
               "start": 151,
               "end": 187,
               "abstract": true,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
@@ -376,10 +384,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 168,
                     "end": 172,
-                    "decorators": [],
                     "name": "args",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "decorators": [],
                   "optional": false,
@@ -410,30 +418,57 @@ __ESTREE_TEST__:PASS:
                   "start": 184,
                   "end": 187
                 }
-              },
-              "typeParameters": null
+              }
             },
             "default": null,
             "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 137,
-              "end": 142,
-              "decorators": [],
-              "name": "TBase",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "returnType": null
     },
     {
       "type": "ClassDeclaration",
       "start": 532,
       "end": 619,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 538,
+        "end": 558,
+        "name": "DerivedFromAbstract2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "CallExpression",
+        "start": 567,
+        "end": 587,
+        "callee": {
+          "type": "Identifier",
+          "start": 567,
+          "end": 573,
+          "name": "Mixin2",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "start": 574,
+            "end": 586,
+            "name": "AbstractBase",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          }
+        ],
+        "optional": false,
+        "typeArguments": null
+      },
       "body": {
         "type": "ClassBody",
         "start": 588,
@@ -443,27 +478,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 594,
             "end": 617,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 594,
               "end": 612,
-              "decorators": [],
               "name": "abstractBaseMethod",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 612,
               "end": 617,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 615,
@@ -471,57 +506,22 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 538,
-        "end": 558,
-        "decorators": [],
-        "name": "DerivedFromAbstract2",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "CallExpression",
-        "start": 567,
-        "end": 587,
-        "arguments": [
-          {
-            "type": "Identifier",
-            "start": 574,
-            "end": 586,
-            "decorators": [],
-            "name": "AbstractBase",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        ],
-        "callee": {
-          "type": "Identifier",
-          "start": 567,
-          "end": 573,
-          "decorators": [],
-          "name": "Mixin2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "optional": false,
-        "typeArguments": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

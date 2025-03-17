@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 53,
       "end": 174,
+      "id": {
+        "type": "Identifier",
+        "start": 62,
+        "end": 71,
+        "name": "myWrapper",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 74,
@@ -19,12 +31,42 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 80,
             "end": 121,
-            "alternate": null,
+            "test": {
+              "type": "UnaryExpression",
+              "start": 84,
+              "end": 99,
+              "operator": "!",
+              "prefix": true,
+              "argument": {
+                "type": "MemberExpression",
+                "start": 85,
+                "end": 99,
+                "object": {
+                  "type": "Identifier",
+                  "start": 85,
+                  "end": 91,
+                  "name": "module",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 92,
+                  "end": 99,
+                  "name": "exports",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              }
+            },
             "consequent": {
               "type": "ExpressionStatement",
               "start": 101,
               "end": 121,
-              "directive": null,
               "expression": {
                 "type": "AssignmentExpression",
                 "start": 101,
@@ -34,68 +76,38 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 101,
                   "end": 115,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 101,
                     "end": 107,
-                    "decorators": [],
                     "name": "module",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 108,
                     "end": 115,
-                    "decorators": [],
                     "name": "exports",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "right": {
                   "type": "Literal",
                   "start": 118,
                   "end": 120,
-                  "raw": "\"\"",
-                  "value": ""
-                }
-              }
-            },
-            "test": {
-              "type": "UnaryExpression",
-              "start": 84,
-              "end": 99,
-              "argument": {
-                "type": "MemberExpression",
-                "start": 85,
-                "end": 99,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 85,
-                  "end": 91,
-                  "decorators": [],
-                  "name": "module",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 92,
-                  "end": 99,
-                  "decorators": [],
-                  "name": "exports",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "value": "",
+                  "raw": "\"\""
                 }
               },
-              "operator": "!",
-              "prefix": true
-            }
+              "directive": null
+            },
+            "alternate": null
           },
           {
             "type": "VariableDeclaration",
@@ -106,45 +118,33 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 130,
                 "end": 138,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 130,
                   "end": 131,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
                   "start": 134,
                   "end": 138,
-                  "raw": "null",
-                  "value": null
-                }
+                  "value": null,
+                  "raw": "null"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 62,
-        "end": 71,
-        "decorators": [],
-        "name": "myWrapper",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

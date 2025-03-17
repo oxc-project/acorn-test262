@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 55,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 21,
             "end": 55,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 55,
-              "decorators": [],
               "name": "mapped",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 27,
@@ -35,6 +31,44 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMappedType",
                   "start": 29,
                   "end": 55,
+                  "typeParameter": {
+                    "type": "TSTypeParameter",
+                    "start": 32,
+                    "end": 44,
+                    "name": {
+                      "type": "Identifier",
+                      "start": 32,
+                      "end": 33,
+                      "name": "K",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "constraint": {
+                      "type": "TSLiteralType",
+                      "start": 37,
+                      "end": 44,
+                      "literal": {
+                        "type": "Literal",
+                        "start": 37,
+                        "end": 44,
+                        "value": "a-b-c",
+                        "raw": "'a-b-c'"
+                      }
+                    },
+                    "default": null,
+                    "in": false,
+                    "out": false,
+                    "const": false
+                  },
+                  "nameType": null,
+                  "typeAnnotation": {
+                    "type": "TSNumberKeyword",
+                    "start": 47,
+                    "end": 53
+                  },
+                  "optional": null,
+                  "readonly": null,
                   "constraint": {
                     "type": "TSLiteralType",
                     "start": 37,
@@ -43,45 +77,40 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 37,
                       "end": 44,
-                      "raw": "'a-b-c'",
-                      "value": "a-b-c"
+                      "value": "a-b-c",
+                      "raw": "'a-b-c'"
                     }
                   },
                   "key": {
                     "type": "Identifier",
                     "start": 32,
                     "end": 33,
-                    "decorators": [],
                     "name": "K",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "nameType": null,
-                  "optional": null,
-                  "readonly": null,
-                  "typeAnnotation": {
-                    "type": "TSNumberKeyword",
-                    "start": 47,
-                    "end": 53
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "kind": "const",
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 56,
       "end": 86,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 63,
@@ -91,33 +120,34 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 69,
             "end": 85,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 69,
               "end": 76,
-              "decorators": [],
               "name": "example",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Identifier",
               "start": 79,
               "end": 85,
-              "decorators": [],
               "name": "mapped",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

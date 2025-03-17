@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 20,
-        "raw": "\"server-only\"",
-        "value": "server-only"
+        "value": "server-only",
+        "raw": "\"server-only\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

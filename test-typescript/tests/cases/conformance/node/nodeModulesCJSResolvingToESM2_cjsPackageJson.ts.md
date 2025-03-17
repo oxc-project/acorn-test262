@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -36,16 +36,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"./module.mjs\"",
-        "value": "./module.mjs"
+        "value": "./module.mjs",
+        "raw": "\"./module.mjs\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

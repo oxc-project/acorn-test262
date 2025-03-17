@@ -9,70 +9,48 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 27,
-        "alternate": {
-          "type": "ArrowFunctionExpression",
-          "start": 21,
-          "end": 27,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 26,
-            "end": 27,
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "expression": true,
-          "generator": false,
-          "id": null,
-          "params": [
-            {
-              "type": "Identifier",
-              "start": 21,
-              "end": 22,
-              "decorators": [],
-              "name": "e",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          ],
-          "returnType": null,
-          "typeParameters": null
+        "test": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 4,
           "end": 18,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 16,
-            "end": 17,
-            "decorators": [],
-            "name": "d",
-            "optional": false,
-            "typeAnnotation": null
-          },
+          "id": null,
           "expression": true,
           "generator": false,
-          "id": null,
+          "async": false,
           "params": [
             {
               "type": "Identifier",
               "start": 5,
               "end": 6,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ],
+          "body": {
+            "type": "Identifier",
+            "start": 16,
+            "end": 17,
+            "name": "d",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
           "returnType": {
             "type": "TSTypeAnnotation",
             "start": 8,
@@ -81,30 +59,52 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 10,
               "end": 11,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 10,
                 "end": 11,
-                "decorators": [],
                 "name": "c",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
-          },
-          "typeParameters": null
+          }
         },
-        "test": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+        "alternate": {
+          "type": "ArrowFunctionExpression",
+          "start": 21,
+          "end": 27,
+          "id": null,
+          "expression": true,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 21,
+              "end": 22,
+              "name": "e",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          ],
+          "body": {
+            "type": "Identifier",
+            "start": 26,
+            "end": 27,
+            "name": "f",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
+          "returnType": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

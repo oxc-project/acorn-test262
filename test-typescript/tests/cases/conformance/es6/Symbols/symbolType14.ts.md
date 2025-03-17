@@ -9,23 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 12,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
           "end": 10,
-          "decorators": [],
           "name": "Symbol",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

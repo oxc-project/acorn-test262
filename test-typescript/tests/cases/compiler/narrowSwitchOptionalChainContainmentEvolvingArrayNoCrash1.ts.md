@@ -14,31 +14,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 12,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
             "start": 10,
             "end": 12,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 15,
       "end": 61,
+      "discriminant": {
+        "type": "ChainExpression",
+        "start": 23,
+        "end": 34,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 23,
+          "end": 34,
+          "object": {
+            "type": "Identifier",
+            "start": 23,
+            "end": 26,
+            "name": "foo",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 28,
+            "end": 34,
+            "name": "length",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": true
+        }
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -49,71 +79,41 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 52,
               "end": 59,
-              "directive": null,
               "expression": {
                 "type": "MemberExpression",
                 "start": 52,
                 "end": 58,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 52,
                   "end": 55,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 56,
                   "end": 57,
-                  "raw": "0",
-                  "value": 0
-                }
-              }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "computed": true,
+                "optional": false
+              },
+              "directive": null
             }
           ],
           "test": {
             "type": "Literal",
             "start": 45,
             "end": 46,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
-      ],
-      "discriminant": {
-        "type": "ChainExpression",
-        "start": 23,
-        "end": 34,
-        "expression": {
-          "type": "MemberExpression",
-          "start": 23,
-          "end": 34,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 23,
-            "end": 26,
-            "decorators": [],
-            "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": true,
-          "property": {
-            "type": "Identifier",
-            "start": 28,
-            "end": 34,
-            "decorators": [],
-            "name": "length",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      }
+      ]
     },
     {
       "type": "VariableDeclaration",
@@ -124,31 +124,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 67,
           "end": 75,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 67,
             "end": 70,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
             "start": 73,
             "end": 75,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 78,
       "end": 170,
+      "discriminant": {
+        "type": "ChainExpression",
+        "start": 86,
+        "end": 97,
+        "expression": {
+          "type": "MemberExpression",
+          "start": 86,
+          "end": 97,
+          "object": {
+            "type": "Identifier",
+            "start": 86,
+            "end": 89,
+            "name": "bar",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 91,
+            "end": 97,
+            "name": "length",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": true
+        }
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -164,48 +194,48 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 117,
                   "end": 133,
-                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 117,
                     "end": 132,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 117,
+                      "end": 125,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 117,
+                        "end": 120,
+                        "name": "bar",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 121,
+                        "end": 125,
+                        "name": "push",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
                     "arguments": [
                       {
                         "type": "Literal",
                         "start": 126,
                         "end": 131,
-                        "raw": "\"baz\"",
-                        "value": "baz"
+                        "value": "baz",
+                        "raw": "\"baz\""
                       }
                     ],
-                    "callee": {
-                      "type": "MemberExpression",
-                      "start": 117,
-                      "end": 125,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 117,
-                        "end": 120,
-                        "decorators": [],
-                        "name": "bar",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 121,
-                        "end": 125,
-                        "decorators": [],
-                        "name": "push",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    },
                     "optional": false,
                     "typeArguments": null
-                  }
+                  },
+                  "directive": null
                 },
                 {
                   "type": "VariableDeclaration",
@@ -216,14 +246,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 144,
                       "end": 163,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 144,
                         "end": 157,
-                        "decorators": [],
                         "name": "arr",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 147,
@@ -238,21 +265,24 @@ __ESTREE_TEST__:PASS:
                               "end": 155
                             }
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
                       "init": {
                         "type": "Identifier",
                         "start": 160,
                         "end": 163,
-                        "decorators": [],
                         "name": "bar",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 }
               ]
             }
@@ -261,41 +291,11 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 108,
             "end": 109,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
-      ],
-      "discriminant": {
-        "type": "ChainExpression",
-        "start": 86,
-        "end": 97,
-        "expression": {
-          "type": "MemberExpression",
-          "start": 86,
-          "end": 97,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 86,
-            "end": 89,
-            "decorators": [],
-            "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": true,
-          "property": {
-            "type": "Identifier",
-            "start": 91,
-            "end": 97,
-            "decorators": [],
-            "name": "length",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      }
+      ]
     }
   ],
   "sourceType": "script",

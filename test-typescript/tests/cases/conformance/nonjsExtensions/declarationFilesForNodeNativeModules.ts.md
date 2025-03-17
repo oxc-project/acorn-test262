@@ -9,33 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 53,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 53,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 29,
-          "decorators": [],
           "name": "doNativeThing",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 30,
             "end": 42,
-            "decorators": [],
             "name": "flag",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 34,
@@ -45,9 +40,14 @@ __ESTREE_TEST__:PASS:
                 "start": 36,
                 "end": 42
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 43,
@@ -57,12 +57,12 @@ __ESTREE_TEST__:PASS:
             "start": 45,
             "end": 52
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -84,12 +84,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 10,
-        "decorators": [],
         "name": "mod",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -98,57 +97,58 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 40,
-          "raw": "\"./dir/native.node\"",
-          "value": "./dir/native.node"
+          "value": "./dir/native.node",
+          "raw": "\"./dir/native.node\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 69,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 43,
         "end": 68,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 43,
+          "end": 60,
+          "object": {
+            "type": "Identifier",
+            "start": 43,
+            "end": 46,
+            "name": "mod",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 47,
+            "end": 60,
+            "name": "doNativeThing",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 61,
             "end": 67,
-            "raw": "\"good\"",
-            "value": "good"
+            "value": "good",
+            "raw": "\"good\""
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 43,
-          "end": 60,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 43,
-            "end": 46,
-            "decorators": [],
-            "name": "mod",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 47,
-            "end": 60,
-            "decorators": [],
-            "name": "doNativeThing",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

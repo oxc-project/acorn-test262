@@ -9,6 +9,41 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 29,
+      "id": {
+        "type": "Identifier",
+        "start": 19,
+        "end": 20,
+        "name": "E",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 23,
+          "end": 28,
+          "id": {
+            "type": "Identifier",
+            "start": 23,
+            "end": 24,
+            "name": "X",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 27,
+            "end": 28,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": false
+        }
+      ],
+      "const": true,
+      "declare": true,
       "body": {
         "type": "TSEnumBody",
         "start": 21,
@@ -18,43 +53,31 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 23,
             "end": 28,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 23,
               "end": 24,
-              "decorators": [],
               "name": "X",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 27,
               "end": 28,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           }
         ]
-      },
-      "const": true,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 19,
-        "end": 20,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 30,
       "end": 49,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 37,
@@ -64,49 +87,50 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 41,
             "end": 48,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 41,
               "end": 42,
-              "decorators": [],
               "name": "y",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "MemberExpression",
               "start": 45,
               "end": 48,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 45,
                 "end": 46,
-                "decorators": [],
                 "name": "E",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 47,
                 "end": 48,
-                "decorators": [],
                 "name": "X",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

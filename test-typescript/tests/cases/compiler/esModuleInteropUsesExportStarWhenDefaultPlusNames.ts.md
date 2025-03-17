@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 34,
-        "raw": "'./dep'",
-        "value": "./dep"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,10 +18,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 11,
-            "decorators": [],
             "name": "Deps",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -41,67 +32,76 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 15,
             "end": 19,
-            "decorators": [],
             "name": "var2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 15,
             "end": 19,
-            "decorators": [],
             "name": "var2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 34,
+        "value": "./dep",
+        "raw": "'./dep'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 46,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 36,
         "end": 45,
+        "operator": "void",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 41,
           "end": 45,
-          "decorators": [],
           "name": "Deps",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "void",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 47,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 47,
         "end": 56,
+        "operator": "void",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 52,
           "end": 56,
-          "decorators": [],
           "name": "var2",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "void",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

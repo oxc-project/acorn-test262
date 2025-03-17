@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 21,
-            "decorators": [],
             "name": "f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -31,6 +28,7 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 21,
                 "abstract": false,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -41,60 +39,62 @@ __ESTREE_TEST__:PASS:
                     "start": 17,
                     "end": 21
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 23,
         "end": 39,
-        "operator": "==",
         "left": {
           "type": "MemberExpression",
           "start": 23,
           "end": 34,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 23,
             "end": 24,
-            "decorators": [],
             "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 25,
             "end": 34,
-            "decorators": [],
             "name": "arguments",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "operator": "==",
         "right": {
           "type": "Literal",
           "start": 38,
           "end": 39,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

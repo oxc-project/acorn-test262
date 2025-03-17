@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 26,
         "end": 96,
+        "id": {
+          "type": "Identifier",
+          "start": 41,
+          "end": 45,
+          "name": "main",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 48,
@@ -29,43 +40,42 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 60,
                   "end": 93,
-                  "definite": false,
                   "id": {
                     "type": "ObjectPattern",
                     "start": 60,
                     "end": 72,
-                    "decorators": [],
-                    "optional": false,
                     "properties": [
                       {
                         "type": "Property",
                         "start": 62,
                         "end": 70,
+                        "method": false,
+                        "shorthand": true,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 62,
                           "end": 70,
-                          "decorators": [],
                           "name": "readFile",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": true,
                         "value": {
                           "type": "Identifier",
                           "start": 62,
                           "end": 70,
-                          "decorators": [],
                           "name": "readFile",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "kind": "init",
+                        "optional": false
                       }
                     ],
+                    "decorators": [],
+                    "optional": false,
                     "typeAnnotation": null
                   },
                   "init": {
@@ -76,42 +86,32 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 81,
                       "end": 93,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 88,
                         "end": 92,
-                        "raw": "\"fs\"",
-                        "value": "fs"
-                      }
+                        "value": "fs",
+                        "raw": "\"fs\""
+                      },
+                      "options": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 41,
-          "end": 45,
-          "decorators": [],
-          "name": "main",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -129,12 +129,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 26,
         "end": 96,
+        "id": {
+          "type": "Identifier",
+          "start": 41,
+          "end": 45,
+          "name": "main",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 48,
@@ -149,43 +160,42 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 60,
                   "end": 93,
-                  "definite": false,
                   "id": {
                     "type": "ObjectPattern",
                     "start": 60,
                     "end": 72,
-                    "decorators": [],
-                    "optional": false,
                     "properties": [
                       {
                         "type": "Property",
                         "start": 62,
                         "end": 70,
+                        "method": false,
+                        "shorthand": true,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 62,
                           "end": 70,
-                          "decorators": [],
                           "name": "readFile",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": true,
                         "value": {
                           "type": "Identifier",
                           "start": 62,
                           "end": 70,
-                          "decorators": [],
                           "name": "readFile",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "kind": "init",
+                        "optional": false
                       }
                     ],
+                    "decorators": [],
+                    "optional": false,
                     "typeAnnotation": null
                   },
                   "init": {
@@ -196,42 +206,32 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 81,
                       "end": 93,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 88,
                         "end": 92,
-                        "raw": "\"fs\"",
-                        "value": "fs"
-                      }
+                        "value": "fs",
+                        "raw": "\"fs\""
+                      },
+                      "options": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 41,
-          "end": 45,
-          "decorators": [],
-          "name": "main",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -249,16 +249,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 20,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     }
   ],
   "sourceType": "module",

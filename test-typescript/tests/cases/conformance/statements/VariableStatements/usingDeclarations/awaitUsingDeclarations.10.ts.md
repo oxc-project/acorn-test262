@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -24,14 +24,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 30,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 25,
@@ -41,19 +38,34 @@ __ESTREE_TEST__:PASS:
                 "start": 27,
                 "end": 30
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "FunctionDeclaration",
       "start": 32,
       "end": 87,
+      "id": {
+        "type": "Identifier",
+        "start": 47,
+        "end": 48,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 51,
@@ -63,7 +75,15 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 57,
             "end": 85,
-            "alternate": null,
+            "test": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 62,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "consequent": {
               "type": "VariableDeclaration",
               "start": 64,
@@ -73,55 +93,35 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 76,
                   "end": 84,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 76,
                     "end": 77,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "Literal",
                     "start": 80,
                     "end": 84,
-                    "raw": "null",
-                    "value": null
-                  }
+                    "value": null,
+                    "raw": "null"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "await using"
+              "kind": "await using",
+              "declare": false
             },
-            "test": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 62,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            }
+            "alternate": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 47,
-        "end": 48,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

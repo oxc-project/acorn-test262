@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 125,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 13,
@@ -25,19 +37,19 @@ __ESTREE_TEST__:PASS:
               "end": 26,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 27,
               "end": 36,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 33,
                 "end": 36,
                 "body": []
-              },
-              "param": null
-            }
+              }
+            },
+            "finalizer": null
           },
           {
             "type": "TryStatement",
@@ -49,11 +61,11 @@ __ESTREE_TEST__:PASS:
               "end": 48,
               "body": []
             },
-            "finalizer": null,
             "handler": {
               "type": "CatchClause",
               "start": 49,
               "end": 89,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 55,
@@ -69,24 +81,24 @@ __ESTREE_TEST__:PASS:
                       "end": 73,
                       "body": []
                     },
-                    "finalizer": null,
                     "handler": {
                       "type": "CatchClause",
                       "start": 74,
                       "end": 83,
+                      "param": null,
                       "body": {
                         "type": "BlockStatement",
                         "start": 80,
                         "end": 83,
                         "body": []
-                      },
-                      "param": null
-                    }
+                      }
+                    },
+                    "finalizer": null
                   }
                 ]
-              },
-              "param": null
-            }
+              }
+            },
+            "finalizer": null
           },
           {
             "type": "TryStatement",
@@ -98,42 +110,30 @@ __ESTREE_TEST__:PASS:
               "end": 101,
               "body": []
             },
-            "finalizer": {
-              "type": "BlockStatement",
-              "start": 120,
-              "end": 123,
-              "body": []
-            },
             "handler": {
               "type": "CatchClause",
               "start": 102,
               "end": 111,
+              "param": null,
               "body": {
                 "type": "BlockStatement",
                 "start": 108,
                 "end": 111,
                 "body": []
-              },
-              "param": null
+              }
+            },
+            "finalizer": {
+              "type": "BlockStatement",
+              "start": 120,
+              "end": 123,
+              "body": []
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

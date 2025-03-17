@@ -9,33 +9,32 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
-      "directive": "oops �� oops",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 14,
-        "raw": "\"oops �� oops\"",
-        "value": "oops �� oops"
-      }
+        "value": "oops �� oops",
+        "raw": "\"oops �� oops\""
+      },
+      "directive": "oops �� oops"
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 31,
-      "directive": "oops �� oops",
       "expression": {
         "type": "Literal",
         "start": 16,
         "end": 30,
-        "raw": "'oops �� oops'",
-        "value": "oops �� oops"
-      }
+        "value": "oops �� oops",
+        "raw": "'oops �� oops'"
+      },
+      "directive": "oops �� oops"
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 32,
@@ -46,20 +45,20 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 32,
             "end": 46,
-            "tail": true,
             "value": {
               "cooked": "oops �� oops",
               "raw": "oops �� oops"
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 48,
       "end": 68,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 48,
@@ -69,8 +68,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 51,
             "end": 65,
-            "raw": "\"oops �� oops\"",
-            "value": "oops �� oops"
+            "value": "oops �� oops",
+            "raw": "\"oops �� oops\""
           }
         ],
         "quasis": [
@@ -78,24 +77,25 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 48,
             "end": 51,
-            "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 65,
             "end": 67,
-            "tail": true,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 311,
           "end": 328,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 311,
             "end": 316,
-            "decorators": [],
             "name": "array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -33,29 +32,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 320,
                 "end": 321,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 323,
                 "end": 324,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 326,
                 "end": 327,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -66,15 +66,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 334,
           "end": 355,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 334,
             "end": 340,
-            "decorators": [],
             "name": "array1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -85,29 +84,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 344,
                 "end": 348,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 350,
                 "end": 351,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 353,
                 "end": 354,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -118,14 +118,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 430,
           "end": 474,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 430,
             "end": 459,
-            "decorators": [],
             "name": "tup",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 433,
@@ -152,7 +149,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -163,36 +162,37 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 463,
                 "end": 464,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 466,
                 "end": 467,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 469,
                 "end": 470,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 472,
                 "end": 473,
-                "raw": "4",
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -203,14 +203,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 480,
           "end": 553,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 480,
             "end": 531,
-            "decorators": [],
             "name": "tup1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 484,
@@ -273,7 +270,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -284,36 +283,37 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 535,
                 "end": 536,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 538,
                 "end": 539,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 541,
                 "end": 542,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 544,
                 "end": 552,
-                "raw": "\"string\"",
-                "value": "string"
+                "value": "string",
+                "raw": "\"string\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -324,14 +324,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 559,
           "end": 611,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 559,
             "end": 589,
-            "decorators": [],
             "name": "tup2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 563,
@@ -358,7 +355,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -369,36 +368,37 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 593,
                 "end": 594,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 596,
                 "end": 597,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 599,
                 "end": 600,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "Literal",
                 "start": 602,
                 "end": 610,
-                "raw": "\"string\"",
-                "value": "string"
+                "value": "string",
+                "raw": "\"string\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -409,15 +409,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 836,
           "end": 861,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 836,
             "end": 839,
-            "decorators": [],
             "name": "spr",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -428,22 +427,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 843,
                 "end": 844,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 846,
                 "end": 847,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 849,
                 "end": 850,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "SpreadElement",
@@ -453,18 +452,19 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 855,
                   "end": 860,
-                  "decorators": [],
                   "name": "array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -475,15 +475,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 867,
           "end": 891,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 867,
             "end": 871,
-            "decorators": [],
             "name": "spr1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -494,22 +493,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 875,
                 "end": 876,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 878,
                 "end": 879,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 881,
                 "end": 882,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "SpreadElement",
@@ -519,18 +518,19 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 887,
                   "end": 890,
-                  "decorators": [],
                   "name": "tup",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -541,14 +541,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 897,
           "end": 946,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 897,
             "end": 926,
-            "decorators": [],
             "name": "spr2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 901,
@@ -575,7 +572,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -586,22 +585,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 930,
                 "end": 931,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 933,
                 "end": 934,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 936,
                 "end": 937,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               },
               {
                 "type": "SpreadElement",
@@ -611,18 +610,19 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 942,
                   "end": 945,
-                  "decorators": [],
                   "name": "tup",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

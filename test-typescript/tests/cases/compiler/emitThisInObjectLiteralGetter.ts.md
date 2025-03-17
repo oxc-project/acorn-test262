@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 80,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 13,
-            "decorators": [],
             "name": "example",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,25 +32,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 22,
                 "end": 78,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 26,
                   "end": 29,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "get",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 29,
                   "end": 78,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 32,
@@ -65,81 +66,80 @@ __ESTREE_TEST__:PASS:
                           "type": "ArrowFunctionExpression",
                           "start": 49,
                           "end": 71,
-                          "async": false,
-                          "body": {
-                            "type": "CallExpression",
-                            "start": 57,
-                            "end": 71,
-                            "arguments": [
-                              {
-                                "type": "Identifier",
-                                "start": 66,
-                                "end": 70,
-                                "decorators": [],
-                                "name": "item",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            ],
-                            "callee": {
-                              "type": "MemberExpression",
-                              "start": 57,
-                              "end": 65,
-                              "computed": false,
-                              "object": {
-                                "type": "ThisExpression",
-                                "start": 57,
-                                "end": 61
-                              },
-                              "optional": false,
-                              "property": {
-                                "type": "Identifier",
-                                "start": 62,
-                                "end": 65,
-                                "decorators": [],
-                                "name": "bar",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            },
-                            "optional": false,
-                            "typeArguments": null
-                          },
+                          "id": null,
                           "expression": true,
                           "generator": false,
-                          "id": null,
+                          "async": false,
                           "params": [
                             {
                               "type": "Identifier",
                               "start": 49,
                               "end": 53,
-                              "decorators": [],
                               "name": "item",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             }
                           ],
-                          "returnType": null,
-                          "typeParameters": null
+                          "body": {
+                            "type": "CallExpression",
+                            "start": 57,
+                            "end": 71,
+                            "callee": {
+                              "type": "MemberExpression",
+                              "start": 57,
+                              "end": 65,
+                              "object": {
+                                "type": "ThisExpression",
+                                "start": 57,
+                                "end": 61
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 62,
+                                "end": 65,
+                                "name": "bar",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "start": 66,
+                                "end": 70,
+                                "name": "item",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              }
+                            ],
+                            "optional": false,
+                            "typeArguments": null
+                          },
+                          "typeParameters": null,
+                          "returnType": null
                         }
                       }
                     ]
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "kind": "get",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

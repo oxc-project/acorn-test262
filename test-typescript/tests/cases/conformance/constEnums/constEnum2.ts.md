@@ -14,45 +14,335 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 359,
           "end": 375,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 359,
             "end": 364,
-            "decorators": [],
             "name": "CONST",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "BinaryExpression",
             "start": 367,
             "end": 375,
-            "operator": "%",
             "left": {
               "type": "Literal",
               "start": 367,
               "end": 371,
-              "raw": "9000",
-              "value": 9000
+              "value": 9000,
+              "raw": "9000"
             },
+            "operator": "%",
             "right": {
               "type": "Literal",
               "start": 374,
               "end": 375,
-              "raw": "2",
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 377,
       "end": 519,
+      "id": {
+        "type": "Identifier",
+        "start": 388,
+        "end": 389,
+        "name": "D",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 396,
+          "end": 402,
+          "id": {
+            "type": "Identifier",
+            "start": 396,
+            "end": 397,
+            "name": "d",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 400,
+            "end": 402,
+            "value": 10,
+            "raw": "10"
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 408,
+          "end": 450,
+          "id": {
+            "type": "Identifier",
+            "start": 408,
+            "end": 409,
+            "name": "e",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "BinaryExpression",
+            "start": 412,
+            "end": 450,
+            "left": {
+              "type": "Literal",
+              "start": 412,
+              "end": 415,
+              "value": 199,
+              "raw": "199"
+            },
+            "operator": "*",
+            "right": {
+              "type": "CallExpression",
+              "start": 418,
+              "end": 450,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 418,
+                "end": 428,
+                "object": {
+                  "type": "Identifier",
+                  "start": 418,
+                  "end": 422,
+                  "name": "Math",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 423,
+                  "end": 428,
+                  "name": "floor",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "BinaryExpression",
+                  "start": 429,
+                  "end": 449,
+                  "left": {
+                    "type": "CallExpression",
+                    "start": 429,
+                    "end": 442,
+                    "callee": {
+                      "type": "MemberExpression",
+                      "start": 429,
+                      "end": 440,
+                      "object": {
+                        "type": "Identifier",
+                        "start": 429,
+                        "end": 433,
+                        "name": "Math",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 434,
+                        "end": 440,
+                        "name": "random",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "operator": "*",
+                  "right": {
+                    "type": "Literal",
+                    "start": 445,
+                    "end": 449,
+                    "value": 1000,
+                    "raw": "1000"
+                  }
+                }
+              ],
+              "optional": false,
+              "typeArguments": null
+            }
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 456,
+          "end": 501,
+          "id": {
+            "type": "Identifier",
+            "start": 456,
+            "end": 457,
+            "name": "f",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "BinaryExpression",
+            "start": 460,
+            "end": 501,
+            "left": {
+              "type": "Identifier",
+              "start": 460,
+              "end": 461,
+              "name": "d",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "operator": "-",
+            "right": {
+              "type": "BinaryExpression",
+              "start": 465,
+              "end": 500,
+              "left": {
+                "type": "Literal",
+                "start": 465,
+                "end": 468,
+                "value": 100,
+                "raw": "100"
+              },
+              "operator": "*",
+              "right": {
+                "type": "CallExpression",
+                "start": 471,
+                "end": 500,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 471,
+                  "end": 481,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 471,
+                    "end": 475,
+                    "name": "Math",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 476,
+                    "end": 481,
+                    "name": "floor",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "BinaryExpression",
+                    "start": 482,
+                    "end": 499,
+                    "left": {
+                      "type": "CallExpression",
+                      "start": 482,
+                      "end": 495,
+                      "callee": {
+                        "type": "MemberExpression",
+                        "start": 482,
+                        "end": 493,
+                        "object": {
+                          "type": "Identifier",
+                          "start": 482,
+                          "end": 486,
+                          "name": "Math",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 487,
+                          "end": 493,
+                          "name": "random",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "arguments": [],
+                      "optional": false,
+                      "typeArguments": null
+                    },
+                    "operator": "%",
+                    "right": {
+                      "type": "Literal",
+                      "start": 498,
+                      "end": 499,
+                      "value": 8,
+                      "raw": "8"
+                    }
+                  }
+                ],
+                "optional": false,
+                "typeArguments": null
+              }
+            }
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 507,
+          "end": 516,
+          "id": {
+            "type": "Identifier",
+            "start": 507,
+            "end": 508,
+            "name": "g",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Identifier",
+            "start": 511,
+            "end": 516,
+            "name": "CONST",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false
+        }
+      ],
+      "const": true,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 390,
@@ -62,291 +352,280 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 396,
             "end": 402,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 396,
               "end": 397,
-              "decorators": [],
               "name": "d",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 400,
               "end": 402,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 408,
             "end": 450,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 408,
               "end": 409,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "BinaryExpression",
               "start": 412,
               "end": 450,
-              "operator": "*",
               "left": {
                 "type": "Literal",
                 "start": 412,
                 "end": 415,
-                "raw": "199",
-                "value": 199
+                "value": 199,
+                "raw": "199"
               },
+              "operator": "*",
               "right": {
                 "type": "CallExpression",
                 "start": 418,
                 "end": 450,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 418,
+                  "end": 428,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 418,
+                    "end": 422,
+                    "name": "Math",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 423,
+                    "end": 428,
+                    "name": "floor",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
                     "start": 429,
                     "end": 449,
-                    "operator": "*",
                     "left": {
                       "type": "CallExpression",
                       "start": 429,
                       "end": 442,
-                      "arguments": [],
                       "callee": {
                         "type": "MemberExpression",
                         "start": 429,
                         "end": 440,
-                        "computed": false,
                         "object": {
                           "type": "Identifier",
                           "start": 429,
                           "end": 433,
-                          "decorators": [],
                           "name": "Math",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
                         "property": {
                           "type": "Identifier",
                           "start": 434,
                           "end": 440,
-                          "decorators": [],
                           "name": "random",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
                       },
+                      "arguments": [],
                       "optional": false,
                       "typeArguments": null
                     },
+                    "operator": "*",
                     "right": {
                       "type": "Literal",
                       "start": 445,
                       "end": 449,
-                      "raw": "1000",
-                      "value": 1000
+                      "value": 1000,
+                      "raw": "1000"
                     }
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 418,
-                  "end": 428,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 418,
-                    "end": 422,
-                    "decorators": [],
-                    "name": "Math",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 423,
-                    "end": 428,
-                    "decorators": [],
-                    "name": "floor",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
                 "optional": false,
                 "typeArguments": null
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 456,
             "end": 501,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 456,
               "end": 457,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "BinaryExpression",
               "start": 460,
               "end": 501,
-              "operator": "-",
               "left": {
                 "type": "Identifier",
                 "start": 460,
                 "end": 461,
-                "decorators": [],
                 "name": "d",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "operator": "-",
               "right": {
                 "type": "BinaryExpression",
                 "start": 465,
                 "end": 500,
-                "operator": "*",
                 "left": {
                   "type": "Literal",
                   "start": 465,
                   "end": 468,
-                  "raw": "100",
-                  "value": 100
+                  "value": 100,
+                  "raw": "100"
                 },
+                "operator": "*",
                 "right": {
                   "type": "CallExpression",
                   "start": 471,
                   "end": 500,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 471,
+                    "end": 481,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 471,
+                      "end": 475,
+                      "name": "Math",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 476,
+                      "end": 481,
+                      "name": "floor",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "BinaryExpression",
                       "start": 482,
                       "end": 499,
-                      "operator": "%",
                       "left": {
                         "type": "CallExpression",
                         "start": 482,
                         "end": 495,
-                        "arguments": [],
                         "callee": {
                           "type": "MemberExpression",
                           "start": 482,
                           "end": 493,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 482,
                             "end": 486,
-                            "decorators": [],
                             "name": "Math",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 487,
                             "end": 493,
-                            "decorators": [],
                             "name": "random",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
                         },
+                        "arguments": [],
                         "optional": false,
                         "typeArguments": null
                       },
+                      "operator": "%",
                       "right": {
                         "type": "Literal",
                         "start": 498,
                         "end": 499,
-                        "raw": "8",
-                        "value": 8
+                        "value": 8,
+                        "raw": "8"
                       }
                     }
                   ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 471,
-                    "end": 481,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 471,
-                      "end": 475,
-                      "decorators": [],
-                      "name": "Math",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 476,
-                      "end": 481,
-                      "decorators": [],
-                      "name": "floor",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
                   "optional": false,
                   "typeArguments": null
                 }
               }
-            }
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 507,
             "end": 516,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 507,
               "end": 508,
-              "decorators": [],
               "name": "g",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Identifier",
               "start": 511,
               "end": 516,
-              "decorators": [],
               "name": "CONST",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false
           }
         ]
-      },
-      "const": true,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 388,
-        "end": 389,
-        "decorators": [],
-        "name": "D",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

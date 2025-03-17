@@ -9,39 +9,39 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 14,
+        "callee": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 3,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 4,
             "end": 9,
-            "raw": "false",
-            "value": false
+            "value": false,
+            "raw": "false"
           },
           {
             "type": "Literal",
             "start": 11,
             "end": 13,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 3,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

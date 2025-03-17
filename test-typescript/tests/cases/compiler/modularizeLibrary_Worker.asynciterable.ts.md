@@ -9,17 +9,95 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 25,
       "end": 165,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 25,
         "end": 164,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 25,
+          "end": 62,
+          "object": {
+            "type": "CallExpression",
+            "start": 25,
+            "end": 57,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 25,
+              "end": 55,
+              "object": {
+                "type": "MemberExpression",
+                "start": 25,
+                "end": 42,
+                "object": {
+                  "type": "Identifier",
+                  "start": 25,
+                  "end": 34,
+                  "name": "navigator",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 35,
+                  "end": 42,
+                  "name": "storage",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 43,
+                "end": 55,
+                "name": "getDirectory",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false,
+            "typeArguments": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 58,
+            "end": 62,
+            "name": "then",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 63,
             "end": 163,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": true,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 69,
+                "end": 78,
+                "name": "directory",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 82,
@@ -30,44 +108,6 @@ __ESTREE_TEST__:PASS:
                   "start": 88,
                   "end": 161,
                   "await": true,
-                  "body": {
-                    "type": "BlockStatement",
-                    "start": 133,
-                    "end": 161,
-                    "body": [
-                      {
-                        "type": "ExpressionStatement",
-                        "start": 143,
-                        "end": 155,
-                        "directive": null,
-                        "expression": {
-                          "type": "MemberExpression",
-                          "start": 143,
-                          "end": 154,
-                          "computed": false,
-                          "object": {
-                            "type": "Identifier",
-                            "start": 143,
-                            "end": 149,
-                            "decorators": [],
-                            "name": "handle",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 150,
-                            "end": 154,
-                            "decorators": [],
-                            "name": "kind",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        }
-                      }
-                    ]
-                  },
                   "left": {
                     "type": "VariableDeclaration",
                     "start": 99,
@@ -77,139 +117,99 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclarator",
                         "start": 105,
                         "end": 118,
-                        "definite": false,
                         "id": {
                           "type": "ArrayPattern",
                           "start": 105,
                           "end": 118,
-                          "decorators": [],
                           "elements": [
                             {
                               "type": "Identifier",
                               "start": 106,
                               "end": 109,
-                              "decorators": [],
                               "name": "key",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             {
                               "type": "Identifier",
                               "start": 111,
                               "end": 117,
-                              "decorators": [],
                               "name": "handle",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             }
                           ],
+                          "decorators": [],
                           "optional": false,
                           "typeAnnotation": null
                         },
-                        "init": null
+                        "init": null,
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "const"
+                    "kind": "const",
+                    "declare": false
                   },
                   "right": {
                     "type": "Identifier",
                     "start": 122,
                     "end": 131,
-                    "decorators": [],
                     "name": "directory",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "body": {
+                    "type": "BlockStatement",
+                    "start": 133,
+                    "end": 161,
+                    "body": [
+                      {
+                        "type": "ExpressionStatement",
+                        "start": 143,
+                        "end": 155,
+                        "expression": {
+                          "type": "MemberExpression",
+                          "start": 143,
+                          "end": 154,
+                          "object": {
+                            "type": "Identifier",
+                            "start": 143,
+                            "end": 149,
+                            "name": "handle",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 150,
+                            "end": 154,
+                            "name": "kind",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "directive": null
+                      }
+                    ]
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 69,
-                "end": 78,
-                "decorators": [],
-                "name": "directory",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 25,
-          "end": 62,
-          "computed": false,
-          "object": {
-            "type": "CallExpression",
-            "start": 25,
-            "end": 57,
-            "arguments": [],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 25,
-              "end": 55,
-              "computed": false,
-              "object": {
-                "type": "MemberExpression",
-                "start": 25,
-                "end": 42,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 25,
-                  "end": 34,
-                  "decorators": [],
-                  "name": "navigator",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 35,
-                  "end": 42,
-                  "decorators": [],
-                  "name": "storage",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 43,
-                "end": 55,
-                "decorators": [],
-                "name": "getDirectory",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "typeArguments": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 58,
-            "end": 62,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

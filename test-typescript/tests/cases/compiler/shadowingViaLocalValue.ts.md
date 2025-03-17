@@ -19,21 +19,21 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 10,
               "end": 11,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 10,
                 "end": 11,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "kind": "let",
+          "declare": false
         },
         {
           "type": "BlockStatement",
@@ -49,27 +49,27 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 31,
                   "end": 36,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 31,
                     "end": 32,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "Literal",
                     "start": 35,
                     "end": 36,
-                    "raw": "1",
-                    "value": 1
-                  }
+                    "value": 1,
+                    "raw": "1"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             }
           ]
         }
@@ -89,21 +89,21 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 57,
               "end": 59,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 57,
                 "end": 59,
-                "decorators": [],
                 "name": "x1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "kind": "let",
+          "declare": false
         },
         {
           "type": "BlockStatement",
@@ -114,11 +114,6 @@ __ESTREE_TEST__:PASS:
               "type": "ForStatement",
               "start": 75,
               "end": 95,
-              "body": {
-                "type": "EmptyStatement",
-                "start": 94,
-                "end": 95
-              },
               "init": {
                 "type": "VariableDeclaration",
                 "start": 80,
@@ -128,30 +123,35 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclarator",
                     "start": 84,
                     "end": 90,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 84,
                       "end": 86,
-                      "decorators": [],
                       "name": "x1",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "init": {
                       "type": "Literal",
                       "start": 89,
                       "end": 90,
-                      "raw": "0",
-                      "value": 0
-                    }
+                      "value": 0,
+                      "raw": "0"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "declare": false
               },
               "test": null,
-              "update": null
+              "update": null,
+              "body": {
+                "type": "EmptyStatement",
+                "start": 94,
+                "end": 95
+              }
             }
           ]
         }

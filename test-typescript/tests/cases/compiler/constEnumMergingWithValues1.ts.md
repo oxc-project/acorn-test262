@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 17,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -17,25 +29,22 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 18,
       "end": 55,
+      "id": {
+        "type": "Identifier",
+        "start": 25,
+        "end": 28,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 29,
@@ -45,6 +54,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumDeclaration",
             "start": 35,
             "end": 53,
+            "id": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 47,
+              "name": "E",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "members": [
+              {
+                "type": "TSEnumMember",
+                "start": 50,
+                "end": 51,
+                "id": {
+                  "type": "Identifier",
+                  "start": 50,
+                  "end": 51,
+                  "name": "X",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "initializer": null,
+                "computed": false
+              }
+            ],
+            "const": true,
+            "declare": false,
             "body": {
               "type": "TSEnumBody",
               "start": 48,
@@ -54,46 +92,26 @@ __ESTREE_TEST__:PASS:
                   "type": "TSEnumMember",
                   "start": 50,
                   "end": 51,
-                  "computed": false,
                   "id": {
                     "type": "Identifier",
                     "start": 50,
                     "end": 51,
-                    "decorators": [],
                     "name": "X",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "initializer": null
+                  "initializer": null,
+                  "computed": false
                 }
               ]
-            },
-            "const": true,
-            "declare": false,
-            "id": {
-              "type": "Identifier",
-              "start": 46,
-              "end": 47,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 25,
-        "end": 28,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -103,10 +121,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 66,
         "end": 69,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 101,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 21,
@@ -19,7 +31,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 40,
             "end": 48,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 40,
@@ -28,16 +39,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 46,
                 "end": 47,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 53,
             "end": 74,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 53,
@@ -46,16 +57,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 72,
                 "end": 73,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 79,
             "end": 86,
-            "directive": null,
             "expression": {
               "type": "AwaitExpression",
               "start": 79,
@@ -64,28 +75,17 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 85,
                 "end": 86,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

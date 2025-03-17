@@ -13,58 +13,190 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 7,
         "end": 157,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 7,
+          "end": 32,
+          "object": {
+            "type": "CallExpression",
+            "start": 7,
+            "end": 22,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 7,
+              "end": 16,
+              "object": {
+                "type": "ThisExpression",
+                "start": 7,
+                "end": 11
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 12,
+                "end": 16,
+                "name": "edit",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "arguments": [
+              {
+                "type": "Identifier",
+                "start": 17,
+                "end": 21,
+                "name": "role",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
+            "optional": false,
+            "typeArguments": null
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 28,
+            "end": 32,
+            "name": "then",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 33,
             "end": 156,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 34,
+                "end": 44,
+                "name": "role",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 38,
+                  "end": 44,
+                  "typeAnnotation": {
+                    "type": "TSTypeReference",
+                    "start": 40,
+                    "end": 44,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 40,
+                      "end": 44,
+                      "name": "Role",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeArguments": null
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "CallExpression",
               "start": 57,
               "end": 156,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 57,
+                "end": 101,
+                "object": {
+                  "type": "CallExpression",
+                  "start": 57,
+                  "end": 83,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 57,
+                    "end": 77,
+                    "object": {
+                      "type": "MemberExpression",
+                      "start": 57,
+                      "end": 73,
+                      "object": {
+                        "type": "ThisExpression",
+                        "start": 57,
+                        "end": 61
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "start": 62,
+                        "end": 73,
+                        "name": "roleService",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 74,
+                      "end": 77,
+                      "name": "add",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "arguments": [
+                    {
+                      "type": "Identifier",
+                      "start": 78,
+                      "end": 82,
+                      "name": "role",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    }
+                  ],
+                  "optional": false,
+                  "typeArguments": null
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 97,
+                  "end": 101,
+                  "name": "then",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
                   "start": 102,
                   "end": 155,
-                  "async": false,
-                  "body": {
-                    "type": "MemberExpression",
-                    "start": 146,
-                    "end": 155,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 146,
-                      "end": 150,
-                      "decorators": [],
-                      "name": "data",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 151,
-                      "end": 155,
-                      "decorators": [],
-                      "name": "data",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
+                  "id": null,
                   "expression": true,
                   "generator": false,
-                  "id": null,
+                  "async": false,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 103,
                       "end": 141,
-                      "decorators": [],
                       "name": "data",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 107,
@@ -73,6 +205,29 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 109,
                           "end": 141,
+                          "typeName": {
+                            "type": "TSQualifiedName",
+                            "start": 109,
+                            "end": 135,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 109,
+                              "end": 111,
+                              "name": "ng",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "right": {
+                              "type": "Identifier",
+                              "start": 112,
+                              "end": 135,
+                              "name": "IHttpPromiseCallbackArg",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            }
+                          },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
                             "start": 135,
@@ -82,216 +237,61 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 136,
                                 "end": 140,
-                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 136,
                                   "end": 140,
-                                  "decorators": [],
                                   "name": "Role",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "typeArguments": null
                               }
                             ]
-                          },
-                          "typeName": {
-                            "type": "TSQualifiedName",
-                            "start": 109,
-                            "end": 135,
-                            "left": {
-                              "type": "Identifier",
-                              "start": 109,
-                              "end": 111,
-                              "decorators": [],
-                              "name": "ng",
-                              "optional": false,
-                              "typeAnnotation": null
-                            },
-                            "right": {
-                              "type": "Identifier",
-                              "start": 112,
-                              "end": 135,
-                              "decorators": [],
-                              "name": "IHttpPromiseCallbackArg",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
                           }
                         }
-                      }
-                    }
-                  ],
-                  "returnType": null,
-                  "typeParameters": null
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 57,
-                "end": 101,
-                "computed": false,
-                "object": {
-                  "type": "CallExpression",
-                  "start": 57,
-                  "end": 83,
-                  "arguments": [
-                    {
-                      "type": "Identifier",
-                      "start": 78,
-                      "end": 82,
-                      "decorators": [],
-                      "name": "role",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 57,
-                    "end": 77,
-                    "computed": false,
-                    "object": {
-                      "type": "MemberExpression",
-                      "start": 57,
-                      "end": 73,
-                      "computed": false,
-                      "object": {
-                        "type": "ThisExpression",
-                        "start": 57,
-                        "end": 61
                       },
-                      "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 62,
-                        "end": 73,
-                        "decorators": [],
-                        "name": "roleService",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                      "decorators": [],
+                      "optional": false
+                    }
+                  ],
+                  "body": {
+                    "type": "MemberExpression",
+                    "start": 146,
+                    "end": 155,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 146,
+                      "end": 150,
+                      "name": "data",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 74,
-                      "end": 77,
+                      "start": 151,
+                      "end": 155,
+                      "name": "data",
+                      "typeAnnotation": null,
                       "decorators": [],
-                      "name": "add",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   },
-                  "optional": false,
-                  "typeArguments": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 97,
-                  "end": 101,
-                  "decorators": [],
-                  "name": "then",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeParameters": null,
+                  "returnType": null
                 }
-              },
+              ],
               "optional": false,
               "typeArguments": null
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 34,
-                "end": 44,
-                "decorators": [],
-                "name": "role",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 38,
-                  "end": 44,
-                  "typeAnnotation": {
-                    "type": "TSTypeReference",
-                    "start": 40,
-                    "end": 44,
-                    "typeArguments": null,
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 40,
-                      "end": 44,
-                      "decorators": [],
-                      "name": "Role",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 7,
-          "end": 32,
-          "computed": false,
-          "object": {
-            "type": "CallExpression",
-            "start": 7,
-            "end": 22,
-            "arguments": [
-              {
-                "type": "Identifier",
-                "start": 17,
-                "end": 21,
-                "decorators": [],
-                "name": "role",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 7,
-              "end": 16,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 7,
-                "end": 11
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 12,
-                "end": 16,
-                "decorators": [],
-                "name": "edit",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "typeArguments": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 28,
-            "end": 32,
-            "decorators": [],
-            "name": "then",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
       }

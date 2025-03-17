@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 28,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 28,
             "end": 38,
-            "decorators": [],
             "name": "ABC",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 31,
@@ -34,11 +31,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 33,
                   "end": 38,
-                  "raw": "\"ABC\"",
-                  "value": "ABC"
+                  "value": "ABC",
+                  "raw": "\"ABC\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -50,18 +49,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 41,
                 "end": 46,
-                "tail": true,
                 "value": {
                   "cooked": "ABC",
                   "raw": "ABC"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -72,14 +72,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 52,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 52,
             "end": 73,
-            "decorators": [],
             "name": "DE_NEWLINE_F",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 64,
@@ -92,11 +89,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 66,
                   "end": 73,
-                  "raw": "\"DE\\nF\"",
-                  "value": "DE\nF"
+                  "value": "DE\nF",
+                  "raw": "\"DE\\nF\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -108,18 +107,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 76,
                 "end": 82,
-                "tail": true,
                 "value": {
                   "cooked": "DE\nF",
                   "raw": "DE\nF"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -130,14 +130,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 88,
           "end": 106,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 88,
             "end": 106,
-            "decorators": [],
             "name": "G_QUOTE_HI",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 98,
@@ -150,17 +147,20 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 100,
                   "end": 106,
-                  "raw": "'G\"HI'",
-                  "value": "G\"HI"
+                  "value": "G\"HI",
+                  "raw": "'G\"HI'"
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -171,14 +171,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 112,
           "end": 143,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 112,
             "end": 133,
-            "decorators": [],
             "name": "JK_BACKTICK_L",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 125,
@@ -191,11 +188,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 127,
                   "end": 133,
-                  "raw": "\"JK`L\"",
-                  "value": "JK`L"
+                  "value": "JK`L",
+                  "raw": "\"JK`L\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -207,18 +206,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 136,
                 "end": 143,
-                "tail": true,
                 "value": {
                   "cooked": "JK`L",
                   "raw": "JK\\`L"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

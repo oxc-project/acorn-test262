@@ -9,27 +9,65 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 31,
+        "test": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "consequent": {
+          "type": "ArrowFunctionExpression",
+          "start": 4,
+          "end": 13,
+          "id": null,
+          "expression": true,
+          "generator": false,
+          "async": false,
+          "params": [],
+          "body": {
+            "type": "CallExpression",
+            "start": 10,
+            "end": 13,
+            "callee": {
+              "type": "Identifier",
+              "start": 10,
+              "end": 11,
+              "name": "a",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "arguments": [],
+            "optional": false,
+            "typeArguments": null
+          },
+          "typeParameters": null,
+          "returnType": null
+        },
         "alternate": {
           "type": "ArrowFunctionExpression",
           "start": 16,
           "end": 31,
+          "id": null,
+          "expression": true,
+          "generator": false,
           "async": false,
+          "params": [],
           "body": {
             "type": "Literal",
             "start": 27,
             "end": 31,
-            "raw": "null",
-            "value": null
+            "value": null,
+            "raw": "null"
           },
-          "expression": true,
-          "generator": false,
-          "id": null,
-          "params": [],
+          "typeParameters": null,
           "returnType": {
             "type": "TSTypeAnnotation",
             "start": 18,
@@ -39,48 +77,10 @@ __ESTREE_TEST__:PASS:
               "start": 20,
               "end": 23
             }
-          },
-          "typeParameters": null
-        },
-        "consequent": {
-          "type": "ArrowFunctionExpression",
-          "start": 4,
-          "end": 13,
-          "async": false,
-          "body": {
-            "type": "CallExpression",
-            "start": 10,
-            "end": 13,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 10,
-              "end": 11,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "typeArguments": null
-          },
-          "expression": true,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
-        },
-        "test": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

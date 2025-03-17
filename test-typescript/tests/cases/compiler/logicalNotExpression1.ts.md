@@ -9,23 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 5,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 0,
         "end": 4,
+        "operator": "!",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 1,
           "end": 4,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "!",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

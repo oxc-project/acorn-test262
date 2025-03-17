@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 60,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 11,
+        "name": "fn",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 22,
@@ -23,24 +35,24 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 32,
               "end": 48,
+              "callee": {
+                "type": "Identifier",
+                "start": 36,
+                "end": 41,
+                "name": "Error",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 42,
                   "end": 47,
-                  "raw": "'NYI'",
-                  "value": "NYI"
+                  "value": "NYI",
+                  "raw": "'NYI'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 36,
-                "end": 41,
-                "decorators": [],
-                "name": "Error",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "typeArguments": null
             }
           },
@@ -53,37 +65,26 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 56,
                 "end": 57,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 56,
                   "end": 57,
-                  "decorators": [],
                   "name": "t",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 11,
-        "decorators": [],
-        "name": "fn",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 13,
@@ -93,8 +94,7 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 21
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

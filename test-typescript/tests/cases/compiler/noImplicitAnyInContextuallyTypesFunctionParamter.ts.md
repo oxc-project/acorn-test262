@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 18,
-            "decorators": [],
             "name": "regexMatchList",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -33,132 +32,133 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 22,
                 "end": 24,
-                "raw": "''",
-                "value": ""
+                "value": "",
+                "raw": "''"
               },
               {
                 "type": "Literal",
                 "start": 26,
                 "end": 28,
-                "raw": "''",
-                "value": ""
+                "value": "",
+                "raw": "''"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 86,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 31,
         "end": 85,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 31,
+          "end": 53,
+          "object": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 45,
+            "name": "regexMatchList",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 46,
+            "end": 53,
+            "name": "forEach",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 54,
             "end": 84,
-            "async": false,
-            "body": {
-              "type": "CallExpression",
-              "start": 63,
-              "end": 84,
-              "arguments": [
-                {
-                  "type": "Identifier",
-                  "start": 74,
-                  "end": 79,
-                  "decorators": [],
-                  "name": "match",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Literal",
-                  "start": 81,
-                  "end": 83,
-                  "raw": "''",
-                  "value": ""
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 63,
-                "end": 73,
-                "computed": false,
-                "object": {
-                  "type": "Literal",
-                  "start": 63,
-                  "end": 65,
-                  "raw": "''",
-                  "value": ""
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 66,
-                  "end": 73,
-                  "decorators": [],
-                  "name": "replace",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            },
+            "id": null,
             "expression": true,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 54,
                 "end": 59,
-                "decorators": [],
                 "name": "match",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
-            "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "CallExpression",
+              "start": 63,
+              "end": 84,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 63,
+                "end": 73,
+                "object": {
+                  "type": "Literal",
+                  "start": 63,
+                  "end": 65,
+                  "value": "",
+                  "raw": "''"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 66,
+                  "end": 73,
+                  "name": "replace",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 74,
+                  "end": 79,
+                  "name": "match",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                {
+                  "type": "Literal",
+                  "start": 81,
+                  "end": 83,
+                  "value": "",
+                  "raw": "''"
+                }
+              ],
+              "optional": false,
+              "typeArguments": null
+            },
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 31,
-          "end": 53,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 31,
-            "end": 45,
-            "decorators": [],
-            "name": "regexMatchList",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 46,
-            "end": 53,
-            "decorators": [],
-            "name": "forEach",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

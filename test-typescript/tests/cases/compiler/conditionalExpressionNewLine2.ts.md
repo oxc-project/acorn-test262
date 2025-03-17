@@ -14,52 +14,52 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "v",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 8,
             "end": 20,
-            "alternate": {
+            "test": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
+              "start": 8,
+              "end": 9,
+              "name": "a",
+              "typeAnnotation": null,
               "decorators": [],
-              "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "optional": false
             },
             "consequent": {
               "type": "Identifier",
               "start": 15,
               "end": 16,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "test": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 9,
+              "typeAnnotation": null,
               "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "optional": false
+            },
+            "alternate": {
+              "type": "Identifier",
+              "start": 19,
+              "end": 20,
+              "name": "c",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

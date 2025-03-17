@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 9,
         "end": 11,
-        "raw": "42",
-        "value": 42
+        "value": 42,
+        "raw": "42"
       }
     }
   ],
@@ -37,7 +37,11 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionExpression",
         "start": 9,
         "end": 80,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 26,
@@ -52,15 +56,14 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 38,
                   "end": 77,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 38,
                     "end": 47,
-                    "decorators": [],
                     "name": "something",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "AwaitExpression",
@@ -70,30 +73,27 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 56,
                       "end": 77,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 63,
                         "end": 76,
-                        "raw": "\"./something\"",
-                        "value": "./something"
-                      }
+                        "value": "./something",
+                        "raw": "\"./something\""
+                      },
+                      "options": null
                     }
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       }
     }
   ],

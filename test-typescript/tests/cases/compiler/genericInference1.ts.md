@@ -9,65 +9,14 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 34,
-        "arguments": [
-          {
-            "type": "ArrowFunctionExpression",
-            "start": 20,
-            "end": 33,
-            "async": false,
-            "body": {
-              "type": "MemberExpression",
-              "start": 25,
-              "end": 33,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 25,
-                "end": 26,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 27,
-                "end": 33,
-                "decorators": [],
-                "name": "length",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 20,
-                "end": 21,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 19,
-          "computed": false,
           "object": {
             "type": "ArrayExpression",
             "start": 0,
@@ -77,39 +26,90 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 1,
                 "end": 4,
-                "raw": "'a'",
-                "value": "a"
+                "value": "a",
+                "raw": "'a'"
               },
               {
                 "type": "Literal",
                 "start": 6,
                 "end": 9,
-                "raw": "'b'",
-                "value": "b"
+                "value": "b",
+                "raw": "'b'"
               },
               {
                 "type": "Literal",
                 "start": 11,
                 "end": 14,
-                "raw": "'c'",
-                "value": "c"
+                "value": "c",
+                "raw": "'c'"
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 16,
             "end": 19,
-            "decorators": [],
             "name": "map",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [
+          {
+            "type": "ArrowFunctionExpression",
+            "start": 20,
+            "end": 33,
+            "id": null,
+            "expression": true,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 20,
+                "end": 21,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
+            "body": {
+              "type": "MemberExpression",
+              "start": 25,
+              "end": 33,
+              "object": {
+                "type": "Identifier",
+                "start": 25,
+                "end": 26,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 27,
+                "end": 33,
+                "name": "length",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "typeParameters": null,
+            "returnType": null
+          }
+        ],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

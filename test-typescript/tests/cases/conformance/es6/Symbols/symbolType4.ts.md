@@ -14,105 +14,105 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "s",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 8,
             "end": 29,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 8,
+              "end": 18,
+              "object": {
+                "type": "Identifier",
+                "start": 8,
+                "end": 14,
+                "name": "Symbol",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 15,
+                "end": 18,
+                "name": "for",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 19,
                 "end": 28,
-                "raw": "\"postfix\"",
-                "value": "postfix"
+                "value": "postfix",
+                "raw": "\"postfix\""
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 8,
-              "end": 18,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 8,
-                "end": 14,
-                "decorators": [],
-                "name": "Symbol",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 15,
-                "end": 18,
-                "decorators": [],
-                "name": "for",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 31,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 31,
         "end": 34,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "Identifier",
           "start": 31,
           "end": 32,
-          "decorators": [],
           "name": "s",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "++",
-        "prefix": false
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 36,
       "end": 40,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 36,
         "end": 39,
+        "operator": "--",
+        "prefix": false,
         "argument": {
           "type": "Identifier",
           "start": 36,
           "end": 37,
-          "decorators": [],
           "name": "s",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "--",
-        "prefix": false
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

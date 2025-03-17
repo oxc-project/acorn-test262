@@ -13,6 +13,13 @@ __ESTREE_TEST__:PASS:
         "type": "WhileStatement",
         "start": 8,
         "end": 43,
+        "test": {
+          "type": "Literal",
+          "start": 15,
+          "end": 19,
+          "value": true,
+          "raw": "true"
+        },
         "body": {
           "type": "BlockStatement",
           "start": 21,
@@ -26,30 +33,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 34,
                 "end": 40,
-                "decorators": [],
                 "name": "target",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "test": {
-          "type": "Literal",
-          "start": 15,
-          "end": 19,
-          "raw": "true",
-          "value": true
         }
       },
       "label": {
         "type": "Identifier",
         "start": 0,
         "end": 6,
-        "decorators": [],
         "name": "target",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

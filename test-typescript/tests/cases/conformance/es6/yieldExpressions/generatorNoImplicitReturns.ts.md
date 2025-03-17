@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 2,
       "end": 101,
+      "id": {
+        "type": "Identifier",
+        "start": 12,
+        "end": 25,
+        "name": "testGenerator",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 29,
@@ -19,7 +31,52 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 34,
             "end": 80,
-            "alternate": null,
+            "test": {
+              "type": "BinaryExpression",
+              "start": 38,
+              "end": 57,
+              "left": {
+                "type": "CallExpression",
+                "start": 38,
+                "end": 51,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 38,
+                  "end": 49,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 38,
+                    "end": 42,
+                    "name": "Math",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 43,
+                    "end": 49,
+                    "name": "random",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "arguments": [],
+                "optional": false,
+                "typeArguments": null
+              },
+              "operator": ">",
+              "right": {
+                "type": "Literal",
+                "start": 54,
+                "end": 57,
+                "value": 0.5,
+                "raw": "0.5"
+              }
+            },
             "consequent": {
               "type": "BlockStatement",
               "start": 59,
@@ -33,89 +90,32 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 38,
-              "end": 57,
-              "operator": ">",
-              "left": {
-                "type": "CallExpression",
-                "start": 38,
-                "end": 51,
-                "arguments": [],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 38,
-                  "end": 49,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 38,
-                    "end": 42,
-                    "decorators": [],
-                    "name": "Math",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 43,
-                    "end": 49,
-                    "decorators": [],
-                    "name": "random",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "typeArguments": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 54,
-                "end": 57,
-                "raw": "0.5",
-                "value": 0.5
-              }
-            }
+            "alternate": null
           },
           {
             "type": "ExpressionStatement",
             "start": 84,
             "end": 98,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 84,
               "end": 97,
+              "delegate": false,
               "argument": {
                 "type": "Literal",
                 "start": 90,
                 "end": 97,
-                "raw": "'hello'",
-                "value": "hello"
-              },
-              "delegate": false
-            }
+                "value": "hello",
+                "raw": "'hello'"
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 12,
-        "end": 25,
-        "decorators": [],
-        "name": "testGenerator",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

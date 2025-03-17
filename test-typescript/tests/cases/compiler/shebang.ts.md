@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 27,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 30,
             "end": 78,
-            "raw": "'I wish the generated JS to be executed in node'",
-            "value": "I wish the generated JS to be executed in node"
-          }
+            "value": "I wish the generated JS to be executed in node",
+            "raw": "'I wish the generated JS to be executed in node'"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 65,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 9,
-            "decorators": [],
             "name": "array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -33,24 +32,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TaggedTemplateExpression",
                 "start": 18,
                 "end": 61,
-                "quasi": {
-                  "type": "TemplateLiteral",
-                  "start": 42,
-                  "end": 61,
-                  "expressions": [],
-                  "quasis": [
-                    {
-                      "type": "TemplateElement",
-                      "start": 42,
-                      "end": 61,
-                      "tail": true,
-                      "value": {
-                        "cooked": "template string 2",
-                        "raw": "template string 2"
-                      }
-                    }
-                  ]
-                },
                 "tag": {
                   "type": "TemplateLiteral",
                   "start": 18,
@@ -61,22 +42,41 @@ __ESTREE_TEST__:PASS:
                       "type": "TemplateElement",
                       "start": 18,
                       "end": 37,
-                      "tail": true,
                       "value": {
                         "cooked": "template string 1",
                         "raw": "template string 1"
-                      }
+                      },
+                      "tail": true
+                    }
+                  ]
+                },
+                "quasi": {
+                  "type": "TemplateLiteral",
+                  "start": 42,
+                  "end": 61,
+                  "expressions": [],
+                  "quasis": [
+                    {
+                      "type": "TemplateElement",
+                      "start": 42,
+                      "end": 61,
+                      "value": {
+                        "cooked": "template string 2",
+                        "raw": "template string 2"
+                      },
+                      "tail": true
                     }
                   ]
                 },
                 "typeArguments": null
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

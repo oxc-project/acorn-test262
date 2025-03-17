@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "0",
-        "value": 0
+        "value": 0,
+        "raw": "0"
       },
       "exportKind": "value"
     }
@@ -38,8 +38,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 16,
-        "raw": "1",
-        "value": 1
+        "value": 1,
+        "raw": "1"
       },
       "exportKind": "value"
     }
@@ -63,8 +63,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 25,
-        "raw": "'fallback'",
-        "value": "fallback"
+        "value": "fallback",
+        "raw": "'fallback'"
       },
       "exportKind": "value"
     }
@@ -84,7 +84,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 254,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -94,15 +93,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 13,
             "end": 253,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 16,
-              "decorators": [],
               "name": "mod",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "AwaitExpression",
@@ -112,12 +110,15 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 25,
                 "end": 253,
-                "arguments": [],
                 "callee": {
                   "type": "ArrowFunctionExpression",
                   "start": 26,
                   "end": 250,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": true,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 38,
@@ -132,14 +133,11 @@ __ESTREE_TEST__:PASS:
                             "type": "VariableDeclarator",
                             "start": 48,
                             "end": 61,
-                            "definite": false,
                             "id": {
                               "type": "Identifier",
                               "start": 48,
                               "end": 57,
-                              "decorators": [],
                               "name": "x",
-                              "optional": false,
                               "typeAnnotation": {
                                 "type": "TSTypeAnnotation",
                                 "start": 49,
@@ -149,24 +147,36 @@ __ESTREE_TEST__:PASS:
                                   "start": 51,
                                   "end": 57
                                 }
-                              }
+                              },
+                              "decorators": [],
+                              "optional": false
                             },
                             "init": {
                               "type": "Literal",
                               "start": 60,
                               "end": 61,
-                              "raw": "0",
-                              "value": 0
-                            }
+                              "value": 0,
+                              "raw": "0"
+                            },
+                            "definite": false
                           }
                         ],
-                        "declare": false,
-                        "kind": "const"
+                        "kind": "const",
+                        "declare": false
                       },
                       {
                         "type": "SwitchStatement",
                         "start": 65,
                         "end": 248,
+                        "discriminant": {
+                          "type": "Identifier",
+                          "start": 73,
+                          "end": 74,
+                          "name": "x",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
                         "cases": [
                           {
                             "type": "SwitchCase",
@@ -185,14 +195,14 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 109,
                                     "end": 129,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 116,
                                       "end": 128,
-                                      "raw": "\"./case0.js\"",
-                                      "value": "./case0.js"
-                                    }
+                                      "value": "./case0.js",
+                                      "raw": "\"./case0.js\""
+                                    },
+                                    "options": null
                                   }
                                 }
                               }
@@ -201,8 +211,8 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 87,
                               "end": 88,
-                              "raw": "0",
-                              "value": 0
+                              "value": 0,
+                              "raw": "0"
                             }
                           },
                           {
@@ -222,14 +232,14 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 162,
                                     "end": 182,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 169,
                                       "end": 181,
-                                      "raw": "\"./case1.js\"",
-                                      "value": "./case1.js"
-                                    }
+                                      "value": "./case1.js",
+                                      "raw": "\"./case1.js\""
+                                    },
+                                    "options": null
                                   }
                                 }
                               }
@@ -238,8 +248,8 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 140,
                               "end": 141,
-                              "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "raw": "1"
                             }
                           },
                           {
@@ -259,52 +269,42 @@ __ESTREE_TEST__:PASS:
                                     "type": "ImportExpression",
                                     "start": 216,
                                     "end": 243,
-                                    "options": null,
                                     "source": {
                                       "type": "Literal",
                                       "start": 223,
                                       "end": 242,
-                                      "raw": "\"./caseFallback.js\"",
-                                      "value": "./caseFallback.js"
-                                    }
+                                      "value": "./caseFallback.js",
+                                      "raw": "\"./caseFallback.js\""
+                                    },
+                                    "options": null
                                   }
                                 }
                               }
                             ],
                             "test": null
                           }
-                        ],
-                        "discriminant": {
-                          "type": "Identifier",
-                          "start": 73,
-                          "end": 74,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                        ]
                       }
                     ]
                   },
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
+                  "typeParameters": null,
+                  "returnType": null
                 },
+                "arguments": [],
                 "optional": false,
                 "typeArguments": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

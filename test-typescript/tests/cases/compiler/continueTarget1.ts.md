@@ -17,20 +17,20 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 19,
           "end": 25,
-          "decorators": [],
           "name": "target",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
       "label": {
         "type": "Identifier",
         "start": 0,
         "end": 6,
-        "decorators": [],
         "name": "target",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

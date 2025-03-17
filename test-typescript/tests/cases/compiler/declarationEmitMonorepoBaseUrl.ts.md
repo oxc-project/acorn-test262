@@ -9,26 +9,26 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 53,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 53,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
           "end": 36,
-          "decorators": [],
           "name": "createPlugin",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [],
+        "body": null,
+        "declare": true,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 38,
@@ -37,59 +37,59 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 40,
             "end": 52,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 40,
               "end": 52,
-              "decorators": [],
               "name": "PluginConfig",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 54,
       "end": 90,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 61,
         "end": 90,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 75,
+          "end": 87,
+          "name": "PluginConfig",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 88,
           "end": 90,
           "body": []
         },
-        "declare": true,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 75,
-          "end": 87,
-          "decorators": [],
-          "name": "PluginConfig",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true,
+        "superTypeArguments": null
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -107,15 +107,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 44,
-        "raw": "\"@babel/parser\"",
-        "value": "@babel/parser"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -125,23 +116,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 21,
-            "decorators": [],
             "name": "PluginConfig",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 21,
-            "decorators": [],
             "name": "PluginConfig",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 44,
+        "value": "@babel/parser",
+        "raw": "\"@babel/parser\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -159,15 +159,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 44,
-        "raw": "\"@babel/parser\"",
-        "value": "@babel/parser"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -177,34 +168,54 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 21,
-            "decorators": [],
             "name": "createPlugin",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 21,
-            "decorators": [],
             "name": "createPlugin",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 44,
+        "value": "@babel/parser",
+        "raw": "\"@babel/parser\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 46,
       "end": 115,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 53,
         "end": 115,
+        "id": {
+          "type": "Identifier",
+          "start": 62,
+          "end": 82,
+          "name": "resolveParserPlugins",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 85,
@@ -223,16 +234,16 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 97,
                     "end": 111,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 97,
                       "end": 109,
-                      "decorators": [],
                       "name": "createPlugin",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
+                    "arguments": [],
                     "optional": false,
                     "typeArguments": null
                   }
@@ -242,24 +253,13 @@ __ESTREE_TEST__:PASS:
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 62,
-          "end": 82,
-          "decorators": [],
-          "name": "resolveParserPlugins",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

@@ -9,28 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 43,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 25,
-        "decorators": [],
         "name": "parseInt",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 26,
           "end": 34,
-          "decorators": [],
           "name": "s",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 27,
@@ -40,9 +36,14 @@ __ESTREE_TEST__:PASS:
               "start": 28,
               "end": 34
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 35,
@@ -52,39 +53,38 @@ __ESTREE_TEST__:PASS:
           "start": 36,
           "end": 42
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 45,
         "end": 58,
+        "callee": {
+          "type": "Identifier",
+          "start": 45,
+          "end": 53,
+          "name": "parseInt",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 54,
             "end": 57,
-            "raw": "\"2\"",
-            "value": "2"
+            "value": "2",
+            "raw": "\"2\""
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 45,
-          "end": 53,
-          "decorators": [],
-          "name": "parseInt",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

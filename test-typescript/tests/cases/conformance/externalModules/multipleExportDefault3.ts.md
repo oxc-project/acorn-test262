@@ -18,27 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 22,
             "end": 45,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 22,
               "end": 26,
-              "decorators": [],
               "name": "uhoh",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 28,
               "end": 45,
-              "raw": "\"another default\"",
-              "value": "another default"
-            }
+              "value": "another default",
+              "raw": "\"another default\""
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },
@@ -52,28 +52,28 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 66,
         "end": 77,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 72,
+          "end": 73,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 74,
           "end": 77,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 72,
-          "end": 73,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

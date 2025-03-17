@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 21,
-            "decorators": [],
             "name": "array",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 11,
@@ -36,18 +33,21 @@ __ESTREE_TEST__:PASS:
                   "end": 19
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
             "start": 24,
             "end": 26,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -58,14 +58,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 34,
           "end": 75,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 34,
             "end": 70,
-            "decorators": [],
             "name": "readonlyArray",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 47,
@@ -74,6 +71,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 49,
                 "end": 70,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 49,
+                  "end": 62,
+                  "name": "ReadonlyArray",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 62,
@@ -85,55 +91,74 @@ __ESTREE_TEST__:PASS:
                       "end": 69
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 49,
-                  "end": 62,
-                  "decorators": [],
-                  "name": "ReadonlyArray",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
             "start": 73,
             "end": 75,
             "elements": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 77,
       "end": 124,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 77,
         "end": 123,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 77,
+          "end": 90,
+          "object": {
+            "type": "Identifier",
+            "start": 77,
+            "end": 82,
+            "name": "array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 83,
+            "end": 90,
+            "name": "flatMap",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 91,
             "end": 122,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "ArrayExpression",
               "start": 120,
               "end": 122,
               "elements": []
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [],
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 93,
@@ -142,6 +167,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 95,
                 "end": 116,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 95,
+                  "end": 108,
+                  "name": "ReadonlyArray",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 108,
@@ -153,75 +187,66 @@ __ESTREE_TEST__:PASS:
                       "end": 115
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 95,
-                  "end": 108,
-                  "decorators": [],
-                  "name": "ReadonlyArray",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
-            },
-            "typeParameters": null
+            }
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 77,
-          "end": 90,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 77,
-            "end": 82,
-            "decorators": [],
-            "name": "array",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 83,
-            "end": 90,
-            "decorators": [],
-            "name": "flatMap",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 131,
       "end": 186,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 131,
         "end": 185,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 131,
+          "end": 152,
+          "object": {
+            "type": "Identifier",
+            "start": 131,
+            "end": 144,
+            "name": "readonlyArray",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 145,
+            "end": 152,
+            "name": "flatMap",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 153,
             "end": 184,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "ArrayExpression",
               "start": 182,
               "end": 184,
               "elements": []
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [],
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 155,
@@ -230,6 +255,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 157,
                 "end": 178,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 157,
+                  "end": 170,
+                  "name": "ReadonlyArray",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 170,
@@ -241,49 +275,15 @@ __ESTREE_TEST__:PASS:
                       "end": 177
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 157,
-                  "end": 170,
-                  "decorators": [],
-                  "name": "ReadonlyArray",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
-            },
-            "typeParameters": null
+            }
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 131,
-          "end": 152,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 131,
-            "end": 144,
-            "decorators": [],
-            "name": "readonlyArray",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 145,
-            "end": 152,
-            "decorators": [],
-            "name": "flatMap",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

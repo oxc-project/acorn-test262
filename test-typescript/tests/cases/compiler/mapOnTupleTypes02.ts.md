@@ -9,21 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 37,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
           "end": 17,
-          "decorators": [],
           "name": "Point",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTupleType",
           "start": 20,
@@ -41,22 +40,63 @@ __ESTREE_TEST__:PASS:
             }
           ]
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 114,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 46,
         "end": 114,
+        "id": {
+          "type": "Identifier",
+          "start": 55,
+          "end": 64,
+          "name": "increment",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 65,
+            "end": 77,
+            "name": "point",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 70,
+              "end": 77,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 72,
+                "end": 77,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 72,
+                  "end": 77,
+                  "name": "Point",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 79,
@@ -70,77 +110,77 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 90,
                 "end": 111,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 90,
+                  "end": 99,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 95,
+                    "name": "point",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 96,
+                    "end": 99,
+                    "name": "map",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
                     "start": 100,
                     "end": 110,
-                    "async": false,
-                    "body": {
-                      "type": "BinaryExpression",
-                      "start": 105,
-                      "end": 110,
-                      "operator": "+",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 105,
-                        "end": 106,
-                        "decorators": [],
-                        "name": "d",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 109,
-                        "end": 110,
-                        "raw": "1",
-                        "value": 1
-                      }
-                    },
+                    "id": null,
                     "expression": true,
                     "generator": false,
-                    "id": null,
+                    "async": false,
                     "params": [
                       {
                         "type": "Identifier",
                         "start": 100,
                         "end": 101,
-                        "decorators": [],
                         "name": "d",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
-                    "returnType": null,
-                    "typeParameters": null
+                    "body": {
+                      "type": "BinaryExpression",
+                      "start": 105,
+                      "end": 110,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 105,
+                        "end": 106,
+                        "name": "d",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "operator": "+",
+                      "right": {
+                        "type": "Literal",
+                        "start": 109,
+                        "end": 110,
+                        "value": 1,
+                        "raw": "1"
+                      }
+                    },
+                    "typeParameters": null,
+                    "returnType": null
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 90,
-                  "end": 99,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 90,
-                    "end": 95,
-                    "decorators": [],
-                    "name": "point",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 96,
-                    "end": 99,
-                    "decorators": [],
-                    "name": "map",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
                 "optional": false,
                 "typeArguments": null
               }
@@ -148,53 +188,13 @@ __ESTREE_TEST__:PASS:
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 55,
-          "end": 64,
-          "decorators": [],
-          "name": "increment",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 65,
-            "end": 77,
-            "decorators": [],
-            "name": "point",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 70,
-              "end": 77,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 72,
-                "end": 77,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 72,
-                  "end": 77,
-                  "decorators": [],
-                  "name": "Point",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 43,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 17,
@@ -18,38 +27,30 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumDeclaration",
             "start": 21,
             "end": 41,
+            "id": {
+              "type": "Identifier",
+              "start": 34,
+              "end": 35,
+              "name": "E",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "members": [],
+            "const": false,
+            "declare": true,
             "body": {
               "type": "TSEnumBody",
               "start": 36,
               "end": 41,
               "members": []
-            },
-            "const": false,
-            "declare": true,
-            "id": {
-              "type": "Identifier",
-              "start": 34,
-              "end": 35,
-              "decorators": [],
-              "name": "E",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

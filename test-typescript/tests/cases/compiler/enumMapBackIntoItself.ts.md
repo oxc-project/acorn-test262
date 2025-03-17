@@ -9,6 +9,67 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 49,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 15,
+        "name": "TShirtSize",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 21,
+          "end": 26,
+          "id": {
+            "type": "Identifier",
+            "start": 21,
+            "end": 26,
+            "name": "Small",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 31,
+          "end": 37,
+          "id": {
+            "type": "Identifier",
+            "start": 31,
+            "end": 37,
+            "name": "Medium",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 42,
+          "end": 47,
+          "id": {
+            "type": "Identifier",
+            "start": 42,
+            "end": 47,
+            "name": "Large",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 16,
@@ -18,62 +79,51 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 21,
             "end": 26,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 26,
-              "decorators": [],
               "name": "Small",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 31,
             "end": 37,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 31,
               "end": 37,
-              "decorators": [],
               "name": "Medium",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 42,
             "end": 47,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 42,
               "end": 47,
-              "decorators": [],
               "name": "Large",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 15,
-        "decorators": [],
-        "name": "TShirtSize",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -85,45 +135,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 54,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
             "end": 60,
-            "decorators": [],
             "name": "mySize",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 63,
             "end": 79,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 63,
               "end": 73,
-              "decorators": [],
               "name": "TShirtSize",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 74,
               "end": 79,
-              "decorators": [],
               "name": "Large",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -134,73 +184,73 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 85,
           "end": 110,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
             "end": 89,
-            "decorators": [],
             "name": "test",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 92,
             "end": 110,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 92,
               "end": 102,
-              "decorators": [],
               "name": "TShirtSize",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 103,
               "end": 109,
-              "decorators": [],
               "name": "mySize",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 200,
       "end": 209,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 200,
         "end": 209,
-        "operator": "+",
         "left": {
           "type": "Identifier",
           "start": 200,
           "end": 204,
-          "decorators": [],
           "name": "test",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "operator": "+",
         "right": {
           "type": "Literal",
           "start": 207,
           "end": 209,
-          "raw": "''",
-          "value": ""
+          "value": "",
+          "raw": "''"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

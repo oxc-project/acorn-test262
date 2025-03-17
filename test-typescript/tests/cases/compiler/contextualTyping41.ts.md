@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 72,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSTypeAssertion",
@@ -32,7 +31,11 @@ __ESTREE_TEST__:PASS:
               "type": "FunctionExpression",
               "start": 46,
               "end": 71,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 56,
@@ -46,19 +49,15 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 64,
                       "end": 69,
-                      "raw": "\"err\"",
-                      "value": "err"
+                      "value": "err",
+                      "raw": "\"err\""
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "typeParameters": null,
+              "returnType": null
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
@@ -69,6 +68,7 @@ __ESTREE_TEST__:PASS:
                   "type": "TSCallSignatureDeclaration",
                   "start": 12,
                   "end": 22,
+                  "typeParameters": null,
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
@@ -79,21 +79,19 @@ __ESTREE_TEST__:PASS:
                       "start": 15,
                       "end": 21
                     }
-                  },
-                  "typeParameters": null
+                  }
                 },
                 {
                   "type": "TSCallSignatureDeclaration",
                   "start": 23,
                   "end": 41,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 24,
                       "end": 32,
-                      "decorators": [],
                       "name": "i",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 25,
@@ -103,7 +101,9 @@ __ESTREE_TEST__:PASS:
                           "start": 26,
                           "end": 32
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
                   "returnType": {
@@ -115,16 +115,16 @@ __ESTREE_TEST__:PASS:
                       "start": 34,
                       "end": 40
                     }
-                  },
-                  "typeParameters": null
+                  }
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

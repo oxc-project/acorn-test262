@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 366,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 17,
+        "name": "TypeScript",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 18,
@@ -18,11 +27,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 24,
             "end": 364,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 31,
               "end": 364,
+              "id": {
+                "type": "Identifier",
+                "start": 38,
+                "end": 57,
+                "name": "CompilerDiagnostics",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 58,
@@ -32,11 +49,21 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 69,
                     "end": 156,
-                    "attributes": [],
                     "declaration": {
                       "type": "TSInterfaceDeclaration",
                       "start": 76,
                       "end": 156,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 86,
+                        "end": 103,
+                        "name": "IDiagnosticWriter",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "extends": [],
+                      "typeParameters": null,
                       "body": {
                         "type": "TSInterfaceBody",
                         "start": 104,
@@ -46,27 +73,25 @@ __ESTREE_TEST__:PASS:
                             "type": "TSMethodSignature",
                             "start": 118,
                             "end": 146,
-                            "accessibility": null,
-                            "computed": false,
                             "key": {
                               "type": "Identifier",
                               "start": 118,
                               "end": 123,
-                              "decorators": [],
                               "name": "Alert",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
-                            "kind": "method",
+                            "computed": false,
                             "optional": false,
+                            "kind": "method",
+                            "typeParameters": null,
                             "params": [
                               {
                                 "type": "Identifier",
                                 "start": 124,
                                 "end": 138,
-                                "decorators": [],
                                 "name": "output",
-                                "optional": false,
                                 "typeAnnotation": {
                                   "type": "TSTypeAnnotation",
                                   "start": 130,
@@ -76,10 +101,11 @@ __ESTREE_TEST__:PASS:
                                     "start": 132,
                                     "end": 138
                                   }
-                                }
+                                },
+                                "decorators": [],
+                                "optional": false
                               }
                             ],
-                            "readonly": false,
                             "returnType": {
                               "type": "TSTypeAnnotation",
                               "start": 139,
@@ -90,33 +116,23 @@ __ESTREE_TEST__:PASS:
                                 "end": 145
                               }
                             },
-                            "static": false,
-                            "typeParameters": null
+                            "accessibility": null,
+                            "readonly": false,
+                            "static": false
                           }
                         ]
                       },
-                      "declare": false,
-                      "extends": [],
-                      "id": {
-                        "type": "Identifier",
-                        "start": 86,
-                        "end": 103,
-                        "decorators": [],
-                        "name": "IDiagnosticWriter",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "typeParameters": null
+                      "declare": false
                     },
-                    "exportKind": "type",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "type"
                   },
                   {
                     "type": "ExportNamedDeclaration",
                     "start": 166,
                     "end": 201,
-                    "attributes": [],
                     "declaration": {
                       "type": "VariableDeclaration",
                       "start": 173,
@@ -126,140 +142,59 @@ __ESTREE_TEST__:PASS:
                           "type": "VariableDeclarator",
                           "start": 177,
                           "end": 200,
-                          "definite": false,
                           "id": {
                             "type": "Identifier",
                             "start": 177,
                             "end": 193,
-                            "decorators": [],
                             "name": "diagnosticWriter",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
                           "init": {
                             "type": "Literal",
                             "start": 196,
                             "end": 200,
-                            "raw": "null",
-                            "value": null
-                          }
+                            "value": null,
+                            "raw": "null"
+                          },
+                          "definite": false
                         }
                       ],
-                      "declare": false,
-                      "kind": "var"
+                      "kind": "var",
+                      "declare": false
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   },
                   {
                     "type": "ExportNamedDeclaration",
                     "start": 211,
                     "end": 358,
-                    "attributes": [],
                     "declaration": {
                       "type": "FunctionDeclaration",
                       "start": 218,
                       "end": 358,
-                      "async": false,
-                      "body": {
-                        "type": "BlockStatement",
-                        "start": 249,
-                        "end": 358,
-                        "body": [
-                          {
-                            "type": "IfStatement",
-                            "start": 263,
-                            "end": 348,
-                            "alternate": null,
-                            "consequent": {
-                              "type": "BlockStatement",
-                              "start": 285,
-                              "end": 348,
-                              "body": [
-                                {
-                                  "type": "ExpressionStatement",
-                                  "start": 303,
-                                  "end": 334,
-                                  "directive": null,
-                                  "expression": {
-                                    "type": "CallExpression",
-                                    "start": 303,
-                                    "end": 333,
-                                    "arguments": [
-                                      {
-                                        "type": "Identifier",
-                                        "start": 326,
-                                        "end": 332,
-                                        "decorators": [],
-                                        "name": "output",
-                                        "optional": false,
-                                        "typeAnnotation": null
-                                      }
-                                    ],
-                                    "callee": {
-                                      "type": "MemberExpression",
-                                      "start": 303,
-                                      "end": 325,
-                                      "computed": false,
-                                      "object": {
-                                        "type": "Identifier",
-                                        "start": 303,
-                                        "end": 319,
-                                        "decorators": [],
-                                        "name": "diagnosticWriter",
-                                        "optional": false,
-                                        "typeAnnotation": null
-                                      },
-                                      "optional": false,
-                                      "property": {
-                                        "type": "Identifier",
-                                        "start": 320,
-                                        "end": 325,
-                                        "decorators": [],
-                                        "name": "Alert",
-                                        "optional": false,
-                                        "typeAnnotation": null
-                                      }
-                                    },
-                                    "optional": false,
-                                    "typeArguments": null
-                                  }
-                                }
-                              ]
-                            },
-                            "test": {
-                              "type": "Identifier",
-                              "start": 267,
-                              "end": 283,
-                              "decorators": [],
-                              "name": "diagnosticWriter",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          }
-                        ]
-                      },
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": {
                         "type": "Identifier",
                         "start": 227,
                         "end": 232,
-                        "decorators": [],
                         "name": "Alert",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
                       "params": [
                         {
                           "type": "Identifier",
                           "start": 233,
                           "end": 247,
-                          "decorators": [],
                           "name": "output",
-                          "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
                             "start": 239,
@@ -269,49 +204,114 @@ __ESTREE_TEST__:PASS:
                               "start": 241,
                               "end": 247
                             }
-                          }
+                          },
+                          "decorators": [],
+                          "optional": false
                         }
                       ],
-                      "returnType": null,
-                      "typeParameters": null
+                      "body": {
+                        "type": "BlockStatement",
+                        "start": 249,
+                        "end": 358,
+                        "body": [
+                          {
+                            "type": "IfStatement",
+                            "start": 263,
+                            "end": 348,
+                            "test": {
+                              "type": "Identifier",
+                              "start": 267,
+                              "end": 283,
+                              "name": "diagnosticWriter",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "consequent": {
+                              "type": "BlockStatement",
+                              "start": 285,
+                              "end": 348,
+                              "body": [
+                                {
+                                  "type": "ExpressionStatement",
+                                  "start": 303,
+                                  "end": 334,
+                                  "expression": {
+                                    "type": "CallExpression",
+                                    "start": 303,
+                                    "end": 333,
+                                    "callee": {
+                                      "type": "MemberExpression",
+                                      "start": 303,
+                                      "end": 325,
+                                      "object": {
+                                        "type": "Identifier",
+                                        "start": 303,
+                                        "end": 319,
+                                        "name": "diagnosticWriter",
+                                        "typeAnnotation": null,
+                                        "decorators": [],
+                                        "optional": false
+                                      },
+                                      "property": {
+                                        "type": "Identifier",
+                                        "start": 320,
+                                        "end": 325,
+                                        "name": "Alert",
+                                        "typeAnnotation": null,
+                                        "decorators": [],
+                                        "optional": false
+                                      },
+                                      "computed": false,
+                                      "optional": false
+                                    },
+                                    "arguments": [
+                                      {
+                                        "type": "Identifier",
+                                        "start": 326,
+                                        "end": 332,
+                                        "name": "output",
+                                        "typeAnnotation": null,
+                                        "decorators": [],
+                                        "optional": false
+                                      }
+                                    ],
+                                    "optional": false,
+                                    "typeArguments": null
+                                  },
+                                  "directive": null
+                                }
+                              ]
+                            },
+                            "alternate": null
+                          }
+                        ]
+                      },
+                      "declare": false,
+                      "typeParameters": null,
+                      "returnType": null
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   }
                 ]
               },
+              "kind": "module",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 38,
-                "end": 57,
-                "decorators": [],
-                "name": "CompilerDiagnostics",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "module"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 17,
-        "decorators": [],
-        "name": "TypeScript",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

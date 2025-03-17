@@ -9,37 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 56,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 41,
-          "end": 53,
-          "key": {
-            "type": "Identifier",
-            "start": 41,
-            "end": 45,
-            "decorators": [],
-            "name": "type",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "value": {
-            "type": "Literal",
-            "start": 47,
-            "end": 53,
-            "raw": "\"json\"",
-            "value": "json"
-          }
-        }
-      ],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 17,
-        "end": 33,
-        "raw": "\"./package.json\"",
-        "value": "./package.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -49,13 +18,44 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 11,
-            "decorators": [],
             "name": "json",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 17,
+        "end": 33,
+        "value": "./package.json",
+        "raw": "\"./package.json\""
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 41,
+          "end": 53,
+          "key": {
+            "type": "Identifier",
+            "start": 41,
+            "end": 45,
+            "name": "type",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "value": {
+            "type": "Literal",
+            "start": 47,
+            "end": 53,
+            "value": "json",
+            "raw": "\"json\""
+          }
+        }
+      ],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

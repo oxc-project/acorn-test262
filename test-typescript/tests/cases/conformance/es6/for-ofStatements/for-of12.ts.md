@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 20,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
             "end": 29,
-            "decorators": [],
             "name": "v",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 21,
@@ -31,44 +28,39 @@ __ESTREE_TEST__:PASS:
                 "start": 23,
                 "end": 29
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 31,
       "end": 62,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 59,
-        "end": 62,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 36,
         "end": 37,
-        "decorators": [],
         "name": "v",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "right": {
         "type": "CallExpression",
         "start": 41,
         "end": 57,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 41,
           "end": 55,
-          "computed": false,
           "object": {
             "type": "ArrayExpression",
             "start": 41,
@@ -78,31 +70,39 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 42,
                 "end": 43,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               },
               {
                 "type": "Literal",
                 "start": 45,
                 "end": 47,
-                "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 49,
             "end": 55,
-            "decorators": [],
             "name": "values",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 59,
+        "end": 62,
+        "body": []
       }
     }
   ],

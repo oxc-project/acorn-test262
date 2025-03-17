@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 30,
-            "decorators": [],
             "name": "strAndNum",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -43,13 +40,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -60,14 +60,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 36,
           "end": 64,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 36,
             "end": 64,
-            "decorators": [],
             "name": "numAndBool",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 46,
@@ -89,13 +86,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -106,14 +106,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 70,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
             "end": 81,
-            "decorators": [],
             "name": "str",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 73,
@@ -123,13 +120,16 @@ __ESTREE_TEST__:PASS:
                 "start": 75,
                 "end": 81
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -140,14 +140,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 87,
           "end": 98,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 87,
             "end": 98,
-            "decorators": [],
             "name": "num",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 90,
@@ -157,13 +154,16 @@ __ESTREE_TEST__:PASS:
                 "start": 92,
                 "end": 98
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -174,14 +174,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 104,
           "end": 117,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 104,
             "end": 117,
-            "decorators": [],
             "name": "bool",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 108,
@@ -191,18 +188,30 @@ __ESTREE_TEST__:PASS:
                 "start": 110,
                 "end": 117
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 120,
       "end": 376,
+      "discriminant": {
+        "type": "Identifier",
+        "start": 128,
+        "end": 137,
+        "name": "strAndNum",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -220,10 +229,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 167,
             "end": 176,
-            "decorators": [],
             "name": "strAndNum",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -235,10 +244,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 223,
             "end": 226,
-            "decorators": [],
             "name": "str",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -257,10 +266,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 237,
             "end": 240,
-            "decorators": [],
             "name": "num",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -279,10 +288,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 298,
             "end": 308,
-            "decorators": [],
             "name": "numAndBool",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -301,22 +310,13 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 354,
             "end": 358,
-            "decorators": [],
             "name": "bool",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ],
-      "discriminant": {
-        "type": "Identifier",
-        "start": 128,
-        "end": 137,
-        "decorators": [],
-        "name": "strAndNum",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      ]
     }
   ],
   "sourceType": "script",

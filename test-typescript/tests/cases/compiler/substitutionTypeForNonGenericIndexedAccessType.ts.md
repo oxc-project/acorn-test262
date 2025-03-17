@@ -9,39 +9,39 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 14,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "A",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
         "end": 14,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 16,
       "end": 77,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 21,
         "end": 22,
-        "decorators": [],
         "name": "B",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
         "start": 25,
@@ -50,21 +50,30 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 25,
           "end": 26,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 25,
             "end": 26,
-            "decorators": [],
             "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": null
         },
         "extendsType": {
           "type": "TSTypeReference",
           "start": 35,
           "end": 56,
+          "typeName": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 41,
+            "name": "Record",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 41,
@@ -78,8 +87,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 42,
                   "end": 47,
-                  "raw": "'foo'",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "'foo'"
                 }
               },
               {
@@ -88,26 +97,27 @@ __ESTREE_TEST__:PASS:
                 "end": 55
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 35,
-            "end": 41,
-            "decorators": [],
-            "name": "Record",
-            "optional": false,
-            "typeAnnotation": null
           }
-        },
-        "falseType": {
-          "type": "TSStringKeyword",
-          "start": 70,
-          "end": 76
         },
         "trueType": {
           "type": "TSIndexedAccessType",
           "start": 59,
           "end": 67,
+          "objectType": {
+            "type": "TSTypeReference",
+            "start": 59,
+            "end": 60,
+            "typeName": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 60,
+              "name": "A",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
+          },
           "indexType": {
             "type": "TSLiteralType",
             "start": 61,
@@ -116,28 +126,18 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 61,
               "end": 66,
-              "raw": "'foo'",
-              "value": "foo"
-            }
-          },
-          "objectType": {
-            "type": "TSTypeReference",
-            "start": 59,
-            "end": 60,
-            "typeArguments": null,
-            "typeName": {
-              "type": "Identifier",
-              "start": 59,
-              "end": 60,
-              "decorators": [],
-              "name": "A",
-              "optional": false,
-              "typeAnnotation": null
+              "value": "foo",
+              "raw": "'foo'"
             }
           }
+        },
+        "falseType": {
+          "type": "TSStringKeyword",
+          "start": 70,
+          "end": 76
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

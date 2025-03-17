@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 2,
       "end": 88,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 15,
+        "name": "Midori",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 16,
@@ -18,7 +27,13 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 22,
             "end": 86,
-            "alternate": null,
+            "test": {
+              "type": "Literal",
+              "start": 26,
+              "end": 31,
+              "value": false,
+              "raw": "false"
+            },
             "consequent": {
               "type": "BlockStatement",
               "start": 33,
@@ -28,7 +43,29 @@ __ESTREE_TEST__:PASS:
                   "type": "FunctionDeclaration",
                   "start": 43,
                   "end": 80,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 52,
+                    "end": 55,
+                    "name": "Foo",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [
+                    {
+                      "type": "Identifier",
+                      "start": 56,
+                      "end": 59,
+                      "name": "src",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    }
+                  ],
                   "body": {
                     "type": "BlockStatement",
                     "start": 69,
@@ -36,55 +73,18 @@ __ESTREE_TEST__:PASS:
                     "body": []
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 52,
-                    "end": 55,
-                    "decorators": [],
-                    "name": "Foo",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "params": [
-                    {
-                      "type": "Identifier",
-                      "start": 56,
-                      "end": 59,
-                      "decorators": [],
-                      "name": "src",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  ],
-                  "returnType": null,
-                  "typeParameters": null
+                  "typeParameters": null,
+                  "returnType": null
                 }
               ]
             },
-            "test": {
-              "type": "Literal",
-              "start": 26,
-              "end": 31,
-              "raw": "false",
-              "value": false
-            }
+            "alternate": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 15,
-        "decorators": [],
-        "name": "Midori",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

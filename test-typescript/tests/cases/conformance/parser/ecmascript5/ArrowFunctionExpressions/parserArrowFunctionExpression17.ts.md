@@ -9,39 +9,57 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 20,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 20,
+        "test": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "consequent": {
+          "type": "Identifier",
+          "start": 4,
+          "end": 5,
+          "name": "b",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "alternate": {
           "type": "ArrowFunctionExpression",
           "start": 8,
           "end": 20,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 19,
-            "end": 20,
-            "decorators": [],
-            "name": "e",
-            "optional": false,
-            "typeAnnotation": null
-          },
+          "id": null,
           "expression": true,
           "generator": false,
-          "id": null,
+          "async": false,
           "params": [
             {
               "type": "Identifier",
               "start": 9,
               "end": 10,
-              "decorators": [],
               "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ],
+          "body": {
+            "type": "Identifier",
+            "start": 19,
+            "end": 20,
+            "name": "e",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
           "returnType": {
             "type": "TSTypeAnnotation",
             "start": 12,
@@ -50,39 +68,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 14,
               "end": 15,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 14,
                 "end": 15,
-                "decorators": [],
                 "name": "d",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
-          },
-          "typeParameters": null
-        },
-        "consequent": {
-          "type": "Identifier",
-          "start": 4,
-          "end": 5,
-          "decorators": [],
-          "name": "b",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "test": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

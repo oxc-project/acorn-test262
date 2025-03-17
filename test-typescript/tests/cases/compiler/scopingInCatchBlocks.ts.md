@@ -15,11 +15,19 @@ __ESTREE_TEST__:PASS:
         "end": 7,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 8,
         "end": 35,
+        "param": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 17,
+          "name": "ex1",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "BlockStatement",
           "start": 19,
@@ -33,24 +41,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 29,
                 "end": 32,
-                "decorators": [],
                 "name": "ex1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 17,
-          "decorators": [],
-          "name": "ex1",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -62,27 +62,27 @@ __ESTREE_TEST__:PASS:
         "end": 44,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 45,
         "end": 59,
+        "param": {
+          "type": "Identifier",
+          "start": 51,
+          "end": 54,
+          "name": "ex1",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "BlockStatement",
           "start": 56,
           "end": 59,
           "body": []
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 51,
-          "end": 54,
-          "decorators": [],
-          "name": "ex1",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "TryStatement",
@@ -94,27 +94,27 @@ __ESTREE_TEST__:PASS:
         "end": 88,
         "body": []
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 89,
         "end": 103,
+        "param": {
+          "type": "Identifier",
+          "start": 95,
+          "end": 98,
+          "name": "ex1",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "BlockStatement",
           "start": 100,
           "end": 103,
           "body": []
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 95,
-          "end": 98,
-          "decorators": [],
-          "name": "ex1",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     },
     {
       "type": "VariableDeclaration",
@@ -125,29 +125,29 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 129,
           "end": 136,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 129,
             "end": 130,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 133,
             "end": 136,
-            "decorators": [],
             "name": "ex1",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

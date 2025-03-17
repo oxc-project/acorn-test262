@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 50,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 19,
+        "name": "mOfGloalFile",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -18,52 +27,43 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 26,
             "end": 48,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 33,
               "end": 48,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 39,
+                "end": 40,
+                "name": "c",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 41,
                 "end": 48,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 39,
-                "end": 40,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 19,
-        "decorators": [],
-        "name": "mOfGloalFile",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -73,12 +73,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 58,
         "end": 65,
-        "decorators": [],
         "name": "exports",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 68,
@@ -87,21 +86,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 68,
           "end": 80,
-          "decorators": [],
           "name": "mOfGloalFile",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 81,
           "end": 82,
-          "decorators": [],
           "name": "c",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -111,12 +111,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 91,
         "end": 98,
-        "decorators": [],
         "name": "require",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 101,
@@ -125,70 +124,80 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 101,
           "end": 113,
-          "decorators": [],
           "name": "mOfGloalFile",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 114,
           "end": 115,
-          "decorators": [],
           "name": "c",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 117,
       "end": 131,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 117,
         "end": 130,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 121,
           "end": 128,
-          "decorators": [],
           "name": "exports",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 132,
       "end": 146,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 132,
         "end": 145,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 136,
           "end": 143,
-          "decorators": [],
           "name": "require",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "TSModuleDeclaration",
       "start": 148,
       "end": 273,
+      "id": {
+        "type": "Identifier",
+        "start": 155,
+        "end": 157,
+        "name": "m1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 158,
@@ -202,12 +211,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 171,
               "end": 178,
-              "decorators": [],
               "name": "exports",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 181,
@@ -216,21 +224,22 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 181,
                 "end": 193,
-                "decorators": [],
                 "name": "mOfGloalFile",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 194,
                 "end": 195,
-                "decorators": [],
                 "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -240,12 +249,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 208,
               "end": 215,
-              "decorators": [],
               "name": "require",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 218,
@@ -254,85 +262,86 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 218,
                 "end": 230,
-                "decorators": [],
                 "name": "mOfGloalFile",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 231,
                 "end": 232,
-                "decorators": [],
                 "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "ExpressionStatement",
             "start": 238,
             "end": 252,
-            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 238,
               "end": 251,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 242,
                 "end": 249,
-                "decorators": [],
                 "name": "exports",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "typeArguments": null
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 257,
             "end": 271,
-            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 257,
               "end": 270,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 261,
                 "end": 268,
-                "decorators": [],
                 "name": "require",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 155,
-        "end": 157,
-        "decorators": [],
-        "name": "m1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 275,
       "end": 414,
+      "id": {
+        "type": "Identifier",
+        "start": 282,
+        "end": 284,
+        "name": "m2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 285,
@@ -342,7 +351,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 291,
             "end": 330,
-            "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
               "start": 298,
@@ -351,12 +359,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 305,
                 "end": 312,
-                "decorators": [],
                 "name": "exports",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "importKind": "value",
               "moduleReference": {
                 "type": "TSQualifiedName",
                 "start": 315,
@@ -365,31 +372,32 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 315,
                   "end": 327,
-                  "decorators": [],
                   "name": "mOfGloalFile",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "right": {
                   "type": "Identifier",
                   "start": 328,
                   "end": 329,
-                  "decorators": [],
                   "name": "c",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
-              }
+              },
+              "importKind": "value"
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 335,
             "end": 374,
-            "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
               "start": 342,
@@ -398,12 +406,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 349,
                 "end": 356,
-                "decorators": [],
                 "name": "require",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "importKind": "value",
               "moduleReference": {
                 "type": "TSQualifiedName",
                 "start": 359,
@@ -412,84 +419,77 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 359,
                   "end": 371,
-                  "decorators": [],
                   "name": "mOfGloalFile",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "right": {
                   "type": "Identifier",
                   "start": 372,
                   "end": 373,
-                  "decorators": [],
                   "name": "c",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
-              }
+              },
+              "importKind": "value"
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExpressionStatement",
             "start": 379,
             "end": 393,
-            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 379,
               "end": 392,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 383,
                 "end": 390,
-                "decorators": [],
                 "name": "exports",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "typeArguments": null
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 398,
             "end": 412,
-            "directive": null,
             "expression": {
               "type": "NewExpression",
               "start": 398,
               "end": 411,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 402,
                 "end": 409,
-                "decorators": [],
                 "name": "require",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 282,
-        "end": 284,
-        "decorators": [],
-        "name": "m2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

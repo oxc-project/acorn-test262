@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 60,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,6 +27,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 13,
             "end": 58,
+            "id": {
+              "type": "Identifier",
+              "start": 28,
+              "end": 30,
+              "name": "M1",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 31,
@@ -27,54 +45,36 @@ __ESTREE_TEST__:PASS:
                   "type": "TSModuleDeclaration",
                   "start": 37,
                   "end": 54,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 44,
+                    "end": 46,
+                    "name": "M2",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "body": {
                     "type": "TSModuleBlock",
                     "start": 47,
                     "end": 54,
                     "body": []
                   },
+                  "kind": "module",
                   "declare": false,
-                  "global": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 44,
-                    "end": 46,
-                    "decorators": [],
-                    "name": "M2",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "module"
+                  "global": false
                 }
               ]
             },
+            "kind": "module",
             "declare": true,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 28,
-              "end": 30,
-              "decorators": [],
-              "name": "M1",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "module"
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

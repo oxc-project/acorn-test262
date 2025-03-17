@@ -9,21 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 41,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 23,
-        "decorators": [],
         "name": "moment",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 25,
@@ -32,7 +33,6 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 27,
           "end": 40,
-          "typeArguments": null,
           "typeName": {
             "type": "TSQualifiedName",
             "start": 27,
@@ -41,29 +41,38 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 27,
               "end": 33,
-              "decorators": [],
               "name": "moment",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "right": {
               "type": "Identifier",
               "start": 34,
               "end": 40,
-              "decorators": [],
               "name": "Moment",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
-          }
+          },
+          "typeArguments": null
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 42,
       "end": 133,
+      "id": {
+        "type": "Identifier",
+        "start": 60,
+        "end": 66,
+        "name": "moment",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 67,
@@ -73,6 +82,33 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 71,
             "end": 131,
+            "id": {
+              "type": "Identifier",
+              "start": 81,
+              "end": 87,
+              "name": "Moment",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [
+              {
+                "type": "TSInterfaceHeritage",
+                "start": 96,
+                "end": 102,
+                "expression": {
+                  "type": "Identifier",
+                  "start": 96,
+                  "end": 102,
+                  "name": "Object",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            ],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 103,
@@ -82,21 +118,20 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 109,
                   "end": 127,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 109,
                     "end": 116,
-                    "decorators": [],
                     "name": "valueOf",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 118,
@@ -107,54 +142,19 @@ __ESTREE_TEST__:PASS:
                       "end": 126
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [
-              {
-                "type": "TSInterfaceHeritage",
-                "start": 96,
-                "end": 102,
-                "expression": {
-                  "type": "Identifier",
-                  "start": 96,
-                  "end": 102,
-                  "decorators": [],
-                  "name": "Object",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "typeArguments": null
-              }
-            ],
-            "id": {
-              "type": "Identifier",
-              "start": 81,
-              "end": 87,
-              "decorators": [],
-              "name": "Moment",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 60,
-        "end": 66,
-        "decorators": [],
-        "name": "moment",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -164,10 +164,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 143,
         "end": 149,
-        "decorators": [],
         "name": "moment",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -186,15 +186,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 24,
-        "end": 32,
-        "raw": "'moment'",
-        "value": "moment"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -204,13 +195,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 18,
-            "decorators": [],
             "name": "moment",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 32,
+        "value": "moment",
+        "raw": "'moment'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSExportAssignment",
@@ -220,17 +220,23 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 43,
         "end": 49,
-        "decorators": [],
         "name": "moment",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 51,
       "end": 129,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 66,
+        "end": 74,
+        "value": "moment",
+        "raw": "\"moment\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 75,
@@ -240,6 +246,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 81,
             "end": 127,
+            "id": {
+              "type": "Identifier",
+              "start": 91,
+              "end": 97,
+              "name": "Moment",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 98,
@@ -249,21 +266,20 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 108,
                   "end": 121,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 108,
                     "end": 110,
-                    "decorators": [],
                     "name": "tz",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 112,
@@ -274,35 +290,19 @@ __ESTREE_TEST__:PASS:
                       "end": 120
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 91,
-              "end": 97,
-              "decorators": [],
-              "name": "Moment",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 66,
-        "end": 74,
-        "raw": "\"moment\"",
-        "value": "moment"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -320,15 +320,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 33,
-        "raw": "\"moment\"",
-        "value": "moment"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -338,19 +329,34 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 19,
-            "decorators": [],
             "name": "_moment",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 33,
+        "value": "moment",
+        "raw": "\"moment\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 35,
       "end": 134,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 50,
+        "end": 58,
+        "value": "moment",
+        "raw": "\"moment\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 59,
@@ -360,6 +366,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 65,
             "end": 132,
+            "id": {
+              "type": "Identifier",
+              "start": 75,
+              "end": 81,
+              "name": "Moment",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 82,
@@ -369,27 +386,25 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 92,
                   "end": 126,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 92,
                     "end": 100,
-                    "decorators": [],
                     "name": "strftime",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 101,
                       "end": 116,
-                      "decorators": [],
                       "name": "pattern",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 108,
@@ -399,10 +414,11 @@ __ESTREE_TEST__:PASS:
                           "start": 110,
                           "end": 116
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 117,
@@ -413,41 +429,31 @@ __ESTREE_TEST__:PASS:
                       "end": 125
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 75,
-              "end": 81,
-              "decorators": [],
-              "name": "Moment",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 50,
-        "end": 58,
-        "raw": "\"moment\"",
-        "value": "moment"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 135,
       "end": 243,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 150,
+        "end": 167,
+        "value": "moment-timezone",
+        "raw": "\"moment-timezone\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 168,
@@ -457,6 +463,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 174,
             "end": 241,
+            "id": {
+              "type": "Identifier",
+              "start": 184,
+              "end": 190,
+              "name": "Moment",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 191,
@@ -466,27 +483,25 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 201,
                   "end": 235,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 201,
                     "end": 209,
-                    "decorators": [],
                     "name": "strftime",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 210,
                       "end": 225,
-                      "decorators": [],
                       "name": "pattern",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 217,
@@ -496,10 +511,11 @@ __ESTREE_TEST__:PASS:
                           "start": 219,
                           "end": 225
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 226,
@@ -510,35 +526,19 @@ __ESTREE_TEST__:PASS:
                       "end": 234
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 184,
-              "end": 190,
-              "decorators": [],
-              "name": "Moment",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 150,
-        "end": 167,
-        "raw": "\"moment-timezone\"",
-        "value": "moment-timezone"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -560,12 +560,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 39,
         "end": 45,
-        "decorators": [],
         "name": "moment",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 48,
@@ -574,10 +573,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 56,
           "end": 73,
-          "raw": "\"moment-timezone\"",
-          "value": "moment-timezone"
+          "value": "moment-timezone",
+          "raw": "\"moment-timezone\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

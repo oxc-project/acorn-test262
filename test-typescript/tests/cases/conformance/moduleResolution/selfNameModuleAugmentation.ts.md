@@ -9,17 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 124,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 26,
+        "end": 38,
+        "value": "acorn-walk",
+        "raw": "'acorn-walk'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 39,
@@ -29,33 +35,28 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 43,
             "end": 122,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 50,
               "end": 122,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 59,
                 "end": 65,
-                "decorators": [],
                 "name": "simple",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "expression": false,
+              "generator": false,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 66,
                   "end": 75,
-                  "decorators": [],
                   "name": "node",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 70,
@@ -65,15 +66,15 @@ __ESTREE_TEST__:PASS:
                       "start": 72,
                       "end": 75
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 77,
                   "end": 90,
-                  "decorators": [],
                   "name": "visitors",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 85,
@@ -83,15 +84,15 @@ __ESTREE_TEST__:PASS:
                       "start": 87,
                       "end": 90
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 92,
                   "end": 102,
-                  "decorators": [],
                   "name": "base",
-                  "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 97,
@@ -101,15 +102,15 @@ __ESTREE_TEST__:PASS:
                       "start": 99,
                       "end": 102
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": true
                 },
                 {
                   "type": "Identifier",
                   "start": 104,
                   "end": 115,
-                  "decorators": [],
                   "name": "state",
-                  "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 110,
@@ -119,9 +120,14 @@ __ESTREE_TEST__:PASS:
                       "start": 112,
                       "end": 115
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": true
                 }
               ],
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 116,
@@ -131,24 +137,18 @@ __ESTREE_TEST__:PASS:
                   "start": 118,
                   "end": 121
                 }
-              },
-              "typeParameters": null
+              }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 26,
-        "end": 38,
-        "raw": "'acorn-walk'",
-        "value": "acorn-walk"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -166,15 +166,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 36,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 35,
-        "raw": "'acorn-walk'",
-        "value": "acorn-walk"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -184,23 +175,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 15,
-            "decorators": [],
             "name": "simple",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 15,
-            "decorators": [],
             "name": "simple",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 35,
+        "value": "acorn-walk",
+        "raw": "'acorn-walk'"
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

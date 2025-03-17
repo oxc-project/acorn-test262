@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 40,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,63 +31,51 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 22,
             "end": 38,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 22,
               "end": 37,
+              "delegate": false,
               "argument": {
                 "type": "ConditionalExpression",
                 "start": 28,
                 "end": 37,
-                "alternate": {
+                "test": {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
+                  "start": 28,
+                  "end": 29,
+                  "name": "a",
+                  "typeAnnotation": null,
                   "decorators": [],
-                  "name": "c",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "optional": false
                 },
                 "consequent": {
                   "type": "Identifier",
                   "start": 32,
                   "end": 33,
-                  "decorators": [],
                   "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "test": {
-                  "type": "Identifier",
-                  "start": 28,
-                  "end": 29,
+                  "typeAnnotation": null,
                   "decorators": [],
-                  "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "optional": false
+                },
+                "alternate": {
+                  "type": "Identifier",
+                  "start": 36,
+                  "end": 37,
+                  "name": "c",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
-              },
-              "delegate": false
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

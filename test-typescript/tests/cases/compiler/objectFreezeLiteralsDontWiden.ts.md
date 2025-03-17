@@ -14,20 +14,44 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 90,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 25,
-            "decorators": [],
             "name": "PUPPETEER_REVISIONS",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 28,
             "end": 90,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 28,
+              "end": 41,
+              "object": {
+                "type": "Identifier",
+                "start": 28,
+                "end": 34,
+                "name": "Object",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 35,
+                "end": 41,
+                "name": "freeze",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "ObjectExpression",
@@ -38,89 +62,65 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 46,
                     "end": 65,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 46,
                       "end": 54,
-                      "decorators": [],
                       "name": "chromium",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 56,
                       "end": 65,
-                      "raw": "'1011831'",
-                      "value": "1011831"
-                    }
+                      "value": "1011831",
+                      "raw": "'1011831'"
+                    },
+                    "kind": "init",
+                    "optional": false
                   },
                   {
                     "type": "Property",
                     "start": 69,
                     "end": 86,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 69,
                       "end": 76,
-                      "decorators": [],
                       "name": "firefox",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 78,
                       "end": 86,
-                      "raw": "'latest'",
-                      "value": "latest"
-                    }
+                      "value": "latest",
+                      "raw": "'latest'"
+                    },
+                    "kind": "init",
+                    "optional": false
                   }
                 ]
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 28,
-              "end": 41,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 28,
-                "end": 34,
-                "decorators": [],
-                "name": "Object",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 35,
-                "end": 41,
-                "decorators": [],
-                "name": "freeze",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -131,51 +131,50 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 97,
           "end": 145,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 97,
             "end": 114,
-            "decorators": [],
             "name": "preferredRevision",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 117,
             "end": 145,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 117,
               "end": 136,
-              "decorators": [],
               "name": "PUPPETEER_REVISIONS",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 137,
               "end": 145,
-              "decorators": [],
               "name": "chromium",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 147,
       "end": 195,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 147,
@@ -185,37 +184,38 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 147,
           "end": 164,
-          "decorators": [],
           "name": "preferredRevision",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "MemberExpression",
           "start": 167,
           "end": 194,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 167,
             "end": 186,
-            "decorators": [],
             "name": "PUPPETEER_REVISIONS",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 187,
             "end": 194,
-            "decorators": [],
             "name": "firefox",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

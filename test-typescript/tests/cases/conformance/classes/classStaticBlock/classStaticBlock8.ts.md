@@ -9,7 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 1076,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 14,
+          "end": 23,
+          "name": "v",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 15,
+            "end": 23,
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 17,
+              "end": 23
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 25,
@@ -23,6 +54,15 @@ __ESTREE_TEST__:PASS:
               "type": "WhileStatement",
               "start": 38,
               "end": 665,
+              "test": {
+                "type": "Identifier",
+                "start": 45,
+                "end": 46,
+                "name": "v",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 48,
@@ -32,7 +72,16 @@ __ESTREE_TEST__:PASS:
                     "type": "ClassDeclaration",
                     "start": 58,
                     "end": 432,
-                    "abstract": false,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 64,
+                      "end": 65,
+                      "name": "C",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "superClass": null,
                     "body": {
                       "type": "ClassBody",
                       "start": 66,
@@ -47,7 +96,28 @@ __ESTREE_TEST__:PASS:
                               "type": "IfStatement",
                               "start": 105,
                               "end": 170,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 109,
+                                "end": 116,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 109,
+                                  "end": 110,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 115,
+                                  "end": 116,
+                                  "value": 1,
+                                  "raw": "1"
+                                }
+                              },
                               "consequent": {
                                 "type": "BlockStatement",
                                 "start": 118,
@@ -61,42 +131,42 @@ __ESTREE_TEST__:PASS:
                                       "type": "Identifier",
                                       "start": 146,
                                       "end": 151,
-                                      "decorators": [],
                                       "name": "label",
-                                      "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "decorators": [],
+                                      "optional": false
                                     }
                                   }
                                 ]
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 109,
-                                "end": 116,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 109,
-                                  "end": 110,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 115,
-                                  "end": 116,
-                                  "raw": "1",
-                                  "value": 1
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 187,
                               "end": 255,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 191,
+                                "end": 198,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 191,
+                                  "end": 192,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 197,
+                                  "end": 198,
+                                  "value": 2,
+                                  "raw": "2"
+                                }
+                              },
                               "consequent": {
                                 "type": "BlockStatement",
                                 "start": 200,
@@ -110,42 +180,42 @@ __ESTREE_TEST__:PASS:
                                       "type": "Identifier",
                                       "start": 231,
                                       "end": 236,
-                                      "decorators": [],
                                       "name": "label",
-                                      "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "decorators": [],
+                                      "optional": false
                                     }
                                   }
                                 ]
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 191,
-                                "end": 198,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 191,
-                                  "end": 192,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 197,
-                                  "end": 198,
-                                  "raw": "2",
-                                  "value": 2
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 272,
                               "end": 330,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 276,
+                                "end": 283,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 276,
+                                  "end": 277,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 282,
+                                  "end": 283,
+                                  "value": 3,
+                                  "raw": "3"
+                                }
+                              },
                               "consequent": {
                                 "type": "BlockStatement",
                                 "start": 285,
@@ -159,34 +229,34 @@ __ESTREE_TEST__:PASS:
                                   }
                                 ]
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 276,
-                                "end": 283,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 276,
-                                  "end": 277,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 282,
-                                  "end": 283,
-                                  "raw": "3",
-                                  "value": 3
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 347,
                               "end": 408,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 351,
+                                "end": 358,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 351,
+                                  "end": 352,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 357,
+                                  "end": 358,
+                                  "value": 4,
+                                  "raw": "4"
+                                }
+                              },
                               "consequent": {
                                 "type": "BlockStatement",
                                 "start": 360,
@@ -200,54 +270,45 @@ __ESTREE_TEST__:PASS:
                                   }
                                 ]
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 351,
-                                "end": 358,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 351,
-                                  "end": 352,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 357,
-                                  "end": 358,
-                                  "raw": "4",
-                                  "value": 4
-                                }
-                              }
+                              "alternate": null
                             }
                           ]
                         }
                       ]
                     },
-                    "declare": false,
                     "decorators": [],
-                    "id": {
-                      "type": "Identifier",
-                      "start": 64,
-                      "end": 65,
-                      "decorators": [],
-                      "name": "C",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
+                    "typeParameters": null,
                     "implements": [],
-                    "superClass": null,
-                    "superTypeArguments": null,
-                    "typeParameters": null
+                    "abstract": false,
+                    "declare": false,
+                    "superTypeArguments": null
                   },
                   {
                     "type": "IfStatement",
                     "start": 442,
                     "end": 491,
-                    "alternate": null,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 446,
+                      "end": 453,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 446,
+                        "end": 447,
+                        "name": "v",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 452,
+                        "end": 453,
+                        "value": 5,
+                        "raw": "5"
+                      }
+                    },
                     "consequent": {
                       "type": "BlockStatement",
                       "start": 455,
@@ -261,42 +322,42 @@ __ESTREE_TEST__:PASS:
                             "type": "Identifier",
                             "start": 475,
                             "end": 480,
-                            "decorators": [],
                             "name": "label",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           }
                         }
                       ]
                     },
-                    "test": {
-                      "type": "BinaryExpression",
-                      "start": 446,
-                      "end": 453,
-                      "operator": "===",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 446,
-                        "end": 447,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 452,
-                        "end": 453,
-                        "raw": "5",
-                        "value": 5
-                      }
-                    }
+                    "alternate": null
                   },
                   {
                     "type": "IfStatement",
                     "start": 500,
                     "end": 552,
-                    "alternate": null,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 504,
+                      "end": 511,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 504,
+                        "end": 505,
+                        "name": "v",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 510,
+                        "end": 511,
+                        "value": 6,
+                        "raw": "6"
+                      }
+                    },
                     "consequent": {
                       "type": "BlockStatement",
                       "start": 513,
@@ -310,42 +371,42 @@ __ESTREE_TEST__:PASS:
                             "type": "Identifier",
                             "start": 536,
                             "end": 541,
-                            "decorators": [],
                             "name": "label",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           }
                         }
                       ]
                     },
-                    "test": {
-                      "type": "BinaryExpression",
-                      "start": 504,
-                      "end": 511,
-                      "operator": "===",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 504,
-                        "end": 505,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 510,
-                        "end": 511,
-                        "raw": "6",
-                        "value": 6
-                      }
-                    }
+                    "alternate": null
                   },
                   {
                     "type": "IfStatement",
                     "start": 561,
                     "end": 604,
-                    "alternate": null,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 565,
+                      "end": 572,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 565,
+                        "end": 566,
+                        "name": "v",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 571,
+                        "end": 572,
+                        "value": 7,
+                        "raw": "7"
+                      }
+                    },
                     "consequent": {
                       "type": "BlockStatement",
                       "start": 574,
@@ -359,34 +420,34 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     },
-                    "test": {
-                      "type": "BinaryExpression",
-                      "start": 565,
-                      "end": 572,
-                      "operator": "===",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 565,
-                        "end": 566,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 571,
-                        "end": 572,
-                        "raw": "7",
-                        "value": 7
-                      }
-                    }
+                    "alternate": null
                   },
                   {
                     "type": "IfStatement",
                     "start": 613,
                     "end": 659,
-                    "alternate": null,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 617,
+                      "end": 624,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 617,
+                        "end": 618,
+                        "name": "v",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "operator": "===",
+                      "right": {
+                        "type": "Literal",
+                        "start": 623,
+                        "end": 624,
+                        "value": 8,
+                        "raw": "8"
+                      }
+                    },
                     "consequent": {
                       "type": "BlockStatement",
                       "start": 626,
@@ -400,56 +461,35 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     },
-                    "test": {
-                      "type": "BinaryExpression",
-                      "start": 617,
-                      "end": 624,
-                      "operator": "===",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 617,
-                        "end": 618,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 623,
-                        "end": 624,
-                        "raw": "8",
-                        "value": 8
-                      }
-                    }
+                    "alternate": null
                   }
                 ]
-              },
-              "test": {
-                "type": "Identifier",
-                "start": 45,
-                "end": 46,
-                "decorators": [],
-                "name": "v",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
             "label": {
               "type": "Identifier",
               "start": 31,
               "end": 36,
-              "decorators": [],
               "name": "label",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           },
           {
             "type": "ClassDeclaration",
             "start": 671,
             "end": 1074,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 677,
+              "end": 678,
+              "name": "C",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 679,
@@ -472,20 +512,20 @@ __ESTREE_TEST__:PASS:
                           "type": "Identifier",
                           "start": 723,
                           "end": 728,
-                          "decorators": [],
                           "name": "outer",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         }
                       },
                       "label": {
                         "type": "Identifier",
                         "start": 710,
                         "end": 715,
-                        "decorators": [],
                         "name": "outer",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     },
                     {
@@ -496,6 +536,15 @@ __ESTREE_TEST__:PASS:
                         "type": "WhileStatement",
                         "start": 757,
                         "end": 978,
+                        "test": {
+                          "type": "Identifier",
+                          "start": 764,
+                          "end": 765,
+                          "name": "v",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
                         "body": {
                           "type": "BlockStatement",
                           "start": 767,
@@ -505,7 +554,28 @@ __ESTREE_TEST__:PASS:
                               "type": "IfStatement",
                               "start": 785,
                               "end": 809,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 789,
+                                "end": 796,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 789,
+                                  "end": 790,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 795,
+                                  "end": 796,
+                                  "value": 1,
+                                  "raw": "1"
+                                }
+                              },
                               "consequent": {
                                 "type": "BreakStatement",
                                 "start": 798,
@@ -514,40 +584,40 @@ __ESTREE_TEST__:PASS:
                                   "type": "Identifier",
                                   "start": 804,
                                   "end": 808,
-                                  "decorators": [],
                                   "name": "loop",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 789,
-                                "end": 796,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 789,
-                                  "end": 790,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 795,
-                                  "end": 796,
-                                  "raw": "1",
-                                  "value": 1
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 835,
                               "end": 862,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 839,
+                                "end": 846,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 839,
+                                  "end": 840,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 845,
+                                  "end": 846,
+                                  "value": 2,
+                                  "raw": "2"
+                                }
+                              },
                               "consequent": {
                                 "type": "ContinueStatement",
                                 "start": 848,
@@ -556,129 +626,108 @@ __ESTREE_TEST__:PASS:
                                   "type": "Identifier",
                                   "start": 857,
                                   "end": 861,
-                                  "decorators": [],
                                   "name": "loop",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 839,
-                                "end": 846,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 839,
-                                  "end": 840,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 845,
-                                  "end": 846,
-                                  "raw": "2",
-                                  "value": 2
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 888,
                               "end": 907,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 892,
+                                "end": 899,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 892,
+                                  "end": 893,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 898,
+                                  "end": 899,
+                                  "value": 3,
+                                  "raw": "3"
+                                }
+                              },
                               "consequent": {
                                 "type": "BreakStatement",
                                 "start": 901,
                                 "end": 907,
                                 "label": null
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 892,
-                                "end": 899,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 892,
-                                  "end": 893,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 898,
-                                  "end": 899,
-                                  "raw": "3",
-                                  "value": 3
-                                }
-                              }
+                              "alternate": null
                             },
                             {
                               "type": "IfStatement",
                               "start": 933,
                               "end": 955,
-                              "alternate": null,
+                              "test": {
+                                "type": "BinaryExpression",
+                                "start": 937,
+                                "end": 944,
+                                "left": {
+                                  "type": "Identifier",
+                                  "start": 937,
+                                  "end": 938,
+                                  "name": "v",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "operator": "===",
+                                "right": {
+                                  "type": "Literal",
+                                  "start": 943,
+                                  "end": 944,
+                                  "value": 4,
+                                  "raw": "4"
+                                }
+                              },
                               "consequent": {
                                 "type": "ContinueStatement",
                                 "start": 946,
                                 "end": 955,
                                 "label": null
                               },
-                              "test": {
-                                "type": "BinaryExpression",
-                                "start": 937,
-                                "end": 944,
-                                "operator": "===",
-                                "left": {
-                                  "type": "Identifier",
-                                  "start": 937,
-                                  "end": 938,
-                                  "decorators": [],
-                                  "name": "v",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "right": {
-                                  "type": "Literal",
-                                  "start": 943,
-                                  "end": 944,
-                                  "raw": "4",
-                                  "value": 4
-                                }
-                              }
+                              "alternate": null
                             }
                           ]
-                        },
-                        "test": {
-                          "type": "Identifier",
-                          "start": 764,
-                          "end": 765,
-                          "decorators": [],
-                          "name": "v",
-                          "optional": false,
-                          "typeAnnotation": null
                         }
                       },
                       "label": {
                         "type": "Identifier",
                         "start": 751,
                         "end": 755,
-                        "decorators": [],
                         "name": "loop",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     },
                     {
                       "type": "SwitchStatement",
                       "start": 991,
                       "end": 1058,
+                      "discriminant": {
+                        "type": "Identifier",
+                        "start": 999,
+                        "end": 1000,
+                        "name": "v",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
                       "cases": [
                         {
                           "type": "SwitchCase",
@@ -694,73 +743,24 @@ __ESTREE_TEST__:PASS:
                           ],
                           "test": null
                         }
-                      ],
-                      "discriminant": {
-                        "type": "Identifier",
-                        "start": 999,
-                        "end": 1000,
-                        "decorators": [],
-                        "name": "v",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                      ]
                     }
                   ]
                 }
               ]
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 677,
-              "end": 678,
-              "decorators": [],
-              "name": "C",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 12,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 14,
-          "end": 23,
-          "decorators": [],
-          "name": "v",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 15,
-            "end": 23,
-            "typeAnnotation": {
-              "type": "TSNumberKeyword",
-              "start": 17,
-              "end": 23
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

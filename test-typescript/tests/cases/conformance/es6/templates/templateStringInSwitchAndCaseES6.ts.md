@@ -9,6 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 17,
       "end": 119,
+      "discriminant": {
+        "type": "TemplateLiteral",
+        "start": 25,
+        "end": 37,
+        "expressions": [
+          {
+            "type": "Literal",
+            "start": 31,
+            "end": 32,
+            "value": 0,
+            "raw": "0"
+          }
+        ],
+        "quasis": [
+          {
+            "type": "TemplateElement",
+            "start": 25,
+            "end": 31,
+            "value": {
+              "cooked": "abc",
+              "raw": "abc"
+            },
+            "tail": false
+          },
+          {
+            "type": "TemplateElement",
+            "start": 32,
+            "end": 37,
+            "value": {
+              "cooked": "abc",
+              "raw": "abc"
+            },
+            "tail": true
+          }
+        ]
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -25,11 +61,11 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 50,
                 "end": 55,
-                "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": true
               }
             ]
           }
@@ -49,11 +85,11 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 66,
                 "end": 71,
-                "tail": true,
                 "value": {
                   "cooked": "123",
                   "raw": "123"
-                }
+                },
+                "tail": true
               }
             ]
           }
@@ -67,7 +103,6 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 104,
               "end": 117,
-              "directive": null,
               "expression": {
                 "type": "TemplateLiteral",
                 "start": 104,
@@ -77,8 +112,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 110,
                     "end": 111,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ],
                 "quasis": [
@@ -86,24 +121,25 @@ __ESTREE_TEST__:PASS:
                     "type": "TemplateElement",
                     "start": 104,
                     "end": 110,
-                    "tail": false,
                     "value": {
                       "cooked": "def",
                       "raw": "def"
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 111,
                     "end": 116,
-                    "tail": true,
                     "value": {
                       "cooked": "def",
                       "raw": "def"
-                    }
+                    },
+                    "tail": true
                   }
                 ]
-              }
+              },
+              "directive": null
             }
           ],
           "test": {
@@ -115,8 +151,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 88,
                 "end": 89,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             ],
             "quasis": [
@@ -124,62 +160,26 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 82,
                 "end": 88,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 89,
                 "end": 94,
-                "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": true
               }
             ]
           }
         }
-      ],
-      "discriminant": {
-        "type": "TemplateLiteral",
-        "start": 25,
-        "end": 37,
-        "expressions": [
-          {
-            "type": "Literal",
-            "start": 31,
-            "end": 32,
-            "raw": "0",
-            "value": 0
-          }
-        ],
-        "quasis": [
-          {
-            "type": "TemplateElement",
-            "start": 25,
-            "end": 31,
-            "tail": false,
-            "value": {
-              "cooked": "abc",
-              "raw": "abc"
-            }
-          },
-          {
-            "type": "TemplateElement",
-            "start": 32,
-            "end": 37,
-            "tail": true,
-            "value": {
-              "cooked": "abc",
-              "raw": "abc"
-            }
-          }
-        ]
-      }
+      ]
     }
   ],
   "sourceType": "script",

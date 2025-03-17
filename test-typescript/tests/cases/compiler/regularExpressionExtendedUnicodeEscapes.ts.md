@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 106,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 23,
-            "decorators": [],
             "name": "regexes",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -34,19 +31,21 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 15,
                   "end": 21,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 15,
                     "end": 21,
-                    "decorators": [],
                     "name": "RegExp",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -57,41 +56,42 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 29,
                 "end": 51,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/",
                 "regex": {
                   "flags": "",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 54,
                 "end": 77,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               },
               {
                 "type": "Literal",
                 "start": 80,
                 "end": 103,
+                "value": null,
                 "raw": "/\\u{10000}[\\u{10000}]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "\\u{10000}[\\u{10000}]"
-                },
-                "value": null
+                }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

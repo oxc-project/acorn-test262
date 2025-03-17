@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 114,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "C",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -29,27 +38,27 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclarator",
                     "start": 43,
                     "end": 51,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 43,
                       "end": 44,
-                      "decorators": [],
                       "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "init": {
                       "type": "Literal",
                       "start": 47,
                       "end": 51,
-                      "raw": "null",
-                      "value": null
-                    }
+                      "value": null,
+                      "raw": "null"
+                    },
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "await using"
+                "kind": "await using",
+                "declare": false
               },
               {
                 "type": "BlockStatement",
@@ -65,27 +74,27 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclarator",
                         "start": 87,
                         "end": 95,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 87,
                           "end": 88,
-                          "decorators": [],
                           "name": "y",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
                         "init": {
                           "type": "Literal",
                           "start": 91,
                           "end": 95,
-                          "raw": "null",
-                          "value": null
-                        }
+                          "value": null,
+                          "raw": "null"
+                        },
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "await using"
+                    "kind": "await using",
+                    "declare": false
                   }
                 ]
               }
@@ -93,21 +102,12 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

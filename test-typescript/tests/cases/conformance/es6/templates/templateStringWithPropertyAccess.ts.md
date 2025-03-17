@@ -9,11 +9,62 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 1,
       "end": 29,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 1,
         "end": 28,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 1,
+          "end": 21,
+          "object": {
+            "type": "TemplateLiteral",
+            "start": 1,
+            "end": 13,
+            "expressions": [
+              {
+                "type": "Literal",
+                "start": 7,
+                "end": 8,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
+            "quasis": [
+              {
+                "type": "TemplateElement",
+                "start": 1,
+                "end": 7,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": false
+              },
+              {
+                "type": "TemplateElement",
+                "start": 8,
+                "end": 13,
+                "value": {
+                  "cooked": "abc",
+                  "raw": "abc"
+                },
+                "tail": true
+              }
+            ]
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 14,
+            "end": 21,
+            "name": "indexOf",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "TemplateLiteral",
@@ -25,70 +76,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 22,
                 "end": 27,
-                "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": true
               }
             ]
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 1,
-          "end": 21,
-          "computed": false,
-          "object": {
-            "type": "TemplateLiteral",
-            "start": 1,
-            "end": 13,
-            "expressions": [
-              {
-                "type": "Literal",
-                "start": 7,
-                "end": 8,
-                "raw": "0",
-                "value": 0
-              }
-            ],
-            "quasis": [
-              {
-                "type": "TemplateElement",
-                "start": 1,
-                "end": 7,
-                "tail": false,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              },
-              {
-                "type": "TemplateElement",
-                "start": 8,
-                "end": 13,
-                "tail": true,
-                "value": {
-                  "cooked": "abc",
-                  "raw": "abc"
-                }
-              }
-            ]
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 14,
-            "end": 21,
-            "decorators": [],
-            "name": "indexOf",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

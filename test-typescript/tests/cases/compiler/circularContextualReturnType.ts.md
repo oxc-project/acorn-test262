@@ -9,11 +9,35 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 22,
       "end": 95,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 22,
         "end": 94,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 22,
+          "end": 35,
+          "object": {
+            "type": "Identifier",
+            "start": 22,
+            "end": 28,
+            "name": "Object",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 29,
+            "end": 35,
+            "name": "freeze",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -24,25 +48,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 42,
                 "end": 90,
+                "method": true,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 42,
                   "end": 45,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": true,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 45,
                   "end": 90,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 48,
@@ -56,40 +82,40 @@ __ESTREE_TEST__:PASS:
                           "type": "CallExpression",
                           "start": 65,
                           "end": 83,
+                          "callee": {
+                            "type": "MemberExpression",
+                            "start": 65,
+                            "end": 78,
+                            "object": {
+                              "type": "Identifier",
+                              "start": 65,
+                              "end": 71,
+                              "name": "Object",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "property": {
+                              "type": "Identifier",
+                              "start": 72,
+                              "end": 78,
+                              "name": "freeze",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "computed": false,
+                            "optional": false
+                          },
                           "arguments": [
                             {
                               "type": "Literal",
                               "start": 79,
                               "end": 82,
-                              "raw": "'a'",
-                              "value": "a"
+                              "value": "a",
+                              "raw": "'a'"
                             }
                           ],
-                          "callee": {
-                            "type": "MemberExpression",
-                            "start": 65,
-                            "end": 78,
-                            "computed": false,
-                            "object": {
-                              "type": "Identifier",
-                              "start": 65,
-                              "end": 71,
-                              "decorators": [],
-                              "name": "Object",
-                              "optional": false,
-                              "typeAnnotation": null
-                            },
-                            "optional": false,
-                            "property": {
-                              "type": "Identifier",
-                              "start": 72,
-                              "end": 78,
-                              "decorators": [],
-                              "name": "freeze",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          },
                           "optional": false,
                           "typeArguments": null
                         }
@@ -97,45 +123,19 @@ __ESTREE_TEST__:PASS:
                     ]
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 22,
-          "end": 35,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 22,
-            "end": 28,
-            "decorators": [],
-            "name": "Object",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 29,
-            "end": 35,
-            "decorators": [],
-            "name": "freeze",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

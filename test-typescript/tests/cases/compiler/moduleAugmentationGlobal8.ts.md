@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 75,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "A",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 12,
@@ -18,6 +27,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 18,
             "end": 73,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 32,
+              "name": "global",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 33,
@@ -27,44 +45,16 @@ __ESTREE_TEST__:PASS:
                   "type": "TSInterfaceDeclaration",
                   "start": 43,
                   "end": 67,
-                  "body": {
-                    "type": "TSInterfaceBody",
-                    "start": 62,
-                    "end": 67,
-                    "body": [
-                      {
-                        "type": "TSPropertySignature",
-                        "start": 64,
-                        "end": 65,
-                        "accessibility": null,
-                        "computed": false,
-                        "key": {
-                          "type": "Identifier",
-                          "start": 64,
-                          "end": 65,
-                          "decorators": [],
-                          "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
-                        "typeAnnotation": null
-                      }
-                    ]
-                  },
-                  "declare": false,
-                  "extends": [],
                   "id": {
                     "type": "Identifier",
                     "start": 53,
                     "end": 58,
-                    "decorators": [],
                     "name": "Array",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
+                  "extends": [],
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
                     "start": 58,
@@ -74,63 +64,73 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeParameter",
                         "start": 59,
                         "end": 60,
-                        "const": false,
-                        "constraint": null,
-                        "default": null,
-                        "in": false,
                         "name": {
                           "type": "Identifier",
                           "start": 59,
                           "end": 60,
-                          "decorators": [],
                           "name": "T",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "out": false
+                        "constraint": null,
+                        "default": null,
+                        "in": false,
+                        "out": false,
+                        "const": false
                       }
                     ]
-                  }
+                  },
+                  "body": {
+                    "type": "TSInterfaceBody",
+                    "start": 62,
+                    "end": 67,
+                    "body": [
+                      {
+                        "type": "TSPropertySignature",
+                        "start": 64,
+                        "end": 65,
+                        "computed": false,
+                        "optional": false,
+                        "readonly": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 64,
+                          "end": 65,
+                          "name": "x",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeAnnotation": null,
+                        "accessibility": null,
+                        "static": false
+                      }
+                    ]
+                  },
+                  "declare": false
                 }
               ]
             },
+            "kind": "global",
             "declare": true,
-            "global": true,
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 32,
-              "decorators": [],
-              "name": "global",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "global"
+            "global": true
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 76,
       "end": 85,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

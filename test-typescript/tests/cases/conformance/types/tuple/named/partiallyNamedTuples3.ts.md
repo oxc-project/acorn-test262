@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 75,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 75,
-            "decorators": [],
             "name": "tuple",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 19,
@@ -49,10 +46,10 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 30,
                       "end": 34,
-                      "decorators": [],
                       "name": "name",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "optional": false
                   },
@@ -74,10 +71,10 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 53,
                       "end": 58,
-                      "decorators": [],
                       "name": "value",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "optional": false
                   },
@@ -88,13 +85,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -105,53 +105,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 84,
           "end": 122,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 84,
             "end": 90,
-            "decorators": [],
             "name": "output",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 93,
             "end": 122,
-            "arguments": [
-              {
-                "type": "SpreadElement",
-                "start": 113,
-                "end": 121,
-                "argument": {
-                  "type": "Identifier",
-                  "start": 116,
-                  "end": 121,
-                  "decorators": [],
-                  "name": "tuple",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ],
             "callee": {
               "type": "ArrowFunctionExpression",
               "start": 94,
               "end": 111,
-              "async": false,
-              "body": {
-                "type": "Identifier",
-                "start": 107,
-                "end": 111,
-                "decorators": [],
-                "name": "args",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "id": null,
               "expression": true,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "RestElement",
@@ -161,10 +135,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 98,
                     "end": 102,
-                    "decorators": [],
                     "name": "args",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "decorators": [],
                   "optional": false,
@@ -172,16 +146,42 @@ __ESTREE_TEST__:PASS:
                   "value": null
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "Identifier",
+                "start": 107,
+                "end": 111,
+                "name": "args",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeParameters": null,
+              "returnType": null
             },
+            "arguments": [
+              {
+                "type": "SpreadElement",
+                "start": 113,
+                "end": 121,
+                "argument": {
+                  "type": "Identifier",
+                  "start": 116,
+                  "end": 121,
+                  "name": "tuple",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              }
+            ],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

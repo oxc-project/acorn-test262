@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 29,
-        "raw": "\"dir/index.ts\"",
-        "value": "dir/index.ts"
+        "value": "dir/index.ts",
+        "raw": "\"dir/index.ts\""
       },
       "exportKind": "value"
     }
@@ -34,15 +34,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 23,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 14,
-        "end": 22,
-        "raw": "\"./a.js\"",
-        "value": "./a.js"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -52,27 +43,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 8,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 14,
+        "end": 22,
+        "value": "./a.js",
+        "raw": "\"./a.js\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 24,
       "end": 48,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 40,
-        "end": 47,
-        "raw": "\"./dir\"",
-        "value": "./dir"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -82,13 +73,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 31,
             "end": 34,
-            "decorators": [],
             "name": "dir",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 47,
+        "value": "./dir",
+        "raw": "\"./dir\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

@@ -9,7 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 80,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 38,
+        "name": "potentialPredicateUnusedParam",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 39,
+          "end": 49,
+          "name": "a",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 40,
+            "end": 49,
+            "typeAnnotation": {
+              "type": "TSUnknownKeyword",
+              "start": 42,
+              "end": 49
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 51,
@@ -23,86 +54,55 @@ __ESTREE_TEST__:PASS:
               "type": "UnaryExpression",
               "start": 62,
               "end": 77,
+              "operator": "!",
+              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 63,
                 "end": 77,
+                "operator": "!",
+                "prefix": true,
                 "argument": {
                   "type": "CallExpression",
                   "start": 64,
                   "end": 77,
-                  "arguments": [],
                   "callee": {
                     "type": "MemberExpression",
                     "start": 64,
                     "end": 75,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 64,
                       "end": 68,
-                      "decorators": [],
                       "name": "Math",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 69,
                       "end": 75,
-                      "decorators": [],
                       "name": "random",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   },
+                  "arguments": [],
                   "optional": false,
                   "typeArguments": null
-                },
-                "operator": "!",
-                "prefix": true
-              },
-              "operator": "!",
-              "prefix": true
+                }
+              }
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 38,
-        "decorators": [],
-        "name": "potentialPredicateUnusedParam",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 39,
-          "end": 49,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 40,
-            "end": 49,
-            "typeAnnotation": {
-              "type": "TSUnknownKeyword",
-              "start": 42,
-              "end": 49
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

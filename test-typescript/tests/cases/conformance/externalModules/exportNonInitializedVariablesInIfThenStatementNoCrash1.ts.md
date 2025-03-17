@@ -9,12 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 57,
       "end": 103,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 61,
+        "end": 65,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "ExportNamedDeclaration",
         "start": 67,
         "end": 103,
-        "attributes": [],
         "declaration": {
           "type": "VariableDeclaration",
           "start": 74,
@@ -24,14 +29,11 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 80,
               "end": 102,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 80,
                 "end": 102,
-                "decorators": [],
                 "name": "cssExports",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 90,
@@ -40,36 +42,34 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 92,
                     "end": 102,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 92,
                       "end": 102,
-                      "decorators": [],
                       "name": "CssExports",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeArguments": null
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "const"
+          "kind": "const",
+          "declare": false
         },
-        "exportKind": "value",
+        "specifiers": [],
         "source": null,
-        "specifiers": []
+        "attributes": [],
+        "exportKind": "value"
       },
-      "test": {
-        "type": "Literal",
-        "start": 61,
-        "end": 65,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -79,10 +79,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 119,
         "end": 129,
-        "decorators": [],
         "name": "cssExports",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }

@@ -9,12 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 96,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 20,
+          "name": "Promise",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 21,
@@ -24,27 +32,46 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 27,
               "end": 94,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 34,
                 "end": 41,
-                "decorators": [],
                 "name": "timeout",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 41,
                 "end": 94,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [
+                  {
+                    "type": "Identifier",
+                    "start": 42,
+                    "end": 55,
+                    "name": "delay",
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "start": 47,
+                      "end": 55,
+                      "typeAnnotation": {
+                        "type": "TSNumberKeyword",
+                        "start": 49,
+                        "end": 55
+                      }
+                    },
+                    "decorators": [],
+                    "optional": false
+                  }
+                ],
                 "body": {
                   "type": "BlockStatement",
                   "start": 66,
@@ -58,36 +85,14 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 83,
                         "end": 87,
-                        "raw": "null",
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       }
                     }
                   ]
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [
-                  {
-                    "type": "Identifier",
-                    "start": 42,
-                    "end": 55,
-                    "decorators": [],
-                    "name": "delay",
-                    "optional": false,
-                    "typeAnnotation": {
-                      "type": "TSTypeAnnotation",
-                      "start": 47,
-                      "end": 55,
-                      "typeAnnotation": {
-                        "type": "TSNumberKeyword",
-                        "start": 49,
-                        "end": 55
-                      }
-                    }
-                  }
-                ],
+                "typeParameters": null,
                 "returnType": {
                   "type": "TSTypeAnnotation",
                   "start": 56,
@@ -96,42 +101,37 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 58,
                     "end": 65,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 58,
                       "end": 65,
-                      "decorators": [],
                       "name": "Promise",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeArguments": null
                   }
-                },
-                "typeParameters": null
-              }
+                }
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 13,
-          "end": 20,
-          "decorators": [],
-          "name": "Promise",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -153,12 +153,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 61,
         "end": 66,
-        "decorators": [],
         "name": "WinJS",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 69,
@@ -167,73 +166,74 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 77,
           "end": 108,
-          "raw": "'./staticInstanceResolution3_0'",
-          "value": "./staticInstanceResolution3_0"
+          "value": "./staticInstanceResolution3_0",
+          "raw": "'./staticInstanceResolution3_0'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 111,
       "end": 137,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 111,
         "end": 136,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 111,
+          "end": 132,
+          "object": {
+            "type": "MemberExpression",
+            "start": 111,
+            "end": 124,
+            "object": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 116,
+              "name": "WinJS",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 117,
+              "end": 124,
+              "name": "Promise",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 125,
+            "end": 132,
+            "name": "timeout",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 133,
             "end": 135,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 111,
-          "end": 132,
-          "computed": false,
-          "object": {
-            "type": "MemberExpression",
-            "start": 111,
-            "end": 124,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 111,
-              "end": 116,
-              "decorators": [],
-              "name": "WinJS",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 117,
-              "end": 124,
-              "decorators": [],
-              "name": "Promise",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 125,
-            "end": 132,
-            "decorators": [],
-            "name": "timeout",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

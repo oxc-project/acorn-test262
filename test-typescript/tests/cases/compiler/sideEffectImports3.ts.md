@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 24,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 7,
         "end": 23,
-        "raw": "\"./not-a-module\"",
-        "value": "./not-a-module"
+        "value": "./not-a-module",
+        "raw": "\"./not-a-module\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -36,48 +36,48 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 29,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 28,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 11,
+          "object": {
+            "type": "Identifier",
+            "start": 0,
+            "end": 7,
+            "name": "console",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 11,
+            "name": "log",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 12,
             "end": 27,
-            "raw": "\"Hello, world!\"",
-            "value": "Hello, world!"
+            "value": "Hello, world!",
+            "raw": "\"Hello, world!\""
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 0,
-          "end": 11,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 0,
-            "end": 7,
-            "decorators": [],
-            "name": "console",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 8,
-            "end": 11,
-            "decorators": [],
-            "name": "log",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

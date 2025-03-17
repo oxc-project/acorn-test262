@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 15,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 6,
@@ -36,26 +33,18 @@ __ESTREE_TEST__:PASS:
                   "end": 13
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 19,
             "end": 33,
-            "arguments": [
-              {
-                "type": "Literal",
-                "start": 31,
-                "end": 32,
-                "raw": "0",
-                "value": 0
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 19,
               "end": 30,
-              "computed": false,
               "object": {
                 "type": "ArrayExpression",
                 "start": 19,
@@ -65,36 +54,47 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 20,
                     "end": 21,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 22,
                     "end": 23,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   }
                 ]
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 25,
                 "end": 30,
-                "decorators": [],
                 "name": "slice",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [
+              {
+                "type": "Literal",
+                "start": 31,
+                "end": 32,
+                "value": 0,
+                "raw": "0"
+              }
+            ],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

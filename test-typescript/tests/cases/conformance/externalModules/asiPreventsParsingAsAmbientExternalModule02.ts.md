@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 19,
-            "decorators": [],
             "name": "declare",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 11,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 13,
                 "end": 19
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 25,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
             "end": 39,
-            "decorators": [],
             "name": "module",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 31,
@@ -65,18 +62,30 @@ __ESTREE_TEST__:PASS:
                 "start": 33,
                 "end": 39
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 42,
       "end": 290,
+      "id": {
+        "type": "Identifier",
+        "start": 49,
+        "end": 58,
+        "name": "container",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 59,
@@ -86,44 +95,44 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 65,
             "end": 72,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 65,
               "end": 72,
-              "decorators": [],
               "name": "declare",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 128,
             "end": 134,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 128,
               "end": 134,
-              "decorators": [],
               "name": "module",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 190,
             "end": 210,
-            "directive": null,
             "expression": {
               "type": "Literal",
               "start": 190,
               "end": 210,
-              "raw": "\"my external module\"",
-              "value": "my external module"
-            }
+              "value": "my external module",
+              "raw": "\"my external module\""
+            },
+            "directive": null
           },
           {
             "type": "BlockStatement",
@@ -133,18 +142,9 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 49,
-        "end": 58,
-        "decorators": [],
-        "name": "container",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 30,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 30,
             "end": 58,
-            "decorators": [],
             "name": "t1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -40,6 +37,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 43,
                     "end": 58,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 43,
+                      "end": 50,
+                      "name": "Promise",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 50,
@@ -51,54 +57,48 @@ __ESTREE_TEST__:PASS:
                           "end": 57
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 43,
-                      "end": 50,
-                      "decorators": [],
-                      "name": "Promise",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 66,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 59,
         "end": 66,
-        "operator": ">=",
         "left": {
           "type": "Identifier",
           "start": 59,
           "end": 61,
-          "decorators": [],
           "name": "t1",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "operator": ">=",
         "right": {
           "type": "Literal",
           "start": 65,
           "end": 66,
-          "raw": "0",
-          "value": 0
+          "value": 0,
+          "raw": "0"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

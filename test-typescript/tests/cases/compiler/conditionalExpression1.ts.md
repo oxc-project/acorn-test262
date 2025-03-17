@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 14,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -31,38 +28,41 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 14
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 18,
             "end": 31,
-            "alternate": {
+            "test": {
               "type": "Literal",
-              "start": 29,
-              "end": 31,
-              "raw": "\"\"",
-              "value": ""
+              "start": 18,
+              "end": 22,
+              "value": true,
+              "raw": "true"
             },
             "consequent": {
               "type": "Literal",
               "start": 25,
               "end": 26,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
-            "test": {
+            "alternate": {
               "type": "Literal",
-              "start": 18,
-              "end": 22,
-              "raw": "true",
-              "value": true
+              "start": 29,
+              "end": 31,
+              "value": "",
+              "raw": "\"\""
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

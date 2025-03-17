@@ -32,24 +32,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExportAllDeclaration",
       "start": 0,
       "end": 26,
-      "attributes": [],
       "exported": {
         "type": "Identifier",
         "start": 12,
         "end": 14,
-        "decorators": [],
         "name": "ns",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "exportKind": "value",
       "source": {
         "type": "Literal",
         "start": 20,
         "end": 25,
-        "raw": "'./a'",
-        "value": "./a"
-      }
+        "value": "./a",
+        "raw": "'./a'"
+      },
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

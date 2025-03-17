@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
-      "directive": null,
       "expression": {
         "type": "SequenceExpression",
         "start": 1,
@@ -19,20 +18,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 1,
             "end": 2,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           {
             "type": "Literal",
             "start": 4,
             "end": 6,
-            "raw": "''",
-            "value": ""
+            "value": "",
+            "raw": "''"
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

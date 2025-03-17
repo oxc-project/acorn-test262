@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 60,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 34,
+        "name": "isMissingReturnExpression",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 45,
@@ -24,18 +36,7 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 34,
-        "decorators": [],
-        "name": "isMissingReturnExpression",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 36,
@@ -45,14 +46,25 @@ __ESTREE_TEST__:PASS:
           "start": 38,
           "end": 44
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 62,
       "end": 120,
+      "id": {
+        "type": "Identifier",
+        "start": 71,
+        "end": 97,
+        "name": "isMissingReturnExpression2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 105,
@@ -67,18 +79,7 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 71,
-        "end": 97,
-        "decorators": [],
-        "name": "isMissingReturnExpression2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 99,
@@ -88,14 +89,25 @@ __ESTREE_TEST__:PASS:
           "start": 101,
           "end": 104
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 122,
       "end": 188,
+      "id": {
+        "type": "Identifier",
+        "start": 131,
+        "end": 157,
+        "name": "isMissingReturnExpression3",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 173,
@@ -110,18 +122,7 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 131,
-        "end": 157,
-        "decorators": [],
-        "name": "isMissingReturnExpression3",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 159,
@@ -143,14 +144,25 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 190,
       "end": 249,
+      "id": {
+        "type": "Identifier",
+        "start": 199,
+        "end": 225,
+        "name": "isMissingReturnExpression4",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 234,
@@ -165,18 +177,7 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 199,
-        "end": 225,
-        "decorators": [],
-        "name": "isMissingReturnExpression4",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 227,
@@ -186,14 +187,35 @@ __ESTREE_TEST__:PASS:
           "start": 229,
           "end": 233
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 251,
       "end": 363,
+      "id": {
+        "type": "Identifier",
+        "start": 260,
+        "end": 286,
+        "name": "isMissingReturnExpression5",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 287,
+          "end": 288,
+          "name": "x",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 290,
@@ -203,18 +225,14 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 296,
             "end": 361,
-            "alternate": {
-              "type": "BlockStatement",
-              "start": 338,
-              "end": 361,
-              "body": [
-                {
-                  "type": "ReturnStatement",
-                  "start": 348,
-                  "end": 355,
-                  "argument": null
-                }
-              ]
+            "test": {
+              "type": "Identifier",
+              "start": 300,
+              "end": 301,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "consequent": {
               "type": "BlockStatement",
@@ -229,49 +247,31 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 320,
                     "end": 321,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   }
                 }
               ]
             },
-            "test": {
-              "type": "Identifier",
-              "start": 300,
-              "end": 301,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+            "alternate": {
+              "type": "BlockStatement",
+              "start": 338,
+              "end": 361,
+              "body": [
+                {
+                  "type": "ReturnStatement",
+                  "start": 348,
+                  "end": 355,
+                  "argument": null
+                }
+              ]
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 260,
-        "end": 286,
-        "decorators": [],
-        "name": "isMissingReturnExpression5",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 287,
-          "end": 288,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -9,76 +9,88 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 17,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 0,
         "end": 16,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 0,
           "end": 6,
-          "decorators": [],
           "name": "Object",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 7,
           "end": 16,
-          "decorators": [],
           "name": "prototype",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 24,
       "end": 47,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 24,
         "end": 46,
-        "computed": false,
         "object": {
           "type": "NewExpression",
           "start": 24,
           "end": 36,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 28,
             "end": 34,
-            "decorators": [],
             "name": "Object",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "arguments": [],
           "typeArguments": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 37,
           "end": 46,
-          "decorators": [],
           "name": "prototype",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 57,
       "end": 72,
+      "id": {
+        "type": "Identifier",
+        "start": 66,
+        "end": 67,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 70,
@@ -86,51 +98,39 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 66,
-        "end": 67,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 73,
       "end": 85,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 73,
         "end": 84,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 73,
           "end": 74,
-          "decorators": [],
           "name": "f",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 75,
           "end": 84,
-          "decorators": [],
           "name": "prototype",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

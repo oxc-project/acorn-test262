@@ -9,11 +9,71 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 65,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 65,
+        "id": {
+          "type": "Identifier",
+          "start": 18,
+          "end": 30,
+          "name": "ConstFooEnum",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 37,
+            "end": 41,
+            "id": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 41,
+              "name": "Some",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          },
+          {
+            "type": "TSEnumMember",
+            "start": 47,
+            "end": 53,
+            "id": {
+              "type": "Identifier",
+              "start": 47,
+              "end": 53,
+              "name": "Values",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          },
+          {
+            "type": "TSEnumMember",
+            "start": 59,
+            "end": 63,
+            "id": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 63,
+              "name": "Here",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          }
+        ],
+        "const": true,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 31,
@@ -23,67 +83,57 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 37,
               "end": 41,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 37,
                 "end": 41,
-                "decorators": [],
                 "name": "Some",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 47,
               "end": 53,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 47,
                 "end": 53,
-                "decorators": [],
                 "name": "Values",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             },
             {
               "type": "TSEnumMember",
               "start": 59,
               "end": 63,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 59,
                 "end": 63,
-                "decorators": [],
                 "name": "Here",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
-        },
-        "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 18,
-          "end": 30,
-          "decorators": [],
-          "name": "ConstFooEnum",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "EmptyStatement",
@@ -94,12 +144,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 67,
       "end": 116,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 74,
         "end": 116,
+        "id": {
+          "type": "Identifier",
+          "start": 83,
+          "end": 90,
+          "name": "fooFunc",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 99,
@@ -107,18 +168,7 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 83,
-          "end": 90,
-          "decorators": [],
-          "name": "fooFunc",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 92,
@@ -128,12 +178,12 @@ __ESTREE_TEST__:PASS:
             "start": 94,
             "end": 98
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -151,15 +201,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 28,
-        "raw": "\"./foo\"",
-        "value": "./foo"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -169,19 +210,83 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 15,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 28,
+        "value": "./foo",
+        "raw": "\"./foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "FunctionDeclaration",
       "start": 31,
       "end": 140,
+      "id": {
+        "type": "Identifier",
+        "start": 40,
+        "end": 45,
+        "name": "check",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 46,
+          "end": 65,
+          "name": "x",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 47,
+            "end": 65,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 49,
+              "end": 65,
+              "typeName": {
+                "type": "TSQualifiedName",
+                "start": 49,
+                "end": 65,
+                "left": {
+                  "type": "Identifier",
+                  "start": 49,
+                  "end": 52,
+                  "name": "Foo",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "right": {
+                  "type": "Identifier",
+                  "start": 53,
+                  "end": 65,
+                  "name": "ConstFooEnum",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              },
+              "typeArguments": null
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 73,
@@ -191,6 +296,15 @@ __ESTREE_TEST__:PASS:
             "type": "SwitchStatement",
             "start": 77,
             "end": 138,
+            "discriminant": {
+              "type": "Identifier",
+              "start": 85,
+              "end": 86,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "cases": [
               {
                 "type": "SwitchCase",
@@ -208,113 +322,50 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 99,
                   "end": 120,
-                  "computed": false,
                   "object": {
                     "type": "MemberExpression",
                     "start": 99,
                     "end": 115,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 99,
                       "end": 102,
-                      "decorators": [],
                       "name": "Foo",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 103,
                       "end": 115,
-                      "decorators": [],
                       "name": "ConstFooEnum",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 116,
                     "end": 120,
-                    "decorators": [],
                     "name": "Some",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
-            ],
-            "discriminant": {
-              "type": "Identifier",
-              "start": 85,
-              "end": 86,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            }
+            ]
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 40,
-        "end": 45,
-        "decorators": [],
-        "name": "check",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 46,
-          "end": 65,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 47,
-            "end": 65,
-            "typeAnnotation": {
-              "type": "TSTypeReference",
-              "start": 49,
-              "end": 65,
-              "typeArguments": null,
-              "typeName": {
-                "type": "TSQualifiedName",
-                "start": 49,
-                "end": 65,
-                "left": {
-                  "type": "Identifier",
-                  "start": 49,
-                  "end": 52,
-                  "decorators": [],
-                  "name": "Foo",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "Identifier",
-                  "start": 53,
-                  "end": 65,
-                  "decorators": [],
-                  "name": "ConstFooEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        }
-      ],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 66,
@@ -324,8 +375,7 @@ __ESTREE_TEST__:PASS:
           "start": 68,
           "end": 72
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "module",

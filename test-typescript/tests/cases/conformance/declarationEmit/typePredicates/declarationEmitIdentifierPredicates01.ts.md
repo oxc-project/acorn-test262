@@ -9,12 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 76,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 76,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 17,
+          "name": "f",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 18,
+            "end": 24,
+            "name": "x",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 19,
+              "end": 24,
+              "typeAnnotation": {
+                "type": "TSAnyKeyword",
+                "start": 21,
+                "end": 24
+              }
+            },
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 39,
@@ -28,66 +58,36 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 52,
                 "end": 73,
-                "operator": "===",
                 "left": {
                   "type": "UnaryExpression",
                   "start": 52,
                   "end": 60,
+                  "operator": "typeof",
+                  "prefix": true,
                   "argument": {
                     "type": "Identifier",
                     "start": 59,
                     "end": 60,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "operator": "typeof",
-                  "prefix": true
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  }
                 },
+                "operator": "===",
                 "right": {
                   "type": "Literal",
                   "start": 65,
                   "end": 73,
-                  "raw": "\"number\"",
-                  "value": "number"
+                  "value": "number",
+                  "raw": "\"number\""
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 17,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 18,
-            "end": 24,
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 24,
-              "typeAnnotation": {
-                "type": "TSAnyKeyword",
-                "start": 21,
-                "end": 24
-              }
-            }
-          }
-        ],
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 25,
@@ -96,16 +96,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypePredicate",
             "start": 27,
             "end": 38,
-            "asserts": false,
             "parameterName": {
               "type": "Identifier",
               "start": 27,
               "end": 28,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "asserts": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -117,12 +117,12 @@ __ESTREE_TEST__:PASS:
               }
             }
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

@@ -9,20 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 14,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 9,
-            "end": 13,
-            "raw": "\"10\"",
-            "value": "10"
-          }
-        ],
         "callee": {
           "type": "SequenceExpression",
           "start": 1,
@@ -32,23 +22,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 1,
               "end": 2,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Identifier",
               "start": 3,
               "end": 7,
-              "decorators": [],
               "name": "eval",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ]
         },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 9,
+            "end": 13,
+            "value": "10",
+            "raw": "\"10\""
+          }
+        ],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -59,40 +59,30 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 60,
           "end": 63,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 60,
             "end": 63,
-            "decorators": [],
             "name": "eva",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 65,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 65,
         "end": 78,
-        "arguments": [
-          {
-            "type": "Literal",
-            "start": 73,
-            "end": 77,
-            "raw": "\"10\"",
-            "value": "10"
-          }
-        ],
         "callee": {
           "type": "SequenceExpression",
           "start": 66,
@@ -102,23 +92,33 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 66,
               "end": 67,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             },
             {
               "type": "Identifier",
               "start": 68,
               "end": 71,
-              "decorators": [],
               "name": "eva",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ]
         },
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 73,
+            "end": 77,
+            "value": "10",
+            "raw": "\"10\""
+          }
+        ],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

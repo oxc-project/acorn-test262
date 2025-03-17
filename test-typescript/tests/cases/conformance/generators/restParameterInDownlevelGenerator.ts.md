@@ -9,71 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 56,
       "end": 139,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 106,
-        "end": 139,
-        "body": [
-          {
-            "type": "ForOfStatement",
-            "start": 112,
-            "end": 137,
-            "await": false,
-            "body": {
-              "type": "EmptyStatement",
-              "start": 136,
-              "end": 137
-            },
-            "left": {
-              "type": "VariableDeclaration",
-              "start": 117,
-              "end": 124,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 121,
-                  "end": 124,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 121,
-                    "end": 124,
-                    "decorators": [],
-                    "name": "str",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": null
-                }
-              ],
-              "declare": false,
-              "kind": "var"
-            },
-            "right": {
-              "type": "Identifier",
-              "start": 128,
-              "end": 135,
-              "decorators": [],
-              "name": "strings",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": true,
       "id": {
         "type": "Identifier",
         "start": 67,
         "end": 83,
-        "decorators": [],
         "name": "mergeStringLists",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": true,
+      "async": false,
       "params": [
         {
           "type": "RestElement",
@@ -83,10 +30,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 87,
             "end": 94,
-            "decorators": [],
             "name": "strings",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "decorators": [],
           "optional": false,
@@ -108,8 +55,61 @@ __ESTREE_TEST__:PASS:
           "value": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 106,
+        "end": 139,
+        "body": [
+          {
+            "type": "ForOfStatement",
+            "start": 112,
+            "end": 137,
+            "await": false,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 117,
+              "end": 124,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 121,
+                  "end": 124,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 121,
+                    "end": 124,
+                    "name": "str",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "init": null,
+                  "definite": false
+                }
+              ],
+              "kind": "var",
+              "declare": false
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 135,
+              "name": "strings",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "body": {
+              "type": "EmptyStatement",
+              "start": 136,
+              "end": 137
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

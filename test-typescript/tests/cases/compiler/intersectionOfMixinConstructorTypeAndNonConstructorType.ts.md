@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 33,
           "end": 81,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 33,
             "end": 81,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 34,
@@ -40,20 +37,18 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 37,
                         "end": 51,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 37,
                           "end": 40,
-                          "decorators": [],
                           "name": "foo",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 40,
@@ -63,7 +58,9 @@ __ESTREE_TEST__:PASS:
                             "start": 42,
                             "end": 51
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   },
@@ -76,6 +73,7 @@ __ESTREE_TEST__:PASS:
                         "type": "TSConstructSignatureDeclaration",
                         "start": 56,
                         "end": 80,
+                        "typeParameters": null,
                         "params": [
                           {
                             "type": "RestElement",
@@ -85,10 +83,10 @@ __ESTREE_TEST__:PASS:
                               "type": "Identifier",
                               "start": 63,
                               "end": 67,
-                              "decorators": [],
                               "name": "args",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "decorators": [],
                             "optional": false,
@@ -119,42 +117,44 @@ __ESTREE_TEST__:PASS:
                             "start": 77,
                             "end": 80
                           }
-                        },
-                        "typeParameters": null
+                        }
                       }
                     ]
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "let"
+      "kind": "let",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 83,
       "end": 91,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 83,
         "end": 90,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 87,
           "end": 88,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

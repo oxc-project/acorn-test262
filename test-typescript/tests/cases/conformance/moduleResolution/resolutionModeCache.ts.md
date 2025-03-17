@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 29,
-            "decorators": [],
             "name": "_exports",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 22,
@@ -34,17 +31,20 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 24,
                   "end": 29,
-                  "raw": "\"cjs\"",
-                  "value": "cjs"
+                  "value": "cjs",
+                  "raw": "\"cjs\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -54,10 +54,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 40,
         "end": 48,
-        "decorators": [],
         "name": "_exports",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -76,35 +76,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 72,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 41,
-          "end": 69,
-          "key": {
-            "type": "Literal",
-            "start": 41,
-            "end": 58,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 60,
-            "end": 69,
-            "raw": "\"require\"",
-            "value": "require"
-          }
-        }
-      ],
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 33,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -114,47 +85,47 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 22,
-            "decorators": [],
             "name": "pkgRequire",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 33,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 41,
+          "end": 69,
+          "key": {
+            "type": "Literal",
+            "start": 41,
+            "end": 58,
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
+          },
+          "value": {
+            "type": "Literal",
+            "start": 60,
+            "end": 69,
+            "value": "require",
+            "raw": "\"require\""
+          }
+        }
+      ],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 73,
       "end": 143,
-      "attributes": [
-        {
-          "type": "ImportAttribute",
-          "start": 113,
-          "end": 140,
-          "key": {
-            "type": "Literal",
-            "start": 113,
-            "end": 130,
-            "raw": "\"resolution-mode\"",
-            "value": "resolution-mode"
-          },
-          "value": {
-            "type": "Literal",
-            "start": 132,
-            "end": 140,
-            "raw": "\"import\"",
-            "value": "import"
-          }
-        }
-      ],
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 100,
-        "end": 105,
-        "raw": "\"pkg\"",
-        "value": "pkg"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -164,43 +135,72 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 85,
             "end": 94,
-            "decorators": [],
             "name": "pkgImport",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 100,
+        "end": 105,
+        "value": "pkg",
+        "raw": "\"pkg\""
+      },
+      "attributes": [
+        {
+          "type": "ImportAttribute",
+          "start": 113,
+          "end": 140,
+          "key": {
+            "type": "Literal",
+            "start": 113,
+            "end": 130,
+            "value": "resolution-mode",
+            "raw": "\"resolution-mode\""
+          },
+          "value": {
+            "type": "Literal",
+            "start": 132,
+            "end": 140,
+            "value": "import",
+            "raw": "\"import\""
+          }
+        }
+      ],
+      "importKind": "type"
     },
     {
       "type": "ExpressionStatement",
       "start": 144,
       "end": 155,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 144,
         "end": 154,
-        "decorators": [],
         "name": "pkgRequire",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 156,
       "end": 166,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 156,
         "end": 165,
-        "decorators": [],
         "name": "pkgImport",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

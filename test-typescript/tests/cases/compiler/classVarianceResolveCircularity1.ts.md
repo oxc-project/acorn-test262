@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 17,
       "end": 119,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 23,
+        "end": 26,
+        "name": "Bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 30,
@@ -19,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 36,
             "end": 49,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": true,
             "key": {
               "type": "Identifier",
               "start": 36,
               "end": 39,
-              "decorators": [],
               "name": "num",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": true,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 40,
@@ -47,40 +56,40 @@ __ESTREE_TEST__:PASS:
                 "end": 48
               }
             },
-            "value": null
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 54,
             "end": 79,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 54,
               "end": 59,
-              "decorators": [],
               "name": "Value",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
               "start": 62,
               "end": 78,
-              "computed": false,
               "object": {
                 "type": "CallExpression",
                 "start": 62,
                 "end": 74,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 62,
+                  "end": 68,
+                  "name": "callme",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "ThisExpression",
@@ -88,52 +97,90 @@ __ESTREE_TEST__:PASS:
                     "end": 73
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 62,
-                  "end": 68,
-                  "decorators": [],
-                  "name": "callme",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "optional": false,
                 "typeArguments": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 75,
                 "end": 78,
-                "decorators": [],
                 "name": "num",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "decorators": [],
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "typeAnnotation": null,
+            "accessibility": null
           },
           {
             "type": "PropertyDefinition",
             "start": 84,
             "end": 117,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 84,
               "end": 89,
-              "decorators": [],
               "name": "Field",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": {
+              "type": "MemberExpression",
+              "start": 100,
+              "end": 116,
+              "object": {
+                "type": "CallExpression",
+                "start": 100,
+                "end": 112,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 100,
+                  "end": 106,
+                  "name": "callme",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "arguments": [
+                  {
+                    "type": "ThisExpression",
+                    "start": 107,
+                    "end": 111
+                  }
+                ],
+                "optional": false,
+                "typeArguments": null
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 113,
+                "end": 116,
+                "name": "num",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 89,
@@ -144,62 +191,11 @@ __ESTREE_TEST__:PASS:
                 "end": 97
               }
             },
-            "value": {
-              "type": "MemberExpression",
-              "start": 100,
-              "end": 116,
-              "computed": false,
-              "object": {
-                "type": "CallExpression",
-                "start": 100,
-                "end": 112,
-                "arguments": [
-                  {
-                    "type": "ThisExpression",
-                    "start": 107,
-                    "end": 111
-                  }
-                ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 100,
-                  "end": 106,
-                  "decorators": [],
-                  "name": "callme",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "typeArguments": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 113,
-                "end": 116,
-                "decorators": [],
-                "name": "num",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 23,
-        "end": 26,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 26,
@@ -209,50 +205,50 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 27,
             "end": 28,
-            "const": false,
-            "constraint": null,
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 27,
               "end": 28,
-              "decorators": [],
               "name": "T",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": null,
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "implements": [],
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "TSDeclareFunction",
       "start": 120,
       "end": 167,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 137,
         "end": 143,
-        "decorators": [],
         "name": "callme",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 144,
           "end": 155,
-          "decorators": [],
           "name": "x",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 145,
@@ -261,6 +257,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 147,
               "end": 155,
+              "typeName": {
+                "type": "Identifier",
+                "start": 147,
+                "end": 150,
+                "name": "Bar",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "typeArguments": {
                 "type": "TSTypeParameterInstantiation",
                 "start": 150,
@@ -272,20 +277,16 @@ __ESTREE_TEST__:PASS:
                     "end": 154
                   }
                 ]
-              },
-              "typeName": {
-                "type": "Identifier",
-                "start": 147,
-                "end": 150,
-                "decorators": [],
-                "name": "Bar",
-                "optional": false,
-                "typeAnnotation": null
               }
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 156,
@@ -294,6 +295,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 158,
           "end": 166,
+          "typeName": {
+            "type": "Identifier",
+            "start": 158,
+            "end": 161,
+            "name": "Bar",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 161,
@@ -305,46 +315,32 @@ __ESTREE_TEST__:PASS:
                 "end": 165
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 158,
-            "end": 161,
-            "decorators": [],
-            "name": "Bar",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSDeclareFunction",
       "start": 168,
       "end": 211,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 185,
         "end": 191,
-        "decorators": [],
         "name": "callme",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 192,
           "end": 201,
-          "decorators": [],
           "name": "x",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 193,
@@ -354,9 +350,14 @@ __ESTREE_TEST__:PASS:
               "start": 195,
               "end": 201
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 202,
@@ -366,8 +367,7 @@ __ESTREE_TEST__:PASS:
           "start": 204,
           "end": 210
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

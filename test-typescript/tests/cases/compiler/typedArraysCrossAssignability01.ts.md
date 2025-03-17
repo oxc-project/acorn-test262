@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 18,
       "end": 3412,
+      "id": {
+        "type": "Identifier",
+        "start": 27,
+        "end": 45,
+        "name": "CheckAssignability",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 48,
@@ -24,44 +36,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 58,
                 "end": 100,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 58,
                   "end": 71,
-                  "decorators": [],
                   "name": "arr_Int8Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 84,
                   "end": 100,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 88,
+                    "end": 97,
+                    "name": "Int8Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 98,
                       "end": 99,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 88,
-                    "end": 97,
-                    "decorators": [],
-                    "name": "Int8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -72,44 +84,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 110,
                 "end": 153,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 110,
                   "end": 124,
-                  "decorators": [],
                   "name": "arr_Uint8Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 136,
                   "end": 153,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 140,
+                    "end": 150,
+                    "name": "Uint8Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 151,
                       "end": 152,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 140,
-                    "end": 150,
-                    "decorators": [],
-                    "name": "Uint8Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -120,44 +132,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 163,
                 "end": 206,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 163,
                   "end": 177,
-                  "decorators": [],
                   "name": "arr_Int16Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 189,
                   "end": 206,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 193,
+                    "end": 203,
+                    "name": "Int16Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 204,
                       "end": 205,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 193,
-                    "end": 203,
-                    "decorators": [],
-                    "name": "Int16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -168,44 +180,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 216,
                 "end": 260,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 216,
                   "end": 231,
-                  "decorators": [],
                   "name": "arr_Uint16Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 242,
                   "end": 260,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 246,
+                    "end": 257,
+                    "name": "Uint16Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 258,
                       "end": 259,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 246,
-                    "end": 257,
-                    "decorators": [],
-                    "name": "Uint16Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -216,44 +228,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 270,
                 "end": 313,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 270,
                   "end": 284,
-                  "decorators": [],
                   "name": "arr_Int32Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 296,
                   "end": 313,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 300,
+                    "end": 310,
+                    "name": "Int32Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 311,
                       "end": 312,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 300,
-                    "end": 310,
-                    "decorators": [],
-                    "name": "Int32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -264,44 +276,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 323,
                 "end": 367,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 323,
                   "end": 338,
-                  "decorators": [],
                   "name": "arr_Uint32Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 349,
                   "end": 367,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 353,
+                    "end": 364,
+                    "name": "Uint32Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 365,
                       "end": 366,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 353,
-                    "end": 364,
-                    "decorators": [],
-                    "name": "Uint32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -312,44 +324,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 377,
                 "end": 422,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 377,
                   "end": 393,
-                  "decorators": [],
                   "name": "arr_Float32Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 403,
                   "end": 422,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 407,
+                    "end": 419,
+                    "name": "Float32Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 420,
                       "end": 421,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 407,
-                    "end": 419,
-                    "decorators": [],
-                    "name": "Float32Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -360,44 +372,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 432,
                 "end": 477,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 432,
                   "end": 448,
-                  "decorators": [],
                   "name": "arr_Float64Array",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 458,
                   "end": 477,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 462,
+                    "end": 474,
+                    "name": "Float64Array",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 475,
                       "end": 476,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 462,
-                    "end": 474,
-                    "decorators": [],
-                    "name": "Float64Array",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -408,50 +420,49 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 487,
                 "end": 537,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 487,
                   "end": 508,
-                  "decorators": [],
                   "name": "arr_Uint8ClampedArray",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "NewExpression",
                   "start": 513,
                   "end": 537,
+                  "callee": {
+                    "type": "Identifier",
+                    "start": 517,
+                    "end": 534,
+                    "name": "Uint8ClampedArray",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 535,
                       "end": 536,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "Identifier",
-                    "start": 517,
-                    "end": 534,
-                    "decorators": [],
-                    "name": "Uint8ClampedArray",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
                   "typeArguments": null
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "ExpressionStatement",
             "start": 544,
             "end": 574,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 544,
@@ -461,27 +472,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 544,
                 "end": 557,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 560,
                 "end": 573,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 579,
             "end": 610,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 579,
@@ -491,27 +502,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 579,
                 "end": 592,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 595,
                 "end": 609,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 615,
             "end": 646,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 615,
@@ -521,27 +532,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 615,
                 "end": 628,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 631,
                 "end": 645,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 651,
             "end": 683,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 651,
@@ -551,27 +562,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 651,
                 "end": 664,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 667,
                 "end": 682,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 688,
             "end": 719,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 688,
@@ -581,27 +592,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 688,
                 "end": 701,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 704,
                 "end": 718,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 724,
             "end": 756,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 724,
@@ -611,27 +622,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 724,
                 "end": 737,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 740,
                 "end": 755,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 761,
             "end": 794,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 761,
@@ -641,27 +652,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 761,
                 "end": 774,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 777,
                 "end": 793,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 799,
             "end": 832,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 799,
@@ -671,27 +682,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 799,
                 "end": 812,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 815,
                 "end": 831,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 837,
             "end": 875,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 837,
@@ -701,27 +712,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 837,
                 "end": 850,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 853,
                 "end": 874,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 881,
             "end": 912,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 881,
@@ -731,27 +742,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 881,
                 "end": 895,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 898,
                 "end": 911,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 917,
             "end": 949,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 917,
@@ -761,27 +772,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 917,
                 "end": 931,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 934,
                 "end": 948,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 954,
             "end": 986,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 954,
@@ -791,27 +802,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 954,
                 "end": 968,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 971,
                 "end": 985,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 991,
             "end": 1024,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 991,
@@ -821,27 +832,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 991,
                 "end": 1005,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1008,
                 "end": 1023,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1029,
             "end": 1061,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1029,
@@ -851,27 +862,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1029,
                 "end": 1043,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1046,
                 "end": 1060,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1066,
             "end": 1099,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1066,
@@ -881,27 +892,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1066,
                 "end": 1080,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1083,
                 "end": 1098,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1104,
             "end": 1138,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1104,
@@ -911,27 +922,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1104,
                 "end": 1118,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1121,
                 "end": 1137,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1143,
             "end": 1177,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1143,
@@ -941,27 +952,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1143,
                 "end": 1157,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1160,
                 "end": 1176,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1182,
             "end": 1221,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1182,
@@ -971,27 +982,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1182,
                 "end": 1196,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1199,
                 "end": 1220,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1227,
             "end": 1258,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1227,
@@ -1001,27 +1012,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1227,
                 "end": 1241,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1244,
                 "end": 1257,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1263,
             "end": 1295,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1263,
@@ -1031,27 +1042,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1263,
                 "end": 1277,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1280,
                 "end": 1294,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1300,
             "end": 1332,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1300,
@@ -1061,27 +1072,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1300,
                 "end": 1314,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1317,
                 "end": 1331,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1337,
             "end": 1370,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1337,
@@ -1091,27 +1102,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1337,
                 "end": 1351,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1354,
                 "end": 1369,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1375,
             "end": 1407,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1375,
@@ -1121,27 +1132,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1375,
                 "end": 1389,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1392,
                 "end": 1406,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1412,
             "end": 1445,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1412,
@@ -1151,27 +1162,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1412,
                 "end": 1426,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1429,
                 "end": 1444,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1450,
             "end": 1484,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1450,
@@ -1181,27 +1192,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1450,
                 "end": 1464,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1467,
                 "end": 1483,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1489,
             "end": 1523,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1489,
@@ -1211,27 +1222,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1489,
                 "end": 1503,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1506,
                 "end": 1522,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1528,
             "end": 1567,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1528,
@@ -1241,27 +1252,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1528,
                 "end": 1542,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1545,
                 "end": 1566,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1573,
             "end": 1605,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1573,
@@ -1271,27 +1282,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1573,
                 "end": 1588,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1591,
                 "end": 1604,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1610,
             "end": 1643,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1610,
@@ -1301,27 +1312,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1610,
                 "end": 1625,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1628,
                 "end": 1642,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1648,
             "end": 1681,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1648,
@@ -1331,27 +1342,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1648,
                 "end": 1663,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1666,
                 "end": 1680,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1686,
             "end": 1720,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1686,
@@ -1361,27 +1372,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1686,
                 "end": 1701,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1704,
                 "end": 1719,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1725,
             "end": 1758,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1725,
@@ -1391,27 +1402,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1725,
                 "end": 1740,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1743,
                 "end": 1757,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1763,
             "end": 1797,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1763,
@@ -1421,27 +1432,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1763,
                 "end": 1778,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1781,
                 "end": 1796,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1802,
             "end": 1837,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1802,
@@ -1451,27 +1462,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1802,
                 "end": 1817,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1820,
                 "end": 1836,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1842,
             "end": 1877,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1842,
@@ -1481,27 +1492,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1842,
                 "end": 1857,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1860,
                 "end": 1876,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1882,
             "end": 1922,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1882,
@@ -1511,27 +1522,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1882,
                 "end": 1897,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1900,
                 "end": 1921,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1928,
             "end": 1959,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1928,
@@ -1541,27 +1552,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1928,
                 "end": 1942,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1945,
                 "end": 1958,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 1964,
             "end": 1996,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 1964,
@@ -1571,27 +1582,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 1964,
                 "end": 1978,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 1981,
                 "end": 1995,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2001,
             "end": 2033,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2001,
@@ -1601,27 +1612,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2001,
                 "end": 2015,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2018,
                 "end": 2032,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2038,
             "end": 2071,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2038,
@@ -1631,27 +1642,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2038,
                 "end": 2052,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2055,
                 "end": 2070,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2076,
             "end": 2108,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2076,
@@ -1661,27 +1672,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2076,
                 "end": 2090,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2093,
                 "end": 2107,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2113,
             "end": 2146,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2113,
@@ -1691,27 +1702,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2113,
                 "end": 2127,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2130,
                 "end": 2145,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2151,
             "end": 2185,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2151,
@@ -1721,27 +1732,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2151,
                 "end": 2165,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2168,
                 "end": 2184,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2190,
             "end": 2224,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2190,
@@ -1751,27 +1762,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2190,
                 "end": 2204,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2207,
                 "end": 2223,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2229,
             "end": 2268,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2229,
@@ -1781,27 +1792,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2229,
                 "end": 2243,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2246,
                 "end": 2267,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2274,
             "end": 2307,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2274,
@@ -1811,27 +1822,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2274,
                 "end": 2290,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2293,
                 "end": 2306,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2312,
             "end": 2346,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2312,
@@ -1841,27 +1852,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2312,
                 "end": 2328,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2331,
                 "end": 2345,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2351,
             "end": 2385,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2351,
@@ -1871,27 +1882,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2351,
                 "end": 2367,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2370,
                 "end": 2384,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2390,
             "end": 2425,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2390,
@@ -1901,27 +1912,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2390,
                 "end": 2406,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2409,
                 "end": 2424,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2430,
             "end": 2464,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2430,
@@ -1931,27 +1942,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2430,
                 "end": 2446,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2449,
                 "end": 2463,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2469,
             "end": 2504,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2469,
@@ -1961,27 +1972,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2469,
                 "end": 2485,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2488,
                 "end": 2503,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2509,
             "end": 2545,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2509,
@@ -1991,27 +2002,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2509,
                 "end": 2525,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2528,
                 "end": 2544,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2550,
             "end": 2586,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2550,
@@ -2021,27 +2032,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2550,
                 "end": 2566,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2569,
                 "end": 2585,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2591,
             "end": 2632,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2591,
@@ -2051,27 +2062,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2591,
                 "end": 2607,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2610,
                 "end": 2631,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2638,
             "end": 2671,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2638,
@@ -2081,27 +2092,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2638,
                 "end": 2654,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2657,
                 "end": 2670,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2676,
             "end": 2710,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2676,
@@ -2111,27 +2122,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2676,
                 "end": 2692,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2695,
                 "end": 2709,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2715,
             "end": 2749,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2715,
@@ -2141,27 +2152,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2715,
                 "end": 2731,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2734,
                 "end": 2748,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2754,
             "end": 2789,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2754,
@@ -2171,27 +2182,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2754,
                 "end": 2770,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2773,
                 "end": 2788,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2794,
             "end": 2828,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2794,
@@ -2201,27 +2212,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2794,
                 "end": 2810,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2813,
                 "end": 2827,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2833,
             "end": 2868,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2833,
@@ -2231,27 +2242,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2833,
                 "end": 2849,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2852,
                 "end": 2867,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2873,
             "end": 2909,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2873,
@@ -2261,27 +2272,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2873,
                 "end": 2889,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2892,
                 "end": 2908,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2914,
             "end": 2950,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2914,
@@ -2291,27 +2302,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2914,
                 "end": 2930,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2933,
                 "end": 2949,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 2955,
             "end": 2996,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 2955,
@@ -2321,27 +2332,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 2955,
                 "end": 2971,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 2974,
                 "end": 2995,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3002,
             "end": 3040,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3002,
@@ -2351,27 +2362,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3002,
                 "end": 3023,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3026,
                 "end": 3039,
-                "decorators": [],
                 "name": "arr_Int8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3045,
             "end": 3084,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3045,
@@ -2381,27 +2392,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3045,
                 "end": 3066,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3069,
                 "end": 3083,
-                "decorators": [],
                 "name": "arr_Uint8Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3089,
             "end": 3128,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3089,
@@ -2411,27 +2422,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3089,
                 "end": 3110,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3113,
                 "end": 3127,
-                "decorators": [],
                 "name": "arr_Int16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3133,
             "end": 3173,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3133,
@@ -2441,27 +2452,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3133,
                 "end": 3154,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3157,
                 "end": 3172,
-                "decorators": [],
                 "name": "arr_Uint16Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3178,
             "end": 3217,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3178,
@@ -2471,27 +2482,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3178,
                 "end": 3199,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3202,
                 "end": 3216,
-                "decorators": [],
                 "name": "arr_Int32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3222,
             "end": 3262,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3222,
@@ -2501,27 +2512,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3222,
                 "end": 3243,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3246,
                 "end": 3261,
-                "decorators": [],
                 "name": "arr_Uint32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3267,
             "end": 3308,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3267,
@@ -2531,27 +2542,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3267,
                 "end": 3288,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3291,
                 "end": 3307,
-                "decorators": [],
                 "name": "arr_Float32Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3313,
             "end": 3354,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3313,
@@ -2561,27 +2572,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3313,
                 "end": 3334,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3337,
                 "end": 3353,
-                "decorators": [],
                 "name": "arr_Float64Array",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 3359,
             "end": 3405,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 3359,
@@ -2591,39 +2602,28 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 3359,
                 "end": 3380,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 3383,
                 "end": 3404,
-                "decorators": [],
                 "name": "arr_Uint8ClampedArray",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 27,
-        "end": 45,
-        "decorators": [],
-        "name": "CheckAssignability",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

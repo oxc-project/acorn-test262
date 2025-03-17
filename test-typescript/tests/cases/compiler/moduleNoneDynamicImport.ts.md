@@ -14,33 +14,33 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 9,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ImportExpression",
             "start": 12,
             "end": 25,
-            "options": null,
             "source": {
               "type": "Literal",
               "start": 19,
               "end": 24,
-              "raw": "\"./b\"",
-              "value": "./b"
-            }
-          }
+              "value": "./b",
+              "raw": "\"./b\""
+            },
+            "options": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "module",

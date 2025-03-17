@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 17,
@@ -19,54 +18,16 @@ __ESTREE_TEST__:PASS:
             "type": "FunctionExpression",
             "start": 20,
             "end": 55,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 41,
-              "end": 55,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 43,
-                  "end": 53,
-                  "directive": null,
-                  "expression": {
-                    "type": "AssignmentExpression",
-                    "start": 43,
-                    "end": 52,
-                    "operator": "=",
-                    "left": {
-                      "type": "Identifier",
-                      "start": 43,
-                      "end": 44,
-                      "decorators": [],
-                      "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "right": {
-                      "type": "Literal",
-                      "start": 47,
-                      "end": 52,
-                      "raw": "\"bad\"",
-                      "value": "bad"
-                    }
-                  }
-                }
-              ]
-            },
-            "declare": false,
+            "id": null,
             "expression": false,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 30,
                 "end": 39,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 31,
@@ -76,11 +37,49 @@ __ESTREE_TEST__:PASS:
                     "start": 33,
                     "end": 39
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
-            "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 41,
+              "end": 55,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 43,
+                  "end": 53,
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "start": 43,
+                    "end": 52,
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "start": 43,
+                      "end": 44,
+                      "name": "x",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "right": {
+                      "type": "Literal",
+                      "start": 47,
+                      "end": 52,
+                      "value": "bad",
+                      "raw": "\"bad\""
+                    }
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "declare": false,
+            "typeParameters": null,
+            "returnType": null
           }
         ],
         "quasis": [
@@ -88,24 +87,25 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 17,
             "end": 20,
-            "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 56,
             "end": 58,
-            "tail": true,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,61 +9,61 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 16,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 16,
-        "alternate": {
-          "type": "ArrowFunctionExpression",
-          "start": 10,
-          "end": 16,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 15,
-            "end": 16,
-            "decorators": [],
-            "name": "e",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "expression": true,
-          "generator": false,
-          "id": null,
-          "params": [
-            {
-              "type": "Identifier",
-              "start": 10,
-              "end": 11,
-              "decorators": [],
-              "name": "d",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          ],
-          "returnType": null,
-          "typeParameters": null
+        "test": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "b",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "consequent": {
           "type": "Identifier",
           "start": 5,
           "end": 6,
-          "decorators": [],
           "name": "c",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "test": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
+          "typeAnnotation": null,
           "decorators": [],
-          "name": "b",
-          "optional": false,
-          "typeAnnotation": null
+          "optional": false
+        },
+        "alternate": {
+          "type": "ArrowFunctionExpression",
+          "start": 10,
+          "end": 16,
+          "id": null,
+          "expression": true,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 10,
+              "end": 11,
+              "name": "d",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          ],
+          "body": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 16,
+            "name": "e",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
+          "returnType": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

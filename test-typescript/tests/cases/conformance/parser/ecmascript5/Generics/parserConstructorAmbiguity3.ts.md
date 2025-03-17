@@ -9,21 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 11,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 11,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
           "end": 8,
-          "decorators": [],
           "name": "Date",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 8,
@@ -33,20 +32,21 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 9,
               "end": 10,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 9,
                 "end": 10,
-                "decorators": [],
                 "name": "A",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

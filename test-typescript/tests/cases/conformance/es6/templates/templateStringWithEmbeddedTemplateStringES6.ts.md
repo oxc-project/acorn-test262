@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 21,
           "end": 90,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 21,
             "end": 22,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -38,8 +37,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 40,
                     "end": 45,
-                    "raw": "\" | \"",
-                    "value": " | "
+                    "value": " | ",
+                    "raw": "\" | \""
                   }
                 ],
                 "quasis": [
@@ -47,21 +46,21 @@ __ESTREE_TEST__:PASS:
                     "type": "TemplateElement",
                     "start": 32,
                     "end": 39,
-                    "tail": false,
                     "value": {
                       "cooked": "456 ",
                       "raw": "456 "
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 46,
                     "end": 52,
-                    "tail": true,
                     "value": {
                       "cooked": " 654",
                       "raw": " 654"
-                    }
+                    },
+                    "tail": true
                   }
                 ]
               },
@@ -74,8 +73,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 72,
                     "end": 77,
-                    "raw": "\" | \"",
-                    "value": " | "
+                    "value": " | ",
+                    "raw": "\" | \""
                   }
                 ],
                 "quasis": [
@@ -83,21 +82,21 @@ __ESTREE_TEST__:PASS:
                     "type": "TemplateElement",
                     "start": 64,
                     "end": 71,
-                    "tail": false,
                     "value": {
                       "cooked": "456 ",
                       "raw": "456 "
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 78,
                     "end": 84,
-                    "tail": true,
                     "value": {
                       "cooked": " 654",
                       "raw": " 654"
-                    }
+                    },
+                    "tail": true
                   }
                 ]
               }
@@ -107,38 +106,39 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 25,
                 "end": 31,
-                "tail": false,
                 "value": {
                   "cooked": "123",
                   "raw": "123"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 53,
                 "end": 63,
-                "tail": false,
                 "value": {
                   "cooked": "321 123",
                   "raw": "321 123"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 85,
                 "end": 90,
-                "tail": true,
                 "value": {
                   "cooked": "321",
                   "raw": "321"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

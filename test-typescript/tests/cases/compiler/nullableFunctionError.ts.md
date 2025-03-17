@@ -9,45 +9,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 7,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 6,
-        "arguments": [],
         "callee": {
           "type": "Literal",
           "start": 0,
           "end": 4,
-          "raw": "null",
-          "value": null
+          "value": null,
+          "raw": "null"
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 8,
       "end": 20,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 8,
         "end": 19,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 8,
           "end": 17,
-          "decorators": [],
           "name": "undefined",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -58,14 +58,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 25,
           "end": 44,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
             "end": 44,
-            "decorators": [],
             "name": "f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 26,
@@ -87,36 +84,39 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 46,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 46,
         "end": 49,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 46,
           "end": 47,
-          "decorators": [],
           "name": "f",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

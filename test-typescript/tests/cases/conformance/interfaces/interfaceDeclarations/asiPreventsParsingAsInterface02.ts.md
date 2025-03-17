@@ -9,7 +9,56 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 205,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 11,
+          "end": 28,
+          "name": "interface",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 20,
+            "end": 28,
+            "typeAnnotation": {
+              "type": "TSNumberKeyword",
+              "start": 22,
+              "end": 28
+            }
+          },
+          "decorators": [],
+          "optional": false
+        },
+        {
+          "type": "Identifier",
+          "start": 30,
+          "end": 39,
+          "name": "I",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 31,
+            "end": 39,
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 33,
+              "end": 39
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 41,
@@ -19,31 +68,31 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 47,
             "end": 56,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 47,
               "end": 56,
-              "decorators": [],
               "name": "interface",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 108,
             "end": 109,
-            "directive": null,
             "expression": {
               "type": "Identifier",
               "start": 108,
               "end": 109,
-              "decorators": [],
               "name": "I",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           },
           {
             "type": "BlockStatement",
@@ -54,57 +103,8 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 11,
-          "end": 28,
-          "decorators": [],
-          "name": "interface",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 20,
-            "end": 28,
-            "typeAnnotation": {
-              "type": "TSNumberKeyword",
-              "start": 22,
-              "end": 28
-            }
-          }
-        },
-        {
-          "type": "Identifier",
-          "start": 30,
-          "end": 39,
-          "decorators": [],
-          "name": "I",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 31,
-            "end": 39,
-            "typeAnnotation": {
-              "type": "TSStringKeyword",
-              "start": 33,
-              "end": 39
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 25,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 19,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 22,
@@ -22,24 +33,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 19,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "EmptyStatement",
@@ -62,7 +62,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 110,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 79,
+        "value": "externalModuleRefernceResolutionOrderInImportDeclaration_file1",
+        "raw": "\"externalModuleRefernceResolutionOrderInImportDeclaration_file1\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 80,
@@ -72,44 +78,38 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 86,
             "end": 108,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 93,
               "end": 108,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 102,
                 "end": 105,
-                "decorators": [],
                 "name": "bar",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "expression": false,
+              "generator": false,
+              "async": false,
               "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
+              "returnType": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 79,
-        "raw": "\"externalModuleRefernceResolutionOrderInImportDeclaration_file1\"",
-        "value": "externalModuleRefernceResolutionOrderInImportDeclaration_file1"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -131,12 +131,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 96,
         "end": 101,
-        "decorators": [],
         "name": "file1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 104,
@@ -145,88 +144,89 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 112,
           "end": 178,
-          "raw": "'./externalModuleRefernceResolutionOrderInImportDeclaration_file1'",
-          "value": "./externalModuleRefernceResolutionOrderInImportDeclaration_file1"
+          "value": "./externalModuleRefernceResolutionOrderInImportDeclaration_file1",
+          "raw": "'./externalModuleRefernceResolutionOrderInImportDeclaration_file1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 181,
       "end": 193,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 181,
         "end": 192,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 181,
           "end": 190,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 181,
             "end": 186,
-            "decorators": [],
             "name": "file1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 187,
             "end": 190,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 194,
       "end": 206,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 194,
         "end": 205,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 194,
           "end": 203,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 194,
             "end": 199,
-            "decorators": [],
             "name": "file1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 200,
             "end": 203,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

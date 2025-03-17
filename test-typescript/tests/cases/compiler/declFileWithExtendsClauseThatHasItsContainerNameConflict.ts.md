@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 44,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 21,
-        "end": 44,
-        "body": [
-          {
-            "type": "ClassDeclaration",
-            "start": 27,
-            "end": 42,
-            "abstract": false,
-            "body": {
-              "type": "ClassBody",
-              "start": 35,
-              "end": 42,
-              "body": []
-            },
-            "declare": false,
-            "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 33,
-              "end": 34,
-              "decorators": [],
-              "name": "B",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 15,
@@ -57,37 +21,96 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 15,
             "end": 16,
-            "decorators": [],
             "name": "A",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 17,
             "end": 18,
-            "decorators": [],
             "name": "B",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 19,
           "end": 20,
-          "decorators": [],
           "name": "C",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 21,
+        "end": 44,
+        "body": [
+          {
+            "type": "ClassDeclaration",
+            "start": 27,
+            "end": 42,
+            "id": {
+              "type": "Identifier",
+              "start": 33,
+              "end": 34,
+              "name": "B",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
+            "body": {
+              "type": "ClassBody",
+              "start": 35,
+              "end": 42,
+              "body": []
+            },
+            "decorators": [],
+            "typeParameters": null,
+            "implements": [],
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 46,
       "end": 119,
+      "id": {
+        "type": "TSQualifiedName",
+        "start": 53,
+        "end": 56,
+        "left": {
+          "type": "Identifier",
+          "start": 53,
+          "end": 54,
+          "name": "A",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 55,
+          "end": 56,
+          "name": "B",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 57,
@@ -97,12 +120,20 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 63,
             "end": 117,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 70,
               "end": 117,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 76,
+                "end": 88,
+                "name": "EventManager",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 89,
@@ -112,24 +143,24 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 99,
                     "end": 110,
-                    "accessibility": null,
+                    "static": false,
                     "computed": false,
-                    "declare": false,
-                    "decorators": [],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 99,
                       "end": 101,
-                      "decorators": [],
                       "name": "id",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
+                    "value": null,
+                    "decorators": [],
+                    "declare": false,
                     "override": false,
+                    "optional": false,
+                    "definite": false,
                     "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 101,
@@ -140,151 +171,32 @@ __ESTREE_TEST__:PASS:
                         "end": 109
                       }
                     },
-                    "value": null
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 76,
-                "end": 88,
-                "decorators": [],
-                "name": "EventManager",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "TSQualifiedName",
-        "start": 53,
-        "end": 56,
-        "left": {
-          "type": "Identifier",
-          "start": 53,
-          "end": 54,
-          "decorators": [],
-          "name": "A",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Identifier",
-          "start": 55,
-          "end": 56,
-          "decorators": [],
-          "name": "B",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 121,
       "end": 217,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 134,
-        "end": 217,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 140,
-            "end": 215,
-            "attributes": [],
-            "declaration": {
-              "type": "ClassDeclaration",
-              "start": 147,
-              "end": 215,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 186,
-                "end": 215,
-                "body": [
-                  {
-                    "type": "PropertyDefinition",
-                    "start": 196,
-                    "end": 209,
-                    "accessibility": null,
-                    "computed": false,
-                    "declare": false,
-                    "decorators": [],
-                    "definite": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 196,
-                      "end": 200,
-                      "decorators": [],
-                      "name": "name",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "override": false,
-                    "readonly": false,
-                    "static": false,
-                    "typeAnnotation": {
-                      "type": "TSTypeAnnotation",
-                      "start": 200,
-                      "end": 208,
-                      "typeAnnotation": {
-                        "type": "TSStringKeyword",
-                        "start": 202,
-                        "end": 208
-                      }
-                    },
-                    "value": null
-                  }
-                ]
-              },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 153,
-                "end": 164,
-                "decorators": [],
-                "name": "ContextMenu",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 173,
-                "end": 185,
-                "decorators": [],
-                "name": "EventManager",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 128,
@@ -297,32 +209,120 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 128,
             "end": 129,
-            "decorators": [],
             "name": "A",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 130,
             "end": 131,
-            "decorators": [],
             "name": "B",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 132,
           "end": 133,
-          "decorators": [],
           "name": "C",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 134,
+        "end": 217,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 140,
+            "end": 215,
+            "declaration": {
+              "type": "ClassDeclaration",
+              "start": 147,
+              "end": 215,
+              "id": {
+                "type": "Identifier",
+                "start": 153,
+                "end": 164,
+                "name": "ContextMenu",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 173,
+                "end": 185,
+                "name": "EventManager",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "body": {
+                "type": "ClassBody",
+                "start": 186,
+                "end": 215,
+                "body": [
+                  {
+                    "type": "PropertyDefinition",
+                    "start": 196,
+                    "end": 209,
+                    "static": false,
+                    "computed": false,
+                    "key": {
+                      "type": "Identifier",
+                      "start": 196,
+                      "end": 200,
+                      "name": "name",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "value": null,
+                    "decorators": [],
+                    "declare": false,
+                    "override": false,
+                    "optional": false,
+                    "definite": false,
+                    "readonly": false,
+                    "typeAnnotation": {
+                      "type": "TSTypeAnnotation",
+                      "start": 200,
+                      "end": 208,
+                      "typeAnnotation": {
+                        "type": "TSStringKeyword",
+                        "start": 202,
+                        "end": 208
+                      }
+                    },
+                    "accessibility": null
+                  }
+                ]
+              },
+              "decorators": [],
+              "typeParameters": null,
+              "implements": [],
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
+            },
+            "specifiers": [],
+            "source": null,
+            "attributes": [],
+            "exportKind": "value"
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

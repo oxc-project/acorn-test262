@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 141,
       "end": 192,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 156,
+        "end": 160,
+        "value": "js",
+        "raw": "\"js\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 161,
@@ -19,7 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 167,
             "end": 190,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 174,
@@ -29,14 +34,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 180,
                   "end": 189,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 180,
                     "end": 189,
-                    "decorators": [],
                     "name": "j",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 181,
@@ -46,39 +48,37 @@ __ESTREE_TEST__:PASS:
                         "start": 183,
                         "end": 189
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 156,
-        "end": 160,
-        "raw": "\"js\"",
-        "value": "js"
-      }
+      "global": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 193,
       "end": 203,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -96,16 +96,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 28,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 16,
         "end": 27,
-        "raw": "\"augmenter\"",
-        "value": "augmenter"
+        "value": "augmenter",
+        "raw": "\"augmenter\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

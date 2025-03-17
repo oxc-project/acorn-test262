@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 116,
       "end": 153,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 136,
-        "end": 152,
-        "raw": "\"@emotion/react\"",
-        "value": "@emotion/react"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -27,23 +18,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 125,
             "end": 128,
-            "decorators": [],
             "name": "css",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 125,
             "end": 128,
-            "decorators": [],
             "name": "css",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 136,
+        "end": 152,
+        "value": "@emotion/react",
+        "raw": "\"@emotion/react\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -53,7 +53,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 170,
         "end": 273,
+        "id": {
+          "type": "Identifier",
+          "start": 179,
+          "end": 188,
+          "name": "Component",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 191,
@@ -67,8 +79,6 @@ __ESTREE_TEST__:PASS:
                 "type": "JSXElement",
                 "start": 208,
                 "end": 266,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 208,
@@ -92,6 +102,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TaggedTemplateExpression",
                           "start": 226,
                           "end": 258,
+                          "tag": {
+                            "type": "Identifier",
+                            "start": 226,
+                            "end": 229,
+                            "name": "css",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
                           "quasi": {
                             "type": "TemplateLiteral",
                             "start": 229,
@@ -102,22 +121,13 @@ __ESTREE_TEST__:PASS:
                                 "type": "TemplateElement",
                                 "start": 229,
                                 "end": 258,
-                                "tail": true,
                                 "value": {
                                   "cooked": "\n        color: red;\n      ",
                                   "raw": "\n        color: red;\n      "
-                                }
+                                },
+                                "tail": true
                               }
                             ]
-                          },
-                          "tag": {
-                            "type": "Identifier",
-                            "start": 226,
-                            "end": 229,
-                            "decorators": [],
-                            "name": "css",
-                            "optional": false,
-                            "typeAnnotation": null
                           },
                           "typeArguments": null
                         }
@@ -132,26 +142,16 @@ __ESTREE_TEST__:PASS:
                   },
                   "selfClosing": true,
                   "typeArguments": null
-                }
+                },
+                "closingElement": null,
+                "children": []
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 179,
-          "end": 188,
-          "decorators": [],
-          "name": "Component",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     }

@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 25,
-            "decorators": [],
             "name": "rect2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 9,
@@ -30,18 +27,20 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 11,
                 "end": 25,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 11,
                   "end": 25,
-                  "decorators": [],
                   "name": "SVGRectElement",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSNonNullExpression",
@@ -51,48 +50,49 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 28,
               "end": 68,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 28,
+                "end": 50,
+                "object": {
+                  "type": "Identifier",
+                  "start": 28,
+                  "end": 36,
+                  "name": "document",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 37,
+                  "end": 50,
+                  "name": "querySelector",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 51,
                   "end": 67,
-                  "raw": "'.svg-rectangle'",
-                  "value": ".svg-rectangle"
+                  "value": ".svg-rectangle",
+                  "raw": "'.svg-rectangle'"
                 }
               ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 28,
-                "end": 50,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 28,
-                  "end": 36,
-                  "decorators": [],
-                  "name": "document",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 37,
-                  "end": 50,
-                  "decorators": [],
-                  "name": "querySelector",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
               "optional": false,
               "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

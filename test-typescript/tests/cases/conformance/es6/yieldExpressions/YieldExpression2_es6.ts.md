@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 10,
-      "directive": null,
       "expression": {
         "type": "YieldExpression",
         "start": 0,
         "end": 9,
+        "delegate": false,
         "argument": {
           "type": "Identifier",
           "start": 6,
           "end": 9,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "delegate": false
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

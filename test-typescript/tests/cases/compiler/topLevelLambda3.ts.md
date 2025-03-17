@@ -14,21 +14,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 8,
             "end": 28,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 14,
@@ -38,42 +41,39 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 15,
                   "end": 27,
-                  "directive": null,
                   "expression": {
                     "type": "MemberExpression",
                     "start": 15,
                     "end": 26,
-                    "computed": false,
                     "object": {
                       "type": "ThisExpression",
                       "start": 15,
                       "end": 19
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 20,
                       "end": 26,
-                      "decorators": [],
                       "name": "window",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "directive": null
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

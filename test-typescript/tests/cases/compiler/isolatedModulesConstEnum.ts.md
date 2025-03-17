@@ -9,6 +9,63 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 57,
+      "id": {
+        "type": "Identifier",
+        "start": 19,
+        "end": 28,
+        "name": "EventName",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 35,
+          "end": 42,
+          "id": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 38,
+            "name": "FOO",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 41,
+            "end": 42,
+            "value": 1,
+            "raw": "1"
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 48,
+          "end": 55,
+          "id": {
+            "type": "Identifier",
+            "start": 48,
+            "end": 51,
+            "name": "BAR",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 54,
+            "end": 55,
+            "value": 2,
+            "raw": "2"
+          },
+          "computed": false
+        }
+      ],
+      "const": true,
+      "declare": true,
       "body": {
         "type": "TSEnumBody",
         "start": 29,
@@ -18,74 +75,63 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 35,
             "end": 42,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 35,
               "end": 38,
-              "decorators": [],
               "name": "FOO",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 41,
               "end": 42,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 48,
             "end": 55,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 48,
               "end": 51,
-              "decorators": [],
               "name": "BAR",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 54,
               "end": 55,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": false
           }
         ]
-      },
-      "const": true,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 19,
-        "end": 28,
-        "decorators": [],
-        "name": "EventName",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 59,
       "end": 131,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 64,
         "end": 66,
-        "decorators": [],
         "name": "E1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 69,
@@ -95,36 +141,34 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 75,
             "end": 99,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
               "start": 76,
               "end": 89,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 76,
                 "end": 85,
-                "decorators": [],
                 "name": "EventName",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 86,
                 "end": 89,
-                "decorators": [],
                 "name": "FOO",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 90,
@@ -134,42 +178,42 @@ __ESTREE_TEST__:PASS:
                 "start": 92,
                 "end": 98
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 104,
             "end": 128,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
               "start": 105,
               "end": 118,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 105,
                 "end": 114,
-                "decorators": [],
                 "name": "EventName",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 115,
                 "end": 118,
-                "decorators": [],
                 "name": "BAR",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 119,
@@ -179,11 +223,13 @@ __ESTREE_TEST__:PASS:
                 "start": 121,
                 "end": 127
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "module",
@@ -201,16 +247,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 72,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 7,
-        "decorators": [],
         "name": "E2",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
         "start": 10,
@@ -220,36 +266,34 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 16,
             "end": 40,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
               "start": 17,
               "end": 30,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 17,
                 "end": 26,
-                "decorators": [],
                 "name": "EventName",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 27,
                 "end": 30,
-                "decorators": [],
                 "name": "FOO",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 31,
@@ -259,42 +303,42 @@ __ESTREE_TEST__:PASS:
                 "start": 33,
                 "end": 39
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           },
           {
             "type": "TSPropertySignature",
             "start": 45,
             "end": 69,
-            "accessibility": null,
             "computed": true,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "MemberExpression",
               "start": 46,
               "end": 59,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 46,
                 "end": 55,
-                "decorators": [],
                 "name": "EventName",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 56,
                 "end": 59,
-                "decorators": [],
                 "name": "BAR",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 60,
@@ -304,11 +348,13 @@ __ESTREE_TEST__:PASS:
                 "start": 62,
                 "end": 68
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "module",

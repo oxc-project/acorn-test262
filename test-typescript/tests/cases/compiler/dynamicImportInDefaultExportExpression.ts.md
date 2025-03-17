@@ -18,25 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 21,
             "end": 86,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 21,
               "end": 32,
-              "decorators": [],
               "name": "getInstance",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "FunctionExpression",
               "start": 34,
               "end": 86,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 46,
@@ -50,26 +52,24 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 63,
                       "end": 79,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 70,
                         "end": 78,
-                        "raw": "'./foo2'",
-                        "value": "./foo2"
-                      }
+                        "value": "./foo2",
+                        "raw": "'./foo2'"
+                      },
+                      "options": null
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },

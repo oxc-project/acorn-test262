@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 20,
           "end": 96,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
             "end": 96,
-            "decorators": [],
             "name": "iterableWithOptionalIterator",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 48,
@@ -35,37 +32,36 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 56,
                     "end": 94,
-                    "accessibility": null,
-                    "computed": true,
                     "key": {
                       "type": "MemberExpression",
                       "start": 57,
                       "end": 72,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 57,
                         "end": 63,
-                        "decorators": [],
                         "name": "Symbol",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 64,
                         "end": 72,
-                        "decorators": [],
                         "name": "iterator",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
                     },
-                    "kind": "method",
+                    "computed": true,
                     "optional": true,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 76,
@@ -74,6 +70,15 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 78,
                         "end": 94,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 78,
+                          "end": 86,
+                          "name": "Iterator",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
                         "typeArguments": {
                           "type": "TSTypeParameterInstantiation",
                           "start": 86,
@@ -85,42 +90,31 @@ __ESTREE_TEST__:PASS:
                               "end": 93
                             }
                           ]
-                        },
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 78,
-                          "end": 86,
-                          "decorators": [],
-                          "name": "Iterator",
-                          "optional": false,
-                          "typeAnnotation": null
                         }
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 99,
       "end": 146,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 143,
-        "end": 146,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 104,
@@ -130,30 +124,36 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 108,
             "end": 109,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 108,
               "end": 109,
-              "decorators": [],
               "name": "v",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "Identifier",
         "start": 113,
         "end": 141,
-        "decorators": [],
         "name": "iterableWithOptionalIterator",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 143,
+        "end": 146,
+        "body": []
       }
     }
   ],

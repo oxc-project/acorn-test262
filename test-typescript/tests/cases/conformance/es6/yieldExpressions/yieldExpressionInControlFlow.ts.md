@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 27,
       "end": 105,
+      "id": {
+        "type": "Identifier",
+        "start": 37,
+        "end": 38,
+        "name": "g",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 41,
@@ -24,31 +36,38 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 51,
                 "end": 57,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 51,
                   "end": 52,
-                  "decorators": [],
                   "name": "o",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "ArrayExpression",
                   "start": 55,
                   "end": 57,
                   "elements": []
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "WhileStatement",
             "start": 62,
             "end": 103,
+            "test": {
+              "type": "Literal",
+              "start": 69,
+              "end": 73,
+              "value": true,
+              "raw": "true"
+            },
             "body": {
               "type": "BlockStatement",
               "start": 75,
@@ -58,7 +77,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 85,
                   "end": 97,
-                  "directive": null,
                   "expression": {
                     "type": "AssignmentExpression",
                     "start": 85,
@@ -68,55 +86,37 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 85,
                       "end": 86,
-                      "decorators": [],
                       "name": "o",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "right": {
                       "type": "YieldExpression",
                       "start": 89,
                       "end": 97,
+                      "delegate": true,
                       "argument": {
                         "type": "Identifier",
                         "start": 96,
                         "end": 97,
-                        "decorators": [],
                         "name": "o",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "delegate": true
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
                     }
-                  }
+                  },
+                  "directive": null
                 }
               ]
-            },
-            "test": {
-              "type": "Literal",
-              "start": 69,
-              "end": 73,
-              "raw": "true",
-              "value": true
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 37,
-        "end": 38,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",

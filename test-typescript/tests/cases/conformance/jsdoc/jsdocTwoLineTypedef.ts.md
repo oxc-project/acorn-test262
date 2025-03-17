@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 79,
       "end": 104,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 84,
         "end": 96,
-        "decorators": [],
         "name": "LoadCallback",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSVoidKeyword",
         "start": 99,
         "end": 103
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

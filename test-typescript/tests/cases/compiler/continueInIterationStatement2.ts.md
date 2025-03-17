@@ -26,8 +26,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 26,
         "end": 30,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     }
   ],

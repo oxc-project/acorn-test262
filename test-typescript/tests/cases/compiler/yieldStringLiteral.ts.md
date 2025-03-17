@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 47,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 20,
+        "name": "yieldString",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 23,
@@ -19,38 +31,26 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 29,
             "end": 45,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 29,
               "end": 44,
+              "delegate": false,
               "argument": {
                 "type": "Literal",
                 "start": 35,
                 "end": 44,
-                "raw": "'literal'",
-                "value": "literal"
-              },
-              "delegate": false
-            }
+                "value": "literal",
+                "raw": "'literal'"
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 20,
-        "decorators": [],
-        "name": "yieldString",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

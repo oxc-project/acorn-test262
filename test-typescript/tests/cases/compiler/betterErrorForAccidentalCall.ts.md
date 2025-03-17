@@ -9,21 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 31,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 20,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 22,
@@ -33,28 +34,41 @@ __ESTREE_TEST__:PASS:
           "start": 24,
           "end": 30
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "ExpressionStatement",
       "start": 33,
       "end": 63,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 33,
         "end": 62,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 33,
           "end": 60,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 33,
             "end": 51,
+            "callee": {
+              "type": "CallExpression",
+              "start": 33,
+              "end": 38,
+              "callee": {
+                "type": "Identifier",
+                "start": 33,
+                "end": 36,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false,
+              "typeArguments": null
+            },
             "arguments": [
               {
                 "type": "TSAsExpression",
@@ -64,8 +78,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 39,
                   "end": 40,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -74,60 +88,60 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "callee": {
-              "type": "CallExpression",
-              "start": 33,
-              "end": 38,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 33,
-                "end": 36,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 52,
             "end": 60,
-            "decorators": [],
             "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 65,
       "end": 98,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 65,
         "end": 97,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 65,
           "end": 95,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 65,
             "end": 86,
+            "callee": {
+              "type": "CallExpression",
+              "start": 65,
+              "end": 70,
+              "callee": {
+                "type": "Identifier",
+                "start": 65,
+                "end": 68,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false,
+              "typeArguments": null
+            },
             "arguments": [
               {
                 "type": "TSAsExpression",
@@ -137,8 +151,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 74,
                   "end": 75,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -147,60 +161,60 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "callee": {
-              "type": "CallExpression",
-              "start": 65,
-              "end": 70,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 65,
-                "end": 68,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 87,
             "end": 95,
-            "decorators": [],
             "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 100,
       "end": 131,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 100,
         "end": 130,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 100,
           "end": 128,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 100,
             "end": 119,
+            "callee": {
+              "type": "CallExpression",
+              "start": 100,
+              "end": 105,
+              "callee": {
+                "type": "Identifier",
+                "start": 100,
+                "end": 103,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false,
+              "typeArguments": null
+            },
             "arguments": [
               {
                 "type": "TSAsExpression",
@@ -210,8 +224,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 107,
                   "end": 108,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -220,136 +234,136 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "callee": {
-              "type": "CallExpression",
-              "start": 100,
-              "end": 105,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 100,
-                "end": 103,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 120,
             "end": 128,
-            "decorators": [],
             "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 133,
       "end": 162,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 133,
         "end": 161,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 133,
           "end": 159,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 133,
             "end": 150,
+            "callee": {
+              "type": "CallExpression",
+              "start": 133,
+              "end": 138,
+              "callee": {
+                "type": "Identifier",
+                "start": 133,
+                "end": 136,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false,
+              "typeArguments": null
+            },
             "arguments": [
               {
                 "type": "BinaryExpression",
                 "start": 144,
                 "end": 149,
-                "operator": "+",
                 "left": {
                   "type": "Literal",
                   "start": 144,
                   "end": 145,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
+                "operator": "+",
                 "right": {
                   "type": "Literal",
                   "start": 148,
                   "end": 149,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               }
             ],
-            "callee": {
-              "type": "CallExpression",
-              "start": 133,
-              "end": 138,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 133,
-                "end": 136,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 151,
             "end": 159,
-            "decorators": [],
             "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 164,
       "end": 197,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 164,
         "end": 196,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 164,
           "end": 194,
-          "computed": false,
           "object": {
             "type": "CallExpression",
             "start": 164,
             "end": 185,
+            "callee": {
+              "type": "CallExpression",
+              "start": 164,
+              "end": 169,
+              "callee": {
+                "type": "Identifier",
+                "start": 164,
+                "end": 167,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "optional": false,
+              "typeArguments": null
+            },
             "arguments": [
               {
                 "type": "TSTypeAssertion",
@@ -359,8 +373,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 183,
                   "end": 184,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 },
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
@@ -369,40 +383,26 @@ __ESTREE_TEST__:PASS:
                 }
               }
             ],
-            "callee": {
-              "type": "CallExpression",
-              "start": 164,
-              "end": 169,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 164,
-                "end": 167,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "typeArguments": null
-            },
             "optional": false,
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 186,
             "end": 194,
-            "decorators": [],
             "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

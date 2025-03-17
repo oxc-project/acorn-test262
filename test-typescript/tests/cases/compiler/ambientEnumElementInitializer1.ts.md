@@ -9,6 +9,41 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 25,
+      "id": {
+        "type": "Identifier",
+        "start": 13,
+        "end": 14,
+        "name": "E",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 18,
+          "end": 23,
+          "id": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 19,
+            "name": "e",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 22,
+            "end": 23,
+            "value": 3,
+            "raw": "3"
+          },
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": true,
       "body": {
         "type": "TSEnumBody",
         "start": 15,
@@ -18,36 +53,25 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 18,
             "end": 23,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 18,
               "end": 19,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 22,
               "end": 23,
-              "raw": "3",
-              "value": 3
-            }
+              "value": 3,
+              "raw": "3"
+            },
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 13,
-        "end": 14,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

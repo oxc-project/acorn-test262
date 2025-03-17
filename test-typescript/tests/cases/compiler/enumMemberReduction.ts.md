@@ -9,6 +9,67 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 30,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 11,
+        "name": "MyEnum",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 16,
+          "end": 17,
+          "id": {
+            "type": "Identifier",
+            "start": 16,
+            "end": 17,
+            "name": "A",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 21,
+          "end": 22,
+          "id": {
+            "type": "Identifier",
+            "start": 21,
+            "end": 22,
+            "name": "B",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 26,
+          "end": 27,
+          "id": {
+            "type": "Identifier",
+            "start": 26,
+            "end": 27,
+            "name": "C",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 12,
@@ -18,68 +79,136 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 16,
             "end": 17,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 16,
               "end": 17,
-              "decorators": [],
               "name": "A",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 21,
             "end": 22,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 22,
-              "decorators": [],
               "name": "B",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 26,
             "end": 27,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 26,
               "end": 27,
-              "decorators": [],
               "name": "C",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 11,
-        "decorators": [],
-        "name": "MyEnum",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "TSEnumDeclaration",
       "start": 32,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 37,
+        "end": 49,
+        "name": "MyStringEnum",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 54,
+          "end": 61,
+          "id": {
+            "type": "Identifier",
+            "start": 54,
+            "end": 55,
+            "name": "A",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 58,
+            "end": 61,
+            "value": "a",
+            "raw": "\"a\""
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 65,
+          "end": 72,
+          "id": {
+            "type": "Identifier",
+            "start": 65,
+            "end": 66,
+            "name": "B",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 69,
+            "end": 72,
+            "value": "b",
+            "raw": "\"b\""
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 76,
+          "end": 83,
+          "id": {
+            "type": "Identifier",
+            "start": 76,
+            "end": 77,
+            "name": "C",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 80,
+            "end": 83,
+            "value": "c",
+            "raw": "\"c\""
+          },
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 50,
@@ -89,86 +218,154 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 54,
             "end": 61,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 54,
               "end": 55,
-              "decorators": [],
               "name": "A",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 58,
               "end": 61,
-              "raw": "\"a\"",
-              "value": "a"
-            }
+              "value": "a",
+              "raw": "\"a\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 65,
             "end": 72,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 65,
               "end": 66,
-              "decorators": [],
               "name": "B",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 69,
               "end": 72,
-              "raw": "\"b\"",
-              "value": "b"
-            }
+              "value": "b",
+              "raw": "\"b\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 76,
             "end": 83,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 76,
               "end": 77,
-              "decorators": [],
               "name": "C",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 80,
               "end": 83,
-              "raw": "\"c\"",
-              "value": "c"
-            }
+              "value": "c",
+              "raw": "\"c\""
+            },
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 37,
-        "end": 49,
-        "decorators": [],
-        "name": "MyStringEnum",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "TSEnumDeclaration",
       "start": 88,
       "end": 150,
+      "id": {
+        "type": "Identifier",
+        "start": 93,
+        "end": 114,
+        "name": "MyStringEnumWithEmpty",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 119,
+          "end": 125,
+          "id": {
+            "type": "Identifier",
+            "start": 119,
+            "end": 120,
+            "name": "A",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 123,
+            "end": 125,
+            "value": "",
+            "raw": "\"\""
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 129,
+          "end": 136,
+          "id": {
+            "type": "Identifier",
+            "start": 129,
+            "end": 130,
+            "name": "B",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 133,
+            "end": 136,
+            "value": "b",
+            "raw": "\"b\""
+          },
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 140,
+          "end": 147,
+          "id": {
+            "type": "Identifier",
+            "start": 140,
+            "end": 141,
+            "name": "C",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 144,
+            "end": 147,
+            "value": "c",
+            "raw": "\"c\""
+          },
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 115,
@@ -178,164 +375,97 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 119,
             "end": 125,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 119,
               "end": 120,
-              "decorators": [],
               "name": "A",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 123,
               "end": 125,
-              "raw": "\"\"",
-              "value": ""
-            }
+              "value": "",
+              "raw": "\"\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 129,
             "end": 136,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 129,
               "end": 130,
-              "decorators": [],
               "name": "B",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 133,
               "end": 136,
-              "raw": "\"b\"",
-              "value": "b"
-            }
+              "value": "b",
+              "raw": "\"b\""
+            },
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 140,
             "end": 147,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 140,
               "end": 141,
-              "decorators": [],
               "name": "C",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 144,
               "end": 147,
-              "raw": "\"c\"",
-              "value": "c"
-            }
+              "value": "c",
+              "raw": "\"c\""
+            },
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 93,
-        "end": 114,
-        "decorators": [],
-        "name": "MyStringEnumWithEmpty",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 152,
       "end": 243,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 159,
         "end": 243,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 205,
-          "end": 243,
-          "body": [
-            {
-              "type": "ReturnStatement",
-              "start": 209,
-              "end": 241,
-              "argument": {
-                "type": "LogicalExpression",
-                "start": 216,
-                "end": 240,
-                "operator": "??",
-                "left": {
-                  "type": "Identifier",
-                  "start": 216,
-                  "end": 228,
-                  "decorators": [],
-                  "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "right": {
-                  "type": "MemberExpression",
-                  "start": 232,
-                  "end": 240,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 232,
-                    "end": 238,
-                    "decorators": [],
-                    "name": "MyEnum",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 239,
-                    "end": 240,
-                    "decorators": [],
-                    "name": "A",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 168,
           "end": 170,
-          "decorators": [],
           "name": "fn",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 171,
             "end": 203,
-            "decorators": [],
             "name": "optionalEnum",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 183,
@@ -349,16 +479,16 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 185,
                     "end": 191,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 185,
                       "end": 191,
-                      "decorators": [],
                       "name": "MyEnum",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSUndefinedKeyword",
@@ -367,98 +497,98 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 245,
-      "end": 337,
-      "attributes": [],
-      "declaration": {
-        "type": "FunctionDeclaration",
-        "start": 252,
-        "end": 337,
-        "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 299,
-          "end": 337,
+          "start": 205,
+          "end": 243,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 303,
-              "end": 335,
+              "start": 209,
+              "end": 241,
               "argument": {
                 "type": "LogicalExpression",
-                "start": 310,
-                "end": 334,
-                "operator": "||",
+                "start": 216,
+                "end": 240,
                 "left": {
                   "type": "Identifier",
-                  "start": 310,
-                  "end": 322,
-                  "decorators": [],
+                  "start": 216,
+                  "end": 228,
                   "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "??",
                 "right": {
                   "type": "MemberExpression",
-                  "start": 326,
-                  "end": 334,
-                  "computed": false,
+                  "start": 232,
+                  "end": 240,
                   "object": {
                     "type": "Identifier",
-                    "start": 326,
-                    "end": 332,
-                    "decorators": [],
+                    "start": 232,
+                    "end": 238,
                     "name": "MyEnum",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 333,
-                    "end": 334,
+                    "start": 239,
+                    "end": 240,
+                    "name": "A",
+                    "typeAnnotation": null,
                     "decorators": [],
-                    "name": "B",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
+        "typeParameters": null,
+        "returnType": null
+      },
+      "specifiers": [],
+      "source": null,
+      "attributes": [],
+      "exportKind": "value"
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 245,
+      "end": 337,
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "start": 252,
+        "end": 337,
         "id": {
           "type": "Identifier",
           "start": 261,
           "end": 264,
-          "decorators": [],
           "name": "fn2",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 265,
             "end": 297,
-            "decorators": [],
             "name": "optionalEnum",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 277,
@@ -472,16 +602,16 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 279,
                     "end": 285,
-                    "typeArguments": null,
                     "typeName": {
                       "type": "Identifier",
                       "start": 279,
                       "end": 285,
-                      "decorators": [],
                       "name": "MyEnum",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeArguments": null
                   },
                   {
                     "type": "TSUndefinedKeyword",
@@ -490,26 +620,122 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 299,
+          "end": 337,
+          "body": [
+            {
+              "type": "ReturnStatement",
+              "start": 303,
+              "end": 335,
+              "argument": {
+                "type": "LogicalExpression",
+                "start": 310,
+                "end": 334,
+                "left": {
+                  "type": "Identifier",
+                  "start": 310,
+                  "end": 322,
+                  "name": "optionalEnum",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "operator": "||",
+                "right": {
+                  "type": "MemberExpression",
+                  "start": 326,
+                  "end": 334,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 326,
+                    "end": 332,
+                    "name": "MyEnum",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 334,
+                    "name": "B",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                }
+              }
+            }
+          ]
+        },
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 339,
       "end": 420,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 346,
         "end": 420,
+        "id": {
+          "type": "Identifier",
+          "start": 355,
+          "end": 358,
+          "name": "fn3",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 359,
+            "end": 380,
+            "name": "optionalEnum",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 372,
+              "end": 380,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 374,
+                "end": 380,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 374,
+                  "end": 380,
+                  "name": "MyEnum",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": true
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 382,
@@ -523,104 +749,104 @@ __ESTREE_TEST__:PASS:
                 "type": "LogicalExpression",
                 "start": 393,
                 "end": 417,
-                "operator": "??",
                 "left": {
                   "type": "Identifier",
                   "start": 393,
                   "end": 405,
-                  "decorators": [],
                   "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "??",
                 "right": {
                   "type": "MemberExpression",
                   "start": 409,
                   "end": 417,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 409,
                     "end": 415,
-                    "decorators": [],
                     "name": "MyEnum",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 416,
                     "end": 417,
-                    "decorators": [],
                     "name": "A",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 355,
-          "end": 358,
-          "decorators": [],
-          "name": "fn3",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 359,
-            "end": 380,
-            "decorators": [],
-            "name": "optionalEnum",
-            "optional": true,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 372,
-              "end": 380,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 374,
-                "end": 380,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 374,
-                  "end": 380,
-                  "decorators": [],
-                  "name": "MyEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 422,
       "end": 503,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 429,
         "end": 503,
+        "id": {
+          "type": "Identifier",
+          "start": 438,
+          "end": 441,
+          "name": "fn4",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 442,
+            "end": 463,
+            "name": "optionalEnum",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 455,
+              "end": 463,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 457,
+                "end": 463,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 457,
+                  "end": 463,
+                  "name": "MyEnum",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": true
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 465,
@@ -634,104 +860,104 @@ __ESTREE_TEST__:PASS:
                 "type": "LogicalExpression",
                 "start": 476,
                 "end": 500,
-                "operator": "||",
                 "left": {
                   "type": "Identifier",
                   "start": 476,
                   "end": 488,
-                  "decorators": [],
                   "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
                   "start": 492,
                   "end": 500,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 492,
                     "end": 498,
-                    "decorators": [],
                     "name": "MyEnum",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 499,
                     "end": 500,
-                    "decorators": [],
                     "name": "B",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 438,
-          "end": 441,
-          "decorators": [],
-          "name": "fn4",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 442,
-            "end": 463,
-            "decorators": [],
-            "name": "optionalEnum",
-            "optional": true,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 455,
-              "end": 463,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 457,
-                "end": 463,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 457,
-                  "end": 463,
-                  "decorators": [],
-                  "name": "MyEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 505,
       "end": 598,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 512,
         "end": 598,
+        "id": {
+          "type": "Identifier",
+          "start": 521,
+          "end": 524,
+          "name": "fn5",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 525,
+            "end": 552,
+            "name": "optionalEnum",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 538,
+              "end": 552,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 540,
+                "end": 552,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 540,
+                  "end": 552,
+                  "name": "MyStringEnum",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": true
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 554,
@@ -745,104 +971,104 @@ __ESTREE_TEST__:PASS:
                 "type": "LogicalExpression",
                 "start": 565,
                 "end": 595,
-                "operator": "||",
                 "left": {
                   "type": "Identifier",
                   "start": 565,
                   "end": 577,
-                  "decorators": [],
                   "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
                   "start": 581,
                   "end": 595,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 581,
                     "end": 593,
-                    "decorators": [],
                     "name": "MyStringEnum",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 594,
                     "end": 595,
-                    "decorators": [],
                     "name": "B",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 521,
-          "end": 524,
-          "decorators": [],
-          "name": "fn5",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 525,
-            "end": 552,
-            "decorators": [],
-            "name": "optionalEnum",
-            "optional": true,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 538,
-              "end": 552,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 540,
-                "end": 552,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 540,
-                  "end": 552,
-                  "decorators": [],
-                  "name": "MyStringEnum",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 600,
       "end": 711,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 607,
         "end": 711,
+        "id": {
+          "type": "Identifier",
+          "start": 616,
+          "end": 619,
+          "name": "fn6",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 620,
+            "end": 656,
+            "name": "optionalEnum",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 633,
+              "end": 656,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 635,
+                "end": 656,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 635,
+                  "end": 656,
+                  "name": "MyStringEnumWithEmpty",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": true
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 658,
@@ -856,93 +1082,53 @@ __ESTREE_TEST__:PASS:
                 "type": "LogicalExpression",
                 "start": 669,
                 "end": 708,
-                "operator": "||",
                 "left": {
                   "type": "Identifier",
                   "start": 669,
                   "end": 681,
-                  "decorators": [],
                   "name": "optionalEnum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "||",
                 "right": {
                   "type": "MemberExpression",
                   "start": 685,
                   "end": 708,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 685,
                     "end": 706,
-                    "decorators": [],
                     "name": "MyStringEnumWithEmpty",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 707,
                     "end": 708,
-                    "decorators": [],
                     "name": "B",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 616,
-          "end": 619,
-          "decorators": [],
-          "name": "fn6",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 620,
-            "end": 656,
-            "decorators": [],
-            "name": "optionalEnum",
-            "optional": true,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 633,
-              "end": 656,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 635,
-                "end": 656,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 635,
-                  "end": 656,
-                  "decorators": [],
-                  "name": "MyStringEnumWithEmpty",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

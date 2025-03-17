@@ -9,38 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 21,
       "end": 76,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 73,
-        "end": 76,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 30,
         "end": 33,
-        "decorators": [],
         "name": "fn1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "AssignmentPattern",
           "start": 34,
           "end": 71,
-          "decorators": [],
           "left": {
             "type": "Identifier",
             "start": 34,
             "end": 55,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 35,
@@ -62,94 +52,94 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "right": {
             "type": "ConditionalExpression",
             "start": 58,
             "end": 71,
-            "alternate": {
-              "type": "Literal",
-              "start": 70,
-              "end": 71,
-              "raw": "0",
-              "value": 0
+            "test": {
+              "type": "BinaryExpression",
+              "start": 58,
+              "end": 63,
+              "left": {
+                "type": "Identifier",
+                "start": 58,
+                "end": 59,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "operator": ">",
+              "right": {
+                "type": "Literal",
+                "start": 62,
+                "end": 63,
+                "value": 0,
+                "raw": "0"
+              }
             },
             "consequent": {
               "type": "Identifier",
               "start": 66,
               "end": 67,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "test": {
-              "type": "BinaryExpression",
-              "start": 58,
-              "end": 63,
-              "operator": ">",
-              "left": {
-                "type": "Identifier",
-                "start": 58,
-                "end": 59,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "right": {
-                "type": "Literal",
-                "start": 62,
-                "end": 63,
-                "raw": "0",
-                "value": 0
-              }
+            "alternate": {
+              "type": "Literal",
+              "start": 70,
+              "end": 71,
+              "value": 0,
+              "raw": "0"
             }
           },
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 73,
+        "end": 76,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 98,
       "end": 157,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 154,
-        "end": 157,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 107,
         "end": 110,
-        "decorators": [],
         "name": "fn2",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "AssignmentPattern",
           "start": 111,
           "end": 152,
-          "decorators": [],
           "left": {
             "type": "Identifier",
             "start": 111,
             "end": 121,
-            "decorators": [],
             "name": "x",
-            "optional": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 113,
@@ -159,44 +149,54 @@ __ESTREE_TEST__:PASS:
                 "start": 115,
                 "end": 121
               }
-            }
+            },
+            "decorators": [],
+            "optional": true
           },
-          "optional": false,
           "right": {
             "type": "ConditionalExpression",
             "start": 124,
             "end": 152,
-            "alternate": {
+            "test": {
               "type": "Identifier",
-              "start": 151,
-              "end": 152,
+              "start": 124,
+              "end": 137,
+              "name": "someCondition",
+              "typeAnnotation": null,
               "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "optional": false
             },
             "consequent": {
               "type": "Literal",
               "start": 140,
               "end": 148,
-              "raw": "'value1'",
-              "value": "value1"
+              "value": "value1",
+              "raw": "'value1'"
             },
-            "test": {
+            "alternate": {
               "type": "Identifier",
-              "start": 124,
-              "end": 137,
+              "start": 151,
+              "end": 152,
+              "name": "x",
+              "typeAnnotation": null,
               "decorators": [],
-              "name": "someCondition",
-              "optional": false,
-              "typeAnnotation": null
+              "optional": false
             }
           },
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 154,
+        "end": 157,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

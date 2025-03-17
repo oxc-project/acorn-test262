@@ -9,34 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 14,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 13,
+        "callee": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "f",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "CallExpression",
             "start": 2,
             "end": 12,
+            "callee": {
+              "type": "Identifier",
+              "start": 2,
+              "end": 3,
+              "name": "g",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 10,
                 "end": 11,
-                "raw": "7",
-                "value": 7
+                "value": 7,
+                "raw": "7"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 2,
-              "end": 3,
-              "decorators": [],
-              "name": "g",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
@@ -47,48 +55,40 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 4,
                   "end": 5,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 4,
                     "end": 5,
-                    "decorators": [],
                     "name": "A",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 },
                 {
                   "type": "TSTypeReference",
                   "start": 7,
                   "end": 8,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 7,
                     "end": 8,
-                    "decorators": [],
                     "name": "B",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
               ]
             }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

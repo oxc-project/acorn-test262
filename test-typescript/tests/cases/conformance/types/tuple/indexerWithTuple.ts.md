@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 34,
-            "decorators": [],
             "name": "strNumTuple",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 16,
@@ -43,7 +40,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -54,22 +53,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 38,
                 "end": 43,
-                "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               },
               {
                 "type": "Literal",
                 "start": 45,
                 "end": 47,
-                "raw": "10",
-                "value": 10
+                "value": 10,
+                "raw": "10"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -80,14 +80,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 54,
           "end": 115,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 54,
             "end": 95,
-            "decorators": [],
             "name": "numTupleTuple",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 67,
@@ -121,7 +118,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -132,8 +131,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 99,
                 "end": 101,
-                "raw": "10",
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "ArrayExpression",
@@ -144,24 +143,25 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 104,
                     "end": 109,
-                    "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "raw": "\"bar\""
                   },
                   {
                     "type": "Literal",
                     "start": 111,
                     "end": 113,
-                    "raw": "20",
-                    "value": 20
+                    "value": 20,
+                    "raw": "20"
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -172,14 +172,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 121,
           "end": 172,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 121,
             "end": 158,
-            "decorators": [],
             "name": "unionTuple1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 132,
@@ -213,7 +210,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -224,22 +223,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 162,
                 "end": 164,
-                "raw": "10",
-                "value": 10
+                "value": 10,
+                "raw": "10"
               },
               {
                 "type": "Literal",
                 "start": 166,
                 "end": 171,
-                "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -250,14 +250,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 178,
           "end": 232,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 178,
             "end": 216,
-            "decorators": [],
             "name": "unionTuple2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 189,
@@ -291,7 +288,9 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -302,22 +301,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 220,
                 "end": 224,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               },
               {
                 "type": "Literal",
                 "start": 226,
                 "end": 231,
-                "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -328,27 +328,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 251,
           "end": 259,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 251,
             "end": 255,
-            "decorators": [],
             "name": "idx0",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 258,
             "end": 259,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -359,27 +359,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 265,
           "end": 273,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 265,
             "end": 269,
-            "decorators": [],
             "name": "idx1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 272,
             "end": 273,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -390,43 +390,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 279,
           "end": 301,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 279,
             "end": 284,
-            "decorators": [],
             "name": "ele10",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 287,
             "end": 301,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 287,
               "end": 298,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 299,
               "end": 300,
-              "raw": "0",
-              "value": 0
-            }
-          }
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -437,43 +437,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 317,
           "end": 339,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 317,
             "end": 322,
-            "decorators": [],
             "name": "ele11",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 325,
             "end": 339,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 325,
               "end": 336,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 337,
               "end": 338,
-              "raw": "1",
-              "value": 1
-            }
-          }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -484,43 +484,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 355,
           "end": 377,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 355,
             "end": 360,
-            "decorators": [],
             "name": "ele12",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 363,
             "end": 377,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 363,
               "end": 374,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 375,
               "end": 376,
-              "raw": "2",
-              "value": 2
-            }
-          }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -531,45 +531,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 402,
           "end": 427,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 402,
             "end": 407,
-            "decorators": [],
             "name": "ele13",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 410,
             "end": 427,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 410,
               "end": 421,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 422,
               "end": 426,
-              "decorators": [],
               "name": "idx0",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -580,45 +580,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 452,
           "end": 477,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 452,
             "end": 457,
-            "decorators": [],
             "name": "ele14",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 460,
             "end": 477,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 460,
               "end": 471,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 472,
               "end": 476,
-              "decorators": [],
               "name": "idx1",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -629,43 +629,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 502,
           "end": 526,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 502,
             "end": 507,
-            "decorators": [],
             "name": "ele15",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 510,
             "end": 526,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 510,
               "end": 521,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 522,
               "end": 525,
-              "raw": "\"0\"",
-              "value": "0"
-            }
-          }
+              "value": "0",
+              "raw": "\"0\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -676,43 +676,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 542,
           "end": 566,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 542,
             "end": 547,
-            "decorators": [],
             "name": "ele16",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 550,
             "end": 566,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 550,
               "end": 561,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 562,
               "end": 565,
-              "raw": "\"1\"",
-              "value": "1"
-            }
-          }
+              "value": "1",
+              "raw": "\"1\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -723,43 +723,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 582,
           "end": 613,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 582,
             "end": 594,
-            "decorators": [],
             "name": "strNumTuple1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 597,
             "end": 613,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 597,
               "end": 610,
-              "decorators": [],
               "name": "numTupleTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 611,
               "end": 612,
-              "raw": "1",
-              "value": 1
-            }
-          }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -770,43 +770,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 640,
           "end": 664,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 640,
             "end": 645,
-            "decorators": [],
             "name": "ele17",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 648,
             "end": 664,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 648,
               "end": 661,
-              "decorators": [],
               "name": "numTupleTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 662,
               "end": 663,
-              "raw": "2",
-              "value": 2
-            }
-          }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -817,50 +817,50 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 699,
           "end": 722,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 699,
             "end": 704,
-            "decorators": [],
             "name": "ele19",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 707,
             "end": 722,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 707,
               "end": 718,
-              "decorators": [],
               "name": "strNumTuple",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "UnaryExpression",
               "start": 719,
               "end": 721,
+              "operator": "-",
+              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 720,
                 "end": 721,
-                "raw": "1",
-                "value": 1
-              },
-              "operator": "-",
-              "prefix": true
-            }
-          }
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -871,43 +871,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 743,
           "end": 770,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 743,
             "end": 753,
-            "decorators": [],
             "name": "eleUnion10",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 756,
             "end": 770,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 756,
               "end": 767,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 768,
               "end": 769,
-              "raw": "0",
-              "value": 0
-            }
-          }
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -918,43 +918,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 786,
           "end": 813,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 786,
             "end": 796,
-            "decorators": [],
             "name": "eleUnion11",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 799,
             "end": 813,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 799,
               "end": 810,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 811,
               "end": 812,
-              "raw": "1",
-              "value": 1
-            }
-          }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -965,43 +965,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 838,
           "end": 865,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 838,
             "end": 848,
-            "decorators": [],
             "name": "eleUnion12",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 851,
             "end": 865,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 851,
               "end": 862,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 863,
               "end": 864,
-              "raw": "2",
-              "value": 2
-            }
-          }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1012,45 +1012,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 890,
           "end": 920,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 890,
             "end": 900,
-            "decorators": [],
             "name": "eleUnion13",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 903,
             "end": 920,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 903,
               "end": 914,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 915,
               "end": 919,
-              "decorators": [],
               "name": "idx0",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1061,45 +1061,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 945,
           "end": 975,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 945,
             "end": 955,
-            "decorators": [],
             "name": "eleUnion14",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 958,
             "end": 975,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 958,
               "end": 969,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 970,
               "end": 974,
-              "decorators": [],
               "name": "idx1",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1110,43 +1110,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1000,
           "end": 1029,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1000,
             "end": 1010,
-            "decorators": [],
             "name": "eleUnion15",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1013,
             "end": 1029,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1013,
               "end": 1024,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1025,
               "end": 1028,
-              "raw": "\"0\"",
-              "value": "0"
-            }
-          }
+              "value": "0",
+              "raw": "\"0\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1157,43 +1157,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1045,
           "end": 1074,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1045,
             "end": 1055,
-            "decorators": [],
             "name": "eleUnion16",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1058,
             "end": 1074,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1058,
               "end": 1069,
-              "decorators": [],
               "name": "unionTuple1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1070,
               "end": 1073,
-              "raw": "\"1\"",
-              "value": "1"
-            }
-          }
+              "value": "1",
+              "raw": "\"1\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1204,43 +1204,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1100,
           "end": 1127,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1100,
             "end": 1110,
-            "decorators": [],
             "name": "eleUnion20",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1113,
             "end": 1127,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1113,
               "end": 1124,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1125,
               "end": 1126,
-              "raw": "0",
-              "value": 0
-            }
-          }
+              "value": 0,
+              "raw": "0"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1251,43 +1251,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1144,
           "end": 1171,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1144,
             "end": 1154,
-            "decorators": [],
             "name": "eleUnion21",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1157,
             "end": 1171,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1157,
               "end": 1168,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1169,
               "end": 1170,
-              "raw": "1",
-              "value": 1
-            }
-          }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1298,43 +1298,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1196,
           "end": 1223,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1196,
             "end": 1206,
-            "decorators": [],
             "name": "eleUnion22",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1209,
             "end": 1223,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1209,
               "end": 1220,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1221,
               "end": 1222,
-              "raw": "2",
-              "value": 2
-            }
-          }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1345,45 +1345,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1258,
           "end": 1288,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1258,
             "end": 1268,
-            "decorators": [],
             "name": "eleUnion23",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1271,
             "end": 1288,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1271,
               "end": 1282,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 1283,
               "end": 1287,
-              "decorators": [],
               "name": "idx0",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1394,45 +1394,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1323,
           "end": 1353,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1323,
             "end": 1333,
-            "decorators": [],
             "name": "eleUnion24",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1336,
             "end": 1353,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1336,
               "end": 1347,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 1348,
               "end": 1352,
-              "decorators": [],
               "name": "idx1",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1443,43 +1443,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1388,
           "end": 1417,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1388,
             "end": 1398,
-            "decorators": [],
             "name": "eleUnion25",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1401,
             "end": 1417,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1401,
               "end": 1412,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1413,
               "end": 1416,
-              "raw": "\"0\"",
-              "value": "0"
-            }
-          }
+              "value": "0",
+              "raw": "\"0\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1490,74 +1490,62 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1434,
           "end": 1463,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1434,
             "end": 1444,
-            "decorators": [],
             "name": "eleUnion26",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 1447,
             "end": 1463,
-            "computed": true,
             "object": {
               "type": "Identifier",
               "start": 1447,
               "end": 1458,
-              "decorators": [],
               "name": "unionTuple2",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Literal",
               "start": 1459,
               "end": 1462,
-              "raw": "\"1\"",
-              "value": "1"
-            }
-          }
+              "value": "1",
+              "raw": "\"1\""
+            },
+            "computed": true,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 1485,
       "end": 1515,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 1490,
         "end": 1492,
-        "decorators": [],
         "name": "t1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
         "start": 1495,
         "end": 1514,
-        "indexType": {
-          "type": "TSLiteralType",
-          "start": 1512,
-          "end": 1513,
-          "literal": {
-            "type": "Literal",
-            "start": 1512,
-            "end": 1513,
-            "raw": "0",
-            "value": 0
-          }
-        },
         "objectType": {
           "type": "TSTupleType",
           "start": 1495,
@@ -1574,40 +1562,40 @@ __ESTREE_TEST__:PASS:
               "end": 1510
             }
           ]
+        },
+        "indexType": {
+          "type": "TSLiteralType",
+          "start": 1512,
+          "end": 1513,
+          "literal": {
+            "type": "Literal",
+            "start": 1512,
+            "end": 1513,
+            "value": 0,
+            "raw": "0"
+          }
         }
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 1527,
       "end": 1557,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 1532,
         "end": 1534,
-        "decorators": [],
         "name": "t2",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
         "start": 1537,
         "end": 1556,
-        "indexType": {
-          "type": "TSLiteralType",
-          "start": 1554,
-          "end": 1555,
-          "literal": {
-            "type": "Literal",
-            "start": 1554,
-            "end": 1555,
-            "raw": "1",
-            "value": 1
-          }
-        },
         "objectType": {
           "type": "TSTupleType",
           "start": 1537,
@@ -1624,47 +1612,40 @@ __ESTREE_TEST__:PASS:
               "end": 1552
             }
           ]
+        },
+        "indexType": {
+          "type": "TSLiteralType",
+          "start": 1554,
+          "end": 1555,
+          "literal": {
+            "type": "Literal",
+            "start": 1554,
+            "end": 1555,
+            "value": 1,
+            "raw": "1"
+          }
         }
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 1569,
       "end": 1600,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 1574,
         "end": 1576,
-        "decorators": [],
         "name": "t3",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSIndexedAccessType",
         "start": 1579,
         "end": 1599,
-        "indexType": {
-          "type": "TSLiteralType",
-          "start": 1596,
-          "end": 1598,
-          "literal": {
-            "type": "UnaryExpression",
-            "start": 1596,
-            "end": 1598,
-            "argument": {
-              "type": "Literal",
-              "start": 1597,
-              "end": 1598,
-              "raw": "1",
-              "value": 1
-            },
-            "operator": "-",
-            "prefix": true
-          }
-        },
         "objectType": {
           "type": "TSTupleType",
           "start": 1579,
@@ -1681,9 +1662,28 @@ __ESTREE_TEST__:PASS:
               "end": 1594
             }
           ]
+        },
+        "indexType": {
+          "type": "TSLiteralType",
+          "start": 1596,
+          "end": 1598,
+          "literal": {
+            "type": "UnaryExpression",
+            "start": 1596,
+            "end": 1598,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 1597,
+              "end": 1598,
+              "value": 1,
+              "raw": "1"
+            }
+          }
         }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,71 +9,71 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 27,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 26,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 0,
+          "end": 16,
+          "object": {
+            "type": "MemberExpression",
+            "start": 0,
+            "end": 11,
+            "object": {
+              "type": "NewExpression",
+              "start": 1,
+              "end": 8,
+              "callee": {
+                "type": "Identifier",
+                "start": 5,
+                "end": 6,
+                "name": "C",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "arguments": [],
+              "typeArguments": null
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 10,
+              "end": 11,
+              "name": "p",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 16,
+            "name": "push",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 17,
             "end": 25,
-            "raw": "\"string\"",
-            "value": "string"
+            "value": "string",
+            "raw": "\"string\""
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 0,
-          "end": 16,
-          "computed": false,
-          "object": {
-            "type": "MemberExpression",
-            "start": 0,
-            "end": 11,
-            "computed": false,
-            "object": {
-              "type": "NewExpression",
-              "start": 1,
-              "end": 8,
-              "arguments": [],
-              "callee": {
-                "type": "Identifier",
-                "start": 5,
-                "end": 6,
-                "decorators": [],
-                "name": "C",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeArguments": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 10,
-              "end": 11,
-              "decorators": [],
-              "name": "p",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 12,
-            "end": 16,
-            "decorators": [],
-            "name": "push",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

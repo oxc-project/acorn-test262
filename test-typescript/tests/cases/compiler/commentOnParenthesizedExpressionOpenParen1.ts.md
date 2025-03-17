@@ -14,21 +14,21 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 5,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "j",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -39,14 +39,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 11,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 11,
             "end": 23,
-            "decorators": [],
             "name": "f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 12,
@@ -55,6 +52,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 14,
                 "end": 23,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -65,22 +63,23 @@ __ESTREE_TEST__:PASS:
                     "start": 20,
                     "end": 23
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 25,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "TSTypeAssertion",
         "start": 25,
@@ -94,25 +93,25 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 47,
             "end": 48,
-            "decorators": [],
             "name": "j",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "CallExpression",
             "start": 51,
             "end": 54,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 51,
               "end": 52,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
           }
@@ -122,7 +121,8 @@ __ESTREE_TEST__:PASS:
           "start": 26,
           "end": 29
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

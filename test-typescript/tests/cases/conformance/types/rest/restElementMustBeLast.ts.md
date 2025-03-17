@@ -14,12 +14,10 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 4,
             "end": 13,
-            "decorators": [],
             "elements": [
               {
                 "type": "RestElement",
@@ -29,10 +27,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 8,
                   "end": 9,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "decorators": [],
                 "optional": false,
@@ -43,12 +41,13 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 11,
                 "end": 12,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
+            "decorators": [],
             "optional": false,
             "typeAnnotation": null
           },
@@ -61,35 +60,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 17,
                 "end": 18,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 20,
                 "end": 21,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 23,
                 "end": 24,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 86,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 64,
@@ -99,7 +98,6 @@ __ESTREE_TEST__:PASS:
           "type": "ArrayPattern",
           "start": 64,
           "end": 73,
-          "decorators": [],
           "elements": [
             {
               "type": "RestElement",
@@ -109,10 +107,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 68,
                 "end": 69,
-                "decorators": [],
                 "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "decorators": [],
               "optional": false,
@@ -123,12 +121,13 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 71,
               "end": 72,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ],
+          "decorators": [],
           "optional": false,
           "typeAnnotation": null
         },
@@ -141,26 +140,27 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 77,
               "end": 78,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 80,
               "end": 81,
-              "raw": "2",
-              "value": 2
+              "value": 2,
+              "raw": "2"
             },
             {
               "type": "Literal",
               "start": 83,
               "end": 84,
-              "raw": "3",
-              "value": 3
+              "value": 3,
+              "raw": "3"
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

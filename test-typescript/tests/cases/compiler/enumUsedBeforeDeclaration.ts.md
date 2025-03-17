@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 7,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 7,
             "end": 15,
-            "decorators": [],
             "name": "v",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 8,
@@ -30,48 +27,51 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 10,
                 "end": 15,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 10,
                   "end": 15,
-                  "decorators": [],
                   "name": "Color",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 18,
             "end": 29,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 18,
               "end": 23,
-              "decorators": [],
               "name": "Color",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 24,
               "end": 29,
-              "decorators": [],
               "name": "Green",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -82,14 +82,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 37,
           "end": 70,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
             "end": 51,
-            "decorators": [],
             "name": "v2",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 39,
@@ -98,53 +95,117 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 41,
                 "end": 51,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 41,
                   "end": 51,
-                  "decorators": [],
                   "name": "ConstColor",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 54,
             "end": 70,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 54,
               "end": 64,
-              "decorators": [],
               "name": "ConstColor",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 65,
               "end": 70,
-              "decorators": [],
               "name": "Green",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "TSEnumDeclaration",
       "start": 72,
       "end": 103,
+      "id": {
+        "type": "Identifier",
+        "start": 77,
+        "end": 82,
+        "name": "Color",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 85,
+          "end": 88,
+          "id": {
+            "type": "Identifier",
+            "start": 85,
+            "end": 88,
+            "name": "Red",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 90,
+          "end": 95,
+          "id": {
+            "type": "Identifier",
+            "start": 90,
+            "end": 95,
+            "name": "Green",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 97,
+          "end": 101,
+          "id": {
+            "type": "Identifier",
+            "start": 97,
+            "end": 101,
+            "name": "Blue",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 83,
@@ -154,68 +215,118 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 85,
             "end": 88,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 85,
               "end": 88,
-              "decorators": [],
               "name": "Red",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 90,
             "end": 95,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 90,
               "end": 95,
-              "decorators": [],
               "name": "Green",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 97,
             "end": 101,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 97,
               "end": 101,
-              "decorators": [],
               "name": "Blue",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 77,
-        "end": 82,
-        "decorators": [],
-        "name": "Color",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
       "type": "TSEnumDeclaration",
       "start": 104,
       "end": 146,
+      "id": {
+        "type": "Identifier",
+        "start": 115,
+        "end": 125,
+        "name": "ConstColor",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 128,
+          "end": 131,
+          "id": {
+            "type": "Identifier",
+            "start": 128,
+            "end": 131,
+            "name": "Red",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 133,
+          "end": 138,
+          "id": {
+            "type": "Identifier",
+            "start": 133,
+            "end": 138,
+            "name": "Green",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        },
+        {
+          "type": "TSEnumMember",
+          "start": 140,
+          "end": 144,
+          "id": {
+            "type": "Identifier",
+            "start": 140,
+            "end": 144,
+            "name": "Blue",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": true,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 126,
@@ -225,62 +336,51 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 128,
             "end": 131,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 128,
               "end": 131,
-              "decorators": [],
               "name": "Red",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 133,
             "end": 138,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 133,
               "end": 138,
-              "decorators": [],
               "name": "Green",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           },
           {
             "type": "TSEnumMember",
             "start": 140,
             "end": 144,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 140,
               "end": 144,
-              "decorators": [],
               "name": "Blue",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": true,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 115,
-        "end": 125,
-        "decorators": [],
-        "name": "ConstColor",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

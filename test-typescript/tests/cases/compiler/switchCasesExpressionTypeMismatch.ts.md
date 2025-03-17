@@ -9,33 +9,40 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 13,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 9,
+        "name": "Foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 10,
         "end": 13,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 9,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "SwitchStatement",
       "start": 15,
       "end": 161,
+      "discriminant": {
+        "type": "Literal",
+        "start": 23,
+        "end": 24,
+        "value": 0,
+        "raw": "0"
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -53,10 +60,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 37,
             "end": 40,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -75,8 +82,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 70,
             "end": 75,
-            "raw": "\"sss\"",
-            "value": "sss"
+            "value": "sss",
+            "raw": "\"sss\""
           }
         },
         {
@@ -95,8 +102,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 103,
             "end": 106,
-            "raw": "123",
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         },
         {
@@ -115,18 +122,11 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 136,
             "end": 140,
-            "raw": "true",
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 23,
-        "end": 24,
-        "raw": "0",
-        "value": 0
-      }
+      ]
     },
     {
       "type": "VariableDeclaration",
@@ -137,14 +137,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 175,
           "end": 184,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 175,
             "end": 184,
-            "decorators": [],
             "name": "q",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 176,
@@ -154,13 +151,16 @@ __ESTREE_TEST__:PASS:
                 "start": 178,
                 "end": 184
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -171,14 +171,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 197,
           "end": 216,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 197,
             "end": 216,
-            "decorators": [],
             "name": "r",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 198,
@@ -201,24 +198,36 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 209,
                       "end": 216,
-                      "raw": "\"hello\"",
-                      "value": "hello"
+                      "value": "hello",
+                      "raw": "\"hello\""
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "SwitchStatement",
       "start": 218,
       "end": 356,
+      "discriminant": {
+        "type": "Identifier",
+        "start": 226,
+        "end": 227,
+        "name": "r",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -236,10 +245,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 240,
             "end": 241,
-            "decorators": [],
             "name": "q",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -258,8 +267,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 258,
             "end": 260,
-            "raw": "42",
-            "value": 42
+            "value": 42,
+            "raw": "42"
           }
         },
         {
@@ -278,8 +287,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 277,
             "end": 281,
-            "raw": "true",
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         },
         {
@@ -298,8 +307,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 307,
             "end": 314,
-            "raw": "\"hello\"",
-            "value": "hello"
+            "value": "hello",
+            "raw": "\"hello\""
           }
         },
         {
@@ -318,20 +327,11 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 331,
             "end": 338,
-            "raw": "\"world\"",
-            "value": "world"
+            "value": "world",
+            "raw": "\"world\""
           }
         }
-      ],
-      "discriminant": {
-        "type": "Identifier",
-        "start": 226,
-        "end": 227,
-        "decorators": [],
-        "name": "r",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      ]
     },
     {
       "type": "VariableDeclaration",
@@ -342,14 +342,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 362,
           "end": 372,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 362,
             "end": 368,
-            "decorators": [],
             "name": "s",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 363,
@@ -359,24 +356,36 @@ __ESTREE_TEST__:PASS:
                 "start": 365,
                 "end": 368
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 371,
             "end": 372,
-            "raw": "0",
-            "value": 0
-          }
+            "value": 0,
+            "raw": "0"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "SwitchStatement",
       "start": 395,
       "end": 496,
+      "discriminant": {
+        "type": "Identifier",
+        "start": 403,
+        "end": 404,
+        "name": "s",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -394,10 +403,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 417,
             "end": 420,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -416,8 +425,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 438,
             "end": 443,
-            "raw": "\"sss\"",
-            "value": "sss"
+            "value": "sss",
+            "raw": "\"sss\""
           }
         },
         {
@@ -436,8 +445,8 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 461,
             "end": 464,
-            "raw": "123",
-            "value": 123
+            "value": 123,
+            "raw": "123"
           }
         },
         {
@@ -456,20 +465,11 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 482,
             "end": 486,
-            "raw": "true",
-            "value": true
+            "value": true,
+            "raw": "true"
           }
         }
-      ],
-      "discriminant": {
-        "type": "Identifier",
-        "start": 403,
-        "end": 404,
-        "decorators": [],
-        "name": "s",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      ]
     }
   ],
   "sourceType": "script",

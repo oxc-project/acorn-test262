@@ -9,77 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 69,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 41,
-        "end": 69,
-        "body": [
-          {
-            "type": "ReturnStatement",
-            "start": 43,
-            "end": 67,
-            "argument": {
-              "type": "BinaryExpression",
-              "start": 50,
-              "end": 66,
-              "operator": "===",
-              "left": {
-                "type": "MemberExpression",
-                "start": 50,
-                "end": 61,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 50,
-                  "end": 54,
-                  "decorators": [],
-                  "name": "list",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 55,
-                  "end": 61,
-                  "decorators": [],
-                  "name": "length",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "right": {
-                "type": "Literal",
-                "start": 65,
-                "end": 66,
-                "raw": "0",
-                "value": 0
-              }
-            }
-          }
-        ]
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
         "end": 16,
-        "decorators": [],
         "name": "isEmpty",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 17,
           "end": 39,
-          "decorators": [],
           "name": "list",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 21,
@@ -93,20 +40,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 24,
                   "end": 38,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 24,
                     "end": 30,
-                    "decorators": [],
                     "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 30,
@@ -116,25 +61,88 @@ __ESTREE_TEST__:PASS:
                       "start": 31,
                       "end": 37
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 41,
+        "end": 69,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 43,
+            "end": 67,
+            "argument": {
+              "type": "BinaryExpression",
+              "start": 50,
+              "end": 66,
+              "left": {
+                "type": "MemberExpression",
+                "start": 50,
+                "end": 61,
+                "object": {
+                  "type": "Identifier",
+                  "start": 50,
+                  "end": 54,
+                  "name": "list",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 55,
+                  "end": 61,
+                  "name": "length",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "operator": "===",
+              "right": {
+                "type": "Literal",
+                "start": 65,
+                "end": 66,
+                "value": 0,
+                "raw": "0"
+              }
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 72,
       "end": 84,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 72,
         "end": 83,
+        "callee": {
+          "type": "Identifier",
+          "start": 72,
+          "end": 79,
+          "name": "isEmpty",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrayExpression",
@@ -143,18 +151,10 @@ __ESTREE_TEST__:PASS:
             "elements": []
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 72,
-          "end": 79,
-          "decorators": [],
-          "name": "isEmpty",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

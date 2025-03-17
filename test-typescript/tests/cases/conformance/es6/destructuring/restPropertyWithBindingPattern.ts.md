@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 15,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1,
@@ -19,8 +18,6 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 1,
           "end": 8,
-          "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "RestElement",
@@ -30,9 +27,9 @@ __ESTREE_TEST__:PASS:
                 "type": "ObjectPattern",
                 "start": 5,
                 "end": 7,
+                "properties": [],
                 "decorators": [],
                 "optional": false,
-                "properties": [],
                 "typeAnnotation": null
               },
               "decorators": [],
@@ -41,6 +38,8 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -49,13 +48,13 @@ __ESTREE_TEST__:PASS:
           "end": 13,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 17,
@@ -65,8 +64,6 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 17,
           "end": 26,
-          "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "RestElement",
@@ -84,6 +81,8 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -92,13 +91,13 @@ __ESTREE_TEST__:PASS:
           "end": 31,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 34,
       "end": 49,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -108,8 +107,6 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 35,
           "end": 42,
-          "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "RestElement",
@@ -119,8 +116,8 @@ __ESTREE_TEST__:PASS:
                 "type": "ArrayPattern",
                 "start": 39,
                 "end": 41,
-                "decorators": [],
                 "elements": [],
+                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null
               },
@@ -130,6 +127,8 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -138,13 +137,13 @@ __ESTREE_TEST__:PASS:
           "end": 47,
           "properties": []
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 50,
       "end": 67,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 51,
@@ -154,8 +153,6 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 51,
           "end": 60,
-          "decorators": [],
-          "optional": false,
           "properties": [
             {
               "type": "RestElement",
@@ -173,6 +170,8 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
+          "optional": false,
           "typeAnnotation": null
         },
         "right": {
@@ -181,7 +180,8 @@ __ESTREE_TEST__:PASS:
           "end": 65,
           "properties": []
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

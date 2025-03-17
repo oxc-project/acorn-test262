@@ -9,28 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 38,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 20,
-        "decorators": [],
         "name": "log",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 21,
           "end": 30,
-          "decorators": [],
           "name": "s",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 22,
@@ -40,9 +36,14 @@ __ESTREE_TEST__:PASS:
               "start": 24,
               "end": 30
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 31,
@@ -52,28 +53,28 @@ __ESTREE_TEST__:PASS:
           "start": 33,
           "end": 37
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSDeclareFunction",
       "start": 39,
       "end": 70,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 56,
         "end": 59,
-        "decorators": [],
         "name": "get",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 61,
@@ -83,14 +84,25 @@ __ESTREE_TEST__:PASS:
           "start": 63,
           "end": 69
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 72,
       "end": 186,
+      "id": {
+        "type": "Identifier",
+        "start": 81,
+        "end": 86,
+        "name": "main1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 98,
@@ -113,22 +125,23 @@ __ESTREE_TEST__:PASS:
                     "type": "CallExpression",
                     "start": 125,
                     "end": 130,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 125,
                       "end": 128,
-                      "decorators": [],
                       "name": "get",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
+                    "arguments": [],
                     "optional": false,
                     "typeArguments": null
                   }
                 }
               ]
             },
+            "handler": null,
             "finalizer": {
               "type": "BlockStatement",
               "start": 150,
@@ -138,52 +151,40 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 160,
                   "end": 178,
-                  "directive": null,
                   "expression": {
                     "type": "CallExpression",
                     "start": 160,
                     "end": 177,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 160,
+                      "end": 163,
+                      "name": "log",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "arguments": [
                       {
                         "type": "Literal",
                         "start": 164,
                         "end": 176,
-                        "raw": "\"in finally\"",
-                        "value": "in finally"
+                        "value": "in finally",
+                        "raw": "\"in finally\""
                       }
                     ],
-                    "callee": {
-                      "type": "Identifier",
-                      "start": 160,
-                      "end": 163,
-                      "decorators": [],
-                      "name": "log",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
                     "optional": false,
                     "typeArguments": null
-                  }
+                  },
+                  "directive": null
                 }
               ]
-            },
-            "handler": null
+            }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 81,
-        "end": 86,
-        "decorators": [],
-        "name": "main1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 89,
@@ -193,8 +194,7 @@ __ESTREE_TEST__:PASS:
           "start": 91,
           "end": 97
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

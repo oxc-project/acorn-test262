@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 294,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 11,
+        "name": "Test",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 12,
@@ -18,7 +27,16 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 18,
             "end": 62,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 24,
+              "end": 30,
+              "name": "Mocked",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 31,
@@ -28,24 +46,24 @@ __ESTREE_TEST__:PASS:
                   "type": "PropertyDefinition",
                   "start": 41,
                   "end": 56,
-                  "accessibility": null,
+                  "static": false,
                   "computed": false,
-                  "declare": false,
-                  "decorators": [],
-                  "definite": false,
                   "key": {
                     "type": "Identifier",
                     "start": 41,
                     "end": 47,
-                    "decorators": [],
                     "name": "myProp",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
+                  "value": null,
+                  "decorators": [],
+                  "declare": false,
                   "override": false,
+                  "optional": false,
+                  "definite": false,
                   "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 47,
@@ -56,31 +74,31 @@ __ESTREE_TEST__:PASS:
                       "end": 55
                     }
                   },
-                  "value": null
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 24,
-              "end": 30,
-              "decorators": [],
-              "name": "Mocked",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ClassDeclaration",
             "start": 68,
             "end": 290,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 74,
+              "end": 80,
+              "name": "Tester",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 81,
@@ -90,27 +108,27 @@ __ESTREE_TEST__:PASS:
                   "type": "MethodDefinition",
                   "start": 91,
                   "end": 284,
-                  "accessibility": null,
+                  "static": false,
                   "computed": false,
-                  "decorators": [],
                   "key": {
                     "type": "Identifier",
                     "start": 91,
                     "end": 105,
-                    "decorators": [],
                     "name": "willThrowError",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "kind": "method",
-                  "optional": false,
-                  "override": false,
-                  "static": false,
                   "value": {
                     "type": "FunctionExpression",
                     "start": 105,
                     "end": 284,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 108,
@@ -120,7 +138,6 @@ __ESTREE_TEST__:PASS:
                           "type": "ExpressionStatement",
                           "start": 122,
                           "end": 274,
-                          "directive": null,
                           "expression": {
                             "type": "AssignmentExpression",
                             "start": 122,
@@ -130,30 +147,34 @@ __ESTREE_TEST__:PASS:
                               "type": "Identifier",
                               "start": 122,
                               "end": 128,
-                              "decorators": [],
                               "name": "Mocked",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
                             "right": {
                               "type": "LogicalExpression",
                               "start": 131,
                               "end": 273,
-                              "operator": "||",
                               "left": {
                                 "type": "Identifier",
                                 "start": 131,
                                 "end": 137,
-                                "decorators": [],
                                 "name": "Mocked",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
+                              "operator": "||",
                               "right": {
                                 "type": "FunctionExpression",
                                 "start": 141,
                                 "end": 273,
+                                "id": null,
+                                "expression": false,
+                                "generator": false,
                                 "async": false,
+                                "params": [],
                                 "body": {
                                   "type": "BlockStatement",
                                   "start": 153,
@@ -172,27 +193,27 @@ __ESTREE_TEST__:PASS:
                                             "type": "Property",
                                             "start": 242,
                                             "end": 256,
+                                            "method": false,
+                                            "shorthand": false,
                                             "computed": false,
                                             "key": {
                                               "type": "Identifier",
                                               "start": 242,
                                               "end": 248,
-                                              "decorators": [],
                                               "name": "myProp",
-                                              "optional": false,
-                                              "typeAnnotation": null
+                                              "typeAnnotation": null,
+                                              "decorators": [],
+                                              "optional": false
                                             },
-                                            "kind": "init",
-                                            "method": false,
-                                            "optional": false,
-                                            "shorthand": false,
                                             "value": {
                                               "type": "Literal",
                                               "start": 250,
                                               "end": 256,
-                                              "raw": "\"test\"",
-                                              "value": "test"
-                                            }
+                                              "value": "test",
+                                              "raw": "\"test\""
+                                            },
+                                            "kind": "init",
+                                            "optional": false
                                           }
                                         ]
                                       }
@@ -200,59 +221,38 @@ __ESTREE_TEST__:PASS:
                                   ]
                                 },
                                 "declare": false,
-                                "expression": false,
-                                "generator": false,
-                                "id": null,
-                                "params": [],
-                                "returnType": null,
-                                "typeParameters": null
+                                "typeParameters": null,
+                                "returnType": null
                               }
                             }
-                          }
+                          },
+                          "directive": null
                         }
                       ]
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "decorators": [],
+                  "override": false,
+                  "optional": false,
+                  "accessibility": null
                 }
               ]
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 74,
-              "end": 80,
-              "decorators": [],
-              "name": "Tester",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 11,
-        "decorators": [],
-        "name": "Test",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

@@ -9,12 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 164,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 164,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 21,
+          "end": 37,
+          "name": "ClassWithSymbols",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 38,
@@ -24,40 +32,40 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 42,
               "end": 106,
-              "accessibility": "public",
+              "static": false,
               "computed": true,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "MemberExpression",
                 "start": 59,
                 "end": 96,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 59,
                   "end": 68,
-                  "decorators": [],
                   "name": "Namespace",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 69,
                   "end": 96,
-                  "decorators": [],
                   "name": "locallyExportedCustomSymbol",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
-              "optional": false,
+              "value": null,
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": true,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 97,
@@ -68,55 +76,52 @@ __ESTREE_TEST__:PASS:
                   "end": 105
                 }
               },
-              "value": null
+              "accessibility": "public"
             },
             {
               "type": "MethodDefinition",
               "start": 109,
               "end": 162,
-              "accessibility": "public",
+              "static": false,
               "computed": true,
-              "decorators": [],
               "key": {
                 "type": "MemberExpression",
                 "start": 117,
                 "end": 152,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 117,
                   "end": 126,
-                  "decorators": [],
                   "name": "Namespace",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 127,
                   "end": 152,
-                  "decorators": [],
                   "name": "fullyExportedCustomSymbol",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 153,
                 "end": 162,
-                "async": false,
-                "body": null,
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [],
+                "body": null,
+                "declare": false,
+                "typeParameters": null,
                 "returnType": {
                   "type": "TSTypeAnnotation",
                   "start": 155,
@@ -126,41 +131,44 @@ __ESTREE_TEST__:PASS:
                     "start": 157,
                     "end": 161
                   }
-                },
-                "typeParameters": null
-              }
+                }
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "public"
             }
           ]
         },
-        "declare": true,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 21,
-          "end": 37,
-          "decorators": [],
-          "name": "ClassWithSymbols",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true,
+        "superTypeArguments": null
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 165,
       "end": 311,
-      "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
         "start": 172,
         "end": 311,
+        "id": {
+          "type": "Identifier",
+          "start": 182,
+          "end": 191,
+          "name": "Namespace",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "TSModuleBlock",
           "start": 192,
@@ -170,7 +178,6 @@ __ESTREE_TEST__:PASS:
               "type": "ExportNamedDeclaration",
               "start": 196,
               "end": 252,
-              "attributes": [],
               "declaration": {
                 "type": "VariableDeclaration",
                 "start": 203,
@@ -180,14 +187,11 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclarator",
                     "start": 209,
                     "end": 251,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 209,
                       "end": 251,
-                      "decorators": [],
                       "name": "locallyExportedCustomSymbol",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 236,
@@ -203,23 +207,26 @@ __ESTREE_TEST__:PASS:
                             "end": 251
                           }
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     },
-                    "init": null
+                    "init": null,
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "kind": "const",
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "attributes": [],
+              "exportKind": "value"
             },
             {
               "type": "ExportNamedDeclaration",
               "start": 255,
               "end": 309,
-              "attributes": [],
               "declaration": {
                 "type": "VariableDeclaration",
                 "start": 262,
@@ -229,14 +236,11 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclarator",
                     "start": 268,
                     "end": 308,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 268,
                       "end": 308,
-                      "decorators": [],
                       "name": "fullyExportedCustomSymbol",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 293,
@@ -252,36 +256,32 @@ __ESTREE_TEST__:PASS:
                             "end": 308
                           }
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     },
-                    "init": null
+                    "init": null,
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "const"
+                "kind": "const",
+                "declare": false
               },
-              "exportKind": "value",
+              "specifiers": [],
               "source": null,
-              "specifiers": []
+              "attributes": [],
+              "exportKind": "value"
             }
           ]
         },
+        "kind": "namespace",
         "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 182,
-          "end": 191,
-          "decorators": [],
-          "name": "Namespace",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "kind": "namespace"
+        "global": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

@@ -14,32 +14,30 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 43,
       "end": 65,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 43,
         "end": 64,
-        "operator": "*",
         "left": {
           "type": "TSAsExpression",
           "start": 44,
@@ -48,22 +46,22 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 44,
             "end": 49,
-            "operator": "+",
             "left": {
               "type": "Identifier",
               "start": 44,
               "end": 45,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "operator": "+",
             "right": {
               "type": "Literal",
               "start": 48,
               "end": 49,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           },
           "typeAnnotation": {
@@ -72,25 +70,25 @@ __ESTREE_TEST__:PASS:
             "end": 59
           }
         },
+        "operator": "*",
         "right": {
           "type": "Literal",
           "start": 63,
           "end": 64,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 95,
       "end": 108,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 95,
         "end": 107,
-        "computed": false,
         "object": {
           "type": "TSAsExpression",
           "start": 96,
@@ -99,10 +97,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 96,
             "end": 97,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeAnnotation": {
             "type": "TSAnyKeyword",
@@ -110,28 +108,28 @@ __ESTREE_TEST__:PASS:
             "end": 104
           }
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 106,
           "end": 107,
-          "decorators": [],
           "name": "y",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 131,
       "end": 148,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 131,
         "end": 147,
-        "arguments": [],
         "callee": {
           "type": "TSAsExpression",
           "start": 136,
@@ -140,16 +138,16 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 136,
             "end": 139,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 136,
               "end": 137,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
           },
@@ -159,8 +157,10 @@ __ESTREE_TEST__:PASS:
             "end": 146
           }
         },
+        "arguments": [],
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

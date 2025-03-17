@@ -9,21 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 22,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
         "end": 12,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": false,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 14,
@@ -33,28 +34,28 @@ __ESTREE_TEST__:PASS:
           "start": 15,
           "end": 21
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSDeclareFunction",
       "start": 23,
       "end": 45,
-      "async": false,
-      "body": null,
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 32,
         "end": 35,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": false,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 37,
@@ -64,14 +65,25 @@ __ESTREE_TEST__:PASS:
           "start": 38,
           "end": 44
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "FunctionDeclaration",
       "start": 46,
       "end": 103,
+      "id": {
+        "type": "Identifier",
+        "start": 55,
+        "end": 58,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 65,
@@ -81,17 +93,12 @@ __ESTREE_TEST__:PASS:
             "type": "IfStatement",
             "start": 67,
             "end": 102,
-            "alternate": {
-              "type": "ReturnStatement",
-              "start": 93,
-              "end": 102,
-              "argument": {
-                "type": "Literal",
-                "start": 100,
-                "end": 101,
-                "raw": "0",
-                "value": 0
-              }
+            "test": {
+              "type": "Literal",
+              "start": 71,
+              "end": 75,
+              "value": true,
+              "raw": "true"
             },
             "consequent": {
               "type": "ReturnStatement",
@@ -101,33 +108,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 84,
                 "end": 86,
-                "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             },
-            "test": {
-              "type": "Literal",
-              "start": 71,
-              "end": 75,
-              "raw": "true",
-              "value": true
+            "alternate": {
+              "type": "ReturnStatement",
+              "start": 93,
+              "end": 102,
+              "argument": {
+                "type": "Literal",
+                "start": 100,
+                "end": 101,
+                "value": 0,
+                "raw": "0"
+              }
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 55,
-        "end": 58,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 60,
@@ -137,8 +138,7 @@ __ESTREE_TEST__:PASS:
           "start": 61,
           "end": 64
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

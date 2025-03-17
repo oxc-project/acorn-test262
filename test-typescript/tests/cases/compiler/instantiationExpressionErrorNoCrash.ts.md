@@ -14,21 +14,106 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 239,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 24,
-            "decorators": [],
             "name": "createCacheReducer",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 27,
             "end": 239,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 55,
+                "end": 87,
+                "name": "queries",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 62,
+                  "end": 87,
+                  "typeAnnotation": {
+                    "type": "TSIndexedAccessType",
+                    "start": 64,
+                    "end": 87,
+                    "objectType": {
+                      "type": "TSTypeReference",
+                      "start": 64,
+                      "end": 76,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 64,
+                        "end": 69,
+                        "name": "Cache",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": {
+                        "type": "TSTypeParameterInstantiation",
+                        "start": 69,
+                        "end": 76,
+                        "params": [
+                          {
+                            "type": "TSTypeReference",
+                            "start": 70,
+                            "end": 71,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 70,
+                              "end": 71,
+                              "name": "N",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "typeArguments": null
+                          },
+                          {
+                            "type": "TSTypeReference",
+                            "start": 73,
+                            "end": 75,
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 73,
+                              "end": 75,
+                              "name": "QR",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "typeArguments": null
+                          }
+                        ]
+                      }
+                    },
+                    "indexType": {
+                      "type": "TSLiteralType",
+                      "start": 77,
+                      "end": 86,
+                      "literal": {
+                        "type": "Literal",
+                        "start": 77,
+                        "end": 86,
+                        "value": "queries",
+                        "raw": "\"queries\""
+                      }
+                    }
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 94,
@@ -43,15 +128,14 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 106,
                       "end": 127,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 106,
                         "end": 116,
-                        "decorators": [],
                         "name": "queriesMap",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "init": {
                         "type": "TSAsExpression",
@@ -67,22 +151,23 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 125,
                           "end": 127,
-                          "typeArguments": null,
                           "typeName": {
                             "type": "Identifier",
                             "start": 125,
                             "end": 127,
-                            "decorators": [],
                             "name": "QR",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "typeArguments": null
                         }
-                      }
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -93,15 +178,14 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 140,
                       "end": 191,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 140,
                         "end": 152,
-                        "decorators": [],
                         "name": "initialState",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "init": {
                         "type": "ObjectExpression",
@@ -112,36 +196,37 @@ __ESTREE_TEST__:PASS:
                             "type": "Property",
                             "start": 165,
                             "end": 184,
+                            "method": false,
+                            "shorthand": false,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
                               "start": 165,
                               "end": 172,
-                              "decorators": [],
                               "name": "queries",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
-                            "kind": "init",
-                            "method": false,
-                            "optional": false,
-                            "shorthand": false,
                             "value": {
                               "type": "Identifier",
                               "start": 174,
                               "end": 184,
-                              "decorators": [],
                               "name": "queriesMap",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "kind": "init",
+                            "optional": false
                           }
                         ]
-                      }
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "ReturnStatement",
@@ -151,140 +236,53 @@ __ESTREE_TEST__:PASS:
                     "type": "ArrowFunctionExpression",
                     "start": 205,
                     "end": 236,
-                    "async": false,
-                    "body": {
-                      "type": "Identifier",
-                      "start": 231,
-                      "end": 236,
-                      "decorators": [],
-                      "name": "state",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
+                    "id": null,
                     "expression": true,
                     "generator": false,
-                    "id": null,
+                    "async": false,
                     "params": [
                       {
                         "type": "AssignmentPattern",
                         "start": 206,
                         "end": 226,
-                        "decorators": [],
                         "left": {
                           "type": "Identifier",
                           "start": 206,
                           "end": 211,
-                          "decorators": [],
                           "name": "state",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
                         "right": {
                           "type": "Identifier",
                           "start": 214,
                           "end": 226,
-                          "decorators": [],
                           "name": "initialState",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
+                        "decorators": [],
+                        "optional": false,
                         "typeAnnotation": null
                       }
                     ],
-                    "returnType": null,
-                    "typeParameters": null
+                    "body": {
+                      "type": "Identifier",
+                      "start": 231,
+                      "end": 236,
+                      "name": "state",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "typeParameters": null,
+                    "returnType": null
                   }
                 }
               ]
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 55,
-                "end": 87,
-                "decorators": [],
-                "name": "queries",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 62,
-                  "end": 87,
-                  "typeAnnotation": {
-                    "type": "TSIndexedAccessType",
-                    "start": 64,
-                    "end": 87,
-                    "indexType": {
-                      "type": "TSLiteralType",
-                      "start": 77,
-                      "end": 86,
-                      "literal": {
-                        "type": "Literal",
-                        "start": 77,
-                        "end": 86,
-                        "raw": "\"queries\"",
-                        "value": "queries"
-                      }
-                    },
-                    "objectType": {
-                      "type": "TSTypeReference",
-                      "start": 64,
-                      "end": 76,
-                      "typeArguments": {
-                        "type": "TSTypeParameterInstantiation",
-                        "start": 69,
-                        "end": 76,
-                        "params": [
-                          {
-                            "type": "TSTypeReference",
-                            "start": 70,
-                            "end": 71,
-                            "typeArguments": null,
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 70,
-                              "end": 71,
-                              "decorators": [],
-                              "name": "N",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          },
-                          {
-                            "type": "TSTypeReference",
-                            "start": 73,
-                            "end": 75,
-                            "typeArguments": null,
-                            "typeName": {
-                              "type": "Identifier",
-                              "start": 73,
-                              "end": 75,
-                              "decorators": [],
-                              "name": "QR",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
-                          }
-                        ]
-                      },
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 64,
-                        "end": 69,
-                        "decorators": [],
-                        "name": "Cache",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                }
-              }
-            ],
-            "returnType": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 27,
@@ -294,7 +292,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 28,
                   "end": 44,
-                  "const": false,
+                  "name": {
+                    "type": "Identifier",
+                    "start": 28,
+                    "end": 29,
+                    "name": "N",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "constraint": {
                     "type": "TSStringKeyword",
                     "start": 38,
@@ -302,62 +308,103 @@ __ESTREE_TEST__:PASS:
                   },
                   "default": null,
                   "in": false,
-                  "name": {
-                    "type": "Identifier",
-                    "start": 28,
-                    "end": 29,
-                    "decorators": [],
-                    "name": "N",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "out": false
+                  "out": false,
+                  "const": false
                 },
                 {
                   "type": "TSTypeParameter",
                   "start": 46,
                   "end": 48,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 46,
                     "end": 48,
-                    "decorators": [],
                     "name": "QR",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
-            }
-          }
+            },
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 242,
       "end": 379,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 249,
         "end": 379,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 254,
           "end": 259,
-          "decorators": [],
           "name": "Cache",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "start": 259,
+          "end": 281,
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "start": 260,
+              "end": 276,
+              "name": {
+                "type": "Identifier",
+                "start": 260,
+                "end": 261,
+                "name": "N",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "constraint": {
+                "type": "TSStringKeyword",
+                "start": 270,
+                "end": 276
+              },
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
+            },
+            {
+              "type": "TSTypeParameter",
+              "start": 278,
+              "end": 280,
+              "name": {
+                "type": "Identifier",
+                "start": 278,
+                "end": 280,
+                "name": "QR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
+            }
+          ]
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
@@ -368,20 +415,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 290,
               "end": 376,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 290,
                 "end": 297,
-                "decorators": [],
                 "name": "queries",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 297,
@@ -390,43 +435,59 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMappedType",
                   "start": 299,
                   "end": 375,
-                  "constraint": {
-                    "type": "TSTypeOperator",
-                    "start": 316,
+                  "typeParameter": {
+                    "type": "TSTypeParameter",
+                    "start": 310,
                     "end": 324,
-                    "operator": "keyof",
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 322,
+                    "name": {
+                      "type": "Identifier",
+                      "start": 310,
+                      "end": 312,
+                      "name": "QK",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "constraint": {
+                      "type": "TSTypeOperator",
+                      "start": 316,
                       "end": 324,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
+                      "operator": "keyof",
+                      "typeAnnotation": {
+                        "type": "TSTypeReference",
                         "start": 322,
                         "end": 324,
-                        "decorators": [],
-                        "name": "QR",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 322,
+                          "end": 324,
+                          "name": "QR",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    }
-                  },
-                  "key": {
-                    "type": "Identifier",
-                    "start": 310,
-                    "end": 312,
-                    "decorators": [],
-                    "name": "QK",
-                    "optional": false,
-                    "typeAnnotation": null
+                    },
+                    "default": null,
+                    "in": false,
+                    "out": false,
+                    "const": false
                   },
                   "nameType": null,
-                  "optional": null,
-                  "readonly": null,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
                     "start": 327,
                     "end": 368,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 327,
+                      "end": 337,
+                      "name": "ReturnType",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 337,
@@ -440,10 +501,10 @@ __ESTREE_TEST__:PASS:
                             "type": "Identifier",
                             "start": 345,
                             "end": 363,
-                            "decorators": [],
                             "name": "createCacheReducer",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
@@ -454,90 +515,68 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 364,
                                 "end": 366,
-                                "typeArguments": null,
                                 "typeName": {
                                   "type": "Identifier",
                                   "start": 364,
                                   "end": 366,
-                                  "decorators": [],
                                   "name": "QR",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "typeArguments": null
                               }
                             ]
                           }
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 327,
-                      "end": 337,
-                      "decorators": [],
-                      "name": "ReturnType",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
+                  },
+                  "optional": null,
+                  "readonly": null,
+                  "constraint": {
+                    "type": "TSTypeOperator",
+                    "start": 316,
+                    "end": 324,
+                    "operator": "keyof",
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 322,
+                      "end": 324,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 322,
+                        "end": 324,
+                        "name": "QR",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
+                    }
+                  },
+                  "key": {
+                    "type": "Identifier",
+                    "start": 310,
+                    "end": 312,
+                    "name": "QK",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "typeParameters": {
-          "type": "TSTypeParameterDeclaration",
-          "start": 259,
-          "end": 281,
-          "params": [
-            {
-              "type": "TSTypeParameter",
-              "start": 260,
-              "end": 276,
-              "const": false,
-              "constraint": {
-                "type": "TSStringKeyword",
-                "start": 270,
-                "end": 276
-              },
-              "default": null,
-              "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 260,
-                "end": 261,
-                "decorators": [],
-                "name": "N",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
-            },
-            {
-              "type": "TSTypeParameter",
-              "start": 278,
-              "end": 280,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 278,
-                "end": 280,
-                "decorators": [],
-                "name": "QR",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
-            }
-          ]
-        }
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "script",

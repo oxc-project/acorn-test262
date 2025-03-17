@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 31,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
             "end": 52,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -43,23 +40,27 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 59,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 54,
         "end": 58,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "TSNonNullExpression",
           "start": 54,
@@ -68,15 +69,14 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 54,
             "end": 55,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
-        },
-        "operator": "++",
-        "prefix": false
-      }
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

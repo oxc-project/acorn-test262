@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 33,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 33,
-            "decorators": [],
             "name": "v",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -35,32 +32,31 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 13,
                     "end": 31,
-                    "accessibility": null,
-                    "computed": true,
                     "key": {
                       "type": "BinaryExpression",
                       "start": 14,
                       "end": 21,
-                      "operator": "+",
                       "left": {
                         "type": "Literal",
                         "start": 14,
                         "end": 16,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       },
+                      "operator": "+",
                       "right": {
                         "type": "Literal",
                         "start": 19,
                         "end": 21,
-                        "raw": "\"\"",
-                        "value": ""
+                        "value": "",
+                        "raw": "\"\""
                       }
                     },
-                    "kind": "method",
+                    "computed": true,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 24,
@@ -71,18 +67,22 @@ __ESTREE_TEST__:PASS:
                         "end": 30
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

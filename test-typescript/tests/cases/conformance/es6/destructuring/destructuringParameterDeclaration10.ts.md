@@ -9,145 +9,120 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 196,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 196,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 172,
-          "end": 196,
-          "body": [
-            {
-              "type": "ExpressionStatement",
-              "start": 178,
-              "end": 182,
-              "directive": null,
-              "expression": {
-                "type": "Identifier",
-                "start": 178,
-                "end": 182,
-                "decorators": [],
-                "name": "json",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 29,
-          "decorators": [],
           "name": "prepareConfig",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "AssignmentPattern",
             "start": 30,
             "end": 170,
-            "decorators": [],
             "left": {
               "type": "ObjectPattern",
               "start": 30,
               "end": 165,
-              "decorators": [],
-              "optional": false,
               "properties": [
                 {
                   "type": "Property",
                   "start": 36,
                   "end": 83,
+                  "method": false,
+                  "shorthand": false,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 36,
                     "end": 51,
-                    "decorators": [],
                     "name": "additionalFiles",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 53,
                     "end": 83,
-                    "decorators": [],
                     "left": {
                       "type": "ObjectPattern",
                       "start": 53,
                       "end": 78,
-                      "decorators": [],
-                      "optional": false,
                       "properties": [
                         {
                           "type": "Property",
                           "start": 63,
                           "end": 72,
+                          "method": false,
+                          "shorthand": true,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
                             "start": 63,
                             "end": 67,
-                            "decorators": [],
                             "name": "json",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": true,
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 63,
                             "end": 72,
-                            "decorators": [],
                             "left": {
                               "type": "Identifier",
                               "start": 63,
                               "end": 67,
-                              "decorators": [],
                               "name": "json",
-                              "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
                             },
-                            "optional": false,
                             "right": {
                               "type": "ArrayExpression",
                               "start": 70,
                               "end": 72,
                               "elements": []
                             },
+                            "decorators": [],
+                            "optional": false,
                             "typeAnnotation": null
-                          }
+                          },
+                          "kind": "init",
+                          "optional": false
                         }
                       ],
+                      "decorators": [],
+                      "optional": false,
                       "typeAnnotation": null
                     },
-                    "optional": false,
                     "right": {
                       "type": "ObjectExpression",
                       "start": 81,
                       "end": 83,
                       "properties": []
                     },
+                    "decorators": [],
+                    "optional": false,
                     "typeAnnotation": null
-                  }
+                  },
+                  "kind": "init",
+                  "optional": false
                 }
               ],
+              "decorators": [],
+              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 85,
@@ -161,20 +136,18 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 91,
                       "end": 163,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": true,
+                      "readonly": false,
                       "key": {
                         "type": "Identifier",
                         "start": 91,
                         "end": 106,
-                        "decorators": [],
                         "name": "additionalFiles",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": true,
-                      "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 107,
@@ -183,6 +156,15 @@ __ESTREE_TEST__:PASS:
                           "type": "TSTypeReference",
                           "start": 109,
                           "end": 162,
+                          "typeName": {
+                            "type": "Identifier",
+                            "start": 109,
+                            "end": 116,
+                            "name": "Partial",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
                           "typeArguments": {
                             "type": "TSTypeParameterInstantiation",
                             "start": 116,
@@ -192,6 +174,15 @@ __ESTREE_TEST__:PASS:
                                 "type": "TSTypeReference",
                                 "start": 117,
                                 "end": 161,
+                                "typeName": {
+                                  "type": "Identifier",
+                                  "start": 117,
+                                  "end": 123,
+                                  "name": "Record",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
                                 "typeArguments": {
                                   "type": "TSTypeParameterInstantiation",
                                   "start": 123,
@@ -210,8 +201,8 @@ __ESTREE_TEST__:PASS:
                                             "type": "Literal",
                                             "start": 124,
                                             "end": 130,
-                                            "raw": "\"json\"",
-                                            "value": "json"
+                                            "value": "json",
+                                            "raw": "\"json\""
                                           }
                                         },
                                         {
@@ -222,8 +213,8 @@ __ESTREE_TEST__:PASS:
                                             "type": "Literal",
                                             "start": 133,
                                             "end": 140,
-                                            "raw": "\"jsonc\"",
-                                            "value": "jsonc"
+                                            "value": "jsonc",
+                                            "raw": "\"jsonc\""
                                           }
                                         },
                                         {
@@ -234,8 +225,8 @@ __ESTREE_TEST__:PASS:
                                             "type": "Literal",
                                             "start": 143,
                                             "end": 150,
-                                            "raw": "\"json5\"",
-                                            "value": "json5"
+                                            "value": "json5",
+                                            "raw": "\"json5\""
                                           }
                                         }
                                       ]
@@ -251,62 +242,192 @@ __ESTREE_TEST__:PASS:
                                       }
                                     }
                                   ]
-                                },
-                                "typeName": {
-                                  "type": "Identifier",
-                                  "start": 117,
-                                  "end": 123,
-                                  "decorators": [],
-                                  "name": "Record",
-                                  "optional": false,
-                                  "typeAnnotation": null
                                 }
                               }
                             ]
-                          },
-                          "typeName": {
-                            "type": "Identifier",
-                            "start": 109,
-                            "end": 116,
-                            "decorators": [],
-                            "name": "Partial",
-                            "optional": false,
-                            "typeAnnotation": null
                           }
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
                 }
               }
             },
-            "optional": false,
             "right": {
               "type": "ObjectExpression",
               "start": 168,
               "end": 170,
               "properties": []
             },
+            "decorators": [],
+            "optional": false,
             "typeAnnotation": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
+        "body": {
+          "type": "BlockStatement",
+          "start": 172,
+          "end": 196,
+          "body": [
+            {
+              "type": "ExpressionStatement",
+              "start": 178,
+              "end": 182,
+              "expression": {
+                "type": "Identifier",
+                "start": 178,
+                "end": 182,
+                "name": "json",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "directive": null
+            }
+          ]
+        },
+        "declare": false,
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 198,
       "end": 319,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 205,
         "end": 319,
+        "id": {
+          "type": "Identifier",
+          "start": 214,
+          "end": 244,
+          "name": "prepareConfigWithoutAnnotation",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "AssignmentPattern",
+            "start": 245,
+            "end": 305,
+            "left": {
+              "type": "ObjectPattern",
+              "start": 245,
+              "end": 300,
+              "properties": [
+                {
+                  "type": "Property",
+                  "start": 251,
+                  "end": 298,
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "key": {
+                    "type": "Identifier",
+                    "start": 251,
+                    "end": 266,
+                    "name": "additionalFiles",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "value": {
+                    "type": "AssignmentPattern",
+                    "start": 268,
+                    "end": 298,
+                    "left": {
+                      "type": "ObjectPattern",
+                      "start": 268,
+                      "end": 293,
+                      "properties": [
+                        {
+                          "type": "Property",
+                          "start": 278,
+                          "end": 287,
+                          "method": false,
+                          "shorthand": true,
+                          "computed": false,
+                          "key": {
+                            "type": "Identifier",
+                            "start": 278,
+                            "end": 282,
+                            "name": "json",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "value": {
+                            "type": "AssignmentPattern",
+                            "start": 278,
+                            "end": 287,
+                            "left": {
+                              "type": "Identifier",
+                              "start": 278,
+                              "end": 282,
+                              "name": "json",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "right": {
+                              "type": "ArrayExpression",
+                              "start": 285,
+                              "end": 287,
+                              "elements": []
+                            },
+                            "decorators": [],
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "kind": "init",
+                          "optional": false
+                        }
+                      ],
+                      "decorators": [],
+                      "optional": false,
+                      "typeAnnotation": null
+                    },
+                    "right": {
+                      "type": "ObjectExpression",
+                      "start": 296,
+                      "end": 298,
+                      "properties": []
+                    },
+                    "decorators": [],
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "kind": "init",
+                  "optional": false
+                }
+              ],
+              "decorators": [],
+              "optional": false,
+              "typeAnnotation": null
+            },
+            "right": {
+              "type": "ObjectExpression",
+              "start": 303,
+              "end": 305,
+              "properties": []
+            },
+            "decorators": [],
+            "optional": false,
+            "typeAnnotation": null
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 307,
@@ -316,154 +437,32 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 313,
               "end": 317,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 313,
                 "end": 317,
-                "decorators": [],
                 "name": "json",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "directive": null
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 214,
-          "end": 244,
-          "decorators": [],
-          "name": "prepareConfigWithoutAnnotation",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "AssignmentPattern",
-            "start": 245,
-            "end": 305,
-            "decorators": [],
-            "left": {
-              "type": "ObjectPattern",
-              "start": 245,
-              "end": 300,
-              "decorators": [],
-              "optional": false,
-              "properties": [
-                {
-                  "type": "Property",
-                  "start": 251,
-                  "end": 298,
-                  "computed": false,
-                  "key": {
-                    "type": "Identifier",
-                    "start": 251,
-                    "end": 266,
-                    "decorators": [],
-                    "name": "additionalFiles",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
-                  "value": {
-                    "type": "AssignmentPattern",
-                    "start": 268,
-                    "end": 298,
-                    "decorators": [],
-                    "left": {
-                      "type": "ObjectPattern",
-                      "start": 268,
-                      "end": 293,
-                      "decorators": [],
-                      "optional": false,
-                      "properties": [
-                        {
-                          "type": "Property",
-                          "start": 278,
-                          "end": 287,
-                          "computed": false,
-                          "key": {
-                            "type": "Identifier",
-                            "start": 278,
-                            "end": 282,
-                            "decorators": [],
-                            "name": "json",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "kind": "init",
-                          "method": false,
-                          "optional": false,
-                          "shorthand": true,
-                          "value": {
-                            "type": "AssignmentPattern",
-                            "start": 278,
-                            "end": 287,
-                            "decorators": [],
-                            "left": {
-                              "type": "Identifier",
-                              "start": 278,
-                              "end": 282,
-                              "decorators": [],
-                              "name": "json",
-                              "optional": false,
-                              "typeAnnotation": null
-                            },
-                            "optional": false,
-                            "right": {
-                              "type": "ArrayExpression",
-                              "start": 285,
-                              "end": 287,
-                              "elements": []
-                            },
-                            "typeAnnotation": null
-                          }
-                        }
-                      ],
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "right": {
-                      "type": "ObjectExpression",
-                      "start": 296,
-                      "end": 298,
-                      "properties": []
-                    },
-                    "typeAnnotation": null
-                  }
-                }
-              ],
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "right": {
-              "type": "ObjectExpression",
-              "start": 303,
-              "end": 305,
-              "properties": []
-            },
-            "typeAnnotation": null
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 321,
       "end": 559,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 328,
@@ -473,14 +472,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 334,
             "end": 559,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 334,
               "end": 466,
-              "decorators": [],
               "name": "prepareConfigWithContextualSignature",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 370,
@@ -489,14 +485,13 @@ __ESTREE_TEST__:PASS:
                   "type": "TSFunctionType",
                   "start": 372,
                   "end": 466,
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 373,
                       "end": 457,
-                      "decorators": [],
                       "name": "param",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 378,
@@ -510,20 +505,18 @@ __ESTREE_TEST__:PASS:
                               "type": "TSPropertySignature",
                               "start": 383,
                               "end": 455,
-                              "accessibility": null,
                               "computed": false,
+                              "optional": true,
+                              "readonly": false,
                               "key": {
                                 "type": "Identifier",
                                 "start": 383,
                                 "end": 398,
-                                "decorators": [],
                                 "name": "additionalFiles",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
-                              "optional": true,
-                              "readonly": false,
-                              "static": false,
                               "typeAnnotation": {
                                 "type": "TSTypeAnnotation",
                                 "start": 399,
@@ -532,6 +525,15 @@ __ESTREE_TEST__:PASS:
                                   "type": "TSTypeReference",
                                   "start": 401,
                                   "end": 454,
+                                  "typeName": {
+                                    "type": "Identifier",
+                                    "start": 401,
+                                    "end": 408,
+                                    "name": "Partial",
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
                                   "typeArguments": {
                                     "type": "TSTypeParameterInstantiation",
                                     "start": 408,
@@ -541,6 +543,15 @@ __ESTREE_TEST__:PASS:
                                         "type": "TSTypeReference",
                                         "start": 409,
                                         "end": 453,
+                                        "typeName": {
+                                          "type": "Identifier",
+                                          "start": 409,
+                                          "end": 415,
+                                          "name": "Record",
+                                          "typeAnnotation": null,
+                                          "decorators": [],
+                                          "optional": false
+                                        },
                                         "typeArguments": {
                                           "type": "TSTypeParameterInstantiation",
                                           "start": 415,
@@ -559,8 +570,8 @@ __ESTREE_TEST__:PASS:
                                                     "type": "Literal",
                                                     "start": 416,
                                                     "end": 422,
-                                                    "raw": "\"json\"",
-                                                    "value": "json"
+                                                    "value": "json",
+                                                    "raw": "\"json\""
                                                   }
                                                 },
                                                 {
@@ -571,8 +582,8 @@ __ESTREE_TEST__:PASS:
                                                     "type": "Literal",
                                                     "start": 425,
                                                     "end": 432,
-                                                    "raw": "\"jsonc\"",
-                                                    "value": "jsonc"
+                                                    "value": "jsonc",
+                                                    "raw": "\"jsonc\""
                                                   }
                                                 },
                                                 {
@@ -583,8 +594,8 @@ __ESTREE_TEST__:PASS:
                                                     "type": "Literal",
                                                     "start": 435,
                                                     "end": 442,
-                                                    "raw": "\"json5\"",
-                                                    "value": "json5"
+                                                    "value": "json5",
+                                                    "raw": "\"json5\""
                                                   }
                                                 }
                                               ]
@@ -600,34 +611,20 @@ __ESTREE_TEST__:PASS:
                                               }
                                             }
                                           ]
-                                        },
-                                        "typeName": {
-                                          "type": "Identifier",
-                                          "start": 409,
-                                          "end": 415,
-                                          "decorators": [],
-                                          "name": "Record",
-                                          "optional": false,
-                                          "typeAnnotation": null
                                         }
                                       }
                                     ]
-                                  },
-                                  "typeName": {
-                                    "type": "Identifier",
-                                    "start": 401,
-                                    "end": 408,
-                                    "decorators": [],
-                                    "name": "Partial",
-                                    "optional": false,
-                                    "typeAnnotation": null
                                   }
                                 }
-                              }
+                              },
+                              "accessibility": null,
+                              "static": false
                             }
                           ]
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
                   "returnType": {
@@ -639,16 +636,131 @@ __ESTREE_TEST__:PASS:
                       "start": 462,
                       "end": 466
                     }
-                  },
-                  "typeParameters": null
+                  }
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ArrowFunctionExpression",
               "start": 469,
               "end": 559,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "AssignmentPattern",
+                  "start": 470,
+                  "end": 530,
+                  "left": {
+                    "type": "ObjectPattern",
+                    "start": 470,
+                    "end": 525,
+                    "properties": [
+                      {
+                        "type": "Property",
+                        "start": 476,
+                        "end": 523,
+                        "method": false,
+                        "shorthand": false,
+                        "computed": false,
+                        "key": {
+                          "type": "Identifier",
+                          "start": 476,
+                          "end": 491,
+                          "name": "additionalFiles",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "value": {
+                          "type": "AssignmentPattern",
+                          "start": 493,
+                          "end": 523,
+                          "left": {
+                            "type": "ObjectPattern",
+                            "start": 493,
+                            "end": 518,
+                            "properties": [
+                              {
+                                "type": "Property",
+                                "start": 503,
+                                "end": 512,
+                                "method": false,
+                                "shorthand": true,
+                                "computed": false,
+                                "key": {
+                                  "type": "Identifier",
+                                  "start": 503,
+                                  "end": 507,
+                                  "name": "json",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "value": {
+                                  "type": "AssignmentPattern",
+                                  "start": 503,
+                                  "end": 512,
+                                  "left": {
+                                    "type": "Identifier",
+                                    "start": 503,
+                                    "end": 507,
+                                    "name": "json",
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "right": {
+                                    "type": "ArrayExpression",
+                                    "start": 510,
+                                    "end": 512,
+                                    "elements": []
+                                  },
+                                  "decorators": [],
+                                  "optional": false,
+                                  "typeAnnotation": null
+                                },
+                                "kind": "init",
+                                "optional": false
+                              }
+                            ],
+                            "decorators": [],
+                            "optional": false,
+                            "typeAnnotation": null
+                          },
+                          "right": {
+                            "type": "ObjectExpression",
+                            "start": 521,
+                            "end": 523,
+                            "properties": []
+                          },
+                          "decorators": [],
+                          "optional": false,
+                          "typeAnnotation": null
+                        },
+                        "kind": "init",
+                        "optional": false
+                      }
+                    ],
+                    "decorators": [],
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "right": {
+                    "type": "ObjectExpression",
+                    "start": 528,
+                    "end": 530,
+                    "properties": []
+                  },
+                  "decorators": [],
+                  "optional": false,
+                  "typeAnnotation": null
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 535,
@@ -658,144 +770,32 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 541,
                     "end": 545,
-                    "directive": null,
                     "expression": {
                       "type": "Identifier",
                       "start": 541,
                       "end": 545,
-                      "decorators": [],
                       "name": "json",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "directive": null
                   }
                 ]
               },
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "AssignmentPattern",
-                  "start": 470,
-                  "end": 530,
-                  "decorators": [],
-                  "left": {
-                    "type": "ObjectPattern",
-                    "start": 470,
-                    "end": 525,
-                    "decorators": [],
-                    "optional": false,
-                    "properties": [
-                      {
-                        "type": "Property",
-                        "start": 476,
-                        "end": 523,
-                        "computed": false,
-                        "key": {
-                          "type": "Identifier",
-                          "start": 476,
-                          "end": 491,
-                          "decorators": [],
-                          "name": "additionalFiles",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
-                        "value": {
-                          "type": "AssignmentPattern",
-                          "start": 493,
-                          "end": 523,
-                          "decorators": [],
-                          "left": {
-                            "type": "ObjectPattern",
-                            "start": 493,
-                            "end": 518,
-                            "decorators": [],
-                            "optional": false,
-                            "properties": [
-                              {
-                                "type": "Property",
-                                "start": 503,
-                                "end": 512,
-                                "computed": false,
-                                "key": {
-                                  "type": "Identifier",
-                                  "start": 503,
-                                  "end": 507,
-                                  "decorators": [],
-                                  "name": "json",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "kind": "init",
-                                "method": false,
-                                "optional": false,
-                                "shorthand": true,
-                                "value": {
-                                  "type": "AssignmentPattern",
-                                  "start": 503,
-                                  "end": 512,
-                                  "decorators": [],
-                                  "left": {
-                                    "type": "Identifier",
-                                    "start": 503,
-                                    "end": 507,
-                                    "decorators": [],
-                                    "name": "json",
-                                    "optional": false,
-                                    "typeAnnotation": null
-                                  },
-                                  "optional": false,
-                                  "right": {
-                                    "type": "ArrayExpression",
-                                    "start": 510,
-                                    "end": 512,
-                                    "elements": []
-                                  },
-                                  "typeAnnotation": null
-                                }
-                              }
-                            ],
-                            "typeAnnotation": null
-                          },
-                          "optional": false,
-                          "right": {
-                            "type": "ObjectExpression",
-                            "start": 521,
-                            "end": 523,
-                            "properties": []
-                          },
-                          "typeAnnotation": null
-                        }
-                      }
-                    ],
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "right": {
-                    "type": "ObjectExpression",
-                    "start": 528,
-                    "end": 530,
-                    "properties": []
-                  },
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

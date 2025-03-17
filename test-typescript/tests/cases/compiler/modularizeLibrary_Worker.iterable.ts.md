@@ -10,28 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 25,
       "end": 82,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 68,
-        "end": 82,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 74,
-            "end": 80,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 74,
-              "end": 79,
-              "decorators": [],
-              "name": "entry",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 30,
@@ -41,56 +19,78 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 36,
             "end": 48,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 36,
               "end": 48,
-              "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
                   "start": 37,
                   "end": 40,
-                  "decorators": [],
                   "name": "key",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 42,
                   "end": 47,
-                  "decorators": [],
                   "name": "entry",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
+              "decorators": [],
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
       "right": {
         "type": "NewExpression",
         "start": 52,
         "end": 66,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 56,
           "end": 64,
-          "decorators": [],
           "name": "FormData",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 68,
+        "end": 82,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 74,
+            "end": 80,
+            "expression": {
+              "type": "Identifier",
+              "start": 74,
+              "end": 79,
+              "name": "entry",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

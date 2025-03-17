@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 86,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,15 +18,14 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 13,
             "end": 86,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 18,
-              "decorators": [],
               "name": "Color",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "TSAsExpression",
@@ -42,79 +40,79 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 27,
                     "end": 37,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 27,
                       "end": 30,
-                      "decorators": [],
                       "name": "Red",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 32,
                       "end": 37,
-                      "raw": "\"Red\"",
-                      "value": "Red"
-                    }
+                      "value": "Red",
+                      "raw": "\"Red\""
+                    },
+                    "kind": "init",
+                    "optional": false
                   },
                   {
                     "type": "Property",
                     "start": 43,
                     "end": 57,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 43,
                       "end": 48,
-                      "decorators": [],
                       "name": "Green",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 50,
                       "end": 57,
-                      "raw": "\"Green\"",
-                      "value": "Green"
-                    }
+                      "value": "Green",
+                      "raw": "\"Green\""
+                    },
+                    "kind": "init",
+                    "optional": false
                   },
                   {
                     "type": "Property",
                     "start": 63,
                     "end": 75,
+                    "method": false,
+                    "shorthand": false,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
                       "start": 63,
                       "end": 67,
-                      "decorators": [],
                       "name": "Blue",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Literal",
                       "start": 69,
                       "end": 75,
-                      "raw": "\"Blue\"",
-                      "value": "Blue"
-                    }
+                      "value": "Blue",
+                      "raw": "\"Blue\""
+                    },
+                    "kind": "init",
+                    "optional": false
                   }
                 ]
               },
@@ -122,46 +120,47 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 81,
                 "end": 86,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 81,
                   "end": 86,
-                  "decorators": [],
                   "name": "const",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 88,
       "end": 120,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 95,
         "end": 120,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 100,
           "end": 105,
-          "decorators": [],
           "name": "Color",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeQuery",
           "start": 108,
@@ -170,42 +169,57 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 115,
             "end": 120,
-            "decorators": [],
             "name": "Color",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 121,
       "end": 160,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 128,
         "end": 160,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 133,
           "end": 139,
-          "decorators": [],
           "name": "Colors",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSIndexedAccessType",
           "start": 142,
           "end": 160,
+          "objectType": {
+            "type": "TSTypeReference",
+            "start": 142,
+            "end": 147,
+            "typeName": {
+              "type": "Identifier",
+              "start": 142,
+              "end": 147,
+              "name": "Color",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
+          },
           "indexType": {
             "type": "TSTypeOperator",
             "start": 148,
@@ -215,39 +229,25 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 154,
               "end": 159,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 154,
                 "end": 159,
-                "decorators": [],
                 "name": "Color",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          },
-          "objectType": {
-            "type": "TSTypeReference",
-            "start": 142,
-            "end": 147,
-            "typeArguments": null,
-            "typeName": {
-              "type": "Identifier",
-              "start": 142,
-              "end": 147,
-              "decorators": [],
-              "name": "Color",
-              "optional": false,
-              "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
           }
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "script",

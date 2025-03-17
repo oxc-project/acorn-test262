@@ -9,6 +9,48 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 28,
+      "id": {
+        "type": "Identifier",
+        "start": 13,
+        "end": 14,
+        "name": "E",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 18,
+          "end": 26,
+          "id": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 19,
+            "name": "e",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "UnaryExpression",
+            "start": 22,
+            "end": 26,
+            "operator": "-",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 23,
+              "end": 26,
+              "value": 10,
+              "raw": "0xA"
+            }
+          },
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": true,
       "body": {
         "type": "TSEnumBody",
         "start": 15,
@@ -18,43 +60,32 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 18,
             "end": 26,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 18,
               "end": 19,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "UnaryExpression",
               "start": 22,
               "end": 26,
+              "operator": "-",
+              "prefix": true,
               "argument": {
                 "type": "Literal",
                 "start": 23,
                 "end": 26,
-                "raw": "0xA",
-                "value": 10
-              },
-              "operator": "-",
-              "prefix": true
-            }
+                "value": 10,
+                "raw": "0xA"
+              }
+            },
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": true,
-      "id": {
-        "type": "Identifier",
-        "start": 13,
-        "end": 14,
-        "decorators": [],
-        "name": "E",
-        "optional": false,
-        "typeAnnotation": null
       }
     }
   ],

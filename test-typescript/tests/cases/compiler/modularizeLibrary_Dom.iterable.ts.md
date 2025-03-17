@@ -10,44 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 25,
       "end": 104,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 83,
-        "end": 104,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 89,
-            "end": 102,
-            "directive": null,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 89,
-              "end": 101,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 89,
-                "end": 96,
-                "decorators": [],
-                "name": "element",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 97,
-                "end": 101,
-                "decorators": [],
-                "name": "href",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 30,
@@ -57,62 +19,100 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 36,
             "end": 43,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 36,
               "end": 43,
-              "decorators": [],
               "name": "element",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
       "right": {
         "type": "CallExpression",
         "start": 47,
         "end": 81,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 47,
+          "end": 76,
+          "object": {
+            "type": "Identifier",
+            "start": 47,
+            "end": 55,
+            "name": "document",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 56,
+            "end": 76,
+            "name": "getElementsByTagName",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 77,
             "end": 80,
-            "raw": "\"a\"",
-            "value": "a"
+            "value": "a",
+            "raw": "\"a\""
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 47,
-          "end": 76,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 47,
-            "end": 55,
-            "decorators": [],
-            "name": "document",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 56,
-            "end": 76,
-            "decorators": [],
-            "name": "getElementsByTagName",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 83,
+        "end": 104,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 89,
+            "end": 102,
+            "expression": {
+              "type": "MemberExpression",
+              "start": 89,
+              "end": 101,
+              "object": {
+                "type": "Identifier",
+                "start": 89,
+                "end": 96,
+                "name": "element",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 97,
+                "end": 101,
+                "name": "href",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

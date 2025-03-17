@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 97,
         "end": 102,
-        "decorators": [],
         "name": "model",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 105,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 113,
           "end": 124,
-          "raw": "\"./greeter\"",
-          "value": "./greeter"
+          "value": "./greeter",
+          "raw": "\"./greeter\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -41,61 +41,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 130,
           "end": 169,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 130,
             "end": 132,
-            "decorators": [],
             "name": "el",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 135,
             "end": 169,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 135,
+              "end": 158,
+              "object": {
+                "type": "Identifier",
+                "start": 135,
+                "end": 143,
+                "name": "document",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 144,
+                "end": 158,
+                "name": "getElementById",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 159,
                 "end": 168,
-                "raw": "'content'",
-                "value": "content"
+                "value": "content",
+                "raw": "'content'"
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 135,
-              "end": 158,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 135,
-                "end": 143,
-                "decorators": [],
-                "name": "document",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 144,
-                "end": 158,
-                "decorators": [],
-                "name": "getElementById",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -106,101 +106,101 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 175,
           "end": 206,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 175,
             "end": 182,
-            "decorators": [],
             "name": "greeter",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 185,
             "end": 206,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 189,
+              "end": 202,
+              "object": {
+                "type": "Identifier",
+                "start": 189,
+                "end": 194,
+                "name": "model",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 195,
+                "end": 202,
+                "name": "Greeter",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Identifier",
                 "start": 203,
                 "end": 205,
-                "decorators": [],
                 "name": "el",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 189,
-              "end": 202,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 189,
-                "end": 194,
-                "decorators": [],
-                "name": "model",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 195,
-                "end": 202,
-                "decorators": [],
-                "name": "Greeter",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 222,
       "end": 238,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 222,
         "end": 237,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 222,
           "end": 235,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 222,
             "end": 229,
-            "decorators": [],
             "name": "greeter",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 230,
             "end": 235,
-            "decorators": [],
             "name": "start",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

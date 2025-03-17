@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 1,
       "end": 171,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 16,
+        "end": 26,
+        "value": "punycode",
+        "raw": "\"punycode\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 27,
@@ -19,6 +25,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 33,
             "end": 141,
+            "id": {
+              "type": "Identifier",
+              "start": 43,
+              "end": 47,
+              "name": "ucs2",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 48,
@@ -28,27 +45,25 @@ __ESTREE_TEST__:PASS:
                   "type": "TSMethodSignature",
                   "start": 58,
                   "end": 89,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 58,
                     "end": 64,
-                    "decorators": [],
                     "name": "decode",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 65,
                       "end": 79,
-                      "decorators": [],
                       "name": "string",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 71,
@@ -58,10 +73,11 @@ __ESTREE_TEST__:PASS:
                           "start": 73,
                           "end": 79
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 80,
@@ -72,34 +88,33 @@ __ESTREE_TEST__:PASS:
                       "end": 88
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 },
                 {
                   "type": "TSMethodSignature",
                   "start": 98,
                   "end": 135,
-                  "accessibility": null,
-                  "computed": false,
                   "key": {
                     "type": "Identifier",
                     "start": 98,
                     "end": 104,
-                    "decorators": [],
                     "name": "encode",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "kind": "method",
+                  "computed": false,
                   "optional": false,
+                  "kind": "method",
+                  "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
                       "start": 105,
                       "end": 125,
-                      "decorators": [],
                       "name": "codePoints",
-                      "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 115,
@@ -114,10 +129,11 @@ __ESTREE_TEST__:PASS:
                             "end": 123
                           }
                         }
-                      }
+                      },
+                      "decorators": [],
+                      "optional": false
                     }
                   ],
-                  "readonly": false,
                   "returnType": {
                     "type": "TSTypeAnnotation",
                     "start": 126,
@@ -128,29 +144,18 @@ __ESTREE_TEST__:PASS:
                       "end": 134
                     }
                   },
-                  "static": false,
-                  "typeParameters": null
+                  "accessibility": null,
+                  "readonly": false,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 43,
-              "end": 47,
-              "decorators": [],
-              "name": "ucs2",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 147,
             "end": 169,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 154,
@@ -160,14 +165,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 158,
                   "end": 168,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 158,
                     "end": 168,
-                    "decorators": [],
                     "name": "ucs2",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 162,
@@ -176,40 +178,38 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 164,
                         "end": 168,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 164,
                           "end": 168,
-                          "decorators": [],
                           "name": "ucs2",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "kind": "let",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 16,
-        "end": 26,
-        "raw": "\"punycode\"",
-        "value": "punycode"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

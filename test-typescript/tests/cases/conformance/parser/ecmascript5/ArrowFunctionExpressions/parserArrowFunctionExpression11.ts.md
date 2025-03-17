@@ -9,84 +9,84 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 24,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 24,
-        "alternate": {
-          "type": "ArrowFunctionExpression",
-          "start": 18,
-          "end": 24,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 23,
-            "end": 24,
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "expression": true,
-          "generator": false,
-          "id": null,
-          "params": [
-            {
-              "type": "Identifier",
-              "start": 18,
-              "end": 19,
-              "decorators": [],
-              "name": "e",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          ],
-          "returnType": null,
-          "typeParameters": null
+        "test": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "name": "a",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "consequent": {
           "type": "ConditionalExpression",
           "start": 4,
           "end": 15,
-          "alternate": {
+          "test": {
             "type": "Identifier",
-            "start": 13,
-            "end": 14,
+            "start": 4,
+            "end": 5,
+            "name": "b",
+            "typeAnnotation": null,
             "decorators": [],
-            "name": "d",
-            "optional": false,
-            "typeAnnotation": null
+            "optional": false
           },
           "consequent": {
             "type": "Identifier",
             "start": 8,
             "end": 9,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "test": {
-            "type": "Identifier",
-            "start": 4,
-            "end": 5,
+            "typeAnnotation": null,
             "decorators": [],
-            "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "optional": false
+          },
+          "alternate": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 14,
+            "name": "d",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
-        "test": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 1,
-          "decorators": [],
-          "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+        "alternate": {
+          "type": "ArrowFunctionExpression",
+          "start": 18,
+          "end": 24,
+          "id": null,
+          "expression": true,
+          "generator": false,
+          "async": false,
+          "params": [
+            {
+              "type": "Identifier",
+              "start": 18,
+              "end": 19,
+              "name": "e",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          ],
+          "body": {
+            "type": "Identifier",
+            "start": 23,
+            "end": 24,
+            "name": "f",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
+          "returnType": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

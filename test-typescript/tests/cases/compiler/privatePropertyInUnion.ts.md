@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 22,
       "end": 50,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 27,
         "end": 31,
-        "decorators": [],
         "name": "Type",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 34,
@@ -36,13 +36,22 @@ __ESTREE_TEST__:PASS:
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 52,
       "end": 100,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 58,
+        "end": 72,
+        "name": "SyncableObject",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 73,
@@ -52,24 +61,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 77,
             "end": 98,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 85,
               "end": 88,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 88,
@@ -80,47 +89,31 @@ __ESTREE_TEST__:PASS:
                 "end": 97
               }
             },
-            "value": null
+            "accessibility": "private"
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 58,
-        "end": 72,
-        "decorators": [],
-        "name": "SyncableObject",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 102,
       "end": 153,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 151,
-        "end": 153,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
       "id": {
         "type": "Identifier",
         "start": 112,
         "end": 123,
-        "decorators": [],
         "name": "SyncableRef",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "extends": [],
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 123,
@@ -130,49 +123,58 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 124,
             "end": 149,
-            "const": false,
-            "constraint": {
-              "type": "TSTypeReference",
-              "start": 134,
-              "end": 149,
-              "typeArguments": null,
-              "typeName": {
-                "type": "Identifier",
-                "start": 134,
-                "end": 149,
-                "decorators": [],
-                "name": "ISyncableObject",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "default": null,
-            "in": false,
             "name": {
               "type": "Identifier",
               "start": 124,
               "end": 125,
-              "decorators": [],
               "name": "T",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "out": false
+            "constraint": {
+              "type": "TSTypeReference",
+              "start": 134,
+              "end": 149,
+              "typeName": {
+                "type": "Identifier",
+                "start": 134,
+                "end": 149,
+                "name": "ISyncableObject",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
+            },
+            "default": null,
+            "in": false,
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 151,
+        "end": 153,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 155,
       "end": 218,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 216,
-        "end": 218,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 165,
+        "end": 180,
+        "name": "ISyncableObject",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "declare": false,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -182,23 +184,14 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 201,
             "end": 215,
-            "decorators": [],
             "name": "SyncableObject",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 165,
-        "end": 180,
-        "decorators": [],
-        "name": "ISyncableObject",
-        "optional": false,
-        "typeAnnotation": null
-      },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 180,
@@ -208,7 +201,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 181,
             "end": 191,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 181,
+              "end": 182,
+              "name": "T",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "constraint": null,
             "default": {
               "type": "TSObjectKeyword",
@@ -216,119 +217,31 @@ __ESTREE_TEST__:PASS:
               "end": 191
             },
             "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 181,
-              "end": 182,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 216,
+        "end": 218,
+        "body": []
+      },
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 220,
       "end": 323,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 225,
         "end": 246,
-        "decorators": [],
         "name": "__ValueDescriptorType",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeAnnotation": {
-        "type": "TSConditionalType",
-        "start": 276,
-        "end": 322,
-        "checkType": {
-          "type": "TSTypeReference",
-          "start": 276,
-          "end": 277,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 276,
-            "end": 277,
-            "decorators": [],
-            "name": "T",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "extendsType": {
-          "type": "TSTypeReference",
-          "start": 286,
-          "end": 301,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 286,
-            "end": 301,
-            "decorators": [],
-            "name": "ISyncableObject",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "falseType": {
-          "type": "TSTypeReference",
-          "start": 321,
-          "end": 322,
-          "typeArguments": null,
-          "typeName": {
-            "type": "Identifier",
-            "start": 321,
-            "end": 322,
-            "decorators": [],
-            "name": "T",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "trueType": {
-          "type": "TSTypeReference",
-          "start": 304,
-          "end": 318,
-          "typeArguments": {
-            "type": "TSTypeParameterInstantiation",
-            "start": 315,
-            "end": 318,
-            "params": [
-              {
-                "type": "TSTypeReference",
-                "start": 316,
-                "end": 317,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 316,
-                  "end": 317,
-                  "decorators": [],
-                  "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 304,
-            "end": 315,
-            "decorators": [],
-            "name": "SyncableRef",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
@@ -339,7 +252,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 247,
             "end": 272,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 247,
+              "end": 248,
+              "name": "T",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "constraint": {
               "type": "TSUnionType",
               "start": 257,
@@ -359,19 +280,98 @@ __ESTREE_TEST__:PASS:
             },
             "default": null,
             "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 247,
-              "end": 248,
-              "decorators": [],
-              "name": "T",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "typeAnnotation": {
+        "type": "TSConditionalType",
+        "start": 276,
+        "end": 322,
+        "checkType": {
+          "type": "TSTypeReference",
+          "start": 276,
+          "end": 277,
+          "typeName": {
+            "type": "Identifier",
+            "start": 276,
+            "end": 277,
+            "name": "T",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": null
+        },
+        "extendsType": {
+          "type": "TSTypeReference",
+          "start": 286,
+          "end": 301,
+          "typeName": {
+            "type": "Identifier",
+            "start": 286,
+            "end": 301,
+            "name": "ISyncableObject",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": null
+        },
+        "trueType": {
+          "type": "TSTypeReference",
+          "start": 304,
+          "end": 318,
+          "typeName": {
+            "type": "Identifier",
+            "start": 304,
+            "end": 315,
+            "name": "SyncableRef",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": {
+            "type": "TSTypeParameterInstantiation",
+            "start": 315,
+            "end": 318,
+            "params": [
+              {
+                "type": "TSTypeReference",
+                "start": 316,
+                "end": 317,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 316,
+                  "end": 317,
+                  "name": "T",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            ]
+          }
+        },
+        "falseType": {
+          "type": "TSTypeReference",
+          "start": 321,
+          "end": 322,
+          "typeName": {
+            "type": "Identifier",
+            "start": 321,
+            "end": 322,
+            "name": "T",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": null
+        }
+      },
+      "declare": false
     }
   ],
   "sourceType": "script",

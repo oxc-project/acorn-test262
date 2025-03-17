@@ -9,6 +9,37 @@ __ESTREE_TEST__:PASS:
       "type": "ForInStatement",
       "start": 0,
       "end": 34,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 4,
+        "end": 9,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 8,
+            "end": 9,
+            "id": {
+              "type": "Identifier",
+              "start": 8,
+              "end": 9,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "kind": "var",
+        "declare": false
+      },
+      "right": {
+        "type": "ObjectExpression",
+        "start": 13,
+        "end": 15,
+        "properties": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 17,
@@ -21,37 +52,6 @@ __ESTREE_TEST__:PASS:
             "label": null
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 4,
-        "end": 9,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 8,
-            "end": 9,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 9,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "var"
-      },
-      "right": {
-        "type": "ObjectExpression",
-        "start": 13,
-        "end": 15,
-        "properties": []
       }
     },
     {
@@ -62,6 +62,37 @@ __ESTREE_TEST__:PASS:
         "type": "ForInStatement",
         "start": 41,
         "end": 79,
+        "left": {
+          "type": "VariableDeclaration",
+          "start": 45,
+          "end": 50,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 49,
+              "end": 50,
+              "id": {
+                "type": "Identifier",
+                "start": 49,
+                "end": 50,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "init": null,
+              "definite": false
+            }
+          ],
+          "kind": "var",
+          "declare": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 54,
+          "end": 56,
+          "properties": []
+        },
         "body": {
           "type": "BlockStatement",
           "start": 58,
@@ -75,54 +106,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 73,
                 "end": 76,
-                "decorators": [],
                 "name": "ONE",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "left": {
-          "type": "VariableDeclaration",
-          "start": 45,
-          "end": 50,
-          "declarations": [
-            {
-              "type": "VariableDeclarator",
-              "start": 49,
-              "end": 50,
-              "definite": false,
-              "id": {
-                "type": "Identifier",
-                "start": 49,
-                "end": 50,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "init": null
-            }
-          ],
-          "declare": false,
-          "kind": "var"
-        },
-        "right": {
-          "type": "ObjectExpression",
-          "start": 54,
-          "end": 56,
-          "properties": []
         }
       },
       "label": {
         "type": "Identifier",
         "start": 36,
         "end": 39,
-        "decorators": [],
         "name": "ONE",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -137,6 +137,37 @@ __ESTREE_TEST__:PASS:
           "type": "ForInStatement",
           "start": 93,
           "end": 133,
+          "left": {
+            "type": "VariableDeclaration",
+            "start": 97,
+            "end": 102,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 101,
+                "end": 102,
+                "id": {
+                  "type": "Identifier",
+                  "start": 101,
+                  "end": 102,
+                  "name": "x",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "kind": "var",
+            "declare": false
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 106,
+            "end": 108,
+            "properties": []
+          },
           "body": {
             "type": "BlockStatement",
             "start": 110,
@@ -150,64 +181,33 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 125,
                   "end": 130,
-                  "decorators": [],
                   "name": "THREE",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ]
-          },
-          "left": {
-            "type": "VariableDeclaration",
-            "start": 97,
-            "end": 102,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 101,
-                "end": 102,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 101,
-                  "end": 102,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          "right": {
-            "type": "ObjectExpression",
-            "start": 106,
-            "end": 108,
-            "properties": []
           }
         },
         "label": {
           "type": "Identifier",
           "start": 86,
           "end": 91,
-          "decorators": [],
           "name": "THREE",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
       "label": {
         "type": "Identifier",
         "start": 81,
         "end": 84,
-        "decorators": [],
         "name": "TWO",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -218,6 +218,37 @@ __ESTREE_TEST__:PASS:
         "type": "ForInStatement",
         "start": 141,
         "end": 223,
+        "left": {
+          "type": "VariableDeclaration",
+          "start": 145,
+          "end": 150,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 149,
+              "end": 150,
+              "id": {
+                "type": "Identifier",
+                "start": 149,
+                "end": 150,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "init": null,
+              "definite": false
+            }
+          ],
+          "kind": "var",
+          "declare": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 154,
+          "end": 156,
+          "properties": []
+        },
         "body": {
           "type": "BlockStatement",
           "start": 158,
@@ -231,6 +262,37 @@ __ESTREE_TEST__:PASS:
                 "type": "ForInStatement",
                 "start": 174,
                 "end": 221,
+                "left": {
+                  "type": "VariableDeclaration",
+                  "start": 178,
+                  "end": 183,
+                  "declarations": [
+                    {
+                      "type": "VariableDeclarator",
+                      "start": 182,
+                      "end": 183,
+                      "id": {
+                        "type": "Identifier",
+                        "start": 182,
+                        "end": 183,
+                        "name": "x",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "init": null,
+                      "definite": false
+                    }
+                  ],
+                  "kind": "var",
+                  "declare": false
+                },
+                "right": {
+                  "type": "ObjectExpression",
+                  "start": 187,
+                  "end": 189,
+                  "properties": []
+                },
                 "body": {
                   "type": "BlockStatement",
                   "start": 191,
@@ -244,104 +306,73 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 210,
                         "end": 214,
-                        "decorators": [],
                         "name": "FOUR",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     }
                   ]
-                },
-                "left": {
-                  "type": "VariableDeclaration",
-                  "start": 178,
-                  "end": 183,
-                  "declarations": [
-                    {
-                      "type": "VariableDeclarator",
-                      "start": 182,
-                      "end": 183,
-                      "definite": false,
-                      "id": {
-                        "type": "Identifier",
-                        "start": 182,
-                        "end": 183,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "init": null
-                    }
-                  ],
-                  "declare": false,
-                  "kind": "var"
-                },
-                "right": {
-                  "type": "ObjectExpression",
-                  "start": 187,
-                  "end": 189,
-                  "properties": []
                 }
               },
               "label": {
                 "type": "Identifier",
                 "start": 164,
                 "end": 168,
-                "decorators": [],
                 "name": "FIVE",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "left": {
-          "type": "VariableDeclaration",
-          "start": 145,
-          "end": 150,
-          "declarations": [
-            {
-              "type": "VariableDeclarator",
-              "start": 149,
-              "end": 150,
-              "definite": false,
-              "id": {
-                "type": "Identifier",
-                "start": 149,
-                "end": 150,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "init": null
-            }
-          ],
-          "declare": false,
-          "kind": "var"
-        },
-        "right": {
-          "type": "ObjectExpression",
-          "start": 154,
-          "end": 156,
-          "properties": []
         }
       },
       "label": {
         "type": "Identifier",
         "start": 135,
         "end": 139,
-        "decorators": [],
         "name": "FOUR",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "ForInStatement",
       "start": 225,
       "end": 289,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 229,
+        "end": 234,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 233,
+            "end": 234,
+            "id": {
+              "type": "Identifier",
+              "start": 233,
+              "end": 234,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "kind": "var",
+        "declare": false
+      },
+      "right": {
+        "type": "ObjectExpression",
+        "start": 238,
+        "end": 240,
+        "properties": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 242,
@@ -355,20 +386,6 @@ __ESTREE_TEST__:PASS:
               "type": "ForInStatement",
               "start": 257,
               "end": 287,
-              "body": {
-                "type": "ContinueStatement",
-                "start": 274,
-                "end": 287,
-                "label": {
-                  "type": "Identifier",
-                  "start": 283,
-                  "end": 286,
-                  "decorators": [],
-                  "name": "SIX",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
               "left": {
                 "type": "VariableDeclaration",
                 "start": 261,
@@ -378,71 +395,54 @@ __ESTREE_TEST__:PASS:
                     "type": "VariableDeclarator",
                     "start": 265,
                     "end": 266,
-                    "definite": false,
                     "id": {
                       "type": "Identifier",
                       "start": 265,
                       "end": 266,
-                      "decorators": [],
                       "name": "x",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "init": null
+                    "init": null,
+                    "definite": false
                   }
                 ],
-                "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "declare": false
               },
               "right": {
                 "type": "ObjectExpression",
                 "start": 270,
                 "end": 272,
                 "properties": []
+              },
+              "body": {
+                "type": "ContinueStatement",
+                "start": 274,
+                "end": 287,
+                "label": {
+                  "type": "Identifier",
+                  "start": 283,
+                  "end": 286,
+                  "name": "SIX",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
               }
             },
             "label": {
               "type": "Identifier",
               "start": 248,
               "end": 251,
-              "decorators": [],
               "name": "SIX",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 229,
-        "end": 234,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 233,
-            "end": 234,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 233,
-              "end": 234,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "var"
-      },
-      "right": {
-        "type": "ObjectExpression",
-        "start": 238,
-        "end": 240,
-        "properties": []
       }
     },
     {
@@ -453,92 +453,6 @@ __ESTREE_TEST__:PASS:
         "type": "ForInStatement",
         "start": 298,
         "end": 367,
-        "body": {
-          "type": "ForInStatement",
-          "start": 316,
-          "end": 367,
-          "body": {
-            "type": "ForInStatement",
-            "start": 334,
-            "end": 367,
-            "body": {
-              "type": "ContinueStatement",
-              "start": 352,
-              "end": 367,
-              "label": {
-                "type": "Identifier",
-                "start": 361,
-                "end": 366,
-                "decorators": [],
-                "name": "SEVEN",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "left": {
-              "type": "VariableDeclaration",
-              "start": 339,
-              "end": 344,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 343,
-                  "end": 344,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 343,
-                    "end": 344,
-                    "decorators": [],
-                    "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": null
-                }
-              ],
-              "declare": false,
-              "kind": "var"
-            },
-            "right": {
-              "type": "ObjectExpression",
-              "start": 348,
-              "end": 350,
-              "properties": []
-            }
-          },
-          "left": {
-            "type": "VariableDeclaration",
-            "start": 321,
-            "end": 326,
-            "declarations": [
-              {
-                "type": "VariableDeclarator",
-                "start": 325,
-                "end": 326,
-                "definite": false,
-                "id": {
-                  "type": "Identifier",
-                  "start": 325,
-                  "end": 326,
-                  "decorators": [],
-                  "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "init": null
-              }
-            ],
-            "declare": false,
-            "kind": "var"
-          },
-          "right": {
-            "type": "ObjectExpression",
-            "start": 330,
-            "end": 332,
-            "properties": []
-          }
-        },
         "left": {
           "type": "VariableDeclaration",
           "start": 303,
@@ -548,37 +462,123 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 307,
               "end": 308,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 307,
                 "end": 308,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "var"
+          "kind": "var",
+          "declare": false
         },
         "right": {
           "type": "ObjectExpression",
           "start": 312,
           "end": 314,
           "properties": []
+        },
+        "body": {
+          "type": "ForInStatement",
+          "start": 316,
+          "end": 367,
+          "left": {
+            "type": "VariableDeclaration",
+            "start": 321,
+            "end": 326,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 325,
+                "end": 326,
+                "id": {
+                  "type": "Identifier",
+                  "start": 325,
+                  "end": 326,
+                  "name": "x",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "init": null,
+                "definite": false
+              }
+            ],
+            "kind": "var",
+            "declare": false
+          },
+          "right": {
+            "type": "ObjectExpression",
+            "start": 330,
+            "end": 332,
+            "properties": []
+          },
+          "body": {
+            "type": "ForInStatement",
+            "start": 334,
+            "end": 367,
+            "left": {
+              "type": "VariableDeclaration",
+              "start": 339,
+              "end": 344,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 343,
+                  "end": 344,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 343,
+                    "end": 344,
+                    "name": "x",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "init": null,
+                  "definite": false
+                }
+              ],
+              "kind": "var",
+              "declare": false
+            },
+            "right": {
+              "type": "ObjectExpression",
+              "start": 348,
+              "end": 350,
+              "properties": []
+            },
+            "body": {
+              "type": "ContinueStatement",
+              "start": 352,
+              "end": 367,
+              "label": {
+                "type": "Identifier",
+                "start": 361,
+                "end": 366,
+                "name": "SEVEN",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            }
+          }
         }
       },
       "label": {
         "type": "Identifier",
         "start": 291,
         "end": 296,
-        "decorators": [],
         "name": "SEVEN",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -589,6 +589,37 @@ __ESTREE_TEST__:PASS:
         "type": "ForInStatement",
         "start": 376,
         "end": 445,
+        "left": {
+          "type": "VariableDeclaration",
+          "start": 381,
+          "end": 386,
+          "declarations": [
+            {
+              "type": "VariableDeclarator",
+              "start": 385,
+              "end": 386,
+              "id": {
+                "type": "Identifier",
+                "start": 385,
+                "end": 386,
+                "name": "x",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "init": null,
+              "definite": false
+            }
+          ],
+          "kind": "var",
+          "declare": false
+        },
+        "right": {
+          "type": "ObjectExpression",
+          "start": 390,
+          "end": 392,
+          "properties": []
+        },
         "body": {
           "type": "BlockStatement",
           "start": 393,
@@ -603,21 +634,24 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 403,
                   "end": 423,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 403,
                     "end": 405,
-                    "decorators": [],
                     "name": "fn",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "FunctionExpression",
                     "start": 408,
                     "end": 423,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "BlockStatement",
                       "start": 420,
@@ -625,17 +659,14 @@ __ESTREE_TEST__:PASS:
                       "body": []
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
             {
               "type": "ContinueStatement",
@@ -645,54 +676,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 437,
                 "end": 442,
-                "decorators": [],
                 "name": "EIGHT",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "left": {
-          "type": "VariableDeclaration",
-          "start": 381,
-          "end": 386,
-          "declarations": [
-            {
-              "type": "VariableDeclarator",
-              "start": 385,
-              "end": 386,
-              "definite": false,
-              "id": {
-                "type": "Identifier",
-                "start": 385,
-                "end": 386,
-                "decorators": [],
-                "name": "x",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "init": null
-            }
-          ],
-          "declare": false,
-          "kind": "var"
-        },
-        "right": {
-          "type": "ObjectExpression",
-          "start": 390,
-          "end": 392,
-          "properties": []
         }
       },
       "label": {
         "type": "Identifier",
         "start": 369,
         "end": 374,
-        "decorators": [],
         "name": "EIGHT",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

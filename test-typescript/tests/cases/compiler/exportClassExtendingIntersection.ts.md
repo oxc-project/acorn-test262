@@ -9,26 +9,51 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 55,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 7,
         "end": 55,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 12,
           "end": 23,
-          "decorators": [],
           "name": "Constructor",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "start": 23,
+          "end": 26,
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "start": 24,
+              "end": 25,
+              "name": {
+                "type": "Identifier",
+                "start": 24,
+                "end": 25,
+                "name": "T",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
+            }
+          ]
         },
         "typeAnnotation": {
           "type": "TSConstructorType",
           "start": 29,
           "end": 54,
           "abstract": false,
+          "typeParameters": null,
           "params": [
             {
               "type": "RestElement",
@@ -38,10 +63,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 37,
                 "end": 41,
-                "decorators": [],
                 "name": "args",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "decorators": [],
               "optional": false,
@@ -71,61 +96,44 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 53,
               "end": 54,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 53,
                 "end": 54,
-                "decorators": [],
                 "name": "T",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          },
-          "typeParameters": null
-        },
-        "typeParameters": {
-          "type": "TSTypeParameterDeclaration",
-          "start": 23,
-          "end": 26,
-          "params": [
-            {
-              "type": "TSTypeParameter",
-              "start": 24,
-              "end": 25,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 24,
-                "end": 25,
+                "typeAnnotation": null,
                 "decorators": [],
-                "name": "T",
-                "optional": false,
-                "typeAnnotation": null
+                "optional": false
               },
-              "out": false
+              "typeArguments": null
             }
-          ]
-        }
+          }
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 57,
       "end": 143,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 64,
         "end": 143,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 70,
+          "end": 81,
+          "name": "MyBaseClass",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 85,
@@ -135,24 +143,24 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 91,
               "end": 112,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 91,
                 "end": 103,
-                "decorators": [],
                 "name": "baseProperty",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": null,
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 103,
@@ -163,51 +171,38 @@ __ESTREE_TEST__:PASS:
                   "end": 111
                 }
               },
-              "value": null
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 117,
               "end": 141,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 117,
                 "end": 128,
-                "decorators": [],
                 "name": "constructor",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "constructor",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 128,
                 "end": 141,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 139,
-                  "end": 141,
-                  "body": []
-                },
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [
                   {
                     "type": "Identifier",
                     "start": 129,
                     "end": 137,
-                    "decorators": [],
                     "name": "value",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 134,
@@ -216,40 +211,40 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 136,
                         "end": 137,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 136,
                           "end": 137,
-                          "decorators": [],
                           "name": "T",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 139,
+                  "end": 141,
+                  "body": []
+                },
+                "declare": false,
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 70,
-          "end": 81,
-          "decorators": [],
-          "name": "MyBaseClass",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 81,
@@ -259,27 +254,32 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 82,
               "end": 83,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 82,
                 "end": 83,
-                "decorators": [],
                 "name": "T",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "out": false
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "implements": [],
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -297,15 +297,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 55,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 54,
-        "raw": "'./BaseClass'",
-        "value": "./BaseClass"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -315,21 +306,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "Constructor",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "Constructor",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -339,33 +330,52 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 22,
             "end": 33,
-            "decorators": [],
             "name": "MyBaseClass",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 22,
             "end": 33,
-            "decorators": [],
             "name": "MyBaseClass",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 54,
+        "value": "./BaseClass",
+        "raw": "'./BaseClass'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 57,
       "end": 112,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 64,
         "end": 112,
+        "id": {
+          "type": "Identifier",
+          "start": 74,
+          "end": 81,
+          "name": "MyMixin",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 82,
@@ -375,20 +385,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 88,
               "end": 110,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 88,
                 "end": 101,
-                "decorators": [],
                 "name": "mixinProperty",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 101,
@@ -398,37 +406,69 @@ __ESTREE_TEST__:PASS:
                   "start": 103,
                   "end": 109
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 74,
-          "end": 81,
-          "decorators": [],
-          "name": "MyMixin",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 114,
       "end": 286,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 121,
         "end": 286,
+        "id": {
+          "type": "Identifier",
+          "start": 130,
+          "end": 137,
+          "name": "MyMixin",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 179,
+            "end": 186,
+            "name": "base",
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 183,
+              "end": 186,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 185,
+                "end": 186,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 185,
+                  "end": 186,
+                  "name": "T",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
+            },
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 214,
@@ -442,7 +482,16 @@ __ESTREE_TEST__:PASS:
                 "type": "ClassExpression",
                 "start": 227,
                 "end": 284,
-                "abstract": false,
+                "id": null,
+                "superClass": {
+                  "type": "Identifier",
+                  "start": 241,
+                  "end": 245,
+                  "name": "base",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "body": {
                   "type": "ClassBody",
                   "start": 246,
@@ -452,24 +501,24 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 256,
                       "end": 278,
-                      "accessibility": null,
+                      "static": false,
                       "computed": false,
-                      "declare": false,
-                      "decorators": [],
-                      "definite": false,
                       "key": {
                         "type": "Identifier",
                         "start": 256,
                         "end": 269,
-                        "decorators": [],
                         "name": "mixinProperty",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
+                      "value": null,
+                      "decorators": [],
+                      "declare": false,
                       "override": false,
+                      "optional": false,
+                      "definite": false,
                       "readonly": false,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 269,
@@ -480,71 +529,93 @@ __ESTREE_TEST__:PASS:
                           "end": 277
                         }
                       },
-                      "value": null
+                      "accessibility": null
                     }
                   ]
                 },
-                "declare": false,
                 "decorators": [],
-                "id": null,
+                "typeParameters": null,
                 "implements": [],
-                "superClass": {
-                  "type": "Identifier",
-                  "start": 241,
-                  "end": 245,
-                  "decorators": [],
-                  "name": "base",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "superTypeArguments": null,
-                "typeParameters": null
+                "abstract": false,
+                "declare": false,
+                "superTypeArguments": null
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 130,
-          "end": 137,
-          "decorators": [],
-          "name": "MyMixin",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 179,
-            "end": 186,
-            "decorators": [],
-            "name": "base",
-            "optional": false,
-            "typeAnnotation": {
-              "type": "TSTypeAnnotation",
-              "start": 183,
-              "end": 186,
-              "typeAnnotation": {
+        "typeParameters": {
+          "type": "TSTypeParameterDeclaration",
+          "start": 137,
+          "end": 178,
+          "params": [
+            {
+              "type": "TSTypeParameter",
+              "start": 138,
+              "end": 177,
+              "name": {
+                "type": "Identifier",
+                "start": 138,
+                "end": 139,
+                "name": "T",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "constraint": {
                 "type": "TSTypeReference",
-                "start": 185,
-                "end": 186,
-                "typeArguments": null,
+                "start": 148,
+                "end": 177,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 185,
-                  "end": 186,
+                  "start": 148,
+                  "end": 159,
+                  "name": "Constructor",
+                  "typeAnnotation": null,
                   "decorators": [],
-                  "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "optional": false
+                },
+                "typeArguments": {
+                  "type": "TSTypeParameterInstantiation",
+                  "start": 159,
+                  "end": 177,
+                  "params": [
+                    {
+                      "type": "TSTypeReference",
+                      "start": 160,
+                      "end": 176,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 160,
+                        "end": 171,
+                        "name": "MyBaseClass",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": {
+                        "type": "TSTypeParameterInstantiation",
+                        "start": 171,
+                        "end": 176,
+                        "params": [
+                          {
+                            "type": "TSAnyKeyword",
+                            "start": 172,
+                            "end": 175
+                          }
+                        ]
+                      }
+                    }
+                  ]
                 }
-              }
+              },
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
-          }
-        ],
+          ]
+        },
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 187,
@@ -558,21 +629,30 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 189,
                 "end": 190,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 189,
                   "end": 190,
-                  "decorators": [],
                   "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               },
               {
                 "type": "TSTypeReference",
                 "start": 193,
                 "end": 213,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 193,
+                  "end": 204,
+                  "name": "Constructor",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 204,
@@ -582,108 +662,28 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 205,
                       "end": 212,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 205,
                         "end": 212,
-                        "decorators": [],
                         "name": "MyMixin",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 193,
-                  "end": 204,
-                  "decorators": [],
-                  "name": "Constructor",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
             ]
           }
-        },
-        "typeParameters": {
-          "type": "TSTypeParameterDeclaration",
-          "start": 137,
-          "end": 178,
-          "params": [
-            {
-              "type": "TSTypeParameter",
-              "start": 138,
-              "end": 177,
-              "const": false,
-              "constraint": {
-                "type": "TSTypeReference",
-                "start": 148,
-                "end": 177,
-                "typeArguments": {
-                  "type": "TSTypeParameterInstantiation",
-                  "start": 159,
-                  "end": 177,
-                  "params": [
-                    {
-                      "type": "TSTypeReference",
-                      "start": 160,
-                      "end": 176,
-                      "typeArguments": {
-                        "type": "TSTypeParameterInstantiation",
-                        "start": 171,
-                        "end": 176,
-                        "params": [
-                          {
-                            "type": "TSAnyKeyword",
-                            "start": 172,
-                            "end": 175
-                          }
-                        ]
-                      },
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 160,
-                        "end": 171,
-                        "decorators": [],
-                        "name": "MyBaseClass",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 148,
-                  "end": 159,
-                  "decorators": [],
-                  "name": "Constructor",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "default": null,
-              "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 138,
-                "end": 139,
-                "decorators": [],
-                "name": "T",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
-            }
-          ]
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -701,15 +701,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 28,
-        "end": 41,
-        "raw": "'./BaseClass'",
-        "value": "./BaseClass"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -719,37 +710,37 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "MyBaseClass",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 20,
-            "decorators": [],
             "name": "MyBaseClass",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 28,
+        "end": 41,
+        "value": "./BaseClass",
+        "raw": "'./BaseClass'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 43,
       "end": 82,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 67,
-        "end": 81,
-        "raw": "'./MixinClass'",
-        "value": "./MixinClass"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -759,34 +750,77 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 52,
             "end": 59,
-            "decorators": [],
             "name": "MyMixin",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 52,
             "end": 59,
-            "decorators": [],
             "name": "MyMixin",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 67,
+        "end": 81,
+        "value": "./MixinClass",
+        "raw": "'./MixinClass'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 84,
       "end": 188,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 91,
         "end": 188,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 97,
+          "end": 112,
+          "name": "MyExtendedClass",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": {
+          "type": "CallExpression",
+          "start": 121,
+          "end": 141,
+          "callee": {
+            "type": "Identifier",
+            "start": 121,
+            "end": 128,
+            "name": "MyMixin",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "arguments": [
+            {
+              "type": "Identifier",
+              "start": 129,
+              "end": 140,
+              "name": "MyBaseClass",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "typeArguments": null
+        },
         "body": {
           "type": "ClassBody",
           "start": 150,
@@ -796,24 +830,24 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 156,
               "end": 186,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 156,
                 "end": 177,
-                "decorators": [],
                 "name": "extendedClassProperty",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": null,
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 177,
@@ -824,49 +858,15 @@ __ESTREE_TEST__:PASS:
                   "end": 185
                 }
               },
-              "value": null
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 97,
-          "end": 112,
-          "decorators": [],
-          "name": "MyExtendedClass",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": {
-          "type": "CallExpression",
-          "start": 121,
-          "end": 141,
-          "arguments": [
-            {
-              "type": "Identifier",
-              "start": 129,
-              "end": 140,
-              "decorators": [],
-              "name": "MyBaseClass",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          ],
-          "callee": {
-            "type": "Identifier",
-            "start": 121,
-            "end": 128,
-            "decorators": [],
-            "name": "MyMixin",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "typeArguments": null
-        },
+        "abstract": false,
+        "declare": false,
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 141,
@@ -878,12 +878,12 @@ __ESTREE_TEST__:PASS:
               "end": 148
             }
           ]
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -901,15 +901,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 47,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 32,
-        "end": 46,
-        "raw": "'./FinalClass'",
-        "value": "./FinalClass"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -919,37 +910,37 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 24,
-            "decorators": [],
             "name": "MyExtendedClass",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 24,
-            "decorators": [],
             "name": "MyExtendedClass",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 32,
+        "end": 46,
+        "value": "./FinalClass",
+        "raw": "'./FinalClass'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 48,
       "end": 87,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 72,
-        "end": 86,
-        "raw": "'./MixinClass'",
-        "value": "./MixinClass"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -959,23 +950,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 57,
             "end": 64,
-            "decorators": [],
             "name": "MyMixin",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 57,
             "end": 64,
-            "decorators": [],
             "name": "MyMixin",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 72,
+        "end": 86,
+        "value": "./MixinClass",
+        "raw": "'./MixinClass'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -986,44 +986,44 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 95,
           "end": 142,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 95,
             "end": 110,
-            "decorators": [],
             "name": "myExtendedClass",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 113,
             "end": 142,
+            "callee": {
+              "type": "Identifier",
+              "start": 117,
+              "end": 132,
+              "name": "MyExtendedClass",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 133,
                 "end": 141,
-                "raw": "'string'",
-                "value": "string"
+                "value": "string",
+                "raw": "'string'"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 117,
-              "end": 132,
-              "decorators": [],
-              "name": "MyExtendedClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -1034,47 +1034,47 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 151,
           "end": 195,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 151,
             "end": 168,
-            "decorators": [],
             "name": "AnotherMixedClass",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 171,
             "end": 195,
+            "callee": {
+              "type": "Identifier",
+              "start": 171,
+              "end": 178,
+              "name": "MyMixin",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Identifier",
                 "start": 179,
                 "end": 194,
-                "decorators": [],
                 "name": "MyExtendedClass",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 171,
-              "end": 178,
-              "decorators": [],
-              "name": "MyMixin",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "module",

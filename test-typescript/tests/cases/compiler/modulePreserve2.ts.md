@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 24,
-            "decorators": [],
             "name": "cjs",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 17,
@@ -34,17 +31,20 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 19,
                   "end": 24,
-                  "raw": "\"cjs\"",
-                  "value": "cjs"
+                  "value": "cjs",
+                  "raw": "\"cjs\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "TSExportAssignment",
@@ -54,10 +54,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 35,
         "end": 38,
-        "decorators": [],
         "name": "cjs",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -76,15 +76,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 26,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 25,
-        "raw": "\"dep\"",
-        "value": "dep"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -94,23 +85,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 12,
-            "decorators": [],
             "name": "esm",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 12,
-            "decorators": [],
             "name": "esm",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 25,
+        "value": "dep",
+        "raw": "\"dep\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -120,12 +120,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 34,
         "end": 37,
-        "decorators": [],
         "name": "cjs",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 40,
@@ -134,10 +133,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 48,
           "end": 53,
-          "raw": "\"dep\"",
-          "value": "dep"
+          "value": "dep",
+          "raw": "\"dep\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

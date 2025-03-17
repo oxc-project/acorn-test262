@@ -13,6 +13,13 @@ __ESTREE_TEST__:PASS:
         "type": "SwitchStatement",
         "start": 25,
         "end": 259,
+        "discriminant": {
+          "type": "Literal",
+          "start": 46,
+          "end": 51,
+          "value": false,
+          "raw": "false"
+        },
         "cases": [
           {
             "type": "SwitchCase",
@@ -27,10 +34,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 137,
                   "end": 140,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ],
@@ -38,8 +45,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 89,
               "end": 94,
-              "raw": "false",
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           },
           {
@@ -65,27 +72,20 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 207,
               "end": 212,
-              "raw": "false",
-              "value": false
+              "value": false,
+              "raw": "false"
             }
           }
-        ],
-        "discriminant": {
-          "type": "Literal",
-          "start": 46,
-          "end": 51,
-          "raw": "false",
-          "value": false
-        }
+        ]
       },
       "label": {
         "type": "Identifier",
         "start": 7,
         "end": 10,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

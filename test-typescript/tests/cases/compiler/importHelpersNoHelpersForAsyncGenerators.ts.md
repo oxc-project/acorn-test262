@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 73,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 73,
+        "id": {
+          "type": "Identifier",
+          "start": 24,
+          "end": 25,
+          "name": "f",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": true,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 28,
@@ -24,7 +35,6 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 34,
               "end": 42,
-              "directive": null,
               "expression": {
                 "type": "AwaitExpression",
                 "start": 34,
@@ -33,39 +43,40 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 40,
                   "end": 41,
-                  "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "raw": "1"
                 }
-              }
+              },
+              "directive": null
             },
             {
               "type": "ExpressionStatement",
               "start": 47,
               "end": 55,
-              "directive": null,
               "expression": {
                 "type": "YieldExpression",
                 "start": 47,
                 "end": 54,
+                "delegate": false,
                 "argument": {
                   "type": "Literal",
                   "start": 53,
                   "end": 54,
-                  "raw": "2",
-                  "value": 2
-                },
-                "delegate": false
-              }
+                  "value": 2,
+                  "raw": "2"
+                }
+              },
+              "directive": null
             },
             {
               "type": "ExpressionStatement",
               "start": 60,
               "end": 71,
-              "directive": null,
               "expression": {
                 "type": "YieldExpression",
                 "start": 60,
                 "end": 70,
+                "delegate": true,
                 "argument": {
                   "type": "ArrayExpression",
                   "start": 67,
@@ -75,35 +86,24 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 68,
                       "end": 69,
-                      "raw": "3",
-                      "value": 3
+                      "value": 3,
+                      "raw": "3"
                     }
                   ]
-                },
-                "delegate": true
-              }
+                }
+              },
+              "directive": null
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": true,
-        "id": {
-          "type": "Identifier",
-          "start": 24,
-          "end": 25,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -121,11 +121,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 9,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

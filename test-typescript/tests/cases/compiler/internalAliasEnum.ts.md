@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 93,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "name": "a",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,11 +27,71 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 15,
             "end": 91,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 22,
               "end": 91,
+              "id": {
+                "type": "Identifier",
+                "start": 27,
+                "end": 34,
+                "name": "weekend",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 45,
+                  "end": 51,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 45,
+                    "end": 51,
+                    "name": "Friday",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 61,
+                  "end": 69,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 69,
+                    "name": "Saturday",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 79,
+                  "end": 85,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 79,
+                    "end": 85,
+                    "name": "Sunday",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": false,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 35,
@@ -32,87 +101,77 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 45,
                     "end": 51,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 45,
                       "end": 51,
-                      "decorators": [],
                       "name": "Friday",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 61,
                     "end": 69,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 61,
                       "end": 69,
-                      "decorators": [],
                       "name": "Saturday",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 79,
                     "end": 85,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 79,
                       "end": 85,
-                      "decorators": [],
                       "name": "Sunday",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 27,
-                "end": 34,
-                "decorators": [],
-                "name": "weekend",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "a",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 95,
       "end": 168,
+      "id": {
+        "type": "Identifier",
+        "start": 102,
+        "end": 103,
+        "name": "c",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 104,
@@ -126,12 +185,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 117,
               "end": 118,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 121,
@@ -140,27 +198,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 121,
                 "end": 122,
-                "decorators": [],
                 "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 123,
                 "end": 130,
-                "decorators": [],
                 "name": "weekend",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 136,
             "end": 166,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 143,
@@ -170,14 +228,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 147,
                   "end": 165,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 147,
                     "end": 154,
-                    "decorators": [],
                     "name": "bVal",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 151,
@@ -186,67 +241,62 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 153,
                         "end": 154,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 153,
                           "end": 154,
-                          "decorators": [],
                           "name": "b",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "MemberExpression",
                     "start": 157,
                     "end": 165,
-                    "computed": false,
                     "object": {
                       "type": "Identifier",
                       "start": 157,
                       "end": 158,
-                      "decorators": [],
                       "name": "b",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
                     "property": {
                       "type": "Identifier",
                       "start": 159,
                       "end": 165,
-                      "decorators": [],
                       "name": "Sunday",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 102,
-        "end": 103,
-        "decorators": [],
-        "name": "c",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

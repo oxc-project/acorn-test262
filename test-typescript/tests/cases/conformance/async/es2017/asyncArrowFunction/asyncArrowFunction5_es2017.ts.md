@@ -14,41 +14,41 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 45,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": true,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 17,
+                "end": 22,
+                "name": "await",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 42,
               "end": 45,
               "body": []
             },
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 17,
-                "end": 22,
-                "decorators": [],
-                "name": "await",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 23,
@@ -57,6 +57,15 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 25,
                 "end": 38,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 25,
+                  "end": 32,
+                  "name": "Promise",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
                   "start": 32,
@@ -68,24 +77,15 @@ __ESTREE_TEST__:PASS:
                       "end": 37
                     }
                   ]
-                },
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 25,
-                  "end": 32,
-                  "decorators": [],
-                  "name": "Promise",
-                  "optional": false,
-                  "typeAnnotation": null
                 }
               }
-            },
-            "typeParameters": null
-          }
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

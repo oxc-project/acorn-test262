@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 71,
           "end": 78,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 71,
             "end": 78,
-            "decorators": [],
             "name": "b",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 72,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 74,
                 "end": 78
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -48,26 +48,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 84,
           "end": 88,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 84,
             "end": 88,
-            "decorators": [],
             "name": "file",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 91,
       "end": 144,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 95,
+        "end": 105,
+        "left": {
+          "type": "Identifier",
+          "start": 95,
+          "end": 96,
+          "name": "b",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "===",
+        "right": {
+          "type": "Literal",
+          "start": 101,
+          "end": 105,
+          "value": null,
+          "raw": "null"
+        }
+      },
+      "consequent": {
+        "type": "BlockStatement",
+        "start": 107,
+        "end": 121,
+        "body": []
+      },
       "alternate": {
         "type": "BlockStatement",
         "start": 127,
@@ -77,7 +105,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 131,
             "end": 142,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 131,
@@ -87,18 +114,18 @@ __ESTREE_TEST__:PASS:
                 "type": "ArrayPattern",
                 "start": 131,
                 "end": 137,
-                "decorators": [],
                 "elements": [
                   {
                     "type": "Identifier",
                     "start": 132,
                     "end": 136,
-                    "decorators": [],
                     "name": "file",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
+                "decorators": [],
                 "optional": false,
                 "typeAnnotation": null
               },
@@ -106,58 +133,31 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 140,
                 "end": 141,
-                "decorators": [],
                 "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           }
         ]
-      },
-      "consequent": {
-        "type": "BlockStatement",
-        "start": 107,
-        "end": 121,
-        "body": []
-      },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 95,
-        "end": 105,
-        "operator": "===",
-        "left": {
-          "type": "Identifier",
-          "start": 95,
-          "end": 96,
-          "decorators": [],
-          "name": "b",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 101,
-          "end": 105,
-          "raw": "null",
-          "value": null
-        }
       }
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 151,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 146,
         "end": 150,
-        "decorators": [],
         "name": "file",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

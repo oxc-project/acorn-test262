@@ -14,98 +14,98 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "v",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 8,
             "end": 46,
-            "alternate": {
-              "type": "ConditionalExpression",
-              "start": 33,
-              "end": 46,
-              "alternate": {
-                "type": "Identifier",
-                "start": 45,
-                "end": 46,
-                "decorators": [],
-                "name": "g",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "consequent": {
-                "type": "Identifier",
-                "start": 41,
-                "end": 42,
-                "decorators": [],
-                "name": "f",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "test": {
-                "type": "Identifier",
-                "start": 33,
-                "end": 34,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
-              }
+            "test": {
+              "type": "Identifier",
+              "start": 8,
+              "end": 9,
+              "name": "a",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "consequent": {
               "type": "ConditionalExpression",
               "start": 15,
               "end": 28,
-              "alternate": {
+              "test": {
                 "type": "Identifier",
-                "start": 27,
-                "end": 28,
+                "start": 15,
+                "end": 16,
+                "name": "b",
+                "typeAnnotation": null,
                 "decorators": [],
-                "name": "e",
-                "optional": false,
-                "typeAnnotation": null
+                "optional": false
               },
               "consequent": {
                 "type": "Identifier",
                 "start": 23,
                 "end": 24,
-                "decorators": [],
                 "name": "d",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "test": {
-                "type": "Identifier",
-                "start": 15,
-                "end": 16,
+                "typeAnnotation": null,
                 "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "optional": false
+              },
+              "alternate": {
+                "type": "Identifier",
+                "start": 27,
+                "end": 28,
+                "name": "e",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             },
-            "test": {
-              "type": "Identifier",
-              "start": 8,
-              "end": 9,
-              "decorators": [],
-              "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+            "alternate": {
+              "type": "ConditionalExpression",
+              "start": 33,
+              "end": 46,
+              "test": {
+                "type": "Identifier",
+                "start": 33,
+                "end": 34,
+                "name": "c",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "consequent": {
+                "type": "Identifier",
+                "start": 41,
+                "end": 42,
+                "name": "f",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "alternate": {
+                "type": "Identifier",
+                "start": 45,
+                "end": 46,
+                "name": "g",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

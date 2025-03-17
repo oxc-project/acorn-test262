@@ -10,39 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 45,
       "await": false,
-      "body": {
-        "type": "VariableDeclaration",
-        "start": 35,
-        "end": 45,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 39,
-            "end": 44,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 39,
-              "end": 40,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": {
-              "type": "Identifier",
-              "start": 43,
-              "end": 44,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ],
-        "declare": false,
-        "kind": "var"
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
@@ -52,21 +19,21 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 9,
             "end": 10,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 9,
               "end": 10,
-              "decorators": [],
               "name": "v",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -77,24 +44,57 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 15,
             "end": 18,
-            "raw": "'a'",
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 20,
             "end": 23,
-            "raw": "'b'",
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 25,
             "end": 28,
-            "raw": "'c'",
-            "value": "c"
+            "value": "c",
+            "raw": "'c'"
           }
         ]
+      },
+      "body": {
+        "type": "VariableDeclaration",
+        "start": 35,
+        "end": 45,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 39,
+            "end": 44,
+            "id": {
+              "type": "Identifier",
+              "start": 39,
+              "end": 40,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": {
+              "type": "Identifier",
+              "start": 43,
+              "end": 44,
+              "name": "v",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "definite": false
+          }
+        ],
+        "kind": "var",
+        "declare": false
       }
     }
   ],

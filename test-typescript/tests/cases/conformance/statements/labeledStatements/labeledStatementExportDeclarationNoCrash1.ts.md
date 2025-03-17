@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 57,
       "end": 81,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 64,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 70,
             "end": 81,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 70,
               "end": 81,
-              "decorators": [],
               "name": "box",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 73,
@@ -36,17 +32,21 @@ __ESTREE_TEST__:PASS:
                   "start": 75,
                   "end": 81
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "LabeledStatement",
@@ -56,7 +56,6 @@ __ESTREE_TEST__:PASS:
         "type": "ExportNamedDeclaration",
         "start": 92,
         "end": 118,
-        "attributes": [],
         "declaration": {
           "type": "VariableDeclaration",
           "start": 99,
@@ -66,14 +65,11 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 105,
               "end": 118,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 105,
                 "end": 118,
-                "decorators": [],
                 "name": "title",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 110,
@@ -83,26 +79,30 @@ __ESTREE_TEST__:PASS:
                     "start": 112,
                     "end": 118
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "const"
+          "kind": "const",
+          "declare": false
         },
-        "exportKind": "value",
+        "specifiers": [],
         "source": null,
-        "specifiers": []
+        "attributes": [],
+        "exportKind": "value"
       },
       "label": {
         "type": "Identifier",
         "start": 82,
         "end": 90,
-        "decorators": [],
         "name": "subTitle",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

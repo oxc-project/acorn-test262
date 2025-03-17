@@ -9,21 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 24,
       "end": 63,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 41,
         "end": 51,
-        "decorators": [],
         "name": "myRandBool",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 53,
@@ -33,8 +34,7 @@ __ESTREE_TEST__:PASS:
           "start": 55,
           "end": 62
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "VariableDeclaration",
@@ -45,14 +45,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 69,
           "end": 87,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 69,
             "end": 77,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 70,
@@ -65,23 +62,26 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 72,
                   "end": 77,
-                  "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 81,
             "end": 86,
-            "raw": "\"foo\"",
-            "value": "foo"
-          }
+            "value": "foo",
+            "raw": "\"foo\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -92,14 +92,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 93,
           "end": 119,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 93,
             "end": 109,
-            "decorators": [],
             "name": "b",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 94,
@@ -117,8 +114,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 96,
                       "end": 101,
-                      "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "raw": "\"foo\""
                     }
                   },
                   {
@@ -129,25 +126,28 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 104,
                       "end": 109,
-                      "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "\"bar\""
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 113,
             "end": 118,
-            "raw": "\"foo\"",
-            "value": "foo"
-          }
+            "value": "foo",
+            "raw": "\"foo\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -158,14 +158,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 125,
           "end": 166,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 125,
             "end": 133,
-            "decorators": [],
             "name": "c",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 126,
@@ -178,44 +175,47 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 128,
                   "end": 133,
-                  "raw": "\"foo\"",
-                  "value": "foo"
+                  "value": "foo",
+                  "raw": "\"foo\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 137,
             "end": 165,
-            "alternate": {
-              "type": "Literal",
-              "start": 159,
-              "end": 164,
-              "raw": "\"foo\"",
-              "value": "foo"
+            "test": {
+              "type": "Identifier",
+              "start": 137,
+              "end": 147,
+              "name": "myRandBool",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "consequent": {
               "type": "Literal",
               "start": 150,
               "end": 155,
-              "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
-            "test": {
-              "type": "Identifier",
-              "start": 137,
-              "end": 147,
-              "decorators": [],
-              "name": "myRandBool",
-              "optional": false,
-              "typeAnnotation": null
+            "alternate": {
+              "type": "Literal",
+              "start": 159,
+              "end": 164,
+              "value": "foo",
+              "raw": "\"foo\""
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -226,14 +226,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 172,
           "end": 221,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 172,
             "end": 188,
-            "decorators": [],
             "name": "d",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 173,
@@ -251,8 +248,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 175,
                       "end": 180,
-                      "raw": "\"foo\"",
-                      "value": "foo"
+                      "value": "foo",
+                      "raw": "\"foo\""
                     }
                   },
                   {
@@ -263,46 +260,49 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 183,
                       "end": 188,
-                      "raw": "\"bar\"",
-                      "value": "bar"
+                      "value": "bar",
+                      "raw": "\"bar\""
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ConditionalExpression",
             "start": 192,
             "end": 220,
-            "alternate": {
-              "type": "Literal",
-              "start": 214,
-              "end": 219,
-              "raw": "\"bar\"",
-              "value": "bar"
+            "test": {
+              "type": "Identifier",
+              "start": 192,
+              "end": 202,
+              "name": "myRandBool",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "consequent": {
               "type": "Literal",
               "start": 205,
               "end": 210,
-              "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "raw": "\"foo\""
             },
-            "test": {
-              "type": "Identifier",
-              "start": 192,
-              "end": 202,
-              "decorators": [],
-              "name": "myRandBool",
-              "optional": false,
-              "typeAnnotation": null
+            "alternate": {
+              "type": "Literal",
+              "start": 214,
+              "end": 219,
+              "value": "bar",
+              "raw": "\"bar\""
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

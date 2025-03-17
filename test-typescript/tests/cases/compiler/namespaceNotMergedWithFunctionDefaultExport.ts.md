@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 68,
       "end": 293,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 83,
+        "end": 100,
+        "value": "replace-in-file",
+        "raw": "'replace-in-file'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 101,
@@ -19,33 +25,28 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 105,
             "end": 172,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 112,
               "end": 172,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 121,
                 "end": 134,
-                "decorators": [],
                 "name": "replaceInFile",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "expression": false,
+              "generator": false,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 135,
                   "end": 150,
-                  "decorators": [],
                   "name": "config",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 141,
@@ -55,9 +56,14 @@ __ESTREE_TEST__:PASS:
                       "start": 143,
                       "end": 150
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 151,
@@ -66,6 +72,15 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 153,
                   "end": 171,
+                  "typeName": {
+                    "type": "Identifier",
+                    "start": 153,
+                    "end": 160,
+                    "name": "Promise",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
                     "start": 160,
@@ -82,23 +97,14 @@ __ESTREE_TEST__:PASS:
                         }
                       }
                     ]
-                  },
-                  "typeName": {
-                    "type": "Identifier",
-                    "start": 153,
-                    "end": 160,
-                    "decorators": [],
-                    "name": "Promise",
-                    "optional": false,
-                    "typeAnnotation": null
                   }
                 }
-              },
-              "typeParameters": null
+              }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportDefaultDeclaration",
@@ -108,10 +114,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 190,
               "end": 203,
-              "decorators": [],
               "name": "replaceInFile",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "exportKind": "value"
           },
@@ -119,6 +125,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 208,
             "end": 291,
+            "id": {
+              "type": "Identifier",
+              "start": 218,
+              "end": 231,
+              "name": "replaceInFile",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 232,
@@ -128,33 +143,28 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 238,
                   "end": 287,
-                  "attributes": [],
                   "declaration": {
                     "type": "TSDeclareFunction",
                     "start": 245,
                     "end": 287,
-                    "async": false,
-                    "body": null,
-                    "declare": false,
-                    "expression": false,
-                    "generator": false,
                     "id": {
                       "type": "Identifier",
                       "start": 254,
                       "end": 258,
-                      "decorators": [],
                       "name": "sync",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
+                    "expression": false,
+                    "generator": false,
+                    "async": false,
                     "params": [
                       {
                         "type": "Identifier",
                         "start": 259,
                         "end": 274,
-                        "decorators": [],
                         "name": "config",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 265,
@@ -164,9 +174,14 @@ __ESTREE_TEST__:PASS:
                             "start": 267,
                             "end": 274
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
+                    "body": null,
+                    "declare": false,
+                    "typeParameters": null,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 275,
@@ -181,39 +196,24 @@ __ESTREE_TEST__:PASS:
                           "end": 284
                         }
                       }
-                    },
-                    "typeParameters": null
+                    }
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "attributes": [],
+                  "exportKind": "value"
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 218,
-              "end": 231,
-              "decorators": [],
-              "name": "replaceInFile",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 83,
-        "end": 100,
-        "raw": "'replace-in-file'",
-        "value": "replace-in-file"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

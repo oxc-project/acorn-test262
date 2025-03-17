@@ -9,12 +9,42 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 43,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 43,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 19,
+          "name": "add",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [
+          {
+            "type": "Identifier",
+            "start": 20,
+            "end": 21,
+            "name": "a",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          {
+            "type": "Identifier",
+            "start": 23,
+            "end": 24,
+            "name": "b",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          }
+        ],
         "body": {
           "type": "BlockStatement",
           "start": 26,
@@ -28,67 +58,37 @@ __ESTREE_TEST__:PASS:
                 "type": "BinaryExpression",
                 "start": 35,
                 "end": 40,
-                "operator": "+",
                 "left": {
                   "type": "Identifier",
                   "start": 35,
                   "end": 36,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "operator": "+",
                 "right": {
                   "type": "Identifier",
                   "start": 39,
                   "end": 40,
-                  "decorators": [],
                   "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 19,
-          "decorators": [],
-          "name": "add",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [
-          {
-            "type": "Identifier",
-            "start": 20,
-            "end": 21,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          {
-            "type": "Identifier",
-            "start": 23,
-            "end": 24,
-            "decorators": [],
-            "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        ],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -106,7 +106,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 63,
-      "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
         "start": 7,
@@ -115,12 +114,11 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 14,
           "end": 18,
-          "decorators": [],
           "name": "math",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
           "start": 21,
@@ -129,68 +127,70 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 29,
             "end": 61,
-            "raw": "\"exportImportMultipleFiles_math\"",
-            "value": "exportImportMultipleFiles_math"
+            "value": "exportImportMultipleFiles_math",
+            "raw": "\"exportImportMultipleFiles_math\""
           }
-        }
+        },
+        "importKind": "value"
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 64,
         "end": 78,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 64,
+          "end": 72,
+          "object": {
+            "type": "Identifier",
+            "start": 64,
+            "end": 68,
+            "name": "math",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 69,
+            "end": 72,
+            "name": "add",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 73,
             "end": 74,
-            "raw": "3",
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 76,
             "end": 77,
-            "raw": "4",
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 64,
-          "end": 72,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 64,
-            "end": 68,
-            "decorators": [],
-            "name": "math",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 69,
-            "end": 72,
-            "decorators": [],
-            "name": "add",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -212,12 +212,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 10,
-        "decorators": [],
         "name": "lib",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -226,80 +225,81 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 58,
-          "raw": "'./exportImportMultipleFiles_library'",
-          "value": "./exportImportMultipleFiles_library"
+          "value": "./exportImportMultipleFiles_library",
+          "raw": "'./exportImportMultipleFiles_library'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 61,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 61,
         "end": 79,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 61,
+          "end": 73,
+          "object": {
+            "type": "MemberExpression",
+            "start": 61,
+            "end": 69,
+            "object": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 64,
+              "name": "lib",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 65,
+              "end": 69,
+              "name": "math",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 70,
+            "end": 73,
+            "name": "add",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 74,
             "end": 75,
-            "raw": "3",
-            "value": 3
+            "value": 3,
+            "raw": "3"
           },
           {
             "type": "Literal",
             "start": 77,
             "end": 78,
-            "raw": "4",
-            "value": 4
+            "value": 4,
+            "raw": "4"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 61,
-          "end": 73,
-          "computed": false,
-          "object": {
-            "type": "MemberExpression",
-            "start": 61,
-            "end": 69,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 64,
-              "decorators": [],
-              "name": "lib",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 65,
-              "end": 69,
-              "decorators": [],
-              "name": "math",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 70,
-            "end": 73,
-            "decorators": [],
-            "name": "add",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

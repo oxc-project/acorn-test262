@@ -9,21 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 18,
-      "directive": null,
       "expression": {
         "type": "NewExpression",
         "start": 0,
         "end": 17,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 4,
           "end": 7,
-          "decorators": [],
           "name": "Map",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 7,
@@ -36,7 +35,8 @@ __ESTREE_TEST__:PASS:
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

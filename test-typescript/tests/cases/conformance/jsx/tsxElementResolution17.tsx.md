@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 78,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "name": "JSX",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -18,68 +27,65 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 22,
             "end": 43,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 39,
+              "name": "Element",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 40,
               "end": 43,
               "body": []
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 39,
-              "decorators": [],
-              "name": "Element",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "TSInterfaceDeclaration",
             "start": 45,
             "end": 76,
+            "id": {
+              "type": "Identifier",
+              "start": 55,
+              "end": 72,
+              "name": "IntrinsicElements",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 73,
               "end": 76,
               "body": []
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 55,
-              "end": 72,
-              "decorators": [],
-              "name": "IntrinsicElements",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "JSX",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 80,
       "end": 133,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 95,
+        "end": 106,
+        "value": "elements1",
+        "raw": "'elements1'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 107,
@@ -89,46 +95,46 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 110,
             "end": 131,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 116,
+              "end": 125,
+              "name": "MyElement",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 126,
               "end": 131,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 116,
-              "end": 125,
-              "decorators": [],
-              "name": "MyElement",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 95,
-        "end": 106,
-        "raw": "'elements1'",
-        "value": "elements1"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 135,
       "end": 188,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 150,
+        "end": 161,
+        "value": "elements2",
+        "raw": "'elements2'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 162,
@@ -138,40 +144,34 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 165,
             "end": 186,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 171,
+              "end": 180,
+              "name": "MyElement",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 181,
               "end": 186,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 171,
-              "end": 180,
-              "decorators": [],
-              "name": "MyElement",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 150,
-        "end": 161,
-        "raw": "'elements2'",
-        "value": "elements2"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -193,12 +193,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 71,
         "end": 73,
-        "decorators": [],
         "name": "s1",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 76,
@@ -207,10 +206,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 84,
           "end": 95,
-          "raw": "'elements1'",
-          "value": "elements1"
+          "value": "elements1",
+          "raw": "'elements1'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -220,12 +220,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 105,
         "end": 107,
-        "decorators": [],
         "name": "s2",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 110,
@@ -234,22 +233,20 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 118,
           "end": 129,
-          "raw": "'elements2'",
-          "value": "elements2"
+          "value": "elements2",
+          "raw": "'elements2'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 132,
       "end": 149,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 132,
         "end": 148,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 132,
@@ -274,8 +271,11 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

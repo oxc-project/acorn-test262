@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 130,
       "end": 186,
+      "id": {
+        "type": "Identifier",
+        "start": 140,
+        "end": 141,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 170,
@@ -19,36 +31,25 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 176,
             "end": 184,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 176,
               "end": 183,
+              "delegate": false,
               "argument": {
                 "type": "Literal",
                 "start": 182,
                 "end": 183,
-                "raw": "1",
-                "value": 1
-              },
-              "delegate": false
-            }
+                "value": 1,
+                "raw": "1"
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 140,
-        "end": 141,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 143,
@@ -57,6 +58,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 145,
           "end": 169,
+          "typeName": {
+            "type": "Identifier",
+            "start": 145,
+            "end": 161,
+            "name": "IterableIterator",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 161,
@@ -68,19 +78,9 @@ __ESTREE_TEST__:PASS:
                 "end": 168
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 145,
-            "end": 161,
-            "decorators": [],
-            "name": "IterableIterator",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

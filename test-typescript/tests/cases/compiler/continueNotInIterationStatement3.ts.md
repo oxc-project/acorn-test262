@@ -9,6 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 0,
       "end": 39,
+      "discriminant": {
+        "type": "Literal",
+        "start": 8,
+        "end": 9,
+        "value": 0,
+        "raw": "0"
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -24,14 +31,7 @@ __ESTREE_TEST__:PASS:
           ],
           "test": null
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 8,
-        "end": 9,
-        "raw": "0",
-        "value": 0
-      }
+      ]
     }
   ],
   "sourceType": "script",

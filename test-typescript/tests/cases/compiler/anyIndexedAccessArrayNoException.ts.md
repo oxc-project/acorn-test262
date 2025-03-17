@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 14,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -30,25 +27,28 @@ __ESTREE_TEST__:PASS:
                 "type": "TSIndexedAccessType",
                 "start": 7,
                 "end": 14,
+                "objectType": {
+                  "type": "TSAnyKeyword",
+                  "start": 7,
+                  "end": 10
+                },
                 "indexType": {
                   "type": "TSTupleType",
                   "start": 11,
                   "end": 13,
                   "elementTypes": []
-                },
-                "objectType": {
-                  "type": "TSAnyKeyword",
-                  "start": 7,
-                  "end": 10
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

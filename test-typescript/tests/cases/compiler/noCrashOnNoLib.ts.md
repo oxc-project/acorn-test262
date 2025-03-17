@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 91,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 91,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 17,
+          "name": "f",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 20,
@@ -29,14 +40,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 30,
                   "end": 37,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 30,
                     "end": 37,
-                    "decorators": [],
                     "name": "e",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 31,
@@ -52,18 +60,28 @@ __ESTREE_TEST__:PASS:
                           "members": []
                         }
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "kind": "let",
+              "declare": false
             },
             {
               "type": "WhileStatement",
               "start": 43,
               "end": 89,
+              "test": {
+                "type": "Literal",
+                "start": 50,
+                "end": 54,
+                "value": true,
+                "raw": "true"
+              },
               "body": {
                 "type": "BlockStatement",
                 "start": 56,
@@ -73,7 +91,6 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 64,
                     "end": 83,
-                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 64,
@@ -83,10 +100,10 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 64,
                         "end": 65,
-                        "decorators": [],
                         "name": "e",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "right": {
                         "type": "ArrayExpression",
@@ -101,16 +118,16 @@ __ESTREE_TEST__:PASS:
                               "type": "LogicalExpression",
                               "start": 73,
                               "end": 80,
-                              "operator": "||",
                               "left": {
                                 "type": "Identifier",
                                 "start": 73,
                                 "end": 74,
-                                "decorators": [],
                                 "name": "e",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               },
+                              "operator": "||",
                               "right": {
                                 "type": "ArrayExpression",
                                 "start": 78,
@@ -121,39 +138,22 @@ __ESTREE_TEST__:PASS:
                           }
                         ]
                       }
-                    }
+                    },
+                    "directive": null
                   }
                 ]
-              },
-              "test": {
-                "type": "Literal",
-                "start": 50,
-                "end": 54,
-                "raw": "true",
-                "value": true
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 17,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

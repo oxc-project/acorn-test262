@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 76,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 17,
@@ -19,15 +18,15 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 31,
             "end": 33,
-            "raw": "10",
-            "value": 10
+            "value": 10,
+            "raw": "10"
           },
           {
             "type": "Literal",
             "start": 56,
             "end": 58,
-            "raw": "20",
-            "value": 20
+            "value": 20,
+            "raw": "20"
           }
         ],
         "quasis": [
@@ -35,34 +34,35 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 17,
             "end": 30,
-            "tail": false,
             "value": {
               "cooked": " /**head  ",
               "raw": " /**head  "
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 34,
             "end": 55,
-            "tail": false,
             "value": {
               "cooked": " // still middle  ",
               "raw": " // still middle  "
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 59,
             "end": 76,
-            "tail": true,
             "value": {
               "cooked": " /* still tail ",
               "raw": " /* still tail "
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",
