@@ -9,6 +9,35 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 19,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 9,
+        "name": "Bool",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 12,
+          "end": 17,
+          "id": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 17,
+            "name": "false",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": null,
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 10,
@@ -18,30 +47,19 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 12,
             "end": 17,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 12,
               "end": 17,
-              "decorators": [],
               "name": "false",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "initializer": null
+            "initializer": null,
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 9,
-        "decorators": [],
-        "name": "Bool",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -53,14 +71,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 39,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 27,
@@ -69,7 +84,6 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 29,
                 "end": 39,
-                "typeArguments": null,
                 "typeName": {
                   "type": "TSQualifiedName",
                   "start": 29,
@@ -78,53 +92,57 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 29,
                     "end": 33,
-                    "decorators": [],
                     "name": "Bool",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "right": {
                     "type": "Identifier",
                     "start": 34,
                     "end": 39,
-                    "decorators": [],
                     "name": "false",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
-                }
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 42,
             "end": 52,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 42,
               "end": 46,
-              "decorators": [],
               "name": "Bool",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 47,
               "end": 52,
-              "decorators": [],
               "name": "false",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

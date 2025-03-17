@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 45,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 45,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -35,37 +32,36 @@ __ESTREE_TEST__:PASS:
                     "type": "TSMethodSignature",
                     "start": 13,
                     "end": 43,
-                    "accessibility": null,
-                    "computed": true,
                     "key": {
                       "type": "MemberExpression",
                       "start": 14,
                       "end": 32,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 14,
                         "end": 20,
-                        "decorators": [],
                         "name": "Symbol",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 21,
                         "end": 32,
-                        "decorators": [],
                         "name": "toPrimitive",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
                     },
-                    "kind": "method",
+                    "computed": true,
                     "optional": false,
+                    "kind": "method",
+                    "typeParameters": null,
                     "params": [],
-                    "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
                       "start": 35,
@@ -76,18 +72,22 @@ __ESTREE_TEST__:PASS:
                         "end": 43
                       }
                     },
-                    "static": false,
-                    "typeParameters": null
+                    "accessibility": null,
+                    "readonly": false,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

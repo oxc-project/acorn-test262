@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 71,
+      "id": {
+        "type": "Identifier",
+        "start": 29,
+        "end": 37,
+        "name": "_default",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 38,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 42,
             "end": 69,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 49,
@@ -28,14 +36,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 55,
                   "end": 68,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 55,
                     "end": 68,
-                    "decorators": [],
                     "name": "POINT",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 60,
@@ -45,32 +50,27 @@ __ESTREE_TEST__:PASS:
                         "start": 62,
                         "end": 68
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 29,
-        "end": 37,
-        "decorators": [],
-        "name": "_default",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -80,10 +80,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 87,
         "end": 95,
-        "decorators": [],
         "name": "_default",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }

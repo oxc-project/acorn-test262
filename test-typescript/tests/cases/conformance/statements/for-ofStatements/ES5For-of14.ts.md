@@ -10,6 +10,37 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 38,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 5,
+        "end": 12,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 11,
+            "end": 12,
+            "id": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 12,
+              "name": "v",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "kind": "const",
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 16,
+        "end": 18,
+        "elements": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 20,
@@ -24,62 +55,31 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 30,
                 "end": 35,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 30,
                   "end": 31,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Identifier",
                   "start": 34,
                   "end": 35,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 5,
-        "end": 12,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 11,
-            "end": 12,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 11,
-              "end": 12,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "const"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 16,
-        "end": 18,
-        "elements": []
       }
     }
   ],

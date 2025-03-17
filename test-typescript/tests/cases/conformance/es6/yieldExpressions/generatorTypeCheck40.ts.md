@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 51,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "g",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 14,
@@ -19,58 +31,46 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 20,
             "end": 49,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 27,
+              "name": "C",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "YieldExpression",
+              "start": 37,
+              "end": 44,
+              "delegate": false,
+              "argument": {
+                "type": "Literal",
+                "start": 43,
+                "end": 44,
+                "value": 0,
+                "raw": "0"
+              }
+            },
             "body": {
               "type": "ClassBody",
               "start": 46,
               "end": 49,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 27,
-              "decorators": [],
-              "name": "C",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": {
-              "type": "YieldExpression",
-              "start": 37,
-              "end": 44,
-              "argument": {
-                "type": "Literal",
-                "start": 43,
-                "end": 44,
-                "raw": "0",
-                "value": 0
-              },
-              "delegate": false
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "g",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

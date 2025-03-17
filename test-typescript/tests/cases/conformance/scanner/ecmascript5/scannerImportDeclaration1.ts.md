@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 17,
-        "decorators": [],
         "name": "TypeScript",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 20,
@@ -27,21 +26,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 20,
           "end": 38,
-          "decorators": [],
           "name": "TypeScriptServices",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 39,
           "end": 49,
-          "decorators": [],
           "name": "TypeScript",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

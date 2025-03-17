@@ -9,12 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 26,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 26,
         "end": 77,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 32,
@@ -28,30 +31,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 73,
                 "end": 74,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 79,
       "end": 144,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 79,
         "end": 144,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 85,
@@ -65,30 +68,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 140,
                 "end": 141,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 146,
       "end": 228,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 146,
         "end": 228,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 152,
@@ -102,30 +105,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 224,
                 "end": 225,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 230,
       "end": 326,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 230,
         "end": 326,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 236,
@@ -139,19 +142,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 322,
                 "end": 323,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

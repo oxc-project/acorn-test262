@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 9,
-        "decorators": [],
         "name": "ts",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 12,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 20,
           "end": 32,
-          "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "raw": "\"typescript\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -40,12 +40,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 42,
         "end": 52,
-        "decorators": [],
         "name": "tsInternal",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 55,
@@ -54,10 +53,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 63,
           "end": 84,
-          "raw": "\"typescript-internal\"",
-          "value": "typescript-internal"
+          "value": "typescript-internal",
+          "raw": "\"typescript-internal\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -67,12 +67,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 94,
         "end": 109,
-        "decorators": [],
         "name": "tsserverlibrary",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 112,
@@ -81,10 +80,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 120,
           "end": 137,
-          "raw": "\"tsserverlibrary\"",
-          "value": "tsserverlibrary"
+          "value": "tsserverlibrary",
+          "raw": "\"tsserverlibrary\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -94,12 +94,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 147,
         "end": 170,
-        "decorators": [],
         "name": "tsserverlibraryInternal",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 173,
@@ -108,10 +107,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 181,
           "end": 207,
-          "raw": "\"tsserverlibrary-internal\"",
-          "value": "tsserverlibrary-internal"
+          "value": "tsserverlibrary-internal",
+          "raw": "\"tsserverlibrary-internal\""
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

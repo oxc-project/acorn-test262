@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 45,
       "end": 1075,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 51,
+        "end": 66,
+        "name": "IceCreamMonster",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 67,
@@ -19,24 +28,24 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 73,
             "end": 104,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 81,
               "end": 95,
-              "decorators": [],
               "name": "iceCreamFlavor",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 95,
@@ -47,30 +56,30 @@ __ESTREE_TEST__:PASS:
                 "end": 103
               }
             },
-            "value": null
+            "accessibility": "private"
           },
           {
             "type": "PropertyDefinition",
             "start": 109,
             "end": 143,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 117,
               "end": 134,
-              "decorators": [],
               "name": "iceCreamRemaining",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 134,
@@ -81,30 +90,30 @@ __ESTREE_TEST__:PASS:
                 "end": 142
               }
             },
-            "value": null
+            "accessibility": "private"
           },
           {
             "type": "PropertyDefinition",
             "start": 148,
             "end": 180,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 156,
               "end": 170,
-              "decorators": [],
               "name": "wantsSprinkles",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 170,
@@ -115,30 +124,30 @@ __ESTREE_TEST__:PASS:
                 "end": 179
               }
             },
-            "value": null
+            "accessibility": "private"
           },
           {
             "type": "PropertyDefinition",
             "start": 185,
             "end": 218,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 193,
               "end": 209,
-              "decorators": [],
               "name": "soundsWhenEating",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 209,
@@ -149,30 +158,30 @@ __ESTREE_TEST__:PASS:
                 "end": 217
               }
             },
-            "value": null
+            "accessibility": "private"
           },
           {
             "type": "PropertyDefinition",
             "start": 223,
             "end": 243,
-            "accessibility": "public",
+            "static": false,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 230,
               "end": 234,
-              "decorators": [],
               "name": "name",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
+            "value": null,
+            "decorators": [],
+            "declare": false,
             "override": false,
+            "optional": false,
+            "definite": false,
             "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 234,
@@ -183,260 +192,38 @@ __ESTREE_TEST__:PASS:
                 "end": 242
               }
             },
-            "value": null
+            "accessibility": "public"
           },
           {
             "type": "MethodDefinition",
             "start": 248,
             "end": 562,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 248,
               "end": 259,
-              "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 259,
               "end": 562,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 349,
-                "end": 562,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 359,
-                    "end": 396,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 359,
-                      "end": 395,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 359,
-                        "end": 378,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 359,
-                          "end": 363
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 364,
-                          "end": 378,
-                          "decorators": [],
-                          "name": "iceCreamFlavor",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 381,
-                        "end": 395,
-                        "decorators": [],
-                        "name": "iceCreamFlavor",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 405,
-                    "end": 434,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 405,
-                      "end": 433,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 405,
-                        "end": 427,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 405,
-                          "end": 409
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 410,
-                          "end": 427,
-                          "decorators": [],
-                          "name": "iceCreamRemaining",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 430,
-                        "end": 433,
-                        "raw": "100",
-                        "value": 100
-                      }
-                    }
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 443,
-                    "end": 480,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 443,
-                      "end": 479,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 443,
-                        "end": 462,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 443,
-                          "end": 447
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 448,
-                          "end": 462,
-                          "decorators": [],
-                          "name": "wantsSprinkles",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 465,
-                        "end": 479,
-                        "decorators": [],
-                        "name": "wantsSprinkles",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 489,
-                    "end": 530,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 489,
-                      "end": 529,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 489,
-                        "end": 510,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 489,
-                          "end": 493
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 494,
-                          "end": 510,
-                          "decorators": [],
-                          "name": "soundsWhenEating",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 513,
-                        "end": 529,
-                        "decorators": [],
-                        "name": "soundsWhenEating",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  },
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 539,
-                    "end": 556,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 539,
-                      "end": 555,
-                      "operator": "=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 539,
-                        "end": 548,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 539,
-                          "end": 543
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 544,
-                          "end": 548,
-                          "decorators": [],
-                          "name": "name",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 551,
-                        "end": 555,
-                        "decorators": [],
-                        "name": "name",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
+              "id": null,
               "expression": false,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 260,
                   "end": 282,
-                  "decorators": [],
                   "name": "iceCreamFlavor",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 274,
@@ -446,15 +233,15 @@ __ESTREE_TEST__:PASS:
                       "start": 276,
                       "end": 282
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 284,
                   "end": 307,
-                  "decorators": [],
                   "name": "wantsSprinkles",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 298,
@@ -464,15 +251,15 @@ __ESTREE_TEST__:PASS:
                       "start": 300,
                       "end": 307
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 309,
                   "end": 333,
-                  "decorators": [],
                   "name": "soundsWhenEating",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 325,
@@ -482,15 +269,15 @@ __ESTREE_TEST__:PASS:
                       "start": 327,
                       "end": 333
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 335,
                   "end": 347,
-                  "decorators": [],
                   "name": "name",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 339,
@@ -500,38 +287,279 @@ __ESTREE_TEST__:PASS:
                       "start": 341,
                       "end": 347
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 349,
+                "end": 562,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 359,
+                    "end": 396,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 359,
+                      "end": 395,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 359,
+                        "end": 378,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 359,
+                          "end": 363
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 364,
+                          "end": 378,
+                          "name": "iceCreamFlavor",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 381,
+                        "end": 395,
+                        "name": "iceCreamFlavor",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    },
+                    "directive": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 405,
+                    "end": 434,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 405,
+                      "end": 433,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 405,
+                        "end": 427,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 405,
+                          "end": 409
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 410,
+                          "end": 427,
+                          "name": "iceCreamRemaining",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 430,
+                        "end": 433,
+                        "value": 100,
+                        "raw": "100"
+                      }
+                    },
+                    "directive": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 443,
+                    "end": 480,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 443,
+                      "end": 479,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 443,
+                        "end": 462,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 443,
+                          "end": 447
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 448,
+                          "end": 462,
+                          "name": "wantsSprinkles",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 465,
+                        "end": 479,
+                        "name": "wantsSprinkles",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    },
+                    "directive": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 489,
+                    "end": 530,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 489,
+                      "end": 529,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 489,
+                        "end": 510,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 489,
+                          "end": 493
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 494,
+                          "end": 510,
+                          "name": "soundsWhenEating",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 513,
+                        "end": 529,
+                        "name": "soundsWhenEating",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    },
+                    "directive": null
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 539,
+                    "end": 556,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 539,
+                      "end": 555,
+                      "operator": "=",
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 539,
+                        "end": 548,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 539,
+                          "end": 543
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 544,
+                          "end": 548,
+                          "name": "name",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 551,
+                        "end": 555,
+                        "name": "name",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "declare": false,
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           },
           {
             "type": "MethodDefinition",
             "start": 794,
             "end": 1073,
-            "accessibility": "public",
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 801,
               "end": 812,
-              "decorators": [],
               "name": "eatIceCream",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 812,
               "end": 1073,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 813,
+                  "end": 827,
+                  "name": "amount",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 819,
+                    "end": 827,
+                    "typeAnnotation": {
+                      "type": "TSNumberKeyword",
+                      "start": 821,
+                      "end": 827
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 838,
@@ -541,7 +569,6 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 848,
                     "end": 881,
-                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 848,
@@ -551,38 +578,132 @@ __ESTREE_TEST__:PASS:
                         "type": "MemberExpression",
                         "start": 848,
                         "end": 870,
-                        "computed": false,
                         "object": {
                           "type": "ThisExpression",
                           "start": 848,
                           "end": 852
                         },
-                        "optional": false,
                         "property": {
                           "type": "Identifier",
                           "start": 853,
                           "end": 870,
-                          "decorators": [],
                           "name": "iceCreamRemaining",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
                       },
                       "right": {
                         "type": "Identifier",
                         "start": 874,
                         "end": 880,
-                        "decorators": [],
                         "name": "amount",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
-                    }
+                    },
+                    "directive": null
                   },
                   {
                     "type": "IfStatement",
                     "start": 890,
                     "end": 1067,
+                    "test": {
+                      "type": "BinaryExpression",
+                      "start": 894,
+                      "end": 921,
+                      "left": {
+                        "type": "MemberExpression",
+                        "start": 894,
+                        "end": 916,
+                        "object": {
+                          "type": "ThisExpression",
+                          "start": 894,
+                          "end": 898
+                        },
+                        "property": {
+                          "type": "Identifier",
+                          "start": 899,
+                          "end": 916,
+                          "name": "iceCreamRemaining",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": false,
+                        "optional": false
+                      },
+                      "operator": "<=",
+                      "right": {
+                        "type": "Literal",
+                        "start": 920,
+                        "end": 921,
+                        "value": 0,
+                        "raw": "0"
+                      }
+                    },
+                    "consequent": {
+                      "type": "BlockStatement",
+                      "start": 931,
+                      "end": 1008,
+                      "body": [
+                        {
+                          "type": "ExpressionStatement",
+                          "start": 945,
+                          "end": 972,
+                          "expression": {
+                            "type": "AssignmentExpression",
+                            "start": 945,
+                            "end": 971,
+                            "operator": "=",
+                            "left": {
+                              "type": "MemberExpression",
+                              "start": 945,
+                              "end": 967,
+                              "object": {
+                                "type": "ThisExpression",
+                                "start": 945,
+                                "end": 949
+                              },
+                              "property": {
+                                "type": "Identifier",
+                                "start": 950,
+                                "end": 967,
+                                "name": "iceCreamRemaining",
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "computed": false,
+                              "optional": false
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "start": 970,
+                              "end": 971,
+                              "value": 0,
+                              "raw": "0"
+                            }
+                          },
+                          "directive": null
+                        },
+                        {
+                          "type": "ReturnStatement",
+                          "start": 985,
+                          "end": 998,
+                          "argument": {
+                            "type": "Literal",
+                            "start": 992,
+                            "end": 997,
+                            "value": false,
+                            "raw": "false"
+                          }
+                        }
+                      ]
+                    },
                     "alternate": {
                       "type": "BlockStatement",
                       "start": 1030,
@@ -596,132 +717,17 @@ __ESTREE_TEST__:PASS:
                             "type": "Literal",
                             "start": 1051,
                             "end": 1056,
-                            "raw": "12345",
-                            "value": 12345
+                            "value": 12345,
+                            "raw": "12345"
                           }
                         }
                       ]
-                    },
-                    "consequent": {
-                      "type": "BlockStatement",
-                      "start": 931,
-                      "end": 1008,
-                      "body": [
-                        {
-                          "type": "ExpressionStatement",
-                          "start": 945,
-                          "end": 972,
-                          "directive": null,
-                          "expression": {
-                            "type": "AssignmentExpression",
-                            "start": 945,
-                            "end": 971,
-                            "operator": "=",
-                            "left": {
-                              "type": "MemberExpression",
-                              "start": 945,
-                              "end": 967,
-                              "computed": false,
-                              "object": {
-                                "type": "ThisExpression",
-                                "start": 945,
-                                "end": 949
-                              },
-                              "optional": false,
-                              "property": {
-                                "type": "Identifier",
-                                "start": 950,
-                                "end": 967,
-                                "decorators": [],
-                                "name": "iceCreamRemaining",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
-                            },
-                            "right": {
-                              "type": "Literal",
-                              "start": 970,
-                              "end": 971,
-                              "raw": "0",
-                              "value": 0
-                            }
-                          }
-                        },
-                        {
-                          "type": "ReturnStatement",
-                          "start": 985,
-                          "end": 998,
-                          "argument": {
-                            "type": "Literal",
-                            "start": 992,
-                            "end": 997,
-                            "raw": "false",
-                            "value": false
-                          }
-                        }
-                      ]
-                    },
-                    "test": {
-                      "type": "BinaryExpression",
-                      "start": 894,
-                      "end": 921,
-                      "operator": "<=",
-                      "left": {
-                        "type": "MemberExpression",
-                        "start": 894,
-                        "end": 916,
-                        "computed": false,
-                        "object": {
-                          "type": "ThisExpression",
-                          "start": 894,
-                          "end": 898
-                        },
-                        "optional": false,
-                        "property": {
-                          "type": "Identifier",
-                          "start": 899,
-                          "end": 916,
-                          "decorators": [],
-                          "name": "iceCreamRemaining",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 920,
-                        "end": 921,
-                        "raw": "0",
-                        "value": 0
-                      }
                     }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 813,
-                  "end": 827,
-                  "decorators": [],
-                  "name": "amount",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 819,
-                    "end": 827,
-                    "typeAnnotation": {
-                      "type": "TSNumberKeyword",
-                      "start": 821,
-                      "end": 827
-                    }
-                  }
-                }
-              ],
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 828,
@@ -731,27 +737,21 @@ __ESTREE_TEST__:PASS:
                   "start": 830,
                   "end": 837
                 }
-              },
-              "typeParameters": null
-            }
+              }
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 51,
-        "end": 66,
-        "decorators": [],
-        "name": "IceCreamMonster",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "VariableDeclaration",
@@ -762,14 +762,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1080,
           "end": 1110,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1080,
             "end": 1110,
-            "decorators": [],
             "name": "cookieMonster",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 1093,
@@ -778,30 +775,32 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 1095,
                 "end": 1110,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 1095,
                   "end": 1110,
-                  "decorators": [],
                   "name": "IceCreamMonster",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 1112,
       "end": 1204,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 1112,
@@ -811,57 +810,58 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 1112,
           "end": 1125,
-          "decorators": [],
           "name": "cookieMonster",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 1128,
           "end": 1203,
+          "callee": {
+            "type": "Identifier",
+            "start": 1132,
+            "end": 1147,
+            "name": "IceCreamMonster",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 1148,
               "end": 1164,
-              "raw": "\"Chocolate Chip\"",
-              "value": "Chocolate Chip"
+              "value": "Chocolate Chip",
+              "raw": "\"Chocolate Chip\""
             },
             {
               "type": "Literal",
               "start": 1166,
               "end": 1171,
-              "raw": "false",
-              "value": false
+              "value": false,
+              "raw": "false"
             },
             {
               "type": "Literal",
               "start": 1173,
               "end": 1184,
-              "raw": "\"COOOOOKIE\"",
-              "value": "COOOOOKIE"
+              "value": "COOOOOKIE",
+              "raw": "\"COOOOOKIE\""
             },
             {
               "type": "Literal",
               "start": 1186,
               "end": 1202,
-              "raw": "\"Cookie Monster\"",
-              "value": "Cookie Monster"
+              "value": "Cookie Monster",
+              "raw": "\"Cookie Monster\""
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 1132,
-            "end": 1147,
-            "decorators": [],
-            "name": "IceCreamMonster",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

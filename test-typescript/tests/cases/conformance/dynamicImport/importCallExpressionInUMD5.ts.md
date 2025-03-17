@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 17,
       "end": 56,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 24,
         "end": 56,
+        "id": {
+          "type": "Identifier",
+          "start": 33,
+          "end": 36,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 39,
@@ -28,31 +39,20 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 48,
                 "end": 53,
-                "raw": "\"foo\"",
-                "value": "foo"
+                "value": "foo",
+                "raw": "\"foo\""
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 33,
-          "end": 36,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -70,7 +70,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 56,
       "end": 179,
+      "id": {
+        "type": "Identifier",
+        "start": 71,
+        "end": 75,
+        "name": "func",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 78,
@@ -85,27 +97,27 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 90,
                 "end": 107,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 90,
                   "end": 101,
-                  "decorators": [],
                   "name": "packageName",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
                   "start": 104,
                   "end": 107,
-                  "raw": "'.'",
-                  "value": "."
-                }
+                  "value": ".",
+                  "raw": "'.'"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "kind": "const",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -116,15 +128,14 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 119,
                 "end": 176,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 119,
                   "end": 130,
-                  "decorators": [],
                   "name": "packageJson",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "AwaitExpression",
@@ -134,53 +145,42 @@ __ESTREE_TEST__:PASS:
                     "type": "ImportExpression",
                     "start": 139,
                     "end": 176,
-                    "options": null,
                     "source": {
                       "type": "BinaryExpression",
                       "start": 146,
                       "end": 175,
-                      "operator": "+",
                       "left": {
                         "type": "Identifier",
                         "start": 146,
                         "end": 157,
-                        "decorators": [],
                         "name": "packageName",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
+                      "operator": "+",
                       "right": {
                         "type": "Literal",
                         "start": 160,
                         "end": 175,
-                        "raw": "'/package.json'",
-                        "value": "/package.json"
+                        "value": "/package.json",
+                        "raw": "'/package.json'"
                       }
-                    }
+                    },
+                    "options": null
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "kind": "const",
+            "declare": false
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 71,
-        "end": 75,
-        "decorators": [],
-        "name": "func",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",

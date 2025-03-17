@@ -15,12 +15,6 @@ __ESTREE_TEST__:PASS:
           "start": 61,
           "end": 90,
           "await": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 88,
-            "end": 90,
-            "body": []
-          },
           "left": {
             "type": "VariableDeclaration",
             "start": 66,
@@ -30,30 +24,36 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 78,
                 "end": 80,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 78,
                   "end": 80,
-                  "decorators": [],
                   "name": "of",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "await using"
+            "kind": "await using",
+            "declare": false
           },
           "right": {
             "type": "Identifier",
             "start": 84,
             "end": 86,
-            "decorators": [],
             "name": "of",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "body": {
+            "type": "BlockStatement",
+            "start": 88,
+            "end": 90,
+            "body": []
           }
         },
         {

@@ -9,18 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "WhileStatement",
       "start": 6,
       "end": 48,
+      "test": {
+        "type": "Literal",
+        "start": 26,
+        "end": 31,
+        "value": false,
+        "raw": "false"
+      },
       "body": {
         "type": "BlockStatement",
         "start": 46,
         "end": 48,
         "body": []
-      },
-      "test": {
-        "type": "Literal",
-        "start": 26,
-        "end": 31,
-        "raw": "false",
-        "value": false
       }
     },
     {
@@ -37,8 +37,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 94,
         "end": 98,
-        "raw": "true",
-        "value": true
+        "value": true,
+        "raw": "true"
       }
     }
   ],

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 45,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,12 +18,10 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 11,
             "end": 44,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 11,
               "end": 25,
-              "decorators": [],
               "elements": [
                 null,
                 null,
@@ -32,15 +29,14 @@ __ESTREE_TEST__:PASS:
                   "type": "ArrayPattern",
                   "start": 14,
                   "end": 24,
-                  "decorators": [],
                   "elements": [
                     null,
                     {
                       "type": "ArrayPattern",
                       "start": 16,
                       "end": 18,
-                      "decorators": [],
                       "elements": [],
+                      "decorators": [],
                       "optional": false,
                       "typeAnnotation": null
                     },
@@ -49,16 +45,18 @@ __ESTREE_TEST__:PASS:
                       "type": "ArrayPattern",
                       "start": 20,
                       "end": 22,
-                      "decorators": [],
                       "elements": [],
+                      "decorators": [],
                       "optional": false,
                       "typeAnnotation": null
                     }
                   ],
+                  "decorators": [],
                   "optional": false,
                   "typeAnnotation": null
                 }
               ],
+              "decorators": [],
               "optional": false,
               "typeAnnotation": null
             },
@@ -70,25 +68,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 28,
                 "end": 37,
-                "decorators": [],
                 "name": "undefined",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 41,
                 "end": 44
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

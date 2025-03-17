@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 63,
           "end": 110,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 63,
             "end": 69,
-            "decorators": [],
             "name": "STATUS",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSAsExpression",
@@ -37,25 +36,25 @@ __ESTREE_TEST__:PASS:
                   "type": "Property",
                   "start": 78,
                   "end": 98,
+                  "method": false,
+                  "shorthand": false,
                   "computed": true,
                   "key": {
                     "type": "Literal",
                     "start": 79,
                     "end": 84,
-                    "raw": "\"404\"",
-                    "value": "404"
+                    "value": "404",
+                    "raw": "\"404\""
                   },
-                  "kind": "init",
-                  "method": false,
-                  "optional": false,
-                  "shorthand": false,
                   "value": {
                     "type": "Literal",
                     "start": 87,
                     "end": 98,
-                    "raw": "\"not found\"",
-                    "value": "not found"
-                  }
+                    "value": "not found",
+                    "raw": "\"not found\""
+                  },
+                  "kind": "init",
+                  "optional": false
                 }
               ]
             },
@@ -63,22 +62,23 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 105,
               "end": 110,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 105,
                 "end": 110,
-                "decorators": [],
                 "name": "const",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -89,27 +89,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 119,
           "end": 137,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 119,
             "end": 129,
-            "decorators": [],
             "name": "hundredStr",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 132,
             "end": 137,
-            "raw": "\"100\"",
-            "value": "100"
-          }
+            "value": "100",
+            "raw": "\"100\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -120,15 +120,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 145,
           "end": 174,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 145,
             "end": 148,
-            "decorators": [],
             "name": "obj",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -139,34 +138,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 153,
                 "end": 172,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
                   "start": 154,
                   "end": 164,
-                  "decorators": [],
                   "name": "hundredStr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 167,
                   "end": 172,
-                  "raw": "\"foo\"",
-                  "value": "foo"
-                }
+                  "value": "foo",
+                  "raw": "\"foo\""
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -177,27 +177,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 183,
           "end": 199,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 183,
             "end": 193,
-            "decorators": [],
             "name": "hundredNum",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 196,
             "end": 199,
-            "raw": "100",
-            "value": 100
-          }
+            "value": 100,
+            "raw": "100"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -208,15 +208,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 207,
           "end": 237,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 207,
             "end": 211,
-            "decorators": [],
             "name": "obj2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -227,34 +226,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 216,
                 "end": 235,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
                   "start": 217,
                   "end": 227,
-                  "decorators": [],
                   "name": "hundredNum",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 230,
                   "end": 235,
-                  "raw": "\"bar\"",
-                  "value": "bar"
-                }
+                  "value": "bar",
+                  "raw": "\"bar\""
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

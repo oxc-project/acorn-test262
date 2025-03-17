@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,27 +45,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 16,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
             "end": 17,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 20,
             "end": 21,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -76,58 +76,58 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 28,
           "end": 46,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 28,
             "end": 29,
-            "decorators": [],
             "name": "z",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "BinaryExpression",
             "start": 33,
             "end": 46,
-            "operator": "+",
             "left": {
               "type": "Identifier",
               "start": 33,
               "end": 34,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "operator": "+",
             "right": {
               "type": "UnaryExpression",
               "start": 39,
               "end": 46,
+              "operator": "+",
+              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 42,
                 "end": 46,
+                "operator": "+",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 45,
                   "end": 46,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "operator": "+",
-                "prefix": true
-              },
-              "operator": "+",
-              "prefix": true
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -138,27 +138,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 53,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 53,
             "end": 54,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 57,
             "end": 58,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -169,27 +169,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 65,
           "end": 70,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 65,
             "end": 66,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 69,
             "end": 70,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -200,58 +200,58 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 77,
           "end": 95,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 77,
             "end": 78,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "BinaryExpression",
             "start": 82,
             "end": 95,
-            "operator": "-",
             "left": {
               "type": "Identifier",
               "start": 82,
               "end": 83,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "operator": "-",
             "right": {
               "type": "UnaryExpression",
               "start": 88,
               "end": 95,
+              "operator": "-",
+              "prefix": true,
               "argument": {
                 "type": "UnaryExpression",
                 "start": 91,
                 "end": 95,
+                "operator": "-",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 94,
                   "end": 95,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "operator": "-",
-                "prefix": true
-              },
-              "operator": "-",
-              "prefix": true
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

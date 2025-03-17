@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 131,
+      "id": {
+        "type": "Identifier",
+        "start": 8,
+        "end": 14,
+        "name": "global",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 15,
@@ -18,11 +27,19 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 21,
             "end": 129,
-            "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
               "start": 28,
               "end": 129,
+              "id": {
+                "type": "Identifier",
+                "start": 38,
+                "end": 40,
+                "name": "ns",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "TSModuleBlock",
                 "start": 41,
@@ -32,26 +49,26 @@ __ESTREE_TEST__:PASS:
                     "type": "ExportNamedDeclaration",
                     "start": 51,
                     "end": 80,
-                    "attributes": [],
                     "declaration": {
                       "type": "TSDeclareFunction",
                       "start": 58,
                       "end": 80,
-                      "async": false,
-                      "body": null,
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": {
                         "type": "Identifier",
                         "start": 67,
                         "end": 71,
-                        "decorators": [],
                         "name": "eval",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
                       "params": [],
+                      "body": null,
+                      "declare": false,
+                      "typeParameters": null,
                       "returnType": {
                         "type": "TSTypeAnnotation",
                         "start": 73,
@@ -61,37 +78,37 @@ __ESTREE_TEST__:PASS:
                           "start": 75,
                           "end": 79
                         }
-                      },
-                      "typeParameters": null
+                      }
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   },
                   {
                     "type": "ExportNamedDeclaration",
                     "start": 89,
                     "end": 123,
-                    "attributes": [],
                     "declaration": {
                       "type": "TSDeclareFunction",
                       "start": 96,
                       "end": 123,
-                      "async": false,
-                      "body": null,
-                      "declare": false,
-                      "expression": false,
-                      "generator": false,
                       "id": {
                         "type": "Identifier",
                         "start": 105,
                         "end": 114,
-                        "decorators": [],
                         "name": "arguments",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
+                      "expression": false,
+                      "generator": false,
+                      "async": false,
                       "params": [],
+                      "body": null,
+                      "declare": false,
+                      "typeParameters": null,
                       "returnType": {
                         "type": "TSTypeAnnotation",
                         "start": 116,
@@ -101,66 +118,50 @@ __ESTREE_TEST__:PASS:
                           "start": 118,
                           "end": 122
                         }
-                      },
-                      "typeParameters": null
+                      }
                     },
-                    "exportKind": "value",
+                    "specifiers": [],
                     "source": null,
-                    "specifiers": []
+                    "attributes": [],
+                    "exportKind": "value"
                   }
                 ]
               },
+              "kind": "namespace",
               "declare": false,
-              "global": false,
-              "id": {
-                "type": "Identifier",
-                "start": 38,
-                "end": 40,
-                "decorators": [],
-                "name": "ns",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "kind": "namespace"
+              "global": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 8,
-        "end": 14,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "TSDeclareFunction",
       "start": 133,
       "end": 163,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 150,
         "end": 154,
-        "decorators": [],
         "name": "eval",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 156,
@@ -170,28 +171,28 @@ __ESTREE_TEST__:PASS:
           "start": 158,
           "end": 162
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSDeclareFunction",
       "start": 164,
       "end": 199,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 181,
         "end": 190,
-        "decorators": [],
         "name": "arguments",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 192,
@@ -201,18 +202,17 @@ __ESTREE_TEST__:PASS:
           "start": 194,
           "end": 198
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 201,
       "end": 210,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

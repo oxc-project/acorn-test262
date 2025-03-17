@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 717,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": "ph",
+        "raw": "'ph'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -19,6 +25,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 26,
             "end": 715,
+            "id": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 45,
+              "name": "constants",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 46,
@@ -33,14 +48,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 62,
                       "end": 95,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 62,
                         "end": 95,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_MAJOR",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 87,
@@ -50,13 +62,16 @@ __ESTREE_TEST__:PASS:
                             "start": 89,
                             "end": 95
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -67,14 +82,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 111,
                       "end": 144,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 111,
                         "end": 144,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_MINOR",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 136,
@@ -84,13 +96,16 @@ __ESTREE_TEST__:PASS:
                             "start": 138,
                             "end": 144
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -101,14 +116,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 160,
                       "end": 199,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 160,
                         "end": 199,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_INCREMENTAL",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 191,
@@ -118,13 +130,16 @@ __ESTREE_TEST__:PASS:
                             "start": 193,
                             "end": 199
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -135,14 +150,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 215,
                       "end": 249,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 215,
                         "end": 249,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_WEAKCB",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 241,
@@ -152,13 +164,16 @@ __ESTREE_TEST__:PASS:
                             "start": 243,
                             "end": 249
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -169,14 +184,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 265,
                       "end": 301,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 265,
                         "end": 301,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_NO",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 293,
@@ -186,13 +198,16 @@ __ESTREE_TEST__:PASS:
                             "start": 295,
                             "end": 301
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -203,14 +218,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 317,
                       "end": 369,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 317,
                         "end": 369,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_CONSTRUCT_RETAINED",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 361,
@@ -220,13 +232,16 @@ __ESTREE_TEST__:PASS:
                             "start": 363,
                             "end": 369
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -237,14 +252,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 385,
                       "end": 425,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 385,
                         "end": 425,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_FORCED",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 417,
@@ -254,13 +266,16 @@ __ESTREE_TEST__:PASS:
                             "start": 419,
                             "end": 425
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -271,14 +286,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 441,
                       "end": 505,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 441,
                         "end": 505,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_SYNCHRONOUS_PHANTOM_PROCESSING",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 497,
@@ -288,13 +300,16 @@ __ESTREE_TEST__:PASS:
                             "start": 499,
                             "end": 505
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -305,14 +320,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 521,
                       "end": 576,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 521,
                         "end": 576,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 568,
@@ -322,13 +334,16 @@ __ESTREE_TEST__:PASS:
                             "start": 570,
                             "end": 576
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -339,14 +354,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 592,
                       "end": 645,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 592,
                         "end": 645,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_ALL_EXTERNAL_MEMORY",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 637,
@@ -356,13 +368,16 @@ __ESTREE_TEST__:PASS:
                             "start": 639,
                             "end": 645
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 },
                 {
                   "type": "VariableDeclaration",
@@ -373,14 +388,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 661,
                       "end": 708,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 661,
                         "end": 708,
-                        "decorators": [],
                         "name": "NODE_PERFORMANCE_GC_FLAGS_SCHEDULE_IDLE",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 700,
@@ -390,46 +402,40 @@ __ESTREE_TEST__:PASS:
                             "start": 702,
                             "end": 708
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "const"
+                  "kind": "const",
+                  "declare": false
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 45,
-              "decorators": [],
-              "name": "constants",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "'ph'",
-        "value": "ph"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 718,
       "end": 770,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 733,
+        "end": 742,
+        "value": "node:ph",
+        "raw": "'node:ph'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 743,
@@ -439,28 +445,22 @@ __ESTREE_TEST__:PASS:
             "type": "ExportAllDeclaration",
             "start": 749,
             "end": 768,
-            "attributes": [],
             "exported": null,
-            "exportKind": "value",
             "source": {
               "type": "Literal",
               "start": 763,
               "end": 767,
-              "raw": "'ph'",
-              "value": "ph"
-            }
+              "value": "ph",
+              "raw": "'ph'"
+            },
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 733,
-        "end": 742,
-        "raw": "'node:ph'",
-        "value": "node:ph"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -478,15 +478,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 20,
-        "end": 29,
-        "raw": "'node:ph'",
-        "value": "node:ph"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -496,94 +487,103 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 14,
-            "decorators": [],
             "name": "ph",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 20,
+        "end": 29,
+        "value": "node:ph",
+        "raw": "'node:ph'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 30,
         "end": 103,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 30,
+          "end": 41,
+          "object": {
+            "type": "Identifier",
+            "start": 30,
+            "end": 37,
+            "name": "console",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 38,
+            "end": 41,
+            "name": "log",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "MemberExpression",
             "start": 42,
             "end": 102,
-            "computed": false,
             "object": {
               "type": "MemberExpression",
               "start": 42,
               "end": 54,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 42,
                 "end": 44,
-                "decorators": [],
                 "name": "ph",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 45,
                 "end": 54,
-                "decorators": [],
                 "name": "constants",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 55,
               "end": 102,
-              "decorators": [],
               "name": "NODE_PERFORMANCE_GC_FLAGS_ALL_AVAILABLE_GARBAGE",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 30,
-          "end": 41,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 30,
-            "end": 37,
-            "decorators": [],
-            "name": "console",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 38,
-            "end": 41,
-            "decorators": [],
-            "name": "log",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

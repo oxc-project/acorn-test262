@@ -9,24 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 1,
       "end": 16,
+      "id": {
+        "type": "Identifier",
+        "start": 11,
+        "end": 12,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 13,
         "end": 16,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 11,
-        "end": 12,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -37,21 +37,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 22,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
             "end": 23,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 26,
             "end": 52,
+            "id": {
+              "type": "Identifier",
+              "start": 35,
+              "end": 36,
+              "name": "f",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 39,
@@ -61,7 +72,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExpressionStatement",
                   "start": 45,
                   "end": 50,
-                  "directive": null,
                   "expression": {
                     "type": "TSTypeAssertion",
                     "start": 45,
@@ -70,50 +80,40 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 48,
                       "end": 49,
-                      "decorators": [],
                       "name": "f",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
                       "start": 46,
                       "end": 47,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 46,
                         "end": 47,
-                        "decorators": [],
                         "name": "f",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     }
-                  }
+                  },
+                  "directive": null
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 35,
-              "end": 36,
-              "decorators": [],
-              "name": "f",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

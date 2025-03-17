@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -24,14 +24,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 32,
-            "decorators": [],
             "name": "dec",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 27,
@@ -41,13 +38,16 @@ __ESTREE_TEST__:PASS:
                 "start": 29,
                 "end": 32
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -58,27 +58,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 41,
           "end": 54,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
             "end": 47,
-            "decorators": [],
             "name": "before",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 50,
             "end": 54,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "using"
+      "kind": "using",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -88,14 +88,22 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 77,
         "end": 88,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 83,
+          "end": 84,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 85,
           "end": 88,
           "body": []
         },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -105,26 +113,18 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 58,
               "end": 61,
-              "decorators": [],
               "name": "dec",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 83,
-          "end": 84,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 21,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 21,
-            "decorators": [],
             "name": "includes",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 12,
@@ -31,19 +28,21 @@ __ESTREE_TEST__:PASS:
                 "start": 14,
                 "end": 21
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 57,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 23,
@@ -53,57 +52,57 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 23,
           "end": 31,
-          "decorators": [],
           "name": "includes",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "CallExpression",
           "start": 34,
           "end": 56,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 34,
+            "end": 50,
+            "object": {
+              "type": "Literal",
+              "start": 34,
+              "end": 41,
+              "value": "abcde",
+              "raw": "\"abcde\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 42,
+              "end": 50,
+              "name": "includes",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 51,
               "end": 55,
-              "raw": "\"cd\"",
-              "value": "cd"
+              "value": "cd",
+              "raw": "\"cd\""
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 34,
-            "end": 50,
-            "computed": false,
-            "object": {
-              "type": "Literal",
-              "start": 34,
-              "end": 41,
-              "raw": "\"abcde\"",
-              "value": "abcde"
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 42,
-              "end": 50,
-              "decorators": [],
-              "name": "includes",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
           "optional": false,
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 95,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 58,
@@ -113,58 +112,59 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 58,
           "end": 66,
-          "decorators": [],
           "name": "includes",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "CallExpression",
           "start": 69,
           "end": 94,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 69,
+            "end": 85,
+            "object": {
+              "type": "Literal",
+              "start": 69,
+              "end": 76,
+              "value": "abcde",
+              "raw": "\"abcde\""
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 77,
+              "end": 85,
+              "name": "includes",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 86,
               "end": 90,
-              "raw": "\"cd\"",
-              "value": "cd"
+              "value": "cd",
+              "raw": "\"cd\""
             },
             {
               "type": "Literal",
               "start": 92,
               "end": 93,
-              "raw": "2",
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 69,
-            "end": 85,
-            "computed": false,
-            "object": {
-              "type": "Literal",
-              "start": 69,
-              "end": 76,
-              "raw": "\"abcde\"",
-              "value": "abcde"
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 77,
-              "end": 85,
-              "decorators": [],
-              "name": "includes",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
           "optional": false,
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,25 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 17,
       "end": 49,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 46,
-        "end": 49,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 26,
         "end": 29,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "RestElement",
@@ -37,10 +30,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 33,
             "end": 37,
-            "decorators": [],
             "name": "rest",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "decorators": [],
           "optional": false,
@@ -62,18 +55,33 @@ __ESTREE_TEST__:PASS:
           "value": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 46,
+        "end": 49,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 51,
       "end": 97,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 51,
         "end": 96,
+        "tag": {
+          "type": "Identifier",
+          "start": 51,
+          "end": 54,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 55,
@@ -83,54 +91,16 @@ __ESTREE_TEST__:PASS:
               "type": "FunctionExpression",
               "start": 58,
               "end": 93,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 79,
-                "end": 93,
-                "body": [
-                  {
-                    "type": "ExpressionStatement",
-                    "start": 81,
-                    "end": 91,
-                    "directive": null,
-                    "expression": {
-                      "type": "AssignmentExpression",
-                      "start": 81,
-                      "end": 90,
-                      "operator": "=",
-                      "left": {
-                        "type": "Identifier",
-                        "start": 81,
-                        "end": 82,
-                        "decorators": [],
-                        "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Literal",
-                        "start": 85,
-                        "end": 90,
-                        "raw": "\"bad\"",
-                        "value": "bad"
-                      }
-                    }
-                  }
-                ]
-              },
-              "declare": false,
+              "id": null,
               "expression": false,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 68,
                   "end": 77,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 69,
@@ -140,11 +110,49 @@ __ESTREE_TEST__:PASS:
                       "start": 71,
                       "end": 77
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "BlockStatement",
+                "start": 79,
+                "end": 93,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 81,
+                    "end": 91,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 81,
+                      "end": 90,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 81,
+                        "end": 82,
+                        "name": "x",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 85,
+                        "end": 90,
+                        "value": "bad",
+                        "raw": "\"bad\""
+                      }
+                    },
+                    "directive": null
+                  }
+                ]
+              },
+              "declare": false,
+              "typeParameters": null,
+              "returnType": null
             }
           ],
           "quasis": [
@@ -152,35 +160,27 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 55,
               "end": 58,
-              "tail": false,
               "value": {
                 "cooked": "",
                 "raw": ""
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 94,
               "end": 96,
-              "tail": true,
               "value": {
                 "cooked": "",
                 "raw": ""
-              }
+              },
+              "tail": true
             }
           ]
         },
-        "tag": {
-          "type": "Identifier",
-          "start": 51,
-          "end": 54,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

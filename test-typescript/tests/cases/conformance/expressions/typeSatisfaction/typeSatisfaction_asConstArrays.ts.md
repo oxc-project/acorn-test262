@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 29,
           "end": 83,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 29,
             "end": 33,
-            "decorators": [],
             "name": "arr1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -41,22 +40,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 37,
                     "end": 38,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 40,
                     "end": 41,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 43,
                     "end": 44,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               },
@@ -64,16 +63,16 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 49,
                 "end": 54,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 49,
                   "end": 54,
-                  "decorators": [],
                   "name": "const",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
             "typeAnnotation": {
@@ -92,11 +91,12 @@ __ESTREE_TEST__:PASS:
                 }
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -107,15 +107,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 113,
           "end": 158,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 113,
             "end": 117,
-            "decorators": [],
             "name": "arr2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSSatisfiesExpression",
@@ -134,22 +133,22 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 121,
                     "end": 122,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "Literal",
                     "start": 124,
                     "end": 125,
-                    "raw": "2",
-                    "value": 2
+                    "value": 2,
+                    "raw": "2"
                   },
                   {
                     "type": "Literal",
                     "start": 127,
                     "end": 128,
-                    "raw": "3",
-                    "value": 3
+                    "value": 3,
+                    "raw": "3"
                   }
                 ]
               },
@@ -157,16 +156,16 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 133,
                 "end": 138,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 133,
                   "end": 138,
-                  "decorators": [],
                   "name": "const",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
             },
             "typeAnnotation": {
@@ -179,11 +178,12 @@ __ESTREE_TEST__:PASS:
                 "end": 156
               }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

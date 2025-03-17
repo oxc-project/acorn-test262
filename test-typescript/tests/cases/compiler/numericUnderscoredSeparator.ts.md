@@ -9,53 +9,53 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 17,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 17,
-        "raw": "1_000_000_000_000",
-        "value": 1000000000000
-      }
+        "value": 1000000000000,
+        "raw": "1_000_000_000_000"
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 18,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 18,
         "end": 39,
-        "raw": "0b1010_0001_1000_0101",
-        "value": 41349
-      }
+        "value": 41349,
+        "raw": "0b1010_0001_1000_0101"
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 61,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 40,
         "end": 61,
-        "raw": "0b1010_0001_1000_0101",
-        "value": 41349
-      }
+        "value": 41349,
+        "raw": "0b1010_0001_1000_0101"
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 62,
       "end": 72,
-      "directive": null,
       "expression": {
         "type": "Literal",
         "start": 62,
         "end": 72,
-        "raw": "0xA0_B0_C0",
-        "value": 10531008
-      }
+        "value": 10531008,
+        "raw": "0xA0_B0_C0"
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

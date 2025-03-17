@@ -9,86 +9,86 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 27,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 4,
+        "end": 20,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 4,
+          "end": 11,
+          "operator": "!",
+          "prefix": true,
+          "argument": {
+            "type": "UnaryExpression",
+            "start": 5,
+            "end": 11,
+            "operator": "void",
+            "prefix": true,
+            "argument": {
+              "type": "Literal",
+              "start": 10,
+              "end": 11,
+              "value": 0,
+              "raw": "0"
+            }
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 16,
+          "end": 20,
+          "value": true,
+          "raw": "true"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 22,
         "end": 27,
         "body": []
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 4,
-        "end": 20,
-        "operator": "!==",
-        "left": {
-          "type": "UnaryExpression",
-          "start": 4,
-          "end": 11,
-          "argument": {
-            "type": "UnaryExpression",
-            "start": 5,
-            "end": 11,
-            "argument": {
-              "type": "Literal",
-              "start": 10,
-              "end": 11,
-              "raw": "0",
-              "value": 0
-            },
-            "operator": "void",
-            "prefix": true
-          },
-          "operator": "!",
-          "prefix": true
-        },
-        "right": {
-          "type": "Literal",
-          "start": 16,
-          "end": 20,
-          "raw": "true",
-          "value": true
-        }
-      }
+      "alternate": null
     },
     {
       "type": "IfStatement",
       "start": 39,
       "end": 64,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 43,
+        "end": 57,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 43,
+          "end": 48,
+          "operator": "!",
+          "prefix": true,
+          "argument": {
+            "type": "Literal",
+            "start": 44,
+            "end": 48,
+            "value": null,
+            "raw": "null"
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 53,
+          "end": 57,
+          "value": true,
+          "raw": "true"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 59,
         "end": 64,
         "body": []
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 43,
-        "end": 57,
-        "operator": "!==",
-        "left": {
-          "type": "UnaryExpression",
-          "start": 43,
-          "end": 48,
-          "argument": {
-            "type": "Literal",
-            "start": 44,
-            "end": 48,
-            "raw": "null",
-            "value": null
-          },
-          "operator": "!",
-          "prefix": true
-        },
-        "right": {
-          "type": "Literal",
-          "start": 53,
-          "end": 57,
-          "raw": "true",
-          "value": true
-        }
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

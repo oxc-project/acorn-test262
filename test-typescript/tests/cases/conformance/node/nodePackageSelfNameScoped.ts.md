@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 19,
       "end": 58,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 41,
-        "end": 57,
-        "raw": "\"@scope/package\"",
-        "value": "@scope/package"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -27,28 +18,37 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 31,
             "end": 35,
-            "decorators": [],
             "name": "self",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 41,
+        "end": 57,
+        "value": "@scope/package",
+        "raw": "\"@scope/package\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 59,
       "end": 64,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 59,
         "end": 63,
-        "decorators": [],
         "name": "self",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

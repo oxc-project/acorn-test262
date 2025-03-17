@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 15,
         "end": 35,
-        "raw": "'module-not-existed'",
-        "value": "module-not-existed"
+        "value": "module-not-existed",
+        "raw": "'module-not-existed'"
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

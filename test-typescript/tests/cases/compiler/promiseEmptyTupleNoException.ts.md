@@ -9,12 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 80,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 80,
+        "id": {
+          "type": "Identifier",
+          "start": 22,
+          "end": 25,
+          "name": "get",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 41,
@@ -29,26 +40,26 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 49,
                   "end": 60,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 49,
                     "end": 55,
-                    "decorators": [],
                     "name": "emails",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "ArrayExpression",
                     "start": 58,
                     "end": 60,
                     "elements": []
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "kind": "let",
+              "declare": false
             },
             {
               "type": "ReturnStatement",
@@ -58,27 +69,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 71,
                 "end": 77,
-                "decorators": [],
                 "name": "emails",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 22,
-          "end": 25,
-          "decorators": [],
-          "name": "get",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 27,
@@ -87,6 +87,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 29,
             "end": 40,
+            "typeName": {
+              "type": "Identifier",
+              "start": 29,
+              "end": 36,
+              "name": "Promise",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "start": 36,
@@ -99,23 +108,14 @@ __ESTREE_TEST__:PASS:
                   "elementTypes": []
                 }
               ]
-            },
-            "typeName": {
-              "type": "Identifier",
-              "start": 29,
-              "end": 36,
-              "decorators": [],
-              "name": "Promise",
-              "optional": false,
-              "typeAnnotation": null
             }
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

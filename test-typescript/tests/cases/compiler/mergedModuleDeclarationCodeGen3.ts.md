@@ -9,6 +9,29 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 48,
+      "id": {
+        "type": "TSQualifiedName",
+        "start": 7,
+        "end": 14,
+        "left": {
+          "type": "Identifier",
+          "start": 7,
+          "end": 9,
+          "name": "my",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 10,
+          "end": 14,
+          "name": "data",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 15,
@@ -18,12 +41,23 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 21,
             "end": 46,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 28,
               "end": 46,
+              "id": {
+                "type": "Identifier",
+                "start": 37,
+                "end": 40,
+                "name": "buz",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 43,
@@ -31,137 +65,24 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 37,
-                "end": 40,
-                "decorators": [],
-                "name": "buz",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "typeParameters": null,
+              "returnType": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "TSQualifiedName",
-        "start": 7,
-        "end": 14,
-        "left": {
-          "type": "Identifier",
-          "start": 7,
-          "end": 9,
-          "decorators": [],
-          "name": "my",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Identifier",
-          "start": 10,
-          "end": 14,
-          "decorators": [],
-          "name": "data",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 49,
       "end": 121,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 68,
-        "end": 121,
-        "body": [
-          {
-            "type": "FunctionDeclaration",
-            "start": 74,
-            "end": 119,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 97,
-              "end": 119,
-              "body": [
-                {
-                  "type": "ExpressionStatement",
-                  "start": 107,
-                  "end": 113,
-                  "directive": null,
-                  "expression": {
-                    "type": "CallExpression",
-                    "start": 107,
-                    "end": 112,
-                    "arguments": [],
-                    "callee": {
-                      "type": "Identifier",
-                      "start": 107,
-                      "end": 110,
-                      "decorators": [],
-                      "name": "buz",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "typeArguments": null
-                  }
-                }
-              ]
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 83,
-              "end": 87,
-              "decorators": [],
-              "name": "data",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 88,
-                "end": 90,
-                "decorators": [],
-                "name": "my",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              {
-                "type": "Identifier",
-                "start": 92,
-                "end": 95,
-                "decorators": [],
-                "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 56,
@@ -174,32 +95,111 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 56,
             "end": 58,
-            "decorators": [],
             "name": "my",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 59,
             "end": 63,
-            "decorators": [],
             "name": "data",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 64,
           "end": 67,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 68,
+        "end": 121,
+        "body": [
+          {
+            "type": "FunctionDeclaration",
+            "start": 74,
+            "end": 119,
+            "id": {
+              "type": "Identifier",
+              "start": 83,
+              "end": 87,
+              "name": "data",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 88,
+                "end": 90,
+                "name": "my",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 92,
+                "end": 95,
+                "name": "foo",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            ],
+            "body": {
+              "type": "BlockStatement",
+              "start": 97,
+              "end": 119,
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "start": 107,
+                  "end": 113,
+                  "expression": {
+                    "type": "CallExpression",
+                    "start": 107,
+                    "end": 112,
+                    "callee": {
+                      "type": "Identifier",
+                      "start": 107,
+                      "end": 110,
+                      "name": "buz",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "arguments": [],
+                    "optional": false,
+                    "typeArguments": null
+                  },
+                  "directive": null
+                }
+              ]
+            },
+            "declare": false,
+            "typeParameters": null,
+            "returnType": null
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

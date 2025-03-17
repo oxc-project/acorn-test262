@@ -9,12 +9,12 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 26,
-      "directive": null,
       "expression": {
         "type": "ClassExpression",
         "start": 1,
         "end": 24,
-        "abstract": false,
+        "id": null,
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 7,
@@ -24,43 +24,43 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 9,
               "end": 22,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 16,
                 "end": 17,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "override": false,
-              "readonly": false,
-              "static": true,
-              "typeAnnotation": null,
               "value": {
                 "type": "Literal",
                 "start": 20,
                 "end": 21,
-                "raw": "0",
-                "value": 0
-              }
+                "value": 0,
+                "raw": "0"
+              },
+              "decorators": [],
+              "declare": false,
+              "override": false,
+              "optional": false,
+              "definite": false,
+              "readonly": false,
+              "typeAnnotation": null,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": null,
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
-      }
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 20,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 7,
@@ -30,47 +27,50 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9,
                 "end": 20,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 9,
                   "end": 20,
-                  "decorators": [],
                   "name": "ArrayBuffer",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 23,
             "end": 50,
+            "callee": {
+              "type": "Identifier",
+              "start": 27,
+              "end": 44,
+              "name": "SharedArrayBuffer",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 45,
                 "end": 49,
-                "raw": "1024",
-                "value": 1024
+                "value": 1024,
+                "raw": "1024"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 27,
-              "end": 44,
-              "decorators": [],
-              "name": "SharedArrayBuffer",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

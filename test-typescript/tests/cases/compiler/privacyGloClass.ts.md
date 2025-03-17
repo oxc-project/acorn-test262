@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 1028,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 9,
+        "name": "m1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 10,
@@ -18,67 +27,75 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 16,
             "end": 52,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 23,
               "end": 52,
+              "id": {
+                "type": "Identifier",
+                "start": 33,
+                "end": 44,
+                "name": "m1_i_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "extends": [],
+              "typeParameters": null,
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 45,
                 "end": 52,
                 "body": []
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 33,
-                "end": 44,
-                "decorators": [],
-                "name": "m1_i_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           },
           {
             "type": "TSInterfaceDeclaration",
             "start": 58,
             "end": 88,
+            "id": {
+              "type": "Identifier",
+              "start": 68,
+              "end": 80,
+              "name": "m1_i_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 81,
               "end": 88,
               "body": []
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 68,
-              "end": 80,
-              "decorators": [],
-              "name": "m1_i_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 94,
             "end": 159,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 101,
               "end": 159,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 107,
+                "end": 118,
+                "name": "m1_c_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 119,
@@ -88,27 +105,27 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 129,
                     "end": 153,
-                    "accessibility": "private",
+                    "static": false,
                     "computed": false,
-                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 137,
                       "end": 139,
-                      "decorators": [],
                       "name": "f1",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 139,
                       "end": 153,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
                       "async": false,
+                      "params": [],
                       "body": {
                         "type": "BlockStatement",
                         "start": 142,
@@ -116,243 +133,235 @@ __ESTREE_TEST__:PASS:
                         "body": []
                       },
                       "declare": false,
-                      "expression": false,
-                      "generator": false,
-                      "id": null,
-                      "params": [],
-                      "returnType": null,
-                      "typeParameters": null
-                    }
+                      "typeParameters": null,
+                      "returnType": null
+                    },
+                    "decorators": [],
+                    "override": false,
+                    "optional": false,
+                    "accessibility": "private"
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 107,
-                "end": 118,
-                "decorators": [],
-                "name": "m1_c_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ClassDeclaration",
             "start": 165,
             "end": 191,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 171,
+              "end": 183,
+              "name": "m1_c_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 184,
               "end": 191,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 171,
-              "end": 183,
-              "decorators": [],
-              "name": "m1_c_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ClassDeclaration",
             "start": 197,
             "end": 244,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 203,
+              "end": 216,
+              "name": "m1_C1_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 225,
+              "end": 236,
+              "name": "m1_c_public",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 237,
               "end": 244,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 203,
-              "end": 216,
-              "decorators": [],
-              "name": "m1_C1_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": {
-              "type": "Identifier",
-              "start": 225,
-              "end": 236,
-              "decorators": [],
-              "name": "m1_c_public",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ClassDeclaration",
             "start": 249,
             "end": 297,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 255,
+              "end": 268,
+              "name": "m1_C2_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 277,
+              "end": 289,
+              "name": "m1_c_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 290,
               "end": 297,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 255,
-              "end": 268,
-              "decorators": [],
-              "name": "m1_C2_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": {
-              "type": "Identifier",
-              "start": 277,
-              "end": 289,
-              "decorators": [],
-              "name": "m1_c_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 302,
             "end": 355,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 309,
               "end": 355,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 315,
+                "end": 327,
+                "name": "m1_C3_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 336,
+                "end": 347,
+                "name": "m1_c_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 348,
                 "end": 355,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 315,
-                "end": 327,
-                "decorators": [],
-                "name": "m1_C3_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 336,
-                "end": 347,
-                "decorators": [],
-                "name": "m1_c_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 360,
             "end": 414,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 367,
               "end": 414,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 373,
+                "end": 385,
+                "name": "m1_C4_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 394,
+                "end": 406,
+                "name": "m1_c_private",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 407,
                 "end": 414,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 373,
-                "end": 385,
-                "decorators": [],
-                "name": "m1_C4_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 394,
-                "end": 406,
-                "decorators": [],
-                "name": "m1_c_private",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ClassDeclaration",
             "start": 420,
             "end": 470,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 426,
+              "end": 439,
+              "name": "m1_C5_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 463,
               "end": 470,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 426,
-              "end": 439,
-              "decorators": [],
-              "name": "m1_C5_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [
               {
                 "type": "TSClassImplements",
@@ -362,40 +371,40 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 451,
                   "end": 462,
-                  "decorators": [],
                   "name": "m1_i_public",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
             ],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ClassDeclaration",
             "start": 475,
             "end": 526,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 481,
+              "end": 494,
+              "name": "m1_C6_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 519,
               "end": 526,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 481,
-              "end": 494,
-              "decorators": [],
-              "name": "m1_C6_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [
               {
                 "type": "TSClassImplements",
@@ -405,45 +414,44 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 506,
                   "end": 518,
-                  "decorators": [],
                   "name": "m1_i_private",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
             ],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 531,
             "end": 587,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 538,
               "end": 587,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 544,
+                "end": 556,
+                "name": "m1_C7_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 580,
                 "end": 587,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 544,
-                "end": 556,
-                "decorators": [],
-                "name": "m1_C7_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [
                 {
                   "type": "TSClassImplements",
@@ -453,49 +461,49 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 568,
                     "end": 579,
-                    "decorators": [],
                     "name": "m1_i_public",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 }
               ],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 592,
             "end": 649,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 599,
               "end": 649,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 605,
+                "end": 617,
+                "name": "m1_C8_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 642,
                 "end": 649,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 605,
-                "end": 617,
-                "decorators": [],
-                "name": "m1_C8_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [
                 {
                   "type": "TSClassImplements",
@@ -505,44 +513,53 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 629,
                     "end": 641,
-                    "decorators": [],
                     "name": "m1_i_private",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 }
               ],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ClassDeclaration",
             "start": 655,
             "end": 739,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 661,
+              "end": 674,
+              "name": "m1_C9_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 683,
+              "end": 694,
+              "name": "m1_c_public",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 732,
               "end": 739,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 661,
-              "end": 674,
-              "decorators": [],
-              "name": "m1_C9_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [
               {
                 "type": "TSClassImplements",
@@ -552,10 +569,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 706,
                   "end": 718,
-                  "decorators": [],
                   "name": "m1_i_private",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               },
@@ -567,48 +584,48 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 720,
                   "end": 731,
-                  "decorators": [],
                   "name": "m1_i_public",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
             ],
-            "superClass": {
-              "type": "Identifier",
-              "start": 683,
-              "end": 694,
-              "decorators": [],
-              "name": "m1_c_public",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ClassDeclaration",
             "start": 744,
             "end": 831,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 750,
+              "end": 764,
+              "name": "m1_C10_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 773,
+              "end": 785,
+              "name": "m1_c_private",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 824,
               "end": 831,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 750,
-              "end": 764,
-              "decorators": [],
-              "name": "m1_C10_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [
               {
                 "type": "TSClassImplements",
@@ -618,10 +635,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 798,
                   "end": 810,
-                  "decorators": [],
                   "name": "m1_i_private",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               },
@@ -633,53 +650,52 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 812,
                   "end": 823,
-                  "decorators": [],
                   "name": "m1_i_public",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
             ],
-            "superClass": {
-              "type": "Identifier",
-              "start": 773,
-              "end": 785,
-              "decorators": [],
-              "name": "m1_c_private",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 836,
             "end": 928,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 843,
               "end": 928,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 849,
+                "end": 862,
+                "name": "m1_C11_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 871,
+                "end": 882,
+                "name": "m1_c_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 921,
                 "end": 928,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 849,
-                "end": 862,
-                "decorators": [],
-                "name": "m1_C11_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [
                 {
                   "type": "TSClassImplements",
@@ -689,10 +705,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 895,
                     "end": 907,
-                    "decorators": [],
                     "name": "m1_i_private",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 },
@@ -704,57 +720,57 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 909,
                     "end": 920,
-                    "decorators": [],
                     "name": "m1_i_public",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 }
               ],
-              "superClass": {
-                "type": "Identifier",
-                "start": 871,
-                "end": 882,
-                "decorators": [],
-                "name": "m1_c_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 933,
             "end": 1026,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 940,
               "end": 1026,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 946,
+                "end": 959,
+                "name": "m1_C12_public",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 968,
+                "end": 980,
+                "name": "m1_c_private",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 1019,
                 "end": 1026,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 946,
-                "end": 959,
-                "decorators": [],
-                "name": "m1_C12_public",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [
                 {
                   "type": "TSClassImplements",
@@ -764,10 +780,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 993,
                     "end": 1005,
-                    "decorators": [],
                     "name": "m1_i_private",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 },
@@ -779,73 +795,66 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 1007,
                     "end": 1018,
-                    "decorators": [],
                     "name": "m1_i_public",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "typeArguments": null
                 }
               ],
-              "superClass": {
-                "type": "Identifier",
-                "start": 968,
-                "end": 980,
-                "decorators": [],
-                "name": "m1_c_private",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 9,
-        "decorators": [],
-        "name": "m1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 1030,
       "end": 1056,
+      "id": {
+        "type": "Identifier",
+        "start": 1040,
+        "end": 1052,
+        "name": "glo_i_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 1053,
         "end": 1056,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 1040,
-        "end": 1052,
-        "decorators": [],
-        "name": "glo_i_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 1058,
       "end": 1105,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 1064,
+        "end": 1076,
+        "name": "glo_c_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 1077,
@@ -855,27 +864,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 1083,
             "end": 1103,
-            "accessibility": "private",
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 1091,
               "end": 1093,
-              "decorators": [],
               "name": "f1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 1093,
               "end": 1103,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 1096,
@@ -883,89 +892,80 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": "private"
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 1064,
-        "end": 1076,
-        "decorators": [],
-        "name": "glo_c_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 1107,
       "end": 1151,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 1113,
+        "end": 1126,
+        "name": "glo_C3_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 1135,
+        "end": 1147,
+        "name": "glo_c_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 1148,
         "end": 1151,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 1113,
-        "end": 1126,
-        "decorators": [],
-        "name": "glo_C3_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 1135,
-        "end": 1147,
-        "decorators": [],
-        "name": "glo_c_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 1153,
       "end": 1200,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 1159,
+        "end": 1172,
+        "name": "glo_C7_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 1197,
         "end": 1200,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 1159,
-        "end": 1172,
-        "decorators": [],
-        "name": "glo_C7_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -975,40 +975,48 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 1184,
             "end": 1196,
-            "decorators": [],
             "name": "glo_i_public",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         }
       ],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 1202,
       "end": 1271,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 1208,
+        "end": 1222,
+        "name": "glo_C11_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 1231,
+        "end": 1243,
+        "name": "glo_c_public",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 1268,
         "end": 1271,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 1208,
-        "end": 1222,
-        "decorators": [],
-        "name": "glo_C11_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [
         {
           "type": "TSClassImplements",
@@ -1018,25 +1026,17 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 1255,
             "end": 1267,
-            "decorators": [],
             "name": "glo_i_public",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         }
       ],
-      "superClass": {
-        "type": "Identifier",
-        "start": 1231,
-        "end": 1243,
-        "decorators": [],
-        "name": "glo_c_public",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

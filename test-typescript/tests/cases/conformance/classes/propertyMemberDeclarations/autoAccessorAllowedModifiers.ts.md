@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 415,
-      "abstract": true,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 17,
+        "name": "C1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 18,
@@ -19,24 +28,20 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 24,
             "end": 40,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 33,
               "end": 34,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 34,
@@ -47,30 +52,30 @@ __ESTREE_TEST__:PASS:
                 "end": 39
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 45,
             "end": 68,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 61,
               "end": 62,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 62,
@@ -81,30 +86,30 @@ __ESTREE_TEST__:PASS:
                 "end": 67
               }
             },
-            "value": null
+            "accessibility": "public",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 73,
             "end": 97,
-            "accessibility": "private",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 90,
               "end": 91,
-              "decorators": [],
               "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 91,
@@ -115,30 +120,30 @@ __ESTREE_TEST__:PASS:
                 "end": 96
               }
             },
-            "value": null
+            "accessibility": "private",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 102,
             "end": 128,
-            "accessibility": "protected",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 121,
               "end": 122,
-              "decorators": [],
               "name": "d",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 122,
@@ -149,30 +154,30 @@ __ESTREE_TEST__:PASS:
                 "end": 127
               }
             },
-            "value": null
+            "accessibility": "protected",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "TSAbstractAccessorProperty",
             "start": 133,
             "end": 158,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 151,
               "end": 152,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 152,
@@ -183,30 +188,30 @@ __ESTREE_TEST__:PASS:
                 "end": 157
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 163,
             "end": 186,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 179,
               "end": 180,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 180,
@@ -217,30 +222,30 @@ __ESTREE_TEST__:PASS:
                 "end": 185
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 191,
             "end": 221,
-            "accessibility": "public",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 214,
               "end": 215,
-              "decorators": [],
               "name": "g",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 215,
@@ -251,30 +256,30 @@ __ESTREE_TEST__:PASS:
                 "end": 220
               }
             },
-            "value": null
+            "accessibility": "public",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 226,
             "end": 257,
-            "accessibility": "private",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 250,
               "end": 251,
-              "decorators": [],
               "name": "h",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 251,
@@ -285,30 +290,30 @@ __ESTREE_TEST__:PASS:
                 "end": 256
               }
             },
-            "value": null
+            "accessibility": "private",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 262,
             "end": 295,
-            "accessibility": "protected",
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 288,
               "end": 289,
-              "decorators": [],
               "name": "i",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 289,
@@ -319,27 +324,27 @@ __ESTREE_TEST__:PASS:
                 "end": 294
               }
             },
-            "value": null
+            "accessibility": "protected",
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 300,
             "end": 317,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "PrivateIdentifier",
               "start": 309,
               "end": 311,
               "name": "j"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 311,
@@ -350,28 +355,28 @@ __ESTREE_TEST__:PASS:
                 "end": 316
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 322,
             "end": 340,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 331,
               "end": 334,
-              "raw": "\"k\"",
-              "value": "k"
+              "value": "k",
+              "raw": "\"k\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 334,
@@ -382,28 +387,28 @@ __ESTREE_TEST__:PASS:
                 "end": 339
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 345,
             "end": 363,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 354,
               "end": 357,
-              "raw": "108",
-              "value": 108
+              "value": 108,
+              "raw": "108"
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 357,
@@ -414,28 +419,28 @@ __ESTREE_TEST__:PASS:
                 "end": 362
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 368,
             "end": 388,
-            "accessibility": null,
-            "computed": true,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 378,
               "end": 381,
-              "raw": "\"m\"",
-              "value": "m"
+              "value": "m",
+              "raw": "\"m\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": true,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 382,
@@ -446,30 +451,30 @@ __ESTREE_TEST__:PASS:
                 "end": 387
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 393,
             "end": 413,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": true,
             "key": {
               "type": "Identifier",
               "start": 402,
               "end": 403,
-              "decorators": [],
               "name": "n",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 404,
@@ -480,31 +485,43 @@ __ESTREE_TEST__:PASS:
                 "end": 412
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 17,
-        "decorators": [],
-        "name": "C1",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": true,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 417,
       "end": 507,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 423,
+        "end": 425,
+        "name": "C2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 434,
+        "end": 436,
+        "name": "C1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 437,
@@ -514,24 +531,20 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 443,
             "end": 468,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 461,
               "end": 462,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": true,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 462,
@@ -542,30 +555,30 @@ __ESTREE_TEST__:PASS:
                 "end": 467
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": true,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 473,
             "end": 505,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 498,
               "end": 499,
-              "decorators": [],
               "name": "i",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": true,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 499,
@@ -576,39 +589,35 @@ __ESTREE_TEST__:PASS:
                 "end": 504
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": true,
+            "readonly": false
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 423,
-        "end": 425,
-        "decorators": [],
-        "name": "C2",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 434,
-        "end": 436,
-        "decorators": [],
-        "name": "C1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 509,
       "end": 550,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 523,
+        "end": 525,
+        "name": "C3",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 526,
@@ -618,24 +627,20 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 532,
             "end": 548,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 541,
               "end": 542,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 542,
@@ -646,25 +651,20 @@ __ESTREE_TEST__:PASS:
                 "end": 547
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           }
         ]
       },
-      "declare": true,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 523,
-        "end": 525,
-        "decorators": [],
-        "name": "C3",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

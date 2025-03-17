@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 15,
-        "end": 21,
-        "raw": "'./op'",
-        "value": "./op"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,27 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 9,
-            "decorators": [],
             "name": "Op",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 15,
+        "end": 21,
+        "value": "./op",
+        "raw": "'./op'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 23,
       "end": 49,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 42,
-        "end": 48,
-        "raw": "'./po'",
-        "value": "./po"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -57,23 +48,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 32,
             "end": 34,
-            "decorators": [],
             "name": "Po",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 32,
             "end": 34,
-            "decorators": [],
             "name": "Po",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 42,
+        "end": 48,
+        "value": "./po",
+        "raw": "'./po'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -83,7 +83,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 66,
         "end": 133,
+        "id": {
+          "type": "Identifier",
+          "start": 75,
+          "end": 78,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 81,
@@ -102,83 +114,83 @@ __ESTREE_TEST__:PASS:
                     "type": "Property",
                     "start": 98,
                     "end": 109,
+                    "method": false,
+                    "shorthand": false,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
                       "start": 99,
                       "end": 104,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 99,
                         "end": 101,
-                        "decorators": [],
                         "name": "Op",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 102,
                         "end": 104,
-                        "decorators": [],
                         "name": "or",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "ArrayExpression",
                       "start": 107,
                       "end": 109,
                       "elements": []
-                    }
+                    },
+                    "kind": "init",
+                    "optional": false
                   },
                   {
                     "type": "Property",
                     "start": 115,
                     "end": 126,
+                    "method": false,
+                    "shorthand": false,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
                       "start": 116,
                       "end": 121,
-                      "computed": false,
                       "object": {
                         "type": "Identifier",
                         "start": 116,
                         "end": 118,
-                        "decorators": [],
                         "name": "Po",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
                       "property": {
                         "type": "Identifier",
                         "start": 119,
                         "end": 121,
-                        "decorators": [],
                         "name": "ro",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "computed": false,
+                      "optional": false
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
                       "start": 124,
                       "end": 126,
                       "properties": []
-                    }
+                    },
+                    "kind": "init",
+                    "optional": false
                   }
                 ]
               }
@@ -186,20 +198,8 @@ __ESTREE_TEST__:PASS:
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 75,
-          "end": 78,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     }
@@ -224,14 +224,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 51,
-            "decorators": [],
             "name": "Op",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 16,
@@ -245,20 +242,18 @@ __ESTREE_TEST__:PASS:
                     "type": "TSPropertySignature",
                     "start": 22,
                     "end": 49,
-                    "accessibility": null,
                     "computed": false,
+                    "optional": false,
+                    "readonly": true,
                     "key": {
                       "type": "Identifier",
                       "start": 31,
                       "end": 33,
-                      "decorators": [],
                       "name": "or",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
-                    "readonly": true,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 33,
@@ -274,17 +269,22 @@ __ESTREE_TEST__:PASS:
                           "end": 48
                         }
                       }
-                    }
+                    },
+                    "accessibility": null,
+                    "static": false
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -294,10 +294,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 69,
         "end": 71,
-        "decorators": [],
         "name": "Op",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -317,7 +317,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 59,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -327,14 +326,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 21,
             "end": 58,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 21,
               "end": 58,
-              "decorators": [],
               "name": "Po",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 23,
@@ -348,20 +344,18 @@ __ESTREE_TEST__:PASS:
                       "type": "TSPropertySignature",
                       "start": 29,
                       "end": 56,
-                      "accessibility": null,
                       "computed": false,
+                      "optional": false,
+                      "readonly": true,
                       "key": {
                         "type": "Identifier",
                         "start": 38,
                         "end": 40,
-                        "decorators": [],
                         "name": "ro",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
-                      "readonly": true,
-                      "static": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
                         "start": 40,
@@ -377,21 +371,27 @@ __ESTREE_TEST__:PASS:
                             "end": 55
                           }
                         }
-                      }
+                      },
+                      "accessibility": null,
+                      "static": false
                     }
                   ]
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": true,
-        "kind": "const"
+        "kind": "const",
+        "declare": true
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

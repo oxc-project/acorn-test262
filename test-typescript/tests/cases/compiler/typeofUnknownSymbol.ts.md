@@ -14,36 +14,36 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 37,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 37,
             "end": 38,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "UnaryExpression",
             "start": 41,
             "end": 57,
+            "operator": "typeof",
+            "prefix": true,
             "argument": {
               "type": "Identifier",
               "start": 48,
               "end": 57,
-              "decorators": [],
               "name": "whatsthis",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "operator": "typeof",
-            "prefix": true
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -13,21 +13,31 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 20,
         "end": 29,
-        "decorators": [],
         "name": "Puppeteer",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 76,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 38,
         "end": 76,
+        "id": {
+          "type": "Identifier",
+          "start": 48,
+          "end": 56,
+          "name": "Keyboard",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 57,
@@ -37,20 +47,18 @@ __ESTREE_TEST__:PASS:
               "type": "TSPropertySignature",
               "start": 63,
               "end": 74,
-              "accessibility": null,
               "computed": false,
+              "optional": false,
+              "readonly": false,
               "key": {
                 "type": "Identifier",
                 "start": 63,
                 "end": 66,
-                "decorators": [],
                 "name": "key",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 66,
@@ -60,58 +68,45 @@ __ESTREE_TEST__:PASS:
                   "start": 68,
                   "end": 74
                 }
-              }
+              },
+              "accessibility": null,
+              "static": false
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 48,
-          "end": 56,
-          "decorators": [],
-          "name": "Keyboard",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 77,
       "end": 121,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 84,
         "end": 121,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 93,
           "end": 100,
-          "decorators": [],
           "name": "connect",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 101,
             "end": 113,
-            "decorators": [],
             "name": "name",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 105,
@@ -121,9 +116,14 @@ __ESTREE_TEST__:PASS:
                 "start": 107,
                 "end": 113
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 114,
@@ -133,12 +133,12 @@ __ESTREE_TEST__:PASS:
             "start": 116,
             "end": 120
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -156,21 +156,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 29,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 18,
-        "decorators": [],
         "name": "f",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 20,
@@ -180,8 +181,7 @@ __ESTREE_TEST__:PASS:
           "start": 22,
           "end": 28
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "TSExportAssignment",
@@ -191,10 +191,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 39,
         "end": 40,
-        "decorators": [],
         "name": "f",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

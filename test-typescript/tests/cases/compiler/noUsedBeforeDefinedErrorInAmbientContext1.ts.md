@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 38,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
             "end": 49,
-            "decorators": [],
             "name": "S",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 39,
@@ -34,20 +31,23 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 48,
                   "end": 49,
-                  "decorators": [],
                   "name": "A",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -58,14 +58,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 77,
           "end": 86,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 77,
             "end": 86,
-            "decorators": [],
             "name": "A",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 78,
@@ -75,13 +72,16 @@ __ESTREE_TEST__:PASS:
                 "start": 80,
                 "end": 86
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "script",

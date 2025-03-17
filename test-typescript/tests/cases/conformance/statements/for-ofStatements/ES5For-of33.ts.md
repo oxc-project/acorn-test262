@@ -10,62 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 54,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 31,
-        "end": 54,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 37,
-            "end": 52,
-            "directive": null,
-            "expression": {
-              "type": "CallExpression",
-              "start": 37,
-              "end": 51,
-              "arguments": [
-                {
-                  "type": "Identifier",
-                  "start": 49,
-                  "end": 50,
-                  "decorators": [],
-                  "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 37,
-                "end": 48,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 37,
-                  "end": 44,
-                  "decorators": [],
-                  "name": "console",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 45,
-                  "end": 48,
-                  "decorators": [],
-                  "name": "log",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "optional": false,
-              "typeArguments": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 5,
@@ -75,21 +19,21 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 9,
             "end": 10,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 9,
               "end": 10,
-              "decorators": [],
               "name": "v",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -100,22 +44,78 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 15,
             "end": 18,
-            "raw": "'a'",
-            "value": "a"
+            "value": "a",
+            "raw": "'a'"
           },
           {
             "type": "Literal",
             "start": 20,
             "end": 23,
-            "raw": "'b'",
-            "value": "b"
+            "value": "b",
+            "raw": "'b'"
           },
           {
             "type": "Literal",
             "start": 25,
             "end": 28,
-            "raw": "'c'",
-            "value": "c"
+            "value": "c",
+            "raw": "'c'"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 31,
+        "end": 54,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 37,
+            "end": 52,
+            "expression": {
+              "type": "CallExpression",
+              "start": 37,
+              "end": 51,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 37,
+                "end": 48,
+                "object": {
+                  "type": "Identifier",
+                  "start": 37,
+                  "end": 44,
+                  "name": "console",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 45,
+                  "end": 48,
+                  "name": "log",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "arguments": [
+                {
+                  "type": "Identifier",
+                  "start": 49,
+                  "end": 50,
+                  "name": "v",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "typeArguments": null
+            },
+            "directive": null
           }
         ]
       }

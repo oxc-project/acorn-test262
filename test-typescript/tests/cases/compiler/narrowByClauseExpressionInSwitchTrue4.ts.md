@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 32,
-            "decorators": [],
             "name": "f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -39,8 +36,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 17,
                       "end": 20,
-                      "raw": "'a'",
-                      "value": "a"
+                      "value": "a",
+                      "raw": "'a'"
                     }
                   },
                   {
@@ -51,8 +48,8 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 23,
                       "end": 26,
-                      "raw": "'b'",
-                      "value": "b"
+                      "value": "b",
+                      "raw": "'b'"
                     }
                   },
                   {
@@ -63,24 +60,34 @@ __ESTREE_TEST__:PASS:
                       "type": "Literal",
                       "start": 29,
                       "end": 32,
-                      "raw": "'c'",
-                      "value": "c"
+                      "value": "c",
+                      "raw": "'c'"
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "SwitchStatement",
       "start": 35,
       "end": 113,
+      "discriminant": {
+        "type": "Literal",
+        "start": 43,
+        "end": 47,
+        "value": true,
+        "raw": "true"
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -91,22 +98,22 @@ __ESTREE_TEST__:PASS:
             "type": "BinaryExpression",
             "start": 58,
             "end": 67,
-            "operator": "===",
             "left": {
               "type": "Identifier",
               "start": 58,
               "end": 59,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "operator": "===",
             "right": {
               "type": "Literal",
               "start": 64,
               "end": 67,
-              "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "raw": "\"a\""
             }
           }
         },
@@ -119,16 +126,16 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 84,
               "end": 86,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 84,
                 "end": 85,
-                "decorators": [],
                 "name": "f",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "directive": null
             }
           ],
           "test": null
@@ -142,49 +149,42 @@ __ESTREE_TEST__:PASS:
               "type": "ExpressionStatement",
               "start": 109,
               "end": 111,
-              "directive": null,
               "expression": {
                 "type": "Identifier",
                 "start": 109,
                 "end": 110,
-                "decorators": [],
                 "name": "f",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "directive": null
             }
           ],
           "test": {
             "type": "BinaryExpression",
             "start": 94,
             "end": 103,
-            "operator": "===",
             "left": {
               "type": "Identifier",
               "start": 94,
               "end": 95,
-              "decorators": [],
               "name": "f",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "operator": "===",
             "right": {
               "type": "Literal",
               "start": 100,
               "end": 103,
-              "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "raw": "\"b\""
             }
           }
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 43,
-        "end": 47,
-        "raw": "true",
-        "value": true
-      }
+      ]
     }
   ],
   "sourceType": "script",

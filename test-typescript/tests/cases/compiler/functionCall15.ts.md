@@ -9,33 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 51,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 49,
-        "end": 51,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
         "end": 12,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 13,
           "end": 22,
-          "decorators": [],
           "name": "a",
-          "optional": true,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 15,
@@ -45,15 +36,15 @@ __ESTREE_TEST__:PASS:
               "start": 16,
               "end": 22
             }
-          }
+          },
+          "decorators": [],
+          "optional": true
         },
         {
           "type": "Identifier",
           "start": 24,
           "end": 33,
-          "decorators": [],
           "name": "b",
-          "optional": true,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 26,
@@ -63,7 +54,9 @@ __ESTREE_TEST__:PASS:
               "start": 27,
               "end": 33
             }
-          }
+          },
+          "decorators": [],
+          "optional": true
         },
         {
           "type": "RestElement",
@@ -73,10 +66,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 38,
             "end": 39,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "decorators": [],
           "optional": false,
@@ -98,8 +91,15 @@ __ESTREE_TEST__:PASS:
           "value": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 49,
+        "end": 51,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

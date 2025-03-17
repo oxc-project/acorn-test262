@@ -9,11 +9,45 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 37,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 37,
+        "id": {
+          "type": "Identifier",
+          "start": 18,
+          "end": 22,
+          "name": "Enum",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 27,
+            "end": 34,
+            "id": {
+              "type": "Identifier",
+              "start": 27,
+              "end": 30,
+              "name": "One",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": {
+              "type": "Literal",
+              "start": 33,
+              "end": 34,
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false
+          }
+        ],
+        "const": true,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 23,
@@ -23,41 +57,31 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 27,
               "end": 34,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 27,
                 "end": 30,
-                "decorators": [],
                 "name": "One",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "initializer": {
                 "type": "Literal",
                 "start": 33,
                 "end": 34,
-                "raw": "1",
-                "value": 1
-              }
+                "value": 1,
+                "raw": "1"
+              },
+              "computed": false
             }
           ]
-        },
-        "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 18,
-          "end": 22,
-          "decorators": [],
-          "name": "Enum",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -75,15 +99,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 30,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 29,
-        "raw": "\"./enum\"",
-        "value": "./enum"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -93,28 +108,46 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 13,
-            "decorators": [],
             "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 13,
-            "decorators": [],
             "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 29,
+        "value": "./enum",
+        "raw": "\"./enum\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 31,
       "end": 77,
+      "id": {
+        "type": "Identifier",
+        "start": 41,
+        "end": 45,
+        "name": "Enum",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 46,
@@ -124,81 +157,72 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 50,
             "end": 75,
-            "attributes": [],
             "declaration": {
               "type": "TSTypeAliasDeclaration",
               "start": 57,
               "end": 75,
-              "declare": false,
               "id": {
                 "type": "Identifier",
                 "start": 62,
                 "end": 65,
-                "decorators": [],
                 "name": "Foo",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "typeParameters": null,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 68,
                 "end": 74
               },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 41,
-        "end": 45,
-        "decorators": [],
-        "name": "Enum",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 78,
       "end": 94,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 87,
           "end": 91,
-          "exported": {
-            "type": "Identifier",
-            "start": 87,
-            "end": 91,
-            "decorators": [],
-            "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 87,
             "end": 91,
-            "decorators": [],
             "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 87,
+            "end": 91,
+            "name": "Enum",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -216,15 +240,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 21,
-        "end": 30,
-        "raw": "\"./merge\"",
-        "value": "./merge"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -234,54 +249,63 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 13,
-            "decorators": [],
             "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 13,
-            "decorators": [],
             "name": "Enum",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 30,
+        "value": "./merge",
+        "raw": "\"./merge\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 32,
       "end": 41,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 32,
         "end": 40,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 32,
           "end": 36,
-          "decorators": [],
           "name": "Enum",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 37,
           "end": 40,
-          "decorators": [],
           "name": "One",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

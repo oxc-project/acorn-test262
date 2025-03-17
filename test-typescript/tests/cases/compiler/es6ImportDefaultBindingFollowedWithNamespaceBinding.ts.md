@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 18,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,31 +18,32 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 11,
             "end": 17,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
               "end": 12,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 15,
               "end": 17,
-              "raw": "10",
-              "value": 10
-            }
+              "value": 10,
+              "raw": "10"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -61,15 +61,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 107,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 51,
-        "end": 106,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamespaceBinding_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -79,10 +70,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 21,
-            "decorators": [],
             "name": "defaultBinding",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -93,13 +84,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 28,
             "end": 44,
-            "decorators": [],
             "name": "nameSpaceBinding",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 51,
+        "end": 106,
+        "value": "es6ImportDefaultBindingFollowedWithNamespaceBinding_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamespaceBinding_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -110,14 +110,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 112,
           "end": 142,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 112,
             "end": 121,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 113,
@@ -127,37 +124,40 @@ __ESTREE_TEST__:PASS:
                 "start": 115,
                 "end": 121
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 124,
             "end": 142,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 124,
               "end": 140,
-              "decorators": [],
               "name": "nameSpaceBinding",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 141,
               "end": 142,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",

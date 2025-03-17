@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 116,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 12,
@@ -18,11 +27,39 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 18,
             "end": 56,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 25,
               "end": 56,
+              "id": {
+                "type": "Identifier",
+                "start": 30,
+                "end": 36,
+                "name": "MyEnum",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 47,
+                  "end": 50,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 47,
+                    "end": 50,
+                    "name": "BAR",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": false,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 37,
@@ -32,41 +69,30 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 47,
                     "end": 50,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 47,
                       "end": 50,
-                      "decorators": [],
                       "name": "BAR",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 30,
-                "end": 36,
-                "decorators": [],
-                "name": "MyEnum",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 61,
             "end": 114,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 68,
@@ -76,15 +102,14 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 72,
                   "end": 113,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 72,
                     "end": 79,
-                    "decorators": [],
                     "name": "object2",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -95,76 +120,78 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 92,
                         "end": 107,
+                        "method": false,
+                        "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 92,
                           "end": 95,
-                          "decorators": [],
                           "name": "foo",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "MemberExpression",
                           "start": 97,
                           "end": 107,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 97,
                             "end": 103,
-                            "decorators": [],
                             "name": "MyEnum",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 104,
                             "end": 107,
-                            "decorators": [],
                             "name": "BAR",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "kind": "init",
+                        "optional": false
                       }
                     ]
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 118,
       "end": 235,
+      "id": {
+        "type": "Identifier",
+        "start": 128,
+        "end": 129,
+        "name": "N",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 130,
@@ -174,11 +201,39 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 136,
             "end": 174,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 143,
               "end": 174,
+              "id": {
+                "type": "Identifier",
+                "start": 148,
+                "end": 154,
+                "name": "MyEnum",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 165,
+                  "end": 168,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 165,
+                    "end": 168,
+                    "name": "FOO",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": false,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 155,
@@ -188,35 +243,25 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 165,
                     "end": 168,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 165,
                       "end": 168,
-                      "decorators": [],
                       "name": "FOO",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 148,
-                "end": 154,
-                "decorators": [],
-                "name": "MyEnum",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "EmptyStatement",
@@ -227,7 +272,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 180,
             "end": 233,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 187,
@@ -237,15 +281,14 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 191,
                   "end": 232,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 191,
                     "end": 198,
-                    "decorators": [],
                     "name": "object1",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "ObjectExpression",
@@ -256,71 +299,64 @@ __ESTREE_TEST__:PASS:
                         "type": "Property",
                         "start": 211,
                         "end": 226,
+                        "method": false,
+                        "shorthand": false,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
                           "start": 211,
                           "end": 214,
-                          "decorators": [],
                           "name": "foo",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "kind": "init",
-                        "method": false,
-                        "optional": false,
-                        "shorthand": false,
                         "value": {
                           "type": "MemberExpression",
                           "start": 216,
                           "end": 226,
-                          "computed": false,
                           "object": {
                             "type": "Identifier",
                             "start": 216,
                             "end": 222,
-                            "decorators": [],
                             "name": "MyEnum",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
-                          "optional": false,
                           "property": {
                             "type": "Identifier",
                             "start": 223,
                             "end": 226,
-                            "decorators": [],
                             "name": "FOO",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "kind": "init",
+                        "optional": false
                       }
                     ]
-                  }
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 128,
-        "end": 129,
-        "decorators": [],
-        "name": "N",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
@@ -331,15 +367,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 241,
           "end": 282,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 241,
             "end": 247,
-            "decorators": [],
             "name": "broken",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -350,58 +385,59 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 256,
                 "end": 265,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 256,
                   "end": 257,
-                  "decorators": [],
                   "name": "N",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 258,
                   "end": 265,
-                  "decorators": [],
                   "name": "object1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
               {
                 "type": "MemberExpression",
                 "start": 271,
                 "end": 280,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 271,
                   "end": 272,
-                  "decorators": [],
                   "name": "M",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 273,
                   "end": 280,
-                  "decorators": [],
                   "name": "object2",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

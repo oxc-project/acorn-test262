@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -27,18 +18,36 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 17,
-            "decorators": [],
             "name": "react",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "react",
+        "raw": "'react'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 32,
       "end": 128,
+      "id": {
+        "type": "Identifier",
+        "start": 40,
+        "end": 46,
+        "name": "global",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 47,
@@ -48,6 +57,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 51,
             "end": 126,
+            "id": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 77,
+              "name": "FullCalendarVDom",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 78,
@@ -57,7 +75,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 84,
                   "end": 122,
-                  "attributes": [],
                   "declaration": {
                     "type": "TSImportEqualsDeclaration",
                     "start": 91,
@@ -66,12 +83,11 @@ __ESTREE_TEST__:PASS:
                       "type": "Identifier",
                       "start": 98,
                       "end": 103,
-                      "decorators": [],
                       "name": "VNode",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "importKind": "value",
                     "moduleReference": {
                       "type": "TSQualifiedName",
                       "start": 106,
@@ -80,55 +96,39 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 106,
                         "end": 111,
-                        "decorators": [],
                         "name": "react",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "right": {
                         "type": "Identifier",
                         "start": 112,
                         "end": 121,
-                        "decorators": [],
                         "name": "ReactNode",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
-                    }
+                    },
+                    "importKind": "value"
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "attributes": [],
+                  "exportKind": "value"
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 77,
-              "decorators": [],
-              "name": "FullCalendarVDom",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 40,
-        "end": 46,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -138,28 +138,28 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 145,
         "end": 167,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 151,
+          "end": 163,
+          "name": "FullCalendar",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 164,
           "end": 167,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 151,
-          "end": 163,
-          "decorators": [],
-          "name": "FullCalendar",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }
@@ -179,15 +179,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 24,
-        "end": 32,
-        "raw": "'preact'",
-        "value": "preact"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -197,18 +188,36 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 18,
-            "decorators": [],
             "name": "preact",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 32,
+        "value": "preact",
+        "raw": "'preact'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 34,
       "end": 123,
+      "id": {
+        "type": "Identifier",
+        "start": 42,
+        "end": 48,
+        "name": "global",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 49,
@@ -218,6 +227,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 53,
             "end": 121,
+            "id": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 79,
+              "name": "FullCalendarVDom",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 80,
@@ -227,20 +245,43 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeAliasDeclaration",
                   "start": 86,
                   "end": 117,
-                  "declare": false,
                   "id": {
                     "type": "Identifier",
                     "start": 91,
                     "end": 96,
-                    "decorators": [],
                     "name": "VNode",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
+                  "typeParameters": null,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
                     "start": 99,
                     "end": 116,
+                    "typeName": {
+                      "type": "TSQualifiedName",
+                      "start": 99,
+                      "end": 111,
+                      "left": {
+                        "type": "Identifier",
+                        "start": 99,
+                        "end": 105,
+                        "name": "preact",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Identifier",
+                        "start": 106,
+                        "end": 111,
+                        "name": "VNode",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 111,
@@ -252,92 +293,51 @@ __ESTREE_TEST__:PASS:
                           "end": 115
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "TSQualifiedName",
-                      "start": 99,
-                      "end": 111,
-                      "left": {
-                        "type": "Identifier",
-                        "start": 99,
-                        "end": 105,
-                        "decorators": [],
-                        "name": "preact",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "right": {
-                        "type": "Identifier",
-                        "start": 106,
-                        "end": 111,
-                        "decorators": [],
-                        "name": "VNode",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
                     }
                   },
-                  "typeParameters": null
+                  "declare": false
                 }
               ]
             },
+            "kind": "namespace",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 63,
-              "end": 79,
-              "decorators": [],
-              "name": "FullCalendarVDom",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "namespace"
+            "global": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 42,
-        "end": 48,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 125,
       "end": 154,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 132,
         "end": 154,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 137,
           "end": 147,
-          "decorators": [],
           "name": "EventInput",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 150,
           "end": 153
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -359,10 +359,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 9,
         "end": 14,
-        "decorators": [],
         "name": "React",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -373,16 +373,25 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 36,
         "end": 41,
-        "decorators": [],
         "name": "React",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 43,
       "end": 159,
+      "id": {
+        "type": "Identifier",
+        "start": 61,
+        "end": 66,
+        "name": "React",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 67,
@@ -392,49 +401,45 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAliasDeclaration",
             "start": 73,
             "end": 94,
-            "declare": false,
             "id": {
               "type": "Identifier",
               "start": 78,
               "end": 87,
-              "decorators": [],
               "name": "ReactNode",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "typeParameters": null,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 90,
               "end": 93
             },
-            "typeParameters": null
+            "declare": false
           },
           {
             "type": "TSDeclareFunction",
             "start": 99,
             "end": 157,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 108,
               "end": 115,
-              "decorators": [],
               "name": "useMemo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "expression": false,
+            "generator": false,
+            "async": false,
             "params": [
               {
                 "type": "Identifier",
                 "start": 119,
                 "end": 135,
-                "decorators": [],
                 "name": "factory",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 126,
@@ -443,6 +448,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSFunctionType",
                     "start": 128,
                     "end": 135,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -452,29 +458,28 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 134,
                         "end": 135,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 134,
                           "end": 135,
-                          "decorators": [],
                           "name": "T",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               },
               {
                 "type": "Identifier",
                 "start": 137,
                 "end": 152,
-                "decorators": [],
                 "name": "deps",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 141,
@@ -484,29 +489,13 @@ __ESTREE_TEST__:PASS:
                     "start": 143,
                     "end": 152
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
-            "returnType": {
-              "type": "TSTypeAnnotation",
-              "start": 153,
-              "end": 156,
-              "typeAnnotation": {
-                "type": "TSTypeReference",
-                "start": 155,
-                "end": 156,
-                "typeArguments": null,
-                "typeName": {
-                  "type": "Identifier",
-                  "start": 155,
-                  "end": 156,
-                  "decorators": [],
-                  "name": "T",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            },
+            "body": null,
+            "declare": false,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 115,
@@ -516,38 +505,49 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 116,
                   "end": 117,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 116,
                     "end": 117,
-                    "decorators": [],
                     "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
+            },
+            "returnType": {
+              "type": "TSTypeAnnotation",
+              "start": 153,
+              "end": 156,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 155,
+                "end": 156,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 155,
+                  "end": 156,
+                  "name": "T",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
+              }
             }
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 61,
-        "end": 66,
-        "decorators": [],
-        "name": "React",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -569,38 +569,30 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 20,
         "end": 26,
-        "decorators": [],
         "name": "preact",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 28,
       "end": 61,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 35,
         "end": 61,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 59,
-          "end": 61,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
         "id": {
           "type": "Identifier",
           "start": 45,
           "end": 50,
-          "decorators": [],
           "name": "VNode",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "extends": [],
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 50,
@@ -610,7 +602,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 51,
               "end": 57,
-              "const": false,
+              "name": {
+                "type": "Identifier",
+                "start": 51,
+                "end": 52,
+                "name": "P",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "constraint": null,
               "default": {
                 "type": "TSTypeLiteral",
@@ -619,23 +619,23 @@ __ESTREE_TEST__:PASS:
                 "members": []
               },
               "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 51,
-                "end": 52,
-                "decorators": [],
-                "name": "P",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "body": {
+          "type": "TSInterfaceBody",
+          "start": 59,
+          "end": 61,
+          "body": []
+        },
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -653,15 +653,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 47,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 46,
-        "raw": "\"@fullcalendar/react\"",
-        "value": "@fullcalendar/react"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -671,27 +662,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 19,
-            "decorators": [],
             "name": "FullCalendar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 46,
+        "value": "@fullcalendar/react",
+        "raw": "\"@fullcalendar/react\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 48,
       "end": 96,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 75,
-        "end": 95,
-        "raw": "\"@fullcalendar/core\"",
-        "value": "@fullcalendar/core"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -701,23 +692,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 57,
             "end": 67,
-            "decorators": [],
             "name": "EventInput",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 57,
             "end": 67,
-            "decorators": [],
             "name": "EventInput",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 75,
+        "end": 95,
+        "value": "@fullcalendar/core",
+        "raw": "\"@fullcalendar/core\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

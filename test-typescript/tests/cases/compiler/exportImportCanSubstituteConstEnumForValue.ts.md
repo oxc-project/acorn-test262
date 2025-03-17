@@ -9,6 +9,43 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 516,
+      "id": {
+        "type": "TSQualifiedName",
+        "start": 7,
+        "end": 36,
+        "left": {
+          "type": "TSQualifiedName",
+          "start": 7,
+          "end": 28,
+          "left": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 17,
+            "name": "MsPortalFx",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 18,
+            "end": 28,
+            "name": "ViewModels",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          }
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 29,
+          "end": 36,
+          "name": "Dialogs",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 37,
@@ -18,11 +55,135 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 44,
             "end": 181,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 51,
               "end": 181,
+              "id": {
+                "type": "Identifier",
+                "start": 62,
+                "end": 74,
+                "name": "DialogResult",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 85,
+                  "end": 90,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 85,
+                    "end": 90,
+                    "name": "Abort",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 100,
+                  "end": 106,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 100,
+                    "end": 106,
+                    "name": "Cancel",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 116,
+                  "end": 122,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 116,
+                    "end": 122,
+                    "name": "Ignore",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 132,
+                  "end": 134,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 132,
+                    "end": 134,
+                    "name": "No",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 144,
+                  "end": 146,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 144,
+                    "end": 146,
+                    "name": "Ok",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 156,
+                  "end": 161,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 156,
+                    "end": 161,
+                    "name": "Retry",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 171,
+                  "end": 174,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 171,
+                    "end": 174,
+                    "name": "Yes",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": true,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 75,
@@ -32,141 +193,141 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 85,
                     "end": 90,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 85,
                       "end": 90,
-                      "decorators": [],
                       "name": "Abort",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 100,
                     "end": 106,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 100,
                       "end": 106,
-                      "decorators": [],
                       "name": "Cancel",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 116,
                     "end": 122,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 116,
                       "end": 122,
-                      "decorators": [],
                       "name": "Ignore",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 132,
                     "end": 134,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 132,
                       "end": 134,
-                      "decorators": [],
                       "name": "No",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 144,
                     "end": 146,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 144,
                       "end": 146,
-                      "decorators": [],
                       "name": "Ok",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 156,
                     "end": 161,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 156,
                       "end": 161,
-                      "decorators": [],
                       "name": "Retry",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 171,
                     "end": 174,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 171,
                       "end": 174,
-                      "decorators": [],
                       "name": "Yes",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": true,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 62,
-                "end": 74,
-                "decorators": [],
-                "name": "DialogResult",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 187,
             "end": 300,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 194,
               "end": 300,
+              "id": {
+                "type": "Identifier",
+                "start": 204,
+                "end": 224,
+                "name": "DialogResultCallback",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "extends": [],
+              "typeParameters": null,
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 225,
@@ -176,14 +337,13 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 235,
                     "end": 294,
+                    "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
                         "start": 236,
                         "end": 286,
-                        "decorators": [],
                         "name": "result",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 242,
@@ -192,7 +352,6 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 244,
                             "end": 286,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "TSQualifiedName",
                               "start": 244,
@@ -209,43 +368,46 @@ __ESTREE_TEST__:PASS:
                                     "type": "Identifier",
                                     "start": 244,
                                     "end": 254,
-                                    "decorators": [],
                                     "name": "MsPortalFx",
-                                    "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
                                   },
                                   "right": {
                                     "type": "Identifier",
                                     "start": 255,
                                     "end": 265,
-                                    "decorators": [],
                                     "name": "ViewModels",
-                                    "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
                                   }
                                 },
                                 "right": {
                                   "type": "Identifier",
                                   "start": 266,
                                   "end": 273,
-                                  "decorators": [],
                                   "name": "Dialogs",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               },
                               "right": {
                                 "type": "Identifier",
                                 "start": 274,
                                 "end": 286,
-                                "decorators": [],
                                 "name": "DialogResult",
-                                "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
                               }
-                            }
+                            },
+                            "typeArguments": null
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
                     "returnType": {
@@ -257,38 +419,38 @@ __ESTREE_TEST__:PASS:
                         "start": 289,
                         "end": 293
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 204,
-                "end": 224,
-                "decorators": [],
-                "name": "DialogResultCallback",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 306,
             "end": 352,
-            "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
               "start": 313,
               "end": 352,
+              "id": {
+                "type": "Identifier",
+                "start": 322,
+                "end": 342,
+                "name": "someExportedFunction",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 345,
@@ -296,34 +458,131 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": {
-                "type": "Identifier",
-                "start": 322,
-                "end": 342,
-                "decorators": [],
-                "name": "someExportedFunction",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
+              "typeParameters": null,
+              "returnType": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 358,
             "end": 514,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 365,
               "end": 514,
+              "id": {
+                "type": "Identifier",
+                "start": 376,
+                "end": 393,
+                "name": "MessageBoxButtons",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 404,
+                  "end": 420,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 404,
+                    "end": 420,
+                    "name": "AbortRetryIgnore",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 430,
+                  "end": 432,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 430,
+                    "end": 432,
+                    "name": "OK",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 442,
+                  "end": 450,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 442,
+                    "end": 450,
+                    "name": "OKCancel",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 460,
+                  "end": 471,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 460,
+                    "end": 471,
+                    "name": "RetryCancel",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 481,
+                  "end": 486,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 481,
+                    "end": 486,
+                    "name": "YesNo",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 496,
+                  "end": 507,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 496,
+                    "end": 507,
+                    "name": "YesNoCancel",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": true,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 394,
@@ -333,163 +592,139 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 404,
                     "end": 420,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 404,
                       "end": 420,
-                      "decorators": [],
                       "name": "AbortRetryIgnore",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 430,
                     "end": 432,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 430,
                       "end": 432,
-                      "decorators": [],
                       "name": "OK",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 442,
                     "end": 450,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 442,
                       "end": 450,
-                      "decorators": [],
                       "name": "OKCancel",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 460,
                     "end": 471,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 460,
                       "end": 471,
-                      "decorators": [],
                       "name": "RetryCancel",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 481,
                     "end": 486,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 481,
                       "end": 486,
-                      "decorators": [],
                       "name": "YesNo",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 496,
                     "end": 507,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 496,
                       "end": 507,
-                      "decorators": [],
                       "name": "YesNoCancel",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": true,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 376,
-                "end": 393,
-                "decorators": [],
-                "name": "MessageBoxButtons",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "TSQualifiedName",
-        "start": 7,
-        "end": 36,
-        "left": {
-          "type": "TSQualifiedName",
-          "start": 7,
-          "end": 28,
-          "left": {
-            "type": "Identifier",
-            "start": 7,
-            "end": 17,
-            "decorators": [],
-            "name": "MsPortalFx",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "right": {
-            "type": "Identifier",
-            "start": 18,
-            "end": 28,
-            "decorators": [],
-            "name": "ViewModels",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "right": {
-          "type": "Identifier",
-          "start": 29,
-          "end": 36,
-          "decorators": [],
-          "name": "Dialogs",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 519,
       "end": 1338,
+      "id": {
+        "type": "TSQualifiedName",
+        "start": 526,
+        "end": 547,
+        "left": {
+          "type": "Identifier",
+          "start": 526,
+          "end": 536,
+          "name": "MsPortalFx",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 537,
+          "end": 547,
+          "name": "ViewModels",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 548,
@@ -499,7 +734,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 654,
             "end": 706,
-            "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
               "start": 661,
@@ -508,12 +742,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 668,
                 "end": 682,
-                "decorators": [],
                 "name": "ReExportedEnum",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "importKind": "value",
               "moduleReference": {
                 "type": "TSQualifiedName",
                 "start": 685,
@@ -522,25 +755,27 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 685,
                   "end": 692,
-                  "decorators": [],
                   "name": "Dialogs",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "right": {
                   "type": "Identifier",
                   "start": 693,
                   "end": 705,
-                  "decorators": [],
                   "name": "DialogResult",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
-              }
+              },
+              "importKind": "value"
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "TSImportEqualsDeclaration",
@@ -550,12 +785,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 815,
               "end": 828,
-              "decorators": [],
               "name": "DialogButtons",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
               "start": 831,
@@ -564,27 +798,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 831,
                 "end": 838,
-                "decorators": [],
                 "name": "Dialogs",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 839,
                 "end": 856,
-                "decorators": [],
                 "name": "MessageBoxButtons",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 975,
             "end": 1029,
-            "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
               "start": 982,
@@ -593,12 +827,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 989,
                 "end": 997,
-                "decorators": [],
                 "name": "Callback",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "importKind": "value",
               "moduleReference": {
                 "type": "TSQualifiedName",
                 "start": 1000,
@@ -607,36 +840,46 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 1000,
                   "end": 1007,
-                  "decorators": [],
                   "name": "Dialogs",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "right": {
                   "type": "Identifier",
                   "start": 1008,
                   "end": 1028,
-                  "decorators": [],
                   "name": "DialogResultCallback",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
-              }
+              },
+              "importKind": "value"
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 1035,
             "end": 1336,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 1042,
               "end": 1336,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 1048,
+                "end": 1071,
+                "name": "SomeUsagesOfTheseConsts",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 1072,
@@ -646,27 +889,27 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 1082,
                     "end": 1330,
-                    "accessibility": null,
+                    "static": false,
                     "computed": false,
-                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 1082,
                       "end": 1093,
-                      "decorators": [],
                       "name": "constructor",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "kind": "constructor",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1093,
                       "end": 1330,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
                       "async": false,
+                      "params": [],
                       "body": {
                         "type": "BlockStatement",
                         "start": 1096,
@@ -681,94 +924,94 @@ __ESTREE_TEST__:PASS:
                                 "type": "VariableDeclarator",
                                 "start": 1172,
                                 "end": 1202,
-                                "definite": false,
                                 "id": {
                                   "type": "Identifier",
                                   "start": 1172,
                                   "end": 1178,
-                                  "decorators": [],
                                   "name": "value1",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 },
                                 "init": {
                                   "type": "MemberExpression",
                                   "start": 1181,
                                   "end": 1202,
-                                  "computed": false,
                                   "object": {
                                     "type": "Identifier",
                                     "start": 1181,
                                     "end": 1195,
-                                    "decorators": [],
                                     "name": "ReExportedEnum",
-                                    "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 1196,
                                     "end": 1202,
-                                    "decorators": [],
                                     "name": "Cancel",
-                                    "optional": false,
-                                    "typeAnnotation": null
-                                  }
-                                }
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "definite": false
                               }
                             ],
-                            "declare": false,
-                            "kind": "const"
+                            "kind": "const",
+                            "declare": false
                           },
                           {
                             "type": "ExpressionStatement",
                             "start": 1216,
                             "end": 1236,
-                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 1216,
                               "end": 1235,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1216,
+                                "end": 1227,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1216,
+                                  "end": 1223,
+                                  "name": "console",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1224,
+                                  "end": 1227,
+                                  "name": "log",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
                               "arguments": [
                                 {
                                   "type": "Identifier",
                                   "start": 1228,
                                   "end": 1234,
-                                  "decorators": [],
                                   "name": "value1",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               ],
-                              "callee": {
-                                "type": "MemberExpression",
-                                "start": 1216,
-                                "end": 1227,
-                                "computed": false,
-                                "object": {
-                                  "type": "Identifier",
-                                  "start": 1216,
-                                  "end": 1223,
-                                  "decorators": [],
-                                  "name": "console",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "optional": false,
-                                "property": {
-                                  "type": "Identifier",
-                                  "start": 1224,
-                                  "end": 1227,
-                                  "decorators": [],
-                                  "name": "log",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
-                              },
                               "optional": false,
                               "typeArguments": null
-                            }
+                            },
+                            "directive": null
                           },
                           {
                             "type": "VariableDeclaration",
@@ -779,156 +1022,125 @@ __ESTREE_TEST__:PASS:
                                 "type": "VariableDeclarator",
                                 "start": 1255,
                                 "end": 1286,
-                                "definite": false,
                                 "id": {
                                   "type": "Identifier",
                                   "start": 1255,
                                   "end": 1261,
-                                  "decorators": [],
                                   "name": "value2",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 },
                                 "init": {
                                   "type": "MemberExpression",
                                   "start": 1264,
                                   "end": 1286,
-                                  "computed": false,
                                   "object": {
                                     "type": "Identifier",
                                     "start": 1264,
                                     "end": 1277,
-                                    "decorators": [],
                                     "name": "DialogButtons",
-                                    "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
                                   },
-                                  "optional": false,
                                   "property": {
                                     "type": "Identifier",
                                     "start": 1278,
                                     "end": 1286,
-                                    "decorators": [],
                                     "name": "OKCancel",
-                                    "optional": false,
-                                    "typeAnnotation": null
-                                  }
-                                }
+                                    "typeAnnotation": null,
+                                    "decorators": [],
+                                    "optional": false
+                                  },
+                                  "computed": false,
+                                  "optional": false
+                                },
+                                "definite": false
                               }
                             ],
-                            "declare": false,
-                            "kind": "const"
+                            "kind": "const",
+                            "declare": false
                           },
                           {
                             "type": "ExpressionStatement",
                             "start": 1300,
                             "end": 1320,
-                            "directive": null,
                             "expression": {
                               "type": "CallExpression",
                               "start": 1300,
                               "end": 1319,
+                              "callee": {
+                                "type": "MemberExpression",
+                                "start": 1300,
+                                "end": 1311,
+                                "object": {
+                                  "type": "Identifier",
+                                  "start": 1300,
+                                  "end": 1307,
+                                  "name": "console",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "property": {
+                                  "type": "Identifier",
+                                  "start": 1308,
+                                  "end": 1311,
+                                  "name": "log",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                },
+                                "computed": false,
+                                "optional": false
+                              },
                               "arguments": [
                                 {
                                   "type": "Identifier",
                                   "start": 1312,
                                   "end": 1318,
-                                  "decorators": [],
                                   "name": "value2",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               ],
-                              "callee": {
-                                "type": "MemberExpression",
-                                "start": 1300,
-                                "end": 1311,
-                                "computed": false,
-                                "object": {
-                                  "type": "Identifier",
-                                  "start": 1300,
-                                  "end": 1307,
-                                  "decorators": [],
-                                  "name": "console",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                },
-                                "optional": false,
-                                "property": {
-                                  "type": "Identifier",
-                                  "start": 1308,
-                                  "end": 1311,
-                                  "decorators": [],
-                                  "name": "log",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
-                              },
                               "optional": false,
                               "typeArguments": null
-                            }
+                            },
+                            "directive": null
                           }
                         ]
                       },
                       "declare": false,
-                      "expression": false,
-                      "generator": false,
-                      "id": null,
-                      "params": [],
-                      "returnType": null,
-                      "typeParameters": null
-                    }
+                      "typeParameters": null,
+                      "returnType": null
+                    },
+                    "decorators": [],
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 1048,
-                "end": 1071,
-                "decorators": [],
-                "name": "SomeUsagesOfTheseConsts",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "TSQualifiedName",
-        "start": 526,
-        "end": 547,
-        "left": {
-          "type": "Identifier",
-          "start": 526,
-          "end": 536,
-          "decorators": [],
-          "name": "MsPortalFx",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Identifier",
-          "start": 537,
-          "end": 547,
-          "decorators": [],
-          "name": "ViewModels",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

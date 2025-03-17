@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 29,
-            "decorators": [],
             "name": "decorator",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -30,24 +27,27 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 15,
                 "end": 29,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 15,
                   "end": 29,
-                  "decorators": [],
                   "name": "ClassDecorator",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -57,14 +57,22 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 58,
         "end": 70,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 64,
+          "end": 67,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 68,
           "end": 70,
           "body": []
         },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -74,26 +82,18 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 33,
               "end": 42,
-              "decorators": [],
               "name": "decorator",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 64,
-          "end": 67,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }
@@ -118,14 +118,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 29,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 29,
-            "decorators": [],
             "name": "decorator",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -134,24 +131,27 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 15,
                 "end": 29,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 15,
                   "end": 29,
-                  "decorators": [],
                   "name": "ClassDecorator",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -161,14 +161,14 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 58,
         "end": 66,
-        "abstract": false,
+        "id": null,
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 64,
           "end": 66,
           "body": []
         },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -178,18 +178,18 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 33,
               "end": 42,
-              "decorators": [],
               "name": "decorator",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ],
-        "id": null,
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

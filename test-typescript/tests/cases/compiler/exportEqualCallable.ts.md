@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 28,
-            "decorators": [],
             "name": "server",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 10,
@@ -35,6 +32,7 @@ __ESTREE_TEST__:PASS:
                     "type": "TSCallSignatureDeclaration",
                     "start": 18,
                     "end": 26,
+                    "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
@@ -45,18 +43,20 @@ __ESTREE_TEST__:PASS:
                         "start": 22,
                         "end": 25
                       }
-                    },
-                    "typeParameters": null
+                    }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -66,10 +66,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 39,
         "end": 45,
-        "decorators": [],
         "name": "server",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -92,12 +92,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 55,
         "end": 62,
-        "decorators": [],
         "name": "connect",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 65,
@@ -106,33 +105,34 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 73,
           "end": 96,
-          "raw": "'exportEqualCallable_0'",
-          "value": "exportEqualCallable_0"
+          "value": "exportEqualCallable_0",
+          "raw": "'exportEqualCallable_0'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 99,
       "end": 109,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 99,
         "end": 108,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 99,
           "end": 106,
-          "decorators": [],
           "name": "connect",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

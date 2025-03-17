@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 15,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "name": "F",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 13,
@@ -17,26 +29,13 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "F",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 16,
       "end": 30,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 16,
@@ -46,33 +45,34 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 16,
           "end": 25,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 16,
             "end": 17,
-            "decorators": [],
             "name": "F",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 18,
             "end": 24,
-            "raw": "\"prop\"",
-            "value": "prop"
-          }
+            "value": "prop",
+            "raw": "\"prop\""
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 28,
           "end": 29,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -83,21 +83,24 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 38,
           "end": 56,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
             "end": 39,
-            "decorators": [],
             "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 42,
             "end": 56,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 54,
@@ -105,23 +108,19 @@ __ESTREE_TEST__:PASS:
               "body": []
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 58,
       "end": 72,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 58,
@@ -131,33 +130,34 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 58,
           "end": 67,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 58,
             "end": 59,
-            "decorators": [],
             "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 60,
             "end": 66,
-            "raw": "\"prop\"",
-            "value": "prop"
-          }
+            "value": "prop",
+            "raw": "\"prop\""
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 70,
           "end": 71,
-          "raw": "3",
-          "value": 3
+          "value": 3,
+          "raw": "3"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

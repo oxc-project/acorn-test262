@@ -14,40 +14,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 50,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 50,
             "end": 51,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 54,
             "end": 69,
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 59,
-                "end": 63,
-                "raw": "text",
-                "value": "text"
-              }
-            ],
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 63,
-              "end": 69,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 65,
-                "end": 68,
-                "name": "div"
-              }
-            },
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 54,
@@ -61,22 +40,43 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": false,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 63,
+              "end": 69,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 65,
+                "end": 68,
+                "name": "div"
+              }
+            },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 59,
+                "end": 63,
+                "value": "text",
+                "raw": "text"
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 72,
       "end": 82,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

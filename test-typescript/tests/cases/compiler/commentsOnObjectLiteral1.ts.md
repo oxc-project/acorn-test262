@@ -14,20 +14,28 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 72,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 10,
-            "decorators": [],
             "name": "Person",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 13,
             "end": 72,
+            "callee": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 22,
+              "name": "makeClass",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "ObjectExpression",
@@ -36,22 +44,14 @@ __ESTREE_TEST__:PASS:
                 "properties": []
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 13,
-              "end": 22,
-              "decorators": [],
-              "name": "makeClass",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

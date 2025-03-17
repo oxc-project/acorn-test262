@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 27,
-            "decorators": [],
             "name": "myReactLib",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 22,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 24,
                 "end": 27
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 41,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 41,
             "end": 49,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 44,
@@ -65,13 +62,16 @@ __ESTREE_TEST__:PASS:
                 "start": 46,
                 "end": 49
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -82,14 +82,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 63,
           "end": 71,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 63,
             "end": 71,
-            "decorators": [],
             "name": "Bar",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 66,
@@ -99,13 +96,16 @@ __ESTREE_TEST__:PASS:
                 "start": 68,
                 "end": 71
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -116,14 +116,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 85,
           "end": 94,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
             "end": 94,
-            "decorators": [],
             "name": "_Bar",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 89,
@@ -133,13 +130,16 @@ __ESTREE_TEST__:PASS:
                 "start": 91,
                 "end": 94
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -150,14 +150,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 108,
           "end": 114,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 108,
             "end": 114,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 109,
@@ -167,25 +164,25 @@ __ESTREE_TEST__:PASS:
                 "start": 111,
                 "end": 114
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 117,
       "end": 129,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 117,
         "end": 128,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 117,
@@ -212,20 +209,20 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 130,
       "end": 144,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 130,
         "end": 143,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 130,
@@ -249,10 +246,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 138,
                   "end": 139,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             }
@@ -265,20 +262,20 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 145,
       "end": 161,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 145,
         "end": 160,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 145,
@@ -292,20 +289,20 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 162,
       "end": 177,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 162,
         "end": 176,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 162,
@@ -319,10 +316,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 171,
                 "end": 172,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ],
@@ -334,20 +331,20 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 178,
       "end": 201,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 178,
         "end": 200,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 178,
@@ -361,10 +358,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 188,
                 "end": 189,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             },
             {
@@ -385,8 +382,8 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 195,
                   "end": 196,
-                  "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "raw": "2"
                 }
               }
             }
@@ -399,20 +396,20 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 202,
       "end": 220,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 202,
         "end": 219,
-        "children": [],
-        "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 202,
@@ -426,10 +423,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 213,
                 "end": 214,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ],
@@ -441,8 +438,11 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": true,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": null,
+        "children": []
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

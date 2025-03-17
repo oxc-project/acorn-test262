@@ -9,38 +9,49 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 6,
-      "directive": "hey!",
       "expression": {
         "type": "Literal",
         "start": 0,
         "end": 6,
-        "raw": "\"hey!\"",
-        "value": "hey!"
-      }
+        "value": "hey!",
+        "raw": "\"hey!\""
+      },
+      "directive": "hey!"
     },
     {
       "type": "ExpressionStatement",
       "start": 7,
       "end": 21,
-      "directive": " use strict ",
       "expression": {
         "type": "Literal",
         "start": 7,
         "end": 21,
-        "raw": "\" use strict \"",
-        "value": " use strict "
-      }
+        "value": " use strict ",
+        "raw": "\" use strict \""
+      },
+      "directive": " use strict "
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 22,
       "end": 48,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 29,
         "end": 48,
+        "id": {
+          "type": "Identifier",
+          "start": 38,
+          "end": 39,
+          "name": "f",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 42,
@@ -48,24 +59,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 38,
-          "end": 39,
-          "decorators": [],
-          "name": "f",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

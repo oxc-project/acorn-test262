@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 41,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 27,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -34,18 +33,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 30,
                 "end": 41,
-                "tail": true,
                 "value": {
                   "cooked": "󝷝",
                   "raw": "\\u{DDDDD}"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

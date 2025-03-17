@@ -9,66 +9,58 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 0,
         "end": 20,
-        "async": false,
-        "body": {
-          "type": "Literal",
-          "start": 17,
-          "end": 20,
-          "raw": "101",
-          "value": 101
-        },
+        "id": null,
         "expression": true,
         "generator": false,
-        "id": null,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 1,
             "end": 6,
-            "decorators": [],
             "name": "arg1",
-            "optional": true,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": true
           },
           {
             "type": "Identifier",
             "start": 8,
             "end": 12,
-            "decorators": [],
             "name": "arg2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Literal",
+          "start": 17,
+          "end": 20,
+          "value": 101,
+          "raw": "101"
+        },
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 22,
         "end": 38,
-        "async": false,
-        "body": {
-          "type": "Literal",
-          "start": 35,
-          "end": 38,
-          "raw": "102",
-          "value": 102
-        },
+        "id": null,
         "expression": true,
         "generator": false,
-        "id": null,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -78,10 +70,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 26,
               "end": 29,
-              "decorators": [],
               "name": "arg",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": true,
@@ -89,30 +81,30 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Literal",
+          "start": 35,
+          "end": 38,
+          "value": 102,
+          "raw": "102"
+        },
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 40,
         "end": 55,
-        "async": false,
-        "body": {
-          "type": "Literal",
-          "start": 52,
-          "end": 55,
-          "raw": "103",
-          "value": 103
-        },
+        "id": null,
         "expression": true,
         "generator": false,
-        "id": null,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -122,10 +114,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 44,
               "end": 47,
-              "decorators": [],
               "name": "arg",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -133,30 +125,30 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Literal",
+          "start": 52,
+          "end": 55,
+          "value": 103,
+          "raw": "103"
+        },
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 57,
       "end": 88,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 57,
         "end": 87,
-        "async": false,
-        "body": {
-          "type": "Literal",
-          "start": 84,
-          "end": 87,
-          "raw": "104",
-          "value": 104
-        },
+        "id": null,
         "expression": true,
         "generator": false,
-        "id": null,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -166,10 +158,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 61,
               "end": 64,
-              "decorators": [],
               "name": "arg",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -191,68 +183,76 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Literal",
+          "start": 84,
+          "end": 87,
+          "value": 104,
+          "raw": "104"
+        },
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 152,
       "end": 174,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 152,
         "end": 173,
-        "async": false,
-        "body": {
-          "type": "Literal",
-          "start": 172,
-          "end": 173,
-          "raw": "1",
-          "value": 1
-        },
+        "id": null,
         "expression": true,
         "generator": false,
-        "id": null,
+        "async": false,
         "params": [
           {
             "type": "AssignmentPattern",
             "start": 153,
             "end": 161,
-            "decorators": [],
             "left": {
               "type": "Identifier",
               "start": 153,
               "end": 157,
-              "decorators": [],
               "name": "arg1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "right": {
               "type": "Literal",
               "start": 160,
               "end": 161,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
+            "decorators": [],
+            "optional": false,
             "typeAnnotation": null
           },
           {
             "type": "Identifier",
             "start": 163,
             "end": 167,
-            "decorators": [],
             "name": "arg2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "body": {
+          "type": "Literal",
+          "start": 172,
+          "end": 173,
+          "value": 1,
+          "raw": "1"
+        },
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

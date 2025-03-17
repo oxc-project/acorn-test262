@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 161,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 12,
+        "name": "Outer",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 13,
@@ -18,6 +27,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSModuleDeclaration",
             "start": 19,
             "end": 69,
+            "id": {
+              "type": "Identifier",
+              "start": 26,
+              "end": 31,
+              "name": "Inner",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "TSModuleBlock",
               "start": 32,
@@ -27,7 +45,6 @@ __ESTREE_TEST__:PASS:
                   "type": "ExportNamedDeclaration",
                   "start": 42,
                   "end": 63,
-                  "attributes": [],
                   "declaration": {
                     "type": "VariableDeclaration",
                     "start": 49,
@@ -37,14 +54,11 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclarator",
                         "start": 53,
                         "end": 62,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 53,
                           "end": 62,
-                          "decorators": [],
                           "name": "m",
-                          "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
                             "start": 54,
@@ -54,38 +68,32 @@ __ESTREE_TEST__:PASS:
                               "start": 56,
                               "end": 62
                             }
-                          }
+                          },
+                          "decorators": [],
+                          "optional": false
                         },
-                        "init": null
+                        "init": null,
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "kind": "var",
+                    "declare": false
                   },
-                  "exportKind": "value",
+                  "specifiers": [],
                   "source": null,
-                  "specifiers": []
+                  "attributes": [],
+                  "exportKind": "value"
                 }
               ]
             },
+            "kind": "module",
             "declare": false,
-            "global": false,
-            "id": {
-              "type": "Identifier",
-              "start": 26,
-              "end": 31,
-              "decorators": [],
-              "name": "Inner",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "kind": "module"
+            "global": false
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 75,
             "end": 102,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 82,
@@ -95,14 +103,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 86,
                   "end": 101,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 86,
                     "end": 101,
-                    "decorators": [],
                     "name": "f",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 87,
@@ -115,39 +120,34 @@ __ESTREE_TEST__:PASS:
                           "type": "Identifier",
                           "start": 96,
                           "end": 101,
-                          "decorators": [],
                           "name": "Inner",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
                         "typeArguments": null
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 12,
-        "decorators": [],
-        "name": "Outer",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

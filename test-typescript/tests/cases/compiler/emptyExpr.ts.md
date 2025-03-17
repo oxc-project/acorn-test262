@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 5,
-      "directive": null,
       "expression": {
         "type": "ArrayExpression",
         "start": 0,
@@ -22,7 +21,8 @@ __ESTREE_TEST__:PASS:
             "properties": []
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

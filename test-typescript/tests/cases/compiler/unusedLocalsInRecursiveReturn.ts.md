@@ -9,7 +9,56 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 89,
       "end": 218,
+      "id": {
+        "type": "Identifier",
+        "start": 98,
+        "end": 107,
+        "name": "recursive",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 108,
+          "end": 119,
+          "name": "arg",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 111,
+            "end": 119,
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 113,
+              "end": 119
+            }
+          },
+          "decorators": [],
+          "optional": false
+        },
+        {
+          "type": "Identifier",
+          "start": 121,
+          "end": 134,
+          "name": "other",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 126,
+            "end": 134,
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 128,
+              "end": 134
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 136,
@@ -24,44 +73,44 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 148,
                 "end": 174,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 148,
                   "end": 160,
-                  "decorators": [],
                   "name": "someLocalVar",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "BinaryExpression",
                   "start": 163,
                   "end": 174,
-                  "operator": "+",
                   "left": {
                     "type": "Identifier",
                     "start": 163,
                     "end": 166,
-                    "decorators": [],
                     "name": "arg",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
+                  "operator": "+",
                   "right": {
                     "type": "Identifier",
                     "start": 169,
                     "end": 174,
-                    "decorators": [],
                     "name": "other",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
-                }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "kind": "const",
+            "declare": false
           },
           {
             "type": "ReturnStatement",
@@ -71,35 +120,35 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 187,
               "end": 215,
+              "callee": {
+                "type": "Identifier",
+                "start": 187,
+                "end": 196,
+                "name": "recursive",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Identifier",
                   "start": 197,
                   "end": 209,
-                  "decorators": [],
                   "name": "someLocalVar",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 211,
                   "end": 214,
-                  "decorators": [],
                   "name": "arg",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 187,
-                "end": 196,
-                "decorators": [],
-                "name": "recursive",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
             }
@@ -107,57 +156,8 @@ __ESTREE_TEST__:PASS:
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 98,
-        "end": 107,
-        "decorators": [],
-        "name": "recursive",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 108,
-          "end": 119,
-          "decorators": [],
-          "name": "arg",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 111,
-            "end": 119,
-            "typeAnnotation": {
-              "type": "TSStringKeyword",
-              "start": 113,
-              "end": 119
-            }
-          }
-        },
-        {
-          "type": "Identifier",
-          "start": 121,
-          "end": 134,
-          "decorators": [],
-          "name": "other",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 126,
-            "end": 134,
-            "typeAnnotation": {
-              "type": "TSStringKeyword",
-              "start": 128,
-              "end": 134
-            }
-          }
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

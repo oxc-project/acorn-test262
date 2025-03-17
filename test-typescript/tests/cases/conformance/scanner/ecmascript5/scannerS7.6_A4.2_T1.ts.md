@@ -14,33 +14,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 289,
           "end": 299,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 289,
             "end": 295,
-            "decorators": [],
             "name": "А",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 298,
             "end": 299,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 301,
       "end": 333,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 305,
+        "end": 312,
+        "left": {
+          "type": "Identifier",
+          "start": 305,
+          "end": 306,
+          "name": "А",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 311,
+          "end": 312,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 314,
@@ -50,57 +71,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 318,
             "end": 331,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 318,
               "end": 330,
+              "callee": {
+                "type": "Identifier",
+                "start": 318,
+                "end": 324,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 325,
                   "end": 329,
-                  "raw": "'#А'",
-                  "value": "#А"
+                  "value": "#А",
+                  "raw": "'#А'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 318,
-                "end": 324,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 305,
-        "end": 312,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 305,
-          "end": 306,
-          "decorators": [],
-          "name": "А",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 311,
-          "end": 312,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -111,33 +111,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 338,
           "end": 348,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 338,
             "end": 344,
-            "decorators": [],
             "name": "Б",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 347,
             "end": 348,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 350,
       "end": 382,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 354,
+        "end": 361,
+        "left": {
+          "type": "Identifier",
+          "start": 354,
+          "end": 355,
+          "name": "Б",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 360,
+          "end": 361,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 363,
@@ -147,57 +168,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 367,
             "end": 380,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 367,
               "end": 379,
+              "callee": {
+                "type": "Identifier",
+                "start": 367,
+                "end": 373,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 374,
                   "end": 378,
-                  "raw": "'#Б'",
-                  "value": "#Б"
+                  "value": "#Б",
+                  "raw": "'#Б'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 367,
-                "end": 373,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 354,
-        "end": 361,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 354,
-          "end": 355,
-          "decorators": [],
-          "name": "Б",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 360,
-          "end": 361,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -208,33 +208,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 387,
           "end": 397,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 387,
             "end": 393,
-            "decorators": [],
             "name": "В",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 396,
             "end": 397,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 399,
       "end": 431,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 403,
+        "end": 410,
+        "left": {
+          "type": "Identifier",
+          "start": 403,
+          "end": 404,
+          "name": "В",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 409,
+          "end": 410,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 412,
@@ -244,57 +265,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 416,
             "end": 429,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 416,
               "end": 428,
+              "callee": {
+                "type": "Identifier",
+                "start": 416,
+                "end": 422,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 423,
                   "end": 427,
-                  "raw": "'#В'",
-                  "value": "#В"
+                  "value": "#В",
+                  "raw": "'#В'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 416,
-                "end": 422,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 403,
-        "end": 410,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 403,
-          "end": 404,
-          "decorators": [],
-          "name": "В",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 409,
-          "end": 410,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -305,33 +305,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 436,
           "end": 446,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 436,
             "end": 442,
-            "decorators": [],
             "name": "Г",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 445,
             "end": 446,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 448,
       "end": 480,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 452,
+        "end": 459,
+        "left": {
+          "type": "Identifier",
+          "start": 452,
+          "end": 453,
+          "name": "Г",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 458,
+          "end": 459,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 461,
@@ -341,57 +362,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 465,
             "end": 478,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 465,
               "end": 477,
+              "callee": {
+                "type": "Identifier",
+                "start": 465,
+                "end": 471,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 472,
                   "end": 476,
-                  "raw": "'#Г'",
-                  "value": "#Г"
+                  "value": "#Г",
+                  "raw": "'#Г'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 465,
-                "end": 471,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 452,
-        "end": 459,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 452,
-          "end": 453,
-          "decorators": [],
-          "name": "Г",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 458,
-          "end": 459,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -402,33 +402,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 485,
           "end": 495,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 485,
             "end": 491,
-            "decorators": [],
             "name": "Д",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 494,
             "end": 495,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 497,
       "end": 529,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 501,
+        "end": 508,
+        "left": {
+          "type": "Identifier",
+          "start": 501,
+          "end": 502,
+          "name": "Д",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 507,
+          "end": 508,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 510,
@@ -438,57 +459,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 514,
             "end": 527,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 514,
               "end": 526,
+              "callee": {
+                "type": "Identifier",
+                "start": 514,
+                "end": 520,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 521,
                   "end": 525,
-                  "raw": "'#Д'",
-                  "value": "#Д"
+                  "value": "#Д",
+                  "raw": "'#Д'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 514,
-                "end": 520,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 501,
-        "end": 508,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 501,
-          "end": 502,
-          "decorators": [],
-          "name": "Д",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 507,
-          "end": 508,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -499,33 +499,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 534,
           "end": 544,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 534,
             "end": 540,
-            "decorators": [],
             "name": "Е",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 543,
             "end": 544,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 546,
       "end": 578,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 550,
+        "end": 557,
+        "left": {
+          "type": "Identifier",
+          "start": 550,
+          "end": 551,
+          "name": "Е",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 556,
+          "end": 557,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 559,
@@ -535,57 +556,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 563,
             "end": 576,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 563,
               "end": 575,
+              "callee": {
+                "type": "Identifier",
+                "start": 563,
+                "end": 569,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 570,
                   "end": 574,
-                  "raw": "'#Е'",
-                  "value": "#Е"
+                  "value": "#Е",
+                  "raw": "'#Е'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 563,
-                "end": 569,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 550,
-        "end": 557,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 550,
-          "end": 551,
-          "decorators": [],
-          "name": "Е",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 556,
-          "end": 557,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -596,33 +596,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 583,
           "end": 593,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 583,
             "end": 589,
-            "decorators": [],
             "name": "Ж",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 592,
             "end": 593,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 595,
       "end": 627,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 599,
+        "end": 606,
+        "left": {
+          "type": "Identifier",
+          "start": 599,
+          "end": 600,
+          "name": "Ж",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 605,
+          "end": 606,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 608,
@@ -632,57 +653,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 612,
             "end": 625,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 612,
               "end": 624,
+              "callee": {
+                "type": "Identifier",
+                "start": 612,
+                "end": 618,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 619,
                   "end": 623,
-                  "raw": "'#Ж'",
-                  "value": "#Ж"
+                  "value": "#Ж",
+                  "raw": "'#Ж'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 612,
-                "end": 618,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 599,
-        "end": 606,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 599,
-          "end": 600,
-          "decorators": [],
-          "name": "Ж",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 605,
-          "end": 606,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -693,33 +693,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 632,
           "end": 642,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 632,
             "end": 638,
-            "decorators": [],
             "name": "З",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 641,
             "end": 642,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 644,
       "end": 676,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 648,
+        "end": 655,
+        "left": {
+          "type": "Identifier",
+          "start": 648,
+          "end": 649,
+          "name": "З",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 654,
+          "end": 655,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 657,
@@ -729,57 +750,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 661,
             "end": 674,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 661,
               "end": 673,
+              "callee": {
+                "type": "Identifier",
+                "start": 661,
+                "end": 667,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 668,
                   "end": 672,
-                  "raw": "'#З'",
-                  "value": "#З"
+                  "value": "#З",
+                  "raw": "'#З'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 661,
-                "end": 667,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 648,
-        "end": 655,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 648,
-          "end": 649,
-          "decorators": [],
-          "name": "З",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 654,
-          "end": 655,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -790,33 +790,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 681,
           "end": 691,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 681,
             "end": 687,
-            "decorators": [],
             "name": "И",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 690,
             "end": 691,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 693,
       "end": 725,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 697,
+        "end": 704,
+        "left": {
+          "type": "Identifier",
+          "start": 697,
+          "end": 698,
+          "name": "И",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 703,
+          "end": 704,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 706,
@@ -826,57 +847,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 710,
             "end": 723,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 710,
               "end": 722,
+              "callee": {
+                "type": "Identifier",
+                "start": 710,
+                "end": 716,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 717,
                   "end": 721,
-                  "raw": "'#И'",
-                  "value": "#И"
+                  "value": "#И",
+                  "raw": "'#И'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 710,
-                "end": 716,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 697,
-        "end": 704,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 697,
-          "end": 698,
-          "decorators": [],
-          "name": "И",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 703,
-          "end": 704,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -887,33 +887,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 730,
           "end": 740,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 730,
             "end": 736,
-            "decorators": [],
             "name": "Й",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 739,
             "end": 740,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 742,
       "end": 774,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 746,
+        "end": 753,
+        "left": {
+          "type": "Identifier",
+          "start": 746,
+          "end": 747,
+          "name": "Й",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 752,
+          "end": 753,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 755,
@@ -923,57 +944,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 759,
             "end": 772,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 759,
               "end": 771,
+              "callee": {
+                "type": "Identifier",
+                "start": 759,
+                "end": 765,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 766,
                   "end": 770,
-                  "raw": "'#Й'",
-                  "value": "#Й"
+                  "value": "#Й",
+                  "raw": "'#Й'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 759,
-                "end": 765,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 746,
-        "end": 753,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 746,
-          "end": 747,
-          "decorators": [],
-          "name": "Й",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 752,
-          "end": 753,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -984,33 +984,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 779,
           "end": 789,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 779,
             "end": 785,
-            "decorators": [],
             "name": "К",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 788,
             "end": 789,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 791,
       "end": 823,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 795,
+        "end": 802,
+        "left": {
+          "type": "Identifier",
+          "start": 795,
+          "end": 796,
+          "name": "К",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 801,
+          "end": 802,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 804,
@@ -1020,57 +1041,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 808,
             "end": 821,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 808,
               "end": 820,
+              "callee": {
+                "type": "Identifier",
+                "start": 808,
+                "end": 814,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 815,
                   "end": 819,
-                  "raw": "'#К'",
-                  "value": "#К"
+                  "value": "#К",
+                  "raw": "'#К'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 808,
-                "end": 814,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 795,
-        "end": 802,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 795,
-          "end": 796,
-          "decorators": [],
-          "name": "К",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 801,
-          "end": 802,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1081,33 +1081,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 828,
           "end": 838,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 828,
             "end": 834,
-            "decorators": [],
             "name": "Л",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 837,
             "end": 838,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 840,
       "end": 872,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 844,
+        "end": 851,
+        "left": {
+          "type": "Identifier",
+          "start": 844,
+          "end": 845,
+          "name": "Л",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 850,
+          "end": 851,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 853,
@@ -1117,57 +1138,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 857,
             "end": 870,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 857,
               "end": 869,
+              "callee": {
+                "type": "Identifier",
+                "start": 857,
+                "end": 863,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 864,
                   "end": 868,
-                  "raw": "'#Л'",
-                  "value": "#Л"
+                  "value": "#Л",
+                  "raw": "'#Л'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 857,
-                "end": 863,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 844,
-        "end": 851,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 844,
-          "end": 845,
-          "decorators": [],
-          "name": "Л",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 850,
-          "end": 851,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1178,33 +1178,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 877,
           "end": 887,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 877,
             "end": 883,
-            "decorators": [],
             "name": "М",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 886,
             "end": 887,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 889,
       "end": 921,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 893,
+        "end": 900,
+        "left": {
+          "type": "Identifier",
+          "start": 893,
+          "end": 894,
+          "name": "М",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 899,
+          "end": 900,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 902,
@@ -1214,57 +1235,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 906,
             "end": 919,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 906,
               "end": 918,
+              "callee": {
+                "type": "Identifier",
+                "start": 906,
+                "end": 912,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 913,
                   "end": 917,
-                  "raw": "'#М'",
-                  "value": "#М"
+                  "value": "#М",
+                  "raw": "'#М'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 906,
-                "end": 912,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 893,
-        "end": 900,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 893,
-          "end": 894,
-          "decorators": [],
-          "name": "М",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 899,
-          "end": 900,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1275,33 +1275,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 926,
           "end": 936,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 926,
             "end": 932,
-            "decorators": [],
             "name": "Н",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 935,
             "end": 936,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 938,
       "end": 970,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 942,
+        "end": 949,
+        "left": {
+          "type": "Identifier",
+          "start": 942,
+          "end": 943,
+          "name": "Н",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 948,
+          "end": 949,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 951,
@@ -1311,57 +1332,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 955,
             "end": 968,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 955,
               "end": 967,
+              "callee": {
+                "type": "Identifier",
+                "start": 955,
+                "end": 961,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 962,
                   "end": 966,
-                  "raw": "'#Н'",
-                  "value": "#Н"
+                  "value": "#Н",
+                  "raw": "'#Н'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 955,
-                "end": 961,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 942,
-        "end": 949,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 942,
-          "end": 943,
-          "decorators": [],
-          "name": "Н",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 948,
-          "end": 949,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1372,33 +1372,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 975,
           "end": 985,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 975,
             "end": 981,
-            "decorators": [],
             "name": "О",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 984,
             "end": 985,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 987,
       "end": 1019,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 991,
+        "end": 998,
+        "left": {
+          "type": "Identifier",
+          "start": 991,
+          "end": 992,
+          "name": "О",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 997,
+          "end": 998,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1000,
@@ -1408,57 +1429,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1004,
             "end": 1017,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1004,
               "end": 1016,
+              "callee": {
+                "type": "Identifier",
+                "start": 1004,
+                "end": 1010,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1011,
                   "end": 1015,
-                  "raw": "'#О'",
-                  "value": "#О"
+                  "value": "#О",
+                  "raw": "'#О'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1004,
-                "end": 1010,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 991,
-        "end": 998,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 991,
-          "end": 992,
-          "decorators": [],
-          "name": "О",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 997,
-          "end": 998,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1469,33 +1469,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1024,
           "end": 1034,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1024,
             "end": 1030,
-            "decorators": [],
             "name": "П",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1033,
             "end": 1034,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1036,
       "end": 1068,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1040,
+        "end": 1047,
+        "left": {
+          "type": "Identifier",
+          "start": 1040,
+          "end": 1041,
+          "name": "П",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1046,
+          "end": 1047,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1049,
@@ -1505,57 +1526,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1053,
             "end": 1066,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1053,
               "end": 1065,
+              "callee": {
+                "type": "Identifier",
+                "start": 1053,
+                "end": 1059,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1060,
                   "end": 1064,
-                  "raw": "'#П'",
-                  "value": "#П"
+                  "value": "#П",
+                  "raw": "'#П'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1053,
-                "end": 1059,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1040,
-        "end": 1047,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1040,
-          "end": 1041,
-          "decorators": [],
-          "name": "П",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1046,
-          "end": 1047,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1566,33 +1566,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1073,
           "end": 1083,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1073,
             "end": 1079,
-            "decorators": [],
             "name": "Р",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1082,
             "end": 1083,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1085,
       "end": 1117,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1089,
+        "end": 1096,
+        "left": {
+          "type": "Identifier",
+          "start": 1089,
+          "end": 1090,
+          "name": "Р",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1095,
+          "end": 1096,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1098,
@@ -1602,57 +1623,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1102,
             "end": 1115,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1102,
               "end": 1114,
+              "callee": {
+                "type": "Identifier",
+                "start": 1102,
+                "end": 1108,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1109,
                   "end": 1113,
-                  "raw": "'#Р'",
-                  "value": "#Р"
+                  "value": "#Р",
+                  "raw": "'#Р'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1102,
-                "end": 1108,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1089,
-        "end": 1096,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1089,
-          "end": 1090,
-          "decorators": [],
-          "name": "Р",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1095,
-          "end": 1096,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1663,33 +1663,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1122,
           "end": 1132,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1122,
             "end": 1128,
-            "decorators": [],
             "name": "С",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1131,
             "end": 1132,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1134,
       "end": 1166,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1138,
+        "end": 1145,
+        "left": {
+          "type": "Identifier",
+          "start": 1138,
+          "end": 1139,
+          "name": "С",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1144,
+          "end": 1145,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1147,
@@ -1699,57 +1720,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1151,
             "end": 1164,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1151,
               "end": 1163,
+              "callee": {
+                "type": "Identifier",
+                "start": 1151,
+                "end": 1157,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1158,
                   "end": 1162,
-                  "raw": "'#С'",
-                  "value": "#С"
+                  "value": "#С",
+                  "raw": "'#С'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1151,
-                "end": 1157,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1138,
-        "end": 1145,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1138,
-          "end": 1139,
-          "decorators": [],
-          "name": "С",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1144,
-          "end": 1145,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1760,33 +1760,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1171,
           "end": 1181,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1171,
             "end": 1177,
-            "decorators": [],
             "name": "Т",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1180,
             "end": 1181,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1183,
       "end": 1215,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1187,
+        "end": 1194,
+        "left": {
+          "type": "Identifier",
+          "start": 1187,
+          "end": 1188,
+          "name": "Т",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1193,
+          "end": 1194,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1196,
@@ -1796,57 +1817,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1200,
             "end": 1213,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1200,
               "end": 1212,
+              "callee": {
+                "type": "Identifier",
+                "start": 1200,
+                "end": 1206,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1207,
                   "end": 1211,
-                  "raw": "'#Т'",
-                  "value": "#Т"
+                  "value": "#Т",
+                  "raw": "'#Т'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1200,
-                "end": 1206,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1187,
-        "end": 1194,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1187,
-          "end": 1188,
-          "decorators": [],
-          "name": "Т",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1193,
-          "end": 1194,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1857,33 +1857,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1220,
           "end": 1230,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1220,
             "end": 1226,
-            "decorators": [],
             "name": "У",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1229,
             "end": 1230,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1232,
       "end": 1264,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1236,
+        "end": 1243,
+        "left": {
+          "type": "Identifier",
+          "start": 1236,
+          "end": 1237,
+          "name": "У",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1242,
+          "end": 1243,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1245,
@@ -1893,57 +1914,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1249,
             "end": 1262,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1249,
               "end": 1261,
+              "callee": {
+                "type": "Identifier",
+                "start": 1249,
+                "end": 1255,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1256,
                   "end": 1260,
-                  "raw": "'#У'",
-                  "value": "#У"
+                  "value": "#У",
+                  "raw": "'#У'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1249,
-                "end": 1255,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1236,
-        "end": 1243,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1236,
-          "end": 1237,
-          "decorators": [],
-          "name": "У",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1242,
-          "end": 1243,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -1954,33 +1954,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1269,
           "end": 1279,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1269,
             "end": 1275,
-            "decorators": [],
             "name": "Ф",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1278,
             "end": 1279,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1281,
       "end": 1313,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1285,
+        "end": 1292,
+        "left": {
+          "type": "Identifier",
+          "start": 1285,
+          "end": 1286,
+          "name": "Ф",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1291,
+          "end": 1292,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1294,
@@ -1990,57 +2011,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1298,
             "end": 1311,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1298,
               "end": 1310,
+              "callee": {
+                "type": "Identifier",
+                "start": 1298,
+                "end": 1304,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1305,
                   "end": 1309,
-                  "raw": "'#Ф'",
-                  "value": "#Ф"
+                  "value": "#Ф",
+                  "raw": "'#Ф'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1298,
-                "end": 1304,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1285,
-        "end": 1292,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1285,
-          "end": 1286,
-          "decorators": [],
-          "name": "Ф",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1291,
-          "end": 1292,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2051,33 +2051,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1318,
           "end": 1328,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1318,
             "end": 1324,
-            "decorators": [],
             "name": "Х",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1327,
             "end": 1328,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1330,
       "end": 1362,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1334,
+        "end": 1341,
+        "left": {
+          "type": "Identifier",
+          "start": 1334,
+          "end": 1335,
+          "name": "Х",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1340,
+          "end": 1341,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1343,
@@ -2087,57 +2108,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1347,
             "end": 1360,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1347,
               "end": 1359,
+              "callee": {
+                "type": "Identifier",
+                "start": 1347,
+                "end": 1353,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1354,
                   "end": 1358,
-                  "raw": "'#Х'",
-                  "value": "#Х"
+                  "value": "#Х",
+                  "raw": "'#Х'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1347,
-                "end": 1353,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1334,
-        "end": 1341,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1334,
-          "end": 1335,
-          "decorators": [],
-          "name": "Х",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1340,
-          "end": 1341,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2148,33 +2148,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1367,
           "end": 1377,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1367,
             "end": 1373,
-            "decorators": [],
             "name": "Ц",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1376,
             "end": 1377,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1379,
       "end": 1411,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1383,
+        "end": 1390,
+        "left": {
+          "type": "Identifier",
+          "start": 1383,
+          "end": 1384,
+          "name": "Ц",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1389,
+          "end": 1390,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1392,
@@ -2184,57 +2205,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1396,
             "end": 1409,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1396,
               "end": 1408,
+              "callee": {
+                "type": "Identifier",
+                "start": 1396,
+                "end": 1402,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1403,
                   "end": 1407,
-                  "raw": "'#Ц'",
-                  "value": "#Ц"
+                  "value": "#Ц",
+                  "raw": "'#Ц'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1396,
-                "end": 1402,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1383,
-        "end": 1390,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1383,
-          "end": 1384,
-          "decorators": [],
-          "name": "Ц",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1389,
-          "end": 1390,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2245,33 +2245,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1416,
           "end": 1426,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1416,
             "end": 1422,
-            "decorators": [],
             "name": "Ч",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1425,
             "end": 1426,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1428,
       "end": 1460,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1432,
+        "end": 1439,
+        "left": {
+          "type": "Identifier",
+          "start": 1432,
+          "end": 1433,
+          "name": "Ч",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1438,
+          "end": 1439,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1441,
@@ -2281,57 +2302,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1445,
             "end": 1458,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1445,
               "end": 1457,
+              "callee": {
+                "type": "Identifier",
+                "start": 1445,
+                "end": 1451,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1452,
                   "end": 1456,
-                  "raw": "'#Ч'",
-                  "value": "#Ч"
+                  "value": "#Ч",
+                  "raw": "'#Ч'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1445,
-                "end": 1451,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1432,
-        "end": 1439,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1432,
-          "end": 1433,
-          "decorators": [],
-          "name": "Ч",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1438,
-          "end": 1439,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2342,33 +2342,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1465,
           "end": 1475,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1465,
             "end": 1471,
-            "decorators": [],
             "name": "Ш",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1474,
             "end": 1475,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1477,
       "end": 1509,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1481,
+        "end": 1488,
+        "left": {
+          "type": "Identifier",
+          "start": 1481,
+          "end": 1482,
+          "name": "Ш",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1487,
+          "end": 1488,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1490,
@@ -2378,57 +2399,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1494,
             "end": 1507,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1494,
               "end": 1506,
+              "callee": {
+                "type": "Identifier",
+                "start": 1494,
+                "end": 1500,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1501,
                   "end": 1505,
-                  "raw": "'#Ш'",
-                  "value": "#Ш"
+                  "value": "#Ш",
+                  "raw": "'#Ш'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1494,
-                "end": 1500,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1481,
-        "end": 1488,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1481,
-          "end": 1482,
-          "decorators": [],
-          "name": "Ш",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1487,
-          "end": 1488,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2439,33 +2439,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1514,
           "end": 1524,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1514,
             "end": 1520,
-            "decorators": [],
             "name": "Щ",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1523,
             "end": 1524,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1526,
       "end": 1558,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1530,
+        "end": 1537,
+        "left": {
+          "type": "Identifier",
+          "start": 1530,
+          "end": 1531,
+          "name": "Щ",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1536,
+          "end": 1537,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1539,
@@ -2475,57 +2496,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1543,
             "end": 1556,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1543,
               "end": 1555,
+              "callee": {
+                "type": "Identifier",
+                "start": 1543,
+                "end": 1549,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1550,
                   "end": 1554,
-                  "raw": "'#Щ'",
-                  "value": "#Щ"
+                  "value": "#Щ",
+                  "raw": "'#Щ'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1543,
-                "end": 1549,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1530,
-        "end": 1537,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1530,
-          "end": 1531,
-          "decorators": [],
-          "name": "Щ",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1536,
-          "end": 1537,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2536,33 +2536,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1563,
           "end": 1573,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1563,
             "end": 1569,
-            "decorators": [],
             "name": "Ъ",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1572,
             "end": 1573,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1575,
       "end": 1607,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1579,
+        "end": 1586,
+        "left": {
+          "type": "Identifier",
+          "start": 1579,
+          "end": 1580,
+          "name": "Ъ",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1585,
+          "end": 1586,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1588,
@@ -2572,57 +2593,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1592,
             "end": 1605,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1592,
               "end": 1604,
+              "callee": {
+                "type": "Identifier",
+                "start": 1592,
+                "end": 1598,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1599,
                   "end": 1603,
-                  "raw": "'#Ъ'",
-                  "value": "#Ъ"
+                  "value": "#Ъ",
+                  "raw": "'#Ъ'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1592,
-                "end": 1598,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1579,
-        "end": 1586,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1579,
-          "end": 1580,
-          "decorators": [],
-          "name": "Ъ",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1585,
-          "end": 1586,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2633,33 +2633,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1612,
           "end": 1622,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1612,
             "end": 1618,
-            "decorators": [],
             "name": "Ы",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1621,
             "end": 1622,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1624,
       "end": 1656,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1628,
+        "end": 1635,
+        "left": {
+          "type": "Identifier",
+          "start": 1628,
+          "end": 1629,
+          "name": "Ы",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1634,
+          "end": 1635,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1637,
@@ -2669,57 +2690,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1641,
             "end": 1654,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1641,
               "end": 1653,
+              "callee": {
+                "type": "Identifier",
+                "start": 1641,
+                "end": 1647,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1648,
                   "end": 1652,
-                  "raw": "'#Ы'",
-                  "value": "#Ы"
+                  "value": "#Ы",
+                  "raw": "'#Ы'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1641,
-                "end": 1647,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1628,
-        "end": 1635,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1628,
-          "end": 1629,
-          "decorators": [],
-          "name": "Ы",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1634,
-          "end": 1635,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2730,33 +2730,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1661,
           "end": 1671,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1661,
             "end": 1667,
-            "decorators": [],
             "name": "Ь",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1670,
             "end": 1671,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1673,
       "end": 1705,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1677,
+        "end": 1684,
+        "left": {
+          "type": "Identifier",
+          "start": 1677,
+          "end": 1678,
+          "name": "Ь",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1683,
+          "end": 1684,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1686,
@@ -2766,57 +2787,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1690,
             "end": 1703,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1690,
               "end": 1702,
+              "callee": {
+                "type": "Identifier",
+                "start": 1690,
+                "end": 1696,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1697,
                   "end": 1701,
-                  "raw": "'#Ь'",
-                  "value": "#Ь"
+                  "value": "#Ь",
+                  "raw": "'#Ь'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1690,
-                "end": 1696,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1677,
-        "end": 1684,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1677,
-          "end": 1678,
-          "decorators": [],
-          "name": "Ь",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1683,
-          "end": 1684,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2827,33 +2827,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1710,
           "end": 1720,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1710,
             "end": 1716,
-            "decorators": [],
             "name": "Э",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1719,
             "end": 1720,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1722,
       "end": 1754,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1726,
+        "end": 1733,
+        "left": {
+          "type": "Identifier",
+          "start": 1726,
+          "end": 1727,
+          "name": "Э",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1732,
+          "end": 1733,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1735,
@@ -2863,57 +2884,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1739,
             "end": 1752,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1739,
               "end": 1751,
+              "callee": {
+                "type": "Identifier",
+                "start": 1739,
+                "end": 1745,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1746,
                   "end": 1750,
-                  "raw": "'#Э'",
-                  "value": "#Э"
+                  "value": "#Э",
+                  "raw": "'#Э'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1739,
-                "end": 1745,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1726,
-        "end": 1733,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1726,
-          "end": 1727,
-          "decorators": [],
-          "name": "Э",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1732,
-          "end": 1733,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -2924,33 +2924,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1759,
           "end": 1769,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1759,
             "end": 1765,
-            "decorators": [],
             "name": "Ю",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1768,
             "end": 1769,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1771,
       "end": 1803,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1775,
+        "end": 1782,
+        "left": {
+          "type": "Identifier",
+          "start": 1775,
+          "end": 1776,
+          "name": "Ю",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1781,
+          "end": 1782,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1784,
@@ -2960,57 +2981,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1788,
             "end": 1801,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1788,
               "end": 1800,
+              "callee": {
+                "type": "Identifier",
+                "start": 1788,
+                "end": 1794,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1795,
                   "end": 1799,
-                  "raw": "'#Ю'",
-                  "value": "#Ю"
+                  "value": "#Ю",
+                  "raw": "'#Ю'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1788,
-                "end": 1794,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1775,
-        "end": 1782,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1775,
-          "end": 1776,
-          "decorators": [],
-          "name": "Ю",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1781,
-          "end": 1782,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -3021,33 +3021,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1808,
           "end": 1818,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1808,
             "end": 1814,
-            "decorators": [],
             "name": "Я",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1817,
             "end": 1818,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1820,
       "end": 1852,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1824,
+        "end": 1831,
+        "left": {
+          "type": "Identifier",
+          "start": 1824,
+          "end": 1825,
+          "name": "Я",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1830,
+          "end": 1831,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1833,
@@ -3057,57 +3078,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1837,
             "end": 1850,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1837,
               "end": 1849,
+              "callee": {
+                "type": "Identifier",
+                "start": 1837,
+                "end": 1843,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1844,
                   "end": 1848,
-                  "raw": "'#Я'",
-                  "value": "#Я"
+                  "value": "#Я",
+                  "raw": "'#Я'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1837,
-                "end": 1843,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1824,
-        "end": 1831,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1824,
-          "end": 1825,
-          "decorators": [],
-          "name": "Я",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1830,
-          "end": 1831,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     },
     {
       "type": "VariableDeclaration",
@@ -3118,33 +3118,54 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 1857,
           "end": 1867,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 1857,
             "end": 1863,
-            "decorators": [],
             "name": "Ё",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 1866,
             "end": 1867,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 1869,
       "end": 1901,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 1873,
+        "end": 1880,
+        "left": {
+          "type": "Identifier",
+          "start": 1873,
+          "end": 1874,
+          "name": "Ё",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 1879,
+          "end": 1880,
+          "value": 1,
+          "raw": "1"
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 1882,
@@ -3154,57 +3175,36 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 1886,
             "end": 1899,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 1886,
               "end": 1898,
+              "callee": {
+                "type": "Identifier",
+                "start": 1886,
+                "end": 1892,
+                "name": "$ERROR",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 1893,
                   "end": 1897,
-                  "raw": "'#Ё'",
-                  "value": "#Ё"
+                  "value": "#Ё",
+                  "raw": "'#Ё'"
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 1886,
-                "end": 1892,
-                "decorators": [],
-                "name": "$ERROR",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 1873,
-        "end": 1880,
-        "operator": "!==",
-        "left": {
-          "type": "Identifier",
-          "start": 1873,
-          "end": 1874,
-          "decorators": [],
-          "name": "Ё",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Literal",
-          "start": 1879,
-          "end": 1880,
-          "raw": "1",
-          "value": 1
-        }
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

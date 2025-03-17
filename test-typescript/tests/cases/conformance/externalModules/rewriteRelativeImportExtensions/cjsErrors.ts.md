@@ -36,12 +36,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 10,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 13,
@@ -50,10 +49,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 21,
           "end": 31,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -63,12 +63,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 55,
         "end": 59,
-        "decorators": [],
         "name": "_foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "type",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 62,
@@ -77,10 +76,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 70,
           "end": 80,
-          "raw": "\"./foo.ts\"",
-          "value": "./foo.ts"
+          "value": "./foo.ts",
+          "raw": "\"./foo.ts\""
         }
-      }
+      },
+      "importKind": "type"
     }
   ],
   "sourceType": "module",

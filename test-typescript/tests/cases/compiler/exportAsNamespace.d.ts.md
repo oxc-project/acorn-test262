@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 64,
       "end": 77,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 71,
@@ -19,25 +18,26 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 75,
             "end": 76,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 75,
               "end": 76,
-              "decorators": [],
               "name": "X",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSNamespaceExportDeclaration",
@@ -47,10 +47,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 98,
         "end": 99,
-        "decorators": [],
         "name": "N",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

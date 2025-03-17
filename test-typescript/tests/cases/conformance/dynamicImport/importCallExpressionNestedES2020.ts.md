@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 15,
         "end": 22,
-        "raw": "\"./foo\"",
-        "value": "./foo"
+        "value": "./foo",
+        "raw": "\"./foo\""
       },
       "exportKind": "value"
     }
@@ -34,7 +34,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 82,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 21,
@@ -52,12 +64,10 @@ __ESTREE_TEST__:PASS:
                 "type": "ImportExpression",
                 "start": 40,
                 "end": 79,
-                "options": null,
                 "source": {
                   "type": "MemberExpression",
                   "start": 47,
                   "end": 78,
-                  "computed": false,
                   "object": {
                     "type": "AwaitExpression",
                     "start": 48,
@@ -66,47 +76,37 @@ __ESTREE_TEST__:PASS:
                       "type": "ImportExpression",
                       "start": 54,
                       "end": 69,
-                      "options": null,
                       "source": {
                         "type": "Literal",
                         "start": 61,
                         "end": 68,
-                        "raw": "\"./foo\"",
-                        "value": "./foo"
-                      }
+                        "value": "./foo",
+                        "raw": "\"./foo\""
+                      },
+                      "options": null
                     }
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 71,
                     "end": 78,
-                    "decorators": [],
                     "name": "default",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "options": null
               }
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",

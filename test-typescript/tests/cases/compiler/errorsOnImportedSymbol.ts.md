@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 52,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 15,
+        "name": "Sammy",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 16,
@@ -18,6 +29,7 @@ __ESTREE_TEST__:PASS:
             "type": "TSConstructSignatureDeclaration",
             "start": 22,
             "end": 34,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -28,13 +40,13 @@ __ESTREE_TEST__:PASS:
                 "start": 30,
                 "end": 33
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSCallSignatureDeclaration",
             "start": 39,
             "end": 50,
+            "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
@@ -45,23 +57,11 @@ __ESTREE_TEST__:PASS:
                 "start": 43,
                 "end": 49
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 15,
-        "decorators": [],
-        "name": "Sammy",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -71,10 +71,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 62,
         "end": 67,
-        "decorators": [],
         "name": "Sammy",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -97,12 +97,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 12,
-        "decorators": [],
         "name": "Sammy",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 15,
@@ -111,10 +110,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 23,
           "end": 51,
-          "raw": "\"./errorsOnImportedSymbol_0\"",
-          "value": "./errorsOnImportedSymbol_0"
+          "value": "./errorsOnImportedSymbol_0",
+          "raw": "\"./errorsOnImportedSymbol_0\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -125,52 +125,52 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 58,
           "end": 79,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 58,
             "end": 59,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 62,
             "end": 79,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 66,
               "end": 77,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 66,
                 "end": 71,
-                "decorators": [],
                 "name": "Sammy",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 72,
                 "end": 77,
-                "decorators": [],
                 "name": "Sammy",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -181,53 +181,53 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 85,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 85,
             "end": 86,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 89,
             "end": 102,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 89,
               "end": 100,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 89,
                 "end": 94,
-                "decorators": [],
                 "name": "Sammy",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 95,
                 "end": 100,
-                "decorators": [],
                 "name": "Sammy",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",

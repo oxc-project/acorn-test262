@@ -14,61 +14,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 30,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 10,
-            "decorators": [],
             "name": "file",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 13,
             "end": 30,
+            "callee": {
+              "type": "MemberExpression",
+              "start": 13,
+              "end": 21,
+              "object": {
+                "type": "Identifier",
+                "start": 13,
+                "end": 16,
+                "name": "Bun",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 17,
+                "end": 21,
+                "name": "file",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 22,
                 "end": 29,
-                "raw": "\"/a.ts\"",
-                "value": "/a.ts"
+                "value": "/a.ts",
+                "raw": "\"/a.ts\""
               }
             ],
-            "callee": {
-              "type": "MemberExpression",
-              "start": 13,
-              "end": 21,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 13,
-                "end": 16,
-                "decorators": [],
-                "name": "Bun",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 17,
-                "end": 21,
-                "decorators": [],
-                "name": "file",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "module",

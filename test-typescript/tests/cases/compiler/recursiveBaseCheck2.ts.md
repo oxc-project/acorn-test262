@@ -9,151 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 174,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 38,
-        "end": 174,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 44,
-            "end": 94,
-            "attributes": [],
-            "declaration": {
-              "type": "ClassDeclaration",
-              "start": 51,
-              "end": 94,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 87,
-                "end": 94,
-                "body": []
-              },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 57,
-                "end": 70,
-                "decorators": [],
-                "name": "b2CircleShape",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 79,
-                "end": 86,
-                "decorators": [],
-                "name": "b2Shape",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          },
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 99,
-            "end": 172,
-            "attributes": [],
-            "declaration": {
-              "type": "ClassDeclaration",
-              "start": 106,
-              "end": 172,
-              "abstract": false,
-              "body": {
-                "type": "ClassBody",
-                "start": 165,
-                "end": 172,
-                "body": []
-              },
-              "declare": false,
-              "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 112,
-                "end": 119,
-                "decorators": [],
-                "name": "b2Shape",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "implements": [],
-              "superClass": {
-                "type": "MemberExpression",
-                "start": 128,
-                "end": 164,
-                "computed": false,
-                "object": {
-                  "type": "MemberExpression",
-                  "start": 128,
-                  "end": 150,
-                  "computed": false,
-                  "object": {
-                    "type": "MemberExpression",
-                    "start": 128,
-                    "end": 143,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 128,
-                      "end": 133,
-                      "decorators": [],
-                      "name": "Box2D",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 134,
-                      "end": 143,
-                      "decorators": [],
-                      "name": "Collision",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 144,
-                    "end": 150,
-                    "decorators": [],
-                    "name": "Shapes",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 151,
-                  "end": 164,
-                  "decorators": [],
-                  "name": "b2CircleShape",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
-            },
-            "exportKind": "value",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": true,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 15,
@@ -166,37 +21,205 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 15,
             "end": 20,
-            "decorators": [],
             "name": "Box2D",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 21,
             "end": 30,
-            "decorators": [],
             "name": "Collision",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 31,
           "end": 37,
-          "decorators": [],
           "name": "Shapes",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
-      "kind": "module"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 38,
+        "end": 174,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 44,
+            "end": 94,
+            "declaration": {
+              "type": "ClassDeclaration",
+              "start": 51,
+              "end": 94,
+              "id": {
+                "type": "Identifier",
+                "start": 57,
+                "end": 70,
+                "name": "b2CircleShape",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 79,
+                "end": 86,
+                "name": "b2Shape",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "body": {
+                "type": "ClassBody",
+                "start": 87,
+                "end": 94,
+                "body": []
+              },
+              "decorators": [],
+              "typeParameters": null,
+              "implements": [],
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
+            },
+            "specifiers": [],
+            "source": null,
+            "attributes": [],
+            "exportKind": "value"
+          },
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 99,
+            "end": 172,
+            "declaration": {
+              "type": "ClassDeclaration",
+              "start": 106,
+              "end": 172,
+              "id": {
+                "type": "Identifier",
+                "start": 112,
+                "end": 119,
+                "name": "b2Shape",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "MemberExpression",
+                "start": 128,
+                "end": 164,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 128,
+                  "end": 150,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 128,
+                    "end": 143,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 128,
+                      "end": 133,
+                      "name": "Box2D",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 134,
+                      "end": 143,
+                      "name": "Collision",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 144,
+                    "end": 150,
+                    "name": "Shapes",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 151,
+                  "end": 164,
+                  "name": "b2CircleShape",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "body": {
+                "type": "ClassBody",
+                "start": 165,
+                "end": 172,
+                "body": []
+              },
+              "decorators": [],
+              "typeParameters": null,
+              "implements": [],
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
+            },
+            "specifiers": [],
+            "source": null,
+            "attributes": [],
+            "exportKind": "value"
+          }
+        ]
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 175,
       "end": 369,
+      "id": {
+        "type": "TSQualifiedName",
+        "start": 190,
+        "end": 204,
+        "left": {
+          "type": "Identifier",
+          "start": 190,
+          "end": 195,
+          "name": "Box2D",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 196,
+          "end": 204,
+          "name": "Dynamics",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 205,
@@ -206,198 +229,175 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 211,
             "end": 288,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 218,
               "end": 288,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 224,
+                "end": 241,
+                "name": "b2ContactListener",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "MemberExpression",
+                "start": 250,
+                "end": 280,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 250,
+                  "end": 272,
+                  "object": {
+                    "type": "MemberExpression",
+                    "start": 250,
+                    "end": 265,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 250,
+                      "end": 255,
+                      "name": "Box2D",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 256,
+                      "end": 265,
+                      "name": "Collision",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 266,
+                    "end": 272,
+                    "name": "Shapes",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 273,
+                  "end": 280,
+                  "name": "b2Shape",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 281,
                 "end": 288,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 224,
-                "end": 241,
-                "decorators": [],
-                "name": "b2ContactListener",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": {
-                "type": "MemberExpression",
-                "start": 250,
-                "end": 280,
-                "computed": false,
-                "object": {
-                  "type": "MemberExpression",
-                  "start": 250,
-                  "end": 272,
-                  "computed": false,
-                  "object": {
-                    "type": "MemberExpression",
-                    "start": 250,
-                    "end": 265,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 250,
-                      "end": 255,
-                      "decorators": [],
-                      "name": "Box2D",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 256,
-                      "end": 265,
-                      "decorators": [],
-                      "name": "Collision",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 266,
-                    "end": 272,
-                    "decorators": [],
-                    "name": "Shapes",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 273,
-                  "end": 280,
-                  "decorators": [],
-                  "name": "b2Shape",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 293,
             "end": 367,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 300,
               "end": 367,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 306,
+                "end": 318,
+                "name": "b2FixtureDef",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "MemberExpression",
+                "start": 327,
+                "end": 359,
+                "object": {
+                  "type": "MemberExpression",
+                  "start": 327,
+                  "end": 341,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 327,
+                    "end": 332,
+                    "name": "Box2D",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 333,
+                    "end": 341,
+                    "name": "Dynamics",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 342,
+                  "end": 359,
+                  "name": "b2ContactListener",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 360,
                 "end": 367,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 306,
-                "end": 318,
-                "decorators": [],
-                "name": "b2FixtureDef",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": {
-                "type": "MemberExpression",
-                "start": 327,
-                "end": 359,
-                "computed": false,
-                "object": {
-                  "type": "MemberExpression",
-                  "start": 327,
-                  "end": 341,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 327,
-                    "end": 332,
-                    "decorators": [],
-                    "name": "Box2D",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 333,
-                    "end": 341,
-                    "decorators": [],
-                    "name": "Dynamics",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 342,
-                  "end": 359,
-                  "decorators": [],
-                  "name": "b2ContactListener",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "TSQualifiedName",
-        "start": 190,
-        "end": 204,
-        "left": {
-          "type": "Identifier",
-          "start": 190,
-          "end": 195,
-          "decorators": [],
-          "name": "Box2D",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "right": {
-          "type": "Identifier",
-          "start": 196,
-          "end": 204,
-          "decorators": [],
-          "name": "Dynamics",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

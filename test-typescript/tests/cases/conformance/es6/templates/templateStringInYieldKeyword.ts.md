@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 17,
       "end": 157,
+      "id": {
+        "type": "Identifier",
+        "start": 27,
+        "end": 30,
+        "name": "gen",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 33,
@@ -24,20 +36,20 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 130,
                 "end": 154,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 130,
                   "end": 131,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "YieldExpression",
                   "start": 134,
                   "end": 154,
+                  "delegate": false,
                   "argument": {
                     "type": "TemplateLiteral",
                     "start": 140,
@@ -47,10 +59,10 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 147,
                         "end": 148,
-                        "decorators": [],
                         "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
                     "quasis": [
@@ -58,48 +70,36 @@ __ESTREE_TEST__:PASS:
                         "type": "TemplateElement",
                         "start": 140,
                         "end": 146,
-                        "tail": false,
                         "value": {
                           "cooked": "abc",
                           "raw": "abc"
-                        }
+                        },
+                        "tail": false
                       },
                       {
                         "type": "TemplateElement",
                         "start": 149,
                         "end": 154,
-                        "tail": true,
                         "value": {
                           "cooked": "def",
                           "raw": "def"
-                        }
+                        },
+                        "tail": true
                       }
                     ]
-                  },
-                  "delegate": false
-                }
+                  }
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 27,
-        "end": 30,
-        "decorators": [],
-        "name": "gen",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

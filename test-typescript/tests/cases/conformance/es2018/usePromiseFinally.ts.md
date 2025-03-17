@@ -14,56 +14,65 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 96,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 12,
-            "decorators": [],
             "name": "promise1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 15,
             "end": 96,
-            "arguments": [
-              {
-                "type": "FunctionExpression",
-                "start": 82,
-                "end": 95,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 93,
-                  "end": 95,
-                  "body": []
-                },
-                "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
-            ],
             "callee": {
               "type": "MemberExpression",
               "start": 15,
               "end": 81,
-              "computed": false,
               "object": {
                 "type": "NewExpression",
                 "start": 15,
                 "end": 56,
+                "callee": {
+                  "type": "Identifier",
+                  "start": 19,
+                  "end": 26,
+                  "name": "Promise",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "FunctionExpression",
                     "start": 27,
                     "end": 55,
+                    "id": null,
+                    "expression": false,
+                    "generator": false,
                     "async": false,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "start": 36,
+                        "end": 43,
+                        "name": "resolve",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      {
+                        "type": "Identifier",
+                        "start": 45,
+                        "end": 51,
+                        "name": "reject",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      }
+                    ],
                     "body": {
                       "type": "BlockStatement",
                       "start": 53,
@@ -71,62 +80,53 @@ __ESTREE_TEST__:PASS:
                       "body": []
                     },
                     "declare": false,
-                    "expression": false,
-                    "generator": false,
-                    "id": null,
-                    "params": [
-                      {
-                        "type": "Identifier",
-                        "start": 36,
-                        "end": 43,
-                        "decorators": [],
-                        "name": "resolve",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      {
-                        "type": "Identifier",
-                        "start": 45,
-                        "end": 51,
-                        "decorators": [],
-                        "name": "reject",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    ],
-                    "returnType": null,
-                    "typeParameters": null
+                    "typeParameters": null,
+                    "returnType": null
                   }
                 ],
-                "callee": {
-                  "type": "Identifier",
-                  "start": 19,
-                  "end": 26,
-                  "decorators": [],
-                  "name": "Promise",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
                 "typeArguments": null
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 74,
                 "end": 81,
-                "decorators": [],
                 "name": "finally",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [
+              {
+                "type": "FunctionExpression",
+                "start": 82,
+                "end": 95,
+                "id": null,
+                "expression": false,
+                "generator": false,
+                "async": false,
+                "params": [],
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 93,
+                  "end": 95,
+                  "body": []
+                },
+                "declare": false,
+                "typeParameters": null,
+                "returnType": null
+              }
+            ],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

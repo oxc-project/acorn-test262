@@ -19,10 +19,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 14,
         "end": 15,
-        "decorators": [],
         "name": "e",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 28,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "I",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 12,
@@ -18,21 +29,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSMethodSignature",
             "start": 16,
             "end": 26,
-            "accessibility": null,
-            "computed": false,
             "key": {
               "type": "Literal",
               "start": 16,
               "end": 19,
-              "raw": "\"H\"",
-              "value": "H"
+              "value": "H",
+              "raw": "\"H\""
             },
-            "kind": "method",
+            "computed": false,
             "optional": true,
-            "params": [],
-            "readonly": false,
-            "returnType": null,
-            "static": false,
+            "kind": "method",
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 20,
@@ -42,38 +48,32 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 21,
                   "end": 22,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 21,
                     "end": 22,
-                    "decorators": [],
                     "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
-            }
+            },
+            "params": [],
+            "returnType": null,
+            "accessibility": null,
+            "readonly": false,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

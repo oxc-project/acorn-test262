@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 32,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -48,13 +45,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -65,14 +65,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 38,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
             "end": 51,
-            "decorators": [],
             "name": "cond",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 42,
@@ -82,24 +79,25 @@ __ESTREE_TEST__:PASS:
                 "start": 44,
                 "end": 51
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 74,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 54,
         "end": 73,
-        "operator": "&&",
         "left": {
           "type": "AssignmentExpression",
           "start": 55,
@@ -109,19 +107,20 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 55,
             "end": 56,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Literal",
             "start": 59,
             "end": 61,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         },
+        "operator": "&&",
         "right": {
           "type": "AssignmentExpression",
           "start": 67,
@@ -131,41 +130,41 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 67,
             "end": 68,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Literal",
             "start": 71,
             "end": 72,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 75,
       "end": 77,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 75,
         "end": 76,
-        "decorators": [],
         "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 98,
       "end": 105,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 98,
@@ -175,39 +174,39 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 98,
           "end": 99,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 102,
           "end": 104,
-          "raw": "\"\"",
-          "value": ""
+          "value": "",
+          "raw": "\"\""
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 106,
       "end": 122,
-      "directive": null,
       "expression": {
         "type": "LogicalExpression",
         "start": 106,
         "end": 121,
-        "operator": "&&",
         "left": {
           "type": "Identifier",
           "start": 106,
           "end": 110,
-          "decorators": [],
           "name": "cond",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "operator": "&&",
         "right": {
           "type": "AssignmentExpression",
           "start": 115,
@@ -217,35 +216,36 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 115,
             "end": 116,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Literal",
             "start": 119,
             "end": 120,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 123,
       "end": 125,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 123,
         "end": 124,
-        "decorators": [],
         "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

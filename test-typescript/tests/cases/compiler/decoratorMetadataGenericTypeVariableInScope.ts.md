@@ -9,39 +9,47 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 65,
       "end": 86,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 71,
+        "end": 83,
+        "name": "TypeVariable",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 84,
         "end": 86,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 71,
-        "end": 83,
-        "decorators": [],
-        "name": "TypeVariable",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 88,
       "end": 156,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 95,
         "end": 156,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 101,
+          "end": 102,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 117,
@@ -51,9 +59,18 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 121,
               "end": 154,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "declare": false,
+              "key": {
+                "type": "Identifier",
+                "start": 133,
+                "end": 139,
+                "name": "member",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "value": null,
               "decorators": [
                 {
                   "type": "Decorator",
@@ -63,27 +80,18 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 122,
                     "end": 130,
-                    "decorators": [],
                     "name": "Decorate",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ],
-              "definite": false,
-              "key": {
-                "type": "Identifier",
-                "start": 133,
-                "end": 139,
-                "decorators": [],
-                "name": "member",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "optional": false,
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 139,
@@ -92,36 +100,23 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 141,
                   "end": 153,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 141,
                     "end": 153,
-                    "decorators": [],
                     "name": "TypeVariable",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
               },
-              "value": null
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 101,
-          "end": 102,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 102,
@@ -131,27 +126,32 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 103,
               "end": 115,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 103,
                 "end": 115,
-                "decorators": [],
                 "name": "TypeVariable",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "out": false
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "implements": [],
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

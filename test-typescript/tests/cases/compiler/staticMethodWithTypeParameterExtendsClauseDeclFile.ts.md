@@ -9,75 +9,83 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 22,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 18,
+        "name": "privateClass",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 19,
         "end": 22,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 18,
-        "decorators": [],
-        "name": "privateClass",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 24,
       "end": 52,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 31,
         "end": 52,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 37,
+          "end": 48,
+          "name": "publicClass",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 49,
           "end": 52,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 37,
-          "end": 48,
-          "decorators": [],
-          "name": "publicClass",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 54,
       "end": 638,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 61,
         "end": 638,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 67,
+          "end": 107,
+          "name": "publicClassWithWithPrivateTypeParameters",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 108,
@@ -87,27 +95,27 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 114,
               "end": 215,
-              "accessibility": "private",
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 129,
                 "end": 151,
-                "decorators": [],
                 "name": "myPrivateStaticMethod1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 151,
                 "end": 215,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 178,
@@ -115,11 +123,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 151,
@@ -129,64 +132,69 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 152,
                       "end": 174,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 162,
-                        "end": 174,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 162,
-                          "end": 174,
-                          "decorators": [],
-                          "name": "privateClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 152,
                         "end": 153,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 162,
+                        "end": 174,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 162,
+                          "end": 174,
+                          "name": "privateClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "private"
             },
             {
               "type": "MethodDefinition",
               "start": 220,
               "end": 308,
-              "accessibility": "private",
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 228,
                 "end": 244,
-                "decorators": [],
                 "name": "myPrivateMethod1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 244,
                 "end": 308,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 271,
@@ -194,11 +202,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 244,
@@ -208,64 +211,69 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 245,
                       "end": 267,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 255,
-                        "end": 267,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 255,
-                          "end": 267,
-                          "decorators": [],
-                          "name": "privateClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 245,
                         "end": 246,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 255,
+                        "end": 267,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 255,
+                          "end": 267,
+                          "name": "privateClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "private"
             },
             {
               "type": "MethodDefinition",
               "start": 313,
               "end": 413,
-              "accessibility": "private",
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 328,
                 "end": 350,
-                "decorators": [],
                 "name": "myPrivateStaticMethod2",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 350,
                 "end": 413,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 376,
@@ -273,11 +281,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 350,
@@ -287,64 +290,69 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 351,
                       "end": 372,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 361,
-                        "end": 372,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 361,
-                          "end": 372,
-                          "decorators": [],
-                          "name": "publicClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 351,
                         "end": 352,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 361,
+                        "end": 372,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 361,
+                          "end": 372,
+                          "name": "publicClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "private"
             },
             {
               "type": "MethodDefinition",
               "start": 418,
               "end": 505,
-              "accessibility": "private",
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 426,
                 "end": 442,
-                "decorators": [],
                 "name": "myPrivateMethod2",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 442,
                 "end": 505,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 468,
@@ -352,11 +360,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 442,
@@ -366,64 +369,69 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 443,
                       "end": 464,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 453,
-                        "end": 464,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 453,
-                          "end": 464,
-                          "decorators": [],
-                          "name": "publicClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 443,
                         "end": 444,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 453,
+                        "end": 464,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 453,
+                          "end": 464,
+                          "name": "publicClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "private"
             },
             {
               "type": "MethodDefinition",
               "start": 510,
               "end": 577,
-              "accessibility": "public",
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 524,
                 "end": 544,
-                "decorators": [],
                 "name": "myPublicStaticMethod",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 544,
                 "end": 577,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 570,
@@ -431,11 +439,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 544,
@@ -445,64 +448,69 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 545,
                       "end": 566,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 555,
-                        "end": 566,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 555,
-                          "end": 566,
-                          "decorators": [],
-                          "name": "publicClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 545,
                         "end": 546,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 555,
+                        "end": 566,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 555,
+                          "end": 566,
+                          "name": "publicClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "public"
             },
             {
               "type": "MethodDefinition",
               "start": 582,
               "end": 636,
-              "accessibility": "public",
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 589,
                 "end": 603,
-                "decorators": [],
                 "name": "myPublicMethod",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 603,
                 "end": 636,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 629,
@@ -510,11 +518,6 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
                 "typeParameters": {
                   "type": "TSTypeParameterDeclaration",
                   "start": 603,
@@ -524,60 +527,57 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeParameter",
                       "start": 604,
                       "end": 625,
-                      "const": false,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 614,
-                        "end": 625,
-                        "typeArguments": null,
-                        "typeName": {
-                          "type": "Identifier",
-                          "start": 614,
-                          "end": 625,
-                          "decorators": [],
-                          "name": "publicClass",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "default": null,
-                      "in": false,
                       "name": {
                         "type": "Identifier",
                         "start": 604,
                         "end": 605,
-                        "decorators": [],
                         "name": "T",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "out": false
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 614,
+                        "end": 625,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 614,
+                          "end": 625,
+                          "name": "publicClass",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "default": null,
+                      "in": false,
+                      "out": false,
+                      "const": false
                     }
                   ]
-                }
-              }
+                },
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": "public"
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 67,
-          "end": 107,
-          "decorators": [],
-          "name": "publicClassWithWithPrivateTypeParameters",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

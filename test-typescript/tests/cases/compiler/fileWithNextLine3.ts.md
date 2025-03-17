@@ -13,8 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 138,
         "end": 139,
-        "raw": "0",
-        "value": 0
+        "value": 0,
+        "raw": "0"
       }
     }
   ],

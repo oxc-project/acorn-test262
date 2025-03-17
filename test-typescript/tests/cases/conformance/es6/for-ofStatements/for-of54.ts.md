@@ -10,6 +10,37 @@ __ESTREE_TEST__:PASS:
       "start": 16,
       "end": 52,
       "await": false,
+      "left": {
+        "type": "VariableDeclaration",
+        "start": 21,
+        "end": 26,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 25,
+            "end": 26,
+            "id": {
+              "type": "Identifier",
+              "start": 25,
+              "end": 26,
+              "name": "v",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "init": null,
+            "definite": false
+          }
+        ],
+        "kind": "let",
+        "declare": false
+      },
+      "right": {
+        "type": "ArrayExpression",
+        "start": 30,
+        "end": 32,
+        "elements": []
+      },
       "body": {
         "type": "BlockStatement",
         "start": 34,
@@ -24,60 +55,29 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 44,
                 "end": 49,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 44,
                   "end": 45,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
                   "start": 48,
                   "end": 49,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
-      },
-      "left": {
-        "type": "VariableDeclaration",
-        "start": 21,
-        "end": 26,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 25,
-            "end": 26,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 25,
-              "end": 26,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "init": null
-          }
-        ],
-        "declare": false,
-        "kind": "let"
-      },
-      "right": {
-        "type": "ArrayExpression",
-        "start": 30,
-        "end": 32,
-        "elements": []
       }
     }
   ],

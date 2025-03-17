@@ -9,33 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 68,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 66,
-        "end": 68,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
         "end": 13,
-        "decorators": [],
         "name": "wrap",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 38,
           "end": 64,
-          "decorators": [],
           "name": "_",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 39,
@@ -44,6 +35,7 @@ __ESTREE_TEST__:PASS:
               "type": "TSFunctionType",
               "start": 41,
               "end": 64,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
@@ -53,10 +45,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 45,
                     "end": 49,
-                    "decorators": [],
                     "name": "args",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "decorators": [],
                   "optional": false,
@@ -68,16 +60,16 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 51,
                       "end": 55,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 51,
                         "end": 55,
-                        "decorators": [],
                         "name": "Args",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     }
                   },
                   "value": null
@@ -92,13 +84,20 @@ __ESTREE_TEST__:PASS:
                   "start": 60,
                   "end": 64
                 }
-              },
-              "typeParameters": null
+              }
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
-      "returnType": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 66,
+        "end": 68,
+        "body": []
+      },
+      "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
         "start": 13,
@@ -108,7 +107,15 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeParameter",
             "start": 14,
             "end": 36,
-            "const": false,
+            "name": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 18,
+              "name": "Args",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "constraint": {
               "type": "TSArrayType",
               "start": 27,
@@ -121,114 +128,107 @@ __ESTREE_TEST__:PASS:
             },
             "default": null,
             "in": false,
-            "name": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 18,
-              "decorators": [],
-              "name": "Args",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "out": false
+            "out": false,
+            "const": false
           }
         ]
-      }
+      },
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 69,
       "end": 103,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 69,
         "end": 102,
+        "callee": {
+          "type": "Identifier",
+          "start": 69,
+          "end": 73,
+          "name": "wrap",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 74,
             "end": 101,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 99,
-              "end": 101,
-              "body": []
-            },
+            "id": null,
             "expression": false,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "AssignmentPattern",
                 "start": 75,
                 "end": 94,
-                "decorators": [],
                 "left": {
                   "type": "ObjectPattern",
                   "start": 75,
                   "end": 89,
-                  "decorators": [],
-                  "optional": false,
                   "properties": [
                     {
                       "type": "Property",
                       "start": 77,
                       "end": 87,
+                      "method": false,
+                      "shorthand": true,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
                         "start": 77,
                         "end": 87,
-                        "decorators": [],
                         "name": "cancelable",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
                       "value": {
                         "type": "Identifier",
                         "start": 77,
                         "end": 87,
-                        "decorators": [],
                         "name": "cancelable",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "kind": "init",
+                      "optional": false
                     }
                   ],
+                  "decorators": [],
+                  "optional": false,
                   "typeAnnotation": null
                 },
-                "optional": false,
                 "right": {
                   "type": "ObjectExpression",
                   "start": 92,
                   "end": 94,
                   "properties": []
                 },
+                "decorators": [],
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
-            "returnType": null,
-            "typeParameters": null
+            "body": {
+              "type": "BlockStatement",
+              "start": 99,
+              "end": 101,
+              "body": []
+            },
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 69,
-          "end": 73,
-          "decorators": [],
-          "name": "wrap",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

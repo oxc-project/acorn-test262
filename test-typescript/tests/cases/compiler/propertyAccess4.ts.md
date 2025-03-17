@@ -9,38 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 13,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 12,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 10,
-          "computed": false,
           "object": {
             "type": "Literal",
             "start": 0,
             "end": 4,
-            "raw": "null",
-            "value": null
+            "value": null,
+            "raw": "null"
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 5,
             "end": 10,
-            "decorators": [],
             "name": "toBAZ",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

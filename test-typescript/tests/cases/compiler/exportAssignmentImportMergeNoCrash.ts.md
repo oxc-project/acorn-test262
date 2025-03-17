@@ -18,27 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 21,
             "end": 28,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 21,
               "end": 24,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 26,
               "end": 28,
-              "raw": "12",
-              "value": 12
-            }
+              "value": 12,
+              "raw": "12"
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },
@@ -60,15 +60,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 30,
-        "raw": "\"./assignment\"",
-        "value": "./assignment"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -78,19 +69,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "Obj",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 30,
+        "value": "./assignment",
+        "raw": "\"./assignment\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 33,
       "end": 61,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 40,
@@ -100,40 +99,41 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 46,
             "end": 60,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 46,
               "end": 49,
-              "decorators": [],
               "name": "Obj",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "UnaryExpression",
               "start": 52,
               "end": 60,
+              "operator": "void",
+              "prefix": true,
               "argument": {
                 "type": "Identifier",
                 "start": 57,
                 "end": 60,
-                "decorators": [],
                 "name": "Obj",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "operator": "void",
-              "prefix": true
-            }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

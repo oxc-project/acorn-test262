@@ -9,37 +9,49 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 63,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 56,
         "end": 62,
-        "decorators": [],
         "name": "MODULE",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 73,
       "end": 80,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 73,
         "end": 79,
-        "decorators": [],
         "name": "SCRIPT",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 87,
       "end": 124,
+      "id": {
+        "type": "Identifier",
+        "start": 96,
+        "end": 99,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 102,
@@ -53,29 +65,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 115,
               "end": 121,
-              "decorators": [],
               "name": "SCRIPT",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 96,
-        "end": 99,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 34,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 13,
             "end": 33,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 22,
-              "decorators": [],
               "name": "a",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 14,
@@ -36,23 +32,27 @@ __ESTREE_TEST__:PASS:
                   "start": 16,
                   "end": 22
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 25,
               "end": 33,
-              "raw": "\"not ok\"",
-              "value": "not ok"
-            }
+              "value": "not ok",
+              "raw": "\"not ok\""
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

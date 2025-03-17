@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 167,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 10,
-        "decorators": [],
         "name": "props",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 13,
@@ -32,8 +32,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 13,
               "end": 16,
-              "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "raw": "\"a\""
             }
           },
           {
@@ -44,8 +44,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 19,
               "end": 22,
-              "raw": "\"b\"",
-              "value": "b"
+              "value": "b",
+              "raw": "\"b\""
             }
           },
           {
@@ -56,8 +56,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 25,
               "end": 28,
-              "raw": "\"c\"",
-              "value": "c"
+              "value": "c",
+              "raw": "\"c\""
             }
           },
           {
@@ -68,8 +68,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 31,
               "end": 34,
-              "raw": "\"d\"",
-              "value": "d"
+              "value": "d",
+              "raw": "\"d\""
             }
           },
           {
@@ -80,8 +80,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 37,
               "end": 40,
-              "raw": "\"e\"",
-              "value": "e"
+              "value": "e",
+              "raw": "\"e\""
             }
           },
           {
@@ -92,8 +92,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 43,
               "end": 46,
-              "raw": "\"f\"",
-              "value": "f"
+              "value": "f",
+              "raw": "\"f\""
             }
           },
           {
@@ -104,8 +104,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 49,
               "end": 52,
-              "raw": "\"g\"",
-              "value": "g"
+              "value": "g",
+              "raw": "\"g\""
             }
           },
           {
@@ -116,8 +116,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 55,
               "end": 58,
-              "raw": "\"h\"",
-              "value": "h"
+              "value": "h",
+              "raw": "\"h\""
             }
           },
           {
@@ -128,8 +128,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 61,
               "end": 64,
-              "raw": "\"i\"",
-              "value": "i"
+              "value": "i",
+              "raw": "\"i\""
             }
           },
           {
@@ -140,8 +140,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 67,
               "end": 70,
-              "raw": "\"j\"",
-              "value": "j"
+              "value": "j",
+              "raw": "\"j\""
             }
           },
           {
@@ -152,8 +152,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 73,
               "end": 76,
-              "raw": "\"k\"",
-              "value": "k"
+              "value": "k",
+              "raw": "\"k\""
             }
           },
           {
@@ -164,8 +164,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 79,
               "end": 82,
-              "raw": "\"l\"",
-              "value": "l"
+              "value": "l",
+              "raw": "\"l\""
             }
           },
           {
@@ -176,8 +176,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 85,
               "end": 88,
-              "raw": "\"m\"",
-              "value": "m"
+              "value": "m",
+              "raw": "\"m\""
             }
           },
           {
@@ -188,8 +188,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 91,
               "end": 94,
-              "raw": "\"n\"",
-              "value": "n"
+              "value": "n",
+              "raw": "\"n\""
             }
           },
           {
@@ -200,8 +200,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 97,
               "end": 100,
-              "raw": "\"o\"",
-              "value": "o"
+              "value": "o",
+              "raw": "\"o\""
             }
           },
           {
@@ -212,8 +212,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 103,
               "end": 106,
-              "raw": "\"p\"",
-              "value": "p"
+              "value": "p",
+              "raw": "\"p\""
             }
           },
           {
@@ -224,8 +224,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 109,
               "end": 112,
-              "raw": "\"q\"",
-              "value": "q"
+              "value": "q",
+              "raw": "\"q\""
             }
           },
           {
@@ -236,8 +236,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 115,
               "end": 118,
-              "raw": "\"r\"",
-              "value": "r"
+              "value": "r",
+              "raw": "\"r\""
             }
           },
           {
@@ -248,8 +248,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 121,
               "end": 124,
-              "raw": "\"s\"",
-              "value": "s"
+              "value": "s",
+              "raw": "\"s\""
             }
           },
           {
@@ -260,8 +260,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 127,
               "end": 130,
-              "raw": "\"t\"",
-              "value": "t"
+              "value": "t",
+              "raw": "\"t\""
             }
           },
           {
@@ -272,8 +272,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 133,
               "end": 136,
-              "raw": "\"u\"",
-              "value": "u"
+              "value": "u",
+              "raw": "\"u\""
             }
           },
           {
@@ -284,8 +284,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 139,
               "end": 142,
-              "raw": "\"v\"",
-              "value": "v"
+              "value": "v",
+              "raw": "\"v\""
             }
           },
           {
@@ -296,8 +296,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 145,
               "end": 148,
-              "raw": "\"w\"",
-              "value": "w"
+              "value": "w",
+              "raw": "\"w\""
             }
           },
           {
@@ -308,8 +308,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 151,
               "end": 154,
-              "raw": "\"x\"",
-              "value": "x"
+              "value": "x",
+              "raw": "\"x\""
             }
           },
           {
@@ -320,8 +320,8 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 157,
               "end": 160,
-              "raw": "\"y\"",
-              "value": "y"
+              "value": "y",
+              "raw": "\"y\""
             }
           },
           {
@@ -332,28 +332,28 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 163,
               "end": 166,
-              "raw": "\"z\"",
-              "value": "z"
+              "value": "z",
+              "raw": "\"z\""
             }
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 169,
       "end": 205,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 174,
         "end": 183,
-        "decorators": [],
         "name": "manyprops",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTemplateLiteralType",
         "start": 186,
@@ -363,31 +363,31 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 186,
             "end": 189,
-            "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 194,
             "end": 197,
-            "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": false
           },
           {
             "type": "TemplateElement",
             "start": 202,
             "end": 204,
-            "tail": true,
             "value": {
               "cooked": "",
               "raw": ""
-            }
+            },
+            "tail": true
           }
         ],
         "types": [
@@ -395,41 +395,40 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 189,
             "end": 194,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 189,
               "end": 194,
-              "decorators": [],
               "name": "props",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           },
           {
             "type": "TSTypeReference",
             "start": 197,
             "end": 202,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 197,
               "end": 202,
-              "decorators": [],
               "name": "props",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 207,
       "end": 298,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 214,
@@ -439,21 +438,19 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 220,
             "end": 297,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 220,
               "end": 221,
-              "decorators": [],
               "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "MemberExpression",
               "start": 224,
               "end": 297,
-              "computed": true,
               "object": {
                 "type": "ArrayExpression",
                 "start": 224,
@@ -471,8 +468,8 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 225,
                         "end": 229,
-                        "raw": "null",
-                        "value": null
+                        "value": null,
+                        "raw": "null"
                       },
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
@@ -484,64 +481,78 @@ __ESTREE_TEST__:PASS:
                       "type": "TSMappedType",
                       "start": 240,
                       "end": 293,
-                      "constraint": {
-                        "type": "TSTypeReference",
-                        "start": 247,
+                      "typeParameter": {
+                        "type": "TSTypeParameter",
+                        "start": 242,
                         "end": 256,
-                        "typeArguments": null,
-                        "typeName": {
+                        "name": {
                           "type": "Identifier",
+                          "start": 242,
+                          "end": 243,
+                          "name": "K",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "constraint": {
+                          "type": "TSTypeReference",
                           "start": 247,
                           "end": 256,
-                          "decorators": [],
-                          "name": "manyprops",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      "key": {
-                        "type": "Identifier",
-                        "start": 242,
-                        "end": 243,
-                        "decorators": [],
-                        "name": "K",
-                        "optional": false,
-                        "typeAnnotation": null
+                          "typeName": {
+                            "type": "Identifier",
+                            "start": 247,
+                            "end": 256,
+                            "name": "manyprops",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "typeArguments": null
+                        },
+                        "default": null,
+                        "in": false,
+                        "out": false,
+                        "const": false
                       },
                       "nameType": null,
-                      "optional": null,
-                      "readonly": null,
                       "typeAnnotation": {
                         "type": "TSMappedType",
                         "start": 259,
                         "end": 292,
-                        "constraint": {
-                          "type": "TSTypeReference",
-                          "start": 267,
+                        "typeParameter": {
+                          "type": "TSTypeParameter",
+                          "start": 261,
                           "end": 276,
-                          "typeArguments": null,
-                          "typeName": {
+                          "name": {
                             "type": "Identifier",
+                            "start": 261,
+                            "end": 263,
+                            "name": "K2",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "constraint": {
+                            "type": "TSTypeReference",
                             "start": 267,
                             "end": 276,
-                            "decorators": [],
-                            "name": "manyprops",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "key": {
-                          "type": "Identifier",
-                          "start": 261,
-                          "end": 263,
-                          "decorators": [],
-                          "name": "K2",
-                          "optional": false,
-                          "typeAnnotation": null
+                            "typeName": {
+                              "type": "Identifier",
+                              "start": 267,
+                              "end": 276,
+                              "name": "manyprops",
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "typeArguments": null
+                          },
+                          "default": null,
+                          "in": false,
+                          "out": false,
+                          "const": false
                         },
                         "nameType": null,
-                        "optional": null,
-                        "readonly": null,
                         "typeAnnotation": {
                           "type": "TSTemplateLiteralType",
                           "start": 279,
@@ -551,31 +562,31 @@ __ESTREE_TEST__:PASS:
                               "type": "TemplateElement",
                               "start": 279,
                               "end": 282,
-                              "tail": false,
                               "value": {
                                 "cooked": "",
                                 "raw": ""
-                              }
+                              },
+                              "tail": false
                             },
                             {
                               "type": "TemplateElement",
                               "start": 283,
                               "end": 287,
-                              "tail": false,
                               "value": {
                                 "cooked": ".",
                                 "raw": "."
-                              }
+                              },
+                              "tail": false
                             },
                             {
                               "type": "TemplateElement",
                               "start": 289,
                               "end": 291,
-                              "tail": true,
                               "value": {
                                 "cooked": "",
                                 "raw": ""
-                              }
+                              },
+                              "tail": true
                             }
                           ],
                           "types": [
@@ -583,56 +594,111 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 282,
                               "end": 283,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 282,
                                 "end": 283,
-                                "decorators": [],
                                 "name": "K",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "typeArguments": null
                             },
                             {
                               "type": "TSTypeReference",
                               "start": 287,
                               "end": 289,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 287,
                                 "end": 289,
-                                "decorators": [],
                                 "name": "K2",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "typeArguments": null
                             }
                           ]
+                        },
+                        "optional": null,
+                        "readonly": null,
+                        "constraint": {
+                          "type": "TSTypeReference",
+                          "start": 267,
+                          "end": 276,
+                          "typeName": {
+                            "type": "Identifier",
+                            "start": 267,
+                            "end": 276,
+                            "name": "manyprops",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "typeArguments": null
+                        },
+                        "key": {
+                          "type": "Identifier",
+                          "start": 261,
+                          "end": 263,
+                          "name": "K2",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         }
+                      },
+                      "optional": null,
+                      "readonly": null,
+                      "constraint": {
+                        "type": "TSTypeReference",
+                        "start": 247,
+                        "end": 256,
+                        "typeName": {
+                          "type": "Identifier",
+                          "start": 247,
+                          "end": 256,
+                          "name": "manyprops",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
+                      },
+                      "key": {
+                        "type": "Identifier",
+                        "start": 242,
+                        "end": 243,
+                        "name": "K",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     }
                   }
                 ]
               },
-              "optional": false,
               "property": {
                 "type": "Literal",
                 "start": 295,
                 "end": 296,
-                "raw": "0",
-                "value": 0
-              }
-            }
+                "value": 0,
+                "raw": "0"
+              },
+              "computed": true,
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

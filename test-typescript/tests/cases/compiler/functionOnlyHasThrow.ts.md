@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 66,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 14,
+        "name": "clone",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 24,
@@ -23,42 +35,31 @@ __ESTREE_TEST__:PASS:
               "type": "NewExpression",
               "start": 33,
               "end": 63,
+              "callee": {
+                "type": "Identifier",
+                "start": 37,
+                "end": 42,
+                "name": "Error",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 43,
                   "end": 62,
-                  "raw": "\"To be implemented\"",
-                  "value": "To be implemented"
+                  "value": "To be implemented",
+                  "raw": "\"To be implemented\""
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 37,
-                "end": 42,
-                "decorators": [],
-                "name": "Error",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "typeArguments": null
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 14,
-        "decorators": [],
-        "name": "clone",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 16,
@@ -68,8 +69,7 @@ __ESTREE_TEST__:PASS:
           "start": 17,
           "end": 23
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

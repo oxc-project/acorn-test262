@@ -10,12 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 16,
       "end": 43,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 41,
-        "end": 43,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 21,
@@ -25,40 +19,40 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 25,
             "end": 31,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 25,
               "end": 31,
-              "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
                   "start": 26,
                   "end": 27,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 29,
                   "end": 30,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
+              "decorators": [],
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -72,6 +66,12 @@ __ESTREE_TEST__:PASS:
             "elements": []
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 41,
+        "end": 43,
+        "body": []
       }
     }
   ],

@@ -9,33 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 61,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 61,
-        "async": false,
-        "body": null,
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 25,
-          "decorators": [],
           "name": "mkdirSync",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 26,
             "end": 38,
-            "decorators": [],
             "name": "path",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 30,
@@ -45,15 +40,15 @@ __ESTREE_TEST__:PASS:
                 "start": 32,
                 "end": 38
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           {
             "type": "Identifier",
             "start": 40,
             "end": 53,
-            "decorators": [],
             "name": "mode",
-            "optional": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 45,
@@ -63,9 +58,14 @@ __ESTREE_TEST__:PASS:
                 "start": 47,
                 "end": 53
               }
-            }
+            },
+            "decorators": [],
+            "optional": true
           }
         ],
+        "body": null,
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 54,
@@ -75,49 +75,39 @@ __ESTREE_TEST__:PASS:
             "start": 56,
             "end": 60
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 62,
       "end": 125,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 69,
         "end": 125,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 123,
-          "end": 125,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 78,
           "end": 87,
-          "decorators": [],
           "name": "mkdirSync",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 88,
             "end": 100,
-            "decorators": [],
             "name": "path",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 92,
@@ -127,15 +117,15 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 100
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           {
             "type": "Identifier",
             "start": 102,
             "end": 115,
-            "decorators": [],
             "name": "mode",
-            "optional": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 107,
@@ -145,9 +135,19 @@ __ESTREE_TEST__:PASS:
                 "start": 109,
                 "end": 115
               }
-            }
+            },
+            "decorators": [],
+            "optional": true
           }
         ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 123,
+          "end": 125,
+          "body": []
+        },
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 116,
@@ -157,12 +157,12 @@ __ESTREE_TEST__:PASS:
             "start": 118,
             "end": 122
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -184,12 +184,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 64,
         "end": 66,
-        "decorators": [],
         "name": "fs",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 69,
@@ -198,16 +197,29 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 77,
           "end": 111,
-          "raw": "\"./voidAsNonAmbiguousReturnType_0\"",
-          "value": "./voidAsNonAmbiguousReturnType_0"
+          "value": "./voidAsNonAmbiguousReturnType_0",
+          "raw": "\"./voidAsNonAmbiguousReturnType_0\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "FunctionDeclaration",
       "start": 115,
       "end": 205,
+      "id": {
+        "type": "Identifier",
+        "start": 124,
+        "end": 128,
+        "name": "main",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 131,
@@ -217,66 +229,54 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 134,
             "end": 155,
-            "directive": null,
             "expression": {
               "type": "CallExpression",
               "start": 134,
               "end": 154,
+              "callee": {
+                "type": "MemberExpression",
+                "start": 134,
+                "end": 146,
+                "object": {
+                  "type": "Identifier",
+                  "start": 134,
+                  "end": 136,
+                  "name": "fs",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "property": {
+                  "type": "Identifier",
+                  "start": 137,
+                  "end": 146,
+                  "name": "mkdirSync",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "Literal",
                   "start": 147,
                   "end": 153,
-                  "raw": "'test'",
-                  "value": "test"
+                  "value": "test",
+                  "raw": "'test'"
                 }
               ],
-              "callee": {
-                "type": "MemberExpression",
-                "start": 134,
-                "end": 146,
-                "computed": false,
-                "object": {
-                  "type": "Identifier",
-                  "start": 134,
-                  "end": 136,
-                  "decorators": [],
-                  "name": "fs",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "optional": false,
-                "property": {
-                  "type": "Identifier",
-                  "start": 137,
-                  "end": 146,
-                  "decorators": [],
-                  "name": "mkdirSync",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              },
               "optional": false,
               "typeArguments": null
-            }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 124,
-        "end": 128,
-        "decorators": [],
-        "name": "main",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "module",

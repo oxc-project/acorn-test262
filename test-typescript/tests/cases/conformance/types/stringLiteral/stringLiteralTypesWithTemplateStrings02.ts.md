@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 28,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 28,
             "end": 42,
-            "decorators": [],
             "name": "abc",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 31,
@@ -34,11 +31,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 33,
                   "end": 42,
-                  "raw": "\"AB\\r\\nC\"",
-                  "value": "AB\r\nC"
+                  "value": "AB\r\nC",
+                  "raw": "\"AB\\r\\nC\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -50,18 +49,19 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 45,
                 "end": 51,
-                "tail": true,
                 "value": {
                   "cooked": "AB\nC",
                   "raw": "AB\nC"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -72,14 +72,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 57,
           "end": 93,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 57,
             "end": 78,
-            "decorators": [],
             "name": "de_NEWLINE_f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 69,
@@ -92,11 +89,13 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 71,
                   "end": 78,
-                  "raw": "\"DE\\nF\"",
-                  "value": "DE\nF"
+                  "value": "DE\nF",
+                  "raw": "\"DE\\nF\""
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -107,8 +106,8 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 86,
                 "end": 90,
-                "raw": "\"\\n\"",
-                "value": "\n"
+                "value": "\n",
+                "raw": "\"\\n\""
               }
             ],
             "quasis": [
@@ -116,28 +115,29 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 81,
                 "end": 86,
-                "tail": false,
                 "value": {
                   "cooked": "DE",
                   "raw": "DE"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 90,
                 "end": 93,
-                "tail": true,
                 "value": {
                   "cooked": "F",
                   "raw": "F"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

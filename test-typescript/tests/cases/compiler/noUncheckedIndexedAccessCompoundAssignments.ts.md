@@ -9,83 +9,82 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 63,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 63,
         "end": 78,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "MemberExpression",
           "start": 63,
           "end": 76,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 63,
             "end": 72,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 73,
             "end": 76,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "operator": "++",
-        "prefix": false
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 80,
       "end": 96,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 80,
         "end": 95,
+        "operator": "--",
+        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 82,
           "end": 95,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 82,
             "end": 91,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 92,
             "end": 95,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "operator": "--",
-        "prefix": true
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 97,
       "end": 116,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 97,
@@ -95,41 +94,41 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 97,
           "end": 110,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 97,
             "end": 106,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 107,
             "end": 110,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 114,
           "end": 115,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 117,
       "end": 136,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 117,
@@ -139,225 +138,225 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 117,
           "end": 130,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 117,
             "end": 126,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 127,
             "end": 130,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 134,
           "end": 135,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 137,
       "end": 156,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 137,
         "end": 155,
+        "operator": "++",
+        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 139,
           "end": 155,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 139,
             "end": 148,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 149,
             "end": 154,
-            "raw": "'foo'",
-            "value": "foo"
-          }
-        },
-        "operator": "++",
-        "prefix": true
-      }
+            "value": "foo",
+            "raw": "'foo'"
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 157,
       "end": 176,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 157,
         "end": 175,
+        "operator": "--",
+        "prefix": false,
         "argument": {
           "type": "MemberExpression",
           "start": 157,
           "end": 173,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 157,
             "end": 166,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 167,
             "end": 172,
-            "raw": "'foo'",
-            "value": "foo"
-          }
-        },
-        "operator": "--",
-        "prefix": false
-      }
+            "value": "foo",
+            "raw": "'foo'"
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 177,
       "end": 192,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 177,
         "end": 191,
+        "operator": "++",
+        "prefix": true,
         "argument": {
           "type": "MemberExpression",
           "start": 179,
           "end": 191,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 179,
             "end": 188,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 189,
             "end": 190,
-            "decorators": [],
             "name": "s",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "operator": "++",
-        "prefix": true
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 193,
       "end": 208,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 193,
         "end": 207,
+        "operator": "--",
+        "prefix": false,
         "argument": {
           "type": "MemberExpression",
           "start": 193,
           "end": 205,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 193,
             "end": 202,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 203,
             "end": 204,
-            "decorators": [],
             "name": "s",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "operator": "--",
-        "prefix": false
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 209,
       "end": 225,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 209,
         "end": 224,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "MemberExpression",
           "start": 209,
           "end": 222,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 209,
             "end": 218,
-            "decorators": [],
             "name": "numberMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 219,
             "end": 221,
-            "raw": "32",
-            "value": 32
-          }
-        },
-        "operator": "++",
-        "prefix": false
-      }
+            "value": 32,
+            "raw": "32"
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 226,
       "end": 245,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 226,
@@ -367,77 +366,77 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 226,
           "end": 239,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 226,
             "end": 235,
-            "decorators": [],
             "name": "numberMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 236,
             "end": 238,
-            "raw": "32",
-            "value": 32
-          }
+            "value": 32,
+            "raw": "32"
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 243,
           "end": 244,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 246,
       "end": 261,
-      "directive": null,
       "expression": {
         "type": "UpdateExpression",
         "start": 246,
         "end": 260,
+        "operator": "++",
+        "prefix": false,
         "argument": {
           "type": "MemberExpression",
           "start": 246,
           "end": 258,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 246,
             "end": 255,
-            "decorators": [],
             "name": "numberMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 256,
             "end": 257,
-            "decorators": [],
             "name": "n",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
-        "operator": "++",
-        "prefix": false
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
+        }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 262,
       "end": 280,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 262,
@@ -447,35 +446,36 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 262,
           "end": 274,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 262,
             "end": 271,
-            "decorators": [],
             "name": "numberMap",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 272,
             "end": 273,
-            "decorators": [],
             "name": "n",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": true,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 278,
           "end": 279,
-          "raw": "1",
-          "value": 1
+          "value": 1,
+          "raw": "1"
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -486,14 +486,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 296,
           "end": 330,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 296,
             "end": 330,
-            "decorators": [],
             "name": "stringMap",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 305,
@@ -507,15 +504,12 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 309,
                     "end": 328,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
                         "start": 310,
                         "end": 319,
-                        "decorators": [],
                         "name": "s",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 311,
@@ -525,11 +519,11 @@ __ESTREE_TEST__:PASS:
                             "start": 313,
                             "end": 319
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 320,
@@ -539,17 +533,23 @@ __ESTREE_TEST__:PASS:
                         "start": 322,
                         "end": 328
                       }
-                    }
+                    },
+                    "readonly": false,
+                    "static": false,
+                    "accessibility": null
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -560,14 +560,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 346,
           "end": 355,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 346,
             "end": 355,
-            "decorators": [],
             "name": "s",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 347,
@@ -577,13 +574,16 @@ __ESTREE_TEST__:PASS:
                 "start": 349,
                 "end": 355
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -594,14 +594,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 371,
           "end": 405,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 371,
             "end": 405,
-            "decorators": [],
             "name": "numberMap",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 380,
@@ -615,15 +612,12 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 384,
                     "end": 403,
-                    "accessibility": null,
                     "parameters": [
                       {
                         "type": "Identifier",
                         "start": 385,
                         "end": 394,
-                        "decorators": [],
                         "name": "n",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 386,
@@ -633,11 +627,11 @@ __ESTREE_TEST__:PASS:
                             "start": 388,
                             "end": 394
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
-                    "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 395,
@@ -647,17 +641,23 @@ __ESTREE_TEST__:PASS:
                         "start": 397,
                         "end": 403
                       }
-                    }
+                    },
+                    "readonly": false,
+                    "static": false,
+                    "accessibility": null
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -668,14 +668,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 421,
           "end": 430,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 421,
             "end": 430,
-            "decorators": [],
             "name": "n",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 422,
@@ -685,13 +682,16 @@ __ESTREE_TEST__:PASS:
                 "start": 424,
                 "end": 430
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "script",

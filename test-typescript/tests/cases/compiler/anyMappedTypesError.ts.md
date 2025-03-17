@@ -9,20 +9,54 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 26,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 8,
-        "decorators": [],
         "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSMappedType",
         "start": 11,
         "end": 25,
+        "typeParameter": {
+          "type": "TSTypeParameter",
+          "start": 13,
+          "end": 23,
+          "name": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 14,
+            "name": "P",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "constraint": {
+            "type": "TSLiteralType",
+            "start": 18,
+            "end": 23,
+            "literal": {
+              "type": "Literal",
+              "start": 18,
+              "end": 23,
+              "value": "bar",
+              "raw": "\"bar\""
+            }
+          },
+          "default": null,
+          "in": false,
+          "out": false,
+          "const": false
+        },
+        "nameType": null,
+        "typeAnnotation": null,
+        "optional": null,
+        "readonly": null,
         "constraint": {
           "type": "TSLiteralType",
           "start": 18,
@@ -31,25 +65,21 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 18,
             "end": 23,
-            "raw": "\"bar\"",
-            "value": "bar"
+            "value": "bar",
+            "raw": "\"bar\""
           }
         },
         "key": {
           "type": "Identifier",
           "start": 13,
           "end": 14,
-          "decorators": [],
           "name": "P",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "nameType": null,
-        "optional": null,
-        "readonly": null,
-        "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

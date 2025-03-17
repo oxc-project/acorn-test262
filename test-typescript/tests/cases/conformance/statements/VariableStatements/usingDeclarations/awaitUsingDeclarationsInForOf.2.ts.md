@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 64,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 19,
+        "name": "main",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 22,
@@ -20,12 +32,6 @@ __ESTREE_TEST__:PASS:
             "start": 28,
             "end": 62,
             "await": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 55,
-              "end": 62,
-              "body": []
-            },
             "left": {
               "type": "VariableDeclaration",
               "start": 33,
@@ -35,46 +41,40 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 45,
                   "end": 47,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 45,
                     "end": 47,
-                    "decorators": [],
                     "name": "of",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "await using"
+              "kind": "await using",
+              "declare": false
             },
             "right": {
               "type": "ArrayExpression",
               "start": 51,
               "end": 53,
               "elements": []
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 55,
+              "end": 62,
+              "body": []
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 19,
-        "decorators": [],
-        "name": "main",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -44,10 +44,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 27,
         "end": 28,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -67,15 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 85,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 33,
-        "end": 84,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -85,13 +76,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 22,
-            "decorators": [],
             "name": "defaultBinding1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 33,
+        "end": 84,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -102,14 +102,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 90,
           "end": 118,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 90,
             "end": 100,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 92,
@@ -119,35 +116,29 @@ __ESTREE_TEST__:PASS:
                 "start": 94,
                 "end": 100
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 103,
             "end": 118,
-            "decorators": [],
             "name": "defaultBinding1",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 120,
       "end": 207,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 155,
-        "end": 206,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -157,10 +148,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 127,
             "end": 142,
-            "decorators": [],
             "name": "defaultBinding2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -171,23 +162,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 146,
             "end": 147,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 146,
             "end": 147,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 155,
+        "end": 206,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -198,14 +198,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 212,
           "end": 240,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 212,
             "end": 222,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 214,
@@ -215,35 +212,29 @@ __ESTREE_TEST__:PASS:
                 "start": 216,
                 "end": 222
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 225,
             "end": 240,
-            "decorators": [],
             "name": "defaultBinding2",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 242,
       "end": 334,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 282,
-        "end": 333,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -253,10 +244,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 249,
             "end": 264,
-            "decorators": [],
             "name": "defaultBinding3",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -267,23 +258,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 268,
             "end": 269,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 273,
             "end": 274,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 282,
+        "end": 333,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -294,14 +294,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 339,
           "end": 367,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 339,
             "end": 349,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 341,
@@ -311,35 +308,29 @@ __ESTREE_TEST__:PASS:
                 "start": 343,
                 "end": 349
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 352,
             "end": 367,
-            "decorators": [],
             "name": "defaultBinding3",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 369,
       "end": 464,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 412,
-        "end": 463,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -349,10 +340,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 376,
             "end": 391,
-            "decorators": [],
             "name": "defaultBinding4",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -363,21 +354,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 395,
             "end": 396,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 395,
             "end": 396,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -387,23 +378,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 398,
             "end": 399,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 403,
             "end": 404,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 412,
+        "end": 463,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -414,14 +414,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 469,
           "end": 497,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 469,
             "end": 479,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 471,
@@ -431,35 +428,29 @@ __ESTREE_TEST__:PASS:
                 "start": 473,
                 "end": 479
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 482,
             "end": 497,
-            "decorators": [],
             "name": "defaultBinding4",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 499,
       "end": 593,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 541,
-        "end": 592,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -469,10 +460,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 506,
             "end": 521,
-            "decorators": [],
             "name": "defaultBinding5",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -483,23 +474,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 525,
             "end": 526,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 530,
             "end": 531,
-            "decorators": [],
             "name": "z",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 541,
+        "end": 592,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -510,14 +510,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 598,
           "end": 626,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 598,
             "end": 608,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 600,
@@ -527,35 +524,29 @@ __ESTREE_TEST__:PASS:
                 "start": 602,
                 "end": 608
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 611,
             "end": 626,
-            "decorators": [],
             "name": "defaultBinding5",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 628,
       "end": 717,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 665,
-        "end": 716,
-        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\"",
-        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -565,10 +556,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 635,
             "end": 650,
-            "decorators": [],
             "name": "defaultBinding6",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -579,23 +570,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 654,
             "end": 655,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 654,
             "end": 655,
-            "decorators": [],
             "name": "m",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 665,
+        "end": 716,
+        "value": "es6ImportDefaultBindingFollowedWithNamedImport1_0",
+        "raw": "\"es6ImportDefaultBindingFollowedWithNamedImport1_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -606,14 +606,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 722,
           "end": 750,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 722,
             "end": 732,
-            "decorators": [],
             "name": "x1",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 724,
@@ -623,21 +620,24 @@ __ESTREE_TEST__:PASS:
                 "start": 726,
                 "end": 732
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 735,
             "end": 750,
-            "decorators": [],
             "name": "defaultBinding6",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",

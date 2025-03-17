@@ -14,21 +14,61 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 92,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 7,
-            "decorators": [],
             "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 92,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 11,
+                "end": 22,
+                "name": "hdr",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 14,
+                  "end": 22,
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 16,
+                    "end": 22
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 24,
+                "end": 35,
+                "name": "val",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 27,
+                  "end": 35,
+                  "typeAnnotation": {
+                    "type": "TSNumberKeyword",
+                    "start": 29,
+                    "end": 35
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "TSAsExpression",
               "start": 40,
@@ -42,19 +82,19 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 43,
                     "end": 46,
-                    "decorators": [],
                     "name": "hdr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   {
                     "type": "Identifier",
                     "start": 52,
                     "end": 55,
-                    "decorators": [],
                     "name": "val",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
                 "quasis": [
@@ -62,31 +102,31 @@ __ESTREE_TEST__:PASS:
                     "type": "TemplateElement",
                     "start": 40,
                     "end": 43,
-                    "tail": false,
                     "value": {
                       "cooked": "",
                       "raw": ""
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 46,
                     "end": 52,
-                    "tail": false,
                     "value": {
                       "cooked": ":\t",
                       "raw": ":\\t"
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 55,
                     "end": 61,
-                    "tail": true,
                     "value": {
                       "cooked": "\r\n",
                       "raw": "\\r\\n"
-                    }
+                    },
+                    "tail": true
                   }
                 ]
               },
@@ -99,31 +139,31 @@ __ESTREE_TEST__:PASS:
                     "type": "TemplateElement",
                     "start": 65,
                     "end": 68,
-                    "tail": false,
                     "value": {
                       "cooked": "",
                       "raw": ""
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 74,
                     "end": 80,
-                    "tail": false,
                     "value": {
                       "cooked": ":\t",
                       "raw": ":\\t"
-                    }
+                    },
+                    "tail": false
                   },
                   {
                     "type": "TemplateElement",
                     "start": 86,
                     "end": 92,
-                    "tail": true,
                     "value": {
                       "cooked": "\r\n",
                       "raw": "\\r\\n"
-                    }
+                    },
+                    "tail": true
                   }
                 ],
                 "types": [
@@ -140,101 +180,61 @@ __ESTREE_TEST__:PASS:
                 ]
               }
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 11,
-                "end": 22,
-                "decorators": [],
-                "name": "hdr",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 14,
-                  "end": 22,
-                  "typeAnnotation": {
-                    "type": "TSStringKeyword",
-                    "start": 16,
-                    "end": 22
-                  }
-                }
-              },
-              {
-                "type": "Identifier",
-                "start": 24,
-                "end": 35,
-                "decorators": [],
-                "name": "val",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 27,
-                  "end": 35,
-                  "typeAnnotation": {
-                    "type": "TSNumberKeyword",
-                    "start": 29,
-                    "end": 35
-                  }
-                }
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 95,
       "end": 106,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 95,
         "end": 105,
-        "computed": false,
         "object": {
           "type": "CallExpression",
           "start": 95,
           "end": 101,
+          "callee": {
+            "type": "Identifier",
+            "start": 95,
+            "end": 96,
+            "name": "f",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 97,
               "end": 100,
-              "raw": "\"x\"",
-              "value": "x"
+              "value": "x",
+              "raw": "\"x\""
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 95,
-            "end": 96,
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "optional": false,
           "typeArguments": null
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 102,
           "end": 105,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

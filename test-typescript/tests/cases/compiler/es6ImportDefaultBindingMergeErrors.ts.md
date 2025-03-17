@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 10,
-            "raw": "10",
-            "value": 10
-          }
+            "value": 10,
+            "raw": "10"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -44,10 +44,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 27,
         "end": 28,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -67,15 +67,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 68,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 67,
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -85,36 +76,45 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 21,
-            "decorators": [],
             "name": "defaultBinding",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 67,
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 69,
       "end": 111,
+      "id": {
+        "type": "Identifier",
+        "start": 79,
+        "end": 93,
+        "name": "defaultBinding",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 94,
         "end": 111,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 79,
-        "end": 93,
-        "decorators": [],
-        "name": "defaultBinding",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -125,43 +125,34 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 116,
           "end": 134,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 116,
             "end": 117,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 120,
             "end": 134,
-            "decorators": [],
             "name": "defaultBinding",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 136,
       "end": 205,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 164,
-        "end": 204,
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -171,13 +162,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 143,
             "end": 158,
-            "decorators": [],
             "name": "defaultBinding2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 164,
+        "end": 204,
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -188,41 +188,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 229,
           "end": 260,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 229,
             "end": 244,
-            "decorators": [],
             "name": "defaultBinding2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 247,
             "end": 260,
-            "raw": "\"hello world\"",
-            "value": "hello world"
-          }
+            "value": "hello world",
+            "raw": "\"hello world\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ImportDeclaration",
       "start": 263,
       "end": 332,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 291,
-        "end": 331,
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -232,27 +223,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 270,
             "end": 285,
-            "decorators": [],
             "name": "defaultBinding3",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 291,
+        "end": 331,
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 352,
       "end": 421,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 380,
-        "end": 420,
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
-        "value": "./es6ImportDefaultBindingMergeErrors_0"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -262,13 +253,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 359,
             "end": 374,
-            "decorators": [],
             "name": "defaultBinding3",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 380,
+        "end": 420,
+        "value": "./es6ImportDefaultBindingMergeErrors_0",
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

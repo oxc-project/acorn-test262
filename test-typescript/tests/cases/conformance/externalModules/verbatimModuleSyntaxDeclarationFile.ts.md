@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 45,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 20,
+        "name": "NS",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 21,
@@ -18,37 +27,28 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeAliasDeclaration",
             "start": 27,
             "end": 43,
-            "declare": false,
             "id": {
               "type": "Identifier",
               "start": 32,
               "end": 33,
-              "decorators": [],
               "name": "A",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "typeParameters": null,
             "typeAnnotation": {
               "type": "TSObjectKeyword",
               "start": 36,
               "end": 42
             },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 20,
-        "decorators": [],
-        "name": "NS",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -58,10 +58,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 56,
         "end": 58,
-        "decorators": [],
         "name": "NS",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -72,10 +72,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 80,
         "end": 87,
-        "decorators": [],
         "name": "MyTypes",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -94,15 +94,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 35,
-      "attributes": [],
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 25,
-        "end": 34,
-        "raw": "'./type1'",
-        "value": "./type1"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -112,13 +103,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 17,
             "end": 19,
-            "decorators": [],
             "name": "NS",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 25,
+        "end": 34,
+        "value": "./type1",
+        "raw": "'./type1'"
+      },
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "TSExportAssignment",
@@ -128,10 +128,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 46,
         "end": 48,
-        "decorators": [],
         "name": "NS",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -142,10 +142,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 70,
         "end": 82,
-        "decorators": [],
         "name": "ModuleATypes",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

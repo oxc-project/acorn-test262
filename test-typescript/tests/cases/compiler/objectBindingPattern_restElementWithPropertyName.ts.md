@@ -14,13 +14,10 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 22,
-          "definite": false,
           "id": {
             "type": "ObjectPattern",
             "start": 6,
             "end": 17,
-            "decorators": [],
-            "optional": false,
             "properties": [
               {
                 "type": "RestElement",
@@ -30,10 +27,10 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 11,
                   "end": 12,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "decorators": [],
                 "optional": false,
@@ -41,6 +38,8 @@ __ESTREE_TEST__:PASS:
                 "value": null
               }
             ],
+            "decorators": [],
+            "optional": false,
             "typeAnnotation": null
           },
           "init": {
@@ -48,11 +47,12 @@ __ESTREE_TEST__:PASS:
             "start": 20,
             "end": 22,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",
