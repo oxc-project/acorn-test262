@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 11,
-  "end": 3361,
+  "end": 3360,
   "body": [
     {
       "type": "ForOfStatement",

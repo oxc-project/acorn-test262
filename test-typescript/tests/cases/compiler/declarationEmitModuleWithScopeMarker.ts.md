@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 185,
+  "end": 184,
   "body": [
     {
       "type": "TSModuleDeclaration",

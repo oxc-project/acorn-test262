@@ -126,6 +126,7 @@ function makeUnitsFromTest(filePath, code) {
 
   // Process the file line by line
   const lines = code.split(/\r?\n/);
+  if (lines[lines.length - 1] === "") lines.length--;
 
   for (const line of lines) {
     // Reset regex state

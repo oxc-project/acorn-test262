@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 32,
-  "end": 1653,
+  "end": 1652,
   "body": [
     {
       "type": "ClassDeclaration",

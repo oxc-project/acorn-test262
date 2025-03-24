@@ -837,7 +837,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 35,
-  "end": 227,
+  "end": 226,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",

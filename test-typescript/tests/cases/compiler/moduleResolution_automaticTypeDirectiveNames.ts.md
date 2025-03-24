@@ -95,7 +95,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 3,
+  "end": 2,
   "body": [
     {
       "type": "ExpressionStatement",

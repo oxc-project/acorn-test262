@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 46,
-  "end": 375,
+  "end": 374,
   "body": [
     {
       "type": "IfStatement",

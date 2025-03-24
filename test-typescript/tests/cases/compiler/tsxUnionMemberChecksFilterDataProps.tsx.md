@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 44,
-  "end": 405,
+  "end": 404,
   "body": [
     {
       "type": "ImportDeclaration",

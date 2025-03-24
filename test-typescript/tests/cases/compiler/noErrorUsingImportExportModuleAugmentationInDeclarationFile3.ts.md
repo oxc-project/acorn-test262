@@ -63,7 +63,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 34,
+  "end": 33,
   "body": [
     {
       "type": "ExportNamedDeclaration",

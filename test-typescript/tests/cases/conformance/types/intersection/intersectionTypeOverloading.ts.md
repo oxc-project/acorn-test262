@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 95,
-  "end": 251,
+  "end": 250,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",

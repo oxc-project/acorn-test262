@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 1826,
+  "end": 1825,
   "body": [
     {
       "type": "BlockStatement",
