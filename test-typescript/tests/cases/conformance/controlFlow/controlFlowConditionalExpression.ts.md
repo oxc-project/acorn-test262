@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 32,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -48,13 +45,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -65,14 +65,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 38,
           "end": 51,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
             "end": 51,
-            "decorators": [],
             "name": "cond",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 42,
@@ -82,44 +79,33 @@ __ESTREE_TEST__:PASS:
                 "start": 44,
                 "end": 51
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 76,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 54,
         "end": 75,
-        "alternate": {
-          "type": "AssignmentExpression",
-          "start": 70,
-          "end": 75,
-          "operator": "=",
-          "left": {
-            "type": "Identifier",
-            "start": 70,
-            "end": 71,
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "right": {
-            "type": "Literal",
-            "start": 74,
-            "end": 75,
-            "raw": "3",
-            "value": 3
-          }
+        "test": {
+          "type": "Identifier",
+          "start": 54,
+          "end": 58,
+          "name": "cond",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "consequent": {
           "type": "AssignmentExpression",
@@ -130,44 +116,58 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 61,
             "end": 62,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Literal",
             "start": 65,
             "end": 67,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         },
-        "test": {
-          "type": "Identifier",
-          "start": 54,
-          "end": 58,
-          "decorators": [],
-          "name": "cond",
-          "optional": false,
-          "typeAnnotation": null
+        "alternate": {
+          "type": "AssignmentExpression",
+          "start": 70,
+          "end": 75,
+          "operator": "=",
+          "left": {
+            "type": "Identifier",
+            "start": 70,
+            "end": 71,
+            "name": "x",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "right": {
+            "type": "Literal",
+            "start": 74,
+            "end": 75,
+            "value": 3,
+            "raw": "3"
+          }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 77,
       "end": 79,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 77,
         "end": 78,
-        "decorators": [],
         "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,68 +9,68 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 21,
-      "directive": null,
       "expression": {
         "type": "BinaryExpression",
         "start": 0,
         "end": 20,
-        "operator": "/",
         "left": {
           "type": "BinaryExpression",
           "start": 0,
           "end": 12,
-          "operator": "/",
           "left": {
             "type": "Literal",
             "start": 0,
             "end": 1,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
+          "operator": "/",
           "right": {
             "type": "Identifier",
             "start": 3,
             "end": 12,
-            "decorators": [],
             "name": "notregexp",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
+        "operator": "/",
         "right": {
           "type": "CallExpression",
           "start": 13,
           "end": 20,
-          "arguments": [],
           "callee": {
             "type": "MemberExpression",
             "start": 13,
             "end": 18,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 13,
               "end": 14,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 15,
               "end": 18,
-              "decorators": [],
               "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
           },
+          "arguments": [],
           "optional": false,
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

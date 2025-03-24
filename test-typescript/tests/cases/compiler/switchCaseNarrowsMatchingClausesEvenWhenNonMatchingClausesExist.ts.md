@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 208,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,21 +18,43 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 13,
             "end": 207,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 29,
-              "decorators": [],
               "name": "narrowToLiterals",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ArrowFunctionExpression",
               "start": 32,
               "end": 207,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 33,
+                  "end": 44,
+                  "name": "str",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 36,
+                    "end": 44,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 38,
+                      "end": 44
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 49,
@@ -43,6 +64,15 @@ __ESTREE_TEST__:PASS:
                     "type": "SwitchStatement",
                     "start": 55,
                     "end": 203,
+                    "discriminant": {
+                      "type": "Identifier",
+                      "start": 63,
+                      "end": 66,
+                      "name": "str",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "cases": [
                       {
                         "type": "SwitchCase",
@@ -62,10 +92,10 @@ __ESTREE_TEST__:PASS:
                                   "type": "Identifier",
                                   "start": 139,
                                   "end": 142,
-                                  "decorators": [],
                                   "name": "str",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               }
                             ]
@@ -75,8 +105,8 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 81,
                           "end": 86,
-                          "raw": "'abc'",
-                          "value": "abc"
+                          "value": "abc",
+                          "raw": "'abc'"
                         }
                       },
                       {
@@ -92,66 +122,35 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 182,
                               "end": 196,
-                              "raw": "'defaultValue'",
-                              "value": "defaultValue"
+                              "value": "defaultValue",
+                              "raw": "'defaultValue'"
                             }
                           }
                         ],
                         "test": null
                       }
-                    ],
-                    "discriminant": {
-                      "type": "Identifier",
-                      "start": 63,
-                      "end": 66,
-                      "decorators": [],
-                      "name": "str",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                    ]
                   }
                 ]
               },
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 33,
-                  "end": 44,
-                  "decorators": [],
-                  "name": "str",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 36,
-                    "end": 44,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 38,
-                      "end": 44
-                    }
-                  }
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 214,
       "end": 524,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 221,
@@ -161,21 +160,61 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 227,
             "end": 523,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 227,
               "end": 241,
-              "decorators": [],
               "name": "narrowToString",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ArrowFunctionExpression",
               "start": 244,
               "end": 523,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 245,
+                  "end": 256,
+                  "name": "str",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 248,
+                    "end": 256,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 250,
+                      "end": 256
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 258,
+                  "end": 278,
+                  "name": "someOtherStr",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 270,
+                    "end": 278,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 272,
+                      "end": 278
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 283,
@@ -185,6 +224,15 @@ __ESTREE_TEST__:PASS:
                     "type": "SwitchStatement",
                     "start": 289,
                     "end": 519,
+                    "discriminant": {
+                      "type": "Identifier",
+                      "start": 297,
+                      "end": 300,
+                      "name": "str",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "cases": [
                       {
                         "type": "SwitchCase",
@@ -204,10 +252,10 @@ __ESTREE_TEST__:PASS:
                                   "type": "Identifier",
                                   "start": 380,
                                   "end": 383,
-                                  "decorators": [],
                                   "name": "str",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               }
                             ]
@@ -217,8 +265,8 @@ __ESTREE_TEST__:PASS:
                           "type": "Literal",
                           "start": 315,
                           "end": 320,
-                          "raw": "'abc'",
-                          "value": "abc"
+                          "value": "abc",
+                          "raw": "'abc'"
                         }
                       },
                       {
@@ -239,10 +287,10 @@ __ESTREE_TEST__:PASS:
                                   "type": "Identifier",
                                   "start": 455,
                                   "end": 458,
-                                  "decorators": [],
                                   "name": "str",
-                                  "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
                                 }
                               }
                             ]
@@ -252,10 +300,10 @@ __ESTREE_TEST__:PASS:
                           "type": "Identifier",
                           "start": 404,
                           "end": 416,
-                          "decorators": [],
                           "name": "someOtherStr",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         }
                       },
                       {
@@ -271,84 +319,35 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 498,
                               "end": 512,
-                              "raw": "'defaultValue'",
-                              "value": "defaultValue"
+                              "value": "defaultValue",
+                              "raw": "'defaultValue'"
                             }
                           }
                         ],
                         "test": null
                       }
-                    ],
-                    "discriminant": {
-                      "type": "Identifier",
-                      "start": 297,
-                      "end": 300,
-                      "decorators": [],
-                      "name": "str",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                    ]
                   }
                 ]
               },
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 245,
-                  "end": 256,
-                  "decorators": [],
-                  "name": "str",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 248,
-                    "end": 256,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 250,
-                      "end": 256
-                    }
-                  }
-                },
-                {
-                  "type": "Identifier",
-                  "start": 258,
-                  "end": 278,
-                  "decorators": [],
-                  "name": "someOtherStr",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 270,
-                    "end": 278,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 272,
-                      "end": 278
-                    }
-                  }
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 530,
       "end": 877,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 537,
@@ -358,147 +357,29 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 543,
             "end": 876,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 543,
               "end": 565,
-              "decorators": [],
               "name": "narrowToStringOrNumber",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ArrowFunctionExpression",
               "start": 568,
               "end": 876,
-              "async": false,
-              "body": {
-                "type": "BlockStatement",
-                "start": 614,
-                "end": 876,
-                "body": [
-                  {
-                    "type": "SwitchStatement",
-                    "start": 620,
-                    "end": 872,
-                    "cases": [
-                      {
-                        "type": "SwitchCase",
-                        "start": 641,
-                        "end": 723,
-                        "consequent": [
-                          {
-                            "type": "BlockStatement",
-                            "start": 653,
-                            "end": 723,
-                            "body": [
-                              {
-                                "type": "ReturnStatement",
-                                "start": 704,
-                                "end": 715,
-                                "argument": {
-                                  "type": "Identifier",
-                                  "start": 711,
-                                  "end": 714,
-                                  "decorators": [],
-                                  "name": "str",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
-                              }
-                            ]
-                          }
-                        ],
-                        "test": {
-                          "type": "Literal",
-                          "start": 646,
-                          "end": 651,
-                          "raw": "'abc'",
-                          "value": "abc"
-                        }
-                      },
-                      {
-                        "type": "SwitchCase",
-                        "start": 730,
-                        "end": 820,
-                        "consequent": [
-                          {
-                            "type": "BlockStatement",
-                            "start": 747,
-                            "end": 820,
-                            "body": [
-                              {
-                                "type": "ReturnStatement",
-                                "start": 801,
-                                "end": 812,
-                                "argument": {
-                                  "type": "Identifier",
-                                  "start": 808,
-                                  "end": 811,
-                                  "decorators": [],
-                                  "name": "str",
-                                  "optional": false,
-                                  "typeAnnotation": null
-                                }
-                              }
-                            ]
-                          }
-                        ],
-                        "test": {
-                          "type": "Identifier",
-                          "start": 735,
-                          "end": 745,
-                          "decorators": [],
-                          "name": "someNumber",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
-                      },
-                      {
-                        "type": "SwitchCase",
-                        "start": 827,
-                        "end": 866,
-                        "consequent": [
-                          {
-                            "type": "ReturnStatement",
-                            "start": 844,
-                            "end": 866,
-                            "argument": {
-                              "type": "Literal",
-                              "start": 851,
-                              "end": 865,
-                              "raw": "'defaultValue'",
-                              "value": "defaultValue"
-                            }
-                          }
-                        ],
-                        "test": null
-                      }
-                    ],
-                    "discriminant": {
-                      "type": "Identifier",
-                      "start": 628,
-                      "end": 631,
-                      "decorators": [],
-                      "name": "str",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                ]
-              },
+              "id": null,
               "expression": false,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 569,
                   "end": 589,
-                  "decorators": [],
                   "name": "str",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 572,
@@ -520,15 +401,15 @@ __ESTREE_TEST__:PASS:
                         }
                       ]
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 591,
                   "end": 609,
-                  "decorators": [],
                   "name": "someNumber",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 601,
@@ -538,20 +419,139 @@ __ESTREE_TEST__:PASS:
                       "start": 603,
                       "end": 609
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "body": {
+                "type": "BlockStatement",
+                "start": 614,
+                "end": 876,
+                "body": [
+                  {
+                    "type": "SwitchStatement",
+                    "start": 620,
+                    "end": 872,
+                    "discriminant": {
+                      "type": "Identifier",
+                      "start": 628,
+                      "end": 631,
+                      "name": "str",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "cases": [
+                      {
+                        "type": "SwitchCase",
+                        "start": 641,
+                        "end": 723,
+                        "consequent": [
+                          {
+                            "type": "BlockStatement",
+                            "start": 653,
+                            "end": 723,
+                            "body": [
+                              {
+                                "type": "ReturnStatement",
+                                "start": 704,
+                                "end": 715,
+                                "argument": {
+                                  "type": "Identifier",
+                                  "start": 711,
+                                  "end": 714,
+                                  "name": "str",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "test": {
+                          "type": "Literal",
+                          "start": 646,
+                          "end": 651,
+                          "value": "abc",
+                          "raw": "'abc'"
+                        }
+                      },
+                      {
+                        "type": "SwitchCase",
+                        "start": 730,
+                        "end": 820,
+                        "consequent": [
+                          {
+                            "type": "BlockStatement",
+                            "start": 747,
+                            "end": 820,
+                            "body": [
+                              {
+                                "type": "ReturnStatement",
+                                "start": 801,
+                                "end": 812,
+                                "argument": {
+                                  "type": "Identifier",
+                                  "start": 808,
+                                  "end": 811,
+                                  "name": "str",
+                                  "typeAnnotation": null,
+                                  "decorators": [],
+                                  "optional": false
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "test": {
+                          "type": "Identifier",
+                          "start": 735,
+                          "end": 745,
+                          "name": "someNumber",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        }
+                      },
+                      {
+                        "type": "SwitchCase",
+                        "start": 827,
+                        "end": 866,
+                        "consequent": [
+                          {
+                            "type": "ReturnStatement",
+                            "start": 844,
+                            "end": 866,
+                            "argument": {
+                              "type": "Literal",
+                              "start": 851,
+                              "end": 865,
+                              "value": "defaultValue",
+                              "raw": "'defaultValue'"
+                            }
+                          }
+                        ],
+                        "test": null
+                      }
+                    ]
+                  }
+                ]
+              },
+              "typeParameters": null,
+              "returnType": null
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

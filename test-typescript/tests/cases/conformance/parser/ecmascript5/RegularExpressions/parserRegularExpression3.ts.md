@@ -9,43 +9,43 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 21,
+        "callee": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 3,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "UnaryExpression",
             "start": 4,
             "end": 20,
+            "operator": "!",
+            "prefix": true,
             "argument": {
               "type": "Literal",
               "start": 5,
               "end": 20,
+              "value": null,
               "raw": "/(\\\\?|&)adurl=/",
               "regex": {
                 "flags": "",
                 "pattern": "(\\\\?|&)adurl="
-              },
-              "value": null
-            },
-            "operator": "!",
-            "prefix": true
+              }
+            }
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 0,
-          "end": 3,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

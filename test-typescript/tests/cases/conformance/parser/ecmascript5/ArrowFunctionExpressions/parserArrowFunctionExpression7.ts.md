@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "ObjectExpression",
         "start": 1,
@@ -19,25 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 4,
             "end": 35,
+            "method": true,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 10,
               "end": 11,
-              "decorators": [],
               "name": "m",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": true,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "FunctionExpression",
               "start": 11,
               "end": 35,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": true,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 14,
@@ -47,29 +48,28 @@ __ESTREE_TEST__:PASS:
                     "type": "ForStatement",
                     "start": 18,
                     "end": 32,
+                    "init": null,
+                    "test": null,
+                    "update": null,
                     "body": {
                       "type": "BlockStatement",
                       "start": 27,
                       "end": 32,
                       "body": []
-                    },
-                    "init": null,
-                    "test": null,
-                    "update": null
+                    }
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

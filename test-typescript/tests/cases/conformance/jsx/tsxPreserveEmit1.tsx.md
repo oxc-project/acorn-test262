@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 52,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 22,
+        "value": "react",
+        "raw": "'react'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 23,
@@ -24,14 +30,11 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 30,
                 "end": 36,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 30,
                   "end": 36,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 31,
@@ -41,13 +44,16 @@ __ESTREE_TEST__:PASS:
                       "start": 33,
                       "end": 36
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "TSExportAssignment",
@@ -57,28 +63,31 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 48,
               "end": 49,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 22,
-        "raw": "'react'",
-        "value": "react"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 54,
       "end": 122,
+      "id": {
+        "type": "Identifier",
+        "start": 69,
+        "end": 80,
+        "name": "ReactRouter",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 81,
@@ -93,14 +102,11 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 88,
                 "end": 98,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 88,
                   "end": 98,
-                  "decorators": [],
                   "name": "Route",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 93,
@@ -110,57 +116,57 @@ __ESTREE_TEST__:PASS:
                       "start": 95,
                       "end": 98
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "TSInterfaceDeclaration",
             "start": 101,
             "end": 120,
+            "id": {
+              "type": "Identifier",
+              "start": 111,
+              "end": 116,
+              "name": "Thing",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 117,
               "end": 120,
               "body": []
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 111,
-              "end": 116,
-              "decorators": [],
-              "name": "Thing",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 69,
-        "end": 80,
-        "decorators": [],
-        "name": "ReactRouter",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 123,
       "end": 179,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 138,
+        "end": 152,
+        "value": "react-router",
+        "raw": "'react-router'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 153,
@@ -174,23 +180,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 165,
               "end": 176,
-              "decorators": [],
               "name": "ReactRouter",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 138,
-        "end": 152,
-        "raw": "'react-router'",
-        "value": "react-router"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -212,12 +212,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 64,
         "end": 69,
-        "decorators": [],
         "name": "React",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 72,
@@ -226,10 +225,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 80,
           "end": 87,
-          "raw": "'react'",
-          "value": "react"
+          "value": "react",
+          "raw": "'react'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -239,12 +239,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 97,
         "end": 108,
-        "decorators": [],
         "name": "ReactRouter",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 111,
@@ -253,10 +252,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 119,
           "end": 133,
-          "raw": "'react-router'",
-          "value": "react-router"
+          "value": "react-router",
+          "raw": "'react-router'"
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -266,12 +266,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 144,
         "end": 149,
-        "decorators": [],
         "name": "Route",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 152,
@@ -280,21 +279,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 152,
           "end": 163,
-          "decorators": [],
           "name": "ReactRouter",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 164,
           "end": 169,
-          "decorators": [],
           "name": "Route",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -305,22 +305,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 176,
           "end": 195,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 176,
             "end": 183,
-            "decorators": [],
             "name": "routes1",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 186,
             "end": 195,
-            "children": [],
-            "closingElement": null,
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 186,
@@ -334,17 +331,29 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": true,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": null,
+            "children": []
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 198,
       "end": 230,
+      "id": {
+        "type": "Identifier",
+        "start": 205,
+        "end": 206,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 207,
@@ -354,7 +363,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 210,
             "end": 228,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 217,
@@ -364,14 +372,11 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 221,
                   "end": 227,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 221,
                     "end": 227,
-                    "decorators": [],
                     "name": "X",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 222,
@@ -381,37 +386,41 @@ __ESTREE_TEST__:PASS:
                         "start": 224,
                         "end": 227
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 205,
-        "end": 206,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 231,
       "end": 316,
+      "id": {
+        "type": "Identifier",
+        "start": 238,
+        "end": 239,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 240,
@@ -426,32 +435,19 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 302,
                 "end": 313,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 302,
                   "end": 303,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "JSXElement",
                   "start": 306,
                   "end": 313,
-                  "children": [],
-                  "closingElement": {
-                    "type": "JSXClosingElement",
-                    "start": 309,
-                    "end": 313,
-                    "name": {
-                      "type": "JSXIdentifier",
-                      "start": 311,
-                      "end": 312,
-                      "name": "X"
-                    }
-                  },
                   "openingElement": {
                     "type": "JSXOpeningElement",
                     "start": 306,
@@ -465,27 +461,31 @@ __ESTREE_TEST__:PASS:
                     },
                     "selfClosing": false,
                     "typeArguments": null
-                  }
-                }
+                  },
+                  "closingElement": {
+                    "type": "JSXClosingElement",
+                    "start": 309,
+                    "end": 313,
+                    "name": {
+                      "type": "JSXIdentifier",
+                      "start": 311,
+                      "end": 312,
+                      "name": "X"
+                    }
+                  },
+                  "children": []
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 238,
-        "end": 239,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "module",

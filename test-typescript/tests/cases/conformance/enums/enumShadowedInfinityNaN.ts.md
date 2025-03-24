@@ -19,31 +19,68 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 65,
               "end": 78,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 65,
                 "end": 73,
-                "decorators": [],
                 "name": "Infinity",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "init": {
                 "type": "ObjectExpression",
                 "start": 76,
                 "end": 78,
                 "properties": []
-              }
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "kind": "let",
+          "declare": false
         },
         {
           "type": "TSEnumDeclaration",
           "start": 82,
           "end": 112,
+          "id": {
+            "type": "Identifier",
+            "start": 87,
+            "end": 89,
+            "name": "En",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "members": [
+            {
+              "type": "TSEnumMember",
+              "start": 96,
+              "end": 108,
+              "id": {
+                "type": "Identifier",
+                "start": 96,
+                "end": 97,
+                "name": "X",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "initializer": {
+                "type": "Identifier",
+                "start": 100,
+                "end": 108,
+                "name": "Infinity",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false
+            }
+          ],
+          "const": false,
+          "declare": false,
           "body": {
             "type": "TSEnumBody",
             "start": 90,
@@ -53,38 +90,27 @@ __ESTREE_TEST__:PASS:
                 "type": "TSEnumMember",
                 "start": 96,
                 "end": 108,
-                "computed": false,
                 "id": {
                   "type": "Identifier",
                   "start": 96,
                   "end": 97,
-                  "decorators": [],
                   "name": "X",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "initializer": {
                   "type": "Identifier",
                   "start": 100,
                   "end": 108,
-                  "decorators": [],
                   "name": "Infinity",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false
               }
             ]
-          },
-          "const": false,
-          "declare": false,
-          "id": {
-            "type": "Identifier",
-            "start": 87,
-            "end": 89,
-            "decorators": [],
-            "name": "En",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       ]
@@ -103,31 +129,68 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 124,
               "end": 132,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 124,
                 "end": 127,
-                "decorators": [],
                 "name": "NaN",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "init": {
                 "type": "ObjectExpression",
                 "start": 130,
                 "end": 132,
                 "properties": []
-              }
+              },
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "kind": "let",
+          "declare": false
         },
         {
           "type": "TSEnumDeclaration",
           "start": 136,
           "end": 161,
+          "id": {
+            "type": "Identifier",
+            "start": 141,
+            "end": 143,
+            "name": "En",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "members": [
+            {
+              "type": "TSEnumMember",
+              "start": 150,
+              "end": 157,
+              "id": {
+                "type": "Identifier",
+                "start": 150,
+                "end": 151,
+                "name": "X",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "initializer": {
+                "type": "Identifier",
+                "start": 154,
+                "end": 157,
+                "name": "NaN",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false
+            }
+          ],
+          "const": false,
+          "declare": false,
           "body": {
             "type": "TSEnumBody",
             "start": 144,
@@ -137,38 +200,27 @@ __ESTREE_TEST__:PASS:
                 "type": "TSEnumMember",
                 "start": 150,
                 "end": 157,
-                "computed": false,
                 "id": {
                   "type": "Identifier",
                   "start": 150,
                   "end": 151,
-                  "decorators": [],
                   "name": "X",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "initializer": {
                   "type": "Identifier",
                   "start": 154,
                   "end": 157,
-                  "decorators": [],
                   "name": "NaN",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false
               }
             ]
-          },
-          "const": false,
-          "declare": false,
-          "id": {
-            "type": "Identifier",
-            "start": 141,
-            "end": 143,
-            "decorators": [],
-            "name": "En",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
       ]

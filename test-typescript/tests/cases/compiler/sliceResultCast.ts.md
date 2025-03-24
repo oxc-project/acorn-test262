@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 58,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -72,19 +69,21 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExpressionStatement",
       "start": 61,
       "end": 93,
-      "directive": null,
       "expression": {
         "type": "TSAsExpression",
         "start": 61,
@@ -93,40 +92,40 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 61,
           "end": 71,
+          "callee": {
+            "type": "MemberExpression",
+            "start": 61,
+            "end": 68,
+            "object": {
+              "type": "Identifier",
+              "start": 61,
+              "end": 62,
+              "name": "x",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 63,
+              "end": 68,
+              "name": "slice",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 69,
               "end": 70,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
-          "callee": {
-            "type": "MemberExpression",
-            "start": 61,
-            "end": 68,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 61,
-              "end": 62,
-              "decorators": [],
-              "name": "x",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 63,
-              "end": 68,
-              "decorators": [],
-              "name": "slice",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
           "optional": false,
           "typeArguments": null
         },
@@ -146,7 +145,8 @@ __ESTREE_TEST__:PASS:
             }
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,47 +9,10 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 17,
       "end": 92,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 17,
         "end": 92,
-        "quasi": {
-          "type": "TemplateLiteral",
-          "start": 58,
-          "end": 92,
-          "expressions": [
-            {
-              "type": "Literal",
-              "start": 64,
-              "end": 68,
-              "raw": "\"AM\"",
-              "value": "AM"
-            }
-          ],
-          "quasis": [
-            {
-              "type": "TemplateElement",
-              "start": 58,
-              "end": 63,
-              "tail": false,
-              "value": {
-                "cooked": "I ",
-                "raw": "I "
-              }
-            },
-            {
-              "type": "TemplateElement",
-              "start": 69,
-              "end": 92,
-              "tail": true,
-              "value": {
-                "cooked": " THE TEMPLATE PORTION",
-                "raw": " THE TEMPLATE PORTION"
-              }
-            }
-          ]
-        },
         "tag": {
           "type": "TemplateLiteral",
           "start": 17,
@@ -70,11 +33,11 @@ __ESTREE_TEST__:PASS:
                       "type": "TemplateElement",
                       "start": 34,
                       "end": 39,
-                      "tail": true,
                       "value": {
                         "cooked": "TAG",
                         "raw": "TAG"
-                      }
+                      },
+                      "tail": true
                     }
                   ]
                 }
@@ -84,21 +47,21 @@ __ESTREE_TEST__:PASS:
                   "type": "TemplateElement",
                   "start": 30,
                   "end": 33,
-                  "tail": false,
                   "value": {
                     "cooked": "",
                     "raw": ""
-                  }
+                  },
+                  "tail": false
                 },
                 {
                   "type": "TemplateElement",
                   "start": 40,
                   "end": 43,
-                  "tail": true,
                   "value": {
                     "cooked": " ",
                     "raw": " "
-                  }
+                  },
+                  "tail": true
                 }
               ]
             }
@@ -108,26 +71,63 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 17,
               "end": 29,
-              "tail": false,
               "value": {
                 "cooked": "I AM THE ",
                 "raw": "I AM THE "
-              }
+              },
+              "tail": false
             },
             {
               "type": "TemplateElement",
               "start": 44,
               "end": 54,
-              "tail": true,
               "value": {
                 "cooked": " PORTION",
                 "raw": " PORTION"
-              }
+              },
+              "tail": true
+            }
+          ]
+        },
+        "quasi": {
+          "type": "TemplateLiteral",
+          "start": 58,
+          "end": 92,
+          "expressions": [
+            {
+              "type": "Literal",
+              "start": 64,
+              "end": 68,
+              "value": "AM",
+              "raw": "\"AM\""
+            }
+          ],
+          "quasis": [
+            {
+              "type": "TemplateElement",
+              "start": 58,
+              "end": 63,
+              "value": {
+                "cooked": "I ",
+                "raw": "I "
+              },
+              "tail": false
+            },
+            {
+              "type": "TemplateElement",
+              "start": 69,
+              "end": 92,
+              "value": {
+                "cooked": " THE TEMPLATE PORTION",
+                "raw": " THE TEMPLATE PORTION"
+              },
+              "tail": true
             }
           ]
         },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 0,
       "end": 12,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 4,
+        "end": 7,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 9,
         "end": 12,
         "body": []
       },
-      "test": {
-        "type": "Identifier",
-        "start": 4,
-        "end": 7,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

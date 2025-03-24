@@ -9,16 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "TSTypeAliasDeclaration",
       "start": 0,
       "end": 48,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 5,
         "end": 15,
-        "decorators": [],
         "name": "StringTree",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
         "start": 18,
@@ -33,26 +33,35 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 27,
             "end": 47,
-            "typeArguments": null,
             "typeName": {
               "type": "Identifier",
               "start": 27,
               "end": 47,
-              "decorators": [],
               "name": "StringTreeCollection",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeArguments": null
           }
         ]
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 49,
       "end": 112,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 55,
+        "end": 79,
+        "name": "StringTreeCollectionBase",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 80,
@@ -62,15 +71,12 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 86,
             "end": 110,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
                 "start": 87,
                 "end": 96,
-                "decorators": [],
                 "name": "n",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 88,
@@ -80,11 +86,11 @@ __ESTREE_TEST__:PASS:
                     "start": 90,
                     "end": 96
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 97,
@@ -93,71 +99,65 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 99,
                 "end": 109,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 99,
                   "end": 109,
-                  "decorators": [],
                   "name": "StringTree",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 55,
-        "end": 79,
-        "decorators": [],
-        "name": "StringTreeCollectionBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 114,
       "end": 177,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 120,
+        "end": 140,
+        "name": "StringTreeCollection",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": {
+        "type": "Identifier",
+        "start": 149,
+        "end": 173,
+        "name": "StringTreeCollectionBase",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "ClassBody",
         "start": 174,
         "end": 177,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 120,
-        "end": 140,
-        "decorators": [],
-        "name": "StringTreeCollection",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": {
-        "type": "Identifier",
-        "start": 149,
-        "end": 173,
-        "decorators": [],
-        "name": "StringTreeCollectionBase",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "VariableDeclaration",
@@ -168,14 +168,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 183,
           "end": 196,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 183,
             "end": 196,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 184,
@@ -184,30 +181,61 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 186,
                 "end": 196,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 186,
                   "end": 196,
-                  "decorators": [],
                   "name": "StringTree",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "IfStatement",
       "start": 198,
       "end": 280,
-      "alternate": null,
+      "test": {
+        "type": "BinaryExpression",
+        "start": 202,
+        "end": 223,
+        "left": {
+          "type": "UnaryExpression",
+          "start": 202,
+          "end": 210,
+          "operator": "typeof",
+          "prefix": true,
+          "argument": {
+            "type": "Identifier",
+            "start": 209,
+            "end": 210,
+            "name": "x",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          }
+        },
+        "operator": "!==",
+        "right": {
+          "type": "Literal",
+          "start": 215,
+          "end": 223,
+          "value": "string",
+          "raw": "\"string\""
+        }
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 225,
@@ -217,7 +245,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 231,
             "end": 241,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 231,
@@ -227,39 +254,39 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 231,
                 "end": 235,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 231,
                   "end": 232,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 233,
                   "end": 234,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "computed": true,
+                "optional": false
               },
               "right": {
                 "type": "Literal",
                 "start": 238,
                 "end": 240,
-                "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
-            }
+            },
+            "directive": null
           },
           {
             "type": "ExpressionStatement",
             "start": 246,
             "end": 278,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 246,
@@ -269,74 +296,47 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 246,
                 "end": 250,
-                "computed": true,
                 "object": {
                   "type": "Identifier",
                   "start": 246,
                   "end": 247,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Literal",
                   "start": 248,
                   "end": 249,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "computed": true,
+                "optional": false
               },
               "right": {
                 "type": "NewExpression",
                 "start": 253,
                 "end": 277,
-                "arguments": [],
                 "callee": {
                   "type": "Identifier",
                   "start": 257,
                   "end": 277,
-                  "decorators": [],
                   "name": "StringTreeCollection",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "arguments": [],
                 "typeArguments": null
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
-      "test": {
-        "type": "BinaryExpression",
-        "start": 202,
-        "end": 223,
-        "operator": "!==",
-        "left": {
-          "type": "UnaryExpression",
-          "start": 202,
-          "end": 210,
-          "argument": {
-            "type": "Identifier",
-            "start": 209,
-            "end": 210,
-            "decorators": [],
-            "name": "x",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "operator": "typeof",
-          "prefix": true
-        },
-        "right": {
-          "type": "Literal",
-          "start": 215,
-          "end": 223,
-          "raw": "\"string\"",
-          "value": "string"
-        }
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 154,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 18,
+        "name": "TypeScript2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -18,12 +27,20 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 25,
             "end": 92,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 32,
               "end": 92,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 38,
+                "end": 48,
+                "name": "MemberName",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 49,
@@ -33,24 +50,30 @@ __ESTREE_TEST__:PASS:
                     "type": "PropertyDefinition",
                     "start": 59,
                     "end": 86,
-                    "accessibility": "public",
+                    "static": false,
                     "computed": false,
-                    "declare": false,
-                    "decorators": [],
-                    "definite": false,
                     "key": {
                       "type": "Identifier",
                       "start": 66,
                       "end": 72,
-                      "decorators": [],
                       "name": "prefix",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "optional": false,
+                    "value": {
+                      "type": "Literal",
+                      "start": 83,
+                      "end": 85,
+                      "value": "",
+                      "raw": "\"\""
+                    },
+                    "decorators": [],
+                    "declare": false,
                     "override": false,
+                    "optional": false,
+                    "definite": false,
                     "readonly": false,
-                    "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 72,
@@ -61,94 +84,71 @@ __ESTREE_TEST__:PASS:
                         "end": 80
                       }
                     },
-                    "value": {
-                      "type": "Literal",
-                      "start": 83,
-                      "end": 85,
-                      "raw": "\"\"",
-                      "value": ""
-                    }
+                    "accessibility": "public"
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 38,
-                "end": 48,
-                "decorators": [],
-                "name": "MemberName",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 97,
             "end": 152,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 104,
               "end": 152,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 110,
+                "end": 125,
+                "name": "MemberNameArray",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": {
+                "type": "Identifier",
+                "start": 134,
+                "end": 144,
+                "name": "MemberName",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "body": {
                 "type": "ClassBody",
                 "start": 145,
                 "end": 152,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 110,
-                "end": 125,
-                "decorators": [],
-                "name": "MemberNameArray",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": {
-                "type": "Identifier",
-                "start": 134,
-                "end": 144,
-                "decorators": [],
-                "name": "MemberName",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 18,
-        "decorators": [],
-        "name": "TypeScript2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
@@ -159,52 +159,52 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 160,
           "end": 197,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 160,
             "end": 161,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 164,
             "end": 197,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 168,
               "end": 195,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 168,
                 "end": 179,
-                "decorators": [],
                 "name": "TypeScript2",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 180,
                 "end": 195,
-                "decorators": [],
                 "name": "MemberNameArray",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

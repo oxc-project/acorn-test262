@@ -10,26 +10,20 @@ __ESTREE_TEST__:PASS:
       "start": 0,
       "end": 24,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 21,
-        "end": 24,
-        "body": []
-      },
       "left": {
         "type": "ArrayPattern",
         "start": 5,
         "end": 9,
-        "decorators": [],
         "elements": [
           {
             "type": "Literal",
             "start": 6,
             "end": 8,
-            "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "raw": "\"\""
           }
         ],
+        "decorators": [],
         "optional": false,
         "typeAnnotation": null
       },
@@ -47,12 +41,18 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 15,
                 "end": 17,
-                "raw": "\"\"",
-                "value": ""
+                "value": "",
+                "raw": "\"\""
               }
             ]
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 21,
+        "end": 24,
+        "body": []
       }
     }
   ],

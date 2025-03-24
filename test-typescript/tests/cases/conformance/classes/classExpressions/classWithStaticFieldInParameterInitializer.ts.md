@@ -9,47 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 95,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 56,
         "end": 94,
-        "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
           "start": 57,
           "end": 91,
-          "async": false,
-          "body": {
-            "type": "BlockStatement",
-            "start": 89,
-            "end": 91,
-            "body": []
-          },
+          "id": null,
           "expression": false,
           "generator": false,
-          "id": null,
+          "async": false,
           "params": [
             {
               "type": "AssignmentPattern",
               "start": 58,
               "end": 84,
-              "decorators": [],
               "left": {
                 "type": "Identifier",
                 "start": 58,
                 "end": 59,
-                "decorators": [],
                 "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "right": {
                 "type": "ClassExpression",
                 "start": 62,
                 "end": 84,
-                "abstract": false,
+                "id": null,
+                "superClass": null,
                 "body": {
                   "type": "ClassBody",
                   "start": 68,
@@ -59,52 +50,61 @@ __ESTREE_TEST__:PASS:
                       "type": "PropertyDefinition",
                       "start": 70,
                       "end": 82,
-                      "accessibility": null,
+                      "static": true,
                       "computed": false,
-                      "declare": false,
-                      "decorators": [],
-                      "definite": false,
                       "key": {
                         "type": "Identifier",
                         "start": 77,
                         "end": 78,
-                        "decorators": [],
                         "name": "x",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "optional": false,
-                      "override": false,
-                      "readonly": false,
-                      "static": true,
-                      "typeAnnotation": null,
                       "value": {
                         "type": "Literal",
                         "start": 81,
                         "end": 82,
-                        "raw": "1",
-                        "value": 1
-                      }
+                        "value": 1,
+                        "raw": "1"
+                      },
+                      "decorators": [],
+                      "declare": false,
+                      "override": false,
+                      "optional": false,
+                      "definite": false,
+                      "readonly": false,
+                      "typeAnnotation": null,
+                      "accessibility": null
                     }
                   ]
                 },
-                "declare": false,
                 "decorators": [],
-                "id": null,
+                "typeParameters": null,
                 "implements": [],
-                "superClass": null,
-                "superTypeArguments": null,
-                "typeParameters": null
+                "abstract": false,
+                "declare": false,
+                "superTypeArguments": null
               },
+              "decorators": [],
+              "optional": false,
               "typeAnnotation": null
             }
           ],
-          "returnType": null,
-          "typeParameters": null
+          "body": {
+            "type": "BlockStatement",
+            "start": 89,
+            "end": 91,
+            "body": []
+          },
+          "typeParameters": null,
+          "returnType": null
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

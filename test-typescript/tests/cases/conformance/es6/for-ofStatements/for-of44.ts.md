@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 20,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
             "end": 64,
-            "decorators": [],
             "name": "array",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 25,
@@ -65,7 +62,9 @@ __ESTREE_TEST__:PASS:
                   ]
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -81,15 +80,15 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 69,
                     "end": 70,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 72,
                     "end": 74,
-                    "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "raw": "\"\""
                   }
                 ]
               },
@@ -102,15 +101,15 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 78,
                     "end": 79,
-                    "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "raw": "0"
                   },
                   {
                     "type": "Literal",
                     "start": 81,
                     "end": 85,
-                    "raw": "true",
-                    "value": true
+                    "value": true,
+                    "raw": "true"
                   }
                 ]
               },
@@ -123,77 +122,41 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 89,
                     "end": 90,
-                    "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "raw": "1"
                   },
                   {
                     "type": "CallExpression",
                     "start": 92,
                     "end": 100,
-                    "arguments": [],
                     "callee": {
                       "type": "Identifier",
                       "start": 92,
                       "end": 98,
-                      "decorators": [],
                       "name": "Symbol",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
+                    "arguments": [],
                     "optional": false,
                     "typeArguments": null
                   }
                 ]
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 103,
       "end": 168,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 140,
-        "end": 168,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 146,
-            "end": 150,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 146,
-              "end": 149,
-              "decorators": [],
-              "name": "num",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          },
-          {
-            "type": "ExpressionStatement",
-            "start": 155,
-            "end": 166,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 155,
-              "end": 165,
-              "decorators": [],
-              "name": "strBoolSym",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 108,
@@ -203,49 +166,86 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 112,
             "end": 129,
-            "definite": false,
             "id": {
               "type": "ArrayPattern",
               "start": 112,
               "end": 129,
-              "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
                   "start": 113,
                   "end": 116,
-                  "decorators": [],
                   "name": "num",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 118,
                   "end": 128,
-                  "decorators": [],
                   "name": "strBoolSym",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
+              "decorators": [],
               "optional": false,
               "typeAnnotation": null
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "Identifier",
         "start": 133,
         "end": 138,
-        "decorators": [],
         "name": "array",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 140,
+        "end": 168,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 146,
+            "end": 150,
+            "expression": {
+              "type": "Identifier",
+              "start": 146,
+              "end": 149,
+              "name": "num",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
+          },
+          {
+            "type": "ExpressionStatement",
+            "start": 155,
+            "end": 166,
+            "expression": {
+              "type": "Identifier",
+              "start": 155,
+              "end": 165,
+              "name": "strBoolSym",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
+          }
+        ]
       }
     }
   ],

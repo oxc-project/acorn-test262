@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 32,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 10,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 11,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 17,
             "end": 30,
-            "directive": null,
             "expression": {
               "type": "AssignmentExpression",
               "start": 17,
@@ -28,46 +36,38 @@ __ESTREE_TEST__:PASS:
                 "type": "MemberExpression",
                 "start": 17,
                 "end": 25,
-                "computed": false,
                 "object": {
                   "type": "ThisExpression",
                   "start": 17,
                   "end": 21
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 22,
                   "end": 25,
-                  "decorators": [],
                   "name": "bar",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
               "right": {
                 "type": "Literal",
                 "start": 28,
                 "end": 29,
-                "raw": "4",
-                "value": 4
+                "value": 4,
+                "raw": "4"
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 10,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

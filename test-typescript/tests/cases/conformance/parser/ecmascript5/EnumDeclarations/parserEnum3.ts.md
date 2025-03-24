@@ -9,32 +9,33 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 38,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 11,
         "end": 38,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 30,
+          "name": "SignatureFlags",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [],
+        "const": false,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 31,
           "end": 38,
           "members": []
-        },
-        "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 30,
-          "decorators": [],
-          "name": "SignatureFlags",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

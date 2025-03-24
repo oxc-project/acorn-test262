@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 15,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -36,19 +33,21 @@ __ESTREE_TEST__:PASS:
                   "end": 13
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 17,
       "end": 34,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 17,
@@ -58,42 +57,42 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 17,
           "end": 18,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 21,
           "end": 33,
+          "callee": {
+            "type": "Identifier",
+            "start": 25,
+            "end": 30,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 31,
               "end": 32,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 25,
-            "end": 30,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 35,
       "end": 62,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 35,
@@ -103,49 +102,49 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 35,
           "end": 36,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 39,
           "end": 61,
+          "callee": {
+            "type": "Identifier",
+            "start": 43,
+            "end": 48,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 49,
               "end": 53,
-              "raw": "'hi'",
-              "value": "hi"
+              "value": "hi",
+              "raw": "'hi'"
             },
             {
               "type": "Literal",
               "start": 55,
               "end": 60,
-              "raw": "'bye'",
-              "value": "bye"
+              "value": "bye",
+              "raw": "'bye'"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 43,
-            "end": 48,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 64,
       "end": 99,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 64,
@@ -155,40 +154,40 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 64,
           "end": 65,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 68,
           "end": 98,
+          "callee": {
+            "type": "Identifier",
+            "start": 72,
+            "end": 77,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 86,
               "end": 90,
-              "raw": "'hi'",
-              "value": "hi"
+              "value": "hi",
+              "raw": "'hi'"
             },
             {
               "type": "Literal",
               "start": 92,
               "end": 97,
-              "raw": "'bye'",
-              "value": "bye"
+              "value": "bye",
+              "raw": "'bye'"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 72,
-            "end": 77,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 77,
@@ -202,7 +201,8 @@ __ESTREE_TEST__:PASS:
             ]
           }
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "VariableDeclaration",
@@ -213,14 +213,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 105,
           "end": 116,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 105,
             "end": 116,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 106,
@@ -235,19 +232,21 @@ __ESTREE_TEST__:PASS:
                   "end": 114
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 118,
       "end": 135,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 118,
@@ -257,42 +256,42 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 118,
           "end": 119,
-          "decorators": [],
           "name": "y",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 122,
           "end": 134,
+          "callee": {
+            "type": "Identifier",
+            "start": 126,
+            "end": 131,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 132,
               "end": 133,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 126,
-            "end": 131,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 136,
       "end": 155,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 136,
@@ -302,49 +301,49 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 136,
           "end": 137,
-          "decorators": [],
           "name": "y",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 140,
           "end": 154,
+          "callee": {
+            "type": "Identifier",
+            "start": 144,
+            "end": 149,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 150,
               "end": 151,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 152,
               "end": 153,
-              "raw": "2",
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 144,
-            "end": 149,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": null
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 156,
       "end": 184,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 156,
@@ -354,40 +353,40 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 156,
           "end": 157,
-          "decorators": [],
           "name": "y",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "NewExpression",
           "start": 160,
           "end": 183,
+          "callee": {
+            "type": "Identifier",
+            "start": 164,
+            "end": 169,
+            "name": "Array",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "arguments": [
             {
               "type": "Literal",
               "start": 178,
               "end": 179,
-              "raw": "1",
-              "value": 1
+              "value": 1,
+              "raw": "1"
             },
             {
               "type": "Literal",
               "start": 181,
               "end": 182,
-              "raw": "2",
-              "value": 2
+              "value": 2,
+              "raw": "2"
             }
           ],
-          "callee": {
-            "type": "Identifier",
-            "start": 164,
-            "end": 169,
-            "decorators": [],
-            "name": "Array",
-            "optional": false,
-            "typeAnnotation": null
-          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 169,
@@ -401,7 +400,8 @@ __ESTREE_TEST__:PASS:
             ]
           }
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

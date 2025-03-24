@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 59,
       "end": 98,
-      "directive": null,
       "expression": {
         "type": "TemplateLiteral",
         "start": 59,
@@ -20,14 +19,15 @@ __ESTREE_TEST__:PASS:
             "type": "TemplateElement",
             "start": 59,
             "end": 97,
-            "tail": true,
             "value": {
               "cooked": "\t\u000b\f  ﻿",
               "raw": "\\u0009\\u000B\\u000C\\u0020\\u00A0\\uFEFF"
-            }
+            },
+            "tail": true
           }
         ]
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

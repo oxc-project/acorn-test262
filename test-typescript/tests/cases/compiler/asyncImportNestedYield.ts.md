@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 74,
+      "id": {
+        "type": "Identifier",
+        "start": 16,
+        "end": 19,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 22,
@@ -19,17 +31,14 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 28,
             "end": 72,
-            "directive": null,
             "expression": {
               "type": "ImportExpression",
               "start": 28,
               "end": 71,
-              "options": null,
               "source": {
                 "type": "MemberExpression",
                 "start": 35,
                 "end": 70,
-                "computed": false,
                 "object": {
                   "type": "AwaitExpression",
                   "start": 36,
@@ -38,52 +47,43 @@ __ESTREE_TEST__:PASS:
                     "type": "ImportExpression",
                     "start": 42,
                     "end": 61,
-                    "options": null,
                     "source": {
                       "type": "YieldExpression",
                       "start": 49,
                       "end": 60,
+                      "delegate": false,
                       "argument": {
                         "type": "Literal",
                         "start": 55,
                         "end": 60,
-                        "raw": "\"foo\"",
-                        "value": "foo"
-                      },
-                      "delegate": false
-                    }
+                        "value": "foo",
+                        "raw": "\"foo\""
+                      }
+                    },
+                    "options": null
                   }
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 63,
                   "end": 70,
-                  "decorators": [],
                   "name": "default",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              }
-            }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
+              },
+              "options": null
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 16,
-        "end": 19,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

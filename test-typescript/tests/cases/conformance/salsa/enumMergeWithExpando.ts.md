@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 56,
       "end": 116,
+      "id": {
+        "type": "Identifier",
+        "start": 74,
+        "end": 76,
+        "name": "lf",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 77,
@@ -18,11 +27,55 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 83,
             "end": 114,
-            "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
               "start": 90,
               "end": 114,
+              "id": {
+                "type": "Identifier",
+                "start": 95,
+                "end": 100,
+                "name": "Order",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 103,
+                  "end": 106,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 103,
+                    "end": 106,
+                    "name": "ASC",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                },
+                {
+                  "type": "TSEnumMember",
+                  "start": 108,
+                  "end": 112,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 108,
+                    "end": 112,
+                    "name": "DESC",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "initializer": null,
+                  "computed": false
+                }
+              ],
+              "const": false,
+              "declare": false,
               "body": {
                 "type": "TSEnumBody",
                 "start": 101,
@@ -32,66 +85,47 @@ __ESTREE_TEST__:PASS:
                     "type": "TSEnumMember",
                     "start": 103,
                     "end": 106,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 103,
                       "end": 106,
-                      "decorators": [],
                       "name": "ASC",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   },
                   {
                     "type": "TSEnumMember",
                     "start": 108,
                     "end": 112,
-                    "computed": false,
                     "id": {
                       "type": "Identifier",
                       "start": 108,
                       "end": 112,
-                      "decorators": [],
                       "name": "DESC",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
-                    "initializer": null
+                    "initializer": null,
+                    "computed": false
                   }
                 ]
-              },
-              "const": false,
-              "declare": false,
-              "id": {
-                "type": "Identifier",
-                "start": 95,
-                "end": 100,
-                "decorators": [],
-                "name": "Order",
-                "optional": false,
-                "typeAnnotation": null
               }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 74,
-        "end": 76,
-        "decorators": [],
-        "name": "lf",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "module",

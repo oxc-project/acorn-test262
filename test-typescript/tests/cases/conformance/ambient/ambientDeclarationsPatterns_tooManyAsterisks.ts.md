@@ -9,22 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 39,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 35,
+        "value": "too*many*asterisks",
+        "raw": "\"too*many*asterisks\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 36,
         "end": 39,
         "body": []
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 35,
-        "raw": "\"too*many*asterisks\"",
-        "value": "too*many*asterisks"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

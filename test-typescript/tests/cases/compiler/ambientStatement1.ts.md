@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 4,
       "end": 86,
+      "id": {
+        "type": "Identifier",
+        "start": 19,
+        "end": 21,
+        "name": "M1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 22,
@@ -18,24 +27,23 @@ __ESTREE_TEST__:PASS:
             "type": "WhileStatement",
             "start": 29,
             "end": 41,
-            "body": {
-              "type": "EmptyStatement",
-              "start": 40,
-              "end": 41
-            },
             "test": {
               "type": "Literal",
               "start": 35,
               "end": 39,
-              "raw": "true",
-              "value": true
+              "value": true,
+              "raw": "true"
+            },
+            "body": {
+              "type": "EmptyStatement",
+              "start": 40,
+              "end": 41
             }
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 52,
             "end": 80,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 59,
@@ -45,58 +53,50 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 63,
                   "end": 79,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 63,
                     "end": 65,
-                    "decorators": [],
                     "name": "v1",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "ArrowFunctionExpression",
                     "start": 68,
                     "end": 79,
+                    "id": null,
+                    "expression": true,
+                    "generator": false,
                     "async": false,
+                    "params": [],
                     "body": {
                       "type": "Literal",
                       "start": 74,
                       "end": 79,
-                      "raw": "false",
-                      "value": false
+                      "value": false,
+                      "raw": "false"
                     },
-                    "expression": true,
-                    "generator": false,
-                    "id": null,
-                    "params": [],
-                    "returnType": null,
-                    "typeParameters": null
-                  }
+                    "typeParameters": null,
+                    "returnType": null
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 19,
-        "end": 21,
-        "decorators": [],
-        "name": "M1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

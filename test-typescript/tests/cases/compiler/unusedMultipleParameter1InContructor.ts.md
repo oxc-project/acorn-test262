@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 130,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 11,
+        "name": "Dummy",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 12,
@@ -19,27 +28,64 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 18,
             "end": 128,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 18,
               "end": 29,
-              "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 29,
               "end": 128,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 30,
+                  "end": 44,
+                  "name": "person",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 36,
+                    "end": 44,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 38,
+                      "end": 44
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 46,
+                  "end": 61,
+                  "name": "person2",
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 53,
+                    "end": 61,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 55,
+                      "end": 61
+                    }
+                  },
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 63,
@@ -54,33 +100,32 @@ __ESTREE_TEST__:PASS:
                         "type": "VariableDeclarator",
                         "start": 77,
                         "end": 88,
-                        "definite": false,
                         "id": {
                           "type": "Identifier",
                           "start": 77,
                           "end": 83,
-                          "decorators": [],
                           "name": "unused",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
                         "init": {
                           "type": "Literal",
                           "start": 86,
                           "end": 88,
-                          "raw": "20",
-                          "value": 20
-                        }
+                          "value": 20,
+                          "raw": "20"
+                        },
+                        "definite": false
                       }
                     ],
-                    "declare": false,
-                    "kind": "var"
+                    "kind": "var",
+                    "declare": false
                   },
                   {
                     "type": "ExpressionStatement",
                     "start": 98,
                     "end": 122,
-                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 98,
@@ -90,85 +135,40 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 98,
                         "end": 105,
-                        "decorators": [],
                         "name": "person2",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "right": {
                         "type": "Literal",
                         "start": 108,
                         "end": 121,
-                        "raw": "\"Dummy value\"",
-                        "value": "Dummy value"
+                        "value": "Dummy value",
+                        "raw": "\"Dummy value\""
                       }
-                    }
+                    },
+                    "directive": null
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 30,
-                  "end": 44,
-                  "decorators": [],
-                  "name": "person",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 36,
-                    "end": 44,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 38,
-                      "end": 44
-                    }
-                  }
-                },
-                {
-                  "type": "Identifier",
-                  "start": 46,
-                  "end": 61,
-                  "decorators": [],
-                  "name": "person2",
-                  "optional": false,
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 53,
-                    "end": 61,
-                    "typeAnnotation": {
-                      "type": "TSStringKeyword",
-                      "start": 55,
-                      "end": 61
-                    }
-                  }
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 11,
-        "decorators": [],
-        "name": "Dummy",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

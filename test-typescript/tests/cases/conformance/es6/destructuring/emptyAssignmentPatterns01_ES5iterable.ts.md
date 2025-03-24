@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 10,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 10,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -31,19 +28,21 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 10
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 13,
       "end": 22,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 14,
@@ -53,27 +52,27 @@ __ESTREE_TEST__:PASS:
           "type": "ObjectPattern",
           "start": 14,
           "end": 16,
+          "properties": [],
           "decorators": [],
           "optional": false,
-          "properties": [],
           "typeAnnotation": null
         },
         "right": {
           "type": "Identifier",
           "start": 19,
           "end": 20,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 24,
@@ -83,8 +82,8 @@ __ESTREE_TEST__:PASS:
           "type": "ArrayPattern",
           "start": 24,
           "end": 26,
-          "decorators": [],
           "elements": [],
+          "decorators": [],
           "optional": false,
           "typeAnnotation": null
         },
@@ -92,12 +91,13 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 29,
           "end": 30,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

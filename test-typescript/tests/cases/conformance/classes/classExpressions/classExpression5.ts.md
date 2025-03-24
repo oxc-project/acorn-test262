@@ -9,27 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 60,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 0,
         "end": 59,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 0,
           "end": 57,
-          "computed": false,
           "object": {
             "type": "NewExpression",
             "start": 0,
             "end": 54,
-            "arguments": [],
             "callee": {
               "type": "ClassExpression",
               "start": 4,
               "end": 52,
-              "abstract": false,
+              "id": null,
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 10,
@@ -39,27 +36,27 @@ __ESTREE_TEST__:PASS:
                     "type": "MethodDefinition",
                     "start": 16,
                     "end": 50,
-                    "accessibility": null,
+                    "static": false,
                     "computed": false,
-                    "decorators": [],
                     "key": {
                       "type": "Identifier",
                       "start": 16,
                       "end": 18,
-                      "decorators": [],
                       "name": "hi",
-                      "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
                     },
                     "kind": "method",
-                    "optional": false,
-                    "override": false,
-                    "static": false,
                     "value": {
                       "type": "FunctionExpression",
                       "start": 18,
                       "end": 50,
+                      "id": null,
+                      "expression": false,
+                      "generator": false,
                       "async": false,
+                      "params": [],
                       "body": {
                         "type": "BlockStatement",
                         "start": 21,
@@ -73,47 +70,50 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 38,
                               "end": 43,
-                              "raw": "\"Hi!\"",
-                              "value": "Hi!"
+                              "value": "Hi!",
+                              "raw": "\"Hi!\""
                             }
                           }
                         ]
                       },
                       "declare": false,
-                      "expression": false,
-                      "generator": false,
-                      "id": null,
-                      "params": [],
-                      "returnType": null,
-                      "typeParameters": null
-                    }
+                      "typeParameters": null,
+                      "returnType": null
+                    },
+                    "decorators": [],
+                    "override": false,
+                    "optional": false,
+                    "accessibility": null
                   }
                 ]
               },
-              "declare": false,
               "decorators": [],
-              "id": null,
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
+            "arguments": [],
             "typeArguments": null
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 55,
             "end": 57,
-            "decorators": [],
             "name": "hi",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -22,37 +22,37 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 46,
               "end": 50,
-              "raw": "\"no\"",
-              "value": "no"
+              "value": "no",
+              "raw": "\"no\""
             }
           }
         ]
+      },
+      "handler": {
+        "type": "CatchClause",
+        "start": 71,
+        "end": 127,
+        "param": {
+          "type": "Identifier",
+          "start": 92,
+          "end": 93,
+          "name": "e",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "body": {
+          "type": "BlockStatement",
+          "start": 110,
+          "end": 127,
+          "body": []
+        }
       },
       "finalizer": {
         "type": "BlockStatement",
         "start": 150,
         "end": 167,
         "body": []
-      },
-      "handler": {
-        "type": "CatchClause",
-        "start": 71,
-        "end": 127,
-        "body": {
-          "type": "BlockStatement",
-          "start": 110,
-          "end": 127,
-          "body": []
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 92,
-          "end": 93,
-          "decorators": [],
-          "name": "e",
-          "optional": false,
-          "typeAnnotation": null
-        }
       }
     }
   ],

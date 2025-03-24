@@ -10,28 +10,6 @@ __ESTREE_TEST__:PASS:
       "start": 16,
       "end": 45,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 35,
-        "end": 45,
-        "body": [
-          {
-            "type": "ExpressionStatement",
-            "start": 41,
-            "end": 43,
-            "directive": null,
-            "expression": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 42,
-              "decorators": [],
-              "name": "v",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
-        ]
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 21,
@@ -41,21 +19,21 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 25,
             "end": 26,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 25,
               "end": 26,
-              "decorators": [],
               "name": "v",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -66,8 +44,30 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 31,
             "end": 32,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
+          }
+        ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 35,
+        "end": 45,
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "start": 41,
+            "end": 43,
+            "expression": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "name": "v",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "directive": null
           }
         ]
       }

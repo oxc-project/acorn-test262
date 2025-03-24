@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 5,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 5,
             "end": 6,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TemplateLiteral",
@@ -33,17 +32,17 @@ __ESTREE_TEST__:PASS:
                 "type": "UnaryExpression",
                 "start": 16,
                 "end": 25,
+                "operator": "+",
+                "prefix": true,
                 "argument": {
                   "type": "Identifier",
                   "start": 17,
                   "end": 25,
-                  "decorators": [],
                   "name": "Infinity",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "operator": "+",
-                "prefix": true
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
               }
             ],
             "quasis": [
@@ -51,28 +50,29 @@ __ESTREE_TEST__:PASS:
                 "type": "TemplateElement",
                 "start": 9,
                 "end": 15,
-                "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                }
+                },
+                "tail": false
               },
               {
                 "type": "TemplateElement",
                 "start": 26,
                 "end": 31,
-                "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
-                }
+                },
+                "tail": true
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

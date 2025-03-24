@@ -18,23 +18,44 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 12,
             "end": 140,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Literal",
               "start": 12,
               "end": 17,
-              "raw": "\"set\"",
-              "value": "set"
+              "value": "set",
+              "raw": "\"set\""
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "FunctionExpression",
               "start": 19,
               "end": 140,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 29,
+                  "end": 32,
+                  "name": "key",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                {
+                  "type": "Identifier",
+                  "start": 34,
+                  "end": 39,
+                  "name": "value",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                }
+              ],
               "body": {
                 "type": "BlockStatement",
                 "start": 41,
@@ -44,7 +65,6 @@ __ESTREE_TEST__:PASS:
                     "type": "ExpressionStatement",
                     "start": 114,
                     "end": 135,
-                    "directive": null,
                     "expression": {
                       "type": "AssignmentExpression",
                       "start": 114,
@@ -54,67 +74,47 @@ __ESTREE_TEST__:PASS:
                         "type": "MemberExpression",
                         "start": 114,
                         "end": 126,
-                        "computed": true,
                         "object": {
                           "type": "Identifier",
                           "start": 114,
                           "end": 121,
-                          "decorators": [],
                           "name": "private",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
                         "property": {
                           "type": "Identifier",
                           "start": 122,
                           "end": 125,
-                          "decorators": [],
                           "name": "key",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "computed": true,
+                        "optional": false
                       },
                       "right": {
                         "type": "Identifier",
                         "start": 129,
                         "end": 134,
-                        "decorators": [],
                         "name": "value",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
-                    }
+                    },
+                    "directive": null
                   }
                 ]
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "Identifier",
-                  "start": 29,
-                  "end": 32,
-                  "decorators": [],
-                  "name": "key",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                {
-                  "type": "Identifier",
-                  "start": 34,
-                  "end": 39,
-                  "decorators": [],
-                  "name": "value",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       }
