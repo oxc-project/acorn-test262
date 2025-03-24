@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 994,
+  "end": 993,
   "body": [
     {
       "type": "TSDeclareFunction",

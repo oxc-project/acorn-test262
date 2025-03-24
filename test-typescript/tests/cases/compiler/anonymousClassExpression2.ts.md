@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 128,
-  "end": 397,
+  "end": 396,
   "body": [
     {
       "type": "WhileStatement",

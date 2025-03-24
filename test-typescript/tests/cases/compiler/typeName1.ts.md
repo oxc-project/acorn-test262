@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 900,
+  "end": 899,
   "body": [
     {
       "type": "TSInterfaceDeclaration",

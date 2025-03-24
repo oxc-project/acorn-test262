@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 44,
-  "end": 2978,
+  "end": 2977,
   "body": [
     {
       "type": "ImportDeclaration",

@@ -545,7 +545,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 55,
-  "end": 138,
+  "end": 137,
   "body": [
     {
       "type": "ExpressionStatement",

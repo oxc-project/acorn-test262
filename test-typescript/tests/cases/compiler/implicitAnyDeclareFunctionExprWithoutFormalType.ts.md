@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 53,
-  "end": 586,
+  "end": 585,
   "body": [
     {
       "type": "VariableDeclaration",

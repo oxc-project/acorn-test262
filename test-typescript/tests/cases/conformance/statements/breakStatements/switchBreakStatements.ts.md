@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 864,
+  "end": 863,
   "body": [
     {
       "type": "SwitchStatement",

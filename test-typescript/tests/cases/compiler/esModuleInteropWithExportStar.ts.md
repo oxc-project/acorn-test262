@@ -58,7 +58,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 109,
+  "end": 108,
   "body": [
     {
       "type": "ImportDeclaration",

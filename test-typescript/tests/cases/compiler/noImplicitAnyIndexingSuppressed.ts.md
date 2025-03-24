@@ -3,7 +3,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 25,
-  "end": 1035,
+  "end": 1034,
   "body": [
     {
       "type": "TSEnumDeclaration",

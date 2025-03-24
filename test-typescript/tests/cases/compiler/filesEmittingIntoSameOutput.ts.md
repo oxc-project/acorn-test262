@@ -42,7 +42,7 @@ __ESTREE_TEST__:PASS:
 {
   "type": "Program",
   "start": 0,
-  "end": 19,
+  "end": 18,
   "body": [
     {
       "type": "FunctionDeclaration",
