@@ -9,42 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 1,
       "end": 70,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 26,
-        "end": 70,
-        "body": [
-          {
-            "type": "FunctionDeclaration",
-            "start": 32,
-            "end": 49,
-            "async": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 47,
-              "end": 49,
-              "body": []
-            },
-            "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 44,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
       "id": {
         "type": "TSQualifiedName",
         "start": 11,
@@ -57,32 +21,68 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 11,
             "end": 16,
-            "decorators": [],
             "name": "hello",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "right": {
             "type": "Identifier",
             "start": 17,
             "end": 19,
-            "decorators": [],
             "name": "hi",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         "right": {
           "type": "Identifier",
           "start": 20,
           "end": 25,
-          "decorators": [],
           "name": "world",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
       },
-      "kind": "namespace"
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 26,
+        "end": 70,
+        "body": [
+          {
+            "type": "FunctionDeclaration",
+            "start": 32,
+            "end": 49,
+            "id": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 44,
+              "name": "foo",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
+            "async": false,
+            "params": [],
+            "body": {
+              "type": "BlockStatement",
+              "start": 47,
+              "end": 49,
+              "body": []
+            },
+            "declare": false,
+            "typeParameters": null,
+            "returnType": null
+          }
+        ]
+      },
+      "kind": "namespace",
+      "declare": false,
+      "global": false
     }
   ],
   "sourceType": "script",

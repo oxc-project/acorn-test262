@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 51,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 13,
             "end": 50,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 13,
               "end": 31,
-              "decorators": [],
               "name": "x",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 14,
@@ -44,20 +40,18 @@ __ESTREE_TEST__:PASS:
                         "type": "TSPropertySignature",
                         "start": 24,
                         "end": 29,
-                        "accessibility": null,
                         "computed": false,
+                        "optional": false,
+                        "readonly": false,
                         "key": {
                           "type": "Identifier",
                           "start": 24,
                           "end": 25,
-                          "decorators": [],
                           "name": "x",
-                          "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
                         },
-                        "optional": false,
-                        "readonly": false,
-                        "static": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 25,
@@ -70,11 +64,13 @@ __ESTREE_TEST__:PASS:
                               "type": "Literal",
                               "start": 27,
                               "end": 29,
-                              "raw": "12",
-                              "value": 12
+                              "value": 12,
+                              "raw": "12"
                             }
                           }
-                        }
+                        },
+                        "accessibility": null,
+                        "static": false
                       }
                     ]
                   },
@@ -82,7 +78,9 @@ __ESTREE_TEST__:PASS:
                   "qualifier": null,
                   "typeArguments": null
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "TSAsExpression",
@@ -92,25 +90,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 34,
                 "end": 43,
-                "decorators": [],
                 "name": "undefined",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 47,
                 "end": 50
               }
-            }
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

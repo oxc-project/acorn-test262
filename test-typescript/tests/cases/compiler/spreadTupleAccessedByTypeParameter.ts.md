@@ -9,155 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 153,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 153,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 66,
-          "end": 153,
-          "body": [
-            {
-              "type": "VariableDeclaration",
-              "start": 70,
-              "end": 102,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 76,
-                  "end": 101,
-                  "definite": false,
-                  "id": {
-                    "type": "Identifier",
-                    "start": 76,
-                    "end": 85,
-                    "decorators": [],
-                    "name": "singleton",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": {
-                    "type": "MemberExpression",
-                    "start": 88,
-                    "end": 101,
-                    "computed": true,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 88,
-                      "end": 98,
-                      "decorators": [],
-                      "name": "singletons",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 99,
-                      "end": 100,
-                      "decorators": [],
-                      "name": "i",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  }
-                }
-              ],
-              "declare": false,
-              "kind": "const"
-            },
-            {
-              "type": "VariableDeclaration",
-              "start": 105,
-              "end": 135,
-              "declarations": [
-                {
-                  "type": "VariableDeclarator",
-                  "start": 111,
-                  "end": 134,
-                  "definite": false,
-                  "id": {
-                    "type": "ArrayPattern",
-                    "start": 111,
-                    "end": 122,
-                    "decorators": [],
-                    "elements": [
-                      null,
-                      {
-                        "type": "RestElement",
-                        "start": 114,
-                        "end": 121,
-                        "argument": {
-                          "type": "Identifier",
-                          "start": 117,
-                          "end": 121,
-                          "decorators": [],
-                          "name": "rest",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "decorators": [],
-                        "optional": false,
-                        "typeAnnotation": null,
-                        "value": null
-                      }
-                    ],
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "init": {
-                    "type": "Identifier",
-                    "start": 125,
-                    "end": 134,
-                    "decorators": [],
-                    "name": "singleton",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                }
-              ],
-              "declare": false,
-              "kind": "const"
-            },
-            {
-              "type": "ReturnStatement",
-              "start": 139,
-              "end": 151,
-              "argument": {
-                "type": "Identifier",
-                "start": 146,
-                "end": 150,
-                "decorators": [],
-                "name": "rest",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            }
-          ]
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 20,
-          "decorators": [],
           "name": "test",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "Identifier",
             "start": 39,
             "end": 58,
-            "decorators": [],
             "name": "singletons",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 49,
@@ -179,22 +52,22 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 52,
                         "end": 55,
-                        "raw": "\"a\"",
-                        "value": "a"
+                        "value": "a",
+                        "raw": "\"a\""
                       }
                     }
                   ]
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           {
             "type": "Identifier",
             "start": 60,
             "end": 64,
-            "decorators": [],
             "name": "i",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 61,
@@ -203,21 +76,146 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 63,
                 "end": 64,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 63,
                   "end": 64,
-                  "decorators": [],
                   "name": "N",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           }
         ],
-        "returnType": null,
+        "body": {
+          "type": "BlockStatement",
+          "start": 66,
+          "end": 153,
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "start": 70,
+              "end": 102,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 76,
+                  "end": 101,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 76,
+                    "end": 85,
+                    "name": "singleton",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "init": {
+                    "type": "MemberExpression",
+                    "start": 88,
+                    "end": 101,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 88,
+                      "end": 98,
+                      "name": "singletons",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 99,
+                      "end": 100,
+                      "name": "i",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": true,
+                    "optional": false
+                  },
+                  "definite": false
+                }
+              ],
+              "kind": "const",
+              "declare": false
+            },
+            {
+              "type": "VariableDeclaration",
+              "start": 105,
+              "end": 135,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 111,
+                  "end": 134,
+                  "id": {
+                    "type": "ArrayPattern",
+                    "start": 111,
+                    "end": 122,
+                    "elements": [
+                      null,
+                      {
+                        "type": "RestElement",
+                        "start": 114,
+                        "end": 121,
+                        "argument": {
+                          "type": "Identifier",
+                          "start": 117,
+                          "end": 121,
+                          "name": "rest",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "decorators": [],
+                        "optional": false,
+                        "typeAnnotation": null,
+                        "value": null
+                      }
+                    ],
+                    "decorators": [],
+                    "optional": false,
+                    "typeAnnotation": null
+                  },
+                  "init": {
+                    "type": "Identifier",
+                    "start": 125,
+                    "end": 134,
+                    "name": "singleton",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "definite": false
+                }
+              ],
+              "kind": "const",
+              "declare": false
+            },
+            {
+              "type": "ReturnStatement",
+              "start": 139,
+              "end": 151,
+              "argument": {
+                "type": "Identifier",
+                "start": 146,
+                "end": 150,
+                "name": "rest",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            }
+          ]
+        },
+        "declare": false,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 20,
@@ -227,7 +225,15 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 21,
               "end": 37,
-              "const": false,
+              "name": {
+                "type": "Identifier",
+                "start": 21,
+                "end": 22,
+                "name": "N",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "constraint": {
                 "type": "TSNumberKeyword",
                 "start": 31,
@@ -235,23 +241,17 @@ __ESTREE_TEST__:PASS:
               },
               "default": null,
               "in": false,
-              "name": {
-                "type": "Identifier",
-                "start": 21,
-                "end": 22,
-                "decorators": [],
-                "name": "N",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "out": false
+              "out": false,
+              "const": false
             }
           ]
-        }
+        },
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

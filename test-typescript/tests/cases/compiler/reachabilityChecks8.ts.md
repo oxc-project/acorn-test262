@@ -18,22 +18,19 @@ __ESTREE_TEST__:PASS:
             "type": "ForStatement",
             "start": 10,
             "end": 143,
-            "body": {
-              "type": "BlockStatement",
-              "start": 141,
-              "end": 143,
-              "body": []
-            },
             "init": {
               "type": "CallExpression",
               "start": 24,
               "end": 54,
-              "arguments": [],
               "callee": {
                 "type": "FunctionExpression",
                 "start": 25,
                 "end": 51,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 37,
@@ -47,20 +44,17 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 45,
                         "end": 48,
-                        "raw": "\"1\"",
-                        "value": "1"
+                        "value": "1",
+                        "raw": "\"1\""
                       }
                     }
                   ]
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
+                "typeParameters": null,
+                "returnType": null
               },
+              "arguments": [],
               "optional": false,
               "typeArguments": null
             },
@@ -68,12 +62,15 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 64,
               "end": 94,
-              "arguments": [],
               "callee": {
                 "type": "FunctionExpression",
                 "start": 65,
                 "end": 91,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 77,
@@ -87,20 +84,17 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 85,
                         "end": 88,
-                        "raw": "\"2\"",
-                        "value": "2"
+                        "value": "2",
+                        "raw": "\"2\""
                       }
                     }
                   ]
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
+                "typeParameters": null,
+                "returnType": null
               },
+              "arguments": [],
               "optional": false,
               "typeArguments": null
             },
@@ -108,12 +102,15 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 104,
               "end": 134,
-              "arguments": [],
               "callee": {
                 "type": "FunctionExpression",
                 "start": 105,
                 "end": 131,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 117,
@@ -127,47 +124,50 @@ __ESTREE_TEST__:PASS:
                         "type": "Literal",
                         "start": 125,
                         "end": 128,
-                        "raw": "\"3\"",
-                        "value": "3"
+                        "value": "3",
+                        "raw": "\"3\""
                       }
                     }
                   ]
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
+                "typeParameters": null,
+                "returnType": null
               },
+              "arguments": [],
               "optional": false,
               "typeArguments": null
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 141,
+              "end": 143,
+              "body": []
             }
           }
         ]
       },
-      "finalizer": null,
       "handler": {
         "type": "CatchClause",
         "start": 146,
         "end": 158,
+        "param": {
+          "type": "Identifier",
+          "start": 153,
+          "end": 154,
+          "name": "e",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "BlockStatement",
           "start": 156,
           "end": 158,
           "body": []
-        },
-        "param": {
-          "type": "Identifier",
-          "start": 153,
-          "end": 154,
-          "decorators": [],
-          "name": "e",
-          "optional": false,
-          "typeAnnotation": null
         }
-      }
+      },
+      "finalizer": null
     }
   ],
   "sourceType": "script",

@@ -14,45 +14,35 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 7,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 10,
             "end": 43,
-            "async": false,
-            "body": {
-              "type": "Identifier",
-              "start": 36,
-              "end": 43,
-              "decorators": [],
-              "name": "renamed",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "id": null,
             "expression": true,
             "generator": false,
-            "id": null,
+            "async": false,
             "params": [
               {
                 "type": "ObjectPattern",
                 "start": 11,
                 "end": 31,
-                "decorators": [],
-                "optional": false,
                 "properties": [
                   {
                     "type": "Property",
                     "start": 13,
                     "end": 29,
+                    "method": false,
+                    "shorthand": false,
                     "computed": true,
                     "key": {
                       "type": "TemplateLiteral",
@@ -64,39 +54,49 @@ __ESTREE_TEST__:PASS:
                           "type": "TemplateElement",
                           "start": 14,
                           "end": 19,
-                          "tail": true,
                           "value": {
                             "cooked": "key",
                             "raw": "key"
-                          }
+                          },
+                          "tail": true
                         }
                       ]
                     },
-                    "kind": "init",
-                    "method": false,
-                    "optional": false,
-                    "shorthand": false,
                     "value": {
                       "type": "Identifier",
                       "start": 22,
                       "end": 29,
-                      "decorators": [],
                       "name": "renamed",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "kind": "init",
+                    "optional": false
                   }
                 ],
+                "decorators": [],
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "body": {
+              "type": "Identifier",
+              "start": 36,
+              "end": 43,
+              "name": "renamed",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

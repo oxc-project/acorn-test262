@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 80,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 80,
             "end": 85,
-            "decorators": [],
             "name": "props",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,34 +32,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 90,
                 "end": 100,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 90,
                   "end": 96,
-                  "decorators": [],
                   "name": "answer",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 98,
                   "end": 100,
-                  "raw": "42",
-                  "value": 42
-                }
+                  "value": 42,
+                  "raw": "42"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -71,40 +71,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 109,
           "end": 149,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 109,
             "end": 110,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 113,
             "end": 149,
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 139,
-                "end": 143,
-                "raw": "text",
-                "value": "text"
-              }
-            ],
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 143,
-              "end": 149,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 145,
-                "end": 148,
-                "name": "div"
-              }
-            },
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 113,
@@ -124,8 +103,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 122,
                     "end": 127,
-                    "raw": "\"foo\"",
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   }
                 },
                 {
@@ -136,10 +115,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 132,
                     "end": 137,
-                    "decorators": [],
                     "name": "props",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ],
@@ -151,12 +130,33 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": false,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 143,
+              "end": 149,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 145,
+                "end": 148,
+                "name": "div"
+              }
+            },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 139,
+                "end": 143,
+                "value": "text",
+                "raw": "text"
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -167,40 +167,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 157,
           "end": 197,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 157,
             "end": 158,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 161,
             "end": 197,
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 187,
-                "end": 191,
-                "raw": "text",
-                "value": "text"
-              }
-            ],
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 191,
-              "end": 197,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 193,
-                "end": 196,
-                "name": "div"
-              }
-            },
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 161,
@@ -214,10 +193,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 170,
                     "end": 175,
-                    "decorators": [],
                     "name": "props",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 },
                 {
@@ -234,8 +213,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 181,
                     "end": 186,
-                    "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "raw": "\"bar\""
                   }
                 }
               ],
@@ -247,22 +226,43 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": false,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 191,
+              "end": 197,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 193,
+                "end": 196,
+                "name": "div"
+              }
+            },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 187,
+                "end": 191,
+                "value": "text",
+                "raw": "text"
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 200,
       "end": 210,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -280,16 +280,16 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 73,
       "end": 91,
-      "attributes": [],
-      "importKind": "value",
+      "specifiers": [],
       "source": {
         "type": "Literal",
         "start": 80,
         "end": 90,
-        "raw": "\"./preact\"",
-        "value": "./preact"
+        "value": "./preact",
+        "raw": "\"./preact\""
       },
-      "specifiers": []
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -300,15 +300,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 98,
           "end": 121,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 98,
             "end": 104,
-            "decorators": [],
             "name": "props2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -319,34 +318,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 109,
                 "end": 119,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 109,
                   "end": 115,
-                  "decorators": [],
                   "name": "answer",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 117,
                   "end": 119,
-                  "raw": "42",
-                  "value": 42
-                }
+                  "value": 42,
+                  "raw": "42"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -357,40 +357,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 128,
           "end": 170,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 128,
             "end": 130,
-            "decorators": [],
             "name": "a2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 133,
             "end": 170,
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 160,
-                "end": 164,
-                "raw": "text",
-                "value": "text"
-              }
-            ],
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 164,
-              "end": 170,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 166,
-                "end": 169,
-                "name": "div"
-              }
-            },
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 133,
@@ -410,8 +389,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 142,
                     "end": 147,
-                    "raw": "\"foo\"",
-                    "value": "foo"
+                    "value": "foo",
+                    "raw": "\"foo\""
                   }
                 },
                 {
@@ -422,10 +401,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 152,
                     "end": 158,
-                    "decorators": [],
                     "name": "props2",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ],
@@ -437,12 +416,33 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": false,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 164,
+              "end": 170,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 166,
+                "end": 169,
+                "name": "div"
+              }
+            },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 160,
+                "end": 164,
+                "value": "text",
+                "raw": "text"
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -453,40 +453,19 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 178,
           "end": 220,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 178,
             "end": 180,
-            "decorators": [],
             "name": "b2",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "JSXElement",
             "start": 183,
             "end": 220,
-            "children": [
-              {
-                "type": "JSXText",
-                "start": 210,
-                "end": 214,
-                "raw": "text",
-                "value": "text"
-              }
-            ],
-            "closingElement": {
-              "type": "JSXClosingElement",
-              "start": 214,
-              "end": 220,
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 216,
-                "end": 219,
-                "name": "div"
-              }
-            },
             "openingElement": {
               "type": "JSXOpeningElement",
               "start": 183,
@@ -500,10 +479,10 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 192,
                     "end": 198,
-                    "decorators": [],
                     "name": "props2",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 },
                 {
@@ -520,8 +499,8 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 204,
                     "end": 209,
-                    "raw": "\"bar\"",
-                    "value": "bar"
+                    "value": "bar",
+                    "raw": "\"bar\""
                   }
                 }
               ],
@@ -533,22 +512,43 @@ __ESTREE_TEST__:PASS:
               },
               "selfClosing": false,
               "typeArguments": null
-            }
-          }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "start": 214,
+              "end": 220,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 216,
+                "end": 219,
+                "name": "div"
+              }
+            },
+            "children": [
+              {
+                "type": "JSXText",
+                "start": 210,
+                "end": 214,
+                "value": "text",
+                "raw": "text"
+              }
+            ]
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 223,
       "end": 233,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

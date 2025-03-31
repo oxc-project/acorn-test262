@@ -13,7 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 47,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 27,
@@ -27,19 +31,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 40,
                 "end": 44,
-                "raw": "true",
-                "value": true
+                "value": true,
+                "raw": "true"
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -47,21 +47,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 48,
       "end": 79,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 55,
         "end": 79,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 60,
           "end": 61,
-          "decorators": [],
           "name": "X",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeQuery",
           "start": 64,
@@ -70,18 +69,19 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 71,
             "end": 78,
-            "decorators": [],
             "name": "default",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -108,27 +108,27 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 17,
             "end": 24,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 17,
               "end": 18,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 20,
               "end": 24,
-              "raw": "true",
-              "value": true
-            }
+              "value": true,
+              "raw": "true"
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },
@@ -138,21 +138,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 27,
       "end": 58,
-      "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
         "start": 34,
         "end": 58,
-        "declare": false,
         "id": {
           "type": "Identifier",
           "start": 39,
           "end": 40,
-          "decorators": [],
           "name": "X",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeQuery",
           "start": 43,
@@ -161,18 +160,19 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 50,
             "end": 57,
-            "decorators": [],
             "name": "default",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 44,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 24,
+        "name": "HelloInterface",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 25,
@@ -18,20 +29,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 31,
             "end": 42,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 31,
               "end": 36,
-              "decorators": [],
               "name": "world",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 36,
@@ -41,22 +50,13 @@ __ESTREE_TEST__:PASS:
                 "start": 38,
                 "end": 41
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 24,
-        "decorators": [],
-        "name": "HelloInterface",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -66,10 +66,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 55,
         "end": 69,
-        "decorators": [],
         "name": "HelloInterface",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -88,6 +88,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 57,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 24,
+        "name": "HelloNamespace",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 25,
@@ -97,46 +106,37 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 31,
             "end": 55,
-            "attributes": [],
             "declaration": {
               "type": "TSTypeAliasDeclaration",
               "start": 38,
               "end": 55,
-              "declare": false,
               "id": {
                 "type": "Identifier",
                 "start": 43,
                 "end": 48,
-                "decorators": [],
                 "name": "world",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "typeParameters": null,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 51,
                 "end": 54
               },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 24,
-        "decorators": [],
-        "name": "HelloNamespace",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSExportAssignment",
@@ -146,10 +146,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 68,
         "end": 82,
-        "decorators": [],
         "name": "HelloNamespace",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -172,12 +172,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 21,
-        "decorators": [],
         "name": "HelloInterface",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 24,
@@ -186,10 +185,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 32,
           "end": 48,
-          "raw": "\"helloInterface\"",
-          "value": "helloInterface"
+          "value": "helloInterface",
+          "raw": "\"helloInterface\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -199,12 +199,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 58,
         "end": 72,
-        "decorators": [],
         "name": "HelloNamespace",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 75,
@@ -213,72 +212,73 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 83,
           "end": 99,
-          "raw": "\"helloNamespace\"",
-          "value": "helloNamespace"
+          "value": "helloNamespace",
+          "raw": "\"helloNamespace\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 103,
       "end": 124,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 103,
         "end": 123,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 103,
           "end": 117,
-          "decorators": [],
           "name": "HelloInterface",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 118,
           "end": 123,
-          "decorators": [],
           "name": "world",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 125,
       "end": 146,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 125,
         "end": 145,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 125,
           "end": 139,
-          "decorators": [],
           "name": "HelloNamespace",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 140,
           "end": 145,
-          "decorators": [],
           "name": "world",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

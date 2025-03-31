@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 62,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 27,
+        "name": "SymbolConstructor",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 28,
@@ -18,20 +29,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 34,
             "end": 60,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": true,
             "key": {
               "type": "Identifier",
               "start": 43,
               "end": 51,
-              "decorators": [],
               "name": "observer",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": true,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 51,
@@ -41,27 +50,29 @@ __ESTREE_TEST__:PASS:
                 "start": 53,
                 "end": 59
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 27,
-        "decorators": [],
-        "name": "SymbolConstructor",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 63,
       "end": 132,
+      "id": {
+        "type": "Identifier",
+        "start": 73,
+        "end": 90,
+        "name": "SymbolConstructor",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 91,
@@ -71,20 +82,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 97,
             "end": 130,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": true,
             "key": {
               "type": "Identifier",
               "start": 106,
               "end": 114,
-              "decorators": [],
               "name": "observer",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": true,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 114,
@@ -100,22 +109,13 @@ __ESTREE_TEST__:PASS:
                   "end": 129
                 }
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 73,
-        "end": 90,
-        "decorators": [],
-        "name": "SymbolConstructor",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -126,15 +126,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 140,
           "end": 174,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 140,
             "end": 143,
-            "decorators": [],
             "name": "obj",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -145,50 +144,51 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 152,
                 "end": 172,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "MemberExpression",
                   "start": 153,
                   "end": 168,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 153,
                     "end": 159,
-                    "decorators": [],
                     "name": "Symbol",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 160,
                     "end": 168,
-                    "decorators": [],
                     "name": "observer",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 171,
                   "end": 172,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

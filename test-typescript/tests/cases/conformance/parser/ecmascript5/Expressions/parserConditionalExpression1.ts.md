@@ -9,62 +9,92 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 50,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 50,
-        "alternate": {
-          "type": "MemberExpression",
-          "start": 44,
-          "end": 50,
-          "computed": false,
-          "object": {
-            "type": "ThisExpression",
-            "start": 44,
-            "end": 48
-          },
-          "optional": false,
-          "property": {
+        "test": {
+          "type": "AssignmentExpression",
+          "start": 1,
+          "end": 12,
+          "operator": "=",
+          "left": {
             "type": "Identifier",
-            "start": 49,
-            "end": 50,
+            "start": 1,
+            "end": 2,
+            "name": "a",
+            "typeAnnotation": null,
             "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
+            "optional": false
+          },
+          "right": {
+            "type": "MemberExpression",
+            "start": 3,
+            "end": 12,
+            "object": {
+              "type": "MemberExpression",
+              "start": 3,
+              "end": 9,
+              "object": {
+                "type": "ThisExpression",
+                "start": 3,
+                "end": 7
+              },
+              "property": {
+                "type": "Identifier",
+                "start": 8,
+                "end": 9,
+                "name": "R",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
+            },
+            "property": {
+              "type": "Identifier",
+              "start": 10,
+              "end": 11,
+              "name": "c",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": true,
+            "optional": false
           }
         },
         "consequent": {
           "type": "LogicalExpression",
           "start": 14,
           "end": 43,
-          "operator": "||",
           "left": {
             "type": "MemberExpression",
             "start": 14,
             "end": 18,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 14,
               "end": 15,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 16,
               "end": 18,
-              "decorators": [],
               "name": "JW",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
           },
+          "operator": "||",
           "right": {
             "type": "SequenceExpression",
             "start": 21,
@@ -74,6 +104,31 @@ __ESTREE_TEST__:PASS:
                 "type": "CallExpression",
                 "start": 21,
                 "end": 33,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 21,
+                  "end": 25,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 21,
+                    "end": 22,
+                    "name": "a",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 23,
+                    "end": 25,
+                    "name": "e5",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "ThisExpression",
@@ -84,37 +139,12 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 31,
                     "end": 32,
-                    "decorators": [],
                     "name": "c",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 21,
-                  "end": 25,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 21,
-                    "end": 22,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 23,
-                    "end": 25,
-                    "decorators": [],
-                    "name": "e5",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
                 "optional": false,
                 "typeArguments": null
               },
@@ -127,109 +157,79 @@ __ESTREE_TEST__:PASS:
                   "type": "MemberExpression",
                   "start": 34,
                   "end": 38,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 34,
                     "end": 35,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 36,
                     "end": 38,
-                    "decorators": [],
                     "name": "JW",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
                 "right": {
                   "type": "MemberExpression",
                   "start": 39,
                   "end": 42,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 39,
                     "end": 40,
-                    "decorators": [],
                     "name": "_",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 41,
                     "end": 42,
-                    "decorators": [],
                     "name": "l",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 }
               }
             ]
           }
         },
-        "test": {
-          "type": "AssignmentExpression",
-          "start": 1,
-          "end": 12,
-          "operator": "=",
-          "left": {
-            "type": "Identifier",
-            "start": 1,
-            "end": 2,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+        "alternate": {
+          "type": "MemberExpression",
+          "start": 44,
+          "end": 50,
+          "object": {
+            "type": "ThisExpression",
+            "start": 44,
+            "end": 48
           },
-          "right": {
-            "type": "MemberExpression",
-            "start": 3,
-            "end": 12,
-            "computed": true,
-            "object": {
-              "type": "MemberExpression",
-              "start": 3,
-              "end": 9,
-              "computed": false,
-              "object": {
-                "type": "ThisExpression",
-                "start": 3,
-                "end": 7
-              },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 8,
-                "end": 9,
-                "decorators": [],
-                "name": "R",
-                "optional": false,
-                "typeAnnotation": null
-              }
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 10,
-              "end": 11,
-              "decorators": [],
-              "name": "c",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+          "property": {
+            "type": "Identifier",
+            "start": 49,
+            "end": 50,
+            "name": "A",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

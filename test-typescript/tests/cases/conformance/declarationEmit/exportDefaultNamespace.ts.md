@@ -13,7 +13,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 59,
+        "id": {
+          "type": "Identifier",
+          "start": 24,
+          "end": 32,
+          "name": "someFunc",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 35,
@@ -27,27 +39,15 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 48,
                 "end": 56,
-                "raw": "'hello!'",
-                "value": "hello!"
+                "value": "hello!",
+                "raw": "'hello!'"
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 24,
-          "end": 32,
-          "decorators": [],
-          "name": "someFunc",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -55,7 +55,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 61,
       "end": 86,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 61,
@@ -65,35 +64,36 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 61,
           "end": 78,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 61,
             "end": 69,
-            "decorators": [],
             "name": "someFunc",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 70,
             "end": 78,
-            "decorators": [],
             "name": "someProp",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
         "right": {
           "type": "Literal",
           "start": 81,
           "end": 85,
-          "raw": "'yo'",
-          "value": "yo"
+          "value": "yo",
+          "raw": "'yo'"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

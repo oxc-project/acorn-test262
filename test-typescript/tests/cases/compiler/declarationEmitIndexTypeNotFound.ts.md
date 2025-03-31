@@ -9,11 +9,21 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 57,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 7,
         "end": 57,
+        "id": {
+          "type": "Identifier",
+          "start": 17,
+          "end": 21,
+          "name": "Test",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 22,
@@ -23,15 +33,12 @@ __ESTREE_TEST__:PASS:
               "type": "TSIndexSignature",
               "start": 28,
               "end": 55,
-              "accessibility": null,
               "parameters": [
                 {
                   "type": "Identifier",
                   "start": 29,
                   "end": 48,
-                  "decorators": [],
                   "name": "index",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 34,
@@ -40,22 +47,22 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 36,
                       "end": 48,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 36,
                         "end": 48,
-                        "decorators": [],
                         "name": "TypeNotFound",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 49,
@@ -65,26 +72,19 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 54
                 }
-              }
+              },
+              "readonly": false,
+              "static": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 17,
-          "end": 21,
-          "decorators": [],
-          "name": "Test",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "script",

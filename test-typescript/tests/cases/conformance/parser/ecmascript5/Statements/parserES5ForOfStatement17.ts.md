@@ -9,12 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ForStatement",
       "start": 0,
       "end": 19,
-      "body": {
-        "type": "BlockStatement",
-        "start": 16,
-        "end": 19,
-        "body": []
-      },
       "init": {
         "type": "VariableDeclaration",
         "start": 5,
@@ -24,24 +18,30 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 9,
             "end": 11,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 9,
               "end": 11,
-              "decorators": [],
               "name": "of",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "test": null,
-      "update": null
+      "update": null,
+      "body": {
+        "type": "BlockStatement",
+        "start": 16,
+        "end": 19,
+        "body": []
+      }
     }
   ],
   "sourceType": "script",

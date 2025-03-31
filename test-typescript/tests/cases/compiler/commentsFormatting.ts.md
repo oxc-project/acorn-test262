@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 2774,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "name": "m",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 9,
@@ -18,160 +27,151 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 584,
             "end": 606,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 591,
               "end": 606,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 597,
+                "end": 598,
+                "name": "c",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 599,
                 "end": 606,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 597,
-                "end": 598,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 1428,
             "end": 1451,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 1435,
               "end": 1451,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 1441,
+                "end": 1443,
+                "name": "c2",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 1444,
                 "end": 1451,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 1441,
-                "end": 1443,
-                "decorators": [],
-                "name": "c2",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 2133,
             "end": 2156,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 2140,
               "end": 2156,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 2146,
+                "end": 2148,
+                "name": "c3",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 2149,
                 "end": 2156,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 2146,
-                "end": 2148,
-                "decorators": [],
-                "name": "c3",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 2749,
             "end": 2772,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 2756,
               "end": 2772,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 2762,
+                "end": 2764,
+                "name": "c4",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 2765,
                 "end": 2772,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 2762,
-                "end": 2764,
-                "decorators": [],
-                "name": "c4",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "m",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

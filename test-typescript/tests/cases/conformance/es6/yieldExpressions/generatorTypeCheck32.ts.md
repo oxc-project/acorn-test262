@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 13,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 13,
-            "decorators": [],
             "name": "s",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 7,
                 "end": 13
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 19,
           "end": 50,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 19,
             "end": 34,
-            "decorators": [],
             "name": "f",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 20,
@@ -64,6 +61,7 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 22,
                 "end": 34,
+                "typeParameters": null,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
@@ -74,42 +72,44 @@ __ESTREE_TEST__:PASS:
                     "start": 28,
                     "end": 34
                   }
-                },
-                "typeParameters": null
+                }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
             "start": 37,
             "end": 50,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "YieldExpression",
               "start": 43,
               "end": 50,
+              "delegate": false,
               "argument": {
                 "type": "Identifier",
                 "start": 49,
                 "end": 50,
-                "decorators": [],
                 "name": "s",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "delegate": false
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

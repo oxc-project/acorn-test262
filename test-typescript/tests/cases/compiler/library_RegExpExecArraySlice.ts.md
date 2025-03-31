@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 66,
           "end": 103,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 66,
             "end": 103,
-            "decorators": [],
             "name": "regExpExecArrayValue",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 86,
@@ -30,164 +27,167 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 88,
                 "end": 103,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 88,
                   "end": 103,
-                  "decorators": [],
                   "name": "RegExpExecArray",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 105,
       "end": 134,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 105,
         "end": 133,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 105,
           "end": 131,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 105,
             "end": 125,
-            "decorators": [],
             "name": "regExpExecArrayValue",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 126,
             "end": 131,
-            "decorators": [],
             "name": "slice",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 135,
       "end": 165,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 135,
         "end": 164,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 135,
+          "end": 161,
+          "object": {
+            "type": "Identifier",
+            "start": 135,
+            "end": 155,
+            "name": "regExpExecArrayValue",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 156,
+            "end": 161,
+            "name": "slice",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 162,
             "end": 163,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 135,
-          "end": 161,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 135,
-            "end": 155,
-            "decorators": [],
-            "name": "regExpExecArrayValue",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 156,
-            "end": 161,
-            "decorators": [],
-            "name": "slice",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 166,
       "end": 198,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 166,
         "end": 197,
+        "callee": {
+          "type": "MemberExpression",
+          "start": 166,
+          "end": 192,
+          "object": {
+            "type": "Identifier",
+            "start": 166,
+            "end": 186,
+            "name": "regExpExecArrayValue",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 187,
+            "end": 192,
+            "name": "slice",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "arguments": [
           {
             "type": "Literal",
             "start": 193,
             "end": 194,
-            "raw": "0",
-            "value": 0
+            "value": 0,
+            "raw": "0"
           },
           {
             "type": "Literal",
             "start": 195,
             "end": 196,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         ],
-        "callee": {
-          "type": "MemberExpression",
-          "start": 166,
-          "end": 192,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 166,
-            "end": 186,
-            "decorators": [],
-            "name": "regExpExecArrayValue",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 187,
-            "end": 192,
-            "decorators": [],
-            "name": "slice",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

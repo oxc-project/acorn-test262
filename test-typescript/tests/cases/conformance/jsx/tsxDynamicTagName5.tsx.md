@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 53,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 22,
+        "value": "react",
+        "raw": "'react'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 23,
@@ -19,27 +25,23 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 26,
             "end": 51,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 41,
+              "name": "Component",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 48,
               "end": 51,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 32,
-              "end": 41,
-              "decorators": [],
-              "name": "Component",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
               "start": 41,
@@ -49,54 +51,52 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeParameter",
                   "start": 42,
                   "end": 43,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 42,
                     "end": 43,
-                    "decorators": [],
                     "name": "T",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 },
                 {
                   "type": "TSTypeParameter",
                   "start": 45,
                   "end": 46,
-                  "const": false,
-                  "constraint": null,
-                  "default": null,
-                  "in": false,
                   "name": {
                     "type": "Identifier",
                     "start": 45,
                     "end": 46,
-                    "decorators": [],
                     "name": "U",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "out": false
+                  "constraint": null,
+                  "default": null,
+                  "in": false,
+                  "out": false,
+                  "const": false
                 }
               ]
-            }
+            },
+            "implements": [],
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 22,
-        "raw": "'react'",
-        "value": "react"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -114,15 +114,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "'react'",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -132,24 +123,65 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 17,
-            "decorators": [],
             "name": "React",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "react",
+        "raw": "'react'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 33,
       "end": 176,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 40,
         "end": 176,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 46,
+          "end": 50,
+          "name": "Text",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": {
+          "type": "MemberExpression",
+          "start": 59,
+          "end": 74,
+          "object": {
+            "type": "Identifier",
+            "start": 59,
+            "end": 64,
+            "name": "React",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "property": {
+            "type": "Identifier",
+            "start": 65,
+            "end": 74,
+            "name": "Component",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
         "body": {
           "type": "ClassBody",
           "start": 83,
@@ -159,24 +191,30 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 87,
               "end": 112,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 87,
                 "end": 95,
-                "decorators": [],
                 "name": "_tagName",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": {
+                "type": "Literal",
+                "start": 106,
+                "end": 111,
+                "value": "div",
+                "raw": "'div'"
+              },
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": false,
-              "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 95,
@@ -187,39 +225,33 @@ __ESTREE_TEST__:PASS:
                   "end": 103
                 }
               },
-              "value": {
-                "type": "Literal",
-                "start": 106,
-                "end": 111,
-                "raw": "'div'",
-                "value": "div"
-              }
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 116,
               "end": 174,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 116,
                 "end": 122,
-                "decorators": [],
                 "name": "render",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 122,
                 "end": 174,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 125,
@@ -233,8 +265,6 @@ __ESTREE_TEST__:PASS:
                         "type": "JSXElement",
                         "start": 146,
                         "end": 163,
-                        "children": [],
-                        "closingElement": null,
                         "openingElement": {
                           "type": "JSXOpeningElement",
                           "start": 146,
@@ -259,59 +289,29 @@ __ESTREE_TEST__:PASS:
                           },
                           "selfClosing": true,
                           "typeArguments": null
-                        }
+                        },
+                        "closingElement": null,
+                        "children": []
                       }
                     }
                   ]
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 46,
-          "end": 50,
-          "decorators": [],
-          "name": "Text",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": {
-          "type": "MemberExpression",
-          "start": 59,
-          "end": 74,
-          "computed": false,
-          "object": {
-            "type": "Identifier",
-            "start": 59,
-            "end": 64,
-            "decorators": [],
-            "name": "React",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "optional": false,
-          "property": {
-            "type": "Identifier",
-            "start": 65,
-            "end": 74,
-            "decorators": [],
-            "name": "Component",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        },
+        "abstract": false,
+        "declare": false,
         "superTypeArguments": {
           "type": "TSTypeParameterInstantiation",
           "start": 74,
@@ -330,12 +330,12 @@ __ESTREE_TEST__:PASS:
               "members": []
             }
           ]
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

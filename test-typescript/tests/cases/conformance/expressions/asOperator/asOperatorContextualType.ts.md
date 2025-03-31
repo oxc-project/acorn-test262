@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 20,
           "end": 57,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 20,
             "end": 21,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "TSAsExpression",
@@ -32,45 +31,44 @@ __ESTREE_TEST__:PASS:
               "type": "ArrowFunctionExpression",
               "start": 25,
               "end": 31,
-              "async": false,
-              "body": {
-                "type": "Identifier",
-                "start": 30,
-                "end": 31,
-                "decorators": [],
-                "name": "v",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "id": null,
               "expression": true,
               "generator": false,
-              "id": null,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 25,
                   "end": 26,
-                  "decorators": [],
                   "name": "v",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               ],
-              "returnType": null,
-              "typeParameters": null
+              "body": {
+                "type": "Identifier",
+                "start": 30,
+                "end": 31,
+                "name": "v",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeParameters": null,
+              "returnType": null
             },
             "typeAnnotation": {
               "type": "TSFunctionType",
               "start": 36,
               "end": 57,
+              "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 37,
                   "end": 46,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 38,
@@ -80,7 +78,9 @@ __ESTREE_TEST__:PASS:
                       "start": 40,
                       "end": 46
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
               "returnType": {
@@ -92,14 +92,14 @@ __ESTREE_TEST__:PASS:
                   "start": 51,
                   "end": 57
                 }
-              },
-              "typeParameters": null
+              }
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

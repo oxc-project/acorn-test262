@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 21,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,52 +18,61 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 21,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 23,
       "end": 33,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 23,
         "end": 32,
-        "arguments": [],
         "callee": {
           "type": "MemberExpression",
           "start": 23,
           "end": 30,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 23,
             "end": 26,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 27,
             "end": 30,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

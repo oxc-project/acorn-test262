@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 53,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 9,
+        "name": "m1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 10,
@@ -18,7 +27,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 16,
             "end": 35,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 23,
@@ -28,31 +36,32 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 27,
                   "end": 34,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 27,
                     "end": 29,
-                    "decorators": [],
                     "name": "m1",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "Literal",
                     "start": 32,
                     "end": 34,
-                    "raw": "10",
-                    "value": 10
-                  }
+                    "value": 10,
+                    "raw": "10"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           },
           {
             "type": "VariableDeclaration",
@@ -63,44 +72,35 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 44,
                 "end": 50,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 44,
                   "end": 45,
-                  "decorators": [],
                   "name": "b",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Identifier",
                   "start": 48,
                   "end": 50,
-                  "decorators": [],
                   "name": "m1",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 9,
-        "decorators": [],
-        "name": "m1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "VariableDeclaration",
@@ -111,45 +111,45 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 58,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 58,
             "end": 61,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 64,
             "end": 69,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 64,
               "end": 66,
-              "decorators": [],
               "name": "m1",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 67,
               "end": 69,
-              "decorators": [],
               "name": "m1",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

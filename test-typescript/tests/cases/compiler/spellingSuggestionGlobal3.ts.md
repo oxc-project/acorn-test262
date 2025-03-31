@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 6,
           "end": 26,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 6,
             "end": 12,
-            "decorators": [],
             "name": "global",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,65 +32,66 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 17,
                 "end": 24,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 17,
                   "end": 18,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 20,
                   "end": 24,
-                  "raw": "true",
-                  "value": true
-                }
+                  "value": true,
+                  "raw": "true"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 27,
       "end": 36,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 27,
         "end": 36,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 27,
           "end": 34,
-          "decorators": [],
           "name": "globals",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 35,
           "end": 36,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 7,
           "end": 72,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 7,
             "end": 12,
-            "decorators": [],
             "name": "array",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ArrayExpression",
@@ -33,22 +32,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 42,
                 "end": 43,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 49,
                 "end": 50,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

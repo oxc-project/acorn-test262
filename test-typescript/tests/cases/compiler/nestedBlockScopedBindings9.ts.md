@@ -19,48 +19,48 @@ __ESTREE_TEST__:PASS:
               "type": "VariableDeclarator",
               "start": 10,
               "end": 11,
-              "definite": false,
               "id": {
                 "type": "Identifier",
                 "start": 10,
                 "end": 11,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "init": null
+              "init": null,
+              "definite": false
             }
           ],
-          "declare": false,
-          "kind": "let"
+          "kind": "let",
+          "declare": false
         },
         {
           "type": "ExpressionStatement",
           "start": 17,
           "end": 25,
-          "directive": null,
           "expression": {
             "type": "ArrowFunctionExpression",
             "start": 17,
             "end": 24,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "Identifier",
               "start": 23,
               "end": 24,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "directive": null
         }
       ]
     },
@@ -68,6 +68,13 @@ __ESTREE_TEST__:PASS:
       "type": "SwitchStatement",
       "start": 29,
       "end": 102,
+      "discriminant": {
+        "type": "Literal",
+        "start": 37,
+        "end": 38,
+        "value": 1,
+        "raw": "1"
+      },
       "cases": [
         {
           "type": "SwitchCase",
@@ -83,48 +90,48 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 66,
                   "end": 67,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 66,
                     "end": 67,
-                    "decorators": [],
                     "name": "y",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "let"
+              "kind": "let",
+              "declare": false
             },
             {
               "type": "ExpressionStatement",
               "start": 77,
               "end": 85,
-              "directive": null,
               "expression": {
                 "type": "ArrowFunctionExpression",
                 "start": 77,
                 "end": 84,
+                "id": null,
+                "expression": true,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "Identifier",
                   "start": 83,
                   "end": 84,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "expression": true,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "typeParameters": null,
+                "returnType": null
+              },
+              "directive": null
             },
             {
               "type": "BreakStatement",
@@ -137,18 +144,11 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 51,
             "end": 52,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           }
         }
-      ],
-      "discriminant": {
-        "type": "Literal",
-        "start": 37,
-        "end": 38,
-        "raw": "1",
-        "value": 1
-      }
+      ]
     }
   ],
   "sourceType": "script",

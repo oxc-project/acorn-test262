@@ -9,16 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 9,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 10,
       "end": 39,
+      "id": {
+        "type": "Identifier",
+        "start": 18,
+        "end": 24,
+        "name": "global",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 25,
@@ -33,14 +42,11 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 31,
                 "end": 37,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 31,
                   "end": 37,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 32,
@@ -50,59 +56,53 @@ __ESTREE_TEST__:PASS:
                       "start": 34,
                       "end": 37
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "global",
       "declare": true,
-      "global": true,
-      "id": {
-        "type": "Identifier",
-        "start": 18,
-        "end": 24,
-        "decorators": [],
-        "name": "global",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "global"
+      "global": true
     },
     {
       "type": "ExpressionStatement",
       "start": 40,
       "end": 48,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 40,
         "end": 48,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 40,
           "end": 46,
-          "decorators": [],
           "name": "global",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 47,
           "end": 48,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

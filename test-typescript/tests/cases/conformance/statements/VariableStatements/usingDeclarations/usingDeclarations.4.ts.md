@@ -14,7 +14,6 @@ __ESTREE_TEST__:PASS:
           "type": "ExpressionStatement",
           "start": 6,
           "end": 23,
-          "directive": null,
           "expression": {
             "type": "AssignmentExpression",
             "start": 6,
@@ -24,35 +23,36 @@ __ESTREE_TEST__:PASS:
               "type": "MemberExpression",
               "start": 6,
               "end": 15,
-              "computed": true,
               "object": {
                 "type": "Identifier",
                 "start": 6,
                 "end": 11,
-                "decorators": [],
                 "name": "using",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 13,
                 "end": 14,
-                "decorators": [],
                 "name": "a",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": true,
+              "optional": false
             },
             "right": {
               "type": "Literal",
               "start": 18,
               "end": 22,
-              "raw": "null",
-              "value": null
+              "value": null,
+              "raw": "null"
             }
-          }
+          },
+          "directive": null
         }
       ]
     }

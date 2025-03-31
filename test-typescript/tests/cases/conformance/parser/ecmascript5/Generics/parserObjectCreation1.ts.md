@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 48,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 23,
-            "decorators": [],
             "name": "autoToken",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -36,30 +33,32 @@ __ESTREE_TEST__:PASS:
                   "end": 21
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 26,
             "end": 48,
+            "callee": {
+              "type": "Identifier",
+              "start": 30,
+              "end": 35,
+              "name": "Array",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 46,
                 "end": 47,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 30,
-              "end": 35,
-              "decorators": [],
-              "name": "Array",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
               "start": 35,
@@ -77,11 +76,12 @@ __ESTREE_TEST__:PASS:
                 }
               ]
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

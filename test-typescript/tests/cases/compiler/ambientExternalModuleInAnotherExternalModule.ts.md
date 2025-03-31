@@ -9,28 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 11,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "D",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 8,
         "end": 11,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "D",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "TSExportAssignment",
@@ -40,17 +40,23 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 21,
         "end": 22,
-        "decorators": [],
         "name": "D",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 25,
       "end": 72,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 40,
+        "end": 45,
+        "value": "ext",
+        "raw": "\"ext\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 46,
@@ -60,49 +66,43 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 52,
             "end": 70,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 59,
               "end": 70,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 65,
+                "end": 66,
+                "name": "C",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 67,
                 "end": 70,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 65,
-                "end": 66,
-                "decorators": [],
-                "name": "C",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 40,
-        "end": 45,
-        "raw": "\"ext\"",
-        "value": "ext"
-      }
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -112,12 +112,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 125,
         "end": 128,
-        "decorators": [],
         "name": "ext",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 131,
@@ -126,10 +125,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 139,
           "end": 144,
-          "raw": "\"ext\"",
-          "value": "ext"
+          "value": "ext",
+          "raw": "\"ext\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -140,29 +140,29 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 151,
           "end": 158,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 151,
             "end": 152,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 155,
             "end": 158,
-            "decorators": [],
             "name": "ext",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

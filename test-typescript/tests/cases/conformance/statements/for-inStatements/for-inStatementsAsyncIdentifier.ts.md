@@ -14,40 +14,34 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 9,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 11,
       "end": 43,
-      "body": {
-        "type": "BlockStatement",
-        "start": 41,
-        "end": 43,
-        "body": []
-      },
       "left": {
         "type": "Identifier",
         "start": 16,
         "end": 21,
-        "decorators": [],
         "name": "async",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "right": {
         "type": "ObjectExpression",
@@ -58,55 +52,61 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 27,
             "end": 31,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 27,
               "end": 28,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 30,
               "end": 31,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "kind": "init",
+            "optional": false
           },
           {
             "type": "Property",
             "start": 33,
             "end": 37,
+            "method": false,
+            "shorthand": false,
             "computed": false,
             "key": {
               "type": "Identifier",
               "start": 33,
               "end": 34,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 41,
+        "end": 43,
+        "body": []
       }
     }
   ],

@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 20,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 7,
@@ -19,14 +18,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 11,
             "end": 20,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 11,
               "end": 20,
-              "decorators": [],
               "name": "x",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 12,
@@ -36,17 +32,21 @@ __ESTREE_TEST__:PASS:
                   "start": 14,
                   "end": 20
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -64,7 +64,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 53,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "value": "M",
+        "raw": "\"M\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -74,15 +80,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 25,
             "end": 51,
-            "attributes": [],
-            "importKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 41,
-              "end": 51,
-              "raw": "\"external\"",
-              "value": "external"
-            },
             "specifiers": [
               {
                 "type": "ImportSpecifier",
@@ -92,35 +89,38 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 33,
                   "end": 34,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "importKind": "value",
                 "local": {
                   "type": "Identifier",
                   "start": 33,
                   "end": 34,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "importKind": "value"
               }
-            ]
+            ],
+            "source": {
+              "type": "Literal",
+              "start": 41,
+              "end": 51,
+              "value": "external",
+              "raw": "\"external\""
+            },
+            "attributes": [],
+            "importKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 18,
-        "raw": "\"M\"",
-        "value": "M"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

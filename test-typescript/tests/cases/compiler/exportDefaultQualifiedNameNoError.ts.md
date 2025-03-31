@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 25,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "C",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 8,
@@ -19,50 +28,41 @@ __ESTREE_TEST__:PASS:
             "type": "PropertyDefinition",
             "start": 10,
             "end": 23,
-            "accessibility": null,
+            "static": true,
             "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Identifier",
               "start": 17,
               "end": 18,
-              "decorators": [],
               "name": "x",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 21,
               "end": 22,
-              "raw": "0",
-              "value": 0
-            }
+              "value": 0,
+              "raw": "0"
+            },
+            "decorators": [],
+            "declare": false,
+            "override": false,
+            "optional": false,
+            "definite": false,
+            "readonly": false,
+            "typeAnnotation": null,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "EmptyStatement",
@@ -77,26 +77,26 @@ __ESTREE_TEST__:PASS:
         "type": "MemberExpression",
         "start": 42,
         "end": 45,
-        "computed": false,
         "object": {
           "type": "Identifier",
           "start": 42,
           "end": 43,
-          "decorators": [],
           "name": "C",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "Identifier",
           "start": 44,
           "end": 45,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "computed": false,
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -116,15 +116,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 24,
-        "raw": "\"./code\"",
-        "value": "./code"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -134,35 +125,44 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "def",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 24,
+        "value": "./code",
+        "raw": "\"./code\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 35,
-      "directive": null,
       "expression": {
         "type": "UnaryExpression",
         "start": 26,
         "end": 34,
+        "operator": "void",
+        "prefix": true,
         "argument": {
           "type": "Identifier",
           "start": 31,
           "end": 34,
-          "decorators": [],
           "name": "def",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "operator": "void",
-        "prefix": true
-      }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

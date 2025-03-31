@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 24,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -27,25 +18,28 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "_",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ForOfStatement",
       "start": 27,
       "end": 50,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 47,
-        "end": 50,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 32,
@@ -55,39 +49,39 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 38,
             "end": 39,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 38,
               "end": 39,
-              "decorators": [],
               "name": "_",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 43,
         "end": 45,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 47,
+        "end": 50,
+        "body": []
       }
     },
     {
       "type": "ForInStatement",
       "start": 52,
       "end": 75,
-      "body": {
-        "type": "BlockStatement",
-        "start": 72,
-        "end": 75,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 57,
@@ -97,33 +91,48 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 63,
             "end": 64,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 63,
               "end": 64,
-              "decorators": [],
               "name": "_",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
         "start": 68,
         "end": 70,
         "elements": []
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 72,
+        "end": 75,
+        "body": []
       }
     },
     {
       "type": "TSModuleDeclaration",
       "start": 77,
       "end": 162,
+      "id": {
+        "type": "Identifier",
+        "start": 87,
+        "end": 90,
+        "name": "_ns",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 91,
@@ -138,33 +147,27 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 101,
                 "end": 102,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 101,
                   "end": 102,
-                  "decorators": [],
                   "name": "_",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "ForOfStatement",
             "start": 108,
             "end": 131,
             "await": false,
-            "body": {
-              "type": "BlockStatement",
-              "start": 128,
-              "end": 131,
-              "body": []
-            },
             "left": {
               "type": "VariableDeclaration",
               "start": 113,
@@ -174,39 +177,39 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 119,
                   "end": 120,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 119,
                     "end": 120,
-                    "decorators": [],
                     "name": "_",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
             "right": {
               "type": "ArrayExpression",
               "start": 124,
               "end": 126,
               "elements": []
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 128,
+              "end": 131,
+              "body": []
             }
           },
           {
             "type": "ForInStatement",
             "start": 137,
             "end": 160,
-            "body": {
-              "type": "BlockStatement",
-              "start": 157,
-              "end": 160,
-              "body": []
-            },
             "left": {
               "type": "VariableDeclaration",
               "start": 142,
@@ -216,43 +219,40 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 148,
                   "end": 149,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 148,
                     "end": 149,
-                    "decorators": [],
                     "name": "_",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
             "right": {
               "type": "ArrayExpression",
               "start": 153,
               "end": 155,
               "elements": []
+            },
+            "body": {
+              "type": "BlockStatement",
+              "start": 157,
+              "end": 160,
+              "body": []
             }
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 87,
-        "end": 90,
-        "decorators": [],
-        "name": "_ns",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     }
   ],
   "sourceType": "script",

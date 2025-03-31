@@ -21,7 +21,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 19,
       "end": 38,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 26,
@@ -31,37 +30,37 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 32,
             "end": 37,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 32,
               "end": 33,
-              "decorators": [],
               "name": "b",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "0",
-              "value": 0
-            }
+              "value": 0,
+              "raw": "0"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 58,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 46,
@@ -71,63 +70,64 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 52,
             "end": 57,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 52,
               "end": 53,
-              "decorators": [],
               "name": "c",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 56,
               "end": 57,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 59,
       "end": 80,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 66,
         "end": 80,
+        "id": {
+          "type": "Identifier",
+          "start": 76,
+          "end": 77,
+          "name": "D",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 78,
           "end": 80,
           "body": []
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 76,
-          "end": 77,
-          "decorators": [],
-          "name": "D",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",
@@ -145,15 +145,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 33,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 27,
-        "end": 32,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -163,10 +154,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 8,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         },
         {
@@ -177,21 +168,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -201,21 +192,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 15,
             "end": 16,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 15,
             "end": 16,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -225,23 +216,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 18,
             "end": 19,
-            "decorators": [],
             "name": "D",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 18,
             "end": 19,
-            "decorators": [],
             "name": "D",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 27,
+        "end": 32,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -259,15 +259,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 24,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
@@ -277,13 +268,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -328,12 +328,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 8,
-        "decorators": [],
         "name": "D",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 11,
@@ -342,10 +341,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 19,
           "end": 24,
-          "raw": "\"./d\"",
-          "value": "./d"
+          "value": "./d",
+          "raw": "\"./d\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -355,12 +355,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 34,
         "end": 36,
-        "decorators": [],
         "name": "DD",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 39,
@@ -369,25 +368,26 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 47,
           "end": 52,
-          "raw": "\"./d\"",
-          "value": "./d"
+          "value": "./d",
+          "raw": "\"./d\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 55,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 55,
         "end": 57,
-        "decorators": [],
         "name": "DD",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -405,15 +405,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
-      "importKind": "type",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 24,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -423,27 +414,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 12,
             "end": 13,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "type"
     },
     {
       "type": "ImportDeclaration",
       "start": 26,
       "end": 53,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 47,
-        "end": 52,
-        "raw": "\"./a\"",
-        "value": "./a"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -453,21 +444,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 35,
             "end": 36,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 35,
             "end": 36,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -477,38 +468,47 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 38,
             "end": 39,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 38,
             "end": 39,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 47,
+        "end": 52,
+        "value": "./a",
+        "raw": "\"./a\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 54,
       "end": 56,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 54,
         "end": 55,
-        "decorators": [],
         "name": "b",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

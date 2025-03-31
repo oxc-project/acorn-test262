@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 41,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 19,
-        "end": 40,
-        "raw": "\"foo/bar/foobar.json\"",
-        "value": "foo/bar/foobar.json"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,13 +18,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 13,
-            "decorators": [],
             "name": "foobar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 40,
+        "value": "foo/bar/foobar.json",
+        "raw": "\"foo/bar/foobar.json\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

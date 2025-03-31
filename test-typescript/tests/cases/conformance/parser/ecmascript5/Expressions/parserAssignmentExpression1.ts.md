@@ -9,7 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 14,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 0,
@@ -19,16 +18,16 @@ __ESTREE_TEST__:PASS:
           "type": "CallExpression",
           "start": 1,
           "end": 6,
-          "arguments": [],
           "callee": {
             "type": "Identifier",
             "start": 1,
             "end": 4,
-            "decorators": [],
             "name": "foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "arguments": [],
           "optional": false,
           "typeArguments": null
         },
@@ -36,12 +35,13 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 10,
           "end": 13,
-          "decorators": [],
           "name": "bar",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

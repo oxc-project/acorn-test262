@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 36,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "name": "Dog",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 14,
@@ -18,20 +29,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 20,
             "end": 34,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 20,
               "end": 28,
-              "decorators": [],
               "name": "barkable",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 28,
@@ -44,46 +53,38 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 30,
                   "end": 34,
-                  "raw": "true",
-                  "value": true
+                  "value": true,
+                  "raw": "true"
                 }
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "Dog",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSDeclareFunction",
       "start": 38,
       "end": 70,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 55,
         "end": 63,
-        "decorators": [],
         "name": "getRover",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 65,
@@ -92,25 +93,23 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 67,
           "end": 70,
-          "typeArguments": null,
           "typeName": {
             "type": "Identifier",
             "start": 67,
             "end": 70,
-            "decorators": [],
             "name": "Dog",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeArguments": null
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 76,
       "end": 104,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 83,
@@ -120,14 +119,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 87,
             "end": 103,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 87,
               "end": 92,
-              "decorators": [],
               "name": "x",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 88,
@@ -136,36 +132,40 @@ __ESTREE_TEST__:PASS:
                   "type": "TSTypeReference",
                   "start": 89,
                   "end": 92,
-                  "typeArguments": null,
                   "typeName": {
                     "type": "Identifier",
                     "start": 89,
                     "end": 92,
-                    "decorators": [],
                     "name": "Dog",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "typeArguments": null
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Identifier",
               "start": 95,
               "end": 103,
-              "decorators": [],
               "name": "getRover",
-              "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

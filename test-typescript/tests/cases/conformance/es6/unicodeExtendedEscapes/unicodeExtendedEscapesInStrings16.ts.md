@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 64,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 27,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 30,
             "end": 64,
-            "raw": "\"\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}\"",
-            "value": "ꯍ㑖碐"
-          }
+            "value": "ꯍ㑖碐",
+            "raw": "\"\\u{ABCD}\\u{EF12}\\u{3456}\\u{7890}\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

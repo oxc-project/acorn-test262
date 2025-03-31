@@ -9,28 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSDeclareFunction",
       "start": 0,
       "end": 43,
-      "async": false,
-      "body": null,
-      "declare": true,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 17,
         "end": 26,
-        "decorators": [],
         "name": "decorator",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 27,
           "end": 36,
-          "decorators": [],
           "name": "x",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 28,
@@ -40,9 +36,14 @@ __ESTREE_TEST__:PASS:
               "start": 30,
               "end": 36
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
+      "body": null,
+      "declare": true,
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 37,
@@ -52,21 +53,28 @@ __ESTREE_TEST__:PASS:
           "start": 39,
           "end": 42
         }
-      },
-      "typeParameters": null
+      }
     },
     {
       "type": "ClassDeclaration",
       "start": 71,
       "end": 107,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 97,
+        "end": 103,
+        "name": "Remote",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 104,
         "end": 107,
         "body": []
       },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -76,48 +84,49 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 72,
             "end": 90,
+            "callee": {
+              "type": "Identifier",
+              "start": 72,
+              "end": 81,
+              "name": "decorator",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 82,
                 "end": 89,
-                "raw": "\"hello\"",
-                "value": "hello"
+                "value": "hello",
+                "raw": "\"hello\""
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 72,
-              "end": 81,
-              "decorators": [],
-              "name": "decorator",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 97,
-        "end": 103,
-        "decorators": [],
-        "name": "Remote",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "ClassDeclaration",
       "start": 138,
       "end": 199,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 161,
+        "end": 174,
+        "name": "AnotherRomote",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 175,
@@ -127,27 +136,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 181,
             "end": 197,
-            "accessibility": null,
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 181,
               "end": 192,
-              "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "constructor",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 192,
               "end": 197,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 195,
@@ -155,17 +164,16 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
       "decorators": [
         {
           "type": "Decorator",
@@ -175,42 +183,34 @@ __ESTREE_TEST__:PASS:
             "type": "CallExpression",
             "start": 139,
             "end": 154,
+            "callee": {
+              "type": "Identifier",
+              "start": 139,
+              "end": 148,
+              "name": "decorator",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "arguments": [
               {
                 "type": "Literal",
                 "start": 149,
                 "end": 153,
-                "raw": "\"hi\"",
-                "value": "hi"
+                "value": "hi",
+                "raw": "\"hi\""
               }
             ],
-            "callee": {
-              "type": "Identifier",
-              "start": 139,
-              "end": 148,
-              "decorators": [],
-              "name": "decorator",
-              "optional": false,
-              "typeAnnotation": null
-            },
             "optional": false,
             "typeArguments": null
           }
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 161,
-        "end": 174,
-        "decorators": [],
-        "name": "AnotherRomote",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

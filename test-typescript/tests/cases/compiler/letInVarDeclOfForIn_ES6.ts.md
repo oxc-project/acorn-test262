@@ -9,12 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ForInStatement",
       "start": 26,
       "end": 53,
-      "body": {
-        "type": "BlockStatement",
-        "start": 51,
-        "end": 53,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 31,
@@ -24,21 +18,21 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 35,
             "end": 38,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 35,
               "end": 38,
-              "decorators": [],
               "name": "let",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "ArrayExpression",
@@ -49,24 +43,30 @@ __ESTREE_TEST__:PASS:
             "type": "Literal",
             "start": 43,
             "end": 44,
-            "raw": "1",
-            "value": 1
+            "value": 1,
+            "raw": "1"
           },
           {
             "type": "Literal",
             "start": 45,
             "end": 46,
-            "raw": "2",
-            "value": 2
+            "value": 2,
+            "raw": "2"
           },
           {
             "type": "Literal",
             "start": 47,
             "end": 48,
-            "raw": "3",
-            "value": 3
+            "value": 3,
+            "raw": "3"
           }
         ]
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 51,
+        "end": 53,
+        "body": []
       }
     },
     {
@@ -78,12 +78,6 @@ __ESTREE_TEST__:PASS:
           "type": "ForInStatement",
           "start": 58,
           "end": 85,
-          "body": {
-            "type": "BlockStatement",
-            "start": 83,
-            "end": 85,
-            "body": []
-          },
           "left": {
             "type": "VariableDeclaration",
             "start": 63,
@@ -93,21 +87,21 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 67,
                 "end": 70,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 67,
                   "end": 70,
-                  "decorators": [],
                   "name": "let",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           "right": {
             "type": "ArrayExpression",
@@ -118,24 +112,30 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 75,
                 "end": 76,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 77,
                 "end": 78,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 79,
                 "end": 80,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
+          },
+          "body": {
+            "type": "BlockStatement",
+            "start": 83,
+            "end": 85,
+            "body": []
           }
         }
       ]

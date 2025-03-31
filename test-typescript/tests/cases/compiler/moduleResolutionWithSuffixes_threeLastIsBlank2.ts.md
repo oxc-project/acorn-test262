@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 31,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 30,
-        "raw": "\"./foo\"",
-        "value": "./foo"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -27,23 +18,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 15,
-            "decorators": [],
             "name": "native",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 15,
-            "decorators": [],
             "name": "native",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 30,
+        "value": "./foo",
+        "raw": "\"./foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -61,12 +61,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 27,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 27,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 22,
+          "name": "native",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 25,
@@ -74,24 +85,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 22,
-          "decorators": [],
-          "name": "native",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -109,12 +109,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 25,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 25,
+        "id": {
+          "type": "Identifier",
+          "start": 16,
+          "end": 20,
+          "name": "base",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 23,
@@ -122,24 +133,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 16,
-          "end": 20,
-          "decorators": [],
-          "name": "base",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

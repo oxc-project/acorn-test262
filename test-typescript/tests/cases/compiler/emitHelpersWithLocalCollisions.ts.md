@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 20,
-            "decorators": [],
             "name": "dec",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -31,22 +28,22 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 20
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         },
         {
           "type": "VariableDeclarator",
           "start": 22,
           "end": 37,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 22,
             "end": 37,
-            "decorators": [],
             "name": "__decorate",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 32,
@@ -56,31 +53,41 @@ __ESTREE_TEST__:PASS:
                 "start": 34,
                 "end": 37
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 44,
       "end": 62,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 51,
         "end": 62,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 57,
+          "end": 58,
+          "name": "A",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 59,
           "end": 62,
           "body": []
         },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -90,30 +97,23 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 40,
               "end": 43,
-              "decorators": [],
               "name": "dec",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 57,
-          "end": 58,
-          "decorators": [],
-          "name": "A",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -124,15 +124,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 70,
           "end": 82,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 70,
             "end": 71,
-            "decorators": [],
             "name": "o",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -143,34 +142,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 76,
                 "end": 80,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 76,
                   "end": 77,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 79,
                   "end": 80,
-                  "raw": "1",
-                  "value": 1
-                }
+                  "value": 1,
+                  "raw": "1"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -181,15 +181,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 90,
           "end": 102,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 90,
             "end": 91,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -204,18 +203,19 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 99,
                   "end": 100,
-                  "decorators": [],
                   "name": "o",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 }
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

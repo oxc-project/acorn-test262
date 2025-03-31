@@ -13,28 +13,28 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 26,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 21,
+          "end": 22,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 23,
           "end": 26,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 21,
-          "end": 22,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

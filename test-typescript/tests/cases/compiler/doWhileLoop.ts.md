@@ -19,8 +19,8 @@ __ESTREE_TEST__:PASS:
         "type": "Literal",
         "start": 14,
         "end": 19,
-        "raw": "false",
-        "value": false
+        "value": false,
+        "raw": "false"
       }
     },
     {
@@ -32,21 +32,21 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 27,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 27,
-            "decorators": [],
             "name": "n",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 47,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": "js",
+        "raw": "\"js\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -19,7 +25,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 26,
             "end": 45,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 33,
@@ -29,43 +34,38 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 39,
                   "end": 44,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 39,
                     "end": 40,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
                   "init": {
                     "type": "Literal",
                     "start": 43,
                     "end": 44,
-                    "raw": "0",
-                    "value": 0
-                  }
+                    "value": 0,
+                    "raw": "0"
+                  },
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "\"js\"",
-        "value": "js"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -83,15 +83,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 43,
       "end": 66,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 61,
-        "end": 65,
-        "raw": "\"js\"",
-        "value": "js"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -101,23 +92,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 52,
             "end": 53,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 52,
             "end": 53,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 61,
+        "end": 65,
+        "value": "js",
+        "raw": "\"js\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",

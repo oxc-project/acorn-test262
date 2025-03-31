@@ -14,26 +14,26 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 25,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
             "end": 26,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -43,10 +43,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 42,
         "end": 43,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],
@@ -70,26 +70,26 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 25,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
             "end": 26,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
             "start": 29,
             "end": 31,
             "properties": []
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "TSExportAssignment",
@@ -99,10 +99,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 42,
         "end": 43,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

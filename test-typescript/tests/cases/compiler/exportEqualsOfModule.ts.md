@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 71,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 39,
+        "value": "~popsicle/dist/request",
+        "raw": "'~popsicle/dist/request'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 40,
@@ -19,55 +25,55 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 46,
             "end": 69,
-            "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
               "start": 53,
               "end": 69,
-              "abstract": false,
+              "id": {
+                "type": "Identifier",
+                "start": 59,
+                "end": 66,
+                "name": "Request",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "superClass": null,
               "body": {
                 "type": "ClassBody",
                 "start": 67,
                 "end": 69,
                 "body": []
               },
-              "declare": false,
               "decorators": [],
-              "id": {
-                "type": "Identifier",
-                "start": 59,
-                "end": 66,
-                "decorators": [],
-                "name": "Request",
-                "optional": false,
-                "typeAnnotation": null
-              },
+              "typeParameters": null,
               "implements": [],
-              "superClass": null,
-              "superTypeArguments": null,
-              "typeParameters": null
+              "abstract": false,
+              "declare": false,
+              "superTypeArguments": null
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 39,
-        "raw": "'~popsicle/dist/request'",
-        "value": "~popsicle/dist/request"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 73,
       "end": 193,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 88,
+        "end": 111,
+        "value": "~popsicle/dist/common",
+        "raw": "'~popsicle/dist/common'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 112,
@@ -77,15 +83,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 118,
             "end": 167,
-            "attributes": [],
-            "importKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 142,
-              "end": 166,
-              "raw": "'~popsicle/dist/request'",
-              "value": "~popsicle/dist/request"
-            },
             "specifiers": [
               {
                 "type": "ImportSpecifier",
@@ -95,76 +92,85 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 127,
                   "end": 134,
-                  "decorators": [],
                   "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "importKind": "value",
                 "local": {
                   "type": "Identifier",
                   "start": 127,
                   "end": 134,
-                  "decorators": [],
                   "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "importKind": "value"
               }
-            ]
+            ],
+            "source": {
+              "type": "Literal",
+              "start": 142,
+              "end": 166,
+              "value": "~popsicle/dist/request",
+              "raw": "'~popsicle/dist/request'"
+            },
+            "attributes": [],
+            "importKind": "value"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 172,
             "end": 191,
-            "attributes": [],
             "declaration": null,
-            "exportKind": "value",
-            "source": null,
             "specifiers": [
               {
                 "type": "ExportSpecifier",
                 "start": 181,
                 "end": 188,
-                "exported": {
-                  "type": "Identifier",
-                  "start": 181,
-                  "end": 188,
-                  "decorators": [],
-                  "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
-                },
-                "exportKind": "value",
                 "local": {
                   "type": "Identifier",
                   "start": 181,
                   "end": 188,
-                  "decorators": [],
                   "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "exported": {
+                  "type": "Identifier",
+                  "start": 181,
+                  "end": 188,
+                  "name": "Request",
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "exportKind": "value"
               }
-            ]
+            ],
+            "source": null,
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 88,
-        "end": 111,
-        "raw": "'~popsicle/dist/common'",
-        "value": "~popsicle/dist/common"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 195,
       "end": 297,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 210,
+        "end": 220,
+        "value": "popsicle",
+        "raw": "'popsicle'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 221,
@@ -178,12 +184,11 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 234,
               "end": 239,
-              "decorators": [],
               "name": "alias",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
               "start": 242,
@@ -192,10 +197,11 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 250,
                 "end": 273,
-                "raw": "'~popsicle/dist/common'",
-                "value": "~popsicle/dist/common"
+                "value": "~popsicle/dist/common",
+                "raw": "'~popsicle/dist/common'"
               }
-            }
+            },
+            "importKind": "value"
           },
           {
             "type": "TSExportAssignment",
@@ -205,29 +211,29 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 289,
               "end": 294,
-              "decorators": [],
               "name": "alias",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 210,
-        "end": 220,
-        "raw": "'popsicle'",
-        "value": "popsicle"
-      }
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 299,
       "end": 449,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 314,
+        "end": 336,
+        "value": "popsicle-proxy-agent",
+        "raw": "'popsicle-proxy-agent'"
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 337,
@@ -237,15 +243,6 @@ __ESTREE_TEST__:PASS:
             "type": "ImportDeclaration",
             "start": 343,
             "end": 378,
-            "attributes": [],
-            "importKind": "value",
-            "source": {
-              "type": "Literal",
-              "start": 367,
-              "end": 377,
-              "raw": "'popsicle'",
-              "value": "popsicle"
-            },
             "specifiers": [
               {
                 "type": "ImportSpecifier",
@@ -255,43 +252,53 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 352,
                   "end": 359,
-                  "decorators": [],
                   "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "importKind": "value",
                 "local": {
                   "type": "Identifier",
                   "start": 352,
                   "end": 359,
-                  "decorators": [],
                   "name": "Request",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "importKind": "value"
               }
-            ]
+            ],
+            "source": {
+              "type": "Literal",
+              "start": 367,
+              "end": 377,
+              "value": "popsicle",
+              "raw": "'popsicle'"
+            },
+            "attributes": [],
+            "importKind": "value"
           },
           {
             "type": "TSDeclareFunction",
             "start": 383,
             "end": 427,
-            "async": false,
-            "body": null,
-            "declare": false,
-            "expression": false,
-            "generator": false,
             "id": {
               "type": "Identifier",
               "start": 392,
               "end": 397,
-              "decorators": [],
               "name": "proxy",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "expression": false,
+            "generator": false,
+            "async": false,
             "params": [],
+            "body": null,
+            "declare": false,
+            "typeParameters": null,
             "returnType": {
               "type": "TSTypeAnnotation",
               "start": 399,
@@ -300,14 +307,13 @@ __ESTREE_TEST__:PASS:
                 "type": "TSFunctionType",
                 "start": 401,
                 "end": 426,
+                "typeParameters": null,
                 "params": [
                   {
                     "type": "Identifier",
                     "start": 402,
                     "end": 418,
-                    "decorators": [],
                     "name": "request",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 409,
@@ -316,18 +322,20 @@ __ESTREE_TEST__:PASS:
                         "type": "TSTypeReference",
                         "start": 411,
                         "end": 418,
-                        "typeArguments": null,
                         "typeName": {
                           "type": "Identifier",
                           "start": 411,
                           "end": 418,
-                          "decorators": [],
                           "name": "Request",
-                          "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeArguments": null
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
                 "returnType": {
@@ -339,11 +347,9 @@ __ESTREE_TEST__:PASS:
                     "start": 423,
                     "end": 426
                   }
-                },
-                "typeParameters": null
+                }
               }
-            },
-            "typeParameters": null
+            }
           },
           {
             "type": "TSExportAssignment",
@@ -353,23 +359,17 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 441,
               "end": 446,
-              "decorators": [],
               "name": "proxy",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 314,
-        "end": 336,
-        "raw": "'popsicle-proxy-agent'",
-        "value": "popsicle-proxy-agent"
-      }
+      "global": false
     }
   ],
   "sourceType": "script",

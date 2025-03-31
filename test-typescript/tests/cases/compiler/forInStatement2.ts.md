@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 16,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 16,
-            "decorators": [],
             "name": "expr",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 8,
@@ -31,24 +28,21 @@ __ESTREE_TEST__:PASS:
                 "start": 10,
                 "end": 16
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForInStatement",
       "start": 18,
       "end": 41,
-      "body": {
-        "type": "BlockStatement",
-        "start": 38,
-        "end": 41,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 23,
@@ -58,30 +52,36 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 27,
             "end": 28,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 27,
               "end": 28,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
       "right": {
         "type": "Identifier",
         "start": 32,
         "end": 36,
-        "decorators": [],
         "name": "expr",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 38,
+        "end": 41,
+        "body": []
       }
     }
   ],

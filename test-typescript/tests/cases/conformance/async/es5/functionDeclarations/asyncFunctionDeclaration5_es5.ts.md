@@ -9,7 +9,29 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 44,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 19,
+          "end": 24,
+          "name": "await",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 41,
@@ -17,28 +39,7 @@ __ESTREE_TEST__:PASS:
         "body": []
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 19,
-          "end": 24,
-          "decorators": [],
-          "name": "await",
-          "optional": false,
-          "typeAnnotation": null
-        }
-      ],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 25,
@@ -47,6 +48,15 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypeReference",
           "start": 27,
           "end": 40,
+          "typeName": {
+            "type": "Identifier",
+            "start": 27,
+            "end": 34,
+            "name": "Promise",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
             "start": 34,
@@ -58,19 +68,9 @@ __ESTREE_TEST__:PASS:
                 "end": 39
               }
             ]
-          },
-          "typeName": {
-            "type": "Identifier",
-            "start": 27,
-            "end": 34,
-            "decorators": [],
-            "name": "Promise",
-            "optional": false,
-            "typeAnnotation": null
           }
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

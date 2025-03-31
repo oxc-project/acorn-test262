@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 47,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 47,
-            "decorators": [],
             "name": "data",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 30,
@@ -48,13 +45,16 @@ __ESTREE_TEST__:PASS:
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -65,23 +65,22 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 55,
           "end": 69,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 55,
             "end": 62,
-            "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
                 "start": 56,
                 "end": 61,
-                "decorators": [],
                 "name": "value",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
+            "decorators": [],
             "optional": false,
             "typeAnnotation": null
           },
@@ -89,15 +88,16 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 65,
             "end": 69,
-            "decorators": [],
             "name": "data",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     }
   ],
   "sourceType": "script",

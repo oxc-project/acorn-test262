@@ -14,47 +14,47 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 19,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ClassExpression",
             "start": 8,
             "end": 19,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 14,
+              "end": 15,
+              "name": "C",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": null,
             "body": {
               "type": "ClassBody",
               "start": 16,
               "end": 19,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 14,
-              "end": 15,
-              "decorators": [],
-              "name": "C",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": null,
-            "superTypeArguments": null,
-            "typeParameters": null
-          }
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -65,15 +65,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 25,
           "end": 58,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 25,
             "end": 26,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -84,59 +83,69 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 35,
                 "end": 56,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 35,
                   "end": 38,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "ClassExpression",
                   "start": 40,
                   "end": 56,
-                  "abstract": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 46,
+                    "end": 48,
+                    "name": "C2",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "superClass": null,
                   "body": {
                     "type": "ClassBody",
                     "start": 49,
                     "end": 56,
                     "body": []
                   },
-                  "declare": false,
                   "decorators": [],
-                  "id": {
-                    "type": "Identifier",
-                    "start": 46,
-                    "end": 48,
-                    "decorators": [],
-                    "name": "C2",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
+                  "typeParameters": null,
                   "implements": [],
-                  "superClass": null,
-                  "superTypeArguments": null,
-                  "typeParameters": null
-                }
+                  "abstract": false,
+                  "declare": false,
+                  "superTypeArguments": null
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 60,
       "end": 101,
+      "id": {
+        "type": "Identifier",
+        "start": 67,
+        "end": 68,
+        "name": "M",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 69,
@@ -151,62 +160,53 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 79,
                 "end": 99,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 79,
                   "end": 80,
-                  "decorators": [],
                   "name": "z",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "ClassExpression",
                   "start": 83,
                   "end": 99,
-                  "abstract": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 89,
+                    "end": 91,
+                    "name": "C4",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "superClass": null,
                   "body": {
                     "type": "ClassBody",
                     "start": 92,
                     "end": 99,
                     "body": []
                   },
-                  "declare": false,
                   "decorators": [],
-                  "id": {
-                    "type": "Identifier",
-                    "start": 89,
-                    "end": 91,
-                    "decorators": [],
-                    "name": "C4",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
+                  "typeParameters": null,
                   "implements": [],
-                  "superClass": null,
-                  "superTypeArguments": null,
-                  "typeParameters": null
-                }
+                  "abstract": false,
+                  "declare": false,
+                  "superTypeArguments": null
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 67,
-        "end": 68,
-        "decorators": [],
-        "name": "M",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "script",

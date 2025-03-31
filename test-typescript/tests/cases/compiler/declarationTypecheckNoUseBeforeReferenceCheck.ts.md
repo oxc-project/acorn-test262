@@ -9,12 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 90,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 90,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 14,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": {
+          "type": "Identifier",
+          "start": 23,
+          "end": 29,
+          "name": "Object",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "ClassBody",
           "start": 30,
@@ -24,24 +40,24 @@ __ESTREE_TEST__:PASS:
               "type": "PropertyDefinition",
               "start": 36,
               "end": 69,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "declare": false,
-              "decorators": [],
-              "definite": false,
               "key": {
                 "type": "Identifier",
                 "start": 52,
                 "end": 53,
-                "decorators": [],
                 "name": "p",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
+              "value": null,
+              "decorators": [],
+              "declare": false,
               "override": false,
+              "optional": false,
+              "definite": false,
               "readonly": true,
-              "static": true,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 53,
@@ -58,55 +74,52 @@ __ESTREE_TEST__:PASS:
                   }
                 }
               },
-              "value": null
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 74,
               "end": 88,
-              "accessibility": null,
+              "static": false,
               "computed": true,
-              "decorators": [],
               "key": {
                 "type": "MemberExpression",
                 "start": 75,
                 "end": 78,
-                "computed": false,
                 "object": {
                   "type": "Identifier",
                   "start": 75,
                   "end": 76,
-                  "decorators": [],
                   "name": "C",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "property": {
                   "type": "Identifier",
                   "start": 77,
                   "end": 78,
-                  "decorators": [],
                   "name": "p",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "computed": false,
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 79,
                 "end": 88,
-                "async": false,
-                "body": null,
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [],
+                "body": null,
+                "declare": false,
+                "typeParameters": null,
                 "returnType": {
                   "type": "TSTypeAnnotation",
                   "start": 81,
@@ -116,39 +129,26 @@ __ESTREE_TEST__:PASS:
                     "start": 83,
                     "end": 87
                   }
-                },
-                "typeParameters": null
-              }
+                }
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 13,
-          "end": 14,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": {
-          "type": "Identifier",
-          "start": 23,
-          "end": 29,
-          "decorators": [],
-          "name": "Object",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

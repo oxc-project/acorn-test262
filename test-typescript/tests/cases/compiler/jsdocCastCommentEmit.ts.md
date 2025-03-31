@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 72,
       "end": 124,
+      "id": {
+        "type": "Identifier",
+        "start": 81,
+        "end": 82,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 85,
@@ -23,27 +35,15 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 119,
               "end": 121,
-              "raw": "42",
-              "value": 42
+              "value": 42,
+              "raw": "42"
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 81,
-        "end": 82,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

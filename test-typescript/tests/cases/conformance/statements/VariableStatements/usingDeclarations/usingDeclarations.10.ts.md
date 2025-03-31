@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 18,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 18,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 13,
@@ -31,19 +28,30 @@ __ESTREE_TEST__:PASS:
                 "start": 15,
                 "end": 18
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "IfStatement",
       "start": 20,
       "end": 42,
-      "alternate": null,
+      "test": {
+        "type": "Identifier",
+        "start": 24,
+        "end": 25,
+        "name": "x",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "consequent": {
         "type": "VariableDeclaration",
         "start": 27,
@@ -53,37 +61,29 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 33,
             "end": 41,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 33,
               "end": 34,
-              "decorators": [],
               "name": "a",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "Literal",
               "start": 37,
               "end": 41,
-              "raw": "null",
-              "value": null
-            }
+              "value": null,
+              "raw": "null"
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "using"
+        "kind": "using",
+        "declare": false
       },
-      "test": {
-        "type": "Identifier",
-        "start": 24,
-        "end": 25,
-        "decorators": [],
-        "name": "x",
-        "optional": false,
-        "typeAnnotation": null
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

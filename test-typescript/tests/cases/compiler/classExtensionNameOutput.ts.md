@@ -9,34 +9,40 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 10,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "name": "A",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 8,
         "end": 10,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 7,
-        "decorators": [],
-        "name": "A",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "IfStatement",
       "start": 11,
       "end": 93,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 21,
@@ -46,36 +52,36 @@ __ESTREE_TEST__:PASS:
             "type": "ClassDeclaration",
             "start": 25,
             "end": 45,
-            "abstract": false,
+            "id": {
+              "type": "Identifier",
+              "start": 31,
+              "end": 32,
+              "name": "B",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "superClass": {
+              "type": "Identifier",
+              "start": 41,
+              "end": 42,
+              "name": "A",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
             "body": {
               "type": "ClassBody",
               "start": 43,
               "end": 45,
               "body": []
             },
-            "declare": false,
             "decorators": [],
-            "id": {
-              "type": "Identifier",
-              "start": 31,
-              "end": 32,
-              "decorators": [],
-              "name": "B",
-              "optional": false,
-              "typeAnnotation": null
-            },
+            "typeParameters": null,
             "implements": [],
-            "superClass": {
-              "type": "Identifier",
-              "start": 41,
-              "end": 42,
-              "decorators": [],
-              "name": "A",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "superTypeArguments": null,
-            "typeParameters": null
+            "abstract": false,
+            "declare": false,
+            "superTypeArguments": null
           },
           {
             "type": "VariableDeclaration",
@@ -86,21 +92,24 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 55,
                 "end": 91,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 55,
                   "end": 58,
-                  "decorators": [],
                   "name": "foo",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "FunctionExpression",
                   "start": 61,
                   "end": 91,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 73,
@@ -110,48 +119,39 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 79,
                         "end": 87,
-                        "directive": null,
                         "expression": {
                           "type": "NewExpression",
                           "start": 79,
                           "end": 86,
-                          "arguments": [],
                           "callee": {
                             "type": "Identifier",
                             "start": 83,
                             "end": 84,
-                            "decorators": [],
                             "name": "B",
-                            "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
                           },
+                          "arguments": [],
                           "typeArguments": null
-                        }
+                        },
+                        "directive": null
                       }
                     ]
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "kind": "const",
+            "declare": false
           }
         ]
       },
-      "test": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     }
   ],
   "sourceType": "script",

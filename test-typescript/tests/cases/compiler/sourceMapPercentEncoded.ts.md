@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,27 +45,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 15,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
             "end": 16,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 19,
             "end": 20,
-            "raw": "2",
-            "value": 2
-          }
+            "value": 2,
+            "raw": "2"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -76,27 +76,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 26,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 26,
             "end": 27,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 30,
             "end": 31,
-            "raw": "3",
-            "value": 3
-          }
+            "value": 3,
+            "raw": "3"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

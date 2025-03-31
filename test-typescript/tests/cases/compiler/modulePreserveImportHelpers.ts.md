@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 20,
-            "decorators": [],
             "name": "dec",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -31,31 +28,41 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 20
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 29,
       "end": 46,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 36,
         "end": 46,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 42,
+          "end": 43,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 44,
           "end": 46,
           "body": []
         },
-        "declare": false,
         "decorators": [
           {
             "type": "Decorator",
@@ -65,38 +72,31 @@ __ESTREE_TEST__:PASS:
               "type": "CallExpression",
               "start": 23,
               "end": 28,
-              "arguments": [],
               "callee": {
                 "type": "Identifier",
                 "start": 23,
                 "end": 26,
-                "decorators": [],
                 "name": "dec",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "arguments": [],
               "optional": false,
               "typeArguments": null
             }
           }
         ],
-        "id": {
-          "type": "Identifier",
-          "start": 42,
-          "end": 43,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -114,25 +114,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 58,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 7,
         "end": 58,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 24,
           "end": 36,
-          "decorators": [],
           "name": "__esDecorate",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -142,10 +139,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 40,
               "end": 44,
-              "decorators": [],
               "name": "args",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -167,6 +164,9 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
+        "body": null,
+        "declare": true,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 52,
@@ -176,36 +176,33 @@ __ESTREE_TEST__:PASS:
             "start": 54,
             "end": 57
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 59,
       "end": 122,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 66,
         "end": 122,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 83,
           "end": 100,
-          "decorators": [],
           "name": "__runInitializers",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -215,10 +212,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 104,
               "end": 108,
-              "decorators": [],
               "name": "args",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -240,6 +237,9 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
+        "body": null,
+        "declare": true,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 116,
@@ -249,12 +249,12 @@ __ESTREE_TEST__:PASS:
             "start": 118,
             "end": 121
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

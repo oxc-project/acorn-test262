@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 1,
       "end": 25,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -19,7 +31,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 16,
             "end": 24,
-            "directive": null,
             "expression": {
               "type": "MetaProperty",
               "start": 16,
@@ -28,39 +39,28 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 16,
                 "end": 19,
-                "decorators": [],
                 "name": "new",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "property": {
                 "type": "Identifier",
                 "start": 20,
                 "end": 24,
-                "decorators": [],
                 "name": "targ",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 38,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 7,
-            "decorators": [],
             "name": "obj",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,95 +32,96 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 16,
                 "end": 36,
+                "method": false,
+                "shorthand": false,
                 "computed": true,
                 "key": {
                   "type": "MemberExpression",
                   "start": 17,
                   "end": 32,
-                  "computed": false,
                   "object": {
                     "type": "Identifier",
                     "start": 17,
                     "end": 23,
-                    "decorators": [],
                     "name": "Symbol",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
                   "property": {
                     "type": "Identifier",
                     "start": 24,
                     "end": 32,
-                    "decorators": [],
                     "name": "iterator",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 35,
                   "end": 36,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 68,
       "end": 92,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 68,
         "end": 91,
-        "computed": true,
         "object": {
           "type": "Identifier",
           "start": 68,
           "end": 71,
-          "decorators": [],
           "name": "obj",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
-        "optional": false,
         "property": {
           "type": "MemberExpression",
           "start": 72,
           "end": 90,
-          "computed": true,
           "object": {
             "type": "Identifier",
             "start": 72,
             "end": 78,
-            "decorators": [],
             "name": "Symbol",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Literal",
             "start": 79,
             "end": 89,
-            "raw": "\"nonsense\"",
-            "value": "nonsense"
-          }
-        }
-      }
+            "value": "nonsense",
+            "raw": "\"nonsense\""
+          },
+          "computed": true,
+          "optional": false
+        },
+        "computed": true,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

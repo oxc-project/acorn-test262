@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 52,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 18,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 19,
@@ -18,26 +27,26 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 25,
             "end": 50,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 32,
               "end": 50,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 41,
                 "end": 42,
-                "decorators": [],
                 "name": "x",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "expression": false,
+              "generator": false,
+              "async": false,
               "params": [],
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 44,
@@ -47,54 +56,45 @@ __ESTREE_TEST__:PASS:
                   "start": 46,
                   "end": 49
                 }
-              },
-              "typeParameters": null
+              }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 18,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ClassDeclaration",
       "start": 53,
       "end": 66,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 59,
+        "end": 62,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 63,
         "end": 66,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 59,
-        "end": 62,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

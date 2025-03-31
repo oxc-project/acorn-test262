@@ -9,16 +9,25 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 11,
       "end": 54,
+      "id": {
+        "type": "Identifier",
+        "start": 29,
+        "end": 32,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 33,
@@ -33,14 +42,11 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 41,
                 "end": 51,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 41,
                   "end": 51,
-                  "decorators": [],
                   "name": "await",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 46,
@@ -50,28 +56,22 @@ __ESTREE_TEST__:PASS:
                       "start": 48,
                       "end": 51
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "const"
+            "kind": "const",
+            "declare": false
           }
         ]
       },
+      "kind": "namespace",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 29,
-        "end": 32,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSImportEqualsDeclaration",
@@ -81,12 +81,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 120,
         "end": 125,
-        "decorators": [],
         "name": "await",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
         "start": 128,
@@ -95,21 +94,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 128,
           "end": 131,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 132,
           "end": 137,
-          "decorators": [],
           "name": "await",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

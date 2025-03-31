@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "c",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -33,40 +32,40 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 10,
                 "end": 18,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 10,
                   "end": 15,
-                  "decorators": [],
                   "name": "bogus",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 17,
                   "end": 18,
-                  "raw": "0",
-                  "value": 0
-                }
+                  "value": 0,
+                  "raw": "0"
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 22,
@@ -76,7 +75,6 @@ __ESTREE_TEST__:PASS:
           "type": "ArrayPattern",
           "start": 22,
           "end": 28,
-          "decorators": [],
           "elements": [
             {
               "type": "RestElement",
@@ -86,10 +84,10 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 26,
                 "end": 27,
-                "decorators": [],
                 "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "decorators": [],
               "optional": false,
@@ -97,6 +95,7 @@ __ESTREE_TEST__:PASS:
               "value": null
             }
           ],
+          "decorators": [],
           "optional": false,
           "typeAnnotation": null
         },
@@ -109,19 +108,20 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 32,
               "end": 34,
-              "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "raw": "\"\""
             },
             {
               "type": "Literal",
               "start": 36,
               "end": 37,
-              "raw": "0",
-              "value": 0
+              "value": 0,
+              "raw": "0"
             }
           ]
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

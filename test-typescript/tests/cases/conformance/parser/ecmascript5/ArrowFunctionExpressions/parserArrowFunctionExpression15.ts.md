@@ -9,46 +9,46 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "ConditionalExpression",
         "start": 0,
         "end": 39,
-        "alternate": {
+        "test": {
           "type": "Literal",
-          "start": 35,
-          "end": 39,
-          "raw": "null",
-          "value": null
+          "start": 0,
+          "end": 5,
+          "value": false,
+          "raw": "false"
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
           "start": 8,
           "end": 32,
-          "async": false,
-          "body": {
-            "type": "Identifier",
-            "start": 27,
-            "end": 32,
-            "decorators": [],
-            "name": "param",
-            "optional": false,
-            "typeAnnotation": null
-          },
+          "id": null,
           "expression": true,
           "generator": false,
-          "id": null,
+          "async": false,
           "params": [
             {
               "type": "Identifier",
               "start": 9,
               "end": 14,
-              "decorators": [],
               "name": "param",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             }
           ],
+          "body": {
+            "type": "Identifier",
+            "start": 27,
+            "end": 32,
+            "name": "param",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "typeParameters": null,
           "returnType": {
             "type": "TSTypeAnnotation",
             "start": 15,
@@ -58,17 +58,17 @@ __ESTREE_TEST__:PASS:
               "start": 17,
               "end": 23
             }
-          },
-          "typeParameters": null
+          }
         },
-        "test": {
+        "alternate": {
           "type": "Literal",
-          "start": 0,
-          "end": 5,
-          "raw": "false",
-          "value": false
+          "start": 35,
+          "end": 39,
+          "value": null,
+          "raw": "null"
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

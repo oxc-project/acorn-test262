@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 15,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 15,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -36,13 +33,16 @@ __ESTREE_TEST__:PASS:
                   "end": 13
                 }
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -53,40 +53,39 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 21,
           "end": 35,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 21,
             "end": 31,
-            "decorators": [],
             "elements": [
               {
                 "type": "AssignmentPattern",
                 "start": 22,
                 "end": 30,
-                "decorators": [],
                 "left": {
                   "type": "Identifier",
                   "start": 25,
                   "end": 26,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "optional": false,
                 "right": {
                   "type": "Identifier",
                   "start": 29,
                   "end": 30,
-                  "decorators": [],
                   "name": "a",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
+                "decorators": [],
+                "optional": false,
                 "typeAnnotation": null
               }
             ],
+            "decorators": [],
             "optional": false,
             "typeAnnotation": null
           },
@@ -94,15 +93,16 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 34,
             "end": 35,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

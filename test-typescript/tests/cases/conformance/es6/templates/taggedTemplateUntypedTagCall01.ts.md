@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 17,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 17,
-            "decorators": [],
             "name": "tag",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 7,
@@ -30,34 +27,45 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 9,
                 "end": 17,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 9,
                   "end": 17,
-                  "decorators": [],
                   "name": "Function",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 19,
       "end": 38,
-      "directive": null,
       "expression": {
         "type": "TaggedTemplateExpression",
         "start": 19,
         "end": 37,
+        "tag": {
+          "type": "Identifier",
+          "start": 19,
+          "end": 22,
+          "name": "tag",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "quasi": {
           "type": "TemplateLiteral",
           "start": 23,
@@ -68,25 +76,17 @@ __ESTREE_TEST__:PASS:
               "type": "TemplateElement",
               "start": 23,
               "end": 37,
-              "tail": true,
               "value": {
                 "cooked": "Hello world!",
                 "raw": "Hello world!"
-              }
+              },
+              "tail": true
             }
           ]
         },
-        "tag": {
-          "type": "Identifier",
-          "start": 19,
-          "end": 22,
-          "decorators": [],
-          "name": "tag",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

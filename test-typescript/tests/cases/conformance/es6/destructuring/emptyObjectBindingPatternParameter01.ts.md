@@ -9,7 +9,29 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 35,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "ObjectPattern",
+          "start": 11,
+          "end": 13,
+          "properties": [],
+          "decorators": [],
+          "optional": false,
+          "typeAnnotation": null
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 15,
@@ -24,81 +46,59 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 25,
                 "end": 26,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 25,
                   "end": 26,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               },
               {
                 "type": "VariableDeclarator",
                 "start": 28,
                 "end": 29,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 28,
                   "end": 29,
-                  "decorators": [],
                   "name": "y",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               },
               {
                 "type": "VariableDeclarator",
                 "start": 31,
                 "end": 32,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 31,
                   "end": 32,
-                  "decorators": [],
                   "name": "z",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "ObjectPattern",
-          "start": 11,
-          "end": 13,
-          "decorators": [],
-          "optional": false,
-          "properties": [],
-          "typeAnnotation": null
-        }
-      ],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

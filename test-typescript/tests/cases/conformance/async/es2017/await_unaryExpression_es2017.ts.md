@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 21,
       "end": 66,
+      "id": {
+        "type": "Identifier",
+        "start": 36,
+        "end": 39,
+        "name": "bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 42,
@@ -19,11 +31,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 48,
             "end": 58,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 48,
               "end": 57,
+              "operator": "!",
+              "prefix": true,
               "argument": {
                 "type": "AwaitExpression",
                 "start": 49,
@@ -32,37 +45,36 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 55,
                   "end": 57,
-                  "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
-              },
-              "operator": "!",
-              "prefix": true
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 36,
-        "end": 39,
-        "decorators": [],
-        "name": "bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 68,
       "end": 114,
+      "id": {
+        "type": "Identifier",
+        "start": 83,
+        "end": 87,
+        "name": "bar1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 90,
@@ -72,11 +84,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 96,
             "end": 106,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 96,
               "end": 105,
+              "operator": "+",
+              "prefix": true,
               "argument": {
                 "type": "AwaitExpression",
                 "start": 97,
@@ -85,37 +98,36 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 103,
                   "end": 105,
-                  "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
-              },
-              "operator": "+",
-              "prefix": true
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 83,
-        "end": 87,
-        "decorators": [],
-        "name": "bar1",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 116,
       "end": 162,
+      "id": {
+        "type": "Identifier",
+        "start": 131,
+        "end": 135,
+        "name": "bar3",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 138,
@@ -125,11 +137,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 144,
             "end": 154,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 144,
               "end": 153,
+              "operator": "-",
+              "prefix": true,
               "argument": {
                 "type": "AwaitExpression",
                 "start": 145,
@@ -138,37 +151,36 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 151,
                   "end": 153,
-                  "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
-              },
-              "operator": "-",
-              "prefix": true
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 131,
-        "end": 135,
-        "decorators": [],
-        "name": "bar3",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 164,
       "end": 210,
+      "id": {
+        "type": "Identifier",
+        "start": 179,
+        "end": 183,
+        "name": "bar4",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": true,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 186,
@@ -178,11 +190,12 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 192,
             "end": 202,
-            "directive": null,
             "expression": {
               "type": "UnaryExpression",
               "start": 192,
               "end": 201,
+              "operator": "~",
+              "prefix": true,
               "argument": {
                 "type": "AwaitExpression",
                 "start": 193,
@@ -191,31 +204,18 @@ __ESTREE_TEST__:PASS:
                   "type": "Literal",
                   "start": 199,
                   "end": 201,
-                  "raw": "42",
-                  "value": 42
+                  "value": 42,
+                  "raw": "42"
                 }
-              },
-              "operator": "~",
-              "prefix": true
-            }
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 179,
-        "end": 183,
-        "decorators": [],
-        "name": "bar4",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

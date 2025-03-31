@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -24,14 +24,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 16,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 16,
             "end": 25,
-            "decorators": [],
             "name": "x",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 17,
@@ -41,19 +38,21 @@ __ESTREE_TEST__:PASS:
                 "start": 19,
                 "end": 25
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 28,
       "end": 49,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 35,
@@ -63,14 +62,11 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 39,
             "end": 48,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 39,
               "end": 48,
-              "decorators": [],
               "name": "y",
-              "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
                 "start": 40,
@@ -80,17 +76,21 @@ __ESTREE_TEST__:PASS:
                   "start": 42,
                   "end": 48
                 }
-              }
+              },
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

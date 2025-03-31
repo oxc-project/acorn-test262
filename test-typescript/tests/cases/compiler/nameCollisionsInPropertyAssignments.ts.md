@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,15 +45,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 34,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 15,
-            "decorators": [],
             "name": "y",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
@@ -64,25 +63,27 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 20,
                 "end": 32,
+                "method": true,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 20,
                   "end": 21,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": true,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
                   "start": 21,
                   "end": 32,
+                  "id": null,
+                  "expression": false,
+                  "generator": false,
                   "async": false,
+                  "params": [],
                   "body": {
                     "type": "BlockStatement",
                     "start": 24,
@@ -92,41 +93,40 @@ __ESTREE_TEST__:PASS:
                         "type": "ExpressionStatement",
                         "start": 26,
                         "end": 30,
-                        "directive": null,
                         "expression": {
                           "type": "UpdateExpression",
                           "start": 26,
                           "end": 29,
+                          "operator": "++",
+                          "prefix": false,
                           "argument": {
                             "type": "Identifier",
                             "start": 26,
                             "end": 27,
-                            "decorators": [],
                             "name": "x",
-                            "optional": false,
-                            "typeAnnotation": null
-                          },
-                          "operator": "++",
-                          "prefix": false
-                        }
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          }
+                        },
+                        "directive": null
                       }
                     ]
                   },
                   "declare": false,
-                  "expression": false,
-                  "generator": false,
-                  "id": null,
-                  "params": [],
-                  "returnType": null,
-                  "typeParameters": null
-                }
+                  "typeParameters": null,
+                  "returnType": null
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

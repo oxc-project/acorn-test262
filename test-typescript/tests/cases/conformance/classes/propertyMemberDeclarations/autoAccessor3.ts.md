@@ -9,7 +9,16 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 0,
       "end": 116,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 8,
+        "name": "C1",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 9,
@@ -19,22 +28,18 @@ __ESTREE_TEST__:PASS:
             "type": "AccessorProperty",
             "start": 15,
             "end": 33,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 24,
               "end": 27,
-              "raw": "\"w\"",
-              "value": "w"
+              "value": "w",
+              "raw": "\"w\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": false,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 27,
@@ -45,57 +50,57 @@ __ESTREE_TEST__:PASS:
                 "end": 32
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 38,
             "end": 55,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 47,
               "end": 50,
-              "raw": "\"x\"",
-              "value": "x"
+              "value": "x",
+              "raw": "\"x\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 53,
               "end": 54,
-              "raw": "1",
-              "value": 1
-            }
+              "value": 1,
+              "raw": "1"
+            },
+            "computed": false,
+            "static": false,
+            "decorators": [],
+            "definite": false,
+            "typeAnnotation": null,
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 60,
             "end": 85,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 76,
               "end": 79,
-              "raw": "\"y\"",
-              "value": "y"
+              "value": "y",
+              "raw": "\"y\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
+            "value": null,
+            "computed": false,
             "static": true,
+            "decorators": [],
+            "definite": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 79,
@@ -106,54 +111,49 @@ __ESTREE_TEST__:PASS:
                 "end": 84
               }
             },
-            "value": null
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           },
           {
             "type": "AccessorProperty",
             "start": 90,
             "end": 114,
-            "accessibility": null,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
             "key": {
               "type": "Literal",
               "start": 106,
               "end": 109,
-              "raw": "\"z\"",
-              "value": "z"
+              "value": "z",
+              "raw": "\"z\""
             },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": true,
-            "typeAnnotation": null,
             "value": {
               "type": "Literal",
               "start": 112,
               "end": 113,
-              "raw": "2",
-              "value": 2
-            }
+              "value": 2,
+              "raw": "2"
+            },
+            "computed": false,
+            "static": true,
+            "decorators": [],
+            "definite": false,
+            "typeAnnotation": null,
+            "accessibility": null,
+            "declare": false,
+            "optional": false,
+            "override": false,
+            "readonly": false
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 6,
-        "end": 8,
-        "decorators": [],
-        "name": "C1",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

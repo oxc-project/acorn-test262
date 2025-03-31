@@ -9,11 +9,11 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 10,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -24,89 +24,89 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 17,
           "end": 43,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 17,
             "end": 23,
-            "decorators": [],
             "name": "Symbol",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "MemberExpression",
             "start": 26,
             "end": 43,
-            "computed": false,
             "object": {
               "type": "Identifier",
               "start": 26,
               "end": 36,
-              "decorators": [],
               "name": "globalThis",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
             "property": {
               "type": "Identifier",
               "start": 37,
               "end": 43,
-              "decorators": [],
               "name": "Symbol",
-              "optional": false,
-              "typeAnnotation": null
-            }
-          }
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "computed": false,
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 45,
       "end": 65,
-      "directive": null,
       "expression": {
         "type": "MemberExpression",
         "start": 45,
         "end": 64,
-        "computed": true,
         "object": {
           "type": "ArrayExpression",
           "start": 45,
           "end": 47,
           "elements": []
         },
-        "optional": false,
         "property": {
           "type": "MemberExpression",
           "start": 48,
           "end": 63,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 48,
             "end": 54,
-            "decorators": [],
             "name": "Symbol",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 55,
             "end": 63,
-            "decorators": [],
             "name": "iterator",
-            "optional": false,
-            "typeAnnotation": null
-          }
-        }
-      }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
+        },
+        "computed": true,
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

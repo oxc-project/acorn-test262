@@ -13,10 +13,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 28,
         "end": 29,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     },
     {
@@ -28,14 +28,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 43,
           "end": 52,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 43,
             "end": 52,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 44,
@@ -45,13 +42,16 @@ __ESTREE_TEST__:PASS:
                 "start": 46,
                 "end": 52
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     }
   ],
   "sourceType": "script",

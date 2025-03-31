@@ -9,11 +9,39 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 29,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 7,
         "end": 29,
+        "id": {
+          "type": "Identifier",
+          "start": 12,
+          "end": 14,
+          "name": "E1",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 21,
+            "end": 27,
+            "id": {
+              "type": "Identifier",
+              "start": 21,
+              "end": 27,
+              "name": "value1",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          }
+        ],
+        "const": false,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 15,
@@ -23,45 +51,63 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 21,
               "end": 27,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 21,
                 "end": 27,
-                "decorators": [],
                 "name": "value1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
-        },
-        "const": false,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 12,
-          "end": 14,
-          "decorators": [],
-          "name": "E1",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 31,
       "end": 66,
-      "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
         "start": 38,
         "end": 66,
+        "id": {
+          "type": "Identifier",
+          "start": 49,
+          "end": 51,
+          "name": "E2",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "members": [
+          {
+            "type": "TSEnumMember",
+            "start": 58,
+            "end": 64,
+            "id": {
+              "type": "Identifier",
+              "start": 58,
+              "end": 64,
+              "name": "value1",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "initializer": null,
+            "computed": false
+          }
+        ],
+        "const": true,
+        "declare": false,
         "body": {
           "type": "TSEnumBody",
           "start": 52,
@@ -71,35 +117,25 @@ __ESTREE_TEST__:PASS:
               "type": "TSEnumMember",
               "start": 58,
               "end": 64,
-              "computed": false,
               "id": {
                 "type": "Identifier",
                 "start": 58,
                 "end": 64,
-                "decorators": [],
                 "name": "value1",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "initializer": null
+              "initializer": null,
+              "computed": false
             }
           ]
-        },
-        "const": true,
-        "declare": false,
-        "id": {
-          "type": "Identifier",
-          "start": 49,
-          "end": 51,
-          "decorators": [],
-          "name": "E2",
-          "optional": false,
-          "typeAnnotation": null
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

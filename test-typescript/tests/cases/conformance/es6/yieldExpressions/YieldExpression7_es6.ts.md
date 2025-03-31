@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 31,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 13,
+        "name": "foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": true,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 16,
@@ -19,40 +31,28 @@ __ESTREE_TEST__:PASS:
             "type": "ExpressionStatement",
             "start": 20,
             "end": 29,
-            "directive": null,
             "expression": {
               "type": "YieldExpression",
               "start": 20,
               "end": 29,
+              "delegate": false,
               "argument": {
                 "type": "Identifier",
                 "start": 26,
                 "end": 29,
-                "decorators": [],
                 "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "delegate": false
-            }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              }
+            },
+            "directive": null
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": true,
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 13,
-        "decorators": [],
-        "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

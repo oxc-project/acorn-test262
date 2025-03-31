@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 31,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 31,
-            "decorators": [],
             "name": "union",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 9,
@@ -40,6 +37,15 @@ __ESTREE_TEST__:PASS:
                     "type": "TSTypeReference",
                     "start": 20,
                     "end": 31,
+                    "typeName": {
+                      "type": "Identifier",
+                      "start": 20,
+                      "end": 23,
+                      "name": "Set",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
                       "start": 23,
@@ -51,38 +57,26 @@ __ESTREE_TEST__:PASS:
                           "end": 30
                         }
                       ]
-                    },
-                    "typeName": {
-                      "type": "Identifier",
-                      "start": 20,
-                      "end": 23,
-                      "decorators": [],
-                      "name": "Set",
-                      "optional": false,
-                      "typeAnnotation": null
                     }
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ForOfStatement",
       "start": 32,
       "end": 58,
       "await": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 55,
-        "end": 58,
-        "body": []
-      },
       "left": {
         "type": "VariableDeclaration",
         "start": 37,
@@ -92,30 +86,36 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 43,
             "end": 44,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 43,
               "end": 44,
-              "decorators": [],
               "name": "e",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "init": null
+            "init": null,
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
       "right": {
         "type": "Identifier",
         "start": 48,
         "end": 53,
-        "decorators": [],
         "name": "union",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "start": 55,
+        "end": 58,
+        "body": []
       }
     }
   ],

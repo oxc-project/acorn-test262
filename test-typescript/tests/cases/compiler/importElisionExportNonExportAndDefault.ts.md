@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 39,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 23,
-        "end": 38,
-        "raw": "\"./MyComponent\"",
-        "value": "./MyComponent"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,23 +18,40 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 17,
-            "decorators": [],
             "name": "MyFunction",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 23,
+        "end": 38,
+        "value": "./MyComponent",
+        "raw": "\"./MyComponent\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 41,
       "end": 74,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 41,
         "end": 73,
+        "callee": {
+          "type": "Identifier",
+          "start": 41,
+          "end": 51,
+          "name": "MyFunction",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ObjectExpression",
@@ -54,43 +62,35 @@ __ESTREE_TEST__:PASS:
                 "type": "Property",
                 "start": 53,
                 "end": 71,
+                "method": false,
+                "shorthand": false,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
                   "start": 53,
                   "end": 56,
-                  "decorators": [],
                   "name": "msg",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
                 "value": {
                   "type": "Literal",
                   "start": 58,
                   "end": 71,
-                  "raw": "\"Hello World\"",
-                  "value": "Hello World"
-                }
+                  "value": "Hello World",
+                  "raw": "\"Hello World\""
+                },
+                "kind": "init",
+                "optional": false
               }
             ]
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 41,
-          "end": 51,
-          "decorators": [],
-          "name": "MyFunction",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",
@@ -108,6 +108,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 37,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 20,
+        "name": "MyFunction",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 21,
@@ -117,20 +128,18 @@ __ESTREE_TEST__:PASS:
             "type": "TSPropertySignature",
             "start": 23,
             "end": 35,
-            "accessibility": null,
             "computed": false,
+            "optional": false,
+            "readonly": false,
             "key": {
               "type": "Identifier",
               "start": 23,
               "end": 26,
-              "decorators": [],
               "name": "msg",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
-            "optional": false,
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 26,
@@ -140,28 +149,18 @@ __ESTREE_TEST__:PASS:
                 "start": 28,
                 "end": 34
               }
-            }
+            },
+            "accessibility": null,
+            "static": false
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 20,
-        "decorators": [],
-        "name": "MyFunction",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 39,
       "end": 126,
-      "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
         "start": 46,
@@ -171,25 +170,111 @@ __ESTREE_TEST__:PASS:
             "type": "VariableDeclarator",
             "start": 52,
             "end": 125,
-            "definite": false,
             "id": {
               "type": "Identifier",
               "start": 52,
               "end": 62,
-              "decorators": [],
               "name": "MyFunction",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "init": {
               "type": "ArrowFunctionExpression",
               "start": 65,
               "end": 125,
+              "id": null,
+              "expression": true,
+              "generator": false,
               "async": false,
+              "params": [
+                {
+                  "type": "ObjectPattern",
+                  "start": 66,
+                  "end": 85,
+                  "properties": [
+                    {
+                      "type": "Property",
+                      "start": 68,
+                      "end": 71,
+                      "method": false,
+                      "shorthand": true,
+                      "computed": false,
+                      "key": {
+                        "type": "Identifier",
+                        "start": 68,
+                        "end": 71,
+                        "name": "msg",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "value": {
+                        "type": "Identifier",
+                        "start": 68,
+                        "end": 71,
+                        "name": "msg",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "kind": "init",
+                      "optional": false
+                    }
+                  ],
+                  "decorators": [],
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 73,
+                    "end": 85,
+                    "typeAnnotation": {
+                      "type": "TSTypeReference",
+                      "start": 75,
+                      "end": 85,
+                      "typeName": {
+                        "type": "Identifier",
+                        "start": 75,
+                        "end": 85,
+                        "name": "MyFunction",
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
+                    }
+                  }
+                }
+              ],
               "body": {
                 "type": "CallExpression",
                 "start": 90,
                 "end": 125,
+                "callee": {
+                  "type": "MemberExpression",
+                  "start": 90,
+                  "end": 101,
+                  "object": {
+                    "type": "Identifier",
+                    "start": 90,
+                    "end": 97,
+                    "name": "console",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "start": 98,
+                    "end": 101,
+                    "name": "log",
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
+                  },
+                  "computed": false,
+                  "optional": false
+                },
                 "arguments": [
                   {
                     "type": "TemplateLiteral",
@@ -200,10 +285,10 @@ __ESTREE_TEST__:PASS:
                         "type": "Identifier",
                         "start": 118,
                         "end": 121,
-                        "decorators": [],
                         "name": "msg",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       }
                     ],
                     "quasis": [
@@ -211,126 +296,41 @@ __ESTREE_TEST__:PASS:
                         "type": "TemplateElement",
                         "start": 102,
                         "end": 118,
-                        "tail": false,
                         "value": {
                           "cooked": "Got message \"",
                           "raw": "Got message \""
-                        }
+                        },
+                        "tail": false
                       },
                       {
                         "type": "TemplateElement",
                         "start": 121,
                         "end": 124,
-                        "tail": true,
                         "value": {
                           "cooked": "\"",
                           "raw": "\""
-                        }
+                        },
+                        "tail": true
                       }
                     ]
                   }
                 ],
-                "callee": {
-                  "type": "MemberExpression",
-                  "start": 90,
-                  "end": 101,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 90,
-                    "end": 97,
-                    "decorators": [],
-                    "name": "console",
-                    "optional": false,
-                    "typeAnnotation": null
-                  },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 98,
-                    "end": 101,
-                    "decorators": [],
-                    "name": "log",
-                    "optional": false,
-                    "typeAnnotation": null
-                  }
-                },
                 "optional": false,
                 "typeArguments": null
               },
-              "expression": true,
-              "generator": false,
-              "id": null,
-              "params": [
-                {
-                  "type": "ObjectPattern",
-                  "start": 66,
-                  "end": 85,
-                  "decorators": [],
-                  "optional": false,
-                  "properties": [
-                    {
-                      "type": "Property",
-                      "start": 68,
-                      "end": 71,
-                      "computed": false,
-                      "key": {
-                        "type": "Identifier",
-                        "start": 68,
-                        "end": 71,
-                        "decorators": [],
-                        "name": "msg",
-                        "optional": false,
-                        "typeAnnotation": null
-                      },
-                      "kind": "init",
-                      "method": false,
-                      "optional": false,
-                      "shorthand": true,
-                      "value": {
-                        "type": "Identifier",
-                        "start": 68,
-                        "end": 71,
-                        "decorators": [],
-                        "name": "msg",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  ],
-                  "typeAnnotation": {
-                    "type": "TSTypeAnnotation",
-                    "start": 73,
-                    "end": 85,
-                    "typeAnnotation": {
-                      "type": "TSTypeReference",
-                      "start": 75,
-                      "end": 85,
-                      "typeArguments": null,
-                      "typeName": {
-                        "type": "Identifier",
-                        "start": 75,
-                        "end": 85,
-                        "decorators": [],
-                        "name": "MyFunction",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
-                    }
-                  }
-                }
-              ],
-              "returnType": null,
-              "typeParameters": null
-            }
+              "typeParameters": null,
+              "returnType": null
+            },
+            "definite": false
           }
         ],
-        "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "declare": false
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -340,10 +340,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 142,
         "end": 152,
-        "decorators": [],
         "name": "MyFunction",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }

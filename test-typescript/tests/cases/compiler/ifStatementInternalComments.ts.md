@@ -9,30 +9,31 @@ __ESTREE_TEST__:PASS:
       "type": "IfStatement",
       "start": 6,
       "end": 44,
-      "alternate": null,
+      "test": {
+        "type": "Literal",
+        "start": 23,
+        "end": 27,
+        "value": true,
+        "raw": "true"
+      },
       "consequent": {
         "type": "BlockStatement",
         "start": 42,
         "end": 44,
         "body": []
       },
-      "test": {
-        "type": "Literal",
-        "start": 23,
-        "end": 27,
-        "raw": "true",
-        "value": true
-      }
+      "alternate": null
     },
     {
       "type": "IfStatement",
       "start": 52,
       "end": 111,
-      "alternate": {
-        "type": "BlockStatement",
-        "start": 109,
-        "end": 111,
-        "body": []
+      "test": {
+        "type": "Literal",
+        "start": 69,
+        "end": 73,
+        "value": true,
+        "raw": "true"
       },
       "consequent": {
         "type": "BlockStatement",
@@ -40,12 +41,11 @@ __ESTREE_TEST__:PASS:
         "end": 90,
         "body": []
       },
-      "test": {
-        "type": "Literal",
-        "start": 69,
-        "end": 73,
-        "raw": "true",
-        "value": true
+      "alternate": {
+        "type": "BlockStatement",
+        "start": 109,
+        "end": 111,
+        "body": []
       }
     }
   ],

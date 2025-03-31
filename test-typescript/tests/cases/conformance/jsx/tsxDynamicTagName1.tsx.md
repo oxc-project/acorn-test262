@@ -14,57 +14,36 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 20,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 13,
-            "decorators": [],
             "name": "CustomTag",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 16,
             "end": 20,
-            "raw": "\"h1\"",
-            "value": "h1"
-          }
+            "value": "h1",
+            "raw": "\"h1\""
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 22,
       "end": 58,
-      "directive": null,
       "expression": {
         "type": "JSXElement",
         "start": 22,
         "end": 58,
-        "children": [
-          {
-            "type": "JSXText",
-            "start": 33,
-            "end": 46,
-            "raw": " Hello World ",
-            "value": " Hello World "
-          }
-        ],
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 46,
-          "end": 58,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 48,
-            "end": 57,
-            "name": "CustomTag"
-          }
-        },
         "openingElement": {
           "type": "JSXOpeningElement",
           "start": 22,
@@ -78,8 +57,29 @@ __ESTREE_TEST__:PASS:
           },
           "selfClosing": false,
           "typeArguments": null
-        }
-      }
+        },
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "start": 46,
+          "end": 58,
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 48,
+            "end": 57,
+            "name": "CustomTag"
+          }
+        },
+        "children": [
+          {
+            "type": "JSXText",
+            "start": 33,
+            "end": 46,
+            "value": " Hello World ",
+            "raw": " Hello World "
+          }
+        ]
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

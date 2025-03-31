@@ -9,6 +9,41 @@ __ESTREE_TEST__:PASS:
       "type": "TSEnumDeclaration",
       "start": 0,
       "end": 39,
+      "id": {
+        "type": "Identifier",
+        "start": 5,
+        "end": 16,
+        "name": "EnumExample",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "members": [
+        {
+          "type": "TSEnumMember",
+          "start": 23,
+          "end": 36,
+          "id": {
+            "type": "Identifier",
+            "start": 23,
+            "end": 27,
+            "name": "TEST",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "initializer": {
+            "type": "Literal",
+            "start": 30,
+            "end": 36,
+            "value": "TEST",
+            "raw": "'TEST'"
+          },
+          "computed": false
+        }
+      ],
+      "const": false,
+      "declare": false,
       "body": {
         "type": "TSEnumBody",
         "start": 17,
@@ -18,36 +53,25 @@ __ESTREE_TEST__:PASS:
             "type": "TSEnumMember",
             "start": 23,
             "end": 36,
-            "computed": false,
             "id": {
               "type": "Identifier",
               "start": 23,
               "end": 27,
-              "decorators": [],
               "name": "TEST",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "initializer": {
               "type": "Literal",
               "start": 30,
               "end": 36,
-              "raw": "'TEST'",
-              "value": "TEST"
-            }
+              "value": "TEST",
+              "raw": "'TEST'"
+            },
+            "computed": false
           }
         ]
-      },
-      "const": false,
-      "declare": false,
-      "id": {
-        "type": "Identifier",
-        "start": 5,
-        "end": 16,
-        "decorators": [],
-        "name": "EnumExample",
-        "optional": false,
-        "typeAnnotation": null
       }
     },
     {
@@ -58,10 +82,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 56,
         "end": 67,
-        "decorators": [],
         "name": "EnumExample",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -81,15 +105,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 40,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 24,
-        "end": 39,
-        "raw": "'./EnumExample'",
-        "value": "./EnumExample"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -99,13 +114,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 18,
-            "decorators": [],
             "name": "EnumExample",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 39,
+        "value": "./EnumExample",
+        "raw": "'./EnumExample'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -120,42 +144,42 @@ __ESTREE_TEST__:PASS:
             "type": "Property",
             "start": 63,
             "end": 85,
+            "method": false,
+            "shorthand": false,
             "computed": true,
             "key": {
               "type": "MemberExpression",
               "start": 64,
               "end": 80,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 64,
                 "end": 75,
-                "decorators": [],
                 "name": "EnumExample",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 76,
                 "end": 80,
-                "decorators": [],
                 "name": "TEST",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
-            "kind": "init",
-            "method": false,
-            "optional": false,
-            "shorthand": false,
             "value": {
               "type": "ObjectExpression",
               "start": 83,
               "end": 85,
               "properties": []
-            }
+            },
+            "kind": "init",
+            "optional": false
           }
         ]
       },

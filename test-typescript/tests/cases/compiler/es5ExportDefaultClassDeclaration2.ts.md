@@ -13,7 +13,8 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 15,
         "end": 41,
-        "abstract": false,
+        "id": null,
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 21,
@@ -23,27 +24,27 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 27,
               "end": 39,
-              "accessibility": null,
+              "static": false,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 27,
                 "end": 33,
-                "decorators": [],
                 "name": "method",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": false,
               "value": {
                 "type": "FunctionExpression",
                 "start": 33,
                 "end": 39,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 36,
@@ -51,23 +52,22 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": false,
         "decorators": [],
-        "id": null,
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

@@ -9,7 +9,19 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 130,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "name": "f",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 13,
@@ -24,27 +36,27 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 23,
                 "end": 30,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 23,
                   "end": 24,
-                  "decorators": [],
                   "name": "x",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
                   "start": 27,
                   "end": 30,
-                  "raw": "100",
-                  "value": 100
-                }
+                  "value": 100,
+                  "raw": "100"
+                },
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "declare": false
           },
           {
             "type": "TryStatement",
@@ -63,11 +75,31 @@ __ESTREE_TEST__:PASS:
                     "type": "Literal",
                     "start": 56,
                     "end": 61,
-                    "raw": "\"WAT\"",
-                    "value": "WAT"
+                    "value": "WAT",
+                    "raw": "\"WAT\""
                   }
                 }
               ]
+            },
+            "handler": {
+              "type": "CatchClause",
+              "start": 72,
+              "end": 90,
+              "param": {
+                "type": "Identifier",
+                "start": 79,
+                "end": 80,
+                "name": "e",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "body": {
+                "type": "BlockStatement",
+                "start": 82,
+                "end": 90,
+                "body": []
+              }
             },
             "finalizer": {
               "type": "BlockStatement",
@@ -82,52 +114,20 @@ __ESTREE_TEST__:PASS:
                     "type": "Identifier",
                     "start": 120,
                     "end": 121,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   }
                 }
               ]
-            },
-            "handler": {
-              "type": "CatchClause",
-              "start": 72,
-              "end": 90,
-              "body": {
-                "type": "BlockStatement",
-                "start": 82,
-                "end": 90,
-                "body": []
-              },
-              "param": {
-                "type": "Identifier",
-                "start": 79,
-                "end": 80,
-                "decorators": [],
-                "name": "e",
-                "optional": false,
-                "typeAnnotation": null
-              }
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 10,
-        "decorators": [],
-        "name": "f",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 46,
       "end": 78,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 68,
-        "end": 77,
-        "raw": "\"./other\"",
-        "value": "./other"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -27,23 +18,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 55,
             "end": 60,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 55,
             "end": 60,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 68,
+        "end": 77,
+        "value": "./other",
+        "raw": "\"./other\""
+      },
+      "attributes": [],
+      "importKind": "value"
     }
   ],
   "sourceType": "module",
@@ -66,14 +66,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 25,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 25,
-            "decorators": [],
             "name": "_await",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 20,
@@ -83,48 +80,51 @@ __ESTREE_TEST__:PASS:
                 "start": 22,
                 "end": 25
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 27,
       "end": 54,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 36,
           "end": 51,
-          "exported": {
-            "type": "Identifier",
-            "start": 46,
-            "end": 51,
-            "decorators": [],
-            "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 36,
             "end": 42,
-            "decorators": [],
             "name": "_await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 46,
+            "end": 51,
+            "name": "await",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

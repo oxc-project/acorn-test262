@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 12,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 12,
             "end": 24,
-            "decorators": [],
             "name": "require",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 19,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 21,
                 "end": 24
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     },
     {
       "type": "VariableDeclaration",
@@ -48,14 +48,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 38,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 38,
             "end": 49,
-            "decorators": [],
             "name": "module",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 44,
@@ -65,13 +62,16 @@ __ESTREE_TEST__:PASS:
                 "start": 46,
                 "end": 49
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "declare": true
     }
   ],
   "sourceType": "module",

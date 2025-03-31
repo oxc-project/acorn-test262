@@ -9,24 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 1,
       "end": 18,
+      "id": {
+        "type": "Identifier",
+        "start": 11,
+        "end": 14,
+        "name": "Foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 15,
         "end": 18,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 11,
-        "end": 14,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -37,21 +37,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 24,
           "end": 62,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 24,
             "end": 25,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 28,
             "end": 62,
+            "id": {
+              "type": "Identifier",
+              "start": 37,
+              "end": 40,
+              "name": "Foo",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 43,
@@ -66,14 +77,11 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 53,
                       "end": 59,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 53,
                         "end": 59,
-                        "decorators": [],
                         "name": "x",
-                        "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
                           "start": 54,
@@ -82,47 +90,39 @@ __ESTREE_TEST__:PASS:
                             "type": "TSTypeReference",
                             "start": 56,
                             "end": 59,
-                            "typeArguments": null,
                             "typeName": {
                               "type": "Identifier",
                               "start": 56,
                               "end": 59,
-                              "decorators": [],
                               "name": "Foo",
-                              "optional": false,
-                              "typeAnnotation": null
-                            }
+                              "typeAnnotation": null,
+                              "decorators": [],
+                              "optional": false
+                            },
+                            "typeArguments": null
                           }
-                        }
+                        },
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "var"
+                  "kind": "var",
+                  "declare": false
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": {
-              "type": "Identifier",
-              "start": 37,
-              "end": 40,
-              "decorators": [],
-              "name": "Foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

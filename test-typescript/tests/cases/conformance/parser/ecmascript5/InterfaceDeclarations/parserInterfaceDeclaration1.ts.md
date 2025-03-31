@@ -9,13 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 35,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 32,
-        "end": 35,
-        "body": []
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 11,
+        "name": "I",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "declare": false,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
@@ -25,10 +27,10 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 20,
             "end": 21,
-            "decorators": [],
             "name": "A",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         },
@@ -40,24 +42,22 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 30,
             "end": 31,
-            "decorators": [],
             "name": "B",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "typeArguments": null
         }
       ],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 11,
-        "decorators": [],
-        "name": "I",
-        "optional": false,
-        "typeAnnotation": null
+      "typeParameters": null,
+      "body": {
+        "type": "TSInterfaceBody",
+        "start": 32,
+        "end": 35,
+        "body": []
       },
-      "typeParameters": null
+      "declare": false
     }
   ],
   "sourceType": "script",

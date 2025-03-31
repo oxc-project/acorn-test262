@@ -9,17 +9,24 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 56,
       "end": 164,
-      "directive": null,
       "expression": {
         "type": "ArrowFunctionExpression",
         "start": 56,
         "end": 163,
+        "id": null,
+        "expression": true,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "FunctionExpression",
           "start": 62,
           "end": 163,
+          "id": null,
+          "expression": false,
+          "generator": false,
           "async": false,
+          "params": [],
           "body": {
             "type": "BlockStatement",
             "start": 74,
@@ -29,75 +36,6 @@ __ESTREE_TEST__:PASS:
                 "type": "ForInStatement",
                 "start": 80,
                 "end": 161,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 104,
-                  "end": 161,
-                  "body": [
-                    {
-                      "type": "ExpressionStatement",
-                      "start": 114,
-                      "end": 132,
-                      "directive": null,
-                      "expression": {
-                        "type": "CallExpression",
-                        "start": 114,
-                        "end": 131,
-                        "arguments": [],
-                        "callee": {
-                          "type": "MemberExpression",
-                          "start": 114,
-                          "end": 129,
-                          "computed": false,
-                          "object": {
-                            "type": "ThisExpression",
-                            "start": 114,
-                            "end": 118
-                          },
-                          "optional": false,
-                          "property": {
-                            "type": "Identifier",
-                            "start": 119,
-                            "end": 129,
-                            "decorators": [],
-                            "name": "helloWorld",
-                            "optional": false,
-                            "typeAnnotation": null
-                          }
-                        },
-                        "optional": false,
-                        "typeArguments": null
-                      }
-                    },
-                    {
-                      "type": "ExpressionStatement",
-                      "start": 141,
-                      "end": 155,
-                      "directive": null,
-                      "expression": {
-                        "type": "ArrowFunctionExpression",
-                        "start": 141,
-                        "end": 154,
-                        "async": false,
-                        "body": {
-                          "type": "Identifier",
-                          "start": 147,
-                          "end": 154,
-                          "decorators": [],
-                          "name": "someKey",
-                          "optional": false,
-                          "typeAnnotation": null
-                        },
-                        "expression": true,
-                        "generator": false,
-                        "id": null,
-                        "params": [],
-                        "returnType": null,
-                        "typeParameters": null
-                      }
-                    }
-                  ]
-                },
                 "left": {
                   "type": "VariableDeclaration",
                   "start": 85,
@@ -107,46 +45,108 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 89,
                       "end": 96,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 89,
                         "end": 96,
-                        "decorators": [],
                         "name": "someKey",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
-                      "init": null
+                      "init": null,
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "let"
+                  "kind": "let",
+                  "declare": false
                 },
                 "right": {
                   "type": "ObjectExpression",
                   "start": 100,
                   "end": 102,
                   "properties": []
+                },
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 104,
+                  "end": 161,
+                  "body": [
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 114,
+                      "end": 132,
+                      "expression": {
+                        "type": "CallExpression",
+                        "start": 114,
+                        "end": 131,
+                        "callee": {
+                          "type": "MemberExpression",
+                          "start": 114,
+                          "end": 129,
+                          "object": {
+                            "type": "ThisExpression",
+                            "start": 114,
+                            "end": 118
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "start": 119,
+                            "end": 129,
+                            "name": "helloWorld",
+                            "typeAnnotation": null,
+                            "decorators": [],
+                            "optional": false
+                          },
+                          "computed": false,
+                          "optional": false
+                        },
+                        "arguments": [],
+                        "optional": false,
+                        "typeArguments": null
+                      },
+                      "directive": null
+                    },
+                    {
+                      "type": "ExpressionStatement",
+                      "start": 141,
+                      "end": 155,
+                      "expression": {
+                        "type": "ArrowFunctionExpression",
+                        "start": 141,
+                        "end": 154,
+                        "id": null,
+                        "expression": true,
+                        "generator": false,
+                        "async": false,
+                        "params": [],
+                        "body": {
+                          "type": "Identifier",
+                          "start": 147,
+                          "end": 154,
+                          "name": "someKey",
+                          "typeAnnotation": null,
+                          "decorators": [],
+                          "optional": false
+                        },
+                        "typeParameters": null,
+                        "returnType": null
+                      },
+                      "directive": null
+                    }
+                  ]
                 }
               }
             ]
           },
           "declare": false,
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "typeParameters": null,
+          "returnType": null
         },
-        "expression": true,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
-      }
+        "typeParameters": null,
+        "returnType": null
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

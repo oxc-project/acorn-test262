@@ -9,59 +9,59 @@ __ESTREE_TEST__:PASS:
       "type": "ClassDeclaration",
       "start": 1,
       "end": 12,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "name": "C",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 9,
         "end": 12,
         "body": []
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 7,
-        "end": 8,
-        "decorators": [],
-        "name": "C",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "TSTypeAliasDeclaration",
       "start": 13,
       "end": 26,
-      "declare": false,
       "id": {
         "type": "Identifier",
         "start": 18,
         "end": 21,
-        "decorators": [],
         "name": "baz",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
         "start": 24,
         "end": 25,
-        "typeArguments": null,
         "typeName": {
           "type": "Identifier",
           "start": 24,
           "end": 25,
-          "decorators": [],
           "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "typeArguments": null
       },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -72,14 +72,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 31,
           "end": 39,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 31,
             "end": 39,
-            "decorators": [],
             "name": "baz",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 34,
@@ -88,24 +85,27 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 36,
                 "end": 39,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 36,
                   "end": 39,
-                  "decorators": [],
                   "name": "baz",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "declare": false
     }
   ],
   "sourceType": "script",

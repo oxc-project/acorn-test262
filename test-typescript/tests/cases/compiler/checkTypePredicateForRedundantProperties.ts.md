@@ -9,7 +9,38 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 78,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 17,
+        "name": "addProp2",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 18,
+          "end": 24,
+          "name": "x",
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 19,
+            "end": 24,
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 21,
+              "end": 24
+            }
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ],
       "body": {
         "type": "BlockStatement",
         "start": 58,
@@ -23,44 +54,14 @@ __ESTREE_TEST__:PASS:
               "type": "Literal",
               "start": 71,
               "end": 75,
-              "raw": "true",
-              "value": true
+              "value": true,
+              "raw": "true"
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 9,
-        "end": 17,
-        "decorators": [],
-        "name": "addProp2",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [
-        {
-          "type": "Identifier",
-          "start": 18,
-          "end": 24,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": {
-            "type": "TSTypeAnnotation",
-            "start": 19,
-            "end": 24,
-            "typeAnnotation": {
-              "type": "TSAnyKeyword",
-              "start": 21,
-              "end": 24
-            }
-          }
-        }
-      ],
+      "typeParameters": null,
       "returnType": {
         "type": "TSTypeAnnotation",
         "start": 25,
@@ -69,16 +70,16 @@ __ESTREE_TEST__:PASS:
           "type": "TSTypePredicate",
           "start": 27,
           "end": 57,
-          "asserts": false,
           "parameterName": {
             "type": "Identifier",
             "start": 27,
             "end": 28,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
+          "asserts": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 32,
@@ -92,20 +93,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 34,
                   "end": 44,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 34,
                     "end": 35,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 35,
@@ -115,26 +114,26 @@ __ESTREE_TEST__:PASS:
                       "start": 37,
                       "end": 43
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 45,
                   "end": 55,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 45,
                     "end": 46,
-                    "decorators": [],
                     "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 46,
@@ -144,14 +143,15 @@ __ESTREE_TEST__:PASS:
                       "start": 48,
                       "end": 54
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             }
           }
         }
-      },
-      "typeParameters": null
+      }
     }
   ],
   "sourceType": "script",

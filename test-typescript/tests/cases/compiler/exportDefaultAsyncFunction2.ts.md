@@ -9,30 +9,22 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 49,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 7,
         "end": 49,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 46,
-          "end": 49,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 16,
           "end": 21,
-          "decorators": [],
           "name": "async",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -42,10 +34,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 28,
               "end": 32,
-              "decorators": [],
               "name": "args",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -67,16 +59,13 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
-        "returnType": {
-          "type": "TSTypeAnnotation",
-          "start": 40,
-          "end": 45,
-          "typeAnnotation": {
-            "type": "TSAnyKeyword",
-            "start": 42,
-            "end": 45
-          }
+        "body": {
+          "type": "BlockStatement",
+          "start": 46,
+          "end": 49,
+          "body": []
         },
+        "declare": false,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
           "start": 21,
@@ -86,56 +75,59 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeParameter",
               "start": 22,
               "end": 23,
-              "const": false,
-              "constraint": null,
-              "default": null,
-              "in": false,
               "name": {
                 "type": "Identifier",
                 "start": 22,
                 "end": 23,
-                "decorators": [],
                 "name": "T",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "out": false
+              "constraint": null,
+              "default": null,
+              "in": false,
+              "out": false,
+              "const": false
             }
           ]
+        },
+        "returnType": {
+          "type": "TSTypeAnnotation",
+          "start": 40,
+          "end": 45,
+          "typeAnnotation": {
+            "type": "TSAnyKeyword",
+            "start": 42,
+            "end": 45
+          }
         }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 50,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 57,
         "end": 96,
-        "async": false,
-        "body": {
-          "type": "BlockStatement",
-          "start": 93,
-          "end": 96,
-          "body": []
-        },
-        "declare": false,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 66,
           "end": 71,
-          "decorators": [],
           "name": "await",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [
           {
             "type": "RestElement",
@@ -145,10 +137,10 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 75,
               "end": 79,
-              "decorators": [],
               "name": "args",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "decorators": [],
             "optional": false,
@@ -170,6 +162,14 @@ __ESTREE_TEST__:PASS:
             "value": null
           }
         ],
+        "body": {
+          "type": "BlockStatement",
+          "start": 93,
+          "end": 96,
+          "body": []
+        },
+        "declare": false,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 87,
@@ -179,12 +179,12 @@ __ESTREE_TEST__:PASS:
             "start": 89,
             "end": 92
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -202,15 +202,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 41,
-        "raw": "'asyncawait'",
-        "value": "asyncawait"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -220,21 +211,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -244,23 +235,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 41,
+        "value": "asyncawait",
+        "raw": "'asyncawait'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -270,88 +270,88 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 58,
         "end": 96,
+        "callee": {
+          "type": "Identifier",
+          "start": 58,
+          "end": 63,
+          "name": "async",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
             "start": 64,
             "end": 95,
+            "id": null,
+            "expression": true,
+            "generator": false,
             "async": false,
+            "params": [],
             "body": {
               "type": "CallExpression",
               "start": 70,
               "end": 95,
+              "callee": {
+                "type": "Identifier",
+                "start": 70,
+                "end": 75,
+                "name": "await",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
               "arguments": [
                 {
                   "type": "CallExpression",
                   "start": 76,
                   "end": 94,
+                  "callee": {
+                    "type": "MemberExpression",
+                    "start": 76,
+                    "end": 91,
+                    "object": {
+                      "type": "Identifier",
+                      "start": 76,
+                      "end": 83,
+                      "name": "Promise",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "start": 84,
+                      "end": 91,
+                      "name": "resolve",
+                      "typeAnnotation": null,
+                      "decorators": [],
+                      "optional": false
+                    },
+                    "computed": false,
+                    "optional": false
+                  },
                   "arguments": [
                     {
                       "type": "Literal",
                       "start": 92,
                       "end": 93,
-                      "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "raw": "1"
                     }
                   ],
-                  "callee": {
-                    "type": "MemberExpression",
-                    "start": 76,
-                    "end": 91,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 76,
-                      "end": 83,
-                      "decorators": [],
-                      "name": "Promise",
-                      "optional": false,
-                      "typeAnnotation": null
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 84,
-                      "end": 91,
-                      "decorators": [],
-                      "name": "resolve",
-                      "optional": false,
-                      "typeAnnotation": null
-                    }
-                  },
                   "optional": false,
                   "typeArguments": null
                 }
               ],
-              "callee": {
-                "type": "Identifier",
-                "start": 70,
-                "end": 75,
-                "decorators": [],
-                "name": "await",
-                "optional": false,
-                "typeAnnotation": null
-              },
               "optional": false,
               "typeArguments": null
             },
-            "expression": true,
-            "generator": false,
-            "id": null,
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
+            "typeParameters": null,
+            "returnType": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 58,
-          "end": 63,
-          "decorators": [],
-          "name": "async",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
       },
@@ -377,7 +377,11 @@ __ESTREE_TEST__:PASS:
         "type": "ArrowFunctionExpression",
         "start": 15,
         "end": 40,
+        "id": null,
+        "expression": false,
+        "generator": false,
         "async": true,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 27,
@@ -391,18 +395,14 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 36,
                 "end": 37,
-                "raw": "0",
-                "value": 0
+                "value": 0,
+                "raw": "0"
               }
             }
           ]
         },
-        "expression": false,
-        "generator": false,
-        "id": null,
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     }
@@ -422,15 +422,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 41,
-        "raw": "'asyncawait'",
-        "value": "asyncawait"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -440,21 +431,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -464,23 +455,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 41,
+        "value": "asyncawait",
+        "raw": "'asyncawait'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -490,16 +490,16 @@ __ESTREE_TEST__:PASS:
         "type": "CallExpression",
         "start": 58,
         "end": 73,
-        "arguments": [],
         "callee": {
           "type": "Identifier",
           "start": 58,
           "end": 63,
-          "decorators": [],
           "name": "async",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "arguments": [],
         "optional": false,
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
@@ -532,15 +532,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 41,
-        "raw": "'asyncawait'",
-        "value": "asyncawait"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -550,21 +541,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -574,23 +565,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 41,
+        "value": "asyncawait",
+        "raw": "'asyncawait'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -600,10 +600,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 59,
         "end": 64,
-        "decorators": [],
         "name": "async",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     }
@@ -623,15 +623,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 42,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 41,
-        "raw": "'asyncawait'",
-        "value": "asyncawait"
-      },
       "specifiers": [
         {
           "type": "ImportSpecifier",
@@ -641,21 +632,21 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 14,
-            "decorators": [],
             "name": "async",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         },
         {
           "type": "ImportSpecifier",
@@ -665,23 +656,32 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "importKind": "value",
           "local": {
             "type": "Identifier",
             "start": 16,
             "end": 21,
-            "decorators": [],
             "name": "await",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "importKind": "value"
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 41,
+        "value": "asyncawait",
+        "raw": "'asyncawait'"
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -691,10 +691,10 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 59,
         "end": 64,
-        "decorators": [],
         "name": "async",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
       "exportKind": "value"
     },
@@ -702,12 +702,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 66,
       "end": 91,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 73,
         "end": 91,
+        "id": {
+          "type": "Identifier",
+          "start": 82,
+          "end": 85,
+          "name": "foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 88,
@@ -715,24 +726,13 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 82,
-          "end": 85,
-          "decorators": [],
-          "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

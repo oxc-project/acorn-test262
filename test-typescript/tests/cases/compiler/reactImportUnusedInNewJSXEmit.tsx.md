@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 45,
       "end": 71,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 63,
-        "end": 70,
-        "raw": "\"react\"",
-        "value": "react"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,19 +18,40 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 52,
             "end": 57,
-            "decorators": [],
             "name": "React",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 63,
+        "end": 70,
+        "value": "react",
+        "raw": "\"react\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "FunctionDeclaration",
       "start": 73,
       "end": 109,
+      "id": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 85,
+        "name": "Bar",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "expression": false,
+      "generator": false,
       "async": false,
+      "params": [],
       "body": {
         "type": "BlockStatement",
         "start": 88,
@@ -53,8 +65,6 @@ __ESTREE_TEST__:PASS:
               "type": "JSXElement",
               "start": 99,
               "end": 106,
-              "children": [],
-              "closingElement": null,
               "openingElement": {
                 "type": "JSXOpeningElement",
                 "start": 99,
@@ -68,37 +78,38 @@ __ESTREE_TEST__:PASS:
                 },
                 "selfClosing": true,
                 "typeArguments": null
-              }
+              },
+              "closingElement": null,
+              "children": []
             }
           }
         ]
       },
       "declare": false,
-      "expression": false,
-      "generator": false,
-      "id": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 85,
-        "decorators": [],
-        "name": "Bar",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "params": [],
-      "returnType": null,
-      "typeParameters": null
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 111,
       "end": 154,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 118,
         "end": 154,
+        "id": {
+          "type": "Identifier",
+          "start": 127,
+          "end": 130,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 133,
@@ -112,8 +123,6 @@ __ESTREE_TEST__:PASS:
                 "type": "JSXElement",
                 "start": 144,
                 "end": 151,
-                "children": [],
-                "closingElement": null,
                 "openingElement": {
                   "type": "JSXOpeningElement",
                   "start": 144,
@@ -127,30 +136,21 @@ __ESTREE_TEST__:PASS:
                   },
                   "selfClosing": true,
                   "typeArguments": null
-                }
+                },
+                "closingElement": null,
+                "children": []
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 127,
-          "end": 130,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

@@ -14,33 +14,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 69,
           "end": 89,
-          "definite": false,
           "id": {
             "type": "ArrayPattern",
             "start": 69,
             "end": 77,
-            "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
                 "start": 70,
                 "end": 71,
-                "decorators": [],
                 "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               null,
               {
                 "type": "Identifier",
                 "start": 75,
                 "end": 76,
-                "decorators": [],
                 "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
+            "decorators": [],
             "optional": false,
             "typeAnnotation": null
           },
@@ -53,88 +52,89 @@ __ESTREE_TEST__:PASS:
                 "type": "Literal",
                 "start": 81,
                 "end": 82,
-                "raw": "1",
-                "value": 1
+                "value": 1,
+                "raw": "1"
               },
               {
                 "type": "Literal",
                 "start": 84,
                 "end": 85,
-                "raw": "2",
-                "value": 2
+                "value": 2,
+                "raw": "2"
               },
               {
                 "type": "Literal",
                 "start": 87,
                 "end": 88,
-                "raw": "3",
-                "value": 3
+                "value": 3,
+                "raw": "3"
               }
             ]
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 91,
       "end": 107,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 100,
           "end": 101,
-          "exported": {
-            "type": "Identifier",
-            "start": 100,
-            "end": 101,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 100,
             "end": 101,
-            "decorators": [],
             "name": "a",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 100,
+            "end": 101,
+            "name": "a",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         },
         {
           "type": "ExportSpecifier",
           "start": 103,
           "end": 104,
-          "exported": {
-            "type": "Identifier",
-            "start": 103,
-            "end": 104,
-            "decorators": [],
-            "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 103,
             "end": 104,
-            "decorators": [],
             "name": "b",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 103,
+            "end": 104,
+            "name": "b",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",

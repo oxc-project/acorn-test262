@@ -13,7 +13,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 16,
         "end": 34,
+        "id": {
+          "type": "Identifier",
+          "start": 25,
+          "end": 28,
+          "name": "bar",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 31,
@@ -21,20 +33,8 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 25,
-          "end": 28,
-          "decorators": [],
-          "name": "bar",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -46,28 +46,28 @@ __ESTREE_TEST__:PASS:
         "type": "ClassDeclaration",
         "start": 50,
         "end": 60,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 56,
+          "end": 57,
+          "name": "C",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 58,
           "end": 60,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 56,
-          "end": 57,
-          "decorators": [],
-          "name": "C",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
       "exportKind": "value"
     }

@@ -13,6 +13,9 @@ __ESTREE_TEST__:PASS:
         "type": "ForStatement",
         "start": 5,
         "end": 53,
+        "init": null,
+        "test": null,
+        "update": null,
         "body": {
           "type": "BlockStatement",
           "start": 14,
@@ -26,26 +29,23 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 41,
                 "end": 44,
-                "decorators": [],
                 "name": "foo",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
-        },
-        "init": null,
-        "test": null,
-        "update": null
+        }
       },
       "label": {
         "type": "Identifier",
         "start": 0,
         "end": 3,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       }
     }
   ],

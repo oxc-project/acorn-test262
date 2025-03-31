@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 23,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -31,13 +28,16 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 23
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -60,14 +60,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 14,
           "end": 23,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 14,
             "end": 23,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 15,
@@ -77,13 +74,16 @@ __ESTREE_TEST__:PASS:
                 "start": 17,
                 "end": 23
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": true,
-      "kind": "const"
+      "kind": "const",
+      "declare": true
     }
   ],
   "sourceType": "module",
@@ -101,16 +101,16 @@ __ESTREE_TEST__:PASS:
       "type": "ExpressionStatement",
       "start": 0,
       "end": 2,
-      "directive": null,
       "expression": {
         "type": "Identifier",
         "start": 0,
         "end": 1,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "directive": null
     }
   ],
   "sourceType": "module",

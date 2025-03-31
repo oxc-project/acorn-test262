@@ -14,15 +14,14 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "AssignmentExpression",
@@ -33,23 +32,24 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 8,
               "end": 17,
-              "decorators": [],
               "name": "undefined",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "right": {
               "type": "Literal",
               "start": 20,
               "end": 24,
-              "raw": "null",
-              "value": null
+              "value": null,
+              "raw": "null"
             }
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -60,14 +60,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 39,
           "end": 65,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 39,
             "end": 58,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 40,
@@ -80,26 +77,29 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 49,
                   "end": 58,
-                  "decorators": [],
                   "name": "undefined",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 61,
             "end": 65,
-            "raw": "null",
-            "value": null
-          }
+            "value": null,
+            "raw": "null"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

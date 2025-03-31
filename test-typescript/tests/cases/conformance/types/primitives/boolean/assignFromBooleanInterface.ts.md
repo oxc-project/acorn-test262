@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 12,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 12,
-            "raw": "true",
-            "value": true
-          }
+            "value": true,
+            "raw": "true"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,14 +45,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 18,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 18,
             "end": 28,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 19,
@@ -61,30 +58,32 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 21,
                 "end": 28,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 21,
                   "end": 28,
-                  "decorators": [],
                   "name": "Boolean",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 30,
       "end": 36,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 30,
@@ -94,27 +93,27 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 30,
           "end": 31,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 34,
           "end": 35,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 37,
       "end": 43,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 37,
@@ -124,21 +123,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 37,
           "end": 38,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 41,
           "end": 42,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

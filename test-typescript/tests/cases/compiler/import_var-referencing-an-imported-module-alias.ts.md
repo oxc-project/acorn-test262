@@ -9,37 +9,37 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 21,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 7,
         "end": 21,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 17,
+          "name": "Host",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 18,
           "end": 21,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 13,
-          "end": 17,
-          "decorators": [],
-          "name": "Host",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
@@ -61,12 +61,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 7,
         "end": 11,
-        "decorators": [],
         "name": "host",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 14,
@@ -75,10 +74,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 22,
           "end": 28,
-          "raw": "\"host\"",
-          "value": "host"
+          "value": "host",
+          "raw": "\"host\""
         }
-      }
+      },
+      "importKind": "value"
     },
     {
       "type": "VariableDeclaration",
@@ -89,29 +89,29 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 35,
           "end": 49,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 35,
             "end": 42,
-            "decorators": [],
             "name": "hostVar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Identifier",
             "start": 45,
             "end": 49,
-            "decorators": [],
             "name": "host",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -122,52 +122,52 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 55,
           "end": 77,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 55,
             "end": 56,
-            "decorators": [],
             "name": "v",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "NewExpression",
             "start": 59,
             "end": 77,
-            "arguments": [],
             "callee": {
               "type": "MemberExpression",
               "start": 63,
               "end": 75,
-              "computed": false,
               "object": {
                 "type": "Identifier",
                 "start": 63,
                 "end": 70,
-                "decorators": [],
                 "name": "hostVar",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
-              "optional": false,
               "property": {
                 "type": "Identifier",
                 "start": 71,
                 "end": 75,
-                "decorators": [],
                 "name": "Host",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "computed": false,
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "module",

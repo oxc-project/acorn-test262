@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 13,
       "end": 36,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 29,
-        "end": 35,
-        "raw": "\"blah\"",
-        "value": "blah"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,24 +18,44 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 20,
             "end": 23,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 35,
+        "value": "blah",
+        "raw": "\"blah\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 38,
       "end": 63,
-      "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
         "start": 45,
         "end": 63,
+        "id": {
+          "type": "Identifier",
+          "start": 54,
+          "end": 57,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 60,
@@ -52,30 +63,18 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 54,
-          "end": 57,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExpressionStatement",
       "start": 65,
       "end": 85,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 65,
@@ -85,46 +84,47 @@ __ESTREE_TEST__:PASS:
           "type": "MemberExpression",
           "start": 65,
           "end": 72,
-          "computed": false,
           "object": {
             "type": "Identifier",
             "start": 65,
             "end": 68,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
-          "optional": false,
           "property": {
             "type": "Identifier",
             "start": 69,
             "end": 72,
-            "decorators": [],
             "name": "bar",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "computed": false,
+          "optional": false
         },
         "right": {
           "type": "ArrowFunctionExpression",
           "start": 75,
           "end": 84,
+          "id": null,
+          "expression": false,
+          "generator": false,
           "async": false,
+          "params": [],
           "body": {
             "type": "BlockStatement",
             "start": 81,
             "end": 84,
             "body": []
           },
-          "expression": false,
-          "generator": false,
-          "id": null,
-          "params": [],
-          "returnType": null,
-          "typeParameters": null
+          "typeParameters": null,
+          "returnType": null
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

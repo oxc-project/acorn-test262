@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 32,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 23,
-            "decorators": [],
             "name": "before",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 10,
@@ -34,36 +31,39 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 19,
                   "end": 23,
-                  "decorators": [],
                   "name": "func",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 26,
             "end": 32,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 26,
               "end": 30,
-              "decorators": [],
               "name": "func",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExportDefaultDeclaration",
@@ -73,7 +73,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 50,
         "end": 99,
+        "id": {
+          "type": "Identifier",
+          "start": 59,
+          "end": 63,
+          "name": "func",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 79,
@@ -87,27 +99,16 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 92,
                 "end": 96,
-                "decorators": [],
                 "name": "func",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             }
           ]
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 59,
-          "end": 63,
-          "decorators": [],
-          "name": "func",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 65,
@@ -120,15 +121,14 @@ __ESTREE_TEST__:PASS:
               "type": "Identifier",
               "start": 74,
               "end": 78,
-              "decorators": [],
               "name": "func",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "typeArguments": null
           }
-        },
-        "typeParameters": null
+        }
       },
       "exportKind": "value"
     },
@@ -141,14 +141,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 105,
           "end": 132,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 105,
             "end": 123,
-            "decorators": [],
             "name": "after",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 110,
@@ -161,36 +158,39 @@ __ESTREE_TEST__:PASS:
                   "type": "Identifier",
                   "start": 119,
                   "end": 123,
-                  "decorators": [],
                   "name": "func",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
                 "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
             "start": 126,
             "end": 132,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 126,
               "end": 130,
-              "decorators": [],
               "name": "func",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "optional": false,
             "typeArguments": null
-          }
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

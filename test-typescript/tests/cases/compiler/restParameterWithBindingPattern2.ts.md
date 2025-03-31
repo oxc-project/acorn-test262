@@ -9,25 +9,18 @@ __ESTREE_TEST__:PASS:
       "type": "FunctionDeclaration",
       "start": 0,
       "end": 25,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 22,
-        "end": 25,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 9,
         "end": 10,
-        "decorators": [],
         "name": "a",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "RestElement",
@@ -37,27 +30,27 @@ __ESTREE_TEST__:PASS:
             "type": "ArrayPattern",
             "start": 14,
             "end": 20,
-            "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
                 "start": 15,
                 "end": 16,
-                "decorators": [],
                 "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               {
                 "type": "Identifier",
                 "start": 18,
                 "end": 19,
-                "decorators": [],
                 "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
+            "decorators": [],
             "optional": false,
             "typeAnnotation": null
           },
@@ -67,8 +60,15 @@ __ESTREE_TEST__:PASS:
           "value": null
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 25,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     }
   ],
   "sourceType": "script",

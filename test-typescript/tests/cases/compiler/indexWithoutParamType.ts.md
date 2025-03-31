@@ -14,14 +14,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 14,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 14,
-            "decorators": [],
             "name": "y",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 5,
@@ -35,21 +32,24 @@ __ESTREE_TEST__:PASS:
                     "type": "TSIndexSignature",
                     "start": 9,
                     "end": 12,
-                    "accessibility": null,
                     "parameters": [],
+                    "typeAnnotation": null,
                     "readonly": false,
                     "static": false,
-                    "typeAnnotation": null
+                    "accessibility": null
                   }
                 ]
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

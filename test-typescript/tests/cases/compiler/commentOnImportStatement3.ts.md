@@ -13,12 +13,11 @@ __ESTREE_TEST__:PASS:
         "type": "Identifier",
         "start": 44,
         "end": 47,
-        "decorators": [],
         "name": "foo",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
-      "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
         "start": 50,
@@ -27,10 +26,11 @@ __ESTREE_TEST__:PASS:
           "type": "Literal",
           "start": 58,
           "end": 65,
-          "raw": "'./foo'",
-          "value": "./foo"
+          "value": "./foo",
+          "raw": "'./foo'"
         }
-      }
+      },
+      "importKind": "value"
     }
   ],
   "sourceType": "script",

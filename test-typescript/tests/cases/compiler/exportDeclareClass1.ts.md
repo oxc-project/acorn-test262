@@ -9,12 +9,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 4,
       "end": 96,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 11,
         "end": 96,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 25,
+          "end": 28,
+          "name": "eaC",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 29,
@@ -24,27 +32,27 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 39,
               "end": 54,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 46,
                 "end": 48,
-                "decorators": [],
                 "name": "tF",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 48,
                 "end": 54,
+                "id": null,
+                "expression": false,
+                "generator": false,
                 "async": false,
+                "params": [],
                 "body": {
                   "type": "BlockStatement",
                   "start": 51,
@@ -52,57 +60,44 @@ __ESTREE_TEST__:PASS:
                   "body": []
                 },
                 "declare": false,
-                "expression": false,
-                "generator": false,
-                "id": null,
-                "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 64,
               "end": 89,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 71,
                 "end": 74,
-                "decorators": [],
                 "name": "tsF",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "FunctionExpression",
                 "start": 74,
                 "end": 89,
-                "async": false,
-                "body": {
-                  "type": "BlockStatement",
-                  "start": 86,
-                  "end": 89,
-                  "body": []
-                },
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [
                   {
                     "type": "Identifier",
                     "start": 75,
                     "end": 84,
-                    "decorators": [],
                     "name": "param",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 80,
@@ -112,34 +107,39 @@ __ESTREE_TEST__:PASS:
                         "start": 81,
                         "end": 84
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "body": {
+                  "type": "BlockStatement",
+                  "start": 86,
+                  "end": 89,
+                  "body": []
+                },
+                "declare": false,
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": true,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 25,
-          "end": 28,
-          "decorators": [],
-          "name": "eaC",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true,
+        "superTypeArguments": null
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "EmptyStatement",
@@ -150,12 +150,20 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 101,
       "end": 186,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 108,
         "end": 186,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 122,
+          "end": 126,
+          "name": "eaC2",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": null,
         "body": {
           "type": "ClassBody",
           "start": 127,
@@ -165,75 +173,67 @@ __ESTREE_TEST__:PASS:
               "type": "MethodDefinition",
               "start": 137,
               "end": 149,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 144,
                 "end": 146,
-                "decorators": [],
                 "name": "tF",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 146,
                 "end": 149,
-                "async": false,
-                "body": null,
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "body": null,
+                "declare": false,
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             },
             {
               "type": "MethodDefinition",
               "start": 158,
               "end": 180,
-              "accessibility": null,
+              "static": true,
               "computed": false,
-              "decorators": [],
               "key": {
                 "type": "Identifier",
                 "start": 165,
                 "end": 168,
-                "decorators": [],
                 "name": "tsF",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "kind": "method",
-              "optional": false,
-              "override": false,
-              "static": true,
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
                 "start": 168,
                 "end": 180,
-                "async": false,
-                "body": null,
-                "declare": false,
+                "id": null,
                 "expression": false,
                 "generator": false,
-                "id": null,
+                "async": false,
                 "params": [
                   {
                     "type": "Identifier",
                     "start": 169,
                     "end": 178,
-                    "decorators": [],
                     "name": "param",
-                    "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
                       "start": 174,
@@ -243,34 +243,34 @@ __ESTREE_TEST__:PASS:
                         "start": 175,
                         "end": 178
                       }
-                    }
+                    },
+                    "decorators": [],
+                    "optional": false
                   }
                 ],
-                "returnType": null,
-                "typeParameters": null
-              }
+                "body": null,
+                "declare": false,
+                "typeParameters": null,
+                "returnType": null
+              },
+              "decorators": [],
+              "override": false,
+              "optional": false,
+              "accessibility": null
             }
           ]
         },
-        "declare": true,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 122,
-          "end": 126,
-          "decorators": [],
-          "name": "eaC2",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": null,
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": true,
+        "superTypeArguments": null
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     },
     {
       "type": "EmptyStatement",

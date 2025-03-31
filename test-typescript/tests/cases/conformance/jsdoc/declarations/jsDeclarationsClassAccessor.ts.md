@@ -9,17 +9,23 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 11,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "TSModuleDeclaration",
       "start": 12,
       "end": 122,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 27,
+        "end": 42,
+        "value": "./argument.js",
+        "raw": "\"./argument.js\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 43,
@@ -29,6 +35,17 @@ __ESTREE_TEST__:PASS:
             "type": "TSInterfaceDeclaration",
             "start": 49,
             "end": 120,
+            "id": {
+              "type": "Identifier",
+              "start": 59,
+              "end": 67,
+              "name": "Argument",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "extends": [],
+            "typeParameters": null,
             "body": {
               "type": "TSInterfaceBody",
               "start": 68,
@@ -38,20 +55,18 @@ __ESTREE_TEST__:PASS:
                   "type": "TSPropertySignature",
                   "start": 78,
                   "end": 91,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 78,
                     "end": 85,
-                    "decorators": [],
                     "name": "idlType",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 85,
@@ -61,26 +76,26 @@ __ESTREE_TEST__:PASS:
                       "start": 87,
                       "end": 90
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 },
                 {
                   "type": "TSPropertySignature",
                   "start": 100,
                   "end": 114,
-                  "accessibility": null,
                   "computed": false,
+                  "optional": false,
+                  "readonly": false,
                   "key": {
                     "type": "Identifier",
                     "start": 100,
                     "end": 107,
-                    "decorators": [],
                     "name": "default",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "optional": false,
-                  "readonly": false,
-                  "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 107,
@@ -90,34 +105,19 @@ __ESTREE_TEST__:PASS:
                       "start": 109,
                       "end": 113
                     }
-                  }
+                  },
+                  "accessibility": null,
+                  "static": false
                 }
               ]
             },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 59,
-              "end": 67,
-              "decorators": [],
-              "name": "Argument",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "typeParameters": null
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 27,
-        "end": 42,
-        "raw": "\"./argument.js\"",
-        "value": "./argument.js"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

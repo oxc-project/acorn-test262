@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 126,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "name": "m",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 17,
@@ -23,21 +32,21 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 27,
                 "end": 28,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 27,
                   "end": 28,
-                  "decorators": [],
                   "name": "f",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           },
           {
             "type": "VariableDeclaration",
@@ -48,63 +57,54 @@ __ESTREE_TEST__:PASS:
                 "type": "VariableDeclarator",
                 "start": 38,
                 "end": 47,
-                "definite": false,
                 "id": {
                   "type": "Identifier",
                   "start": 38,
                   "end": 47,
-                  "decorators": [],
                   "name": "prototype",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
                 },
-                "init": null
+                "init": null,
+                "definite": false
               }
             ],
-            "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "declare": false
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "m",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     },
     {
       "type": "ClassDeclaration",
       "start": 127,
       "end": 146,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 141,
+        "end": 142,
+        "name": "m",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 143,
         "end": 146,
         "body": []
       },
-      "declare": true,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 141,
-        "end": 142,
-        "decorators": [],
-        "name": "m",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": true,
+      "superTypeArguments": null
     }
   ],
   "sourceType": "script",

@@ -14,21 +14,43 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 60,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 8,
-            "decorators": [],
             "name": "func",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 11,
             "end": 60,
+            "id": null,
+            "expression": false,
+            "generator": false,
             "async": false,
+            "params": [
+              {
+                "type": "Identifier",
+                "start": 20,
+                "end": 34,
+                "name": "person",
+                "typeAnnotation": {
+                  "type": "TSTypeAnnotation",
+                  "start": 26,
+                  "end": 34,
+                  "typeAnnotation": {
+                    "type": "TSStringKeyword",
+                    "start": 28,
+                    "end": 34
+                  }
+                },
+                "decorators": [],
+                "optional": false
+              }
+            ],
             "body": {
               "type": "BlockStatement",
               "start": 36,
@@ -43,61 +65,39 @@ __ESTREE_TEST__:PASS:
                       "type": "VariableDeclarator",
                       "start": 46,
                       "end": 57,
-                      "definite": false,
                       "id": {
                         "type": "Identifier",
                         "start": 46,
                         "end": 52,
-                        "decorators": [],
                         "name": "unused",
-                        "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
                       },
                       "init": {
                         "type": "Literal",
                         "start": 55,
                         "end": 57,
-                        "raw": "20",
-                        "value": 20
-                      }
+                        "value": 20,
+                        "raw": "20"
+                      },
+                      "definite": false
                     }
                   ],
-                  "declare": false,
-                  "kind": "var"
+                  "kind": "var",
+                  "declare": false
                 }
               ]
             },
             "declare": false,
-            "expression": false,
-            "generator": false,
-            "id": null,
-            "params": [
-              {
-                "type": "Identifier",
-                "start": 20,
-                "end": 34,
-                "decorators": [],
-                "name": "person",
-                "optional": false,
-                "typeAnnotation": {
-                  "type": "TSTypeAnnotation",
-                  "start": 26,
-                  "end": 34,
-                  "typeAnnotation": {
-                    "type": "TSStringKeyword",
-                    "start": 28,
-                    "end": 34
-                  }
-                }
-              }
-            ],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

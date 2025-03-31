@@ -9,6 +9,17 @@ __ESTREE_TEST__:PASS:
       "type": "TSInterfaceDeclaration",
       "start": 0,
       "end": 40,
+      "id": {
+        "type": "Identifier",
+        "start": 10,
+        "end": 18,
+        "name": "IHandler",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 19,
@@ -18,15 +29,16 @@ __ESTREE_TEST__:PASS:
             "type": "TSCallSignatureDeclaration",
             "start": 25,
             "end": 38,
+            "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
                 "start": 26,
                 "end": 27,
-                "decorators": [],
                 "name": "e",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
             ],
             "returnType": {
@@ -38,28 +50,27 @@ __ESTREE_TEST__:PASS:
                 "start": 30,
                 "end": 37
               }
-            },
-            "typeParameters": null
+            }
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 10,
-        "end": 18,
-        "decorators": [],
-        "name": "IHandler",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 42,
       "end": 97,
+      "id": {
+        "type": "Identifier",
+        "start": 52,
+        "end": 63,
+        "name": "IHandlerMap",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 64,
@@ -69,15 +80,12 @@ __ESTREE_TEST__:PASS:
             "type": "TSIndexSignature",
             "start": 70,
             "end": 95,
-            "accessibility": null,
             "parameters": [
               {
                 "type": "Identifier",
                 "start": 71,
                 "end": 83,
-                "decorators": [],
                 "name": "type",
-                "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
                   "start": 75,
@@ -87,11 +95,11 @@ __ESTREE_TEST__:PASS:
                     "start": 77,
                     "end": 83
                   }
-                }
+                },
+                "decorators": [],
+                "optional": false
               }
             ],
-            "readonly": false,
-            "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 84,
@@ -100,39 +108,40 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 86,
                 "end": 94,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 86,
                   "end": 94,
-                  "decorators": [],
                   "name": "IHandler",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "readonly": false,
+            "static": false,
+            "accessibility": null
           }
         ]
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 52,
-        "end": 63,
-        "decorators": [],
-        "name": "IHandlerMap",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ClassDeclaration",
       "start": 99,
       "end": 139,
-      "abstract": false,
+      "id": {
+        "type": "Identifier",
+        "start": 105,
+        "end": 108,
+        "name": "Foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "superClass": null,
       "body": {
         "type": "ClassBody",
         "start": 109,
@@ -142,27 +151,27 @@ __ESTREE_TEST__:PASS:
             "type": "MethodDefinition",
             "start": 115,
             "end": 137,
-            "accessibility": "public",
+            "static": false,
             "computed": false,
-            "decorators": [],
             "key": {
               "type": "Identifier",
               "start": 122,
               "end": 125,
-              "decorators": [],
               "name": "Boz",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
             "kind": "method",
-            "optional": false,
-            "override": false,
-            "static": false,
             "value": {
               "type": "FunctionExpression",
               "start": 125,
               "end": 137,
+              "id": null,
+              "expression": false,
+              "generator": false,
               "async": false,
+              "params": [],
               "body": {
                 "type": "BlockStatement",
                 "start": 134,
@@ -170,10 +179,7 @@ __ESTREE_TEST__:PASS:
                 "body": []
               },
               "declare": false,
-              "expression": false,
-              "generator": false,
-              "id": null,
-              "params": [],
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 127,
@@ -183,59 +189,44 @@ __ESTREE_TEST__:PASS:
                   "start": 129,
                   "end": 133
                 }
-              },
-              "typeParameters": null
-            }
+              }
+            },
+            "decorators": [],
+            "override": false,
+            "optional": false,
+            "accessibility": "public"
           }
         ]
       },
-      "declare": false,
       "decorators": [],
-      "id": {
-        "type": "Identifier",
-        "start": 105,
-        "end": 108,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
+      "typeParameters": null,
       "implements": [],
-      "superClass": null,
-      "superTypeArguments": null,
-      "typeParameters": null
+      "abstract": false,
+      "declare": false,
+      "superTypeArguments": null
     },
     {
       "type": "FunctionDeclaration",
       "start": 141,
       "end": 175,
-      "async": false,
-      "body": {
-        "type": "BlockStatement",
-        "start": 172,
-        "end": 175,
-        "body": []
-      },
-      "declare": false,
-      "expression": false,
-      "generator": false,
       "id": {
         "type": "Identifier",
         "start": 150,
         "end": 153,
-        "decorators": [],
         "name": "Biz",
-        "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
       },
+      "expression": false,
+      "generator": false,
+      "async": false,
       "params": [
         {
           "type": "Identifier",
           "start": 154,
           "end": 170,
-          "decorators": [],
           "name": "map",
-          "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
             "start": 157,
@@ -244,62 +235,71 @@ __ESTREE_TEST__:PASS:
               "type": "TSTypeReference",
               "start": 159,
               "end": 170,
-              "typeArguments": null,
               "typeName": {
                 "type": "Identifier",
                 "start": 159,
                 "end": 170,
-                "decorators": [],
                 "name": "IHandlerMap",
-                "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "typeArguments": null
             }
-          }
+          },
+          "decorators": [],
+          "optional": false
         }
       ],
-      "returnType": null,
-      "typeParameters": null
+      "body": {
+        "type": "BlockStatement",
+        "start": 172,
+        "end": 175,
+        "body": []
+      },
+      "declare": false,
+      "typeParameters": null,
+      "returnType": null
     },
     {
       "type": "ExpressionStatement",
       "start": 177,
       "end": 192,
-      "directive": null,
       "expression": {
         "type": "CallExpression",
         "start": 177,
         "end": 191,
+        "callee": {
+          "type": "Identifier",
+          "start": 177,
+          "end": 180,
+          "name": "Biz",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "arguments": [
           {
             "type": "NewExpression",
             "start": 181,
             "end": 190,
-            "arguments": [],
             "callee": {
               "type": "Identifier",
               "start": 185,
               "end": 188,
-              "decorators": [],
               "name": "Foo",
-              "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
             },
+            "arguments": [],
             "typeArguments": null
           }
         ],
-        "callee": {
-          "type": "Identifier",
-          "start": 177,
-          "end": 180,
-          "decorators": [],
-          "name": "Biz",
-          "optional": false,
-          "typeAnnotation": null
-        },
         "optional": false,
         "typeArguments": null
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

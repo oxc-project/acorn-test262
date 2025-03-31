@@ -13,7 +13,19 @@ __ESTREE_TEST__:PASS:
         "type": "FunctionDeclaration",
         "start": 15,
         "end": 33,
+        "id": {
+          "type": "Identifier",
+          "start": 24,
+          "end": 27,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "expression": false,
+        "generator": false,
         "async": false,
+        "params": [],
         "body": {
           "type": "BlockStatement",
           "start": 30,
@@ -21,20 +33,8 @@ __ESTREE_TEST__:PASS:
           "body": []
         },
         "declare": false,
-        "expression": false,
-        "generator": false,
-        "id": {
-          "type": "Identifier",
-          "start": 24,
-          "end": 27,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "params": [],
-        "returnType": null,
-        "typeParameters": null
+        "typeParameters": null,
+        "returnType": null
       },
       "exportKind": "value"
     },
@@ -42,6 +42,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 35,
       "end": 70,
+      "id": {
+        "type": "Identifier",
+        "start": 45,
+        "end": 48,
+        "name": "Foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 49,
@@ -51,7 +60,6 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 55,
             "end": 68,
-            "attributes": [],
             "declaration": {
               "type": "VariableDeclaration",
               "start": 62,
@@ -61,95 +69,87 @@ __ESTREE_TEST__:PASS:
                   "type": "VariableDeclarator",
                   "start": 66,
                   "end": 67,
-                  "definite": false,
                   "id": {
                     "type": "Identifier",
                     "start": 66,
                     "end": 67,
-                    "decorators": [],
                     "name": "x",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "decorators": [],
+                    "optional": false
                   },
-                  "init": null
+                  "init": null,
+                  "definite": false
                 }
               ],
-              "declare": false,
-              "kind": "var"
+              "kind": "var",
+              "declare": false
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "namespace",
       "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 45,
-        "end": 48,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "namespace"
+      "global": false
     },
     {
       "type": "TSInterfaceDeclaration",
       "start": 72,
       "end": 89,
+      "id": {
+        "type": "Identifier",
+        "start": 82,
+        "end": 85,
+        "name": "Foo",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
+      "extends": [],
+      "typeParameters": null,
       "body": {
         "type": "TSInterfaceBody",
         "start": 86,
         "end": 89,
         "body": []
       },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 82,
-        "end": 85,
-        "decorators": [],
-        "name": "Foo",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "typeParameters": null
+      "declare": false
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 91,
       "end": 115,
-      "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
         "start": 98,
         "end": 115,
+        "id": {
+          "type": "Identifier",
+          "start": 108,
+          "end": 111,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "extends": [],
+        "typeParameters": null,
         "body": {
           "type": "TSInterfaceBody",
           "start": 112,
           "end": 115,
           "body": []
         },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 108,
-          "end": 111,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "typeParameters": null
+        "declare": false
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "script",

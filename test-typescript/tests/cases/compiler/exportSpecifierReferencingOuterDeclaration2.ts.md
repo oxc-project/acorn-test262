@@ -9,6 +9,15 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 45,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "name": "X",
+        "typeAnnotation": null,
+        "decorators": [],
+        "optional": false
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 17,
@@ -18,48 +27,39 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 19,
             "end": 43,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 26,
               "end": 43,
+              "id": {
+                "type": "Identifier",
+                "start": 36,
+                "end": 39,
+                "name": "bar",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "extends": [],
+              "typeParameters": null,
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 40,
                 "end": 43,
                 "body": []
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 36,
-                "end": 39,
-                "decorators": [],
-                "name": "bar",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 15,
-        "end": 16,
-        "decorators": [],
-        "name": "X",
-        "optional": false,
-        "typeAnnotation": null
-      },
-      "kind": "module"
+      "global": false
     }
   ],
   "sourceType": "module",
@@ -77,61 +77,61 @@ __ESTREE_TEST__:PASS:
       "type": "ExportNamedDeclaration",
       "start": 0,
       "end": 13,
-      "attributes": [],
       "declaration": null,
-      "exportKind": "value",
-      "source": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
           "start": 9,
           "end": 10,
-          "exported": {
-            "type": "Identifier",
-            "start": 9,
-            "end": 10,
-            "decorators": [],
-            "name": "X",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "exportKind": "value",
           "local": {
             "type": "Identifier",
             "start": 9,
             "end": 10,
-            "decorators": [],
             "name": "X",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "name": "X",
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
+          },
+          "exportKind": "value"
         }
-      ]
+      ],
+      "source": null,
+      "attributes": [],
+      "exportKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 14,
       "end": 51,
-      "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
         "start": 21,
         "end": 51,
-        "async": false,
-        "body": null,
-        "declare": true,
-        "expression": false,
-        "generator": false,
         "id": {
           "type": "Identifier",
           "start": 38,
           "end": 41,
-          "decorators": [],
           "name": "foo",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
+        "expression": false,
+        "generator": false,
+        "async": false,
         "params": [],
+        "body": null,
+        "declare": true,
+        "typeParameters": null,
         "returnType": {
           "type": "TSTypeAnnotation",
           "start": 43,
@@ -140,7 +140,6 @@ __ESTREE_TEST__:PASS:
             "type": "TSTypeReference",
             "start": 45,
             "end": 50,
-            "typeArguments": null,
             "typeName": {
               "type": "TSQualifiedName",
               "start": 45,
@@ -149,28 +148,29 @@ __ESTREE_TEST__:PASS:
                 "type": "Identifier",
                 "start": 45,
                 "end": 46,
-                "decorators": [],
                 "name": "X",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
                 "start": 47,
                 "end": 50,
-                "decorators": [],
                 "name": "bar",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               }
-            }
+            },
+            "typeArguments": null
           }
-        },
-        "typeParameters": null
+        }
       },
-      "exportKind": "type",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "type"
     }
   ],
   "sourceType": "module",

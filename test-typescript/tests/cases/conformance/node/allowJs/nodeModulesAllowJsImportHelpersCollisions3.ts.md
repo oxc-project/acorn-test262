@@ -9,22 +9,28 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 20,
-      "kind": "module",
-      "declare": true,
-      "global": false,
       "id": {
         "type": "Literal",
         "start": 15,
         "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+        "value": "fs",
+        "raw": "\"fs\""
+      },
+      "kind": "module",
+      "declare": true,
+      "global": false
     },
     {
       "type": "TSModuleDeclaration",
       "start": 21,
       "end": 103,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 36,
+        "end": 43,
+        "value": "tslib",
+        "raw": "\"tslib\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 44,
@@ -34,23 +40,17 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 50,
             "end": 60,
-            "attributes": [],
             "declaration": null,
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 36,
-        "end": 43,
-        "raw": "\"tslib\"",
-        "value": "tslib"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",

@@ -14,21 +14,32 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 28,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "v",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "FunctionExpression",
             "start": 8,
             "end": 28,
+            "id": {
+              "type": "Identifier",
+              "start": 19,
+              "end": 22,
+              "name": "foo",
+              "typeAnnotation": null,
+              "decorators": [],
+              "optional": false
+            },
+            "expression": false,
+            "generator": true,
             "async": false,
+            "params": [],
             "body": {
               "type": "BlockStatement",
               "start": 25,
@@ -36,25 +47,14 @@ __ESTREE_TEST__:PASS:
               "body": []
             },
             "declare": false,
-            "expression": false,
-            "generator": true,
-            "id": {
-              "type": "Identifier",
-              "start": 19,
-              "end": 22,
-              "decorators": [],
-              "name": "foo",
-              "optional": false,
-              "typeAnnotation": null
-            },
-            "params": [],
-            "returnType": null,
-            "typeParameters": null
-          }
+            "typeParameters": null,
+            "returnType": null
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     }
   ],
   "sourceType": "script",

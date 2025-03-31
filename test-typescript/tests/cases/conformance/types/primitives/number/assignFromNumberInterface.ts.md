@@ -14,27 +14,27 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 4,
           "end": 9,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 4,
             "end": 5,
-            "decorators": [],
             "name": "x",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           },
           "init": {
             "type": "Literal",
             "start": 8,
             "end": 9,
-            "raw": "1",
-            "value": 1
-          }
+            "value": 1,
+            "raw": "1"
+          },
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "VariableDeclaration",
@@ -45,14 +45,11 @@ __ESTREE_TEST__:PASS:
           "type": "VariableDeclarator",
           "start": 15,
           "end": 24,
-          "definite": false,
           "id": {
             "type": "Identifier",
             "start": 15,
             "end": 24,
-            "decorators": [],
             "name": "a",
-            "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
               "start": 16,
@@ -61,30 +58,32 @@ __ESTREE_TEST__:PASS:
                 "type": "TSTypeReference",
                 "start": 18,
                 "end": 24,
-                "typeArguments": null,
                 "typeName": {
                   "type": "Identifier",
                   "start": 18,
                   "end": 24,
-                  "decorators": [],
                   "name": "Number",
-                  "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "decorators": [],
+                  "optional": false
+                },
+                "typeArguments": null
               }
-            }
+            },
+            "decorators": [],
+            "optional": false
           },
-          "init": null
+          "init": null,
+          "definite": false
         }
       ],
-      "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "declare": false
     },
     {
       "type": "ExpressionStatement",
       "start": 26,
       "end": 32,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 26,
@@ -94,27 +93,27 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 26,
           "end": 27,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 30,
           "end": 31,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     },
     {
       "type": "ExpressionStatement",
       "start": 33,
       "end": 39,
-      "directive": null,
       "expression": {
         "type": "AssignmentExpression",
         "start": 33,
@@ -124,21 +123,22 @@ __ESTREE_TEST__:PASS:
           "type": "Identifier",
           "start": 33,
           "end": 34,
-          "decorators": [],
           "name": "a",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         },
         "right": {
           "type": "Identifier",
           "start": 37,
           "end": 38,
-          "decorators": [],
           "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
         }
-      }
+      },
+      "directive": null
     }
   ],
   "sourceType": "script",

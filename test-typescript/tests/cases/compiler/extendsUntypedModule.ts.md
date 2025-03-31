@@ -9,15 +9,6 @@ __ESTREE_TEST__:PASS:
       "type": "ImportDeclaration",
       "start": 0,
       "end": 22,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 16,
-        "end": 21,
-        "raw": "\"foo\"",
-        "value": "foo"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -27,27 +18,27 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 7,
             "end": 10,
-            "decorators": [],
             "name": "Foo",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 21,
+        "value": "foo",
+        "raw": "\"foo\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ImportDeclaration",
       "start": 23,
       "end": 45,
-      "attributes": [],
-      "importKind": "value",
-      "source": {
-        "type": "Literal",
-        "start": 39,
-        "end": 44,
-        "raw": "\"bar\"",
-        "value": "bar"
-      },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
@@ -57,57 +48,66 @@ __ESTREE_TEST__:PASS:
             "type": "Identifier",
             "start": 30,
             "end": 33,
-            "decorators": [],
             "name": "Bar",
-            "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "decorators": [],
+            "optional": false
           }
         }
-      ]
+      ],
+      "source": {
+        "type": "Literal",
+        "start": 39,
+        "end": 44,
+        "value": "bar",
+        "raw": "\"bar\""
+      },
+      "attributes": [],
+      "importKind": "value"
     },
     {
       "type": "ExportNamedDeclaration",
       "start": 63,
       "end": 93,
-      "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
         "start": 70,
         "end": 93,
-        "abstract": false,
+        "id": {
+          "type": "Identifier",
+          "start": 76,
+          "end": 77,
+          "name": "A",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
+        "superClass": {
+          "type": "Identifier",
+          "start": 86,
+          "end": 89,
+          "name": "Foo",
+          "typeAnnotation": null,
+          "decorators": [],
+          "optional": false
+        },
         "body": {
           "type": "ClassBody",
           "start": 90,
           "end": 93,
           "body": []
         },
-        "declare": false,
         "decorators": [],
-        "id": {
-          "type": "Identifier",
-          "start": 76,
-          "end": 77,
-          "decorators": [],
-          "name": "A",
-          "optional": false,
-          "typeAnnotation": null
-        },
+        "typeParameters": null,
         "implements": [],
-        "superClass": {
-          "type": "Identifier",
-          "start": 86,
-          "end": 89,
-          "decorators": [],
-          "name": "Foo",
-          "optional": false,
-          "typeAnnotation": null
-        },
-        "superTypeArguments": null,
-        "typeParameters": null
+        "abstract": false,
+        "declare": false,
+        "superTypeArguments": null
       },
-      "exportKind": "value",
+      "specifiers": [],
       "source": null,
-      "specifiers": []
+      "attributes": [],
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",

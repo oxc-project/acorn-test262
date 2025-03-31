@@ -9,7 +9,13 @@ __ESTREE_TEST__:PASS:
       "type": "TSModuleDeclaration",
       "start": 0,
       "end": 181,
-      "kind": "module",
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 19,
+        "value": "fs",
+        "raw": "\"fs\""
+      },
       "body": {
         "type": "TSModuleBlock",
         "start": 20,
@@ -19,65 +25,60 @@ __ESTREE_TEST__:PASS:
             "type": "ExportNamedDeclaration",
             "start": 24,
             "end": 60,
-            "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
               "start": 31,
               "end": 60,
+              "id": {
+                "type": "Identifier",
+                "start": 41,
+                "end": 57,
+                "name": "WriteFileOptions",
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
+              },
+              "extends": [],
+              "typeParameters": null,
               "body": {
                 "type": "TSInterfaceBody",
                 "start": 58,
                 "end": 60,
                 "body": []
               },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 41,
-                "end": 57,
-                "decorators": [],
-                "name": "WriteFileOptions",
-                "optional": false,
-                "typeAnnotation": null
-              },
-              "typeParameters": null
+              "declare": false
             },
-            "exportKind": "type",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "type"
           },
           {
             "type": "ExportNamedDeclaration",
             "start": 63,
             "end": 179,
-            "attributes": [],
             "declaration": {
               "type": "TSDeclareFunction",
               "start": 70,
               "end": 179,
-              "async": false,
-              "body": null,
-              "declare": false,
-              "expression": false,
-              "generator": false,
               "id": {
                 "type": "Identifier",
                 "start": 79,
                 "end": 88,
-                "decorators": [],
                 "name": "writeFile",
-                "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "decorators": [],
+                "optional": false
               },
+              "expression": false,
+              "generator": false,
+              "async": false,
               "params": [
                 {
                   "type": "Identifier",
                   "start": 89,
                   "end": 101,
-                  "decorators": [],
                   "name": "path",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 93,
@@ -87,15 +88,15 @@ __ESTREE_TEST__:PASS:
                       "start": 95,
                       "end": 101
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 103,
                   "end": 112,
-                  "decorators": [],
                   "name": "data",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 107,
@@ -105,15 +106,15 @@ __ESTREE_TEST__:PASS:
                       "start": 109,
                       "end": 112
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 114,
                   "end": 139,
-                  "decorators": [],
                   "name": "options",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 121,
@@ -122,26 +123,26 @@ __ESTREE_TEST__:PASS:
                       "type": "TSTypeReference",
                       "start": 123,
                       "end": 139,
-                      "typeArguments": null,
                       "typeName": {
                         "type": "Identifier",
                         "start": 123,
                         "end": 139,
-                        "decorators": [],
                         "name": "WriteFileOptions",
-                        "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "decorators": [],
+                        "optional": false
+                      },
+                      "typeArguments": null
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 },
                 {
                   "type": "Identifier",
                   "start": 141,
                   "end": 171,
-                  "decorators": [],
                   "name": "callback",
-                  "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
                     "start": 149,
@@ -150,14 +151,13 @@ __ESTREE_TEST__:PASS:
                       "type": "TSFunctionType",
                       "start": 151,
                       "end": 171,
+                      "typeParameters": null,
                       "params": [
                         {
                           "type": "Identifier",
                           "start": 152,
                           "end": 162,
-                          "decorators": [],
                           "name": "err",
-                          "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
                             "start": 155,
@@ -166,18 +166,20 @@ __ESTREE_TEST__:PASS:
                               "type": "TSTypeReference",
                               "start": 157,
                               "end": 162,
-                              "typeArguments": null,
                               "typeName": {
                                 "type": "Identifier",
                                 "start": 157,
                                 "end": 162,
-                                "decorators": [],
                                 "name": "Error",
-                                "optional": false,
-                                "typeAnnotation": null
-                              }
+                                "typeAnnotation": null,
+                                "decorators": [],
+                                "optional": false
+                              },
+                              "typeArguments": null
                             }
-                          }
+                          },
+                          "decorators": [],
+                          "optional": false
                         }
                       ],
                       "returnType": {
@@ -189,12 +191,16 @@ __ESTREE_TEST__:PASS:
                           "start": 167,
                           "end": 171
                         }
-                      },
-                      "typeParameters": null
+                      }
                     }
-                  }
+                  },
+                  "decorators": [],
+                  "optional": false
                 }
               ],
+              "body": null,
+              "declare": false,
+              "typeParameters": null,
               "returnType": {
                 "type": "TSTypeAnnotation",
                 "start": 172,
@@ -204,24 +210,18 @@ __ESTREE_TEST__:PASS:
                   "start": 174,
                   "end": 178
                 }
-              },
-              "typeParameters": null
+              }
             },
-            "exportKind": "value",
+            "specifiers": [],
             "source": null,
-            "specifiers": []
+            "attributes": [],
+            "exportKind": "value"
           }
         ]
       },
+      "kind": "module",
       "declare": true,
-      "global": false,
-      "id": {
-        "type": "Literal",
-        "start": 15,
-        "end": 19,
-        "raw": "\"fs\"",
-        "value": "fs"
-      }
+      "global": false
     }
   ],
   "sourceType": "module",
