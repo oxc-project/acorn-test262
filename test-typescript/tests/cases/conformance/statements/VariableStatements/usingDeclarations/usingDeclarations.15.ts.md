@@ -101,7 +101,7 @@ __ESTREE_TEST__:PASS:
       "kind": "using"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

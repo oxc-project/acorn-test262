@@ -278,7 +278,7 @@ __ESTREE_TEST__:PASS:
       "end": 187
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

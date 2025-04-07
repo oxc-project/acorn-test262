@@ -1597,7 +1597,7 @@ __ESTREE_TEST__:PASS:
       "kind": "namespace"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

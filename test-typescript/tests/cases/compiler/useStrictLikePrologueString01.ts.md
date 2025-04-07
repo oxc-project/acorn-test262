@@ -68,7 +68,7 @@ __ESTREE_TEST__:PASS:
       "specifiers": []
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

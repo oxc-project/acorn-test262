@@ -3206,7 +3206,7 @@ __ESTREE_TEST__:PASS:
       "typeParameters": null
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

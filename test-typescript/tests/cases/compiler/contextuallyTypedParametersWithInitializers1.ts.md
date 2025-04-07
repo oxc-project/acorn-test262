@@ -4966,7 +4966,7 @@ __ESTREE_TEST__:PASS:
       "kind": "const"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```
