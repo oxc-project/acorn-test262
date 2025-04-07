@@ -194,7 +194,7 @@ __ESTREE_TEST__:PASS:
       "update": null
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

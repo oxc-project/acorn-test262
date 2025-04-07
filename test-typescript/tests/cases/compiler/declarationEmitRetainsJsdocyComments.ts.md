@@ -481,7 +481,7 @@ __ESTREE_TEST__:PASS:
       "kind": "global"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

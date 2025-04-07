@@ -292,7 +292,7 @@ __ESTREE_TEST__:PASS:
       "kind": "let"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

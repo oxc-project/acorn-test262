@@ -21,7 +21,7 @@ __ESTREE_TEST__:PASS:
       "exportKind": "value"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```

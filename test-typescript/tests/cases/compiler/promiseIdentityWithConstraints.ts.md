@@ -792,7 +792,7 @@ __ESTREE_TEST__:PASS:
       "kind": "var"
     }
   ],
-  "sourceType": "script",
+  "sourceType": "module",
   "hashbang": null
 }
 ```
